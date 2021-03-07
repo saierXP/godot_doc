@@ -1,0 +1,217 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_editorfilesystem.rst:10
+msgid "EditorFileSystem"
+msgstr ""
+
+#: ../../docs/classes/class_editorfilesystem.rst:12
+msgid "**Inherits:** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_editorfilesystem.rst:14
+msgid "Resource filesystem, as the editor sees it."
+msgstr ""
+
+#: ../../docs/classes/class_editorfilesystem.rst:17
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_editorfilesystem.rst:19
+msgid "This object holds information of all resources in the filesystem, their types, etc."
+msgstr ""
+
+#: ../../docs/classes/class_editorfilesystem.rst:21
+msgid "**Note:** This class shouldn't be instantiated directly. Instead, access the singleton using :ref:`EditorInterface.get_resource_filesystem<class_EditorInterface_method_get_resource_filesystem>`."
+msgstr ""
+
+#: ../../docs/classes/class_editorfilesystem.rst:24
+msgid "Methods"
+msgstr ""
+
+#: ../../docs/classes/class_editorfilesystem.rst:27
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../../docs/classes/class_editorfilesystem.rst:27
+msgid ":ref:`get_file_type<class_EditorFileSystem_method_get_file_type>` **(** :ref:`String<class_String>` path **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_editorfilesystem.rst:29
+#: ../../docs/classes/class_editorfilesystem.rst:31
+msgid ":ref:`EditorFileSystemDirectory<class_EditorFileSystemDirectory>`"
+msgstr ""
+
+#: ../../docs/classes/class_editorfilesystem.rst:29
+msgid ":ref:`get_filesystem<class_EditorFileSystem_method_get_filesystem>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorfilesystem.rst:31
+msgid ":ref:`get_filesystem_path<class_EditorFileSystem_method_get_filesystem_path>` **(** :ref:`String<class_String>` path **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorfilesystem.rst:33
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../../docs/classes/class_editorfilesystem.rst:33
+msgid ":ref:`get_scanning_progress<class_EditorFileSystem_method_get_scanning_progress>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_editorfilesystem.rst:35
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_editorfilesystem.rst:35
+msgid ":ref:`is_scanning<class_EditorFileSystem_method_is_scanning>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_editorfilesystem.rst:37
+#: ../../docs/classes/class_editorfilesystem.rst:39
+#: ../../docs/classes/class_editorfilesystem.rst:41
+#: ../../docs/classes/class_editorfilesystem.rst:43
+msgid "void"
+msgstr ""
+
+#: ../../docs/classes/class_editorfilesystem.rst:37
+msgid ":ref:`scan<class_EditorFileSystem_method_scan>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorfilesystem.rst:39
+msgid ":ref:`scan_sources<class_EditorFileSystem_method_scan_sources>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorfilesystem.rst:41
+msgid ":ref:`update_file<class_EditorFileSystem_method_update_file>` **(** :ref:`String<class_String>` path **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorfilesystem.rst:43
+msgid ":ref:`update_script_classes<class_EditorFileSystem_method_update_script_classes>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorfilesystem.rst:47
+msgid "Signals"
+msgstr ""
+
+#: ../../docs/classes/class_editorfilesystem.rst:51
+msgid "**filesystem_changed** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorfilesystem.rst:53
+msgid "Emitted if the filesystem changed."
+msgstr ""
+
+#: ../../docs/classes/class_editorfilesystem.rst:59
+msgid "**resources_reimported** **(** :ref:`PoolStringArray<class_PoolStringArray>` resources **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorfilesystem.rst:61
+msgid "Remitted if a resource is reimported."
+msgstr ""
+
+#: ../../docs/classes/class_editorfilesystem.rst:67
+msgid "**resources_reload** **(** :ref:`PoolStringArray<class_PoolStringArray>` resources **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorfilesystem.rst:69
+msgid "Emitted if at least one resource is reloaded when the filesystem is scanned."
+msgstr ""
+
+#: ../../docs/classes/class_editorfilesystem.rst:75
+msgid "**sources_changed** **(** :ref:`bool<class_bool>` exist **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorfilesystem.rst:77
+msgid "Emitted if the source of any imported file changed."
+msgstr ""
+
+#: ../../docs/classes/class_editorfilesystem.rst:80
+msgid "Method Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_editorfilesystem.rst:84
+msgid ":ref:`String<class_String>` **get_file_type** **(** :ref:`String<class_String>` path **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_editorfilesystem.rst:86
+msgid "Gets the type of the file, given the full path."
+msgstr ""
+
+#: ../../docs/classes/class_editorfilesystem.rst:92
+msgid ":ref:`EditorFileSystemDirectory<class_EditorFileSystemDirectory>` **get_filesystem** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorfilesystem.rst:94
+msgid "Gets the root directory object."
+msgstr ""
+
+#: ../../docs/classes/class_editorfilesystem.rst:100
+msgid ":ref:`EditorFileSystemDirectory<class_EditorFileSystemDirectory>` **get_filesystem_path** **(** :ref:`String<class_String>` path **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorfilesystem.rst:102
+msgid "Returns a view into the filesystem at ``path``."
+msgstr ""
+
+#: ../../docs/classes/class_editorfilesystem.rst:108
+msgid ":ref:`float<class_float>` **get_scanning_progress** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_editorfilesystem.rst:110
+msgid "Returns the scan progress for 0 to 1 if the FS is being scanned."
+msgstr ""
+
+#: ../../docs/classes/class_editorfilesystem.rst:116
+msgid ":ref:`bool<class_bool>` **is_scanning** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_editorfilesystem.rst:118
+msgid "Returns ``true`` of the filesystem is being scanned."
+msgstr ""
+
+#: ../../docs/classes/class_editorfilesystem.rst:124
+msgid "void **scan** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorfilesystem.rst:126
+msgid "Scan the filesystem for changes."
+msgstr ""
+
+#: ../../docs/classes/class_editorfilesystem.rst:132
+msgid "void **scan_sources** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorfilesystem.rst:134
+msgid "Check if the source of any imported resource changed."
+msgstr ""
+
+#: ../../docs/classes/class_editorfilesystem.rst:140
+msgid "void **update_file** **(** :ref:`String<class_String>` path **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorfilesystem.rst:142
+msgid "Update a file information. Call this if an external program (not Godot) modified the file."
+msgstr ""
+
+#: ../../docs/classes/class_editorfilesystem.rst:148
+msgid "void **update_script_classes** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorfilesystem.rst:150
+msgid "Scans the script files and updates the list of custom class names."
+msgstr ""

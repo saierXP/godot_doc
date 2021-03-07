@@ -1,0 +1,168 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_spotlight.rst:10
+msgid "SpotLight"
+msgstr ""
+
+#: ../../docs/classes/class_spotlight.rst:12
+msgid "**Inherits:** :ref:`Light<class_Light>` **<** :ref:`VisualInstance<class_VisualInstance>` **<** :ref:`Spatial<class_Spatial>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_spotlight.rst:14
+msgid "A spotlight, such as a reflector spotlight or a lantern."
+msgstr ""
+
+#: ../../docs/classes/class_spotlight.rst:17
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_spotlight.rst:19
+msgid "A Spotlight is a type of :ref:`Light<class_Light>` node that emits lights in a specific direction, in the shape of a cone. The light is attenuated through the distance. This attenuation can be configured by changing the energy, radius and attenuation parameters of :ref:`Light<class_Light>`."
+msgstr ""
+
+#: ../../docs/classes/class_spotlight.rst:21
+msgid "**Note:** By default, only 32 SpotLights may affect a single mesh *resource* at once. Consider splitting your level into several meshes to decrease the likelihood that more than 32 lights will affect the same mesh resource. Splitting the level mesh will also improve frustum culling effectiveness, leading to greater performance. If you need to use more lights per mesh, you can increase :ref:`ProjectSettings.rendering/limits/rendering/max_lights_per_object<class_ProjectSettings_property_rendering/limits/rendering/max_lights_per_object>` at the cost of shader compilation times."
+msgstr ""
+
+#: ../../docs/classes/class_spotlight.rst:24
+msgid "Tutorials"
+msgstr ""
+
+#: ../../docs/classes/class_spotlight.rst:26
+msgid ":doc:`../tutorials/3d/lights_and_shadows`"
+msgstr ""
+
+#: ../../docs/classes/class_spotlight.rst:28
+msgid "`https://godotengine.org/asset-library/asset/678 <https://godotengine.org/asset-library/asset/678>`_"
+msgstr ""
+
+#: ../../docs/classes/class_spotlight.rst:31
+msgid "Properties"
+msgstr ""
+
+#: ../../docs/classes/class_spotlight.rst:34
+#: ../../docs/classes/class_spotlight.rst:36
+#: ../../docs/classes/class_spotlight.rst:38
+#: ../../docs/classes/class_spotlight.rst:40
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../../docs/classes/class_spotlight.rst:34
+msgid ":ref:`spot_angle<class_SpotLight_property_spot_angle>`"
+msgstr ""
+
+#: ../../docs/classes/class_spotlight.rst:34
+#: ../../docs/classes/class_spotlight.rst:51
+msgid "``45.0``"
+msgstr ""
+
+#: ../../docs/classes/class_spotlight.rst:36
+msgid ":ref:`spot_angle_attenuation<class_SpotLight_property_spot_angle_attenuation>`"
+msgstr ""
+
+#: ../../docs/classes/class_spotlight.rst:36
+#: ../../docs/classes/class_spotlight.rst:38
+#: ../../docs/classes/class_spotlight.rst:67
+#: ../../docs/classes/class_spotlight.rst:83
+msgid "``1.0``"
+msgstr ""
+
+#: ../../docs/classes/class_spotlight.rst:38
+msgid ":ref:`spot_attenuation<class_SpotLight_property_spot_attenuation>`"
+msgstr ""
+
+#: ../../docs/classes/class_spotlight.rst:40
+msgid ":ref:`spot_range<class_SpotLight_property_spot_range>`"
+msgstr ""
+
+#: ../../docs/classes/class_spotlight.rst:40
+#: ../../docs/classes/class_spotlight.rst:99
+msgid "``5.0``"
+msgstr ""
+
+#: ../../docs/classes/class_spotlight.rst:44
+msgid "Property Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_spotlight.rst:48
+msgid ":ref:`float<class_float>` **spot_angle**"
+msgstr ""
+
+#: ../../docs/classes/class_spotlight.rst:51
+#: ../../docs/classes/class_spotlight.rst:67
+#: ../../docs/classes/class_spotlight.rst:83
+#: ../../docs/classes/class_spotlight.rst:99
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_spotlight.rst:53
+#: ../../docs/classes/class_spotlight.rst:69
+#: ../../docs/classes/class_spotlight.rst:85
+#: ../../docs/classes/class_spotlight.rst:101
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_spotlight.rst:53
+#: ../../docs/classes/class_spotlight.rst:69
+#: ../../docs/classes/class_spotlight.rst:85
+#: ../../docs/classes/class_spotlight.rst:101
+msgid "set_param(value)"
+msgstr ""
+
+#: ../../docs/classes/class_spotlight.rst:55
+#: ../../docs/classes/class_spotlight.rst:71
+#: ../../docs/classes/class_spotlight.rst:87
+#: ../../docs/classes/class_spotlight.rst:103
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_spotlight.rst:55
+#: ../../docs/classes/class_spotlight.rst:71
+#: ../../docs/classes/class_spotlight.rst:87
+#: ../../docs/classes/class_spotlight.rst:103
+msgid "get_param()"
+msgstr ""
+
+#: ../../docs/classes/class_spotlight.rst:58
+msgid "The spotlight's angle in degrees."
+msgstr ""
+
+#: ../../docs/classes/class_spotlight.rst:64
+msgid ":ref:`float<class_float>` **spot_angle_attenuation**"
+msgstr ""
+
+#: ../../docs/classes/class_spotlight.rst:74
+msgid "The spotlight's angular attenuation curve."
+msgstr ""
+
+#: ../../docs/classes/class_spotlight.rst:80
+msgid ":ref:`float<class_float>` **spot_attenuation**"
+msgstr ""
+
+#: ../../docs/classes/class_spotlight.rst:90
+msgid "The spotlight's light energy attenuation curve."
+msgstr ""
+
+#: ../../docs/classes/class_spotlight.rst:96
+msgid ":ref:`float<class_float>` **spot_range**"
+msgstr ""
+
+#: ../../docs/classes/class_spotlight.rst:106
+msgid "The maximal range that can be reached by the spotlight. Note that the effectively lit area may appear to be smaller depending on the :ref:`spot_attenuation<class_SpotLight_property_spot_attenuation>` in use. No matter the :ref:`spot_attenuation<class_SpotLight_property_spot_attenuation>` in use, the light will never reach anything outside this range."
+msgstr ""

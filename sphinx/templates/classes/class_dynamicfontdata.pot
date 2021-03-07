@@ -1,0 +1,178 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_dynamicfontdata.rst:10
+msgid "DynamicFontData"
+msgstr ""
+
+#: ../../docs/classes/class_dynamicfontdata.rst:12
+msgid "**Inherits:** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_dynamicfontdata.rst:14
+msgid "Used with :ref:`DynamicFont<class_DynamicFont>` to describe the location of a font file."
+msgstr ""
+
+#: ../../docs/classes/class_dynamicfontdata.rst:17
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_dynamicfontdata.rst:19
+msgid "Used with :ref:`DynamicFont<class_DynamicFont>` to describe the location of a vector font file for dynamic rendering at runtime."
+msgstr ""
+
+#: ../../docs/classes/class_dynamicfontdata.rst:22
+msgid "Tutorials"
+msgstr ""
+
+#: ../../docs/classes/class_dynamicfontdata.rst:24
+msgid "`https://godotengine.org/asset-library/asset/676 <https://godotengine.org/asset-library/asset/676>`_"
+msgstr ""
+
+#: ../../docs/classes/class_dynamicfontdata.rst:27
+msgid "Properties"
+msgstr ""
+
+#: ../../docs/classes/class_dynamicfontdata.rst:30
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_dynamicfontdata.rst:30
+msgid ":ref:`antialiased<class_DynamicFontData_property_antialiased>`"
+msgstr ""
+
+#: ../../docs/classes/class_dynamicfontdata.rst:30
+#: ../../docs/classes/class_dynamicfontdata.rst:64
+msgid "``true``"
+msgstr ""
+
+#: ../../docs/classes/class_dynamicfontdata.rst:32
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../../docs/classes/class_dynamicfontdata.rst:32
+msgid ":ref:`font_path<class_DynamicFontData_property_font_path>`"
+msgstr ""
+
+#: ../../docs/classes/class_dynamicfontdata.rst:32
+#: ../../docs/classes/class_dynamicfontdata.rst:80
+msgid "``\"\"``"
+msgstr ""
+
+#: ../../docs/classes/class_dynamicfontdata.rst:34
+msgid ":ref:`Hinting<enum_DynamicFontData_Hinting>`"
+msgstr ""
+
+#: ../../docs/classes/class_dynamicfontdata.rst:34
+msgid ":ref:`hinting<class_DynamicFontData_property_hinting>`"
+msgstr ""
+
+#: ../../docs/classes/class_dynamicfontdata.rst:34
+#: ../../docs/classes/class_dynamicfontdata.rst:96
+msgid "``2``"
+msgstr ""
+
+#: ../../docs/classes/class_dynamicfontdata.rst:38
+msgid "Enumerations"
+msgstr ""
+
+#: ../../docs/classes/class_dynamicfontdata.rst:48
+msgid "enum **Hinting**:"
+msgstr ""
+
+#: ../../docs/classes/class_dynamicfontdata.rst:50
+msgid "**HINTING_NONE** = **0** --- Disables font hinting (smoother but less crisp)."
+msgstr ""
+
+#: ../../docs/classes/class_dynamicfontdata.rst:52
+msgid "**HINTING_LIGHT** = **1** --- Use the light font hinting mode."
+msgstr ""
+
+#: ../../docs/classes/class_dynamicfontdata.rst:54
+msgid "**HINTING_NORMAL** = **2** --- Use the default font hinting mode (crisper but less smooth)."
+msgstr ""
+
+#: ../../docs/classes/class_dynamicfontdata.rst:57
+msgid "Property Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_dynamicfontdata.rst:61
+msgid ":ref:`bool<class_bool>` **antialiased**"
+msgstr ""
+
+#: ../../docs/classes/class_dynamicfontdata.rst:64
+#: ../../docs/classes/class_dynamicfontdata.rst:80
+#: ../../docs/classes/class_dynamicfontdata.rst:96
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_dynamicfontdata.rst:66
+#: ../../docs/classes/class_dynamicfontdata.rst:82
+#: ../../docs/classes/class_dynamicfontdata.rst:98
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_dynamicfontdata.rst:66
+msgid "set_antialiased(value)"
+msgstr ""
+
+#: ../../docs/classes/class_dynamicfontdata.rst:68
+#: ../../docs/classes/class_dynamicfontdata.rst:84
+#: ../../docs/classes/class_dynamicfontdata.rst:100
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_dynamicfontdata.rst:68
+msgid "is_antialiased()"
+msgstr ""
+
+#: ../../docs/classes/class_dynamicfontdata.rst:71
+msgid "If ``true``, the font is rendered with anti-aliasing. This property applies both to the main font and its outline (if it has one)."
+msgstr ""
+
+#: ../../docs/classes/class_dynamicfontdata.rst:77
+msgid ":ref:`String<class_String>` **font_path**"
+msgstr ""
+
+#: ../../docs/classes/class_dynamicfontdata.rst:82
+msgid "set_font_path(value)"
+msgstr ""
+
+#: ../../docs/classes/class_dynamicfontdata.rst:84
+msgid "get_font_path()"
+msgstr ""
+
+#: ../../docs/classes/class_dynamicfontdata.rst:87
+msgid "The path to the vector font file."
+msgstr ""
+
+#: ../../docs/classes/class_dynamicfontdata.rst:93
+msgid ":ref:`Hinting<enum_DynamicFontData_Hinting>` **hinting**"
+msgstr ""
+
+#: ../../docs/classes/class_dynamicfontdata.rst:98
+msgid "set_hinting(value)"
+msgstr ""
+
+#: ../../docs/classes/class_dynamicfontdata.rst:100
+msgid "get_hinting()"
+msgstr ""
+
+#: ../../docs/classes/class_dynamicfontdata.rst:103
+msgid "The font hinting mode used by FreeType. See :ref:`Hinting<enum_DynamicFontData_Hinting>` for options."
+msgstr ""

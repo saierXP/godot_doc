@@ -1,0 +1,294 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_pathfollow.rst:10
+msgid "PathFollow"
+msgstr ""
+
+#: ../../docs/classes/class_pathfollow.rst:12
+msgid "**Inherits:** :ref:`Spatial<class_Spatial>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_pathfollow.rst:14
+msgid "Point sampler for a :ref:`Path<class_Path>`."
+msgstr ""
+
+#: ../../docs/classes/class_pathfollow.rst:17
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_pathfollow.rst:19
+msgid "This node takes its parent :ref:`Path<class_Path>`, and returns the coordinates of a point within it, given a distance from the first vertex."
+msgstr ""
+
+#: ../../docs/classes/class_pathfollow.rst:21
+msgid "It is useful for making other nodes follow a path, without coding the movement pattern. For that, the nodes must be children of this node. The descendant nodes will then move accordingly when setting an offset in this node."
+msgstr ""
+
+#: ../../docs/classes/class_pathfollow.rst:24
+msgid "Properties"
+msgstr ""
+
+#: ../../docs/classes/class_pathfollow.rst:27
+#: ../../docs/classes/class_pathfollow.rst:31
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_pathfollow.rst:27
+msgid ":ref:`cubic_interp<class_PathFollow_property_cubic_interp>`"
+msgstr ""
+
+#: ../../docs/classes/class_pathfollow.rst:27
+#: ../../docs/classes/class_pathfollow.rst:31
+#: ../../docs/classes/class_pathfollow.rst:77
+#: ../../docs/classes/class_pathfollow.rst:113
+msgid "``true``"
+msgstr ""
+
+#: ../../docs/classes/class_pathfollow.rst:29
+#: ../../docs/classes/class_pathfollow.rst:33
+#: ../../docs/classes/class_pathfollow.rst:37
+#: ../../docs/classes/class_pathfollow.rst:39
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../../docs/classes/class_pathfollow.rst:29
+msgid ":ref:`h_offset<class_PathFollow_property_h_offset>`"
+msgstr ""
+
+#: ../../docs/classes/class_pathfollow.rst:29
+#: ../../docs/classes/class_pathfollow.rst:33
+#: ../../docs/classes/class_pathfollow.rst:37
+#: ../../docs/classes/class_pathfollow.rst:39
+#: ../../docs/classes/class_pathfollow.rst:97
+#: ../../docs/classes/class_pathfollow.rst:129
+#: ../../docs/classes/class_pathfollow.rst:161
+#: ../../docs/classes/class_pathfollow.rst:177
+msgid "``0.0``"
+msgstr ""
+
+#: ../../docs/classes/class_pathfollow.rst:31
+msgid ":ref:`loop<class_PathFollow_property_loop>`"
+msgstr ""
+
+#: ../../docs/classes/class_pathfollow.rst:33
+msgid ":ref:`offset<class_PathFollow_property_offset>`"
+msgstr ""
+
+#: ../../docs/classes/class_pathfollow.rst:35
+msgid ":ref:`RotationMode<enum_PathFollow_RotationMode>`"
+msgstr ""
+
+#: ../../docs/classes/class_pathfollow.rst:35
+msgid ":ref:`rotation_mode<class_PathFollow_property_rotation_mode>`"
+msgstr ""
+
+#: ../../docs/classes/class_pathfollow.rst:35
+#: ../../docs/classes/class_pathfollow.rst:145
+msgid "``3``"
+msgstr ""
+
+#: ../../docs/classes/class_pathfollow.rst:37
+msgid ":ref:`unit_offset<class_PathFollow_property_unit_offset>`"
+msgstr ""
+
+#: ../../docs/classes/class_pathfollow.rst:39
+msgid ":ref:`v_offset<class_PathFollow_property_v_offset>`"
+msgstr ""
+
+#: ../../docs/classes/class_pathfollow.rst:43
+msgid "Enumerations"
+msgstr ""
+
+#: ../../docs/classes/class_pathfollow.rst:57
+msgid "enum **RotationMode**:"
+msgstr ""
+
+#: ../../docs/classes/class_pathfollow.rst:59
+msgid "**ROTATION_NONE** = **0** --- Forbids the PathFollow to rotate."
+msgstr ""
+
+#: ../../docs/classes/class_pathfollow.rst:61
+msgid "**ROTATION_Y** = **1** --- Allows the PathFollow to rotate in the Y axis only."
+msgstr ""
+
+#: ../../docs/classes/class_pathfollow.rst:63
+msgid "**ROTATION_XY** = **2** --- Allows the PathFollow to rotate in both the X, and Y axes."
+msgstr ""
+
+#: ../../docs/classes/class_pathfollow.rst:65
+msgid "**ROTATION_XYZ** = **3** --- Allows the PathFollow to rotate in any axis."
+msgstr ""
+
+#: ../../docs/classes/class_pathfollow.rst:67
+msgid "**ROTATION_ORIENTED** = **4** --- Uses the up vector information in a :ref:`Curve3D<class_Curve3D>` to enforce orientation. This rotation mode requires the :ref:`Path<class_Path>`'s :ref:`Curve3D.up_vector_enabled<class_Curve3D_property_up_vector_enabled>` property to be set to ``true``."
+msgstr ""
+
+#: ../../docs/classes/class_pathfollow.rst:70
+msgid "Property Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_pathfollow.rst:74
+msgid ":ref:`bool<class_bool>` **cubic_interp**"
+msgstr ""
+
+#: ../../docs/classes/class_pathfollow.rst:77
+#: ../../docs/classes/class_pathfollow.rst:97
+#: ../../docs/classes/class_pathfollow.rst:113
+#: ../../docs/classes/class_pathfollow.rst:129
+#: ../../docs/classes/class_pathfollow.rst:145
+#: ../../docs/classes/class_pathfollow.rst:161
+#: ../../docs/classes/class_pathfollow.rst:177
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_pathfollow.rst:79
+#: ../../docs/classes/class_pathfollow.rst:99
+#: ../../docs/classes/class_pathfollow.rst:115
+#: ../../docs/classes/class_pathfollow.rst:131
+#: ../../docs/classes/class_pathfollow.rst:147
+#: ../../docs/classes/class_pathfollow.rst:163
+#: ../../docs/classes/class_pathfollow.rst:179
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_pathfollow.rst:79
+msgid "set_cubic_interpolation(value)"
+msgstr ""
+
+#: ../../docs/classes/class_pathfollow.rst:81
+#: ../../docs/classes/class_pathfollow.rst:101
+#: ../../docs/classes/class_pathfollow.rst:117
+#: ../../docs/classes/class_pathfollow.rst:133
+#: ../../docs/classes/class_pathfollow.rst:149
+#: ../../docs/classes/class_pathfollow.rst:165
+#: ../../docs/classes/class_pathfollow.rst:181
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_pathfollow.rst:81
+msgid "get_cubic_interpolation()"
+msgstr ""
+
+#: ../../docs/classes/class_pathfollow.rst:84
+msgid "If ``true``, the position between two cached points is interpolated cubically, and linearly otherwise."
+msgstr ""
+
+#: ../../docs/classes/class_pathfollow.rst:86
+msgid "The points along the :ref:`Curve3D<class_Curve3D>` of the :ref:`Path<class_Path>` are precomputed before use, for faster calculations. The point at the requested offset is then calculated interpolating between two adjacent cached points. This may present a problem if the curve makes sharp turns, as the cached points may not follow the curve closely enough."
+msgstr ""
+
+#: ../../docs/classes/class_pathfollow.rst:88
+msgid "There are two answers to this problem: either increase the number of cached points and increase memory consumption, or make a cubic interpolation between two points at the cost of (slightly) slower calculations."
+msgstr ""
+
+#: ../../docs/classes/class_pathfollow.rst:94
+msgid ":ref:`float<class_float>` **h_offset**"
+msgstr ""
+
+#: ../../docs/classes/class_pathfollow.rst:99
+msgid "set_h_offset(value)"
+msgstr ""
+
+#: ../../docs/classes/class_pathfollow.rst:101
+msgid "get_h_offset()"
+msgstr ""
+
+#: ../../docs/classes/class_pathfollow.rst:104
+msgid "The node's offset along the curve."
+msgstr ""
+
+#: ../../docs/classes/class_pathfollow.rst:110
+msgid ":ref:`bool<class_bool>` **loop**"
+msgstr ""
+
+#: ../../docs/classes/class_pathfollow.rst:115
+msgid "set_loop(value)"
+msgstr ""
+
+#: ../../docs/classes/class_pathfollow.rst:117
+msgid "has_loop()"
+msgstr ""
+
+#: ../../docs/classes/class_pathfollow.rst:120
+msgid "If ``true``, any offset outside the path's length will wrap around, instead of stopping at the ends. Use it for cyclic paths."
+msgstr ""
+
+#: ../../docs/classes/class_pathfollow.rst:126
+msgid ":ref:`float<class_float>` **offset**"
+msgstr ""
+
+#: ../../docs/classes/class_pathfollow.rst:131
+msgid "set_offset(value)"
+msgstr ""
+
+#: ../../docs/classes/class_pathfollow.rst:133
+msgid "get_offset()"
+msgstr ""
+
+#: ../../docs/classes/class_pathfollow.rst:136
+msgid "The distance from the first vertex, measured in 3D units along the path. This sets this node's position to a point within the path."
+msgstr ""
+
+#: ../../docs/classes/class_pathfollow.rst:142
+msgid ":ref:`RotationMode<enum_PathFollow_RotationMode>` **rotation_mode**"
+msgstr ""
+
+#: ../../docs/classes/class_pathfollow.rst:147
+msgid "set_rotation_mode(value)"
+msgstr ""
+
+#: ../../docs/classes/class_pathfollow.rst:149
+msgid "get_rotation_mode()"
+msgstr ""
+
+#: ../../docs/classes/class_pathfollow.rst:152
+msgid "Allows or forbids rotation on one or more axes, depending on the :ref:`RotationMode<enum_PathFollow_RotationMode>` constants being used."
+msgstr ""
+
+#: ../../docs/classes/class_pathfollow.rst:158
+msgid ":ref:`float<class_float>` **unit_offset**"
+msgstr ""
+
+#: ../../docs/classes/class_pathfollow.rst:163
+msgid "set_unit_offset(value)"
+msgstr ""
+
+#: ../../docs/classes/class_pathfollow.rst:165
+msgid "get_unit_offset()"
+msgstr ""
+
+#: ../../docs/classes/class_pathfollow.rst:168
+msgid "The distance from the first vertex, considering 0.0 as the first vertex and 1.0 as the last. This is just another way of expressing the offset within the path, as the offset supplied is multiplied internally by the path's length."
+msgstr ""
+
+#: ../../docs/classes/class_pathfollow.rst:174
+msgid ":ref:`float<class_float>` **v_offset**"
+msgstr ""
+
+#: ../../docs/classes/class_pathfollow.rst:179
+msgid "set_v_offset(value)"
+msgstr ""
+
+#: ../../docs/classes/class_pathfollow.rst:181
+msgid "get_v_offset()"
+msgstr ""
+
+#: ../../docs/classes/class_pathfollow.rst:184
+msgid "The node's offset perpendicular to the curve."
+msgstr ""

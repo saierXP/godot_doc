@@ -1,0 +1,860 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_object.rst:10
+msgid "Object"
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:12
+msgid "**Inherited By:** :ref:`ARVRPositionalTracker<class_ARVRPositionalTracker>`, :ref:`ARVRServer<class_ARVRServer>`, :ref:`AudioServer<class_AudioServer>`, :ref:`CameraServer<class_CameraServer>`, :ref:`ClassDB<class_ClassDB>`, :ref:`EditorFileSystemDirectory<class_EditorFileSystemDirectory>`, :ref:`EditorNavigationMeshGenerator<class_EditorNavigationMeshGenerator>`, :ref:`EditorSelection<class_EditorSelection>`, :ref:`EditorVCSInterface<class_EditorVCSInterface>`, :ref:`Engine<class_Engine>`, :ref:`Geometry<class_Geometry>`, :ref:`GodotSharp<class_GodotSharp>`, :ref:`IP<class_IP>`, :ref:`Input<class_Input>`, :ref:`InputMap<class_InputMap>`, :ref:`JNISingleton<class_JNISingleton>`, :ref:`JSON<class_JSON>`, :ref:`JSONRPC<class_JSONRPC>`, :ref:`JavaClassWrapper<class_JavaClassWrapper>`, :ref:`JavaScript<class_JavaScript>`, :ref:`MainLoop<class_MainLoop>`, :ref:`Marshalls<class_Marshalls>`, :ref:`Node<class_Node>`, :ref:`OS<class_OS>`, :ref:`Performance<class_Performance>`, :ref:`Physics2DDirectBodyState<class_Physics2DDirectBodyState>`, :ref:`Physics2DDirectSpaceState<class_Physics2DDirectSpaceState>`, :ref:`Physics2DServer<class_Physics2DServer>`, :ref:`PhysicsDirectBodyState<class_PhysicsDirectBodyState>`, :ref:`PhysicsDirectSpaceState<class_PhysicsDirectSpaceState>`, :ref:`PhysicsServer<class_PhysicsServer>`, :ref:`ProjectSettings<class_ProjectSettings>`, :ref:`Reference<class_Reference>`, :ref:`ResourceLoader<class_ResourceLoader>`, :ref:`ResourceSaver<class_ResourceSaver>`, :ref:`TranslationServer<class_TranslationServer>`, :ref:`TreeItem<class_TreeItem>`, :ref:`UndoRedo<class_UndoRedo>`, :ref:`VisualScriptEditor<class_VisualScriptEditor>`, :ref:`VisualServer<class_VisualServer>`"
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:14
+msgid "Base class for all non built-in types."
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:17
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:19
+msgid "Every class which is not a built-in type inherits from this class."
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:21
+msgid "You can construct Objects from scripting languages, using ``Object.new()`` in GDScript, ``new Object`` in C#, or the \"Construct Object\" node in VisualScript."
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:23
+msgid "Objects do not manage memory. If a class inherits from Object, you will have to delete instances of it manually. To do so, call the :ref:`free<class_Object_method_free>` method from your script or delete the instance from C++."
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:25
+msgid "Some classes that extend Object add memory management. This is the case of :ref:`Reference<class_Reference>`, which counts references and deletes itself automatically when no longer referenced. :ref:`Node<class_Node>`, another fundamental type, deletes all its children when freed from memory."
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:27
+msgid "Objects export properties, which are mainly useful for storage and editing, but not really so much in programming. Properties are exported in :ref:`_get_property_list<class_Object_method__get_property_list>` and handled in :ref:`_get<class_Object_method__get>` and :ref:`_set<class_Object_method__set>`. However, scripting languages and C++ have simpler means to export them."
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:29
+msgid "Property membership can be tested directly in GDScript using ``in``:"
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:37
+msgid "The ``in`` operator will evaluate to ``true`` as long as the key exists, even if the value is ``null``."
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:39
+msgid "Objects also receive notifications. Notifications are a simple way to notify the object about different events, so they can all be handled together. See :ref:`_notification<class_Object_method__notification>`."
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:41
+msgid "**Note:** Unlike references to a :ref:`Reference<class_Reference>`, references to an Object stored in a variable can become invalid without warning. Therefore, it's recommended to use :ref:`Reference<class_Reference>` for data classes instead of ``Object``."
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:44
+msgid "Tutorials"
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:46
+msgid ":doc:`../getting_started/workflow/best_practices/node_alternatives`"
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:49
+msgid "Methods"
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:52
+#: ../../docs/classes/class_object.rst:66
+#: ../../docs/classes/class_object.rst:70
+#: ../../docs/classes/class_object.rst:82
+#: ../../docs/classes/class_object.rst:88
+#: ../../docs/classes/class_object.rst:92
+msgid ":ref:`Variant<class_Variant>`"
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:52
+msgid ":ref:`_get<class_Object_method__get>` **(** :ref:`String<class_String>` property **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:54
+#: ../../docs/classes/class_object.rst:86
+#: ../../docs/classes/class_object.rst:96
+#: ../../docs/classes/class_object.rst:98
+#: ../../docs/classes/class_object.rst:102
+#: ../../docs/classes/class_object.rst:104
+msgid ":ref:`Array<class_Array>`"
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:54
+msgid ":ref:`_get_property_list<class_Object_method__get_property_list>` **(** **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:56
+#: ../../docs/classes/class_object.rst:58
+#: ../../docs/classes/class_object.rst:64
+#: ../../docs/classes/class_object.rst:68
+#: ../../docs/classes/class_object.rst:76
+#: ../../docs/classes/class_object.rst:78
+#: ../../docs/classes/class_object.rst:80
+#: ../../docs/classes/class_object.rst:122
+#: ../../docs/classes/class_object.rst:124
+#: ../../docs/classes/class_object.rst:126
+#: ../../docs/classes/class_object.rst:128
+#: ../../docs/classes/class_object.rst:130
+#: ../../docs/classes/class_object.rst:132
+#: ../../docs/classes/class_object.rst:134
+#: ../../docs/classes/class_object.rst:136
+#: ../../docs/classes/class_object.rst:138
+#: ../../docs/classes/class_object.rst:140
+msgid "void"
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:56
+msgid ":ref:`_init<class_Object_method__init>` **(** **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:58
+msgid ":ref:`_notification<class_Object_method__notification>` **(** :ref:`int<class_int>` what **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:60
+#: ../../docs/classes/class_object.rst:72
+#: ../../docs/classes/class_object.rst:106
+#: ../../docs/classes/class_object.rst:108
+#: ../../docs/classes/class_object.rst:110
+#: ../../docs/classes/class_object.rst:112
+#: ../../docs/classes/class_object.rst:114
+#: ../../docs/classes/class_object.rst:116
+#: ../../docs/classes/class_object.rst:118
+#: ../../docs/classes/class_object.rst:120
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:60
+msgid ":ref:`_set<class_Object_method__set>` **(** :ref:`String<class_String>` property, :ref:`Variant<class_Variant>` value **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:62
+#: ../../docs/classes/class_object.rst:84
+#: ../../docs/classes/class_object.rst:142
+#: ../../docs/classes/class_object.rst:144
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:62
+msgid ":ref:`_to_string<class_Object_method__to_string>` **(** **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:64
+msgid ":ref:`add_user_signal<class_Object_method_add_user_signal>` **(** :ref:`String<class_String>` signal, :ref:`Array<class_Array>` arguments=[  ] **)**"
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:66
+msgid ":ref:`call<class_Object_method_call>` **(** :ref:`String<class_String>` method, ... **)** |vararg|"
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:68
+msgid ":ref:`call_deferred<class_Object_method_call_deferred>` **(** :ref:`String<class_String>` method, ... **)** |vararg|"
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:70
+msgid ":ref:`callv<class_Object_method_callv>` **(** :ref:`String<class_String>` method, :ref:`Array<class_Array>` arg_array **)**"
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:72
+msgid ":ref:`can_translate_messages<class_Object_method_can_translate_messages>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:74
+msgid ":ref:`Error<enum_@GlobalScope_Error>`"
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:74
+msgid ":ref:`connect<class_Object_method_connect>` **(** :ref:`String<class_String>` signal, :ref:`Object<class_Object>` target, :ref:`String<class_String>` method, :ref:`Array<class_Array>` binds=[  ], :ref:`int<class_int>` flags=0 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:76
+msgid ":ref:`disconnect<class_Object_method_disconnect>` **(** :ref:`String<class_String>` signal, :ref:`Object<class_Object>` target, :ref:`String<class_String>` method **)**"
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:78
+msgid ":ref:`emit_signal<class_Object_method_emit_signal>` **(** :ref:`String<class_String>` signal, ... **)** |vararg|"
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:80
+msgid ":ref:`free<class_Object_method_free>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:82
+msgid ":ref:`get<class_Object_method_get>` **(** :ref:`String<class_String>` property **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:84
+msgid ":ref:`get_class<class_Object_method_get_class>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:86
+msgid ":ref:`get_incoming_connections<class_Object_method_get_incoming_connections>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:88
+msgid ":ref:`get_indexed<class_Object_method_get_indexed>` **(** :ref:`NodePath<class_NodePath>` property **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:90
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:90
+msgid ":ref:`get_instance_id<class_Object_method_get_instance_id>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:92
+msgid ":ref:`get_meta<class_Object_method_get_meta>` **(** :ref:`String<class_String>` name **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:94
+msgid ":ref:`PoolStringArray<class_PoolStringArray>`"
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:94
+msgid ":ref:`get_meta_list<class_Object_method_get_meta_list>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:96
+msgid ":ref:`get_method_list<class_Object_method_get_method_list>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:98
+msgid ":ref:`get_property_list<class_Object_method_get_property_list>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:100
+msgid ":ref:`Reference<class_Reference>`"
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:100
+msgid ":ref:`get_script<class_Object_method_get_script>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:102
+msgid ":ref:`get_signal_connection_list<class_Object_method_get_signal_connection_list>` **(** :ref:`String<class_String>` signal **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:104
+msgid ":ref:`get_signal_list<class_Object_method_get_signal_list>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:106
+msgid ":ref:`has_meta<class_Object_method_has_meta>` **(** :ref:`String<class_String>` name **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:108
+msgid ":ref:`has_method<class_Object_method_has_method>` **(** :ref:`String<class_String>` method **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:110
+msgid ":ref:`has_signal<class_Object_method_has_signal>` **(** :ref:`String<class_String>` signal **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:112
+msgid ":ref:`has_user_signal<class_Object_method_has_user_signal>` **(** :ref:`String<class_String>` signal **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:114
+msgid ":ref:`is_blocking_signals<class_Object_method_is_blocking_signals>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:116
+msgid ":ref:`is_class<class_Object_method_is_class>` **(** :ref:`String<class_String>` class **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:118
+msgid ":ref:`is_connected<class_Object_method_is_connected>` **(** :ref:`String<class_String>` signal, :ref:`Object<class_Object>` target, :ref:`String<class_String>` method **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:120
+msgid ":ref:`is_queued_for_deletion<class_Object_method_is_queued_for_deletion>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:122
+msgid ":ref:`notification<class_Object_method_notification>` **(** :ref:`int<class_int>` what, :ref:`bool<class_bool>` reversed=false **)**"
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:124
+msgid ":ref:`property_list_changed_notify<class_Object_method_property_list_changed_notify>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:126
+msgid ":ref:`remove_meta<class_Object_method_remove_meta>` **(** :ref:`String<class_String>` name **)**"
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:128
+msgid ":ref:`set<class_Object_method_set>` **(** :ref:`String<class_String>` property, :ref:`Variant<class_Variant>` value **)**"
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:130
+msgid ":ref:`set_block_signals<class_Object_method_set_block_signals>` **(** :ref:`bool<class_bool>` enable **)**"
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:132
+msgid ":ref:`set_deferred<class_Object_method_set_deferred>` **(** :ref:`String<class_String>` property, :ref:`Variant<class_Variant>` value **)**"
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:134
+msgid ":ref:`set_indexed<class_Object_method_set_indexed>` **(** :ref:`NodePath<class_NodePath>` property, :ref:`Variant<class_Variant>` value **)**"
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:136
+msgid ":ref:`set_message_translation<class_Object_method_set_message_translation>` **(** :ref:`bool<class_bool>` enable **)**"
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:138
+msgid ":ref:`set_meta<class_Object_method_set_meta>` **(** :ref:`String<class_String>` name, :ref:`Variant<class_Variant>` value **)**"
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:140
+msgid ":ref:`set_script<class_Object_method_set_script>` **(** :ref:`Reference<class_Reference>` script **)**"
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:142
+msgid ":ref:`to_string<class_Object_method_to_string>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:144
+msgid ":ref:`tr<class_Object_method_tr>` **(** :ref:`String<class_String>` message **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:148
+msgid "Signals"
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:152
+msgid "**script_changed** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:154
+msgid "Emitted whenever the object's script is changed."
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:157
+msgid "Enumerations"
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:169
+msgid "enum **ConnectFlags**:"
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:171
+msgid "**CONNECT_DEFERRED** = **1** --- Connects a signal in deferred mode. This way, signal emissions are stored in a queue, then set on idle time."
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:173
+msgid "**CONNECT_PERSIST** = **2** --- Persisting connections are saved when the object is serialized to file."
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:175
+msgid "**CONNECT_ONESHOT** = **4** --- One-shot connections disconnect themselves after emission."
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:177
+msgid "**CONNECT_REFERENCE_COUNTED** = **8** --- Connect a signal as reference-counted. This means that a given signal can be connected several times to the same target, and will only be fully disconnected once no references are left."
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:180
+msgid "Constants"
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:186
+msgid "**NOTIFICATION_POSTINITIALIZE** = **0** --- Called right when the object is initialized. Not available in script."
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:188
+msgid "**NOTIFICATION_PREDELETE** = **1** --- Called before the object is about to be deleted."
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:191
+msgid "Method Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:195
+msgid ":ref:`Variant<class_Variant>` **_get** **(** :ref:`String<class_String>` property **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:197
+msgid "Virtual method which can be overridden to customize the return value of :ref:`get<class_Object_method_get>`."
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:199
+msgid "Returns the given property. Returns ``null`` if the ``property`` does not exist."
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:205
+msgid ":ref:`Array<class_Array>` **_get_property_list** **(** **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:207
+msgid "Virtual method which can be overridden to customize the return value of :ref:`get_property_list<class_Object_method_get_property_list>`."
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:209
+#: ../../docs/classes/class_object.rst:447
+msgid "Returns the object's property list as an :ref:`Array<class_Array>` of dictionaries."
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:211
+msgid "Each property's :ref:`Dictionary<class_Dictionary>` must contain at least ``name: String`` and ``type: int`` (see :ref:`Variant.Type<enum_@GlobalScope_Variant.Type>`) entries. Optionally, it can also include ``hint: int`` (see :ref:`PropertyHint<enum_@GlobalScope_PropertyHint>`), ``hint_string: String``, and ``usage: int`` (see :ref:`PropertyUsageFlags<enum_@GlobalScope_PropertyUsageFlags>`)."
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:217
+msgid "void **_init** **(** **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:219
+msgid "Called when the object is initialized."
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:225
+msgid "void **_notification** **(** :ref:`int<class_int>` what **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:227
+msgid "Called whenever the object receives a notification, which is identified in ``what`` by a constant. The base ``Object`` has two constants :ref:`NOTIFICATION_POSTINITIALIZE<class_Object_constant_NOTIFICATION_POSTINITIALIZE>` and :ref:`NOTIFICATION_PREDELETE<class_Object_constant_NOTIFICATION_PREDELETE>`, but subclasses such as :ref:`Node<class_Node>` define a lot more notifications which are also received by this method."
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:233
+msgid ":ref:`bool<class_bool>` **_set** **(** :ref:`String<class_String>` property, :ref:`Variant<class_Variant>` value **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:235
+msgid "Virtual method which can be overridden to customize the return value of :ref:`set<class_Object_method_set>`."
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:237
+msgid "Sets a property. Returns ``true`` if the ``property`` exists."
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:243
+msgid ":ref:`String<class_String>` **_to_string** **(** **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:245
+msgid "Virtual method which can be overridden to customize the return value of :ref:`to_string<class_Object_method_to_string>`, and thus the object's representation where it is converted to a string, e.g. with ``print(obj)``."
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:247
+#: ../../docs/classes/class_object.rst:641
+msgid "Returns a :ref:`String<class_String>` representing the object. If not overridden, defaults to ``\"[ClassName:RID]\"``."
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:253
+msgid "void **add_user_signal** **(** :ref:`String<class_String>` signal, :ref:`Array<class_Array>` arguments=[  ] **)**"
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:255
+msgid "Adds a user-defined ``signal``. Arguments are optional, but can be added as an :ref:`Array<class_Array>` of dictionaries, each containing ``name: String`` and ``type: int`` (see :ref:`Variant.Type<enum_@GlobalScope_Variant.Type>`) entries."
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:261
+msgid ":ref:`Variant<class_Variant>` **call** **(** :ref:`String<class_String>` method, ... **)** |vararg|"
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:263
+msgid "Calls the ``method`` on the object and returns the result. This method supports a variable number of arguments, so parameters are passed as a comma separated list. Example:"
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:269
+#: ../../docs/classes/class_object.rst:283
+msgid "**Note:** In C#, the method name must be specified as snake_case if it is defined by a built-in Godot node. This doesn't apply to user-defined methods where you should use the same convention as in the C# source (typically PascalCase)."
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:275
+msgid "void **call_deferred** **(** :ref:`String<class_String>` method, ... **)** |vararg|"
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:277
+msgid "Calls the ``method`` on the object during idle time. This method supports a variable number of arguments, so parameters are passed as a comma separated list. Example:"
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:289
+msgid ":ref:`Variant<class_Variant>` **callv** **(** :ref:`String<class_String>` method, :ref:`Array<class_Array>` arg_array **)**"
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:291
+msgid "Calls the ``method`` on the object and returns the result. Contrarily to :ref:`call<class_Object_method_call>`, this method does not support a variable number of arguments but expects all parameters to be via a single :ref:`Array<class_Array>`."
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:301
+msgid ":ref:`bool<class_bool>` **can_translate_messages** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:303
+msgid "Returns ``true`` if the object can translate strings. See :ref:`set_message_translation<class_Object_method_set_message_translation>` and :ref:`tr<class_Object_method_tr>`."
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:309
+msgid ":ref:`Error<enum_@GlobalScope_Error>` **connect** **(** :ref:`String<class_String>` signal, :ref:`Object<class_Object>` target, :ref:`String<class_String>` method, :ref:`Array<class_Array>` binds=[  ], :ref:`int<class_int>` flags=0 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:311
+msgid "Connects a ``signal`` to a ``method`` on a ``target`` object. Pass optional ``binds`` to the call as an :ref:`Array<class_Array>` of parameters. These parameters will be passed to the method after any parameter used in the call to :ref:`emit_signal<class_Object_method_emit_signal>`. Use ``flags`` to set deferred or one-shot connections. See :ref:`ConnectFlags<enum_Object_ConnectFlags>` constants."
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:313
+msgid "A ``signal`` can only be connected once to a ``method``. It will throw an error if already connected, unless the signal was connected with :ref:`CONNECT_REFERENCE_COUNTED<class_Object_constant_CONNECT_REFERENCE_COUNTED>`. To avoid this, first, use :ref:`is_connected<class_Object_method_is_connected>` to check for existing connections."
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:315
+msgid "If the ``target`` is destroyed in the game's lifecycle, the connection will be lost."
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:317
+msgid "Examples:"
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:325
+msgid "An example of the relationship between ``binds`` passed to :ref:`connect<class_Object_method_connect>` and parameters used when calling :ref:`emit_signal<class_Object_method_emit_signal>`:"
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:338
+msgid "void **disconnect** **(** :ref:`String<class_String>` signal, :ref:`Object<class_Object>` target, :ref:`String<class_String>` method **)**"
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:340
+msgid "Disconnects a ``signal`` from a ``method`` on the given ``target``."
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:342
+msgid "If you try to disconnect a connection that does not exist, the method will throw an error. Use :ref:`is_connected<class_Object_method_is_connected>` to ensure that the connection exists."
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:348
+msgid "void **emit_signal** **(** :ref:`String<class_String>` signal, ... **)** |vararg|"
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:350
+msgid "Emits the given ``signal``. The signal must exist, so it should be a built-in signal of this class or one of its parent classes, or a user-defined signal. This method supports a variable number of arguments, so parameters are passed as a comma separated list. Example:"
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:361
+msgid "void **free** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:363
+msgid "Deletes the object from memory. Any pre-existing reference to the freed object will become invalid, e.g. ``is_instance_valid(object)`` will return ``false``."
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:369
+msgid ":ref:`Variant<class_Variant>` **get** **(** :ref:`String<class_String>` property **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:371
+msgid "Returns the :ref:`Variant<class_Variant>` value of the given ``property``. If the ``property`` doesn't exist, this will return ``null``."
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:373
+#: ../../docs/classes/class_object.rst:573
+#: ../../docs/classes/class_object.rst:591
+msgid "**Note:** In C#, the property name must be specified as snake_case if it is defined by a built-in Godot node. This doesn't apply to user-defined properties where you should use the same convention as in the C# source (typically PascalCase)."
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:379
+msgid ":ref:`String<class_String>` **get_class** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:381
+msgid "Returns the object's class as a :ref:`String<class_String>`."
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:387
+msgid ":ref:`Array<class_Array>` **get_incoming_connections** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:389
+msgid "Returns an :ref:`Array<class_Array>` of dictionaries with information about signals that are connected to the object."
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:391
+msgid "Each :ref:`Dictionary<class_Dictionary>` contains three String entries:"
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:393
+msgid "``source`` is a reference to the signal emitter."
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:395
+msgid "``signal_name`` is the name of the connected signal."
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:397
+msgid "``method_name`` is the name of the method to which the signal is connected."
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:403
+msgid ":ref:`Variant<class_Variant>` **get_indexed** **(** :ref:`NodePath<class_NodePath>` property **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:405
+msgid "Gets the object's property indexed by the given :ref:`NodePath<class_NodePath>`. The node path should be relative to the current object and can use the colon character (``:``) to access nested properties. Examples: ``\"position:x\"`` or ``\"material:next_pass:blend_mode\"``."
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:411
+msgid ":ref:`int<class_int>` **get_instance_id** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:413
+msgid "Returns the object's unique instance ID."
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:415
+msgid "This ID can be saved in :ref:`EncodedObjectAsID<class_EncodedObjectAsID>`, and can be used to retrieve the object instance with :ref:`@GDScript.instance_from_id<class_@GDScript_method_instance_from_id>`."
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:421
+msgid ":ref:`Variant<class_Variant>` **get_meta** **(** :ref:`String<class_String>` name **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:423
+msgid "Returns the object's metadata entry for the given ``name``."
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:429
+msgid ":ref:`PoolStringArray<class_PoolStringArray>` **get_meta_list** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:431
+msgid "Returns the object's metadata as a :ref:`PoolStringArray<class_PoolStringArray>`."
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:437
+msgid ":ref:`Array<class_Array>` **get_method_list** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:439
+msgid "Returns the object's methods and their signatures as an :ref:`Array<class_Array>`."
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:445
+msgid ":ref:`Array<class_Array>` **get_property_list** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:449
+msgid "Each property's :ref:`Dictionary<class_Dictionary>` contain at least ``name: String`` and ``type: int`` (see :ref:`Variant.Type<enum_@GlobalScope_Variant.Type>`) entries. Optionally, it can also include ``hint: int`` (see :ref:`PropertyHint<enum_@GlobalScope_PropertyHint>`), ``hint_string: String``, and ``usage: int`` (see :ref:`PropertyUsageFlags<enum_@GlobalScope_PropertyUsageFlags>`)."
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:455
+msgid ":ref:`Reference<class_Reference>` **get_script** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:457
+msgid "Returns the object's :ref:`Script<class_Script>` instance, or ``null`` if none is assigned."
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:463
+msgid ":ref:`Array<class_Array>` **get_signal_connection_list** **(** :ref:`String<class_String>` signal **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:465
+msgid "Returns an :ref:`Array<class_Array>` of connections for the given ``signal``."
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:471
+msgid ":ref:`Array<class_Array>` **get_signal_list** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:473
+msgid "Returns the list of signals as an :ref:`Array<class_Array>` of dictionaries."
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:479
+msgid ":ref:`bool<class_bool>` **has_meta** **(** :ref:`String<class_String>` name **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:481
+msgid "Returns ``true`` if a metadata entry is found with the given ``name``."
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:487
+msgid ":ref:`bool<class_bool>` **has_method** **(** :ref:`String<class_String>` method **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:489
+msgid "Returns ``true`` if the object contains the given ``method``."
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:495
+msgid ":ref:`bool<class_bool>` **has_signal** **(** :ref:`String<class_String>` signal **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:497
+msgid "Returns ``true`` if the given ``signal`` exists."
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:503
+msgid ":ref:`bool<class_bool>` **has_user_signal** **(** :ref:`String<class_String>` signal **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:505
+msgid "Returns ``true`` if the given user-defined ``signal`` exists. Only signals added using :ref:`add_user_signal<class_Object_method_add_user_signal>` are taken into account."
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:511
+msgid ":ref:`bool<class_bool>` **is_blocking_signals** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:513
+msgid "Returns ``true`` if signal emission blocking is enabled."
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:519
+msgid ":ref:`bool<class_bool>` **is_class** **(** :ref:`String<class_String>` class **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:521
+msgid "Returns ``true`` if the object inherits from the given ``class``."
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:527
+msgid ":ref:`bool<class_bool>` **is_connected** **(** :ref:`String<class_String>` signal, :ref:`Object<class_Object>` target, :ref:`String<class_String>` method **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:529
+msgid "Returns ``true`` if a connection exists for a given ``signal``, ``target``, and ``method``."
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:535
+msgid ":ref:`bool<class_bool>` **is_queued_for_deletion** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:537
+msgid "Returns ``true`` if the :ref:`Node.queue_free<class_Node_method_queue_free>` method was called for the object."
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:543
+msgid "void **notification** **(** :ref:`int<class_int>` what, :ref:`bool<class_bool>` reversed=false **)**"
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:545
+msgid "Send a given notification to the object, which will also trigger a call to the :ref:`_notification<class_Object_method__notification>` method of all classes that the object inherits from."
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:547
+msgid "If ``reversed`` is ``true``, :ref:`_notification<class_Object_method__notification>` is called first on the object's own class, and then up to its successive parent classes. If ``reversed`` is ``false``, :ref:`_notification<class_Object_method__notification>` is called first on the highest ancestor (``Object`` itself), and then down to its successive inheriting classes."
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:553
+msgid "void **property_list_changed_notify** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:555
+msgid "Notify the editor that the property list has changed, so that editor plugins can take the new values into account. Does nothing on export builds."
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:561
+msgid "void **remove_meta** **(** :ref:`String<class_String>` name **)**"
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:563
+msgid "Removes a given entry from the object's metadata. See also :ref:`set_meta<class_Object_method_set_meta>`."
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:569
+msgid "void **set** **(** :ref:`String<class_String>` property, :ref:`Variant<class_Variant>` value **)**"
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:571
+msgid "Assigns a new value to the given property. If the ``property`` does not exist, nothing will happen."
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:579
+msgid "void **set_block_signals** **(** :ref:`bool<class_bool>` enable **)**"
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:581
+msgid "If set to ``true``, signal emission is blocked."
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:587
+msgid "void **set_deferred** **(** :ref:`String<class_String>` property, :ref:`Variant<class_Variant>` value **)**"
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:589
+msgid "Assigns a new value to the given property, after the current frame's physics step. This is equivalent to calling :ref:`set<class_Object_method_set>` via :ref:`call_deferred<class_Object_method_call_deferred>`, i.e. ``call_deferred(\"set\", property, value)``."
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:597
+msgid "void **set_indexed** **(** :ref:`NodePath<class_NodePath>` property, :ref:`Variant<class_Variant>` value **)**"
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:599
+msgid "Assigns a new value to the property identified by the :ref:`NodePath<class_NodePath>`. The node path should be relative to the current object and can use the colon character (``:``) to access nested properties. Example:"
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:611
+msgid "void **set_message_translation** **(** :ref:`bool<class_bool>` enable **)**"
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:613
+msgid "Defines whether the object can translate strings (with calls to :ref:`tr<class_Object_method_tr>`). Enabled by default."
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:619
+msgid "void **set_meta** **(** :ref:`String<class_String>` name, :ref:`Variant<class_Variant>` value **)**"
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:621
+msgid "Adds, changes or removes a given entry in the object's metadata. Metadata are serialized and can take any :ref:`Variant<class_Variant>` value."
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:623
+msgid "To remove a given entry from the object's metadata, use :ref:`remove_meta<class_Object_method_remove_meta>`. Metadata is also removed if its value is set to ``null``. This means you can also use ``set_meta(\"name\", null)`` to remove metadata for ``\"name\"``."
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:629
+msgid "void **set_script** **(** :ref:`Reference<class_Reference>` script **)**"
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:631
+msgid "Assigns a script to the object. Each object can have a single script assigned to it, which are used to extend its functionality."
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:633
+msgid "If the object already had a script, the previous script instance will be freed and its variables and state will be lost. The new script's :ref:`_init<class_Object_method__init>` method will be called."
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:639
+msgid ":ref:`String<class_String>` **to_string** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:643
+msgid "Override the method :ref:`_to_string<class_Object_method__to_string>` to customize the :ref:`String<class_String>` representation."
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:649
+msgid ":ref:`String<class_String>` **tr** **(** :ref:`String<class_String>` message **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:651
+msgid "Translates a message using translation catalogs configured in the Project Settings."
+msgstr ""
+
+#: ../../docs/classes/class_object.rst:653
+msgid "Only works if message translation is enabled (which it is by default), otherwise it returns the ``message`` unchanged. See :ref:`set_message_translation<class_Object_method_set_message_translation>`."
+msgstr ""

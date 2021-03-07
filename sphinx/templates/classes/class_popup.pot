@@ -1,0 +1,224 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_popup.rst:10
+msgid "Popup"
+msgstr ""
+
+#: ../../docs/classes/class_popup.rst:12
+msgid "**Inherits:** :ref:`Control<class_Control>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_popup.rst:14
+msgid "**Inherited By:** :ref:`PopupDialog<class_PopupDialog>`, :ref:`PopupMenu<class_PopupMenu>`, :ref:`PopupPanel<class_PopupPanel>`, :ref:`WindowDialog<class_WindowDialog>`"
+msgstr ""
+
+#: ../../docs/classes/class_popup.rst:16
+msgid "Base container control for popups and dialogs."
+msgstr ""
+
+#: ../../docs/classes/class_popup.rst:19
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_popup.rst:21
+msgid "Popup is a base :ref:`Control<class_Control>` used to show dialogs and popups. It's a subwindow and modal by default (see :ref:`Control<class_Control>`) and has helpers for custom popup behavior. All popup methods ensure correct placement within the viewport."
+msgstr ""
+
+#: ../../docs/classes/class_popup.rst:24
+msgid "Properties"
+msgstr ""
+
+#: ../../docs/classes/class_popup.rst:27
+#: ../../docs/classes/class_popup.rst:29
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_popup.rst:27
+msgid ":ref:`popup_exclusive<class_Popup_property_popup_exclusive>`"
+msgstr ""
+
+#: ../../docs/classes/class_popup.rst:27
+#: ../../docs/classes/class_popup.rst:85
+msgid "``false``"
+msgstr ""
+
+#: ../../docs/classes/class_popup.rst:29
+msgid "visible"
+msgstr ""
+
+#: ../../docs/classes/class_popup.rst:29
+msgid "``false`` *(parent override)*"
+msgstr ""
+
+#: ../../docs/classes/class_popup.rst:33
+msgid "Methods"
+msgstr ""
+
+#: ../../docs/classes/class_popup.rst:36
+#: ../../docs/classes/class_popup.rst:38
+#: ../../docs/classes/class_popup.rst:40
+#: ../../docs/classes/class_popup.rst:42
+#: ../../docs/classes/class_popup.rst:44
+#: ../../docs/classes/class_popup.rst:46
+msgid "void"
+msgstr ""
+
+#: ../../docs/classes/class_popup.rst:36
+msgid ":ref:`popup<class_Popup_method_popup>` **(** :ref:`Rect2<class_Rect2>` bounds=Rect2( 0, 0, 0, 0 ) **)**"
+msgstr ""
+
+#: ../../docs/classes/class_popup.rst:38
+msgid ":ref:`popup_centered<class_Popup_method_popup_centered>` **(** :ref:`Vector2<class_Vector2>` size=Vector2( 0, 0 ) **)**"
+msgstr ""
+
+#: ../../docs/classes/class_popup.rst:40
+msgid ":ref:`popup_centered_clamped<class_Popup_method_popup_centered_clamped>` **(** :ref:`Vector2<class_Vector2>` size=Vector2( 0, 0 ), :ref:`float<class_float>` fallback_ratio=0.75 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_popup.rst:42
+msgid ":ref:`popup_centered_minsize<class_Popup_method_popup_centered_minsize>` **(** :ref:`Vector2<class_Vector2>` minsize=Vector2( 0, 0 ) **)**"
+msgstr ""
+
+#: ../../docs/classes/class_popup.rst:44
+msgid ":ref:`popup_centered_ratio<class_Popup_method_popup_centered_ratio>` **(** :ref:`float<class_float>` ratio=0.75 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_popup.rst:46
+msgid ":ref:`set_as_minsize<class_Popup_method_set_as_minsize>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_popup.rst:50
+msgid "Signals"
+msgstr ""
+
+#: ../../docs/classes/class_popup.rst:54
+msgid "**about_to_show** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_popup.rst:56
+msgid "Emitted when a popup is about to be shown. This is often used in :ref:`PopupMenu<class_PopupMenu>` to clear the list of options then create a new one according to the current context."
+msgstr ""
+
+#: ../../docs/classes/class_popup.rst:62
+msgid "**popup_hide** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_popup.rst:64
+msgid "Emitted when a popup is hidden."
+msgstr ""
+
+#: ../../docs/classes/class_popup.rst:67
+msgid "Constants"
+msgstr ""
+
+#: ../../docs/classes/class_popup.rst:73
+msgid "**NOTIFICATION_POST_POPUP** = **80** --- Notification sent right after the popup is shown."
+msgstr ""
+
+#: ../../docs/classes/class_popup.rst:75
+msgid "**NOTIFICATION_POPUP_HIDE** = **81** --- Notification sent right after the popup is hidden."
+msgstr ""
+
+#: ../../docs/classes/class_popup.rst:78
+msgid "Property Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_popup.rst:82
+msgid ":ref:`bool<class_bool>` **popup_exclusive**"
+msgstr ""
+
+#: ../../docs/classes/class_popup.rst:85
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_popup.rst:87
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_popup.rst:87
+msgid "set_exclusive(value)"
+msgstr ""
+
+#: ../../docs/classes/class_popup.rst:89
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_popup.rst:89
+msgid "is_exclusive()"
+msgstr ""
+
+#: ../../docs/classes/class_popup.rst:92
+msgid "If ``true``, the popup will not be hidden when a click event occurs outside of it, or when it receives the ``ui_cancel`` action event."
+msgstr ""
+
+#: ../../docs/classes/class_popup.rst:94
+msgid "**Note:** Enabling this property doesn't affect the Close or Cancel buttons' behavior in dialogs that inherit from this class. As a workaround, you can use :ref:`WindowDialog.get_close_button<class_WindowDialog_method_get_close_button>` or :ref:`ConfirmationDialog.get_cancel<class_ConfirmationDialog_method_get_cancel>` and hide the buttons in question by setting their :ref:`CanvasItem.visible<class_CanvasItem_property_visible>` property to ``false``."
+msgstr ""
+
+#: ../../docs/classes/class_popup.rst:97
+msgid "Method Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_popup.rst:101
+msgid "void **popup** **(** :ref:`Rect2<class_Rect2>` bounds=Rect2( 0, 0, 0, 0 ) **)**"
+msgstr ""
+
+#: ../../docs/classes/class_popup.rst:103
+msgid "Popup (show the control in modal form)."
+msgstr ""
+
+#: ../../docs/classes/class_popup.rst:109
+msgid "void **popup_centered** **(** :ref:`Vector2<class_Vector2>` size=Vector2( 0, 0 ) **)**"
+msgstr ""
+
+#: ../../docs/classes/class_popup.rst:111
+msgid "Popup (show the control in modal form) in the center of the screen relative to its current canvas transform, at the current size, or at a size determined by ``size``."
+msgstr ""
+
+#: ../../docs/classes/class_popup.rst:117
+msgid "void **popup_centered_clamped** **(** :ref:`Vector2<class_Vector2>` size=Vector2( 0, 0 ), :ref:`float<class_float>` fallback_ratio=0.75 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_popup.rst:119
+msgid "Popup (show the control in modal form) in the center of the screen relative to the current canvas transform, clamping the size to ``size``, then ensuring the popup is no larger than the viewport size multiplied by ``fallback_ratio``."
+msgstr ""
+
+#: ../../docs/classes/class_popup.rst:125
+msgid "void **popup_centered_minsize** **(** :ref:`Vector2<class_Vector2>` minsize=Vector2( 0, 0 ) **)**"
+msgstr ""
+
+#: ../../docs/classes/class_popup.rst:127
+msgid "Popup (show the control in modal form) in the center of the screen relative to the current canvas transform, ensuring the size is never smaller than ``minsize``."
+msgstr ""
+
+#: ../../docs/classes/class_popup.rst:133
+msgid "void **popup_centered_ratio** **(** :ref:`float<class_float>` ratio=0.75 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_popup.rst:135
+msgid "Popup (show the control in modal form) in the center of the screen relative to the current canvas transform, scaled at a ratio of size of the screen."
+msgstr ""
+
+#: ../../docs/classes/class_popup.rst:141
+msgid "void **set_as_minsize** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_popup.rst:143
+msgid "Shrink popup to keep to the minimum size of content."
+msgstr ""

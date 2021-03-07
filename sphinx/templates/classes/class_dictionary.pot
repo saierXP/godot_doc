@@ -1,0 +1,278 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_dictionary.rst:10
+msgid "Dictionary"
+msgstr ""
+
+#: ../../docs/classes/class_dictionary.rst:12
+msgid "Dictionary type."
+msgstr ""
+
+#: ../../docs/classes/class_dictionary.rst:15
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_dictionary.rst:17
+msgid "Dictionary type. Associative container which contains values referenced by unique keys. Dictionaries are composed of pairs of keys (which must be unique) and values. Dictionaries will preserve the insertion order when adding elements, even though this may not be reflected when printing the dictionary. In other programming languages, this data structure is sometimes referred to as an hash map or associative array."
+msgstr ""
+
+#: ../../docs/classes/class_dictionary.rst:19
+msgid "You can define a dictionary by placing a comma-separated list of ``key: value`` pairs in curly braces ``{}``."
+msgstr ""
+
+#: ../../docs/classes/class_dictionary.rst:21
+msgid "Erasing elements while iterating over them **is not supported** and will result in undefined behavior."
+msgstr ""
+
+#: ../../docs/classes/class_dictionary.rst:23
+msgid "**Note:** Dictionaries are always passed by reference. To get a copy of a dictionary which can be modified independently of the original dictionary, use :ref:`duplicate<class_Dictionary_method_duplicate>`."
+msgstr ""
+
+#: ../../docs/classes/class_dictionary.rst:25
+msgid "Creating a dictionary:"
+msgstr ""
+
+#: ../../docs/classes/class_dictionary.rst:48
+msgid "You can access a dictionary's values by referencing the appropriate key. In the above example, ``points_dir[\"White\"]`` will return ``50``. You can also write ``points_dir.White``, which is equivalent. However, you'll have to use the bracket syntax if the key you're accessing the dictionary with isn't a fixed string (such as a number or variable)."
+msgstr ""
+
+#: ../../docs/classes/class_dictionary.rst:58
+msgid "In the above code, ``points`` will be assigned the value that is paired with the appropriate color selected in ``my_color``."
+msgstr ""
+
+#: ../../docs/classes/class_dictionary.rst:60
+msgid "Dictionaries can contain more complex data:"
+msgstr ""
+
+#: ../../docs/classes/class_dictionary.rst:66
+msgid "To add a key to an existing dictionary, access it like an existing key and assign to it:"
+msgstr ""
+
+#: ../../docs/classes/class_dictionary.rst:73
+msgid "Finally, dictionaries can contain different types of keys and values in the same dictionary:"
+msgstr ""
+
+#: ../../docs/classes/class_dictionary.rst:87
+msgid "**Note:** Unlike :ref:`Array<class_Array>`\\ s, you can't compare dictionaries directly:"
+msgstr ""
+
+#: ../../docs/classes/class_dictionary.rst:103
+msgid "You need to first calculate the dictionary's hash with :ref:`hash<class_Dictionary_method_hash>` before you can compare them:"
+msgstr ""
+
+#: ../../docs/classes/class_dictionary.rst:113
+msgid "**Note:** When declaring a dictionary with ``const``, the dictionary itself can still be mutated by defining the values of individual keys. Using ``const`` will only prevent assigning the constant with another value after it was initialized."
+msgstr ""
+
+#: ../../docs/classes/class_dictionary.rst:116
+msgid "Tutorials"
+msgstr ""
+
+#: ../../docs/classes/class_dictionary.rst:118
+msgid "`#dictionary <../getting_started/scripting/gdscript/gdscript_basics.html#dictionary>`_ in :doc:`../getting_started/scripting/gdscript/gdscript_basics`"
+msgstr ""
+
+#: ../../docs/classes/class_dictionary.rst:120
+msgid "`https://godotengine.org/asset-library/asset/676 <https://godotengine.org/asset-library/asset/676>`_"
+msgstr ""
+
+#: ../../docs/classes/class_dictionary.rst:122
+msgid "`https://godotengine.org/asset-library/asset/677 <https://godotengine.org/asset-library/asset/677>`_"
+msgstr ""
+
+#: ../../docs/classes/class_dictionary.rst:125
+msgid "Methods"
+msgstr ""
+
+#: ../../docs/classes/class_dictionary.rst:128
+msgid "void"
+msgstr ""
+
+#: ../../docs/classes/class_dictionary.rst:128
+msgid ":ref:`clear<class_Dictionary_method_clear>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_dictionary.rst:130
+msgid ":ref:`Dictionary<class_Dictionary>`"
+msgstr ""
+
+#: ../../docs/classes/class_dictionary.rst:130
+msgid ":ref:`duplicate<class_Dictionary_method_duplicate>` **(** :ref:`bool<class_bool>` deep=false **)**"
+msgstr ""
+
+#: ../../docs/classes/class_dictionary.rst:132
+#: ../../docs/classes/class_dictionary.rst:134
+#: ../../docs/classes/class_dictionary.rst:138
+#: ../../docs/classes/class_dictionary.rst:140
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_dictionary.rst:132
+msgid ":ref:`empty<class_Dictionary_method_empty>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_dictionary.rst:134
+msgid ":ref:`erase<class_Dictionary_method_erase>` **(** :ref:`Variant<class_Variant>` key **)**"
+msgstr ""
+
+#: ../../docs/classes/class_dictionary.rst:136
+msgid ":ref:`Variant<class_Variant>`"
+msgstr ""
+
+#: ../../docs/classes/class_dictionary.rst:136
+msgid ":ref:`get<class_Dictionary_method_get>` **(** :ref:`Variant<class_Variant>` key, :ref:`Variant<class_Variant>` default=null **)**"
+msgstr ""
+
+#: ../../docs/classes/class_dictionary.rst:138
+msgid ":ref:`has<class_Dictionary_method_has>` **(** :ref:`Variant<class_Variant>` key **)**"
+msgstr ""
+
+#: ../../docs/classes/class_dictionary.rst:140
+msgid ":ref:`has_all<class_Dictionary_method_has_all>` **(** :ref:`Array<class_Array>` keys **)**"
+msgstr ""
+
+#: ../../docs/classes/class_dictionary.rst:142
+#: ../../docs/classes/class_dictionary.rst:146
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../../docs/classes/class_dictionary.rst:142
+msgid ":ref:`hash<class_Dictionary_method_hash>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_dictionary.rst:144
+#: ../../docs/classes/class_dictionary.rst:148
+msgid ":ref:`Array<class_Array>`"
+msgstr ""
+
+#: ../../docs/classes/class_dictionary.rst:144
+msgid ":ref:`keys<class_Dictionary_method_keys>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_dictionary.rst:146
+msgid ":ref:`size<class_Dictionary_method_size>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_dictionary.rst:148
+msgid ":ref:`values<class_Dictionary_method_values>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_dictionary.rst:152
+msgid "Method Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_dictionary.rst:156
+msgid "void **clear** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_dictionary.rst:158
+msgid "Clear the dictionary, removing all key/value pairs."
+msgstr ""
+
+#: ../../docs/classes/class_dictionary.rst:164
+msgid ":ref:`Dictionary<class_Dictionary>` **duplicate** **(** :ref:`bool<class_bool>` deep=false **)**"
+msgstr ""
+
+#: ../../docs/classes/class_dictionary.rst:166
+msgid "Creates a copy of the dictionary, and returns it. The ``deep`` parameter causes inner dictionaries and arrays to be copied recursively, but does not apply to objects."
+msgstr ""
+
+#: ../../docs/classes/class_dictionary.rst:172
+msgid ":ref:`bool<class_bool>` **empty** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_dictionary.rst:174
+msgid "Returns ``true`` if the dictionary is empty."
+msgstr ""
+
+#: ../../docs/classes/class_dictionary.rst:180
+msgid ":ref:`bool<class_bool>` **erase** **(** :ref:`Variant<class_Variant>` key **)**"
+msgstr ""
+
+#: ../../docs/classes/class_dictionary.rst:182
+msgid "Erase a dictionary key/value pair by key. Returns ``true`` if the given key was present in the dictionary, ``false`` otherwise. Does not erase elements while iterating over the dictionary."
+msgstr ""
+
+#: ../../docs/classes/class_dictionary.rst:188
+msgid ":ref:`Variant<class_Variant>` **get** **(** :ref:`Variant<class_Variant>` key, :ref:`Variant<class_Variant>` default=null **)**"
+msgstr ""
+
+#: ../../docs/classes/class_dictionary.rst:190
+msgid "Returns the current value for the specified key in the ``Dictionary``. If the key does not exist, the method returns the value of the optional default argument, or ``null`` if it is omitted."
+msgstr ""
+
+#: ../../docs/classes/class_dictionary.rst:196
+msgid ":ref:`bool<class_bool>` **has** **(** :ref:`Variant<class_Variant>` key **)**"
+msgstr ""
+
+#: ../../docs/classes/class_dictionary.rst:198
+msgid "Returns ``true`` if the dictionary has a given key."
+msgstr ""
+
+#: ../../docs/classes/class_dictionary.rst:200
+msgid "**Note:** This is equivalent to using the ``in`` operator as follows:"
+msgstr ""
+
+#: ../../docs/classes/class_dictionary.rst:208
+msgid "This method (like the ``in`` operator) will evaluate to ``true`` as long as the key exists, even if the associated value is ``null``."
+msgstr ""
+
+#: ../../docs/classes/class_dictionary.rst:214
+msgid ":ref:`bool<class_bool>` **has_all** **(** :ref:`Array<class_Array>` keys **)**"
+msgstr ""
+
+#: ../../docs/classes/class_dictionary.rst:216
+msgid "Returns ``true`` if the dictionary has all of the keys in the given array."
+msgstr ""
+
+#: ../../docs/classes/class_dictionary.rst:222
+msgid ":ref:`int<class_int>` **hash** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_dictionary.rst:224
+msgid "Returns a hashed integer value representing the dictionary contents. This can be used to compare dictionaries by value:"
+msgstr ""
+
+#: ../../docs/classes/class_dictionary.rst:233
+msgid "**Note:** Dictionaries with the same keys/values but in a different order will have a different hash."
+msgstr ""
+
+#: ../../docs/classes/class_dictionary.rst:239
+msgid ":ref:`Array<class_Array>` **keys** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_dictionary.rst:241
+msgid "Returns the list of keys in the ``Dictionary``."
+msgstr ""
+
+#: ../../docs/classes/class_dictionary.rst:247
+msgid ":ref:`int<class_int>` **size** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_dictionary.rst:249
+msgid "Returns the number of keys in the dictionary."
+msgstr ""
+
+#: ../../docs/classes/class_dictionary.rst:255
+msgid ":ref:`Array<class_Array>` **values** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_dictionary.rst:257
+msgid "Returns the list of values in the ``Dictionary``."
+msgstr ""

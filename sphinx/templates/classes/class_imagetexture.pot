@@ -1,0 +1,293 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_imagetexture.rst:10
+msgid "ImageTexture"
+msgstr ""
+
+#: ../../docs/classes/class_imagetexture.rst:12
+msgid "**Inherits:** :ref:`Texture<class_Texture>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_imagetexture.rst:14
+msgid "A :ref:`Texture<class_Texture>` based on an :ref:`Image<class_Image>`."
+msgstr ""
+
+#: ../../docs/classes/class_imagetexture.rst:17
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_imagetexture.rst:19
+msgid "A :ref:`Texture<class_Texture>` based on an :ref:`Image<class_Image>`. For an image to be displayed, an ``ImageTexture`` has to be created from it using the :ref:`create_from_image<class_ImageTexture_method_create_from_image>` method:"
+msgstr ""
+
+#: ../../docs/classes/class_imagetexture.rst:29
+msgid "This way, textures can be created at run-time by loading images both from within the editor and externally."
+msgstr ""
+
+#: ../../docs/classes/class_imagetexture.rst:31
+msgid "**Warning:** Prefer to load imported textures with :ref:`@GDScript.load<class_@GDScript_method_load>` over loading them from within the filesystem dynamically with :ref:`Image.load<class_Image_method_load>`, as it may not work in exported projects:"
+msgstr ""
+
+#: ../../docs/classes/class_imagetexture.rst:38
+msgid "This is because images have to be imported as :ref:`StreamTexture<class_StreamTexture>` first to be loaded with :ref:`@GDScript.load<class_@GDScript_method_load>`. If you'd still like to load an image file just like any other :ref:`Resource<class_Resource>`, import it as an :ref:`Image<class_Image>` resource instead, and then load it normally using the :ref:`@GDScript.load<class_@GDScript_method_load>` method."
+msgstr ""
+
+#: ../../docs/classes/class_imagetexture.rst:40
+msgid "But do note that the image data can still be retrieved from an imported texture as well using the :ref:`Texture.get_data<class_Texture_method_get_data>` method, which returns a copy of the data:"
+msgstr ""
+
+#: ../../docs/classes/class_imagetexture.rst:47
+msgid "An ``ImageTexture`` is not meant to be operated from within the editor interface directly, and is mostly useful for rendering images on screen dynamically via code. If you need to generate images procedurally from within the editor, consider saving and importing images as custom texture resources implementing a new :ref:`EditorImportPlugin<class_EditorImportPlugin>`."
+msgstr ""
+
+#: ../../docs/classes/class_imagetexture.rst:49
+msgid "**Note:** The maximum texture size is 16384×16384 pixels due to graphics hardware limitations."
+msgstr ""
+
+#: ../../docs/classes/class_imagetexture.rst:52
+msgid "Tutorials"
+msgstr ""
+
+#: ../../docs/classes/class_imagetexture.rst:54
+msgid ":doc:`../getting_started/workflow/assets/importing_images`"
+msgstr ""
+
+#: ../../docs/classes/class_imagetexture.rst:57
+msgid "Properties"
+msgstr ""
+
+#: ../../docs/classes/class_imagetexture.rst:60
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../../docs/classes/class_imagetexture.rst:60
+msgid "flags"
+msgstr ""
+
+#: ../../docs/classes/class_imagetexture.rst:60
+msgid "``7`` *(parent override)*"
+msgstr ""
+
+#: ../../docs/classes/class_imagetexture.rst:62
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../../docs/classes/class_imagetexture.rst:62
+msgid ":ref:`lossy_quality<class_ImageTexture_property_lossy_quality>`"
+msgstr ""
+
+#: ../../docs/classes/class_imagetexture.rst:62
+#: ../../docs/classes/class_imagetexture.rst:111
+msgid "``0.7``"
+msgstr ""
+
+#: ../../docs/classes/class_imagetexture.rst:64
+msgid ":ref:`Storage<enum_ImageTexture_Storage>`"
+msgstr ""
+
+#: ../../docs/classes/class_imagetexture.rst:64
+msgid ":ref:`storage<class_ImageTexture_property_storage>`"
+msgstr ""
+
+#: ../../docs/classes/class_imagetexture.rst:64
+#: ../../docs/classes/class_imagetexture.rst:127
+msgid "``0``"
+msgstr ""
+
+#: ../../docs/classes/class_imagetexture.rst:68
+msgid "Methods"
+msgstr ""
+
+#: ../../docs/classes/class_imagetexture.rst:71
+#: ../../docs/classes/class_imagetexture.rst:73
+#: ../../docs/classes/class_imagetexture.rst:79
+#: ../../docs/classes/class_imagetexture.rst:81
+msgid "void"
+msgstr ""
+
+#: ../../docs/classes/class_imagetexture.rst:71
+msgid ":ref:`create<class_ImageTexture_method_create>` **(** :ref:`int<class_int>` width, :ref:`int<class_int>` height, :ref:`Format<enum_Image_Format>` format, :ref:`int<class_int>` flags=7 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_imagetexture.rst:73
+msgid ":ref:`create_from_image<class_ImageTexture_method_create_from_image>` **(** :ref:`Image<class_Image>` image, :ref:`int<class_int>` flags=7 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_imagetexture.rst:75
+msgid ":ref:`Format<enum_Image_Format>`"
+msgstr ""
+
+#: ../../docs/classes/class_imagetexture.rst:75
+msgid ":ref:`get_format<class_ImageTexture_method_get_format>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_imagetexture.rst:77
+msgid ":ref:`Error<enum_@GlobalScope_Error>`"
+msgstr ""
+
+#: ../../docs/classes/class_imagetexture.rst:77
+msgid ":ref:`load<class_ImageTexture_method_load>` **(** :ref:`String<class_String>` path **)**"
+msgstr ""
+
+#: ../../docs/classes/class_imagetexture.rst:79
+msgid ":ref:`set_data<class_ImageTexture_method_set_data>` **(** :ref:`Image<class_Image>` image **)**"
+msgstr ""
+
+#: ../../docs/classes/class_imagetexture.rst:81
+msgid ":ref:`set_size_override<class_ImageTexture_method_set_size_override>` **(** :ref:`Vector2<class_Vector2>` size **)**"
+msgstr ""
+
+#: ../../docs/classes/class_imagetexture.rst:85
+msgid "Enumerations"
+msgstr ""
+
+#: ../../docs/classes/class_imagetexture.rst:95
+msgid "enum **Storage**:"
+msgstr ""
+
+#: ../../docs/classes/class_imagetexture.rst:97
+msgid "**STORAGE_RAW** = **0** --- :ref:`Image<class_Image>` data is stored raw and unaltered."
+msgstr ""
+
+#: ../../docs/classes/class_imagetexture.rst:99
+msgid "**STORAGE_COMPRESS_LOSSY** = **1** --- :ref:`Image<class_Image>` data is compressed with a lossy algorithm. You can set the storage quality with :ref:`lossy_quality<class_ImageTexture_property_lossy_quality>`."
+msgstr ""
+
+#: ../../docs/classes/class_imagetexture.rst:101
+msgid "**STORAGE_COMPRESS_LOSSLESS** = **2** --- :ref:`Image<class_Image>` data is compressed with a lossless algorithm."
+msgstr ""
+
+#: ../../docs/classes/class_imagetexture.rst:104
+msgid "Property Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_imagetexture.rst:108
+msgid ":ref:`float<class_float>` **lossy_quality**"
+msgstr ""
+
+#: ../../docs/classes/class_imagetexture.rst:111
+#: ../../docs/classes/class_imagetexture.rst:127
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_imagetexture.rst:113
+#: ../../docs/classes/class_imagetexture.rst:129
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_imagetexture.rst:113
+msgid "set_lossy_storage_quality(value)"
+msgstr ""
+
+#: ../../docs/classes/class_imagetexture.rst:115
+#: ../../docs/classes/class_imagetexture.rst:131
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_imagetexture.rst:115
+msgid "get_lossy_storage_quality()"
+msgstr ""
+
+#: ../../docs/classes/class_imagetexture.rst:118
+msgid "The storage quality for :ref:`STORAGE_COMPRESS_LOSSY<class_ImageTexture_constant_STORAGE_COMPRESS_LOSSY>`."
+msgstr ""
+
+#: ../../docs/classes/class_imagetexture.rst:124
+msgid ":ref:`Storage<enum_ImageTexture_Storage>` **storage**"
+msgstr ""
+
+#: ../../docs/classes/class_imagetexture.rst:129
+msgid "set_storage(value)"
+msgstr ""
+
+#: ../../docs/classes/class_imagetexture.rst:131
+msgid "get_storage()"
+msgstr ""
+
+#: ../../docs/classes/class_imagetexture.rst:134
+msgid "The storage type (raw, lossy, or compressed)."
+msgstr ""
+
+#: ../../docs/classes/class_imagetexture.rst:137
+msgid "Method Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_imagetexture.rst:141
+msgid "void **create** **(** :ref:`int<class_int>` width, :ref:`int<class_int>` height, :ref:`Format<enum_Image_Format>` format, :ref:`int<class_int>` flags=7 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_imagetexture.rst:143
+msgid "Create a new ``ImageTexture`` with ``width`` and ``height``."
+msgstr ""
+
+#: ../../docs/classes/class_imagetexture.rst:145
+msgid "``format`` is a value from :ref:`Format<enum_Image_Format>`, ``flags`` is any combination of :ref:`Flags<enum_Texture_Flags>`."
+msgstr ""
+
+#: ../../docs/classes/class_imagetexture.rst:151
+msgid "void **create_from_image** **(** :ref:`Image<class_Image>` image, :ref:`int<class_int>` flags=7 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_imagetexture.rst:153
+msgid "Initializes the texture by allocating and setting the data from an :ref:`Image<class_Image>` with ``flags`` from :ref:`Flags<enum_Texture_Flags>`. An sRGB to linear color space conversion can take place, according to :ref:`Format<enum_Image_Format>`."
+msgstr ""
+
+#: ../../docs/classes/class_imagetexture.rst:159
+msgid ":ref:`Format<enum_Image_Format>` **get_format** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_imagetexture.rst:161
+msgid "Returns the format of the texture, one of :ref:`Format<enum_Image_Format>`."
+msgstr ""
+
+#: ../../docs/classes/class_imagetexture.rst:167
+msgid ":ref:`Error<enum_@GlobalScope_Error>` **load** **(** :ref:`String<class_String>` path **)**"
+msgstr ""
+
+#: ../../docs/classes/class_imagetexture.rst:169
+msgid "Loads an image from a file path and creates a texture from it."
+msgstr ""
+
+#: ../../docs/classes/class_imagetexture.rst:171
+msgid "**Note:** the method is deprecated and will be removed in Godot 4.0, use :ref:`Image.load<class_Image_method_load>` and :ref:`create_from_image<class_ImageTexture_method_create_from_image>` instead."
+msgstr ""
+
+#: ../../docs/classes/class_imagetexture.rst:177
+msgid "void **set_data** **(** :ref:`Image<class_Image>` image **)**"
+msgstr ""
+
+#: ../../docs/classes/class_imagetexture.rst:179
+msgid "Replaces the texture's data with a new :ref:`Image<class_Image>`."
+msgstr ""
+
+#: ../../docs/classes/class_imagetexture.rst:181
+msgid "**Note:** The texture has to be initialized first with the :ref:`create_from_image<class_ImageTexture_method_create_from_image>` method before it can be updated. The new image dimensions, format, and mipmaps configuration should match the existing texture's image configuration, otherwise it has to be re-created with the :ref:`create_from_image<class_ImageTexture_method_create_from_image>` method."
+msgstr ""
+
+#: ../../docs/classes/class_imagetexture.rst:183
+msgid "Use this method over :ref:`create_from_image<class_ImageTexture_method_create_from_image>` if you need to update the texture frequently, which is faster than allocating additional memory for a new texture each time."
+msgstr ""
+
+#: ../../docs/classes/class_imagetexture.rst:189
+msgid "void **set_size_override** **(** :ref:`Vector2<class_Vector2>` size **)**"
+msgstr ""
+
+#: ../../docs/classes/class_imagetexture.rst:191
+msgid "Resizes the texture to the specified dimensions."
+msgstr ""

@@ -1,0 +1,546 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_textureprogress.rst:10
+msgid "TextureProgress"
+msgstr ""
+
+#: ../../docs/classes/class_textureprogress.rst:12
+msgid "**Inherits:** :ref:`Range<class_Range>` **<** :ref:`Control<class_Control>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_textureprogress.rst:14
+msgid "Texture-based progress bar. Useful for loading screens and life or stamina bars."
+msgstr ""
+
+#: ../../docs/classes/class_textureprogress.rst:17
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_textureprogress.rst:19
+msgid "TextureProgress works like :ref:`ProgressBar<class_ProgressBar>`, but uses up to 3 textures instead of Godot's :ref:`Theme<class_Theme>` resource. It can be used to create horizontal, vertical and radial progress bars."
+msgstr ""
+
+#: ../../docs/classes/class_textureprogress.rst:22
+msgid "Properties"
+msgstr ""
+
+#: ../../docs/classes/class_textureprogress.rst:25
+#: ../../docs/classes/class_textureprogress.rst:37
+#: ../../docs/classes/class_textureprogress.rst:39
+#: ../../docs/classes/class_textureprogress.rst:41
+#: ../../docs/classes/class_textureprogress.rst:43
+#: ../../docs/classes/class_textureprogress.rst:62
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../../docs/classes/class_textureprogress.rst:25
+msgid ":ref:`fill_mode<class_TextureProgress_property_fill_mode>`"
+msgstr ""
+
+#: ../../docs/classes/class_textureprogress.rst:25
+#: ../../docs/classes/class_textureprogress.rst:37
+#: ../../docs/classes/class_textureprogress.rst:39
+#: ../../docs/classes/class_textureprogress.rst:41
+#: ../../docs/classes/class_textureprogress.rst:43
+#: ../../docs/classes/class_textureprogress.rst:118
+#: ../../docs/classes/class_textureprogress.rst:200
+#: ../../docs/classes/class_textureprogress.rst:216
+#: ../../docs/classes/class_textureprogress.rst:232
+#: ../../docs/classes/class_textureprogress.rst:248
+msgid "``0``"
+msgstr ""
+
+#: ../../docs/classes/class_textureprogress.rst:27
+msgid ":ref:`MouseFilter<enum_Control_MouseFilter>`"
+msgstr ""
+
+#: ../../docs/classes/class_textureprogress.rst:27
+msgid "mouse_filter"
+msgstr ""
+
+#: ../../docs/classes/class_textureprogress.rst:27
+msgid "``1`` *(parent override)*"
+msgstr ""
+
+#: ../../docs/classes/class_textureprogress.rst:29
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_textureprogress.rst:29
+msgid ":ref:`nine_patch_stretch<class_TextureProgress_property_nine_patch_stretch>`"
+msgstr ""
+
+#: ../../docs/classes/class_textureprogress.rst:29
+#: ../../docs/classes/class_textureprogress.rst:134
+msgid "``false``"
+msgstr ""
+
+#: ../../docs/classes/class_textureprogress.rst:31
+msgid ":ref:`Vector2<class_Vector2>`"
+msgstr ""
+
+#: ../../docs/classes/class_textureprogress.rst:31
+msgid ":ref:`radial_center_offset<class_TextureProgress_property_radial_center_offset>`"
+msgstr ""
+
+#: ../../docs/classes/class_textureprogress.rst:31
+#: ../../docs/classes/class_textureprogress.rst:150
+msgid "``Vector2( 0, 0 )``"
+msgstr ""
+
+#: ../../docs/classes/class_textureprogress.rst:33
+#: ../../docs/classes/class_textureprogress.rst:35
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../../docs/classes/class_textureprogress.rst:33
+msgid ":ref:`radial_fill_degrees<class_TextureProgress_property_radial_fill_degrees>`"
+msgstr ""
+
+#: ../../docs/classes/class_textureprogress.rst:33
+#: ../../docs/classes/class_textureprogress.rst:166
+msgid "``360.0``"
+msgstr ""
+
+#: ../../docs/classes/class_textureprogress.rst:35
+msgid ":ref:`radial_initial_angle<class_TextureProgress_property_radial_initial_angle>`"
+msgstr ""
+
+#: ../../docs/classes/class_textureprogress.rst:35
+#: ../../docs/classes/class_textureprogress.rst:184
+msgid "``0.0``"
+msgstr ""
+
+#: ../../docs/classes/class_textureprogress.rst:37
+msgid ":ref:`stretch_margin_bottom<class_TextureProgress_property_stretch_margin_bottom>`"
+msgstr ""
+
+#: ../../docs/classes/class_textureprogress.rst:39
+msgid ":ref:`stretch_margin_left<class_TextureProgress_property_stretch_margin_left>`"
+msgstr ""
+
+#: ../../docs/classes/class_textureprogress.rst:41
+msgid ":ref:`stretch_margin_right<class_TextureProgress_property_stretch_margin_right>`"
+msgstr ""
+
+#: ../../docs/classes/class_textureprogress.rst:43
+msgid ":ref:`stretch_margin_top<class_TextureProgress_property_stretch_margin_top>`"
+msgstr ""
+
+#: ../../docs/classes/class_textureprogress.rst:45
+#: ../../docs/classes/class_textureprogress.rst:47
+#: ../../docs/classes/class_textureprogress.rst:49
+msgid ":ref:`Texture<class_Texture>`"
+msgstr ""
+
+#: ../../docs/classes/class_textureprogress.rst:45
+msgid ":ref:`texture_over<class_TextureProgress_property_texture_over>`"
+msgstr ""
+
+#: ../../docs/classes/class_textureprogress.rst:47
+msgid ":ref:`texture_progress<class_TextureProgress_property_texture_progress>`"
+msgstr ""
+
+#: ../../docs/classes/class_textureprogress.rst:49
+msgid ":ref:`texture_under<class_TextureProgress_property_texture_under>`"
+msgstr ""
+
+#: ../../docs/classes/class_textureprogress.rst:51
+#: ../../docs/classes/class_textureprogress.rst:53
+#: ../../docs/classes/class_textureprogress.rst:55
+msgid ":ref:`Color<class_Color>`"
+msgstr ""
+
+#: ../../docs/classes/class_textureprogress.rst:51
+msgid ":ref:`tint_over<class_TextureProgress_property_tint_over>`"
+msgstr ""
+
+#: ../../docs/classes/class_textureprogress.rst:51
+#: ../../docs/classes/class_textureprogress.rst:53
+#: ../../docs/classes/class_textureprogress.rst:55
+#: ../../docs/classes/class_textureprogress.rst:308
+#: ../../docs/classes/class_textureprogress.rst:324
+#: ../../docs/classes/class_textureprogress.rst:340
+msgid "``Color( 1, 1, 1, 1 )``"
+msgstr ""
+
+#: ../../docs/classes/class_textureprogress.rst:53
+msgid ":ref:`tint_progress<class_TextureProgress_property_tint_progress>`"
+msgstr ""
+
+#: ../../docs/classes/class_textureprogress.rst:55
+msgid ":ref:`tint_under<class_TextureProgress_property_tint_under>`"
+msgstr ""
+
+#: ../../docs/classes/class_textureprogress.rst:59
+msgid "Methods"
+msgstr ""
+
+#: ../../docs/classes/class_textureprogress.rst:62
+msgid ":ref:`get_stretch_margin<class_TextureProgress_method_get_stretch_margin>` **(** :ref:`Margin<enum_@GlobalScope_Margin>` margin **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_textureprogress.rst:64
+msgid "void"
+msgstr ""
+
+#: ../../docs/classes/class_textureprogress.rst:64
+msgid ":ref:`set_stretch_margin<class_TextureProgress_method_set_stretch_margin>` **(** :ref:`Margin<enum_@GlobalScope_Margin>` margin, :ref:`int<class_int>` value **)**"
+msgstr ""
+
+#: ../../docs/classes/class_textureprogress.rst:68
+msgid "Enumerations"
+msgstr ""
+
+#: ../../docs/classes/class_textureprogress.rst:90
+msgid "enum **FillMode**:"
+msgstr ""
+
+#: ../../docs/classes/class_textureprogress.rst:92
+msgid "**FILL_LEFT_TO_RIGHT** = **0** --- The :ref:`texture_progress<class_TextureProgress_property_texture_progress>` fills from left to right."
+msgstr ""
+
+#: ../../docs/classes/class_textureprogress.rst:94
+msgid "**FILL_RIGHT_TO_LEFT** = **1** --- The :ref:`texture_progress<class_TextureProgress_property_texture_progress>` fills from right to left."
+msgstr ""
+
+#: ../../docs/classes/class_textureprogress.rst:96
+msgid "**FILL_TOP_TO_BOTTOM** = **2** --- The :ref:`texture_progress<class_TextureProgress_property_texture_progress>` fills from top to bottom."
+msgstr ""
+
+#: ../../docs/classes/class_textureprogress.rst:98
+msgid "**FILL_BOTTOM_TO_TOP** = **3** --- The :ref:`texture_progress<class_TextureProgress_property_texture_progress>` fills from bottom to top."
+msgstr ""
+
+#: ../../docs/classes/class_textureprogress.rst:100
+msgid "**FILL_CLOCKWISE** = **4** --- Turns the node into a radial bar. The :ref:`texture_progress<class_TextureProgress_property_texture_progress>` fills clockwise. See :ref:`radial_center_offset<class_TextureProgress_property_radial_center_offset>`, :ref:`radial_initial_angle<class_TextureProgress_property_radial_initial_angle>` and :ref:`radial_fill_degrees<class_TextureProgress_property_radial_fill_degrees>` to control the way the bar fills up."
+msgstr ""
+
+#: ../../docs/classes/class_textureprogress.rst:102
+msgid "**FILL_COUNTER_CLOCKWISE** = **5** --- Turns the node into a radial bar. The :ref:`texture_progress<class_TextureProgress_property_texture_progress>` fills counterclockwise. See :ref:`radial_center_offset<class_TextureProgress_property_radial_center_offset>`, :ref:`radial_initial_angle<class_TextureProgress_property_radial_initial_angle>` and :ref:`radial_fill_degrees<class_TextureProgress_property_radial_fill_degrees>` to control the way the bar fills up."
+msgstr ""
+
+#: ../../docs/classes/class_textureprogress.rst:104
+msgid "**FILL_BILINEAR_LEFT_AND_RIGHT** = **6** --- The :ref:`texture_progress<class_TextureProgress_property_texture_progress>` fills from the center, expanding both towards the left and the right."
+msgstr ""
+
+#: ../../docs/classes/class_textureprogress.rst:106
+msgid "**FILL_BILINEAR_TOP_AND_BOTTOM** = **7** --- The :ref:`texture_progress<class_TextureProgress_property_texture_progress>` fills from the center, expanding both towards the top and the bottom."
+msgstr ""
+
+#: ../../docs/classes/class_textureprogress.rst:108
+msgid "**FILL_CLOCKWISE_AND_COUNTER_CLOCKWISE** = **8** --- Turns the node into a radial bar. The :ref:`texture_progress<class_TextureProgress_property_texture_progress>` fills radially from the center, expanding both clockwise and counterclockwise. See :ref:`radial_center_offset<class_TextureProgress_property_radial_center_offset>`, :ref:`radial_initial_angle<class_TextureProgress_property_radial_initial_angle>` and :ref:`radial_fill_degrees<class_TextureProgress_property_radial_fill_degrees>` to control the way the bar fills up."
+msgstr ""
+
+#: ../../docs/classes/class_textureprogress.rst:111
+msgid "Property Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_textureprogress.rst:115
+msgid ":ref:`int<class_int>` **fill_mode**"
+msgstr ""
+
+#: ../../docs/classes/class_textureprogress.rst:118
+#: ../../docs/classes/class_textureprogress.rst:134
+#: ../../docs/classes/class_textureprogress.rst:150
+#: ../../docs/classes/class_textureprogress.rst:166
+#: ../../docs/classes/class_textureprogress.rst:184
+#: ../../docs/classes/class_textureprogress.rst:200
+#: ../../docs/classes/class_textureprogress.rst:216
+#: ../../docs/classes/class_textureprogress.rst:232
+#: ../../docs/classes/class_textureprogress.rst:248
+#: ../../docs/classes/class_textureprogress.rst:308
+#: ../../docs/classes/class_textureprogress.rst:324
+#: ../../docs/classes/class_textureprogress.rst:340
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_textureprogress.rst:120
+#: ../../docs/classes/class_textureprogress.rst:136
+#: ../../docs/classes/class_textureprogress.rst:152
+#: ../../docs/classes/class_textureprogress.rst:168
+#: ../../docs/classes/class_textureprogress.rst:186
+#: ../../docs/classes/class_textureprogress.rst:202
+#: ../../docs/classes/class_textureprogress.rst:218
+#: ../../docs/classes/class_textureprogress.rst:234
+#: ../../docs/classes/class_textureprogress.rst:250
+#: ../../docs/classes/class_textureprogress.rst:264
+#: ../../docs/classes/class_textureprogress.rst:278
+#: ../../docs/classes/class_textureprogress.rst:294
+#: ../../docs/classes/class_textureprogress.rst:310
+#: ../../docs/classes/class_textureprogress.rst:326
+#: ../../docs/classes/class_textureprogress.rst:342
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_textureprogress.rst:120
+msgid "set_fill_mode(value)"
+msgstr ""
+
+#: ../../docs/classes/class_textureprogress.rst:122
+#: ../../docs/classes/class_textureprogress.rst:138
+#: ../../docs/classes/class_textureprogress.rst:154
+#: ../../docs/classes/class_textureprogress.rst:170
+#: ../../docs/classes/class_textureprogress.rst:188
+#: ../../docs/classes/class_textureprogress.rst:204
+#: ../../docs/classes/class_textureprogress.rst:220
+#: ../../docs/classes/class_textureprogress.rst:236
+#: ../../docs/classes/class_textureprogress.rst:252
+#: ../../docs/classes/class_textureprogress.rst:266
+#: ../../docs/classes/class_textureprogress.rst:280
+#: ../../docs/classes/class_textureprogress.rst:296
+#: ../../docs/classes/class_textureprogress.rst:312
+#: ../../docs/classes/class_textureprogress.rst:328
+#: ../../docs/classes/class_textureprogress.rst:344
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_textureprogress.rst:122
+msgid "get_fill_mode()"
+msgstr ""
+
+#: ../../docs/classes/class_textureprogress.rst:125
+msgid "The fill direction. See :ref:`FillMode<enum_TextureProgress_FillMode>` for possible values."
+msgstr ""
+
+#: ../../docs/classes/class_textureprogress.rst:131
+msgid ":ref:`bool<class_bool>` **nine_patch_stretch**"
+msgstr ""
+
+#: ../../docs/classes/class_textureprogress.rst:136
+msgid "set_nine_patch_stretch(value)"
+msgstr ""
+
+#: ../../docs/classes/class_textureprogress.rst:138
+msgid "get_nine_patch_stretch()"
+msgstr ""
+
+#: ../../docs/classes/class_textureprogress.rst:141
+msgid "If ``true``, Godot treats the bar's textures like in :ref:`NinePatchRect<class_NinePatchRect>`. Use the ``stretch_margin_*`` properties like :ref:`stretch_margin_bottom<class_TextureProgress_property_stretch_margin_bottom>` to set up the nine patch's 3×3 grid. When using a radial :ref:`fill_mode<class_TextureProgress_property_fill_mode>`, this setting will enable stretching."
+msgstr ""
+
+#: ../../docs/classes/class_textureprogress.rst:147
+msgid ":ref:`Vector2<class_Vector2>` **radial_center_offset**"
+msgstr ""
+
+#: ../../docs/classes/class_textureprogress.rst:152
+msgid "set_radial_center_offset(value)"
+msgstr ""
+
+#: ../../docs/classes/class_textureprogress.rst:154
+msgid "get_radial_center_offset()"
+msgstr ""
+
+#: ../../docs/classes/class_textureprogress.rst:157
+msgid "Offsets :ref:`texture_progress<class_TextureProgress_property_texture_progress>` if :ref:`fill_mode<class_TextureProgress_property_fill_mode>` is :ref:`FILL_CLOCKWISE<class_TextureProgress_constant_FILL_CLOCKWISE>` or :ref:`FILL_COUNTER_CLOCKWISE<class_TextureProgress_constant_FILL_COUNTER_CLOCKWISE>`."
+msgstr ""
+
+#: ../../docs/classes/class_textureprogress.rst:163
+msgid ":ref:`float<class_float>` **radial_fill_degrees**"
+msgstr ""
+
+#: ../../docs/classes/class_textureprogress.rst:168
+msgid "set_fill_degrees(value)"
+msgstr ""
+
+#: ../../docs/classes/class_textureprogress.rst:170
+msgid "get_fill_degrees()"
+msgstr ""
+
+#: ../../docs/classes/class_textureprogress.rst:173
+msgid "Upper limit for the fill of :ref:`texture_progress<class_TextureProgress_property_texture_progress>` if :ref:`fill_mode<class_TextureProgress_property_fill_mode>` is :ref:`FILL_CLOCKWISE<class_TextureProgress_constant_FILL_CLOCKWISE>` or :ref:`FILL_COUNTER_CLOCKWISE<class_TextureProgress_constant_FILL_COUNTER_CLOCKWISE>`. When the node's ``value`` is equal to its ``max_value``, the texture fills up to this angle."
+msgstr ""
+
+#: ../../docs/classes/class_textureprogress.rst:175
+msgid "See :ref:`Range.value<class_Range_property_value>`, :ref:`Range.max_value<class_Range_property_max_value>`."
+msgstr ""
+
+#: ../../docs/classes/class_textureprogress.rst:181
+msgid ":ref:`float<class_float>` **radial_initial_angle**"
+msgstr ""
+
+#: ../../docs/classes/class_textureprogress.rst:186
+msgid "set_radial_initial_angle(value)"
+msgstr ""
+
+#: ../../docs/classes/class_textureprogress.rst:188
+msgid "get_radial_initial_angle()"
+msgstr ""
+
+#: ../../docs/classes/class_textureprogress.rst:191
+msgid "Starting angle for the fill of :ref:`texture_progress<class_TextureProgress_property_texture_progress>` if :ref:`fill_mode<class_TextureProgress_property_fill_mode>` is :ref:`FILL_CLOCKWISE<class_TextureProgress_constant_FILL_CLOCKWISE>` or :ref:`FILL_COUNTER_CLOCKWISE<class_TextureProgress_constant_FILL_COUNTER_CLOCKWISE>`. When the node's ``value`` is equal to its ``min_value``, the texture doesn't show up at all. When the ``value`` increases, the texture fills and tends towards :ref:`radial_fill_degrees<class_TextureProgress_property_radial_fill_degrees>`."
+msgstr ""
+
+#: ../../docs/classes/class_textureprogress.rst:197
+msgid ":ref:`int<class_int>` **stretch_margin_bottom**"
+msgstr ""
+
+#: ../../docs/classes/class_textureprogress.rst:202
+#: ../../docs/classes/class_textureprogress.rst:218
+#: ../../docs/classes/class_textureprogress.rst:234
+#: ../../docs/classes/class_textureprogress.rst:250
+msgid "set_stretch_margin(value)"
+msgstr ""
+
+#: ../../docs/classes/class_textureprogress.rst:204
+#: ../../docs/classes/class_textureprogress.rst:220
+#: ../../docs/classes/class_textureprogress.rst:236
+#: ../../docs/classes/class_textureprogress.rst:252
+msgid "get_stretch_margin()"
+msgstr ""
+
+#: ../../docs/classes/class_textureprogress.rst:207
+msgid "The height of the 9-patch's bottom row. A margin of 16 means the 9-slice's bottom corners and side will have a height of 16 pixels. You can set all 4 margin values individually to create panels with non-uniform borders."
+msgstr ""
+
+#: ../../docs/classes/class_textureprogress.rst:213
+msgid ":ref:`int<class_int>` **stretch_margin_left**"
+msgstr ""
+
+#: ../../docs/classes/class_textureprogress.rst:223
+msgid "The width of the 9-patch's left column."
+msgstr ""
+
+#: ../../docs/classes/class_textureprogress.rst:229
+msgid ":ref:`int<class_int>` **stretch_margin_right**"
+msgstr ""
+
+#: ../../docs/classes/class_textureprogress.rst:239
+msgid "The width of the 9-patch's right column."
+msgstr ""
+
+#: ../../docs/classes/class_textureprogress.rst:245
+msgid ":ref:`int<class_int>` **stretch_margin_top**"
+msgstr ""
+
+#: ../../docs/classes/class_textureprogress.rst:255
+msgid "The height of the 9-patch's top row."
+msgstr ""
+
+#: ../../docs/classes/class_textureprogress.rst:261
+msgid ":ref:`Texture<class_Texture>` **texture_over**"
+msgstr ""
+
+#: ../../docs/classes/class_textureprogress.rst:264
+msgid "set_over_texture(value)"
+msgstr ""
+
+#: ../../docs/classes/class_textureprogress.rst:266
+msgid "get_over_texture()"
+msgstr ""
+
+#: ../../docs/classes/class_textureprogress.rst:269
+msgid ":ref:`Texture<class_Texture>` that draws over the progress bar. Use it to add highlights or an upper-frame that hides part of :ref:`texture_progress<class_TextureProgress_property_texture_progress>`."
+msgstr ""
+
+#: ../../docs/classes/class_textureprogress.rst:275
+msgid ":ref:`Texture<class_Texture>` **texture_progress**"
+msgstr ""
+
+#: ../../docs/classes/class_textureprogress.rst:278
+msgid "set_progress_texture(value)"
+msgstr ""
+
+#: ../../docs/classes/class_textureprogress.rst:280
+msgid "get_progress_texture()"
+msgstr ""
+
+#: ../../docs/classes/class_textureprogress.rst:283
+msgid ":ref:`Texture<class_Texture>` that clips based on the node's ``value`` and :ref:`fill_mode<class_TextureProgress_property_fill_mode>`. As ``value`` increased, the texture fills up. It shows entirely when ``value`` reaches ``max_value``. It doesn't show at all if ``value`` is equal to ``min_value``."
+msgstr ""
+
+#: ../../docs/classes/class_textureprogress.rst:285
+msgid "The ``value`` property comes from :ref:`Range<class_Range>`. See :ref:`Range.value<class_Range_property_value>`, :ref:`Range.min_value<class_Range_property_min_value>`, :ref:`Range.max_value<class_Range_property_max_value>`."
+msgstr ""
+
+#: ../../docs/classes/class_textureprogress.rst:291
+msgid ":ref:`Texture<class_Texture>` **texture_under**"
+msgstr ""
+
+#: ../../docs/classes/class_textureprogress.rst:294
+msgid "set_under_texture(value)"
+msgstr ""
+
+#: ../../docs/classes/class_textureprogress.rst:296
+msgid "get_under_texture()"
+msgstr ""
+
+#: ../../docs/classes/class_textureprogress.rst:299
+msgid ":ref:`Texture<class_Texture>` that draws under the progress bar. The bar's background."
+msgstr ""
+
+#: ../../docs/classes/class_textureprogress.rst:305
+msgid ":ref:`Color<class_Color>` **tint_over**"
+msgstr ""
+
+#: ../../docs/classes/class_textureprogress.rst:310
+msgid "set_tint_over(value)"
+msgstr ""
+
+#: ../../docs/classes/class_textureprogress.rst:312
+msgid "get_tint_over()"
+msgstr ""
+
+#: ../../docs/classes/class_textureprogress.rst:315
+msgid "Multiplies the color of the bar's ``texture_over`` texture. The effect is similar to :ref:`CanvasItem.modulate<class_CanvasItem_property_modulate>`, except it only affects this specific texture instead of the entire node."
+msgstr ""
+
+#: ../../docs/classes/class_textureprogress.rst:321
+msgid ":ref:`Color<class_Color>` **tint_progress**"
+msgstr ""
+
+#: ../../docs/classes/class_textureprogress.rst:326
+msgid "set_tint_progress(value)"
+msgstr ""
+
+#: ../../docs/classes/class_textureprogress.rst:328
+msgid "get_tint_progress()"
+msgstr ""
+
+#: ../../docs/classes/class_textureprogress.rst:331
+msgid "Multiplies the color of the bar's ``texture_progress`` texture."
+msgstr ""
+
+#: ../../docs/classes/class_textureprogress.rst:337
+msgid ":ref:`Color<class_Color>` **tint_under**"
+msgstr ""
+
+#: ../../docs/classes/class_textureprogress.rst:342
+msgid "set_tint_under(value)"
+msgstr ""
+
+#: ../../docs/classes/class_textureprogress.rst:344
+msgid "get_tint_under()"
+msgstr ""
+
+#: ../../docs/classes/class_textureprogress.rst:347
+msgid "Multiplies the color of the bar's ``texture_under`` texture."
+msgstr ""
+
+#: ../../docs/classes/class_textureprogress.rst:350
+msgid "Method Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_textureprogress.rst:354
+msgid ":ref:`int<class_int>` **get_stretch_margin** **(** :ref:`Margin<enum_@GlobalScope_Margin>` margin **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_textureprogress.rst:360
+msgid "void **set_stretch_margin** **(** :ref:`Margin<enum_@GlobalScope_Margin>` margin, :ref:`int<class_int>` value **)**"
+msgstr ""

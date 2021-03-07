@@ -1,0 +1,110 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_visualscriptselect.rst:10
+msgid "VisualScriptSelect"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptselect.rst:12
+msgid "**Inherits:** :ref:`VisualScriptNode<class_VisualScriptNode>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptselect.rst:14
+msgid "Chooses between two input values."
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptselect.rst:17
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptselect.rst:19
+msgid "Chooses between two input values based on a Boolean condition."
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptselect.rst:21
+msgid "**Input Ports:**"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptselect.rst:23
+msgid "Data (boolean): ``cond``"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptselect.rst:25
+msgid "Data (variant): ``a``"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptselect.rst:27
+msgid "Data (variant): ``b``"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptselect.rst:29
+msgid "**Output Ports:**"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptselect.rst:31
+msgid "Data (variant): ``out``"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptselect.rst:34
+msgid "Properties"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptselect.rst:37
+msgid ":ref:`Variant.Type<enum_@GlobalScope_Variant.Type>`"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptselect.rst:37
+msgid ":ref:`type<class_VisualScriptSelect_property_type>`"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptselect.rst:37
+#: ../../docs/classes/class_visualscriptselect.rst:48
+msgid "``0``"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptselect.rst:41
+msgid "Property Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptselect.rst:45
+msgid ":ref:`Variant.Type<enum_@GlobalScope_Variant.Type>` **type**"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptselect.rst:48
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptselect.rst:50
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptselect.rst:50
+msgid "set_typed(value)"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptselect.rst:52
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptselect.rst:52
+msgid "get_typed()"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptselect.rst:55
+msgid "The input variables' type."
+msgstr ""

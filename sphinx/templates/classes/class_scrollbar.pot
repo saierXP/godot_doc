@@ -1,0 +1,123 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_scrollbar.rst:10
+msgid "ScrollBar"
+msgstr ""
+
+#: ../../docs/classes/class_scrollbar.rst:12
+msgid "**Inherits:** :ref:`Range<class_Range>` **<** :ref:`Control<class_Control>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_scrollbar.rst:14
+msgid "**Inherited By:** :ref:`HScrollBar<class_HScrollBar>`, :ref:`VScrollBar<class_VScrollBar>`"
+msgstr ""
+
+#: ../../docs/classes/class_scrollbar.rst:16
+msgid "Base class for scroll bars."
+msgstr ""
+
+#: ../../docs/classes/class_scrollbar.rst:19
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_scrollbar.rst:21
+msgid "Scrollbars are a :ref:`Range<class_Range>`-based :ref:`Control<class_Control>`, that display a draggable area (the size of the page). Horizontal (:ref:`HScrollBar<class_HScrollBar>`) and Vertical (:ref:`VScrollBar<class_VScrollBar>`) versions are available."
+msgstr ""
+
+#: ../../docs/classes/class_scrollbar.rst:24
+msgid "Properties"
+msgstr ""
+
+#: ../../docs/classes/class_scrollbar.rst:27
+#: ../../docs/classes/class_scrollbar.rst:31
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../../docs/classes/class_scrollbar.rst:27
+msgid ":ref:`custom_step<class_ScrollBar_property_custom_step>`"
+msgstr ""
+
+#: ../../docs/classes/class_scrollbar.rst:27
+#: ../../docs/classes/class_scrollbar.rst:51
+msgid "``-1.0``"
+msgstr ""
+
+#: ../../docs/classes/class_scrollbar.rst:29
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../../docs/classes/class_scrollbar.rst:29
+msgid "size_flags_vertical"
+msgstr ""
+
+#: ../../docs/classes/class_scrollbar.rst:29
+msgid "``0`` *(parent override)*"
+msgstr ""
+
+#: ../../docs/classes/class_scrollbar.rst:31
+msgid "step"
+msgstr ""
+
+#: ../../docs/classes/class_scrollbar.rst:31
+msgid "``0.0`` *(parent override)*"
+msgstr ""
+
+#: ../../docs/classes/class_scrollbar.rst:35
+msgid "Signals"
+msgstr ""
+
+#: ../../docs/classes/class_scrollbar.rst:39
+msgid "**scrolling** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_scrollbar.rst:41
+msgid "Emitted when the scrollbar is being scrolled."
+msgstr ""
+
+#: ../../docs/classes/class_scrollbar.rst:44
+msgid "Property Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_scrollbar.rst:48
+msgid ":ref:`float<class_float>` **custom_step**"
+msgstr ""
+
+#: ../../docs/classes/class_scrollbar.rst:51
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_scrollbar.rst:53
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_scrollbar.rst:53
+msgid "set_custom_step(value)"
+msgstr ""
+
+#: ../../docs/classes/class_scrollbar.rst:55
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_scrollbar.rst:55
+msgid "get_custom_step()"
+msgstr ""
+
+#: ../../docs/classes/class_scrollbar.rst:58
+msgid "Overrides the step used when clicking increment and decrement buttons or when using arrow keys when the ``ScrollBar`` is focused."
+msgstr ""

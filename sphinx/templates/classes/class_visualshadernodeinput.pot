@@ -1,0 +1,115 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_visualshadernodeinput.rst:10
+msgid "VisualShaderNodeInput"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodeinput.rst:12
+msgid "**Inherits:** :ref:`VisualShaderNode<class_VisualShaderNode>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodeinput.rst:17
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodeinput.rst:19
+msgid "Gives access to input variables (built-ins) available for the shader. See the shading reference for the list of available built-ins for each shader type (check ``Tutorials`` section for link)."
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodeinput.rst:22
+msgid "Tutorials"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodeinput.rst:24
+msgid ":doc:`../tutorials/shading/shading_reference/index`"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodeinput.rst:27
+msgid "Properties"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodeinput.rst:30
+#: ../../docs/classes/class_visualshadernodeinput.rst:37
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodeinput.rst:30
+msgid ":ref:`input_name<class_VisualShaderNodeInput_property_input_name>`"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodeinput.rst:30
+#: ../../docs/classes/class_visualshadernodeinput.rst:55
+msgid "``\"[None]\"``"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodeinput.rst:34
+msgid "Methods"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodeinput.rst:37
+msgid ":ref:`get_input_real_name<class_VisualShaderNodeInput_method_get_input_real_name>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodeinput.rst:41
+msgid "Signals"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodeinput.rst:45
+msgid "**input_type_changed** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodeinput.rst:48
+msgid "Property Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodeinput.rst:52
+msgid ":ref:`String<class_String>` **input_name**"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodeinput.rst:55
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodeinput.rst:57
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodeinput.rst:57
+msgid "set_input_name(value)"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodeinput.rst:59
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodeinput.rst:59
+msgid "get_input_name()"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodeinput.rst:62
+msgid "One of the several input constants in lower-case style like: \"vertex\"(``VERTEX``) or \"point_size\"(``POINT_SIZE``)."
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodeinput.rst:65
+msgid "Method Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodeinput.rst:69
+msgid ":ref:`String<class_String>` **get_input_real_name** **(** **)** |const|"
+msgstr ""

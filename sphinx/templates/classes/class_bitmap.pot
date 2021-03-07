@@ -1,0 +1,173 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_bitmap.rst:10
+msgid "BitMap"
+msgstr ""
+
+#: ../../docs/classes/class_bitmap.rst:12
+msgid "**Inherits:** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_bitmap.rst:14
+msgid "Boolean matrix."
+msgstr ""
+
+#: ../../docs/classes/class_bitmap.rst:17
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_bitmap.rst:19
+msgid "A two-dimensional array of boolean values, can be used to efficiently store a binary matrix (every matrix element takes only one bit) and query the values using natural cartesian coordinates."
+msgstr ""
+
+#: ../../docs/classes/class_bitmap.rst:22
+msgid "Methods"
+msgstr ""
+
+#: ../../docs/classes/class_bitmap.rst:25
+#: ../../docs/classes/class_bitmap.rst:27
+#: ../../docs/classes/class_bitmap.rst:35
+#: ../../docs/classes/class_bitmap.rst:39
+#: ../../docs/classes/class_bitmap.rst:41
+msgid "void"
+msgstr ""
+
+#: ../../docs/classes/class_bitmap.rst:25
+msgid ":ref:`create<class_BitMap_method_create>` **(** :ref:`Vector2<class_Vector2>` size **)**"
+msgstr ""
+
+#: ../../docs/classes/class_bitmap.rst:27
+msgid ":ref:`create_from_image_alpha<class_BitMap_method_create_from_image_alpha>` **(** :ref:`Image<class_Image>` image, :ref:`float<class_float>` threshold=0.1 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_bitmap.rst:29
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_bitmap.rst:29
+msgid ":ref:`get_bit<class_BitMap_method_get_bit>` **(** :ref:`Vector2<class_Vector2>` position **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_bitmap.rst:31
+msgid ":ref:`Vector2<class_Vector2>`"
+msgstr ""
+
+#: ../../docs/classes/class_bitmap.rst:31
+msgid ":ref:`get_size<class_BitMap_method_get_size>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_bitmap.rst:33
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../../docs/classes/class_bitmap.rst:33
+msgid ":ref:`get_true_bit_count<class_BitMap_method_get_true_bit_count>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_bitmap.rst:35
+msgid ":ref:`grow_mask<class_BitMap_method_grow_mask>` **(** :ref:`int<class_int>` pixels, :ref:`Rect2<class_Rect2>` rect **)**"
+msgstr ""
+
+#: ../../docs/classes/class_bitmap.rst:37
+msgid ":ref:`Array<class_Array>`"
+msgstr ""
+
+#: ../../docs/classes/class_bitmap.rst:37
+msgid ":ref:`opaque_to_polygons<class_BitMap_method_opaque_to_polygons>` **(** :ref:`Rect2<class_Rect2>` rect, :ref:`float<class_float>` epsilon=2.0 **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_bitmap.rst:39
+msgid ":ref:`set_bit<class_BitMap_method_set_bit>` **(** :ref:`Vector2<class_Vector2>` position, :ref:`bool<class_bool>` bit **)**"
+msgstr ""
+
+#: ../../docs/classes/class_bitmap.rst:41
+msgid ":ref:`set_bit_rect<class_BitMap_method_set_bit_rect>` **(** :ref:`Rect2<class_Rect2>` rect, :ref:`bool<class_bool>` bit **)**"
+msgstr ""
+
+#: ../../docs/classes/class_bitmap.rst:45
+msgid "Method Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_bitmap.rst:49
+msgid "void **create** **(** :ref:`Vector2<class_Vector2>` size **)**"
+msgstr ""
+
+#: ../../docs/classes/class_bitmap.rst:51
+msgid "Creates a bitmap with the specified size, filled with ``false``."
+msgstr ""
+
+#: ../../docs/classes/class_bitmap.rst:57
+msgid "void **create_from_image_alpha** **(** :ref:`Image<class_Image>` image, :ref:`float<class_float>` threshold=0.1 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_bitmap.rst:59
+msgid "Creates a bitmap that matches the given image dimensions, every element of the bitmap is set to ``false`` if the alpha value of the image at that position is equal to ``threshold`` or less, and ``true`` in other case."
+msgstr ""
+
+#: ../../docs/classes/class_bitmap.rst:65
+msgid ":ref:`bool<class_bool>` **get_bit** **(** :ref:`Vector2<class_Vector2>` position **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_bitmap.rst:67
+msgid "Returns bitmap's value at the specified position."
+msgstr ""
+
+#: ../../docs/classes/class_bitmap.rst:73
+msgid ":ref:`Vector2<class_Vector2>` **get_size** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_bitmap.rst:75
+msgid "Returns bitmap's dimensions."
+msgstr ""
+
+#: ../../docs/classes/class_bitmap.rst:81
+msgid ":ref:`int<class_int>` **get_true_bit_count** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_bitmap.rst:83
+msgid "Returns the amount of bitmap elements that are set to ``true``."
+msgstr ""
+
+#: ../../docs/classes/class_bitmap.rst:89
+msgid "void **grow_mask** **(** :ref:`int<class_int>` pixels, :ref:`Rect2<class_Rect2>` rect **)**"
+msgstr ""
+
+#: ../../docs/classes/class_bitmap.rst:91
+msgid "Applies morphological dilation to the bitmap. The first argument is the dilation amount, Rect2 is the area where the dilation will be applied."
+msgstr ""
+
+#: ../../docs/classes/class_bitmap.rst:97
+msgid ":ref:`Array<class_Array>` **opaque_to_polygons** **(** :ref:`Rect2<class_Rect2>` rect, :ref:`float<class_float>` epsilon=2.0 **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_bitmap.rst:103
+msgid "void **set_bit** **(** :ref:`Vector2<class_Vector2>` position, :ref:`bool<class_bool>` bit **)**"
+msgstr ""
+
+#: ../../docs/classes/class_bitmap.rst:105
+msgid "Sets the bitmap's element at the specified position, to the specified value."
+msgstr ""
+
+#: ../../docs/classes/class_bitmap.rst:111
+msgid "void **set_bit_rect** **(** :ref:`Rect2<class_Rect2>` rect, :ref:`bool<class_bool>` bit **)**"
+msgstr ""
+
+#: ../../docs/classes/class_bitmap.rst:113
+msgid "Sets a rectangular portion of the bitmap to the specified value."
+msgstr ""

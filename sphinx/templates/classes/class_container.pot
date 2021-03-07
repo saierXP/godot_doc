@@ -1,0 +1,102 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_container.rst:10
+msgid "Container"
+msgstr ""
+
+#: ../../docs/classes/class_container.rst:12
+msgid "**Inherits:** :ref:`Control<class_Control>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_container.rst:14
+msgid "**Inherited By:** :ref:`BoxContainer<class_BoxContainer>`, :ref:`CenterContainer<class_CenterContainer>`, :ref:`EditorProperty<class_EditorProperty>`, :ref:`GraphNode<class_GraphNode>`, :ref:`GridContainer<class_GridContainer>`, :ref:`MarginContainer<class_MarginContainer>`, :ref:`PanelContainer<class_PanelContainer>`, :ref:`ScrollContainer<class_ScrollContainer>`, :ref:`SplitContainer<class_SplitContainer>`, :ref:`TabContainer<class_TabContainer>`, :ref:`ViewportContainer<class_ViewportContainer>`"
+msgstr ""
+
+#: ../../docs/classes/class_container.rst:16
+msgid "Base node for containers."
+msgstr ""
+
+#: ../../docs/classes/class_container.rst:19
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_container.rst:21
+msgid "Base node for containers. A ``Container`` contains other controls and automatically arranges them in a certain way."
+msgstr ""
+
+#: ../../docs/classes/class_container.rst:23
+msgid "A Control can inherit this to create custom container classes."
+msgstr ""
+
+#: ../../docs/classes/class_container.rst:26
+msgid "Methods"
+msgstr ""
+
+#: ../../docs/classes/class_container.rst:29
+#: ../../docs/classes/class_container.rst:31
+msgid "void"
+msgstr ""
+
+#: ../../docs/classes/class_container.rst:29
+msgid ":ref:`fit_child_in_rect<class_Container_method_fit_child_in_rect>` **(** :ref:`Control<class_Control>` child, :ref:`Rect2<class_Rect2>` rect **)**"
+msgstr ""
+
+#: ../../docs/classes/class_container.rst:31
+msgid ":ref:`queue_sort<class_Container_method_queue_sort>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_container.rst:35
+msgid "Signals"
+msgstr ""
+
+#: ../../docs/classes/class_container.rst:39
+msgid "**sort_children** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_container.rst:41
+msgid "Emitted when sorting the children is needed."
+msgstr ""
+
+#: ../../docs/classes/class_container.rst:44
+msgid "Constants"
+msgstr ""
+
+#: ../../docs/classes/class_container.rst:48
+msgid "**NOTIFICATION_SORT_CHILDREN** = **50** --- Notification for when sorting the children, it must be obeyed immediately."
+msgstr ""
+
+#: ../../docs/classes/class_container.rst:51
+msgid "Method Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_container.rst:55
+msgid "void **fit_child_in_rect** **(** :ref:`Control<class_Control>` child, :ref:`Rect2<class_Rect2>` rect **)**"
+msgstr ""
+
+#: ../../docs/classes/class_container.rst:57
+msgid "Fit a child control in a given rect. This is mainly a helper for creating custom container classes."
+msgstr ""
+
+#: ../../docs/classes/class_container.rst:63
+msgid "void **queue_sort** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_container.rst:65
+msgid "Queue resort of the contained children. This is called automatically anyway, but can be called upon request."
+msgstr ""

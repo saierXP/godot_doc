@@ -1,0 +1,134 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_scriptcreatedialog.rst:10
+msgid "ScriptCreateDialog"
+msgstr ""
+
+#: ../../docs/classes/class_scriptcreatedialog.rst:12
+msgid "**Inherits:** :ref:`ConfirmationDialog<class_ConfirmationDialog>` **<** :ref:`AcceptDialog<class_AcceptDialog>` **<** :ref:`WindowDialog<class_WindowDialog>` **<** :ref:`Popup<class_Popup>` **<** :ref:`Control<class_Control>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_scriptcreatedialog.rst:14
+msgid "The Editor's popup dialog for creating new :ref:`Script<class_Script>` files."
+msgstr ""
+
+#: ../../docs/classes/class_scriptcreatedialog.rst:17
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_scriptcreatedialog.rst:19
+msgid "The ``ScriptCreateDialog`` creates script files according to a given template for a given scripting language. The standard use is to configure its fields prior to calling one of the :ref:`Popup.popup<class_Popup_method_popup>` methods."
+msgstr ""
+
+#: ../../docs/classes/class_scriptcreatedialog.rst:29
+msgid "Properties"
+msgstr ""
+
+#: ../../docs/classes/class_scriptcreatedialog.rst:32
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_scriptcreatedialog.rst:32
+msgid "dialog_hide_on_ok"
+msgstr ""
+
+#: ../../docs/classes/class_scriptcreatedialog.rst:32
+msgid "``false`` *(parent override)*"
+msgstr ""
+
+#: ../../docs/classes/class_scriptcreatedialog.rst:34
+#: ../../docs/classes/class_scriptcreatedialog.rst:36
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../../docs/classes/class_scriptcreatedialog.rst:34
+msgid "margin_bottom"
+msgstr ""
+
+#: ../../docs/classes/class_scriptcreatedialog.rst:34
+msgid "``232.0`` *(parent override)*"
+msgstr ""
+
+#: ../../docs/classes/class_scriptcreatedialog.rst:36
+msgid "margin_right"
+msgstr ""
+
+#: ../../docs/classes/class_scriptcreatedialog.rst:36
+msgid "``361.0`` *(parent override)*"
+msgstr ""
+
+#: ../../docs/classes/class_scriptcreatedialog.rst:38
+msgid ":ref:`Vector2<class_Vector2>`"
+msgstr ""
+
+#: ../../docs/classes/class_scriptcreatedialog.rst:38
+msgid "rect_size"
+msgstr ""
+
+#: ../../docs/classes/class_scriptcreatedialog.rst:38
+msgid "``Vector2( 361, 232 )`` *(parent override)*"
+msgstr ""
+
+#: ../../docs/classes/class_scriptcreatedialog.rst:40
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../../docs/classes/class_scriptcreatedialog.rst:40
+msgid "window_title"
+msgstr ""
+
+#: ../../docs/classes/class_scriptcreatedialog.rst:40
+msgid "``\"Attach Node Script\"`` *(parent override)*"
+msgstr ""
+
+#: ../../docs/classes/class_scriptcreatedialog.rst:44
+msgid "Methods"
+msgstr ""
+
+#: ../../docs/classes/class_scriptcreatedialog.rst:47
+msgid "void"
+msgstr ""
+
+#: ../../docs/classes/class_scriptcreatedialog.rst:47
+msgid ":ref:`config<class_ScriptCreateDialog_method_config>` **(** :ref:`String<class_String>` inherits, :ref:`String<class_String>` path, :ref:`bool<class_bool>` built_in_enabled=true, :ref:`bool<class_bool>` load_enabled=true **)**"
+msgstr ""
+
+#: ../../docs/classes/class_scriptcreatedialog.rst:51
+msgid "Signals"
+msgstr ""
+
+#: ../../docs/classes/class_scriptcreatedialog.rst:55
+msgid "**script_created** **(** :ref:`Script<class_Script>` script **)**"
+msgstr ""
+
+#: ../../docs/classes/class_scriptcreatedialog.rst:57
+msgid "Emitted when the user clicks the OK button."
+msgstr ""
+
+#: ../../docs/classes/class_scriptcreatedialog.rst:60
+msgid "Method Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_scriptcreatedialog.rst:64
+msgid "void **config** **(** :ref:`String<class_String>` inherits, :ref:`String<class_String>` path, :ref:`bool<class_bool>` built_in_enabled=true, :ref:`bool<class_bool>` load_enabled=true **)**"
+msgstr ""
+
+#: ../../docs/classes/class_scriptcreatedialog.rst:66
+msgid "Prefills required fields to configure the ScriptCreateDialog for use."
+msgstr ""

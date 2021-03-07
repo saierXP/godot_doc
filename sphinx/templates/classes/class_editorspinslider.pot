@@ -1,0 +1,132 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_editorspinslider.rst:10
+msgid "EditorSpinSlider"
+msgstr ""
+
+#: ../../docs/classes/class_editorspinslider.rst:12
+msgid "**Inherits:** :ref:`Range<class_Range>` **<** :ref:`Control<class_Control>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_editorspinslider.rst:17
+msgid "Properties"
+msgstr ""
+
+#: ../../docs/classes/class_editorspinslider.rst:20
+#: ../../docs/classes/class_editorspinslider.rst:26
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_editorspinslider.rst:20
+msgid ":ref:`flat<class_EditorSpinSlider_property_flat>`"
+msgstr ""
+
+#: ../../docs/classes/class_editorspinslider.rst:20
+#: ../../docs/classes/class_editorspinslider.rst:26
+#: ../../docs/classes/class_editorspinslider.rst:37
+#: ../../docs/classes/class_editorspinslider.rst:65
+msgid "``false``"
+msgstr ""
+
+#: ../../docs/classes/class_editorspinslider.rst:22
+msgid ":ref:`FocusMode<enum_Control_FocusMode>`"
+msgstr ""
+
+#: ../../docs/classes/class_editorspinslider.rst:22
+msgid "focus_mode"
+msgstr ""
+
+#: ../../docs/classes/class_editorspinslider.rst:22
+msgid "``2`` *(parent override)*"
+msgstr ""
+
+#: ../../docs/classes/class_editorspinslider.rst:24
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../../docs/classes/class_editorspinslider.rst:24
+msgid ":ref:`label<class_EditorSpinSlider_property_label>`"
+msgstr ""
+
+#: ../../docs/classes/class_editorspinslider.rst:24
+#: ../../docs/classes/class_editorspinslider.rst:51
+msgid "``\"\"``"
+msgstr ""
+
+#: ../../docs/classes/class_editorspinslider.rst:26
+msgid ":ref:`read_only<class_EditorSpinSlider_property_read_only>`"
+msgstr ""
+
+#: ../../docs/classes/class_editorspinslider.rst:30
+msgid "Property Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_editorspinslider.rst:34
+msgid ":ref:`bool<class_bool>` **flat**"
+msgstr ""
+
+#: ../../docs/classes/class_editorspinslider.rst:37
+#: ../../docs/classes/class_editorspinslider.rst:51
+#: ../../docs/classes/class_editorspinslider.rst:65
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_editorspinslider.rst:39
+#: ../../docs/classes/class_editorspinslider.rst:53
+#: ../../docs/classes/class_editorspinslider.rst:67
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_editorspinslider.rst:39
+msgid "set_flat(value)"
+msgstr ""
+
+#: ../../docs/classes/class_editorspinslider.rst:41
+#: ../../docs/classes/class_editorspinslider.rst:55
+#: ../../docs/classes/class_editorspinslider.rst:69
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_editorspinslider.rst:41
+msgid "is_flat()"
+msgstr ""
+
+#: ../../docs/classes/class_editorspinslider.rst:48
+msgid ":ref:`String<class_String>` **label**"
+msgstr ""
+
+#: ../../docs/classes/class_editorspinslider.rst:53
+msgid "set_label(value)"
+msgstr ""
+
+#: ../../docs/classes/class_editorspinslider.rst:55
+msgid "get_label()"
+msgstr ""
+
+#: ../../docs/classes/class_editorspinslider.rst:62
+msgid ":ref:`bool<class_bool>` **read_only**"
+msgstr ""
+
+#: ../../docs/classes/class_editorspinslider.rst:67
+msgid "set_read_only(value)"
+msgstr ""
+
+#: ../../docs/classes/class_editorspinslider.rst:69
+msgid "is_read_only()"
+msgstr ""

@@ -1,0 +1,432 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_audioeffectdelay.rst:10
+msgid "AudioEffectDelay"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectdelay.rst:12
+msgid "**Inherits:** :ref:`AudioEffect<class_AudioEffect>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectdelay.rst:14
+msgid "Adds a delay audio effect to an audio bus. Plays input signal back after a period of time."
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectdelay.rst:16
+msgid "Two tap delay and feedback options."
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectdelay.rst:19
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectdelay.rst:21
+msgid "Plays input signal back after a period of time. The delayed signal may be played back multiple times to create the sound of a repeating, decaying echo. Delay effects range from a subtle echo effect to a pronounced blending of previous sounds with new sounds."
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectdelay.rst:24
+msgid "Properties"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectdelay.rst:27
+#: ../../docs/classes/class_audioeffectdelay.rst:31
+#: ../../docs/classes/class_audioeffectdelay.rst:33
+#: ../../docs/classes/class_audioeffectdelay.rst:35
+#: ../../docs/classes/class_audioeffectdelay.rst:39
+#: ../../docs/classes/class_audioeffectdelay.rst:41
+#: ../../docs/classes/class_audioeffectdelay.rst:43
+#: ../../docs/classes/class_audioeffectdelay.rst:47
+#: ../../docs/classes/class_audioeffectdelay.rst:49
+#: ../../docs/classes/class_audioeffectdelay.rst:51
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectdelay.rst:27
+msgid ":ref:`dry<class_AudioEffectDelay_property_dry>`"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectdelay.rst:27
+#: ../../docs/classes/class_audioeffectdelay.rst:62
+msgid "``1.0``"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectdelay.rst:29
+#: ../../docs/classes/class_audioeffectdelay.rst:37
+#: ../../docs/classes/class_audioeffectdelay.rst:45
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectdelay.rst:29
+msgid ":ref:`feedback/active<class_AudioEffectDelay_property_feedback/active>`"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectdelay.rst:29
+#: ../../docs/classes/class_audioeffectdelay.rst:78
+msgid "``false``"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectdelay.rst:31
+msgid ":ref:`feedback/delay_ms<class_AudioEffectDelay_property_feedback/delay_ms>`"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectdelay.rst:31
+#: ../../docs/classes/class_audioeffectdelay.rst:94
+msgid "``340.0``"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectdelay.rst:33
+msgid ":ref:`feedback/level_db<class_AudioEffectDelay_property_feedback/level_db>`"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectdelay.rst:33
+#: ../../docs/classes/class_audioeffectdelay.rst:41
+#: ../../docs/classes/class_audioeffectdelay.rst:110
+#: ../../docs/classes/class_audioeffectdelay.rst:174
+msgid "``-6.0``"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectdelay.rst:35
+msgid ":ref:`feedback/lowpass<class_AudioEffectDelay_property_feedback/lowpass>`"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectdelay.rst:35
+#: ../../docs/classes/class_audioeffectdelay.rst:126
+msgid "``16000.0``"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectdelay.rst:37
+msgid ":ref:`tap1/active<class_AudioEffectDelay_property_tap1/active>`"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectdelay.rst:37
+#: ../../docs/classes/class_audioeffectdelay.rst:45
+#: ../../docs/classes/class_audioeffectdelay.rst:142
+#: ../../docs/classes/class_audioeffectdelay.rst:206
+msgid "``true``"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectdelay.rst:39
+msgid ":ref:`tap1/delay_ms<class_AudioEffectDelay_property_tap1/delay_ms>`"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectdelay.rst:39
+#: ../../docs/classes/class_audioeffectdelay.rst:158
+msgid "``250.0``"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectdelay.rst:41
+msgid ":ref:`tap1/level_db<class_AudioEffectDelay_property_tap1/level_db>`"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectdelay.rst:43
+msgid ":ref:`tap1/pan<class_AudioEffectDelay_property_tap1/pan>`"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectdelay.rst:43
+#: ../../docs/classes/class_audioeffectdelay.rst:190
+msgid "``0.2``"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectdelay.rst:45
+msgid ":ref:`tap2/active<class_AudioEffectDelay_property_tap2/active>`"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectdelay.rst:47
+msgid ":ref:`tap2/delay_ms<class_AudioEffectDelay_property_tap2/delay_ms>`"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectdelay.rst:47
+#: ../../docs/classes/class_audioeffectdelay.rst:222
+msgid "``500.0``"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectdelay.rst:49
+msgid ":ref:`tap2/level_db<class_AudioEffectDelay_property_tap2/level_db>`"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectdelay.rst:49
+#: ../../docs/classes/class_audioeffectdelay.rst:238
+msgid "``-12.0``"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectdelay.rst:51
+msgid ":ref:`tap2/pan<class_AudioEffectDelay_property_tap2/pan>`"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectdelay.rst:51
+#: ../../docs/classes/class_audioeffectdelay.rst:254
+msgid "``-0.4``"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectdelay.rst:55
+msgid "Property Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectdelay.rst:59
+msgid ":ref:`float<class_float>` **dry**"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectdelay.rst:62
+#: ../../docs/classes/class_audioeffectdelay.rst:78
+#: ../../docs/classes/class_audioeffectdelay.rst:94
+#: ../../docs/classes/class_audioeffectdelay.rst:110
+#: ../../docs/classes/class_audioeffectdelay.rst:126
+#: ../../docs/classes/class_audioeffectdelay.rst:142
+#: ../../docs/classes/class_audioeffectdelay.rst:158
+#: ../../docs/classes/class_audioeffectdelay.rst:174
+#: ../../docs/classes/class_audioeffectdelay.rst:190
+#: ../../docs/classes/class_audioeffectdelay.rst:206
+#: ../../docs/classes/class_audioeffectdelay.rst:222
+#: ../../docs/classes/class_audioeffectdelay.rst:238
+#: ../../docs/classes/class_audioeffectdelay.rst:254
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectdelay.rst:64
+#: ../../docs/classes/class_audioeffectdelay.rst:80
+#: ../../docs/classes/class_audioeffectdelay.rst:96
+#: ../../docs/classes/class_audioeffectdelay.rst:112
+#: ../../docs/classes/class_audioeffectdelay.rst:128
+#: ../../docs/classes/class_audioeffectdelay.rst:144
+#: ../../docs/classes/class_audioeffectdelay.rst:160
+#: ../../docs/classes/class_audioeffectdelay.rst:176
+#: ../../docs/classes/class_audioeffectdelay.rst:192
+#: ../../docs/classes/class_audioeffectdelay.rst:208
+#: ../../docs/classes/class_audioeffectdelay.rst:224
+#: ../../docs/classes/class_audioeffectdelay.rst:240
+#: ../../docs/classes/class_audioeffectdelay.rst:256
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectdelay.rst:64
+msgid "set_dry(value)"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectdelay.rst:66
+#: ../../docs/classes/class_audioeffectdelay.rst:82
+#: ../../docs/classes/class_audioeffectdelay.rst:98
+#: ../../docs/classes/class_audioeffectdelay.rst:114
+#: ../../docs/classes/class_audioeffectdelay.rst:130
+#: ../../docs/classes/class_audioeffectdelay.rst:146
+#: ../../docs/classes/class_audioeffectdelay.rst:162
+#: ../../docs/classes/class_audioeffectdelay.rst:178
+#: ../../docs/classes/class_audioeffectdelay.rst:194
+#: ../../docs/classes/class_audioeffectdelay.rst:210
+#: ../../docs/classes/class_audioeffectdelay.rst:226
+#: ../../docs/classes/class_audioeffectdelay.rst:242
+#: ../../docs/classes/class_audioeffectdelay.rst:258
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectdelay.rst:66
+msgid "get_dry()"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectdelay.rst:69
+msgid "Output percent of original sound. At 0, only delayed sounds are output. Value can range from 0 to 1."
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectdelay.rst:75
+msgid ":ref:`bool<class_bool>` **feedback/active**"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectdelay.rst:80
+msgid "set_feedback_active(value)"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectdelay.rst:82
+msgid "is_feedback_active()"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectdelay.rst:85
+msgid "If ``true``, feedback is enabled."
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectdelay.rst:91
+msgid ":ref:`float<class_float>` **feedback/delay_ms**"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectdelay.rst:96
+msgid "set_feedback_delay_ms(value)"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectdelay.rst:98
+msgid "get_feedback_delay_ms()"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectdelay.rst:101
+msgid "Feedback delay time in milliseconds."
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectdelay.rst:107
+msgid ":ref:`float<class_float>` **feedback/level_db**"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectdelay.rst:112
+msgid "set_feedback_level_db(value)"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectdelay.rst:114
+msgid "get_feedback_level_db()"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectdelay.rst:117
+#: ../../docs/classes/class_audioeffectdelay.rst:181
+msgid "Sound level for ``tap1``."
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectdelay.rst:123
+msgid ":ref:`float<class_float>` **feedback/lowpass**"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectdelay.rst:128
+msgid "set_feedback_lowpass(value)"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectdelay.rst:130
+msgid "get_feedback_lowpass()"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectdelay.rst:133
+msgid "Low-pass filter for feedback, in Hz. Frequencies below this value are filtered out of the source signal."
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectdelay.rst:139
+msgid ":ref:`bool<class_bool>` **tap1/active**"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectdelay.rst:144
+msgid "set_tap1_active(value)"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectdelay.rst:146
+msgid "is_tap1_active()"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectdelay.rst:149
+msgid "If ``true``, ``tap1`` will be enabled."
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectdelay.rst:155
+msgid ":ref:`float<class_float>` **tap1/delay_ms**"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectdelay.rst:160
+msgid "set_tap1_delay_ms(value)"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectdelay.rst:162
+msgid "get_tap1_delay_ms()"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectdelay.rst:165
+msgid "``tap1`` delay time in milliseconds."
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectdelay.rst:171
+msgid ":ref:`float<class_float>` **tap1/level_db**"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectdelay.rst:176
+msgid "set_tap1_level_db(value)"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectdelay.rst:178
+msgid "get_tap1_level_db()"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectdelay.rst:187
+msgid ":ref:`float<class_float>` **tap1/pan**"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectdelay.rst:192
+msgid "set_tap1_pan(value)"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectdelay.rst:194
+msgid "get_tap1_pan()"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectdelay.rst:197
+msgid "Pan position for ``tap1``. Value can range from -1 (fully left) to 1 (fully right)."
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectdelay.rst:203
+msgid ":ref:`bool<class_bool>` **tap2/active**"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectdelay.rst:208
+msgid "set_tap2_active(value)"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectdelay.rst:210
+msgid "is_tap2_active()"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectdelay.rst:213
+msgid "If ``true``, ``tap2`` will be enabled."
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectdelay.rst:219
+msgid ":ref:`float<class_float>` **tap2/delay_ms**"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectdelay.rst:224
+msgid "set_tap2_delay_ms(value)"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectdelay.rst:226
+msgid "get_tap2_delay_ms()"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectdelay.rst:229
+msgid "**Tap2** delay time in milliseconds."
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectdelay.rst:235
+msgid ":ref:`float<class_float>` **tap2/level_db**"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectdelay.rst:240
+msgid "set_tap2_level_db(value)"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectdelay.rst:242
+msgid "get_tap2_level_db()"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectdelay.rst:245
+msgid "Sound level for ``tap2``."
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectdelay.rst:251
+msgid ":ref:`float<class_float>` **tap2/pan**"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectdelay.rst:256
+msgid "set_tap2_pan(value)"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectdelay.rst:258
+msgid "get_tap2_pan()"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectdelay.rst:261
+msgid "Pan position for ``tap2``. Value can range from -1 (fully left) to 1 (fully right)."
+msgstr ""

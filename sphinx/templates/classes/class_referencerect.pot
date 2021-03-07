@@ -1,0 +1,150 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_referencerect.rst:10
+msgid "ReferenceRect"
+msgstr ""
+
+#: ../../docs/classes/class_referencerect.rst:12
+msgid "**Inherits:** :ref:`Control<class_Control>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_referencerect.rst:14
+msgid "Reference frame for GUI."
+msgstr ""
+
+#: ../../docs/classes/class_referencerect.rst:17
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_referencerect.rst:19
+msgid "A rectangle box that displays only a :ref:`border_color<class_ReferenceRect_property_border_color>` border color around its rectangle. ``ReferenceRect`` has no fill :ref:`Color<class_Color>`. If you need to display a rectangle filled with a solid color, consider using :ref:`ColorRect<class_ColorRect>` instead."
+msgstr ""
+
+#: ../../docs/classes/class_referencerect.rst:22
+msgid "Properties"
+msgstr ""
+
+#: ../../docs/classes/class_referencerect.rst:25
+msgid ":ref:`Color<class_Color>`"
+msgstr ""
+
+#: ../../docs/classes/class_referencerect.rst:25
+msgid ":ref:`border_color<class_ReferenceRect_property_border_color>`"
+msgstr ""
+
+#: ../../docs/classes/class_referencerect.rst:25
+#: ../../docs/classes/class_referencerect.rst:40
+msgid "``Color( 1, 0, 0, 1 )``"
+msgstr ""
+
+#: ../../docs/classes/class_referencerect.rst:27
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../../docs/classes/class_referencerect.rst:27
+msgid ":ref:`border_width<class_ReferenceRect_property_border_width>`"
+msgstr ""
+
+#: ../../docs/classes/class_referencerect.rst:27
+#: ../../docs/classes/class_referencerect.rst:56
+msgid "``1.0``"
+msgstr ""
+
+#: ../../docs/classes/class_referencerect.rst:29
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_referencerect.rst:29
+msgid ":ref:`editor_only<class_ReferenceRect_property_editor_only>`"
+msgstr ""
+
+#: ../../docs/classes/class_referencerect.rst:29
+#: ../../docs/classes/class_referencerect.rst:72
+msgid "``true``"
+msgstr ""
+
+#: ../../docs/classes/class_referencerect.rst:33
+msgid "Property Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_referencerect.rst:37
+msgid ":ref:`Color<class_Color>` **border_color**"
+msgstr ""
+
+#: ../../docs/classes/class_referencerect.rst:40
+#: ../../docs/classes/class_referencerect.rst:56
+#: ../../docs/classes/class_referencerect.rst:72
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_referencerect.rst:42
+#: ../../docs/classes/class_referencerect.rst:58
+#: ../../docs/classes/class_referencerect.rst:74
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_referencerect.rst:42
+msgid "set_border_color(value)"
+msgstr ""
+
+#: ../../docs/classes/class_referencerect.rst:44
+#: ../../docs/classes/class_referencerect.rst:60
+#: ../../docs/classes/class_referencerect.rst:76
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_referencerect.rst:44
+msgid "get_border_color()"
+msgstr ""
+
+#: ../../docs/classes/class_referencerect.rst:47
+msgid "Sets the border :ref:`Color<class_Color>` of the ``ReferenceRect``."
+msgstr ""
+
+#: ../../docs/classes/class_referencerect.rst:53
+msgid ":ref:`float<class_float>` **border_width**"
+msgstr ""
+
+#: ../../docs/classes/class_referencerect.rst:58
+msgid "set_border_width(value)"
+msgstr ""
+
+#: ../../docs/classes/class_referencerect.rst:60
+msgid "get_border_width()"
+msgstr ""
+
+#: ../../docs/classes/class_referencerect.rst:63
+msgid "Sets the border width of the ``ReferenceRect``. The border grows both inwards and outwards with respect to the rectangle box."
+msgstr ""
+
+#: ../../docs/classes/class_referencerect.rst:69
+msgid ":ref:`bool<class_bool>` **editor_only**"
+msgstr ""
+
+#: ../../docs/classes/class_referencerect.rst:74
+msgid "set_editor_only(value)"
+msgstr ""
+
+#: ../../docs/classes/class_referencerect.rst:76
+msgid "get_editor_only()"
+msgstr ""
+
+#: ../../docs/classes/class_referencerect.rst:79
+msgid "If set to ``true``, the ``ReferenceRect`` will only be visible while in editor. Otherwise, ``ReferenceRect`` will be visible in game."
+msgstr ""

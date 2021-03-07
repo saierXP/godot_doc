@@ -1,0 +1,686 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_navigationmesh.rst:10
+msgid "NavigationMesh"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:12
+msgid "**Inherits:** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:17
+msgid "Tutorials"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:19
+msgid "`https://godotengine.org/asset-library/asset/124 <https://godotengine.org/asset-library/asset/124>`_"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:22
+msgid "Properties"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:25
+#: ../../docs/classes/class_navigationmesh.rst:27
+#: ../../docs/classes/class_navigationmesh.rst:29
+#: ../../docs/classes/class_navigationmesh.rst:31
+#: ../../docs/classes/class_navigationmesh.rst:33
+#: ../../docs/classes/class_navigationmesh.rst:35
+#: ../../docs/classes/class_navigationmesh.rst:37
+#: ../../docs/classes/class_navigationmesh.rst:39
+#: ../../docs/classes/class_navigationmesh.rst:41
+#: ../../docs/classes/class_navigationmesh.rst:43
+#: ../../docs/classes/class_navigationmesh.rst:59
+#: ../../docs/classes/class_navigationmesh.rst:61
+#: ../../docs/classes/class_navigationmesh.rst:63
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:25
+msgid ":ref:`agent/height<class_NavigationMesh_property_agent/height>`"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:25
+#: ../../docs/classes/class_navigationmesh.rst:126
+msgid "``2.0``"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:27
+msgid ":ref:`agent/max_climb<class_NavigationMesh_property_agent/max_climb>`"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:27
+#: ../../docs/classes/class_navigationmesh.rst:140
+msgid "``0.9``"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:29
+msgid ":ref:`agent/max_slope<class_NavigationMesh_property_agent/max_slope>`"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:29
+#: ../../docs/classes/class_navigationmesh.rst:154
+msgid "``45.0``"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:31
+msgid ":ref:`agent/radius<class_NavigationMesh_property_agent/radius>`"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:31
+#: ../../docs/classes/class_navigationmesh.rst:168
+msgid "``0.6``"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:33
+msgid ":ref:`cell/height<class_NavigationMesh_property_cell/height>`"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:33
+#: ../../docs/classes/class_navigationmesh.rst:182
+msgid "``0.2``"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:35
+msgid ":ref:`cell/size<class_NavigationMesh_property_cell/size>`"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:35
+#: ../../docs/classes/class_navigationmesh.rst:196
+msgid "``0.3``"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:37
+msgid ":ref:`detail/sample_distance<class_NavigationMesh_property_detail/sample_distance>`"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:37
+#: ../../docs/classes/class_navigationmesh.rst:59
+#: ../../docs/classes/class_navigationmesh.rst:210
+#: ../../docs/classes/class_navigationmesh.rst:360
+msgid "``6.0``"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:39
+msgid ":ref:`detail/sample_max_error<class_NavigationMesh_property_detail/sample_max_error>`"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:39
+#: ../../docs/classes/class_navigationmesh.rst:224
+msgid "``1.0``"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:41
+msgid ":ref:`edge/max_error<class_NavigationMesh_property_edge/max_error>`"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:41
+#: ../../docs/classes/class_navigationmesh.rst:238
+msgid "``1.3``"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:43
+msgid ":ref:`edge/max_length<class_NavigationMesh_property_edge/max_length>`"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:43
+#: ../../docs/classes/class_navigationmesh.rst:252
+msgid "``12.0``"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:45
+#: ../../docs/classes/class_navigationmesh.rst:47
+#: ../../docs/classes/class_navigationmesh.rst:49
+#: ../../docs/classes/class_navigationmesh.rst:78
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:45
+msgid ":ref:`filter/filter_walkable_low_height_spans<class_NavigationMesh_property_filter/filter_walkable_low_height_spans>`"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:45
+#: ../../docs/classes/class_navigationmesh.rst:47
+#: ../../docs/classes/class_navigationmesh.rst:49
+#: ../../docs/classes/class_navigationmesh.rst:266
+#: ../../docs/classes/class_navigationmesh.rst:280
+#: ../../docs/classes/class_navigationmesh.rst:294
+msgid "``false``"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:47
+msgid ":ref:`filter/ledge_spans<class_NavigationMesh_property_filter/ledge_spans>`"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:49
+msgid ":ref:`filter/low_hanging_obstacles<class_NavigationMesh_property_filter/low_hanging_obstacles>`"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:51
+#: ../../docs/classes/class_navigationmesh.rst:53
+#: ../../docs/classes/class_navigationmesh.rst:55
+#: ../../docs/classes/class_navigationmesh.rst:65
+#: ../../docs/classes/class_navigationmesh.rst:82
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:51
+msgid ":ref:`geometry/collision_mask<class_NavigationMesh_property_geometry/collision_mask>`"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:53
+msgid ":ref:`geometry/parsed_geometry_type<class_NavigationMesh_property_geometry/parsed_geometry_type>`"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:53
+#: ../../docs/classes/class_navigationmesh.rst:55
+#: ../../docs/classes/class_navigationmesh.rst:65
+#: ../../docs/classes/class_navigationmesh.rst:320
+#: ../../docs/classes/class_navigationmesh.rst:334
+#: ../../docs/classes/class_navigationmesh.rst:402
+msgid "``0``"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:55
+msgid ":ref:`geometry/source_geometry_mode<class_NavigationMesh_property_geometry/source_geometry_mode>`"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:57
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:57
+msgid ":ref:`geometry/source_group_name<class_NavigationMesh_property_geometry/source_group_name>`"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:59
+msgid ":ref:`polygon/verts_per_poly<class_NavigationMesh_property_polygon/verts_per_poly>`"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:61
+msgid ":ref:`region/merge_size<class_NavigationMesh_property_region/merge_size>`"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:61
+#: ../../docs/classes/class_navigationmesh.rst:374
+msgid "``20.0``"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:63
+msgid ":ref:`region/min_size<class_NavigationMesh_property_region/min_size>`"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:63
+#: ../../docs/classes/class_navigationmesh.rst:388
+msgid "``8.0``"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:65
+msgid ":ref:`sample_partition_type/sample_partition_type<class_NavigationMesh_property_sample_partition_type/sample_partition_type>`"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:69
+msgid "Methods"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:72
+#: ../../docs/classes/class_navigationmesh.rst:74
+#: ../../docs/classes/class_navigationmesh.rst:76
+#: ../../docs/classes/class_navigationmesh.rst:86
+#: ../../docs/classes/class_navigationmesh.rst:88
+msgid "void"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:72
+msgid ":ref:`add_polygon<class_NavigationMesh_method_add_polygon>` **(** :ref:`PoolIntArray<class_PoolIntArray>` polygon **)**"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:74
+msgid ":ref:`clear_polygons<class_NavigationMesh_method_clear_polygons>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:76
+msgid ":ref:`create_from_mesh<class_NavigationMesh_method_create_from_mesh>` **(** :ref:`Mesh<class_Mesh>` mesh **)**"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:78
+msgid ":ref:`get_collision_mask_bit<class_NavigationMesh_method_get_collision_mask_bit>` **(** :ref:`int<class_int>` bit **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:80
+msgid ":ref:`PoolIntArray<class_PoolIntArray>`"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:80
+msgid ":ref:`get_polygon<class_NavigationMesh_method_get_polygon>` **(** :ref:`int<class_int>` idx **)**"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:82
+msgid ":ref:`get_polygon_count<class_NavigationMesh_method_get_polygon_count>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:84
+msgid ":ref:`PoolVector3Array<class_PoolVector3Array>`"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:84
+msgid ":ref:`get_vertices<class_NavigationMesh_method_get_vertices>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:86
+msgid ":ref:`set_collision_mask_bit<class_NavigationMesh_method_set_collision_mask_bit>` **(** :ref:`int<class_int>` bit, :ref:`bool<class_bool>` value **)**"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:88
+msgid ":ref:`set_vertices<class_NavigationMesh_method_set_vertices>` **(** :ref:`PoolVector3Array<class_PoolVector3Array>` vertices **)**"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:92
+msgid "Constants"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:106
+msgid "**SAMPLE_PARTITION_WATERSHED** = **0**"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:108
+msgid "**SAMPLE_PARTITION_MONOTONE** = **1**"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:110
+msgid "**SAMPLE_PARTITION_LAYERS** = **2**"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:112
+msgid "**PARSED_GEOMETRY_MESH_INSTANCES** = **0**"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:114
+msgid "**PARSED_GEOMETRY_STATIC_COLLIDERS** = **1**"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:116
+msgid "**PARSED_GEOMETRY_BOTH** = **2**"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:119
+msgid "Property Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:123
+msgid ":ref:`float<class_float>` **agent/height**"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:126
+#: ../../docs/classes/class_navigationmesh.rst:140
+#: ../../docs/classes/class_navigationmesh.rst:154
+#: ../../docs/classes/class_navigationmesh.rst:168
+#: ../../docs/classes/class_navigationmesh.rst:182
+#: ../../docs/classes/class_navigationmesh.rst:196
+#: ../../docs/classes/class_navigationmesh.rst:210
+#: ../../docs/classes/class_navigationmesh.rst:224
+#: ../../docs/classes/class_navigationmesh.rst:238
+#: ../../docs/classes/class_navigationmesh.rst:252
+#: ../../docs/classes/class_navigationmesh.rst:266
+#: ../../docs/classes/class_navigationmesh.rst:280
+#: ../../docs/classes/class_navigationmesh.rst:294
+#: ../../docs/classes/class_navigationmesh.rst:320
+#: ../../docs/classes/class_navigationmesh.rst:334
+#: ../../docs/classes/class_navigationmesh.rst:360
+#: ../../docs/classes/class_navigationmesh.rst:374
+#: ../../docs/classes/class_navigationmesh.rst:388
+#: ../../docs/classes/class_navigationmesh.rst:402
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:128
+#: ../../docs/classes/class_navigationmesh.rst:142
+#: ../../docs/classes/class_navigationmesh.rst:156
+#: ../../docs/classes/class_navigationmesh.rst:170
+#: ../../docs/classes/class_navigationmesh.rst:184
+#: ../../docs/classes/class_navigationmesh.rst:198
+#: ../../docs/classes/class_navigationmesh.rst:212
+#: ../../docs/classes/class_navigationmesh.rst:226
+#: ../../docs/classes/class_navigationmesh.rst:240
+#: ../../docs/classes/class_navigationmesh.rst:254
+#: ../../docs/classes/class_navigationmesh.rst:268
+#: ../../docs/classes/class_navigationmesh.rst:282
+#: ../../docs/classes/class_navigationmesh.rst:296
+#: ../../docs/classes/class_navigationmesh.rst:308
+#: ../../docs/classes/class_navigationmesh.rst:322
+#: ../../docs/classes/class_navigationmesh.rst:336
+#: ../../docs/classes/class_navigationmesh.rst:348
+#: ../../docs/classes/class_navigationmesh.rst:362
+#: ../../docs/classes/class_navigationmesh.rst:376
+#: ../../docs/classes/class_navigationmesh.rst:390
+#: ../../docs/classes/class_navigationmesh.rst:404
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:128
+msgid "set_agent_height(value)"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:130
+#: ../../docs/classes/class_navigationmesh.rst:144
+#: ../../docs/classes/class_navigationmesh.rst:158
+#: ../../docs/classes/class_navigationmesh.rst:172
+#: ../../docs/classes/class_navigationmesh.rst:186
+#: ../../docs/classes/class_navigationmesh.rst:200
+#: ../../docs/classes/class_navigationmesh.rst:214
+#: ../../docs/classes/class_navigationmesh.rst:228
+#: ../../docs/classes/class_navigationmesh.rst:242
+#: ../../docs/classes/class_navigationmesh.rst:256
+#: ../../docs/classes/class_navigationmesh.rst:270
+#: ../../docs/classes/class_navigationmesh.rst:284
+#: ../../docs/classes/class_navigationmesh.rst:298
+#: ../../docs/classes/class_navigationmesh.rst:310
+#: ../../docs/classes/class_navigationmesh.rst:324
+#: ../../docs/classes/class_navigationmesh.rst:338
+#: ../../docs/classes/class_navigationmesh.rst:350
+#: ../../docs/classes/class_navigationmesh.rst:364
+#: ../../docs/classes/class_navigationmesh.rst:378
+#: ../../docs/classes/class_navigationmesh.rst:392
+#: ../../docs/classes/class_navigationmesh.rst:406
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:130
+msgid "get_agent_height()"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:137
+msgid ":ref:`float<class_float>` **agent/max_climb**"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:142
+msgid "set_agent_max_climb(value)"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:144
+msgid "get_agent_max_climb()"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:151
+msgid ":ref:`float<class_float>` **agent/max_slope**"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:156
+msgid "set_agent_max_slope(value)"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:158
+msgid "get_agent_max_slope()"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:165
+msgid ":ref:`float<class_float>` **agent/radius**"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:170
+msgid "set_agent_radius(value)"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:172
+msgid "get_agent_radius()"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:179
+msgid ":ref:`float<class_float>` **cell/height**"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:184
+msgid "set_cell_height(value)"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:186
+msgid "get_cell_height()"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:193
+msgid ":ref:`float<class_float>` **cell/size**"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:198
+msgid "set_cell_size(value)"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:200
+msgid "get_cell_size()"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:207
+msgid ":ref:`float<class_float>` **detail/sample_distance**"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:212
+msgid "set_detail_sample_distance(value)"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:214
+msgid "get_detail_sample_distance()"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:221
+msgid ":ref:`float<class_float>` **detail/sample_max_error**"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:226
+msgid "set_detail_sample_max_error(value)"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:228
+msgid "get_detail_sample_max_error()"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:235
+msgid ":ref:`float<class_float>` **edge/max_error**"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:240
+msgid "set_edge_max_error(value)"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:242
+msgid "get_edge_max_error()"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:249
+msgid ":ref:`float<class_float>` **edge/max_length**"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:254
+msgid "set_edge_max_length(value)"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:256
+msgid "get_edge_max_length()"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:263
+msgid ":ref:`bool<class_bool>` **filter/filter_walkable_low_height_spans**"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:268
+msgid "set_filter_walkable_low_height_spans(value)"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:270
+msgid "get_filter_walkable_low_height_spans()"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:277
+msgid ":ref:`bool<class_bool>` **filter/ledge_spans**"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:282
+msgid "set_filter_ledge_spans(value)"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:284
+msgid "get_filter_ledge_spans()"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:291
+msgid ":ref:`bool<class_bool>` **filter/low_hanging_obstacles**"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:296
+msgid "set_filter_low_hanging_obstacles(value)"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:298
+msgid "get_filter_low_hanging_obstacles()"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:305
+msgid ":ref:`int<class_int>` **geometry/collision_mask**"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:308
+msgid "set_collision_mask(value)"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:310
+msgid "get_collision_mask()"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:317
+msgid ":ref:`int<class_int>` **geometry/parsed_geometry_type**"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:322
+msgid "set_parsed_geometry_type(value)"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:324
+msgid "get_parsed_geometry_type()"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:331
+msgid ":ref:`int<class_int>` **geometry/source_geometry_mode**"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:336
+msgid "set_source_geometry_mode(value)"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:338
+msgid "get_source_geometry_mode()"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:345
+msgid ":ref:`String<class_String>` **geometry/source_group_name**"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:348
+msgid "set_source_group_name(value)"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:350
+msgid "get_source_group_name()"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:357
+msgid ":ref:`float<class_float>` **polygon/verts_per_poly**"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:362
+msgid "set_verts_per_poly(value)"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:364
+msgid "get_verts_per_poly()"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:371
+msgid ":ref:`float<class_float>` **region/merge_size**"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:376
+msgid "set_region_merge_size(value)"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:378
+msgid "get_region_merge_size()"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:385
+msgid ":ref:`float<class_float>` **region/min_size**"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:390
+msgid "set_region_min_size(value)"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:392
+msgid "get_region_min_size()"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:399
+msgid ":ref:`int<class_int>` **sample_partition_type/sample_partition_type**"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:404
+msgid "set_sample_partition_type(value)"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:406
+msgid "get_sample_partition_type()"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:410
+msgid "Method Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:414
+msgid "void **add_polygon** **(** :ref:`PoolIntArray<class_PoolIntArray>` polygon **)**"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:420
+msgid "void **clear_polygons** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:426
+msgid "void **create_from_mesh** **(** :ref:`Mesh<class_Mesh>` mesh **)**"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:432
+msgid ":ref:`bool<class_bool>` **get_collision_mask_bit** **(** :ref:`int<class_int>` bit **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:438
+msgid ":ref:`PoolIntArray<class_PoolIntArray>` **get_polygon** **(** :ref:`int<class_int>` idx **)**"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:444
+msgid ":ref:`int<class_int>` **get_polygon_count** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:450
+msgid ":ref:`PoolVector3Array<class_PoolVector3Array>` **get_vertices** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:456
+msgid "void **set_collision_mask_bit** **(** :ref:`int<class_int>` bit, :ref:`bool<class_bool>` value **)**"
+msgstr ""
+
+#: ../../docs/classes/class_navigationmesh.rst:462
+msgid "void **set_vertices** **(** :ref:`PoolVector3Array<class_PoolVector3Array>` vertices **)**"
+msgstr ""

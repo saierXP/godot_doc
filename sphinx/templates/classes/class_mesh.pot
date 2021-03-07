@@ -1,0 +1,480 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_mesh.rst:10
+msgid "Mesh"
+msgstr ""
+
+#: ../../docs/classes/class_mesh.rst:12
+msgid "**Inherits:** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_mesh.rst:14
+msgid "**Inherited By:** :ref:`ArrayMesh<class_ArrayMesh>`, :ref:`PrimitiveMesh<class_PrimitiveMesh>`"
+msgstr ""
+
+#: ../../docs/classes/class_mesh.rst:16
+msgid "A :ref:`Resource<class_Resource>` that contains vertex array-based geometry."
+msgstr ""
+
+#: ../../docs/classes/class_mesh.rst:19
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_mesh.rst:21
+msgid "Mesh is a type of :ref:`Resource<class_Resource>` that contains vertex array-based geometry, divided in *surfaces*. Each surface contains a completely separate array and a material used to draw it. Design wise, a mesh with multiple surfaces is preferred to a single surface, because objects created in 3D editing software commonly contain multiple materials."
+msgstr ""
+
+#: ../../docs/classes/class_mesh.rst:24
+msgid "Tutorials"
+msgstr ""
+
+#: ../../docs/classes/class_mesh.rst:26
+msgid "`https://godotengine.org/asset-library/asset/123 <https://godotengine.org/asset-library/asset/123>`_"
+msgstr ""
+
+#: ../../docs/classes/class_mesh.rst:28
+msgid "`https://godotengine.org/asset-library/asset/126 <https://godotengine.org/asset-library/asset/126>`_"
+msgstr ""
+
+#: ../../docs/classes/class_mesh.rst:30
+msgid "`https://godotengine.org/asset-library/asset/125 <https://godotengine.org/asset-library/asset/125>`_"
+msgstr ""
+
+#: ../../docs/classes/class_mesh.rst:32
+msgid "`https://godotengine.org/asset-library/asset/678 <https://godotengine.org/asset-library/asset/678>`_"
+msgstr ""
+
+#: ../../docs/classes/class_mesh.rst:35
+msgid "Properties"
+msgstr ""
+
+#: ../../docs/classes/class_mesh.rst:38
+msgid ":ref:`Vector2<class_Vector2>`"
+msgstr ""
+
+#: ../../docs/classes/class_mesh.rst:38
+msgid ":ref:`lightmap_size_hint<class_Mesh_property_lightmap_size_hint>`"
+msgstr ""
+
+#: ../../docs/classes/class_mesh.rst:38
+#: ../../docs/classes/class_mesh.rst:265
+msgid "``Vector2( 0, 0 )``"
+msgstr ""
+
+#: ../../docs/classes/class_mesh.rst:42
+msgid "Methods"
+msgstr ""
+
+#: ../../docs/classes/class_mesh.rst:45
+#: ../../docs/classes/class_mesh.rst:49
+msgid ":ref:`Shape<class_Shape>`"
+msgstr ""
+
+#: ../../docs/classes/class_mesh.rst:45
+msgid ":ref:`create_convex_shape<class_Mesh_method_create_convex_shape>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_mesh.rst:47
+msgid ":ref:`Mesh<class_Mesh>`"
+msgstr ""
+
+#: ../../docs/classes/class_mesh.rst:47
+msgid ":ref:`create_outline<class_Mesh_method_create_outline>` **(** :ref:`float<class_float>` margin **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_mesh.rst:49
+msgid ":ref:`create_trimesh_shape<class_Mesh_method_create_trimesh_shape>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_mesh.rst:51
+msgid ":ref:`TriangleMesh<class_TriangleMesh>`"
+msgstr ""
+
+#: ../../docs/classes/class_mesh.rst:51
+msgid ":ref:`generate_triangle_mesh<class_Mesh_method_generate_triangle_mesh>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_mesh.rst:53
+msgid ":ref:`AABB<class_AABB>`"
+msgstr ""
+
+#: ../../docs/classes/class_mesh.rst:53
+msgid ":ref:`get_aabb<class_Mesh_method_get_aabb>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_mesh.rst:55
+msgid ":ref:`PoolVector3Array<class_PoolVector3Array>`"
+msgstr ""
+
+#: ../../docs/classes/class_mesh.rst:55
+msgid ":ref:`get_faces<class_Mesh_method_get_faces>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_mesh.rst:57
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../../docs/classes/class_mesh.rst:57
+msgid ":ref:`get_surface_count<class_Mesh_method_get_surface_count>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_mesh.rst:59
+#: ../../docs/classes/class_mesh.rst:61
+msgid ":ref:`Array<class_Array>`"
+msgstr ""
+
+#: ../../docs/classes/class_mesh.rst:59
+msgid ":ref:`surface_get_arrays<class_Mesh_method_surface_get_arrays>` **(** :ref:`int<class_int>` surf_idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_mesh.rst:61
+msgid ":ref:`surface_get_blend_shape_arrays<class_Mesh_method_surface_get_blend_shape_arrays>` **(** :ref:`int<class_int>` surf_idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_mesh.rst:63
+msgid ":ref:`Material<class_Material>`"
+msgstr ""
+
+#: ../../docs/classes/class_mesh.rst:63
+msgid ":ref:`surface_get_material<class_Mesh_method_surface_get_material>` **(** :ref:`int<class_int>` surf_idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_mesh.rst:65
+msgid "void"
+msgstr ""
+
+#: ../../docs/classes/class_mesh.rst:65
+msgid ":ref:`surface_set_material<class_Mesh_method_surface_set_material>` **(** :ref:`int<class_int>` surf_idx, :ref:`Material<class_Material>` material **)**"
+msgstr ""
+
+#: ../../docs/classes/class_mesh.rst:69
+msgid "Enumerations"
+msgstr ""
+
+#: ../../docs/classes/class_mesh.rst:87
+msgid "enum **PrimitiveType**:"
+msgstr ""
+
+#: ../../docs/classes/class_mesh.rst:89
+msgid "**PRIMITIVE_POINTS** = **0** --- Render array as points (one vertex equals one point)."
+msgstr ""
+
+#: ../../docs/classes/class_mesh.rst:91
+msgid "**PRIMITIVE_LINES** = **1** --- Render array as lines (every two vertices a line is created)."
+msgstr ""
+
+#: ../../docs/classes/class_mesh.rst:93
+msgid "**PRIMITIVE_LINE_STRIP** = **2** --- Render array as line strip."
+msgstr ""
+
+#: ../../docs/classes/class_mesh.rst:95
+msgid "**PRIMITIVE_LINE_LOOP** = **3** --- Render array as line loop (like line strip, but closed)."
+msgstr ""
+
+#: ../../docs/classes/class_mesh.rst:97
+msgid "**PRIMITIVE_TRIANGLES** = **4** --- Render array as triangles (every three vertices a triangle is created)."
+msgstr ""
+
+#: ../../docs/classes/class_mesh.rst:99
+msgid "**PRIMITIVE_TRIANGLE_STRIP** = **5** --- Render array as triangle strips."
+msgstr ""
+
+#: ../../docs/classes/class_mesh.rst:101
+msgid "**PRIMITIVE_TRIANGLE_FAN** = **6** --- Render array as triangle fans."
+msgstr ""
+
+#: ../../docs/classes/class_mesh.rst:111
+msgid "enum **BlendShapeMode**:"
+msgstr ""
+
+#: ../../docs/classes/class_mesh.rst:113
+msgid "**BLEND_SHAPE_MODE_NORMALIZED** = **0** --- Blend shapes are normalized."
+msgstr ""
+
+#: ../../docs/classes/class_mesh.rst:115
+msgid "**BLEND_SHAPE_MODE_RELATIVE** = **1** --- Blend shapes are relative to base weight."
+msgstr ""
+
+#: ../../docs/classes/class_mesh.rst:165
+msgid "enum **ArrayFormat**:"
+msgstr ""
+
+#: ../../docs/classes/class_mesh.rst:167
+msgid "**ARRAY_FORMAT_VERTEX** = **1** --- Mesh array contains vertices. All meshes require a vertex array so this should always be present."
+msgstr ""
+
+#: ../../docs/classes/class_mesh.rst:169
+msgid "**ARRAY_FORMAT_NORMAL** = **2** --- Mesh array contains normals."
+msgstr ""
+
+#: ../../docs/classes/class_mesh.rst:171
+msgid "**ARRAY_FORMAT_TANGENT** = **4** --- Mesh array contains tangents."
+msgstr ""
+
+#: ../../docs/classes/class_mesh.rst:173
+msgid "**ARRAY_FORMAT_COLOR** = **8** --- Mesh array contains colors."
+msgstr ""
+
+#: ../../docs/classes/class_mesh.rst:175
+msgid "**ARRAY_FORMAT_TEX_UV** = **16** --- Mesh array contains UVs."
+msgstr ""
+
+#: ../../docs/classes/class_mesh.rst:177
+msgid "**ARRAY_FORMAT_TEX_UV2** = **32** --- Mesh array contains second UV."
+msgstr ""
+
+#: ../../docs/classes/class_mesh.rst:179
+msgid "**ARRAY_FORMAT_BONES** = **64** --- Mesh array contains bones."
+msgstr ""
+
+#: ../../docs/classes/class_mesh.rst:181
+msgid "**ARRAY_FORMAT_WEIGHTS** = **128** --- Mesh array contains bone weights."
+msgstr ""
+
+#: ../../docs/classes/class_mesh.rst:183
+msgid "**ARRAY_FORMAT_INDEX** = **256** --- Mesh array uses indices."
+msgstr ""
+
+#: ../../docs/classes/class_mesh.rst:185
+msgid "**ARRAY_COMPRESS_BASE** = **9** --- Used internally to calculate other ``ARRAY_COMPRESS_*`` enum values. Do not use."
+msgstr ""
+
+#: ../../docs/classes/class_mesh.rst:187
+msgid "**ARRAY_COMPRESS_VERTEX** = **512** --- Flag used to mark a compressed (half float) vertex array."
+msgstr ""
+
+#: ../../docs/classes/class_mesh.rst:189
+msgid "**ARRAY_COMPRESS_NORMAL** = **1024** --- Flag used to mark a compressed (half float) normal array."
+msgstr ""
+
+#: ../../docs/classes/class_mesh.rst:191
+msgid "**ARRAY_COMPRESS_TANGENT** = **2048** --- Flag used to mark a compressed (half float) tangent array."
+msgstr ""
+
+#: ../../docs/classes/class_mesh.rst:193
+msgid "**ARRAY_COMPRESS_COLOR** = **4096** --- Flag used to mark a compressed (half float) color array."
+msgstr ""
+
+#: ../../docs/classes/class_mesh.rst:195
+msgid "**ARRAY_COMPRESS_TEX_UV** = **8192** --- Flag used to mark a compressed (half float) UV coordinates array."
+msgstr ""
+
+#: ../../docs/classes/class_mesh.rst:197
+msgid "**ARRAY_COMPRESS_TEX_UV2** = **16384** --- Flag used to mark a compressed (half float) UV coordinates array for the second UV coordinates."
+msgstr ""
+
+#: ../../docs/classes/class_mesh.rst:199
+msgid "**ARRAY_COMPRESS_BONES** = **32768** --- Flag used to mark a compressed bone array."
+msgstr ""
+
+#: ../../docs/classes/class_mesh.rst:201
+msgid "**ARRAY_COMPRESS_WEIGHTS** = **65536** --- Flag used to mark a compressed (half float) weight array."
+msgstr ""
+
+#: ../../docs/classes/class_mesh.rst:203
+msgid "**ARRAY_COMPRESS_INDEX** = **131072** --- Flag used to mark a compressed index array."
+msgstr ""
+
+#: ../../docs/classes/class_mesh.rst:205
+msgid "**ARRAY_FLAG_USE_2D_VERTICES** = **262144** --- Flag used to mark that the array contains 2D vertices."
+msgstr ""
+
+#: ../../docs/classes/class_mesh.rst:207
+msgid "**ARRAY_FLAG_USE_16_BIT_BONES** = **524288** --- Flag used to mark that the array uses 16-bit bones instead of 8-bit."
+msgstr ""
+
+#: ../../docs/classes/class_mesh.rst:209
+msgid "**ARRAY_COMPRESS_DEFAULT** = **97280** --- Used to set flags :ref:`ARRAY_COMPRESS_VERTEX<class_Mesh_constant_ARRAY_COMPRESS_VERTEX>`, :ref:`ARRAY_COMPRESS_NORMAL<class_Mesh_constant_ARRAY_COMPRESS_NORMAL>`, :ref:`ARRAY_COMPRESS_TANGENT<class_Mesh_constant_ARRAY_COMPRESS_TANGENT>`, :ref:`ARRAY_COMPRESS_COLOR<class_Mesh_constant_ARRAY_COMPRESS_COLOR>`, :ref:`ARRAY_COMPRESS_TEX_UV<class_Mesh_constant_ARRAY_COMPRESS_TEX_UV>`, :ref:`ARRAY_COMPRESS_TEX_UV2<class_Mesh_constant_ARRAY_COMPRESS_TEX_UV2>` and :ref:`ARRAY_COMPRESS_WEIGHTS<class_Mesh_constant_ARRAY_COMPRESS_WEIGHTS>` quickly."
+msgstr ""
+
+#: ../../docs/classes/class_mesh.rst:235
+msgid "enum **ArrayType**:"
+msgstr ""
+
+#: ../../docs/classes/class_mesh.rst:237
+msgid "**ARRAY_VERTEX** = **0** --- Array of vertices."
+msgstr ""
+
+#: ../../docs/classes/class_mesh.rst:239
+msgid "**ARRAY_NORMAL** = **1** --- Array of normals."
+msgstr ""
+
+#: ../../docs/classes/class_mesh.rst:241
+msgid "**ARRAY_TANGENT** = **2** --- Array of tangents as an array of floats, 4 floats per tangent."
+msgstr ""
+
+#: ../../docs/classes/class_mesh.rst:243
+msgid "**ARRAY_COLOR** = **3** --- Array of colors."
+msgstr ""
+
+#: ../../docs/classes/class_mesh.rst:245
+msgid "**ARRAY_TEX_UV** = **4** --- Array of UV coordinates."
+msgstr ""
+
+#: ../../docs/classes/class_mesh.rst:247
+msgid "**ARRAY_TEX_UV2** = **5** --- Array of second set of UV coordinates."
+msgstr ""
+
+#: ../../docs/classes/class_mesh.rst:249
+msgid "**ARRAY_BONES** = **6** --- Array of bone data."
+msgstr ""
+
+#: ../../docs/classes/class_mesh.rst:251
+msgid "**ARRAY_WEIGHTS** = **7** --- Array of weights."
+msgstr ""
+
+#: ../../docs/classes/class_mesh.rst:253
+msgid "**ARRAY_INDEX** = **8** --- Array of indices."
+msgstr ""
+
+#: ../../docs/classes/class_mesh.rst:255
+msgid "**ARRAY_MAX** = **9** --- Represents the size of the :ref:`ArrayType<enum_Mesh_ArrayType>` enum."
+msgstr ""
+
+#: ../../docs/classes/class_mesh.rst:258
+msgid "Property Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_mesh.rst:262
+msgid ":ref:`Vector2<class_Vector2>` **lightmap_size_hint**"
+msgstr ""
+
+#: ../../docs/classes/class_mesh.rst:265
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_mesh.rst:267
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_mesh.rst:267
+msgid "set_lightmap_size_hint(value)"
+msgstr ""
+
+#: ../../docs/classes/class_mesh.rst:269
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_mesh.rst:269
+msgid "get_lightmap_size_hint()"
+msgstr ""
+
+#: ../../docs/classes/class_mesh.rst:272
+msgid "Sets a hint to be used for lightmap resolution in :ref:`BakedLightmap<class_BakedLightmap>`. Overrides :ref:`BakedLightmap.bake_default_texels_per_unit<class_BakedLightmap_property_bake_default_texels_per_unit>`."
+msgstr ""
+
+#: ../../docs/classes/class_mesh.rst:275
+msgid "Method Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_mesh.rst:279
+msgid ":ref:`Shape<class_Shape>` **create_convex_shape** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_mesh.rst:281
+msgid "Calculate a :ref:`ConvexPolygonShape<class_ConvexPolygonShape>` from the mesh."
+msgstr ""
+
+#: ../../docs/classes/class_mesh.rst:287
+msgid ":ref:`Mesh<class_Mesh>` **create_outline** **(** :ref:`float<class_float>` margin **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_mesh.rst:289
+msgid "Calculate an outline mesh at a defined offset (margin) from the original mesh."
+msgstr ""
+
+#: ../../docs/classes/class_mesh.rst:291
+msgid "**Note:** This method typically returns the vertices in reverse order (e.g. clockwise to counterclockwise)."
+msgstr ""
+
+#: ../../docs/classes/class_mesh.rst:297
+msgid ":ref:`Shape<class_Shape>` **create_trimesh_shape** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_mesh.rst:299
+msgid "Calculate a :ref:`ConcavePolygonShape<class_ConcavePolygonShape>` from the mesh."
+msgstr ""
+
+#: ../../docs/classes/class_mesh.rst:305
+msgid ":ref:`TriangleMesh<class_TriangleMesh>` **generate_triangle_mesh** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_mesh.rst:307
+msgid "Generate a :ref:`TriangleMesh<class_TriangleMesh>` from the mesh."
+msgstr ""
+
+#: ../../docs/classes/class_mesh.rst:313
+msgid ":ref:`AABB<class_AABB>` **get_aabb** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_mesh.rst:315
+msgid "Returns the smallest :ref:`AABB<class_AABB>` enclosing this mesh in local space. Not affected by ``custom_aabb``. See also :ref:`VisualInstance.get_transformed_aabb<class_VisualInstance_method_get_transformed_aabb>`."
+msgstr ""
+
+#: ../../docs/classes/class_mesh.rst:317
+msgid "**Note:** This is only implemented for :ref:`ArrayMesh<class_ArrayMesh>` and :ref:`PrimitiveMesh<class_PrimitiveMesh>`."
+msgstr ""
+
+#: ../../docs/classes/class_mesh.rst:323
+msgid ":ref:`PoolVector3Array<class_PoolVector3Array>` **get_faces** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_mesh.rst:325
+msgid "Returns all the vertices that make up the faces of the mesh. Each three vertices represent one triangle."
+msgstr ""
+
+#: ../../docs/classes/class_mesh.rst:331
+msgid ":ref:`int<class_int>` **get_surface_count** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_mesh.rst:333
+msgid "Returns the amount of surfaces that the ``Mesh`` holds."
+msgstr ""
+
+#: ../../docs/classes/class_mesh.rst:339
+msgid ":ref:`Array<class_Array>` **surface_get_arrays** **(** :ref:`int<class_int>` surf_idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_mesh.rst:341
+msgid "Returns the arrays for the vertices, normals, uvs, etc. that make up the requested surface (see :ref:`ArrayMesh.add_surface_from_arrays<class_ArrayMesh_method_add_surface_from_arrays>`)."
+msgstr ""
+
+#: ../../docs/classes/class_mesh.rst:347
+msgid ":ref:`Array<class_Array>` **surface_get_blend_shape_arrays** **(** :ref:`int<class_int>` surf_idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_mesh.rst:349
+msgid "Returns the blend shape arrays for the requested surface."
+msgstr ""
+
+#: ../../docs/classes/class_mesh.rst:355
+msgid ":ref:`Material<class_Material>` **surface_get_material** **(** :ref:`int<class_int>` surf_idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_mesh.rst:357
+msgid "Returns a :ref:`Material<class_Material>` in a given surface. Surface is rendered using this material."
+msgstr ""
+
+#: ../../docs/classes/class_mesh.rst:363
+msgid "void **surface_set_material** **(** :ref:`int<class_int>` surf_idx, :ref:`Material<class_Material>` material **)**"
+msgstr ""
+
+#: ../../docs/classes/class_mesh.rst:365
+msgid "Sets a :ref:`Material<class_Material>` for a given surface. Surface will be rendered using this material."
+msgstr ""

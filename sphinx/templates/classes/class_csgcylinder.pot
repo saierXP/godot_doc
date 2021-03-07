@@ -1,0 +1,231 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_csgcylinder.rst:10
+msgid "CSGCylinder"
+msgstr ""
+
+#: ../../docs/classes/class_csgcylinder.rst:12
+msgid "**Inherits:** :ref:`CSGPrimitive<class_CSGPrimitive>` **<** :ref:`CSGShape<class_CSGShape>` **<** :ref:`GeometryInstance<class_GeometryInstance>` **<** :ref:`VisualInstance<class_VisualInstance>` **<** :ref:`Spatial<class_Spatial>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_csgcylinder.rst:14
+msgid "A CSG Cylinder shape."
+msgstr ""
+
+#: ../../docs/classes/class_csgcylinder.rst:17
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_csgcylinder.rst:19
+msgid "This node allows you to create a cylinder (or cone) for use with the CSG system."
+msgstr ""
+
+#: ../../docs/classes/class_csgcylinder.rst:22
+msgid "Properties"
+msgstr ""
+
+#: ../../docs/classes/class_csgcylinder.rst:25
+#: ../../docs/classes/class_csgcylinder.rst:35
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_csgcylinder.rst:25
+msgid ":ref:`cone<class_CSGCylinder_property_cone>`"
+msgstr ""
+
+#: ../../docs/classes/class_csgcylinder.rst:25
+#: ../../docs/classes/class_csgcylinder.rst:46
+msgid "``false``"
+msgstr ""
+
+#: ../../docs/classes/class_csgcylinder.rst:27
+#: ../../docs/classes/class_csgcylinder.rst:31
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../../docs/classes/class_csgcylinder.rst:27
+msgid ":ref:`height<class_CSGCylinder_property_height>`"
+msgstr ""
+
+#: ../../docs/classes/class_csgcylinder.rst:27
+#: ../../docs/classes/class_csgcylinder.rst:31
+#: ../../docs/classes/class_csgcylinder.rst:62
+#: ../../docs/classes/class_csgcylinder.rst:92
+msgid "``1.0``"
+msgstr ""
+
+#: ../../docs/classes/class_csgcylinder.rst:29
+msgid ":ref:`Material<class_Material>`"
+msgstr ""
+
+#: ../../docs/classes/class_csgcylinder.rst:29
+msgid ":ref:`material<class_CSGCylinder_property_material>`"
+msgstr ""
+
+#: ../../docs/classes/class_csgcylinder.rst:31
+msgid ":ref:`radius<class_CSGCylinder_property_radius>`"
+msgstr ""
+
+#: ../../docs/classes/class_csgcylinder.rst:33
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../../docs/classes/class_csgcylinder.rst:33
+msgid ":ref:`sides<class_CSGCylinder_property_sides>`"
+msgstr ""
+
+#: ../../docs/classes/class_csgcylinder.rst:33
+#: ../../docs/classes/class_csgcylinder.rst:108
+msgid "``8``"
+msgstr ""
+
+#: ../../docs/classes/class_csgcylinder.rst:35
+msgid ":ref:`smooth_faces<class_CSGCylinder_property_smooth_faces>`"
+msgstr ""
+
+#: ../../docs/classes/class_csgcylinder.rst:35
+#: ../../docs/classes/class_csgcylinder.rst:124
+msgid "``true``"
+msgstr ""
+
+#: ../../docs/classes/class_csgcylinder.rst:39
+msgid "Property Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_csgcylinder.rst:43
+msgid ":ref:`bool<class_bool>` **cone**"
+msgstr ""
+
+#: ../../docs/classes/class_csgcylinder.rst:46
+#: ../../docs/classes/class_csgcylinder.rst:62
+#: ../../docs/classes/class_csgcylinder.rst:92
+#: ../../docs/classes/class_csgcylinder.rst:108
+#: ../../docs/classes/class_csgcylinder.rst:124
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_csgcylinder.rst:48
+#: ../../docs/classes/class_csgcylinder.rst:64
+#: ../../docs/classes/class_csgcylinder.rst:78
+#: ../../docs/classes/class_csgcylinder.rst:94
+#: ../../docs/classes/class_csgcylinder.rst:110
+#: ../../docs/classes/class_csgcylinder.rst:126
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_csgcylinder.rst:48
+msgid "set_cone(value)"
+msgstr ""
+
+#: ../../docs/classes/class_csgcylinder.rst:50
+#: ../../docs/classes/class_csgcylinder.rst:66
+#: ../../docs/classes/class_csgcylinder.rst:80
+#: ../../docs/classes/class_csgcylinder.rst:96
+#: ../../docs/classes/class_csgcylinder.rst:112
+#: ../../docs/classes/class_csgcylinder.rst:128
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_csgcylinder.rst:50
+msgid "is_cone()"
+msgstr ""
+
+#: ../../docs/classes/class_csgcylinder.rst:53
+msgid "If ``true`` a cone is created, the :ref:`radius<class_CSGCylinder_property_radius>` will only apply to one side."
+msgstr ""
+
+#: ../../docs/classes/class_csgcylinder.rst:59
+msgid ":ref:`float<class_float>` **height**"
+msgstr ""
+
+#: ../../docs/classes/class_csgcylinder.rst:64
+msgid "set_height(value)"
+msgstr ""
+
+#: ../../docs/classes/class_csgcylinder.rst:66
+msgid "get_height()"
+msgstr ""
+
+#: ../../docs/classes/class_csgcylinder.rst:69
+msgid "The height of the cylinder."
+msgstr ""
+
+#: ../../docs/classes/class_csgcylinder.rst:75
+msgid ":ref:`Material<class_Material>` **material**"
+msgstr ""
+
+#: ../../docs/classes/class_csgcylinder.rst:78
+msgid "set_material(value)"
+msgstr ""
+
+#: ../../docs/classes/class_csgcylinder.rst:80
+msgid "get_material()"
+msgstr ""
+
+#: ../../docs/classes/class_csgcylinder.rst:83
+msgid "The material used to render the cylinder."
+msgstr ""
+
+#: ../../docs/classes/class_csgcylinder.rst:89
+msgid ":ref:`float<class_float>` **radius**"
+msgstr ""
+
+#: ../../docs/classes/class_csgcylinder.rst:94
+msgid "set_radius(value)"
+msgstr ""
+
+#: ../../docs/classes/class_csgcylinder.rst:96
+msgid "get_radius()"
+msgstr ""
+
+#: ../../docs/classes/class_csgcylinder.rst:99
+msgid "The radius of the cylinder."
+msgstr ""
+
+#: ../../docs/classes/class_csgcylinder.rst:105
+msgid ":ref:`int<class_int>` **sides**"
+msgstr ""
+
+#: ../../docs/classes/class_csgcylinder.rst:110
+msgid "set_sides(value)"
+msgstr ""
+
+#: ../../docs/classes/class_csgcylinder.rst:112
+msgid "get_sides()"
+msgstr ""
+
+#: ../../docs/classes/class_csgcylinder.rst:115
+msgid "The number of sides of the cylinder, the higher this number the more detail there will be in the cylinder."
+msgstr ""
+
+#: ../../docs/classes/class_csgcylinder.rst:121
+msgid ":ref:`bool<class_bool>` **smooth_faces**"
+msgstr ""
+
+#: ../../docs/classes/class_csgcylinder.rst:126
+msgid "set_smooth_faces(value)"
+msgstr ""
+
+#: ../../docs/classes/class_csgcylinder.rst:128
+msgid "get_smooth_faces()"
+msgstr ""
+
+#: ../../docs/classes/class_csgcylinder.rst:131
+msgid "If ``true`` the normals of the cylinder are set to give a smooth effect making the cylinder seem rounded. If ``false`` the cylinder will have a flat shaded look."
+msgstr ""

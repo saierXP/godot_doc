@@ -1,0 +1,243 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/about/introduction.rst:4
+msgid "Introduction"
+msgstr "简介"
+
+#: ../../docs/about/introduction.rst:11
+msgid ""
+"Welcome to the official documentation of Godot Engine, the free and open "
+"source community-driven 2D and 3D game engine! Behind this mouthful, you "
+"will find a powerful yet user-friendly tool that you can use to develop any "
+"kind of game, for any platform and with no usage restriction whatsoever."
+msgstr ""
+"欢迎使用Godot引擎的官方文档，这是一款由免费开源社区驱动的2D和3D游戏引擎！在此"
+"之后，您将发现一个功能强大但十分友好的工具，您可以使用它为任何平台，没有任何"
+"使用限制地开发任何类型的游戏。"
+
+#: ../../docs/about/introduction.rst:16
+msgid ""
+"This page gives a broad presentation of the engine and of the contents of "
+"this documentation, so that you know where to start if you are a beginner or "
+"where to look if you need info on a specific feature."
+msgstr ""
+"本页旨在对引擎和本文档的内容进行宽泛的介绍，以便初学者知道从什么地方开始学习"
+"和查找有关特定功能的信息。"
+
+#: ../../docs/about/introduction.rst:21
+msgid "Before you start"
+msgstr "在开始之前"
+
+#: ../../docs/about/introduction.rst:23
+msgid ""
+"The :ref:`Tutorials and resources <doc_community_tutorials>` page lists "
+"video tutorials contributed by the community. If you prefer video to text, "
+"those may be worth a look."
+msgstr ""
+":ref:`教程与资源 <doc_community_tutorials>` 页列出了社区贡献的视频教程。如果"
+"你更喜欢视频而非文本，这些可能值得一看。"
+
+#: ../../docs/about/introduction.rst:27
+msgid ""
+"In case you have trouble with one of the tutorials or your project, you can "
+"find help on the various :ref:`Community channels <doc_community_channels>`, "
+"especially the Godot Discord community, Q&A, and IRC."
+msgstr ""
+"如果在某个教程或你的项目中遇到了问题，可以在下列途径找到各种各样的帮助： :"
+"ref:`社区频道 <doc_community_channels>`，特别是Godot的Discord社区、问答(Q&A)"
+"和网络实时聊天室(IRC)。"
+
+#: ../../docs/about/introduction.rst:32
+msgid "About Godot Engine"
+msgstr "关于Godot引擎"
+
+#: ../../docs/about/introduction.rst:34
+msgid ""
+"A game engine is a complex tool, and it is therefore difficult to present "
+"Godot in a few words. Here's a quick synopsis, which you are free to reuse "
+"if you need a quick writeup about Godot Engine."
+msgstr ""
+"游戏引擎是一个复杂的工具，因此很难用三言两语来概括 Godot 。不管怎样我们还是在"
+"这提供了相关介绍, 如果您想写一篇关于 Godot 引擎的简短介绍，那么您可以自由的使"
+"用它们。"
+
+#: ../../docs/about/introduction.rst:38
+msgid ""
+"Godot Engine is a feature-packed, cross-platform game engine to create 2D "
+"and 3D games from a unified interface. It provides a comprehensive set of "
+"common tools, so users can focus on making games without having to reinvent "
+"the wheel. Games can be exported in one click to a number of platforms, "
+"including the major desktop platforms (Linux, macOS, Windows) as well as "
+"mobile (Android, iOS) and web-based (HTML5) platforms."
+msgstr ""
+"Godot引擎是一款功能丰富的跨平台游戏引擎，可通过统一界面创建2D和3D游戏。 它提"
+"供了一套全面的通用工具，因此用户可以专注于制作游戏，而无需重新发明轮子。 游戏"
+"可以一键导出到多个平台，包括主要的桌面平台(Linux、macOS、Windows)以及移动平台"
+"(Android、iOS)和基于Web的(HTML5)平台。"
+
+#: ../../docs/about/introduction.rst:45
+msgid ""
+"Godot is completely free and open source under the permissive MIT license. "
+"No strings attached, no royalties, nothing. Users' games are theirs, down to "
+"the last line of engine code. Godot's development is fully independent and "
+"community-driven, empowering users to help shape their engine to match their "
+"expectations. It is supported by the `Software Freedom Conservancy <https://"
+"sfconservancy.org>`_ not-for-profit."
+msgstr ""
+"Godot在宽松的MIT许可证下完全自由且开源。没有附加条文，没有特许权使用费，没有"
+"任何要求。用户的游戏乃至引擎的每一行代码，都是他们的。Godot的开发完全独立且由"
+"社区驱动，允许用户以帮助塑造他们的引擎来满足他们的期望。它受到 `软件自由保护 "
+"<https://sfconservancy.org>`_ 非营利组织的支持。"
+
+#: ../../docs/about/introduction.rst:52
+msgid ""
+"For a more in-depth view of the engine, you are encouraged to read this "
+"documentation further, especially the :ref:`Step by step <toc-learn-"
+"step_by_step>` tutorial."
+msgstr ""
+"为了更深入地了解该引擎，建议您进一步阅读本文档，特别是 :ref:`渐进式 <toc-"
+"learn-step_by_step>` 教程。"
+
+#: ../../docs/about/introduction.rst:57
+msgid "About the documentation"
+msgstr "关于文档"
+
+#: ../../docs/about/introduction.rst:59
+msgid ""
+"This documentation is continuously written, corrected, edited, and revamped "
+"by members of the Godot Engine community. It is edited via text files in the "
+"`reStructuredText <http://www.sphinx-doc.org/en/stable/rest.html>`_ markup "
+"language and then compiled into a static website/offline document using the "
+"open source `Sphinx <http://www.sphinx-doc.org>`_ and `ReadTheDocs <https://"
+"readthedocs.org/>`_ tools."
+msgstr ""
+"本文档由Godot引擎社区的成员持续地编写、修正、编辑和改进。它的文本文件使用 "
+"`reStructuredText <http://www.sphinx-doc.org/en/stable/rest.html>`_ 标记语言"
+"进行编辑，然后使用开源工具 `Sphinx <http://www.sphinx-doc.org>`_ 与 "
+"`ReadTheDocs <https://readthedocs.org/>`_ 编译成一个静态网站/离线文档。"
+
+#: ../../docs/about/introduction.rst:66
+msgid ""
+"You can contribute to Godot's documentation by opening issue tickets or "
+"sending patches via pull requests on its GitHub `source repository <https://"
+"github.com/godotengine/godot-docs>`_, or translating it into your language "
+"on `Hosted Weblate <https://hosted.weblate.org/projects/godot-engine/godot-"
+"docs/>`_."
+msgstr ""
+"您可以为Godot文档作出贡献，通过在GitHub `源码仓库 <https://github.com/"
+"godotengine/godot-docs>`_ 中提出问题，或提交推送请求发送补丁。或者在 `Hosted "
+"Weblate <https://hosted.weblate.org/projects/godot-engine/godot-docs/>`_ 上把"
+"它翻译成您的语言。"
+
+#: ../../docs/about/introduction.rst:72
+msgid ""
+"All the contents are under the permissive Creative Commons Attribution 3.0 "
+"(`CC-BY 3.0 <https://creativecommons.org/licenses/by/3.0/>`_) license, with "
+"attribution to \"Juan Linietsky, Ariel Manzur and the Godot Engine community"
+"\"."
+msgstr ""
+"所有内容均在宽松的知识共享署名3.0(`CC-BY 3.0 <https://creativecommons.org/"
+"licenses/by/3.0/>`_)许可下，并归属于“Juan Linietsky, Ariel Manzur 和Godot引擎"
+"社区”。"
+
+#: ../../docs/about/introduction.rst:77
+msgid "Organization of the documentation"
+msgstr "文档结构"
+
+#: ../../docs/about/introduction.rst:79
+msgid ""
+"This documentation is organized in five sections with an impressively "
+"unbalanced distribution of contents – but the way it is split up should be "
+"relatively intuitive:"
+msgstr "本文档由五部分组成。虽然文本量分布很不均衡，但其划分方式应该相对直观："
+
+#: ../../docs/about/introduction.rst:83
+msgid ""
+"The :ref:`sec-general` section contains this introduction as well as "
+"information about the engine, its history, its licensing, authors, etc. It "
+"also contains the :ref:`doc_faq`."
+msgstr ""
+":ref:`sec-general` 部分包括简介，以及关于引擎的信息，即历史、许可证和作者等。"
+"这部分也包含 :ref:`doc_faq` 。"
+
+#: ../../docs/about/introduction.rst:86
+msgid ""
+"The :ref:`sec-learn` section is the *raison d'être* of this documentation, "
+"as it contains all the necessary information on using the engine to make "
+"games. It starts with the :ref:`Step by step <toc-learn-step_by_step>` "
+"tutorial which should be the entry point for all new users."
+msgstr ""
+":ref:`sec-learn` 部分是本文档的主要 *存在理由*，因为它包含所有使用该引擎制作"
+"游戏所必需的信息。这一部分从 :ref:`渐进式 <toc-learn-step_by_step>` 教程开"
+"始。这个教程应该作为所有新用户学习的起点。"
+
+#: ../../docs/about/introduction.rst:91
+msgid ""
+"The :ref:`sec-tutorials` section can be read as needed, in any order. It "
+"contains feature-specific tutorials and documentation."
+msgstr ""
+"另外， :ref:`sec-tutorials` 部分则可以根据您的需要以任意顺序去查阅。它包含特"
+"定于功能的教程和文档。"
+
+#: ../../docs/about/introduction.rst:93
+msgid ""
+"The :ref:`sec-devel` section is intended for advanced users and contributors "
+"to the engine development, with information on compiling the engine, "
+"developing C++ modules or editor plugins."
+msgstr ""
+":ref:`sec-devel` 部分是为高级用户以及引擎开发人员提供的，它包含了如何编译引"
+"擎、开发C++模块和编辑器插件等信息。"
+
+#: ../../docs/about/introduction.rst:96
+msgid ""
+"The :ref:`sec-community` section gives information related to contributing "
+"to engine development and the life of its community, e.g. how to report "
+"bugs, help with the documentation, etc. It also points to various community "
+"channels like IRC and Discord and contains a list of recommended third-party "
+"tutorials outside of this documentation."
+msgstr ""
+":ref:`sec-community` 部分提供了引擎开发和社区生态的相关信息，例如，如何反馈错"
+"误、帮助改善文档等等。它还列出了各种社区频道，如 IRC、Discord，并推荐了一些本"
+"文档之外的第三方教程。"
+
+#: ../../docs/about/introduction.rst:101
+msgid ""
+"Finally, the :ref:`sec-class-ref` is the documentation of the Godot API, "
+"which is also available directly within the engine's script editor. It is "
+"generated automatically from a file in the main source repository, therefore "
+"the generated files of the documentation are not meant to be modified. See :"
+"ref:`doc_updating_the_class_reference` for details."
+msgstr ""
+"最后， :ref:`sec-class-ref` 部分是Godot API文档，也可以直接在引擎的脚本编辑器"
+"中找到。它是从主源代码存储库中的文件自动生成的，因此文档的生成文件不打算修"
+"改。更多信息请查看 :ref:`doc_updating_the_class_reference`。"
+
+#: ../../docs/about/introduction.rst:107
+msgid ""
+"In addition to this documentation you may also want to take a look at the "
+"various `Godot demo projects <https://github.com/godotengine/godot-demo-"
+"projects>`_."
+msgstr ""
+"除本文档外，您还可以学习各种 `Godot 示例项目 <https://github.com/godotengine/"
+"godot-demo-projects>`_ 。"
+
+#: ../../docs/about/introduction.rst:110
+msgid "Have fun reading and making games with Godot Engine!"
+msgstr "祝您愉快的学习Godot引擎并用它制作游戏！"

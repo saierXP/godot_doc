@@ -1,0 +1,732 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_graphnode.rst:10
+msgid "GraphNode"
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:12
+msgid "**Inherits:** :ref:`Container<class_Container>` **<** :ref:`Control<class_Control>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:14
+msgid "A GraphNode is a container with potentially several input and output slots allowing connections between GraphNodes. Slots can have different, incompatible types."
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:17
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:19
+msgid "A GraphNode is a container. Each GraphNode can have several input and output slots, sometimes referred to as ports, allowing connections between GraphNodes. To add a slot to GraphNode, add any :ref:`Control<class_Control>`-derived child node to it."
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:21
+msgid "After adding at least one child to GraphNode new sections will be automatically created in the Inspector called 'Slot'. When 'Slot' is expanded you will see list with index number for each slot. You can click on each of them to expand further."
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:23
+msgid "In the Inspector you can enable (show) or disable (hide) slots. By default all slots are disabled so you may not see any slots on your GraphNode initially. You can assign a type to each slot. Only slots of the same type will be able to connect to each other. You can also assign colors to slots. A tuple of input and output slots is defined for each GUI element included in the GraphNode. Input connections are on the left and output connections are on the right side of GraphNode. Only enabled slots are counted as connections."
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:26
+msgid "Properties"
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:29
+#: ../../docs/classes/class_graphnode.rst:35
+#: ../../docs/classes/class_graphnode.rst:37
+#: ../../docs/classes/class_graphnode.rst:39
+#: ../../docs/classes/class_graphnode.rst:76
+#: ../../docs/classes/class_graphnode.rst:78
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:29
+msgid ":ref:`comment<class_GraphNode_property_comment>`"
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:29
+#: ../../docs/classes/class_graphnode.rst:35
+#: ../../docs/classes/class_graphnode.rst:37
+#: ../../docs/classes/class_graphnode.rst:39
+#: ../../docs/classes/class_graphnode.rst:194
+#: ../../docs/classes/class_graphnode.rst:244
+#: ../../docs/classes/class_graphnode.rst:262
+#: ../../docs/classes/class_graphnode.rst:278
+msgid "``false``"
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:31
+#: ../../docs/classes/class_graphnode.rst:56
+#: ../../docs/classes/class_graphnode.rst:64
+msgid ":ref:`Vector2<class_Vector2>`"
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:31
+msgid ":ref:`offset<class_GraphNode_property_offset>`"
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:31
+#: ../../docs/classes/class_graphnode.rst:210
+msgid "``Vector2( 0, 0 )``"
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:33
+msgid ":ref:`Overlay<enum_GraphNode_Overlay>`"
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:33
+msgid ":ref:`overlay<class_GraphNode_property_overlay>`"
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:33
+#: ../../docs/classes/class_graphnode.rst:228
+msgid "``0``"
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:35
+msgid ":ref:`resizable<class_GraphNode_property_resizable>`"
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:37
+msgid ":ref:`selected<class_GraphNode_property_selected>`"
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:39
+msgid ":ref:`show_close<class_GraphNode_property_show_close>`"
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:41
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:41
+msgid ":ref:`title<class_GraphNode_property_title>`"
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:41
+#: ../../docs/classes/class_graphnode.rst:296
+msgid "``\"\"``"
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:45
+msgid "Methods"
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:48
+#: ../../docs/classes/class_graphnode.rst:50
+#: ../../docs/classes/class_graphnode.rst:80
+msgid "void"
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:48
+msgid ":ref:`clear_all_slots<class_GraphNode_method_clear_all_slots>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:50
+msgid ":ref:`clear_slot<class_GraphNode_method_clear_slot>` **(** :ref:`int<class_int>` idx **)**"
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:52
+#: ../../docs/classes/class_graphnode.rst:60
+#: ../../docs/classes/class_graphnode.rst:68
+#: ../../docs/classes/class_graphnode.rst:70
+#: ../../docs/classes/class_graphnode.rst:91
+#: ../../docs/classes/class_graphnode.rst:113
+#: ../../docs/classes/class_graphnode.rst:119
+msgid ":ref:`Color<class_Color>`"
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:52
+msgid ":ref:`get_connection_input_color<class_GraphNode_method_get_connection_input_color>` **(** :ref:`int<class_int>` idx **)**"
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:54
+#: ../../docs/classes/class_graphnode.rst:58
+#: ../../docs/classes/class_graphnode.rst:62
+#: ../../docs/classes/class_graphnode.rst:66
+#: ../../docs/classes/class_graphnode.rst:72
+#: ../../docs/classes/class_graphnode.rst:74
+#: ../../docs/classes/class_graphnode.rst:93
+#: ../../docs/classes/class_graphnode.rst:107
+#: ../../docs/classes/class_graphnode.rst:117
+#: ../../docs/classes/class_graphnode.rst:123
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:54
+msgid ":ref:`get_connection_input_count<class_GraphNode_method_get_connection_input_count>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:56
+msgid ":ref:`get_connection_input_position<class_GraphNode_method_get_connection_input_position>` **(** :ref:`int<class_int>` idx **)**"
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:58
+msgid ":ref:`get_connection_input_type<class_GraphNode_method_get_connection_input_type>` **(** :ref:`int<class_int>` idx **)**"
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:60
+msgid ":ref:`get_connection_output_color<class_GraphNode_method_get_connection_output_color>` **(** :ref:`int<class_int>` idx **)**"
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:62
+msgid ":ref:`get_connection_output_count<class_GraphNode_method_get_connection_output_count>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:64
+msgid ":ref:`get_connection_output_position<class_GraphNode_method_get_connection_output_position>` **(** :ref:`int<class_int>` idx **)**"
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:66
+msgid ":ref:`get_connection_output_type<class_GraphNode_method_get_connection_output_type>` **(** :ref:`int<class_int>` idx **)**"
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:68
+msgid ":ref:`get_slot_color_left<class_GraphNode_method_get_slot_color_left>` **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:70
+msgid ":ref:`get_slot_color_right<class_GraphNode_method_get_slot_color_right>` **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:72
+msgid ":ref:`get_slot_type_left<class_GraphNode_method_get_slot_type_left>` **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:74
+msgid ":ref:`get_slot_type_right<class_GraphNode_method_get_slot_type_right>` **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:76
+msgid ":ref:`is_slot_enabled_left<class_GraphNode_method_is_slot_enabled_left>` **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:78
+msgid ":ref:`is_slot_enabled_right<class_GraphNode_method_is_slot_enabled_right>` **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:80
+msgid ":ref:`set_slot<class_GraphNode_method_set_slot>` **(** :ref:`int<class_int>` idx, :ref:`bool<class_bool>` enable_left, :ref:`int<class_int>` type_left, :ref:`Color<class_Color>` color_left, :ref:`bool<class_bool>` enable_right, :ref:`int<class_int>` type_right, :ref:`Color<class_Color>` color_right, :ref:`Texture<class_Texture>` custom_left=null, :ref:`Texture<class_Texture>` custom_right=null **)**"
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:84
+msgid "Theme Properties"
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:87
+#: ../../docs/classes/class_graphnode.rst:95
+#: ../../docs/classes/class_graphnode.rst:97
+#: ../../docs/classes/class_graphnode.rst:99
+#: ../../docs/classes/class_graphnode.rst:101
+#: ../../docs/classes/class_graphnode.rst:103
+#: ../../docs/classes/class_graphnode.rst:109
+#: ../../docs/classes/class_graphnode.rst:115
+msgid ":ref:`StyleBox<class_StyleBox>`"
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:87
+msgid "breakpoint"
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:89
+#: ../../docs/classes/class_graphnode.rst:105
+#: ../../docs/classes/class_graphnode.rst:111
+msgid ":ref:`Texture<class_Texture>`"
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:89
+msgid "close"
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:91
+msgid "close_color"
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:91
+#: ../../docs/classes/class_graphnode.rst:113
+#: ../../docs/classes/class_graphnode.rst:119
+msgid "Color( 0, 0, 0, 1 )"
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:93
+msgid "close_offset"
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:93
+msgid "18"
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:95
+msgid "comment"
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:97
+msgid "commentfocus"
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:99
+msgid "defaultfocus"
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:101
+msgid "defaultframe"
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:103
+msgid "frame"
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:105
+msgid "port"
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:107
+msgid "port_offset"
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:107
+msgid "3"
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:109
+msgid "position"
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:111
+msgid "resizer"
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:113
+msgid "resizer_color"
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:115
+msgid "selectedframe"
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:117
+msgid "separation"
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:117
+msgid "1"
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:119
+msgid "title_color"
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:121
+msgid ":ref:`Font<class_Font>`"
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:121
+msgid "title_font"
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:123
+msgid "title_offset"
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:123
+msgid "20"
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:127
+msgid "Signals"
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:131
+msgid "**close_request** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:133
+msgid "Emitted when the GraphNode is requested to be closed. Happens on clicking the close button (see :ref:`show_close<class_GraphNode_property_show_close>`)."
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:139
+msgid "**dragged** **(** :ref:`Vector2<class_Vector2>` from, :ref:`Vector2<class_Vector2>` to **)**"
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:141
+msgid "Emitted when the GraphNode is dragged."
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:147
+msgid "**offset_changed** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:149
+msgid "Emitted when the GraphNode is moved."
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:155
+msgid "**raise_request** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:157
+msgid "Emitted when the GraphNode is requested to be displayed over other ones. Happens on focusing (clicking into) the GraphNode."
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:163
+msgid "**resize_request** **(** :ref:`Vector2<class_Vector2>` new_minsize **)**"
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:165
+msgid "Emitted when the GraphNode is requested to be resized. Happens on dragging the resizer handle (see :ref:`resizable<class_GraphNode_property_resizable>`)."
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:168
+msgid "Enumerations"
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:178
+msgid "enum **Overlay**:"
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:180
+msgid "**OVERLAY_DISABLED** = **0** --- No overlay is shown."
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:182
+msgid "**OVERLAY_BREAKPOINT** = **1** --- Show overlay set in the ``breakpoint`` theme property."
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:184
+msgid "**OVERLAY_POSITION** = **2** --- Show overlay set in the ``position`` theme property."
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:187
+msgid "Property Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:191
+msgid ":ref:`bool<class_bool>` **comment**"
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:194
+#: ../../docs/classes/class_graphnode.rst:210
+#: ../../docs/classes/class_graphnode.rst:228
+#: ../../docs/classes/class_graphnode.rst:244
+#: ../../docs/classes/class_graphnode.rst:262
+#: ../../docs/classes/class_graphnode.rst:278
+#: ../../docs/classes/class_graphnode.rst:296
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:196
+#: ../../docs/classes/class_graphnode.rst:212
+#: ../../docs/classes/class_graphnode.rst:230
+#: ../../docs/classes/class_graphnode.rst:246
+#: ../../docs/classes/class_graphnode.rst:264
+#: ../../docs/classes/class_graphnode.rst:280
+#: ../../docs/classes/class_graphnode.rst:298
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:196
+msgid "set_comment(value)"
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:198
+#: ../../docs/classes/class_graphnode.rst:214
+#: ../../docs/classes/class_graphnode.rst:232
+#: ../../docs/classes/class_graphnode.rst:248
+#: ../../docs/classes/class_graphnode.rst:266
+#: ../../docs/classes/class_graphnode.rst:282
+#: ../../docs/classes/class_graphnode.rst:300
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:198
+msgid "is_comment()"
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:201
+msgid "If ``true``, the GraphNode is a comment node."
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:207
+msgid ":ref:`Vector2<class_Vector2>` **offset**"
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:212
+msgid "set_offset(value)"
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:214
+msgid "get_offset()"
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:217
+msgid "The offset of the GraphNode, relative to the scroll offset of the :ref:`GraphEdit<class_GraphEdit>`."
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:219
+msgid "**Note:** You cannot use position directly, as :ref:`GraphEdit<class_GraphEdit>` is a :ref:`Container<class_Container>`."
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:225
+msgid ":ref:`Overlay<enum_GraphNode_Overlay>` **overlay**"
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:230
+msgid "set_overlay(value)"
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:232
+msgid "get_overlay()"
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:235
+msgid "Sets the overlay shown above the GraphNode. See :ref:`Overlay<enum_GraphNode_Overlay>`."
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:241
+msgid ":ref:`bool<class_bool>` **resizable**"
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:246
+msgid "set_resizable(value)"
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:248
+msgid "is_resizable()"
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:251
+msgid "If ``true``, the user can resize the GraphNode."
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:253
+msgid "**Note:** Dragging the handle will only emit the :ref:`resize_request<class_GraphNode_signal_resize_request>` signal, the GraphNode needs to be resized manually."
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:259
+msgid ":ref:`bool<class_bool>` **selected**"
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:264
+msgid "set_selected(value)"
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:266
+msgid "is_selected()"
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:269
+msgid "If ``true``, the GraphNode is selected."
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:275
+msgid ":ref:`bool<class_bool>` **show_close**"
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:280
+msgid "set_show_close_button(value)"
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:282
+msgid "is_close_button_visible()"
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:285
+msgid "If ``true``, the close button will be visible."
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:287
+msgid "**Note:** Pressing it will only emit the :ref:`close_request<class_GraphNode_signal_close_request>` signal, the GraphNode needs to be removed manually."
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:293
+msgid ":ref:`String<class_String>` **title**"
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:298
+msgid "set_title(value)"
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:300
+msgid "get_title()"
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:303
+msgid "The text displayed in the GraphNode's title bar."
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:306
+msgid "Method Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:310
+msgid "void **clear_all_slots** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:312
+msgid "Disables all input and output slots of the GraphNode."
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:318
+msgid "void **clear_slot** **(** :ref:`int<class_int>` idx **)**"
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:320
+msgid "Disables input and output slot whose index is ``idx``."
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:326
+msgid ":ref:`Color<class_Color>` **get_connection_input_color** **(** :ref:`int<class_int>` idx **)**"
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:328
+msgid "Returns the color of the input connection ``idx``."
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:334
+msgid ":ref:`int<class_int>` **get_connection_input_count** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:336
+msgid "Returns the number of enabled input slots (connections) to the GraphNode."
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:342
+msgid ":ref:`Vector2<class_Vector2>` **get_connection_input_position** **(** :ref:`int<class_int>` idx **)**"
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:344
+msgid "Returns the position of the input connection ``idx``."
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:350
+msgid ":ref:`int<class_int>` **get_connection_input_type** **(** :ref:`int<class_int>` idx **)**"
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:352
+msgid "Returns the type of the input connection ``idx``."
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:358
+msgid ":ref:`Color<class_Color>` **get_connection_output_color** **(** :ref:`int<class_int>` idx **)**"
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:360
+msgid "Returns the color of the output connection ``idx``."
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:366
+msgid ":ref:`int<class_int>` **get_connection_output_count** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:368
+msgid "Returns the number of enabled output slots (connections) of the GraphNode."
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:374
+msgid ":ref:`Vector2<class_Vector2>` **get_connection_output_position** **(** :ref:`int<class_int>` idx **)**"
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:376
+msgid "Returns the position of the output connection ``idx``."
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:382
+msgid ":ref:`int<class_int>` **get_connection_output_type** **(** :ref:`int<class_int>` idx **)**"
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:384
+msgid "Returns the type of the output connection ``idx``."
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:390
+msgid ":ref:`Color<class_Color>` **get_slot_color_left** **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:392
+msgid "Returns the color set to ``idx`` left (input) slot."
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:398
+msgid ":ref:`Color<class_Color>` **get_slot_color_right** **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:400
+msgid "Returns the color set to ``idx`` right (output) slot."
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:406
+msgid ":ref:`int<class_int>` **get_slot_type_left** **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:408
+msgid "Returns the (integer) type of left (input) ``idx`` slot."
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:414
+msgid ":ref:`int<class_int>` **get_slot_type_right** **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:416
+msgid "Returns the (integer) type of right (output) ``idx`` slot."
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:422
+msgid ":ref:`bool<class_bool>` **is_slot_enabled_left** **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:424
+msgid "Returns ``true`` if left (input) slot ``idx`` is enabled, ``false`` otherwise."
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:430
+msgid ":ref:`bool<class_bool>` **is_slot_enabled_right** **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:432
+msgid "Returns ``true`` if right (output) slot ``idx`` is enabled, ``false`` otherwise."
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:438
+msgid "void **set_slot** **(** :ref:`int<class_int>` idx, :ref:`bool<class_bool>` enable_left, :ref:`int<class_int>` type_left, :ref:`Color<class_Color>` color_left, :ref:`bool<class_bool>` enable_right, :ref:`int<class_int>` type_right, :ref:`Color<class_Color>` color_right, :ref:`Texture<class_Texture>` custom_left=null, :ref:`Texture<class_Texture>` custom_right=null **)**"
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:440
+msgid "Sets properties of the slot with ID ``idx``."
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:442
+msgid "If ``enable_left``/``right``, a port will appear and the slot will be able to be connected from this side."
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:444
+msgid "``type_left``/``right`` is an arbitrary type of the port. Only ports with the same type values can be connected."
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:446
+msgid "``color_left``/``right`` is the tint of the port's icon on this side."
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:448
+msgid "``custom_left``/``right`` is a custom texture for this side's port."
+msgstr ""
+
+#: ../../docs/classes/class_graphnode.rst:450
+msgid "**Note:** This method only sets properties of the slot. To create the slot, add a :ref:`Control<class_Control>`-derived child to the GraphNode."
+msgstr ""

@@ -1,0 +1,347 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_clippedcamera.rst:10
+msgid "ClippedCamera"
+msgstr ""
+
+#: ../../docs/classes/class_clippedcamera.rst:12
+msgid "**Inherits:** :ref:`Camera<class_Camera>` **<** :ref:`Spatial<class_Spatial>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_clippedcamera.rst:14
+msgid "A :ref:`Camera<class_Camera>` that includes collision."
+msgstr ""
+
+#: ../../docs/classes/class_clippedcamera.rst:17
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_clippedcamera.rst:19
+msgid "This node extends :ref:`Camera<class_Camera>` to add collisions with :ref:`Area<class_Area>` and/or :ref:`PhysicsBody<class_PhysicsBody>` nodes. The camera cannot move through colliding objects."
+msgstr ""
+
+#: ../../docs/classes/class_clippedcamera.rst:22
+msgid "Properties"
+msgstr ""
+
+#: ../../docs/classes/class_clippedcamera.rst:25
+#: ../../docs/classes/class_clippedcamera.rst:27
+#: ../../docs/classes/class_clippedcamera.rst:48
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_clippedcamera.rst:25
+msgid ":ref:`clip_to_areas<class_ClippedCamera_property_clip_to_areas>`"
+msgstr ""
+
+#: ../../docs/classes/class_clippedcamera.rst:25
+#: ../../docs/classes/class_clippedcamera.rst:80
+msgid "``false``"
+msgstr ""
+
+#: ../../docs/classes/class_clippedcamera.rst:27
+msgid ":ref:`clip_to_bodies<class_ClippedCamera_property_clip_to_bodies>`"
+msgstr ""
+
+#: ../../docs/classes/class_clippedcamera.rst:27
+#: ../../docs/classes/class_clippedcamera.rst:96
+msgid "``true``"
+msgstr ""
+
+#: ../../docs/classes/class_clippedcamera.rst:29
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../../docs/classes/class_clippedcamera.rst:29
+msgid ":ref:`collision_mask<class_ClippedCamera_property_collision_mask>`"
+msgstr ""
+
+#: ../../docs/classes/class_clippedcamera.rst:29
+#: ../../docs/classes/class_clippedcamera.rst:112
+msgid "``1``"
+msgstr ""
+
+#: ../../docs/classes/class_clippedcamera.rst:31
+#: ../../docs/classes/class_clippedcamera.rst:46
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../../docs/classes/class_clippedcamera.rst:31
+msgid ":ref:`margin<class_ClippedCamera_property_margin>`"
+msgstr ""
+
+#: ../../docs/classes/class_clippedcamera.rst:31
+#: ../../docs/classes/class_clippedcamera.rst:128
+msgid "``0.0``"
+msgstr ""
+
+#: ../../docs/classes/class_clippedcamera.rst:33
+msgid ":ref:`ProcessMode<enum_ClippedCamera_ProcessMode>`"
+msgstr ""
+
+#: ../../docs/classes/class_clippedcamera.rst:33
+msgid ":ref:`process_mode<class_ClippedCamera_property_process_mode>`"
+msgstr ""
+
+#: ../../docs/classes/class_clippedcamera.rst:33
+#: ../../docs/classes/class_clippedcamera.rst:144
+msgid "``0``"
+msgstr ""
+
+#: ../../docs/classes/class_clippedcamera.rst:37
+msgid "Methods"
+msgstr ""
+
+#: ../../docs/classes/class_clippedcamera.rst:40
+#: ../../docs/classes/class_clippedcamera.rst:42
+#: ../../docs/classes/class_clippedcamera.rst:44
+#: ../../docs/classes/class_clippedcamera.rst:50
+#: ../../docs/classes/class_clippedcamera.rst:52
+#: ../../docs/classes/class_clippedcamera.rst:54
+msgid "void"
+msgstr ""
+
+#: ../../docs/classes/class_clippedcamera.rst:40
+msgid ":ref:`add_exception<class_ClippedCamera_method_add_exception>` **(** :ref:`Object<class_Object>` node **)**"
+msgstr ""
+
+#: ../../docs/classes/class_clippedcamera.rst:42
+msgid ":ref:`add_exception_rid<class_ClippedCamera_method_add_exception_rid>` **(** :ref:`RID<class_RID>` rid **)**"
+msgstr ""
+
+#: ../../docs/classes/class_clippedcamera.rst:44
+msgid ":ref:`clear_exceptions<class_ClippedCamera_method_clear_exceptions>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_clippedcamera.rst:46
+msgid ":ref:`get_clip_offset<class_ClippedCamera_method_get_clip_offset>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_clippedcamera.rst:48
+msgid ":ref:`get_collision_mask_bit<class_ClippedCamera_method_get_collision_mask_bit>` **(** :ref:`int<class_int>` bit **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_clippedcamera.rst:50
+msgid ":ref:`remove_exception<class_ClippedCamera_method_remove_exception>` **(** :ref:`Object<class_Object>` node **)**"
+msgstr ""
+
+#: ../../docs/classes/class_clippedcamera.rst:52
+msgid ":ref:`remove_exception_rid<class_ClippedCamera_method_remove_exception_rid>` **(** :ref:`RID<class_RID>` rid **)**"
+msgstr ""
+
+#: ../../docs/classes/class_clippedcamera.rst:54
+msgid ":ref:`set_collision_mask_bit<class_ClippedCamera_method_set_collision_mask_bit>` **(** :ref:`int<class_int>` bit, :ref:`bool<class_bool>` value **)**"
+msgstr ""
+
+#: ../../docs/classes/class_clippedcamera.rst:58
+msgid "Enumerations"
+msgstr ""
+
+#: ../../docs/classes/class_clippedcamera.rst:66
+msgid "enum **ProcessMode**:"
+msgstr ""
+
+#: ../../docs/classes/class_clippedcamera.rst:68
+msgid "**CLIP_PROCESS_PHYSICS** = **0** --- The camera updates with the ``_physics_process`` callback."
+msgstr ""
+
+#: ../../docs/classes/class_clippedcamera.rst:70
+msgid "**CLIP_PROCESS_IDLE** = **1** --- The camera updates with the ``_process`` callback."
+msgstr ""
+
+#: ../../docs/classes/class_clippedcamera.rst:73
+msgid "Property Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_clippedcamera.rst:77
+msgid ":ref:`bool<class_bool>` **clip_to_areas**"
+msgstr ""
+
+#: ../../docs/classes/class_clippedcamera.rst:80
+#: ../../docs/classes/class_clippedcamera.rst:96
+#: ../../docs/classes/class_clippedcamera.rst:112
+#: ../../docs/classes/class_clippedcamera.rst:128
+#: ../../docs/classes/class_clippedcamera.rst:144
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_clippedcamera.rst:82
+#: ../../docs/classes/class_clippedcamera.rst:98
+#: ../../docs/classes/class_clippedcamera.rst:114
+#: ../../docs/classes/class_clippedcamera.rst:130
+#: ../../docs/classes/class_clippedcamera.rst:146
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_clippedcamera.rst:82
+msgid "set_clip_to_areas(value)"
+msgstr ""
+
+#: ../../docs/classes/class_clippedcamera.rst:84
+#: ../../docs/classes/class_clippedcamera.rst:100
+#: ../../docs/classes/class_clippedcamera.rst:116
+#: ../../docs/classes/class_clippedcamera.rst:132
+#: ../../docs/classes/class_clippedcamera.rst:148
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_clippedcamera.rst:84
+msgid "is_clip_to_areas_enabled()"
+msgstr ""
+
+#: ../../docs/classes/class_clippedcamera.rst:87
+msgid "If ``true``, the camera stops on contact with :ref:`Area<class_Area>`\\ s."
+msgstr ""
+
+#: ../../docs/classes/class_clippedcamera.rst:93
+msgid ":ref:`bool<class_bool>` **clip_to_bodies**"
+msgstr ""
+
+#: ../../docs/classes/class_clippedcamera.rst:98
+msgid "set_clip_to_bodies(value)"
+msgstr ""
+
+#: ../../docs/classes/class_clippedcamera.rst:100
+msgid "is_clip_to_bodies_enabled()"
+msgstr ""
+
+#: ../../docs/classes/class_clippedcamera.rst:103
+msgid "If ``true``, the camera stops on contact with :ref:`PhysicsBody<class_PhysicsBody>`\\ s."
+msgstr ""
+
+#: ../../docs/classes/class_clippedcamera.rst:109
+msgid ":ref:`int<class_int>` **collision_mask**"
+msgstr ""
+
+#: ../../docs/classes/class_clippedcamera.rst:114
+msgid "set_collision_mask(value)"
+msgstr ""
+
+#: ../../docs/classes/class_clippedcamera.rst:116
+msgid "get_collision_mask()"
+msgstr ""
+
+#: ../../docs/classes/class_clippedcamera.rst:119
+msgid "The camera's collision mask. Only objects in at least one collision layer matching the mask will be detected. See `Collision layers and masks <https://docs.godotengine.org/en/3.2/tutorials/physics/physics_introduction.html#collision-layers-and-masks>`_ in the documentation for more information."
+msgstr ""
+
+#: ../../docs/classes/class_clippedcamera.rst:125
+msgid ":ref:`float<class_float>` **margin**"
+msgstr ""
+
+#: ../../docs/classes/class_clippedcamera.rst:130
+msgid "set_margin(value)"
+msgstr ""
+
+#: ../../docs/classes/class_clippedcamera.rst:132
+msgid "get_margin()"
+msgstr ""
+
+#: ../../docs/classes/class_clippedcamera.rst:135
+msgid "The camera's collision margin. The camera can't get closer than this distance to a colliding object."
+msgstr ""
+
+#: ../../docs/classes/class_clippedcamera.rst:141
+msgid ":ref:`ProcessMode<enum_ClippedCamera_ProcessMode>` **process_mode**"
+msgstr ""
+
+#: ../../docs/classes/class_clippedcamera.rst:146
+msgid "set_process_mode(value)"
+msgstr ""
+
+#: ../../docs/classes/class_clippedcamera.rst:148
+msgid "get_process_mode()"
+msgstr ""
+
+#: ../../docs/classes/class_clippedcamera.rst:151
+msgid "The camera's process callback. See :ref:`ProcessMode<enum_ClippedCamera_ProcessMode>`."
+msgstr ""
+
+#: ../../docs/classes/class_clippedcamera.rst:154
+msgid "Method Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_clippedcamera.rst:158
+msgid "void **add_exception** **(** :ref:`Object<class_Object>` node **)**"
+msgstr ""
+
+#: ../../docs/classes/class_clippedcamera.rst:160
+msgid "Adds a collision exception so the camera does not collide with the specified node."
+msgstr ""
+
+#: ../../docs/classes/class_clippedcamera.rst:166
+msgid "void **add_exception_rid** **(** :ref:`RID<class_RID>` rid **)**"
+msgstr ""
+
+#: ../../docs/classes/class_clippedcamera.rst:168
+msgid "Adds a collision exception so the camera does not collide with the specified :ref:`RID<class_RID>`."
+msgstr ""
+
+#: ../../docs/classes/class_clippedcamera.rst:174
+msgid "void **clear_exceptions** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_clippedcamera.rst:176
+msgid "Removes all collision exceptions."
+msgstr ""
+
+#: ../../docs/classes/class_clippedcamera.rst:182
+msgid ":ref:`float<class_float>` **get_clip_offset** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_clippedcamera.rst:184
+msgid "Returns the distance the camera has been offset due to a collision."
+msgstr ""
+
+#: ../../docs/classes/class_clippedcamera.rst:190
+msgid ":ref:`bool<class_bool>` **get_collision_mask_bit** **(** :ref:`int<class_int>` bit **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_clippedcamera.rst:192
+msgid "Returns ``true`` if the specified bit index is on."
+msgstr ""
+
+#: ../../docs/classes/class_clippedcamera.rst:194
+#: ../../docs/classes/class_clippedcamera.rst:220
+msgid "**Note:** Bit indices range from 0-19."
+msgstr ""
+
+#: ../../docs/classes/class_clippedcamera.rst:200
+msgid "void **remove_exception** **(** :ref:`Object<class_Object>` node **)**"
+msgstr ""
+
+#: ../../docs/classes/class_clippedcamera.rst:202
+msgid "Removes a collision exception with the specified node."
+msgstr ""
+
+#: ../../docs/classes/class_clippedcamera.rst:208
+msgid "void **remove_exception_rid** **(** :ref:`RID<class_RID>` rid **)**"
+msgstr ""
+
+#: ../../docs/classes/class_clippedcamera.rst:210
+msgid "Removes a collision exception with the specified :ref:`RID<class_RID>`."
+msgstr ""
+
+#: ../../docs/classes/class_clippedcamera.rst:216
+msgid "void **set_collision_mask_bit** **(** :ref:`int<class_int>` bit, :ref:`bool<class_bool>` value **)**"
+msgstr ""
+
+#: ../../docs/classes/class_clippedcamera.rst:218
+msgid "Sets the specified bit index to the ``value``."
+msgstr ""

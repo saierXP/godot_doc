@@ -1,0 +1,78 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_hsplitcontainer.rst:10
+msgid "HSplitContainer"
+msgstr ""
+
+#: ../../docs/classes/class_hsplitcontainer.rst:12
+msgid "**Inherits:** :ref:`SplitContainer<class_SplitContainer>` **<** :ref:`Container<class_Container>` **<** :ref:`Control<class_Control>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_hsplitcontainer.rst:14
+msgid "Horizontal split container."
+msgstr ""
+
+#: ../../docs/classes/class_hsplitcontainer.rst:17
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_hsplitcontainer.rst:19
+msgid "Horizontal split container. See :ref:`SplitContainer<class_SplitContainer>`. This goes from left to right."
+msgstr ""
+
+#: ../../docs/classes/class_hsplitcontainer.rst:22
+msgid "Theme Properties"
+msgstr ""
+
+#: ../../docs/classes/class_hsplitcontainer.rst:25
+#: ../../docs/classes/class_hsplitcontainer.rst:31
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../../docs/classes/class_hsplitcontainer.rst:25
+msgid "autohide"
+msgstr ""
+
+#: ../../docs/classes/class_hsplitcontainer.rst:25
+msgid "1"
+msgstr ""
+
+#: ../../docs/classes/class_hsplitcontainer.rst:27
+msgid ":ref:`StyleBox<class_StyleBox>`"
+msgstr ""
+
+#: ../../docs/classes/class_hsplitcontainer.rst:27
+msgid "bg"
+msgstr ""
+
+#: ../../docs/classes/class_hsplitcontainer.rst:29
+msgid ":ref:`Texture<class_Texture>`"
+msgstr ""
+
+#: ../../docs/classes/class_hsplitcontainer.rst:29
+msgid "grabber"
+msgstr ""
+
+#: ../../docs/classes/class_hsplitcontainer.rst:31
+msgid "separation"
+msgstr ""
+
+#: ../../docs/classes/class_hsplitcontainer.rst:31
+msgid "12"
+msgstr ""

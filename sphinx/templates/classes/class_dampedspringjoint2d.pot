@@ -1,0 +1,173 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_dampedspringjoint2d.rst:10
+msgid "DampedSpringJoint2D"
+msgstr ""
+
+#: ../../docs/classes/class_dampedspringjoint2d.rst:12
+msgid "**Inherits:** :ref:`Joint2D<class_Joint2D>` **<** :ref:`Node2D<class_Node2D>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_dampedspringjoint2d.rst:14
+msgid "Damped spring constraint for 2D physics."
+msgstr ""
+
+#: ../../docs/classes/class_dampedspringjoint2d.rst:17
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_dampedspringjoint2d.rst:19
+msgid "Damped spring constraint for 2D physics. This resembles a spring joint that always wants to go back to a given length."
+msgstr ""
+
+#: ../../docs/classes/class_dampedspringjoint2d.rst:22
+msgid "Properties"
+msgstr ""
+
+#: ../../docs/classes/class_dampedspringjoint2d.rst:25
+#: ../../docs/classes/class_dampedspringjoint2d.rst:27
+#: ../../docs/classes/class_dampedspringjoint2d.rst:29
+#: ../../docs/classes/class_dampedspringjoint2d.rst:31
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../../docs/classes/class_dampedspringjoint2d.rst:25
+msgid ":ref:`damping<class_DampedSpringJoint2D_property_damping>`"
+msgstr ""
+
+#: ../../docs/classes/class_dampedspringjoint2d.rst:25
+#: ../../docs/classes/class_dampedspringjoint2d.rst:42
+msgid "``1.0``"
+msgstr ""
+
+#: ../../docs/classes/class_dampedspringjoint2d.rst:27
+msgid ":ref:`length<class_DampedSpringJoint2D_property_length>`"
+msgstr ""
+
+#: ../../docs/classes/class_dampedspringjoint2d.rst:27
+#: ../../docs/classes/class_dampedspringjoint2d.rst:58
+msgid "``50.0``"
+msgstr ""
+
+#: ../../docs/classes/class_dampedspringjoint2d.rst:29
+msgid ":ref:`rest_length<class_DampedSpringJoint2D_property_rest_length>`"
+msgstr ""
+
+#: ../../docs/classes/class_dampedspringjoint2d.rst:29
+#: ../../docs/classes/class_dampedspringjoint2d.rst:74
+msgid "``0.0``"
+msgstr ""
+
+#: ../../docs/classes/class_dampedspringjoint2d.rst:31
+msgid ":ref:`stiffness<class_DampedSpringJoint2D_property_stiffness>`"
+msgstr ""
+
+#: ../../docs/classes/class_dampedspringjoint2d.rst:31
+#: ../../docs/classes/class_dampedspringjoint2d.rst:90
+msgid "``20.0``"
+msgstr ""
+
+#: ../../docs/classes/class_dampedspringjoint2d.rst:35
+msgid "Property Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_dampedspringjoint2d.rst:39
+msgid ":ref:`float<class_float>` **damping**"
+msgstr ""
+
+#: ../../docs/classes/class_dampedspringjoint2d.rst:42
+#: ../../docs/classes/class_dampedspringjoint2d.rst:58
+#: ../../docs/classes/class_dampedspringjoint2d.rst:74
+#: ../../docs/classes/class_dampedspringjoint2d.rst:90
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_dampedspringjoint2d.rst:44
+#: ../../docs/classes/class_dampedspringjoint2d.rst:60
+#: ../../docs/classes/class_dampedspringjoint2d.rst:76
+#: ../../docs/classes/class_dampedspringjoint2d.rst:92
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_dampedspringjoint2d.rst:44
+msgid "set_damping(value)"
+msgstr ""
+
+#: ../../docs/classes/class_dampedspringjoint2d.rst:46
+#: ../../docs/classes/class_dampedspringjoint2d.rst:62
+#: ../../docs/classes/class_dampedspringjoint2d.rst:78
+#: ../../docs/classes/class_dampedspringjoint2d.rst:94
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_dampedspringjoint2d.rst:46
+msgid "get_damping()"
+msgstr ""
+
+#: ../../docs/classes/class_dampedspringjoint2d.rst:49
+msgid "The spring joint's damping ratio. A value between ``0`` and ``1``. When the two bodies move into different directions the system tries to align them to the spring axis again. A high ``damping`` value forces the attached bodies to align faster."
+msgstr ""
+
+#: ../../docs/classes/class_dampedspringjoint2d.rst:55
+msgid ":ref:`float<class_float>` **length**"
+msgstr ""
+
+#: ../../docs/classes/class_dampedspringjoint2d.rst:60
+msgid "set_length(value)"
+msgstr ""
+
+#: ../../docs/classes/class_dampedspringjoint2d.rst:62
+msgid "get_length()"
+msgstr ""
+
+#: ../../docs/classes/class_dampedspringjoint2d.rst:65
+msgid "The spring joint's maximum length. The two attached bodies cannot stretch it past this value."
+msgstr ""
+
+#: ../../docs/classes/class_dampedspringjoint2d.rst:71
+msgid ":ref:`float<class_float>` **rest_length**"
+msgstr ""
+
+#: ../../docs/classes/class_dampedspringjoint2d.rst:76
+msgid "set_rest_length(value)"
+msgstr ""
+
+#: ../../docs/classes/class_dampedspringjoint2d.rst:78
+msgid "get_rest_length()"
+msgstr ""
+
+#: ../../docs/classes/class_dampedspringjoint2d.rst:81
+msgid "When the bodies attached to the spring joint move they stretch or squash it. The joint always tries to resize towards this length."
+msgstr ""
+
+#: ../../docs/classes/class_dampedspringjoint2d.rst:87
+msgid ":ref:`float<class_float>` **stiffness**"
+msgstr ""
+
+#: ../../docs/classes/class_dampedspringjoint2d.rst:92
+msgid "set_stiffness(value)"
+msgstr ""
+
+#: ../../docs/classes/class_dampedspringjoint2d.rst:94
+msgid "get_stiffness()"
+msgstr ""
+
+#: ../../docs/classes/class_dampedspringjoint2d.rst:97
+msgid "The higher the value, the less the bodies attached to the joint will deform it. The joint applies an opposing force to the bodies, the product of the stiffness multiplied by the size difference from its resting length."
+msgstr ""

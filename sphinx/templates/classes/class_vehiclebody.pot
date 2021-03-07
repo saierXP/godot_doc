@@ -1,0 +1,180 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_vehiclebody.rst:10
+msgid "VehicleBody"
+msgstr ""
+
+#: ../../docs/classes/class_vehiclebody.rst:12
+msgid "**Inherits:** :ref:`RigidBody<class_RigidBody>` **<** :ref:`PhysicsBody<class_PhysicsBody>` **<** :ref:`CollisionObject<class_CollisionObject>` **<** :ref:`Spatial<class_Spatial>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_vehiclebody.rst:14
+msgid "Physics body that simulates the behavior of a car."
+msgstr ""
+
+#: ../../docs/classes/class_vehiclebody.rst:17
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_vehiclebody.rst:19
+msgid "This node implements all the physics logic needed to simulate a car. It is based on the raycast vehicle system commonly found in physics engines. You will need to add a :ref:`CollisionShape<class_CollisionShape>` for the main body of your vehicle and add :ref:`VehicleWheel<class_VehicleWheel>` nodes for the wheels. You should also add a :ref:`MeshInstance<class_MeshInstance>` to this node for the 3D model of your car but this model should not include meshes for the wheels. You should control the vehicle by using the :ref:`brake<class_VehicleBody_property_brake>`, :ref:`engine_force<class_VehicleBody_property_engine_force>`, and :ref:`steering<class_VehicleBody_property_steering>` properties and not change the position or orientation of this node directly."
+msgstr ""
+
+#: ../../docs/classes/class_vehiclebody.rst:21
+msgid "**Note:** The origin point of your VehicleBody will determine the center of gravity of your vehicle so it is better to keep this low and move the :ref:`CollisionShape<class_CollisionShape>` and :ref:`MeshInstance<class_MeshInstance>` upwards."
+msgstr ""
+
+#: ../../docs/classes/class_vehiclebody.rst:23
+msgid "**Note:** This class has known issues and isn't designed to provide realistic 3D vehicle physics. If you want advanced vehicle physics, you will probably have to write your own physics integration using another :ref:`PhysicsBody<class_PhysicsBody>` class."
+msgstr ""
+
+#: ../../docs/classes/class_vehiclebody.rst:26
+msgid "Tutorials"
+msgstr ""
+
+#: ../../docs/classes/class_vehiclebody.rst:28
+msgid "`https://godotengine.org/asset-library/asset/524 <https://godotengine.org/asset-library/asset/524>`_"
+msgstr ""
+
+#: ../../docs/classes/class_vehiclebody.rst:31
+msgid "Properties"
+msgstr ""
+
+#: ../../docs/classes/class_vehiclebody.rst:34
+#: ../../docs/classes/class_vehiclebody.rst:36
+#: ../../docs/classes/class_vehiclebody.rst:38
+#: ../../docs/classes/class_vehiclebody.rst:40
+#: ../../docs/classes/class_vehiclebody.rst:42
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../../docs/classes/class_vehiclebody.rst:34
+msgid ":ref:`brake<class_VehicleBody_property_brake>`"
+msgstr ""
+
+#: ../../docs/classes/class_vehiclebody.rst:34
+#: ../../docs/classes/class_vehiclebody.rst:36
+#: ../../docs/classes/class_vehiclebody.rst:40
+#: ../../docs/classes/class_vehiclebody.rst:53
+#: ../../docs/classes/class_vehiclebody.rst:69
+#: ../../docs/classes/class_vehiclebody.rst:89
+msgid "``0.0``"
+msgstr ""
+
+#: ../../docs/classes/class_vehiclebody.rst:36
+msgid ":ref:`engine_force<class_VehicleBody_property_engine_force>`"
+msgstr ""
+
+#: ../../docs/classes/class_vehiclebody.rst:38
+msgid "mass"
+msgstr ""
+
+#: ../../docs/classes/class_vehiclebody.rst:38
+msgid "``40.0`` *(parent override)*"
+msgstr ""
+
+#: ../../docs/classes/class_vehiclebody.rst:40
+msgid ":ref:`steering<class_VehicleBody_property_steering>`"
+msgstr ""
+
+#: ../../docs/classes/class_vehiclebody.rst:42
+msgid "weight"
+msgstr ""
+
+#: ../../docs/classes/class_vehiclebody.rst:42
+msgid "``392.0`` *(parent override)*"
+msgstr ""
+
+#: ../../docs/classes/class_vehiclebody.rst:46
+msgid "Property Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_vehiclebody.rst:50
+msgid ":ref:`float<class_float>` **brake**"
+msgstr ""
+
+#: ../../docs/classes/class_vehiclebody.rst:53
+#: ../../docs/classes/class_vehiclebody.rst:69
+#: ../../docs/classes/class_vehiclebody.rst:89
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_vehiclebody.rst:55
+#: ../../docs/classes/class_vehiclebody.rst:71
+#: ../../docs/classes/class_vehiclebody.rst:91
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_vehiclebody.rst:55
+msgid "set_brake(value)"
+msgstr ""
+
+#: ../../docs/classes/class_vehiclebody.rst:57
+#: ../../docs/classes/class_vehiclebody.rst:73
+#: ../../docs/classes/class_vehiclebody.rst:93
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_vehiclebody.rst:57
+msgid "get_brake()"
+msgstr ""
+
+#: ../../docs/classes/class_vehiclebody.rst:60
+msgid "Slows down the vehicle by applying a braking force. The vehicle is only slowed down if the wheels are in contact with a surface. The force you need to apply to adequately slow down your vehicle depends on the :ref:`RigidBody.mass<class_RigidBody_property_mass>` of the vehicle. For a vehicle with a mass set to 1000, try a value in the 25 - 30 range for hard braking."
+msgstr ""
+
+#: ../../docs/classes/class_vehiclebody.rst:66
+msgid ":ref:`float<class_float>` **engine_force**"
+msgstr ""
+
+#: ../../docs/classes/class_vehiclebody.rst:71
+msgid "set_engine_force(value)"
+msgstr ""
+
+#: ../../docs/classes/class_vehiclebody.rst:73
+msgid "get_engine_force()"
+msgstr ""
+
+#: ../../docs/classes/class_vehiclebody.rst:76
+msgid "Accelerates the vehicle by applying an engine force. The vehicle is only speed up if the wheels that have :ref:`VehicleWheel.use_as_traction<class_VehicleWheel_property_use_as_traction>` set to ``true`` and are in contact with a surface. The :ref:`RigidBody.mass<class_RigidBody_property_mass>` of the vehicle has an effect on the acceleration of the vehicle. For a vehicle with a mass set to 1000, try a value in the 25 - 50 range for acceleration."
+msgstr ""
+
+#: ../../docs/classes/class_vehiclebody.rst:78
+msgid "**Note:** The simulation does not take the effect of gears into account, you will need to add logic for this if you wish to simulate gears."
+msgstr ""
+
+#: ../../docs/classes/class_vehiclebody.rst:80
+msgid "A negative value will result in the vehicle reversing."
+msgstr ""
+
+#: ../../docs/classes/class_vehiclebody.rst:86
+msgid ":ref:`float<class_float>` **steering**"
+msgstr ""
+
+#: ../../docs/classes/class_vehiclebody.rst:91
+msgid "set_steering(value)"
+msgstr ""
+
+#: ../../docs/classes/class_vehiclebody.rst:93
+msgid "get_steering()"
+msgstr ""
+
+#: ../../docs/classes/class_vehiclebody.rst:96
+msgid "The steering angle for the vehicle. Setting this to a non-zero value will result in the vehicle turning when it's moving. Wheels that have :ref:`VehicleWheel.use_as_steering<class_VehicleWheel_property_use_as_steering>` set to ``true`` will automatically be rotated."
+msgstr ""

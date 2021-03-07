@@ -1,0 +1,132 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_editorselection.rst:10
+msgid "EditorSelection"
+msgstr ""
+
+#: ../../docs/classes/class_editorselection.rst:12
+msgid "**Inherits:** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_editorselection.rst:14
+msgid "Manages the SceneTree selection in the editor."
+msgstr ""
+
+#: ../../docs/classes/class_editorselection.rst:17
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_editorselection.rst:19
+msgid "This object manages the SceneTree selection in the editor."
+msgstr ""
+
+#: ../../docs/classes/class_editorselection.rst:21
+msgid "**Note:** This class shouldn't be instantiated directly. Instead, access the singleton using :ref:`EditorInterface.get_selection<class_EditorInterface_method_get_selection>`."
+msgstr ""
+
+#: ../../docs/classes/class_editorselection.rst:24
+msgid "Methods"
+msgstr ""
+
+#: ../../docs/classes/class_editorselection.rst:27
+#: ../../docs/classes/class_editorselection.rst:29
+#: ../../docs/classes/class_editorselection.rst:35
+msgid "void"
+msgstr ""
+
+#: ../../docs/classes/class_editorselection.rst:27
+msgid ":ref:`add_node<class_EditorSelection_method_add_node>` **(** :ref:`Node<class_Node>` node **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorselection.rst:29
+msgid ":ref:`clear<class_EditorSelection_method_clear>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorselection.rst:31
+#: ../../docs/classes/class_editorselection.rst:33
+msgid ":ref:`Array<class_Array>`"
+msgstr ""
+
+#: ../../docs/classes/class_editorselection.rst:31
+msgid ":ref:`get_selected_nodes<class_EditorSelection_method_get_selected_nodes>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorselection.rst:33
+msgid ":ref:`get_transformable_selected_nodes<class_EditorSelection_method_get_transformable_selected_nodes>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorselection.rst:35
+msgid ":ref:`remove_node<class_EditorSelection_method_remove_node>` **(** :ref:`Node<class_Node>` node **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorselection.rst:39
+msgid "Signals"
+msgstr ""
+
+#: ../../docs/classes/class_editorselection.rst:43
+msgid "**selection_changed** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorselection.rst:45
+msgid "Emitted when the selection changes."
+msgstr ""
+
+#: ../../docs/classes/class_editorselection.rst:48
+msgid "Method Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_editorselection.rst:52
+msgid "void **add_node** **(** :ref:`Node<class_Node>` node **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorselection.rst:54
+msgid "Adds a node to the selection."
+msgstr ""
+
+#: ../../docs/classes/class_editorselection.rst:60
+msgid "void **clear** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorselection.rst:62
+msgid "Clear the selection."
+msgstr ""
+
+#: ../../docs/classes/class_editorselection.rst:68
+msgid ":ref:`Array<class_Array>` **get_selected_nodes** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorselection.rst:70
+msgid "Gets the list of selected nodes."
+msgstr ""
+
+#: ../../docs/classes/class_editorselection.rst:76
+msgid ":ref:`Array<class_Array>` **get_transformable_selected_nodes** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorselection.rst:78
+msgid "Gets the list of selected nodes, optimized for transform operations (i.e. moving them, rotating, etc). This list avoids situations where a node is selected and also child/grandchild."
+msgstr ""
+
+#: ../../docs/classes/class_editorselection.rst:84
+msgid "void **remove_node** **(** :ref:`Node<class_Node>` node **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorselection.rst:86
+msgid "Removes a node from the selection."
+msgstr ""

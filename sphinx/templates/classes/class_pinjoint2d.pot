@@ -1,0 +1,86 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_pinjoint2d.rst:10
+msgid "PinJoint2D"
+msgstr ""
+
+#: ../../docs/classes/class_pinjoint2d.rst:12
+msgid "**Inherits:** :ref:`Joint2D<class_Joint2D>` **<** :ref:`Node2D<class_Node2D>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_pinjoint2d.rst:14
+msgid "Pin Joint for 2D shapes."
+msgstr ""
+
+#: ../../docs/classes/class_pinjoint2d.rst:17
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_pinjoint2d.rst:19
+msgid "Pin Joint for 2D rigid bodies. It pins two bodies (rigid or static) together."
+msgstr ""
+
+#: ../../docs/classes/class_pinjoint2d.rst:22
+msgid "Properties"
+msgstr ""
+
+#: ../../docs/classes/class_pinjoint2d.rst:25
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../../docs/classes/class_pinjoint2d.rst:25
+msgid ":ref:`softness<class_PinJoint2D_property_softness>`"
+msgstr ""
+
+#: ../../docs/classes/class_pinjoint2d.rst:25
+#: ../../docs/classes/class_pinjoint2d.rst:36
+msgid "``0.0``"
+msgstr ""
+
+#: ../../docs/classes/class_pinjoint2d.rst:29
+msgid "Property Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_pinjoint2d.rst:33
+msgid ":ref:`float<class_float>` **softness**"
+msgstr ""
+
+#: ../../docs/classes/class_pinjoint2d.rst:36
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_pinjoint2d.rst:38
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_pinjoint2d.rst:38
+msgid "set_softness(value)"
+msgstr ""
+
+#: ../../docs/classes/class_pinjoint2d.rst:40
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_pinjoint2d.rst:40
+msgid "get_softness()"
+msgstr ""
+
+#: ../../docs/classes/class_pinjoint2d.rst:43
+msgid "The higher this value, the more the bond to the pinned partner can flex."
+msgstr ""

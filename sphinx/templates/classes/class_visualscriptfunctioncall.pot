@@ -1,0 +1,332 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_visualscriptfunctioncall.rst:10
+msgid "VisualScriptFunctionCall"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptfunctioncall.rst:12
+msgid "**Inherits:** :ref:`VisualScriptNode<class_VisualScriptNode>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptfunctioncall.rst:17
+msgid "Properties"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptfunctioncall.rst:20
+#: ../../docs/classes/class_visualscriptfunctioncall.rst:22
+#: ../../docs/classes/class_visualscriptfunctioncall.rst:28
+#: ../../docs/classes/class_visualscriptfunctioncall.rst:34
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptfunctioncall.rst:20
+msgid ":ref:`base_script<class_VisualScriptFunctionCall_property_base_script>`"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptfunctioncall.rst:22
+msgid ":ref:`base_type<class_VisualScriptFunctionCall_property_base_type>`"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptfunctioncall.rst:22
+#: ../../docs/classes/class_visualscriptfunctioncall.rst:114
+msgid "``\"Object\"``"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptfunctioncall.rst:24
+msgid ":ref:`Variant.Type<enum_@GlobalScope_Variant.Type>`"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptfunctioncall.rst:24
+msgid ":ref:`basic_type<class_VisualScriptFunctionCall_property_basic_type>`"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptfunctioncall.rst:26
+msgid ":ref:`CallMode<enum_VisualScriptFunctionCall_CallMode>`"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptfunctioncall.rst:26
+msgid ":ref:`call_mode<class_VisualScriptFunctionCall_property_call_mode>`"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptfunctioncall.rst:26
+#: ../../docs/classes/class_visualscriptfunctioncall.rst:32
+#: ../../docs/classes/class_visualscriptfunctioncall.rst:140
+#: ../../docs/classes/class_visualscriptfunctioncall.rst:180
+msgid "``0``"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptfunctioncall.rst:28
+msgid ":ref:`function<class_VisualScriptFunctionCall_property_function>`"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptfunctioncall.rst:28
+#: ../../docs/classes/class_visualscriptfunctioncall.rst:154
+msgid "``\"\"``"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptfunctioncall.rst:30
+msgid ":ref:`NodePath<class_NodePath>`"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptfunctioncall.rst:30
+msgid ":ref:`node_path<class_VisualScriptFunctionCall_property_node_path>`"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptfunctioncall.rst:32
+msgid ":ref:`RPCCallMode<enum_VisualScriptFunctionCall_RPCCallMode>`"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptfunctioncall.rst:32
+msgid ":ref:`rpc_call_mode<class_VisualScriptFunctionCall_property_rpc_call_mode>`"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptfunctioncall.rst:34
+msgid ":ref:`singleton<class_VisualScriptFunctionCall_property_singleton>`"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptfunctioncall.rst:36
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptfunctioncall.rst:36
+msgid ":ref:`use_default_args<class_VisualScriptFunctionCall_property_use_default_args>`"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptfunctioncall.rst:38
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptfunctioncall.rst:38
+msgid ":ref:`validate<class_VisualScriptFunctionCall_property_validate>`"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptfunctioncall.rst:38
+#: ../../docs/classes/class_visualscriptfunctioncall.rst:218
+msgid "``true``"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptfunctioncall.rst:42
+msgid "Enumerations"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptfunctioncall.rst:56
+msgid "enum **CallMode**:"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptfunctioncall.rst:58
+msgid "**CALL_MODE_SELF** = **0**"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptfunctioncall.rst:60
+msgid "**CALL_MODE_NODE_PATH** = **1**"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptfunctioncall.rst:62
+msgid "**CALL_MODE_INSTANCE** = **2**"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptfunctioncall.rst:64
+msgid "**CALL_MODE_BASIC_TYPE** = **3**"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptfunctioncall.rst:66
+msgid "**CALL_MODE_SINGLETON** = **4**"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptfunctioncall.rst:82
+msgid "enum **RPCCallMode**:"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptfunctioncall.rst:84
+msgid "**RPC_DISABLED** = **0**"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptfunctioncall.rst:86
+msgid "**RPC_RELIABLE** = **1**"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptfunctioncall.rst:88
+msgid "**RPC_UNRELIABLE** = **2**"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptfunctioncall.rst:90
+msgid "**RPC_RELIABLE_TO_ID** = **3**"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptfunctioncall.rst:92
+msgid "**RPC_UNRELIABLE_TO_ID** = **4**"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptfunctioncall.rst:95
+msgid "Property Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptfunctioncall.rst:99
+msgid ":ref:`String<class_String>` **base_script**"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptfunctioncall.rst:102
+#: ../../docs/classes/class_visualscriptfunctioncall.rst:116
+#: ../../docs/classes/class_visualscriptfunctioncall.rst:128
+#: ../../docs/classes/class_visualscriptfunctioncall.rst:142
+#: ../../docs/classes/class_visualscriptfunctioncall.rst:156
+#: ../../docs/classes/class_visualscriptfunctioncall.rst:168
+#: ../../docs/classes/class_visualscriptfunctioncall.rst:182
+#: ../../docs/classes/class_visualscriptfunctioncall.rst:194
+#: ../../docs/classes/class_visualscriptfunctioncall.rst:206
+#: ../../docs/classes/class_visualscriptfunctioncall.rst:220
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptfunctioncall.rst:102
+msgid "set_base_script(value)"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptfunctioncall.rst:104
+#: ../../docs/classes/class_visualscriptfunctioncall.rst:118
+#: ../../docs/classes/class_visualscriptfunctioncall.rst:130
+#: ../../docs/classes/class_visualscriptfunctioncall.rst:144
+#: ../../docs/classes/class_visualscriptfunctioncall.rst:158
+#: ../../docs/classes/class_visualscriptfunctioncall.rst:170
+#: ../../docs/classes/class_visualscriptfunctioncall.rst:184
+#: ../../docs/classes/class_visualscriptfunctioncall.rst:196
+#: ../../docs/classes/class_visualscriptfunctioncall.rst:208
+#: ../../docs/classes/class_visualscriptfunctioncall.rst:222
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptfunctioncall.rst:104
+msgid "get_base_script()"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptfunctioncall.rst:111
+msgid ":ref:`String<class_String>` **base_type**"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptfunctioncall.rst:114
+#: ../../docs/classes/class_visualscriptfunctioncall.rst:140
+#: ../../docs/classes/class_visualscriptfunctioncall.rst:154
+#: ../../docs/classes/class_visualscriptfunctioncall.rst:180
+#: ../../docs/classes/class_visualscriptfunctioncall.rst:218
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptfunctioncall.rst:116
+msgid "set_base_type(value)"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptfunctioncall.rst:118
+msgid "get_base_type()"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptfunctioncall.rst:125
+msgid ":ref:`Variant.Type<enum_@GlobalScope_Variant.Type>` **basic_type**"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptfunctioncall.rst:128
+msgid "set_basic_type(value)"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptfunctioncall.rst:130
+msgid "get_basic_type()"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptfunctioncall.rst:137
+msgid ":ref:`CallMode<enum_VisualScriptFunctionCall_CallMode>` **call_mode**"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptfunctioncall.rst:142
+msgid "set_call_mode(value)"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptfunctioncall.rst:144
+msgid "get_call_mode()"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptfunctioncall.rst:151
+msgid ":ref:`String<class_String>` **function**"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptfunctioncall.rst:156
+msgid "set_function(value)"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptfunctioncall.rst:158
+msgid "get_function()"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptfunctioncall.rst:165
+msgid ":ref:`NodePath<class_NodePath>` **node_path**"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptfunctioncall.rst:168
+msgid "set_base_path(value)"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptfunctioncall.rst:170
+msgid "get_base_path()"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptfunctioncall.rst:177
+msgid ":ref:`RPCCallMode<enum_VisualScriptFunctionCall_RPCCallMode>` **rpc_call_mode**"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptfunctioncall.rst:182
+msgid "set_rpc_call_mode(value)"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptfunctioncall.rst:184
+msgid "get_rpc_call_mode()"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptfunctioncall.rst:191
+msgid ":ref:`String<class_String>` **singleton**"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptfunctioncall.rst:194
+msgid "set_singleton(value)"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptfunctioncall.rst:196
+msgid "get_singleton()"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptfunctioncall.rst:203
+msgid ":ref:`int<class_int>` **use_default_args**"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptfunctioncall.rst:206
+msgid "set_use_default_args(value)"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptfunctioncall.rst:208
+msgid "get_use_default_args()"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptfunctioncall.rst:215
+msgid ":ref:`bool<class_bool>` **validate**"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptfunctioncall.rst:220
+msgid "set_validate(value)"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptfunctioncall.rst:222
+msgid "get_validate()"
+msgstr ""

@@ -1,0 +1,189 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_visualshadernodetexture.rst:10
+msgid "VisualShaderNodeTexture"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodetexture.rst:12
+msgid "**Inherits:** :ref:`VisualShaderNode<class_VisualShaderNode>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodetexture.rst:14
+msgid "Performs a texture lookup within the visual shader graph."
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodetexture.rst:17
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodetexture.rst:19
+msgid "Performs a lookup operation on the provided texture, with support for multiple texture sources to choose from."
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodetexture.rst:22
+msgid "Properties"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodetexture.rst:25
+msgid ":ref:`Source<enum_VisualShaderNodeTexture_Source>`"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodetexture.rst:25
+msgid ":ref:`source<class_VisualShaderNodeTexture_property_source>`"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodetexture.rst:25
+#: ../../docs/classes/class_visualshadernodetexture.rst:29
+#: ../../docs/classes/class_visualshadernodetexture.rst:89
+#: ../../docs/classes/class_visualshadernodetexture.rst:119
+msgid "``0``"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodetexture.rst:27
+msgid ":ref:`Texture<class_Texture>`"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodetexture.rst:27
+msgid ":ref:`texture<class_VisualShaderNodeTexture_property_texture>`"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodetexture.rst:29
+msgid ":ref:`TextureType<enum_VisualShaderNodeTexture_TextureType>`"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodetexture.rst:29
+msgid ":ref:`texture_type<class_VisualShaderNodeTexture_property_texture_type>`"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodetexture.rst:33
+msgid "Enumerations"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodetexture.rst:49
+msgid "enum **Source**:"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodetexture.rst:51
+msgid "**SOURCE_TEXTURE** = **0** --- Use the texture given as an argument for this function."
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodetexture.rst:53
+msgid "**SOURCE_SCREEN** = **1** --- Use the current viewport's texture as the source."
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodetexture.rst:55
+msgid "**SOURCE_2D_TEXTURE** = **2** --- Use the texture from this shader's texture built-in (e.g. a texture of a :ref:`Sprite<class_Sprite>`)."
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodetexture.rst:57
+msgid "**SOURCE_2D_NORMAL** = **3** --- Use the texture from this shader's normal map built-in."
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodetexture.rst:59
+msgid "**SOURCE_DEPTH** = **4** --- Use the depth texture available for this shader."
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodetexture.rst:61
+msgid "**SOURCE_PORT** = **5** --- Use the texture provided in the input port for this function."
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodetexture.rst:73
+msgid "enum **TextureType**:"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodetexture.rst:75
+msgid "**TYPE_DATA** = **0** --- No hints are added to the uniform declaration."
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodetexture.rst:77
+msgid "**TYPE_COLOR** = **1** --- Adds ``hint_albedo`` as hint to the uniform declaration for proper sRGB to linear conversion."
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodetexture.rst:79
+msgid "**TYPE_NORMALMAP** = **2** --- Adds ``hint_normal`` as hint to the uniform declaration, which internally converts the texture for proper usage as normal map."
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodetexture.rst:82
+msgid "Property Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodetexture.rst:86
+msgid ":ref:`Source<enum_VisualShaderNodeTexture_Source>` **source**"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodetexture.rst:89
+#: ../../docs/classes/class_visualshadernodetexture.rst:119
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodetexture.rst:91
+#: ../../docs/classes/class_visualshadernodetexture.rst:105
+#: ../../docs/classes/class_visualshadernodetexture.rst:121
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodetexture.rst:91
+msgid "set_source(value)"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodetexture.rst:93
+#: ../../docs/classes/class_visualshadernodetexture.rst:107
+#: ../../docs/classes/class_visualshadernodetexture.rst:123
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodetexture.rst:93
+msgid "get_source()"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodetexture.rst:96
+msgid "Determines the source for the lookup. See :ref:`Source<enum_VisualShaderNodeTexture_Source>` for options."
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodetexture.rst:102
+msgid ":ref:`Texture<class_Texture>` **texture**"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodetexture.rst:105
+msgid "set_texture(value)"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodetexture.rst:107
+msgid "get_texture()"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodetexture.rst:110
+msgid "The source texture, if needed for the selected :ref:`source<class_VisualShaderNodeTexture_property_source>`."
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodetexture.rst:116
+msgid ":ref:`TextureType<enum_VisualShaderNodeTexture_TextureType>` **texture_type**"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodetexture.rst:121
+msgid "set_texture_type(value)"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodetexture.rst:123
+msgid "get_texture_type()"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodetexture.rst:126
+msgid "Specifies the type of the texture if :ref:`source<class_VisualShaderNodeTexture_property_source>` is set to :ref:`SOURCE_TEXTURE<class_VisualShaderNodeTexture_constant_SOURCE_TEXTURE>`. See :ref:`TextureType<enum_VisualShaderNodeTexture_TextureType>` for options."
+msgstr ""

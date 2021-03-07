@@ -1,0 +1,492 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_webxrinterface.rst:10
+msgid "WebXRInterface"
+msgstr ""
+
+#: ../../docs/classes/class_webxrinterface.rst:12
+msgid "**Inherits:** :ref:`ARVRInterface<class_ARVRInterface>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_webxrinterface.rst:14
+msgid "AR/VR interface using WebXR."
+msgstr ""
+
+#: ../../docs/classes/class_webxrinterface.rst:17
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_webxrinterface.rst:19
+msgid "WebXR is an open standard that allows creating VR and AR applications that run in the web browser."
+msgstr ""
+
+#: ../../docs/classes/class_webxrinterface.rst:21
+msgid "As such, this interface is only available when running in an HTML5 export."
+msgstr ""
+
+#: ../../docs/classes/class_webxrinterface.rst:23
+msgid "WebXR supports a wide range of devices, from the very capable (like Valve Index, HTC Vive, Oculus Rift and Quest) down to the much less capable (like Google Cardboard, Oculus Go, GearVR, or plain smartphones)."
+msgstr ""
+
+#: ../../docs/classes/class_webxrinterface.rst:25
+msgid "Since WebXR is based on Javascript, it makes extensive use of callbacks, which means that ``WebXRInterface`` is forced to use signals, where other AR/VR interfaces would instead use functions that return a result immediately. This makes ``WebXRInterface`` quite a bit more complicated to intialize than other AR/VR interfaces."
+msgstr ""
+
+#: ../../docs/classes/class_webxrinterface.rst:27
+msgid "Here's the minimum code required to start an immersive VR session:"
+msgstr ""
+
+#: ../../docs/classes/class_webxrinterface.rst:101
+msgid "There are several ways to handle \"controller\" input:"
+msgstr ""
+
+#: ../../docs/classes/class_webxrinterface.rst:103
+msgid "Using :ref:`ARVRController<class_ARVRController>` nodes and their :ref:`ARVRController.button_pressed<class_ARVRController_signal_button_pressed>` and :ref:`ARVRController.button_release<class_ARVRController_signal_button_release>` signals. This is how controllers are typically handled in AR/VR apps in Godot, however, this will only work with advanced VR controllers like the Oculus Touch or Index controllers, for example. The buttons codes are defined by `Section 3.3 of the WebXR Gamepads Module <https://immersive-web.github.io/webxr-gamepads-module/#xr-standard-gamepad-mapping>`_."
+msgstr ""
+
+#: ../../docs/classes/class_webxrinterface.rst:105
+msgid "Using :ref:`Node._unhandled_input<class_Node_method__unhandled_input>` and :ref:`InputEventJoypadButton<class_InputEventJoypadButton>` or :ref:`InputEventJoypadMotion<class_InputEventJoypadMotion>`. This works the same as normal joypads, except the :ref:`InputEvent.device<class_InputEvent_property_device>` starts at 100, so the left controller is 100 and the right controller is 101, and the button codes are also defined by `Section 3.3 of the WebXR Gamepads Module <https://immersive-web.github.io/webxr-gamepads-module/#xr-standard-gamepad-mapping>`_."
+msgstr ""
+
+#: ../../docs/classes/class_webxrinterface.rst:107
+msgid "Using the :ref:`select<class_WebXRInterface_signal_select>`, :ref:`squeeze<class_WebXRInterface_signal_squeeze>` and related signals. This method will work for both advanced VR controllers, and non-traditional \"controllers\" like a tap on the screen, a spoken voice command or a button press on the device itself. The ``controller_id`` passed to these signals is the same id as used in :ref:`ARVRController.controller_id<class_ARVRController_property_controller_id>`."
+msgstr ""
+
+#: ../../docs/classes/class_webxrinterface.rst:109
+msgid "You can use one or all of these methods to allow your game or app to support a wider or narrower set of devices and input methods, or to allow more advanced interations with more advanced devices."
+msgstr ""
+
+#: ../../docs/classes/class_webxrinterface.rst:112
+msgid "Tutorials"
+msgstr ""
+
+#: ../../docs/classes/class_webxrinterface.rst:114
+msgid "`https://www.snopekgames.com/blog/2020/how-make-vr-game-webxr-godot <https://www.snopekgames.com/blog/2020/how-make-vr-game-webxr-godot>`_"
+msgstr ""
+
+#: ../../docs/classes/class_webxrinterface.rst:117
+msgid "Properties"
+msgstr ""
+
+#: ../../docs/classes/class_webxrinterface.rst:120
+msgid ":ref:`PoolVector3Array<class_PoolVector3Array>`"
+msgstr ""
+
+#: ../../docs/classes/class_webxrinterface.rst:120
+msgid ":ref:`bounds_geometry<class_WebXRInterface_property_bounds_geometry>`"
+msgstr ""
+
+#: ../../docs/classes/class_webxrinterface.rst:122
+#: ../../docs/classes/class_webxrinterface.rst:124
+#: ../../docs/classes/class_webxrinterface.rst:126
+#: ../../docs/classes/class_webxrinterface.rst:128
+#: ../../docs/classes/class_webxrinterface.rst:130
+#: ../../docs/classes/class_webxrinterface.rst:132
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../../docs/classes/class_webxrinterface.rst:122
+msgid ":ref:`optional_features<class_WebXRInterface_property_optional_features>`"
+msgstr ""
+
+#: ../../docs/classes/class_webxrinterface.rst:124
+msgid ":ref:`reference_space_type<class_WebXRInterface_property_reference_space_type>`"
+msgstr ""
+
+#: ../../docs/classes/class_webxrinterface.rst:126
+msgid ":ref:`requested_reference_space_types<class_WebXRInterface_property_requested_reference_space_types>`"
+msgstr ""
+
+#: ../../docs/classes/class_webxrinterface.rst:128
+msgid ":ref:`required_features<class_WebXRInterface_property_required_features>`"
+msgstr ""
+
+#: ../../docs/classes/class_webxrinterface.rst:130
+msgid ":ref:`session_mode<class_WebXRInterface_property_session_mode>`"
+msgstr ""
+
+#: ../../docs/classes/class_webxrinterface.rst:132
+msgid ":ref:`visibility_state<class_WebXRInterface_property_visibility_state>`"
+msgstr ""
+
+#: ../../docs/classes/class_webxrinterface.rst:136
+msgid "Methods"
+msgstr ""
+
+#: ../../docs/classes/class_webxrinterface.rst:139
+msgid ":ref:`ARVRPositionalTracker<class_ARVRPositionalTracker>`"
+msgstr ""
+
+#: ../../docs/classes/class_webxrinterface.rst:139
+msgid ":ref:`get_controller<class_WebXRInterface_method_get_controller>` **(** :ref:`int<class_int>` controller_id **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_webxrinterface.rst:141
+msgid "void"
+msgstr ""
+
+#: ../../docs/classes/class_webxrinterface.rst:141
+msgid ":ref:`is_session_supported<class_WebXRInterface_method_is_session_supported>` **(** :ref:`String<class_String>` session_mode **)**"
+msgstr ""
+
+#: ../../docs/classes/class_webxrinterface.rst:145
+msgid "Signals"
+msgstr ""
+
+#: ../../docs/classes/class_webxrinterface.rst:149
+msgid "**reference_space_reset** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_webxrinterface.rst:151
+msgid "Emitted to indicate that the reference space has been reset or reconfigured."
+msgstr ""
+
+#: ../../docs/classes/class_webxrinterface.rst:153
+msgid "When (or whether) this is emitted depends on the user's browser or device, but may include when the user has changed the dimensions of their play space (which you may be able to access via :ref:`bounds_geometry<class_WebXRInterface_property_bounds_geometry>`) or pressed/held a button to recenter their position."
+msgstr ""
+
+#: ../../docs/classes/class_webxrinterface.rst:155
+msgid "See `WebXR's XRReferenceSpace reset event <https://developer.mozilla.org/en-US/docs/Web/API/XRReferenceSpace/reset_event>`_ for more information."
+msgstr ""
+
+#: ../../docs/classes/class_webxrinterface.rst:161
+msgid "**select** **(** :ref:`int<class_int>` controller_id **)**"
+msgstr ""
+
+#: ../../docs/classes/class_webxrinterface.rst:163
+msgid "Emitted after one of the \"controllers\" has finished its \"primary action\"."
+msgstr ""
+
+#: ../../docs/classes/class_webxrinterface.rst:165
+#: ../../docs/classes/class_webxrinterface.rst:175
+#: ../../docs/classes/class_webxrinterface.rst:185
+#: ../../docs/classes/class_webxrinterface.rst:233
+#: ../../docs/classes/class_webxrinterface.rst:243
+#: ../../docs/classes/class_webxrinterface.rst:253
+msgid "Use :ref:`get_controller<class_WebXRInterface_method_get_controller>` to get more information about the controller."
+msgstr ""
+
+#: ../../docs/classes/class_webxrinterface.rst:171
+msgid "**selectend** **(** :ref:`int<class_int>` controller_id **)**"
+msgstr ""
+
+#: ../../docs/classes/class_webxrinterface.rst:173
+msgid "Emitted when one of the \"controllers\" has finished its \"primary action\"."
+msgstr ""
+
+#: ../../docs/classes/class_webxrinterface.rst:181
+msgid "**selectstart** **(** :ref:`int<class_int>` controller_id **)**"
+msgstr ""
+
+#: ../../docs/classes/class_webxrinterface.rst:183
+msgid "Emitted when one of the \"controllers\" has started its \"primary action\"."
+msgstr ""
+
+#: ../../docs/classes/class_webxrinterface.rst:191
+msgid "**session_ended** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_webxrinterface.rst:193
+msgid "Emitted when the user ends the WebXR session (which can be done using UI from the browser or device)."
+msgstr ""
+
+#: ../../docs/classes/class_webxrinterface.rst:195
+msgid "At this point, you should do ``get_viewport().arvr = false`` to instruct Godot to resume rendering to the screen."
+msgstr ""
+
+#: ../../docs/classes/class_webxrinterface.rst:201
+msgid "**session_failed** **(** :ref:`String<class_String>` message **)**"
+msgstr ""
+
+#: ../../docs/classes/class_webxrinterface.rst:203
+msgid "Emitted by :ref:`ARVRInterface.initialize<class_ARVRInterface_method_initialize>` if the session fails to start."
+msgstr ""
+
+#: ../../docs/classes/class_webxrinterface.rst:205
+msgid "``message`` may optionally contain an error message from WebXR, or an empty string if no message is available."
+msgstr ""
+
+#: ../../docs/classes/class_webxrinterface.rst:211
+msgid "**session_started** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_webxrinterface.rst:213
+msgid "Emitted by :ref:`ARVRInterface.initialize<class_ARVRInterface_method_initialize>` if the session is successfully started."
+msgstr ""
+
+#: ../../docs/classes/class_webxrinterface.rst:215
+msgid "At this point, it's safe to do ``get_viewport().arvr = true`` to instruct Godot to start rendering to the AR/VR device."
+msgstr ""
+
+#: ../../docs/classes/class_webxrinterface.rst:221
+msgid "**session_supported** **(** :ref:`String<class_String>` session_mode, :ref:`bool<class_bool>` supported **)**"
+msgstr ""
+
+#: ../../docs/classes/class_webxrinterface.rst:223
+msgid "Emitted by :ref:`is_session_supported<class_WebXRInterface_method_is_session_supported>` to indicate if the given ``session_mode`` is supported or not."
+msgstr ""
+
+#: ../../docs/classes/class_webxrinterface.rst:229
+msgid "**squeeze** **(** :ref:`int<class_int>` controller_id **)**"
+msgstr ""
+
+#: ../../docs/classes/class_webxrinterface.rst:231
+msgid "Emitted after one of the \"controllers\" has finished its \"primary squeeze action\"."
+msgstr ""
+
+#: ../../docs/classes/class_webxrinterface.rst:239
+msgid "**squeezeend** **(** :ref:`int<class_int>` controller_id **)**"
+msgstr ""
+
+#: ../../docs/classes/class_webxrinterface.rst:241
+msgid "Emitted when one of the \"controllers\" has finished its \"primary squeeze action\"."
+msgstr ""
+
+#: ../../docs/classes/class_webxrinterface.rst:249
+msgid "**squeezestart** **(** :ref:`int<class_int>` controller_id **)**"
+msgstr ""
+
+#: ../../docs/classes/class_webxrinterface.rst:251
+msgid "Emitted when one of the \"controllers\" has started its \"primary squeeze action\"."
+msgstr ""
+
+#: ../../docs/classes/class_webxrinterface.rst:259
+msgid "**visibility_state_changed** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_webxrinterface.rst:261
+msgid "Emitted when :ref:`visibility_state<class_WebXRInterface_property_visibility_state>` has changed."
+msgstr ""
+
+#: ../../docs/classes/class_webxrinterface.rst:264
+msgid "Property Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_webxrinterface.rst:268
+msgid ":ref:`PoolVector3Array<class_PoolVector3Array>` **bounds_geometry**"
+msgstr ""
+
+#: ../../docs/classes/class_webxrinterface.rst:271
+#: ../../docs/classes/class_webxrinterface.rst:289
+#: ../../docs/classes/class_webxrinterface.rst:307
+#: ../../docs/classes/class_webxrinterface.rst:323
+#: ../../docs/classes/class_webxrinterface.rst:343
+#: ../../docs/classes/class_webxrinterface.rst:363
+#: ../../docs/classes/class_webxrinterface.rst:379
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_webxrinterface.rst:271
+msgid "get_bounds_geometry()"
+msgstr ""
+
+#: ../../docs/classes/class_webxrinterface.rst:274
+msgid "The vertices of a polygon which defines the boundaries of the user's play area."
+msgstr ""
+
+#: ../../docs/classes/class_webxrinterface.rst:276
+msgid "This will only be available if :ref:`reference_space_type<class_WebXRInterface_property_reference_space_type>` is ``\"bounded-floor\"`` and only on certain browsers and devices that support it."
+msgstr ""
+
+#: ../../docs/classes/class_webxrinterface.rst:278
+msgid "The :ref:`reference_space_reset<class_WebXRInterface_signal_reference_space_reset>` signal may indicate when this changes."
+msgstr ""
+
+#: ../../docs/classes/class_webxrinterface.rst:284
+msgid ":ref:`String<class_String>` **optional_features**"
+msgstr ""
+
+#: ../../docs/classes/class_webxrinterface.rst:287
+#: ../../docs/classes/class_webxrinterface.rst:321
+#: ../../docs/classes/class_webxrinterface.rst:341
+#: ../../docs/classes/class_webxrinterface.rst:361
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_webxrinterface.rst:287
+msgid "set_optional_features(value)"
+msgstr ""
+
+#: ../../docs/classes/class_webxrinterface.rst:289
+msgid "get_optional_features()"
+msgstr ""
+
+#: ../../docs/classes/class_webxrinterface.rst:292
+msgid "A comma-seperated list of optional features used by :ref:`ARVRInterface.initialize<class_ARVRInterface_method_initialize>` when setting up the WebXR session."
+msgstr ""
+
+#: ../../docs/classes/class_webxrinterface.rst:294
+msgid "If a user's browser or device doesn't support one of the given features, initialization will continue, but you won't be able to use the requested feature."
+msgstr ""
+
+#: ../../docs/classes/class_webxrinterface.rst:296
+#: ../../docs/classes/class_webxrinterface.rst:330
+#: ../../docs/classes/class_webxrinterface.rst:350
+#: ../../docs/classes/class_webxrinterface.rst:368
+msgid "This doesn't have any effect on the interface when already initialized."
+msgstr ""
+
+#: ../../docs/classes/class_webxrinterface.rst:298
+#: ../../docs/classes/class_webxrinterface.rst:312
+#: ../../docs/classes/class_webxrinterface.rst:332
+#: ../../docs/classes/class_webxrinterface.rst:352
+msgid "Possible values come from `WebXR's XRReferenceSpaceType <https://developer.mozilla.org/en-US/docs/Web/API/XRReferenceSpaceType>`_. If you want to use a particular reference space type, it must be listed in either :ref:`required_features<class_WebXRInterface_property_required_features>` or :ref:`optional_features<class_WebXRInterface_property_optional_features>`."
+msgstr ""
+
+#: ../../docs/classes/class_webxrinterface.rst:304
+msgid ":ref:`String<class_String>` **reference_space_type**"
+msgstr ""
+
+#: ../../docs/classes/class_webxrinterface.rst:307
+msgid "get_reference_space_type()"
+msgstr ""
+
+#: ../../docs/classes/class_webxrinterface.rst:310
+msgid "The reference space type (from the list of requested types set in the :ref:`requested_reference_space_types<class_WebXRInterface_property_requested_reference_space_types>` property), that was ultimately used by :ref:`ARVRInterface.initialize<class_ARVRInterface_method_initialize>` when setting up the WebXR session."
+msgstr ""
+
+#: ../../docs/classes/class_webxrinterface.rst:318
+msgid ":ref:`String<class_String>` **requested_reference_space_types**"
+msgstr ""
+
+#: ../../docs/classes/class_webxrinterface.rst:321
+msgid "set_requested_reference_space_types(value)"
+msgstr ""
+
+#: ../../docs/classes/class_webxrinterface.rst:323
+msgid "get_requested_reference_space_types()"
+msgstr ""
+
+#: ../../docs/classes/class_webxrinterface.rst:326
+msgid "A comma-seperated list of reference space types used by :ref:`ARVRInterface.initialize<class_ARVRInterface_method_initialize>` when setting up the WebXR session."
+msgstr ""
+
+#: ../../docs/classes/class_webxrinterface.rst:328
+msgid "The reference space types are requested in order, and the first on supported by the users device or browser will be used. The :ref:`reference_space_type<class_WebXRInterface_property_reference_space_type>` property contains the reference space type that was ultimately used."
+msgstr ""
+
+#: ../../docs/classes/class_webxrinterface.rst:338
+msgid ":ref:`String<class_String>` **required_features**"
+msgstr ""
+
+#: ../../docs/classes/class_webxrinterface.rst:341
+msgid "set_required_features(value)"
+msgstr ""
+
+#: ../../docs/classes/class_webxrinterface.rst:343
+msgid "get_required_features()"
+msgstr ""
+
+#: ../../docs/classes/class_webxrinterface.rst:346
+msgid "A comma-seperated list of required features used by :ref:`ARVRInterface.initialize<class_ARVRInterface_method_initialize>` when setting up the WebXR session."
+msgstr ""
+
+#: ../../docs/classes/class_webxrinterface.rst:348
+msgid "If a user's browser or device doesn't support one of the given features, initialization will fail and :ref:`session_failed<class_WebXRInterface_signal_session_failed>` will be emitted."
+msgstr ""
+
+#: ../../docs/classes/class_webxrinterface.rst:358
+msgid ":ref:`String<class_String>` **session_mode**"
+msgstr ""
+
+#: ../../docs/classes/class_webxrinterface.rst:361
+msgid "set_session_mode(value)"
+msgstr ""
+
+#: ../../docs/classes/class_webxrinterface.rst:363
+msgid "get_session_mode()"
+msgstr ""
+
+#: ../../docs/classes/class_webxrinterface.rst:366
+msgid "The session mode used by :ref:`ARVRInterface.initialize<class_ARVRInterface_method_initialize>` when setting up the WebXR session."
+msgstr ""
+
+#: ../../docs/classes/class_webxrinterface.rst:370
+#: ../../docs/classes/class_webxrinterface.rst:419
+msgid "Possible values come from `WebXR's XRSessionMode <https://developer.mozilla.org/en-US/docs/Web/API/XRSessionMode>`_, including: ``\"immersive-vr\"``, ``\"immersive-ar\"``, and ``\"inline\"``."
+msgstr ""
+
+#: ../../docs/classes/class_webxrinterface.rst:376
+msgid ":ref:`String<class_String>` **visibility_state**"
+msgstr ""
+
+#: ../../docs/classes/class_webxrinterface.rst:379
+msgid "get_visibility_state()"
+msgstr ""
+
+#: ../../docs/classes/class_webxrinterface.rst:382
+msgid "Indicates if the WebXR session's imagery is visible to the user."
+msgstr ""
+
+#: ../../docs/classes/class_webxrinterface.rst:384
+msgid "Possible values come from `WebXR's XRVisibilityState <https://developer.mozilla.org/en-US/docs/Web/API/XRVisibilityState>`_, including ``\"hidden\"``, ``\"visible\"``, and ``\"visible-blurred\"``."
+msgstr ""
+
+#: ../../docs/classes/class_webxrinterface.rst:387
+msgid "Method Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_webxrinterface.rst:391
+msgid ":ref:`ARVRPositionalTracker<class_ARVRPositionalTracker>` **get_controller** **(** :ref:`int<class_int>` controller_id **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_webxrinterface.rst:393
+msgid "Gets an :ref:`ARVRPositionalTracker<class_ARVRPositionalTracker>` for the given ``controller_id``."
+msgstr ""
+
+#: ../../docs/classes/class_webxrinterface.rst:395
+msgid "In the context of WebXR, a \"controller\" can be an advanced VR controller like the Oculus Touch or Index controllers, or even a tap on the screen, a spoken voice command or a button press on the device itself. When a non-traditional controller is used, interpret the position and orientation of the :ref:`ARVRPositionalTracker<class_ARVRPositionalTracker>` as a ray pointing at the object the user wishes to interact with."
+msgstr ""
+
+#: ../../docs/classes/class_webxrinterface.rst:397
+msgid "Use this method to get information about the controller that triggered one of these signals:"
+msgstr ""
+
+#: ../../docs/classes/class_webxrinterface.rst:399
+msgid ":ref:`selectstart<class_WebXRInterface_signal_selectstart>`"
+msgstr ""
+
+#: ../../docs/classes/class_webxrinterface.rst:401
+msgid ":ref:`select<class_WebXRInterface_signal_select>`"
+msgstr ""
+
+#: ../../docs/classes/class_webxrinterface.rst:403
+msgid ":ref:`selectend<class_WebXRInterface_signal_selectend>`"
+msgstr ""
+
+#: ../../docs/classes/class_webxrinterface.rst:405
+#: ../../docs/classes/class_webxrinterface.rst:409
+msgid ":ref:`squeezestart<class_WebXRInterface_signal_squeezestart>`"
+msgstr ""
+
+#: ../../docs/classes/class_webxrinterface.rst:407
+msgid ":ref:`squeeze<class_WebXRInterface_signal_squeeze>`"
+msgstr ""
+
+#: ../../docs/classes/class_webxrinterface.rst:415
+msgid "void **is_session_supported** **(** :ref:`String<class_String>` session_mode **)**"
+msgstr ""
+
+#: ../../docs/classes/class_webxrinterface.rst:417
+msgid "Checks if the given ``session_mode`` is supported by the user's browser."
+msgstr ""
+
+#: ../../docs/classes/class_webxrinterface.rst:421
+msgid "This method returns nothing, instead it emits the :ref:`session_supported<class_WebXRInterface_signal_session_supported>` signal with the result."
+msgstr ""

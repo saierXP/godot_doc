@@ -1,0 +1,219 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_staticbody.rst:10
+msgid "StaticBody"
+msgstr ""
+
+#: ../../docs/classes/class_staticbody.rst:12
+msgid "**Inherits:** :ref:`PhysicsBody<class_PhysicsBody>` **<** :ref:`CollisionObject<class_CollisionObject>` **<** :ref:`Spatial<class_Spatial>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_staticbody.rst:14
+msgid "Static body for 3D physics."
+msgstr ""
+
+#: ../../docs/classes/class_staticbody.rst:17
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_staticbody.rst:19
+msgid "Static body for 3D physics. A static body is a simple body that is not intended to move. In contrast to :ref:`RigidBody<class_RigidBody>`, they don't consume any CPU resources as long as they don't move."
+msgstr ""
+
+#: ../../docs/classes/class_staticbody.rst:21
+msgid "Additionally, a constant linear or angular velocity can be set for the static body, so even if it doesn't move, it affects other bodies as if it was moving (this is useful for simulating conveyor belts or conveyor wheels)."
+msgstr ""
+
+#: ../../docs/classes/class_staticbody.rst:24
+msgid "Tutorials"
+msgstr ""
+
+#: ../../docs/classes/class_staticbody.rst:26
+msgid "`https://godotengine.org/asset-library/asset/675 <https://godotengine.org/asset-library/asset/675>`_"
+msgstr ""
+
+#: ../../docs/classes/class_staticbody.rst:28
+msgid "`https://godotengine.org/asset-library/asset/678 <https://godotengine.org/asset-library/asset/678>`_"
+msgstr ""
+
+#: ../../docs/classes/class_staticbody.rst:30
+msgid "`https://godotengine.org/asset-library/asset/676 <https://godotengine.org/asset-library/asset/676>`_"
+msgstr ""
+
+#: ../../docs/classes/class_staticbody.rst:33
+msgid "Properties"
+msgstr ""
+
+#: ../../docs/classes/class_staticbody.rst:36
+#: ../../docs/classes/class_staticbody.rst:42
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../../docs/classes/class_staticbody.rst:36
+msgid ":ref:`bounce<class_StaticBody_property_bounce>`"
+msgstr ""
+
+#: ../../docs/classes/class_staticbody.rst:38
+#: ../../docs/classes/class_staticbody.rst:40
+msgid ":ref:`Vector3<class_Vector3>`"
+msgstr ""
+
+#: ../../docs/classes/class_staticbody.rst:38
+msgid ":ref:`constant_angular_velocity<class_StaticBody_property_constant_angular_velocity>`"
+msgstr ""
+
+#: ../../docs/classes/class_staticbody.rst:38
+#: ../../docs/classes/class_staticbody.rst:40
+#: ../../docs/classes/class_staticbody.rst:71
+#: ../../docs/classes/class_staticbody.rst:87
+msgid "``Vector3( 0, 0, 0 )``"
+msgstr ""
+
+#: ../../docs/classes/class_staticbody.rst:40
+msgid ":ref:`constant_linear_velocity<class_StaticBody_property_constant_linear_velocity>`"
+msgstr ""
+
+#: ../../docs/classes/class_staticbody.rst:42
+msgid ":ref:`friction<class_StaticBody_property_friction>`"
+msgstr ""
+
+#: ../../docs/classes/class_staticbody.rst:44
+msgid ":ref:`PhysicsMaterial<class_PhysicsMaterial>`"
+msgstr ""
+
+#: ../../docs/classes/class_staticbody.rst:44
+msgid ":ref:`physics_material_override<class_StaticBody_property_physics_material_override>`"
+msgstr ""
+
+#: ../../docs/classes/class_staticbody.rst:48
+msgid "Property Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_staticbody.rst:52
+msgid ":ref:`float<class_float>` **bounce**"
+msgstr ""
+
+#: ../../docs/classes/class_staticbody.rst:55
+#: ../../docs/classes/class_staticbody.rst:73
+#: ../../docs/classes/class_staticbody.rst:89
+#: ../../docs/classes/class_staticbody.rst:103
+#: ../../docs/classes/class_staticbody.rst:119
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_staticbody.rst:55
+msgid "set_bounce(value)"
+msgstr ""
+
+#: ../../docs/classes/class_staticbody.rst:57
+#: ../../docs/classes/class_staticbody.rst:75
+#: ../../docs/classes/class_staticbody.rst:91
+#: ../../docs/classes/class_staticbody.rst:105
+#: ../../docs/classes/class_staticbody.rst:121
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_staticbody.rst:57
+msgid "get_bounce()"
+msgstr ""
+
+#: ../../docs/classes/class_staticbody.rst:60
+msgid "The body's bounciness. Values range from ``0`` (no bounce) to ``1`` (full bounciness)."
+msgstr ""
+
+#: ../../docs/classes/class_staticbody.rst:62
+msgid "Deprecated, use :ref:`PhysicsMaterial.bounce<class_PhysicsMaterial_property_bounce>` instead via :ref:`physics_material_override<class_StaticBody_property_physics_material_override>`."
+msgstr ""
+
+#: ../../docs/classes/class_staticbody.rst:68
+msgid ":ref:`Vector3<class_Vector3>` **constant_angular_velocity**"
+msgstr ""
+
+#: ../../docs/classes/class_staticbody.rst:71
+#: ../../docs/classes/class_staticbody.rst:87
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_staticbody.rst:73
+msgid "set_constant_angular_velocity(value)"
+msgstr ""
+
+#: ../../docs/classes/class_staticbody.rst:75
+msgid "get_constant_angular_velocity()"
+msgstr ""
+
+#: ../../docs/classes/class_staticbody.rst:78
+msgid "The body's constant angular velocity. This does not rotate the body, but affects other bodies that touch it, as if it was in a state of rotation."
+msgstr ""
+
+#: ../../docs/classes/class_staticbody.rst:84
+msgid ":ref:`Vector3<class_Vector3>` **constant_linear_velocity**"
+msgstr ""
+
+#: ../../docs/classes/class_staticbody.rst:89
+msgid "set_constant_linear_velocity(value)"
+msgstr ""
+
+#: ../../docs/classes/class_staticbody.rst:91
+msgid "get_constant_linear_velocity()"
+msgstr ""
+
+#: ../../docs/classes/class_staticbody.rst:94
+msgid "The body's constant linear velocity. This does not move the body, but affects other bodies that touch it, as if it was in a state of movement."
+msgstr ""
+
+#: ../../docs/classes/class_staticbody.rst:100
+msgid ":ref:`float<class_float>` **friction**"
+msgstr ""
+
+#: ../../docs/classes/class_staticbody.rst:103
+msgid "set_friction(value)"
+msgstr ""
+
+#: ../../docs/classes/class_staticbody.rst:105
+msgid "get_friction()"
+msgstr ""
+
+#: ../../docs/classes/class_staticbody.rst:108
+msgid "The body's friction, from 0 (frictionless) to 1 (full friction)."
+msgstr ""
+
+#: ../../docs/classes/class_staticbody.rst:110
+msgid "Deprecated, use :ref:`PhysicsMaterial.friction<class_PhysicsMaterial_property_friction>` instead via :ref:`physics_material_override<class_StaticBody_property_physics_material_override>`."
+msgstr ""
+
+#: ../../docs/classes/class_staticbody.rst:116
+msgid ":ref:`PhysicsMaterial<class_PhysicsMaterial>` **physics_material_override**"
+msgstr ""
+
+#: ../../docs/classes/class_staticbody.rst:119
+msgid "set_physics_material_override(value)"
+msgstr ""
+
+#: ../../docs/classes/class_staticbody.rst:121
+msgid "get_physics_material_override()"
+msgstr ""
+
+#: ../../docs/classes/class_staticbody.rst:124
+msgid "The physics material override for the body."
+msgstr ""
+
+#: ../../docs/classes/class_staticbody.rst:126
+msgid "If a material is assigned to this property, it will be used instead of any other physics material, such as an inherited one."
+msgstr ""

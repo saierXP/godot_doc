@@ -1,0 +1,128 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_visualscriptconstant.rst:10
+msgid "VisualScriptConstant"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptconstant.rst:12
+msgid "**Inherits:** :ref:`VisualScriptNode<class_VisualScriptNode>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptconstant.rst:14
+msgid "Gets a contant's value."
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptconstant.rst:17
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptconstant.rst:19
+msgid "This node returns a constant's value."
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptconstant.rst:21
+msgid "**Input Ports:**"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptconstant.rst:23
+msgid "none"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptconstant.rst:25
+msgid "**Output Ports:**"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptconstant.rst:27
+msgid "Data (variant): ``get``"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptconstant.rst:30
+msgid "Properties"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptconstant.rst:33
+msgid ":ref:`Variant.Type<enum_@GlobalScope_Variant.Type>`"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptconstant.rst:33
+msgid ":ref:`type<class_VisualScriptConstant_property_type>`"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptconstant.rst:33
+#: ../../docs/classes/class_visualscriptconstant.rst:46
+msgid "``0``"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptconstant.rst:35
+msgid ":ref:`Variant<class_Variant>`"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptconstant.rst:35
+msgid ":ref:`value<class_VisualScriptConstant_property_value>`"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptconstant.rst:39
+msgid "Property Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptconstant.rst:43
+msgid ":ref:`Variant.Type<enum_@GlobalScope_Variant.Type>` **type**"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptconstant.rst:46
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptconstant.rst:48
+#: ../../docs/classes/class_visualscriptconstant.rst:62
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptconstant.rst:48
+msgid "set_constant_type(value)"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptconstant.rst:50
+#: ../../docs/classes/class_visualscriptconstant.rst:64
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptconstant.rst:50
+msgid "get_constant_type()"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptconstant.rst:53
+msgid "The constant's type."
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptconstant.rst:59
+msgid ":ref:`Variant<class_Variant>` **value**"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptconstant.rst:62
+msgid "set_constant_value(value)"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptconstant.rst:64
+msgid "get_constant_value()"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptconstant.rst:67
+msgid "The constant's value."
+msgstr ""

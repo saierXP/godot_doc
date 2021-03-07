@@ -1,0 +1,160 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_cameratexture.rst:10
+msgid "CameraTexture"
+msgstr ""
+
+#: ../../docs/classes/class_cameratexture.rst:12
+msgid "**Inherits:** :ref:`Texture<class_Texture>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_cameratexture.rst:14
+msgid "Texture provided by a :ref:`CameraFeed<class_CameraFeed>`."
+msgstr ""
+
+#: ../../docs/classes/class_cameratexture.rst:17
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_cameratexture.rst:19
+msgid "This texture gives access to the camera texture provided by a :ref:`CameraFeed<class_CameraFeed>`."
+msgstr ""
+
+#: ../../docs/classes/class_cameratexture.rst:21
+msgid "**Note:** Many cameras supply YCbCr images which need to be converted in a shader."
+msgstr ""
+
+#: ../../docs/classes/class_cameratexture.rst:24
+msgid "Properties"
+msgstr ""
+
+#: ../../docs/classes/class_cameratexture.rst:27
+#: ../../docs/classes/class_cameratexture.rst:31
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../../docs/classes/class_cameratexture.rst:27
+msgid ":ref:`camera_feed_id<class_CameraTexture_property_camera_feed_id>`"
+msgstr ""
+
+#: ../../docs/classes/class_cameratexture.rst:27
+#: ../../docs/classes/class_cameratexture.rst:33
+#: ../../docs/classes/class_cameratexture.rst:44
+#: ../../docs/classes/class_cameratexture.rst:76
+msgid "``0``"
+msgstr ""
+
+#: ../../docs/classes/class_cameratexture.rst:29
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_cameratexture.rst:29
+msgid ":ref:`camera_is_active<class_CameraTexture_property_camera_is_active>`"
+msgstr ""
+
+#: ../../docs/classes/class_cameratexture.rst:29
+#: ../../docs/classes/class_cameratexture.rst:60
+msgid "``false``"
+msgstr ""
+
+#: ../../docs/classes/class_cameratexture.rst:31
+msgid "flags"
+msgstr ""
+
+#: ../../docs/classes/class_cameratexture.rst:31
+msgid "``0`` *(parent override)*"
+msgstr ""
+
+#: ../../docs/classes/class_cameratexture.rst:33
+msgid ":ref:`FeedImage<enum_CameraServer_FeedImage>`"
+msgstr ""
+
+#: ../../docs/classes/class_cameratexture.rst:33
+msgid ":ref:`which_feed<class_CameraTexture_property_which_feed>`"
+msgstr ""
+
+#: ../../docs/classes/class_cameratexture.rst:37
+msgid "Property Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_cameratexture.rst:41
+msgid ":ref:`int<class_int>` **camera_feed_id**"
+msgstr ""
+
+#: ../../docs/classes/class_cameratexture.rst:44
+#: ../../docs/classes/class_cameratexture.rst:60
+#: ../../docs/classes/class_cameratexture.rst:76
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_cameratexture.rst:46
+#: ../../docs/classes/class_cameratexture.rst:62
+#: ../../docs/classes/class_cameratexture.rst:78
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_cameratexture.rst:46
+msgid "set_camera_feed_id(value)"
+msgstr ""
+
+#: ../../docs/classes/class_cameratexture.rst:48
+#: ../../docs/classes/class_cameratexture.rst:64
+#: ../../docs/classes/class_cameratexture.rst:80
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_cameratexture.rst:48
+msgid "get_camera_feed_id()"
+msgstr ""
+
+#: ../../docs/classes/class_cameratexture.rst:51
+msgid "The ID of the :ref:`CameraFeed<class_CameraFeed>` for which we want to display the image."
+msgstr ""
+
+#: ../../docs/classes/class_cameratexture.rst:57
+msgid ":ref:`bool<class_bool>` **camera_is_active**"
+msgstr ""
+
+#: ../../docs/classes/class_cameratexture.rst:62
+msgid "set_camera_active(value)"
+msgstr ""
+
+#: ../../docs/classes/class_cameratexture.rst:64
+msgid "get_camera_active()"
+msgstr ""
+
+#: ../../docs/classes/class_cameratexture.rst:67
+msgid "Convenience property that gives access to the active property of the :ref:`CameraFeed<class_CameraFeed>`."
+msgstr ""
+
+#: ../../docs/classes/class_cameratexture.rst:73
+msgid ":ref:`FeedImage<enum_CameraServer_FeedImage>` **which_feed**"
+msgstr ""
+
+#: ../../docs/classes/class_cameratexture.rst:78
+msgid "set_which_feed(value)"
+msgstr ""
+
+#: ../../docs/classes/class_cameratexture.rst:80
+msgid "get_which_feed()"
+msgstr ""
+
+#: ../../docs/classes/class_cameratexture.rst:83
+msgid "Which image within the :ref:`CameraFeed<class_CameraFeed>` we want access to, important if the camera image is split in a Y and CbCr component."
+msgstr ""

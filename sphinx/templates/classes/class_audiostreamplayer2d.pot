@@ -1,0 +1,438 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_audiostreamplayer2d.rst:10
+msgid "AudioStreamPlayer2D"
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamplayer2d.rst:12
+msgid "**Inherits:** :ref:`Node2D<class_Node2D>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamplayer2d.rst:14
+msgid "Plays audio in 2D."
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamplayer2d.rst:17
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamplayer2d.rst:19
+msgid "Plays audio that dampens with distance from screen center."
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamplayer2d.rst:22
+msgid "Tutorials"
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamplayer2d.rst:24
+msgid ":doc:`../tutorials/audio/audio_streams`"
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamplayer2d.rst:27
+msgid "Properties"
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamplayer2d.rst:30
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamplayer2d.rst:30
+msgid ":ref:`area_mask<class_AudioStreamPlayer2D_property_area_mask>`"
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamplayer2d.rst:30
+#: ../../docs/classes/class_audiostreamplayer2d.rst:83
+msgid "``1``"
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamplayer2d.rst:32
+#: ../../docs/classes/class_audiostreamplayer2d.rst:38
+#: ../../docs/classes/class_audiostreamplayer2d.rst:40
+#: ../../docs/classes/class_audiostreamplayer2d.rst:48
+#: ../../docs/classes/class_audiostreamplayer2d.rst:55
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamplayer2d.rst:32
+msgid ":ref:`attenuation<class_AudioStreamPlayer2D_property_attenuation>`"
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamplayer2d.rst:32
+#: ../../docs/classes/class_audiostreamplayer2d.rst:40
+#: ../../docs/classes/class_audiostreamplayer2d.rst:99
+#: ../../docs/classes/class_audiostreamplayer2d.rst:163
+msgid "``1.0``"
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamplayer2d.rst:34
+#: ../../docs/classes/class_audiostreamplayer2d.rst:42
+#: ../../docs/classes/class_audiostreamplayer2d.rst:46
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamplayer2d.rst:34
+msgid ":ref:`autoplay<class_AudioStreamPlayer2D_property_autoplay>`"
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamplayer2d.rst:34
+#: ../../docs/classes/class_audiostreamplayer2d.rst:42
+#: ../../docs/classes/class_audiostreamplayer2d.rst:46
+#: ../../docs/classes/class_audiostreamplayer2d.rst:115
+#: ../../docs/classes/class_audiostreamplayer2d.rst:179
+#: ../../docs/classes/class_audiostreamplayer2d.rst:207
+msgid "``false``"
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamplayer2d.rst:36
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamplayer2d.rst:36
+msgid ":ref:`bus<class_AudioStreamPlayer2D_property_bus>`"
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamplayer2d.rst:36
+#: ../../docs/classes/class_audiostreamplayer2d.rst:131
+msgid "``\"Master\"``"
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamplayer2d.rst:38
+msgid ":ref:`max_distance<class_AudioStreamPlayer2D_property_max_distance>`"
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamplayer2d.rst:38
+#: ../../docs/classes/class_audiostreamplayer2d.rst:147
+msgid "``2000.0``"
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamplayer2d.rst:40
+msgid ":ref:`pitch_scale<class_AudioStreamPlayer2D_property_pitch_scale>`"
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamplayer2d.rst:42
+msgid ":ref:`playing<class_AudioStreamPlayer2D_property_playing>`"
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamplayer2d.rst:44
+msgid ":ref:`AudioStream<class_AudioStream>`"
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamplayer2d.rst:44
+msgid ":ref:`stream<class_AudioStreamPlayer2D_property_stream>`"
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamplayer2d.rst:46
+msgid ":ref:`stream_paused<class_AudioStreamPlayer2D_property_stream_paused>`"
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamplayer2d.rst:48
+msgid ":ref:`volume_db<class_AudioStreamPlayer2D_property_volume_db>`"
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamplayer2d.rst:48
+#: ../../docs/classes/class_audiostreamplayer2d.rst:223
+msgid "``0.0``"
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamplayer2d.rst:52
+msgid "Methods"
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamplayer2d.rst:55
+msgid ":ref:`get_playback_position<class_AudioStreamPlayer2D_method_get_playback_position>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamplayer2d.rst:57
+msgid ":ref:`AudioStreamPlayback<class_AudioStreamPlayback>`"
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamplayer2d.rst:57
+msgid ":ref:`get_stream_playback<class_AudioStreamPlayer2D_method_get_stream_playback>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamplayer2d.rst:59
+#: ../../docs/classes/class_audiostreamplayer2d.rst:61
+#: ../../docs/classes/class_audiostreamplayer2d.rst:63
+msgid "void"
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamplayer2d.rst:59
+msgid ":ref:`play<class_AudioStreamPlayer2D_method_play>` **(** :ref:`float<class_float>` from_position=0.0 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamplayer2d.rst:61
+msgid ":ref:`seek<class_AudioStreamPlayer2D_method_seek>` **(** :ref:`float<class_float>` to_position **)**"
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamplayer2d.rst:63
+msgid ":ref:`stop<class_AudioStreamPlayer2D_method_stop>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamplayer2d.rst:67
+msgid "Signals"
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamplayer2d.rst:71
+msgid "**finished** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamplayer2d.rst:73
+msgid "Emitted when the audio stops playing."
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamplayer2d.rst:76
+msgid "Property Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamplayer2d.rst:80
+msgid ":ref:`int<class_int>` **area_mask**"
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamplayer2d.rst:83
+#: ../../docs/classes/class_audiostreamplayer2d.rst:99
+#: ../../docs/classes/class_audiostreamplayer2d.rst:115
+#: ../../docs/classes/class_audiostreamplayer2d.rst:131
+#: ../../docs/classes/class_audiostreamplayer2d.rst:147
+#: ../../docs/classes/class_audiostreamplayer2d.rst:163
+#: ../../docs/classes/class_audiostreamplayer2d.rst:179
+#: ../../docs/classes/class_audiostreamplayer2d.rst:207
+#: ../../docs/classes/class_audiostreamplayer2d.rst:223
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamplayer2d.rst:85
+#: ../../docs/classes/class_audiostreamplayer2d.rst:101
+#: ../../docs/classes/class_audiostreamplayer2d.rst:117
+#: ../../docs/classes/class_audiostreamplayer2d.rst:133
+#: ../../docs/classes/class_audiostreamplayer2d.rst:149
+#: ../../docs/classes/class_audiostreamplayer2d.rst:165
+#: ../../docs/classes/class_audiostreamplayer2d.rst:193
+#: ../../docs/classes/class_audiostreamplayer2d.rst:209
+#: ../../docs/classes/class_audiostreamplayer2d.rst:225
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamplayer2d.rst:85
+msgid "set_area_mask(value)"
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamplayer2d.rst:87
+#: ../../docs/classes/class_audiostreamplayer2d.rst:103
+#: ../../docs/classes/class_audiostreamplayer2d.rst:119
+#: ../../docs/classes/class_audiostreamplayer2d.rst:135
+#: ../../docs/classes/class_audiostreamplayer2d.rst:151
+#: ../../docs/classes/class_audiostreamplayer2d.rst:167
+#: ../../docs/classes/class_audiostreamplayer2d.rst:181
+#: ../../docs/classes/class_audiostreamplayer2d.rst:195
+#: ../../docs/classes/class_audiostreamplayer2d.rst:211
+#: ../../docs/classes/class_audiostreamplayer2d.rst:227
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamplayer2d.rst:87
+msgid "get_area_mask()"
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamplayer2d.rst:90
+msgid "Areas in which this sound plays."
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamplayer2d.rst:96
+msgid ":ref:`float<class_float>` **attenuation**"
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamplayer2d.rst:101
+msgid "set_attenuation(value)"
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamplayer2d.rst:103
+msgid "get_attenuation()"
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamplayer2d.rst:106
+msgid "Dampens audio over distance with this as an exponent."
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamplayer2d.rst:112
+msgid ":ref:`bool<class_bool>` **autoplay**"
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamplayer2d.rst:117
+msgid "set_autoplay(value)"
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamplayer2d.rst:119
+msgid "is_autoplay_enabled()"
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamplayer2d.rst:122
+msgid "If ``true``, audio plays when added to scene tree."
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamplayer2d.rst:128
+msgid ":ref:`String<class_String>` **bus**"
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamplayer2d.rst:133
+msgid "set_bus(value)"
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamplayer2d.rst:135
+msgid "get_bus()"
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamplayer2d.rst:138
+msgid "Bus on which this audio is playing."
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamplayer2d.rst:144
+msgid ":ref:`float<class_float>` **max_distance**"
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamplayer2d.rst:149
+msgid "set_max_distance(value)"
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamplayer2d.rst:151
+msgid "get_max_distance()"
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamplayer2d.rst:154
+msgid "Maximum distance from which audio is still hearable."
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamplayer2d.rst:160
+msgid ":ref:`float<class_float>` **pitch_scale**"
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamplayer2d.rst:165
+msgid "set_pitch_scale(value)"
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamplayer2d.rst:167
+msgid "get_pitch_scale()"
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamplayer2d.rst:170
+msgid "The pitch and the tempo of the audio, as a multiplier of the audio sample's sample rate."
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamplayer2d.rst:176
+msgid ":ref:`bool<class_bool>` **playing**"
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamplayer2d.rst:181
+msgid "is_playing()"
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamplayer2d.rst:184
+msgid "If ``true``, audio is playing."
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamplayer2d.rst:190
+msgid ":ref:`AudioStream<class_AudioStream>` **stream**"
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamplayer2d.rst:193
+msgid "set_stream(value)"
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamplayer2d.rst:195
+msgid "get_stream()"
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamplayer2d.rst:198
+msgid "The :ref:`AudioStream<class_AudioStream>` object to be played."
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamplayer2d.rst:204
+msgid ":ref:`bool<class_bool>` **stream_paused**"
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamplayer2d.rst:209
+msgid "set_stream_paused(value)"
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamplayer2d.rst:211
+msgid "get_stream_paused()"
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamplayer2d.rst:214
+msgid "If ``true``, the playback is paused. You can resume it by setting ``stream_paused`` to ``false``."
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamplayer2d.rst:220
+msgid ":ref:`float<class_float>` **volume_db**"
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamplayer2d.rst:225
+msgid "set_volume_db(value)"
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamplayer2d.rst:227
+msgid "get_volume_db()"
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamplayer2d.rst:230
+msgid "Base volume without dampening."
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamplayer2d.rst:233
+msgid "Method Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamplayer2d.rst:237
+msgid ":ref:`float<class_float>` **get_playback_position** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamplayer2d.rst:239
+msgid "Returns the position in the :ref:`AudioStream<class_AudioStream>`."
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamplayer2d.rst:245
+msgid ":ref:`AudioStreamPlayback<class_AudioStreamPlayback>` **get_stream_playback** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamplayer2d.rst:247
+msgid "Returns the :ref:`AudioStreamPlayback<class_AudioStreamPlayback>` object associated with this ``AudioStreamPlayer2D``."
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamplayer2d.rst:253
+msgid "void **play** **(** :ref:`float<class_float>` from_position=0.0 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamplayer2d.rst:255
+msgid "Plays the audio from the given position ``from_position``, in seconds."
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamplayer2d.rst:261
+msgid "void **seek** **(** :ref:`float<class_float>` to_position **)**"
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamplayer2d.rst:263
+msgid "Sets the position from which audio will be played, in seconds."
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamplayer2d.rst:269
+msgid "void **stop** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamplayer2d.rst:271
+msgid "Stops the audio."
+msgstr ""

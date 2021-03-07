@@ -1,0 +1,207 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_inputeventkey.rst:10
+msgid "InputEventKey"
+msgstr ""
+
+#: ../../docs/classes/class_inputeventkey.rst:12
+msgid "**Inherits:** :ref:`InputEventWithModifiers<class_InputEventWithModifiers>` **<** :ref:`InputEvent<class_InputEvent>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_inputeventkey.rst:14
+msgid "Input event type for keyboard events."
+msgstr ""
+
+#: ../../docs/classes/class_inputeventkey.rst:17
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_inputeventkey.rst:19
+msgid "Stores key presses on the keyboard. Supports key presses, key releases and :ref:`echo<class_InputEventKey_property_echo>` events."
+msgstr ""
+
+#: ../../docs/classes/class_inputeventkey.rst:22
+msgid "Tutorials"
+msgstr ""
+
+#: ../../docs/classes/class_inputeventkey.rst:24
+msgid ":doc:`../tutorials/inputs/inputevent`"
+msgstr ""
+
+#: ../../docs/classes/class_inputeventkey.rst:27
+msgid "Properties"
+msgstr ""
+
+#: ../../docs/classes/class_inputeventkey.rst:30
+#: ../../docs/classes/class_inputeventkey.rst:32
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_inputeventkey.rst:30
+msgid ":ref:`echo<class_InputEventKey_property_echo>`"
+msgstr ""
+
+#: ../../docs/classes/class_inputeventkey.rst:30
+#: ../../docs/classes/class_inputeventkey.rst:32
+#: ../../docs/classes/class_inputeventkey.rst:54
+#: ../../docs/classes/class_inputeventkey.rst:70
+msgid "``false``"
+msgstr ""
+
+#: ../../docs/classes/class_inputeventkey.rst:32
+msgid ":ref:`pressed<class_InputEventKey_property_pressed>`"
+msgstr ""
+
+#: ../../docs/classes/class_inputeventkey.rst:34
+#: ../../docs/classes/class_inputeventkey.rst:36
+#: ../../docs/classes/class_inputeventkey.rst:43
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../../docs/classes/class_inputeventkey.rst:34
+msgid ":ref:`scancode<class_InputEventKey_property_scancode>`"
+msgstr ""
+
+#: ../../docs/classes/class_inputeventkey.rst:34
+#: ../../docs/classes/class_inputeventkey.rst:36
+#: ../../docs/classes/class_inputeventkey.rst:86
+#: ../../docs/classes/class_inputeventkey.rst:104
+msgid "``0``"
+msgstr ""
+
+#: ../../docs/classes/class_inputeventkey.rst:36
+msgid ":ref:`unicode<class_InputEventKey_property_unicode>`"
+msgstr ""
+
+#: ../../docs/classes/class_inputeventkey.rst:40
+msgid "Methods"
+msgstr ""
+
+#: ../../docs/classes/class_inputeventkey.rst:43
+msgid ":ref:`get_scancode_with_modifiers<class_InputEventKey_method_get_scancode_with_modifiers>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_inputeventkey.rst:47
+msgid "Property Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_inputeventkey.rst:51
+msgid ":ref:`bool<class_bool>` **echo**"
+msgstr ""
+
+#: ../../docs/classes/class_inputeventkey.rst:54
+#: ../../docs/classes/class_inputeventkey.rst:70
+#: ../../docs/classes/class_inputeventkey.rst:86
+#: ../../docs/classes/class_inputeventkey.rst:104
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_inputeventkey.rst:56
+#: ../../docs/classes/class_inputeventkey.rst:72
+#: ../../docs/classes/class_inputeventkey.rst:88
+#: ../../docs/classes/class_inputeventkey.rst:106
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_inputeventkey.rst:56
+msgid "set_echo(value)"
+msgstr ""
+
+#: ../../docs/classes/class_inputeventkey.rst:58
+#: ../../docs/classes/class_inputeventkey.rst:74
+#: ../../docs/classes/class_inputeventkey.rst:90
+#: ../../docs/classes/class_inputeventkey.rst:108
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_inputeventkey.rst:58
+msgid "is_echo()"
+msgstr ""
+
+#: ../../docs/classes/class_inputeventkey.rst:61
+msgid "If ``true``, the key was already pressed before this event. It means the user is holding the key down."
+msgstr ""
+
+#: ../../docs/classes/class_inputeventkey.rst:67
+msgid ":ref:`bool<class_bool>` **pressed**"
+msgstr ""
+
+#: ../../docs/classes/class_inputeventkey.rst:72
+msgid "set_pressed(value)"
+msgstr ""
+
+#: ../../docs/classes/class_inputeventkey.rst:74
+msgid "is_pressed()"
+msgstr ""
+
+#: ../../docs/classes/class_inputeventkey.rst:77
+msgid "If ``true``, the key's state is pressed. If ``false``, the key's state is released."
+msgstr ""
+
+#: ../../docs/classes/class_inputeventkey.rst:83
+msgid ":ref:`int<class_int>` **scancode**"
+msgstr ""
+
+#: ../../docs/classes/class_inputeventkey.rst:88
+msgid "set_scancode(value)"
+msgstr ""
+
+#: ../../docs/classes/class_inputeventkey.rst:90
+msgid "get_scancode()"
+msgstr ""
+
+#: ../../docs/classes/class_inputeventkey.rst:93
+msgid "The key scancode, which corresponds to one of the :ref:`KeyList<enum_@GlobalScope_KeyList>` constants."
+msgstr ""
+
+#: ../../docs/classes/class_inputeventkey.rst:95
+msgid "To get a human-readable representation of the ``InputEventKey``, use ``OS.get_scancode_string(event.scancode)`` where ``event`` is the ``InputEventKey``."
+msgstr ""
+
+#: ../../docs/classes/class_inputeventkey.rst:101
+msgid ":ref:`int<class_int>` **unicode**"
+msgstr ""
+
+#: ../../docs/classes/class_inputeventkey.rst:106
+msgid "set_unicode(value)"
+msgstr ""
+
+#: ../../docs/classes/class_inputeventkey.rst:108
+msgid "get_unicode()"
+msgstr ""
+
+#: ../../docs/classes/class_inputeventkey.rst:111
+msgid "The key Unicode identifier (when relevant). Unicode identifiers for the composite characters and complex scripts may not be available unless IME input mode is active. See :ref:`OS.set_ime_active<class_OS_method_set_ime_active>` for more information."
+msgstr ""
+
+#: ../../docs/classes/class_inputeventkey.rst:114
+msgid "Method Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_inputeventkey.rst:118
+msgid ":ref:`int<class_int>` **get_scancode_with_modifiers** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_inputeventkey.rst:120
+msgid "Returns the scancode combined with modifier keys such as ``Shift`` or ``Alt``. See also :ref:`InputEventWithModifiers<class_InputEventWithModifiers>`."
+msgstr ""
+
+#: ../../docs/classes/class_inputeventkey.rst:122
+msgid "To get a human-readable representation of the ``InputEventKey`` with modifiers, use ``OS.get_scancode_string(event.get_scancode_with_modifiers())`` where ``event`` is the ``InputEventKey``."
+msgstr ""

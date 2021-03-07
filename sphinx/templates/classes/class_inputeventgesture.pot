@@ -1,0 +1,82 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_inputeventgesture.rst:10
+msgid "InputEventGesture"
+msgstr ""
+
+#: ../../docs/classes/class_inputeventgesture.rst:12
+msgid "**Inherits:** :ref:`InputEventWithModifiers<class_InputEventWithModifiers>` **<** :ref:`InputEvent<class_InputEvent>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_inputeventgesture.rst:14
+msgid "**Inherited By:** :ref:`InputEventMagnifyGesture<class_InputEventMagnifyGesture>`, :ref:`InputEventPanGesture<class_InputEventPanGesture>`"
+msgstr ""
+
+#: ../../docs/classes/class_inputeventgesture.rst:16
+msgid "Base class for touch control gestures."
+msgstr ""
+
+#: ../../docs/classes/class_inputeventgesture.rst:19
+msgid "Properties"
+msgstr ""
+
+#: ../../docs/classes/class_inputeventgesture.rst:22
+msgid ":ref:`Vector2<class_Vector2>`"
+msgstr ""
+
+#: ../../docs/classes/class_inputeventgesture.rst:22
+msgid ":ref:`position<class_InputEventGesture_property_position>`"
+msgstr ""
+
+#: ../../docs/classes/class_inputeventgesture.rst:22
+#: ../../docs/classes/class_inputeventgesture.rst:33
+msgid "``Vector2( 0, 0 )``"
+msgstr ""
+
+#: ../../docs/classes/class_inputeventgesture.rst:26
+msgid "Property Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_inputeventgesture.rst:30
+msgid ":ref:`Vector2<class_Vector2>` **position**"
+msgstr ""
+
+#: ../../docs/classes/class_inputeventgesture.rst:33
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_inputeventgesture.rst:35
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_inputeventgesture.rst:35
+msgid "set_position(value)"
+msgstr ""
+
+#: ../../docs/classes/class_inputeventgesture.rst:37
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_inputeventgesture.rst:37
+msgid "get_position()"
+msgstr ""
+
+#: ../../docs/classes/class_inputeventgesture.rst:40
+msgid "The local gesture position relative to the :ref:`Viewport<class_Viewport>`. If used in :ref:`Control._gui_input<class_Control_method__gui_input>`, the position is relative to the current :ref:`Control<class_Control>` that received this gesture."
+msgstr ""

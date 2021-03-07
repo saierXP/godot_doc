@@ -1,0 +1,70 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_inputeventpangesture.rst:10
+msgid "InputEventPanGesture"
+msgstr ""
+
+#: ../../docs/classes/class_inputeventpangesture.rst:12
+msgid "**Inherits:** :ref:`InputEventGesture<class_InputEventGesture>` **<** :ref:`InputEventWithModifiers<class_InputEventWithModifiers>` **<** :ref:`InputEvent<class_InputEvent>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_inputeventpangesture.rst:17
+msgid "Properties"
+msgstr ""
+
+#: ../../docs/classes/class_inputeventpangesture.rst:20
+msgid ":ref:`Vector2<class_Vector2>`"
+msgstr ""
+
+#: ../../docs/classes/class_inputeventpangesture.rst:20
+msgid ":ref:`delta<class_InputEventPanGesture_property_delta>`"
+msgstr ""
+
+#: ../../docs/classes/class_inputeventpangesture.rst:20
+#: ../../docs/classes/class_inputeventpangesture.rst:31
+msgid "``Vector2( 0, 0 )``"
+msgstr ""
+
+#: ../../docs/classes/class_inputeventpangesture.rst:24
+msgid "Property Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_inputeventpangesture.rst:28
+msgid ":ref:`Vector2<class_Vector2>` **delta**"
+msgstr ""
+
+#: ../../docs/classes/class_inputeventpangesture.rst:31
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_inputeventpangesture.rst:33
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_inputeventpangesture.rst:33
+msgid "set_delta(value)"
+msgstr ""
+
+#: ../../docs/classes/class_inputeventpangesture.rst:35
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_inputeventpangesture.rst:35
+msgid "get_delta()"
+msgstr ""

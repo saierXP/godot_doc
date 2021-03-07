@@ -1,0 +1,135 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_sky.rst:10
+msgid "Sky"
+msgstr ""
+
+#: ../../docs/classes/class_sky.rst:12
+msgid "**Inherits:** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_sky.rst:14
+msgid "**Inherited By:** :ref:`PanoramaSky<class_PanoramaSky>`, :ref:`ProceduralSky<class_ProceduralSky>`"
+msgstr ""
+
+#: ../../docs/classes/class_sky.rst:16
+#: ../../docs/classes/class_sky.rst:21
+msgid "The base class for :ref:`PanoramaSky<class_PanoramaSky>` and :ref:`ProceduralSky<class_ProceduralSky>`."
+msgstr ""
+
+#: ../../docs/classes/class_sky.rst:19
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_sky.rst:24
+msgid "Properties"
+msgstr ""
+
+#: ../../docs/classes/class_sky.rst:27
+msgid ":ref:`RadianceSize<enum_Sky_RadianceSize>`"
+msgstr ""
+
+#: ../../docs/classes/class_sky.rst:27
+msgid ":ref:`radiance_size<class_Sky_property_radiance_size>`"
+msgstr ""
+
+#: ../../docs/classes/class_sky.rst:27
+#: ../../docs/classes/class_sky.rst:77
+msgid "``2``"
+msgstr ""
+
+#: ../../docs/classes/class_sky.rst:31
+msgid "Enumerations"
+msgstr ""
+
+#: ../../docs/classes/class_sky.rst:51
+msgid "enum **RadianceSize**:"
+msgstr ""
+
+#: ../../docs/classes/class_sky.rst:53
+msgid "**RADIANCE_SIZE_32** = **0** --- Radiance texture size is 32×32 pixels."
+msgstr ""
+
+#: ../../docs/classes/class_sky.rst:55
+msgid "**RADIANCE_SIZE_64** = **1** --- Radiance texture size is 64×64 pixels."
+msgstr ""
+
+#: ../../docs/classes/class_sky.rst:57
+msgid "**RADIANCE_SIZE_128** = **2** --- Radiance texture size is 128×128 pixels."
+msgstr ""
+
+#: ../../docs/classes/class_sky.rst:59
+msgid "**RADIANCE_SIZE_256** = **3** --- Radiance texture size is 256×256 pixels."
+msgstr ""
+
+#: ../../docs/classes/class_sky.rst:61
+msgid "**RADIANCE_SIZE_512** = **4** --- Radiance texture size is 512×512 pixels."
+msgstr ""
+
+#: ../../docs/classes/class_sky.rst:63
+msgid "**RADIANCE_SIZE_1024** = **5** --- Radiance texture size is 1024×1024 pixels."
+msgstr ""
+
+#: ../../docs/classes/class_sky.rst:65
+msgid "**RADIANCE_SIZE_2048** = **6** --- Radiance texture size is 2048×2048 pixels."
+msgstr ""
+
+#: ../../docs/classes/class_sky.rst:67
+msgid "**RADIANCE_SIZE_MAX** = **7** --- Represents the size of the :ref:`RadianceSize<enum_Sky_RadianceSize>` enum."
+msgstr ""
+
+#: ../../docs/classes/class_sky.rst:70
+msgid "Property Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_sky.rst:74
+msgid ":ref:`RadianceSize<enum_Sky_RadianceSize>` **radiance_size**"
+msgstr ""
+
+#: ../../docs/classes/class_sky.rst:77
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_sky.rst:79
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_sky.rst:79
+msgid "set_radiance_size(value)"
+msgstr ""
+
+#: ../../docs/classes/class_sky.rst:81
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_sky.rst:81
+msgid "get_radiance_size()"
+msgstr ""
+
+#: ../../docs/classes/class_sky.rst:84
+msgid "The ``Sky``'s radiance map size. The higher the radiance map size, the more detailed the lighting from the ``Sky`` will be."
+msgstr ""
+
+#: ../../docs/classes/class_sky.rst:86
+msgid "See :ref:`RadianceSize<enum_Sky_RadianceSize>` constants for values."
+msgstr ""
+
+#: ../../docs/classes/class_sky.rst:88
+msgid "**Note:** Some hardware will have trouble with higher radiance sizes, especially :ref:`RADIANCE_SIZE_512<class_Sky_constant_RADIANCE_SIZE_512>` and above. Only use such high values on high-end hardware."
+msgstr ""

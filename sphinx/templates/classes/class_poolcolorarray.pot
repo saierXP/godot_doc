@@ -1,0 +1,200 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_poolcolorarray.rst:10
+msgid "PoolColorArray"
+msgstr ""
+
+#: ../../docs/classes/class_poolcolorarray.rst:12
+msgid "A pooled :ref:`Array<class_Array>` of :ref:`Color<class_Color>`."
+msgstr ""
+
+#: ../../docs/classes/class_poolcolorarray.rst:15
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_poolcolorarray.rst:17
+msgid "An :ref:`Array<class_Array>` specifically designed to hold :ref:`Color<class_Color>`. Optimized for memory usage, does not fragment the memory."
+msgstr ""
+
+#: ../../docs/classes/class_poolcolorarray.rst:19
+msgid "**Note:** This type is passed by value and not by reference."
+msgstr ""
+
+#: ../../docs/classes/class_poolcolorarray.rst:22
+msgid "Methods"
+msgstr ""
+
+#: ../../docs/classes/class_poolcolorarray.rst:25
+msgid ":ref:`PoolColorArray<class_PoolColorArray>`"
+msgstr ""
+
+#: ../../docs/classes/class_poolcolorarray.rst:25
+msgid ":ref:`PoolColorArray<class_PoolColorArray_method_PoolColorArray>` **(** :ref:`Array<class_Array>` from **)**"
+msgstr ""
+
+#: ../../docs/classes/class_poolcolorarray.rst:27
+#: ../../docs/classes/class_poolcolorarray.rst:29
+#: ../../docs/classes/class_poolcolorarray.rst:35
+#: ../../docs/classes/class_poolcolorarray.rst:37
+#: ../../docs/classes/class_poolcolorarray.rst:39
+#: ../../docs/classes/class_poolcolorarray.rst:41
+#: ../../docs/classes/class_poolcolorarray.rst:43
+msgid "void"
+msgstr ""
+
+#: ../../docs/classes/class_poolcolorarray.rst:27
+msgid ":ref:`append<class_PoolColorArray_method_append>` **(** :ref:`Color<class_Color>` color **)**"
+msgstr ""
+
+#: ../../docs/classes/class_poolcolorarray.rst:29
+msgid ":ref:`append_array<class_PoolColorArray_method_append_array>` **(** :ref:`PoolColorArray<class_PoolColorArray>` array **)**"
+msgstr ""
+
+#: ../../docs/classes/class_poolcolorarray.rst:31
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_poolcolorarray.rst:31
+msgid ":ref:`empty<class_PoolColorArray_method_empty>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_poolcolorarray.rst:33
+#: ../../docs/classes/class_poolcolorarray.rst:45
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../../docs/classes/class_poolcolorarray.rst:33
+msgid ":ref:`insert<class_PoolColorArray_method_insert>` **(** :ref:`int<class_int>` idx, :ref:`Color<class_Color>` color **)**"
+msgstr ""
+
+#: ../../docs/classes/class_poolcolorarray.rst:35
+msgid ":ref:`invert<class_PoolColorArray_method_invert>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_poolcolorarray.rst:37
+msgid ":ref:`push_back<class_PoolColorArray_method_push_back>` **(** :ref:`Color<class_Color>` color **)**"
+msgstr ""
+
+#: ../../docs/classes/class_poolcolorarray.rst:39
+msgid ":ref:`remove<class_PoolColorArray_method_remove>` **(** :ref:`int<class_int>` idx **)**"
+msgstr ""
+
+#: ../../docs/classes/class_poolcolorarray.rst:41
+msgid ":ref:`resize<class_PoolColorArray_method_resize>` **(** :ref:`int<class_int>` idx **)**"
+msgstr ""
+
+#: ../../docs/classes/class_poolcolorarray.rst:43
+msgid ":ref:`set<class_PoolColorArray_method_set>` **(** :ref:`int<class_int>` idx, :ref:`Color<class_Color>` color **)**"
+msgstr ""
+
+#: ../../docs/classes/class_poolcolorarray.rst:45
+msgid ":ref:`size<class_PoolColorArray_method_size>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_poolcolorarray.rst:49
+msgid "Method Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_poolcolorarray.rst:53
+msgid ":ref:`PoolColorArray<class_PoolColorArray>` **PoolColorArray** **(** :ref:`Array<class_Array>` from **)**"
+msgstr ""
+
+#: ../../docs/classes/class_poolcolorarray.rst:55
+msgid "Constructs a new ``PoolColorArray``. Optionally, you can pass in a generic :ref:`Array<class_Array>` that will be converted."
+msgstr ""
+
+#: ../../docs/classes/class_poolcolorarray.rst:61
+msgid "void **append** **(** :ref:`Color<class_Color>` color **)**"
+msgstr ""
+
+#: ../../docs/classes/class_poolcolorarray.rst:63
+msgid "Appends an element at the end of the array (alias of :ref:`push_back<class_PoolColorArray_method_push_back>`)."
+msgstr ""
+
+#: ../../docs/classes/class_poolcolorarray.rst:69
+msgid "void **append_array** **(** :ref:`PoolColorArray<class_PoolColorArray>` array **)**"
+msgstr ""
+
+#: ../../docs/classes/class_poolcolorarray.rst:71
+msgid "Appends a ``PoolColorArray`` at the end of this array."
+msgstr ""
+
+#: ../../docs/classes/class_poolcolorarray.rst:77
+msgid ":ref:`bool<class_bool>` **empty** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_poolcolorarray.rst:79
+msgid "Returns ``true`` if the array is empty."
+msgstr ""
+
+#: ../../docs/classes/class_poolcolorarray.rst:85
+msgid ":ref:`int<class_int>` **insert** **(** :ref:`int<class_int>` idx, :ref:`Color<class_Color>` color **)**"
+msgstr ""
+
+#: ../../docs/classes/class_poolcolorarray.rst:87
+msgid "Inserts a new element at a given position in the array. The position must be valid, or at the end of the array (``idx == size()``)."
+msgstr ""
+
+#: ../../docs/classes/class_poolcolorarray.rst:93
+msgid "void **invert** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_poolcolorarray.rst:95
+msgid "Reverses the order of the elements in the array."
+msgstr ""
+
+#: ../../docs/classes/class_poolcolorarray.rst:101
+msgid "void **push_back** **(** :ref:`Color<class_Color>` color **)**"
+msgstr ""
+
+#: ../../docs/classes/class_poolcolorarray.rst:103
+msgid "Appends a value to the array."
+msgstr ""
+
+#: ../../docs/classes/class_poolcolorarray.rst:109
+msgid "void **remove** **(** :ref:`int<class_int>` idx **)**"
+msgstr ""
+
+#: ../../docs/classes/class_poolcolorarray.rst:111
+msgid "Removes an element from the array by index."
+msgstr ""
+
+#: ../../docs/classes/class_poolcolorarray.rst:117
+msgid "void **resize** **(** :ref:`int<class_int>` idx **)**"
+msgstr ""
+
+#: ../../docs/classes/class_poolcolorarray.rst:119
+msgid "Sets the size of the array. If the array is grown, reserves elements at the end of the array. If the array is shrunk, truncates the array to the new size."
+msgstr ""
+
+#: ../../docs/classes/class_poolcolorarray.rst:125
+msgid "void **set** **(** :ref:`int<class_int>` idx, :ref:`Color<class_Color>` color **)**"
+msgstr ""
+
+#: ../../docs/classes/class_poolcolorarray.rst:127
+msgid "Changes the :ref:`Color<class_Color>` at the given index."
+msgstr ""
+
+#: ../../docs/classes/class_poolcolorarray.rst:133
+msgid ":ref:`int<class_int>` **size** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_poolcolorarray.rst:135
+msgid "Returns the size of the array."
+msgstr ""

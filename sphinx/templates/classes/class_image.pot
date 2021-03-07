@@ -1,0 +1,1118 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_image.rst:10
+msgid "Image"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:12
+msgid "**Inherits:** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:14
+msgid "Image datatype."
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:17
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:19
+msgid "Native image datatype. Contains image data which can be converted to an :ref:`ImageTexture<class_ImageTexture>` and provides commonly used *image processing* methods. The maximum width and height for an ``Image`` are :ref:`MAX_WIDTH<class_Image_constant_MAX_WIDTH>` and :ref:`MAX_HEIGHT<class_Image_constant_MAX_HEIGHT>`."
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:21
+msgid "An ``Image`` cannot be assigned to a ``texture`` property of an object directly (such as :ref:`Sprite<class_Sprite>`), and has to be converted manually to an :ref:`ImageTexture<class_ImageTexture>` first."
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:23
+msgid "**Note:** The maximum image size is 16384×16384 pixels due to graphics hardware limitations. Larger images may fail to import."
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:26
+msgid "Tutorials"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:28
+msgid ":doc:`../getting_started/workflow/assets/importing_images`"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:31
+msgid "Properties"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:34
+msgid ":ref:`Dictionary<class_Dictionary>`"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:34
+msgid ":ref:`data<class_Image_property_data>`"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:34
+#: ../../docs/classes/class_image.rst:444
+msgid "``{\"data\": PoolByteArray(  ),\"format\": \"Lum8\",\"height\": 0,\"mipmaps\": false,\"width\": 0}``"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:38
+msgid "Methods"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:41
+#: ../../docs/classes/class_image.rst:43
+#: ../../docs/classes/class_image.rst:45
+#: ../../docs/classes/class_image.rst:47
+#: ../../docs/classes/class_image.rst:49
+#: ../../docs/classes/class_image.rst:51
+#: ../../docs/classes/class_image.rst:55
+#: ../../docs/classes/class_image.rst:57
+#: ../../docs/classes/class_image.rst:59
+#: ../../docs/classes/class_image.rst:61
+#: ../../docs/classes/class_image.rst:63
+#: ../../docs/classes/class_image.rst:69
+#: ../../docs/classes/class_image.rst:71
+#: ../../docs/classes/class_image.rst:73
+#: ../../docs/classes/class_image.rst:75
+#: ../../docs/classes/class_image.rst:77
+#: ../../docs/classes/class_image.rst:121
+#: ../../docs/classes/class_image.rst:123
+#: ../../docs/classes/class_image.rst:125
+#: ../../docs/classes/class_image.rst:127
+#: ../../docs/classes/class_image.rst:129
+#: ../../docs/classes/class_image.rst:139
+#: ../../docs/classes/class_image.rst:141
+#: ../../docs/classes/class_image.rst:143
+#: ../../docs/classes/class_image.rst:145
+#: ../../docs/classes/class_image.rst:147
+msgid "void"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:41
+msgid ":ref:`blend_rect<class_Image_method_blend_rect>` **(** :ref:`Image<class_Image>` src, :ref:`Rect2<class_Rect2>` src_rect, :ref:`Vector2<class_Vector2>` dst **)**"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:43
+msgid ":ref:`blend_rect_mask<class_Image_method_blend_rect_mask>` **(** :ref:`Image<class_Image>` src, :ref:`Image<class_Image>` mask, :ref:`Rect2<class_Rect2>` src_rect, :ref:`Vector2<class_Vector2>` dst **)**"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:45
+msgid ":ref:`blit_rect<class_Image_method_blit_rect>` **(** :ref:`Image<class_Image>` src, :ref:`Rect2<class_Rect2>` src_rect, :ref:`Vector2<class_Vector2>` dst **)**"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:47
+msgid ":ref:`blit_rect_mask<class_Image_method_blit_rect_mask>` **(** :ref:`Image<class_Image>` src, :ref:`Image<class_Image>` mask, :ref:`Rect2<class_Rect2>` src_rect, :ref:`Vector2<class_Vector2>` dst **)**"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:49
+msgid ":ref:`bumpmap_to_normalmap<class_Image_method_bumpmap_to_normalmap>` **(** :ref:`float<class_float>` bump_scale=1.0 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:51
+msgid ":ref:`clear_mipmaps<class_Image_method_clear_mipmaps>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:53
+#: ../../docs/classes/class_image.rst:65
+#: ../../docs/classes/class_image.rst:79
+#: ../../docs/classes/class_image.rst:109
+#: ../../docs/classes/class_image.rst:111
+#: ../../docs/classes/class_image.rst:113
+#: ../../docs/classes/class_image.rst:115
+#: ../../docs/classes/class_image.rst:117
+#: ../../docs/classes/class_image.rst:119
+#: ../../docs/classes/class_image.rst:133
+#: ../../docs/classes/class_image.rst:135
+msgid ":ref:`Error<enum_@GlobalScope_Error>`"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:53
+msgid ":ref:`compress<class_Image_method_compress>` **(** :ref:`CompressMode<enum_Image_CompressMode>` mode, :ref:`CompressSource<enum_Image_CompressSource>` source, :ref:`float<class_float>` lossy_quality **)**"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:55
+msgid ":ref:`convert<class_Image_method_convert>` **(** :ref:`Format<enum_Image_Format>` format **)**"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:57
+msgid ":ref:`copy_from<class_Image_method_copy_from>` **(** :ref:`Image<class_Image>` src **)**"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:59
+msgid ":ref:`create<class_Image_method_create>` **(** :ref:`int<class_int>` width, :ref:`int<class_int>` height, :ref:`bool<class_bool>` use_mipmaps, :ref:`Format<enum_Image_Format>` format **)**"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:61
+msgid ":ref:`create_from_data<class_Image_method_create_from_data>` **(** :ref:`int<class_int>` width, :ref:`int<class_int>` height, :ref:`bool<class_bool>` use_mipmaps, :ref:`Format<enum_Image_Format>` format, :ref:`PoolByteArray<class_PoolByteArray>` data **)**"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:63
+msgid ":ref:`crop<class_Image_method_crop>` **(** :ref:`int<class_int>` width, :ref:`int<class_int>` height **)**"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:65
+msgid ":ref:`decompress<class_Image_method_decompress>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:67
+msgid ":ref:`AlphaMode<enum_Image_AlphaMode>`"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:67
+msgid ":ref:`detect_alpha<class_Image_method_detect_alpha>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:69
+msgid ":ref:`expand_x2_hq2x<class_Image_method_expand_x2_hq2x>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:71
+msgid ":ref:`fill<class_Image_method_fill>` **(** :ref:`Color<class_Color>` color **)**"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:73
+msgid ":ref:`fix_alpha_edges<class_Image_method_fix_alpha_edges>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:75
+msgid ":ref:`flip_x<class_Image_method_flip_x>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:77
+msgid ":ref:`flip_y<class_Image_method_flip_y>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:79
+msgid ":ref:`generate_mipmaps<class_Image_method_generate_mipmaps>` **(** :ref:`bool<class_bool>` renormalize=false **)**"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:81
+#: ../../docs/classes/class_image.rst:137
+msgid ":ref:`PoolByteArray<class_PoolByteArray>`"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:81
+msgid ":ref:`get_data<class_Image_method_get_data>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:83
+msgid ":ref:`Format<enum_Image_Format>`"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:83
+msgid ":ref:`get_format<class_Image_method_get_format>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:85
+#: ../../docs/classes/class_image.rst:87
+#: ../../docs/classes/class_image.rst:99
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:85
+msgid ":ref:`get_height<class_Image_method_get_height>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:87
+msgid ":ref:`get_mipmap_offset<class_Image_method_get_mipmap_offset>` **(** :ref:`int<class_int>` mipmap **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:89
+#: ../../docs/classes/class_image.rst:91
+msgid ":ref:`Color<class_Color>`"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:89
+msgid ":ref:`get_pixel<class_Image_method_get_pixel>` **(** :ref:`int<class_int>` x, :ref:`int<class_int>` y **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:91
+msgid ":ref:`get_pixelv<class_Image_method_get_pixelv>` **(** :ref:`Vector2<class_Vector2>` src **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:93
+#: ../../docs/classes/class_image.rst:131
+msgid ":ref:`Image<class_Image>`"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:93
+msgid ":ref:`get_rect<class_Image_method_get_rect>` **(** :ref:`Rect2<class_Rect2>` rect **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:95
+msgid ":ref:`Vector2<class_Vector2>`"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:95
+msgid ":ref:`get_size<class_Image_method_get_size>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:97
+msgid ":ref:`Rect2<class_Rect2>`"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:97
+msgid ":ref:`get_used_rect<class_Image_method_get_used_rect>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:99
+msgid ":ref:`get_width<class_Image_method_get_width>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:101
+#: ../../docs/classes/class_image.rst:103
+#: ../../docs/classes/class_image.rst:105
+#: ../../docs/classes/class_image.rst:107
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:101
+msgid ":ref:`has_mipmaps<class_Image_method_has_mipmaps>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:103
+msgid ":ref:`is_compressed<class_Image_method_is_compressed>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:105
+msgid ":ref:`is_empty<class_Image_method_is_empty>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:107
+msgid ":ref:`is_invisible<class_Image_method_is_invisible>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:109
+msgid ":ref:`load<class_Image_method_load>` **(** :ref:`String<class_String>` path **)**"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:111
+msgid ":ref:`load_bmp_from_buffer<class_Image_method_load_bmp_from_buffer>` **(** :ref:`PoolByteArray<class_PoolByteArray>` buffer **)**"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:113
+msgid ":ref:`load_jpg_from_buffer<class_Image_method_load_jpg_from_buffer>` **(** :ref:`PoolByteArray<class_PoolByteArray>` buffer **)**"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:115
+msgid ":ref:`load_png_from_buffer<class_Image_method_load_png_from_buffer>` **(** :ref:`PoolByteArray<class_PoolByteArray>` buffer **)**"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:117
+msgid ":ref:`load_tga_from_buffer<class_Image_method_load_tga_from_buffer>` **(** :ref:`PoolByteArray<class_PoolByteArray>` buffer **)**"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:119
+msgid ":ref:`load_webp_from_buffer<class_Image_method_load_webp_from_buffer>` **(** :ref:`PoolByteArray<class_PoolByteArray>` buffer **)**"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:121
+msgid ":ref:`lock<class_Image_method_lock>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:123
+msgid ":ref:`normalmap_to_xy<class_Image_method_normalmap_to_xy>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:125
+msgid ":ref:`premultiply_alpha<class_Image_method_premultiply_alpha>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:127
+msgid ":ref:`resize<class_Image_method_resize>` **(** :ref:`int<class_int>` width, :ref:`int<class_int>` height, :ref:`Interpolation<enum_Image_Interpolation>` interpolation=1 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:129
+msgid ":ref:`resize_to_po2<class_Image_method_resize_to_po2>` **(** :ref:`bool<class_bool>` square=false, :ref:`Interpolation<enum_Image_Interpolation>` interpolation=1 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:131
+msgid ":ref:`rgbe_to_srgb<class_Image_method_rgbe_to_srgb>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:133
+msgid ":ref:`save_exr<class_Image_method_save_exr>` **(** :ref:`String<class_String>` path, :ref:`bool<class_bool>` grayscale=false **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:135
+msgid ":ref:`save_png<class_Image_method_save_png>` **(** :ref:`String<class_String>` path **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:137
+msgid ":ref:`save_png_to_buffer<class_Image_method_save_png_to_buffer>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:139
+msgid ":ref:`set_pixel<class_Image_method_set_pixel>` **(** :ref:`int<class_int>` x, :ref:`int<class_int>` y, :ref:`Color<class_Color>` color **)**"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:141
+msgid ":ref:`set_pixelv<class_Image_method_set_pixelv>` **(** :ref:`Vector2<class_Vector2>` dst, :ref:`Color<class_Color>` color **)**"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:143
+msgid ":ref:`shrink_x2<class_Image_method_shrink_x2>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:145
+msgid ":ref:`srgb_to_linear<class_Image_method_srgb_to_linear>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:147
+msgid ":ref:`unlock<class_Image_method_unlock>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:151
+msgid "Enumerations"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:231
+msgid "enum **Format**:"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:233
+msgid "**FORMAT_L8** = **0** --- Texture format with a single 8-bit depth representing luminance."
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:235
+msgid "**FORMAT_LA8** = **1** --- OpenGL texture format with two values, luminance and alpha each stored with 8 bits."
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:237
+msgid "**FORMAT_R8** = **2** --- OpenGL texture format ``RED`` with a single component and a bitdepth of 8."
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:239
+msgid "**FORMAT_RG8** = **3** --- OpenGL texture format ``RG`` with two components and a bitdepth of 8 for each."
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:241
+msgid "**FORMAT_RGB8** = **4** --- OpenGL texture format ``RGB`` with three components, each with a bitdepth of 8."
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:243
+#: ../../docs/classes/class_image.rst:247
+#: ../../docs/classes/class_image.rst:273
+#: ../../docs/classes/class_image.rst:277
+#: ../../docs/classes/class_image.rst:281
+#: ../../docs/classes/class_image.rst:289
+#: ../../docs/classes/class_image.rst:297
+#: ../../docs/classes/class_image.rst:317
+#: ../../docs/classes/class_image.rst:321
+#: ../../docs/classes/class_image.rst:325
+msgid "**Note:** When creating an :ref:`ImageTexture<class_ImageTexture>`, an sRGB to linear color space conversion is performed."
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:245
+msgid "**FORMAT_RGBA8** = **5** --- OpenGL texture format ``RGBA`` with four components, each with a bitdepth of 8."
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:249
+msgid "**FORMAT_RGBA4444** = **6** --- OpenGL texture format ``RGBA`` with four components, each with a bitdepth of 4."
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:251
+msgid "**FORMAT_RGBA5551** = **7** --- OpenGL texture format ``GL_RGB5_A1`` where 5 bits of depth for each component of RGB and one bit for alpha."
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:253
+msgid "**FORMAT_RF** = **8** --- OpenGL texture format ``GL_R32F`` where there's one component, a 32-bit floating-point value."
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:255
+msgid "**FORMAT_RGF** = **9** --- OpenGL texture format ``GL_RG32F`` where there are two components, each a 32-bit floating-point values."
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:257
+msgid "**FORMAT_RGBF** = **10** --- OpenGL texture format ``GL_RGB32F`` where there are three components, each a 32-bit floating-point values."
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:259
+msgid "**FORMAT_RGBAF** = **11** --- OpenGL texture format ``GL_RGBA32F`` where there are four components, each a 32-bit floating-point values."
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:261
+msgid "**FORMAT_RH** = **12** --- OpenGL texture format ``GL_R32F`` where there's one component, a 16-bit \"half-precision\" floating-point value."
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:263
+msgid "**FORMAT_RGH** = **13** --- OpenGL texture format ``GL_RG32F`` where there are two components, each a 16-bit \"half-precision\" floating-point value."
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:265
+msgid "**FORMAT_RGBH** = **14** --- OpenGL texture format ``GL_RGB32F`` where there are three components, each a 16-bit \"half-precision\" floating-point value."
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:267
+msgid "**FORMAT_RGBAH** = **15** --- OpenGL texture format ``GL_RGBA32F`` where there are four components, each a 16-bit \"half-precision\" floating-point value."
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:269
+msgid "**FORMAT_RGBE9995** = **16** --- A special OpenGL texture format where the three color components have 9 bits of precision and all three share a single 5-bit exponent."
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:271
+msgid "**FORMAT_DXT1** = **17** --- The `S3TC <https://en.wikipedia.org/wiki/S3_Texture_Compression>`_ texture format that uses Block Compression 1, and is the smallest variation of S3TC, only providing 1 bit of alpha and color data being premultiplied with alpha."
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:275
+msgid "**FORMAT_DXT3** = **18** --- The `S3TC <https://en.wikipedia.org/wiki/S3_Texture_Compression>`_ texture format that uses Block Compression 2, and color data is interpreted as not having been premultiplied by alpha. Well suited for images with sharp alpha transitions between translucent and opaque areas."
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:279
+msgid "**FORMAT_DXT5** = **19** --- The `S3TC <https://en.wikipedia.org/wiki/S3_Texture_Compression>`_ texture format also known as Block Compression 3 or BC3 that contains 64 bits of alpha channel data followed by 64 bits of DXT1-encoded color data. Color data is not premultiplied by alpha, same as DXT3. DXT5 generally produces superior results for transparent gradients compared to DXT3."
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:283
+msgid "**FORMAT_RGTC_R** = **20** --- Texture format that uses `Red Green Texture Compression <https://www.khronos.org/opengl/wiki/Red_Green_Texture_Compression>`_, normalizing the red channel data using the same compression algorithm that DXT5 uses for the alpha channel."
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:285
+msgid "**FORMAT_RGTC_RG** = **21** --- Texture format that uses `Red Green Texture Compression <https://www.khronos.org/opengl/wiki/Red_Green_Texture_Compression>`_, normalizing the red and green channel data using the same compression algorithm that DXT5 uses for the alpha channel."
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:287
+msgid "**FORMAT_BPTC_RGBA** = **22** --- Texture format that uses `BPTC <https://www.khronos.org/opengl/wiki/BPTC_Texture_Compression>`_ compression with unsigned normalized RGBA components."
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:291
+msgid "**FORMAT_BPTC_RGBF** = **23** --- Texture format that uses `BPTC <https://www.khronos.org/opengl/wiki/BPTC_Texture_Compression>`_ compression with signed floating-point RGB components."
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:293
+msgid "**FORMAT_BPTC_RGBFU** = **24** --- Texture format that uses `BPTC <https://www.khronos.org/opengl/wiki/BPTC_Texture_Compression>`_ compression with unsigned floating-point RGB components."
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:295
+msgid "**FORMAT_PVRTC2** = **25** --- Texture format used on PowerVR-supported mobile platforms, uses 2-bit color depth with no alpha. More information can be found `here <https://en.wikipedia.org/wiki/PVRTC>`_."
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:299
+msgid "**FORMAT_PVRTC2A** = **26** --- Same as `PVRTC2 <https://en.wikipedia.org/wiki/PVRTC>`_, but with an alpha component."
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:301
+msgid "**FORMAT_PVRTC4** = **27** --- Similar to `PVRTC2 <https://en.wikipedia.org/wiki/PVRTC>`_, but with 4-bit color depth and no alpha."
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:303
+msgid "**FORMAT_PVRTC4A** = **28** --- Same as `PVRTC4 <https://en.wikipedia.org/wiki/PVRTC>`_, but with an alpha component."
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:305
+msgid "**FORMAT_ETC** = **29** --- `Ericsson Texture Compression format 1 <https://en.wikipedia.org/wiki/Ericsson_Texture_Compression#ETC1>`_, also referred to as \"ETC1\", and is part of the OpenGL ES graphics standard. This format cannot store an alpha channel."
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:307
+msgid "**FORMAT_ETC2_R11** = **30** --- `Ericsson Texture Compression format 2 <https://en.wikipedia.org/wiki/Ericsson_Texture_Compression#ETC2_and_EAC>`_ (``R11_EAC`` variant), which provides one channel of unsigned data."
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:309
+msgid "**FORMAT_ETC2_R11S** = **31** --- `Ericsson Texture Compression format 2 <https://en.wikipedia.org/wiki/Ericsson_Texture_Compression#ETC2_and_EAC>`_ (``SIGNED_R11_EAC`` variant), which provides one channel of signed data."
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:311
+msgid "**FORMAT_ETC2_RG11** = **32** --- `Ericsson Texture Compression format 2 <https://en.wikipedia.org/wiki/Ericsson_Texture_Compression#ETC2_and_EAC>`_ (``RG11_EAC`` variant), which provides two channels of unsigned data."
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:313
+msgid "**FORMAT_ETC2_RG11S** = **33** --- `Ericsson Texture Compression format 2 <https://en.wikipedia.org/wiki/Ericsson_Texture_Compression#ETC2_and_EAC>`_ (``SIGNED_RG11_EAC`` variant), which provides two channels of signed data."
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:315
+msgid "**FORMAT_ETC2_RGB8** = **34** --- `Ericsson Texture Compression format 2 <https://en.wikipedia.org/wiki/Ericsson_Texture_Compression#ETC2_and_EAC>`_ (``RGB8`` variant), which is a follow-up of ETC1 and compresses RGB888 data."
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:319
+msgid "**FORMAT_ETC2_RGBA8** = **35** --- `Ericsson Texture Compression format 2 <https://en.wikipedia.org/wiki/Ericsson_Texture_Compression#ETC2_and_EAC>`_ (``RGBA8``\\ variant), which compresses RGBA8888 data with full alpha support."
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:323
+msgid "**FORMAT_ETC2_RGB8A1** = **36** --- `Ericsson Texture Compression format 2 <https://en.wikipedia.org/wiki/Ericsson_Texture_Compression#ETC2_and_EAC>`_ (``RGB8_PUNCHTHROUGH_ALPHA1`` variant), which compresses RGBA data to make alpha either fully transparent or fully opaque."
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:327
+msgid "**FORMAT_MAX** = **37** --- Represents the size of the :ref:`Format<enum_Image_Format>` enum."
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:343
+msgid "enum **Interpolation**:"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:345
+msgid "**INTERPOLATE_NEAREST** = **0** --- Performs nearest-neighbor interpolation. If the image is resized, it will be pixelated."
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:347
+msgid "**INTERPOLATE_BILINEAR** = **1** --- Performs bilinear interpolation. If the image is resized, it will be blurry. This mode is faster than :ref:`INTERPOLATE_CUBIC<class_Image_constant_INTERPOLATE_CUBIC>`, but it results in lower quality."
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:349
+msgid "**INTERPOLATE_CUBIC** = **2** --- Performs cubic interpolation. If the image is resized, it will be blurry. This mode often gives better results compared to :ref:`INTERPOLATE_BILINEAR<class_Image_constant_INTERPOLATE_BILINEAR>`, at the cost of being slower."
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:351
+msgid "**INTERPOLATE_TRILINEAR** = **3** --- Performs bilinear separately on the two most-suited mipmap levels, then linearly interpolates between them."
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:353
+msgid "It's slower than :ref:`INTERPOLATE_BILINEAR<class_Image_constant_INTERPOLATE_BILINEAR>`, but produces higher-quality results with much less aliasing artifacts."
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:355
+msgid "If the image does not have mipmaps, they will be generated and used internally, but no mipmaps will be generated on the resulting image."
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:357
+msgid "**Note:** If you intend to scale multiple copies of the original image, it's better to call :ref:`generate_mipmaps<class_Image_method_generate_mipmaps>`] on it in advance, to avoid wasting processing power in generating them again and again."
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:359
+msgid "On the other hand, if the image already has mipmaps, they will be used, and a new set will be generated for the resulting image."
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:361
+msgid "**INTERPOLATE_LANCZOS** = **4** --- Performs Lanczos interpolation. This is the slowest image resizing mode, but it typically gives the best results, especially when downscalng images."
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:373
+msgid "enum **AlphaMode**:"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:375
+msgid "**ALPHA_NONE** = **0** --- Image does not have alpha."
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:377
+msgid "**ALPHA_BIT** = **1** --- Image stores alpha in a single bit."
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:379
+msgid "**ALPHA_BLEND** = **2** --- Image uses alpha."
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:395
+msgid "enum **CompressMode**:"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:397
+msgid "**COMPRESS_S3TC** = **0** --- Use S3TC compression."
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:399
+msgid "**COMPRESS_PVRTC2** = **1** --- Use PVRTC2 compression."
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:401
+msgid "**COMPRESS_PVRTC4** = **2** --- Use PVRTC4 compression."
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:403
+msgid "**COMPRESS_ETC** = **3** --- Use ETC compression."
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:405
+msgid "**COMPRESS_ETC2** = **4** --- Use ETC2 compression."
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:417
+msgid "enum **CompressSource**:"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:419
+msgid "**COMPRESS_SOURCE_GENERIC** = **0** --- Source texture (before compression) is a regular texture. Default for all textures."
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:421
+msgid "**COMPRESS_SOURCE_SRGB** = **1** --- Source texture (before compression) is in sRGB space."
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:423
+msgid "**COMPRESS_SOURCE_NORMAL** = **2** --- Source texture (before compression) is a normal texture (e.g. it can be compressed into two channels)."
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:426
+msgid "Constants"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:432
+msgid "**MAX_WIDTH** = **16384** --- The maximal width allowed for ``Image`` resources."
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:434
+msgid "**MAX_HEIGHT** = **16384** --- The maximal height allowed for ``Image`` resources."
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:437
+msgid "Property Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:441
+msgid ":ref:`Dictionary<class_Dictionary>` **data**"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:444
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:447
+msgid "Holds all of the image's color data in a given format. See :ref:`Format<enum_Image_Format>` constants."
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:450
+msgid "Method Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:454
+msgid "void **blend_rect** **(** :ref:`Image<class_Image>` src, :ref:`Rect2<class_Rect2>` src_rect, :ref:`Vector2<class_Vector2>` dst **)**"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:456
+msgid "Alpha-blends ``src_rect`` from ``src`` image to this image at coordinates ``dest``."
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:462
+msgid "void **blend_rect_mask** **(** :ref:`Image<class_Image>` src, :ref:`Image<class_Image>` mask, :ref:`Rect2<class_Rect2>` src_rect, :ref:`Vector2<class_Vector2>` dst **)**"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:464
+msgid "Alpha-blends ``src_rect`` from ``src`` image to this image using ``mask`` image at coordinates ``dst``. Alpha channels are required for both ``src`` and ``mask``. ``dst`` pixels and ``src`` pixels will blend if the corresponding mask pixel's alpha value is not 0. ``src`` image and ``mask`` image **must** have the same size (width and height) but they can have different formats."
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:470
+msgid "void **blit_rect** **(** :ref:`Image<class_Image>` src, :ref:`Rect2<class_Rect2>` src_rect, :ref:`Vector2<class_Vector2>` dst **)**"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:472
+msgid "Copies ``src_rect`` from ``src`` image to this image at coordinates ``dst``."
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:478
+msgid "void **blit_rect_mask** **(** :ref:`Image<class_Image>` src, :ref:`Image<class_Image>` mask, :ref:`Rect2<class_Rect2>` src_rect, :ref:`Vector2<class_Vector2>` dst **)**"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:480
+msgid "Blits ``src_rect`` area from ``src`` image to this image at the coordinates given by ``dst``. ``src`` pixel is copied onto ``dst`` if the corresponding ``mask`` pixel's alpha value is not 0. ``src`` image and ``mask`` image **must** have the same size (width and height) but they can have different formats."
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:486
+msgid "void **bumpmap_to_normalmap** **(** :ref:`float<class_float>` bump_scale=1.0 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:488
+msgid "Converts a bumpmap to a normalmap. A bumpmap provides a height offset per-pixel, while a normalmap provides a normal direction per pixel."
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:494
+msgid "void **clear_mipmaps** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:496
+msgid "Removes the image's mipmaps."
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:502
+msgid ":ref:`Error<enum_@GlobalScope_Error>` **compress** **(** :ref:`CompressMode<enum_Image_CompressMode>` mode, :ref:`CompressSource<enum_Image_CompressSource>` source, :ref:`float<class_float>` lossy_quality **)**"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:504
+msgid "Compresses the image to use less memory. Can not directly access pixel data while the image is compressed. Returns error if the chosen compression mode is not available. See :ref:`CompressMode<enum_Image_CompressMode>` and :ref:`CompressSource<enum_Image_CompressSource>` constants."
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:510
+msgid "void **convert** **(** :ref:`Format<enum_Image_Format>` format **)**"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:512
+msgid "Converts the image's format. See :ref:`Format<enum_Image_Format>` constants."
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:518
+msgid "void **copy_from** **(** :ref:`Image<class_Image>` src **)**"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:520
+msgid "Copies ``src`` image to this image."
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:526
+msgid "void **create** **(** :ref:`int<class_int>` width, :ref:`int<class_int>` height, :ref:`bool<class_bool>` use_mipmaps, :ref:`Format<enum_Image_Format>` format **)**"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:528
+msgid "Creates an empty image of given size and format. See :ref:`Format<enum_Image_Format>` constants. If ``use_mipmaps`` is ``true`` then generate mipmaps for this image. See the :ref:`generate_mipmaps<class_Image_method_generate_mipmaps>`."
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:534
+msgid "void **create_from_data** **(** :ref:`int<class_int>` width, :ref:`int<class_int>` height, :ref:`bool<class_bool>` use_mipmaps, :ref:`Format<enum_Image_Format>` format, :ref:`PoolByteArray<class_PoolByteArray>` data **)**"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:536
+msgid "Creates a new image of given size and format. See :ref:`Format<enum_Image_Format>` constants. Fills the image with the given raw data. If ``use_mipmaps`` is ``true`` then loads mipmaps for this image from ``data``. See :ref:`generate_mipmaps<class_Image_method_generate_mipmaps>`."
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:542
+msgid "void **crop** **(** :ref:`int<class_int>` width, :ref:`int<class_int>` height **)**"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:544
+msgid "Crops the image to the given ``width`` and ``height``. If the specified size is larger than the current size, the extra area is filled with black pixels."
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:550
+msgid ":ref:`Error<enum_@GlobalScope_Error>` **decompress** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:552
+msgid "Decompresses the image if it is compressed. Returns an error if decompress function is not available."
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:558
+msgid ":ref:`AlphaMode<enum_Image_AlphaMode>` **detect_alpha** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:560
+msgid "Returns :ref:`ALPHA_BLEND<class_Image_constant_ALPHA_BLEND>` if the image has data for alpha values. Returns :ref:`ALPHA_BIT<class_Image_constant_ALPHA_BIT>` if all the alpha values are stored in a single bit. Returns :ref:`ALPHA_NONE<class_Image_constant_ALPHA_NONE>` if no data for alpha values is found."
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:566
+msgid "void **expand_x2_hq2x** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:568
+msgid "Stretches the image and enlarges it by a factor of 2. No interpolation is done."
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:574
+msgid "void **fill** **(** :ref:`Color<class_Color>` color **)**"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:576
+msgid "Fills the image with a given :ref:`Color<class_Color>`."
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:582
+msgid "void **fix_alpha_edges** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:584
+msgid "Blends low-alpha pixels with nearby pixels."
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:590
+msgid "void **flip_x** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:592
+msgid "Flips the image horizontally."
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:598
+msgid "void **flip_y** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:600
+msgid "Flips the image vertically."
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:606
+msgid ":ref:`Error<enum_@GlobalScope_Error>` **generate_mipmaps** **(** :ref:`bool<class_bool>` renormalize=false **)**"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:608
+msgid "Generates mipmaps for the image. Mipmaps are pre-calculated and lower resolution copies of the image. Mipmaps are automatically used if the image needs to be scaled down when rendered. This improves image quality and the performance of the rendering. Returns an error if the image is compressed, in a custom format or if the image's width/height is 0."
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:614
+msgid ":ref:`PoolByteArray<class_PoolByteArray>` **get_data** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:616
+msgid "Returns a copy of the image's raw data."
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:622
+msgid ":ref:`Format<enum_Image_Format>` **get_format** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:624
+msgid "Returns the image's format. See :ref:`Format<enum_Image_Format>` constants."
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:630
+msgid ":ref:`int<class_int>` **get_height** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:632
+msgid "Returns the image's height."
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:638
+msgid ":ref:`int<class_int>` **get_mipmap_offset** **(** :ref:`int<class_int>` mipmap **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:640
+msgid "Returns the offset where the image's mipmap with index ``mipmap`` is stored in the ``data`` dictionary."
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:646
+msgid ":ref:`Color<class_Color>` **get_pixel** **(** :ref:`int<class_int>` x, :ref:`int<class_int>` y **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:648
+msgid "Returns the color of the pixel at ``(x, y)`` if the image is locked. If the image is unlocked, it always returns a :ref:`Color<class_Color>` with the value ``(0, 0, 0, 1.0)``. This is the same as :ref:`get_pixelv<class_Image_method_get_pixelv>`, but two integer arguments instead of a Vector2 argument."
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:654
+msgid ":ref:`Color<class_Color>` **get_pixelv** **(** :ref:`Vector2<class_Vector2>` src **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:656
+msgid "Returns the color of the pixel at ``src`` if the image is locked. If the image is unlocked, it always returns a :ref:`Color<class_Color>` with the value ``(0, 0, 0, 1.0)``. This is the same as :ref:`get_pixel<class_Image_method_get_pixel>`, but with a Vector2 argument instead of two integer arguments."
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:662
+msgid ":ref:`Image<class_Image>` **get_rect** **(** :ref:`Rect2<class_Rect2>` rect **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:664
+msgid "Returns a new image that is a copy of the image's area specified with ``rect``."
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:670
+msgid ":ref:`Vector2<class_Vector2>` **get_size** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:672
+msgid "Returns the image's size (width and height)."
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:678
+msgid ":ref:`Rect2<class_Rect2>` **get_used_rect** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:680
+msgid "Returns a :ref:`Rect2<class_Rect2>` enclosing the visible portion of the image, considering each pixel with a non-zero alpha channel as visible."
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:686
+msgid ":ref:`int<class_int>` **get_width** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:688
+msgid "Returns the image's width."
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:694
+msgid ":ref:`bool<class_bool>` **has_mipmaps** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:696
+msgid "Returns ``true`` if the image has generated mipmaps."
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:702
+msgid ":ref:`bool<class_bool>` **is_compressed** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:704
+msgid "Returns ``true`` if the image is compressed."
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:710
+msgid ":ref:`bool<class_bool>` **is_empty** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:712
+msgid "Returns ``true`` if the image has no data."
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:718
+msgid ":ref:`bool<class_bool>` **is_invisible** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:720
+msgid "Returns ``true`` if all the image's pixels have an alpha value of 0. Returns ``false`` if any pixel has an alpha value higher than 0."
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:726
+msgid ":ref:`Error<enum_@GlobalScope_Error>` **load** **(** :ref:`String<class_String>` path **)**"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:728
+msgid "Loads an image from file ``path``. See `Supported image formats <https://docs.godotengine.org/en/3.2/getting_started/workflow/assets/importing_images.html#supported-image-formats>`_ for a list of supported image formats and limitations."
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:730
+msgid "**Warning:** This method should only be used in the editor or in cases when you need to load external images at run-time, such as images located at the ``user://`` directory, and may not work in exported projects."
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:732
+msgid "See also :ref:`ImageTexture<class_ImageTexture>` description for usage examples."
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:738
+msgid ":ref:`Error<enum_@GlobalScope_Error>` **load_bmp_from_buffer** **(** :ref:`PoolByteArray<class_PoolByteArray>` buffer **)**"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:740
+msgid "Loads an image from the binary contents of a BMP file."
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:742
+msgid "**Note:** Godot's BMP module doesn't support 16-bit per pixel images. Only 1-bit, 4-bit, 8-bit, 24-bit, and 32-bit per pixel images are supported."
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:748
+msgid ":ref:`Error<enum_@GlobalScope_Error>` **load_jpg_from_buffer** **(** :ref:`PoolByteArray<class_PoolByteArray>` buffer **)**"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:750
+msgid "Loads an image from the binary contents of a JPEG file."
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:756
+msgid ":ref:`Error<enum_@GlobalScope_Error>` **load_png_from_buffer** **(** :ref:`PoolByteArray<class_PoolByteArray>` buffer **)**"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:758
+msgid "Loads an image from the binary contents of a PNG file."
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:764
+msgid ":ref:`Error<enum_@GlobalScope_Error>` **load_tga_from_buffer** **(** :ref:`PoolByteArray<class_PoolByteArray>` buffer **)**"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:766
+msgid "Loads an image from the binary contents of a TGA file."
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:772
+msgid ":ref:`Error<enum_@GlobalScope_Error>` **load_webp_from_buffer** **(** :ref:`PoolByteArray<class_PoolByteArray>` buffer **)**"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:774
+msgid "Loads an image from the binary contents of a WebP file."
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:780
+msgid "void **lock** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:782
+msgid "Locks the data for reading and writing access. Sends an error to the console if the image is not locked when reading or writing a pixel."
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:788
+msgid "void **normalmap_to_xy** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:790
+msgid "Converts the image's data to represent coordinates on a 3D plane. This is used when the image represents a normalmap. A normalmap can add lots of detail to a 3D surface without increasing the polygon count."
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:796
+msgid "void **premultiply_alpha** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:798
+msgid "Multiplies color values with alpha values. Resulting color values for a pixel are ``(color * alpha)/256``."
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:804
+msgid "void **resize** **(** :ref:`int<class_int>` width, :ref:`int<class_int>` height, :ref:`Interpolation<enum_Image_Interpolation>` interpolation=1 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:806
+msgid "Resizes the image to the given ``width`` and ``height``. New pixels are calculated using the ``interpolation`` mode defined via :ref:`Interpolation<enum_Image_Interpolation>` constants."
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:812
+msgid "void **resize_to_po2** **(** :ref:`bool<class_bool>` square=false, :ref:`Interpolation<enum_Image_Interpolation>` interpolation=1 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:814
+msgid "Resizes the image to the nearest power of 2 for the width and height. If ``square`` is ``true`` then set width and height to be the same. New pixels are calculated using the ``interpolation`` mode defined via :ref:`Interpolation<enum_Image_Interpolation>` constants."
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:820
+msgid ":ref:`Image<class_Image>` **rgbe_to_srgb** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:822
+msgid "Converts a standard RGBE (Red Green Blue Exponent) image to an sRGB image."
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:828
+msgid ":ref:`Error<enum_@GlobalScope_Error>` **save_exr** **(** :ref:`String<class_String>` path, :ref:`bool<class_bool>` grayscale=false **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:830
+msgid "Saves the image as an EXR file to ``path``. If ``grayscale`` is ``true`` and the image has only one channel, it will be saved explicitly as monochrome rather than one red channel. This function will return :ref:`@GlobalScope.ERR_UNAVAILABLE<class_@GlobalScope_constant_ERR_UNAVAILABLE>` if Godot was compiled without the TinyEXR module."
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:836
+msgid ":ref:`Error<enum_@GlobalScope_Error>` **save_png** **(** :ref:`String<class_String>` path **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:838
+msgid "Saves the image as a PNG file to ``path``."
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:844
+msgid ":ref:`PoolByteArray<class_PoolByteArray>` **save_png_to_buffer** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:850
+msgid "void **set_pixel** **(** :ref:`int<class_int>` x, :ref:`int<class_int>` y, :ref:`Color<class_Color>` color **)**"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:852
+msgid "Sets the :ref:`Color<class_Color>` of the pixel at ``(x, y)`` if the image is locked. Example:"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:867
+msgid "void **set_pixelv** **(** :ref:`Vector2<class_Vector2>` dst, :ref:`Color<class_Color>` color **)**"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:869
+msgid "Sets the :ref:`Color<class_Color>` of the pixel at ``(dst.x, dst.y)`` if the image is locked. Note that the ``dst`` values must be integers. Example:"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:884
+msgid "void **shrink_x2** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:886
+msgid "Shrinks the image by a factor of 2."
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:892
+msgid "void **srgb_to_linear** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:894
+msgid "Converts the raw data from the sRGB colorspace to a linear scale."
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:900
+msgid "void **unlock** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_image.rst:902
+msgid "Unlocks the data and prevents changes."
+msgstr ""

@@ -1,0 +1,86 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/tutorials/misc/handling_quit_requests.rst:4
+msgid "Handling quit requests"
+msgstr "处理退出请求"
+
+#: ../../docs/tutorials/misc/handling_quit_requests.rst:7
+msgid "Quitting"
+msgstr "退出"
+
+#: ../../docs/tutorials/misc/handling_quit_requests.rst:9
+#, fuzzy
+msgid ""
+"Most platforms have the option to request the application to quit. On "
+"desktops, this is usually done with the \"x\" icon on the window title bar. "
+"On Android, the back button is used to quit when on the main screen (and to "
+"go back otherwise)."
+msgstr ""
+"大多数平台都可以选择请求退出应用程序。 在桌面系统中，通常使用窗口标题栏上的"
+"``x``图标来完成。 在Android上，当在主屏幕上时，后退按钮用于退出(否则返回)。"
+
+#: ../../docs/tutorials/misc/handling_quit_requests.rst:15
+msgid "Handling the notification"
+msgstr "处理通知"
+
+#: ../../docs/tutorials/misc/handling_quit_requests.rst:17
+#, fuzzy
+msgid ""
+"On desktop platforms, the :ref:`MainLoop <class_MainLoop>` has a special "
+"``MainLoop.NOTIFICATION_WM_QUIT_REQUEST`` notification that is sent to all "
+"nodes when quitting is requested."
+msgstr ""
+":ref:`MainLoop <class_MainLoop>` 有一个特殊通知，在请求退出时将发送到所有节"
+"点 : MainLoop.NOTIFICATION_WM_QUIT。"
+
+#: ../../docs/tutorials/misc/handling_quit_requests.rst:21
+msgid ""
+"On Android, ``MainLoop.NOTIFICATION_WM_GO_BACK_REQUEST`` is sent instead. "
+"Pressing the Back button will exit the application if **Application > Config "
+"> Quit On Go Back** is checked in the Project Settings (which is the "
+"default)."
+msgstr ""
+
+#: ../../docs/tutorials/misc/handling_quit_requests.rst:28
+msgid ""
+"``MainLoop.NOTIFICATION_WM_GO_BACK_REQUEST`` isn't supported on iOS, as iOS "
+"devices don't have a physical Back button."
+msgstr ""
+
+#: ../../docs/tutorials/misc/handling_quit_requests.rst:31
+#, fuzzy
+msgid "Handling the notification is done as follows (on any node):"
+msgstr "在任何节点上，可以像下面这样处理这个通知:"
+
+#: ../../docs/tutorials/misc/handling_quit_requests.rst:48
+msgid ""
+"When developing mobile apps, quitting is not desired unless the user is on "
+"the main screen, so the behavior can be changed."
+msgstr ""
+"在开发移动应用程序时，除非用户在主屏幕上，否则不需要退出，因此处理方式有变"
+"化。"
+
+#: ../../docs/tutorials/misc/handling_quit_requests.rst:51
+msgid ""
+"It is important to note that by default, Godot apps have the built-in "
+"behavior to quit when quit is requested, this can be changed:"
+msgstr ""
+"值得注意的是，默认情况下，在请求退出时，Godot应用程序具有退出的内置行为，可以"
+"更改为:"

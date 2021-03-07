@@ -1,0 +1,65 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_panel.rst:10
+msgid "Panel"
+msgstr ""
+
+#: ../../docs/classes/class_panel.rst:12
+msgid "**Inherits:** :ref:`Control<class_Control>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_panel.rst:14
+msgid "Provides an opaque background for :ref:`Control<class_Control>` children."
+msgstr ""
+
+#: ../../docs/classes/class_panel.rst:17
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_panel.rst:19
+msgid "Panel is a :ref:`Control<class_Control>` that displays an opaque background. It's commonly used as a parent and container for other types of :ref:`Control<class_Control>` nodes."
+msgstr ""
+
+#: ../../docs/classes/class_panel.rst:22
+msgid "Tutorials"
+msgstr ""
+
+#: ../../docs/classes/class_panel.rst:24
+msgid "`https://godotengine.org/asset-library/asset/520 <https://godotengine.org/asset-library/asset/520>`_"
+msgstr ""
+
+#: ../../docs/classes/class_panel.rst:26
+msgid "`https://godotengine.org/asset-library/asset/516 <https://godotengine.org/asset-library/asset/516>`_"
+msgstr ""
+
+#: ../../docs/classes/class_panel.rst:28
+msgid "`https://godotengine.org/asset-library/asset/523 <https://godotengine.org/asset-library/asset/523>`_"
+msgstr ""
+
+#: ../../docs/classes/class_panel.rst:31
+msgid "Theme Properties"
+msgstr ""
+
+#: ../../docs/classes/class_panel.rst:34
+msgid ":ref:`StyleBox<class_StyleBox>`"
+msgstr ""
+
+#: ../../docs/classes/class_panel.rst:34
+msgid "panel"
+msgstr ""

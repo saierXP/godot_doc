@@ -1,0 +1,315 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_charfxtransform.rst:10
+msgid "CharFXTransform"
+msgstr ""
+
+#: ../../docs/classes/class_charfxtransform.rst:12
+msgid "**Inherits:** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_charfxtransform.rst:14
+msgid "Controls how an individual character will be displayed in a :ref:`RichTextEffect<class_RichTextEffect>`."
+msgstr ""
+
+#: ../../docs/classes/class_charfxtransform.rst:17
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_charfxtransform.rst:19
+msgid "By setting various properties on this object, you can control how individual characters will be displayed in a :ref:`RichTextEffect<class_RichTextEffect>`."
+msgstr ""
+
+#: ../../docs/classes/class_charfxtransform.rst:22
+msgid "Tutorials"
+msgstr ""
+
+#: ../../docs/classes/class_charfxtransform.rst:24
+msgid ":doc:`../tutorials/gui/bbcode_in_richtextlabel`"
+msgstr ""
+
+#: ../../docs/classes/class_charfxtransform.rst:26
+msgid "`https://github.com/Eoin-ONeill-Yokai/Godot-Rich-Text-Effect-Test-Project <https://github.com/Eoin-ONeill-Yokai/Godot-Rich-Text-Effect-Test-Project>`_"
+msgstr ""
+
+#: ../../docs/classes/class_charfxtransform.rst:29
+msgid "Properties"
+msgstr ""
+
+#: ../../docs/classes/class_charfxtransform.rst:32
+#: ../../docs/classes/class_charfxtransform.rst:34
+#: ../../docs/classes/class_charfxtransform.rst:44
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../../docs/classes/class_charfxtransform.rst:32
+msgid ":ref:`absolute_index<class_CharFXTransform_property_absolute_index>`"
+msgstr ""
+
+#: ../../docs/classes/class_charfxtransform.rst:32
+#: ../../docs/classes/class_charfxtransform.rst:34
+#: ../../docs/classes/class_charfxtransform.rst:44
+#: ../../docs/classes/class_charfxtransform.rst:57
+#: ../../docs/classes/class_charfxtransform.rst:73
+#: ../../docs/classes/class_charfxtransform.rst:167
+msgid "``0``"
+msgstr ""
+
+#: ../../docs/classes/class_charfxtransform.rst:34
+msgid ":ref:`character<class_CharFXTransform_property_character>`"
+msgstr ""
+
+#: ../../docs/classes/class_charfxtransform.rst:36
+msgid ":ref:`Color<class_Color>`"
+msgstr ""
+
+#: ../../docs/classes/class_charfxtransform.rst:36
+msgid ":ref:`color<class_CharFXTransform_property_color>`"
+msgstr ""
+
+#: ../../docs/classes/class_charfxtransform.rst:36
+#: ../../docs/classes/class_charfxtransform.rst:95
+msgid "``Color( 0, 0, 0, 1 )``"
+msgstr ""
+
+#: ../../docs/classes/class_charfxtransform.rst:38
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../../docs/classes/class_charfxtransform.rst:38
+msgid ":ref:`elapsed_time<class_CharFXTransform_property_elapsed_time>`"
+msgstr ""
+
+#: ../../docs/classes/class_charfxtransform.rst:38
+#: ../../docs/classes/class_charfxtransform.rst:111
+msgid "``0.0``"
+msgstr ""
+
+#: ../../docs/classes/class_charfxtransform.rst:40
+msgid ":ref:`Dictionary<class_Dictionary>`"
+msgstr ""
+
+#: ../../docs/classes/class_charfxtransform.rst:40
+msgid ":ref:`env<class_CharFXTransform_property_env>`"
+msgstr ""
+
+#: ../../docs/classes/class_charfxtransform.rst:40
+#: ../../docs/classes/class_charfxtransform.rst:129
+msgid "``{}``"
+msgstr ""
+
+#: ../../docs/classes/class_charfxtransform.rst:42
+msgid ":ref:`Vector2<class_Vector2>`"
+msgstr ""
+
+#: ../../docs/classes/class_charfxtransform.rst:42
+msgid ":ref:`offset<class_CharFXTransform_property_offset>`"
+msgstr ""
+
+#: ../../docs/classes/class_charfxtransform.rst:42
+#: ../../docs/classes/class_charfxtransform.rst:151
+msgid "``Vector2( 0, 0 )``"
+msgstr ""
+
+#: ../../docs/classes/class_charfxtransform.rst:44
+msgid ":ref:`relative_index<class_CharFXTransform_property_relative_index>`"
+msgstr ""
+
+#: ../../docs/classes/class_charfxtransform.rst:46
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_charfxtransform.rst:46
+msgid ":ref:`visible<class_CharFXTransform_property_visible>`"
+msgstr ""
+
+#: ../../docs/classes/class_charfxtransform.rst:46
+#: ../../docs/classes/class_charfxtransform.rst:183
+msgid "``true``"
+msgstr ""
+
+#: ../../docs/classes/class_charfxtransform.rst:50
+msgid "Property Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_charfxtransform.rst:54
+msgid ":ref:`int<class_int>` **absolute_index**"
+msgstr ""
+
+#: ../../docs/classes/class_charfxtransform.rst:57
+#: ../../docs/classes/class_charfxtransform.rst:73
+#: ../../docs/classes/class_charfxtransform.rst:95
+#: ../../docs/classes/class_charfxtransform.rst:111
+#: ../../docs/classes/class_charfxtransform.rst:129
+#: ../../docs/classes/class_charfxtransform.rst:151
+#: ../../docs/classes/class_charfxtransform.rst:167
+#: ../../docs/classes/class_charfxtransform.rst:183
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_charfxtransform.rst:59
+#: ../../docs/classes/class_charfxtransform.rst:75
+#: ../../docs/classes/class_charfxtransform.rst:97
+#: ../../docs/classes/class_charfxtransform.rst:113
+#: ../../docs/classes/class_charfxtransform.rst:131
+#: ../../docs/classes/class_charfxtransform.rst:153
+#: ../../docs/classes/class_charfxtransform.rst:169
+#: ../../docs/classes/class_charfxtransform.rst:185
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_charfxtransform.rst:59
+msgid "set_absolute_index(value)"
+msgstr ""
+
+#: ../../docs/classes/class_charfxtransform.rst:61
+#: ../../docs/classes/class_charfxtransform.rst:77
+#: ../../docs/classes/class_charfxtransform.rst:99
+#: ../../docs/classes/class_charfxtransform.rst:115
+#: ../../docs/classes/class_charfxtransform.rst:133
+#: ../../docs/classes/class_charfxtransform.rst:155
+#: ../../docs/classes/class_charfxtransform.rst:171
+#: ../../docs/classes/class_charfxtransform.rst:187
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_charfxtransform.rst:61
+msgid "get_absolute_index()"
+msgstr ""
+
+#: ../../docs/classes/class_charfxtransform.rst:64
+#: ../../docs/classes/class_charfxtransform.rst:174
+msgid "The index of the current character (starting from 0). Setting this property won't affect drawing."
+msgstr ""
+
+#: ../../docs/classes/class_charfxtransform.rst:70
+msgid ":ref:`int<class_int>` **character**"
+msgstr ""
+
+#: ../../docs/classes/class_charfxtransform.rst:75
+msgid "set_character(value)"
+msgstr ""
+
+#: ../../docs/classes/class_charfxtransform.rst:77
+msgid "get_character()"
+msgstr ""
+
+#: ../../docs/classes/class_charfxtransform.rst:80
+msgid "The Unicode codepoint the character will use. This only affects non-whitespace characters. :ref:`@GDScript.ord<class_@GDScript_method_ord>` can be useful here. For example, the following will replace all characters with asterisks:"
+msgstr ""
+
+#: ../../docs/classes/class_charfxtransform.rst:92
+msgid ":ref:`Color<class_Color>` **color**"
+msgstr ""
+
+#: ../../docs/classes/class_charfxtransform.rst:97
+msgid "set_color(value)"
+msgstr ""
+
+#: ../../docs/classes/class_charfxtransform.rst:99
+msgid "get_color()"
+msgstr ""
+
+#: ../../docs/classes/class_charfxtransform.rst:102
+msgid "The color the character will be drawn with."
+msgstr ""
+
+#: ../../docs/classes/class_charfxtransform.rst:108
+msgid ":ref:`float<class_float>` **elapsed_time**"
+msgstr ""
+
+#: ../../docs/classes/class_charfxtransform.rst:113
+msgid "set_elapsed_time(value)"
+msgstr ""
+
+#: ../../docs/classes/class_charfxtransform.rst:115
+msgid "get_elapsed_time()"
+msgstr ""
+
+#: ../../docs/classes/class_charfxtransform.rst:118
+msgid "The time elapsed since the :ref:`RichTextLabel<class_RichTextLabel>` was added to the scene tree (in seconds). Time stops when the project is paused, unless the :ref:`RichTextLabel<class_RichTextLabel>`'s :ref:`Node.pause_mode<class_Node_property_pause_mode>` is set to :ref:`Node.PAUSE_MODE_PROCESS<class_Node_constant_PAUSE_MODE_PROCESS>`."
+msgstr ""
+
+#: ../../docs/classes/class_charfxtransform.rst:120
+msgid "**Note:** Time still passes while the :ref:`RichTextLabel<class_RichTextLabel>` is hidden."
+msgstr ""
+
+#: ../../docs/classes/class_charfxtransform.rst:126
+msgid ":ref:`Dictionary<class_Dictionary>` **env**"
+msgstr ""
+
+#: ../../docs/classes/class_charfxtransform.rst:131
+msgid "set_environment(value)"
+msgstr ""
+
+#: ../../docs/classes/class_charfxtransform.rst:133
+msgid "get_environment()"
+msgstr ""
+
+#: ../../docs/classes/class_charfxtransform.rst:136
+msgid "Contains the arguments passed in the opening BBCode tag. By default, arguments are strings; if their contents match a type such as :ref:`bool<class_bool>`, :ref:`int<class_int>` or :ref:`float<class_float>`, they will be converted automatically. Color codes in the form ``#rrggbb`` or ``#rgb`` will be converted to an opaque :ref:`Color<class_Color>`. String arguments may not contain spaces, even if they're quoted. If present, quotes will also be present in the final string."
+msgstr ""
+
+#: ../../docs/classes/class_charfxtransform.rst:138
+msgid "For example, the opening BBCode tag ``[example foo=hello bar=true baz=42 color=#ffffff]`` will map to the following :ref:`Dictionary<class_Dictionary>`:"
+msgstr ""
+
+#: ../../docs/classes/class_charfxtransform.rst:148
+msgid ":ref:`Vector2<class_Vector2>` **offset**"
+msgstr ""
+
+#: ../../docs/classes/class_charfxtransform.rst:153
+msgid "set_offset(value)"
+msgstr ""
+
+#: ../../docs/classes/class_charfxtransform.rst:155
+msgid "get_offset()"
+msgstr ""
+
+#: ../../docs/classes/class_charfxtransform.rst:158
+msgid "The position offset the character will be drawn with (in pixels)."
+msgstr ""
+
+#: ../../docs/classes/class_charfxtransform.rst:164
+msgid ":ref:`int<class_int>` **relative_index**"
+msgstr ""
+
+#: ../../docs/classes/class_charfxtransform.rst:169
+msgid "set_relative_index(value)"
+msgstr ""
+
+#: ../../docs/classes/class_charfxtransform.rst:171
+msgid "get_relative_index()"
+msgstr ""
+
+#: ../../docs/classes/class_charfxtransform.rst:180
+msgid ":ref:`bool<class_bool>` **visible**"
+msgstr ""
+
+#: ../../docs/classes/class_charfxtransform.rst:185
+msgid "set_visibility(value)"
+msgstr ""
+
+#: ../../docs/classes/class_charfxtransform.rst:187
+msgid "is_visible()"
+msgstr ""
+
+#: ../../docs/classes/class_charfxtransform.rst:190
+msgid "If ``true``, the character will be drawn. If ``false``, the character will be hidden. Characters around hidden characters will reflow to take the space of hidden characters. If this is not desired, set their :ref:`color<class_CharFXTransform_property_color>` to ``Color(1, 1, 1, 0)`` instead."
+msgstr ""

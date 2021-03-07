@@ -1,0 +1,650 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_visualscript.rst:10
+msgid "VisualScript"
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:12
+msgid "**Inherits:** :ref:`Script<class_Script>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:14
+msgid "A script implemented in the Visual Script programming environment."
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:17
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:19
+msgid "A script implemented in the  Visual Script programming environment. The script extends the functionality of all objects that instance it."
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:21
+msgid ":ref:`Object.set_script<class_Object_method_set_script>` extends an existing object, if that object's class matches one of the script's base classes."
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:23
+msgid "You are most likely to use this class via the Visual Script editor or when writing plugins for it."
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:26
+msgid "Tutorials"
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:28
+msgid ":doc:`../getting_started/scripting/visual_script/index`"
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:31
+msgid "Methods"
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:34
+#: ../../docs/classes/class_visualscript.rst:36
+#: ../../docs/classes/class_visualscript.rst:38
+#: ../../docs/classes/class_visualscript.rst:40
+#: ../../docs/classes/class_visualscript.rst:42
+#: ../../docs/classes/class_visualscript.rst:50
+#: ../../docs/classes/class_visualscript.rst:52
+#: ../../docs/classes/class_visualscript.rst:54
+#: ../../docs/classes/class_visualscript.rst:56
+#: ../../docs/classes/class_visualscript.rst:58
+#: ../../docs/classes/class_visualscript.rst:60
+#: ../../docs/classes/class_visualscript.rst:88
+#: ../../docs/classes/class_visualscript.rst:90
+#: ../../docs/classes/class_visualscript.rst:92
+#: ../../docs/classes/class_visualscript.rst:94
+#: ../../docs/classes/class_visualscript.rst:96
+#: ../../docs/classes/class_visualscript.rst:98
+#: ../../docs/classes/class_visualscript.rst:100
+#: ../../docs/classes/class_visualscript.rst:102
+#: ../../docs/classes/class_visualscript.rst:104
+#: ../../docs/classes/class_visualscript.rst:106
+#: ../../docs/classes/class_visualscript.rst:108
+#: ../../docs/classes/class_visualscript.rst:110
+#: ../../docs/classes/class_visualscript.rst:112
+#: ../../docs/classes/class_visualscript.rst:114
+#: ../../docs/classes/class_visualscript.rst:116
+msgid "void"
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:34
+msgid ":ref:`add_custom_signal<class_VisualScript_method_add_custom_signal>` **(** :ref:`String<class_String>` name **)**"
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:36
+msgid ":ref:`add_function<class_VisualScript_method_add_function>` **(** :ref:`String<class_String>` name **)**"
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:38
+msgid ":ref:`add_node<class_VisualScript_method_add_node>` **(** :ref:`String<class_String>` func, :ref:`int<class_int>` id, :ref:`VisualScriptNode<class_VisualScriptNode>` node, :ref:`Vector2<class_Vector2>` position=Vector2( 0, 0 ) **)**"
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:40
+msgid ":ref:`add_variable<class_VisualScript_method_add_variable>` **(** :ref:`String<class_String>` name, :ref:`Variant<class_Variant>` default_value=null, :ref:`bool<class_bool>` export=false **)**"
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:42
+msgid ":ref:`custom_signal_add_argument<class_VisualScript_method_custom_signal_add_argument>` **(** :ref:`String<class_String>` name, :ref:`Variant.Type<enum_@GlobalScope_Variant.Type>` type, :ref:`String<class_String>` argname, :ref:`int<class_int>` index=-1 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:44
+#: ../../docs/classes/class_visualscript.rst:62
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:44
+msgid ":ref:`custom_signal_get_argument_count<class_VisualScript_method_custom_signal_get_argument_count>` **(** :ref:`String<class_String>` name **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:46
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:46
+msgid ":ref:`custom_signal_get_argument_name<class_VisualScript_method_custom_signal_get_argument_name>` **(** :ref:`String<class_String>` name, :ref:`int<class_int>` argidx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:48
+msgid ":ref:`Variant.Type<enum_@GlobalScope_Variant.Type>`"
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:48
+msgid ":ref:`custom_signal_get_argument_type<class_VisualScript_method_custom_signal_get_argument_type>` **(** :ref:`String<class_String>` name, :ref:`int<class_int>` argidx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:50
+msgid ":ref:`custom_signal_remove_argument<class_VisualScript_method_custom_signal_remove_argument>` **(** :ref:`String<class_String>` name, :ref:`int<class_int>` argidx **)**"
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:52
+msgid ":ref:`custom_signal_set_argument_name<class_VisualScript_method_custom_signal_set_argument_name>` **(** :ref:`String<class_String>` name, :ref:`int<class_int>` argidx, :ref:`String<class_String>` argname **)**"
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:54
+msgid ":ref:`custom_signal_set_argument_type<class_VisualScript_method_custom_signal_set_argument_type>` **(** :ref:`String<class_String>` name, :ref:`int<class_int>` argidx, :ref:`Variant.Type<enum_@GlobalScope_Variant.Type>` type **)**"
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:56
+msgid ":ref:`custom_signal_swap_argument<class_VisualScript_method_custom_signal_swap_argument>` **(** :ref:`String<class_String>` name, :ref:`int<class_int>` argidx, :ref:`int<class_int>` withidx **)**"
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:58
+msgid ":ref:`data_connect<class_VisualScript_method_data_connect>` **(** :ref:`String<class_String>` func, :ref:`int<class_int>` from_node, :ref:`int<class_int>` from_port, :ref:`int<class_int>` to_node, :ref:`int<class_int>` to_port **)**"
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:60
+msgid ":ref:`data_disconnect<class_VisualScript_method_data_disconnect>` **(** :ref:`String<class_String>` func, :ref:`int<class_int>` from_node, :ref:`int<class_int>` from_port, :ref:`int<class_int>` to_node, :ref:`int<class_int>` to_port **)**"
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:62
+msgid ":ref:`get_function_node_id<class_VisualScript_method_get_function_node_id>` **(** :ref:`String<class_String>` name **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:64
+#: ../../docs/classes/class_visualscript.rst:68
+msgid ":ref:`Vector2<class_Vector2>`"
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:64
+msgid ":ref:`get_function_scroll<class_VisualScript_method_get_function_scroll>` **(** :ref:`String<class_String>` name **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:66
+msgid ":ref:`VisualScriptNode<class_VisualScriptNode>`"
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:66
+msgid ":ref:`get_node<class_VisualScript_method_get_node>` **(** :ref:`String<class_String>` func, :ref:`int<class_int>` id **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:68
+msgid ":ref:`get_node_position<class_VisualScript_method_get_node_position>` **(** :ref:`String<class_String>` func, :ref:`int<class_int>` id **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:70
+msgid ":ref:`Variant<class_Variant>`"
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:70
+msgid ":ref:`get_variable_default_value<class_VisualScript_method_get_variable_default_value>` **(** :ref:`String<class_String>` name **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:72
+#: ../../docs/classes/class_visualscript.rst:76
+#: ../../docs/classes/class_visualscript.rst:78
+#: ../../docs/classes/class_visualscript.rst:80
+#: ../../docs/classes/class_visualscript.rst:82
+#: ../../docs/classes/class_visualscript.rst:84
+#: ../../docs/classes/class_visualscript.rst:86
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:72
+msgid ":ref:`get_variable_export<class_VisualScript_method_get_variable_export>` **(** :ref:`String<class_String>` name **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:74
+msgid ":ref:`Dictionary<class_Dictionary>`"
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:74
+msgid ":ref:`get_variable_info<class_VisualScript_method_get_variable_info>` **(** :ref:`String<class_String>` name **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:76
+msgid ":ref:`has_custom_signal<class_VisualScript_method_has_custom_signal>` **(** :ref:`String<class_String>` name **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:78
+msgid ":ref:`has_data_connection<class_VisualScript_method_has_data_connection>` **(** :ref:`String<class_String>` func, :ref:`int<class_int>` from_node, :ref:`int<class_int>` from_port, :ref:`int<class_int>` to_node, :ref:`int<class_int>` to_port **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:80
+msgid ":ref:`has_function<class_VisualScript_method_has_function>` **(** :ref:`String<class_String>` name **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:82
+msgid ":ref:`has_node<class_VisualScript_method_has_node>` **(** :ref:`String<class_String>` func, :ref:`int<class_int>` id **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:84
+msgid ":ref:`has_sequence_connection<class_VisualScript_method_has_sequence_connection>` **(** :ref:`String<class_String>` func, :ref:`int<class_int>` from_node, :ref:`int<class_int>` from_output, :ref:`int<class_int>` to_node **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:86
+msgid ":ref:`has_variable<class_VisualScript_method_has_variable>` **(** :ref:`String<class_String>` name **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:88
+msgid ":ref:`remove_custom_signal<class_VisualScript_method_remove_custom_signal>` **(** :ref:`String<class_String>` name **)**"
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:90
+msgid ":ref:`remove_function<class_VisualScript_method_remove_function>` **(** :ref:`String<class_String>` name **)**"
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:92
+msgid ":ref:`remove_node<class_VisualScript_method_remove_node>` **(** :ref:`String<class_String>` func, :ref:`int<class_int>` id **)**"
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:94
+msgid ":ref:`remove_variable<class_VisualScript_method_remove_variable>` **(** :ref:`String<class_String>` name **)**"
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:96
+msgid ":ref:`rename_custom_signal<class_VisualScript_method_rename_custom_signal>` **(** :ref:`String<class_String>` name, :ref:`String<class_String>` new_name **)**"
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:98
+msgid ":ref:`rename_function<class_VisualScript_method_rename_function>` **(** :ref:`String<class_String>` name, :ref:`String<class_String>` new_name **)**"
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:100
+msgid ":ref:`rename_variable<class_VisualScript_method_rename_variable>` **(** :ref:`String<class_String>` name, :ref:`String<class_String>` new_name **)**"
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:102
+msgid ":ref:`sequence_connect<class_VisualScript_method_sequence_connect>` **(** :ref:`String<class_String>` func, :ref:`int<class_int>` from_node, :ref:`int<class_int>` from_output, :ref:`int<class_int>` to_node **)**"
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:104
+msgid ":ref:`sequence_disconnect<class_VisualScript_method_sequence_disconnect>` **(** :ref:`String<class_String>` func, :ref:`int<class_int>` from_node, :ref:`int<class_int>` from_output, :ref:`int<class_int>` to_node **)**"
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:106
+msgid ":ref:`set_function_scroll<class_VisualScript_method_set_function_scroll>` **(** :ref:`String<class_String>` name, :ref:`Vector2<class_Vector2>` ofs **)**"
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:108
+msgid ":ref:`set_instance_base_type<class_VisualScript_method_set_instance_base_type>` **(** :ref:`String<class_String>` type **)**"
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:110
+msgid ":ref:`set_node_position<class_VisualScript_method_set_node_position>` **(** :ref:`String<class_String>` func, :ref:`int<class_int>` id, :ref:`Vector2<class_Vector2>` position **)**"
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:112
+msgid ":ref:`set_variable_default_value<class_VisualScript_method_set_variable_default_value>` **(** :ref:`String<class_String>` name, :ref:`Variant<class_Variant>` value **)**"
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:114
+msgid ":ref:`set_variable_export<class_VisualScript_method_set_variable_export>` **(** :ref:`String<class_String>` name, :ref:`bool<class_bool>` enable **)**"
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:116
+msgid ":ref:`set_variable_info<class_VisualScript_method_set_variable_info>` **(** :ref:`String<class_String>` name, :ref:`Dictionary<class_Dictionary>` value **)**"
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:120
+msgid "Signals"
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:124
+msgid "**node_ports_changed** **(** :ref:`String<class_String>` function, :ref:`int<class_int>` id **)**"
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:126
+msgid "Emitted when the ports of a node are changed."
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:129
+msgid "Method Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:133
+msgid "void **add_custom_signal** **(** :ref:`String<class_String>` name **)**"
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:135
+msgid "Add a custom signal with the specified name to the VisualScript."
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:141
+msgid "void **add_function** **(** :ref:`String<class_String>` name **)**"
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:143
+msgid "Add a function with the specified name to the VisualScript."
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:149
+msgid "void **add_node** **(** :ref:`String<class_String>` func, :ref:`int<class_int>` id, :ref:`VisualScriptNode<class_VisualScriptNode>` node, :ref:`Vector2<class_Vector2>` position=Vector2( 0, 0 ) **)**"
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:151
+msgid "Add a node to a function of the VisualScript."
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:157
+msgid "void **add_variable** **(** :ref:`String<class_String>` name, :ref:`Variant<class_Variant>` default_value=null, :ref:`bool<class_bool>` export=false **)**"
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:159
+msgid "Add a variable to the VisualScript, optionally giving it a default value or marking it as exported."
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:165
+msgid "void **custom_signal_add_argument** **(** :ref:`String<class_String>` name, :ref:`Variant.Type<enum_@GlobalScope_Variant.Type>` type, :ref:`String<class_String>` argname, :ref:`int<class_int>` index=-1 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:167
+msgid "Add an argument to a custom signal added with :ref:`add_custom_signal<class_VisualScript_method_add_custom_signal>`."
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:173
+msgid ":ref:`int<class_int>` **custom_signal_get_argument_count** **(** :ref:`String<class_String>` name **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:175
+msgid "Get the count of a custom signal's arguments."
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:181
+msgid ":ref:`String<class_String>` **custom_signal_get_argument_name** **(** :ref:`String<class_String>` name, :ref:`int<class_int>` argidx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:183
+msgid "Get the name of a custom signal's argument."
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:189
+msgid ":ref:`Variant.Type<enum_@GlobalScope_Variant.Type>` **custom_signal_get_argument_type** **(** :ref:`String<class_String>` name, :ref:`int<class_int>` argidx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:191
+msgid "Get the type of a custom signal's argument."
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:197
+msgid "void **custom_signal_remove_argument** **(** :ref:`String<class_String>` name, :ref:`int<class_int>` argidx **)**"
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:199
+msgid "Remove a specific custom signal's argument."
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:205
+msgid "void **custom_signal_set_argument_name** **(** :ref:`String<class_String>` name, :ref:`int<class_int>` argidx, :ref:`String<class_String>` argname **)**"
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:207
+msgid "Rename a custom signal's argument."
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:213
+msgid "void **custom_signal_set_argument_type** **(** :ref:`String<class_String>` name, :ref:`int<class_int>` argidx, :ref:`Variant.Type<enum_@GlobalScope_Variant.Type>` type **)**"
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:215
+msgid "Change the type of a custom signal's argument."
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:221
+msgid "void **custom_signal_swap_argument** **(** :ref:`String<class_String>` name, :ref:`int<class_int>` argidx, :ref:`int<class_int>` withidx **)**"
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:223
+msgid "Swap two of the arguments of a custom signal."
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:229
+msgid "void **data_connect** **(** :ref:`String<class_String>` func, :ref:`int<class_int>` from_node, :ref:`int<class_int>` from_port, :ref:`int<class_int>` to_node, :ref:`int<class_int>` to_port **)**"
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:231
+msgid "Connect two data ports. The value of ``from_node``'s ``from_port`` would be fed into ``to_node``'s ``to_port``."
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:237
+msgid "void **data_disconnect** **(** :ref:`String<class_String>` func, :ref:`int<class_int>` from_node, :ref:`int<class_int>` from_port, :ref:`int<class_int>` to_node, :ref:`int<class_int>` to_port **)**"
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:239
+msgid "Disconnect two data ports previously connected with :ref:`data_connect<class_VisualScript_method_data_connect>`."
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:245
+msgid ":ref:`int<class_int>` **get_function_node_id** **(** :ref:`String<class_String>` name **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:247
+msgid "Returns the id of a function's entry point node."
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:253
+msgid ":ref:`Vector2<class_Vector2>` **get_function_scroll** **(** :ref:`String<class_String>` name **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:255
+msgid "Returns the position of the center of the screen for a given function."
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:261
+msgid ":ref:`VisualScriptNode<class_VisualScriptNode>` **get_node** **(** :ref:`String<class_String>` func, :ref:`int<class_int>` id **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:263
+msgid "Returns a node given its id and its function."
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:269
+msgid ":ref:`Vector2<class_Vector2>` **get_node_position** **(** :ref:`String<class_String>` func, :ref:`int<class_int>` id **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:271
+msgid "Returns a node's position in pixels."
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:277
+msgid ":ref:`Variant<class_Variant>` **get_variable_default_value** **(** :ref:`String<class_String>` name **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:279
+msgid "Returns the default (initial) value of a variable."
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:285
+msgid ":ref:`bool<class_bool>` **get_variable_export** **(** :ref:`String<class_String>` name **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:287
+msgid "Returns whether a variable is exported."
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:293
+msgid ":ref:`Dictionary<class_Dictionary>` **get_variable_info** **(** :ref:`String<class_String>` name **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:295
+msgid "Returns the information for a given variable as a dictionary. The information includes its name, type, hint and usage."
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:301
+msgid ":ref:`bool<class_bool>` **has_custom_signal** **(** :ref:`String<class_String>` name **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:303
+msgid "Returns whether a signal exists with the specified name."
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:309
+msgid ":ref:`bool<class_bool>` **has_data_connection** **(** :ref:`String<class_String>` func, :ref:`int<class_int>` from_node, :ref:`int<class_int>` from_port, :ref:`int<class_int>` to_node, :ref:`int<class_int>` to_port **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:311
+msgid "Returns whether the specified data ports are connected."
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:317
+msgid ":ref:`bool<class_bool>` **has_function** **(** :ref:`String<class_String>` name **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:319
+msgid "Returns whether a function exists with the specified name."
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:325
+msgid ":ref:`bool<class_bool>` **has_node** **(** :ref:`String<class_String>` func, :ref:`int<class_int>` id **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:327
+msgid "Returns whether a node exists with the given id."
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:333
+msgid ":ref:`bool<class_bool>` **has_sequence_connection** **(** :ref:`String<class_String>` func, :ref:`int<class_int>` from_node, :ref:`int<class_int>` from_output, :ref:`int<class_int>` to_node **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:335
+msgid "Returns whether the specified sequence ports are connected."
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:341
+msgid ":ref:`bool<class_bool>` **has_variable** **(** :ref:`String<class_String>` name **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:343
+msgid "Returns whether a variable exists with the specified name."
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:349
+msgid "void **remove_custom_signal** **(** :ref:`String<class_String>` name **)**"
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:351
+msgid "Remove a custom signal with the given name."
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:357
+msgid "void **remove_function** **(** :ref:`String<class_String>` name **)**"
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:359
+msgid "Remove a specific function and its nodes from the script."
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:365
+msgid "void **remove_node** **(** :ref:`String<class_String>` func, :ref:`int<class_int>` id **)**"
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:367
+msgid "Remove a specific node."
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:373
+msgid "void **remove_variable** **(** :ref:`String<class_String>` name **)**"
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:375
+msgid "Remove a variable with the given name."
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:381
+msgid "void **rename_custom_signal** **(** :ref:`String<class_String>` name, :ref:`String<class_String>` new_name **)**"
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:383
+msgid "Change the name of a custom signal."
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:389
+msgid "void **rename_function** **(** :ref:`String<class_String>` name, :ref:`String<class_String>` new_name **)**"
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:391
+msgid "Change the name of a function."
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:397
+msgid "void **rename_variable** **(** :ref:`String<class_String>` name, :ref:`String<class_String>` new_name **)**"
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:399
+msgid "Change the name of a variable."
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:405
+msgid "void **sequence_connect** **(** :ref:`String<class_String>` func, :ref:`int<class_int>` from_node, :ref:`int<class_int>` from_output, :ref:`int<class_int>` to_node **)**"
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:407
+msgid "Connect two sequence ports. The execution will flow from of ``from_node``'s ``from_output`` into ``to_node``."
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:409
+msgid "Unlike :ref:`data_connect<class_VisualScript_method_data_connect>`, there isn't a ``to_port``, since the target node can have only one sequence port."
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:415
+msgid "void **sequence_disconnect** **(** :ref:`String<class_String>` func, :ref:`int<class_int>` from_node, :ref:`int<class_int>` from_output, :ref:`int<class_int>` to_node **)**"
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:417
+msgid "Disconnect two sequence ports previously connected with :ref:`sequence_connect<class_VisualScript_method_sequence_connect>`."
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:423
+msgid "void **set_function_scroll** **(** :ref:`String<class_String>` name, :ref:`Vector2<class_Vector2>` ofs **)**"
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:425
+msgid "Position the center of the screen for a function."
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:431
+msgid "void **set_instance_base_type** **(** :ref:`String<class_String>` type **)**"
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:433
+msgid "Set the base type of the script."
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:439
+msgid "void **set_node_position** **(** :ref:`String<class_String>` func, :ref:`int<class_int>` id, :ref:`Vector2<class_Vector2>` position **)**"
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:441
+msgid "Position a node on the screen."
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:447
+msgid "void **set_variable_default_value** **(** :ref:`String<class_String>` name, :ref:`Variant<class_Variant>` value **)**"
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:449
+msgid "Change the default (initial) value of a variable."
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:455
+msgid "void **set_variable_export** **(** :ref:`String<class_String>` name, :ref:`bool<class_bool>` enable **)**"
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:457
+msgid "Change whether a variable is exported."
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:463
+msgid "void **set_variable_info** **(** :ref:`String<class_String>` name, :ref:`Dictionary<class_Dictionary>` value **)**"
+msgstr ""
+
+#: ../../docs/classes/class_visualscript.rst:465
+msgid "Set a variable's info, using the same format as :ref:`get_variable_info<class_VisualScript_method_get_variable_info>`."
+msgstr ""

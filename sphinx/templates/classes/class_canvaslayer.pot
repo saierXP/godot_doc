@@ -1,0 +1,368 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_canvaslayer.rst:10
+msgid "CanvasLayer"
+msgstr ""
+
+#: ../../docs/classes/class_canvaslayer.rst:12
+msgid "**Inherits:** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_canvaslayer.rst:14
+msgid "**Inherited By:** :ref:`ParallaxBackground<class_ParallaxBackground>`"
+msgstr ""
+
+#: ../../docs/classes/class_canvaslayer.rst:16
+msgid "Canvas drawing layer."
+msgstr ""
+
+#: ../../docs/classes/class_canvaslayer.rst:19
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_canvaslayer.rst:21
+msgid "Canvas drawing layer. :ref:`CanvasItem<class_CanvasItem>` nodes that are direct or indirect children of a ``CanvasLayer`` will be drawn in that layer. The layer is a numeric index that defines the draw order. The default 2D scene renders with index 0, so a ``CanvasLayer`` with index -1 will be drawn below, and one with index 1 will be drawn above. This is very useful for HUDs (in layer 1+ or above), or backgrounds (in layer -1 or below)."
+msgstr ""
+
+#: ../../docs/classes/class_canvaslayer.rst:24
+msgid "Tutorials"
+msgstr ""
+
+#: ../../docs/classes/class_canvaslayer.rst:26
+msgid ":doc:`../tutorials/2d/2d_transforms`"
+msgstr ""
+
+#: ../../docs/classes/class_canvaslayer.rst:28
+msgid ":doc:`../tutorials/2d/canvas_layers`"
+msgstr ""
+
+#: ../../docs/classes/class_canvaslayer.rst:30
+msgid "`https://godotengine.org/asset-library/asset/515 <https://godotengine.org/asset-library/asset/515>`_"
+msgstr ""
+
+#: ../../docs/classes/class_canvaslayer.rst:33
+msgid "Properties"
+msgstr ""
+
+#: ../../docs/classes/class_canvaslayer.rst:36
+msgid ":ref:`Node<class_Node>`"
+msgstr ""
+
+#: ../../docs/classes/class_canvaslayer.rst:36
+msgid ":ref:`custom_viewport<class_CanvasLayer_property_custom_viewport>`"
+msgstr ""
+
+#: ../../docs/classes/class_canvaslayer.rst:38
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_canvaslayer.rst:38
+msgid ":ref:`follow_viewport_enable<class_CanvasLayer_property_follow_viewport_enable>`"
+msgstr ""
+
+#: ../../docs/classes/class_canvaslayer.rst:38
+#: ../../docs/classes/class_canvaslayer.rst:84
+msgid "``false``"
+msgstr ""
+
+#: ../../docs/classes/class_canvaslayer.rst:40
+#: ../../docs/classes/class_canvaslayer.rst:46
+#: ../../docs/classes/class_canvaslayer.rst:48
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../../docs/classes/class_canvaslayer.rst:40
+msgid ":ref:`follow_viewport_scale<class_CanvasLayer_property_follow_viewport_scale>`"
+msgstr ""
+
+#: ../../docs/classes/class_canvaslayer.rst:40
+#: ../../docs/classes/class_canvaslayer.rst:100
+msgid "``1.0``"
+msgstr ""
+
+#: ../../docs/classes/class_canvaslayer.rst:42
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../../docs/classes/class_canvaslayer.rst:42
+msgid ":ref:`layer<class_CanvasLayer_property_layer>`"
+msgstr ""
+
+#: ../../docs/classes/class_canvaslayer.rst:42
+#: ../../docs/classes/class_canvaslayer.rst:116
+msgid "``1``"
+msgstr ""
+
+#: ../../docs/classes/class_canvaslayer.rst:44
+#: ../../docs/classes/class_canvaslayer.rst:50
+msgid ":ref:`Vector2<class_Vector2>`"
+msgstr ""
+
+#: ../../docs/classes/class_canvaslayer.rst:44
+msgid ":ref:`offset<class_CanvasLayer_property_offset>`"
+msgstr ""
+
+#: ../../docs/classes/class_canvaslayer.rst:44
+#: ../../docs/classes/class_canvaslayer.rst:132
+msgid "``Vector2( 0, 0 )``"
+msgstr ""
+
+#: ../../docs/classes/class_canvaslayer.rst:46
+msgid ":ref:`rotation<class_CanvasLayer_property_rotation>`"
+msgstr ""
+
+#: ../../docs/classes/class_canvaslayer.rst:46
+#: ../../docs/classes/class_canvaslayer.rst:48
+#: ../../docs/classes/class_canvaslayer.rst:148
+#: ../../docs/classes/class_canvaslayer.rst:164
+msgid "``0.0``"
+msgstr ""
+
+#: ../../docs/classes/class_canvaslayer.rst:48
+msgid ":ref:`rotation_degrees<class_CanvasLayer_property_rotation_degrees>`"
+msgstr ""
+
+#: ../../docs/classes/class_canvaslayer.rst:50
+msgid ":ref:`scale<class_CanvasLayer_property_scale>`"
+msgstr ""
+
+#: ../../docs/classes/class_canvaslayer.rst:50
+#: ../../docs/classes/class_canvaslayer.rst:180
+msgid "``Vector2( 1, 1 )``"
+msgstr ""
+
+#: ../../docs/classes/class_canvaslayer.rst:52
+msgid ":ref:`Transform2D<class_Transform2D>`"
+msgstr ""
+
+#: ../../docs/classes/class_canvaslayer.rst:52
+msgid ":ref:`transform<class_CanvasLayer_property_transform>`"
+msgstr ""
+
+#: ../../docs/classes/class_canvaslayer.rst:52
+#: ../../docs/classes/class_canvaslayer.rst:196
+msgid "``Transform2D( 1, 0, 0, 1, 0, 0 )``"
+msgstr ""
+
+#: ../../docs/classes/class_canvaslayer.rst:56
+msgid "Methods"
+msgstr ""
+
+#: ../../docs/classes/class_canvaslayer.rst:59
+msgid ":ref:`RID<class_RID>`"
+msgstr ""
+
+#: ../../docs/classes/class_canvaslayer.rst:59
+msgid ":ref:`get_canvas<class_CanvasLayer_method_get_canvas>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_canvaslayer.rst:63
+msgid "Property Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_canvaslayer.rst:67
+msgid ":ref:`Node<class_Node>` **custom_viewport**"
+msgstr ""
+
+#: ../../docs/classes/class_canvaslayer.rst:70
+#: ../../docs/classes/class_canvaslayer.rst:86
+#: ../../docs/classes/class_canvaslayer.rst:102
+#: ../../docs/classes/class_canvaslayer.rst:118
+#: ../../docs/classes/class_canvaslayer.rst:134
+#: ../../docs/classes/class_canvaslayer.rst:150
+#: ../../docs/classes/class_canvaslayer.rst:166
+#: ../../docs/classes/class_canvaslayer.rst:182
+#: ../../docs/classes/class_canvaslayer.rst:198
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_canvaslayer.rst:70
+msgid "set_custom_viewport(value)"
+msgstr ""
+
+#: ../../docs/classes/class_canvaslayer.rst:72
+#: ../../docs/classes/class_canvaslayer.rst:88
+#: ../../docs/classes/class_canvaslayer.rst:104
+#: ../../docs/classes/class_canvaslayer.rst:120
+#: ../../docs/classes/class_canvaslayer.rst:136
+#: ../../docs/classes/class_canvaslayer.rst:152
+#: ../../docs/classes/class_canvaslayer.rst:168
+#: ../../docs/classes/class_canvaslayer.rst:184
+#: ../../docs/classes/class_canvaslayer.rst:200
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_canvaslayer.rst:72
+msgid "get_custom_viewport()"
+msgstr ""
+
+#: ../../docs/classes/class_canvaslayer.rst:75
+msgid "The custom :ref:`Viewport<class_Viewport>` node assigned to the ``CanvasLayer``. If ``null``, uses the default viewport instead."
+msgstr ""
+
+#: ../../docs/classes/class_canvaslayer.rst:81
+msgid ":ref:`bool<class_bool>` **follow_viewport_enable**"
+msgstr ""
+
+#: ../../docs/classes/class_canvaslayer.rst:84
+#: ../../docs/classes/class_canvaslayer.rst:100
+#: ../../docs/classes/class_canvaslayer.rst:116
+#: ../../docs/classes/class_canvaslayer.rst:132
+#: ../../docs/classes/class_canvaslayer.rst:148
+#: ../../docs/classes/class_canvaslayer.rst:164
+#: ../../docs/classes/class_canvaslayer.rst:180
+#: ../../docs/classes/class_canvaslayer.rst:196
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_canvaslayer.rst:86
+msgid "set_follow_viewport(value)"
+msgstr ""
+
+#: ../../docs/classes/class_canvaslayer.rst:88
+msgid "is_following_viewport()"
+msgstr ""
+
+#: ../../docs/classes/class_canvaslayer.rst:91
+msgid "Sets the layer to follow the viewport in order to simulate a pseudo 3D effect."
+msgstr ""
+
+#: ../../docs/classes/class_canvaslayer.rst:97
+msgid ":ref:`float<class_float>` **follow_viewport_scale**"
+msgstr ""
+
+#: ../../docs/classes/class_canvaslayer.rst:102
+msgid "set_follow_viewport_scale(value)"
+msgstr ""
+
+#: ../../docs/classes/class_canvaslayer.rst:104
+msgid "get_follow_viewport_scale()"
+msgstr ""
+
+#: ../../docs/classes/class_canvaslayer.rst:107
+msgid "Scales the layer when using :ref:`follow_viewport_enable<class_CanvasLayer_property_follow_viewport_enable>`. Layers moving into the foreground should have increasing scales, while layers moving into the background should have decreasing scales."
+msgstr ""
+
+#: ../../docs/classes/class_canvaslayer.rst:113
+msgid ":ref:`int<class_int>` **layer**"
+msgstr ""
+
+#: ../../docs/classes/class_canvaslayer.rst:118
+msgid "set_layer(value)"
+msgstr ""
+
+#: ../../docs/classes/class_canvaslayer.rst:120
+msgid "get_layer()"
+msgstr ""
+
+#: ../../docs/classes/class_canvaslayer.rst:123
+msgid "Layer index for draw order. Lower values are drawn first."
+msgstr ""
+
+#: ../../docs/classes/class_canvaslayer.rst:129
+msgid ":ref:`Vector2<class_Vector2>` **offset**"
+msgstr ""
+
+#: ../../docs/classes/class_canvaslayer.rst:134
+msgid "set_offset(value)"
+msgstr ""
+
+#: ../../docs/classes/class_canvaslayer.rst:136
+msgid "get_offset()"
+msgstr ""
+
+#: ../../docs/classes/class_canvaslayer.rst:139
+msgid "The layer's base offset."
+msgstr ""
+
+#: ../../docs/classes/class_canvaslayer.rst:145
+msgid ":ref:`float<class_float>` **rotation**"
+msgstr ""
+
+#: ../../docs/classes/class_canvaslayer.rst:150
+msgid "set_rotation(value)"
+msgstr ""
+
+#: ../../docs/classes/class_canvaslayer.rst:152
+msgid "get_rotation()"
+msgstr ""
+
+#: ../../docs/classes/class_canvaslayer.rst:155
+msgid "The layer's rotation in radians."
+msgstr ""
+
+#: ../../docs/classes/class_canvaslayer.rst:161
+msgid ":ref:`float<class_float>` **rotation_degrees**"
+msgstr ""
+
+#: ../../docs/classes/class_canvaslayer.rst:166
+msgid "set_rotation_degrees(value)"
+msgstr ""
+
+#: ../../docs/classes/class_canvaslayer.rst:168
+msgid "get_rotation_degrees()"
+msgstr ""
+
+#: ../../docs/classes/class_canvaslayer.rst:171
+msgid "The layer's rotation in degrees."
+msgstr ""
+
+#: ../../docs/classes/class_canvaslayer.rst:177
+msgid ":ref:`Vector2<class_Vector2>` **scale**"
+msgstr ""
+
+#: ../../docs/classes/class_canvaslayer.rst:182
+msgid "set_scale(value)"
+msgstr ""
+
+#: ../../docs/classes/class_canvaslayer.rst:184
+msgid "get_scale()"
+msgstr ""
+
+#: ../../docs/classes/class_canvaslayer.rst:187
+msgid "The layer's scale."
+msgstr ""
+
+#: ../../docs/classes/class_canvaslayer.rst:193
+msgid ":ref:`Transform2D<class_Transform2D>` **transform**"
+msgstr ""
+
+#: ../../docs/classes/class_canvaslayer.rst:198
+msgid "set_transform(value)"
+msgstr ""
+
+#: ../../docs/classes/class_canvaslayer.rst:200
+msgid "get_transform()"
+msgstr ""
+
+#: ../../docs/classes/class_canvaslayer.rst:203
+msgid "The layer's transform."
+msgstr ""
+
+#: ../../docs/classes/class_canvaslayer.rst:206
+msgid "Method Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_canvaslayer.rst:210
+msgid ":ref:`RID<class_RID>` **get_canvas** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_canvaslayer.rst:212
+msgid "Returns the RID of the canvas used by this layer."
+msgstr ""

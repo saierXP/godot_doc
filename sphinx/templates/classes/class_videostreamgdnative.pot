@@ -1,0 +1,78 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_videostreamgdnative.rst:10
+msgid "VideoStreamGDNative"
+msgstr ""
+
+#: ../../docs/classes/class_videostreamgdnative.rst:12
+msgid "**Inherits:** :ref:`VideoStream<class_VideoStream>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_videostreamgdnative.rst:14
+#: ../../docs/classes/class_videostreamgdnative.rst:19
+msgid ":ref:`VideoStream<class_VideoStream>` resource for for video formats implemented via GDNative."
+msgstr ""
+
+#: ../../docs/classes/class_videostreamgdnative.rst:17
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_videostreamgdnative.rst:21
+msgid "It can be used via `godot-videodecoder <https://github.com/KidRigger/godot-videodecoder>`_ which uses the `FFmpeg <https://ffmpeg.org>`_ library."
+msgstr ""
+
+#: ../../docs/classes/class_videostreamgdnative.rst:24
+msgid "Methods"
+msgstr ""
+
+#: ../../docs/classes/class_videostreamgdnative.rst:27
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../../docs/classes/class_videostreamgdnative.rst:27
+msgid ":ref:`get_file<class_VideoStreamGDNative_method_get_file>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_videostreamgdnative.rst:29
+msgid "void"
+msgstr ""
+
+#: ../../docs/classes/class_videostreamgdnative.rst:29
+msgid ":ref:`set_file<class_VideoStreamGDNative_method_set_file>` **(** :ref:`String<class_String>` file **)**"
+msgstr ""
+
+#: ../../docs/classes/class_videostreamgdnative.rst:33
+msgid "Method Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_videostreamgdnative.rst:37
+msgid ":ref:`String<class_String>` **get_file** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_videostreamgdnative.rst:39
+msgid "Returns the video file handled by this ``VideoStreamGDNative``."
+msgstr ""
+
+#: ../../docs/classes/class_videostreamgdnative.rst:45
+msgid "void **set_file** **(** :ref:`String<class_String>` file **)**"
+msgstr ""
+
+#: ../../docs/classes/class_videostreamgdnative.rst:47
+msgid "Sets the video file that this ``VideoStreamGDNative`` resource handles. The supported extensions depend on the GDNative plugins used to expose video formats."
+msgstr ""

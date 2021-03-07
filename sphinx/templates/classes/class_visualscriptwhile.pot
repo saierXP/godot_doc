@@ -1,0 +1,61 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_visualscriptwhile.rst:10
+msgid "VisualScriptWhile"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptwhile.rst:12
+msgid "**Inherits:** :ref:`VisualScriptNode<class_VisualScriptNode>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptwhile.rst:14
+msgid "Conditional loop."
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptwhile.rst:17
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptwhile.rst:19
+msgid "Loops while a condition is ``true``. Execution continues out the ``exit`` Sequence port when the loop terminates."
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptwhile.rst:21
+msgid "**Input Ports:**"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptwhile.rst:23
+msgid "Sequence: ``while(cond)``"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptwhile.rst:25
+msgid "Data (bool): ``cond``"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptwhile.rst:27
+msgid "**Output Ports:**"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptwhile.rst:29
+msgid "Sequence: ``repeat``"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptwhile.rst:31
+msgid "Sequence: ``exit``"
+msgstr ""

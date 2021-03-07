@@ -1,0 +1,133 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_gridcontainer.rst:10
+msgid "GridContainer"
+msgstr ""
+
+#: ../../docs/classes/class_gridcontainer.rst:12
+msgid "**Inherits:** :ref:`Container<class_Container>` **<** :ref:`Control<class_Control>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_gridcontainer.rst:14
+msgid "Grid container used to arrange Control-derived children in a grid like layout."
+msgstr ""
+
+#: ../../docs/classes/class_gridcontainer.rst:17
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_gridcontainer.rst:19
+msgid "GridContainer will arrange its Control-derived children in a grid like structure, the grid columns are specified using the :ref:`columns<class_GridContainer_property_columns>` property and the number of rows will be equal to the number of children in the container divided by the number of columns. For example, if the container has 5 children, and 2 columns, there will be 3 rows in the container."
+msgstr ""
+
+#: ../../docs/classes/class_gridcontainer.rst:21
+msgid "Notice that grid layout will preserve the columns and rows for every size of the container, and that empty columns will be expanded automatically."
+msgstr ""
+
+#: ../../docs/classes/class_gridcontainer.rst:23
+msgid "**Note:** GridContainer only works with child nodes inheriting from Control. It won't rearrange child nodes inheriting from Node2D."
+msgstr ""
+
+#: ../../docs/classes/class_gridcontainer.rst:26
+msgid "Tutorials"
+msgstr ""
+
+#: ../../docs/classes/class_gridcontainer.rst:28
+msgid "`https://godotengine.org/asset-library/asset/677 <https://godotengine.org/asset-library/asset/677>`_"
+msgstr ""
+
+#: ../../docs/classes/class_gridcontainer.rst:31
+msgid "Properties"
+msgstr ""
+
+#: ../../docs/classes/class_gridcontainer.rst:34
+#: ../../docs/classes/class_gridcontainer.rst:43
+#: ../../docs/classes/class_gridcontainer.rst:45
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../../docs/classes/class_gridcontainer.rst:34
+msgid ":ref:`columns<class_GridContainer_property_columns>`"
+msgstr ""
+
+#: ../../docs/classes/class_gridcontainer.rst:34
+#: ../../docs/classes/class_gridcontainer.rst:56
+msgid "``1``"
+msgstr ""
+
+#: ../../docs/classes/class_gridcontainer.rst:36
+msgid ":ref:`MouseFilter<enum_Control_MouseFilter>`"
+msgstr ""
+
+#: ../../docs/classes/class_gridcontainer.rst:36
+msgid "mouse_filter"
+msgstr ""
+
+#: ../../docs/classes/class_gridcontainer.rst:36
+msgid "``1`` *(parent override)*"
+msgstr ""
+
+#: ../../docs/classes/class_gridcontainer.rst:40
+msgid "Theme Properties"
+msgstr ""
+
+#: ../../docs/classes/class_gridcontainer.rst:43
+msgid "hseparation"
+msgstr ""
+
+#: ../../docs/classes/class_gridcontainer.rst:43
+#: ../../docs/classes/class_gridcontainer.rst:45
+msgid "4"
+msgstr ""
+
+#: ../../docs/classes/class_gridcontainer.rst:45
+msgid "vseparation"
+msgstr ""
+
+#: ../../docs/classes/class_gridcontainer.rst:49
+msgid "Property Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_gridcontainer.rst:53
+msgid ":ref:`int<class_int>` **columns**"
+msgstr ""
+
+#: ../../docs/classes/class_gridcontainer.rst:56
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_gridcontainer.rst:58
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_gridcontainer.rst:58
+msgid "set_columns(value)"
+msgstr ""
+
+#: ../../docs/classes/class_gridcontainer.rst:60
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_gridcontainer.rst:60
+msgid "get_columns()"
+msgstr ""
+
+#: ../../docs/classes/class_gridcontainer.rst:63
+msgid "The number of columns in the ``GridContainer``. If modified, ``GridContainer`` reorders its Control-derived children to accommodate the new layout."
+msgstr ""

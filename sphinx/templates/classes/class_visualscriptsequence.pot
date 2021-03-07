@@ -1,0 +1,110 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_visualscriptsequence.rst:10
+msgid "VisualScriptSequence"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptsequence.rst:12
+msgid "**Inherits:** :ref:`VisualScriptNode<class_VisualScriptNode>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptsequence.rst:14
+msgid "Executes a series of Sequence ports."
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptsequence.rst:17
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptsequence.rst:19
+msgid "Steps through a series of one or more output Sequence ports. The ``current`` data port outputs the currently executing item."
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptsequence.rst:21
+msgid "**Input Ports:**"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptsequence.rst:23
+msgid "Sequence: ``in order``"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptsequence.rst:25
+msgid "**Output Ports:**"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptsequence.rst:27
+msgid "Sequence: ``1``"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptsequence.rst:29
+msgid "Sequence: ``2 - n`` (optional)"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptsequence.rst:31
+msgid "Data (int): ``current``"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptsequence.rst:34
+msgid "Properties"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptsequence.rst:37
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptsequence.rst:37
+msgid ":ref:`steps<class_VisualScriptSequence_property_steps>`"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptsequence.rst:37
+#: ../../docs/classes/class_visualscriptsequence.rst:48
+msgid "``1``"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptsequence.rst:41
+msgid "Property Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptsequence.rst:45
+msgid ":ref:`int<class_int>` **steps**"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptsequence.rst:48
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptsequence.rst:50
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptsequence.rst:50
+msgid "set_steps(value)"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptsequence.rst:52
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptsequence.rst:52
+msgid "get_steps()"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptsequence.rst:55
+msgid "The number of steps in the sequence."
+msgstr ""

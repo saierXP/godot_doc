@@ -1,0 +1,288 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_script.rst:10
+msgid "Script"
+msgstr ""
+
+#: ../../docs/classes/class_script.rst:12
+msgid "**Inherits:** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_script.rst:14
+msgid "**Inherited By:** :ref:`CSharpScript<class_CSharpScript>`, :ref:`GDScript<class_GDScript>`, :ref:`NativeScript<class_NativeScript>`, :ref:`PluginScript<class_PluginScript>`, :ref:`VisualScript<class_VisualScript>`"
+msgstr ""
+
+#: ../../docs/classes/class_script.rst:16
+msgid "A class stored as a resource."
+msgstr ""
+
+#: ../../docs/classes/class_script.rst:19
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_script.rst:21
+msgid "A class stored as a resource. A script extends the functionality of all objects that instance it."
+msgstr ""
+
+#: ../../docs/classes/class_script.rst:23
+msgid "The ``new`` method of a script subclass creates a new instance. :ref:`Object.set_script<class_Object_method_set_script>` extends an existing object, if that object's class matches one of the script's base classes."
+msgstr ""
+
+#: ../../docs/classes/class_script.rst:26
+msgid "Tutorials"
+msgstr ""
+
+#: ../../docs/classes/class_script.rst:28
+msgid ":doc:`../getting_started/step_by_step/scripting`"
+msgstr ""
+
+#: ../../docs/classes/class_script.rst:31
+msgid "Properties"
+msgstr ""
+
+#: ../../docs/classes/class_script.rst:34
+#: ../../docs/classes/class_script.rst:45
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../../docs/classes/class_script.rst:34
+msgid ":ref:`source_code<class_Script_property_source_code>`"
+msgstr ""
+
+#: ../../docs/classes/class_script.rst:38
+msgid "Methods"
+msgstr ""
+
+#: ../../docs/classes/class_script.rst:41
+#: ../../docs/classes/class_script.rst:57
+#: ../../docs/classes/class_script.rst:59
+#: ../../docs/classes/class_script.rst:61
+#: ../../docs/classes/class_script.rst:63
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_script.rst:41
+msgid ":ref:`can_instance<class_Script_method_can_instance>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_script.rst:43
+msgid ":ref:`Script<class_Script>`"
+msgstr ""
+
+#: ../../docs/classes/class_script.rst:43
+msgid ":ref:`get_base_script<class_Script_method_get_base_script>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_script.rst:45
+msgid ":ref:`get_instance_base_type<class_Script_method_get_instance_base_type>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_script.rst:47
+msgid ":ref:`Variant<class_Variant>`"
+msgstr ""
+
+#: ../../docs/classes/class_script.rst:47
+msgid ":ref:`get_property_default_value<class_Script_method_get_property_default_value>` **(** :ref:`String<class_String>` property **)**"
+msgstr ""
+
+#: ../../docs/classes/class_script.rst:49
+msgid ":ref:`Dictionary<class_Dictionary>`"
+msgstr ""
+
+#: ../../docs/classes/class_script.rst:49
+msgid ":ref:`get_script_constant_map<class_Script_method_get_script_constant_map>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_script.rst:51
+#: ../../docs/classes/class_script.rst:53
+#: ../../docs/classes/class_script.rst:55
+msgid ":ref:`Array<class_Array>`"
+msgstr ""
+
+#: ../../docs/classes/class_script.rst:51
+msgid ":ref:`get_script_method_list<class_Script_method_get_script_method_list>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_script.rst:53
+msgid ":ref:`get_script_property_list<class_Script_method_get_script_property_list>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_script.rst:55
+msgid ":ref:`get_script_signal_list<class_Script_method_get_script_signal_list>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_script.rst:57
+msgid ":ref:`has_script_signal<class_Script_method_has_script_signal>` **(** :ref:`String<class_String>` signal_name **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_script.rst:59
+msgid ":ref:`has_source_code<class_Script_method_has_source_code>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_script.rst:61
+msgid ":ref:`instance_has<class_Script_method_instance_has>` **(** :ref:`Object<class_Object>` base_object **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_script.rst:63
+msgid ":ref:`is_tool<class_Script_method_is_tool>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_script.rst:65
+msgid ":ref:`Error<enum_@GlobalScope_Error>`"
+msgstr ""
+
+#: ../../docs/classes/class_script.rst:65
+msgid ":ref:`reload<class_Script_method_reload>` **(** :ref:`bool<class_bool>` keep_state=false **)**"
+msgstr ""
+
+#: ../../docs/classes/class_script.rst:69
+msgid "Property Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_script.rst:73
+msgid ":ref:`String<class_String>` **source_code**"
+msgstr ""
+
+#: ../../docs/classes/class_script.rst:76
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_script.rst:76
+msgid "set_source_code(value)"
+msgstr ""
+
+#: ../../docs/classes/class_script.rst:78
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_script.rst:78
+msgid "get_source_code()"
+msgstr ""
+
+#: ../../docs/classes/class_script.rst:81
+msgid "The script source code or an empty string if source code is not available. When set, does not reload the class implementation automatically."
+msgstr ""
+
+#: ../../docs/classes/class_script.rst:84
+msgid "Method Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_script.rst:88
+msgid ":ref:`bool<class_bool>` **can_instance** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_script.rst:90
+msgid "Returns ``true`` if the script can be instanced."
+msgstr ""
+
+#: ../../docs/classes/class_script.rst:96
+msgid ":ref:`Script<class_Script>` **get_base_script** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_script.rst:98
+msgid "Returns the script directly inherited by this script."
+msgstr ""
+
+#: ../../docs/classes/class_script.rst:104
+msgid ":ref:`String<class_String>` **get_instance_base_type** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_script.rst:106
+msgid "Returns the script's base type."
+msgstr ""
+
+#: ../../docs/classes/class_script.rst:112
+msgid ":ref:`Variant<class_Variant>` **get_property_default_value** **(** :ref:`String<class_String>` property **)**"
+msgstr ""
+
+#: ../../docs/classes/class_script.rst:114
+msgid "Returns the default value of the specified property."
+msgstr ""
+
+#: ../../docs/classes/class_script.rst:120
+msgid ":ref:`Dictionary<class_Dictionary>` **get_script_constant_map** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_script.rst:122
+msgid "Returns a dictionary containing constant names and their values."
+msgstr ""
+
+#: ../../docs/classes/class_script.rst:128
+msgid ":ref:`Array<class_Array>` **get_script_method_list** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_script.rst:130
+msgid "Returns the list of methods in this ``Script``."
+msgstr ""
+
+#: ../../docs/classes/class_script.rst:136
+msgid ":ref:`Array<class_Array>` **get_script_property_list** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_script.rst:138
+msgid "Returns the list of properties in this ``Script``."
+msgstr ""
+
+#: ../../docs/classes/class_script.rst:144
+msgid ":ref:`Array<class_Array>` **get_script_signal_list** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_script.rst:146
+msgid "Returns the list of user signals defined in this ``Script``."
+msgstr ""
+
+#: ../../docs/classes/class_script.rst:152
+msgid ":ref:`bool<class_bool>` **has_script_signal** **(** :ref:`String<class_String>` signal_name **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_script.rst:154
+msgid "Returns ``true`` if the script, or a base class, defines a signal with the given name."
+msgstr ""
+
+#: ../../docs/classes/class_script.rst:160
+msgid ":ref:`bool<class_bool>` **has_source_code** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_script.rst:162
+msgid "Returns ``true`` if the script contains non-empty source code."
+msgstr ""
+
+#: ../../docs/classes/class_script.rst:168
+msgid ":ref:`bool<class_bool>` **instance_has** **(** :ref:`Object<class_Object>` base_object **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_script.rst:170
+msgid "Returns ``true`` if ``base_object`` is an instance of this script."
+msgstr ""
+
+#: ../../docs/classes/class_script.rst:176
+msgid ":ref:`bool<class_bool>` **is_tool** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_script.rst:178
+msgid "Returns ``true`` if the script is a tool script. A tool script can run in the editor."
+msgstr ""
+
+#: ../../docs/classes/class_script.rst:184
+msgid ":ref:`Error<enum_@GlobalScope_Error>` **reload** **(** :ref:`bool<class_bool>` keep_state=false **)**"
+msgstr ""
+
+#: ../../docs/classes/class_script.rst:186
+msgid "Reloads the script's class implementation. Returns an error code."
+msgstr ""

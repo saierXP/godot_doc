@@ -1,0 +1,65 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_visualscriptiterator.rst:10
+msgid "VisualScriptIterator"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptiterator.rst:12
+msgid "**Inherits:** :ref:`VisualScriptNode<class_VisualScriptNode>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptiterator.rst:14
+msgid "Steps through items in a given input."
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptiterator.rst:17
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptiterator.rst:19
+msgid "This node steps through each item in a given input. Input can be any sequence data type, such as an :ref:`Array<class_Array>` or :ref:`String<class_String>`. When each item has been processed, execution passed out the ``exit`` Sequence port."
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptiterator.rst:21
+msgid "**Input Ports:**"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptiterator.rst:23
+msgid "Sequence: ``for (elem) in (input)``"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptiterator.rst:25
+msgid "Data (variant): ``input``"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptiterator.rst:27
+msgid "**Output Ports:**"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptiterator.rst:29
+msgid "Sequence: ``each``"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptiterator.rst:31
+msgid "Sequence: ``exit``"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptiterator.rst:33
+msgid "Data (variant): ``elem``"
+msgstr ""

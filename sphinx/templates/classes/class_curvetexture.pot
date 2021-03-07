@@ -1,0 +1,112 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_curvetexture.rst:10
+msgid "CurveTexture"
+msgstr ""
+
+#: ../../docs/classes/class_curvetexture.rst:12
+msgid "**Inherits:** :ref:`Texture<class_Texture>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_curvetexture.rst:14
+msgid "A texture that shows a curve."
+msgstr ""
+
+#: ../../docs/classes/class_curvetexture.rst:17
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_curvetexture.rst:19
+msgid "Renders a given :ref:`Curve<class_Curve>` provided to it. Simplifies the task of drawing curves and/or saving them as image files."
+msgstr ""
+
+#: ../../docs/classes/class_curvetexture.rst:22
+msgid "Properties"
+msgstr ""
+
+#: ../../docs/classes/class_curvetexture.rst:25
+msgid ":ref:`Curve<class_Curve>`"
+msgstr ""
+
+#: ../../docs/classes/class_curvetexture.rst:25
+msgid ":ref:`curve<class_CurveTexture_property_curve>`"
+msgstr ""
+
+#: ../../docs/classes/class_curvetexture.rst:27
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../../docs/classes/class_curvetexture.rst:27
+msgid ":ref:`width<class_CurveTexture_property_width>`"
+msgstr ""
+
+#: ../../docs/classes/class_curvetexture.rst:27
+#: ../../docs/classes/class_curvetexture.rst:52
+msgid "``2048``"
+msgstr ""
+
+#: ../../docs/classes/class_curvetexture.rst:31
+msgid "Property Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_curvetexture.rst:35
+msgid ":ref:`Curve<class_Curve>` **curve**"
+msgstr ""
+
+#: ../../docs/classes/class_curvetexture.rst:38
+#: ../../docs/classes/class_curvetexture.rst:54
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_curvetexture.rst:38
+msgid "set_curve(value)"
+msgstr ""
+
+#: ../../docs/classes/class_curvetexture.rst:40
+#: ../../docs/classes/class_curvetexture.rst:56
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_curvetexture.rst:40
+msgid "get_curve()"
+msgstr ""
+
+#: ../../docs/classes/class_curvetexture.rst:43
+msgid "The ``curve`` rendered onto the texture."
+msgstr ""
+
+#: ../../docs/classes/class_curvetexture.rst:49
+msgid ":ref:`int<class_int>` **width**"
+msgstr ""
+
+#: ../../docs/classes/class_curvetexture.rst:52
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_curvetexture.rst:54
+msgid "set_width(value)"
+msgstr ""
+
+#: ../../docs/classes/class_curvetexture.rst:56
+msgid "get_width()"
+msgstr ""
+
+#: ../../docs/classes/class_curvetexture.rst:59
+msgid "The width of the texture."
+msgstr ""

@@ -1,0 +1,653 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_polygon2d.rst:10
+msgid "Polygon2D"
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:12
+msgid "**Inherits:** :ref:`Node2D<class_Node2D>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:14
+msgid "A 2D polygon."
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:17
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:19
+msgid "A Polygon2D is defined by a set of points. Each point is connected to the next, with the final point being connected to the first, resulting in a closed polygon. Polygon2Ds can be filled with color (solid or gradient) or filled with a given texture."
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:21
+msgid "**Note:** By default, Godot can only draw up to 4,096 polygon points at a time. To increase this limit, open the Project Settings and increase :ref:`ProjectSettings.rendering/limits/buffers/canvas_polygon_buffer_size_kb<class_ProjectSettings_property_rendering/limits/buffers/canvas_polygon_buffer_size_kb>` and :ref:`ProjectSettings.rendering/limits/buffers/canvas_polygon_index_buffer_size_kb<class_ProjectSettings_property_rendering/limits/buffers/canvas_polygon_index_buffer_size_kb>`."
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:24
+msgid "Properties"
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:27
+#: ../../docs/classes/class_polygon2d.rst:37
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:27
+msgid ":ref:`antialiased<class_Polygon2D_property_antialiased>`"
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:27
+#: ../../docs/classes/class_polygon2d.rst:37
+#: ../../docs/classes/class_polygon2d.rst:91
+#: ../../docs/classes/class_polygon2d.rst:163
+msgid "``false``"
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:29
+#: ../../docs/classes/class_polygon2d.rst:43
+msgid ":ref:`Array<class_Array>`"
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:29
+msgid ":ref:`bones<class_Polygon2D_property_bones>`"
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:29
+#: ../../docs/classes/class_polygon2d.rst:43
+#: ../../docs/classes/class_polygon2d.rst:107
+#: ../../docs/classes/class_polygon2d.rst:213
+msgid "``[  ]``"
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:31
+msgid ":ref:`Color<class_Color>`"
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:31
+msgid ":ref:`color<class_Polygon2D_property_color>`"
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:31
+#: ../../docs/classes/class_polygon2d.rst:117
+msgid "``Color( 1, 1, 1, 1 )``"
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:33
+#: ../../docs/classes/class_polygon2d.rst:72
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:33
+msgid ":ref:`internal_vertex_count<class_Polygon2D_property_internal_vertex_count>`"
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:33
+#: ../../docs/classes/class_polygon2d.rst:133
+msgid "``0``"
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:35
+#: ../../docs/classes/class_polygon2d.rst:51
+#: ../../docs/classes/class_polygon2d.rst:53
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:35
+msgid ":ref:`invert_border<class_Polygon2D_property_invert_border>`"
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:35
+#: ../../docs/classes/class_polygon2d.rst:147
+msgid "``100.0``"
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:37
+msgid ":ref:`invert_enable<class_Polygon2D_property_invert_enable>`"
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:39
+#: ../../docs/classes/class_polygon2d.rst:49
+#: ../../docs/classes/class_polygon2d.rst:55
+msgid ":ref:`Vector2<class_Vector2>`"
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:39
+msgid ":ref:`offset<class_Polygon2D_property_offset>`"
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:39
+#: ../../docs/classes/class_polygon2d.rst:49
+#: ../../docs/classes/class_polygon2d.rst:179
+#: ../../docs/classes/class_polygon2d.rst:255
+msgid "``Vector2( 0, 0 )``"
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:41
+#: ../../docs/classes/class_polygon2d.rst:57
+msgid ":ref:`PoolVector2Array<class_PoolVector2Array>`"
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:41
+msgid ":ref:`polygon<class_Polygon2D_property_polygon>`"
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:41
+#: ../../docs/classes/class_polygon2d.rst:57
+#: ../../docs/classes/class_polygon2d.rst:195
+#: ../../docs/classes/class_polygon2d.rst:317
+msgid "``PoolVector2Array(  )``"
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:43
+msgid ":ref:`polygons<class_Polygon2D_property_polygons>`"
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:45
+#: ../../docs/classes/class_polygon2d.rst:74
+msgid ":ref:`NodePath<class_NodePath>`"
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:45
+msgid ":ref:`skeleton<class_Polygon2D_property_skeleton>`"
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:45
+#: ../../docs/classes/class_polygon2d.rst:227
+msgid "``NodePath(\"\")``"
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:47
+msgid ":ref:`Texture<class_Texture>`"
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:47
+msgid ":ref:`texture<class_Polygon2D_property_texture>`"
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:49
+msgid ":ref:`texture_offset<class_Polygon2D_property_texture_offset>`"
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:51
+msgid ":ref:`texture_rotation<class_Polygon2D_property_texture_rotation>`"
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:53
+msgid ":ref:`texture_rotation_degrees<class_Polygon2D_property_texture_rotation_degrees>`"
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:53
+#: ../../docs/classes/class_polygon2d.rst:285
+msgid "``0.0``"
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:55
+msgid ":ref:`texture_scale<class_Polygon2D_property_texture_scale>`"
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:55
+#: ../../docs/classes/class_polygon2d.rst:301
+msgid "``Vector2( 1, 1 )``"
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:57
+msgid ":ref:`uv<class_Polygon2D_property_uv>`"
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:59
+msgid ":ref:`PoolColorArray<class_PoolColorArray>`"
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:59
+msgid ":ref:`vertex_colors<class_Polygon2D_property_vertex_colors>`"
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:59
+#: ../../docs/classes/class_polygon2d.rst:333
+msgid "``PoolColorArray(  )``"
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:63
+msgid "Methods"
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:66
+#: ../../docs/classes/class_polygon2d.rst:68
+#: ../../docs/classes/class_polygon2d.rst:70
+#: ../../docs/classes/class_polygon2d.rst:78
+#: ../../docs/classes/class_polygon2d.rst:80
+msgid "void"
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:66
+msgid ":ref:`add_bone<class_Polygon2D_method_add_bone>` **(** :ref:`NodePath<class_NodePath>` path, :ref:`PoolRealArray<class_PoolRealArray>` weights **)**"
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:68
+msgid ":ref:`clear_bones<class_Polygon2D_method_clear_bones>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:70
+msgid ":ref:`erase_bone<class_Polygon2D_method_erase_bone>` **(** :ref:`int<class_int>` index **)**"
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:72
+msgid ":ref:`get_bone_count<class_Polygon2D_method_get_bone_count>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:74
+msgid ":ref:`get_bone_path<class_Polygon2D_method_get_bone_path>` **(** :ref:`int<class_int>` index **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:76
+msgid ":ref:`PoolRealArray<class_PoolRealArray>`"
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:76
+msgid ":ref:`get_bone_weights<class_Polygon2D_method_get_bone_weights>` **(** :ref:`int<class_int>` index **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:78
+msgid ":ref:`set_bone_path<class_Polygon2D_method_set_bone_path>` **(** :ref:`int<class_int>` index, :ref:`NodePath<class_NodePath>` path **)**"
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:80
+msgid ":ref:`set_bone_weights<class_Polygon2D_method_set_bone_weights>` **(** :ref:`int<class_int>` index, :ref:`PoolRealArray<class_PoolRealArray>` weights **)**"
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:84
+msgid "Property Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:88
+msgid ":ref:`bool<class_bool>` **antialiased**"
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:91
+#: ../../docs/classes/class_polygon2d.rst:107
+#: ../../docs/classes/class_polygon2d.rst:117
+#: ../../docs/classes/class_polygon2d.rst:133
+#: ../../docs/classes/class_polygon2d.rst:147
+#: ../../docs/classes/class_polygon2d.rst:163
+#: ../../docs/classes/class_polygon2d.rst:179
+#: ../../docs/classes/class_polygon2d.rst:195
+#: ../../docs/classes/class_polygon2d.rst:213
+#: ../../docs/classes/class_polygon2d.rst:227
+#: ../../docs/classes/class_polygon2d.rst:255
+#: ../../docs/classes/class_polygon2d.rst:285
+#: ../../docs/classes/class_polygon2d.rst:301
+#: ../../docs/classes/class_polygon2d.rst:317
+#: ../../docs/classes/class_polygon2d.rst:333
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:93
+#: ../../docs/classes/class_polygon2d.rst:119
+#: ../../docs/classes/class_polygon2d.rst:135
+#: ../../docs/classes/class_polygon2d.rst:149
+#: ../../docs/classes/class_polygon2d.rst:165
+#: ../../docs/classes/class_polygon2d.rst:181
+#: ../../docs/classes/class_polygon2d.rst:197
+#: ../../docs/classes/class_polygon2d.rst:215
+#: ../../docs/classes/class_polygon2d.rst:229
+#: ../../docs/classes/class_polygon2d.rst:241
+#: ../../docs/classes/class_polygon2d.rst:257
+#: ../../docs/classes/class_polygon2d.rst:271
+#: ../../docs/classes/class_polygon2d.rst:287
+#: ../../docs/classes/class_polygon2d.rst:303
+#: ../../docs/classes/class_polygon2d.rst:319
+#: ../../docs/classes/class_polygon2d.rst:335
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:93
+msgid "set_antialiased(value)"
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:95
+#: ../../docs/classes/class_polygon2d.rst:121
+#: ../../docs/classes/class_polygon2d.rst:137
+#: ../../docs/classes/class_polygon2d.rst:151
+#: ../../docs/classes/class_polygon2d.rst:167
+#: ../../docs/classes/class_polygon2d.rst:183
+#: ../../docs/classes/class_polygon2d.rst:199
+#: ../../docs/classes/class_polygon2d.rst:217
+#: ../../docs/classes/class_polygon2d.rst:231
+#: ../../docs/classes/class_polygon2d.rst:243
+#: ../../docs/classes/class_polygon2d.rst:259
+#: ../../docs/classes/class_polygon2d.rst:273
+#: ../../docs/classes/class_polygon2d.rst:289
+#: ../../docs/classes/class_polygon2d.rst:305
+#: ../../docs/classes/class_polygon2d.rst:321
+#: ../../docs/classes/class_polygon2d.rst:337
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:95
+msgid "get_antialiased()"
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:98
+msgid "If ``true``, polygon edges will be anti-aliased."
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:104
+msgid ":ref:`Array<class_Array>` **bones**"
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:114
+msgid ":ref:`Color<class_Color>` **color**"
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:119
+msgid "set_color(value)"
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:121
+msgid "get_color()"
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:124
+msgid "The polygon's fill color. If ``texture`` is defined, it will be multiplied by this color. It will also be the default color for vertices not set in ``vertex_colors``."
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:130
+msgid ":ref:`int<class_int>` **internal_vertex_count**"
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:135
+msgid "set_internal_vertex_count(value)"
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:137
+msgid "get_internal_vertex_count()"
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:144
+msgid ":ref:`float<class_float>` **invert_border**"
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:149
+msgid "set_invert_border(value)"
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:151
+msgid "get_invert_border()"
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:154
+msgid "Added padding applied to the bounding box when using ``invert``. Setting this value too small may result in a \"Bad Polygon\" error."
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:160
+msgid ":ref:`bool<class_bool>` **invert_enable**"
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:165
+msgid "set_invert(value)"
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:167
+msgid "get_invert()"
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:170
+msgid "If ``true``, polygon will be inverted, containing the area outside the defined points and extending to the ``invert_border``."
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:176
+msgid ":ref:`Vector2<class_Vector2>` **offset**"
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:181
+msgid "set_offset(value)"
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:183
+msgid "get_offset()"
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:186
+msgid "The offset applied to each vertex."
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:192
+msgid ":ref:`PoolVector2Array<class_PoolVector2Array>` **polygon**"
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:197
+msgid "set_polygon(value)"
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:199
+msgid "get_polygon()"
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:202
+msgid "The polygon's list of vertices. The final point will be connected to the first."
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:204
+msgid "**Note:** This returns a copy of the :ref:`PoolVector2Array<class_PoolVector2Array>` rather than a reference."
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:210
+msgid ":ref:`Array<class_Array>` **polygons**"
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:215
+msgid "set_polygons(value)"
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:217
+msgid "get_polygons()"
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:224
+msgid ":ref:`NodePath<class_NodePath>` **skeleton**"
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:229
+msgid "set_skeleton(value)"
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:231
+msgid "get_skeleton()"
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:238
+msgid ":ref:`Texture<class_Texture>` **texture**"
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:241
+msgid "set_texture(value)"
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:243
+msgid "get_texture()"
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:246
+msgid "The polygon's fill texture. Use ``uv`` to set texture coordinates."
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:252
+msgid ":ref:`Vector2<class_Vector2>` **texture_offset**"
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:257
+msgid "set_texture_offset(value)"
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:259
+msgid "get_texture_offset()"
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:262
+msgid "Amount to offset the polygon's ``texture``. If ``(0, 0)`` the texture's origin (its top-left corner) will be placed at the polygon's ``position``."
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:268
+msgid ":ref:`float<class_float>` **texture_rotation**"
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:271
+msgid "set_texture_rotation(value)"
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:273
+msgid "get_texture_rotation()"
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:276
+msgid "The texture's rotation in radians."
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:282
+msgid ":ref:`float<class_float>` **texture_rotation_degrees**"
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:287
+msgid "set_texture_rotation_degrees(value)"
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:289
+msgid "get_texture_rotation_degrees()"
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:292
+msgid "The texture's rotation in degrees."
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:298
+msgid ":ref:`Vector2<class_Vector2>` **texture_scale**"
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:303
+msgid "set_texture_scale(value)"
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:305
+msgid "get_texture_scale()"
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:308
+msgid "Amount to multiply the ``uv`` coordinates when using a ``texture``. Larger values make the texture smaller, and vice versa."
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:314
+msgid ":ref:`PoolVector2Array<class_PoolVector2Array>` **uv**"
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:319
+msgid "set_uv(value)"
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:321
+msgid "get_uv()"
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:324
+msgid "Texture coordinates for each vertex of the polygon. There should be one ``uv`` per polygon vertex. If there are fewer, undefined vertices will use ``(0, 0)``."
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:330
+msgid ":ref:`PoolColorArray<class_PoolColorArray>` **vertex_colors**"
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:335
+msgid "set_vertex_colors(value)"
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:337
+msgid "get_vertex_colors()"
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:340
+msgid "Color for each vertex. Colors are interpolated between vertices, resulting in smooth gradients. There should be one per polygon vertex. If there are fewer, undefined vertices will use ``color``."
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:343
+msgid "Method Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:347
+msgid "void **add_bone** **(** :ref:`NodePath<class_NodePath>` path, :ref:`PoolRealArray<class_PoolRealArray>` weights **)**"
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:349
+msgid "Adds a bone with the specified ``path`` and ``weights``."
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:355
+msgid "void **clear_bones** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:357
+msgid "Removes all bones from this ``Polygon2D``."
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:363
+msgid "void **erase_bone** **(** :ref:`int<class_int>` index **)**"
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:365
+msgid "Removes the specified bone from this ``Polygon2D``."
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:371
+msgid ":ref:`int<class_int>` **get_bone_count** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:373
+msgid "Returns the number of bones in this ``Polygon2D``."
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:379
+msgid ":ref:`NodePath<class_NodePath>` **get_bone_path** **(** :ref:`int<class_int>` index **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:381
+msgid "Returns the path to the node associated with the specified bone."
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:387
+msgid ":ref:`PoolRealArray<class_PoolRealArray>` **get_bone_weights** **(** :ref:`int<class_int>` index **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:389
+msgid "Returns the height values of the specified bone."
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:395
+msgid "void **set_bone_path** **(** :ref:`int<class_int>` index, :ref:`NodePath<class_NodePath>` path **)**"
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:397
+msgid "Sets the path to the node associated with the specified bone."
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:403
+msgid "void **set_bone_weights** **(** :ref:`int<class_int>` index, :ref:`PoolRealArray<class_PoolRealArray>` weights **)**"
+msgstr ""
+
+#: ../../docs/classes/class_polygon2d.rst:405
+msgid "Sets the weight values for the specified bone."
+msgstr ""

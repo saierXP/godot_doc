@@ -1,0 +1,118 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_hashingcontext.rst:10
+msgid "HashingContext"
+msgstr ""
+
+#: ../../docs/classes/class_hashingcontext.rst:12
+msgid "**Inherits:** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_hashingcontext.rst:14
+msgid "Context to compute cryptographic hashes over multiple iterations."
+msgstr ""
+
+#: ../../docs/classes/class_hashingcontext.rst:17
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_hashingcontext.rst:19
+msgid "The HashingContext class provides an interface for computing cryptographic hashes over multiple iterations. This is useful for example when computing hashes of big files (so you don't have to load them all in memory), network streams, and data streams in general (so you don't have to hold buffers)."
+msgstr ""
+
+#: ../../docs/classes/class_hashingcontext.rst:21
+msgid "The :ref:`HashType<enum_HashingContext_HashType>` enum shows the supported hashing algorithms."
+msgstr ""
+
+#: ../../docs/classes/class_hashingcontext.rst:45
+msgid "**Note:** Not available in HTML5 exports."
+msgstr ""
+
+#: ../../docs/classes/class_hashingcontext.rst:48
+msgid "Methods"
+msgstr ""
+
+#: ../../docs/classes/class_hashingcontext.rst:51
+msgid ":ref:`PoolByteArray<class_PoolByteArray>`"
+msgstr ""
+
+#: ../../docs/classes/class_hashingcontext.rst:51
+msgid ":ref:`finish<class_HashingContext_method_finish>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_hashingcontext.rst:53
+#: ../../docs/classes/class_hashingcontext.rst:55
+msgid ":ref:`Error<enum_@GlobalScope_Error>`"
+msgstr ""
+
+#: ../../docs/classes/class_hashingcontext.rst:53
+msgid ":ref:`start<class_HashingContext_method_start>` **(** :ref:`HashType<enum_HashingContext_HashType>` type **)**"
+msgstr ""
+
+#: ../../docs/classes/class_hashingcontext.rst:55
+msgid ":ref:`update<class_HashingContext_method_update>` **(** :ref:`PoolByteArray<class_PoolByteArray>` chunk **)**"
+msgstr ""
+
+#: ../../docs/classes/class_hashingcontext.rst:59
+msgid "Enumerations"
+msgstr ""
+
+#: ../../docs/classes/class_hashingcontext.rst:69
+msgid "enum **HashType**:"
+msgstr ""
+
+#: ../../docs/classes/class_hashingcontext.rst:71
+msgid "**HASH_MD5** = **0** --- Hashing algorithm: MD5."
+msgstr ""
+
+#: ../../docs/classes/class_hashingcontext.rst:73
+msgid "**HASH_SHA1** = **1** --- Hashing algorithm: SHA-1."
+msgstr ""
+
+#: ../../docs/classes/class_hashingcontext.rst:75
+msgid "**HASH_SHA256** = **2** --- Hashing algorithm: SHA-256."
+msgstr ""
+
+#: ../../docs/classes/class_hashingcontext.rst:78
+msgid "Method Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_hashingcontext.rst:82
+msgid ":ref:`PoolByteArray<class_PoolByteArray>` **finish** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_hashingcontext.rst:84
+msgid "Closes the current context, and return the computed hash."
+msgstr ""
+
+#: ../../docs/classes/class_hashingcontext.rst:90
+msgid ":ref:`Error<enum_@GlobalScope_Error>` **start** **(** :ref:`HashType<enum_HashingContext_HashType>` type **)**"
+msgstr ""
+
+#: ../../docs/classes/class_hashingcontext.rst:92
+msgid "Starts a new hash computation of the given ``type`` (e.g. :ref:`HASH_SHA256<class_HashingContext_constant_HASH_SHA256>` to start computation of a SHA-256)."
+msgstr ""
+
+#: ../../docs/classes/class_hashingcontext.rst:98
+msgid ":ref:`Error<enum_@GlobalScope_Error>` **update** **(** :ref:`PoolByteArray<class_PoolByteArray>` chunk **)**"
+msgstr ""
+
+#: ../../docs/classes/class_hashingcontext.rst:100
+msgid "Updates the computation with the given ``chunk`` of data."
+msgstr ""

@@ -1,0 +1,640 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_tabcontainer.rst:10
+msgid "TabContainer"
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:12
+msgid "**Inherits:** :ref:`Container<class_Container>` **<** :ref:`Control<class_Control>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:14
+msgid "Tabbed container."
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:17
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:19
+msgid "Sets the active tab's ``visible`` property to the value ``true``. Sets all other children's to ``false``."
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:21
+msgid "Ignores non-:ref:`Control<class_Control>` children."
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:23
+msgid "Individual tabs are always visible unless you use :ref:`set_tab_disabled<class_TabContainer_method_set_tab_disabled>` and :ref:`set_tab_title<class_TabContainer_method_set_tab_title>` to hide it."
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:25
+msgid "To hide only a tab's content, nest the content inside a child :ref:`Control<class_Control>`, so it receives the ``TabContainer``'s visibility setting instead."
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:28
+msgid "Properties"
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:31
+#: ../../docs/classes/class_tabcontainer.rst:35
+#: ../../docs/classes/class_tabcontainer.rst:39
+#: ../../docs/classes/class_tabcontainer.rst:41
+#: ../../docs/classes/class_tabcontainer.rst:58
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:31
+msgid ":ref:`all_tabs_in_front<class_TabContainer_property_all_tabs_in_front>`"
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:31
+#: ../../docs/classes/class_tabcontainer.rst:35
+#: ../../docs/classes/class_tabcontainer.rst:41
+#: ../../docs/classes/class_tabcontainer.rst:172
+#: ../../docs/classes/class_tabcontainer.rst:204
+#: ../../docs/classes/class_tabcontainer.rst:252
+msgid "``false``"
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:33
+#: ../../docs/classes/class_tabcontainer.rst:52
+#: ../../docs/classes/class_tabcontainer.rst:56
+#: ../../docs/classes/class_tabcontainer.rst:64
+#: ../../docs/classes/class_tabcontainer.rst:93
+#: ../../docs/classes/class_tabcontainer.rst:99
+#: ../../docs/classes/class_tabcontainer.rst:101
+#: ../../docs/classes/class_tabcontainer.rst:109
+#: ../../docs/classes/class_tabcontainer.rst:117
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:33
+msgid ":ref:`current_tab<class_TabContainer_property_current_tab>`"
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:33
+#: ../../docs/classes/class_tabcontainer.rst:188
+msgid "``0``"
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:35
+msgid ":ref:`drag_to_rearrange_enabled<class_TabContainer_property_drag_to_rearrange_enabled>`"
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:37
+msgid ":ref:`TabAlign<enum_TabContainer_TabAlign>`"
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:37
+msgid ":ref:`tab_align<class_TabContainer_property_tab_align>`"
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:37
+#: ../../docs/classes/class_tabcontainer.rst:220
+msgid "``1``"
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:39
+msgid ":ref:`tabs_visible<class_TabContainer_property_tabs_visible>`"
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:39
+#: ../../docs/classes/class_tabcontainer.rst:236
+msgid "``true``"
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:41
+msgid ":ref:`use_hidden_tabs_for_min_size<class_TabContainer_property_use_hidden_tabs_for_min_size>`"
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:45
+msgid "Methods"
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:48
+#: ../../docs/classes/class_tabcontainer.rst:54
+msgid ":ref:`Control<class_Control>`"
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:48
+msgid ":ref:`get_current_tab_control<class_TabContainer_method_get_current_tab_control>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:50
+msgid ":ref:`Popup<class_Popup>`"
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:50
+msgid ":ref:`get_popup<class_TabContainer_method_get_popup>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:52
+msgid ":ref:`get_previous_tab<class_TabContainer_method_get_previous_tab>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:54
+msgid ":ref:`get_tab_control<class_TabContainer_method_get_tab_control>` **(** :ref:`int<class_int>` tab_idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:56
+msgid ":ref:`get_tab_count<class_TabContainer_method_get_tab_count>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:58
+msgid ":ref:`get_tab_disabled<class_TabContainer_method_get_tab_disabled>` **(** :ref:`int<class_int>` tab_idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:60
+#: ../../docs/classes/class_tabcontainer.rst:81
+#: ../../docs/classes/class_tabcontainer.rst:83
+#: ../../docs/classes/class_tabcontainer.rst:95
+#: ../../docs/classes/class_tabcontainer.rst:97
+#: ../../docs/classes/class_tabcontainer.rst:103
+#: ../../docs/classes/class_tabcontainer.rst:105
+msgid ":ref:`Texture<class_Texture>`"
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:60
+msgid ":ref:`get_tab_icon<class_TabContainer_method_get_tab_icon>` **(** :ref:`int<class_int>` tab_idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:62
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:62
+msgid ":ref:`get_tab_title<class_TabContainer_method_get_tab_title>` **(** :ref:`int<class_int>` tab_idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:64
+msgid ":ref:`get_tabs_rearrange_group<class_TabContainer_method_get_tabs_rearrange_group>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:66
+#: ../../docs/classes/class_tabcontainer.rst:68
+#: ../../docs/classes/class_tabcontainer.rst:70
+#: ../../docs/classes/class_tabcontainer.rst:72
+#: ../../docs/classes/class_tabcontainer.rst:74
+msgid "void"
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:66
+msgid ":ref:`set_popup<class_TabContainer_method_set_popup>` **(** :ref:`Node<class_Node>` popup **)**"
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:68
+msgid ":ref:`set_tab_disabled<class_TabContainer_method_set_tab_disabled>` **(** :ref:`int<class_int>` tab_idx, :ref:`bool<class_bool>` disabled **)**"
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:70
+msgid ":ref:`set_tab_icon<class_TabContainer_method_set_tab_icon>` **(** :ref:`int<class_int>` tab_idx, :ref:`Texture<class_Texture>` icon **)**"
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:72
+msgid ":ref:`set_tab_title<class_TabContainer_method_set_tab_title>` **(** :ref:`int<class_int>` tab_idx, :ref:`String<class_String>` title **)**"
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:74
+msgid ":ref:`set_tabs_rearrange_group<class_TabContainer_method_set_tabs_rearrange_group>` **(** :ref:`int<class_int>` group_id **)**"
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:78
+msgid "Theme Properties"
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:81
+msgid "decrement"
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:83
+msgid "decrement_highlight"
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:85
+msgid ":ref:`Font<class_Font>`"
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:85
+msgid "font"
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:87
+#: ../../docs/classes/class_tabcontainer.rst:89
+#: ../../docs/classes/class_tabcontainer.rst:91
+msgid ":ref:`Color<class_Color>`"
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:87
+msgid "font_color_bg"
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:87
+msgid "Color( 0.69, 0.69, 0.69, 1 )"
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:89
+msgid "font_color_disabled"
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:89
+msgid "Color( 0.9, 0.9, 0.9, 0.2 )"
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:91
+msgid "font_color_fg"
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:91
+msgid "Color( 0.94, 0.94, 0.94, 1 )"
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:93
+msgid "hseparation"
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:93
+msgid "4"
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:95
+msgid "increment"
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:97
+msgid "increment_highlight"
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:99
+msgid "label_valign_bg"
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:99
+msgid "2"
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:101
+msgid "label_valign_fg"
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:101
+msgid "0"
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:103
+msgid "menu"
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:105
+msgid "menu_highlight"
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:107
+#: ../../docs/classes/class_tabcontainer.rst:111
+#: ../../docs/classes/class_tabcontainer.rst:113
+#: ../../docs/classes/class_tabcontainer.rst:115
+msgid ":ref:`StyleBox<class_StyleBox>`"
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:107
+msgid "panel"
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:109
+msgid "side_margin"
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:109
+msgid "8"
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:111
+msgid "tab_bg"
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:113
+msgid "tab_disabled"
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:115
+msgid "tab_fg"
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:117
+msgid "top_margin"
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:117
+msgid "24"
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:121
+msgid "Signals"
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:125
+msgid "**pre_popup_pressed** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:127
+msgid "Emitted when the ``TabContainer``'s :ref:`Popup<class_Popup>` button is clicked. See :ref:`set_popup<class_TabContainer_method_set_popup>` for details."
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:133
+msgid "**tab_changed** **(** :ref:`int<class_int>` tab **)**"
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:135
+msgid "Emitted when switching to another tab."
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:141
+msgid "**tab_selected** **(** :ref:`int<class_int>` tab **)**"
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:143
+msgid "Emitted when a tab is selected, even if it is the current tab."
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:146
+msgid "Enumerations"
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:156
+msgid "enum **TabAlign**:"
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:158
+msgid "**ALIGN_LEFT** = **0** --- Align the tabs to the left."
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:160
+msgid "**ALIGN_CENTER** = **1** --- Align the tabs to the center."
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:162
+msgid "**ALIGN_RIGHT** = **2** --- Align the tabs to the right."
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:165
+msgid "Property Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:169
+msgid ":ref:`bool<class_bool>` **all_tabs_in_front**"
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:172
+#: ../../docs/classes/class_tabcontainer.rst:188
+#: ../../docs/classes/class_tabcontainer.rst:204
+#: ../../docs/classes/class_tabcontainer.rst:220
+#: ../../docs/classes/class_tabcontainer.rst:236
+#: ../../docs/classes/class_tabcontainer.rst:252
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:174
+#: ../../docs/classes/class_tabcontainer.rst:190
+#: ../../docs/classes/class_tabcontainer.rst:206
+#: ../../docs/classes/class_tabcontainer.rst:222
+#: ../../docs/classes/class_tabcontainer.rst:238
+#: ../../docs/classes/class_tabcontainer.rst:254
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:174
+msgid "set_all_tabs_in_front(value)"
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:176
+#: ../../docs/classes/class_tabcontainer.rst:192
+#: ../../docs/classes/class_tabcontainer.rst:208
+#: ../../docs/classes/class_tabcontainer.rst:224
+#: ../../docs/classes/class_tabcontainer.rst:240
+#: ../../docs/classes/class_tabcontainer.rst:256
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:176
+msgid "is_all_tabs_in_front()"
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:179
+msgid "If ``true``, all tabs are drawn in front of the panel. If ``false``, inactive tabs are drawn behind the panel."
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:185
+msgid ":ref:`int<class_int>` **current_tab**"
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:190
+msgid "set_current_tab(value)"
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:192
+msgid "get_current_tab()"
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:195
+msgid "The current tab index. When set, this index's :ref:`Control<class_Control>` node's ``visible`` property is set to ``true`` and all others are set to ``false``."
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:201
+msgid ":ref:`bool<class_bool>` **drag_to_rearrange_enabled**"
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:206
+msgid "set_drag_to_rearrange_enabled(value)"
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:208
+msgid "get_drag_to_rearrange_enabled()"
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:211
+msgid "If ``true``, tabs can be rearranged with mouse drag."
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:217
+msgid ":ref:`TabAlign<enum_TabContainer_TabAlign>` **tab_align**"
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:222
+msgid "set_tab_align(value)"
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:224
+msgid "get_tab_align()"
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:227
+msgid "The alignment of all tabs in the tab container. See the :ref:`TabAlign<enum_TabContainer_TabAlign>` constants for details."
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:233
+msgid ":ref:`bool<class_bool>` **tabs_visible**"
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:238
+msgid "set_tabs_visible(value)"
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:240
+msgid "are_tabs_visible()"
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:243
+msgid "If ``true``, tabs are visible. If ``false``, tabs' content and titles are hidden."
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:249
+msgid ":ref:`bool<class_bool>` **use_hidden_tabs_for_min_size**"
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:254
+msgid "set_use_hidden_tabs_for_min_size(value)"
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:256
+msgid "get_use_hidden_tabs_for_min_size()"
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:259
+msgid "If ``true``, children :ref:`Control<class_Control>` nodes that are hidden have their minimum size take into account in the total, instead of only the currently visible one."
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:262
+msgid "Method Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:266
+msgid ":ref:`Control<class_Control>` **get_current_tab_control** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:268
+msgid "Returns the child :ref:`Control<class_Control>` node located at the active tab index."
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:274
+msgid ":ref:`Popup<class_Popup>` **get_popup** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:276
+msgid "Returns the :ref:`Popup<class_Popup>` node instance if one has been set already with :ref:`set_popup<class_TabContainer_method_set_popup>`."
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:282
+msgid ":ref:`int<class_int>` **get_previous_tab** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:284
+msgid "Returns the previously active tab index."
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:290
+msgid ":ref:`Control<class_Control>` **get_tab_control** **(** :ref:`int<class_int>` tab_idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:292
+msgid "Returns the :ref:`Control<class_Control>` node from the tab at index ``tab_idx``."
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:298
+msgid ":ref:`int<class_int>` **get_tab_count** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:300
+msgid "Returns the number of tabs."
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:306
+msgid ":ref:`bool<class_bool>` **get_tab_disabled** **(** :ref:`int<class_int>` tab_idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:308
+msgid "Returns ``true`` if the tab at index ``tab_idx`` is disabled."
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:314
+msgid ":ref:`Texture<class_Texture>` **get_tab_icon** **(** :ref:`int<class_int>` tab_idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:316
+msgid "Returns the :ref:`Texture<class_Texture>` for the tab at index ``tab_idx`` or ``null`` if the tab has no :ref:`Texture<class_Texture>`."
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:322
+msgid ":ref:`String<class_String>` **get_tab_title** **(** :ref:`int<class_int>` tab_idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:324
+msgid "Returns the title of the tab at index ``tab_idx``. Tab titles default to the name of the indexed child node, but this can be overridden with :ref:`set_tab_title<class_TabContainer_method_set_tab_title>`."
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:330
+msgid ":ref:`int<class_int>` **get_tabs_rearrange_group** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:332
+msgid "Returns the ``TabContainer`` rearrange group id."
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:338
+msgid "void **set_popup** **(** :ref:`Node<class_Node>` popup **)**"
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:340
+msgid "If set on a :ref:`Popup<class_Popup>` node instance, a popup menu icon appears in the top-right corner of the ``TabContainer``. Clicking it will expand the :ref:`Popup<class_Popup>` node."
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:346
+msgid "void **set_tab_disabled** **(** :ref:`int<class_int>` tab_idx, :ref:`bool<class_bool>` disabled **)**"
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:348
+msgid "If ``disabled`` is ``false``, hides the tab at index ``tab_idx``."
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:350
+msgid "**Note:** Its title text will remain, unless also removed with :ref:`set_tab_title<class_TabContainer_method_set_tab_title>`."
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:356
+msgid "void **set_tab_icon** **(** :ref:`int<class_int>` tab_idx, :ref:`Texture<class_Texture>` icon **)**"
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:358
+msgid "Sets an icon for the tab at index ``tab_idx``."
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:364
+msgid "void **set_tab_title** **(** :ref:`int<class_int>` tab_idx, :ref:`String<class_String>` title **)**"
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:366
+msgid "Sets a title for the tab at index ``tab_idx``. Tab titles default to the name of the indexed child node, but this can be overridden with :ref:`set_tab_title<class_TabContainer_method_set_tab_title>`."
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:372
+msgid "void **set_tabs_rearrange_group** **(** :ref:`int<class_int>` group_id **)**"
+msgstr ""
+
+#: ../../docs/classes/class_tabcontainer.rst:374
+msgid "Defines rearrange group id, choose for each ``TabContainer`` the same value to enable tab drag between ``TabContainer``. Enable drag with ``set_drag_to_rearrange_enabled(true)``."
+msgstr ""

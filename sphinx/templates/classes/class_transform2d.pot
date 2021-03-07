@@ -1,0 +1,407 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_transform2d.rst:10
+msgid "Transform2D"
+msgstr ""
+
+#: ../../docs/classes/class_transform2d.rst:12
+msgid "2D transformation (2×3 matrix)."
+msgstr ""
+
+#: ../../docs/classes/class_transform2d.rst:15
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_transform2d.rst:17
+msgid "2×3 matrix (2 rows, 3 columns) used for 2D linear transformations. It can represent transformations such as translation, rotation, or scaling. It consists of a three :ref:`Vector2<class_Vector2>` values: :ref:`x<class_Transform2D_property_x>`, :ref:`y<class_Transform2D_property_y>`, and the :ref:`origin<class_Transform2D_property_origin>`."
+msgstr ""
+
+#: ../../docs/classes/class_transform2d.rst:19
+msgid "For more information, read the \"Matrices and transforms\" documentation article."
+msgstr ""
+
+#: ../../docs/classes/class_transform2d.rst:22
+msgid "Tutorials"
+msgstr ""
+
+#: ../../docs/classes/class_transform2d.rst:24
+msgid ":doc:`../tutorials/math/index`"
+msgstr ""
+
+#: ../../docs/classes/class_transform2d.rst:26
+msgid ":doc:`../tutorials/math/matrices_and_transforms`"
+msgstr ""
+
+#: ../../docs/classes/class_transform2d.rst:28
+msgid "`https://godotengine.org/asset-library/asset/584 <https://godotengine.org/asset-library/asset/584>`_"
+msgstr ""
+
+#: ../../docs/classes/class_transform2d.rst:30
+msgid "`https://godotengine.org/asset-library/asset/583 <https://godotengine.org/asset-library/asset/583>`_"
+msgstr ""
+
+#: ../../docs/classes/class_transform2d.rst:33
+msgid "Properties"
+msgstr ""
+
+#: ../../docs/classes/class_transform2d.rst:36
+#: ../../docs/classes/class_transform2d.rst:38
+#: ../../docs/classes/class_transform2d.rst:40
+#: ../../docs/classes/class_transform2d.rst:55
+#: ../../docs/classes/class_transform2d.rst:57
+#: ../../docs/classes/class_transform2d.rst:59
+#: ../../docs/classes/class_transform2d.rst:63
+msgid ":ref:`Vector2<class_Vector2>`"
+msgstr ""
+
+#: ../../docs/classes/class_transform2d.rst:36
+msgid ":ref:`origin<class_Transform2D_property_origin>`"
+msgstr ""
+
+#: ../../docs/classes/class_transform2d.rst:36
+#: ../../docs/classes/class_transform2d.rst:107
+msgid "``Vector2( 0, 0 )``"
+msgstr ""
+
+#: ../../docs/classes/class_transform2d.rst:38
+msgid ":ref:`x<class_Transform2D_property_x>`"
+msgstr ""
+
+#: ../../docs/classes/class_transform2d.rst:38
+#: ../../docs/classes/class_transform2d.rst:119
+msgid "``Vector2( 1, 0 )``"
+msgstr ""
+
+#: ../../docs/classes/class_transform2d.rst:40
+msgid ":ref:`y<class_Transform2D_property_y>`"
+msgstr ""
+
+#: ../../docs/classes/class_transform2d.rst:40
+#: ../../docs/classes/class_transform2d.rst:131
+msgid "``Vector2( 0, 1 )``"
+msgstr ""
+
+#: ../../docs/classes/class_transform2d.rst:44
+msgid "Methods"
+msgstr ""
+
+#: ../../docs/classes/class_transform2d.rst:47
+#: ../../docs/classes/class_transform2d.rst:49
+#: ../../docs/classes/class_transform2d.rst:51
+#: ../../docs/classes/class_transform2d.rst:53
+#: ../../docs/classes/class_transform2d.rst:65
+#: ../../docs/classes/class_transform2d.rst:67
+#: ../../docs/classes/class_transform2d.rst:71
+#: ../../docs/classes/class_transform2d.rst:73
+#: ../../docs/classes/class_transform2d.rst:75
+#: ../../docs/classes/class_transform2d.rst:77
+msgid ":ref:`Transform2D<class_Transform2D>`"
+msgstr ""
+
+#: ../../docs/classes/class_transform2d.rst:47
+msgid ":ref:`Transform2D<class_Transform2D_method_Transform2D>` **(** :ref:`Transform<class_Transform>` from **)**"
+msgstr ""
+
+#: ../../docs/classes/class_transform2d.rst:49
+msgid ":ref:`Transform2D<class_Transform2D_method_Transform2D>` **(** :ref:`Vector2<class_Vector2>` x_axis, :ref:`Vector2<class_Vector2>` y_axis, :ref:`Vector2<class_Vector2>` origin **)**"
+msgstr ""
+
+#: ../../docs/classes/class_transform2d.rst:51
+msgid ":ref:`Transform2D<class_Transform2D_method_Transform2D>` **(** :ref:`float<class_float>` rotation, :ref:`Vector2<class_Vector2>` position **)**"
+msgstr ""
+
+#: ../../docs/classes/class_transform2d.rst:53
+msgid ":ref:`affine_inverse<class_Transform2D_method_affine_inverse>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_transform2d.rst:55
+msgid ":ref:`basis_xform<class_Transform2D_method_basis_xform>` **(** :ref:`Vector2<class_Vector2>` v **)**"
+msgstr ""
+
+#: ../../docs/classes/class_transform2d.rst:57
+msgid ":ref:`basis_xform_inv<class_Transform2D_method_basis_xform_inv>` **(** :ref:`Vector2<class_Vector2>` v **)**"
+msgstr ""
+
+#: ../../docs/classes/class_transform2d.rst:59
+msgid ":ref:`get_origin<class_Transform2D_method_get_origin>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_transform2d.rst:61
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../../docs/classes/class_transform2d.rst:61
+msgid ":ref:`get_rotation<class_Transform2D_method_get_rotation>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_transform2d.rst:63
+msgid ":ref:`get_scale<class_Transform2D_method_get_scale>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_transform2d.rst:65
+msgid ":ref:`interpolate_with<class_Transform2D_method_interpolate_with>` **(** :ref:`Transform2D<class_Transform2D>` transform, :ref:`float<class_float>` weight **)**"
+msgstr ""
+
+#: ../../docs/classes/class_transform2d.rst:67
+msgid ":ref:`inverse<class_Transform2D_method_inverse>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_transform2d.rst:69
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_transform2d.rst:69
+msgid ":ref:`is_equal_approx<class_Transform2D_method_is_equal_approx>` **(** :ref:`Transform2D<class_Transform2D>` transform **)**"
+msgstr ""
+
+#: ../../docs/classes/class_transform2d.rst:71
+msgid ":ref:`orthonormalized<class_Transform2D_method_orthonormalized>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_transform2d.rst:73
+msgid ":ref:`rotated<class_Transform2D_method_rotated>` **(** :ref:`float<class_float>` phi **)**"
+msgstr ""
+
+#: ../../docs/classes/class_transform2d.rst:75
+msgid ":ref:`scaled<class_Transform2D_method_scaled>` **(** :ref:`Vector2<class_Vector2>` scale **)**"
+msgstr ""
+
+#: ../../docs/classes/class_transform2d.rst:77
+msgid ":ref:`translated<class_Transform2D_method_translated>` **(** :ref:`Vector2<class_Vector2>` offset **)**"
+msgstr ""
+
+#: ../../docs/classes/class_transform2d.rst:79
+#: ../../docs/classes/class_transform2d.rst:81
+msgid ":ref:`Variant<class_Variant>`"
+msgstr ""
+
+#: ../../docs/classes/class_transform2d.rst:79
+msgid ":ref:`xform<class_Transform2D_method_xform>` **(** :ref:`Variant<class_Variant>` v **)**"
+msgstr ""
+
+#: ../../docs/classes/class_transform2d.rst:81
+msgid ":ref:`xform_inv<class_Transform2D_method_xform_inv>` **(** :ref:`Variant<class_Variant>` v **)**"
+msgstr ""
+
+#: ../../docs/classes/class_transform2d.rst:85
+msgid "Constants"
+msgstr ""
+
+#: ../../docs/classes/class_transform2d.rst:93
+msgid "**IDENTITY** = **Transform2D( 1, 0, 0, 1, 0, 0 )** --- The identity ``Transform2D`` with no translation, rotation or scaling applied. When applied to other data structures, :ref:`IDENTITY<class_Transform2D_constant_IDENTITY>` performs no transformation."
+msgstr ""
+
+#: ../../docs/classes/class_transform2d.rst:95
+msgid "**FLIP_X** = **Transform2D( -1, 0, 0, 1, 0, 0 )** --- The ``Transform2D`` that will flip something along the X axis."
+msgstr ""
+
+#: ../../docs/classes/class_transform2d.rst:97
+msgid "**FLIP_Y** = **Transform2D( 1, 0, 0, -1, 0, 0 )** --- The ``Transform2D`` that will flip something along the Y axis."
+msgstr ""
+
+#: ../../docs/classes/class_transform2d.rst:100
+msgid "Property Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_transform2d.rst:104
+msgid ":ref:`Vector2<class_Vector2>` **origin**"
+msgstr ""
+
+#: ../../docs/classes/class_transform2d.rst:107
+#: ../../docs/classes/class_transform2d.rst:119
+#: ../../docs/classes/class_transform2d.rst:131
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_transform2d.rst:110
+msgid "The origin vector (column 2, the third column). Equivalent to array index ``2``. The origin vector represents translation."
+msgstr ""
+
+#: ../../docs/classes/class_transform2d.rst:116
+msgid ":ref:`Vector2<class_Vector2>` **x**"
+msgstr ""
+
+#: ../../docs/classes/class_transform2d.rst:122
+msgid "The basis matrix's X vector (column 0). Equivalent to array index ``0``."
+msgstr ""
+
+#: ../../docs/classes/class_transform2d.rst:128
+msgid ":ref:`Vector2<class_Vector2>` **y**"
+msgstr ""
+
+#: ../../docs/classes/class_transform2d.rst:134
+msgid "The basis matrix's Y vector (column 1). Equivalent to array index ``1``."
+msgstr ""
+
+#: ../../docs/classes/class_transform2d.rst:137
+msgid "Method Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_transform2d.rst:141
+msgid ":ref:`Transform2D<class_Transform2D>` **Transform2D** **(** :ref:`Transform<class_Transform>` from **)**"
+msgstr ""
+
+#: ../../docs/classes/class_transform2d.rst:143
+msgid "Constructs the transform from a 3D :ref:`Transform<class_Transform>`."
+msgstr ""
+
+#: ../../docs/classes/class_transform2d.rst:147
+msgid ":ref:`Transform2D<class_Transform2D>` **Transform2D** **(** :ref:`Vector2<class_Vector2>` x_axis, :ref:`Vector2<class_Vector2>` y_axis, :ref:`Vector2<class_Vector2>` origin **)**"
+msgstr ""
+
+#: ../../docs/classes/class_transform2d.rst:149
+msgid "Constructs the transform from 3 :ref:`Vector2<class_Vector2>` values representing :ref:`x<class_Transform2D_property_x>`, :ref:`y<class_Transform2D_property_y>`, and the :ref:`origin<class_Transform2D_property_origin>` (the three column vectors)."
+msgstr ""
+
+#: ../../docs/classes/class_transform2d.rst:153
+msgid ":ref:`Transform2D<class_Transform2D>` **Transform2D** **(** :ref:`float<class_float>` rotation, :ref:`Vector2<class_Vector2>` position **)**"
+msgstr ""
+
+#: ../../docs/classes/class_transform2d.rst:155
+msgid "Constructs the transform from a given angle (in radians) and position."
+msgstr ""
+
+#: ../../docs/classes/class_transform2d.rst:161
+msgid ":ref:`Transform2D<class_Transform2D>` **affine_inverse** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_transform2d.rst:163
+msgid "Returns the inverse of the transform, under the assumption that the transformation is composed of rotation, scaling and translation."
+msgstr ""
+
+#: ../../docs/classes/class_transform2d.rst:169
+msgid ":ref:`Vector2<class_Vector2>` **basis_xform** **(** :ref:`Vector2<class_Vector2>` v **)**"
+msgstr ""
+
+#: ../../docs/classes/class_transform2d.rst:171
+msgid "Returns a vector transformed (multiplied) by the basis matrix."
+msgstr ""
+
+#: ../../docs/classes/class_transform2d.rst:173
+#: ../../docs/classes/class_transform2d.rst:183
+msgid "This method does not account for translation (the origin vector)."
+msgstr ""
+
+#: ../../docs/classes/class_transform2d.rst:179
+msgid ":ref:`Vector2<class_Vector2>` **basis_xform_inv** **(** :ref:`Vector2<class_Vector2>` v **)**"
+msgstr ""
+
+#: ../../docs/classes/class_transform2d.rst:181
+msgid "Returns a vector transformed (multiplied) by the inverse basis matrix."
+msgstr ""
+
+#: ../../docs/classes/class_transform2d.rst:189
+msgid ":ref:`Vector2<class_Vector2>` **get_origin** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_transform2d.rst:191
+msgid "Returns the transform's origin (translation)."
+msgstr ""
+
+#: ../../docs/classes/class_transform2d.rst:197
+msgid ":ref:`float<class_float>` **get_rotation** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_transform2d.rst:199
+msgid "Returns the transform's rotation (in radians)."
+msgstr ""
+
+#: ../../docs/classes/class_transform2d.rst:205
+msgid ":ref:`Vector2<class_Vector2>` **get_scale** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_transform2d.rst:207
+msgid "Returns the scale."
+msgstr ""
+
+#: ../../docs/classes/class_transform2d.rst:213
+msgid ":ref:`Transform2D<class_Transform2D>` **interpolate_with** **(** :ref:`Transform2D<class_Transform2D>` transform, :ref:`float<class_float>` weight **)**"
+msgstr ""
+
+#: ../../docs/classes/class_transform2d.rst:215
+msgid "Returns a transform interpolated between this transform and another by a given weight (on the range of 0.0 to 1.0)."
+msgstr ""
+
+#: ../../docs/classes/class_transform2d.rst:221
+msgid ":ref:`Transform2D<class_Transform2D>` **inverse** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_transform2d.rst:223
+msgid "Returns the inverse of the transform, under the assumption that the transformation is composed of rotation and translation (no scaling, use :ref:`affine_inverse<class_Transform2D_method_affine_inverse>` for transforms with scaling)."
+msgstr ""
+
+#: ../../docs/classes/class_transform2d.rst:229
+msgid ":ref:`bool<class_bool>` **is_equal_approx** **(** :ref:`Transform2D<class_Transform2D>` transform **)**"
+msgstr ""
+
+#: ../../docs/classes/class_transform2d.rst:231
+msgid "Returns ``true`` if this transform and ``transform`` are approximately equal, by calling ``is_equal_approx`` on each component."
+msgstr ""
+
+#: ../../docs/classes/class_transform2d.rst:237
+msgid ":ref:`Transform2D<class_Transform2D>` **orthonormalized** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_transform2d.rst:239
+msgid "Returns the transform with the basis orthogonal (90 degrees), and normalized axis vectors (scale of 1 or -1)."
+msgstr ""
+
+#: ../../docs/classes/class_transform2d.rst:245
+msgid ":ref:`Transform2D<class_Transform2D>` **rotated** **(** :ref:`float<class_float>` phi **)**"
+msgstr ""
+
+#: ../../docs/classes/class_transform2d.rst:247
+msgid "Rotates the transform by the given angle (in radians), using matrix multiplication."
+msgstr ""
+
+#: ../../docs/classes/class_transform2d.rst:253
+msgid ":ref:`Transform2D<class_Transform2D>` **scaled** **(** :ref:`Vector2<class_Vector2>` scale **)**"
+msgstr ""
+
+#: ../../docs/classes/class_transform2d.rst:255
+msgid "Scales the transform by the given scale factor, using matrix multiplication."
+msgstr ""
+
+#: ../../docs/classes/class_transform2d.rst:261
+msgid ":ref:`Transform2D<class_Transform2D>` **translated** **(** :ref:`Vector2<class_Vector2>` offset **)**"
+msgstr ""
+
+#: ../../docs/classes/class_transform2d.rst:263
+msgid "Translates the transform by the given offset, relative to the transform's basis vectors."
+msgstr ""
+
+#: ../../docs/classes/class_transform2d.rst:265
+msgid "Unlike :ref:`rotated<class_Transform2D_method_rotated>` and :ref:`scaled<class_Transform2D_method_scaled>`, this does not use matrix multiplication."
+msgstr ""
+
+#: ../../docs/classes/class_transform2d.rst:271
+msgid ":ref:`Variant<class_Variant>` **xform** **(** :ref:`Variant<class_Variant>` v **)**"
+msgstr ""
+
+#: ../../docs/classes/class_transform2d.rst:273
+msgid "Transforms the given :ref:`Vector2<class_Vector2>`, :ref:`Rect2<class_Rect2>`, or :ref:`PoolVector2Array<class_PoolVector2Array>` by this transform."
+msgstr ""
+
+#: ../../docs/classes/class_transform2d.rst:279
+msgid ":ref:`Variant<class_Variant>` **xform_inv** **(** :ref:`Variant<class_Variant>` v **)**"
+msgstr ""
+
+#: ../../docs/classes/class_transform2d.rst:281
+msgid "Inverse-transforms the given :ref:`Vector2<class_Vector2>`, :ref:`Rect2<class_Rect2>`, or :ref:`PoolVector2Array<class_PoolVector2Array>` by this transform."
+msgstr ""

@@ -1,0 +1,81 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_videostreamtheora.rst:10
+msgid "VideoStreamTheora"
+msgstr ""
+
+#: ../../docs/classes/class_videostreamtheora.rst:12
+msgid "**Inherits:** :ref:`VideoStream<class_VideoStream>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_videostreamtheora.rst:14
+msgid ":ref:`VideoStream<class_VideoStream>` resource for Ogg Theora videos."
+msgstr ""
+
+#: ../../docs/classes/class_videostreamtheora.rst:17
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_videostreamtheora.rst:19
+msgid ":ref:`VideoStream<class_VideoStream>` resource handling the `Ogg Theora <https://www.theora.org/>`_ video format with ``.ogv`` extension. The Theora codec is less efficient than :ref:`VideoStreamWebm<class_VideoStreamWebm>`'s VP8 and VP9, but it requires less CPU resources to decode. The Theora codec is decoded on the CPU."
+msgstr ""
+
+#: ../../docs/classes/class_videostreamtheora.rst:21
+msgid "**Note:** While Ogg Theora videos can also have an ``.ogg`` extension, you will have to rename the extension to ``.ogv`` to use those videos within Godot."
+msgstr ""
+
+#: ../../docs/classes/class_videostreamtheora.rst:24
+msgid "Methods"
+msgstr ""
+
+#: ../../docs/classes/class_videostreamtheora.rst:27
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../../docs/classes/class_videostreamtheora.rst:27
+msgid ":ref:`get_file<class_VideoStreamTheora_method_get_file>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_videostreamtheora.rst:29
+msgid "void"
+msgstr ""
+
+#: ../../docs/classes/class_videostreamtheora.rst:29
+msgid ":ref:`set_file<class_VideoStreamTheora_method_set_file>` **(** :ref:`String<class_String>` file **)**"
+msgstr ""
+
+#: ../../docs/classes/class_videostreamtheora.rst:33
+msgid "Method Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_videostreamtheora.rst:37
+msgid ":ref:`String<class_String>` **get_file** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_videostreamtheora.rst:39
+msgid "Returns the Ogg Theora video file handled by this ``VideoStreamTheora``."
+msgstr ""
+
+#: ../../docs/classes/class_videostreamtheora.rst:45
+msgid "void **set_file** **(** :ref:`String<class_String>` file **)**"
+msgstr ""
+
+#: ../../docs/classes/class_videostreamtheora.rst:47
+msgid "Sets the Ogg Theora video file that this ``VideoStreamTheora`` resource handles. The ``file`` name should have the ``.ogv`` extension."
+msgstr ""

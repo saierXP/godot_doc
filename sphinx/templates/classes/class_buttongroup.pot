@@ -1,0 +1,97 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_buttongroup.rst:10
+msgid "ButtonGroup"
+msgstr ""
+
+#: ../../docs/classes/class_buttongroup.rst:12
+msgid "**Inherits:** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_buttongroup.rst:14
+msgid "Group of Buttons."
+msgstr ""
+
+#: ../../docs/classes/class_buttongroup.rst:17
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_buttongroup.rst:19
+msgid "Group of :ref:`Button<class_Button>`. All direct and indirect children buttons become radios. Only one allows being pressed."
+msgstr ""
+
+#: ../../docs/classes/class_buttongroup.rst:21
+msgid ":ref:`BaseButton.toggle_mode<class_BaseButton_property_toggle_mode>` should be ``true``."
+msgstr ""
+
+#: ../../docs/classes/class_buttongroup.rst:24
+msgid "Properties"
+msgstr ""
+
+#: ../../docs/classes/class_buttongroup.rst:27
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_buttongroup.rst:27
+msgid "resource_local_to_scene"
+msgstr ""
+
+#: ../../docs/classes/class_buttongroup.rst:27
+msgid "``true`` *(parent override)*"
+msgstr ""
+
+#: ../../docs/classes/class_buttongroup.rst:31
+msgid "Methods"
+msgstr ""
+
+#: ../../docs/classes/class_buttongroup.rst:34
+msgid ":ref:`Array<class_Array>`"
+msgstr ""
+
+#: ../../docs/classes/class_buttongroup.rst:34
+msgid ":ref:`get_buttons<class_ButtonGroup_method_get_buttons>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_buttongroup.rst:36
+msgid ":ref:`BaseButton<class_BaseButton>`"
+msgstr ""
+
+#: ../../docs/classes/class_buttongroup.rst:36
+msgid ":ref:`get_pressed_button<class_ButtonGroup_method_get_pressed_button>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_buttongroup.rst:40
+msgid "Method Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_buttongroup.rst:44
+msgid ":ref:`Array<class_Array>` **get_buttons** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_buttongroup.rst:46
+msgid "Returns an :ref:`Array<class_Array>` of :ref:`Button<class_Button>`\\ s who have this as their ``ButtonGroup`` (see :ref:`BaseButton.group<class_BaseButton_property_group>`)."
+msgstr ""
+
+#: ../../docs/classes/class_buttongroup.rst:52
+msgid ":ref:`BaseButton<class_BaseButton>` **get_pressed_button** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_buttongroup.rst:54
+msgid "Returns the current pressed button."
+msgstr ""

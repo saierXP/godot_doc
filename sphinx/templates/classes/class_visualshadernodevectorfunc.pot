@@ -1,0 +1,234 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_visualshadernodevectorfunc.rst:10
+msgid "VisualShaderNodeVectorFunc"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodevectorfunc.rst:12
+msgid "**Inherits:** :ref:`VisualShaderNode<class_VisualShaderNode>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodevectorfunc.rst:14
+msgid "A vector function to be used within the visual shader graph."
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodevectorfunc.rst:17
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodevectorfunc.rst:19
+msgid "A visual shader node able to perform different functions using vectors."
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodevectorfunc.rst:22
+msgid "Properties"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodevectorfunc.rst:25
+msgid ":ref:`Function<enum_VisualShaderNodeVectorFunc_Function>`"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodevectorfunc.rst:25
+msgid ":ref:`function<class_VisualShaderNodeVectorFunc_property_function>`"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodevectorfunc.rst:25
+#: ../../docs/classes/class_visualshadernodevectorfunc.rst:183
+msgid "``0``"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodevectorfunc.rst:29
+msgid "Enumerations"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodevectorfunc.rst:103
+msgid "enum **Function**:"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodevectorfunc.rst:105
+msgid "**FUNC_NORMALIZE** = **0** --- Normalizes the vector so that it has a length of ``1`` but points in the same direction."
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodevectorfunc.rst:107
+msgid "**FUNC_SATURATE** = **1** --- Clamps the value between ``0.0`` and ``1.0``."
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodevectorfunc.rst:109
+msgid "**FUNC_NEGATE** = **2** --- Returns the opposite value of the parameter."
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodevectorfunc.rst:111
+msgid "**FUNC_RECIPROCAL** = **3** --- Returns ``1/vector``."
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodevectorfunc.rst:113
+msgid "**FUNC_RGB2HSV** = **4** --- Converts RGB vector to HSV equivalent."
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodevectorfunc.rst:115
+msgid "**FUNC_HSV2RGB** = **5** --- Converts HSV vector to RGB equivalent."
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodevectorfunc.rst:117
+msgid "**FUNC_ABS** = **6** --- Returns the absolute value of the parameter."
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodevectorfunc.rst:119
+msgid "**FUNC_ACOS** = **7** --- Returns the arc-cosine of the parameter."
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodevectorfunc.rst:121
+msgid "**FUNC_ACOSH** = **8** --- Returns the inverse hyperbolic cosine of the parameter."
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodevectorfunc.rst:123
+msgid "**FUNC_ASIN** = **9** --- Returns the arc-sine of the parameter."
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodevectorfunc.rst:125
+msgid "**FUNC_ASINH** = **10** --- Returns the inverse hyperbolic sine of the parameter."
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodevectorfunc.rst:127
+msgid "**FUNC_ATAN** = **11** --- Returns the arc-tangent of the parameter."
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodevectorfunc.rst:129
+msgid "**FUNC_ATANH** = **12** --- Returns the inverse hyperbolic tangent of the parameter."
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodevectorfunc.rst:131
+msgid "**FUNC_CEIL** = **13** --- Finds the nearest integer that is greater than or equal to the parameter."
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodevectorfunc.rst:133
+msgid "**FUNC_COS** = **14** --- Returns the cosine of the parameter."
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodevectorfunc.rst:135
+msgid "**FUNC_COSH** = **15** --- Returns the hyperbolic cosine of the parameter."
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodevectorfunc.rst:137
+msgid "**FUNC_DEGREES** = **16** --- Converts a quantity in radians to degrees."
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodevectorfunc.rst:139
+msgid "**FUNC_EXP** = **17** --- Base-e Exponential."
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodevectorfunc.rst:141
+msgid "**FUNC_EXP2** = **18** --- Base-2 Exponential."
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodevectorfunc.rst:143
+msgid "**FUNC_FLOOR** = **19** --- Finds the nearest integer less than or equal to the parameter."
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodevectorfunc.rst:145
+msgid "**FUNC_FRAC** = **20** --- Computes the fractional part of the argument."
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodevectorfunc.rst:147
+msgid "**FUNC_INVERSE_SQRT** = **21** --- Returns the inverse of the square root of the parameter."
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodevectorfunc.rst:149
+msgid "**FUNC_LOG** = **22** --- Natural logarithm."
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodevectorfunc.rst:151
+msgid "**FUNC_LOG2** = **23** --- Base-2 logarithm."
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodevectorfunc.rst:153
+msgid "**FUNC_RADIANS** = **24** --- Converts a quantity in degrees to radians."
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodevectorfunc.rst:155
+msgid "**FUNC_ROUND** = **25** --- Finds the nearest integer to the parameter."
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodevectorfunc.rst:157
+msgid "**FUNC_ROUNDEVEN** = **26** --- Finds the nearest even integer to the parameter."
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodevectorfunc.rst:159
+msgid "**FUNC_SIGN** = **27** --- Extracts the sign of the parameter, i.e. returns ``-1`` if the parameter is negative, ``1`` if it's positive and ``0`` otherwise."
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodevectorfunc.rst:161
+msgid "**FUNC_SIN** = **28** --- Returns the sine of the parameter."
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodevectorfunc.rst:163
+msgid "**FUNC_SINH** = **29** --- Returns the hyperbolic sine of the parameter."
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodevectorfunc.rst:165
+msgid "**FUNC_SQRT** = **30** --- Returns the square root of the parameter."
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodevectorfunc.rst:167
+msgid "**FUNC_TAN** = **31** --- Returns the tangent of the parameter."
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodevectorfunc.rst:169
+msgid "**FUNC_TANH** = **32** --- Returns the hyperbolic tangent of the parameter."
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodevectorfunc.rst:171
+msgid "**FUNC_TRUNC** = **33** --- Returns a value equal to the nearest integer to the parameter whose absolute value is not larger than the absolute value of the parameter."
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodevectorfunc.rst:173
+msgid "**FUNC_ONEMINUS** = **34** --- Returns ``1.0 - vector``."
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodevectorfunc.rst:176
+msgid "Property Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodevectorfunc.rst:180
+msgid ":ref:`Function<enum_VisualShaderNodeVectorFunc_Function>` **function**"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodevectorfunc.rst:183
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodevectorfunc.rst:185
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodevectorfunc.rst:185
+msgid "set_function(value)"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodevectorfunc.rst:187
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodevectorfunc.rst:187
+msgid "get_function()"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodevectorfunc.rst:190
+msgid "The function to be performed. See :ref:`Function<enum_VisualShaderNodeVectorFunc_Function>` for options."
+msgstr ""

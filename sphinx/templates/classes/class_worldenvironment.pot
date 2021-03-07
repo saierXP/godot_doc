@@ -1,0 +1,105 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_worldenvironment.rst:10
+msgid "WorldEnvironment"
+msgstr ""
+
+#: ../../docs/classes/class_worldenvironment.rst:12
+msgid "**Inherits:** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_worldenvironment.rst:14
+msgid "Default environment properties for the entire scene (post-processing effects, lighting and background settings)."
+msgstr ""
+
+#: ../../docs/classes/class_worldenvironment.rst:17
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_worldenvironment.rst:19
+msgid "The ``WorldEnvironment`` node is used to configure the default :ref:`Environment<class_Environment>` for the scene."
+msgstr ""
+
+#: ../../docs/classes/class_worldenvironment.rst:21
+msgid "The parameters defined in the ``WorldEnvironment`` can be overridden by an :ref:`Environment<class_Environment>` node set on the current :ref:`Camera<class_Camera>`. Additionally, only one ``WorldEnvironment`` may be instanced in a given scene at a time."
+msgstr ""
+
+#: ../../docs/classes/class_worldenvironment.rst:23
+msgid "The ``WorldEnvironment`` allows the user to specify default lighting parameters (e.g. ambient lighting), various post-processing effects (e.g. SSAO, DOF, Tonemapping), and how to draw the background (e.g. solid color, skybox). Usually, these are added in order to improve the realism/color balance of the scene."
+msgstr ""
+
+#: ../../docs/classes/class_worldenvironment.rst:26
+msgid "Tutorials"
+msgstr ""
+
+#: ../../docs/classes/class_worldenvironment.rst:28
+msgid ":doc:`../tutorials/3d/environment_and_post_processing`"
+msgstr ""
+
+#: ../../docs/classes/class_worldenvironment.rst:30
+msgid "`https://godotengine.org/asset-library/asset/123 <https://godotengine.org/asset-library/asset/123>`_"
+msgstr ""
+
+#: ../../docs/classes/class_worldenvironment.rst:32
+msgid "`https://godotengine.org/asset-library/asset/110 <https://godotengine.org/asset-library/asset/110>`_"
+msgstr ""
+
+#: ../../docs/classes/class_worldenvironment.rst:34
+msgid "`https://godotengine.org/asset-library/asset/678 <https://godotengine.org/asset-library/asset/678>`_"
+msgstr ""
+
+#: ../../docs/classes/class_worldenvironment.rst:37
+msgid "Properties"
+msgstr ""
+
+#: ../../docs/classes/class_worldenvironment.rst:40
+msgid ":ref:`Environment<class_Environment>`"
+msgstr ""
+
+#: ../../docs/classes/class_worldenvironment.rst:40
+msgid ":ref:`environment<class_WorldEnvironment_property_environment>`"
+msgstr ""
+
+#: ../../docs/classes/class_worldenvironment.rst:44
+msgid "Property Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_worldenvironment.rst:48
+msgid ":ref:`Environment<class_Environment>` **environment**"
+msgstr ""
+
+#: ../../docs/classes/class_worldenvironment.rst:51
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_worldenvironment.rst:51
+msgid "set_environment(value)"
+msgstr ""
+
+#: ../../docs/classes/class_worldenvironment.rst:53
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_worldenvironment.rst:53
+msgid "get_environment()"
+msgstr ""
+
+#: ../../docs/classes/class_worldenvironment.rst:56
+msgid "The :ref:`Environment<class_Environment>` resource used by this ``WorldEnvironment``, defining the default properties."
+msgstr ""

@@ -1,0 +1,135 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_skin.rst:10
+msgid "Skin"
+msgstr ""
+
+#: ../../docs/classes/class_skin.rst:12
+msgid "**Inherits:** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_skin.rst:17
+msgid "Methods"
+msgstr ""
+
+#: ../../docs/classes/class_skin.rst:20
+#: ../../docs/classes/class_skin.rst:22
+#: ../../docs/classes/class_skin.rst:32
+#: ../../docs/classes/class_skin.rst:34
+#: ../../docs/classes/class_skin.rst:36
+#: ../../docs/classes/class_skin.rst:38
+msgid "void"
+msgstr ""
+
+#: ../../docs/classes/class_skin.rst:20
+msgid ":ref:`add_bind<class_Skin_method_add_bind>` **(** :ref:`int<class_int>` bone, :ref:`Transform<class_Transform>` pose **)**"
+msgstr ""
+
+#: ../../docs/classes/class_skin.rst:22
+msgid ":ref:`clear_binds<class_Skin_method_clear_binds>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_skin.rst:24
+#: ../../docs/classes/class_skin.rst:26
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../../docs/classes/class_skin.rst:24
+msgid ":ref:`get_bind_bone<class_Skin_method_get_bind_bone>` **(** :ref:`int<class_int>` bind_index **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_skin.rst:26
+msgid ":ref:`get_bind_count<class_Skin_method_get_bind_count>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_skin.rst:28
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../../docs/classes/class_skin.rst:28
+msgid ":ref:`get_bind_name<class_Skin_method_get_bind_name>` **(** :ref:`int<class_int>` bind_index **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_skin.rst:30
+msgid ":ref:`Transform<class_Transform>`"
+msgstr ""
+
+#: ../../docs/classes/class_skin.rst:30
+msgid ":ref:`get_bind_pose<class_Skin_method_get_bind_pose>` **(** :ref:`int<class_int>` bind_index **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_skin.rst:32
+msgid ":ref:`set_bind_bone<class_Skin_method_set_bind_bone>` **(** :ref:`int<class_int>` bind_index, :ref:`int<class_int>` bone **)**"
+msgstr ""
+
+#: ../../docs/classes/class_skin.rst:34
+msgid ":ref:`set_bind_count<class_Skin_method_set_bind_count>` **(** :ref:`int<class_int>` bind_count **)**"
+msgstr ""
+
+#: ../../docs/classes/class_skin.rst:36
+msgid ":ref:`set_bind_name<class_Skin_method_set_bind_name>` **(** :ref:`int<class_int>` bind_index, :ref:`String<class_String>` name **)**"
+msgstr ""
+
+#: ../../docs/classes/class_skin.rst:38
+msgid ":ref:`set_bind_pose<class_Skin_method_set_bind_pose>` **(** :ref:`int<class_int>` bind_index, :ref:`Transform<class_Transform>` pose **)**"
+msgstr ""
+
+#: ../../docs/classes/class_skin.rst:42
+msgid "Method Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_skin.rst:46
+msgid "void **add_bind** **(** :ref:`int<class_int>` bone, :ref:`Transform<class_Transform>` pose **)**"
+msgstr ""
+
+#: ../../docs/classes/class_skin.rst:52
+msgid "void **clear_binds** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_skin.rst:58
+msgid ":ref:`int<class_int>` **get_bind_bone** **(** :ref:`int<class_int>` bind_index **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_skin.rst:64
+msgid ":ref:`int<class_int>` **get_bind_count** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_skin.rst:70
+msgid ":ref:`String<class_String>` **get_bind_name** **(** :ref:`int<class_int>` bind_index **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_skin.rst:76
+msgid ":ref:`Transform<class_Transform>` **get_bind_pose** **(** :ref:`int<class_int>` bind_index **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_skin.rst:82
+msgid "void **set_bind_bone** **(** :ref:`int<class_int>` bind_index, :ref:`int<class_int>` bone **)**"
+msgstr ""
+
+#: ../../docs/classes/class_skin.rst:88
+msgid "void **set_bind_count** **(** :ref:`int<class_int>` bind_count **)**"
+msgstr ""
+
+#: ../../docs/classes/class_skin.rst:94
+msgid "void **set_bind_name** **(** :ref:`int<class_int>` bind_index, :ref:`String<class_String>` name **)**"
+msgstr ""
+
+#: ../../docs/classes/class_skin.rst:100
+msgid "void **set_bind_pose** **(** :ref:`int<class_int>` bind_index, :ref:`Transform<class_Transform>` pose **)**"
+msgstr ""

@@ -1,0 +1,300 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_arvrpositionaltracker.rst:10
+msgid "ARVRPositionalTracker"
+msgstr ""
+
+#: ../../docs/classes/class_arvrpositionaltracker.rst:12
+msgid "**Inherits:** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_arvrpositionaltracker.rst:14
+msgid "A tracked object."
+msgstr ""
+
+#: ../../docs/classes/class_arvrpositionaltracker.rst:17
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_arvrpositionaltracker.rst:19
+msgid "An instance of this object represents a device that is tracked, such as a controller or anchor point. HMDs aren't represented here as they are handled internally."
+msgstr ""
+
+#: ../../docs/classes/class_arvrpositionaltracker.rst:21
+msgid "As controllers are turned on and the AR/VR interface detects them, instances of this object are automatically added to this list of active tracking objects accessible through the :ref:`ARVRServer<class_ARVRServer>`."
+msgstr ""
+
+#: ../../docs/classes/class_arvrpositionaltracker.rst:23
+msgid "The :ref:`ARVRController<class_ARVRController>` and :ref:`ARVRAnchor<class_ARVRAnchor>` both consume objects of this type and should be used in your project. The positional trackers are just under-the-hood objects that make this all work. These are mostly exposed so that GDNative-based interfaces can interact with them."
+msgstr ""
+
+#: ../../docs/classes/class_arvrpositionaltracker.rst:26
+msgid "Tutorials"
+msgstr ""
+
+#: ../../docs/classes/class_arvrpositionaltracker.rst:28
+msgid ":doc:`../tutorials/vr/index`"
+msgstr ""
+
+#: ../../docs/classes/class_arvrpositionaltracker.rst:31
+msgid "Properties"
+msgstr ""
+
+#: ../../docs/classes/class_arvrpositionaltracker.rst:34
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../../docs/classes/class_arvrpositionaltracker.rst:34
+msgid ":ref:`rumble<class_ARVRPositionalTracker_property_rumble>`"
+msgstr ""
+
+#: ../../docs/classes/class_arvrpositionaltracker.rst:34
+#: ../../docs/classes/class_arvrpositionaltracker.rst:91
+msgid "``0.0``"
+msgstr ""
+
+#: ../../docs/classes/class_arvrpositionaltracker.rst:38
+msgid "Methods"
+msgstr ""
+
+#: ../../docs/classes/class_arvrpositionaltracker.rst:41
+msgid ":ref:`TrackerHand<enum_ARVRPositionalTracker_TrackerHand>`"
+msgstr ""
+
+#: ../../docs/classes/class_arvrpositionaltracker.rst:41
+msgid ":ref:`get_hand<class_ARVRPositionalTracker_method_get_hand>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_arvrpositionaltracker.rst:43
+#: ../../docs/classes/class_arvrpositionaltracker.rst:53
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../../docs/classes/class_arvrpositionaltracker.rst:43
+msgid ":ref:`get_joy_id<class_ARVRPositionalTracker_method_get_joy_id>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_arvrpositionaltracker.rst:45
+msgid ":ref:`Mesh<class_Mesh>`"
+msgstr ""
+
+#: ../../docs/classes/class_arvrpositionaltracker.rst:45
+msgid ":ref:`get_mesh<class_ARVRPositionalTracker_method_get_mesh>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_arvrpositionaltracker.rst:47
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../../docs/classes/class_arvrpositionaltracker.rst:47
+msgid ":ref:`get_name<class_ARVRPositionalTracker_method_get_name>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_arvrpositionaltracker.rst:49
+msgid ":ref:`Basis<class_Basis>`"
+msgstr ""
+
+#: ../../docs/classes/class_arvrpositionaltracker.rst:49
+msgid ":ref:`get_orientation<class_ARVRPositionalTracker_method_get_orientation>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_arvrpositionaltracker.rst:51
+msgid ":ref:`Vector3<class_Vector3>`"
+msgstr ""
+
+#: ../../docs/classes/class_arvrpositionaltracker.rst:51
+msgid ":ref:`get_position<class_ARVRPositionalTracker_method_get_position>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_arvrpositionaltracker.rst:53
+msgid ":ref:`get_tracker_id<class_ARVRPositionalTracker_method_get_tracker_id>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_arvrpositionaltracker.rst:55
+#: ../../docs/classes/class_arvrpositionaltracker.rst:57
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_arvrpositionaltracker.rst:55
+msgid ":ref:`get_tracks_orientation<class_ARVRPositionalTracker_method_get_tracks_orientation>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_arvrpositionaltracker.rst:57
+msgid ":ref:`get_tracks_position<class_ARVRPositionalTracker_method_get_tracks_position>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_arvrpositionaltracker.rst:59
+msgid ":ref:`Transform<class_Transform>`"
+msgstr ""
+
+#: ../../docs/classes/class_arvrpositionaltracker.rst:59
+msgid ":ref:`get_transform<class_ARVRPositionalTracker_method_get_transform>` **(** :ref:`bool<class_bool>` adjust_by_reference_frame **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_arvrpositionaltracker.rst:61
+msgid ":ref:`TrackerType<enum_ARVRServer_TrackerType>`"
+msgstr ""
+
+#: ../../docs/classes/class_arvrpositionaltracker.rst:61
+msgid ":ref:`get_type<class_ARVRPositionalTracker_method_get_type>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_arvrpositionaltracker.rst:65
+msgid "Enumerations"
+msgstr ""
+
+#: ../../docs/classes/class_arvrpositionaltracker.rst:75
+msgid "enum **TrackerHand**:"
+msgstr ""
+
+#: ../../docs/classes/class_arvrpositionaltracker.rst:77
+msgid "**TRACKER_HAND_UNKNOWN** = **0** --- The hand this tracker is held in is unknown or not applicable."
+msgstr ""
+
+#: ../../docs/classes/class_arvrpositionaltracker.rst:79
+msgid "**TRACKER_LEFT_HAND** = **1** --- This tracker is the left hand controller."
+msgstr ""
+
+#: ../../docs/classes/class_arvrpositionaltracker.rst:81
+msgid "**TRACKER_RIGHT_HAND** = **2** --- This tracker is the right hand controller."
+msgstr ""
+
+#: ../../docs/classes/class_arvrpositionaltracker.rst:84
+msgid "Property Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_arvrpositionaltracker.rst:88
+msgid ":ref:`float<class_float>` **rumble**"
+msgstr ""
+
+#: ../../docs/classes/class_arvrpositionaltracker.rst:91
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_arvrpositionaltracker.rst:93
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_arvrpositionaltracker.rst:93
+msgid "set_rumble(value)"
+msgstr ""
+
+#: ../../docs/classes/class_arvrpositionaltracker.rst:95
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_arvrpositionaltracker.rst:95
+msgid "get_rumble()"
+msgstr ""
+
+#: ../../docs/classes/class_arvrpositionaltracker.rst:98
+msgid "The degree to which the tracker rumbles. Ranges from ``0.0`` to ``1.0`` with precision ``.01``."
+msgstr ""
+
+#: ../../docs/classes/class_arvrpositionaltracker.rst:101
+msgid "Method Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_arvrpositionaltracker.rst:105
+msgid ":ref:`TrackerHand<enum_ARVRPositionalTracker_TrackerHand>` **get_hand** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_arvrpositionaltracker.rst:107
+msgid "Returns the hand holding this tracker, if known. See :ref:`TrackerHand<enum_ARVRPositionalTracker_TrackerHand>` constants."
+msgstr ""
+
+#: ../../docs/classes/class_arvrpositionaltracker.rst:113
+msgid ":ref:`int<class_int>` **get_joy_id** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_arvrpositionaltracker.rst:115
+msgid "If this is a controller that is being tracked, the controller will also be represented by a joystick entry with this ID."
+msgstr ""
+
+#: ../../docs/classes/class_arvrpositionaltracker.rst:121
+msgid ":ref:`Mesh<class_Mesh>` **get_mesh** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_arvrpositionaltracker.rst:123
+msgid "Returns the mesh related to a controller or anchor point if one is available."
+msgstr ""
+
+#: ../../docs/classes/class_arvrpositionaltracker.rst:129
+msgid ":ref:`String<class_String>` **get_name** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_arvrpositionaltracker.rst:131
+msgid "Returns the controller or anchor point's name if available."
+msgstr ""
+
+#: ../../docs/classes/class_arvrpositionaltracker.rst:137
+msgid ":ref:`Basis<class_Basis>` **get_orientation** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_arvrpositionaltracker.rst:139
+msgid "Returns the controller's orientation matrix."
+msgstr ""
+
+#: ../../docs/classes/class_arvrpositionaltracker.rst:145
+msgid ":ref:`Vector3<class_Vector3>` **get_position** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_arvrpositionaltracker.rst:147
+msgid "Returns the world-space controller position."
+msgstr ""
+
+#: ../../docs/classes/class_arvrpositionaltracker.rst:153
+msgid ":ref:`int<class_int>` **get_tracker_id** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_arvrpositionaltracker.rst:155
+msgid "Returns the internal tracker ID. This uniquely identifies the tracker per tracker type and matches the ID you need to specify for nodes such as the :ref:`ARVRController<class_ARVRController>` and :ref:`ARVRAnchor<class_ARVRAnchor>` nodes."
+msgstr ""
+
+#: ../../docs/classes/class_arvrpositionaltracker.rst:161
+msgid ":ref:`bool<class_bool>` **get_tracks_orientation** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_arvrpositionaltracker.rst:163
+msgid "Returns ``true`` if this device tracks orientation."
+msgstr ""
+
+#: ../../docs/classes/class_arvrpositionaltracker.rst:169
+msgid ":ref:`bool<class_bool>` **get_tracks_position** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_arvrpositionaltracker.rst:171
+msgid "Returns ``true`` if this device tracks position."
+msgstr ""
+
+#: ../../docs/classes/class_arvrpositionaltracker.rst:177
+msgid ":ref:`Transform<class_Transform>` **get_transform** **(** :ref:`bool<class_bool>` adjust_by_reference_frame **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_arvrpositionaltracker.rst:179
+msgid "Returns the transform combining this device's orientation and position."
+msgstr ""
+
+#: ../../docs/classes/class_arvrpositionaltracker.rst:185
+msgid ":ref:`TrackerType<enum_ARVRServer_TrackerType>` **get_type** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_arvrpositionaltracker.rst:187
+msgid "Returns the tracker's type."
+msgstr ""

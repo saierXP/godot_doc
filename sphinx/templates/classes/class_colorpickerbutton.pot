@@ -1,0 +1,304 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_colorpickerbutton.rst:10
+msgid "ColorPickerButton"
+msgstr ""
+
+#: ../../docs/classes/class_colorpickerbutton.rst:12
+msgid "**Inherits:** :ref:`Button<class_Button>` **<** :ref:`BaseButton<class_BaseButton>` **<** :ref:`Control<class_Control>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_colorpickerbutton.rst:14
+msgid "Button that pops out a :ref:`ColorPicker<class_ColorPicker>`."
+msgstr ""
+
+#: ../../docs/classes/class_colorpickerbutton.rst:17
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_colorpickerbutton.rst:19
+msgid "Encapsulates a :ref:`ColorPicker<class_ColorPicker>` making it accessible by pressing a button. Pressing the button will toggle the :ref:`ColorPicker<class_ColorPicker>` visibility."
+msgstr ""
+
+#: ../../docs/classes/class_colorpickerbutton.rst:21
+msgid "See also :ref:`BaseButton<class_BaseButton>` which contains common properties and methods associated with this node."
+msgstr ""
+
+#: ../../docs/classes/class_colorpickerbutton.rst:24
+msgid "Tutorials"
+msgstr ""
+
+#: ../../docs/classes/class_colorpickerbutton.rst:26
+msgid "`https://godotengine.org/asset-library/asset/133 <https://godotengine.org/asset-library/asset/133>`_"
+msgstr ""
+
+#: ../../docs/classes/class_colorpickerbutton.rst:28
+msgid "`https://godotengine.org/asset-library/asset/517 <https://godotengine.org/asset-library/asset/517>`_"
+msgstr ""
+
+#: ../../docs/classes/class_colorpickerbutton.rst:31
+msgid "Properties"
+msgstr ""
+
+#: ../../docs/classes/class_colorpickerbutton.rst:34
+#: ../../docs/classes/class_colorpickerbutton.rst:62
+#: ../../docs/classes/class_colorpickerbutton.rst:64
+#: ../../docs/classes/class_colorpickerbutton.rst:66
+#: ../../docs/classes/class_colorpickerbutton.rst:68
+msgid ":ref:`Color<class_Color>`"
+msgstr ""
+
+#: ../../docs/classes/class_colorpickerbutton.rst:34
+msgid ":ref:`color<class_ColorPickerButton_property_color>`"
+msgstr ""
+
+#: ../../docs/classes/class_colorpickerbutton.rst:34
+#: ../../docs/classes/class_colorpickerbutton.rst:112
+msgid "``Color( 0, 0, 0, 1 )``"
+msgstr ""
+
+#: ../../docs/classes/class_colorpickerbutton.rst:36
+#: ../../docs/classes/class_colorpickerbutton.rst:38
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_colorpickerbutton.rst:36
+msgid ":ref:`edit_alpha<class_ColorPickerButton_property_edit_alpha>`"
+msgstr ""
+
+#: ../../docs/classes/class_colorpickerbutton.rst:36
+#: ../../docs/classes/class_colorpickerbutton.rst:128
+msgid "``true``"
+msgstr ""
+
+#: ../../docs/classes/class_colorpickerbutton.rst:38
+msgid "toggle_mode"
+msgstr ""
+
+#: ../../docs/classes/class_colorpickerbutton.rst:38
+msgid "``true`` *(parent override)*"
+msgstr ""
+
+#: ../../docs/classes/class_colorpickerbutton.rst:42
+msgid "Methods"
+msgstr ""
+
+#: ../../docs/classes/class_colorpickerbutton.rst:45
+msgid ":ref:`ColorPicker<class_ColorPicker>`"
+msgstr ""
+
+#: ../../docs/classes/class_colorpickerbutton.rst:45
+msgid ":ref:`get_picker<class_ColorPickerButton_method_get_picker>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_colorpickerbutton.rst:47
+msgid ":ref:`PopupPanel<class_PopupPanel>`"
+msgstr ""
+
+#: ../../docs/classes/class_colorpickerbutton.rst:47
+msgid ":ref:`get_popup<class_ColorPickerButton_method_get_popup>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_colorpickerbutton.rst:51
+msgid "Theme Properties"
+msgstr ""
+
+#: ../../docs/classes/class_colorpickerbutton.rst:54
+msgid ":ref:`Texture<class_Texture>`"
+msgstr ""
+
+#: ../../docs/classes/class_colorpickerbutton.rst:54
+msgid "bg"
+msgstr ""
+
+#: ../../docs/classes/class_colorpickerbutton.rst:56
+#: ../../docs/classes/class_colorpickerbutton.rst:58
+#: ../../docs/classes/class_colorpickerbutton.rst:70
+#: ../../docs/classes/class_colorpickerbutton.rst:74
+#: ../../docs/classes/class_colorpickerbutton.rst:76
+msgid ":ref:`StyleBox<class_StyleBox>`"
+msgstr ""
+
+#: ../../docs/classes/class_colorpickerbutton.rst:56
+msgid "disabled"
+msgstr ""
+
+#: ../../docs/classes/class_colorpickerbutton.rst:58
+msgid "focus"
+msgstr ""
+
+#: ../../docs/classes/class_colorpickerbutton.rst:60
+msgid ":ref:`Font<class_Font>`"
+msgstr ""
+
+#: ../../docs/classes/class_colorpickerbutton.rst:60
+msgid "font"
+msgstr ""
+
+#: ../../docs/classes/class_colorpickerbutton.rst:62
+msgid "font_color"
+msgstr ""
+
+#: ../../docs/classes/class_colorpickerbutton.rst:62
+#: ../../docs/classes/class_colorpickerbutton.rst:66
+msgid "Color( 1, 1, 1, 1 )"
+msgstr ""
+
+#: ../../docs/classes/class_colorpickerbutton.rst:64
+msgid "font_color_disabled"
+msgstr ""
+
+#: ../../docs/classes/class_colorpickerbutton.rst:64
+msgid "Color( 0.9, 0.9, 0.9, 0.3 )"
+msgstr ""
+
+#: ../../docs/classes/class_colorpickerbutton.rst:66
+msgid "font_color_hover"
+msgstr ""
+
+#: ../../docs/classes/class_colorpickerbutton.rst:68
+msgid "font_color_pressed"
+msgstr ""
+
+#: ../../docs/classes/class_colorpickerbutton.rst:68
+msgid "Color( 0.8, 0.8, 0.8, 1 )"
+msgstr ""
+
+#: ../../docs/classes/class_colorpickerbutton.rst:70
+msgid "hover"
+msgstr ""
+
+#: ../../docs/classes/class_colorpickerbutton.rst:72
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../../docs/classes/class_colorpickerbutton.rst:72
+msgid "hseparation"
+msgstr ""
+
+#: ../../docs/classes/class_colorpickerbutton.rst:72
+msgid "2"
+msgstr ""
+
+#: ../../docs/classes/class_colorpickerbutton.rst:74
+msgid "normal"
+msgstr ""
+
+#: ../../docs/classes/class_colorpickerbutton.rst:76
+msgid "pressed"
+msgstr ""
+
+#: ../../docs/classes/class_colorpickerbutton.rst:80
+msgid "Signals"
+msgstr ""
+
+#: ../../docs/classes/class_colorpickerbutton.rst:84
+msgid "**color_changed** **(** :ref:`Color<class_Color>` color **)**"
+msgstr ""
+
+#: ../../docs/classes/class_colorpickerbutton.rst:86
+msgid "Emitted when the color changes."
+msgstr ""
+
+#: ../../docs/classes/class_colorpickerbutton.rst:92
+msgid "**picker_created** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_colorpickerbutton.rst:94
+msgid "Emitted when the :ref:`ColorPicker<class_ColorPicker>` is created (the button is pressed for the first time)."
+msgstr ""
+
+#: ../../docs/classes/class_colorpickerbutton.rst:100
+msgid "**popup_closed** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_colorpickerbutton.rst:102
+msgid "Emitted when the :ref:`ColorPicker<class_ColorPicker>` is closed."
+msgstr ""
+
+#: ../../docs/classes/class_colorpickerbutton.rst:105
+msgid "Property Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_colorpickerbutton.rst:109
+msgid ":ref:`Color<class_Color>` **color**"
+msgstr ""
+
+#: ../../docs/classes/class_colorpickerbutton.rst:112
+#: ../../docs/classes/class_colorpickerbutton.rst:128
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_colorpickerbutton.rst:114
+#: ../../docs/classes/class_colorpickerbutton.rst:130
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_colorpickerbutton.rst:114
+msgid "set_pick_color(value)"
+msgstr ""
+
+#: ../../docs/classes/class_colorpickerbutton.rst:116
+#: ../../docs/classes/class_colorpickerbutton.rst:132
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_colorpickerbutton.rst:116
+msgid "get_pick_color()"
+msgstr ""
+
+#: ../../docs/classes/class_colorpickerbutton.rst:119
+msgid "The currently selected color."
+msgstr ""
+
+#: ../../docs/classes/class_colorpickerbutton.rst:125
+msgid ":ref:`bool<class_bool>` **edit_alpha**"
+msgstr ""
+
+#: ../../docs/classes/class_colorpickerbutton.rst:130
+msgid "set_edit_alpha(value)"
+msgstr ""
+
+#: ../../docs/classes/class_colorpickerbutton.rst:132
+msgid "is_editing_alpha()"
+msgstr ""
+
+#: ../../docs/classes/class_colorpickerbutton.rst:135
+msgid "If ``true``, the alpha channel in the displayed :ref:`ColorPicker<class_ColorPicker>` will be visible."
+msgstr ""
+
+#: ../../docs/classes/class_colorpickerbutton.rst:138
+msgid "Method Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_colorpickerbutton.rst:142
+msgid ":ref:`ColorPicker<class_ColorPicker>` **get_picker** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_colorpickerbutton.rst:144
+msgid "Returns the :ref:`ColorPicker<class_ColorPicker>` that this node toggles."
+msgstr ""
+
+#: ../../docs/classes/class_colorpickerbutton.rst:150
+msgid ":ref:`PopupPanel<class_PopupPanel>` **get_popup** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_colorpickerbutton.rst:152
+msgid "Returns the control's :ref:`PopupPanel<class_PopupPanel>` which allows you to connect to popup signals. This allows you to handle events when the ColorPicker is shown or hidden."
+msgstr ""

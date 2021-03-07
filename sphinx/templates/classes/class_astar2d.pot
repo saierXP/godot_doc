@@ -1,0 +1,419 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_astar2d.rst:10
+msgid "AStar2D"
+msgstr ""
+
+#: ../../docs/classes/class_astar2d.rst:12
+msgid "**Inherits:** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_astar2d.rst:14
+msgid "AStar class representation that uses 2D vectors as edges."
+msgstr ""
+
+#: ../../docs/classes/class_astar2d.rst:17
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_astar2d.rst:19
+msgid "This is a wrapper for the :ref:`AStar<class_AStar>` class which uses 2D vectors instead of 3D vectors."
+msgstr ""
+
+#: ../../docs/classes/class_astar2d.rst:22
+msgid "Methods"
+msgstr ""
+
+#: ../../docs/classes/class_astar2d.rst:25
+#: ../../docs/classes/class_astar2d.rst:27
+#: ../../docs/classes/class_astar2d.rst:57
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../../docs/classes/class_astar2d.rst:25
+msgid ":ref:`_compute_cost<class_AStar2D_method__compute_cost>` **(** :ref:`int<class_int>` from_id, :ref:`int<class_int>` to_id **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_astar2d.rst:27
+msgid ":ref:`_estimate_cost<class_AStar2D_method__estimate_cost>` **(** :ref:`int<class_int>` from_id, :ref:`int<class_int>` to_id **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_astar2d.rst:29
+#: ../../docs/classes/class_astar2d.rst:33
+#: ../../docs/classes/class_astar2d.rst:35
+#: ../../docs/classes/class_astar2d.rst:37
+#: ../../docs/classes/class_astar2d.rst:65
+#: ../../docs/classes/class_astar2d.rst:67
+#: ../../docs/classes/class_astar2d.rst:69
+#: ../../docs/classes/class_astar2d.rst:71
+#: ../../docs/classes/class_astar2d.rst:73
+msgid "void"
+msgstr ""
+
+#: ../../docs/classes/class_astar2d.rst:29
+msgid ":ref:`add_point<class_AStar2D_method_add_point>` **(** :ref:`int<class_int>` id, :ref:`Vector2<class_Vector2>` position, :ref:`float<class_float>` weight_scale=1.0 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_astar2d.rst:31
+#: ../../docs/classes/class_astar2d.rst:61
+#: ../../docs/classes/class_astar2d.rst:63
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_astar2d.rst:31
+msgid ":ref:`are_points_connected<class_AStar2D_method_are_points_connected>` **(** :ref:`int<class_int>` id, :ref:`int<class_int>` to_id **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_astar2d.rst:33
+msgid ":ref:`clear<class_AStar2D_method_clear>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_astar2d.rst:35
+msgid ":ref:`connect_points<class_AStar2D_method_connect_points>` **(** :ref:`int<class_int>` id, :ref:`int<class_int>` to_id, :ref:`bool<class_bool>` bidirectional=true **)**"
+msgstr ""
+
+#: ../../docs/classes/class_astar2d.rst:37
+msgid ":ref:`disconnect_points<class_AStar2D_method_disconnect_points>` **(** :ref:`int<class_int>` id, :ref:`int<class_int>` to_id **)**"
+msgstr ""
+
+#: ../../docs/classes/class_astar2d.rst:39
+#: ../../docs/classes/class_astar2d.rst:41
+#: ../../docs/classes/class_astar2d.rst:47
+#: ../../docs/classes/class_astar2d.rst:51
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../../docs/classes/class_astar2d.rst:39
+msgid ":ref:`get_available_point_id<class_AStar2D_method_get_available_point_id>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_astar2d.rst:41
+msgid ":ref:`get_closest_point<class_AStar2D_method_get_closest_point>` **(** :ref:`Vector2<class_Vector2>` to_position, :ref:`bool<class_bool>` include_disabled=false **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_astar2d.rst:43
+#: ../../docs/classes/class_astar2d.rst:55
+msgid ":ref:`Vector2<class_Vector2>`"
+msgstr ""
+
+#: ../../docs/classes/class_astar2d.rst:43
+msgid ":ref:`get_closest_position_in_segment<class_AStar2D_method_get_closest_position_in_segment>` **(** :ref:`Vector2<class_Vector2>` to_position **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_astar2d.rst:45
+#: ../../docs/classes/class_astar2d.rst:49
+msgid ":ref:`PoolIntArray<class_PoolIntArray>`"
+msgstr ""
+
+#: ../../docs/classes/class_astar2d.rst:45
+msgid ":ref:`get_id_path<class_AStar2D_method_get_id_path>` **(** :ref:`int<class_int>` from_id, :ref:`int<class_int>` to_id **)**"
+msgstr ""
+
+#: ../../docs/classes/class_astar2d.rst:47
+msgid ":ref:`get_point_capacity<class_AStar2D_method_get_point_capacity>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_astar2d.rst:49
+msgid ":ref:`get_point_connections<class_AStar2D_method_get_point_connections>` **(** :ref:`int<class_int>` id **)**"
+msgstr ""
+
+#: ../../docs/classes/class_astar2d.rst:51
+msgid ":ref:`get_point_count<class_AStar2D_method_get_point_count>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_astar2d.rst:53
+msgid ":ref:`PoolVector2Array<class_PoolVector2Array>`"
+msgstr ""
+
+#: ../../docs/classes/class_astar2d.rst:53
+msgid ":ref:`get_point_path<class_AStar2D_method_get_point_path>` **(** :ref:`int<class_int>` from_id, :ref:`int<class_int>` to_id **)**"
+msgstr ""
+
+#: ../../docs/classes/class_astar2d.rst:55
+msgid ":ref:`get_point_position<class_AStar2D_method_get_point_position>` **(** :ref:`int<class_int>` id **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_astar2d.rst:57
+msgid ":ref:`get_point_weight_scale<class_AStar2D_method_get_point_weight_scale>` **(** :ref:`int<class_int>` id **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_astar2d.rst:59
+msgid ":ref:`Array<class_Array>`"
+msgstr ""
+
+#: ../../docs/classes/class_astar2d.rst:59
+msgid ":ref:`get_points<class_AStar2D_method_get_points>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_astar2d.rst:61
+msgid ":ref:`has_point<class_AStar2D_method_has_point>` **(** :ref:`int<class_int>` id **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_astar2d.rst:63
+msgid ":ref:`is_point_disabled<class_AStar2D_method_is_point_disabled>` **(** :ref:`int<class_int>` id **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_astar2d.rst:65
+msgid ":ref:`remove_point<class_AStar2D_method_remove_point>` **(** :ref:`int<class_int>` id **)**"
+msgstr ""
+
+#: ../../docs/classes/class_astar2d.rst:67
+msgid ":ref:`reserve_space<class_AStar2D_method_reserve_space>` **(** :ref:`int<class_int>` num_nodes **)**"
+msgstr ""
+
+#: ../../docs/classes/class_astar2d.rst:69
+msgid ":ref:`set_point_disabled<class_AStar2D_method_set_point_disabled>` **(** :ref:`int<class_int>` id, :ref:`bool<class_bool>` disabled=true **)**"
+msgstr ""
+
+#: ../../docs/classes/class_astar2d.rst:71
+msgid ":ref:`set_point_position<class_AStar2D_method_set_point_position>` **(** :ref:`int<class_int>` id, :ref:`Vector2<class_Vector2>` position **)**"
+msgstr ""
+
+#: ../../docs/classes/class_astar2d.rst:73
+msgid ":ref:`set_point_weight_scale<class_AStar2D_method_set_point_weight_scale>` **(** :ref:`int<class_int>` id, :ref:`float<class_float>` weight_scale **)**"
+msgstr ""
+
+#: ../../docs/classes/class_astar2d.rst:77
+msgid "Method Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_astar2d.rst:81
+msgid ":ref:`float<class_float>` **_compute_cost** **(** :ref:`int<class_int>` from_id, :ref:`int<class_int>` to_id **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_astar2d.rst:83
+msgid "Called when computing the cost between two connected points."
+msgstr ""
+
+#: ../../docs/classes/class_astar2d.rst:85
+#: ../../docs/classes/class_astar2d.rst:95
+msgid "Note that this function is hidden in the default ``AStar2D`` class."
+msgstr ""
+
+#: ../../docs/classes/class_astar2d.rst:91
+msgid ":ref:`float<class_float>` **_estimate_cost** **(** :ref:`int<class_int>` from_id, :ref:`int<class_int>` to_id **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_astar2d.rst:93
+msgid "Called when estimating the cost between a point and the path's ending point."
+msgstr ""
+
+#: ../../docs/classes/class_astar2d.rst:101
+msgid "void **add_point** **(** :ref:`int<class_int>` id, :ref:`Vector2<class_Vector2>` position, :ref:`float<class_float>` weight_scale=1.0 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_astar2d.rst:103
+msgid "Adds a new point at the given position with the given identifier. The ``id`` must be 0 or larger, and the ``weight_scale`` must be 1 or larger."
+msgstr ""
+
+#: ../../docs/classes/class_astar2d.rst:105
+msgid "The ``weight_scale`` is multiplied by the result of :ref:`_compute_cost<class_AStar2D_method__compute_cost>` when determining the overall cost of traveling across a segment from a neighboring point to this point. Thus, all else being equal, the algorithm prefers points with lower ``weight_scale``\\ s to form a path."
+msgstr ""
+
+#: ../../docs/classes/class_astar2d.rst:112
+msgid "If there already exists a point for the given ``id``, its position and weight scale are updated to the given values."
+msgstr ""
+
+#: ../../docs/classes/class_astar2d.rst:118
+msgid ":ref:`bool<class_bool>` **are_points_connected** **(** :ref:`int<class_int>` id, :ref:`int<class_int>` to_id **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_astar2d.rst:120
+msgid "Returns whether there is a connection/segment between the given points."
+msgstr ""
+
+#: ../../docs/classes/class_astar2d.rst:126
+msgid "void **clear** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_astar2d.rst:128
+msgid "Clears all the points and segments."
+msgstr ""
+
+#: ../../docs/classes/class_astar2d.rst:134
+msgid "void **connect_points** **(** :ref:`int<class_int>` id, :ref:`int<class_int>` to_id, :ref:`bool<class_bool>` bidirectional=true **)**"
+msgstr ""
+
+#: ../../docs/classes/class_astar2d.rst:136
+msgid "Creates a segment between the given points. If ``bidirectional`` is ``false``, only movement from ``id`` to ``to_id`` is allowed, not the reverse direction."
+msgstr ""
+
+#: ../../docs/classes/class_astar2d.rst:149
+msgid "void **disconnect_points** **(** :ref:`int<class_int>` id, :ref:`int<class_int>` to_id **)**"
+msgstr ""
+
+#: ../../docs/classes/class_astar2d.rst:151
+msgid "Deletes the segment between the given points."
+msgstr ""
+
+#: ../../docs/classes/class_astar2d.rst:157
+msgid ":ref:`int<class_int>` **get_available_point_id** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_astar2d.rst:159
+msgid "Returns the next available point ID with no point associated to it."
+msgstr ""
+
+#: ../../docs/classes/class_astar2d.rst:165
+msgid ":ref:`int<class_int>` **get_closest_point** **(** :ref:`Vector2<class_Vector2>` to_position, :ref:`bool<class_bool>` include_disabled=false **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_astar2d.rst:167
+msgid "Returns the ID of the closest point to ``to_position``, optionally taking disabled points into account. Returns ``-1`` if there are no points in the points pool."
+msgstr ""
+
+#: ../../docs/classes/class_astar2d.rst:169
+msgid "**Note:** If several points are the closest to ``to_position``, the one with the smallest ID will be returned, ensuring a deterministic result."
+msgstr ""
+
+#: ../../docs/classes/class_astar2d.rst:175
+msgid ":ref:`Vector2<class_Vector2>` **get_closest_position_in_segment** **(** :ref:`Vector2<class_Vector2>` to_position **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_astar2d.rst:177
+msgid "Returns the closest position to ``to_position`` that resides inside a segment between two connected points."
+msgstr ""
+
+#: ../../docs/classes/class_astar2d.rst:187
+msgid "The result is in the segment that goes from ``y = 0`` to ``y = 5``. It's the closest position in the segment to the given point."
+msgstr ""
+
+#: ../../docs/classes/class_astar2d.rst:193
+msgid ":ref:`PoolIntArray<class_PoolIntArray>` **get_id_path** **(** :ref:`int<class_int>` from_id, :ref:`int<class_int>` to_id **)**"
+msgstr ""
+
+#: ../../docs/classes/class_astar2d.rst:195
+msgid "Returns an array with the IDs of the points that form the path found by AStar2D between the given points. The array is ordered from the starting point to the ending point of the path."
+msgstr ""
+
+#: ../../docs/classes/class_astar2d.rst:212
+msgid "If you change the 2nd point's weight to 3, then the result will be ``[1, 4, 3]`` instead, because now even though the distance is longer, it's \"easier\" to get through point 4 than through point 2."
+msgstr ""
+
+#: ../../docs/classes/class_astar2d.rst:218
+msgid ":ref:`int<class_int>` **get_point_capacity** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_astar2d.rst:220
+msgid "Returns the capacity of the structure backing the points, useful in conjunction with ``reserve_space``."
+msgstr ""
+
+#: ../../docs/classes/class_astar2d.rst:226
+msgid ":ref:`PoolIntArray<class_PoolIntArray>` **get_point_connections** **(** :ref:`int<class_int>` id **)**"
+msgstr ""
+
+#: ../../docs/classes/class_astar2d.rst:228
+msgid "Returns an array with the IDs of the points that form the connection with the given point."
+msgstr ""
+
+#: ../../docs/classes/class_astar2d.rst:247
+msgid ":ref:`int<class_int>` **get_point_count** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_astar2d.rst:249
+msgid "Returns the number of points currently in the points pool."
+msgstr ""
+
+#: ../../docs/classes/class_astar2d.rst:255
+msgid ":ref:`PoolVector2Array<class_PoolVector2Array>` **get_point_path** **(** :ref:`int<class_int>` from_id, :ref:`int<class_int>` to_id **)**"
+msgstr ""
+
+#: ../../docs/classes/class_astar2d.rst:257
+msgid "Returns an array with the points that are in the path found by AStar2D between the given points. The array is ordered from the starting point to the ending point of the path."
+msgstr ""
+
+#: ../../docs/classes/class_astar2d.rst:263
+msgid ":ref:`Vector2<class_Vector2>` **get_point_position** **(** :ref:`int<class_int>` id **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_astar2d.rst:265
+msgid "Returns the position of the point associated with the given ``id``."
+msgstr ""
+
+#: ../../docs/classes/class_astar2d.rst:271
+msgid ":ref:`float<class_float>` **get_point_weight_scale** **(** :ref:`int<class_int>` id **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_astar2d.rst:273
+msgid "Returns the weight scale of the point associated with the given ``id``."
+msgstr ""
+
+#: ../../docs/classes/class_astar2d.rst:279
+msgid ":ref:`Array<class_Array>` **get_points** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_astar2d.rst:281
+msgid "Returns an array of all points."
+msgstr ""
+
+#: ../../docs/classes/class_astar2d.rst:287
+msgid ":ref:`bool<class_bool>` **has_point** **(** :ref:`int<class_int>` id **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_astar2d.rst:289
+msgid "Returns whether a point associated with the given ``id`` exists."
+msgstr ""
+
+#: ../../docs/classes/class_astar2d.rst:295
+msgid ":ref:`bool<class_bool>` **is_point_disabled** **(** :ref:`int<class_int>` id **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_astar2d.rst:297
+msgid "Returns whether a point is disabled or not for pathfinding. By default, all points are enabled."
+msgstr ""
+
+#: ../../docs/classes/class_astar2d.rst:303
+msgid "void **remove_point** **(** :ref:`int<class_int>` id **)**"
+msgstr ""
+
+#: ../../docs/classes/class_astar2d.rst:305
+msgid "Removes the point associated with the given ``id`` from the points pool."
+msgstr ""
+
+#: ../../docs/classes/class_astar2d.rst:311
+msgid "void **reserve_space** **(** :ref:`int<class_int>` num_nodes **)**"
+msgstr ""
+
+#: ../../docs/classes/class_astar2d.rst:313
+msgid "Reserves space internally for ``num_nodes`` points, useful if you're adding a known large number of points at once, for a grid for instance. New capacity must be greater or equals to old capacity."
+msgstr ""
+
+#: ../../docs/classes/class_astar2d.rst:319
+msgid "void **set_point_disabled** **(** :ref:`int<class_int>` id, :ref:`bool<class_bool>` disabled=true **)**"
+msgstr ""
+
+#: ../../docs/classes/class_astar2d.rst:321
+msgid "Disables or enables the specified point for pathfinding. Useful for making a temporary obstacle."
+msgstr ""
+
+#: ../../docs/classes/class_astar2d.rst:327
+msgid "void **set_point_position** **(** :ref:`int<class_int>` id, :ref:`Vector2<class_Vector2>` position **)**"
+msgstr ""
+
+#: ../../docs/classes/class_astar2d.rst:329
+msgid "Sets the ``position`` for the point with the given ``id``."
+msgstr ""
+
+#: ../../docs/classes/class_astar2d.rst:335
+msgid "void **set_point_weight_scale** **(** :ref:`int<class_int>` id, :ref:`float<class_float>` weight_scale **)**"
+msgstr ""
+
+#: ../../docs/classes/class_astar2d.rst:337
+msgid "Sets the ``weight_scale`` for the point with the given ``id``. The ``weight_scale`` is multiplied by the result of :ref:`_compute_cost<class_AStar2D_method__compute_cost>` when determining the overall cost of traveling across a segment from a neighboring point to this point."
+msgstr ""

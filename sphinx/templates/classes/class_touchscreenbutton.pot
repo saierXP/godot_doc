@@ -1,0 +1,371 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_touchscreenbutton.rst:10
+msgid "TouchScreenButton"
+msgstr ""
+
+#: ../../docs/classes/class_touchscreenbutton.rst:12
+msgid "**Inherits:** :ref:`Node2D<class_Node2D>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_touchscreenbutton.rst:14
+msgid "Button for touch screen devices for gameplay use."
+msgstr ""
+
+#: ../../docs/classes/class_touchscreenbutton.rst:17
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_touchscreenbutton.rst:19
+msgid "TouchScreenButton allows you to create on-screen buttons for touch devices. It's intended for gameplay use, such as a unit you have to touch to move."
+msgstr ""
+
+#: ../../docs/classes/class_touchscreenbutton.rst:21
+msgid "This node inherits from :ref:`Node2D<class_Node2D>`. Unlike with :ref:`Control<class_Control>` nodes, you cannot set anchors on it. If you want to create menus or user interfaces, you may want to use :ref:`Button<class_Button>` nodes instead. To make button nodes react to touch events, you can enable the Emulate Mouse option in the Project Settings."
+msgstr ""
+
+#: ../../docs/classes/class_touchscreenbutton.rst:23
+msgid "You can configure TouchScreenButton to be visible only on touch devices, helping you develop your game both for desktop and mobile devices."
+msgstr ""
+
+#: ../../docs/classes/class_touchscreenbutton.rst:26
+msgid "Properties"
+msgstr ""
+
+#: ../../docs/classes/class_touchscreenbutton.rst:29
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../../docs/classes/class_touchscreenbutton.rst:29
+msgid ":ref:`action<class_TouchScreenButton_property_action>`"
+msgstr ""
+
+#: ../../docs/classes/class_touchscreenbutton.rst:29
+#: ../../docs/classes/class_touchscreenbutton.rst:95
+msgid "``\"\"``"
+msgstr ""
+
+#: ../../docs/classes/class_touchscreenbutton.rst:31
+msgid ":ref:`BitMap<class_BitMap>`"
+msgstr ""
+
+#: ../../docs/classes/class_touchscreenbutton.rst:31
+msgid ":ref:`bitmask<class_TouchScreenButton_property_bitmask>`"
+msgstr ""
+
+#: ../../docs/classes/class_touchscreenbutton.rst:33
+#: ../../docs/classes/class_touchscreenbutton.rst:37
+msgid ":ref:`Texture<class_Texture>`"
+msgstr ""
+
+#: ../../docs/classes/class_touchscreenbutton.rst:33
+msgid ":ref:`normal<class_TouchScreenButton_property_normal>`"
+msgstr ""
+
+#: ../../docs/classes/class_touchscreenbutton.rst:35
+#: ../../docs/classes/class_touchscreenbutton.rst:41
+#: ../../docs/classes/class_touchscreenbutton.rst:43
+#: ../../docs/classes/class_touchscreenbutton.rst:52
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_touchscreenbutton.rst:35
+msgid ":ref:`passby_press<class_TouchScreenButton_property_passby_press>`"
+msgstr ""
+
+#: ../../docs/classes/class_touchscreenbutton.rst:35
+#: ../../docs/classes/class_touchscreenbutton.rst:139
+msgid "``false``"
+msgstr ""
+
+#: ../../docs/classes/class_touchscreenbutton.rst:37
+msgid ":ref:`pressed<class_TouchScreenButton_property_pressed>`"
+msgstr ""
+
+#: ../../docs/classes/class_touchscreenbutton.rst:39
+msgid ":ref:`Shape2D<class_Shape2D>`"
+msgstr ""
+
+#: ../../docs/classes/class_touchscreenbutton.rst:39
+msgid ":ref:`shape<class_TouchScreenButton_property_shape>`"
+msgstr ""
+
+#: ../../docs/classes/class_touchscreenbutton.rst:41
+msgid ":ref:`shape_centered<class_TouchScreenButton_property_shape_centered>`"
+msgstr ""
+
+#: ../../docs/classes/class_touchscreenbutton.rst:41
+#: ../../docs/classes/class_touchscreenbutton.rst:43
+#: ../../docs/classes/class_touchscreenbutton.rst:183
+#: ../../docs/classes/class_touchscreenbutton.rst:199
+msgid "``true``"
+msgstr ""
+
+#: ../../docs/classes/class_touchscreenbutton.rst:43
+msgid ":ref:`shape_visible<class_TouchScreenButton_property_shape_visible>`"
+msgstr ""
+
+#: ../../docs/classes/class_touchscreenbutton.rst:45
+msgid ":ref:`VisibilityMode<enum_TouchScreenButton_VisibilityMode>`"
+msgstr ""
+
+#: ../../docs/classes/class_touchscreenbutton.rst:45
+msgid ":ref:`visibility_mode<class_TouchScreenButton_property_visibility_mode>`"
+msgstr ""
+
+#: ../../docs/classes/class_touchscreenbutton.rst:45
+#: ../../docs/classes/class_touchscreenbutton.rst:215
+msgid "``0``"
+msgstr ""
+
+#: ../../docs/classes/class_touchscreenbutton.rst:49
+msgid "Methods"
+msgstr ""
+
+#: ../../docs/classes/class_touchscreenbutton.rst:52
+msgid ":ref:`is_pressed<class_TouchScreenButton_method_is_pressed>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_touchscreenbutton.rst:56
+msgid "Signals"
+msgstr ""
+
+#: ../../docs/classes/class_touchscreenbutton.rst:60
+msgid "**pressed** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_touchscreenbutton.rst:62
+msgid "Emitted when the button is pressed (down)."
+msgstr ""
+
+#: ../../docs/classes/class_touchscreenbutton.rst:68
+msgid "**released** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_touchscreenbutton.rst:70
+msgid "Emitted when the button is released (up)."
+msgstr ""
+
+#: ../../docs/classes/class_touchscreenbutton.rst:73
+msgid "Enumerations"
+msgstr ""
+
+#: ../../docs/classes/class_touchscreenbutton.rst:81
+msgid "enum **VisibilityMode**:"
+msgstr ""
+
+#: ../../docs/classes/class_touchscreenbutton.rst:83
+msgid "**VISIBILITY_ALWAYS** = **0** --- Always visible."
+msgstr ""
+
+#: ../../docs/classes/class_touchscreenbutton.rst:85
+msgid "**VISIBILITY_TOUCHSCREEN_ONLY** = **1** --- Visible on touch screens only."
+msgstr ""
+
+#: ../../docs/classes/class_touchscreenbutton.rst:88
+msgid "Property Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_touchscreenbutton.rst:92
+msgid ":ref:`String<class_String>` **action**"
+msgstr ""
+
+#: ../../docs/classes/class_touchscreenbutton.rst:95
+#: ../../docs/classes/class_touchscreenbutton.rst:139
+#: ../../docs/classes/class_touchscreenbutton.rst:183
+#: ../../docs/classes/class_touchscreenbutton.rst:199
+#: ../../docs/classes/class_touchscreenbutton.rst:215
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_touchscreenbutton.rst:97
+#: ../../docs/classes/class_touchscreenbutton.rst:111
+#: ../../docs/classes/class_touchscreenbutton.rst:125
+#: ../../docs/classes/class_touchscreenbutton.rst:141
+#: ../../docs/classes/class_touchscreenbutton.rst:155
+#: ../../docs/classes/class_touchscreenbutton.rst:169
+#: ../../docs/classes/class_touchscreenbutton.rst:185
+#: ../../docs/classes/class_touchscreenbutton.rst:201
+#: ../../docs/classes/class_touchscreenbutton.rst:217
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_touchscreenbutton.rst:97
+msgid "set_action(value)"
+msgstr ""
+
+#: ../../docs/classes/class_touchscreenbutton.rst:99
+#: ../../docs/classes/class_touchscreenbutton.rst:113
+#: ../../docs/classes/class_touchscreenbutton.rst:127
+#: ../../docs/classes/class_touchscreenbutton.rst:143
+#: ../../docs/classes/class_touchscreenbutton.rst:157
+#: ../../docs/classes/class_touchscreenbutton.rst:171
+#: ../../docs/classes/class_touchscreenbutton.rst:187
+#: ../../docs/classes/class_touchscreenbutton.rst:203
+#: ../../docs/classes/class_touchscreenbutton.rst:219
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_touchscreenbutton.rst:99
+msgid "get_action()"
+msgstr ""
+
+#: ../../docs/classes/class_touchscreenbutton.rst:102
+msgid "The button's action. Actions can be handled with :ref:`InputEventAction<class_InputEventAction>`."
+msgstr ""
+
+#: ../../docs/classes/class_touchscreenbutton.rst:108
+msgid ":ref:`BitMap<class_BitMap>` **bitmask**"
+msgstr ""
+
+#: ../../docs/classes/class_touchscreenbutton.rst:111
+msgid "set_bitmask(value)"
+msgstr ""
+
+#: ../../docs/classes/class_touchscreenbutton.rst:113
+msgid "get_bitmask()"
+msgstr ""
+
+#: ../../docs/classes/class_touchscreenbutton.rst:116
+msgid "The button's bitmask."
+msgstr ""
+
+#: ../../docs/classes/class_touchscreenbutton.rst:122
+msgid ":ref:`Texture<class_Texture>` **normal**"
+msgstr ""
+
+#: ../../docs/classes/class_touchscreenbutton.rst:125
+msgid "set_texture(value)"
+msgstr ""
+
+#: ../../docs/classes/class_touchscreenbutton.rst:127
+msgid "get_texture()"
+msgstr ""
+
+#: ../../docs/classes/class_touchscreenbutton.rst:130
+msgid "The button's texture for the normal state."
+msgstr ""
+
+#: ../../docs/classes/class_touchscreenbutton.rst:136
+msgid ":ref:`bool<class_bool>` **passby_press**"
+msgstr ""
+
+#: ../../docs/classes/class_touchscreenbutton.rst:141
+msgid "set_passby_press(value)"
+msgstr ""
+
+#: ../../docs/classes/class_touchscreenbutton.rst:143
+msgid "is_passby_press_enabled()"
+msgstr ""
+
+#: ../../docs/classes/class_touchscreenbutton.rst:146
+msgid "If ``true``, pass-by presses are enabled."
+msgstr ""
+
+#: ../../docs/classes/class_touchscreenbutton.rst:152
+msgid ":ref:`Texture<class_Texture>` **pressed**"
+msgstr ""
+
+#: ../../docs/classes/class_touchscreenbutton.rst:155
+msgid "set_texture_pressed(value)"
+msgstr ""
+
+#: ../../docs/classes/class_touchscreenbutton.rst:157
+msgid "get_texture_pressed()"
+msgstr ""
+
+#: ../../docs/classes/class_touchscreenbutton.rst:160
+msgid "The button's texture for the pressed state."
+msgstr ""
+
+#: ../../docs/classes/class_touchscreenbutton.rst:166
+msgid ":ref:`Shape2D<class_Shape2D>` **shape**"
+msgstr ""
+
+#: ../../docs/classes/class_touchscreenbutton.rst:169
+msgid "set_shape(value)"
+msgstr ""
+
+#: ../../docs/classes/class_touchscreenbutton.rst:171
+msgid "get_shape()"
+msgstr ""
+
+#: ../../docs/classes/class_touchscreenbutton.rst:174
+msgid "The button's shape."
+msgstr ""
+
+#: ../../docs/classes/class_touchscreenbutton.rst:180
+msgid ":ref:`bool<class_bool>` **shape_centered**"
+msgstr ""
+
+#: ../../docs/classes/class_touchscreenbutton.rst:185
+msgid "set_shape_centered(value)"
+msgstr ""
+
+#: ../../docs/classes/class_touchscreenbutton.rst:187
+msgid "is_shape_centered()"
+msgstr ""
+
+#: ../../docs/classes/class_touchscreenbutton.rst:190
+msgid "If ``true``, the button's shape is centered in the provided texture. If no texture is used, this property has no effect."
+msgstr ""
+
+#: ../../docs/classes/class_touchscreenbutton.rst:196
+msgid ":ref:`bool<class_bool>` **shape_visible**"
+msgstr ""
+
+#: ../../docs/classes/class_touchscreenbutton.rst:201
+msgid "set_shape_visible(value)"
+msgstr ""
+
+#: ../../docs/classes/class_touchscreenbutton.rst:203
+msgid "is_shape_visible()"
+msgstr ""
+
+#: ../../docs/classes/class_touchscreenbutton.rst:206
+msgid "If ``true``, the button's shape is visible."
+msgstr ""
+
+#: ../../docs/classes/class_touchscreenbutton.rst:212
+msgid ":ref:`VisibilityMode<enum_TouchScreenButton_VisibilityMode>` **visibility_mode**"
+msgstr ""
+
+#: ../../docs/classes/class_touchscreenbutton.rst:217
+msgid "set_visibility_mode(value)"
+msgstr ""
+
+#: ../../docs/classes/class_touchscreenbutton.rst:219
+msgid "get_visibility_mode()"
+msgstr ""
+
+#: ../../docs/classes/class_touchscreenbutton.rst:222
+msgid "The button's visibility mode. See :ref:`VisibilityMode<enum_TouchScreenButton_VisibilityMode>` for possible values."
+msgstr ""
+
+#: ../../docs/classes/class_touchscreenbutton.rst:225
+msgid "Method Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_touchscreenbutton.rst:229
+msgid ":ref:`bool<class_bool>` **is_pressed** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_touchscreenbutton.rst:231
+msgid "Returns ``true`` if this button is currently pressed."
+msgstr ""

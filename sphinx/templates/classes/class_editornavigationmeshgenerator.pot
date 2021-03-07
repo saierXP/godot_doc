@@ -1,0 +1,54 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_editornavigationmeshgenerator.rst:10
+msgid "EditorNavigationMeshGenerator"
+msgstr ""
+
+#: ../../docs/classes/class_editornavigationmeshgenerator.rst:12
+msgid "**Inherits:** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_editornavigationmeshgenerator.rst:17
+msgid "Methods"
+msgstr ""
+
+#: ../../docs/classes/class_editornavigationmeshgenerator.rst:20
+#: ../../docs/classes/class_editornavigationmeshgenerator.rst:22
+msgid "void"
+msgstr ""
+
+#: ../../docs/classes/class_editornavigationmeshgenerator.rst:20
+msgid ":ref:`bake<class_EditorNavigationMeshGenerator_method_bake>` **(** :ref:`NavigationMesh<class_NavigationMesh>` nav_mesh, :ref:`Node<class_Node>` root_node **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editornavigationmeshgenerator.rst:22
+msgid ":ref:`clear<class_EditorNavigationMeshGenerator_method_clear>` **(** :ref:`NavigationMesh<class_NavigationMesh>` nav_mesh **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editornavigationmeshgenerator.rst:26
+msgid "Method Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_editornavigationmeshgenerator.rst:30
+msgid "void **bake** **(** :ref:`NavigationMesh<class_NavigationMesh>` nav_mesh, :ref:`Node<class_Node>` root_node **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editornavigationmeshgenerator.rst:36
+msgid "void **clear** **(** :ref:`NavigationMesh<class_NavigationMesh>` nav_mesh **)**"
+msgstr ""

@@ -1,0 +1,175 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_visibilityenabler.rst:10
+msgid "VisibilityEnabler"
+msgstr ""
+
+#: ../../docs/classes/class_visibilityenabler.rst:12
+msgid "**Inherits:** :ref:`VisibilityNotifier<class_VisibilityNotifier>` **<** :ref:`Spatial<class_Spatial>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_visibilityenabler.rst:14
+msgid "Enables certain nodes only when approximately visible."
+msgstr ""
+
+#: ../../docs/classes/class_visibilityenabler.rst:17
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_visibilityenabler.rst:19
+msgid "The VisibilityEnabler will disable :ref:`RigidBody<class_RigidBody>` and :ref:`AnimationPlayer<class_AnimationPlayer>` nodes when they are not visible. It will only affect other nodes within the same scene as the VisibilityEnabler itself."
+msgstr ""
+
+#: ../../docs/classes/class_visibilityenabler.rst:21
+msgid "If you just want to receive notifications, use :ref:`VisibilityNotifier<class_VisibilityNotifier>` instead."
+msgstr ""
+
+#: ../../docs/classes/class_visibilityenabler.rst:23
+msgid "**Note:** VisibilityEnabler uses an approximate heuristic for performance reasons. It doesn't take walls and other occlusion into account. The heuristic is an implementation detail and may change in future versions. If you need precise visibility checking, use another method such as adding an :ref:`Area<class_Area>` node as a child of a :ref:`Camera<class_Camera>` node and/or :ref:`Vector3.dot<class_Vector3_method_dot>`."
+msgstr ""
+
+#: ../../docs/classes/class_visibilityenabler.rst:25
+msgid "**Note:** VisibilityEnabler will not affect nodes added after scene initialization."
+msgstr ""
+
+#: ../../docs/classes/class_visibilityenabler.rst:28
+msgid "Properties"
+msgstr ""
+
+#: ../../docs/classes/class_visibilityenabler.rst:31
+#: ../../docs/classes/class_visibilityenabler.rst:33
+#: ../../docs/classes/class_visibilityenabler.rst:40
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_visibilityenabler.rst:31
+msgid ":ref:`freeze_bodies<class_VisibilityEnabler_property_freeze_bodies>`"
+msgstr ""
+
+#: ../../docs/classes/class_visibilityenabler.rst:31
+#: ../../docs/classes/class_visibilityenabler.rst:33
+#: ../../docs/classes/class_visibilityenabler.rst:72
+#: ../../docs/classes/class_visibilityenabler.rst:88
+msgid "``true``"
+msgstr ""
+
+#: ../../docs/classes/class_visibilityenabler.rst:33
+msgid ":ref:`pause_animations<class_VisibilityEnabler_property_pause_animations>`"
+msgstr ""
+
+#: ../../docs/classes/class_visibilityenabler.rst:37
+msgid "Methods"
+msgstr ""
+
+#: ../../docs/classes/class_visibilityenabler.rst:40
+msgid ":ref:`is_enabler_enabled<class_VisibilityEnabler_method_is_enabler_enabled>` **(** :ref:`Enabler<enum_VisibilityEnabler_Enabler>` enabler **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_visibilityenabler.rst:42
+msgid "void"
+msgstr ""
+
+#: ../../docs/classes/class_visibilityenabler.rst:42
+msgid ":ref:`set_enabler<class_VisibilityEnabler_method_set_enabler>` **(** :ref:`Enabler<enum_VisibilityEnabler_Enabler>` enabler, :ref:`bool<class_bool>` enabled **)**"
+msgstr ""
+
+#: ../../docs/classes/class_visibilityenabler.rst:46
+msgid "Enumerations"
+msgstr ""
+
+#: ../../docs/classes/class_visibilityenabler.rst:56
+msgid "enum **Enabler**:"
+msgstr ""
+
+#: ../../docs/classes/class_visibilityenabler.rst:58
+msgid "**ENABLER_PAUSE_ANIMATIONS** = **0** --- This enabler will pause :ref:`AnimationPlayer<class_AnimationPlayer>` nodes."
+msgstr ""
+
+#: ../../docs/classes/class_visibilityenabler.rst:60
+msgid "**ENABLER_FREEZE_BODIES** = **1** --- This enabler will freeze :ref:`RigidBody<class_RigidBody>` nodes."
+msgstr ""
+
+#: ../../docs/classes/class_visibilityenabler.rst:62
+msgid "**ENABLER_MAX** = **2** --- Represents the size of the :ref:`Enabler<enum_VisibilityEnabler_Enabler>` enum."
+msgstr ""
+
+#: ../../docs/classes/class_visibilityenabler.rst:65
+msgid "Property Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_visibilityenabler.rst:69
+msgid ":ref:`bool<class_bool>` **freeze_bodies**"
+msgstr ""
+
+#: ../../docs/classes/class_visibilityenabler.rst:72
+#: ../../docs/classes/class_visibilityenabler.rst:88
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_visibilityenabler.rst:74
+#: ../../docs/classes/class_visibilityenabler.rst:90
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_visibilityenabler.rst:74
+#: ../../docs/classes/class_visibilityenabler.rst:90
+msgid "set_enabler(value)"
+msgstr ""
+
+#: ../../docs/classes/class_visibilityenabler.rst:76
+#: ../../docs/classes/class_visibilityenabler.rst:92
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_visibilityenabler.rst:76
+#: ../../docs/classes/class_visibilityenabler.rst:92
+msgid "is_enabler_enabled()"
+msgstr ""
+
+#: ../../docs/classes/class_visibilityenabler.rst:79
+msgid "If ``true``, :ref:`RigidBody<class_RigidBody>` nodes will be paused."
+msgstr ""
+
+#: ../../docs/classes/class_visibilityenabler.rst:85
+msgid ":ref:`bool<class_bool>` **pause_animations**"
+msgstr ""
+
+#: ../../docs/classes/class_visibilityenabler.rst:95
+msgid "If ``true``, :ref:`AnimationPlayer<class_AnimationPlayer>` nodes will be paused."
+msgstr ""
+
+#: ../../docs/classes/class_visibilityenabler.rst:98
+msgid "Method Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_visibilityenabler.rst:102
+msgid ":ref:`bool<class_bool>` **is_enabler_enabled** **(** :ref:`Enabler<enum_VisibilityEnabler_Enabler>` enabler **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_visibilityenabler.rst:104
+msgid "Returns whether the enabler identified by given :ref:`Enabler<enum_VisibilityEnabler_Enabler>` constant is active."
+msgstr ""
+
+#: ../../docs/classes/class_visibilityenabler.rst:110
+msgid "void **set_enabler** **(** :ref:`Enabler<enum_VisibilityEnabler_Enabler>` enabler, :ref:`bool<class_bool>` enabled **)**"
+msgstr ""
+
+#: ../../docs/classes/class_visibilityenabler.rst:112
+msgid "Sets active state of the enabler identified by given :ref:`Enabler<enum_VisibilityEnabler_Enabler>` constant."
+msgstr ""

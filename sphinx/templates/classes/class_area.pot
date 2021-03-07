@@ -1,0 +1,814 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_area.rst:10
+msgid "Area"
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:12
+msgid "**Inherits:** :ref:`CollisionObject<class_CollisionObject>` **<** :ref:`Spatial<class_Spatial>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:14
+msgid "General-purpose area node for detection and 3D physics influence."
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:17
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:19
+msgid "3D area that detects :ref:`CollisionObject<class_CollisionObject>` nodes overlapping, entering, or exiting. Can also alter or override local physics parameters (gravity, damping)."
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:22
+msgid "Tutorials"
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:24
+msgid "`https://godotengine.org/asset-library/asset/125 <https://godotengine.org/asset-library/asset/125>`_"
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:26
+msgid "`https://godotengine.org/asset-library/asset/127 <https://godotengine.org/asset-library/asset/127>`_"
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:29
+msgid "Properties"
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:32
+#: ../../docs/classes/class_area.rst:42
+#: ../../docs/classes/class_area.rst:44
+#: ../../docs/classes/class_area.rst:50
+#: ../../docs/classes/class_area.rst:56
+#: ../../docs/classes/class_area.rst:58
+#: ../../docs/classes/class_area.rst:64
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:32
+msgid ":ref:`angular_damp<class_Area_property_angular_damp>`"
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:32
+#: ../../docs/classes/class_area.rst:50
+#: ../../docs/classes/class_area.rst:198
+#: ../../docs/classes/class_area.rst:344
+msgid "``0.1``"
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:34
+#: ../../docs/classes/class_area.rst:62
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:34
+msgid ":ref:`audio_bus_name<class_Area_property_audio_bus_name>`"
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:34
+#: ../../docs/classes/class_area.rst:62
+#: ../../docs/classes/class_area.rst:216
+#: ../../docs/classes/class_area.rst:442
+msgid "``\"Master\"``"
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:36
+#: ../../docs/classes/class_area.rst:46
+#: ../../docs/classes/class_area.rst:52
+#: ../../docs/classes/class_area.rst:54
+#: ../../docs/classes/class_area.rst:60
+#: ../../docs/classes/class_area.rst:73
+#: ../../docs/classes/class_area.rst:75
+#: ../../docs/classes/class_area.rst:81
+#: ../../docs/classes/class_area.rst:83
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:36
+msgid ":ref:`audio_bus_override<class_Area_property_audio_bus_override>`"
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:36
+#: ../../docs/classes/class_area.rst:46
+#: ../../docs/classes/class_area.rst:60
+#: ../../docs/classes/class_area.rst:232
+#: ../../docs/classes/class_area.rst:312
+#: ../../docs/classes/class_area.rst:426
+msgid "``false``"
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:38
+#: ../../docs/classes/class_area.rst:40
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:38
+msgid ":ref:`collision_layer<class_Area_property_collision_layer>`"
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:38
+#: ../../docs/classes/class_area.rst:40
+#: ../../docs/classes/class_area.rst:248
+#: ../../docs/classes/class_area.rst:264
+msgid "``1``"
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:40
+msgid ":ref:`collision_mask<class_Area_property_collision_mask>`"
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:42
+msgid ":ref:`gravity<class_Area_property_gravity>`"
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:42
+#: ../../docs/classes/class_area.rst:280
+msgid "``9.8``"
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:44
+msgid ":ref:`gravity_distance_scale<class_Area_property_gravity_distance_scale>`"
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:44
+#: ../../docs/classes/class_area.rst:56
+#: ../../docs/classes/class_area.rst:58
+#: ../../docs/classes/class_area.rst:64
+#: ../../docs/classes/class_area.rst:296
+#: ../../docs/classes/class_area.rst:394
+#: ../../docs/classes/class_area.rst:410
+#: ../../docs/classes/class_area.rst:458
+msgid "``0.0``"
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:46
+msgid ":ref:`gravity_point<class_Area_property_gravity_point>`"
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:48
+msgid ":ref:`Vector3<class_Vector3>`"
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:48
+msgid ":ref:`gravity_vec<class_Area_property_gravity_vec>`"
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:48
+#: ../../docs/classes/class_area.rst:328
+msgid "``Vector3( 0, -1, 0 )``"
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:50
+msgid ":ref:`linear_damp<class_Area_property_linear_damp>`"
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:52
+msgid ":ref:`monitorable<class_Area_property_monitorable>`"
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:52
+#: ../../docs/classes/class_area.rst:54
+#: ../../docs/classes/class_area.rst:362
+#: ../../docs/classes/class_area.rst:378
+msgid "``true``"
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:54
+msgid ":ref:`monitoring<class_Area_property_monitoring>`"
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:56
+msgid ":ref:`priority<class_Area_property_priority>`"
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:58
+msgid ":ref:`reverb_bus_amount<class_Area_property_reverb_bus_amount>`"
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:60
+msgid ":ref:`reverb_bus_enable<class_Area_property_reverb_bus_enable>`"
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:62
+msgid ":ref:`reverb_bus_name<class_Area_property_reverb_bus_name>`"
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:64
+msgid ":ref:`reverb_bus_uniformity<class_Area_property_reverb_bus_uniformity>`"
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:66
+msgid ":ref:`SpaceOverride<enum_Area_SpaceOverride>`"
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:66
+msgid ":ref:`space_override<class_Area_property_space_override>`"
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:66
+#: ../../docs/classes/class_area.rst:474
+msgid "``0``"
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:70
+msgid "Methods"
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:73
+msgid ":ref:`get_collision_layer_bit<class_Area_method_get_collision_layer_bit>` **(** :ref:`int<class_int>` bit **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:75
+msgid ":ref:`get_collision_mask_bit<class_Area_method_get_collision_mask_bit>` **(** :ref:`int<class_int>` bit **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:77
+#: ../../docs/classes/class_area.rst:79
+msgid ":ref:`Array<class_Array>`"
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:77
+msgid ":ref:`get_overlapping_areas<class_Area_method_get_overlapping_areas>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:79
+msgid ":ref:`get_overlapping_bodies<class_Area_method_get_overlapping_bodies>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:81
+msgid ":ref:`overlaps_area<class_Area_method_overlaps_area>` **(** :ref:`Node<class_Node>` area **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:83
+msgid ":ref:`overlaps_body<class_Area_method_overlaps_body>` **(** :ref:`Node<class_Node>` body **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:85
+#: ../../docs/classes/class_area.rst:87
+msgid "void"
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:85
+msgid ":ref:`set_collision_layer_bit<class_Area_method_set_collision_layer_bit>` **(** :ref:`int<class_int>` bit, :ref:`bool<class_bool>` value **)**"
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:87
+msgid ":ref:`set_collision_mask_bit<class_Area_method_set_collision_mask_bit>` **(** :ref:`int<class_int>` bit, :ref:`bool<class_bool>` value **)**"
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:91
+msgid "Signals"
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:95
+msgid "**area_entered** **(** :ref:`Area<class_Area>` area **)**"
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:97
+msgid "Emitted when another area enters."
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:103
+msgid "**area_exited** **(** :ref:`Area<class_Area>` area **)**"
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:105
+msgid "Emitted when another area exits."
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:111
+msgid "**area_shape_entered** **(** :ref:`int<class_int>` area_id, :ref:`Area<class_Area>` area, :ref:`int<class_int>` area_shape, :ref:`int<class_int>` self_shape **)**"
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:113
+msgid "Emitted when another area enters, reporting which areas overlapped. ``shape_owner_get_owner(shape_find_owner(shape))`` returns the parent object of the owner of the ``shape``."
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:119
+msgid "**area_shape_exited** **(** :ref:`int<class_int>` area_id, :ref:`Area<class_Area>` area, :ref:`int<class_int>` area_shape, :ref:`int<class_int>` self_shape **)**"
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:121
+msgid "Emitted when another area exits, reporting which areas were overlapping."
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:127
+msgid "**body_entered** **(** :ref:`Node<class_Node>` body **)**"
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:129
+msgid "Emitted when a physics body enters."
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:131
+#: ../../docs/classes/class_area.rst:141
+#: ../../docs/classes/class_area.rst:151
+#: ../../docs/classes/class_area.rst:161
+#: ../../docs/classes/class_area.rst:536
+msgid "The ``body`` argument can either be a :ref:`PhysicsBody<class_PhysicsBody>` or a :ref:`GridMap<class_GridMap>` instance (while GridMaps are not physics body themselves, they register their tiles with collision shapes as a virtual physics body)."
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:137
+msgid "**body_exited** **(** :ref:`Node<class_Node>` body **)**"
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:139
+msgid "Emitted when a physics body exits."
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:147
+msgid "**body_shape_entered** **(** :ref:`int<class_int>` body_id, :ref:`Node<class_Node>` body, :ref:`int<class_int>` body_shape, :ref:`int<class_int>` area_shape **)**"
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:149
+msgid "Emitted when a physics body enters, reporting which shapes overlapped."
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:157
+msgid "**body_shape_exited** **(** :ref:`int<class_int>` body_id, :ref:`Node<class_Node>` body, :ref:`int<class_int>` body_shape, :ref:`int<class_int>` area_shape **)**"
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:159
+msgid "Emitted when a physics body exits, reporting which shapes were overlapping."
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:164
+msgid "Enumerations"
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:178
+msgid "enum **SpaceOverride**:"
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:180
+msgid "**SPACE_OVERRIDE_DISABLED** = **0** --- This area does not affect gravity/damping."
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:182
+msgid "**SPACE_OVERRIDE_COMBINE** = **1** --- This area adds its gravity/damping values to whatever has been calculated so far (in :ref:`priority<class_Area_property_priority>` order)."
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:184
+msgid "**SPACE_OVERRIDE_COMBINE_REPLACE** = **2** --- This area adds its gravity/damping values to whatever has been calculated so far (in :ref:`priority<class_Area_property_priority>` order), ignoring any lower priority areas."
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:186
+msgid "**SPACE_OVERRIDE_REPLACE** = **3** --- This area replaces any gravity/damping, even the defaults, ignoring any lower priority areas."
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:188
+msgid "**SPACE_OVERRIDE_REPLACE_COMBINE** = **4** --- This area replaces any gravity/damping calculated so far (in :ref:`priority<class_Area_property_priority>` order), but keeps calculating the rest of the areas."
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:191
+msgid "Property Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:195
+msgid ":ref:`float<class_float>` **angular_damp**"
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:198
+#: ../../docs/classes/class_area.rst:216
+#: ../../docs/classes/class_area.rst:232
+#: ../../docs/classes/class_area.rst:248
+#: ../../docs/classes/class_area.rst:264
+#: ../../docs/classes/class_area.rst:280
+#: ../../docs/classes/class_area.rst:296
+#: ../../docs/classes/class_area.rst:312
+#: ../../docs/classes/class_area.rst:328
+#: ../../docs/classes/class_area.rst:344
+#: ../../docs/classes/class_area.rst:362
+#: ../../docs/classes/class_area.rst:378
+#: ../../docs/classes/class_area.rst:394
+#: ../../docs/classes/class_area.rst:410
+#: ../../docs/classes/class_area.rst:426
+#: ../../docs/classes/class_area.rst:442
+#: ../../docs/classes/class_area.rst:458
+#: ../../docs/classes/class_area.rst:474
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:200
+#: ../../docs/classes/class_area.rst:218
+#: ../../docs/classes/class_area.rst:234
+#: ../../docs/classes/class_area.rst:250
+#: ../../docs/classes/class_area.rst:266
+#: ../../docs/classes/class_area.rst:282
+#: ../../docs/classes/class_area.rst:298
+#: ../../docs/classes/class_area.rst:314
+#: ../../docs/classes/class_area.rst:330
+#: ../../docs/classes/class_area.rst:346
+#: ../../docs/classes/class_area.rst:364
+#: ../../docs/classes/class_area.rst:380
+#: ../../docs/classes/class_area.rst:396
+#: ../../docs/classes/class_area.rst:412
+#: ../../docs/classes/class_area.rst:428
+#: ../../docs/classes/class_area.rst:444
+#: ../../docs/classes/class_area.rst:460
+#: ../../docs/classes/class_area.rst:476
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:200
+msgid "set_angular_damp(value)"
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:202
+#: ../../docs/classes/class_area.rst:220
+#: ../../docs/classes/class_area.rst:236
+#: ../../docs/classes/class_area.rst:252
+#: ../../docs/classes/class_area.rst:268
+#: ../../docs/classes/class_area.rst:284
+#: ../../docs/classes/class_area.rst:300
+#: ../../docs/classes/class_area.rst:316
+#: ../../docs/classes/class_area.rst:332
+#: ../../docs/classes/class_area.rst:348
+#: ../../docs/classes/class_area.rst:366
+#: ../../docs/classes/class_area.rst:382
+#: ../../docs/classes/class_area.rst:398
+#: ../../docs/classes/class_area.rst:414
+#: ../../docs/classes/class_area.rst:430
+#: ../../docs/classes/class_area.rst:446
+#: ../../docs/classes/class_area.rst:462
+#: ../../docs/classes/class_area.rst:478
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:202
+msgid "get_angular_damp()"
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:205
+msgid "The rate at which objects stop spinning in this area. Represents the angular velocity lost per second."
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:207
+msgid "See :ref:`ProjectSettings.physics/3d/default_angular_damp<class_ProjectSettings_property_physics/3d/default_angular_damp>` for more details about damping."
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:213
+msgid ":ref:`String<class_String>` **audio_bus_name**"
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:218
+msgid "set_audio_bus(value)"
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:220
+msgid "get_audio_bus()"
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:223
+msgid "The name of the area's audio bus."
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:229
+msgid ":ref:`bool<class_bool>` **audio_bus_override**"
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:234
+msgid "set_audio_bus_override(value)"
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:236
+msgid "is_overriding_audio_bus()"
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:239
+msgid "If ``true``, the area's audio bus overrides the default audio bus."
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:245
+msgid ":ref:`int<class_int>` **collision_layer**"
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:250
+msgid "set_collision_layer(value)"
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:252
+msgid "get_collision_layer()"
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:255
+msgid "The area's physics layer(s). Collidable objects can exist in any of 32 different layers. A contact is detected if object A is in any of the layers that object B scans, or object B is in any layers that object A scans. See also :ref:`collision_mask<class_Area_property_collision_mask>`. See `Collision layers and masks <https://docs.godotengine.org/en/3.2/tutorials/physics/physics_introduction.html#collision-layers-and-masks>`_ in the documentation for more information."
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:261
+msgid ":ref:`int<class_int>` **collision_mask**"
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:266
+msgid "set_collision_mask(value)"
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:268
+msgid "get_collision_mask()"
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:271
+msgid "The physics layers this area scans to determine collision detection. See `Collision layers and masks <https://docs.godotengine.org/en/3.2/tutorials/physics/physics_introduction.html#collision-layers-and-masks>`_ in the documentation for more information."
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:277
+msgid ":ref:`float<class_float>` **gravity**"
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:282
+msgid "set_gravity(value)"
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:284
+msgid "get_gravity()"
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:287
+msgid "The area's gravity intensity (ranges from -1024 to 1024). This value multiplies the gravity vector. This is useful to alter the force of gravity without altering its direction."
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:293
+msgid ":ref:`float<class_float>` **gravity_distance_scale**"
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:298
+msgid "set_gravity_distance_scale(value)"
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:300
+msgid "get_gravity_distance_scale()"
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:303
+msgid "The falloff factor for point gravity. The greater the value, the faster gravity decreases with distance."
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:309
+msgid ":ref:`bool<class_bool>` **gravity_point**"
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:314
+msgid "set_gravity_is_point(value)"
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:316
+msgid "is_gravity_a_point()"
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:319
+msgid "If ``true``, gravity is calculated from a point (set via :ref:`gravity_vec<class_Area_property_gravity_vec>`). See also :ref:`space_override<class_Area_property_space_override>`."
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:325
+msgid ":ref:`Vector3<class_Vector3>` **gravity_vec**"
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:330
+msgid "set_gravity_vector(value)"
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:332
+msgid "get_gravity_vector()"
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:335
+msgid "The area's gravity vector (not normalized). If gravity is a point (see :ref:`gravity_point<class_Area_property_gravity_point>`), this will be the point of attraction."
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:341
+msgid ":ref:`float<class_float>` **linear_damp**"
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:346
+msgid "set_linear_damp(value)"
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:348
+msgid "get_linear_damp()"
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:351
+msgid "The rate at which objects stop moving in this area. Represents the linear velocity lost per second."
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:353
+msgid "See :ref:`ProjectSettings.physics/3d/default_linear_damp<class_ProjectSettings_property_physics/3d/default_linear_damp>` for more details about damping."
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:359
+msgid ":ref:`bool<class_bool>` **monitorable**"
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:364
+msgid "set_monitorable(value)"
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:366
+msgid "is_monitorable()"
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:369
+msgid "If ``true``, other monitoring areas can detect this area."
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:375
+msgid ":ref:`bool<class_bool>` **monitoring**"
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:380
+msgid "set_monitoring(value)"
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:382
+msgid "is_monitoring()"
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:385
+msgid "If ``true``, the area detects bodies or areas entering and exiting it."
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:391
+msgid ":ref:`float<class_float>` **priority**"
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:396
+msgid "set_priority(value)"
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:398
+msgid "get_priority()"
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:401
+msgid "The area's priority. Higher priority areas are processed first."
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:407
+msgid ":ref:`float<class_float>` **reverb_bus_amount**"
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:412
+msgid "set_reverb_amount(value)"
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:414
+msgid "get_reverb_amount()"
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:417
+msgid "The degree to which this area applies reverb to its associated audio. Ranges from ``0`` to ``1`` with ``0.1`` precision."
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:423
+msgid ":ref:`bool<class_bool>` **reverb_bus_enable**"
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:428
+msgid "set_use_reverb_bus(value)"
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:430
+msgid "is_using_reverb_bus()"
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:433
+msgid "If ``true``, the area applies reverb to its associated audio."
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:439
+msgid ":ref:`String<class_String>` **reverb_bus_name**"
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:444
+msgid "set_reverb_bus(value)"
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:446
+msgid "get_reverb_bus()"
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:449
+msgid "The reverb bus name to use for this area's associated audio."
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:455
+msgid ":ref:`float<class_float>` **reverb_bus_uniformity**"
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:460
+msgid "set_reverb_uniformity(value)"
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:462
+msgid "get_reverb_uniformity()"
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:465
+msgid "The degree to which this area's reverb is a uniform effect. Ranges from ``0`` to ``1`` with ``0.1`` precision."
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:471
+msgid ":ref:`SpaceOverride<enum_Area_SpaceOverride>` **space_override**"
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:476
+msgid "set_space_override_mode(value)"
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:478
+msgid "get_space_override_mode()"
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:481
+msgid "Override mode for gravity and damping calculations within this area. See :ref:`SpaceOverride<enum_Area_SpaceOverride>` for possible values."
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:484
+msgid "Method Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:488
+msgid ":ref:`bool<class_bool>` **get_collision_layer_bit** **(** :ref:`int<class_int>` bit **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:490
+msgid "Returns an individual bit on the layer mask."
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:496
+msgid ":ref:`bool<class_bool>` **get_collision_mask_bit** **(** :ref:`int<class_int>` bit **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:498
+msgid "Returns an individual bit on the collision mask."
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:504
+msgid ":ref:`Array<class_Array>` **get_overlapping_areas** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:506
+msgid "Returns a list of intersecting ``Area``\\ s. For performance reasons (collisions are all processed at the same time) this list is modified once during the physics step, not immediately after objects are moved. Consider using signals instead."
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:512
+msgid ":ref:`Array<class_Array>` **get_overlapping_bodies** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:514
+msgid "Returns a list of intersecting :ref:`PhysicsBody<class_PhysicsBody>`\\ s. For performance reasons (collisions are all processed at the same time) this list is modified once during the physics step, not immediately after objects are moved. Consider using signals instead."
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:520
+msgid ":ref:`bool<class_bool>` **overlaps_area** **(** :ref:`Node<class_Node>` area **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:522
+msgid "If ``true``, the given area overlaps the Area."
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:524
+#: ../../docs/classes/class_area.rst:534
+msgid "**Note:** The result of this test is not immediate after moving objects. For performance, list of overlaps is updated once per frame and before the physics step. Consider using signals instead."
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:530
+msgid ":ref:`bool<class_bool>` **overlaps_body** **(** :ref:`Node<class_Node>` body **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:532
+msgid "If ``true``, the given physics body overlaps the Area."
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:542
+msgid "void **set_collision_layer_bit** **(** :ref:`int<class_int>` bit, :ref:`bool<class_bool>` value **)**"
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:544
+msgid "Set/clear individual bits on the layer mask. This simplifies editing this ``Area``'s layers."
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:550
+msgid "void **set_collision_mask_bit** **(** :ref:`int<class_int>` bit, :ref:`bool<class_bool>` value **)**"
+msgstr ""
+
+#: ../../docs/classes/class_area.rst:552
+msgid "Set/clear individual bits on the collision mask. This simplifies editing which ``Area`` layers this ``Area`` scans."
+msgstr ""

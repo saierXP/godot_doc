@@ -1,0 +1,179 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_editorinspectorplugin.rst:10
+msgid "EditorInspectorPlugin"
+msgstr ""
+
+#: ../../docs/classes/class_editorinspectorplugin.rst:12
+msgid "**Inherits:** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_editorinspectorplugin.rst:14
+msgid "Plugin for adding custom property editors on inspector."
+msgstr ""
+
+#: ../../docs/classes/class_editorinspectorplugin.rst:17
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_editorinspectorplugin.rst:19
+msgid "This plugins allows adding custom property editors to :ref:`EditorInspector<class_EditorInspector>`."
+msgstr ""
+
+#: ../../docs/classes/class_editorinspectorplugin.rst:21
+msgid "Plugins are registered via :ref:`EditorPlugin.add_inspector_plugin<class_EditorPlugin_method_add_inspector_plugin>`."
+msgstr ""
+
+#: ../../docs/classes/class_editorinspectorplugin.rst:23
+msgid "When an object is edited, the :ref:`can_handle<class_EditorInspectorPlugin_method_can_handle>` function is called and must return ``true`` if the object type is supported."
+msgstr ""
+
+#: ../../docs/classes/class_editorinspectorplugin.rst:25
+msgid "If supported, the function :ref:`parse_begin<class_EditorInspectorPlugin_method_parse_begin>` will be called, allowing to place custom controls at the beginning of the class."
+msgstr ""
+
+#: ../../docs/classes/class_editorinspectorplugin.rst:27
+msgid "Subsequently, the :ref:`parse_category<class_EditorInspectorPlugin_method_parse_category>` and :ref:`parse_property<class_EditorInspectorPlugin_method_parse_property>` are called for every category and property. They offer the ability to add custom controls to the inspector too."
+msgstr ""
+
+#: ../../docs/classes/class_editorinspectorplugin.rst:29
+msgid "Finally :ref:`parse_end<class_EditorInspectorPlugin_method_parse_end>` will be called."
+msgstr ""
+
+#: ../../docs/classes/class_editorinspectorplugin.rst:31
+msgid "On each of these calls, the \"add\" functions can be called."
+msgstr ""
+
+#: ../../docs/classes/class_editorinspectorplugin.rst:34
+msgid "Methods"
+msgstr ""
+
+#: ../../docs/classes/class_editorinspectorplugin.rst:37
+#: ../../docs/classes/class_editorinspectorplugin.rst:39
+#: ../../docs/classes/class_editorinspectorplugin.rst:41
+#: ../../docs/classes/class_editorinspectorplugin.rst:45
+#: ../../docs/classes/class_editorinspectorplugin.rst:47
+#: ../../docs/classes/class_editorinspectorplugin.rst:49
+msgid "void"
+msgstr ""
+
+#: ../../docs/classes/class_editorinspectorplugin.rst:37
+msgid ":ref:`add_custom_control<class_EditorInspectorPlugin_method_add_custom_control>` **(** :ref:`Control<class_Control>` control **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorinspectorplugin.rst:39
+msgid ":ref:`add_property_editor<class_EditorInspectorPlugin_method_add_property_editor>` **(** :ref:`String<class_String>` property, :ref:`Control<class_Control>` editor **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorinspectorplugin.rst:41
+msgid ":ref:`add_property_editor_for_multiple_properties<class_EditorInspectorPlugin_method_add_property_editor_for_multiple_properties>` **(** :ref:`String<class_String>` label, :ref:`PoolStringArray<class_PoolStringArray>` properties, :ref:`Control<class_Control>` editor **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorinspectorplugin.rst:43
+#: ../../docs/classes/class_editorinspectorplugin.rst:51
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_editorinspectorplugin.rst:43
+msgid ":ref:`can_handle<class_EditorInspectorPlugin_method_can_handle>` **(** :ref:`Object<class_Object>` object **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_editorinspectorplugin.rst:45
+msgid ":ref:`parse_begin<class_EditorInspectorPlugin_method_parse_begin>` **(** :ref:`Object<class_Object>` object **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_editorinspectorplugin.rst:47
+msgid ":ref:`parse_category<class_EditorInspectorPlugin_method_parse_category>` **(** :ref:`Object<class_Object>` object, :ref:`String<class_String>` category **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_editorinspectorplugin.rst:49
+msgid ":ref:`parse_end<class_EditorInspectorPlugin_method_parse_end>` **(** **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_editorinspectorplugin.rst:51
+msgid ":ref:`parse_property<class_EditorInspectorPlugin_method_parse_property>` **(** :ref:`Object<class_Object>` object, :ref:`int<class_int>` type, :ref:`String<class_String>` path, :ref:`int<class_int>` hint, :ref:`String<class_String>` hint_text, :ref:`int<class_int>` usage **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_editorinspectorplugin.rst:55
+msgid "Method Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_editorinspectorplugin.rst:59
+msgid "void **add_custom_control** **(** :ref:`Control<class_Control>` control **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorinspectorplugin.rst:61
+msgid "Adds a custom control, not necessarily a property editor."
+msgstr ""
+
+#: ../../docs/classes/class_editorinspectorplugin.rst:67
+msgid "void **add_property_editor** **(** :ref:`String<class_String>` property, :ref:`Control<class_Control>` editor **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorinspectorplugin.rst:69
+msgid "Adds a property editor, this must inherit :ref:`EditorProperty<class_EditorProperty>`."
+msgstr ""
+
+#: ../../docs/classes/class_editorinspectorplugin.rst:75
+msgid "void **add_property_editor_for_multiple_properties** **(** :ref:`String<class_String>` label, :ref:`PoolStringArray<class_PoolStringArray>` properties, :ref:`Control<class_Control>` editor **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorinspectorplugin.rst:77
+msgid "Adds an editor that allows modifying multiple properties, this must inherit :ref:`EditorProperty<class_EditorProperty>`."
+msgstr ""
+
+#: ../../docs/classes/class_editorinspectorplugin.rst:83
+msgid ":ref:`bool<class_bool>` **can_handle** **(** :ref:`Object<class_Object>` object **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_editorinspectorplugin.rst:85
+msgid "Returns ``true`` if this object can be handled by this plugin."
+msgstr ""
+
+#: ../../docs/classes/class_editorinspectorplugin.rst:91
+msgid "void **parse_begin** **(** :ref:`Object<class_Object>` object **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_editorinspectorplugin.rst:93
+msgid "Called to allow adding controls at the beginning of the list."
+msgstr ""
+
+#: ../../docs/classes/class_editorinspectorplugin.rst:99
+msgid "void **parse_category** **(** :ref:`Object<class_Object>` object, :ref:`String<class_String>` category **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_editorinspectorplugin.rst:101
+msgid "Called to allow adding controls at the beginning of the category."
+msgstr ""
+
+#: ../../docs/classes/class_editorinspectorplugin.rst:107
+msgid "void **parse_end** **(** **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_editorinspectorplugin.rst:109
+msgid "Called to allow adding controls at the end of the list."
+msgstr ""
+
+#: ../../docs/classes/class_editorinspectorplugin.rst:115
+msgid ":ref:`bool<class_bool>` **parse_property** **(** :ref:`Object<class_Object>` object, :ref:`int<class_int>` type, :ref:`String<class_String>` path, :ref:`int<class_int>` hint, :ref:`String<class_String>` hint_text, :ref:`int<class_int>` usage **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_editorinspectorplugin.rst:117
+msgid "Called to allow adding property specific editors to the inspector. Usually these inherit :ref:`EditorProperty<class_EditorProperty>`. Returning ``true`` removes the built-in editor for this property, otherwise allows to insert a custom editor before the built-in one."
+msgstr ""

@@ -1,0 +1,106 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_visualshadernodescalarderivativefunc.rst:10
+msgid "VisualShaderNodeScalarDerivativeFunc"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodescalarderivativefunc.rst:12
+msgid "**Inherits:** :ref:`VisualShaderNode<class_VisualShaderNode>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodescalarderivativefunc.rst:14
+msgid "Calculates a scalar derivative within the visual shader graph."
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodescalarderivativefunc.rst:17
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodescalarderivativefunc.rst:19
+msgid "This node is only available in ``Fragment`` and ``Light`` visual shaders."
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodescalarderivativefunc.rst:22
+msgid "Properties"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodescalarderivativefunc.rst:25
+msgid ":ref:`Function<enum_VisualShaderNodeScalarDerivativeFunc_Function>`"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodescalarderivativefunc.rst:25
+msgid ":ref:`function<class_VisualShaderNodeScalarDerivativeFunc_property_function>`"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodescalarderivativefunc.rst:25
+#: ../../docs/classes/class_visualshadernodescalarderivativefunc.rst:55
+msgid "``0``"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodescalarderivativefunc.rst:29
+msgid "Enumerations"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodescalarderivativefunc.rst:39
+msgid "enum **Function**:"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodescalarderivativefunc.rst:41
+msgid "**FUNC_SUM** = **0** --- Sum of absolute derivative in ``x`` and ``y``."
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodescalarderivativefunc.rst:43
+msgid "**FUNC_X** = **1** --- Derivative in ``x`` using local differencing."
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodescalarderivativefunc.rst:45
+msgid "**FUNC_Y** = **2** --- Derivative in ``y`` using local differencing."
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodescalarderivativefunc.rst:48
+msgid "Property Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodescalarderivativefunc.rst:52
+msgid ":ref:`Function<enum_VisualShaderNodeScalarDerivativeFunc_Function>` **function**"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodescalarderivativefunc.rst:55
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodescalarderivativefunc.rst:57
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodescalarderivativefunc.rst:57
+msgid "set_function(value)"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodescalarderivativefunc.rst:59
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodescalarderivativefunc.rst:59
+msgid "get_function()"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodescalarderivativefunc.rst:62
+msgid "The derivative type. See :ref:`Function<enum_VisualShaderNodeScalarDerivativeFunc_Function>` for options."
+msgstr ""

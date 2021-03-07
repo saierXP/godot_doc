@@ -1,0 +1,260 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/tutorials/debug/overview_of_debugging_tools.rst:4
+msgid "Overview of debugging tools"
+msgstr "调试工具概述"
+
+#: ../../docs/tutorials/debug/overview_of_debugging_tools.rst:6
+msgid ""
+"This guide will give you an overview of the available debugging tools in the "
+"engine."
+msgstr "本指南将概述引擎中可用的调试工具。"
+
+#: ../../docs/tutorials/debug/overview_of_debugging_tools.rst:9
+msgid ""
+"Godot comes with a powerful debugger and profilers to track down bugs, "
+"inspect your game at runtime, monitor essential metrics, and measure "
+"performances. It also offers options to visualize collision boxes and "
+"navigation polygons in the running game."
+msgstr ""
+
+#: ../../docs/tutorials/debug/overview_of_debugging_tools.rst:14
+#, fuzzy
+msgid ""
+"Finally, you have options to debug the game running on a remote device and "
+"to reload changes to your scenes or your code while the game is running."
+msgstr ""
+"最后，你可以选择调试在远程设备上运行的游戏，并在游戏运行时重新加载对场景或代"
+"码的更改。"
+
+#: ../../docs/tutorials/debug/overview_of_debugging_tools.rst:18
+#, fuzzy
+msgid "Debugger Panel"
+msgstr "调试器"
+
+#: ../../docs/tutorials/debug/overview_of_debugging_tools.rst:20
+msgid ""
+"Many of Godot's debugging tools are part of the Debugger panel, which you "
+"can find information about in :ref:`doc_debugger_panel`."
+msgstr ""
+
+#: ../../docs/tutorials/debug/overview_of_debugging_tools.rst:24
+#, fuzzy
+msgid "Debug menu options"
+msgstr "调试选项"
+
+#: ../../docs/tutorials/debug/overview_of_debugging_tools.rst:26
+#, fuzzy
+msgid ""
+"There are a few common debug options you can toggle on or off when running "
+"your game in the editor, which can help you in debugging your game."
+msgstr ""
+"在编辑器中运行游戏时可以启用几个选项，以帮助您调试游戏。 这些选项位于主菜单中"
+"的 调试(Debug) 中。"
+
+#: ../../docs/tutorials/debug/overview_of_debugging_tools.rst:29
+msgid "You can find these options in the **Debug** editor menu."
+msgstr "您可以在**Debug**编辑器菜单中找到这些选项。"
+
+#: ../../docs/tutorials/debug/overview_of_debugging_tools.rst:33
+msgid "Here are the descriptions of the options:"
+msgstr "下面是这些选项的说明:"
+
+#: ../../docs/tutorials/debug/overview_of_debugging_tools.rst:36
+msgid "Deploy with Remote Debug"
+msgstr "使用远程调试部署"
+
+#: ../../docs/tutorials/debug/overview_of_debugging_tools.rst:38
+#, fuzzy
+msgid ""
+"When exporting and deploying, the resulting executable will attempt to "
+"connect to the IP of your computer for debugging."
+msgstr ""
+"在导出和发布游戏的调试版本时，导出的可执行文件将尝试连接到您本机的IP进行进行"
+"调试。"
+
+#: ../../docs/tutorials/debug/overview_of_debugging_tools.rst:42
+msgid "Small Deploy with Network FS"
+msgstr "使用网络文件系统进行小型部署"
+
+#: ../../docs/tutorials/debug/overview_of_debugging_tools.rst:44
+msgid ""
+"This option speeds up testing for games with a large footprint on remote "
+"devices."
+msgstr ""
+
+#: ../../docs/tutorials/debug/overview_of_debugging_tools.rst:46
+msgid ""
+"When **Small Deploy with Network FS** is on, instead of exporting the full "
+"game, deploying the game builds a minimal executable. The editor then "
+"provides files from the project over the network."
+msgstr ""
+
+#: ../../docs/tutorials/debug/overview_of_debugging_tools.rst:50
+msgid ""
+"Also, on Android, the game is deployed using the USB cable to speed up "
+"deployment."
+msgstr ""
+
+#: ../../docs/tutorials/debug/overview_of_debugging_tools.rst:53
+msgid "Visible Collision Shapes"
+msgstr "显示碰撞区域"
+
+#: ../../docs/tutorials/debug/overview_of_debugging_tools.rst:55
+#, fuzzy
+msgid ""
+"This option makes collision shapes and raycast nodes visible in the running "
+"game."
+msgstr "可以在运行游戏的时候看到碰撞区域和射线节点。"
+
+#: ../../docs/tutorials/debug/overview_of_debugging_tools.rst:58
+msgid "Visible Navigation"
+msgstr "显示导航"
+
+#: ../../docs/tutorials/debug/overview_of_debugging_tools.rst:60
+msgid "Navigation meshes and polygons will be visible on the running game."
+msgstr "可以在运行的游戏的时候看到导航网格和多边形。"
+
+#: ../../docs/tutorials/debug/overview_of_debugging_tools.rst:63
+msgid "Sync Scene Changes"
+msgstr "同步场景修改"
+
+#: ../../docs/tutorials/debug/overview_of_debugging_tools.rst:65
+#, fuzzy
+msgid ""
+"With this option, any change you make to a scene in the editor at runtime "
+"appears instantly. When used remotely on a device, this is more efficient "
+"with the network filesystem."
+msgstr ""
+"在编辑器中对场景所做的任何更改都将在正在运行的游戏中出现。 当在设备上远程使用"
+"时，这对网络文件系统更有效。"
+
+#: ../../docs/tutorials/debug/overview_of_debugging_tools.rst:70
+msgid "Sync Script Changes"
+msgstr "同步脚本变更"
+
+#: ../../docs/tutorials/debug/overview_of_debugging_tools.rst:72
+#, fuzzy
+msgid ""
+"Any script that is saved will be reloaded on the running game. When used "
+"remotely on a device, this is more efficient with the network filesystem."
+msgstr ""
+"任何已修改并保存的脚本将在正在运行的游戏中重新加载。 当在设备上远程使用时，这"
+"对网络文件系统更有效。"
+
+#: ../../docs/tutorials/debug/overview_of_debugging_tools.rst:76
+msgid "Script editor debug tools and options"
+msgstr "脚本编辑器调试工具和选项"
+
+#: ../../docs/tutorials/debug/overview_of_debugging_tools.rst:78
+msgid ""
+"The script editor has its own set of debug tools for use with breakpoints "
+"and two options. The breakpoint tools can also be found in the **Debugger** "
+"tab of the debugger."
+msgstr ""
+
+#: ../../docs/tutorials/debug/overview_of_debugging_tools.rst:84
+msgid ""
+"The **Break** button causes a break in the script like a breakpoint would. "
+"**Continue** makes the game continue after pausing at a breakpoint. **Step "
+"Over** goes to the next line of code, and **Step Into** goes into a function "
+"if possible. Otherwise, it does the same thing as **Step Over**."
+msgstr ""
+
+#: ../../docs/tutorials/debug/overview_of_debugging_tools.rst:89
+msgid ""
+"The **Keep Debugger Open** option keeps the debugger open after a scene has "
+"been closed. And the **Debug with External Editor** option lets you debug "
+"your game with an external editor."
+msgstr ""
+
+#: ../../docs/tutorials/debug/overview_of_debugging_tools.rst:95
+msgid ""
+"Breakpoints won't break on code if it's :ref:`running in a thread "
+"<doc_using_multiple_threads>`. This is a current limitation of the GDScript "
+"debugger."
+msgstr ""
+
+#: ../../docs/tutorials/debug/overview_of_debugging_tools.rst:100
+#, fuzzy
+msgid "Debug project settings"
+msgstr "使用项目设置"
+
+#: ../../docs/tutorials/debug/overview_of_debugging_tools.rst:102
+msgid ""
+"In the project settings, there is a **Debug** category with three "
+"subcategories which control different things."
+msgstr ""
+
+#: ../../docs/tutorials/debug/overview_of_debugging_tools.rst:106
+#, fuzzy
+msgid "Settings"
+msgstr "字符串"
+
+#: ../../docs/tutorials/debug/overview_of_debugging_tools.rst:108
+msgid ""
+"These are some general settings such as printing the current FPS to the "
+"**Output** panel, the maximum amount of functions when profiling and others."
+msgstr ""
+
+#: ../../docs/tutorials/debug/overview_of_debugging_tools.rst:113
+msgid "GDScript"
+msgstr "GDScript"
+
+#: ../../docs/tutorials/debug/overview_of_debugging_tools.rst:115
+msgid ""
+"These settings allow you to toggle specific GDScript warnings, such as for "
+"unused variables. You can also turn off warnings completely."
+msgstr ""
+
+#: ../../docs/tutorials/debug/overview_of_debugging_tools.rst:119
+#, fuzzy
+msgid "Shapes"
+msgstr "形状键"
+
+#: ../../docs/tutorials/debug/overview_of_debugging_tools.rst:121
+msgid ""
+"Shapes are where you can adjust the color of shapes that only appear for "
+"debugging purposes, such as collision and navigation shapes."
+msgstr ""
+
+#: ../../docs/tutorials/debug/overview_of_debugging_tools.rst:125
+#, fuzzy
+msgid "Remote in scene dock"
+msgstr "远程场景树"
+
+#: ../../docs/tutorials/debug/overview_of_debugging_tools.rst:127
+#, fuzzy
+msgid ""
+"When running a game in the editor two options appear at the top of the "
+"**Scene** dock, **Remote** and **Local**. While using **Remote** you can "
+"inspect or change the nodes' parameters in the running project."
+msgstr ""
+"在启动游戏后，``场景 (Scene)`` 停靠窗的顶部会出现一条切页栏，您可以切换到 ``"
+"远程 (Remote) `` 然后检视运行中节点和他们属性的变化。"
+
+#: ../../docs/tutorials/debug/overview_of_debugging_tools.rst:133
+#, fuzzy
+msgid ""
+"Some editor settings related to debugging can be found inside the **Editor "
+"Settings**, under the **Network > Debug** and **Debugger** sections."
+msgstr ""
+"一些与调试相关的编辑器设置可以在“编辑器设置”中找到，在“网络”>“调试和调试器”部"
+"分下。"

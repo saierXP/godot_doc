@@ -1,0 +1,137 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_websocketmultiplayerpeer.rst:10
+msgid "WebSocketMultiplayerPeer"
+msgstr ""
+
+#: ../../docs/classes/class_websocketmultiplayerpeer.rst:12
+msgid "**Inherits:** :ref:`NetworkedMultiplayerPeer<class_NetworkedMultiplayerPeer>` **<** :ref:`PacketPeer<class_PacketPeer>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_websocketmultiplayerpeer.rst:14
+msgid "**Inherited By:** :ref:`WebSocketClient<class_WebSocketClient>`, :ref:`WebSocketServer<class_WebSocketServer>`"
+msgstr ""
+
+#: ../../docs/classes/class_websocketmultiplayerpeer.rst:16
+msgid "Base class for WebSocket server and client."
+msgstr ""
+
+#: ../../docs/classes/class_websocketmultiplayerpeer.rst:19
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_websocketmultiplayerpeer.rst:21
+msgid "Base class for WebSocket server and client, allowing them to be used as network peer for the :ref:`MultiplayerAPI<class_MultiplayerAPI>`."
+msgstr ""
+
+#: ../../docs/classes/class_websocketmultiplayerpeer.rst:24
+msgid "Properties"
+msgstr ""
+
+#: ../../docs/classes/class_websocketmultiplayerpeer.rst:27
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_websocketmultiplayerpeer.rst:27
+msgid "refuse_new_connections"
+msgstr ""
+
+#: ../../docs/classes/class_websocketmultiplayerpeer.rst:27
+msgid "``false`` *(parent override)*"
+msgstr ""
+
+#: ../../docs/classes/class_websocketmultiplayerpeer.rst:29
+msgid ":ref:`TransferMode<enum_NetworkedMultiplayerPeer_TransferMode>`"
+msgstr ""
+
+#: ../../docs/classes/class_websocketmultiplayerpeer.rst:29
+msgid "transfer_mode"
+msgstr ""
+
+#: ../../docs/classes/class_websocketmultiplayerpeer.rst:29
+msgid "``2`` *(parent override)*"
+msgstr ""
+
+#: ../../docs/classes/class_websocketmultiplayerpeer.rst:33
+msgid "Methods"
+msgstr ""
+
+#: ../../docs/classes/class_websocketmultiplayerpeer.rst:36
+msgid ":ref:`WebSocketPeer<class_WebSocketPeer>`"
+msgstr ""
+
+#: ../../docs/classes/class_websocketmultiplayerpeer.rst:36
+msgid ":ref:`get_peer<class_WebSocketMultiplayerPeer_method_get_peer>` **(** :ref:`int<class_int>` peer_id **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_websocketmultiplayerpeer.rst:38
+msgid ":ref:`Error<enum_@GlobalScope_Error>`"
+msgstr ""
+
+#: ../../docs/classes/class_websocketmultiplayerpeer.rst:38
+msgid ":ref:`set_buffers<class_WebSocketMultiplayerPeer_method_set_buffers>` **(** :ref:`int<class_int>` input_buffer_size_kb, :ref:`int<class_int>` input_max_packets, :ref:`int<class_int>` output_buffer_size_kb, :ref:`int<class_int>` output_max_packets **)**"
+msgstr ""
+
+#: ../../docs/classes/class_websocketmultiplayerpeer.rst:42
+msgid "Signals"
+msgstr ""
+
+#: ../../docs/classes/class_websocketmultiplayerpeer.rst:46
+msgid "**peer_packet** **(** :ref:`int<class_int>` peer_source **)**"
+msgstr ""
+
+#: ../../docs/classes/class_websocketmultiplayerpeer.rst:48
+msgid "Emitted when a packet is received from a peer."
+msgstr ""
+
+#: ../../docs/classes/class_websocketmultiplayerpeer.rst:50
+msgid "**Note:** This signal is only emitted when the client or server is configured to use Godot multiplayer API."
+msgstr ""
+
+#: ../../docs/classes/class_websocketmultiplayerpeer.rst:53
+msgid "Method Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_websocketmultiplayerpeer.rst:57
+msgid ":ref:`WebSocketPeer<class_WebSocketPeer>` **get_peer** **(** :ref:`int<class_int>` peer_id **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_websocketmultiplayerpeer.rst:59
+msgid "Returns the :ref:`WebSocketPeer<class_WebSocketPeer>` associated to the given ``peer_id``."
+msgstr ""
+
+#: ../../docs/classes/class_websocketmultiplayerpeer.rst:65
+msgid ":ref:`Error<enum_@GlobalScope_Error>` **set_buffers** **(** :ref:`int<class_int>` input_buffer_size_kb, :ref:`int<class_int>` input_max_packets, :ref:`int<class_int>` output_buffer_size_kb, :ref:`int<class_int>` output_max_packets **)**"
+msgstr ""
+
+#: ../../docs/classes/class_websocketmultiplayerpeer.rst:67
+msgid "Configures the buffer sizes for this WebSocket peer. Default values can be specified in the Project Settings under ``network/limits``. For server, values are meant per connected peer."
+msgstr ""
+
+#: ../../docs/classes/class_websocketmultiplayerpeer.rst:69
+msgid "The first two parameters define the size and queued packets limits of the input buffer, the last two of the output buffer."
+msgstr ""
+
+#: ../../docs/classes/class_websocketmultiplayerpeer.rst:71
+msgid "Buffer sizes are expressed in KiB, so ``4 = 2^12 = 4096 bytes``. All parameters will be rounded up to the nearest power of two."
+msgstr ""
+
+#: ../../docs/classes/class_websocketmultiplayerpeer.rst:73
+msgid "**Note:** HTML5 exports only use the input buffer since the output one is managed by browsers."
+msgstr ""

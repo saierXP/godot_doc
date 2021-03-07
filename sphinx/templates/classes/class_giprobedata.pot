@@ -1,0 +1,331 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_giprobedata.rst:10
+msgid "GIProbeData"
+msgstr ""
+
+#: ../../docs/classes/class_giprobedata.rst:12
+msgid "**Inherits:** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_giprobedata.rst:17
+msgid "Tutorials"
+msgstr ""
+
+#: ../../docs/classes/class_giprobedata.rst:19
+msgid "`https://godotengine.org/asset-library/asset/678 <https://godotengine.org/asset-library/asset/678>`_"
+msgstr ""
+
+#: ../../docs/classes/class_giprobedata.rst:22
+msgid "Properties"
+msgstr ""
+
+#: ../../docs/classes/class_giprobedata.rst:25
+#: ../../docs/classes/class_giprobedata.rst:29
+#: ../../docs/classes/class_giprobedata.rst:37
+#: ../../docs/classes/class_giprobedata.rst:41
+#: ../../docs/classes/class_giprobedata.rst:43
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../../docs/classes/class_giprobedata.rst:25
+msgid ":ref:`bias<class_GIProbeData_property_bias>`"
+msgstr ""
+
+#: ../../docs/classes/class_giprobedata.rst:25
+#: ../../docs/classes/class_giprobedata.rst:41
+#: ../../docs/classes/class_giprobedata.rst:56
+#: ../../docs/classes/class_giprobedata.rst:168
+msgid "``0.4``"
+msgstr ""
+
+#: ../../docs/classes/class_giprobedata.rst:27
+msgid ":ref:`AABB<class_AABB>`"
+msgstr ""
+
+#: ../../docs/classes/class_giprobedata.rst:27
+msgid ":ref:`bounds<class_GIProbeData_property_bounds>`"
+msgstr ""
+
+#: ../../docs/classes/class_giprobedata.rst:27
+#: ../../docs/classes/class_giprobedata.rst:70
+msgid "``AABB( 0, 0, 0, 1, 1, 1 )``"
+msgstr ""
+
+#: ../../docs/classes/class_giprobedata.rst:29
+msgid ":ref:`cell_size<class_GIProbeData_property_cell_size>`"
+msgstr ""
+
+#: ../../docs/classes/class_giprobedata.rst:29
+#: ../../docs/classes/class_giprobedata.rst:37
+#: ../../docs/classes/class_giprobedata.rst:43
+#: ../../docs/classes/class_giprobedata.rst:84
+#: ../../docs/classes/class_giprobedata.rst:140
+#: ../../docs/classes/class_giprobedata.rst:182
+msgid "``1.0``"
+msgstr ""
+
+#: ../../docs/classes/class_giprobedata.rst:31
+#: ../../docs/classes/class_giprobedata.rst:39
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_giprobedata.rst:31
+msgid ":ref:`compress<class_GIProbeData_property_compress>`"
+msgstr ""
+
+#: ../../docs/classes/class_giprobedata.rst:31
+#: ../../docs/classes/class_giprobedata.rst:39
+#: ../../docs/classes/class_giprobedata.rst:98
+#: ../../docs/classes/class_giprobedata.rst:154
+msgid "``false``"
+msgstr ""
+
+#: ../../docs/classes/class_giprobedata.rst:33
+msgid ":ref:`PoolIntArray<class_PoolIntArray>`"
+msgstr ""
+
+#: ../../docs/classes/class_giprobedata.rst:33
+msgid ":ref:`dynamic_data<class_GIProbeData_property_dynamic_data>`"
+msgstr ""
+
+#: ../../docs/classes/class_giprobedata.rst:33
+#: ../../docs/classes/class_giprobedata.rst:112
+msgid "``PoolIntArray(  )``"
+msgstr ""
+
+#: ../../docs/classes/class_giprobedata.rst:35
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../../docs/classes/class_giprobedata.rst:35
+msgid ":ref:`dynamic_range<class_GIProbeData_property_dynamic_range>`"
+msgstr ""
+
+#: ../../docs/classes/class_giprobedata.rst:35
+#: ../../docs/classes/class_giprobedata.rst:126
+msgid "``1``"
+msgstr ""
+
+#: ../../docs/classes/class_giprobedata.rst:37
+msgid ":ref:`energy<class_GIProbeData_property_energy>`"
+msgstr ""
+
+#: ../../docs/classes/class_giprobedata.rst:39
+msgid ":ref:`interior<class_GIProbeData_property_interior>`"
+msgstr ""
+
+#: ../../docs/classes/class_giprobedata.rst:41
+msgid ":ref:`normal_bias<class_GIProbeData_property_normal_bias>`"
+msgstr ""
+
+#: ../../docs/classes/class_giprobedata.rst:43
+msgid ":ref:`propagation<class_GIProbeData_property_propagation>`"
+msgstr ""
+
+#: ../../docs/classes/class_giprobedata.rst:45
+msgid ":ref:`Transform<class_Transform>`"
+msgstr ""
+
+#: ../../docs/classes/class_giprobedata.rst:45
+msgid ":ref:`to_cell_xform<class_GIProbeData_property_to_cell_xform>`"
+msgstr ""
+
+#: ../../docs/classes/class_giprobedata.rst:45
+#: ../../docs/classes/class_giprobedata.rst:196
+msgid "``Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 )``"
+msgstr ""
+
+#: ../../docs/classes/class_giprobedata.rst:49
+msgid "Property Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_giprobedata.rst:53
+msgid ":ref:`float<class_float>` **bias**"
+msgstr ""
+
+#: ../../docs/classes/class_giprobedata.rst:56
+#: ../../docs/classes/class_giprobedata.rst:70
+#: ../../docs/classes/class_giprobedata.rst:84
+#: ../../docs/classes/class_giprobedata.rst:98
+#: ../../docs/classes/class_giprobedata.rst:112
+#: ../../docs/classes/class_giprobedata.rst:126
+#: ../../docs/classes/class_giprobedata.rst:140
+#: ../../docs/classes/class_giprobedata.rst:154
+#: ../../docs/classes/class_giprobedata.rst:168
+#: ../../docs/classes/class_giprobedata.rst:182
+#: ../../docs/classes/class_giprobedata.rst:196
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_giprobedata.rst:58
+#: ../../docs/classes/class_giprobedata.rst:72
+#: ../../docs/classes/class_giprobedata.rst:86
+#: ../../docs/classes/class_giprobedata.rst:100
+#: ../../docs/classes/class_giprobedata.rst:114
+#: ../../docs/classes/class_giprobedata.rst:128
+#: ../../docs/classes/class_giprobedata.rst:142
+#: ../../docs/classes/class_giprobedata.rst:156
+#: ../../docs/classes/class_giprobedata.rst:170
+#: ../../docs/classes/class_giprobedata.rst:184
+#: ../../docs/classes/class_giprobedata.rst:198
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_giprobedata.rst:58
+msgid "set_bias(value)"
+msgstr ""
+
+#: ../../docs/classes/class_giprobedata.rst:60
+#: ../../docs/classes/class_giprobedata.rst:74
+#: ../../docs/classes/class_giprobedata.rst:88
+#: ../../docs/classes/class_giprobedata.rst:102
+#: ../../docs/classes/class_giprobedata.rst:116
+#: ../../docs/classes/class_giprobedata.rst:130
+#: ../../docs/classes/class_giprobedata.rst:144
+#: ../../docs/classes/class_giprobedata.rst:158
+#: ../../docs/classes/class_giprobedata.rst:172
+#: ../../docs/classes/class_giprobedata.rst:186
+#: ../../docs/classes/class_giprobedata.rst:200
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_giprobedata.rst:60
+msgid "get_bias()"
+msgstr ""
+
+#: ../../docs/classes/class_giprobedata.rst:67
+msgid ":ref:`AABB<class_AABB>` **bounds**"
+msgstr ""
+
+#: ../../docs/classes/class_giprobedata.rst:72
+msgid "set_bounds(value)"
+msgstr ""
+
+#: ../../docs/classes/class_giprobedata.rst:74
+msgid "get_bounds()"
+msgstr ""
+
+#: ../../docs/classes/class_giprobedata.rst:81
+msgid ":ref:`float<class_float>` **cell_size**"
+msgstr ""
+
+#: ../../docs/classes/class_giprobedata.rst:86
+msgid "set_cell_size(value)"
+msgstr ""
+
+#: ../../docs/classes/class_giprobedata.rst:88
+msgid "get_cell_size()"
+msgstr ""
+
+#: ../../docs/classes/class_giprobedata.rst:95
+msgid ":ref:`bool<class_bool>` **compress**"
+msgstr ""
+
+#: ../../docs/classes/class_giprobedata.rst:100
+msgid "set_compress(value)"
+msgstr ""
+
+#: ../../docs/classes/class_giprobedata.rst:102
+msgid "is_compressed()"
+msgstr ""
+
+#: ../../docs/classes/class_giprobedata.rst:109
+msgid ":ref:`PoolIntArray<class_PoolIntArray>` **dynamic_data**"
+msgstr ""
+
+#: ../../docs/classes/class_giprobedata.rst:114
+msgid "set_dynamic_data(value)"
+msgstr ""
+
+#: ../../docs/classes/class_giprobedata.rst:116
+msgid "get_dynamic_data()"
+msgstr ""
+
+#: ../../docs/classes/class_giprobedata.rst:123
+msgid ":ref:`int<class_int>` **dynamic_range**"
+msgstr ""
+
+#: ../../docs/classes/class_giprobedata.rst:128
+msgid "set_dynamic_range(value)"
+msgstr ""
+
+#: ../../docs/classes/class_giprobedata.rst:130
+msgid "get_dynamic_range()"
+msgstr ""
+
+#: ../../docs/classes/class_giprobedata.rst:137
+msgid ":ref:`float<class_float>` **energy**"
+msgstr ""
+
+#: ../../docs/classes/class_giprobedata.rst:142
+msgid "set_energy(value)"
+msgstr ""
+
+#: ../../docs/classes/class_giprobedata.rst:144
+msgid "get_energy()"
+msgstr ""
+
+#: ../../docs/classes/class_giprobedata.rst:151
+msgid ":ref:`bool<class_bool>` **interior**"
+msgstr ""
+
+#: ../../docs/classes/class_giprobedata.rst:156
+msgid "set_interior(value)"
+msgstr ""
+
+#: ../../docs/classes/class_giprobedata.rst:158
+msgid "is_interior()"
+msgstr ""
+
+#: ../../docs/classes/class_giprobedata.rst:165
+msgid ":ref:`float<class_float>` **normal_bias**"
+msgstr ""
+
+#: ../../docs/classes/class_giprobedata.rst:170
+msgid "set_normal_bias(value)"
+msgstr ""
+
+#: ../../docs/classes/class_giprobedata.rst:172
+msgid "get_normal_bias()"
+msgstr ""
+
+#: ../../docs/classes/class_giprobedata.rst:179
+msgid ":ref:`float<class_float>` **propagation**"
+msgstr ""
+
+#: ../../docs/classes/class_giprobedata.rst:184
+msgid "set_propagation(value)"
+msgstr ""
+
+#: ../../docs/classes/class_giprobedata.rst:186
+msgid "get_propagation()"
+msgstr ""
+
+#: ../../docs/classes/class_giprobedata.rst:193
+msgid ":ref:`Transform<class_Transform>` **to_cell_xform**"
+msgstr ""
+
+#: ../../docs/classes/class_giprobedata.rst:198
+msgid "set_to_cell_xform(value)"
+msgstr ""
+
+#: ../../docs/classes/class_giprobedata.rst:200
+msgid "get_to_cell_xform()"
+msgstr ""

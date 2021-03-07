@@ -1,0 +1,118 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_visualshadernodescalarop.rst:10
+msgid "VisualShaderNodeScalarOp"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodescalarop.rst:12
+msgid "**Inherits:** :ref:`VisualShaderNode<class_VisualShaderNode>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodescalarop.rst:17
+msgid "Properties"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodescalarop.rst:20
+msgid ":ref:`Operator<enum_VisualShaderNodeScalarOp_Operator>`"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodescalarop.rst:20
+msgid ":ref:`operator<class_VisualShaderNodeScalarOp_property_operator>`"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodescalarop.rst:20
+#: ../../docs/classes/class_visualshadernodescalarop.rst:78
+msgid "``0``"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodescalarop.rst:24
+msgid "Enumerations"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodescalarop.rst:48
+msgid "enum **Operator**:"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodescalarop.rst:50
+msgid "**OP_ADD** = **0**"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodescalarop.rst:52
+msgid "**OP_SUB** = **1**"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodescalarop.rst:54
+msgid "**OP_MUL** = **2**"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodescalarop.rst:56
+msgid "**OP_DIV** = **3**"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodescalarop.rst:58
+msgid "**OP_MOD** = **4**"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodescalarop.rst:60
+msgid "**OP_POW** = **5**"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodescalarop.rst:62
+msgid "**OP_MAX** = **6**"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodescalarop.rst:64
+msgid "**OP_MIN** = **7**"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodescalarop.rst:66
+msgid "**OP_ATAN2** = **8**"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodescalarop.rst:68
+msgid "**OP_STEP** = **9**"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodescalarop.rst:71
+msgid "Property Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodescalarop.rst:75
+msgid ":ref:`Operator<enum_VisualShaderNodeScalarOp_Operator>` **operator**"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodescalarop.rst:78
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodescalarop.rst:80
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodescalarop.rst:80
+msgid "set_operator(value)"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodescalarop.rst:82
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodescalarop.rst:82
+msgid "get_operator()"
+msgstr ""

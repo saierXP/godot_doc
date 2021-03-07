@@ -1,0 +1,336 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_upnpdevice.rst:10
+msgid "UPNPDevice"
+msgstr ""
+
+#: ../../docs/classes/class_upnpdevice.rst:12
+msgid "**Inherits:** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_upnpdevice.rst:14
+msgid "UPNP device."
+msgstr ""
+
+#: ../../docs/classes/class_upnpdevice.rst:17
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_upnpdevice.rst:19
+msgid "UPNP device. See :ref:`UPNP<class_UPNP>` for UPNP discovery and utility functions. Provides low-level access to UPNP control commands. Allows to manage port mappings (port forwarding) and to query network information of the device (like local and external IP address and status). Note that methods on this class are synchronous and block the calling thread."
+msgstr ""
+
+#: ../../docs/classes/class_upnpdevice.rst:22
+msgid "Properties"
+msgstr ""
+
+#: ../../docs/classes/class_upnpdevice.rst:25
+#: ../../docs/classes/class_upnpdevice.rst:27
+#: ../../docs/classes/class_upnpdevice.rst:29
+#: ../../docs/classes/class_upnpdevice.rst:31
+#: ../../docs/classes/class_upnpdevice.rst:35
+#: ../../docs/classes/class_upnpdevice.rst:48
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../../docs/classes/class_upnpdevice.rst:25
+msgid ":ref:`description_url<class_UPNPDevice_property_description_url>`"
+msgstr ""
+
+#: ../../docs/classes/class_upnpdevice.rst:25
+#: ../../docs/classes/class_upnpdevice.rst:27
+#: ../../docs/classes/class_upnpdevice.rst:29
+#: ../../docs/classes/class_upnpdevice.rst:31
+#: ../../docs/classes/class_upnpdevice.rst:35
+#: ../../docs/classes/class_upnpdevice.rst:106
+#: ../../docs/classes/class_upnpdevice.rst:122
+#: ../../docs/classes/class_upnpdevice.rst:138
+#: ../../docs/classes/class_upnpdevice.rst:154
+#: ../../docs/classes/class_upnpdevice.rst:186
+msgid "``\"\"``"
+msgstr ""
+
+#: ../../docs/classes/class_upnpdevice.rst:27
+msgid ":ref:`igd_control_url<class_UPNPDevice_property_igd_control_url>`"
+msgstr ""
+
+#: ../../docs/classes/class_upnpdevice.rst:29
+msgid ":ref:`igd_our_addr<class_UPNPDevice_property_igd_our_addr>`"
+msgstr ""
+
+#: ../../docs/classes/class_upnpdevice.rst:31
+msgid ":ref:`igd_service_type<class_UPNPDevice_property_igd_service_type>`"
+msgstr ""
+
+#: ../../docs/classes/class_upnpdevice.rst:33
+msgid ":ref:`IGDStatus<enum_UPNPDevice_IGDStatus>`"
+msgstr ""
+
+#: ../../docs/classes/class_upnpdevice.rst:33
+msgid ":ref:`igd_status<class_UPNPDevice_property_igd_status>`"
+msgstr ""
+
+#: ../../docs/classes/class_upnpdevice.rst:33
+#: ../../docs/classes/class_upnpdevice.rst:170
+msgid "``9``"
+msgstr ""
+
+#: ../../docs/classes/class_upnpdevice.rst:35
+msgid ":ref:`service_type<class_UPNPDevice_property_service_type>`"
+msgstr ""
+
+#: ../../docs/classes/class_upnpdevice.rst:39
+msgid "Methods"
+msgstr ""
+
+#: ../../docs/classes/class_upnpdevice.rst:42
+#: ../../docs/classes/class_upnpdevice.rst:44
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../../docs/classes/class_upnpdevice.rst:42
+msgid ":ref:`add_port_mapping<class_UPNPDevice_method_add_port_mapping>` **(** :ref:`int<class_int>` port, :ref:`int<class_int>` port_internal=0, :ref:`String<class_String>` desc=\"\", :ref:`String<class_String>` proto=\"UDP\", :ref:`int<class_int>` duration=0 **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_upnpdevice.rst:44
+msgid ":ref:`delete_port_mapping<class_UPNPDevice_method_delete_port_mapping>` **(** :ref:`int<class_int>` port, :ref:`String<class_String>` proto=\"UDP\" **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_upnpdevice.rst:46
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_upnpdevice.rst:46
+msgid ":ref:`is_valid_gateway<class_UPNPDevice_method_is_valid_gateway>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_upnpdevice.rst:48
+msgid ":ref:`query_external_address<class_UPNPDevice_method_query_external_address>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_upnpdevice.rst:52
+msgid "Enumerations"
+msgstr ""
+
+#: ../../docs/classes/class_upnpdevice.rst:76
+msgid "enum **IGDStatus**:"
+msgstr ""
+
+#: ../../docs/classes/class_upnpdevice.rst:78
+msgid "**IGD_STATUS_OK** = **0** --- OK."
+msgstr ""
+
+#: ../../docs/classes/class_upnpdevice.rst:80
+msgid "**IGD_STATUS_HTTP_ERROR** = **1** --- HTTP error."
+msgstr ""
+
+#: ../../docs/classes/class_upnpdevice.rst:82
+msgid "**IGD_STATUS_HTTP_EMPTY** = **2** --- Empty HTTP response."
+msgstr ""
+
+#: ../../docs/classes/class_upnpdevice.rst:84
+msgid "**IGD_STATUS_NO_URLS** = **3** --- Returned response contained no URLs."
+msgstr ""
+
+#: ../../docs/classes/class_upnpdevice.rst:86
+msgid "**IGD_STATUS_NO_IGD** = **4** --- Not a valid IGD."
+msgstr ""
+
+#: ../../docs/classes/class_upnpdevice.rst:88
+msgid "**IGD_STATUS_DISCONNECTED** = **5** --- Disconnected."
+msgstr ""
+
+#: ../../docs/classes/class_upnpdevice.rst:90
+msgid "**IGD_STATUS_UNKNOWN_DEVICE** = **6** --- Unknown device."
+msgstr ""
+
+#: ../../docs/classes/class_upnpdevice.rst:92
+msgid "**IGD_STATUS_INVALID_CONTROL** = **7** --- Invalid control."
+msgstr ""
+
+#: ../../docs/classes/class_upnpdevice.rst:94
+msgid "**IGD_STATUS_MALLOC_ERROR** = **8** --- Memory allocation error."
+msgstr ""
+
+#: ../../docs/classes/class_upnpdevice.rst:96
+msgid "**IGD_STATUS_UNKNOWN_ERROR** = **9** --- Unknown error."
+msgstr ""
+
+#: ../../docs/classes/class_upnpdevice.rst:99
+msgid "Property Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_upnpdevice.rst:103
+msgid ":ref:`String<class_String>` **description_url**"
+msgstr ""
+
+#: ../../docs/classes/class_upnpdevice.rst:106
+#: ../../docs/classes/class_upnpdevice.rst:122
+#: ../../docs/classes/class_upnpdevice.rst:138
+#: ../../docs/classes/class_upnpdevice.rst:154
+#: ../../docs/classes/class_upnpdevice.rst:170
+#: ../../docs/classes/class_upnpdevice.rst:186
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_upnpdevice.rst:108
+#: ../../docs/classes/class_upnpdevice.rst:124
+#: ../../docs/classes/class_upnpdevice.rst:140
+#: ../../docs/classes/class_upnpdevice.rst:156
+#: ../../docs/classes/class_upnpdevice.rst:172
+#: ../../docs/classes/class_upnpdevice.rst:188
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_upnpdevice.rst:108
+msgid "set_description_url(value)"
+msgstr ""
+
+#: ../../docs/classes/class_upnpdevice.rst:110
+#: ../../docs/classes/class_upnpdevice.rst:126
+#: ../../docs/classes/class_upnpdevice.rst:142
+#: ../../docs/classes/class_upnpdevice.rst:158
+#: ../../docs/classes/class_upnpdevice.rst:174
+#: ../../docs/classes/class_upnpdevice.rst:190
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_upnpdevice.rst:110
+msgid "get_description_url()"
+msgstr ""
+
+#: ../../docs/classes/class_upnpdevice.rst:113
+msgid "URL to the device description."
+msgstr ""
+
+#: ../../docs/classes/class_upnpdevice.rst:119
+msgid ":ref:`String<class_String>` **igd_control_url**"
+msgstr ""
+
+#: ../../docs/classes/class_upnpdevice.rst:124
+msgid "set_igd_control_url(value)"
+msgstr ""
+
+#: ../../docs/classes/class_upnpdevice.rst:126
+msgid "get_igd_control_url()"
+msgstr ""
+
+#: ../../docs/classes/class_upnpdevice.rst:129
+msgid "IDG control URL."
+msgstr ""
+
+#: ../../docs/classes/class_upnpdevice.rst:135
+msgid ":ref:`String<class_String>` **igd_our_addr**"
+msgstr ""
+
+#: ../../docs/classes/class_upnpdevice.rst:140
+msgid "set_igd_our_addr(value)"
+msgstr ""
+
+#: ../../docs/classes/class_upnpdevice.rst:142
+msgid "get_igd_our_addr()"
+msgstr ""
+
+#: ../../docs/classes/class_upnpdevice.rst:145
+msgid "Address of the local machine in the network connecting it to this ``UPNPDevice``."
+msgstr ""
+
+#: ../../docs/classes/class_upnpdevice.rst:151
+msgid ":ref:`String<class_String>` **igd_service_type**"
+msgstr ""
+
+#: ../../docs/classes/class_upnpdevice.rst:156
+msgid "set_igd_service_type(value)"
+msgstr ""
+
+#: ../../docs/classes/class_upnpdevice.rst:158
+msgid "get_igd_service_type()"
+msgstr ""
+
+#: ../../docs/classes/class_upnpdevice.rst:161
+msgid "IGD service type."
+msgstr ""
+
+#: ../../docs/classes/class_upnpdevice.rst:167
+msgid ":ref:`IGDStatus<enum_UPNPDevice_IGDStatus>` **igd_status**"
+msgstr ""
+
+#: ../../docs/classes/class_upnpdevice.rst:172
+msgid "set_igd_status(value)"
+msgstr ""
+
+#: ../../docs/classes/class_upnpdevice.rst:174
+msgid "get_igd_status()"
+msgstr ""
+
+#: ../../docs/classes/class_upnpdevice.rst:177
+msgid "IGD status. See :ref:`IGDStatus<enum_UPNPDevice_IGDStatus>`."
+msgstr ""
+
+#: ../../docs/classes/class_upnpdevice.rst:183
+msgid ":ref:`String<class_String>` **service_type**"
+msgstr ""
+
+#: ../../docs/classes/class_upnpdevice.rst:188
+msgid "set_service_type(value)"
+msgstr ""
+
+#: ../../docs/classes/class_upnpdevice.rst:190
+msgid "get_service_type()"
+msgstr ""
+
+#: ../../docs/classes/class_upnpdevice.rst:193
+msgid "Service type."
+msgstr ""
+
+#: ../../docs/classes/class_upnpdevice.rst:196
+msgid "Method Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_upnpdevice.rst:200
+msgid ":ref:`int<class_int>` **add_port_mapping** **(** :ref:`int<class_int>` port, :ref:`int<class_int>` port_internal=0, :ref:`String<class_String>` desc=\"\", :ref:`String<class_String>` proto=\"UDP\", :ref:`int<class_int>` duration=0 **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_upnpdevice.rst:202
+msgid "Adds a port mapping to forward the given external port on this ``UPNPDevice`` for the given protocol to the local machine. See :ref:`UPNP.add_port_mapping<class_UPNP_method_add_port_mapping>`."
+msgstr ""
+
+#: ../../docs/classes/class_upnpdevice.rst:208
+msgid ":ref:`int<class_int>` **delete_port_mapping** **(** :ref:`int<class_int>` port, :ref:`String<class_String>` proto=\"UDP\" **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_upnpdevice.rst:210
+msgid "Deletes the port mapping identified by the given port and protocol combination on this device. See :ref:`UPNP.delete_port_mapping<class_UPNP_method_delete_port_mapping>`."
+msgstr ""
+
+#: ../../docs/classes/class_upnpdevice.rst:216
+msgid ":ref:`bool<class_bool>` **is_valid_gateway** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_upnpdevice.rst:218
+msgid "Returns ``true`` if this is a valid IGD (InternetGatewayDevice) which potentially supports port forwarding."
+msgstr ""
+
+#: ../../docs/classes/class_upnpdevice.rst:224
+msgid ":ref:`String<class_String>` **query_external_address** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_upnpdevice.rst:226
+msgid "Returns the external IP address of this ``UPNPDevice`` or an empty string."
+msgstr ""

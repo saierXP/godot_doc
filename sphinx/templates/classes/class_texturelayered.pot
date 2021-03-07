@@ -1,0 +1,257 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_texturelayered.rst:10
+msgid "TextureLayered"
+msgstr ""
+
+#: ../../docs/classes/class_texturelayered.rst:12
+msgid "**Inherits:** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_texturelayered.rst:14
+msgid "**Inherited By:** :ref:`Texture3D<class_Texture3D>`, :ref:`TextureArray<class_TextureArray>`"
+msgstr ""
+
+#: ../../docs/classes/class_texturelayered.rst:16
+msgid "Base class for 3D texture types."
+msgstr ""
+
+#: ../../docs/classes/class_texturelayered.rst:19
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_texturelayered.rst:21
+msgid "Base class for :ref:`Texture3D<class_Texture3D>` and :ref:`TextureArray<class_TextureArray>`. Cannot be used directly, but contains all the functions necessary for accessing and using :ref:`Texture3D<class_Texture3D>` and :ref:`TextureArray<class_TextureArray>`. Data is set on a per-layer basis. For :ref:`Texture3D<class_Texture3D>`\\ s, the layer specifies the depth or Z-index, they can be treated as a bunch of 2D slices. Similarly, for :ref:`TextureArray<class_TextureArray>`\\ s, the layer specifies the array layer."
+msgstr ""
+
+#: ../../docs/classes/class_texturelayered.rst:24
+msgid "Properties"
+msgstr ""
+
+#: ../../docs/classes/class_texturelayered.rst:27
+msgid ":ref:`Dictionary<class_Dictionary>`"
+msgstr ""
+
+#: ../../docs/classes/class_texturelayered.rst:27
+msgid ":ref:`data<class_TextureLayered_property_data>`"
+msgstr ""
+
+#: ../../docs/classes/class_texturelayered.rst:27
+#: ../../docs/classes/class_texturelayered.rst:84
+msgid "``{\"depth\": 0,\"flags\": 4,\"format\": 37,\"height\": 0,\"layers\": [  ],\"width\": 0}``"
+msgstr ""
+
+#: ../../docs/classes/class_texturelayered.rst:29
+#: ../../docs/classes/class_texturelayered.rst:38
+#: ../../docs/classes/class_texturelayered.rst:42
+#: ../../docs/classes/class_texturelayered.rst:46
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../../docs/classes/class_texturelayered.rst:29
+msgid ":ref:`flags<class_TextureLayered_property_flags>`"
+msgstr ""
+
+#: ../../docs/classes/class_texturelayered.rst:29
+#: ../../docs/classes/class_texturelayered.rst:96
+msgid "``4``"
+msgstr ""
+
+#: ../../docs/classes/class_texturelayered.rst:33
+msgid "Methods"
+msgstr ""
+
+#: ../../docs/classes/class_texturelayered.rst:36
+#: ../../docs/classes/class_texturelayered.rst:48
+#: ../../docs/classes/class_texturelayered.rst:50
+msgid "void"
+msgstr ""
+
+#: ../../docs/classes/class_texturelayered.rst:36
+msgid ":ref:`create<class_TextureLayered_method_create>` **(** :ref:`int<class_int>` width, :ref:`int<class_int>` height, :ref:`int<class_int>` depth, :ref:`Format<enum_Image_Format>` format, :ref:`int<class_int>` flags=4 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_texturelayered.rst:38
+msgid ":ref:`get_depth<class_TextureLayered_method_get_depth>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_texturelayered.rst:40
+msgid ":ref:`Format<enum_Image_Format>`"
+msgstr ""
+
+#: ../../docs/classes/class_texturelayered.rst:40
+msgid ":ref:`get_format<class_TextureLayered_method_get_format>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_texturelayered.rst:42
+msgid ":ref:`get_height<class_TextureLayered_method_get_height>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_texturelayered.rst:44
+msgid ":ref:`Image<class_Image>`"
+msgstr ""
+
+#: ../../docs/classes/class_texturelayered.rst:44
+msgid ":ref:`get_layer_data<class_TextureLayered_method_get_layer_data>` **(** :ref:`int<class_int>` layer **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_texturelayered.rst:46
+msgid ":ref:`get_width<class_TextureLayered_method_get_width>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_texturelayered.rst:48
+msgid ":ref:`set_data_partial<class_TextureLayered_method_set_data_partial>` **(** :ref:`Image<class_Image>` image, :ref:`int<class_int>` x_offset, :ref:`int<class_int>` y_offset, :ref:`int<class_int>` layer, :ref:`int<class_int>` mipmap=0 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_texturelayered.rst:50
+msgid ":ref:`set_layer_data<class_TextureLayered_method_set_layer_data>` **(** :ref:`Image<class_Image>` image, :ref:`int<class_int>` layer **)**"
+msgstr ""
+
+#: ../../docs/classes/class_texturelayered.rst:54
+msgid "Enumerations"
+msgstr ""
+
+#: ../../docs/classes/class_texturelayered.rst:66
+msgid "enum **Flags**:"
+msgstr ""
+
+#: ../../docs/classes/class_texturelayered.rst:68
+msgid "**FLAG_MIPMAPS** = **1** --- Texture will generate mipmaps on creation."
+msgstr ""
+
+#: ../../docs/classes/class_texturelayered.rst:70
+msgid "**FLAG_REPEAT** = **2** --- Texture will repeat when UV used is outside the 0-1 range."
+msgstr ""
+
+#: ../../docs/classes/class_texturelayered.rst:72
+msgid "**FLAG_FILTER** = **4** --- Use filtering when reading from texture. Filtering smooths out pixels. Turning filtering off is slightly faster and more appropriate when you need access to individual pixels."
+msgstr ""
+
+#: ../../docs/classes/class_texturelayered.rst:74
+msgid "**FLAGS_DEFAULT** = **4** --- Equivalent to :ref:`FLAG_FILTER<class_TextureLayered_constant_FLAG_FILTER>`."
+msgstr ""
+
+#: ../../docs/classes/class_texturelayered.rst:77
+msgid "Property Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_texturelayered.rst:81
+msgid ":ref:`Dictionary<class_Dictionary>` **data**"
+msgstr ""
+
+#: ../../docs/classes/class_texturelayered.rst:84
+#: ../../docs/classes/class_texturelayered.rst:96
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_texturelayered.rst:87
+msgid "Returns a dictionary with all the data used by this texture."
+msgstr ""
+
+#: ../../docs/classes/class_texturelayered.rst:93
+msgid ":ref:`int<class_int>` **flags**"
+msgstr ""
+
+#: ../../docs/classes/class_texturelayered.rst:98
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_texturelayered.rst:98
+msgid "set_flags(value)"
+msgstr ""
+
+#: ../../docs/classes/class_texturelayered.rst:100
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_texturelayered.rst:100
+msgid "get_flags()"
+msgstr ""
+
+#: ../../docs/classes/class_texturelayered.rst:103
+msgid "Specifies which :ref:`Flags<enum_TextureLayered_Flags>` apply to this texture."
+msgstr ""
+
+#: ../../docs/classes/class_texturelayered.rst:106
+msgid "Method Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_texturelayered.rst:110
+msgid "void **create** **(** :ref:`int<class_int>` width, :ref:`int<class_int>` height, :ref:`int<class_int>` depth, :ref:`Format<enum_Image_Format>` format, :ref:`int<class_int>` flags=4 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_texturelayered.rst:112
+msgid "Creates the :ref:`Texture3D<class_Texture3D>` or :ref:`TextureArray<class_TextureArray>` with specified ``width``, ``height``, and ``depth``. See :ref:`Format<enum_Image_Format>` for ``format`` options. See :ref:`Flags<enum_TextureLayered_Flags>` enumerator for ``flags`` options."
+msgstr ""
+
+#: ../../docs/classes/class_texturelayered.rst:118
+msgid ":ref:`int<class_int>` **get_depth** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_texturelayered.rst:120
+msgid "Returns the depth of the texture. Depth is the 3rd dimension (typically Z-axis)."
+msgstr ""
+
+#: ../../docs/classes/class_texturelayered.rst:126
+msgid ":ref:`Format<enum_Image_Format>` **get_format** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_texturelayered.rst:128
+msgid "Returns the current format being used by this texture. See :ref:`Format<enum_Image_Format>` for details."
+msgstr ""
+
+#: ../../docs/classes/class_texturelayered.rst:134
+msgid ":ref:`int<class_int>` **get_height** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_texturelayered.rst:136
+msgid "Returns the height of the texture. Height is typically represented by the Y-axis."
+msgstr ""
+
+#: ../../docs/classes/class_texturelayered.rst:142
+msgid ":ref:`Image<class_Image>` **get_layer_data** **(** :ref:`int<class_int>` layer **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_texturelayered.rst:144
+msgid "Returns an :ref:`Image<class_Image>` resource with the data from specified ``layer``."
+msgstr ""
+
+#: ../../docs/classes/class_texturelayered.rst:150
+msgid ":ref:`int<class_int>` **get_width** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_texturelayered.rst:152
+msgid "Returns the width of the texture. Width is typically represented by the X-axis."
+msgstr ""
+
+#: ../../docs/classes/class_texturelayered.rst:158
+msgid "void **set_data_partial** **(** :ref:`Image<class_Image>` image, :ref:`int<class_int>` x_offset, :ref:`int<class_int>` y_offset, :ref:`int<class_int>` layer, :ref:`int<class_int>` mipmap=0 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_texturelayered.rst:160
+msgid "Partially sets the data for a specified ``layer`` by overwriting using the data of the specified ``image``. ``x_offset`` and ``y_offset`` determine where the :ref:`Image<class_Image>` is \"stamped\" over the texture. The ``image`` must fit within the texture."
+msgstr ""
+
+#: ../../docs/classes/class_texturelayered.rst:166
+msgid "void **set_layer_data** **(** :ref:`Image<class_Image>` image, :ref:`int<class_int>` layer **)**"
+msgstr ""
+
+#: ../../docs/classes/class_texturelayered.rst:168
+msgid "Sets the data for the specified layer. Data takes the form of a 2-dimensional :ref:`Image<class_Image>` resource."
+msgstr ""

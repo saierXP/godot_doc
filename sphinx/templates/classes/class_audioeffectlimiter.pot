@@ -1,0 +1,173 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_audioeffectlimiter.rst:10
+msgid "AudioEffectLimiter"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectlimiter.rst:12
+msgid "**Inherits:** :ref:`AudioEffect<class_AudioEffect>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectlimiter.rst:14
+msgid "Adds a soft-clip limiter audio effect to an Audio bus."
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectlimiter.rst:17
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectlimiter.rst:19
+msgid "A limiter is similar to a compressor, but it's less flexible and designed to disallow sound going over a given dB threshold. Adding one in the Master bus is always recommended to reduce the effects of clipping."
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectlimiter.rst:21
+msgid "Soft clipping starts to reduce the peaks a little below the threshold level and progressively increases its effect as the input level increases such that the threshold is never exceeded."
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectlimiter.rst:24
+msgid "Properties"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectlimiter.rst:27
+#: ../../docs/classes/class_audioeffectlimiter.rst:29
+#: ../../docs/classes/class_audioeffectlimiter.rst:31
+#: ../../docs/classes/class_audioeffectlimiter.rst:33
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectlimiter.rst:27
+msgid ":ref:`ceiling_db<class_AudioEffectLimiter_property_ceiling_db>`"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectlimiter.rst:27
+#: ../../docs/classes/class_audioeffectlimiter.rst:44
+msgid "``-0.1``"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectlimiter.rst:29
+msgid ":ref:`soft_clip_db<class_AudioEffectLimiter_property_soft_clip_db>`"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectlimiter.rst:29
+#: ../../docs/classes/class_audioeffectlimiter.rst:60
+msgid "``2.0``"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectlimiter.rst:31
+msgid ":ref:`soft_clip_ratio<class_AudioEffectLimiter_property_soft_clip_ratio>`"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectlimiter.rst:31
+#: ../../docs/classes/class_audioeffectlimiter.rst:76
+msgid "``10.0``"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectlimiter.rst:33
+msgid ":ref:`threshold_db<class_AudioEffectLimiter_property_threshold_db>`"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectlimiter.rst:33
+#: ../../docs/classes/class_audioeffectlimiter.rst:90
+msgid "``0.0``"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectlimiter.rst:37
+msgid "Property Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectlimiter.rst:41
+msgid ":ref:`float<class_float>` **ceiling_db**"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectlimiter.rst:44
+#: ../../docs/classes/class_audioeffectlimiter.rst:60
+#: ../../docs/classes/class_audioeffectlimiter.rst:76
+#: ../../docs/classes/class_audioeffectlimiter.rst:90
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectlimiter.rst:46
+#: ../../docs/classes/class_audioeffectlimiter.rst:62
+#: ../../docs/classes/class_audioeffectlimiter.rst:78
+#: ../../docs/classes/class_audioeffectlimiter.rst:92
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectlimiter.rst:46
+msgid "set_ceiling_db(value)"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectlimiter.rst:48
+#: ../../docs/classes/class_audioeffectlimiter.rst:64
+#: ../../docs/classes/class_audioeffectlimiter.rst:80
+#: ../../docs/classes/class_audioeffectlimiter.rst:94
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectlimiter.rst:48
+msgid "get_ceiling_db()"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectlimiter.rst:51
+msgid "The waveform's maximum allowed value, in decibels. Value can range from -20 to -0.1."
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectlimiter.rst:57
+msgid ":ref:`float<class_float>` **soft_clip_db**"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectlimiter.rst:62
+msgid "set_soft_clip_db(value)"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectlimiter.rst:64
+msgid "get_soft_clip_db()"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectlimiter.rst:67
+msgid "Applies a gain to the limited waves, in decibels. Value can range from 0 to 6."
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectlimiter.rst:73
+msgid ":ref:`float<class_float>` **soft_clip_ratio**"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectlimiter.rst:78
+msgid "set_soft_clip_ratio(value)"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectlimiter.rst:80
+msgid "get_soft_clip_ratio()"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectlimiter.rst:87
+msgid ":ref:`float<class_float>` **threshold_db**"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectlimiter.rst:92
+msgid "set_threshold_db(value)"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectlimiter.rst:94
+msgid "get_threshold_db()"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectlimiter.rst:97
+msgid "Threshold from which the limiter begins to be active, in decibels. Value can range from -30 to 0."
+msgstr ""

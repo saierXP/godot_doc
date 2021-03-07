@@ -1,0 +1,440 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_reflectionprobe.rst:10
+msgid "ReflectionProbe"
+msgstr ""
+
+#: ../../docs/classes/class_reflectionprobe.rst:12
+msgid "**Inherits:** :ref:`VisualInstance<class_VisualInstance>` **<** :ref:`Spatial<class_Spatial>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_reflectionprobe.rst:14
+msgid "Captures its surroundings to create reflections."
+msgstr ""
+
+#: ../../docs/classes/class_reflectionprobe.rst:17
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_reflectionprobe.rst:19
+msgid "Capture its surroundings as a dual paraboloid image, and stores versions of it with increasing levels of blur to simulate different material roughnesses."
+msgstr ""
+
+#: ../../docs/classes/class_reflectionprobe.rst:21
+msgid "The ``ReflectionProbe`` is used to create high-quality reflections at the cost of performance. It can be combined with :ref:`GIProbe<class_GIProbe>`\\ s and Screen Space Reflections to achieve high quality reflections. ``ReflectionProbe``\\ s render all objects within their :ref:`cull_mask<class_ReflectionProbe_property_cull_mask>`, so updating them can be quite expensive. It is best to update them once with the important static objects and then leave them."
+msgstr ""
+
+#: ../../docs/classes/class_reflectionprobe.rst:23
+msgid "Note: By default Godot will only render 16 reflection probes. If you need more, increase the number of atlas subdivisions. This setting can be found in :ref:`ProjectSettings.rendering/quality/reflections/atlas_subdiv<class_ProjectSettings_property_rendering/quality/reflections/atlas_subdiv>`."
+msgstr ""
+
+#: ../../docs/classes/class_reflectionprobe.rst:26
+msgid "Tutorials"
+msgstr ""
+
+#: ../../docs/classes/class_reflectionprobe.rst:28
+msgid ":doc:`../tutorials/3d/reflection_probes`"
+msgstr ""
+
+#: ../../docs/classes/class_reflectionprobe.rst:31
+msgid "Properties"
+msgstr ""
+
+#: ../../docs/classes/class_reflectionprobe.rst:34
+#: ../../docs/classes/class_reflectionprobe.rst:38
+#: ../../docs/classes/class_reflectionprobe.rst:50
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_reflectionprobe.rst:34
+msgid ":ref:`box_projection<class_ReflectionProbe_property_box_projection>`"
+msgstr ""
+
+#: ../../docs/classes/class_reflectionprobe.rst:34
+#: ../../docs/classes/class_reflectionprobe.rst:38
+#: ../../docs/classes/class_reflectionprobe.rst:50
+#: ../../docs/classes/class_reflectionprobe.rst:82
+#: ../../docs/classes/class_reflectionprobe.rst:114
+#: ../../docs/classes/class_reflectionprobe.rst:210
+msgid "``false``"
+msgstr ""
+
+#: ../../docs/classes/class_reflectionprobe.rst:36
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../../docs/classes/class_reflectionprobe.rst:36
+msgid ":ref:`cull_mask<class_ReflectionProbe_property_cull_mask>`"
+msgstr ""
+
+#: ../../docs/classes/class_reflectionprobe.rst:36
+#: ../../docs/classes/class_reflectionprobe.rst:98
+msgid "``1048575``"
+msgstr ""
+
+#: ../../docs/classes/class_reflectionprobe.rst:38
+msgid ":ref:`enable_shadows<class_ReflectionProbe_property_enable_shadows>`"
+msgstr ""
+
+#: ../../docs/classes/class_reflectionprobe.rst:40
+#: ../../docs/classes/class_reflectionprobe.rst:54
+msgid ":ref:`Vector3<class_Vector3>`"
+msgstr ""
+
+#: ../../docs/classes/class_reflectionprobe.rst:40
+msgid ":ref:`extents<class_ReflectionProbe_property_extents>`"
+msgstr ""
+
+#: ../../docs/classes/class_reflectionprobe.rst:40
+#: ../../docs/classes/class_reflectionprobe.rst:130
+msgid "``Vector3( 1, 1, 1 )``"
+msgstr ""
+
+#: ../../docs/classes/class_reflectionprobe.rst:42
+#: ../../docs/classes/class_reflectionprobe.rst:46
+#: ../../docs/classes/class_reflectionprobe.rst:48
+#: ../../docs/classes/class_reflectionprobe.rst:52
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../../docs/classes/class_reflectionprobe.rst:42
+msgid ":ref:`intensity<class_ReflectionProbe_property_intensity>`"
+msgstr ""
+
+#: ../../docs/classes/class_reflectionprobe.rst:42
+#: ../../docs/classes/class_reflectionprobe.rst:48
+#: ../../docs/classes/class_reflectionprobe.rst:146
+#: ../../docs/classes/class_reflectionprobe.rst:194
+msgid "``1.0``"
+msgstr ""
+
+#: ../../docs/classes/class_reflectionprobe.rst:44
+msgid ":ref:`Color<class_Color>`"
+msgstr ""
+
+#: ../../docs/classes/class_reflectionprobe.rst:44
+msgid ":ref:`interior_ambient_color<class_ReflectionProbe_property_interior_ambient_color>`"
+msgstr ""
+
+#: ../../docs/classes/class_reflectionprobe.rst:44
+#: ../../docs/classes/class_reflectionprobe.rst:162
+msgid "``Color( 0, 0, 0, 1 )``"
+msgstr ""
+
+#: ../../docs/classes/class_reflectionprobe.rst:46
+msgid ":ref:`interior_ambient_contrib<class_ReflectionProbe_property_interior_ambient_contrib>`"
+msgstr ""
+
+#: ../../docs/classes/class_reflectionprobe.rst:46
+#: ../../docs/classes/class_reflectionprobe.rst:52
+#: ../../docs/classes/class_reflectionprobe.rst:178
+#: ../../docs/classes/class_reflectionprobe.rst:226
+msgid "``0.0``"
+msgstr ""
+
+#: ../../docs/classes/class_reflectionprobe.rst:48
+msgid ":ref:`interior_ambient_energy<class_ReflectionProbe_property_interior_ambient_energy>`"
+msgstr ""
+
+#: ../../docs/classes/class_reflectionprobe.rst:50
+msgid ":ref:`interior_enable<class_ReflectionProbe_property_interior_enable>`"
+msgstr ""
+
+#: ../../docs/classes/class_reflectionprobe.rst:52
+msgid ":ref:`max_distance<class_ReflectionProbe_property_max_distance>`"
+msgstr ""
+
+#: ../../docs/classes/class_reflectionprobe.rst:54
+msgid ":ref:`origin_offset<class_ReflectionProbe_property_origin_offset>`"
+msgstr ""
+
+#: ../../docs/classes/class_reflectionprobe.rst:54
+#: ../../docs/classes/class_reflectionprobe.rst:242
+msgid "``Vector3( 0, 0, 0 )``"
+msgstr ""
+
+#: ../../docs/classes/class_reflectionprobe.rst:56
+msgid ":ref:`UpdateMode<enum_ReflectionProbe_UpdateMode>`"
+msgstr ""
+
+#: ../../docs/classes/class_reflectionprobe.rst:56
+msgid ":ref:`update_mode<class_ReflectionProbe_property_update_mode>`"
+msgstr ""
+
+#: ../../docs/classes/class_reflectionprobe.rst:56
+#: ../../docs/classes/class_reflectionprobe.rst:258
+msgid "``0``"
+msgstr ""
+
+#: ../../docs/classes/class_reflectionprobe.rst:60
+msgid "Enumerations"
+msgstr ""
+
+#: ../../docs/classes/class_reflectionprobe.rst:68
+msgid "enum **UpdateMode**:"
+msgstr ""
+
+#: ../../docs/classes/class_reflectionprobe.rst:70
+msgid "**UPDATE_ONCE** = **0** --- Update the probe once on the next frame."
+msgstr ""
+
+#: ../../docs/classes/class_reflectionprobe.rst:72
+msgid "**UPDATE_ALWAYS** = **1** --- Update the probe every frame. This is needed when you want to capture dynamic objects. However, it results in an increased render time. Use :ref:`UPDATE_ONCE<class_ReflectionProbe_constant_UPDATE_ONCE>` whenever possible."
+msgstr ""
+
+#: ../../docs/classes/class_reflectionprobe.rst:75
+msgid "Property Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_reflectionprobe.rst:79
+msgid ":ref:`bool<class_bool>` **box_projection**"
+msgstr ""
+
+#: ../../docs/classes/class_reflectionprobe.rst:82
+#: ../../docs/classes/class_reflectionprobe.rst:98
+#: ../../docs/classes/class_reflectionprobe.rst:114
+#: ../../docs/classes/class_reflectionprobe.rst:130
+#: ../../docs/classes/class_reflectionprobe.rst:146
+#: ../../docs/classes/class_reflectionprobe.rst:162
+#: ../../docs/classes/class_reflectionprobe.rst:178
+#: ../../docs/classes/class_reflectionprobe.rst:194
+#: ../../docs/classes/class_reflectionprobe.rst:210
+#: ../../docs/classes/class_reflectionprobe.rst:226
+#: ../../docs/classes/class_reflectionprobe.rst:242
+#: ../../docs/classes/class_reflectionprobe.rst:258
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_reflectionprobe.rst:84
+#: ../../docs/classes/class_reflectionprobe.rst:100
+#: ../../docs/classes/class_reflectionprobe.rst:116
+#: ../../docs/classes/class_reflectionprobe.rst:132
+#: ../../docs/classes/class_reflectionprobe.rst:148
+#: ../../docs/classes/class_reflectionprobe.rst:164
+#: ../../docs/classes/class_reflectionprobe.rst:180
+#: ../../docs/classes/class_reflectionprobe.rst:196
+#: ../../docs/classes/class_reflectionprobe.rst:212
+#: ../../docs/classes/class_reflectionprobe.rst:228
+#: ../../docs/classes/class_reflectionprobe.rst:244
+#: ../../docs/classes/class_reflectionprobe.rst:260
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_reflectionprobe.rst:84
+msgid "set_enable_box_projection(value)"
+msgstr ""
+
+#: ../../docs/classes/class_reflectionprobe.rst:86
+#: ../../docs/classes/class_reflectionprobe.rst:102
+#: ../../docs/classes/class_reflectionprobe.rst:118
+#: ../../docs/classes/class_reflectionprobe.rst:134
+#: ../../docs/classes/class_reflectionprobe.rst:150
+#: ../../docs/classes/class_reflectionprobe.rst:166
+#: ../../docs/classes/class_reflectionprobe.rst:182
+#: ../../docs/classes/class_reflectionprobe.rst:198
+#: ../../docs/classes/class_reflectionprobe.rst:214
+#: ../../docs/classes/class_reflectionprobe.rst:230
+#: ../../docs/classes/class_reflectionprobe.rst:246
+#: ../../docs/classes/class_reflectionprobe.rst:262
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_reflectionprobe.rst:86
+msgid "is_box_projection_enabled()"
+msgstr ""
+
+#: ../../docs/classes/class_reflectionprobe.rst:89
+msgid "If ``true``, enables box projection. This makes reflections look more correct in rectangle-shaped rooms by offsetting the reflection center depending on the camera's location."
+msgstr ""
+
+#: ../../docs/classes/class_reflectionprobe.rst:95
+msgid ":ref:`int<class_int>` **cull_mask**"
+msgstr ""
+
+#: ../../docs/classes/class_reflectionprobe.rst:100
+msgid "set_cull_mask(value)"
+msgstr ""
+
+#: ../../docs/classes/class_reflectionprobe.rst:102
+msgid "get_cull_mask()"
+msgstr ""
+
+#: ../../docs/classes/class_reflectionprobe.rst:105
+msgid "Sets the cull mask which determines what objects are drawn by this probe. Every :ref:`VisualInstance<class_VisualInstance>` with a layer included in this cull mask will be rendered by the probe. It is best to only include large objects which are likely to take up a lot of space in the reflection in order to save on rendering cost."
+msgstr ""
+
+#: ../../docs/classes/class_reflectionprobe.rst:111
+msgid ":ref:`bool<class_bool>` **enable_shadows**"
+msgstr ""
+
+#: ../../docs/classes/class_reflectionprobe.rst:116
+msgid "set_enable_shadows(value)"
+msgstr ""
+
+#: ../../docs/classes/class_reflectionprobe.rst:118
+msgid "are_shadows_enabled()"
+msgstr ""
+
+#: ../../docs/classes/class_reflectionprobe.rst:121
+msgid "If ``true``, computes shadows in the reflection probe. This makes the reflection probe slower to render; you may want to disable this if using the :ref:`UPDATE_ALWAYS<class_ReflectionProbe_constant_UPDATE_ALWAYS>` :ref:`update_mode<class_ReflectionProbe_property_update_mode>`."
+msgstr ""
+
+#: ../../docs/classes/class_reflectionprobe.rst:127
+msgid ":ref:`Vector3<class_Vector3>` **extents**"
+msgstr ""
+
+#: ../../docs/classes/class_reflectionprobe.rst:132
+msgid "set_extents(value)"
+msgstr ""
+
+#: ../../docs/classes/class_reflectionprobe.rst:134
+msgid "get_extents()"
+msgstr ""
+
+#: ../../docs/classes/class_reflectionprobe.rst:137
+msgid "The size of the reflection probe. The larger the extents the more space covered by the probe which will lower the perceived resolution. It is best to keep the extents only as large as you need them."
+msgstr ""
+
+#: ../../docs/classes/class_reflectionprobe.rst:143
+msgid ":ref:`float<class_float>` **intensity**"
+msgstr ""
+
+#: ../../docs/classes/class_reflectionprobe.rst:148
+msgid "set_intensity(value)"
+msgstr ""
+
+#: ../../docs/classes/class_reflectionprobe.rst:150
+msgid "get_intensity()"
+msgstr ""
+
+#: ../../docs/classes/class_reflectionprobe.rst:153
+msgid "Defines the reflection intensity. Intensity modulates the strength of the reflection."
+msgstr ""
+
+#: ../../docs/classes/class_reflectionprobe.rst:159
+msgid ":ref:`Color<class_Color>` **interior_ambient_color**"
+msgstr ""
+
+#: ../../docs/classes/class_reflectionprobe.rst:164
+msgid "set_interior_ambient(value)"
+msgstr ""
+
+#: ../../docs/classes/class_reflectionprobe.rst:166
+msgid "get_interior_ambient()"
+msgstr ""
+
+#: ../../docs/classes/class_reflectionprobe.rst:169
+msgid "Sets the ambient light color to be used when this probe is set to :ref:`interior_enable<class_ReflectionProbe_property_interior_enable>`."
+msgstr ""
+
+#: ../../docs/classes/class_reflectionprobe.rst:175
+msgid ":ref:`float<class_float>` **interior_ambient_contrib**"
+msgstr ""
+
+#: ../../docs/classes/class_reflectionprobe.rst:180
+msgid "set_interior_ambient_probe_contribution(value)"
+msgstr ""
+
+#: ../../docs/classes/class_reflectionprobe.rst:182
+msgid "get_interior_ambient_probe_contribution()"
+msgstr ""
+
+#: ../../docs/classes/class_reflectionprobe.rst:185
+msgid "Sets the contribution value for how much the reflection affects the ambient light for this reflection probe when set to :ref:`interior_enable<class_ReflectionProbe_property_interior_enable>`. Useful so that ambient light matches the color of the room."
+msgstr ""
+
+#: ../../docs/classes/class_reflectionprobe.rst:191
+msgid ":ref:`float<class_float>` **interior_ambient_energy**"
+msgstr ""
+
+#: ../../docs/classes/class_reflectionprobe.rst:196
+msgid "set_interior_ambient_energy(value)"
+msgstr ""
+
+#: ../../docs/classes/class_reflectionprobe.rst:198
+msgid "get_interior_ambient_energy()"
+msgstr ""
+
+#: ../../docs/classes/class_reflectionprobe.rst:201
+msgid "Sets the energy multiplier for this reflection probe's ambient light contribution when set to :ref:`interior_enable<class_ReflectionProbe_property_interior_enable>`."
+msgstr ""
+
+#: ../../docs/classes/class_reflectionprobe.rst:207
+msgid ":ref:`bool<class_bool>` **interior_enable**"
+msgstr ""
+
+#: ../../docs/classes/class_reflectionprobe.rst:212
+msgid "set_as_interior(value)"
+msgstr ""
+
+#: ../../docs/classes/class_reflectionprobe.rst:214
+msgid "is_set_as_interior()"
+msgstr ""
+
+#: ../../docs/classes/class_reflectionprobe.rst:217
+msgid "If ``true``, reflections will ignore sky contribution. Ambient lighting is then controlled by the ``interior_ambient_*`` properties."
+msgstr ""
+
+#: ../../docs/classes/class_reflectionprobe.rst:223
+msgid ":ref:`float<class_float>` **max_distance**"
+msgstr ""
+
+#: ../../docs/classes/class_reflectionprobe.rst:228
+msgid "set_max_distance(value)"
+msgstr ""
+
+#: ../../docs/classes/class_reflectionprobe.rst:230
+msgid "get_max_distance()"
+msgstr ""
+
+#: ../../docs/classes/class_reflectionprobe.rst:233
+msgid "Sets the max distance away from the probe an object can be before it is culled."
+msgstr ""
+
+#: ../../docs/classes/class_reflectionprobe.rst:239
+msgid ":ref:`Vector3<class_Vector3>` **origin_offset**"
+msgstr ""
+
+#: ../../docs/classes/class_reflectionprobe.rst:244
+msgid "set_origin_offset(value)"
+msgstr ""
+
+#: ../../docs/classes/class_reflectionprobe.rst:246
+msgid "get_origin_offset()"
+msgstr ""
+
+#: ../../docs/classes/class_reflectionprobe.rst:249
+msgid "Sets the origin offset to be used when this reflection probe is in box project mode."
+msgstr ""
+
+#: ../../docs/classes/class_reflectionprobe.rst:255
+msgid ":ref:`UpdateMode<enum_ReflectionProbe_UpdateMode>` **update_mode**"
+msgstr ""
+
+#: ../../docs/classes/class_reflectionprobe.rst:260
+msgid "set_update_mode(value)"
+msgstr ""
+
+#: ../../docs/classes/class_reflectionprobe.rst:262
+msgid "get_update_mode()"
+msgstr ""
+
+#: ../../docs/classes/class_reflectionprobe.rst:265
+msgid "Sets how frequently the probe is updated. Can be :ref:`UPDATE_ONCE<class_ReflectionProbe_constant_UPDATE_ONCE>` or :ref:`UPDATE_ALWAYS<class_ReflectionProbe_constant_UPDATE_ALWAYS>`."
+msgstr ""

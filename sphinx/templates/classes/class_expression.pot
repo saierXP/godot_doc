@@ -1,0 +1,125 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_expression.rst:10
+msgid "Expression"
+msgstr ""
+
+#: ../../docs/classes/class_expression.rst:12
+msgid "**Inherits:** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_expression.rst:14
+msgid "A class that stores an expression you can execute."
+msgstr ""
+
+#: ../../docs/classes/class_expression.rst:17
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_expression.rst:19
+msgid "An expression can be made of any arithmetic operation, built-in math function call, method call of a passed instance, or built-in type construction call."
+msgstr ""
+
+#: ../../docs/classes/class_expression.rst:21
+msgid "An example expression text using the built-in math functions could be ``sqrt(pow(3,2) + pow(4,2))``."
+msgstr ""
+
+#: ../../docs/classes/class_expression.rst:23
+msgid "In the following example we use a :ref:`LineEdit<class_LineEdit>` node to write our expression and show the result."
+msgstr ""
+
+#: ../../docs/classes/class_expression.rst:42
+msgid "Methods"
+msgstr ""
+
+#: ../../docs/classes/class_expression.rst:45
+msgid ":ref:`Variant<class_Variant>`"
+msgstr ""
+
+#: ../../docs/classes/class_expression.rst:45
+msgid ":ref:`execute<class_Expression_method_execute>` **(** :ref:`Array<class_Array>` inputs=[  ], :ref:`Object<class_Object>` base_instance=null, :ref:`bool<class_bool>` show_error=true **)**"
+msgstr ""
+
+#: ../../docs/classes/class_expression.rst:47
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../../docs/classes/class_expression.rst:47
+msgid ":ref:`get_error_text<class_Expression_method_get_error_text>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_expression.rst:49
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_expression.rst:49
+msgid ":ref:`has_execute_failed<class_Expression_method_has_execute_failed>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_expression.rst:51
+msgid ":ref:`Error<enum_@GlobalScope_Error>`"
+msgstr ""
+
+#: ../../docs/classes/class_expression.rst:51
+msgid ":ref:`parse<class_Expression_method_parse>` **(** :ref:`String<class_String>` expression, :ref:`PoolStringArray<class_PoolStringArray>` input_names=PoolStringArray(  ) **)**"
+msgstr ""
+
+#: ../../docs/classes/class_expression.rst:55
+msgid "Method Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_expression.rst:59
+msgid ":ref:`Variant<class_Variant>` **execute** **(** :ref:`Array<class_Array>` inputs=[  ], :ref:`Object<class_Object>` base_instance=null, :ref:`bool<class_bool>` show_error=true **)**"
+msgstr ""
+
+#: ../../docs/classes/class_expression.rst:61
+msgid "Executes the expression that was previously parsed by :ref:`parse<class_Expression_method_parse>` and returns the result. Before you use the returned object, you should check if the method failed by calling :ref:`has_execute_failed<class_Expression_method_has_execute_failed>`."
+msgstr ""
+
+#: ../../docs/classes/class_expression.rst:63
+msgid "If you defined input variables in :ref:`parse<class_Expression_method_parse>`, you can specify their values in the inputs array, in the same order."
+msgstr ""
+
+#: ../../docs/classes/class_expression.rst:69
+msgid ":ref:`String<class_String>` **get_error_text** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_expression.rst:71
+msgid "Returns the error text if :ref:`parse<class_Expression_method_parse>` has failed."
+msgstr ""
+
+#: ../../docs/classes/class_expression.rst:77
+msgid ":ref:`bool<class_bool>` **has_execute_failed** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_expression.rst:79
+msgid "Returns ``true`` if :ref:`execute<class_Expression_method_execute>` has failed."
+msgstr ""
+
+#: ../../docs/classes/class_expression.rst:85
+msgid ":ref:`Error<enum_@GlobalScope_Error>` **parse** **(** :ref:`String<class_String>` expression, :ref:`PoolStringArray<class_PoolStringArray>` input_names=PoolStringArray(  ) **)**"
+msgstr ""
+
+#: ../../docs/classes/class_expression.rst:87
+msgid "Parses the expression and returns an :ref:`Error<enum_@GlobalScope_Error>` code."
+msgstr ""
+
+#: ../../docs/classes/class_expression.rst:89
+msgid "You can optionally specify names of variables that may appear in the expression with ``input_names``, so that you can bind them when it gets executed."
+msgstr ""

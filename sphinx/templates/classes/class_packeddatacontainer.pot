@@ -1,0 +1,86 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_packeddatacontainer.rst:10
+msgid "PackedDataContainer"
+msgstr ""
+
+#: ../../docs/classes/class_packeddatacontainer.rst:12
+msgid "**Inherits:** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_packeddatacontainer.rst:17
+msgid "Properties"
+msgstr ""
+
+#: ../../docs/classes/class_packeddatacontainer.rst:20
+msgid ":ref:`PoolByteArray<class_PoolByteArray>`"
+msgstr ""
+
+#: ../../docs/classes/class_packeddatacontainer.rst:20
+msgid ":ref:`__data__<class_PackedDataContainer_property___data__>`"
+msgstr ""
+
+#: ../../docs/classes/class_packeddatacontainer.rst:20
+#: ../../docs/classes/class_packeddatacontainer.rst:40
+msgid "``PoolByteArray(  )``"
+msgstr ""
+
+#: ../../docs/classes/class_packeddatacontainer.rst:24
+msgid "Methods"
+msgstr ""
+
+#: ../../docs/classes/class_packeddatacontainer.rst:27
+msgid ":ref:`Error<enum_@GlobalScope_Error>`"
+msgstr ""
+
+#: ../../docs/classes/class_packeddatacontainer.rst:27
+msgid ":ref:`pack<class_PackedDataContainer_method_pack>` **(** :ref:`Variant<class_Variant>` value **)**"
+msgstr ""
+
+#: ../../docs/classes/class_packeddatacontainer.rst:29
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../../docs/classes/class_packeddatacontainer.rst:29
+msgid ":ref:`size<class_PackedDataContainer_method_size>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_packeddatacontainer.rst:33
+msgid "Property Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_packeddatacontainer.rst:37
+msgid ":ref:`PoolByteArray<class_PoolByteArray>` **__data__**"
+msgstr ""
+
+#: ../../docs/classes/class_packeddatacontainer.rst:40
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_packeddatacontainer.rst:44
+msgid "Method Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_packeddatacontainer.rst:48
+msgid ":ref:`Error<enum_@GlobalScope_Error>` **pack** **(** :ref:`Variant<class_Variant>` value **)**"
+msgstr ""
+
+#: ../../docs/classes/class_packeddatacontainer.rst:54
+msgid ":ref:`int<class_int>` **size** **(** **)** |const|"
+msgstr ""

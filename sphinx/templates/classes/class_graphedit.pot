@@ -1,0 +1,775 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_graphedit.rst:10
+msgid "GraphEdit"
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:12
+msgid "**Inherits:** :ref:`Control<class_Control>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:14
+msgid "GraphEdit is an area capable of showing various GraphNodes. It manages connection events between them."
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:17
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:19
+msgid "GraphEdit manages the showing of GraphNodes it contains, as well as connections and disconnections between them. Signals are sent for each of these two events. Disconnection between GraphNode slots is disabled by default."
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:21
+msgid "It is greatly advised to enable low-processor usage mode (see :ref:`OS.low_processor_usage_mode<class_OS_property_low_processor_usage_mode>`) when using GraphEdits."
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:24
+msgid "Properties"
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:27
+msgid ":ref:`FocusMode<enum_Control_FocusMode>`"
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:27
+msgid "focus_mode"
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:27
+msgid "``2`` *(parent override)*"
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:29
+#: ../../docs/classes/class_graphedit.rst:35
+#: ../../docs/classes/class_graphedit.rst:37
+#: ../../docs/classes/class_graphedit.rst:43
+#: ../../docs/classes/class_graphedit.rst:68
+#: ../../docs/classes/class_graphedit.rst:70
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:29
+msgid ":ref:`minimap_enabled<class_GraphEdit_property_minimap_enabled>`"
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:29
+#: ../../docs/classes/class_graphedit.rst:43
+#: ../../docs/classes/class_graphedit.rst:237
+#: ../../docs/classes/class_graphedit.rst:333
+msgid "``true``"
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:31
+#: ../../docs/classes/class_graphedit.rst:45
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:31
+msgid ":ref:`minimap_opacity<class_GraphEdit_property_minimap_opacity>`"
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:31
+#: ../../docs/classes/class_graphedit.rst:253
+msgid "``0.65``"
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:33
+#: ../../docs/classes/class_graphedit.rst:39
+msgid ":ref:`Vector2<class_Vector2>`"
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:33
+msgid ":ref:`minimap_size<class_GraphEdit_property_minimap_size>`"
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:33
+#: ../../docs/classes/class_graphedit.rst:269
+msgid "``Vector2( 240, 160 )``"
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:35
+msgid "rect_clip_content"
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:35
+msgid "``true`` *(parent override)*"
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:37
+msgid ":ref:`right_disconnects<class_GraphEdit_property_right_disconnects>`"
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:37
+#: ../../docs/classes/class_graphedit.rst:285
+msgid "``false``"
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:39
+msgid ":ref:`scroll_offset<class_GraphEdit_property_scroll_offset>`"
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:39
+#: ../../docs/classes/class_graphedit.rst:301
+msgid "``Vector2( 0, 0 )``"
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:41
+#: ../../docs/classes/class_graphedit.rst:89
+#: ../../docs/classes/class_graphedit.rst:91
+#: ../../docs/classes/class_graphedit.rst:105
+#: ../../docs/classes/class_graphedit.rst:107
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:41
+msgid ":ref:`snap_distance<class_GraphEdit_property_snap_distance>`"
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:41
+#: ../../docs/classes/class_graphedit.rst:317
+msgid "``20``"
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:43
+msgid ":ref:`use_snap<class_GraphEdit_property_use_snap>`"
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:45
+msgid ":ref:`zoom<class_GraphEdit_property_zoom>`"
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:45
+#: ../../docs/classes/class_graphedit.rst:349
+msgid "``1.0``"
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:49
+msgid "Methods"
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:52
+#: ../../docs/classes/class_graphedit.rst:54
+#: ../../docs/classes/class_graphedit.rst:56
+#: ../../docs/classes/class_graphedit.rst:58
+#: ../../docs/classes/class_graphedit.rst:62
+#: ../../docs/classes/class_graphedit.rst:72
+#: ../../docs/classes/class_graphedit.rst:74
+#: ../../docs/classes/class_graphedit.rst:76
+#: ../../docs/classes/class_graphedit.rst:78
+#: ../../docs/classes/class_graphedit.rst:80
+msgid "void"
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:52
+msgid ":ref:`add_valid_connection_type<class_GraphEdit_method_add_valid_connection_type>` **(** :ref:`int<class_int>` from_type, :ref:`int<class_int>` to_type **)**"
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:54
+msgid ":ref:`add_valid_left_disconnect_type<class_GraphEdit_method_add_valid_left_disconnect_type>` **(** :ref:`int<class_int>` type **)**"
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:56
+msgid ":ref:`add_valid_right_disconnect_type<class_GraphEdit_method_add_valid_right_disconnect_type>` **(** :ref:`int<class_int>` type **)**"
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:58
+msgid ":ref:`clear_connections<class_GraphEdit_method_clear_connections>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:60
+msgid ":ref:`Error<enum_@GlobalScope_Error>`"
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:60
+msgid ":ref:`connect_node<class_GraphEdit_method_connect_node>` **(** :ref:`String<class_String>` from, :ref:`int<class_int>` from_port, :ref:`String<class_String>` to, :ref:`int<class_int>` to_port **)**"
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:62
+msgid ":ref:`disconnect_node<class_GraphEdit_method_disconnect_node>` **(** :ref:`String<class_String>` from, :ref:`int<class_int>` from_port, :ref:`String<class_String>` to, :ref:`int<class_int>` to_port **)**"
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:64
+msgid ":ref:`Array<class_Array>`"
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:64
+msgid ":ref:`get_connection_list<class_GraphEdit_method_get_connection_list>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:66
+msgid ":ref:`HBoxContainer<class_HBoxContainer>`"
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:66
+msgid ":ref:`get_zoom_hbox<class_GraphEdit_method_get_zoom_hbox>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:68
+msgid ":ref:`is_node_connected<class_GraphEdit_method_is_node_connected>` **(** :ref:`String<class_String>` from, :ref:`int<class_int>` from_port, :ref:`String<class_String>` to, :ref:`int<class_int>` to_port **)**"
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:70
+msgid ":ref:`is_valid_connection_type<class_GraphEdit_method_is_valid_connection_type>` **(** :ref:`int<class_int>` from_type, :ref:`int<class_int>` to_type **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:72
+msgid ":ref:`remove_valid_connection_type<class_GraphEdit_method_remove_valid_connection_type>` **(** :ref:`int<class_int>` from_type, :ref:`int<class_int>` to_type **)**"
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:74
+msgid ":ref:`remove_valid_left_disconnect_type<class_GraphEdit_method_remove_valid_left_disconnect_type>` **(** :ref:`int<class_int>` type **)**"
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:76
+msgid ":ref:`remove_valid_right_disconnect_type<class_GraphEdit_method_remove_valid_right_disconnect_type>` **(** :ref:`int<class_int>` type **)**"
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:78
+msgid ":ref:`set_connection_activity<class_GraphEdit_method_set_connection_activity>` **(** :ref:`String<class_String>` from, :ref:`int<class_int>` from_port, :ref:`String<class_String>` to, :ref:`int<class_int>` to_port, :ref:`float<class_float>` amount **)**"
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:80
+msgid ":ref:`set_selected<class_GraphEdit_method_set_selected>` **(** :ref:`Node<class_Node>` node **)**"
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:84
+msgid "Theme Properties"
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:87
+#: ../../docs/classes/class_graphedit.rst:95
+#: ../../docs/classes/class_graphedit.rst:97
+#: ../../docs/classes/class_graphedit.rst:111
+#: ../../docs/classes/class_graphedit.rst:113
+msgid ":ref:`Color<class_Color>`"
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:87
+msgid "activity"
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:87
+msgid "Color( 1, 1, 1, 1 )"
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:89
+msgid "bezier_len_neg"
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:89
+msgid "160"
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:91
+msgid "bezier_len_pos"
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:91
+msgid "80"
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:93
+msgid ":ref:`StyleBox<class_StyleBox>`"
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:93
+msgid "bg"
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:95
+msgid "grid_major"
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:95
+msgid "Color( 1, 1, 1, 0.2 )"
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:97
+msgid "grid_minor"
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:97
+msgid "Color( 1, 1, 1, 0.05 )"
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:99
+#: ../../docs/classes/class_graphedit.rst:101
+#: ../../docs/classes/class_graphedit.rst:103
+#: ../../docs/classes/class_graphedit.rst:109
+#: ../../docs/classes/class_graphedit.rst:115
+msgid ":ref:`Texture<class_Texture>`"
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:99
+msgid "minimap"
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:101
+msgid "minus"
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:103
+msgid "more"
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:105
+msgid "port_grab_distance_horizontal"
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:105
+msgid "48"
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:107
+msgid "port_grab_distance_vertical"
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:107
+msgid "6"
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:109
+msgid "reset"
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:111
+msgid "selection_fill"
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:111
+msgid "Color( 1, 1, 1, 0.3 )"
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:113
+msgid "selection_stroke"
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:113
+msgid "Color( 1, 1, 1, 0.8 )"
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:115
+msgid "snap"
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:119
+msgid "Signals"
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:123
+msgid "**_begin_node_move** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:125
+msgid "Emitted at the beginning of a GraphNode movement."
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:131
+msgid "**_end_node_move** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:133
+msgid "Emitted at the end of a GraphNode movement."
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:139
+msgid "**connection_from_empty** **(** :ref:`String<class_String>` to, :ref:`int<class_int>` to_slot, :ref:`Vector2<class_Vector2>` release_position **)**"
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:141
+msgid "Emitted when user dragging connection from input port into empty space of the graph."
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:147
+msgid "**connection_request** **(** :ref:`String<class_String>` from, :ref:`int<class_int>` from_slot, :ref:`String<class_String>` to, :ref:`int<class_int>` to_slot **)**"
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:149
+msgid "Emitted to the GraphEdit when the connection between the ``from_slot`` slot of the ``from`` GraphNode and the ``to_slot`` slot of the ``to`` GraphNode is attempted to be created."
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:155
+msgid "**connection_to_empty** **(** :ref:`String<class_String>` from, :ref:`int<class_int>` from_slot, :ref:`Vector2<class_Vector2>` release_position **)**"
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:157
+msgid "Emitted when user dragging connection from output port into empty space of the graph."
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:163
+msgid "**copy_nodes_request** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:165
+msgid "Emitted when the user presses ``Ctrl + C``."
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:171
+msgid "**delete_nodes_request** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:173
+msgid "Emitted when a GraphNode is attempted to be removed from the GraphEdit."
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:179
+msgid "**disconnection_request** **(** :ref:`String<class_String>` from, :ref:`int<class_int>` from_slot, :ref:`String<class_String>` to, :ref:`int<class_int>` to_slot **)**"
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:181
+msgid "Emitted to the GraphEdit when the connection between ``from_slot`` slot of ``from`` GraphNode and ``to_slot`` slot of ``to`` GraphNode is attempted to be removed."
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:187
+msgid "**duplicate_nodes_request** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:189
+msgid "Emitted when a GraphNode is attempted to be duplicated in the GraphEdit."
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:195
+msgid "**node_selected** **(** :ref:`Node<class_Node>` node **)**"
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:197
+msgid "Emitted when a GraphNode is selected."
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:203
+msgid "**node_unselected** **(** :ref:`Node<class_Node>` node **)**"
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:209
+msgid "**paste_nodes_request** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:211
+msgid "Emitted when the user presses ``Ctrl + V``."
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:217
+msgid "**popup_request** **(** :ref:`Vector2<class_Vector2>` position **)**"
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:219
+msgid "Emitted when a popup is requested. Happens on right-clicking in the GraphEdit. ``position`` is the position of the mouse pointer when the signal is sent."
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:225
+msgid "**scroll_offset_changed** **(** :ref:`Vector2<class_Vector2>` ofs **)**"
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:227
+msgid "Emitted when the scroll offset is changed by the user. It will not be emitted when changed in code."
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:230
+msgid "Property Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:234
+msgid ":ref:`bool<class_bool>` **minimap_enabled**"
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:237
+#: ../../docs/classes/class_graphedit.rst:253
+#: ../../docs/classes/class_graphedit.rst:269
+#: ../../docs/classes/class_graphedit.rst:285
+#: ../../docs/classes/class_graphedit.rst:301
+#: ../../docs/classes/class_graphedit.rst:317
+#: ../../docs/classes/class_graphedit.rst:333
+#: ../../docs/classes/class_graphedit.rst:349
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:239
+#: ../../docs/classes/class_graphedit.rst:255
+#: ../../docs/classes/class_graphedit.rst:271
+#: ../../docs/classes/class_graphedit.rst:287
+#: ../../docs/classes/class_graphedit.rst:303
+#: ../../docs/classes/class_graphedit.rst:319
+#: ../../docs/classes/class_graphedit.rst:335
+#: ../../docs/classes/class_graphedit.rst:351
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:239
+msgid "set_minimap_enabled(value)"
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:241
+#: ../../docs/classes/class_graphedit.rst:257
+#: ../../docs/classes/class_graphedit.rst:273
+#: ../../docs/classes/class_graphedit.rst:289
+#: ../../docs/classes/class_graphedit.rst:305
+#: ../../docs/classes/class_graphedit.rst:321
+#: ../../docs/classes/class_graphedit.rst:337
+#: ../../docs/classes/class_graphedit.rst:353
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:241
+msgid "is_minimap_enabled()"
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:244
+msgid "If ``true``, the minimap is visible."
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:250
+msgid ":ref:`float<class_float>` **minimap_opacity**"
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:255
+msgid "set_minimap_opacity(value)"
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:257
+msgid "get_minimap_opacity()"
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:260
+msgid "The opacity of the minimap rectangle."
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:266
+msgid ":ref:`Vector2<class_Vector2>` **minimap_size**"
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:271
+msgid "set_minimap_size(value)"
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:273
+msgid "get_minimap_size()"
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:276
+msgid "The size of the minimap rectangle. The map itself is based on the size of the grid area and is scaled to fit this rectangle."
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:282
+msgid ":ref:`bool<class_bool>` **right_disconnects**"
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:287
+msgid "set_right_disconnects(value)"
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:289
+msgid "is_right_disconnects_enabled()"
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:292
+msgid "If ``true``, enables disconnection of existing connections in the GraphEdit by dragging the right end."
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:298
+msgid ":ref:`Vector2<class_Vector2>` **scroll_offset**"
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:303
+msgid "set_scroll_ofs(value)"
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:305
+msgid "get_scroll_ofs()"
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:308
+msgid "The scroll offset."
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:314
+msgid ":ref:`int<class_int>` **snap_distance**"
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:319
+msgid "set_snap(value)"
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:321
+msgid "get_snap()"
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:324
+msgid "The snapping distance in pixels."
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:330
+msgid ":ref:`bool<class_bool>` **use_snap**"
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:335
+msgid "set_use_snap(value)"
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:337
+msgid "is_using_snap()"
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:340
+msgid "If ``true``, enables snapping."
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:346
+msgid ":ref:`float<class_float>` **zoom**"
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:351
+msgid "set_zoom(value)"
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:353
+msgid "get_zoom()"
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:356
+msgid "The current zoom value."
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:359
+msgid "Method Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:363
+msgid "void **add_valid_connection_type** **(** :ref:`int<class_int>` from_type, :ref:`int<class_int>` to_type **)**"
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:365
+msgid "Makes possible the connection between two different slot types. The type is defined with the :ref:`GraphNode.set_slot<class_GraphNode_method_set_slot>` method."
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:371
+msgid "void **add_valid_left_disconnect_type** **(** :ref:`int<class_int>` type **)**"
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:373
+msgid "Makes possible to disconnect nodes when dragging from the slot at the left if it has the specified type."
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:379
+msgid "void **add_valid_right_disconnect_type** **(** :ref:`int<class_int>` type **)**"
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:381
+msgid "Makes possible to disconnect nodes when dragging from the slot at the right if it has the specified type."
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:387
+msgid "void **clear_connections** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:389
+msgid "Removes all connections between nodes."
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:395
+msgid ":ref:`Error<enum_@GlobalScope_Error>` **connect_node** **(** :ref:`String<class_String>` from, :ref:`int<class_int>` from_port, :ref:`String<class_String>` to, :ref:`int<class_int>` to_port **)**"
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:397
+msgid "Create a connection between the ``from_port`` slot of the ``from`` GraphNode and the ``to_port`` slot of the ``to`` GraphNode. If the connection already exists, no connection is created."
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:403
+msgid "void **disconnect_node** **(** :ref:`String<class_String>` from, :ref:`int<class_int>` from_port, :ref:`String<class_String>` to, :ref:`int<class_int>` to_port **)**"
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:405
+msgid "Removes the connection between the ``from_port`` slot of the ``from`` GraphNode and the ``to_port`` slot of the ``to`` GraphNode. If the connection does not exist, no connection is removed."
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:411
+msgid ":ref:`Array<class_Array>` **get_connection_list** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:413
+msgid "Returns an Array containing the list of connections. A connection consists in a structure of the form ``{ from_port: 0, from: \"GraphNode name 0\", to_port: 1, to: \"GraphNode name 1\" }``."
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:419
+msgid ":ref:`HBoxContainer<class_HBoxContainer>` **get_zoom_hbox** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:421
+msgid "Gets the :ref:`HBoxContainer<class_HBoxContainer>` that contains the zooming and grid snap controls in the top left of the graph."
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:423
+msgid "Warning: The intended usage of this function is to allow you to reposition or add your own custom controls to the container. This is an internal control and as such should not be freed. If you wish to hide this or any of it's children use their :ref:`CanvasItem.visible<class_CanvasItem_property_visible>` property instead."
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:429
+msgid ":ref:`bool<class_bool>` **is_node_connected** **(** :ref:`String<class_String>` from, :ref:`int<class_int>` from_port, :ref:`String<class_String>` to, :ref:`int<class_int>` to_port **)**"
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:431
+msgid "Returns ``true`` if the ``from_port`` slot of the ``from`` GraphNode is connected to the ``to_port`` slot of the ``to`` GraphNode."
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:437
+msgid ":ref:`bool<class_bool>` **is_valid_connection_type** **(** :ref:`int<class_int>` from_type, :ref:`int<class_int>` to_type **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:439
+msgid "Returns whether it's possible to connect slots of the specified types."
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:445
+msgid "void **remove_valid_connection_type** **(** :ref:`int<class_int>` from_type, :ref:`int<class_int>` to_type **)**"
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:447
+msgid "Makes it not possible to connect between two different slot types. The type is defined with the :ref:`GraphNode.set_slot<class_GraphNode_method_set_slot>` method."
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:453
+msgid "void **remove_valid_left_disconnect_type** **(** :ref:`int<class_int>` type **)**"
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:455
+msgid "Removes the possibility to disconnect nodes when dragging from the slot at the left if it has the specified type."
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:461
+msgid "void **remove_valid_right_disconnect_type** **(** :ref:`int<class_int>` type **)**"
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:463
+msgid "Removes the possibility to disconnect nodes when dragging from the slot at the right if it has the specified type."
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:469
+msgid "void **set_connection_activity** **(** :ref:`String<class_String>` from, :ref:`int<class_int>` from_port, :ref:`String<class_String>` to, :ref:`int<class_int>` to_port, :ref:`float<class_float>` amount **)**"
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:471
+msgid "Sets the coloration of the connection between ``from``'s ``from_port`` and ``to``'s ``to_port`` with the color provided in the ``activity`` theme property."
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:477
+msgid "void **set_selected** **(** :ref:`Node<class_Node>` node **)**"
+msgstr ""
+
+#: ../../docs/classes/class_graphedit.rst:479
+msgid "Sets the specified ``node`` as the one selected."
+msgstr ""

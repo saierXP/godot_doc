@@ -1,0 +1,111 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_vslider.rst:10
+msgid "VSlider"
+msgstr ""
+
+#: ../../docs/classes/class_vslider.rst:12
+msgid "**Inherits:** :ref:`Slider<class_Slider>` **<** :ref:`Range<class_Range>` **<** :ref:`Control<class_Control>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_vslider.rst:14
+msgid "Vertical slider."
+msgstr ""
+
+#: ../../docs/classes/class_vslider.rst:17
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_vslider.rst:19
+msgid "Vertical slider. See :ref:`Slider<class_Slider>`. This one goes from bottom (min) to top (max)."
+msgstr ""
+
+#: ../../docs/classes/class_vslider.rst:21
+msgid "**Note:** The :ref:`Range.changed<class_Range_signal_changed>` and :ref:`Range.value_changed<class_Range_signal_value_changed>` signals are part of the :ref:`Range<class_Range>` class which this class inherits from."
+msgstr ""
+
+#: ../../docs/classes/class_vslider.rst:24
+msgid "Properties"
+msgstr ""
+
+#: ../../docs/classes/class_vslider.rst:27
+#: ../../docs/classes/class_vslider.rst:29
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../../docs/classes/class_vslider.rst:27
+msgid "size_flags_horizontal"
+msgstr ""
+
+#: ../../docs/classes/class_vslider.rst:27
+msgid "``0`` *(parent override)*"
+msgstr ""
+
+#: ../../docs/classes/class_vslider.rst:29
+msgid "size_flags_vertical"
+msgstr ""
+
+#: ../../docs/classes/class_vslider.rst:29
+msgid "``1`` *(parent override)*"
+msgstr ""
+
+#: ../../docs/classes/class_vslider.rst:33
+msgid "Theme Properties"
+msgstr ""
+
+#: ../../docs/classes/class_vslider.rst:36
+#: ../../docs/classes/class_vslider.rst:42
+#: ../../docs/classes/class_vslider.rst:44
+#: ../../docs/classes/class_vslider.rst:48
+msgid ":ref:`Texture<class_Texture>`"
+msgstr ""
+
+#: ../../docs/classes/class_vslider.rst:36
+msgid "grabber"
+msgstr ""
+
+#: ../../docs/classes/class_vslider.rst:38
+#: ../../docs/classes/class_vslider.rst:40
+#: ../../docs/classes/class_vslider.rst:46
+msgid ":ref:`StyleBox<class_StyleBox>`"
+msgstr ""
+
+#: ../../docs/classes/class_vslider.rst:38
+msgid "grabber_area"
+msgstr ""
+
+#: ../../docs/classes/class_vslider.rst:40
+msgid "grabber_area_highlight"
+msgstr ""
+
+#: ../../docs/classes/class_vslider.rst:42
+msgid "grabber_disabled"
+msgstr ""
+
+#: ../../docs/classes/class_vslider.rst:44
+msgid "grabber_highlight"
+msgstr ""
+
+#: ../../docs/classes/class_vslider.rst:46
+msgid "slider"
+msgstr ""
+
+#: ../../docs/classes/class_vslider.rst:48
+msgid "tick"
+msgstr ""

@@ -1,0 +1,190 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_shape2d.rst:10
+msgid "Shape2D"
+msgstr ""
+
+#: ../../docs/classes/class_shape2d.rst:12
+msgid "**Inherits:** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_shape2d.rst:14
+msgid "**Inherited By:** :ref:`CapsuleShape2D<class_CapsuleShape2D>`, :ref:`CircleShape2D<class_CircleShape2D>`, :ref:`ConcavePolygonShape2D<class_ConcavePolygonShape2D>`, :ref:`ConvexPolygonShape2D<class_ConvexPolygonShape2D>`, :ref:`LineShape2D<class_LineShape2D>`, :ref:`RayShape2D<class_RayShape2D>`, :ref:`RectangleShape2D<class_RectangleShape2D>`, :ref:`SegmentShape2D<class_SegmentShape2D>`"
+msgstr ""
+
+#: ../../docs/classes/class_shape2d.rst:16
+msgid "Base class for all 2D shapes."
+msgstr ""
+
+#: ../../docs/classes/class_shape2d.rst:19
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_shape2d.rst:21
+msgid "Base class for all 2D shapes. All 2D shape types inherit from this."
+msgstr ""
+
+#: ../../docs/classes/class_shape2d.rst:24
+msgid "Tutorials"
+msgstr ""
+
+#: ../../docs/classes/class_shape2d.rst:26
+msgid ":doc:`../tutorials/physics/physics_introduction`"
+msgstr ""
+
+#: ../../docs/classes/class_shape2d.rst:29
+msgid "Properties"
+msgstr ""
+
+#: ../../docs/classes/class_shape2d.rst:32
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../../docs/classes/class_shape2d.rst:32
+msgid ":ref:`custom_solver_bias<class_Shape2D_property_custom_solver_bias>`"
+msgstr ""
+
+#: ../../docs/classes/class_shape2d.rst:32
+#: ../../docs/classes/class_shape2d.rst:58
+msgid "``0.0``"
+msgstr ""
+
+#: ../../docs/classes/class_shape2d.rst:36
+msgid "Methods"
+msgstr ""
+
+#: ../../docs/classes/class_shape2d.rst:39
+#: ../../docs/classes/class_shape2d.rst:43
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_shape2d.rst:39
+msgid ":ref:`collide<class_Shape2D_method_collide>` **(** :ref:`Transform2D<class_Transform2D>` local_xform, :ref:`Shape2D<class_Shape2D>` with_shape, :ref:`Transform2D<class_Transform2D>` shape_xform **)**"
+msgstr ""
+
+#: ../../docs/classes/class_shape2d.rst:41
+#: ../../docs/classes/class_shape2d.rst:45
+msgid ":ref:`Array<class_Array>`"
+msgstr ""
+
+#: ../../docs/classes/class_shape2d.rst:41
+msgid ":ref:`collide_and_get_contacts<class_Shape2D_method_collide_and_get_contacts>` **(** :ref:`Transform2D<class_Transform2D>` local_xform, :ref:`Shape2D<class_Shape2D>` with_shape, :ref:`Transform2D<class_Transform2D>` shape_xform **)**"
+msgstr ""
+
+#: ../../docs/classes/class_shape2d.rst:43
+msgid ":ref:`collide_with_motion<class_Shape2D_method_collide_with_motion>` **(** :ref:`Transform2D<class_Transform2D>` local_xform, :ref:`Vector2<class_Vector2>` local_motion, :ref:`Shape2D<class_Shape2D>` with_shape, :ref:`Transform2D<class_Transform2D>` shape_xform, :ref:`Vector2<class_Vector2>` shape_motion **)**"
+msgstr ""
+
+#: ../../docs/classes/class_shape2d.rst:45
+msgid ":ref:`collide_with_motion_and_get_contacts<class_Shape2D_method_collide_with_motion_and_get_contacts>` **(** :ref:`Transform2D<class_Transform2D>` local_xform, :ref:`Vector2<class_Vector2>` local_motion, :ref:`Shape2D<class_Shape2D>` with_shape, :ref:`Transform2D<class_Transform2D>` shape_xform, :ref:`Vector2<class_Vector2>` shape_motion **)**"
+msgstr ""
+
+#: ../../docs/classes/class_shape2d.rst:47
+msgid "void"
+msgstr ""
+
+#: ../../docs/classes/class_shape2d.rst:47
+msgid ":ref:`draw<class_Shape2D_method_draw>` **(** :ref:`RID<class_RID>` canvas_item, :ref:`Color<class_Color>` color **)**"
+msgstr ""
+
+#: ../../docs/classes/class_shape2d.rst:51
+msgid "Property Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_shape2d.rst:55
+msgid ":ref:`float<class_float>` **custom_solver_bias**"
+msgstr ""
+
+#: ../../docs/classes/class_shape2d.rst:58
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_shape2d.rst:60
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_shape2d.rst:60
+msgid "set_custom_solver_bias(value)"
+msgstr ""
+
+#: ../../docs/classes/class_shape2d.rst:62
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_shape2d.rst:62
+msgid "get_custom_solver_bias()"
+msgstr ""
+
+#: ../../docs/classes/class_shape2d.rst:65
+msgid "The shape's custom solver bias."
+msgstr ""
+
+#: ../../docs/classes/class_shape2d.rst:68
+msgid "Method Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_shape2d.rst:72
+msgid ":ref:`bool<class_bool>` **collide** **(** :ref:`Transform2D<class_Transform2D>` local_xform, :ref:`Shape2D<class_Shape2D>` with_shape, :ref:`Transform2D<class_Transform2D>` shape_xform **)**"
+msgstr ""
+
+#: ../../docs/classes/class_shape2d.rst:74
+msgid "Returns ``true`` if this shape is colliding with another."
+msgstr ""
+
+#: ../../docs/classes/class_shape2d.rst:76
+#: ../../docs/classes/class_shape2d.rst:86
+msgid "This method needs the transformation matrix for this shape (``local_xform``), the shape to check collisions with (``with_shape``), and the transformation matrix of that shape (``shape_xform``)."
+msgstr ""
+
+#: ../../docs/classes/class_shape2d.rst:82
+msgid ":ref:`Array<class_Array>` **collide_and_get_contacts** **(** :ref:`Transform2D<class_Transform2D>` local_xform, :ref:`Shape2D<class_Shape2D>` with_shape, :ref:`Transform2D<class_Transform2D>` shape_xform **)**"
+msgstr ""
+
+#: ../../docs/classes/class_shape2d.rst:84
+msgid "Returns a list of the points where this shape touches another. If there are no collisions the list is empty."
+msgstr ""
+
+#: ../../docs/classes/class_shape2d.rst:92
+msgid ":ref:`bool<class_bool>` **collide_with_motion** **(** :ref:`Transform2D<class_Transform2D>` local_xform, :ref:`Vector2<class_Vector2>` local_motion, :ref:`Shape2D<class_Shape2D>` with_shape, :ref:`Transform2D<class_Transform2D>` shape_xform, :ref:`Vector2<class_Vector2>` shape_motion **)**"
+msgstr ""
+
+#: ../../docs/classes/class_shape2d.rst:94
+msgid "Returns whether this shape would collide with another, if a given movement was applied."
+msgstr ""
+
+#: ../../docs/classes/class_shape2d.rst:96
+#: ../../docs/classes/class_shape2d.rst:106
+msgid "This method needs the transformation matrix for this shape (``local_xform``), the movement to test on this shape (``local_motion``), the shape to check collisions with (``with_shape``), the transformation matrix of that shape (``shape_xform``), and the movement to test onto the other object (``shape_motion``)."
+msgstr ""
+
+#: ../../docs/classes/class_shape2d.rst:102
+msgid ":ref:`Array<class_Array>` **collide_with_motion_and_get_contacts** **(** :ref:`Transform2D<class_Transform2D>` local_xform, :ref:`Vector2<class_Vector2>` local_motion, :ref:`Shape2D<class_Shape2D>` with_shape, :ref:`Transform2D<class_Transform2D>` shape_xform, :ref:`Vector2<class_Vector2>` shape_motion **)**"
+msgstr ""
+
+#: ../../docs/classes/class_shape2d.rst:104
+msgid "Returns a list of the points where this shape would touch another, if a given movement was applied. If there are no collisions the list is empty."
+msgstr ""
+
+#: ../../docs/classes/class_shape2d.rst:112
+msgid "void **draw** **(** :ref:`RID<class_RID>` canvas_item, :ref:`Color<class_Color>` color **)**"
+msgstr ""
+
+#: ../../docs/classes/class_shape2d.rst:114
+msgid "Draws a solid shape onto a :ref:`CanvasItem<class_CanvasItem>` with the :ref:`VisualServer<class_VisualServer>` API filled with the specified ``color``. The exact drawing method is specific for each shape and cannot be configured."
+msgstr ""

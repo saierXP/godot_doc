@@ -1,0 +1,207 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_splitcontainer.rst:10
+msgid "SplitContainer"
+msgstr ""
+
+#: ../../docs/classes/class_splitcontainer.rst:12
+msgid "**Inherits:** :ref:`Container<class_Container>` **<** :ref:`Control<class_Control>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_splitcontainer.rst:14
+msgid "**Inherited By:** :ref:`HSplitContainer<class_HSplitContainer>`, :ref:`VSplitContainer<class_VSplitContainer>`"
+msgstr ""
+
+#: ../../docs/classes/class_splitcontainer.rst:16
+msgid "Container for splitting and adjusting."
+msgstr ""
+
+#: ../../docs/classes/class_splitcontainer.rst:19
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_splitcontainer.rst:21
+msgid "Container for splitting two :ref:`Control<class_Control>`\\ s vertically or horizontally, with a grabber that allows adjusting the split offset or ratio."
+msgstr ""
+
+#: ../../docs/classes/class_splitcontainer.rst:24
+msgid "Properties"
+msgstr ""
+
+#: ../../docs/classes/class_splitcontainer.rst:27
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_splitcontainer.rst:27
+msgid ":ref:`collapsed<class_SplitContainer_property_collapsed>`"
+msgstr ""
+
+#: ../../docs/classes/class_splitcontainer.rst:27
+#: ../../docs/classes/class_splitcontainer.rst:77
+msgid "``false``"
+msgstr ""
+
+#: ../../docs/classes/class_splitcontainer.rst:29
+msgid ":ref:`DraggerVisibility<enum_SplitContainer_DraggerVisibility>`"
+msgstr ""
+
+#: ../../docs/classes/class_splitcontainer.rst:29
+msgid ":ref:`dragger_visibility<class_SplitContainer_property_dragger_visibility>`"
+msgstr ""
+
+#: ../../docs/classes/class_splitcontainer.rst:29
+#: ../../docs/classes/class_splitcontainer.rst:31
+#: ../../docs/classes/class_splitcontainer.rst:93
+#: ../../docs/classes/class_splitcontainer.rst:109
+msgid "``0``"
+msgstr ""
+
+#: ../../docs/classes/class_splitcontainer.rst:31
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../../docs/classes/class_splitcontainer.rst:31
+msgid ":ref:`split_offset<class_SplitContainer_property_split_offset>`"
+msgstr ""
+
+#: ../../docs/classes/class_splitcontainer.rst:35
+msgid "Methods"
+msgstr ""
+
+#: ../../docs/classes/class_splitcontainer.rst:38
+msgid "void"
+msgstr ""
+
+#: ../../docs/classes/class_splitcontainer.rst:38
+msgid ":ref:`clamp_split_offset<class_SplitContainer_method_clamp_split_offset>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_splitcontainer.rst:42
+msgid "Signals"
+msgstr ""
+
+#: ../../docs/classes/class_splitcontainer.rst:46
+msgid "**dragged** **(** :ref:`int<class_int>` offset **)**"
+msgstr ""
+
+#: ../../docs/classes/class_splitcontainer.rst:48
+msgid "Emitted when the dragger is dragged by user."
+msgstr ""
+
+#: ../../docs/classes/class_splitcontainer.rst:51
+msgid "Enumerations"
+msgstr ""
+
+#: ../../docs/classes/class_splitcontainer.rst:61
+msgid "enum **DraggerVisibility**:"
+msgstr ""
+
+#: ../../docs/classes/class_splitcontainer.rst:63
+msgid "**DRAGGER_VISIBLE** = **0** --- The split dragger is visible when the cursor hovers it."
+msgstr ""
+
+#: ../../docs/classes/class_splitcontainer.rst:65
+msgid "**DRAGGER_HIDDEN** = **1** --- The split dragger is never visible."
+msgstr ""
+
+#: ../../docs/classes/class_splitcontainer.rst:67
+msgid "**DRAGGER_HIDDEN_COLLAPSED** = **2** --- The split dragger is never visible and its space collapsed."
+msgstr ""
+
+#: ../../docs/classes/class_splitcontainer.rst:70
+msgid "Property Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_splitcontainer.rst:74
+msgid ":ref:`bool<class_bool>` **collapsed**"
+msgstr ""
+
+#: ../../docs/classes/class_splitcontainer.rst:77
+#: ../../docs/classes/class_splitcontainer.rst:93
+#: ../../docs/classes/class_splitcontainer.rst:109
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_splitcontainer.rst:79
+#: ../../docs/classes/class_splitcontainer.rst:95
+#: ../../docs/classes/class_splitcontainer.rst:111
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_splitcontainer.rst:79
+msgid "set_collapsed(value)"
+msgstr ""
+
+#: ../../docs/classes/class_splitcontainer.rst:81
+#: ../../docs/classes/class_splitcontainer.rst:97
+#: ../../docs/classes/class_splitcontainer.rst:113
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_splitcontainer.rst:81
+msgid "is_collapsed()"
+msgstr ""
+
+#: ../../docs/classes/class_splitcontainer.rst:84
+msgid "If ``true``, the area of the first :ref:`Control<class_Control>` will be collapsed and the dragger will be disabled."
+msgstr ""
+
+#: ../../docs/classes/class_splitcontainer.rst:90
+msgid ":ref:`DraggerVisibility<enum_SplitContainer_DraggerVisibility>` **dragger_visibility**"
+msgstr ""
+
+#: ../../docs/classes/class_splitcontainer.rst:95
+msgid "set_dragger_visibility(value)"
+msgstr ""
+
+#: ../../docs/classes/class_splitcontainer.rst:97
+msgid "get_dragger_visibility()"
+msgstr ""
+
+#: ../../docs/classes/class_splitcontainer.rst:100
+msgid "Determines the dragger's visibility. See :ref:`DraggerVisibility<enum_SplitContainer_DraggerVisibility>` for details."
+msgstr ""
+
+#: ../../docs/classes/class_splitcontainer.rst:106
+msgid ":ref:`int<class_int>` **split_offset**"
+msgstr ""
+
+#: ../../docs/classes/class_splitcontainer.rst:111
+msgid "set_split_offset(value)"
+msgstr ""
+
+#: ../../docs/classes/class_splitcontainer.rst:113
+msgid "get_split_offset()"
+msgstr ""
+
+#: ../../docs/classes/class_splitcontainer.rst:116
+msgid "The initial offset of the splitting between the two :ref:`Control<class_Control>`\\ s, with ``0`` being at the end of the first :ref:`Control<class_Control>`."
+msgstr ""
+
+#: ../../docs/classes/class_splitcontainer.rst:119
+msgid "Method Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_splitcontainer.rst:123
+msgid "void **clamp_split_offset** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_splitcontainer.rst:125
+msgid "Clamps the :ref:`split_offset<class_SplitContainer_property_split_offset>` value to not go outside the currently possible minimal and maximum values."
+msgstr ""

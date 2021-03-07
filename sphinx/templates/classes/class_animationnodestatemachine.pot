@@ -1,0 +1,374 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_animationnodestatemachine.rst:10
+msgid "AnimationNodeStateMachine"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodestatemachine.rst:12
+msgid "**Inherits:** :ref:`AnimationRootNode<class_AnimationRootNode>` **<** :ref:`AnimationNode<class_AnimationNode>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodestatemachine.rst:14
+msgid "State machine for control of animations."
+msgstr ""
+
+#: ../../docs/classes/class_animationnodestatemachine.rst:17
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodestatemachine.rst:19
+msgid "Contains multiple nodes representing animation states, connected in a graph. Node transitions can be configured to happen automatically or via code, using a shortest-path algorithm. Retrieve the :ref:`AnimationNodeStateMachinePlayback<class_AnimationNodeStateMachinePlayback>` object from the :ref:`AnimationTree<class_AnimationTree>` node to control it programmatically."
+msgstr ""
+
+#: ../../docs/classes/class_animationnodestatemachine.rst:21
+msgid "**Example:**"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodestatemachine.rst:29
+msgid "Tutorials"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodestatemachine.rst:31
+msgid ":doc:`../tutorials/animation/animation_tree`"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodestatemachine.rst:34
+msgid "Methods"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodestatemachine.rst:37
+#: ../../docs/classes/class_animationnodestatemachine.rst:39
+#: ../../docs/classes/class_animationnodestatemachine.rst:65
+#: ../../docs/classes/class_animationnodestatemachine.rst:67
+#: ../../docs/classes/class_animationnodestatemachine.rst:69
+#: ../../docs/classes/class_animationnodestatemachine.rst:71
+#: ../../docs/classes/class_animationnodestatemachine.rst:73
+#: ../../docs/classes/class_animationnodestatemachine.rst:75
+#: ../../docs/classes/class_animationnodestatemachine.rst:77
+#: ../../docs/classes/class_animationnodestatemachine.rst:79
+#: ../../docs/classes/class_animationnodestatemachine.rst:81
+msgid "void"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodestatemachine.rst:37
+msgid ":ref:`add_node<class_AnimationNodeStateMachine_method_add_node>` **(** :ref:`String<class_String>` name, :ref:`AnimationNode<class_AnimationNode>` node, :ref:`Vector2<class_Vector2>` position=Vector2( 0, 0 ) **)**"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodestatemachine.rst:39
+msgid ":ref:`add_transition<class_AnimationNodeStateMachine_method_add_transition>` **(** :ref:`String<class_String>` from, :ref:`String<class_String>` to, :ref:`AnimationNodeStateMachineTransition<class_AnimationNodeStateMachineTransition>` transition **)**"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodestatemachine.rst:41
+#: ../../docs/classes/class_animationnodestatemachine.rst:47
+#: ../../docs/classes/class_animationnodestatemachine.rst:51
+#: ../../docs/classes/class_animationnodestatemachine.rst:57
+#: ../../docs/classes/class_animationnodestatemachine.rst:59
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodestatemachine.rst:41
+msgid ":ref:`get_end_node<class_AnimationNodeStateMachine_method_get_end_node>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodestatemachine.rst:43
+#: ../../docs/classes/class_animationnodestatemachine.rst:49
+msgid ":ref:`Vector2<class_Vector2>`"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodestatemachine.rst:43
+msgid ":ref:`get_graph_offset<class_AnimationNodeStateMachine_method_get_graph_offset>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodestatemachine.rst:45
+msgid ":ref:`AnimationNode<class_AnimationNode>`"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodestatemachine.rst:45
+msgid ":ref:`get_node<class_AnimationNodeStateMachine_method_get_node>` **(** :ref:`String<class_String>` name **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodestatemachine.rst:47
+msgid ":ref:`get_node_name<class_AnimationNodeStateMachine_method_get_node_name>` **(** :ref:`AnimationNode<class_AnimationNode>` node **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodestatemachine.rst:49
+msgid ":ref:`get_node_position<class_AnimationNodeStateMachine_method_get_node_position>` **(** :ref:`String<class_String>` name **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodestatemachine.rst:51
+msgid ":ref:`get_start_node<class_AnimationNodeStateMachine_method_get_start_node>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodestatemachine.rst:53
+msgid ":ref:`AnimationNodeStateMachineTransition<class_AnimationNodeStateMachineTransition>`"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodestatemachine.rst:53
+msgid ":ref:`get_transition<class_AnimationNodeStateMachine_method_get_transition>` **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodestatemachine.rst:55
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodestatemachine.rst:55
+msgid ":ref:`get_transition_count<class_AnimationNodeStateMachine_method_get_transition_count>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodestatemachine.rst:57
+msgid ":ref:`get_transition_from<class_AnimationNodeStateMachine_method_get_transition_from>` **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodestatemachine.rst:59
+msgid ":ref:`get_transition_to<class_AnimationNodeStateMachine_method_get_transition_to>` **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodestatemachine.rst:61
+#: ../../docs/classes/class_animationnodestatemachine.rst:63
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodestatemachine.rst:61
+msgid ":ref:`has_node<class_AnimationNodeStateMachine_method_has_node>` **(** :ref:`String<class_String>` name **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodestatemachine.rst:63
+msgid ":ref:`has_transition<class_AnimationNodeStateMachine_method_has_transition>` **(** :ref:`String<class_String>` from, :ref:`String<class_String>` to **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodestatemachine.rst:65
+msgid ":ref:`remove_node<class_AnimationNodeStateMachine_method_remove_node>` **(** :ref:`String<class_String>` name **)**"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodestatemachine.rst:67
+msgid ":ref:`remove_transition<class_AnimationNodeStateMachine_method_remove_transition>` **(** :ref:`String<class_String>` from, :ref:`String<class_String>` to **)**"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodestatemachine.rst:69
+msgid ":ref:`remove_transition_by_index<class_AnimationNodeStateMachine_method_remove_transition_by_index>` **(** :ref:`int<class_int>` idx **)**"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodestatemachine.rst:71
+msgid ":ref:`rename_node<class_AnimationNodeStateMachine_method_rename_node>` **(** :ref:`String<class_String>` name, :ref:`String<class_String>` new_name **)**"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodestatemachine.rst:73
+msgid ":ref:`replace_node<class_AnimationNodeStateMachine_method_replace_node>` **(** :ref:`String<class_String>` name, :ref:`AnimationNode<class_AnimationNode>` node **)**"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodestatemachine.rst:75
+msgid ":ref:`set_end_node<class_AnimationNodeStateMachine_method_set_end_node>` **(** :ref:`String<class_String>` name **)**"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodestatemachine.rst:77
+msgid ":ref:`set_graph_offset<class_AnimationNodeStateMachine_method_set_graph_offset>` **(** :ref:`Vector2<class_Vector2>` offset **)**"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodestatemachine.rst:79
+msgid ":ref:`set_node_position<class_AnimationNodeStateMachine_method_set_node_position>` **(** :ref:`String<class_String>` name, :ref:`Vector2<class_Vector2>` position **)**"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodestatemachine.rst:81
+msgid ":ref:`set_start_node<class_AnimationNodeStateMachine_method_set_start_node>` **(** :ref:`String<class_String>` name **)**"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodestatemachine.rst:85
+msgid "Method Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodestatemachine.rst:89
+msgid "void **add_node** **(** :ref:`String<class_String>` name, :ref:`AnimationNode<class_AnimationNode>` node, :ref:`Vector2<class_Vector2>` position=Vector2( 0, 0 ) **)**"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodestatemachine.rst:91
+msgid "Adds a new node to the graph. The ``position`` is used for display in the editor."
+msgstr ""
+
+#: ../../docs/classes/class_animationnodestatemachine.rst:97
+msgid "void **add_transition** **(** :ref:`String<class_String>` from, :ref:`String<class_String>` to, :ref:`AnimationNodeStateMachineTransition<class_AnimationNodeStateMachineTransition>` transition **)**"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodestatemachine.rst:99
+msgid "Adds a transition between the given nodes."
+msgstr ""
+
+#: ../../docs/classes/class_animationnodestatemachine.rst:105
+msgid ":ref:`String<class_String>` **get_end_node** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodestatemachine.rst:107
+#: ../../docs/classes/class_animationnodestatemachine.rst:147
+msgid "Returns the graph's end node."
+msgstr ""
+
+#: ../../docs/classes/class_animationnodestatemachine.rst:113
+msgid ":ref:`Vector2<class_Vector2>` **get_graph_offset** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodestatemachine.rst:115
+msgid "Returns the draw offset of the graph. Used for display in the editor."
+msgstr ""
+
+#: ../../docs/classes/class_animationnodestatemachine.rst:121
+msgid ":ref:`AnimationNode<class_AnimationNode>` **get_node** **(** :ref:`String<class_String>` name **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodestatemachine.rst:123
+msgid "Returns the animation node with the given name."
+msgstr ""
+
+#: ../../docs/classes/class_animationnodestatemachine.rst:129
+msgid ":ref:`String<class_String>` **get_node_name** **(** :ref:`AnimationNode<class_AnimationNode>` node **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodestatemachine.rst:131
+msgid "Returns the given animation node's name."
+msgstr ""
+
+#: ../../docs/classes/class_animationnodestatemachine.rst:137
+msgid ":ref:`Vector2<class_Vector2>` **get_node_position** **(** :ref:`String<class_String>` name **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodestatemachine.rst:139
+msgid "Returns the given node's coordinates. Used for display in the editor."
+msgstr ""
+
+#: ../../docs/classes/class_animationnodestatemachine.rst:145
+msgid ":ref:`String<class_String>` **get_start_node** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodestatemachine.rst:153
+msgid ":ref:`AnimationNodeStateMachineTransition<class_AnimationNodeStateMachineTransition>` **get_transition** **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodestatemachine.rst:155
+msgid "Returns the given transition."
+msgstr ""
+
+#: ../../docs/classes/class_animationnodestatemachine.rst:161
+msgid ":ref:`int<class_int>` **get_transition_count** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodestatemachine.rst:163
+msgid "Returns the number of connections in the graph."
+msgstr ""
+
+#: ../../docs/classes/class_animationnodestatemachine.rst:169
+msgid ":ref:`String<class_String>` **get_transition_from** **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodestatemachine.rst:171
+msgid "Returns the given transition's start node."
+msgstr ""
+
+#: ../../docs/classes/class_animationnodestatemachine.rst:177
+msgid ":ref:`String<class_String>` **get_transition_to** **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodestatemachine.rst:179
+msgid "Returns the given transition's end node."
+msgstr ""
+
+#: ../../docs/classes/class_animationnodestatemachine.rst:185
+msgid ":ref:`bool<class_bool>` **has_node** **(** :ref:`String<class_String>` name **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodestatemachine.rst:187
+msgid "Returns ``true`` if the graph contains the given node."
+msgstr ""
+
+#: ../../docs/classes/class_animationnodestatemachine.rst:193
+msgid ":ref:`bool<class_bool>` **has_transition** **(** :ref:`String<class_String>` from, :ref:`String<class_String>` to **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodestatemachine.rst:195
+msgid "Returns ``true`` if there is a transition between the given nodes."
+msgstr ""
+
+#: ../../docs/classes/class_animationnodestatemachine.rst:201
+msgid "void **remove_node** **(** :ref:`String<class_String>` name **)**"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodestatemachine.rst:203
+msgid "Deletes the given node from the graph."
+msgstr ""
+
+#: ../../docs/classes/class_animationnodestatemachine.rst:209
+msgid "void **remove_transition** **(** :ref:`String<class_String>` from, :ref:`String<class_String>` to **)**"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodestatemachine.rst:211
+msgid "Deletes the transition between the two specified nodes."
+msgstr ""
+
+#: ../../docs/classes/class_animationnodestatemachine.rst:217
+msgid "void **remove_transition_by_index** **(** :ref:`int<class_int>` idx **)**"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodestatemachine.rst:219
+msgid "Deletes the given transition by index."
+msgstr ""
+
+#: ../../docs/classes/class_animationnodestatemachine.rst:225
+msgid "void **rename_node** **(** :ref:`String<class_String>` name, :ref:`String<class_String>` new_name **)**"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodestatemachine.rst:227
+msgid "Renames the given node."
+msgstr ""
+
+#: ../../docs/classes/class_animationnodestatemachine.rst:233
+msgid "void **replace_node** **(** :ref:`String<class_String>` name, :ref:`AnimationNode<class_AnimationNode>` node **)**"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodestatemachine.rst:235
+msgid "Replaces the node and keeps its transitions unchanged."
+msgstr ""
+
+#: ../../docs/classes/class_animationnodestatemachine.rst:241
+msgid "void **set_end_node** **(** :ref:`String<class_String>` name **)**"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodestatemachine.rst:243
+msgid "Sets the given node as the graph end point."
+msgstr ""
+
+#: ../../docs/classes/class_animationnodestatemachine.rst:249
+msgid "void **set_graph_offset** **(** :ref:`Vector2<class_Vector2>` offset **)**"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodestatemachine.rst:251
+msgid "Sets the draw offset of the graph. Used for display in the editor."
+msgstr ""
+
+#: ../../docs/classes/class_animationnodestatemachine.rst:257
+msgid "void **set_node_position** **(** :ref:`String<class_String>` name, :ref:`Vector2<class_Vector2>` position **)**"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodestatemachine.rst:259
+msgid "Sets the node's coordinates. Used for display in the editor."
+msgstr ""
+
+#: ../../docs/classes/class_animationnodestatemachine.rst:265
+msgid "void **set_start_node** **(** :ref:`String<class_String>` name **)**"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodestatemachine.rst:267
+msgid "Sets the given node as the graph start point."
+msgstr ""

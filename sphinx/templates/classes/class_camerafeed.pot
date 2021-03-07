@@ -1,0 +1,218 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_camerafeed.rst:10
+msgid "CameraFeed"
+msgstr ""
+
+#: ../../docs/classes/class_camerafeed.rst:12
+msgid "**Inherits:** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_camerafeed.rst:14
+msgid "A camera feed gives you access to a single physical camera attached to your device."
+msgstr ""
+
+#: ../../docs/classes/class_camerafeed.rst:17
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_camerafeed.rst:19
+msgid "A camera feed gives you access to a single physical camera attached to your device. When enabled, Godot will start capturing frames from the camera which can then be used."
+msgstr ""
+
+#: ../../docs/classes/class_camerafeed.rst:21
+msgid "**Note:** Many cameras will return YCbCr images which are split into two textures and need to be combined in a shader. Godot does this automatically for you if you set the environment to show the camera image in the background."
+msgstr ""
+
+#: ../../docs/classes/class_camerafeed.rst:24
+msgid "Properties"
+msgstr ""
+
+#: ../../docs/classes/class_camerafeed.rst:27
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_camerafeed.rst:27
+msgid ":ref:`feed_is_active<class_CameraFeed_property_feed_is_active>`"
+msgstr ""
+
+#: ../../docs/classes/class_camerafeed.rst:27
+#: ../../docs/classes/class_camerafeed.rst:92
+msgid "``false``"
+msgstr ""
+
+#: ../../docs/classes/class_camerafeed.rst:29
+msgid ":ref:`Transform2D<class_Transform2D>`"
+msgstr ""
+
+#: ../../docs/classes/class_camerafeed.rst:29
+msgid ":ref:`feed_transform<class_CameraFeed_property_feed_transform>`"
+msgstr ""
+
+#: ../../docs/classes/class_camerafeed.rst:29
+#: ../../docs/classes/class_camerafeed.rst:108
+msgid "``Transform2D( 1, 0, 0, -1, 0, 1 )``"
+msgstr ""
+
+#: ../../docs/classes/class_camerafeed.rst:33
+msgid "Methods"
+msgstr ""
+
+#: ../../docs/classes/class_camerafeed.rst:36
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../../docs/classes/class_camerafeed.rst:36
+msgid ":ref:`get_id<class_CameraFeed_method_get_id>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_camerafeed.rst:38
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../../docs/classes/class_camerafeed.rst:38
+msgid ":ref:`get_name<class_CameraFeed_method_get_name>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_camerafeed.rst:40
+msgid ":ref:`FeedPosition<enum_CameraFeed_FeedPosition>`"
+msgstr ""
+
+#: ../../docs/classes/class_camerafeed.rst:40
+msgid ":ref:`get_position<class_CameraFeed_method_get_position>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_camerafeed.rst:44
+msgid "Enumerations"
+msgstr ""
+
+#: ../../docs/classes/class_camerafeed.rst:56
+msgid "enum **FeedDataType**:"
+msgstr ""
+
+#: ../../docs/classes/class_camerafeed.rst:58
+msgid "**FEED_NOIMAGE** = **0** --- No image set for the feed."
+msgstr ""
+
+#: ../../docs/classes/class_camerafeed.rst:60
+msgid "**FEED_RGB** = **1** --- Feed supplies RGB images."
+msgstr ""
+
+#: ../../docs/classes/class_camerafeed.rst:62
+msgid "**FEED_YCBCR** = **2** --- Feed supplies YCbCr images that need to be converted to RGB."
+msgstr ""
+
+#: ../../docs/classes/class_camerafeed.rst:64
+msgid "**FEED_YCBCR_SEP** = **3** --- Feed supplies separate Y and CbCr images that need to be combined and converted to RGB."
+msgstr ""
+
+#: ../../docs/classes/class_camerafeed.rst:76
+msgid "enum **FeedPosition**:"
+msgstr ""
+
+#: ../../docs/classes/class_camerafeed.rst:78
+msgid "**FEED_UNSPECIFIED** = **0** --- Unspecified position."
+msgstr ""
+
+#: ../../docs/classes/class_camerafeed.rst:80
+msgid "**FEED_FRONT** = **1** --- Camera is mounted at the front of the device."
+msgstr ""
+
+#: ../../docs/classes/class_camerafeed.rst:82
+msgid "**FEED_BACK** = **2** --- Camera is mounted at the back of the device."
+msgstr ""
+
+#: ../../docs/classes/class_camerafeed.rst:85
+msgid "Property Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_camerafeed.rst:89
+msgid ":ref:`bool<class_bool>` **feed_is_active**"
+msgstr ""
+
+#: ../../docs/classes/class_camerafeed.rst:92
+#: ../../docs/classes/class_camerafeed.rst:108
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_camerafeed.rst:94
+#: ../../docs/classes/class_camerafeed.rst:110
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_camerafeed.rst:94
+msgid "set_active(value)"
+msgstr ""
+
+#: ../../docs/classes/class_camerafeed.rst:96
+#: ../../docs/classes/class_camerafeed.rst:112
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_camerafeed.rst:96
+msgid "is_active()"
+msgstr ""
+
+#: ../../docs/classes/class_camerafeed.rst:99
+msgid "If ``true``, the feed is active."
+msgstr ""
+
+#: ../../docs/classes/class_camerafeed.rst:105
+msgid ":ref:`Transform2D<class_Transform2D>` **feed_transform**"
+msgstr ""
+
+#: ../../docs/classes/class_camerafeed.rst:110
+msgid "set_transform(value)"
+msgstr ""
+
+#: ../../docs/classes/class_camerafeed.rst:112
+msgid "get_transform()"
+msgstr ""
+
+#: ../../docs/classes/class_camerafeed.rst:115
+msgid "The transform applied to the camera's image."
+msgstr ""
+
+#: ../../docs/classes/class_camerafeed.rst:118
+msgid "Method Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_camerafeed.rst:122
+msgid ":ref:`int<class_int>` **get_id** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_camerafeed.rst:124
+msgid "Returns the unique ID for this feed."
+msgstr ""
+
+#: ../../docs/classes/class_camerafeed.rst:130
+msgid ":ref:`String<class_String>` **get_name** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_camerafeed.rst:132
+msgid "Returns the camera's name."
+msgstr ""
+
+#: ../../docs/classes/class_camerafeed.rst:138
+msgid ":ref:`FeedPosition<enum_CameraFeed_FeedPosition>` **get_position** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_camerafeed.rst:140
+msgid "Returns the position of camera on the device."
+msgstr ""

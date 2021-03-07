@@ -1,0 +1,146 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_multimeshinstance2d.rst:10
+msgid "MultiMeshInstance2D"
+msgstr ""
+
+#: ../../docs/classes/class_multimeshinstance2d.rst:12
+msgid "**Inherits:** :ref:`Node2D<class_Node2D>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_multimeshinstance2d.rst:14
+msgid "Node that instances a :ref:`MultiMesh<class_MultiMesh>` in 2D."
+msgstr ""
+
+#: ../../docs/classes/class_multimeshinstance2d.rst:17
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_multimeshinstance2d.rst:19
+msgid "``MultiMeshInstance2D`` is a specialized node to instance a :ref:`MultiMesh<class_MultiMesh>` resource in 2D."
+msgstr ""
+
+#: ../../docs/classes/class_multimeshinstance2d.rst:21
+msgid "Usage is the same as :ref:`MultiMeshInstance<class_MultiMeshInstance>`."
+msgstr ""
+
+#: ../../docs/classes/class_multimeshinstance2d.rst:24
+msgid "Properties"
+msgstr ""
+
+#: ../../docs/classes/class_multimeshinstance2d.rst:27
+msgid ":ref:`MultiMesh<class_MultiMesh>`"
+msgstr ""
+
+#: ../../docs/classes/class_multimeshinstance2d.rst:27
+msgid ":ref:`multimesh<class_MultiMeshInstance2D_property_multimesh>`"
+msgstr ""
+
+#: ../../docs/classes/class_multimeshinstance2d.rst:29
+#: ../../docs/classes/class_multimeshinstance2d.rst:31
+msgid ":ref:`Texture<class_Texture>`"
+msgstr ""
+
+#: ../../docs/classes/class_multimeshinstance2d.rst:29
+msgid ":ref:`normal_map<class_MultiMeshInstance2D_property_normal_map>`"
+msgstr ""
+
+#: ../../docs/classes/class_multimeshinstance2d.rst:31
+msgid ":ref:`texture<class_MultiMeshInstance2D_property_texture>`"
+msgstr ""
+
+#: ../../docs/classes/class_multimeshinstance2d.rst:35
+msgid "Signals"
+msgstr ""
+
+#: ../../docs/classes/class_multimeshinstance2d.rst:39
+msgid "**texture_changed** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_multimeshinstance2d.rst:41
+msgid "Emitted when the :ref:`texture<class_MultiMeshInstance2D_property_texture>` is changed."
+msgstr ""
+
+#: ../../docs/classes/class_multimeshinstance2d.rst:44
+msgid "Property Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_multimeshinstance2d.rst:48
+msgid ":ref:`MultiMesh<class_MultiMesh>` **multimesh**"
+msgstr ""
+
+#: ../../docs/classes/class_multimeshinstance2d.rst:51
+#: ../../docs/classes/class_multimeshinstance2d.rst:65
+#: ../../docs/classes/class_multimeshinstance2d.rst:81
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_multimeshinstance2d.rst:51
+msgid "set_multimesh(value)"
+msgstr ""
+
+#: ../../docs/classes/class_multimeshinstance2d.rst:53
+#: ../../docs/classes/class_multimeshinstance2d.rst:67
+#: ../../docs/classes/class_multimeshinstance2d.rst:83
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_multimeshinstance2d.rst:53
+msgid "get_multimesh()"
+msgstr ""
+
+#: ../../docs/classes/class_multimeshinstance2d.rst:56
+msgid "The :ref:`MultiMesh<class_MultiMesh>` that will be drawn by the ``MultiMeshInstance2D``."
+msgstr ""
+
+#: ../../docs/classes/class_multimeshinstance2d.rst:62
+msgid ":ref:`Texture<class_Texture>` **normal_map**"
+msgstr ""
+
+#: ../../docs/classes/class_multimeshinstance2d.rst:65
+msgid "set_normal_map(value)"
+msgstr ""
+
+#: ../../docs/classes/class_multimeshinstance2d.rst:67
+msgid "get_normal_map()"
+msgstr ""
+
+#: ../../docs/classes/class_multimeshinstance2d.rst:70
+msgid "The normal map that will be used if using the default :ref:`CanvasItemMaterial<class_CanvasItemMaterial>`."
+msgstr ""
+
+#: ../../docs/classes/class_multimeshinstance2d.rst:72
+msgid "**Note:** Godot expects the normal map to use X+, Y-, and Z+ coordinates. See `this page <http://wiki.polycount.com/wiki/Normal_Map_Technical_Details#Common_Swizzle_Coordinates>`_ for a comparison of normal map coordinates expected by popular engines."
+msgstr ""
+
+#: ../../docs/classes/class_multimeshinstance2d.rst:78
+msgid ":ref:`Texture<class_Texture>` **texture**"
+msgstr ""
+
+#: ../../docs/classes/class_multimeshinstance2d.rst:81
+msgid "set_texture(value)"
+msgstr ""
+
+#: ../../docs/classes/class_multimeshinstance2d.rst:83
+msgid "get_texture()"
+msgstr ""
+
+#: ../../docs/classes/class_multimeshinstance2d.rst:86
+msgid "The :ref:`Texture<class_Texture>` that will be used if using the default :ref:`CanvasItemMaterial<class_CanvasItemMaterial>`. Can be accessed as ``TEXTURE`` in CanvasItem shader."
+msgstr ""

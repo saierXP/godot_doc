@@ -1,0 +1,155 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_audioeffectspectrumanalyzer.rst:10
+msgid "AudioEffectSpectrumAnalyzer"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectspectrumanalyzer.rst:12
+msgid "**Inherits:** :ref:`AudioEffect<class_AudioEffect>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectspectrumanalyzer.rst:17
+msgid "Properties"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectspectrumanalyzer.rst:20
+#: ../../docs/classes/class_audioeffectspectrumanalyzer.rst:24
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectspectrumanalyzer.rst:20
+msgid ":ref:`buffer_length<class_AudioEffectSpectrumAnalyzer_property_buffer_length>`"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectspectrumanalyzer.rst:20
+#: ../../docs/classes/class_audioeffectspectrumanalyzer.rst:66
+msgid "``2.0``"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectspectrumanalyzer.rst:22
+msgid ":ref:`FFT_Size<enum_AudioEffectSpectrumAnalyzer_FFT_Size>`"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectspectrumanalyzer.rst:22
+msgid ":ref:`fft_size<class_AudioEffectSpectrumAnalyzer_property_fft_size>`"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectspectrumanalyzer.rst:22
+#: ../../docs/classes/class_audioeffectspectrumanalyzer.rst:80
+msgid "``2``"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectspectrumanalyzer.rst:24
+msgid ":ref:`tap_back_pos<class_AudioEffectSpectrumAnalyzer_property_tap_back_pos>`"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectspectrumanalyzer.rst:24
+#: ../../docs/classes/class_audioeffectspectrumanalyzer.rst:94
+msgid "``0.01``"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectspectrumanalyzer.rst:28
+msgid "Enumerations"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectspectrumanalyzer.rst:44
+msgid "enum **FFT_Size**:"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectspectrumanalyzer.rst:46
+msgid "**FFT_SIZE_256** = **0**"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectspectrumanalyzer.rst:48
+msgid "**FFT_SIZE_512** = **1**"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectspectrumanalyzer.rst:50
+msgid "**FFT_SIZE_1024** = **2**"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectspectrumanalyzer.rst:52
+msgid "**FFT_SIZE_2048** = **3**"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectspectrumanalyzer.rst:54
+msgid "**FFT_SIZE_4096** = **4**"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectspectrumanalyzer.rst:56
+msgid "**FFT_SIZE_MAX** = **5** --- Represents the size of the :ref:`FFT_Size<enum_AudioEffectSpectrumAnalyzer_FFT_Size>` enum."
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectspectrumanalyzer.rst:59
+msgid "Property Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectspectrumanalyzer.rst:63
+msgid ":ref:`float<class_float>` **buffer_length**"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectspectrumanalyzer.rst:66
+#: ../../docs/classes/class_audioeffectspectrumanalyzer.rst:80
+#: ../../docs/classes/class_audioeffectspectrumanalyzer.rst:94
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectspectrumanalyzer.rst:68
+#: ../../docs/classes/class_audioeffectspectrumanalyzer.rst:82
+#: ../../docs/classes/class_audioeffectspectrumanalyzer.rst:96
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectspectrumanalyzer.rst:68
+msgid "set_buffer_length(value)"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectspectrumanalyzer.rst:70
+#: ../../docs/classes/class_audioeffectspectrumanalyzer.rst:84
+#: ../../docs/classes/class_audioeffectspectrumanalyzer.rst:98
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectspectrumanalyzer.rst:70
+msgid "get_buffer_length()"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectspectrumanalyzer.rst:77
+msgid ":ref:`FFT_Size<enum_AudioEffectSpectrumAnalyzer_FFT_Size>` **fft_size**"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectspectrumanalyzer.rst:82
+msgid "set_fft_size(value)"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectspectrumanalyzer.rst:84
+msgid "get_fft_size()"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectspectrumanalyzer.rst:91
+msgid ":ref:`float<class_float>` **tap_back_pos**"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectspectrumanalyzer.rst:96
+msgid "set_tap_back_pos(value)"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectspectrumanalyzer.rst:98
+msgid "get_tap_back_pos()"
+msgstr ""

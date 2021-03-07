@@ -1,0 +1,136 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_jsonrpc.rst:10
+msgid "JSONRPC"
+msgstr ""
+
+#: ../../docs/classes/class_jsonrpc.rst:12
+msgid "**Inherits:** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_jsonrpc.rst:17
+msgid "Methods"
+msgstr ""
+
+#: ../../docs/classes/class_jsonrpc.rst:20
+#: ../../docs/classes/class_jsonrpc.rst:22
+#: ../../docs/classes/class_jsonrpc.rst:24
+#: ../../docs/classes/class_jsonrpc.rst:26
+msgid ":ref:`Dictionary<class_Dictionary>`"
+msgstr ""
+
+#: ../../docs/classes/class_jsonrpc.rst:20
+msgid ":ref:`make_notification<class_JSONRPC_method_make_notification>` **(** :ref:`String<class_String>` method, :ref:`Variant<class_Variant>` params **)**"
+msgstr ""
+
+#: ../../docs/classes/class_jsonrpc.rst:22
+msgid ":ref:`make_request<class_JSONRPC_method_make_request>` **(** :ref:`String<class_String>` method, :ref:`Variant<class_Variant>` params, :ref:`Variant<class_Variant>` id **)**"
+msgstr ""
+
+#: ../../docs/classes/class_jsonrpc.rst:24
+msgid ":ref:`make_response<class_JSONRPC_method_make_response>` **(** :ref:`Variant<class_Variant>` result, :ref:`Variant<class_Variant>` id **)**"
+msgstr ""
+
+#: ../../docs/classes/class_jsonrpc.rst:26
+msgid ":ref:`make_response_error<class_JSONRPC_method_make_response_error>` **(** :ref:`int<class_int>` code, :ref:`String<class_String>` message, :ref:`Variant<class_Variant>` id=null **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_jsonrpc.rst:28
+msgid ":ref:`Variant<class_Variant>`"
+msgstr ""
+
+#: ../../docs/classes/class_jsonrpc.rst:28
+msgid ":ref:`process_action<class_JSONRPC_method_process_action>` **(** :ref:`Variant<class_Variant>` action, :ref:`bool<class_bool>` recurse=false **)**"
+msgstr ""
+
+#: ../../docs/classes/class_jsonrpc.rst:30
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../../docs/classes/class_jsonrpc.rst:30
+msgid ":ref:`process_string<class_JSONRPC_method_process_string>` **(** :ref:`String<class_String>` action **)**"
+msgstr ""
+
+#: ../../docs/classes/class_jsonrpc.rst:32
+msgid "void"
+msgstr ""
+
+#: ../../docs/classes/class_jsonrpc.rst:32
+msgid ":ref:`set_scope<class_JSONRPC_method_set_scope>` **(** :ref:`String<class_String>` scope, :ref:`Object<class_Object>` target **)**"
+msgstr ""
+
+#: ../../docs/classes/class_jsonrpc.rst:36
+msgid "Enumerations"
+msgstr ""
+
+#: ../../docs/classes/class_jsonrpc.rst:50
+msgid "enum **ErrorCode**:"
+msgstr ""
+
+#: ../../docs/classes/class_jsonrpc.rst:52
+msgid "**PARSE_ERROR** = **-32700**"
+msgstr ""
+
+#: ../../docs/classes/class_jsonrpc.rst:54
+msgid "**INVALID_REQUEST** = **-32600**"
+msgstr ""
+
+#: ../../docs/classes/class_jsonrpc.rst:56
+msgid "**METHOD_NOT_FOUND** = **-32601**"
+msgstr ""
+
+#: ../../docs/classes/class_jsonrpc.rst:58
+msgid "**INVALID_PARAMS** = **-32602**"
+msgstr ""
+
+#: ../../docs/classes/class_jsonrpc.rst:60
+msgid "**INTERNAL_ERROR** = **-32603**"
+msgstr ""
+
+#: ../../docs/classes/class_jsonrpc.rst:63
+msgid "Method Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_jsonrpc.rst:67
+msgid ":ref:`Dictionary<class_Dictionary>` **make_notification** **(** :ref:`String<class_String>` method, :ref:`Variant<class_Variant>` params **)**"
+msgstr ""
+
+#: ../../docs/classes/class_jsonrpc.rst:73
+msgid ":ref:`Dictionary<class_Dictionary>` **make_request** **(** :ref:`String<class_String>` method, :ref:`Variant<class_Variant>` params, :ref:`Variant<class_Variant>` id **)**"
+msgstr ""
+
+#: ../../docs/classes/class_jsonrpc.rst:79
+msgid ":ref:`Dictionary<class_Dictionary>` **make_response** **(** :ref:`Variant<class_Variant>` result, :ref:`Variant<class_Variant>` id **)**"
+msgstr ""
+
+#: ../../docs/classes/class_jsonrpc.rst:85
+msgid ":ref:`Dictionary<class_Dictionary>` **make_response_error** **(** :ref:`int<class_int>` code, :ref:`String<class_String>` message, :ref:`Variant<class_Variant>` id=null **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_jsonrpc.rst:91
+msgid ":ref:`Variant<class_Variant>` **process_action** **(** :ref:`Variant<class_Variant>` action, :ref:`bool<class_bool>` recurse=false **)**"
+msgstr ""
+
+#: ../../docs/classes/class_jsonrpc.rst:97
+msgid ":ref:`String<class_String>` **process_string** **(** :ref:`String<class_String>` action **)**"
+msgstr ""
+
+#: ../../docs/classes/class_jsonrpc.rst:103
+msgid "void **set_scope** **(** :ref:`String<class_String>` scope, :ref:`Object<class_Object>` target **)**"
+msgstr ""

@@ -1,0 +1,112 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_audiostreamrandompitch.rst:10
+msgid "AudioStreamRandomPitch"
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamrandompitch.rst:12
+msgid "**Inherits:** :ref:`AudioStream<class_AudioStream>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamrandompitch.rst:14
+msgid "Plays audio with random pitch shifting."
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamrandompitch.rst:17
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamrandompitch.rst:19
+msgid "Randomly varies pitch on each start."
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamrandompitch.rst:22
+msgid "Properties"
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamrandompitch.rst:25
+msgid ":ref:`AudioStream<class_AudioStream>`"
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamrandompitch.rst:25
+msgid ":ref:`audio_stream<class_AudioStreamRandomPitch_property_audio_stream>`"
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamrandompitch.rst:27
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamrandompitch.rst:27
+msgid ":ref:`random_pitch<class_AudioStreamRandomPitch_property_random_pitch>`"
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamrandompitch.rst:27
+#: ../../docs/classes/class_audiostreamrandompitch.rst:52
+msgid "``1.1``"
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamrandompitch.rst:31
+msgid "Property Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamrandompitch.rst:35
+msgid ":ref:`AudioStream<class_AudioStream>` **audio_stream**"
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamrandompitch.rst:38
+#: ../../docs/classes/class_audiostreamrandompitch.rst:54
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamrandompitch.rst:38
+msgid "set_audio_stream(value)"
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamrandompitch.rst:40
+#: ../../docs/classes/class_audiostreamrandompitch.rst:56
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamrandompitch.rst:40
+msgid "get_audio_stream()"
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamrandompitch.rst:43
+msgid "The current :ref:`AudioStream<class_AudioStream>`."
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamrandompitch.rst:49
+msgid ":ref:`float<class_float>` **random_pitch**"
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamrandompitch.rst:52
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamrandompitch.rst:54
+msgid "set_random_pitch(value)"
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamrandompitch.rst:56
+msgid "get_random_pitch()"
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamrandompitch.rst:59
+msgid "The intensity of random pitch variation."
+msgstr ""

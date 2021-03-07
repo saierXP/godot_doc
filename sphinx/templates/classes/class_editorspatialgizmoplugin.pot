@@ -1,0 +1,299 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_editorspatialgizmoplugin.rst:10
+msgid "EditorSpatialGizmoPlugin"
+msgstr ""
+
+#: ../../docs/classes/class_editorspatialgizmoplugin.rst:12
+msgid "**Inherits:** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_editorspatialgizmoplugin.rst:14
+msgid "Used by the editor to define Spatial gizmo types."
+msgstr ""
+
+#: ../../docs/classes/class_editorspatialgizmoplugin.rst:17
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_editorspatialgizmoplugin.rst:19
+msgid "EditorSpatialGizmoPlugin allows you to define a new type of Gizmo. There are two main ways to do so: extending ``EditorSpatialGizmoPlugin`` for the simpler gizmos, or creating a new :ref:`EditorSpatialGizmo<class_EditorSpatialGizmo>` type. See the tutorial in the documentation for more info."
+msgstr ""
+
+#: ../../docs/classes/class_editorspatialgizmoplugin.rst:22
+msgid "Tutorials"
+msgstr ""
+
+#: ../../docs/classes/class_editorspatialgizmoplugin.rst:24
+msgid ":doc:`../tutorials/plugins/editor/spatial_gizmos`"
+msgstr ""
+
+#: ../../docs/classes/class_editorspatialgizmoplugin.rst:27
+msgid "Methods"
+msgstr ""
+
+#: ../../docs/classes/class_editorspatialgizmoplugin.rst:30
+#: ../../docs/classes/class_editorspatialgizmoplugin.rst:34
+#: ../../docs/classes/class_editorspatialgizmoplugin.rst:38
+#: ../../docs/classes/class_editorspatialgizmoplugin.rst:40
+#: ../../docs/classes/class_editorspatialgizmoplugin.rst:42
+#: ../../docs/classes/class_editorspatialgizmoplugin.rst:60
+#: ../../docs/classes/class_editorspatialgizmoplugin.rst:62
+msgid "void"
+msgstr ""
+
+#: ../../docs/classes/class_editorspatialgizmoplugin.rst:30
+msgid ":ref:`add_material<class_EditorSpatialGizmoPlugin_method_add_material>` **(** :ref:`String<class_String>` name, :ref:`SpatialMaterial<class_SpatialMaterial>` material **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorspatialgizmoplugin.rst:32
+#: ../../docs/classes/class_editorspatialgizmoplugin.rst:54
+#: ../../docs/classes/class_editorspatialgizmoplugin.rst:56
+#: ../../docs/classes/class_editorspatialgizmoplugin.rst:58
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_editorspatialgizmoplugin.rst:32
+msgid ":ref:`can_be_hidden<class_EditorSpatialGizmoPlugin_method_can_be_hidden>` **(** **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_editorspatialgizmoplugin.rst:34
+msgid ":ref:`commit_handle<class_EditorSpatialGizmoPlugin_method_commit_handle>` **(** :ref:`EditorSpatialGizmo<class_EditorSpatialGizmo>` gizmo, :ref:`int<class_int>` index, :ref:`Variant<class_Variant>` restore, :ref:`bool<class_bool>` cancel=false **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_editorspatialgizmoplugin.rst:36
+msgid ":ref:`EditorSpatialGizmo<class_EditorSpatialGizmo>`"
+msgstr ""
+
+#: ../../docs/classes/class_editorspatialgizmoplugin.rst:36
+msgid ":ref:`create_gizmo<class_EditorSpatialGizmoPlugin_method_create_gizmo>` **(** :ref:`Spatial<class_Spatial>` spatial **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_editorspatialgizmoplugin.rst:38
+msgid ":ref:`create_handle_material<class_EditorSpatialGizmoPlugin_method_create_handle_material>` **(** :ref:`String<class_String>` name, :ref:`bool<class_bool>` billboard=false **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorspatialgizmoplugin.rst:40
+msgid ":ref:`create_icon_material<class_EditorSpatialGizmoPlugin_method_create_icon_material>` **(** :ref:`String<class_String>` name, :ref:`Texture<class_Texture>` texture, :ref:`bool<class_bool>` on_top=false, :ref:`Color<class_Color>` color=Color( 1, 1, 1, 1 ) **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorspatialgizmoplugin.rst:42
+msgid ":ref:`create_material<class_EditorSpatialGizmoPlugin_method_create_material>` **(** :ref:`String<class_String>` name, :ref:`Color<class_Color>` color, :ref:`bool<class_bool>` billboard=false, :ref:`bool<class_bool>` on_top=false, :ref:`bool<class_bool>` use_vertex_color=false **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorspatialgizmoplugin.rst:44
+#: ../../docs/classes/class_editorspatialgizmoplugin.rst:50
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../../docs/classes/class_editorspatialgizmoplugin.rst:44
+msgid ":ref:`get_handle_name<class_EditorSpatialGizmoPlugin_method_get_handle_name>` **(** :ref:`EditorSpatialGizmo<class_EditorSpatialGizmo>` gizmo, :ref:`int<class_int>` index **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_editorspatialgizmoplugin.rst:46
+msgid ":ref:`Variant<class_Variant>`"
+msgstr ""
+
+#: ../../docs/classes/class_editorspatialgizmoplugin.rst:46
+msgid ":ref:`get_handle_value<class_EditorSpatialGizmoPlugin_method_get_handle_value>` **(** :ref:`EditorSpatialGizmo<class_EditorSpatialGizmo>` gizmo, :ref:`int<class_int>` index **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_editorspatialgizmoplugin.rst:48
+msgid ":ref:`SpatialMaterial<class_SpatialMaterial>`"
+msgstr ""
+
+#: ../../docs/classes/class_editorspatialgizmoplugin.rst:48
+msgid ":ref:`get_material<class_EditorSpatialGizmoPlugin_method_get_material>` **(** :ref:`String<class_String>` name, :ref:`EditorSpatialGizmo<class_EditorSpatialGizmo>` gizmo=null **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorspatialgizmoplugin.rst:50
+msgid ":ref:`get_name<class_EditorSpatialGizmoPlugin_method_get_name>` **(** **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_editorspatialgizmoplugin.rst:52
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../../docs/classes/class_editorspatialgizmoplugin.rst:52
+msgid ":ref:`get_priority<class_EditorSpatialGizmoPlugin_method_get_priority>` **(** **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_editorspatialgizmoplugin.rst:54
+msgid ":ref:`has_gizmo<class_EditorSpatialGizmoPlugin_method_has_gizmo>` **(** :ref:`Spatial<class_Spatial>` spatial **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_editorspatialgizmoplugin.rst:56
+msgid ":ref:`is_handle_highlighted<class_EditorSpatialGizmoPlugin_method_is_handle_highlighted>` **(** :ref:`EditorSpatialGizmo<class_EditorSpatialGizmo>` gizmo, :ref:`int<class_int>` index **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_editorspatialgizmoplugin.rst:58
+msgid ":ref:`is_selectable_when_hidden<class_EditorSpatialGizmoPlugin_method_is_selectable_when_hidden>` **(** **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_editorspatialgizmoplugin.rst:60
+msgid ":ref:`redraw<class_EditorSpatialGizmoPlugin_method_redraw>` **(** :ref:`EditorSpatialGizmo<class_EditorSpatialGizmo>` gizmo **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_editorspatialgizmoplugin.rst:62
+msgid ":ref:`set_handle<class_EditorSpatialGizmoPlugin_method_set_handle>` **(** :ref:`EditorSpatialGizmo<class_EditorSpatialGizmo>` gizmo, :ref:`int<class_int>` index, :ref:`Camera<class_Camera>` camera, :ref:`Vector2<class_Vector2>` point **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_editorspatialgizmoplugin.rst:66
+msgid "Method Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_editorspatialgizmoplugin.rst:70
+msgid "void **add_material** **(** :ref:`String<class_String>` name, :ref:`SpatialMaterial<class_SpatialMaterial>` material **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorspatialgizmoplugin.rst:72
+msgid "Adds a new material to the internal material list for the plugin. It can then be accessed with :ref:`get_material<class_EditorSpatialGizmoPlugin_method_get_material>`. Should not be overridden."
+msgstr ""
+
+#: ../../docs/classes/class_editorspatialgizmoplugin.rst:78
+msgid ":ref:`bool<class_bool>` **can_be_hidden** **(** **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_editorspatialgizmoplugin.rst:80
+msgid "Override this method to define whether the gizmo can be hidden or not. Returns ``true`` if not overridden."
+msgstr ""
+
+#: ../../docs/classes/class_editorspatialgizmoplugin.rst:86
+msgid "void **commit_handle** **(** :ref:`EditorSpatialGizmo<class_EditorSpatialGizmo>` gizmo, :ref:`int<class_int>` index, :ref:`Variant<class_Variant>` restore, :ref:`bool<class_bool>` cancel=false **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_editorspatialgizmoplugin.rst:88
+msgid "Override this method to commit gizmo handles. Called for this plugin's active gizmos."
+msgstr ""
+
+#: ../../docs/classes/class_editorspatialgizmoplugin.rst:94
+msgid ":ref:`EditorSpatialGizmo<class_EditorSpatialGizmo>` **create_gizmo** **(** :ref:`Spatial<class_Spatial>` spatial **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_editorspatialgizmoplugin.rst:96
+msgid "Override this method to return a custom :ref:`EditorSpatialGizmo<class_EditorSpatialGizmo>` for the spatial nodes of your choice, return ``null`` for the rest of nodes. See also :ref:`has_gizmo<class_EditorSpatialGizmoPlugin_method_has_gizmo>`."
+msgstr ""
+
+#: ../../docs/classes/class_editorspatialgizmoplugin.rst:102
+msgid "void **create_handle_material** **(** :ref:`String<class_String>` name, :ref:`bool<class_bool>` billboard=false **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorspatialgizmoplugin.rst:104
+msgid "Creates a handle material with its variants (selected and/or editable) and adds them to the internal material list. They can then be accessed with :ref:`get_material<class_EditorSpatialGizmoPlugin_method_get_material>` and used in :ref:`EditorSpatialGizmo.add_handles<class_EditorSpatialGizmo_method_add_handles>`. Should not be overridden."
+msgstr ""
+
+#: ../../docs/classes/class_editorspatialgizmoplugin.rst:110
+msgid "void **create_icon_material** **(** :ref:`String<class_String>` name, :ref:`Texture<class_Texture>` texture, :ref:`bool<class_bool>` on_top=false, :ref:`Color<class_Color>` color=Color( 1, 1, 1, 1 ) **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorspatialgizmoplugin.rst:112
+msgid "Creates an icon material with its variants (selected and/or editable) and adds them to the internal material list. They can then be accessed with :ref:`get_material<class_EditorSpatialGizmoPlugin_method_get_material>` and used in :ref:`EditorSpatialGizmo.add_unscaled_billboard<class_EditorSpatialGizmo_method_add_unscaled_billboard>`. Should not be overridden."
+msgstr ""
+
+#: ../../docs/classes/class_editorspatialgizmoplugin.rst:118
+msgid "void **create_material** **(** :ref:`String<class_String>` name, :ref:`Color<class_Color>` color, :ref:`bool<class_bool>` billboard=false, :ref:`bool<class_bool>` on_top=false, :ref:`bool<class_bool>` use_vertex_color=false **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorspatialgizmoplugin.rst:120
+msgid "Creates an unshaded material with its variants (selected and/or editable) and adds them to the internal material list. They can then be accessed with :ref:`get_material<class_EditorSpatialGizmoPlugin_method_get_material>` and used in :ref:`EditorSpatialGizmo.add_mesh<class_EditorSpatialGizmo_method_add_mesh>` and :ref:`EditorSpatialGizmo.add_lines<class_EditorSpatialGizmo_method_add_lines>`. Should not be overridden."
+msgstr ""
+
+#: ../../docs/classes/class_editorspatialgizmoplugin.rst:126
+msgid ":ref:`String<class_String>` **get_handle_name** **(** :ref:`EditorSpatialGizmo<class_EditorSpatialGizmo>` gizmo, :ref:`int<class_int>` index **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_editorspatialgizmoplugin.rst:128
+msgid "Override this method to provide gizmo's handle names. Called for this plugin's active gizmos."
+msgstr ""
+
+#: ../../docs/classes/class_editorspatialgizmoplugin.rst:134
+msgid ":ref:`Variant<class_Variant>` **get_handle_value** **(** :ref:`EditorSpatialGizmo<class_EditorSpatialGizmo>` gizmo, :ref:`int<class_int>` index **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_editorspatialgizmoplugin.rst:136
+msgid "Gets actual value of a handle from gizmo. Called for this plugin's active gizmos."
+msgstr ""
+
+#: ../../docs/classes/class_editorspatialgizmoplugin.rst:142
+msgid ":ref:`SpatialMaterial<class_SpatialMaterial>` **get_material** **(** :ref:`String<class_String>` name, :ref:`EditorSpatialGizmo<class_EditorSpatialGizmo>` gizmo=null **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorspatialgizmoplugin.rst:144
+msgid "Gets material from the internal list of materials. If an :ref:`EditorSpatialGizmo<class_EditorSpatialGizmo>` is provided, it will try to get the corresponding variant (selected and/or editable)."
+msgstr ""
+
+#: ../../docs/classes/class_editorspatialgizmoplugin.rst:150
+msgid ":ref:`String<class_String>` **get_name** **(** **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_editorspatialgizmoplugin.rst:152
+msgid "Override this method to provide the name that will appear in the gizmo visibility menu."
+msgstr ""
+
+#: ../../docs/classes/class_editorspatialgizmoplugin.rst:158
+msgid ":ref:`int<class_int>` **get_priority** **(** **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_editorspatialgizmoplugin.rst:160
+msgid "Override this method to set the gizmo's priority. Higher values correspond to higher priority. If a gizmo with higher priority conflicts with another gizmo, only the gizmo with higher priority will be used."
+msgstr ""
+
+#: ../../docs/classes/class_editorspatialgizmoplugin.rst:162
+msgid "All built-in editor gizmos return a priority of ``-1``. If not overridden, this method will return ``0``, which means custom gizmos will automatically override built-in gizmos."
+msgstr ""
+
+#: ../../docs/classes/class_editorspatialgizmoplugin.rst:168
+msgid ":ref:`bool<class_bool>` **has_gizmo** **(** :ref:`Spatial<class_Spatial>` spatial **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_editorspatialgizmoplugin.rst:170
+msgid "Override this method to define which Spatial nodes have a gizmo from this plugin. Whenever a :ref:`Spatial<class_Spatial>` node is added to a scene this method is called, if it returns ``true`` the node gets a generic :ref:`EditorSpatialGizmo<class_EditorSpatialGizmo>` assigned and is added to this plugin's list of active gizmos."
+msgstr ""
+
+#: ../../docs/classes/class_editorspatialgizmoplugin.rst:176
+msgid ":ref:`bool<class_bool>` **is_handle_highlighted** **(** :ref:`EditorSpatialGizmo<class_EditorSpatialGizmo>` gizmo, :ref:`int<class_int>` index **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_editorspatialgizmoplugin.rst:178
+msgid "Gets whether a handle is highlighted or not. Called for this plugin's active gizmos."
+msgstr ""
+
+#: ../../docs/classes/class_editorspatialgizmoplugin.rst:184
+msgid ":ref:`bool<class_bool>` **is_selectable_when_hidden** **(** **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_editorspatialgizmoplugin.rst:186
+msgid "Override this method to define whether Spatial with this gizmo should be selecteble even when the gizmo is hidden."
+msgstr ""
+
+#: ../../docs/classes/class_editorspatialgizmoplugin.rst:192
+msgid "void **redraw** **(** :ref:`EditorSpatialGizmo<class_EditorSpatialGizmo>` gizmo **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_editorspatialgizmoplugin.rst:194
+msgid "Callback to redraw the provided gizmo. Called for this plugin's active gizmos."
+msgstr ""
+
+#: ../../docs/classes/class_editorspatialgizmoplugin.rst:200
+msgid "void **set_handle** **(** :ref:`EditorSpatialGizmo<class_EditorSpatialGizmo>` gizmo, :ref:`int<class_int>` index, :ref:`Camera<class_Camera>` camera, :ref:`Vector2<class_Vector2>` point **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_editorspatialgizmoplugin.rst:202
+msgid "Update the value of a handle after it has been updated. Called for this plugin's active gizmos."
+msgstr ""

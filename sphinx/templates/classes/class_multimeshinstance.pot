@@ -1,0 +1,97 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_multimeshinstance.rst:10
+msgid "MultiMeshInstance"
+msgstr ""
+
+#: ../../docs/classes/class_multimeshinstance.rst:12
+msgid "**Inherits:** :ref:`GeometryInstance<class_GeometryInstance>` **<** :ref:`VisualInstance<class_VisualInstance>` **<** :ref:`Spatial<class_Spatial>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_multimeshinstance.rst:14
+msgid "Node that instances a :ref:`MultiMesh<class_MultiMesh>`."
+msgstr ""
+
+#: ../../docs/classes/class_multimeshinstance.rst:17
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_multimeshinstance.rst:19
+msgid "``MultiMeshInstance`` is a specialized node to instance :ref:`GeometryInstance<class_GeometryInstance>`\\ s based on a :ref:`MultiMesh<class_MultiMesh>` resource."
+msgstr ""
+
+#: ../../docs/classes/class_multimeshinstance.rst:21
+msgid "This is useful to optimize the rendering of a high amount of instances of a given mesh (for example trees in a forest or grass strands)."
+msgstr ""
+
+#: ../../docs/classes/class_multimeshinstance.rst:24
+msgid "Tutorials"
+msgstr ""
+
+#: ../../docs/classes/class_multimeshinstance.rst:26
+msgid ":doc:`../tutorials/3d/vertex_animation/animating_thousands_of_fish`"
+msgstr ""
+
+#: ../../docs/classes/class_multimeshinstance.rst:28
+msgid ":doc:`../tutorials/3d/using_multi_mesh_instance`"
+msgstr ""
+
+#: ../../docs/classes/class_multimeshinstance.rst:30
+msgid ":doc:`../tutorials/optimization/using_multimesh`"
+msgstr ""
+
+#: ../../docs/classes/class_multimeshinstance.rst:33
+msgid "Properties"
+msgstr ""
+
+#: ../../docs/classes/class_multimeshinstance.rst:36
+msgid ":ref:`MultiMesh<class_MultiMesh>`"
+msgstr ""
+
+#: ../../docs/classes/class_multimeshinstance.rst:36
+msgid ":ref:`multimesh<class_MultiMeshInstance_property_multimesh>`"
+msgstr ""
+
+#: ../../docs/classes/class_multimeshinstance.rst:40
+msgid "Property Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_multimeshinstance.rst:44
+msgid ":ref:`MultiMesh<class_MultiMesh>` **multimesh**"
+msgstr ""
+
+#: ../../docs/classes/class_multimeshinstance.rst:47
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_multimeshinstance.rst:47
+msgid "set_multimesh(value)"
+msgstr ""
+
+#: ../../docs/classes/class_multimeshinstance.rst:49
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_multimeshinstance.rst:49
+msgid "get_multimesh()"
+msgstr ""
+
+#: ../../docs/classes/class_multimeshinstance.rst:52
+msgid "The :ref:`MultiMesh<class_MultiMesh>` resource that will be used and shared among all instances of the ``MultiMeshInstance``."
+msgstr ""

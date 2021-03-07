@@ -1,0 +1,93 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_path2d.rst:10
+msgid "Path2D"
+msgstr ""
+
+#: ../../docs/classes/class_path2d.rst:12
+msgid "**Inherits:** :ref:`Node2D<class_Node2D>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_path2d.rst:14
+msgid "Contains a :ref:`Curve2D<class_Curve2D>` path for :ref:`PathFollow2D<class_PathFollow2D>` nodes to follow."
+msgstr ""
+
+#: ../../docs/classes/class_path2d.rst:17
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_path2d.rst:19
+msgid "Can have :ref:`PathFollow2D<class_PathFollow2D>` child nodes moving along the :ref:`Curve2D<class_Curve2D>`. See :ref:`PathFollow2D<class_PathFollow2D>` for more information on usage."
+msgstr ""
+
+#: ../../docs/classes/class_path2d.rst:21
+msgid "**Note:** The path is considered as relative to the moved nodes (children of :ref:`PathFollow2D<class_PathFollow2D>`). As such, the curve should usually start with a zero vector (``(0, 0)``)."
+msgstr ""
+
+#: ../../docs/classes/class_path2d.rst:24
+msgid "Properties"
+msgstr ""
+
+#: ../../docs/classes/class_path2d.rst:27
+msgid ":ref:`Curve2D<class_Curve2D>`"
+msgstr ""
+
+#: ../../docs/classes/class_path2d.rst:27
+msgid ":ref:`curve<class_Path2D_property_curve>`"
+msgstr ""
+
+#: ../../docs/classes/class_path2d.rst:29
+msgid ":ref:`Color<class_Color>`"
+msgstr ""
+
+#: ../../docs/classes/class_path2d.rst:29
+msgid "self_modulate"
+msgstr ""
+
+#: ../../docs/classes/class_path2d.rst:29
+msgid "``Color( 0.5, 0.6, 1, 0.7 )`` *(parent override)*"
+msgstr ""
+
+#: ../../docs/classes/class_path2d.rst:33
+msgid "Property Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_path2d.rst:37
+msgid ":ref:`Curve2D<class_Curve2D>` **curve**"
+msgstr ""
+
+#: ../../docs/classes/class_path2d.rst:40
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_path2d.rst:40
+msgid "set_curve(value)"
+msgstr ""
+
+#: ../../docs/classes/class_path2d.rst:42
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_path2d.rst:42
+msgid "get_curve()"
+msgstr ""
+
+#: ../../docs/classes/class_path2d.rst:45
+msgid "A :ref:`Curve2D<class_Curve2D>` describing the path."
+msgstr ""

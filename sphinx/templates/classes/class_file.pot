@@ -1,0 +1,819 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_file.rst:10
+msgid "File"
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:12
+msgid "**Inherits:** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:14
+msgid "Type to handle file reading and writing operations."
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:17
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:19
+msgid "File type. This is used to permanently store data into the user device's file system and to read from it. This can be used to store game save data or player configuration files, for example."
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:21
+msgid "Here's a sample on how to write and read from a file:"
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:38
+msgid "In the example above, the file will be saved in the user data folder as specified in the `Data paths <https://docs.godotengine.org/en/3.2/tutorials/io/data_paths.html>`_ documentation."
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:40
+msgid "**Note:** To access project resources once exported, it is recommended to use :ref:`ResourceLoader<class_ResourceLoader>` instead of the ``File`` API, as some files are converted to engine-specific formats and their original source files might not be present in the exported PCK package."
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:43
+msgid "Tutorials"
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:45
+msgid ":doc:`../getting_started/step_by_step/filesystem`"
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:47
+msgid "`https://godotengine.org/asset-library/asset/676 <https://godotengine.org/asset-library/asset/676>`_"
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:50
+msgid "Properties"
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:53
+#: ../../docs/classes/class_file.rst:62
+#: ../../docs/classes/class_file.rst:64
+#: ../../docs/classes/class_file.rst:108
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:53
+msgid ":ref:`endian_swap<class_File_property_endian_swap>`"
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:53
+#: ../../docs/classes/class_file.rst:202
+msgid "``false``"
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:57
+msgid "Methods"
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:60
+#: ../../docs/classes/class_file.rst:118
+#: ../../docs/classes/class_file.rst:120
+#: ../../docs/classes/class_file.rst:122
+#: ../../docs/classes/class_file.rst:124
+#: ../../docs/classes/class_file.rst:126
+#: ../../docs/classes/class_file.rst:128
+#: ../../docs/classes/class_file.rst:130
+#: ../../docs/classes/class_file.rst:132
+#: ../../docs/classes/class_file.rst:134
+#: ../../docs/classes/class_file.rst:136
+#: ../../docs/classes/class_file.rst:138
+#: ../../docs/classes/class_file.rst:140
+#: ../../docs/classes/class_file.rst:142
+#: ../../docs/classes/class_file.rst:144
+#: ../../docs/classes/class_file.rst:146
+msgid "void"
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:60
+msgid ":ref:`close<class_File_method_close>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:62
+msgid ":ref:`eof_reached<class_File_method_eof_reached>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:64
+msgid ":ref:`file_exists<class_File_method_file_exists>` **(** :ref:`String<class_String>` path **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:66
+#: ../../docs/classes/class_file.rst:68
+#: ../../docs/classes/class_file.rst:70
+#: ../../docs/classes/class_file.rst:72
+#: ../../docs/classes/class_file.rst:86
+#: ../../docs/classes/class_file.rst:92
+#: ../../docs/classes/class_file.rst:100
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:66
+msgid ":ref:`get_16<class_File_method_get_16>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:68
+msgid ":ref:`get_32<class_File_method_get_32>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:70
+msgid ":ref:`get_64<class_File_method_get_64>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:72
+msgid ":ref:`get_8<class_File_method_get_8>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:74
+#: ../../docs/classes/class_file.rst:88
+#: ../../docs/classes/class_file.rst:90
+#: ../../docs/classes/class_file.rst:94
+#: ../../docs/classes/class_file.rst:96
+#: ../../docs/classes/class_file.rst:98
+#: ../../docs/classes/class_file.rst:104
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:74
+msgid ":ref:`get_as_text<class_File_method_get_as_text>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:76
+msgid ":ref:`PoolByteArray<class_PoolByteArray>`"
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:76
+msgid ":ref:`get_buffer<class_File_method_get_buffer>` **(** :ref:`int<class_int>` len **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:78
+msgid ":ref:`PoolStringArray<class_PoolStringArray>`"
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:78
+msgid ":ref:`get_csv_line<class_File_method_get_csv_line>` **(** :ref:`String<class_String>` delim=\",\" **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:80
+#: ../../docs/classes/class_file.rst:84
+#: ../../docs/classes/class_file.rst:102
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:80
+msgid ":ref:`get_double<class_File_method_get_double>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:82
+#: ../../docs/classes/class_file.rst:110
+#: ../../docs/classes/class_file.rst:112
+#: ../../docs/classes/class_file.rst:114
+#: ../../docs/classes/class_file.rst:116
+msgid ":ref:`Error<enum_@GlobalScope_Error>`"
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:82
+msgid ":ref:`get_error<class_File_method_get_error>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:84
+msgid ":ref:`get_float<class_File_method_get_float>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:86
+msgid ":ref:`get_len<class_File_method_get_len>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:88
+msgid ":ref:`get_line<class_File_method_get_line>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:90
+msgid ":ref:`get_md5<class_File_method_get_md5>` **(** :ref:`String<class_String>` path **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:92
+msgid ":ref:`get_modified_time<class_File_method_get_modified_time>` **(** :ref:`String<class_String>` file **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:94
+msgid ":ref:`get_pascal_string<class_File_method_get_pascal_string>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:96
+msgid ":ref:`get_path<class_File_method_get_path>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:98
+msgid ":ref:`get_path_absolute<class_File_method_get_path_absolute>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:100
+msgid ":ref:`get_position<class_File_method_get_position>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:102
+msgid ":ref:`get_real<class_File_method_get_real>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:104
+msgid ":ref:`get_sha256<class_File_method_get_sha256>` **(** :ref:`String<class_String>` path **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:106
+msgid ":ref:`Variant<class_Variant>`"
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:106
+msgid ":ref:`get_var<class_File_method_get_var>` **(** :ref:`bool<class_bool>` allow_objects=false **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:108
+msgid ":ref:`is_open<class_File_method_is_open>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:110
+msgid ":ref:`open<class_File_method_open>` **(** :ref:`String<class_String>` path, :ref:`ModeFlags<enum_File_ModeFlags>` flags **)**"
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:112
+msgid ":ref:`open_compressed<class_File_method_open_compressed>` **(** :ref:`String<class_String>` path, :ref:`ModeFlags<enum_File_ModeFlags>` mode_flags, :ref:`CompressionMode<enum_File_CompressionMode>` compression_mode=0 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:114
+msgid ":ref:`open_encrypted<class_File_method_open_encrypted>` **(** :ref:`String<class_String>` path, :ref:`ModeFlags<enum_File_ModeFlags>` mode_flags, :ref:`PoolByteArray<class_PoolByteArray>` key **)**"
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:116
+msgid ":ref:`open_encrypted_with_pass<class_File_method_open_encrypted_with_pass>` **(** :ref:`String<class_String>` path, :ref:`ModeFlags<enum_File_ModeFlags>` mode_flags, :ref:`String<class_String>` pass **)**"
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:118
+msgid ":ref:`seek<class_File_method_seek>` **(** :ref:`int<class_int>` position **)**"
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:120
+msgid ":ref:`seek_end<class_File_method_seek_end>` **(** :ref:`int<class_int>` position=0 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:122
+msgid ":ref:`store_16<class_File_method_store_16>` **(** :ref:`int<class_int>` value **)**"
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:124
+msgid ":ref:`store_32<class_File_method_store_32>` **(** :ref:`int<class_int>` value **)**"
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:126
+msgid ":ref:`store_64<class_File_method_store_64>` **(** :ref:`int<class_int>` value **)**"
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:128
+msgid ":ref:`store_8<class_File_method_store_8>` **(** :ref:`int<class_int>` value **)**"
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:130
+msgid ":ref:`store_buffer<class_File_method_store_buffer>` **(** :ref:`PoolByteArray<class_PoolByteArray>` buffer **)**"
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:132
+msgid ":ref:`store_csv_line<class_File_method_store_csv_line>` **(** :ref:`PoolStringArray<class_PoolStringArray>` values, :ref:`String<class_String>` delim=\",\" **)**"
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:134
+msgid ":ref:`store_double<class_File_method_store_double>` **(** :ref:`float<class_float>` value **)**"
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:136
+msgid ":ref:`store_float<class_File_method_store_float>` **(** :ref:`float<class_float>` value **)**"
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:138
+msgid ":ref:`store_line<class_File_method_store_line>` **(** :ref:`String<class_String>` line **)**"
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:140
+msgid ":ref:`store_pascal_string<class_File_method_store_pascal_string>` **(** :ref:`String<class_String>` string **)**"
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:142
+msgid ":ref:`store_real<class_File_method_store_real>` **(** :ref:`float<class_float>` value **)**"
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:144
+msgid ":ref:`store_string<class_File_method_store_string>` **(** :ref:`String<class_String>` string **)**"
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:146
+msgid ":ref:`store_var<class_File_method_store_var>` **(** :ref:`Variant<class_Variant>` value, :ref:`bool<class_bool>` full_objects=false **)**"
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:150
+msgid "Enumerations"
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:162
+msgid "enum **ModeFlags**:"
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:164
+msgid "**READ** = **1** --- Opens the file for read operations. The cursor is positioned at the beginning of the file."
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:166
+msgid "**WRITE** = **2** --- Opens the file for write operations. The file is created if it does not exist, and truncated if it does."
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:168
+msgid "**READ_WRITE** = **3** --- Opens the file for read and write operations. Does not truncate the file. The cursor is positioned at the beginning of the file."
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:170
+msgid "**WRITE_READ** = **7** --- Opens the file for read and write operations. The file is created if it does not exist, and truncated if it does. The cursor is positioned at the beginning of the file."
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:184
+msgid "enum **CompressionMode**:"
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:186
+msgid "**COMPRESSION_FASTLZ** = **0** --- Uses the `FastLZ <http://fastlz.org/>`_ compression method."
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:188
+msgid "**COMPRESSION_DEFLATE** = **1** --- Uses the `DEFLATE <https://en.wikipedia.org/wiki/DEFLATE>`_ compression method."
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:190
+msgid "**COMPRESSION_ZSTD** = **2** --- Uses the `Zstandard <https://facebook.github.io/zstd/>`_ compression method."
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:192
+msgid "**COMPRESSION_GZIP** = **3** --- Uses the `gzip <https://www.gzip.org/>`_ compression method."
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:195
+msgid "Property Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:199
+msgid ":ref:`bool<class_bool>` **endian_swap**"
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:202
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:204
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:204
+msgid "set_endian_swap(value)"
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:206
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:206
+msgid "get_endian_swap()"
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:209
+msgid "If ``true``, the file's endianness is swapped. Use this if you're dealing with files written on big-endian machines."
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:211
+msgid "**Note:** This is about the file format, not CPU type. This is always reset to ``false`` whenever you open the file."
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:214
+msgid "Method Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:218
+msgid "void **close** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:220
+msgid "Closes the currently opened file."
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:226
+msgid ":ref:`bool<class_bool>` **eof_reached** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:228
+msgid "Returns ``true`` if the file cursor has read past the end of the file."
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:230
+msgid "**Note:** This function will still return ``false`` while at the end of the file and only activates when reading past it. This can be confusing but it conforms to how low-level file access works in all operating systems. There is always :ref:`get_len<class_File_method_get_len>` and :ref:`get_position<class_File_method_get_position>` to implement a custom logic."
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:236
+msgid ":ref:`bool<class_bool>` **file_exists** **(** :ref:`String<class_String>` path **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:238
+msgid "Returns ``true`` if the file exists in the given path."
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:240
+msgid "**Note:** Many resources types are imported (e.g. textures or sound files), and their source asset will not be included in the exported game, as only the imported version is used. See :ref:`ResourceLoader.exists<class_ResourceLoader_method_exists>` for an alternative approach that takes resource remapping into account."
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:246
+msgid ":ref:`int<class_int>` **get_16** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:248
+msgid "Returns the next 16 bits from the file as an integer. See :ref:`store_16<class_File_method_store_16>` for details on what values can be stored and retrieved this way."
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:254
+msgid ":ref:`int<class_int>` **get_32** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:256
+msgid "Returns the next 32 bits from the file as an integer. See :ref:`store_32<class_File_method_store_32>` for details on what values can be stored and retrieved this way."
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:262
+msgid ":ref:`int<class_int>` **get_64** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:264
+msgid "Returns the next 64 bits from the file as an integer. See :ref:`store_64<class_File_method_store_64>` for details on what values can be stored and retrieved this way."
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:270
+msgid ":ref:`int<class_int>` **get_8** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:272
+msgid "Returns the next 8 bits from the file as an integer. See :ref:`store_8<class_File_method_store_8>` for details on what values can be stored and retrieved this way."
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:278
+msgid ":ref:`String<class_String>` **get_as_text** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:280
+msgid "Returns the whole file as a :ref:`String<class_String>`."
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:282
+#: ../../docs/classes/class_file.rst:300
+#: ../../docs/classes/class_file.rst:342
+#: ../../docs/classes/class_file.rst:368
+msgid "Text is interpreted as being UTF-8 encoded."
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:288
+msgid ":ref:`PoolByteArray<class_PoolByteArray>` **get_buffer** **(** :ref:`int<class_int>` len **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:290
+msgid "Returns next ``len`` bytes of the file as a :ref:`PoolByteArray<class_PoolByteArray>`."
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:296
+msgid ":ref:`PoolStringArray<class_PoolStringArray>` **get_csv_line** **(** :ref:`String<class_String>` delim=\",\" **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:298
+msgid "Returns the next value of the file in CSV (Comma-Separated Values) format. You can pass a different delimiter ``delim`` to use other than the default ``\",\"`` (comma). This delimiter must be one-character long."
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:306
+msgid ":ref:`float<class_float>` **get_double** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:308
+msgid "Returns the next 64 bits from the file as a floating-point number."
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:314
+msgid ":ref:`Error<enum_@GlobalScope_Error>` **get_error** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:316
+msgid "Returns the last error that happened when trying to perform operations. Compare with the ``ERR_FILE_*`` constants from :ref:`Error<enum_@GlobalScope_Error>`."
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:322
+msgid ":ref:`float<class_float>` **get_float** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:324
+msgid "Returns the next 32 bits from the file as a floating-point number."
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:330
+msgid ":ref:`int<class_int>` **get_len** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:332
+msgid "Returns the size of the file in bytes."
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:338
+msgid ":ref:`String<class_String>` **get_line** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:340
+msgid "Returns the next line of the file as a :ref:`String<class_String>`."
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:348
+msgid ":ref:`String<class_String>` **get_md5** **(** :ref:`String<class_String>` path **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:350
+msgid "Returns an MD5 String representing the file at the given path or an empty :ref:`String<class_String>` on failure."
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:356
+msgid ":ref:`int<class_int>` **get_modified_time** **(** :ref:`String<class_String>` file **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:358
+msgid "Returns the last time the ``file`` was modified in unix timestamp format or returns a :ref:`String<class_String>` \"ERROR IN ``file``\". This unix timestamp can be converted to datetime by using :ref:`OS.get_datetime_from_unix_time<class_OS_method_get_datetime_from_unix_time>`."
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:364
+msgid ":ref:`String<class_String>` **get_pascal_string** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:366
+msgid "Returns a :ref:`String<class_String>` saved in Pascal format from the file."
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:374
+msgid ":ref:`String<class_String>` **get_path** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:376
+msgid "Returns the path as a :ref:`String<class_String>` for the current open file."
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:382
+msgid ":ref:`String<class_String>` **get_path_absolute** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:384
+msgid "Returns the absolute path as a :ref:`String<class_String>` for the current open file."
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:390
+msgid ":ref:`int<class_int>` **get_position** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:392
+msgid "Returns the file cursor's position."
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:398
+msgid ":ref:`float<class_float>` **get_real** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:400
+msgid "Returns the next bits from the file as a floating-point number."
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:406
+msgid ":ref:`String<class_String>` **get_sha256** **(** :ref:`String<class_String>` path **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:408
+msgid "Returns a SHA-256 :ref:`String<class_String>` representing the file at the given path or an empty :ref:`String<class_String>` on failure."
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:414
+msgid ":ref:`Variant<class_Variant>` **get_var** **(** :ref:`bool<class_bool>` allow_objects=false **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:416
+msgid "Returns the next :ref:`Variant<class_Variant>` value from the file. If ``allow_objects`` is ``true``, decoding objects is allowed."
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:418
+msgid "**Warning:** Deserialized objects can contain code which gets executed. Do not use this option if the serialized object comes from untrusted sources to avoid potential security threats such as remote code execution."
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:424
+msgid ":ref:`bool<class_bool>` **is_open** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:426
+msgid "Returns ``true`` if the file is currently opened."
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:432
+msgid ":ref:`Error<enum_@GlobalScope_Error>` **open** **(** :ref:`String<class_String>` path, :ref:`ModeFlags<enum_File_ModeFlags>` flags **)**"
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:434
+msgid "Opens the file for writing or reading, depending on the flags."
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:440
+msgid ":ref:`Error<enum_@GlobalScope_Error>` **open_compressed** **(** :ref:`String<class_String>` path, :ref:`ModeFlags<enum_File_ModeFlags>` mode_flags, :ref:`CompressionMode<enum_File_CompressionMode>` compression_mode=0 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:442
+msgid "Opens a compressed file for reading or writing."
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:448
+msgid ":ref:`Error<enum_@GlobalScope_Error>` **open_encrypted** **(** :ref:`String<class_String>` path, :ref:`ModeFlags<enum_File_ModeFlags>` mode_flags, :ref:`PoolByteArray<class_PoolByteArray>` key **)**"
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:450
+msgid "Opens an encrypted file in write or read mode. You need to pass a binary key to encrypt/decrypt it."
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:452
+msgid "**Note:** The provided key must be 32 bytes long."
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:458
+msgid ":ref:`Error<enum_@GlobalScope_Error>` **open_encrypted_with_pass** **(** :ref:`String<class_String>` path, :ref:`ModeFlags<enum_File_ModeFlags>` mode_flags, :ref:`String<class_String>` pass **)**"
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:460
+msgid "Opens an encrypted file in write or read mode. You need to pass a password to encrypt/decrypt it."
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:466
+msgid "void **seek** **(** :ref:`int<class_int>` position **)**"
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:468
+msgid "Changes the file reading/writing cursor to the specified position (in bytes from the beginning of the file)."
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:474
+msgid "void **seek_end** **(** :ref:`int<class_int>` position=0 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:476
+msgid "Changes the file reading/writing cursor to the specified position (in bytes from the end of the file)."
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:478
+msgid "**Note:** This is an offset, so you should use negative numbers or the cursor will be at the end of the file."
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:484
+msgid "void **store_16** **(** :ref:`int<class_int>` value **)**"
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:486
+msgid "Stores an integer as 16 bits in the file."
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:488
+msgid "**Note:** The ``value`` should lie in the interval ``[0, 2^16 - 1]``. Any other value will overflow and wrap around."
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:490
+msgid "To store a signed integer, use :ref:`store_64<class_File_method_store_64>` or store a signed integer from the interval ``[-2^15, 2^15 - 1]`` (i.e. keeping one bit for the signedness) and compute its sign manually when reading. For example:"
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:515
+msgid "void **store_32** **(** :ref:`int<class_int>` value **)**"
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:517
+msgid "Stores an integer as 32 bits in the file."
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:519
+msgid "**Note:** The ``value`` should lie in the interval ``[0, 2^32 - 1]``. Any other value will overflow and wrap around."
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:521
+#: ../../docs/classes/class_file.rst:543
+msgid "To store a signed integer, use :ref:`store_64<class_File_method_store_64>`, or convert it manually (see :ref:`store_16<class_File_method_store_16>` for an example)."
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:527
+msgid "void **store_64** **(** :ref:`int<class_int>` value **)**"
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:529
+msgid "Stores an integer as 64 bits in the file."
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:531
+msgid "**Note:** The ``value`` must lie in the interval ``[-2^63, 2^63 - 1]`` (i.e. be a valid :ref:`int<class_int>` value)."
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:537
+msgid "void **store_8** **(** :ref:`int<class_int>` value **)**"
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:539
+msgid "Stores an integer as 8 bits in the file."
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:541
+msgid "**Note:** The ``value`` should lie in the interval ``[0, 255]``. Any other value will overflow and wrap around."
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:549
+msgid "void **store_buffer** **(** :ref:`PoolByteArray<class_PoolByteArray>` buffer **)**"
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:551
+msgid "Stores the given array of bytes in the file."
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:557
+msgid "void **store_csv_line** **(** :ref:`PoolStringArray<class_PoolStringArray>` values, :ref:`String<class_String>` delim=\",\" **)**"
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:559
+msgid "Store the given :ref:`PoolStringArray<class_PoolStringArray>` in the file as a line formatted in the CSV (Comma-Separated Values) format. You can pass a different delimiter ``delim`` to use other than the default ``\",\"`` (comma). This delimiter must be one-character long."
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:561
+#: ../../docs/classes/class_file.rst:595
+msgid "Text will be encoded as UTF-8."
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:567
+msgid "void **store_double** **(** :ref:`float<class_float>` value **)**"
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:569
+msgid "Stores a floating-point number as 64 bits in the file."
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:575
+msgid "void **store_float** **(** :ref:`float<class_float>` value **)**"
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:577
+msgid "Stores a floating-point number as 32 bits in the file."
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:583
+msgid "void **store_line** **(** :ref:`String<class_String>` line **)**"
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:585
+msgid "Appends ``line`` to the file followed by a line return character (``\\n``), encoding the text as UTF-8."
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:591
+msgid "void **store_pascal_string** **(** :ref:`String<class_String>` string **)**"
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:593
+msgid "Stores the given :ref:`String<class_String>` as a line in the file in Pascal format (i.e. also store the length of the string)."
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:601
+msgid "void **store_real** **(** :ref:`float<class_float>` value **)**"
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:603
+msgid "Stores a floating-point number in the file."
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:609
+msgid "void **store_string** **(** :ref:`String<class_String>` string **)**"
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:611
+msgid "Appends ``string`` to the file without a line return, encoding the text as UTF-8."
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:617
+msgid "void **store_var** **(** :ref:`Variant<class_Variant>` value, :ref:`bool<class_bool>` full_objects=false **)**"
+msgstr ""
+
+#: ../../docs/classes/class_file.rst:619
+msgid "Stores any Variant value in the file. If ``full_objects`` is ``true``, encoding objects is allowed (and can potentially include code)."
+msgstr ""

@@ -1,0 +1,1480 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_string.rst:10
+msgid "String"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:12
+msgid "Built-in string class."
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:15
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:17
+msgid "This is the built-in string class (and the one used by GDScript). It supports Unicode and provides all necessary means for string handling. Strings are reference-counted and use a copy-on-write approach, so passing them around is cheap in resources."
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:20
+msgid "Tutorials"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:22
+msgid ":doc:`../getting_started/scripting/gdscript/gdscript_format_string`"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:25
+msgid "Methods"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:28
+#: ../../docs/classes/class_string.rst:30
+#: ../../docs/classes/class_string.rst:32
+#: ../../docs/classes/class_string.rst:34
+#: ../../docs/classes/class_string.rst:36
+#: ../../docs/classes/class_string.rst:38
+#: ../../docs/classes/class_string.rst:40
+#: ../../docs/classes/class_string.rst:42
+#: ../../docs/classes/class_string.rst:44
+#: ../../docs/classes/class_string.rst:46
+#: ../../docs/classes/class_string.rst:48
+#: ../../docs/classes/class_string.rst:50
+#: ../../docs/classes/class_string.rst:52
+#: ../../docs/classes/class_string.rst:54
+#: ../../docs/classes/class_string.rst:56
+#: ../../docs/classes/class_string.rst:58
+#: ../../docs/classes/class_string.rst:60
+#: ../../docs/classes/class_string.rst:62
+#: ../../docs/classes/class_string.rst:64
+#: ../../docs/classes/class_string.rst:66
+#: ../../docs/classes/class_string.rst:68
+#: ../../docs/classes/class_string.rst:70
+#: ../../docs/classes/class_string.rst:72
+#: ../../docs/classes/class_string.rst:74
+#: ../../docs/classes/class_string.rst:80
+#: ../../docs/classes/class_string.rst:82
+#: ../../docs/classes/class_string.rst:84
+#: ../../docs/classes/class_string.rst:92
+#: ../../docs/classes/class_string.rst:106
+#: ../../docs/classes/class_string.rst:108
+#: ../../docs/classes/class_string.rst:110
+#: ../../docs/classes/class_string.rst:112
+#: ../../docs/classes/class_string.rst:114
+#: ../../docs/classes/class_string.rst:120
+#: ../../docs/classes/class_string.rst:122
+#: ../../docs/classes/class_string.rst:124
+#: ../../docs/classes/class_string.rst:126
+#: ../../docs/classes/class_string.rst:150
+#: ../../docs/classes/class_string.rst:152
+#: ../../docs/classes/class_string.rst:156
+#: ../../docs/classes/class_string.rst:164
+#: ../../docs/classes/class_string.rst:170
+#: ../../docs/classes/class_string.rst:172
+#: ../../docs/classes/class_string.rst:174
+#: ../../docs/classes/class_string.rst:176
+#: ../../docs/classes/class_string.rst:178
+#: ../../docs/classes/class_string.rst:180
+#: ../../docs/classes/class_string.rst:182
+#: ../../docs/classes/class_string.rst:184
+#: ../../docs/classes/class_string.rst:190
+#: ../../docs/classes/class_string.rst:194
+#: ../../docs/classes/class_string.rst:198
+#: ../../docs/classes/class_string.rst:202
+#: ../../docs/classes/class_string.rst:210
+#: ../../docs/classes/class_string.rst:212
+#: ../../docs/classes/class_string.rst:214
+#: ../../docs/classes/class_string.rst:222
+#: ../../docs/classes/class_string.rst:224
+#: ../../docs/classes/class_string.rst:228
+#: ../../docs/classes/class_string.rst:230
+#: ../../docs/classes/class_string.rst:232
+#: ../../docs/classes/class_string.rst:234
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:28
+msgid ":ref:`String<class_String_method_String>` **(** :ref:`bool<class_bool>` from **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:30
+msgid ":ref:`String<class_String_method_String>` **(** :ref:`int<class_int>` from **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:32
+msgid ":ref:`String<class_String_method_String>` **(** :ref:`float<class_float>` from **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:34
+msgid ":ref:`String<class_String_method_String>` **(** :ref:`Vector2<class_Vector2>` from **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:36
+msgid ":ref:`String<class_String_method_String>` **(** :ref:`Rect2<class_Rect2>` from **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:38
+msgid ":ref:`String<class_String_method_String>` **(** :ref:`Vector3<class_Vector3>` from **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:40
+msgid ":ref:`String<class_String_method_String>` **(** :ref:`Transform2D<class_Transform2D>` from **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:42
+msgid ":ref:`String<class_String_method_String>` **(** :ref:`Plane<class_Plane>` from **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:44
+msgid ":ref:`String<class_String_method_String>` **(** :ref:`Quat<class_Quat>` from **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:46
+msgid ":ref:`String<class_String_method_String>` **(** :ref:`AABB<class_AABB>` from **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:48
+msgid ":ref:`String<class_String_method_String>` **(** :ref:`Basis<class_Basis>` from **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:50
+msgid ":ref:`String<class_String_method_String>` **(** :ref:`Transform<class_Transform>` from **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:52
+msgid ":ref:`String<class_String_method_String>` **(** :ref:`Color<class_Color>` from **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:54
+msgid ":ref:`String<class_String_method_String>` **(** :ref:`NodePath<class_NodePath>` from **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:56
+msgid ":ref:`String<class_String_method_String>` **(** :ref:`RID<class_RID>` from **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:58
+msgid ":ref:`String<class_String_method_String>` **(** :ref:`Dictionary<class_Dictionary>` from **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:60
+msgid ":ref:`String<class_String_method_String>` **(** :ref:`Array<class_Array>` from **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:62
+msgid ":ref:`String<class_String_method_String>` **(** :ref:`PoolByteArray<class_PoolByteArray>` from **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:64
+msgid ":ref:`String<class_String_method_String>` **(** :ref:`PoolIntArray<class_PoolIntArray>` from **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:66
+msgid ":ref:`String<class_String_method_String>` **(** :ref:`PoolRealArray<class_PoolRealArray>` from **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:68
+msgid ":ref:`String<class_String_method_String>` **(** :ref:`PoolStringArray<class_PoolStringArray>` from **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:70
+msgid ":ref:`String<class_String_method_String>` **(** :ref:`PoolVector2Array<class_PoolVector2Array>` from **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:72
+msgid ":ref:`String<class_String_method_String>` **(** :ref:`PoolVector3Array<class_PoolVector3Array>` from **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:74
+msgid ":ref:`String<class_String_method_String>` **(** :ref:`PoolColorArray<class_PoolColorArray>` from **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:76
+#: ../../docs/classes/class_string.rst:94
+#: ../../docs/classes/class_string.rst:96
+#: ../../docs/classes/class_string.rst:128
+#: ../../docs/classes/class_string.rst:130
+#: ../../docs/classes/class_string.rst:132
+#: ../../docs/classes/class_string.rst:134
+#: ../../docs/classes/class_string.rst:136
+#: ../../docs/classes/class_string.rst:138
+#: ../../docs/classes/class_string.rst:140
+#: ../../docs/classes/class_string.rst:142
+#: ../../docs/classes/class_string.rst:144
+#: ../../docs/classes/class_string.rst:146
+#: ../../docs/classes/class_string.rst:148
+#: ../../docs/classes/class_string.rst:158
+#: ../../docs/classes/class_string.rst:160
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:76
+msgid ":ref:`begins_with<class_String_method_begins_with>` **(** :ref:`String<class_String>` text **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:78
+#: ../../docs/classes/class_string.rst:192
+#: ../../docs/classes/class_string.rst:206
+msgid ":ref:`PoolStringArray<class_PoolStringArray>`"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:78
+msgid ":ref:`bigrams<class_String_method_bigrams>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:80
+msgid ":ref:`c_escape<class_String_method_c_escape>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:82
+msgid ":ref:`c_unescape<class_String_method_c_unescape>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:84
+msgid ":ref:`capitalize<class_String_method_capitalize>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:86
+#: ../../docs/classes/class_string.rst:88
+#: ../../docs/classes/class_string.rst:90
+#: ../../docs/classes/class_string.rst:100
+#: ../../docs/classes/class_string.rst:102
+#: ../../docs/classes/class_string.rst:104
+#: ../../docs/classes/class_string.rst:116
+#: ../../docs/classes/class_string.rst:118
+#: ../../docs/classes/class_string.rst:154
+#: ../../docs/classes/class_string.rst:166
+#: ../../docs/classes/class_string.rst:168
+#: ../../docs/classes/class_string.rst:186
+#: ../../docs/classes/class_string.rst:188
+#: ../../docs/classes/class_string.rst:220
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:86
+msgid ":ref:`casecmp_to<class_String_method_casecmp_to>` **(** :ref:`String<class_String>` to **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:88
+msgid ":ref:`count<class_String_method_count>` **(** :ref:`String<class_String>` what, :ref:`int<class_int>` from=0, :ref:`int<class_int>` to=0 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:90
+msgid ":ref:`countn<class_String_method_countn>` **(** :ref:`String<class_String>` what, :ref:`int<class_int>` from=0, :ref:`int<class_int>` to=0 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:92
+msgid ":ref:`dedent<class_String_method_dedent>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:94
+msgid ":ref:`empty<class_String_method_empty>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:96
+msgid ":ref:`ends_with<class_String_method_ends_with>` **(** :ref:`String<class_String>` text **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:98
+msgid "void"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:98
+msgid ":ref:`erase<class_String_method_erase>` **(** :ref:`int<class_int>` position, :ref:`int<class_int>` chars **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:100
+msgid ":ref:`find<class_String_method_find>` **(** :ref:`String<class_String>` what, :ref:`int<class_int>` from=0 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:102
+msgid ":ref:`find_last<class_String_method_find_last>` **(** :ref:`String<class_String>` what **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:104
+msgid ":ref:`findn<class_String_method_findn>` **(** :ref:`String<class_String>` what, :ref:`int<class_int>` from=0 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:106
+msgid ":ref:`format<class_String_method_format>` **(** :ref:`Variant<class_Variant>` values, :ref:`String<class_String>` placeholder=\"{_}\" **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:108
+msgid ":ref:`get_base_dir<class_String_method_get_base_dir>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:110
+msgid ":ref:`get_basename<class_String_method_get_basename>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:112
+msgid ":ref:`get_extension<class_String_method_get_extension>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:114
+msgid ":ref:`get_file<class_String_method_get_file>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:116
+msgid ":ref:`hash<class_String_method_hash>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:118
+msgid ":ref:`hex_to_int<class_String_method_hex_to_int>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:120
+msgid ":ref:`http_escape<class_String_method_http_escape>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:122
+msgid ":ref:`http_unescape<class_String_method_http_unescape>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:124
+msgid ":ref:`humanize_size<class_String_method_humanize_size>` **(** :ref:`int<class_int>` size **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:126
+msgid ":ref:`insert<class_String_method_insert>` **(** :ref:`int<class_int>` position, :ref:`String<class_String>` what **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:128
+msgid ":ref:`is_abs_path<class_String_method_is_abs_path>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:130
+msgid ":ref:`is_rel_path<class_String_method_is_rel_path>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:132
+msgid ":ref:`is_subsequence_of<class_String_method_is_subsequence_of>` **(** :ref:`String<class_String>` text **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:134
+msgid ":ref:`is_subsequence_ofi<class_String_method_is_subsequence_ofi>` **(** :ref:`String<class_String>` text **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:136
+msgid ":ref:`is_valid_filename<class_String_method_is_valid_filename>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:138
+msgid ":ref:`is_valid_float<class_String_method_is_valid_float>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:140
+msgid ":ref:`is_valid_hex_number<class_String_method_is_valid_hex_number>` **(** :ref:`bool<class_bool>` with_prefix=false **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:142
+msgid ":ref:`is_valid_html_color<class_String_method_is_valid_html_color>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:144
+msgid ":ref:`is_valid_identifier<class_String_method_is_valid_identifier>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:146
+msgid ":ref:`is_valid_integer<class_String_method_is_valid_integer>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:148
+msgid ":ref:`is_valid_ip_address<class_String_method_is_valid_ip_address>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:150
+msgid ":ref:`json_escape<class_String_method_json_escape>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:152
+msgid ":ref:`left<class_String_method_left>` **(** :ref:`int<class_int>` position **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:154
+msgid ":ref:`length<class_String_method_length>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:156
+msgid ":ref:`lstrip<class_String_method_lstrip>` **(** :ref:`String<class_String>` chars **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:158
+msgid ":ref:`match<class_String_method_match>` **(** :ref:`String<class_String>` expr **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:160
+msgid ":ref:`matchn<class_String_method_matchn>` **(** :ref:`String<class_String>` expr **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:162
+#: ../../docs/classes/class_string.rst:196
+#: ../../docs/classes/class_string.rst:200
+#: ../../docs/classes/class_string.rst:216
+#: ../../docs/classes/class_string.rst:226
+msgid ":ref:`PoolByteArray<class_PoolByteArray>`"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:162
+msgid ":ref:`md5_buffer<class_String_method_md5_buffer>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:164
+msgid ":ref:`md5_text<class_String_method_md5_text>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:166
+msgid ":ref:`nocasecmp_to<class_String_method_nocasecmp_to>` **(** :ref:`String<class_String>` to **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:168
+msgid ":ref:`ord_at<class_String_method_ord_at>` **(** :ref:`int<class_int>` at **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:170
+msgid ":ref:`pad_decimals<class_String_method_pad_decimals>` **(** :ref:`int<class_int>` digits **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:172
+msgid ":ref:`pad_zeros<class_String_method_pad_zeros>` **(** :ref:`int<class_int>` digits **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:174
+msgid ":ref:`percent_decode<class_String_method_percent_decode>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:176
+msgid ":ref:`percent_encode<class_String_method_percent_encode>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:178
+msgid ":ref:`plus_file<class_String_method_plus_file>` **(** :ref:`String<class_String>` file **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:180
+msgid ":ref:`repeat<class_String_method_repeat>` **(** :ref:`int<class_int>` count **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:182
+msgid ":ref:`replace<class_String_method_replace>` **(** :ref:`String<class_String>` what, :ref:`String<class_String>` forwhat **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:184
+msgid ":ref:`replacen<class_String_method_replacen>` **(** :ref:`String<class_String>` what, :ref:`String<class_String>` forwhat **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:186
+msgid ":ref:`rfind<class_String_method_rfind>` **(** :ref:`String<class_String>` what, :ref:`int<class_int>` from=-1 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:188
+msgid ":ref:`rfindn<class_String_method_rfindn>` **(** :ref:`String<class_String>` what, :ref:`int<class_int>` from=-1 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:190
+msgid ":ref:`right<class_String_method_right>` **(** :ref:`int<class_int>` position **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:192
+msgid ":ref:`rsplit<class_String_method_rsplit>` **(** :ref:`String<class_String>` delimiter, :ref:`bool<class_bool>` allow_empty=true, :ref:`int<class_int>` maxsplit=0 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:194
+msgid ":ref:`rstrip<class_String_method_rstrip>` **(** :ref:`String<class_String>` chars **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:196
+msgid ":ref:`sha1_buffer<class_String_method_sha1_buffer>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:198
+msgid ":ref:`sha1_text<class_String_method_sha1_text>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:200
+msgid ":ref:`sha256_buffer<class_String_method_sha256_buffer>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:202
+msgid ":ref:`sha256_text<class_String_method_sha256_text>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:204
+#: ../../docs/classes/class_string.rst:218
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:204
+msgid ":ref:`similarity<class_String_method_similarity>` **(** :ref:`String<class_String>` text **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:206
+msgid ":ref:`split<class_String_method_split>` **(** :ref:`String<class_String>` delimiter, :ref:`bool<class_bool>` allow_empty=true, :ref:`int<class_int>` maxsplit=0 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:208
+msgid ":ref:`PoolRealArray<class_PoolRealArray>`"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:208
+msgid ":ref:`split_floats<class_String_method_split_floats>` **(** :ref:`String<class_String>` delimiter, :ref:`bool<class_bool>` allow_empty=true **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:210
+msgid ":ref:`strip_edges<class_String_method_strip_edges>` **(** :ref:`bool<class_bool>` left=true, :ref:`bool<class_bool>` right=true **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:212
+msgid ":ref:`strip_escapes<class_String_method_strip_escapes>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:214
+msgid ":ref:`substr<class_String_method_substr>` **(** :ref:`int<class_int>` from, :ref:`int<class_int>` len=-1 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:216
+msgid ":ref:`to_ascii<class_String_method_to_ascii>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:218
+msgid ":ref:`to_float<class_String_method_to_float>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:220
+msgid ":ref:`to_int<class_String_method_to_int>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:222
+msgid ":ref:`to_lower<class_String_method_to_lower>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:224
+msgid ":ref:`to_upper<class_String_method_to_upper>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:226
+msgid ":ref:`to_utf8<class_String_method_to_utf8>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:228
+msgid ":ref:`trim_prefix<class_String_method_trim_prefix>` **(** :ref:`String<class_String>` prefix **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:230
+msgid ":ref:`trim_suffix<class_String_method_trim_suffix>` **(** :ref:`String<class_String>` suffix **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:232
+msgid ":ref:`xml_escape<class_String_method_xml_escape>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:234
+msgid ":ref:`xml_unescape<class_String_method_xml_unescape>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:238
+msgid "Method Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:242
+msgid ":ref:`String<class_String>` **String** **(** :ref:`bool<class_bool>` from **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:244
+msgid "Constructs a new String from the given :ref:`bool<class_bool>`."
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:248
+msgid ":ref:`String<class_String>` **String** **(** :ref:`int<class_int>` from **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:250
+msgid "Constructs a new String from the given :ref:`int<class_int>`."
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:254
+msgid ":ref:`String<class_String>` **String** **(** :ref:`float<class_float>` from **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:256
+msgid "Constructs a new String from the given :ref:`float<class_float>`."
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:260
+msgid ":ref:`String<class_String>` **String** **(** :ref:`Vector2<class_Vector2>` from **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:262
+msgid "Constructs a new String from the given :ref:`Vector2<class_Vector2>`."
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:266
+msgid ":ref:`String<class_String>` **String** **(** :ref:`Rect2<class_Rect2>` from **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:268
+msgid "Constructs a new String from the given :ref:`Rect2<class_Rect2>`."
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:272
+msgid ":ref:`String<class_String>` **String** **(** :ref:`Vector3<class_Vector3>` from **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:274
+msgid "Constructs a new String from the given :ref:`Vector3<class_Vector3>`."
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:278
+msgid ":ref:`String<class_String>` **String** **(** :ref:`Transform2D<class_Transform2D>` from **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:280
+msgid "Constructs a new String from the given :ref:`Transform2D<class_Transform2D>`."
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:284
+msgid ":ref:`String<class_String>` **String** **(** :ref:`Plane<class_Plane>` from **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:286
+msgid "Constructs a new String from the given :ref:`Plane<class_Plane>`."
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:290
+msgid ":ref:`String<class_String>` **String** **(** :ref:`Quat<class_Quat>` from **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:292
+msgid "Constructs a new String from the given :ref:`Quat<class_Quat>`."
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:296
+msgid ":ref:`String<class_String>` **String** **(** :ref:`AABB<class_AABB>` from **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:298
+msgid "Constructs a new String from the given :ref:`AABB<class_AABB>`."
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:302
+msgid ":ref:`String<class_String>` **String** **(** :ref:`Basis<class_Basis>` from **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:304
+msgid "Constructs a new String from the given :ref:`Basis<class_Basis>`."
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:308
+msgid ":ref:`String<class_String>` **String** **(** :ref:`Transform<class_Transform>` from **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:310
+msgid "Constructs a new String from the given :ref:`Transform<class_Transform>`."
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:314
+msgid ":ref:`String<class_String>` **String** **(** :ref:`Color<class_Color>` from **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:316
+msgid "Constructs a new String from the given :ref:`Color<class_Color>`."
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:320
+msgid ":ref:`String<class_String>` **String** **(** :ref:`NodePath<class_NodePath>` from **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:322
+msgid "Constructs a new String from the given :ref:`NodePath<class_NodePath>`."
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:326
+msgid ":ref:`String<class_String>` **String** **(** :ref:`RID<class_RID>` from **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:328
+msgid "Constructs a new String from the given :ref:`RID<class_RID>`."
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:332
+msgid ":ref:`String<class_String>` **String** **(** :ref:`Dictionary<class_Dictionary>` from **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:334
+msgid "Constructs a new String from the given :ref:`Dictionary<class_Dictionary>`."
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:338
+msgid ":ref:`String<class_String>` **String** **(** :ref:`Array<class_Array>` from **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:340
+msgid "Constructs a new String from the given :ref:`Array<class_Array>`."
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:344
+msgid ":ref:`String<class_String>` **String** **(** :ref:`PoolByteArray<class_PoolByteArray>` from **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:346
+msgid "Constructs a new String from the given :ref:`PoolByteArray<class_PoolByteArray>`."
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:350
+msgid ":ref:`String<class_String>` **String** **(** :ref:`PoolIntArray<class_PoolIntArray>` from **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:352
+msgid "Constructs a new String from the given :ref:`PoolIntArray<class_PoolIntArray>`."
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:356
+msgid ":ref:`String<class_String>` **String** **(** :ref:`PoolRealArray<class_PoolRealArray>` from **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:358
+msgid "Constructs a new String from the given :ref:`PoolRealArray<class_PoolRealArray>`."
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:362
+msgid ":ref:`String<class_String>` **String** **(** :ref:`PoolStringArray<class_PoolStringArray>` from **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:364
+msgid "Constructs a new String from the given :ref:`PoolStringArray<class_PoolStringArray>`."
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:368
+msgid ":ref:`String<class_String>` **String** **(** :ref:`PoolVector2Array<class_PoolVector2Array>` from **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:370
+msgid "Constructs a new String from the given :ref:`PoolVector2Array<class_PoolVector2Array>`."
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:374
+msgid ":ref:`String<class_String>` **String** **(** :ref:`PoolVector3Array<class_PoolVector3Array>` from **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:376
+msgid "Constructs a new String from the given :ref:`PoolVector3Array<class_PoolVector3Array>`."
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:380
+msgid ":ref:`String<class_String>` **String** **(** :ref:`PoolColorArray<class_PoolColorArray>` from **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:382
+msgid "Constructs a new String from the given :ref:`PoolColorArray<class_PoolColorArray>`."
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:388
+msgid ":ref:`bool<class_bool>` **begins_with** **(** :ref:`String<class_String>` text **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:390
+msgid "Returns ``true`` if the string begins with the given string."
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:396
+msgid ":ref:`PoolStringArray<class_PoolStringArray>` **bigrams** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:398
+msgid "Returns the bigrams (pairs of consecutive letters) of this string."
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:404
+msgid ":ref:`String<class_String>` **c_escape** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:406
+msgid "Returns a copy of the string with special characters escaped using the C language standard."
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:412
+msgid ":ref:`String<class_String>` **c_unescape** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:414
+msgid "Returns a copy of the string with escaped characters replaced by their meanings. Supported escape sequences are ``\\'``, ``\\\"``, ``\\?``, ``\\\\``, ``\\a``, ``\\b``, ``\\f``, ``\\n``, ``\\r``, ``\\t``, ``\\v``."
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:416
+msgid "**Note:** Unlike the GDScript parser, this method doesn't support the ``\\uXXXX`` escape sequence."
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:422
+msgid ":ref:`String<class_String>` **capitalize** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:424
+msgid "Changes the case of some letters. Replaces underscores with spaces, adds spaces before in-word uppercase characters, converts all letters to lowercase, then capitalizes the first letter and every letter following a space character. For ``capitalize camelCase mixed_with_underscores``, it will return ``Capitalize Camel Case Mixed With Underscores``."
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:430
+msgid ":ref:`int<class_int>` **casecmp_to** **(** :ref:`String<class_String>` to **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:432
+msgid "Performs a case-sensitive comparison to another string. Returns ``-1`` if less than, ``1`` if greater than, or ``0`` if equal. \"less than\" or \"greater than\" are determined by the `Unicode code points`` of each string, which roughly matches the alphabetical order."
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:434
+#: ../../docs/classes/class_string.rst:788
+msgid "**Behavior with different string lengths:** Returns ``1`` if the \"base\" string is longer than the ``to`` string or ``-1`` if the \"base\" string is shorter than the ``to`` string. Keep in mind this length is determined by the number of Unicode codepoints, *not* the actual visible characters."
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:436
+#: ../../docs/classes/class_string.rst:790
+msgid "**Behavior with empty strings:** Returns ``-1`` if the \"base\" string is empty, ``1`` if the ``to`` string is empty or ``0`` if both strings are empty."
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:438
+msgid "To get a boolean result from a string comparison, use the ``==`` operator instead. See also :ref:`nocasecmp_to<class_String_method_nocasecmp_to>`."
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:444
+msgid ":ref:`int<class_int>` **count** **(** :ref:`String<class_String>` what, :ref:`int<class_int>` from=0, :ref:`int<class_int>` to=0 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:446
+msgid "Returns the number of occurrences of substring ``what`` between ``from`` and ``to`` positions. If ``from`` and ``to`` equals 0 the whole string will be used. If only ``to`` equals 0 the remained substring will be used."
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:452
+msgid ":ref:`int<class_int>` **countn** **(** :ref:`String<class_String>` what, :ref:`int<class_int>` from=0, :ref:`int<class_int>` to=0 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:454
+msgid "Returns the number of occurrences of substring ``what`` (ignoring case) between ``from`` and ``to`` positions. If ``from`` and ``to`` equals 0 the whole string will be used. If only ``to`` equals 0 the remained substring will be used."
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:460
+msgid ":ref:`String<class_String>` **dedent** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:462
+msgid "Returns a copy of the string with indentation (leading tabs and spaces) removed."
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:468
+msgid ":ref:`bool<class_bool>` **empty** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:470
+msgid "Returns ``true`` if the length of the string equals ``0``."
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:476
+msgid ":ref:`bool<class_bool>` **ends_with** **(** :ref:`String<class_String>` text **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:478
+msgid "Returns ``true`` if the string ends with the given string."
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:484
+msgid "void **erase** **(** :ref:`int<class_int>` position, :ref:`int<class_int>` chars **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:486
+msgid "Erases ``chars`` characters from the string starting from ``position``."
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:492
+msgid ":ref:`int<class_int>` **find** **(** :ref:`String<class_String>` what, :ref:`int<class_int>` from=0 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:494
+msgid "Finds the first occurrence of a substring. Returns the starting position of the substring or ``-1`` if not found. Optionally, the initial search index can be passed."
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:496
+msgid "**Note:** If you just want to know whether a string contains a substring, use the ``in`` operator as follows:"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:508
+msgid ":ref:`int<class_int>` **find_last** **(** :ref:`String<class_String>` what **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:510
+msgid "Finds the last occurrence of a substring. Returns the starting position of the substring or ``-1`` if not found."
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:516
+msgid ":ref:`int<class_int>` **findn** **(** :ref:`String<class_String>` what, :ref:`int<class_int>` from=0 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:518
+msgid "Finds the first occurrence of a substring, ignoring case. Returns the starting position of the substring or ``-1`` if not found. Optionally, the initial search index can be passed."
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:524
+msgid ":ref:`String<class_String>` **format** **(** :ref:`Variant<class_Variant>` values, :ref:`String<class_String>` placeholder=\"{_}\" **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:526
+msgid "Formats the string by replacing all occurrences of ``placeholder`` with ``values``."
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:532
+msgid ":ref:`String<class_String>` **get_base_dir** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:534
+msgid "If the string is a valid file path, returns the base directory name."
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:540
+msgid ":ref:`String<class_String>` **get_basename** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:542
+msgid "If the string is a valid file path, returns the full file path without the extension."
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:548
+msgid ":ref:`String<class_String>` **get_extension** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:550
+msgid "If the string is a valid file path, returns the extension."
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:556
+msgid ":ref:`String<class_String>` **get_file** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:558
+msgid "If the string is a valid file path, returns the filename."
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:564
+msgid ":ref:`int<class_int>` **hash** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:566
+msgid "Hashes the string and returns a 32-bit integer."
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:572
+msgid ":ref:`int<class_int>` **hex_to_int** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:574
+msgid "Converts a string containing a hexadecimal number into an integer. Hexadecimal strings are expected to be prefixed with \"``0x``\" otherwise ``0`` is returned."
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:584
+msgid ":ref:`String<class_String>` **http_escape** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:586
+msgid "Escapes (encodes) a string to URL friendly format. Also referred to as 'URL encode'."
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:596
+msgid ":ref:`String<class_String>` **http_unescape** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:598
+msgid "Unescapes (decodes) a string in URL encoded format. Also referred to as 'URL decode'."
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:608
+msgid ":ref:`String<class_String>` **humanize_size** **(** :ref:`int<class_int>` size **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:610
+msgid "Converts ``size`` represented as number of bytes to human-readable format using internationalized set of data size units, namely: B, KiB, MiB, GiB, TiB, PiB, EiB. Note that the next smallest unit is picked automatically to hold at most 1024 units."
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:622
+msgid ":ref:`String<class_String>` **insert** **(** :ref:`int<class_int>` position, :ref:`String<class_String>` what **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:624
+msgid "Returns a copy of the string with the substring ``what`` inserted at the given position."
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:630
+msgid ":ref:`bool<class_bool>` **is_abs_path** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:632
+msgid "If the string is a path to a file or directory, returns ``true`` if the path is absolute."
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:638
+msgid ":ref:`bool<class_bool>` **is_rel_path** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:640
+msgid "If the string is a path to a file or directory, returns ``true`` if the path is relative."
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:646
+msgid ":ref:`bool<class_bool>` **is_subsequence_of** **(** :ref:`String<class_String>` text **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:648
+msgid "Returns ``true`` if this string is a subsequence of the given string."
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:654
+msgid ":ref:`bool<class_bool>` **is_subsequence_ofi** **(** :ref:`String<class_String>` text **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:656
+msgid "Returns ``true`` if this string is a subsequence of the given string, without considering case."
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:662
+msgid ":ref:`bool<class_bool>` **is_valid_filename** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:664
+msgid "Returns ``true`` if this string is free from characters that aren't allowed in file names, those being:"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:666
+msgid "``: / \\ ? * \" | % < >``"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:672
+msgid ":ref:`bool<class_bool>` **is_valid_float** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:674
+msgid "Returns ``true`` if this string contains a valid float."
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:680
+msgid ":ref:`bool<class_bool>` **is_valid_hex_number** **(** :ref:`bool<class_bool>` with_prefix=false **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:682
+msgid "Returns ``true`` if this string contains a valid hexadecimal number. If ``with_prefix`` is ``true``, then a validity of the hexadecimal number is determined by ``0x`` prefix, for instance: ``0xDEADC0DE``."
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:688
+msgid ":ref:`bool<class_bool>` **is_valid_html_color** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:690
+msgid "Returns ``true`` if this string contains a valid color in hexadecimal HTML notation. Other HTML notations such as named colors or ``hsl()`` colors aren't considered valid by this method and will return ``false``."
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:696
+msgid ":ref:`bool<class_bool>` **is_valid_identifier** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:698
+msgid "Returns ``true`` if this string is a valid identifier. A valid identifier may contain only letters, digits and underscores (``_``) and the first character may not be a digit."
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:704
+msgid ":ref:`bool<class_bool>` **is_valid_integer** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:706
+msgid "Returns ``true`` if this string contains a valid integer."
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:712
+msgid ":ref:`bool<class_bool>` **is_valid_ip_address** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:714
+msgid "Returns ``true`` if this string contains only a well-formatted IPv4 or IPv6 address. This method considers `reserved IP addresses <https://en.wikipedia.org/wiki/Reserved_IP_addresses>`_ such as ``0.0.0.0`` as valid."
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:720
+msgid ":ref:`String<class_String>` **json_escape** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:722
+msgid "Returns a copy of the string with special characters escaped using the JSON standard."
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:728
+msgid ":ref:`String<class_String>` **left** **(** :ref:`int<class_int>` position **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:730
+msgid "Returns a number of characters from the left of the string."
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:736
+msgid ":ref:`int<class_int>` **length** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:738
+msgid "Returns the string's amount of characters."
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:744
+msgid ":ref:`String<class_String>` **lstrip** **(** :ref:`String<class_String>` chars **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:746
+msgid "Returns a copy of the string with characters removed from the left."
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:752
+msgid ":ref:`bool<class_bool>` **match** **(** :ref:`String<class_String>` expr **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:754
+msgid "Does a simple case-sensitive expression match, where ``\"*\"`` matches zero or more arbitrary characters and ``\"?\"`` matches any single character except a period (``\".\"``)."
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:760
+msgid ":ref:`bool<class_bool>` **matchn** **(** :ref:`String<class_String>` expr **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:762
+msgid "Does a simple case-insensitive expression match, where ``\"*\"`` matches zero or more arbitrary characters and ``\"?\"`` matches any single character except a period (``\".\"``)."
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:768
+msgid ":ref:`PoolByteArray<class_PoolByteArray>` **md5_buffer** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:770
+msgid "Returns the MD5 hash of the string as an array of bytes."
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:776
+msgid ":ref:`String<class_String>` **md5_text** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:778
+msgid "Returns the MD5 hash of the string as a string."
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:784
+msgid ":ref:`int<class_int>` **nocasecmp_to** **(** :ref:`String<class_String>` to **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:786
+msgid "Performs a case-insensitive comparison to another string. Returns ``-1`` if less than, ``1`` if greater than, or ``0`` if equal. \"less than\" or \"greater than\" are determined by the `Unicode code points`` of each string, which roughly matches the alphabetical order. Internally, lowercase characters will be converted to uppercase during the comparison."
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:792
+msgid "To get a boolean result from a string comparison, use the ``==`` operator instead. See also :ref:`casecmp_to<class_String_method_casecmp_to>`."
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:798
+msgid ":ref:`int<class_int>` **ord_at** **(** :ref:`int<class_int>` at **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:800
+msgid "Returns the character code at position ``at``."
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:806
+msgid ":ref:`String<class_String>` **pad_decimals** **(** :ref:`int<class_int>` digits **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:808
+msgid "Formats a number to have an exact number of ``digits`` after the decimal point."
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:814
+msgid ":ref:`String<class_String>` **pad_zeros** **(** :ref:`int<class_int>` digits **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:816
+msgid "Formats a number to have an exact number of ``digits`` before the decimal point."
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:822
+msgid ":ref:`String<class_String>` **percent_decode** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:824
+msgid "Decode a percent-encoded string. See :ref:`percent_encode<class_String_method_percent_encode>`."
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:830
+msgid ":ref:`String<class_String>` **percent_encode** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:832
+msgid "Percent-encodes a string. Encodes parameters in a URL when sending a HTTP GET request (and bodies of form-urlencoded POST requests)."
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:838
+msgid ":ref:`String<class_String>` **plus_file** **(** :ref:`String<class_String>` file **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:840
+msgid "If the string is a path, this concatenates ``file`` at the end of the string as a subpath. E.g. ``\"this/is\".plus_file(\"path\") == \"this/is/path\"``."
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:846
+msgid ":ref:`String<class_String>` **repeat** **(** :ref:`int<class_int>` count **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:848
+msgid "Returns original string repeated a number of times. The number of repetitions is given by the argument."
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:854
+msgid ":ref:`String<class_String>` **replace** **(** :ref:`String<class_String>` what, :ref:`String<class_String>` forwhat **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:856
+msgid "Replaces occurrences of a case-sensitive substring with the given one inside the string."
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:862
+msgid ":ref:`String<class_String>` **replacen** **(** :ref:`String<class_String>` what, :ref:`String<class_String>` forwhat **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:864
+msgid "Replaces occurrences of a case-insensitive substring with the given one inside the string."
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:870
+msgid ":ref:`int<class_int>` **rfind** **(** :ref:`String<class_String>` what, :ref:`int<class_int>` from=-1 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:872
+msgid "Performs a case-sensitive search for a substring, but starts from the end of the string instead of the beginning."
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:878
+msgid ":ref:`int<class_int>` **rfindn** **(** :ref:`String<class_String>` what, :ref:`int<class_int>` from=-1 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:880
+msgid "Performs a case-insensitive search for a substring, but starts from the end of the string instead of the beginning."
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:886
+msgid ":ref:`String<class_String>` **right** **(** :ref:`int<class_int>` position **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:888
+msgid "Returns the right side of the string from a given position."
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:894
+msgid ":ref:`PoolStringArray<class_PoolStringArray>` **rsplit** **(** :ref:`String<class_String>` delimiter, :ref:`bool<class_bool>` allow_empty=true, :ref:`int<class_int>` maxsplit=0 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:896
+msgid "Splits the string by a ``delimiter`` string and returns an array of the substrings, starting from right."
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:898
+msgid "The splits in the returned array are sorted in the same order as the original string, from left to right."
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:900
+msgid "If ``maxsplit`` is specified, it defines the number of splits to do from the right up to ``maxsplit``. The default value of 0 means that all items are split, thus giving the same result as :ref:`split<class_String_method_split>`."
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:902
+#: ../../docs/classes/class_string.rst:970
+msgid "Example:"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:916
+msgid ":ref:`String<class_String>` **rstrip** **(** :ref:`String<class_String>` chars **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:918
+msgid "Returns a copy of the string with characters removed from the right."
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:924
+msgid ":ref:`PoolByteArray<class_PoolByteArray>` **sha1_buffer** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:926
+msgid "Returns the SHA-1 hash of the string as an array of bytes."
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:932
+msgid ":ref:`String<class_String>` **sha1_text** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:934
+msgid "Returns the SHA-1 hash of the string as a string."
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:940
+msgid ":ref:`PoolByteArray<class_PoolByteArray>` **sha256_buffer** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:942
+msgid "Returns the SHA-256 hash of the string as an array of bytes."
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:948
+msgid ":ref:`String<class_String>` **sha256_text** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:950
+msgid "Returns the SHA-256 hash of the string as a string."
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:956
+msgid ":ref:`float<class_float>` **similarity** **(** :ref:`String<class_String>` text **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:958
+msgid "Returns the similarity index of the text compared to this string. 1 means totally similar and 0 means totally dissimilar."
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:964
+msgid ":ref:`PoolStringArray<class_PoolStringArray>` **split** **(** :ref:`String<class_String>` delimiter, :ref:`bool<class_bool>` allow_empty=true, :ref:`int<class_int>` maxsplit=0 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:966
+msgid "Splits the string by a ``delimiter`` string and returns an array of the substrings. The ``delimiter`` can be of any length."
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:968
+msgid "If ``maxsplit`` is specified, it defines the number of splits to do from the left up to ``maxsplit``. The default value of ``0`` means that all items are split."
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:980
+msgid "If you need to split strings with more complex rules, use the :ref:`RegEx<class_RegEx>` class instead."
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:986
+msgid ":ref:`PoolRealArray<class_PoolRealArray>` **split_floats** **(** :ref:`String<class_String>` delimiter, :ref:`bool<class_bool>` allow_empty=true **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:988
+msgid "Splits the string in floats by using a delimiter string and returns an array of the substrings."
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:990
+msgid "For example, ``\"1,2.5,3\"`` will return ``[1,2.5,3]`` if split by ``\",\"``."
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:996
+msgid ":ref:`String<class_String>` **strip_edges** **(** :ref:`bool<class_bool>` left=true, :ref:`bool<class_bool>` right=true **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:998
+msgid "Returns a copy of the string stripped of any non-printable character (including tabulations, spaces and line breaks) at the beginning and the end. The optional arguments are used to toggle stripping on the left and right edges respectively."
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:1004
+msgid ":ref:`String<class_String>` **strip_escapes** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:1006
+msgid "Returns a copy of the string stripped of any escape character. These include all non-printable control characters of the first page of the ASCII table (< 32), such as tabulation (``\\t`` in C) and newline (``\\n`` and ``\\r``) characters, but not spaces."
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:1012
+msgid ":ref:`String<class_String>` **substr** **(** :ref:`int<class_int>` from, :ref:`int<class_int>` len=-1 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:1014
+msgid "Returns part of the string from the position ``from`` with length ``len``. Argument ``len`` is optional and using ``-1`` will return remaining characters from given position."
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:1020
+msgid ":ref:`PoolByteArray<class_PoolByteArray>` **to_ascii** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:1022
+msgid "Converts the String (which is a character array) to :ref:`PoolByteArray<class_PoolByteArray>` (which is an array of bytes). The conversion is faster compared to :ref:`to_utf8<class_String_method_to_utf8>`, as this method assumes that all the characters in the String are ASCII characters."
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:1028
+msgid ":ref:`float<class_float>` **to_float** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:1030
+msgid "Converts a string containing a decimal number into a ``float``."
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:1036
+msgid ":ref:`int<class_int>` **to_int** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:1038
+msgid "Converts a string containing an integer number into an ``int``."
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:1044
+msgid ":ref:`String<class_String>` **to_lower** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:1046
+msgid "Returns the string converted to lowercase."
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:1052
+msgid ":ref:`String<class_String>` **to_upper** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:1054
+msgid "Returns the string converted to uppercase."
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:1060
+msgid ":ref:`PoolByteArray<class_PoolByteArray>` **to_utf8** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:1062
+msgid "Converts the String (which is an array of characters) to :ref:`PoolByteArray<class_PoolByteArray>` (which is an array of bytes). The conversion is a bit slower than :ref:`to_ascii<class_String_method_to_ascii>`, but supports all UTF-8 characters. Therefore, you should prefer this function over :ref:`to_ascii<class_String_method_to_ascii>`."
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:1068
+msgid ":ref:`String<class_String>` **trim_prefix** **(** :ref:`String<class_String>` prefix **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:1070
+msgid "Removes a given string from the start if it starts with it or leaves the string unchanged."
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:1076
+msgid ":ref:`String<class_String>` **trim_suffix** **(** :ref:`String<class_String>` suffix **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:1078
+msgid "Removes a given string from the end if it ends with it or leaves the string unchanged."
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:1084
+msgid ":ref:`String<class_String>` **xml_escape** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:1086
+msgid "Returns a copy of the string with special characters escaped using the XML standard."
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:1092
+msgid ":ref:`String<class_String>` **xml_unescape** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_string.rst:1094
+msgid "Returns a copy of the string with escaped characters replaced by their meanings according to the XML standard."
+msgstr ""

@@ -1,0 +1,93 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_scenetreetimer.rst:10
+msgid "SceneTreeTimer"
+msgstr ""
+
+#: ../../docs/classes/class_scenetreetimer.rst:12
+msgid "**Inherits:** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_scenetreetimer.rst:14
+msgid "One-shot timer."
+msgstr ""
+
+#: ../../docs/classes/class_scenetreetimer.rst:17
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_scenetreetimer.rst:19
+msgid "A one-shot timer managed by the scene tree, which emits :ref:`timeout<class_SceneTreeTimer_signal_timeout>` on completion. See also :ref:`SceneTree.create_timer<class_SceneTree_method_create_timer>`."
+msgstr ""
+
+#: ../../docs/classes/class_scenetreetimer.rst:21
+msgid "As opposed to :ref:`Timer<class_Timer>`, it does not require the instantiation of a node. Commonly used to create a one-shot delay timer as in the following example:"
+msgstr ""
+
+#: ../../docs/classes/class_scenetreetimer.rst:31
+msgid "Properties"
+msgstr ""
+
+#: ../../docs/classes/class_scenetreetimer.rst:34
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../../docs/classes/class_scenetreetimer.rst:34
+msgid ":ref:`time_left<class_SceneTreeTimer_property_time_left>`"
+msgstr ""
+
+#: ../../docs/classes/class_scenetreetimer.rst:38
+msgid "Signals"
+msgstr ""
+
+#: ../../docs/classes/class_scenetreetimer.rst:42
+msgid "**timeout** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_scenetreetimer.rst:44
+msgid "Emitted when the timer reaches 0."
+msgstr ""
+
+#: ../../docs/classes/class_scenetreetimer.rst:47
+msgid "Property Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_scenetreetimer.rst:51
+msgid ":ref:`float<class_float>` **time_left**"
+msgstr ""
+
+#: ../../docs/classes/class_scenetreetimer.rst:54
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_scenetreetimer.rst:54
+msgid "set_time_left(value)"
+msgstr ""
+
+#: ../../docs/classes/class_scenetreetimer.rst:56
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_scenetreetimer.rst:56
+msgid "get_time_left()"
+msgstr ""
+
+#: ../../docs/classes/class_scenetreetimer.rst:59
+msgid "The time remaining."
+msgstr ""

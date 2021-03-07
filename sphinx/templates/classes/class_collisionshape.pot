@@ -1,0 +1,169 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_collisionshape.rst:10
+msgid "CollisionShape"
+msgstr ""
+
+#: ../../docs/classes/class_collisionshape.rst:12
+msgid "**Inherits:** :ref:`Spatial<class_Spatial>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_collisionshape.rst:14
+msgid "Node that represents collision shape data in 3D space."
+msgstr ""
+
+#: ../../docs/classes/class_collisionshape.rst:17
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_collisionshape.rst:19
+msgid "Editor facility for creating and editing collision shapes in 3D space. You can use this node to represent all sorts of collision shapes, for example, add this to an :ref:`Area<class_Area>` to give it a detection shape, or add it to a :ref:`PhysicsBody<class_PhysicsBody>` to create a solid object. **IMPORTANT**: this is an Editor-only helper to create shapes, use :ref:`CollisionObject.shape_owner_get_shape<class_CollisionObject_method_shape_owner_get_shape>` to get the actual shape."
+msgstr ""
+
+#: ../../docs/classes/class_collisionshape.rst:22
+msgid "Tutorials"
+msgstr ""
+
+#: ../../docs/classes/class_collisionshape.rst:24
+msgid ":doc:`../tutorials/physics/physics_introduction`"
+msgstr ""
+
+#: ../../docs/classes/class_collisionshape.rst:26
+msgid "`https://godotengine.org/asset-library/asset/126 <https://godotengine.org/asset-library/asset/126>`_"
+msgstr ""
+
+#: ../../docs/classes/class_collisionshape.rst:28
+msgid "`https://godotengine.org/asset-library/asset/125 <https://godotengine.org/asset-library/asset/125>`_"
+msgstr ""
+
+#: ../../docs/classes/class_collisionshape.rst:30
+msgid "`https://godotengine.org/asset-library/asset/678 <https://godotengine.org/asset-library/asset/678>`_"
+msgstr ""
+
+#: ../../docs/classes/class_collisionshape.rst:33
+msgid "Properties"
+msgstr ""
+
+#: ../../docs/classes/class_collisionshape.rst:36
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_collisionshape.rst:36
+msgid ":ref:`disabled<class_CollisionShape_property_disabled>`"
+msgstr ""
+
+#: ../../docs/classes/class_collisionshape.rst:36
+#: ../../docs/classes/class_collisionshape.rst:58
+msgid "``false``"
+msgstr ""
+
+#: ../../docs/classes/class_collisionshape.rst:38
+msgid ":ref:`Shape<class_Shape>`"
+msgstr ""
+
+#: ../../docs/classes/class_collisionshape.rst:38
+msgid ":ref:`shape<class_CollisionShape_property_shape>`"
+msgstr ""
+
+#: ../../docs/classes/class_collisionshape.rst:42
+msgid "Methods"
+msgstr ""
+
+#: ../../docs/classes/class_collisionshape.rst:45
+#: ../../docs/classes/class_collisionshape.rst:47
+msgid "void"
+msgstr ""
+
+#: ../../docs/classes/class_collisionshape.rst:45
+msgid ":ref:`make_convex_from_brothers<class_CollisionShape_method_make_convex_from_brothers>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_collisionshape.rst:47
+msgid ":ref:`resource_changed<class_CollisionShape_method_resource_changed>` **(** :ref:`Resource<class_Resource>` resource **)**"
+msgstr ""
+
+#: ../../docs/classes/class_collisionshape.rst:51
+msgid "Property Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_collisionshape.rst:55
+msgid ":ref:`bool<class_bool>` **disabled**"
+msgstr ""
+
+#: ../../docs/classes/class_collisionshape.rst:58
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_collisionshape.rst:60
+#: ../../docs/classes/class_collisionshape.rst:74
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_collisionshape.rst:60
+msgid "set_disabled(value)"
+msgstr ""
+
+#: ../../docs/classes/class_collisionshape.rst:62
+#: ../../docs/classes/class_collisionshape.rst:76
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_collisionshape.rst:62
+msgid "is_disabled()"
+msgstr ""
+
+#: ../../docs/classes/class_collisionshape.rst:65
+msgid "A disabled collision shape has no effect in the world."
+msgstr ""
+
+#: ../../docs/classes/class_collisionshape.rst:71
+msgid ":ref:`Shape<class_Shape>` **shape**"
+msgstr ""
+
+#: ../../docs/classes/class_collisionshape.rst:74
+msgid "set_shape(value)"
+msgstr ""
+
+#: ../../docs/classes/class_collisionshape.rst:76
+msgid "get_shape()"
+msgstr ""
+
+#: ../../docs/classes/class_collisionshape.rst:79
+msgid "The actual shape owned by this collision shape."
+msgstr ""
+
+#: ../../docs/classes/class_collisionshape.rst:82
+msgid "Method Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_collisionshape.rst:86
+msgid "void **make_convex_from_brothers** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_collisionshape.rst:88
+msgid "Sets the collision shape's shape to the addition of all its convexed :ref:`MeshInstance<class_MeshInstance>` siblings geometry."
+msgstr ""
+
+#: ../../docs/classes/class_collisionshape.rst:94
+msgid "void **resource_changed** **(** :ref:`Resource<class_Resource>` resource **)**"
+msgstr ""
+
+#: ../../docs/classes/class_collisionshape.rst:96
+msgid "If this method exists within a script it will be called whenever the shape resource has been modified."
+msgstr ""

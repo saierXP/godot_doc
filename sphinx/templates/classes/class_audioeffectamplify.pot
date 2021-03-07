@@ -1,0 +1,90 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_audioeffectamplify.rst:10
+msgid "AudioEffectAmplify"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectamplify.rst:12
+msgid "**Inherits:** :ref:`AudioEffect<class_AudioEffect>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectamplify.rst:14
+msgid "Adds an amplifying audio effect to an audio bus."
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectamplify.rst:16
+msgid "Increases or decreases the volume of the selected audio bus."
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectamplify.rst:19
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectamplify.rst:21
+msgid "Increases or decreases the volume being routed through the audio bus."
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectamplify.rst:24
+msgid "Properties"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectamplify.rst:27
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectamplify.rst:27
+msgid ":ref:`volume_db<class_AudioEffectAmplify_property_volume_db>`"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectamplify.rst:27
+#: ../../docs/classes/class_audioeffectamplify.rst:38
+msgid "``0.0``"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectamplify.rst:31
+msgid "Property Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectamplify.rst:35
+msgid ":ref:`float<class_float>` **volume_db**"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectamplify.rst:38
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectamplify.rst:40
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectamplify.rst:40
+msgid "set_volume_db(value)"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectamplify.rst:42
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectamplify.rst:42
+msgid "get_volume_db()"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectamplify.rst:45
+msgid "Amount of amplification in decibels. Positive values make the sound louder, negative values make it quieter. Value can range from -80 to 24."
+msgstr ""

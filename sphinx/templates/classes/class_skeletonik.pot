@@ -1,0 +1,368 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_skeletonik.rst:10
+msgid "SkeletonIK"
+msgstr ""
+
+#: ../../docs/classes/class_skeletonik.rst:12
+msgid "**Inherits:** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_skeletonik.rst:17
+msgid "Tutorials"
+msgstr ""
+
+#: ../../docs/classes/class_skeletonik.rst:19
+msgid "`https://godotengine.org/asset-library/asset/523 <https://godotengine.org/asset-library/asset/523>`_"
+msgstr ""
+
+#: ../../docs/classes/class_skeletonik.rst:22
+msgid "Properties"
+msgstr ""
+
+#: ../../docs/classes/class_skeletonik.rst:25
+#: ../../docs/classes/class_skeletonik.rst:31
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../../docs/classes/class_skeletonik.rst:25
+msgid ":ref:`interpolation<class_SkeletonIK_property_interpolation>`"
+msgstr ""
+
+#: ../../docs/classes/class_skeletonik.rst:25
+#: ../../docs/classes/class_skeletonik.rst:67
+msgid "``1.0``"
+msgstr ""
+
+#: ../../docs/classes/class_skeletonik.rst:27
+msgid ":ref:`Vector3<class_Vector3>`"
+msgstr ""
+
+#: ../../docs/classes/class_skeletonik.rst:27
+msgid ":ref:`magnet<class_SkeletonIK_property_magnet>`"
+msgstr ""
+
+#: ../../docs/classes/class_skeletonik.rst:27
+#: ../../docs/classes/class_skeletonik.rst:81
+msgid "``Vector3( 0, 0, 0 )``"
+msgstr ""
+
+#: ../../docs/classes/class_skeletonik.rst:29
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../../docs/classes/class_skeletonik.rst:29
+msgid ":ref:`max_iterations<class_SkeletonIK_property_max_iterations>`"
+msgstr ""
+
+#: ../../docs/classes/class_skeletonik.rst:29
+#: ../../docs/classes/class_skeletonik.rst:95
+msgid "``10``"
+msgstr ""
+
+#: ../../docs/classes/class_skeletonik.rst:31
+msgid ":ref:`min_distance<class_SkeletonIK_property_min_distance>`"
+msgstr ""
+
+#: ../../docs/classes/class_skeletonik.rst:31
+#: ../../docs/classes/class_skeletonik.rst:109
+msgid "``0.01``"
+msgstr ""
+
+#: ../../docs/classes/class_skeletonik.rst:33
+#: ../../docs/classes/class_skeletonik.rst:43
+#: ../../docs/classes/class_skeletonik.rst:52
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_skeletonik.rst:33
+msgid ":ref:`override_tip_basis<class_SkeletonIK_property_override_tip_basis>`"
+msgstr ""
+
+#: ../../docs/classes/class_skeletonik.rst:33
+#: ../../docs/classes/class_skeletonik.rst:123
+msgid "``true``"
+msgstr ""
+
+#: ../../docs/classes/class_skeletonik.rst:35
+#: ../../docs/classes/class_skeletonik.rst:41
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../../docs/classes/class_skeletonik.rst:35
+msgid ":ref:`root_bone<class_SkeletonIK_property_root_bone>`"
+msgstr ""
+
+#: ../../docs/classes/class_skeletonik.rst:35
+#: ../../docs/classes/class_skeletonik.rst:41
+#: ../../docs/classes/class_skeletonik.rst:137
+#: ../../docs/classes/class_skeletonik.rst:179
+msgid "``\"\"``"
+msgstr ""
+
+#: ../../docs/classes/class_skeletonik.rst:37
+msgid ":ref:`Transform<class_Transform>`"
+msgstr ""
+
+#: ../../docs/classes/class_skeletonik.rst:37
+msgid ":ref:`target<class_SkeletonIK_property_target>`"
+msgstr ""
+
+#: ../../docs/classes/class_skeletonik.rst:37
+#: ../../docs/classes/class_skeletonik.rst:151
+msgid "``Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 )``"
+msgstr ""
+
+#: ../../docs/classes/class_skeletonik.rst:39
+msgid ":ref:`NodePath<class_NodePath>`"
+msgstr ""
+
+#: ../../docs/classes/class_skeletonik.rst:39
+msgid ":ref:`target_node<class_SkeletonIK_property_target_node>`"
+msgstr ""
+
+#: ../../docs/classes/class_skeletonik.rst:39
+#: ../../docs/classes/class_skeletonik.rst:165
+msgid "``NodePath(\"\")``"
+msgstr ""
+
+#: ../../docs/classes/class_skeletonik.rst:41
+msgid ":ref:`tip_bone<class_SkeletonIK_property_tip_bone>`"
+msgstr ""
+
+#: ../../docs/classes/class_skeletonik.rst:43
+msgid ":ref:`use_magnet<class_SkeletonIK_property_use_magnet>`"
+msgstr ""
+
+#: ../../docs/classes/class_skeletonik.rst:43
+#: ../../docs/classes/class_skeletonik.rst:193
+msgid "``false``"
+msgstr ""
+
+#: ../../docs/classes/class_skeletonik.rst:47
+msgid "Methods"
+msgstr ""
+
+#: ../../docs/classes/class_skeletonik.rst:50
+msgid ":ref:`Skeleton<class_Skeleton>`"
+msgstr ""
+
+#: ../../docs/classes/class_skeletonik.rst:50
+msgid ":ref:`get_parent_skeleton<class_SkeletonIK_method_get_parent_skeleton>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_skeletonik.rst:52
+msgid ":ref:`is_running<class_SkeletonIK_method_is_running>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_skeletonik.rst:54
+#: ../../docs/classes/class_skeletonik.rst:56
+msgid "void"
+msgstr ""
+
+#: ../../docs/classes/class_skeletonik.rst:54
+msgid ":ref:`start<class_SkeletonIK_method_start>` **(** :ref:`bool<class_bool>` one_time=false **)**"
+msgstr ""
+
+#: ../../docs/classes/class_skeletonik.rst:56
+msgid ":ref:`stop<class_SkeletonIK_method_stop>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_skeletonik.rst:60
+msgid "Property Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_skeletonik.rst:64
+msgid ":ref:`float<class_float>` **interpolation**"
+msgstr ""
+
+#: ../../docs/classes/class_skeletonik.rst:67
+#: ../../docs/classes/class_skeletonik.rst:81
+#: ../../docs/classes/class_skeletonik.rst:95
+#: ../../docs/classes/class_skeletonik.rst:109
+#: ../../docs/classes/class_skeletonik.rst:123
+#: ../../docs/classes/class_skeletonik.rst:137
+#: ../../docs/classes/class_skeletonik.rst:151
+#: ../../docs/classes/class_skeletonik.rst:165
+#: ../../docs/classes/class_skeletonik.rst:179
+#: ../../docs/classes/class_skeletonik.rst:193
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_skeletonik.rst:69
+#: ../../docs/classes/class_skeletonik.rst:83
+#: ../../docs/classes/class_skeletonik.rst:97
+#: ../../docs/classes/class_skeletonik.rst:111
+#: ../../docs/classes/class_skeletonik.rst:125
+#: ../../docs/classes/class_skeletonik.rst:139
+#: ../../docs/classes/class_skeletonik.rst:153
+#: ../../docs/classes/class_skeletonik.rst:167
+#: ../../docs/classes/class_skeletonik.rst:181
+#: ../../docs/classes/class_skeletonik.rst:195
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_skeletonik.rst:69
+msgid "set_interpolation(value)"
+msgstr ""
+
+#: ../../docs/classes/class_skeletonik.rst:71
+#: ../../docs/classes/class_skeletonik.rst:85
+#: ../../docs/classes/class_skeletonik.rst:99
+#: ../../docs/classes/class_skeletonik.rst:113
+#: ../../docs/classes/class_skeletonik.rst:127
+#: ../../docs/classes/class_skeletonik.rst:141
+#: ../../docs/classes/class_skeletonik.rst:155
+#: ../../docs/classes/class_skeletonik.rst:169
+#: ../../docs/classes/class_skeletonik.rst:183
+#: ../../docs/classes/class_skeletonik.rst:197
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_skeletonik.rst:71
+msgid "get_interpolation()"
+msgstr ""
+
+#: ../../docs/classes/class_skeletonik.rst:78
+msgid ":ref:`Vector3<class_Vector3>` **magnet**"
+msgstr ""
+
+#: ../../docs/classes/class_skeletonik.rst:83
+msgid "set_magnet_position(value)"
+msgstr ""
+
+#: ../../docs/classes/class_skeletonik.rst:85
+msgid "get_magnet_position()"
+msgstr ""
+
+#: ../../docs/classes/class_skeletonik.rst:92
+msgid ":ref:`int<class_int>` **max_iterations**"
+msgstr ""
+
+#: ../../docs/classes/class_skeletonik.rst:97
+msgid "set_max_iterations(value)"
+msgstr ""
+
+#: ../../docs/classes/class_skeletonik.rst:99
+msgid "get_max_iterations()"
+msgstr ""
+
+#: ../../docs/classes/class_skeletonik.rst:106
+msgid ":ref:`float<class_float>` **min_distance**"
+msgstr ""
+
+#: ../../docs/classes/class_skeletonik.rst:111
+msgid "set_min_distance(value)"
+msgstr ""
+
+#: ../../docs/classes/class_skeletonik.rst:113
+msgid "get_min_distance()"
+msgstr ""
+
+#: ../../docs/classes/class_skeletonik.rst:120
+msgid ":ref:`bool<class_bool>` **override_tip_basis**"
+msgstr ""
+
+#: ../../docs/classes/class_skeletonik.rst:125
+msgid "set_override_tip_basis(value)"
+msgstr ""
+
+#: ../../docs/classes/class_skeletonik.rst:127
+msgid "is_override_tip_basis()"
+msgstr ""
+
+#: ../../docs/classes/class_skeletonik.rst:134
+msgid ":ref:`String<class_String>` **root_bone**"
+msgstr ""
+
+#: ../../docs/classes/class_skeletonik.rst:139
+msgid "set_root_bone(value)"
+msgstr ""
+
+#: ../../docs/classes/class_skeletonik.rst:141
+msgid "get_root_bone()"
+msgstr ""
+
+#: ../../docs/classes/class_skeletonik.rst:148
+msgid ":ref:`Transform<class_Transform>` **target**"
+msgstr ""
+
+#: ../../docs/classes/class_skeletonik.rst:153
+msgid "set_target_transform(value)"
+msgstr ""
+
+#: ../../docs/classes/class_skeletonik.rst:155
+msgid "get_target_transform()"
+msgstr ""
+
+#: ../../docs/classes/class_skeletonik.rst:162
+msgid ":ref:`NodePath<class_NodePath>` **target_node**"
+msgstr ""
+
+#: ../../docs/classes/class_skeletonik.rst:167
+msgid "set_target_node(value)"
+msgstr ""
+
+#: ../../docs/classes/class_skeletonik.rst:169
+msgid "get_target_node()"
+msgstr ""
+
+#: ../../docs/classes/class_skeletonik.rst:176
+msgid ":ref:`String<class_String>` **tip_bone**"
+msgstr ""
+
+#: ../../docs/classes/class_skeletonik.rst:181
+msgid "set_tip_bone(value)"
+msgstr ""
+
+#: ../../docs/classes/class_skeletonik.rst:183
+msgid "get_tip_bone()"
+msgstr ""
+
+#: ../../docs/classes/class_skeletonik.rst:190
+msgid ":ref:`bool<class_bool>` **use_magnet**"
+msgstr ""
+
+#: ../../docs/classes/class_skeletonik.rst:195
+msgid "set_use_magnet(value)"
+msgstr ""
+
+#: ../../docs/classes/class_skeletonik.rst:197
+msgid "is_using_magnet()"
+msgstr ""
+
+#: ../../docs/classes/class_skeletonik.rst:201
+msgid "Method Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_skeletonik.rst:205
+msgid ":ref:`Skeleton<class_Skeleton>` **get_parent_skeleton** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_skeletonik.rst:211
+msgid ":ref:`bool<class_bool>` **is_running** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_skeletonik.rst:217
+msgid "void **start** **(** :ref:`bool<class_bool>` one_time=false **)**"
+msgstr ""
+
+#: ../../docs/classes/class_skeletonik.rst:223
+msgid "void **stop** **(** **)**"
+msgstr ""

@@ -1,0 +1,147 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_audiostreamoggvorbis.rst:10
+msgid "AudioStreamOGGVorbis"
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamoggvorbis.rst:12
+msgid "**Inherits:** :ref:`AudioStream<class_AudioStream>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamoggvorbis.rst:14
+#: ../../docs/classes/class_audiostreamoggvorbis.rst:19
+msgid "OGG Vorbis audio stream driver."
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamoggvorbis.rst:17
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamoggvorbis.rst:22
+msgid "Properties"
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamoggvorbis.rst:25
+msgid ":ref:`PoolByteArray<class_PoolByteArray>`"
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamoggvorbis.rst:25
+msgid ":ref:`data<class_AudioStreamOGGVorbis_property_data>`"
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamoggvorbis.rst:25
+#: ../../docs/classes/class_audiostreamoggvorbis.rst:40
+msgid "``PoolByteArray(  )``"
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamoggvorbis.rst:27
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamoggvorbis.rst:27
+msgid ":ref:`loop<class_AudioStreamOGGVorbis_property_loop>`"
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamoggvorbis.rst:27
+#: ../../docs/classes/class_audiostreamoggvorbis.rst:56
+msgid "``false``"
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamoggvorbis.rst:29
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamoggvorbis.rst:29
+msgid ":ref:`loop_offset<class_AudioStreamOGGVorbis_property_loop_offset>`"
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamoggvorbis.rst:29
+#: ../../docs/classes/class_audiostreamoggvorbis.rst:72
+msgid "``0.0``"
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamoggvorbis.rst:33
+msgid "Property Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamoggvorbis.rst:37
+msgid ":ref:`PoolByteArray<class_PoolByteArray>` **data**"
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamoggvorbis.rst:40
+#: ../../docs/classes/class_audiostreamoggvorbis.rst:56
+#: ../../docs/classes/class_audiostreamoggvorbis.rst:72
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamoggvorbis.rst:42
+#: ../../docs/classes/class_audiostreamoggvorbis.rst:58
+#: ../../docs/classes/class_audiostreamoggvorbis.rst:74
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamoggvorbis.rst:42
+msgid "set_data(value)"
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamoggvorbis.rst:44
+#: ../../docs/classes/class_audiostreamoggvorbis.rst:60
+#: ../../docs/classes/class_audiostreamoggvorbis.rst:76
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamoggvorbis.rst:44
+msgid "get_data()"
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamoggvorbis.rst:47
+msgid "Contains the audio data in bytes."
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamoggvorbis.rst:53
+msgid ":ref:`bool<class_bool>` **loop**"
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamoggvorbis.rst:58
+msgid "set_loop(value)"
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamoggvorbis.rst:60
+msgid "has_loop()"
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamoggvorbis.rst:63
+msgid "If ``true``, the stream will automatically loop when it reaches the end."
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamoggvorbis.rst:69
+msgid ":ref:`float<class_float>` **loop_offset**"
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamoggvorbis.rst:74
+msgid "set_loop_offset(value)"
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamoggvorbis.rst:76
+msgid "get_loop_offset()"
+msgstr ""
+
+#: ../../docs/classes/class_audiostreamoggvorbis.rst:79
+msgid "Time in seconds at which the stream starts after being looped."
+msgstr ""

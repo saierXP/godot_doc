@@ -1,0 +1,156 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_progressbar.rst:10
+msgid "ProgressBar"
+msgstr ""
+
+#: ../../docs/classes/class_progressbar.rst:12
+msgid "**Inherits:** :ref:`Range<class_Range>` **<** :ref:`Control<class_Control>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_progressbar.rst:14
+msgid "General-purpose progress bar."
+msgstr ""
+
+#: ../../docs/classes/class_progressbar.rst:17
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_progressbar.rst:19
+msgid "General-purpose progress bar. Shows fill percentage from right to left."
+msgstr ""
+
+#: ../../docs/classes/class_progressbar.rst:22
+msgid "Properties"
+msgstr ""
+
+#: ../../docs/classes/class_progressbar.rst:25
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_progressbar.rst:25
+msgid ":ref:`percent_visible<class_ProgressBar_property_percent_visible>`"
+msgstr ""
+
+#: ../../docs/classes/class_progressbar.rst:25
+#: ../../docs/classes/class_progressbar.rst:55
+msgid "``true``"
+msgstr ""
+
+#: ../../docs/classes/class_progressbar.rst:27
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../../docs/classes/class_progressbar.rst:27
+msgid "size_flags_vertical"
+msgstr ""
+
+#: ../../docs/classes/class_progressbar.rst:27
+msgid "``0`` *(parent override)*"
+msgstr ""
+
+#: ../../docs/classes/class_progressbar.rst:29
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../../docs/classes/class_progressbar.rst:29
+msgid "step"
+msgstr ""
+
+#: ../../docs/classes/class_progressbar.rst:29
+msgid "``0.01`` *(parent override)*"
+msgstr ""
+
+#: ../../docs/classes/class_progressbar.rst:33
+msgid "Theme Properties"
+msgstr ""
+
+#: ../../docs/classes/class_progressbar.rst:36
+#: ../../docs/classes/class_progressbar.rst:38
+msgid ":ref:`StyleBox<class_StyleBox>`"
+msgstr ""
+
+#: ../../docs/classes/class_progressbar.rst:36
+msgid "bg"
+msgstr ""
+
+#: ../../docs/classes/class_progressbar.rst:38
+msgid "fg"
+msgstr ""
+
+#: ../../docs/classes/class_progressbar.rst:40
+msgid ":ref:`Font<class_Font>`"
+msgstr ""
+
+#: ../../docs/classes/class_progressbar.rst:40
+msgid "font"
+msgstr ""
+
+#: ../../docs/classes/class_progressbar.rst:42
+#: ../../docs/classes/class_progressbar.rst:44
+msgid ":ref:`Color<class_Color>`"
+msgstr ""
+
+#: ../../docs/classes/class_progressbar.rst:42
+msgid "font_color"
+msgstr ""
+
+#: ../../docs/classes/class_progressbar.rst:42
+msgid "Color( 0.94, 0.94, 0.94, 1 )"
+msgstr ""
+
+#: ../../docs/classes/class_progressbar.rst:44
+msgid "font_color_shadow"
+msgstr ""
+
+#: ../../docs/classes/class_progressbar.rst:44
+msgid "Color( 0, 0, 0, 1 )"
+msgstr ""
+
+#: ../../docs/classes/class_progressbar.rst:48
+msgid "Property Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_progressbar.rst:52
+msgid ":ref:`bool<class_bool>` **percent_visible**"
+msgstr ""
+
+#: ../../docs/classes/class_progressbar.rst:55
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_progressbar.rst:57
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_progressbar.rst:57
+msgid "set_percent_visible(value)"
+msgstr ""
+
+#: ../../docs/classes/class_progressbar.rst:59
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_progressbar.rst:59
+msgid "is_percent_visible()"
+msgstr ""
+
+#: ../../docs/classes/class_progressbar.rst:62
+msgid "If ``true``, the fill percentage is displayed on the bar."
+msgstr ""

@@ -1,0 +1,128 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_cylindershape.rst:10
+msgid "CylinderShape"
+msgstr ""
+
+#: ../../docs/classes/class_cylindershape.rst:12
+msgid "**Inherits:** :ref:`Shape<class_Shape>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_cylindershape.rst:14
+#: ../../docs/classes/class_cylindershape.rst:19
+msgid "Cylinder shape for collisions."
+msgstr ""
+
+#: ../../docs/classes/class_cylindershape.rst:17
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_cylindershape.rst:22
+msgid "Tutorials"
+msgstr ""
+
+#: ../../docs/classes/class_cylindershape.rst:24
+msgid "`https://godotengine.org/asset-library/asset/678 <https://godotengine.org/asset-library/asset/678>`_"
+msgstr ""
+
+#: ../../docs/classes/class_cylindershape.rst:26
+msgid "`https://godotengine.org/asset-library/asset/675 <https://godotengine.org/asset-library/asset/675>`_"
+msgstr ""
+
+#: ../../docs/classes/class_cylindershape.rst:28
+msgid "`https://godotengine.org/asset-library/asset/676 <https://godotengine.org/asset-library/asset/676>`_"
+msgstr ""
+
+#: ../../docs/classes/class_cylindershape.rst:31
+msgid "Properties"
+msgstr ""
+
+#: ../../docs/classes/class_cylindershape.rst:34
+#: ../../docs/classes/class_cylindershape.rst:36
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../../docs/classes/class_cylindershape.rst:34
+msgid ":ref:`height<class_CylinderShape_property_height>`"
+msgstr ""
+
+#: ../../docs/classes/class_cylindershape.rst:34
+#: ../../docs/classes/class_cylindershape.rst:47
+msgid "``2.0``"
+msgstr ""
+
+#: ../../docs/classes/class_cylindershape.rst:36
+msgid ":ref:`radius<class_CylinderShape_property_radius>`"
+msgstr ""
+
+#: ../../docs/classes/class_cylindershape.rst:36
+#: ../../docs/classes/class_cylindershape.rst:63
+msgid "``1.0``"
+msgstr ""
+
+#: ../../docs/classes/class_cylindershape.rst:40
+msgid "Property Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_cylindershape.rst:44
+msgid ":ref:`float<class_float>` **height**"
+msgstr ""
+
+#: ../../docs/classes/class_cylindershape.rst:47
+#: ../../docs/classes/class_cylindershape.rst:63
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_cylindershape.rst:49
+#: ../../docs/classes/class_cylindershape.rst:65
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_cylindershape.rst:49
+msgid "set_height(value)"
+msgstr ""
+
+#: ../../docs/classes/class_cylindershape.rst:51
+#: ../../docs/classes/class_cylindershape.rst:67
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_cylindershape.rst:51
+msgid "get_height()"
+msgstr ""
+
+#: ../../docs/classes/class_cylindershape.rst:54
+msgid "The cylinder's height."
+msgstr ""
+
+#: ../../docs/classes/class_cylindershape.rst:60
+msgid ":ref:`float<class_float>` **radius**"
+msgstr ""
+
+#: ../../docs/classes/class_cylindershape.rst:65
+msgid "set_radius(value)"
+msgstr ""
+
+#: ../../docs/classes/class_cylindershape.rst:67
+msgid "get_radius()"
+msgstr ""
+
+#: ../../docs/classes/class_cylindershape.rst:70
+msgid "The cylinder's radius."
+msgstr ""

@@ -1,0 +1,154 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_shadermaterial.rst:10
+msgid "ShaderMaterial"
+msgstr ""
+
+#: ../../docs/classes/class_shadermaterial.rst:12
+msgid "**Inherits:** :ref:`Material<class_Material>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_shadermaterial.rst:14
+msgid "A material that uses a custom :ref:`Shader<class_Shader>` program."
+msgstr ""
+
+#: ../../docs/classes/class_shadermaterial.rst:17
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_shadermaterial.rst:19
+msgid "A material that uses a custom :ref:`Shader<class_Shader>` program to render either items to screen or process particles. You can create multiple materials for the same shader but configure different values for the uniforms defined in the shader."
+msgstr ""
+
+#: ../../docs/classes/class_shadermaterial.rst:22
+msgid "Tutorials"
+msgstr ""
+
+#: ../../docs/classes/class_shadermaterial.rst:24
+msgid ":doc:`../tutorials/shading/index`"
+msgstr ""
+
+#: ../../docs/classes/class_shadermaterial.rst:27
+msgid "Properties"
+msgstr ""
+
+#: ../../docs/classes/class_shadermaterial.rst:30
+msgid ":ref:`Shader<class_Shader>`"
+msgstr ""
+
+#: ../../docs/classes/class_shadermaterial.rst:30
+msgid ":ref:`shader<class_ShaderMaterial_property_shader>`"
+msgstr ""
+
+#: ../../docs/classes/class_shadermaterial.rst:34
+msgid "Methods"
+msgstr ""
+
+#: ../../docs/classes/class_shadermaterial.rst:37
+#: ../../docs/classes/class_shadermaterial.rst:41
+msgid ":ref:`Variant<class_Variant>`"
+msgstr ""
+
+#: ../../docs/classes/class_shadermaterial.rst:37
+msgid ":ref:`get_shader_param<class_ShaderMaterial_method_get_shader_param>` **(** :ref:`String<class_String>` param **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_shadermaterial.rst:39
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_shadermaterial.rst:39
+msgid ":ref:`property_can_revert<class_ShaderMaterial_method_property_can_revert>` **(** :ref:`String<class_String>` name **)**"
+msgstr ""
+
+#: ../../docs/classes/class_shadermaterial.rst:41
+msgid ":ref:`property_get_revert<class_ShaderMaterial_method_property_get_revert>` **(** :ref:`String<class_String>` name **)**"
+msgstr ""
+
+#: ../../docs/classes/class_shadermaterial.rst:43
+msgid "void"
+msgstr ""
+
+#: ../../docs/classes/class_shadermaterial.rst:43
+msgid ":ref:`set_shader_param<class_ShaderMaterial_method_set_shader_param>` **(** :ref:`String<class_String>` param, :ref:`Variant<class_Variant>` value **)**"
+msgstr ""
+
+#: ../../docs/classes/class_shadermaterial.rst:47
+msgid "Property Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_shadermaterial.rst:51
+msgid ":ref:`Shader<class_Shader>` **shader**"
+msgstr ""
+
+#: ../../docs/classes/class_shadermaterial.rst:54
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_shadermaterial.rst:54
+msgid "set_shader(value)"
+msgstr ""
+
+#: ../../docs/classes/class_shadermaterial.rst:56
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_shadermaterial.rst:56
+msgid "get_shader()"
+msgstr ""
+
+#: ../../docs/classes/class_shadermaterial.rst:59
+msgid "The :ref:`Shader<class_Shader>` program used to render this material."
+msgstr ""
+
+#: ../../docs/classes/class_shadermaterial.rst:62
+msgid "Method Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_shadermaterial.rst:66
+msgid ":ref:`Variant<class_Variant>` **get_shader_param** **(** :ref:`String<class_String>` param **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_shadermaterial.rst:68
+msgid "Returns the current value set for this material of a uniform in the shader."
+msgstr ""
+
+#: ../../docs/classes/class_shadermaterial.rst:74
+msgid ":ref:`bool<class_bool>` **property_can_revert** **(** :ref:`String<class_String>` name **)**"
+msgstr ""
+
+#: ../../docs/classes/class_shadermaterial.rst:76
+msgid "Returns ``true`` if the property identified by ``name`` can be reverted to a default value."
+msgstr ""
+
+#: ../../docs/classes/class_shadermaterial.rst:82
+msgid ":ref:`Variant<class_Variant>` **property_get_revert** **(** :ref:`String<class_String>` name **)**"
+msgstr ""
+
+#: ../../docs/classes/class_shadermaterial.rst:84
+msgid "Returns the default value of the material property with given ``name``."
+msgstr ""
+
+#: ../../docs/classes/class_shadermaterial.rst:90
+msgid "void **set_shader_param** **(** :ref:`String<class_String>` param, :ref:`Variant<class_Variant>` value **)**"
+msgstr ""
+
+#: ../../docs/classes/class_shadermaterial.rst:92
+msgid "Changes the value set for this material of a uniform in the shader. **Note:** ``param`` must match the name of the uniform in the code exactly."
+msgstr ""

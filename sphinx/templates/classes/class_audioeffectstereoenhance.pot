@@ -1,0 +1,117 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_audioeffectstereoenhance.rst:10
+msgid "AudioEffectStereoEnhance"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectstereoenhance.rst:12
+msgid "**Inherits:** :ref:`AudioEffect<class_AudioEffect>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectstereoenhance.rst:17
+msgid "Properties"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectstereoenhance.rst:20
+#: ../../docs/classes/class_audioeffectstereoenhance.rst:22
+#: ../../docs/classes/class_audioeffectstereoenhance.rst:24
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectstereoenhance.rst:20
+msgid ":ref:`pan_pullout<class_AudioEffectStereoEnhance_property_pan_pullout>`"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectstereoenhance.rst:20
+#: ../../docs/classes/class_audioeffectstereoenhance.rst:35
+msgid "``1.0``"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectstereoenhance.rst:22
+msgid ":ref:`surround<class_AudioEffectStereoEnhance_property_surround>`"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectstereoenhance.rst:22
+#: ../../docs/classes/class_audioeffectstereoenhance.rst:24
+#: ../../docs/classes/class_audioeffectstereoenhance.rst:49
+#: ../../docs/classes/class_audioeffectstereoenhance.rst:63
+msgid "``0.0``"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectstereoenhance.rst:24
+msgid ":ref:`time_pullout_ms<class_AudioEffectStereoEnhance_property_time_pullout_ms>`"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectstereoenhance.rst:28
+msgid "Property Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectstereoenhance.rst:32
+msgid ":ref:`float<class_float>` **pan_pullout**"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectstereoenhance.rst:35
+#: ../../docs/classes/class_audioeffectstereoenhance.rst:49
+#: ../../docs/classes/class_audioeffectstereoenhance.rst:63
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectstereoenhance.rst:37
+#: ../../docs/classes/class_audioeffectstereoenhance.rst:51
+#: ../../docs/classes/class_audioeffectstereoenhance.rst:65
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectstereoenhance.rst:37
+msgid "set_pan_pullout(value)"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectstereoenhance.rst:39
+#: ../../docs/classes/class_audioeffectstereoenhance.rst:53
+#: ../../docs/classes/class_audioeffectstereoenhance.rst:67
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectstereoenhance.rst:39
+msgid "get_pan_pullout()"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectstereoenhance.rst:46
+msgid ":ref:`float<class_float>` **surround**"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectstereoenhance.rst:51
+msgid "set_surround(value)"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectstereoenhance.rst:53
+msgid "get_surround()"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectstereoenhance.rst:60
+msgid ":ref:`float<class_float>` **time_pullout_ms**"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectstereoenhance.rst:65
+msgid "set_time_pullout(value)"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectstereoenhance.rst:67
+msgid "get_time_pullout()"
+msgstr ""

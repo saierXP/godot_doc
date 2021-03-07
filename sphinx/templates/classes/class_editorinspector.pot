@@ -1,0 +1,149 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_editorinspector.rst:10
+msgid "EditorInspector"
+msgstr ""
+
+#: ../../docs/classes/class_editorinspector.rst:12
+msgid "**Inherits:** :ref:`ScrollContainer<class_ScrollContainer>` **<** :ref:`Container<class_Container>` **<** :ref:`Control<class_Control>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_editorinspector.rst:14
+msgid "A tab used to edit properties of the selected node."
+msgstr ""
+
+#: ../../docs/classes/class_editorinspector.rst:17
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_editorinspector.rst:19
+msgid "The editor inspector is by default located on the right-hand side of the editor. It's used to edit the properties of the selected node. For example, you can select a node such as :ref:`Sprite<class_Sprite>` then edit its transform through the inspector tool. The editor inspector is an essential tool in the game development workflow."
+msgstr ""
+
+#: ../../docs/classes/class_editorinspector.rst:21
+msgid "**Note:** This class shouldn't be instantiated directly. Instead, access the singleton using :ref:`EditorInterface.get_inspector<class_EditorInterface_method_get_inspector>`."
+msgstr ""
+
+#: ../../docs/classes/class_editorinspector.rst:24
+msgid "Properties"
+msgstr ""
+
+#: ../../docs/classes/class_editorinspector.rst:27
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_editorinspector.rst:27
+msgid "scroll_horizontal_enabled"
+msgstr ""
+
+#: ../../docs/classes/class_editorinspector.rst:27
+msgid "``false`` *(parent override)*"
+msgstr ""
+
+#: ../../docs/classes/class_editorinspector.rst:31
+msgid "Methods"
+msgstr ""
+
+#: ../../docs/classes/class_editorinspector.rst:34
+msgid "void"
+msgstr ""
+
+#: ../../docs/classes/class_editorinspector.rst:34
+msgid ":ref:`refresh<class_EditorInspector_method_refresh>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorinspector.rst:38
+msgid "Signals"
+msgstr ""
+
+#: ../../docs/classes/class_editorinspector.rst:42
+msgid "**object_id_selected** **(** :ref:`int<class_int>` id **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorinspector.rst:44
+msgid "Emitted when the Edit button of an :ref:`Object<class_Object>` has been pressed in the inspector. This is mainly used in the remote scene tree inspector."
+msgstr ""
+
+#: ../../docs/classes/class_editorinspector.rst:50
+msgid "**property_edited** **(** :ref:`String<class_String>` property **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorinspector.rst:52
+msgid "Emitted when a property is edited in the inspector."
+msgstr ""
+
+#: ../../docs/classes/class_editorinspector.rst:58
+msgid "**property_keyed** **(** :ref:`String<class_String>` property **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorinspector.rst:60
+msgid "Emitted when a property is keyed in the inspector. Properties can be keyed by clicking the \"key\" icon next to a property when the Animation panel is toggled."
+msgstr ""
+
+#: ../../docs/classes/class_editorinspector.rst:66
+msgid "**property_selected** **(** :ref:`String<class_String>` property **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorinspector.rst:68
+msgid "Emitted when a property is selected in the inspector."
+msgstr ""
+
+#: ../../docs/classes/class_editorinspector.rst:74
+msgid "**property_toggled** **(** :ref:`String<class_String>` property, :ref:`bool<class_bool>` checked **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorinspector.rst:76
+msgid "Emitted when a boolean property is toggled in the inspector."
+msgstr ""
+
+#: ../../docs/classes/class_editorinspector.rst:78
+msgid "**Note:** This signal is never emitted if the internal ``autoclear`` property enabled. Since this property is always enabled in the editor inspector, this signal is never emitted by the editor itself."
+msgstr ""
+
+#: ../../docs/classes/class_editorinspector.rst:84
+msgid "**resource_selected** **(** :ref:`Object<class_Object>` res, :ref:`String<class_String>` prop **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorinspector.rst:86
+msgid "Emitted when a resource is selected in the inspector."
+msgstr ""
+
+#: ../../docs/classes/class_editorinspector.rst:92
+msgid "**restart_requested** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorinspector.rst:94
+msgid "Emitted when a property that requires a restart to be applied is edited in the inspector. This is only used in the Project Settings and Editor Settings."
+msgstr ""
+
+#: ../../docs/classes/class_editorinspector.rst:97
+msgid "Method Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_editorinspector.rst:101
+msgid "void **refresh** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorinspector.rst:103
+msgid "Refreshes the inspector."
+msgstr ""
+
+#: ../../docs/classes/class_editorinspector.rst:105
+msgid "**Note:** To save on CPU resources, calling this method will do nothing if the time specified in ``docks/property_editor/auto_refresh_interval`` editor setting hasn't passed yet since this method was last called. (By default, this interval is set to 0.3 seconds.)"
+msgstr ""

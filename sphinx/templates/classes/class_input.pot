@@ -1,0 +1,796 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_input.rst:10
+msgid "Input"
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:12
+msgid "**Inherits:** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:14
+msgid "A singleton that deals with inputs."
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:17
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:19
+msgid "A singleton that deals with inputs. This includes key presses, mouse buttons and movement, joypads, and input actions. Actions and their events can be set in the **Input Map** tab in the **Project > Project Settings**, or with the :ref:`InputMap<class_InputMap>` class."
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:22
+msgid "Tutorials"
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:24
+msgid ":doc:`../tutorials/inputs/index`"
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:26
+msgid "`https://godotengine.org/asset-library/asset/515 <https://godotengine.org/asset-library/asset/515>`_"
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:28
+msgid "`https://godotengine.org/asset-library/asset/676 <https://godotengine.org/asset-library/asset/676>`_"
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:31
+msgid "Methods"
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:34
+#: ../../docs/classes/class_input.rst:36
+#: ../../docs/classes/class_input.rst:38
+#: ../../docs/classes/class_input.rst:92
+#: ../../docs/classes/class_input.rst:94
+#: ../../docs/classes/class_input.rst:96
+#: ../../docs/classes/class_input.rst:98
+#: ../../docs/classes/class_input.rst:100
+#: ../../docs/classes/class_input.rst:102
+#: ../../docs/classes/class_input.rst:104
+#: ../../docs/classes/class_input.rst:106
+#: ../../docs/classes/class_input.rst:108
+#: ../../docs/classes/class_input.rst:110
+#: ../../docs/classes/class_input.rst:112
+msgid "void"
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:34
+msgid ":ref:`action_press<class_Input_method_action_press>` **(** :ref:`String<class_String>` action, :ref:`float<class_float>` strength=1.0 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:36
+msgid ":ref:`action_release<class_Input_method_action_release>` **(** :ref:`String<class_String>` action **)**"
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:38
+msgid ":ref:`add_joy_mapping<class_Input_method_add_joy_mapping>` **(** :ref:`String<class_String>` mapping, :ref:`bool<class_bool>` update_existing=false **)**"
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:40
+#: ../../docs/classes/class_input.rst:48
+#: ../../docs/classes/class_input.rst:50
+#: ../../docs/classes/class_input.rst:72
+msgid ":ref:`Vector3<class_Vector3>`"
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:40
+msgid ":ref:`get_accelerometer<class_Input_method_get_accelerometer>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:42
+#: ../../docs/classes/class_input.rst:52
+#: ../../docs/classes/class_input.rst:66
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:42
+msgid ":ref:`get_action_strength<class_Input_method_get_action_strength>` **(** :ref:`String<class_String>` action **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:44
+msgid ":ref:`Array<class_Array>`"
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:44
+msgid ":ref:`get_connected_joypads<class_Input_method_get_connected_joypads>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:46
+msgid ":ref:`CursorShape<enum_Input_CursorShape>`"
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:46
+msgid ":ref:`get_current_cursor_shape<class_Input_method_get_current_cursor_shape>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:48
+msgid ":ref:`get_gravity<class_Input_method_get_gravity>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:50
+msgid ":ref:`get_gyroscope<class_Input_method_get_gyroscope>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:52
+msgid ":ref:`get_joy_axis<class_Input_method_get_joy_axis>` **(** :ref:`int<class_int>` device, :ref:`int<class_int>` axis **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:54
+#: ../../docs/classes/class_input.rst:58
+#: ../../docs/classes/class_input.rst:74
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:54
+msgid ":ref:`get_joy_axis_index_from_string<class_Input_method_get_joy_axis_index_from_string>` **(** :ref:`String<class_String>` axis **)**"
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:56
+#: ../../docs/classes/class_input.rst:60
+#: ../../docs/classes/class_input.rst:62
+#: ../../docs/classes/class_input.rst:64
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:56
+msgid ":ref:`get_joy_axis_string<class_Input_method_get_joy_axis_string>` **(** :ref:`int<class_int>` axis_index **)**"
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:58
+msgid ":ref:`get_joy_button_index_from_string<class_Input_method_get_joy_button_index_from_string>` **(** :ref:`String<class_String>` button **)**"
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:60
+msgid ":ref:`get_joy_button_string<class_Input_method_get_joy_button_string>` **(** :ref:`int<class_int>` button_index **)**"
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:62
+msgid ":ref:`get_joy_guid<class_Input_method_get_joy_guid>` **(** :ref:`int<class_int>` device **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:64
+msgid ":ref:`get_joy_name<class_Input_method_get_joy_name>` **(** :ref:`int<class_int>` device **)**"
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:66
+msgid ":ref:`get_joy_vibration_duration<class_Input_method_get_joy_vibration_duration>` **(** :ref:`int<class_int>` device **)**"
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:68
+#: ../../docs/classes/class_input.rst:70
+msgid ":ref:`Vector2<class_Vector2>`"
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:68
+msgid ":ref:`get_joy_vibration_strength<class_Input_method_get_joy_vibration_strength>` **(** :ref:`int<class_int>` device **)**"
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:70
+msgid ":ref:`get_last_mouse_speed<class_Input_method_get_last_mouse_speed>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:72
+msgid ":ref:`get_magnetometer<class_Input_method_get_magnetometer>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:74
+msgid ":ref:`get_mouse_button_mask<class_Input_method_get_mouse_button_mask>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:76
+msgid ":ref:`MouseMode<enum_Input_MouseMode>`"
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:76
+msgid ":ref:`get_mouse_mode<class_Input_method_get_mouse_mode>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:78
+#: ../../docs/classes/class_input.rst:80
+#: ../../docs/classes/class_input.rst:82
+#: ../../docs/classes/class_input.rst:84
+#: ../../docs/classes/class_input.rst:86
+#: ../../docs/classes/class_input.rst:88
+#: ../../docs/classes/class_input.rst:90
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:78
+msgid ":ref:`is_action_just_pressed<class_Input_method_is_action_just_pressed>` **(** :ref:`String<class_String>` action **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:80
+msgid ":ref:`is_action_just_released<class_Input_method_is_action_just_released>` **(** :ref:`String<class_String>` action **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:82
+msgid ":ref:`is_action_pressed<class_Input_method_is_action_pressed>` **(** :ref:`String<class_String>` action **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:84
+msgid ":ref:`is_joy_button_pressed<class_Input_method_is_joy_button_pressed>` **(** :ref:`int<class_int>` device, :ref:`int<class_int>` button **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:86
+msgid ":ref:`is_joy_known<class_Input_method_is_joy_known>` **(** :ref:`int<class_int>` device **)**"
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:88
+msgid ":ref:`is_key_pressed<class_Input_method_is_key_pressed>` **(** :ref:`int<class_int>` scancode **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:90
+msgid ":ref:`is_mouse_button_pressed<class_Input_method_is_mouse_button_pressed>` **(** :ref:`int<class_int>` button **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:92
+msgid ":ref:`joy_connection_changed<class_Input_method_joy_connection_changed>` **(** :ref:`int<class_int>` device, :ref:`bool<class_bool>` connected, :ref:`String<class_String>` name, :ref:`String<class_String>` guid **)**"
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:94
+msgid ":ref:`parse_input_event<class_Input_method_parse_input_event>` **(** :ref:`InputEvent<class_InputEvent>` event **)**"
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:96
+msgid ":ref:`remove_joy_mapping<class_Input_method_remove_joy_mapping>` **(** :ref:`String<class_String>` guid **)**"
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:98
+msgid ":ref:`set_custom_mouse_cursor<class_Input_method_set_custom_mouse_cursor>` **(** :ref:`Resource<class_Resource>` image, :ref:`CursorShape<enum_Input_CursorShape>` shape=0, :ref:`Vector2<class_Vector2>` hotspot=Vector2( 0, 0 ) **)**"
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:100
+msgid ":ref:`set_default_cursor_shape<class_Input_method_set_default_cursor_shape>` **(** :ref:`CursorShape<enum_Input_CursorShape>` shape=0 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:102
+msgid ":ref:`set_mouse_mode<class_Input_method_set_mouse_mode>` **(** :ref:`MouseMode<enum_Input_MouseMode>` mode **)**"
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:104
+msgid ":ref:`set_use_accumulated_input<class_Input_method_set_use_accumulated_input>` **(** :ref:`bool<class_bool>` enable **)**"
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:106
+msgid ":ref:`start_joy_vibration<class_Input_method_start_joy_vibration>` **(** :ref:`int<class_int>` device, :ref:`float<class_float>` weak_magnitude, :ref:`float<class_float>` strong_magnitude, :ref:`float<class_float>` duration=0 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:108
+msgid ":ref:`stop_joy_vibration<class_Input_method_stop_joy_vibration>` **(** :ref:`int<class_int>` device **)**"
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:110
+msgid ":ref:`vibrate_handheld<class_Input_method_vibrate_handheld>` **(** :ref:`int<class_int>` duration_ms=500 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:112
+msgid ":ref:`warp_mouse_position<class_Input_method_warp_mouse_position>` **(** :ref:`Vector2<class_Vector2>` to **)**"
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:116
+msgid "Signals"
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:120
+msgid "**joy_connection_changed** **(** :ref:`int<class_int>` device, :ref:`bool<class_bool>` connected **)**"
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:122
+msgid "Emitted when a joypad device has been connected or disconnected."
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:125
+msgid "Enumerations"
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:137
+msgid "enum **MouseMode**:"
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:139
+msgid "**MOUSE_MODE_VISIBLE** = **0** --- Makes the mouse cursor visible if it is hidden."
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:141
+msgid "**MOUSE_MODE_HIDDEN** = **1** --- Makes the mouse cursor hidden if it is visible."
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:143
+msgid "**MOUSE_MODE_CAPTURED** = **2** --- Captures the mouse. The mouse will be hidden and its position locked at the center of the screen."
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:145
+msgid "**Note:** If you want to process the mouse's movement in this mode, you need to use :ref:`InputEventMouseMotion.relative<class_InputEventMouseMotion_property_relative>`."
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:147
+msgid "**MOUSE_MODE_CONFINED** = **3** --- Makes the mouse cursor visible but confines it to the game window."
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:187
+msgid "enum **CursorShape**:"
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:189
+msgid "**CURSOR_ARROW** = **0** --- Arrow cursor. Standard, default pointing cursor."
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:191
+msgid "**CURSOR_IBEAM** = **1** --- I-beam cursor. Usually used to show where the text cursor will appear when the mouse is clicked."
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:193
+msgid "**CURSOR_POINTING_HAND** = **2** --- Pointing hand cursor. Usually used to indicate the pointer is over a link or other interactable item."
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:195
+msgid "**CURSOR_CROSS** = **3** --- Cross cursor. Typically appears over regions in which a drawing operation can be performed or for selections."
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:197
+msgid "**CURSOR_WAIT** = **4** --- Wait cursor. Indicates that the application is busy performing an operation. This cursor shape denotes that the application is still usable during the operation."
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:199
+msgid "**CURSOR_BUSY** = **5** --- Busy cursor. Indicates that the application is busy performing an operation. This cursor shape denotes that the application isn't usable during the operation (e.g. something is blocking its main thread)."
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:201
+msgid "**CURSOR_DRAG** = **6** --- Drag cursor. Usually displayed when dragging something."
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:203
+msgid "**CURSOR_CAN_DROP** = **7** --- Can drop cursor. Usually displayed when dragging something to indicate that it can be dropped at the current position."
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:205
+msgid "**CURSOR_FORBIDDEN** = **8** --- Forbidden cursor. Indicates that the current action is forbidden (for example, when dragging something) or that the control at a position is disabled."
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:207
+msgid "**CURSOR_VSIZE** = **9** --- Vertical resize mouse cursor. A double-headed vertical arrow. It tells the user they can resize the window or the panel vertically."
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:209
+msgid "**CURSOR_HSIZE** = **10** --- Horizontal resize mouse cursor. A double-headed horizontal arrow. It tells the user they can resize the window or the panel horizontally."
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:211
+msgid "**CURSOR_BDIAGSIZE** = **11** --- Window resize mouse cursor. The cursor is a double-headed arrow that goes from the bottom left to the top right. It tells the user they can resize the window or the panel both horizontally and vertically."
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:213
+msgid "**CURSOR_FDIAGSIZE** = **12** --- Window resize mouse cursor. The cursor is a double-headed arrow that goes from the top left to the bottom right, the opposite of :ref:`CURSOR_BDIAGSIZE<class_Input_constant_CURSOR_BDIAGSIZE>`. It tells the user they can resize the window or the panel both horizontally and vertically."
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:215
+msgid "**CURSOR_MOVE** = **13** --- Move cursor. Indicates that something can be moved."
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:217
+msgid "**CURSOR_VSPLIT** = **14** --- Vertical split mouse cursor. On Windows, it's the same as :ref:`CURSOR_VSIZE<class_Input_constant_CURSOR_VSIZE>`."
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:219
+msgid "**CURSOR_HSPLIT** = **15** --- Horizontal split mouse cursor. On Windows, it's the same as :ref:`CURSOR_HSIZE<class_Input_constant_CURSOR_HSIZE>`."
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:221
+msgid "**CURSOR_HELP** = **16** --- Help cursor. Usually a question mark."
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:224
+msgid "Method Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:228
+msgid "void **action_press** **(** :ref:`String<class_String>` action, :ref:`float<class_float>` strength=1.0 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:230
+msgid "This will simulate pressing the specified action."
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:232
+msgid "The strength can be used for non-boolean actions, it's ranged between 0 and 1 representing the intensity of the given action."
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:234
+msgid "**Note:** This method will not cause any :ref:`Node._input<class_Node_method__input>` calls. It is intended to be used with :ref:`is_action_pressed<class_Input_method_is_action_pressed>` and :ref:`is_action_just_pressed<class_Input_method_is_action_just_pressed>`. If you want to simulate ``_input``, use :ref:`parse_input_event<class_Input_method_parse_input_event>` instead."
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:240
+msgid "void **action_release** **(** :ref:`String<class_String>` action **)**"
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:242
+msgid "If the specified action is already pressed, this will release it."
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:248
+msgid "void **add_joy_mapping** **(** :ref:`String<class_String>` mapping, :ref:`bool<class_bool>` update_existing=false **)**"
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:250
+msgid "Adds a new mapping entry (in SDL2 format) to the mapping database. Optionally update already connected devices."
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:256
+msgid ":ref:`Vector3<class_Vector3>` **get_accelerometer** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:258
+msgid "Returns the acceleration of the device's accelerometer sensor, if the device has one. Otherwise, the method returns :ref:`Vector3.ZERO<class_Vector3_constant_ZERO>`."
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:260
+msgid "Note this method returns an empty :ref:`Vector3<class_Vector3>` when running from the editor even when your device has an accelerometer. You must export your project to a supported device to read values from the accelerometer."
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:262
+msgid "**Note:** This method only works on iOS, Android, and UWP. On other platforms, it always returns :ref:`Vector3.ZERO<class_Vector3_constant_ZERO>`."
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:268
+msgid ":ref:`float<class_float>` **get_action_strength** **(** :ref:`String<class_String>` action **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:270
+msgid "Returns a value between 0 and 1 representing the intensity of the given action. In a joypad, for example, the further away the axis (analog sticks or L2, R2 triggers) is from the dead zone, the closer the value will be to 1. If the action is mapped to a control that has no axis as the keyboard, the value returned will be 0 or 1."
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:276
+msgid ":ref:`Array<class_Array>` **get_connected_joypads** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:278
+msgid "Returns an :ref:`Array<class_Array>` containing the device IDs of all currently connected joypads."
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:284
+msgid ":ref:`CursorShape<enum_Input_CursorShape>` **get_current_cursor_shape** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:286
+msgid "Returns the currently assigned cursor shape (see :ref:`CursorShape<enum_Input_CursorShape>`)."
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:292
+msgid ":ref:`Vector3<class_Vector3>` **get_gravity** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:294
+msgid "Returns the gravity of the device's accelerometer sensor, if the device has one. Otherwise, the method returns :ref:`Vector3.ZERO<class_Vector3_constant_ZERO>`."
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:296
+#: ../../docs/classes/class_input.rst:306
+msgid "**Note:** This method only works on Android and iOS. On other platforms, it always returns :ref:`Vector3.ZERO<class_Vector3_constant_ZERO>`."
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:302
+msgid ":ref:`Vector3<class_Vector3>` **get_gyroscope** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:304
+msgid "Returns the rotation rate in rad/s around a device's X, Y, and Z axes of the gyroscope sensor, if the device has one. Otherwise, the method returns :ref:`Vector3.ZERO<class_Vector3_constant_ZERO>`."
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:312
+msgid ":ref:`float<class_float>` **get_joy_axis** **(** :ref:`int<class_int>` device, :ref:`int<class_int>` axis **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:314
+msgid "Returns the current value of the joypad axis at given index (see :ref:`JoystickList<enum_@GlobalScope_JoystickList>`)."
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:320
+msgid ":ref:`int<class_int>` **get_joy_axis_index_from_string** **(** :ref:`String<class_String>` axis **)**"
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:322
+msgid "Returns the index of the provided axis name."
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:328
+msgid ":ref:`String<class_String>` **get_joy_axis_string** **(** :ref:`int<class_int>` axis_index **)**"
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:330
+msgid "Receives a :ref:`JoystickList<enum_@GlobalScope_JoystickList>` axis and returns its equivalent name as a string."
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:336
+msgid ":ref:`int<class_int>` **get_joy_button_index_from_string** **(** :ref:`String<class_String>` button **)**"
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:338
+msgid "Returns the index of the provided button name."
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:344
+msgid ":ref:`String<class_String>` **get_joy_button_string** **(** :ref:`int<class_int>` button_index **)**"
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:346
+msgid "Receives a gamepad button from :ref:`JoystickList<enum_@GlobalScope_JoystickList>` and returns its equivalent name as a string."
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:352
+msgid ":ref:`String<class_String>` **get_joy_guid** **(** :ref:`int<class_int>` device **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:354
+msgid "Returns a SDL2-compatible device GUID on platforms that use gamepad remapping. Returns ``\"Default Gamepad\"`` otherwise."
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:360
+msgid ":ref:`String<class_String>` **get_joy_name** **(** :ref:`int<class_int>` device **)**"
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:362
+msgid "Returns the name of the joypad at the specified device index."
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:368
+msgid ":ref:`float<class_float>` **get_joy_vibration_duration** **(** :ref:`int<class_int>` device **)**"
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:370
+msgid "Returns the duration of the current vibration effect in seconds."
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:376
+msgid ":ref:`Vector2<class_Vector2>` **get_joy_vibration_strength** **(** :ref:`int<class_int>` device **)**"
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:378
+msgid "Returns the strength of the joypad vibration: x is the strength of the weak motor, and y is the strength of the strong motor."
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:384
+msgid ":ref:`Vector2<class_Vector2>` **get_last_mouse_speed** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:386
+msgid "Returns the mouse speed for the last time the cursor was moved, and this until the next frame where the mouse moves. This means that even if the mouse is not moving, this function will still return the value of the last motion."
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:392
+msgid ":ref:`Vector3<class_Vector3>` **get_magnetometer** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:394
+msgid "Returns the the magnetic field strength in micro-Tesla for all axes of the device's magnetometer sensor, if the device has one. Otherwise, the method returns :ref:`Vector3.ZERO<class_Vector3_constant_ZERO>`."
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:396
+msgid "**Note:** This method only works on Android, iOS and UWP. On other platforms, it always returns :ref:`Vector3.ZERO<class_Vector3_constant_ZERO>`."
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:402
+msgid ":ref:`int<class_int>` **get_mouse_button_mask** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:404
+msgid "Returns mouse buttons as a bitmask. If multiple mouse buttons are pressed at the same time, the bits are added together."
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:410
+msgid ":ref:`MouseMode<enum_Input_MouseMode>` **get_mouse_mode** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:412
+msgid "Returns the mouse mode. See the constants for more information."
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:418
+msgid ":ref:`bool<class_bool>` **is_action_just_pressed** **(** :ref:`String<class_String>` action **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:420
+msgid "Returns ``true`` when the user starts pressing the action event, meaning it's ``true`` only on the frame that the user pressed down the button."
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:422
+msgid "This is useful for code that needs to run only once when an action is pressed, instead of every frame while it's pressed."
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:428
+msgid ":ref:`bool<class_bool>` **is_action_just_released** **(** :ref:`String<class_String>` action **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:430
+msgid "Returns ``true`` when the user stops pressing the action event, meaning it's ``true`` only on the frame that the user released the button."
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:436
+msgid ":ref:`bool<class_bool>` **is_action_pressed** **(** :ref:`String<class_String>` action **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:438
+msgid "Returns ``true`` if you are pressing the action event. Note that if an action has multiple buttons assigned and more than one of them is pressed, releasing one button will release the action, even if some other button assigned to this action is still pressed."
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:444
+msgid ":ref:`bool<class_bool>` **is_joy_button_pressed** **(** :ref:`int<class_int>` device, :ref:`int<class_int>` button **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:446
+msgid "Returns ``true`` if you are pressing the joypad button (see :ref:`JoystickList<enum_@GlobalScope_JoystickList>`)."
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:452
+msgid ":ref:`bool<class_bool>` **is_joy_known** **(** :ref:`int<class_int>` device **)**"
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:454
+msgid "Returns ``true`` if the system knows the specified device. This means that it sets all button and axis indices exactly as defined in :ref:`JoystickList<enum_@GlobalScope_JoystickList>`. Unknown joypads are not expected to match these constants, but you can still retrieve events from them."
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:460
+msgid ":ref:`bool<class_bool>` **is_key_pressed** **(** :ref:`int<class_int>` scancode **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:462
+msgid "Returns ``true`` if you are pressing the key. You can pass a :ref:`KeyList<enum_@GlobalScope_KeyList>` constant."
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:468
+msgid ":ref:`bool<class_bool>` **is_mouse_button_pressed** **(** :ref:`int<class_int>` button **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:470
+msgid "Returns ``true`` if you are pressing the mouse button specified with :ref:`ButtonList<enum_@GlobalScope_ButtonList>`."
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:476
+msgid "void **joy_connection_changed** **(** :ref:`int<class_int>` device, :ref:`bool<class_bool>` connected, :ref:`String<class_String>` name, :ref:`String<class_String>` guid **)**"
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:478
+msgid "Notifies the ``Input`` singleton that a connection has changed, to update the state for the ``device`` index."
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:480
+msgid "This is used internally and should not have to be called from user scripts. See :ref:`joy_connection_changed<class_Input_signal_joy_connection_changed>` for the signal emitted when this is triggered internally."
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:486
+msgid "void **parse_input_event** **(** :ref:`InputEvent<class_InputEvent>` event **)**"
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:488
+msgid "Feeds an :ref:`InputEvent<class_InputEvent>` to the game. Can be used to artificially trigger input events from code. Also generates :ref:`Node._input<class_Node_method__input>` calls."
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:490
+msgid "Example:"
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:503
+msgid "void **remove_joy_mapping** **(** :ref:`String<class_String>` guid **)**"
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:505
+msgid "Removes all mappings from the internal database that match the given GUID."
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:511
+msgid "void **set_custom_mouse_cursor** **(** :ref:`Resource<class_Resource>` image, :ref:`CursorShape<enum_Input_CursorShape>` shape=0, :ref:`Vector2<class_Vector2>` hotspot=Vector2( 0, 0 ) **)**"
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:513
+msgid "Sets a custom mouse cursor image, which is only visible inside the game window. The hotspot can also be specified. Passing ``null`` to the image parameter resets to the system cursor. See :ref:`CursorShape<enum_Input_CursorShape>` for the list of shapes."
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:515
+msgid "``image``'s size must be lower than 256×256."
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:517
+msgid "``hotspot`` must be within ``image``'s size."
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:519
+msgid "**Note:** :ref:`AnimatedTexture<class_AnimatedTexture>`\\ s aren't supported as custom mouse cursors. If using an :ref:`AnimatedTexture<class_AnimatedTexture>`, only the first frame will be displayed."
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:521
+msgid "**Note:** Only images imported with the **Lossless**, **Lossy** or **Uncompressed** compression modes are supported. The **Video RAM** compression mode can't be used for custom cursors."
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:527
+msgid "void **set_default_cursor_shape** **(** :ref:`CursorShape<enum_Input_CursorShape>` shape=0 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:529
+msgid "Sets the default cursor shape to be used in the viewport instead of :ref:`CURSOR_ARROW<class_Input_constant_CURSOR_ARROW>`."
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:531
+msgid "**Note:** If you want to change the default cursor shape for :ref:`Control<class_Control>`'s nodes, use :ref:`Control.mouse_default_cursor_shape<class_Control_property_mouse_default_cursor_shape>` instead."
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:533
+msgid "**Note:** This method generates an :ref:`InputEventMouseMotion<class_InputEventMouseMotion>` to update cursor immediately."
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:539
+msgid "void **set_mouse_mode** **(** :ref:`MouseMode<enum_Input_MouseMode>` mode **)**"
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:541
+msgid "Sets the mouse mode. See the constants for more information."
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:547
+msgid "void **set_use_accumulated_input** **(** :ref:`bool<class_bool>` enable **)**"
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:549
+msgid "Enables or disables the accumulation of similar input events sent by the operating system. When input accumulation is enabled, all input events generated during a frame will be merged and emitted when the frame is done rendering. Therefore, this limits the number of input method calls per second to the rendering FPS."
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:551
+msgid "Input accumulation is enabled by default. It can be disabled to get slightly more precise/reactive input at the cost of increased CPU usage. In applications where drawing freehand lines is required, input accumulation should generally be disabled while the user is drawing the line to get results that closely follow the actual input."
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:557
+msgid "void **start_joy_vibration** **(** :ref:`int<class_int>` device, :ref:`float<class_float>` weak_magnitude, :ref:`float<class_float>` strong_magnitude, :ref:`float<class_float>` duration=0 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:559
+msgid "Starts to vibrate the joypad. Joypads usually come with two rumble motors, a strong and a weak one. ``weak_magnitude`` is the strength of the weak motor (between 0 and 1) and ``strong_magnitude`` is the strength of the strong motor (between 0 and 1). ``duration`` is the duration of the effect in seconds (a duration of 0 will try to play the vibration indefinitely)."
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:561
+msgid "**Note:** Not every hardware is compatible with long effect durations; it is recommended to restart an effect if it has to be played for more than a few seconds."
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:567
+msgid "void **stop_joy_vibration** **(** :ref:`int<class_int>` device **)**"
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:569
+msgid "Stops the vibration of the joypad."
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:575
+msgid "void **vibrate_handheld** **(** :ref:`int<class_int>` duration_ms=500 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:577
+msgid "Vibrate Android and iOS devices."
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:579
+msgid "**Note:** It needs ``VIBRATE`` permission for Android at export settings. iOS does not support duration."
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:585
+msgid "void **warp_mouse_position** **(** :ref:`Vector2<class_Vector2>` to **)**"
+msgstr ""
+
+#: ../../docs/classes/class_input.rst:587
+msgid "Sets the mouse position to the specified vector."
+msgstr ""

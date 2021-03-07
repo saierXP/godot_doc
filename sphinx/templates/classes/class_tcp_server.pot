@@ -1,0 +1,134 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_tcp_server.rst:10
+msgid "TCP_Server"
+msgstr ""
+
+#: ../../docs/classes/class_tcp_server.rst:12
+msgid "**Inherits:** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_tcp_server.rst:14
+msgid "A TCP server."
+msgstr ""
+
+#: ../../docs/classes/class_tcp_server.rst:17
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_tcp_server.rst:19
+msgid "A TCP server. Listens to connections on a port and returns a :ref:`StreamPeerTCP<class_StreamPeerTCP>` when it gets an incoming connection."
+msgstr ""
+
+#: ../../docs/classes/class_tcp_server.rst:22
+msgid "Methods"
+msgstr ""
+
+#: ../../docs/classes/class_tcp_server.rst:25
+#: ../../docs/classes/class_tcp_server.rst:27
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_tcp_server.rst:25
+msgid ":ref:`is_connection_available<class_TCP_Server_method_is_connection_available>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_tcp_server.rst:27
+msgid ":ref:`is_listening<class_TCP_Server_method_is_listening>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_tcp_server.rst:29
+msgid ":ref:`Error<enum_@GlobalScope_Error>`"
+msgstr ""
+
+#: ../../docs/classes/class_tcp_server.rst:29
+msgid ":ref:`listen<class_TCP_Server_method_listen>` **(** :ref:`int<class_int>` port, :ref:`String<class_String>` bind_address=\"*\" **)**"
+msgstr ""
+
+#: ../../docs/classes/class_tcp_server.rst:31
+msgid "void"
+msgstr ""
+
+#: ../../docs/classes/class_tcp_server.rst:31
+msgid ":ref:`stop<class_TCP_Server_method_stop>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_tcp_server.rst:33
+msgid ":ref:`StreamPeerTCP<class_StreamPeerTCP>`"
+msgstr ""
+
+#: ../../docs/classes/class_tcp_server.rst:33
+msgid ":ref:`take_connection<class_TCP_Server_method_take_connection>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_tcp_server.rst:37
+msgid "Method Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_tcp_server.rst:41
+msgid ":ref:`bool<class_bool>` **is_connection_available** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_tcp_server.rst:43
+msgid "Returns ``true`` if a connection is available for taking."
+msgstr ""
+
+#: ../../docs/classes/class_tcp_server.rst:49
+msgid ":ref:`bool<class_bool>` **is_listening** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_tcp_server.rst:51
+msgid "Returns ``true`` if the server is currently listening for connections."
+msgstr ""
+
+#: ../../docs/classes/class_tcp_server.rst:57
+msgid ":ref:`Error<enum_@GlobalScope_Error>` **listen** **(** :ref:`int<class_int>` port, :ref:`String<class_String>` bind_address=\"*\" **)**"
+msgstr ""
+
+#: ../../docs/classes/class_tcp_server.rst:59
+msgid "Listen on the ``port`` binding to ``bind_address``."
+msgstr ""
+
+#: ../../docs/classes/class_tcp_server.rst:61
+msgid "If ``bind_address`` is set as ``\"*\"`` (default), the server will listen on all available addresses (both IPv4 and IPv6)."
+msgstr ""
+
+#: ../../docs/classes/class_tcp_server.rst:63
+msgid "If ``bind_address`` is set as ``\"0.0.0.0\"`` (for IPv4) or ``\"::\"`` (for IPv6), the server will listen on all available addresses matching that IP type."
+msgstr ""
+
+#: ../../docs/classes/class_tcp_server.rst:65
+msgid "If ``bind_address`` is set to any valid address (e.g. ``\"192.168.1.101\"``, ``\"::1\"``, etc), the server will only listen on the interface with that addresses (or fail if no interface with the given address exists)."
+msgstr ""
+
+#: ../../docs/classes/class_tcp_server.rst:71
+msgid "void **stop** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_tcp_server.rst:73
+msgid "Stops listening."
+msgstr ""
+
+#: ../../docs/classes/class_tcp_server.rst:79
+msgid ":ref:`StreamPeerTCP<class_StreamPeerTCP>` **take_connection** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_tcp_server.rst:81
+msgid "If a connection is available, returns a StreamPeerTCP with the connection."
+msgstr ""

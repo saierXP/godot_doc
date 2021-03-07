@@ -1,0 +1,170 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_visibilitynotifier2d.rst:10
+msgid "VisibilityNotifier2D"
+msgstr ""
+
+#: ../../docs/classes/class_visibilitynotifier2d.rst:12
+msgid "**Inherits:** :ref:`Node2D<class_Node2D>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_visibilitynotifier2d.rst:14
+msgid "**Inherited By:** :ref:`VisibilityEnabler2D<class_VisibilityEnabler2D>`"
+msgstr ""
+
+#: ../../docs/classes/class_visibilitynotifier2d.rst:16
+msgid "Detects approximately when the node is visible on screen."
+msgstr ""
+
+#: ../../docs/classes/class_visibilitynotifier2d.rst:19
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_visibilitynotifier2d.rst:21
+msgid "The VisibilityNotifier2D detects when it is visible on the screen. It also notifies when its bounding rectangle enters or exits the screen or a viewport."
+msgstr ""
+
+#: ../../docs/classes/class_visibilitynotifier2d.rst:23
+msgid "If you want nodes to be disabled automatically when they exit the screen, use :ref:`VisibilityEnabler2D<class_VisibilityEnabler2D>` instead."
+msgstr ""
+
+#: ../../docs/classes/class_visibilitynotifier2d.rst:25
+msgid "**Note:** For performance reasons, VisibilityNotifier2D uses an approximate heuristic with precision determined by :ref:`ProjectSettings.world/2d/cell_size<class_ProjectSettings_property_world/2d/cell_size>`. If you need precise visibility checking, use another method such as adding an :ref:`Area2D<class_Area2D>` node as a child of a :ref:`Camera2D<class_Camera2D>` node."
+msgstr ""
+
+#: ../../docs/classes/class_visibilitynotifier2d.rst:28
+msgid "Tutorials"
+msgstr ""
+
+#: ../../docs/classes/class_visibilitynotifier2d.rst:30
+msgid "`https://godotengine.org/asset-library/asset/515 <https://godotengine.org/asset-library/asset/515>`_"
+msgstr ""
+
+#: ../../docs/classes/class_visibilitynotifier2d.rst:33
+msgid "Properties"
+msgstr ""
+
+#: ../../docs/classes/class_visibilitynotifier2d.rst:36
+msgid ":ref:`Rect2<class_Rect2>`"
+msgstr ""
+
+#: ../../docs/classes/class_visibilitynotifier2d.rst:36
+msgid ":ref:`rect<class_VisibilityNotifier2D_property_rect>`"
+msgstr ""
+
+#: ../../docs/classes/class_visibilitynotifier2d.rst:36
+#: ../../docs/classes/class_visibilitynotifier2d.rst:87
+msgid "``Rect2( -10, -10, 20, 20 )``"
+msgstr ""
+
+#: ../../docs/classes/class_visibilitynotifier2d.rst:40
+msgid "Methods"
+msgstr ""
+
+#: ../../docs/classes/class_visibilitynotifier2d.rst:43
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_visibilitynotifier2d.rst:43
+msgid ":ref:`is_on_screen<class_VisibilityNotifier2D_method_is_on_screen>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_visibilitynotifier2d.rst:47
+msgid "Signals"
+msgstr ""
+
+#: ../../docs/classes/class_visibilitynotifier2d.rst:51
+msgid "**screen_entered** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_visibilitynotifier2d.rst:53
+msgid "Emitted when the VisibilityNotifier2D enters the screen."
+msgstr ""
+
+#: ../../docs/classes/class_visibilitynotifier2d.rst:59
+msgid "**screen_exited** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_visibilitynotifier2d.rst:61
+msgid "Emitted when the VisibilityNotifier2D exits the screen."
+msgstr ""
+
+#: ../../docs/classes/class_visibilitynotifier2d.rst:67
+msgid "**viewport_entered** **(** :ref:`Viewport<class_Viewport>` viewport **)**"
+msgstr ""
+
+#: ../../docs/classes/class_visibilitynotifier2d.rst:69
+msgid "Emitted when the VisibilityNotifier2D enters a :ref:`Viewport<class_Viewport>`'s view."
+msgstr ""
+
+#: ../../docs/classes/class_visibilitynotifier2d.rst:75
+msgid "**viewport_exited** **(** :ref:`Viewport<class_Viewport>` viewport **)**"
+msgstr ""
+
+#: ../../docs/classes/class_visibilitynotifier2d.rst:77
+msgid "Emitted when the VisibilityNotifier2D exits a :ref:`Viewport<class_Viewport>`'s view."
+msgstr ""
+
+#: ../../docs/classes/class_visibilitynotifier2d.rst:80
+msgid "Property Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_visibilitynotifier2d.rst:84
+msgid ":ref:`Rect2<class_Rect2>` **rect**"
+msgstr ""
+
+#: ../../docs/classes/class_visibilitynotifier2d.rst:87
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_visibilitynotifier2d.rst:89
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_visibilitynotifier2d.rst:89
+msgid "set_rect(value)"
+msgstr ""
+
+#: ../../docs/classes/class_visibilitynotifier2d.rst:91
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_visibilitynotifier2d.rst:91
+msgid "get_rect()"
+msgstr ""
+
+#: ../../docs/classes/class_visibilitynotifier2d.rst:94
+msgid "The VisibilityNotifier2D's bounding rectangle."
+msgstr ""
+
+#: ../../docs/classes/class_visibilitynotifier2d.rst:97
+msgid "Method Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_visibilitynotifier2d.rst:101
+msgid ":ref:`bool<class_bool>` **is_on_screen** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_visibilitynotifier2d.rst:103
+msgid "If ``true``, the bounding rectangle is on the screen."
+msgstr ""
+
+#: ../../docs/classes/class_visibilitynotifier2d.rst:105
+msgid "**Note:** It takes one frame for the node's visibility to be assessed once added to the scene tree, so this method will return ``false`` right after it is instantiated, even if it will be on screen in the draw pass."
+msgstr ""

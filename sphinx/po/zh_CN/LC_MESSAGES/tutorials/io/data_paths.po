@@ -1,0 +1,232 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/tutorials/io/data_paths.rst:4
+msgid "Data paths"
+msgstr "数据路径"
+
+#: ../../docs/tutorials/io/data_paths.rst:7
+msgid "Path separators"
+msgstr "路径分隔符"
+
+#: ../../docs/tutorials/io/data_paths.rst:9
+#, fuzzy
+msgid ""
+"For the sake of supporting as many platforms as possible, Godot only accepts "
+"UNIX-style path separators (``/``). These work on all platforms, including "
+"Windows."
+msgstr ""
+"为了支持尽可能多的平台，Godot只接受UNIX风格的路径分隔符(``/``)。在包括Windows"
+"在内的所有平台上，这种路径分隔符均可以正常工作。"
+
+#: ../../docs/tutorials/io/data_paths.rst:13
+msgid "A path like ``C:\\Projects`` will become ``C:/Projects``."
+msgstr "像 ``C:\\Projects`` 这样的路径将变成 ``C:/Projects``。"
+
+#: ../../docs/tutorials/io/data_paths.rst:16
+msgid "Resource path"
+msgstr "资源路径"
+
+#: ../../docs/tutorials/io/data_paths.rst:18
+#, fuzzy
+msgid ""
+"As mentioned in the :ref:`doc_command_line_tutorial`, Godot considers that a "
+"project exists in any given folder that contains a ``project.godot`` text "
+"file, even if such file is empty."
+msgstr ""
+"如前所述，Godot认为一个项目文件夹中包含一个 ``project.godot`` 文本文件，即使"
+"该文件是空的。"
+
+#: ../../docs/tutorials/io/data_paths.rst:22
+msgid ""
+"Accessing project files can be done by opening any path with ``res://`` as a "
+"base. For example, a texture located in the root of the project folder may "
+"be opened from the following path: ``res://some_texture.png``."
+msgstr ""
+"访问项目文件可以通过打开以 ``res://`` 为基的任何路径来实现。例如，位于项目文"
+"件夹根部的纹理可以从以下路径打开: ``res://some_texture.png``。"
+
+#: ../../docs/tutorials/io/data_paths.rst:27
+msgid "User path (persistent data)"
+msgstr "用户路径(持久化数据)"
+
+#: ../../docs/tutorials/io/data_paths.rst:29
+msgid ""
+"While the project is running, it is a common scenario that the resource path "
+"will be read-only, due to it being inside a package, self-contained "
+"executable, or system-wide install location."
+msgstr ""
+"当项目运行时，由于资源位于一个压缩包内、自包含可执行文件或系统范围的安装位"
+"置，因此通常情况下资源路径是只读的。"
+
+#: ../../docs/tutorials/io/data_paths.rst:33
+msgid ""
+"Storing persistent files in such scenarios should be done by using the "
+"``user://`` prefix, for example: ``user://game_save.txt``."
+msgstr ""
+"在这种情况下，应该通过使用 ``user://`` 前缀来存储持久文件，例如 ``user://"
+"game_save.txt`` 。"
+
+#: ../../docs/tutorials/io/data_paths.rst:36
+msgid ""
+"On some devices (for example, mobile and consoles), this path is unique to "
+"the project. On desktop operating systems, the engine uses the typical ``~/."
+"local/share/godot/app_userdata/Name`` on macOS and Linux, and ``%APPDATA%/"
+"Name`` on Windows. ``Name`` is taken from the application name defined in "
+"the Project Settings, but it can be overridden on a per-platform basis "
+"using :ref:`feature tags <doc_feature_tags>`."
+msgstr ""
+"在某些设备(例如，移动设备和游戏机)上，对项目来说此路径是唯一的。 在桌面操作系"
+"统上，引擎在macOS和Linux上使用典型的 ``~/.local/share/godot/app_userdata/"
+"Name`` 路径，在Windows上使用 ``%APPDATA%/Name`` 路径来表示用户路径。 "
+"``Name`` 取自项目设置中定义的应用程序名称，但它可被 :ref:`feature tags "
+"<doc_feature_tags>` 命令覆写 。"
+
+#: ../../docs/tutorials/io/data_paths.rst:45
+#, fuzzy
+msgid "Editor data paths"
+msgstr "数据路径"
+
+#: ../../docs/tutorials/io/data_paths.rst:47
+msgid ""
+"The editor uses different paths for user data, user settings and cache "
+"depending on the platform. By default, these paths are:"
+msgstr ""
+"编辑器根据平台使用不同的路径来存储用户数据，用户设置和缓存。 默认情况下，这些"
+"路径是："
+
+#: ../../docs/tutorials/io/data_paths.rst:51
+msgid "Type"
+msgstr "类型"
+
+#: ../../docs/tutorials/io/data_paths.rst:51
+msgid "Location"
+msgstr "位置"
+
+#: ../../docs/tutorials/io/data_paths.rst:53
+#, fuzzy
+msgid "User data"
+msgstr "用户路径"
+
+#: ../../docs/tutorials/io/data_paths.rst:53
+#: ../../docs/tutorials/io/data_paths.rst:57
+#, fuzzy
+msgid "Windows: ``%APPDATA%\\Godot\\``"
+msgstr "Windows: ``%APPDATA%\\Godot\\templates\\<version>\\``"
+
+#: ../../docs/tutorials/io/data_paths.rst:54
+#: ../../docs/tutorials/io/data_paths.rst:58
+#, fuzzy
+msgid "macOS: ``~/Library/Application Support/Godot/``"
+msgstr ""
+"macOS: ``$HOME/Library/Application Support/Godot/templates/<version>/``"
+
+#: ../../docs/tutorials/io/data_paths.rst:55
+#, fuzzy
+msgid "Linux: ``~/.local/share/godot/``"
+msgstr "Linux: ``$HOME/.local/share/godot/templates/<version>/``"
+
+#: ../../docs/tutorials/io/data_paths.rst:57
+#, fuzzy
+msgid "User settings"
+msgstr "跟踪设置"
+
+#: ../../docs/tutorials/io/data_paths.rst:59
+msgid "Linux: ``~/.config/godot/``"
+msgstr "Linux: ``~/.config/godot/``"
+
+#: ../../docs/tutorials/io/data_paths.rst:61
+msgid "Cache"
+msgstr "缓存"
+
+#: ../../docs/tutorials/io/data_paths.rst:61
+#, fuzzy
+msgid "Windows: ``%TEMP%\\Godot\\``"
+msgstr "Windows: ``%APPDATA%\\Godot\\templates\\<version>\\``"
+
+#: ../../docs/tutorials/io/data_paths.rst:62
+msgid "macOS: ``~/Library/Caches/Godot/``"
+msgstr "macOS: ``~/Library/Caches/Godot/``"
+
+#: ../../docs/tutorials/io/data_paths.rst:63
+msgid "Linux: ``~/.cache/godot/``"
+msgstr "Linux: ``~/.cache/godot/``"
+
+#: ../../docs/tutorials/io/data_paths.rst:66
+msgid "**User data** contains export templates and project-specific data."
+msgstr "**User data用户数据**包含导出模板和具体项目数据。"
+
+#: ../../docs/tutorials/io/data_paths.rst:67
+msgid ""
+"**User settings** contains editor settings, text editor themes, script "
+"templates, etc."
+msgstr "**User settings用户设置**包含编辑器设置、文本编辑器主题、脚本模板等。"
+
+#: ../../docs/tutorials/io/data_paths.rst:69
+msgid ""
+"**Cache** contains temporary data. It can safely be removed when Godot is "
+"closed."
+msgstr "**Cache缓存**包含临时数据。当Godot关闭时，它可以被安全地移除。"
+
+#: ../../docs/tutorials/io/data_paths.rst:72
+msgid ""
+"Godot complies with the `XDG Base Directory Specification <https://"
+"specifications.freedesktop.org/basedir-spec/basedir-spec-latest.html>`__ on "
+"all platforms. Environment variables can be overridden as per the "
+"specification to change the editor (and project) data paths."
+msgstr ""
+"Godot在所有平台上都遵守`XDG基本目录规范<https://specifications.freedesktop."
+"org/basedir-spec/basedir-spec-latest.html>`__。可以根据规范覆盖环境变量，以更"
+"改编辑器(和项目)数据路径。"
+
+#: ../../docs/tutorials/io/data_paths.rst:77
+msgid ""
+"If you use `Godot packaged as a Flatpak <https://flathub.org/apps/details/"
+"org.godotengine.Godot>`__, the editor data paths will be located in "
+"subfolders in ``~/.var/app/org.godotengine.Godot/``."
+msgstr ""
+"如果您使用`Godot打包为flatpak<https://flathub.org/apps/details/org."
+"godotengine.Godot>`__，，编辑器数据路径将位于``~/.var/app/org.godotengine."
+"godot/`下的子文件夹中。"
+
+#: ../../docs/tutorials/io/data_paths.rst:85
+#, fuzzy
+msgid "Self-contained mode"
+msgstr "自包含模式"
+
+#: ../../docs/tutorials/io/data_paths.rst:87
+msgid ""
+"If you create a file called ``._sc_`` or ``_sc_`` in the same directory as "
+"the editor binary, Godot will enable *self-contained mode*. This will make "
+"Godot write all user data to a directory named ``editor_data/`` in the same "
+"directory as the editor binary. This is useful to create a \"portable\" "
+"installation, which can then be placed on an USB drive."
+msgstr ""
+"如果您在编辑器二进制文件所在的目录下创建了名为``._sc_``或``_sc_``的文件，则"
+"Godot会开启*自带模式*。这将使Godot将所有用户数据写入与编辑器二进制文件位于同"
+"一目录中的名为``EDITOR_DATA/``的目录。这对于创建“便携”安装非常有用，然后可以"
+"将其放在USB驱动器上。"
+
+#: ../../docs/tutorials/io/data_paths.rst:93
+msgid ""
+"The `Steam release of Godot <https://store.steampowered.com/app/404790/>`__ "
+"uses self-contained mode by default."
+msgstr ""
+"Godot<https://store.steampowered.com/app/404790/>`__的`steam版默认使用自包含"
+"模式。"

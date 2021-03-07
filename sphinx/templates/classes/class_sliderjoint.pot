@@ -1,0 +1,648 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_sliderjoint.rst:10
+msgid "SliderJoint"
+msgstr ""
+
+#: ../../docs/classes/class_sliderjoint.rst:12
+msgid "**Inherits:** :ref:`Joint<class_Joint>` **<** :ref:`Spatial<class_Spatial>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_sliderjoint.rst:14
+msgid "Slider between two PhysicsBodies in 3D."
+msgstr ""
+
+#: ../../docs/classes/class_sliderjoint.rst:17
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_sliderjoint.rst:19
+msgid "Slides across the X axis of the pivot object. See also :ref:`Generic6DOFJoint<class_Generic6DOFJoint>`."
+msgstr ""
+
+#: ../../docs/classes/class_sliderjoint.rst:22
+msgid "Properties"
+msgstr ""
+
+#: ../../docs/classes/class_sliderjoint.rst:25
+#: ../../docs/classes/class_sliderjoint.rst:27
+#: ../../docs/classes/class_sliderjoint.rst:29
+#: ../../docs/classes/class_sliderjoint.rst:31
+#: ../../docs/classes/class_sliderjoint.rst:33
+#: ../../docs/classes/class_sliderjoint.rst:35
+#: ../../docs/classes/class_sliderjoint.rst:37
+#: ../../docs/classes/class_sliderjoint.rst:39
+#: ../../docs/classes/class_sliderjoint.rst:41
+#: ../../docs/classes/class_sliderjoint.rst:43
+#: ../../docs/classes/class_sliderjoint.rst:45
+#: ../../docs/classes/class_sliderjoint.rst:47
+#: ../../docs/classes/class_sliderjoint.rst:49
+#: ../../docs/classes/class_sliderjoint.rst:51
+#: ../../docs/classes/class_sliderjoint.rst:53
+#: ../../docs/classes/class_sliderjoint.rst:55
+#: ../../docs/classes/class_sliderjoint.rst:57
+#: ../../docs/classes/class_sliderjoint.rst:59
+#: ../../docs/classes/class_sliderjoint.rst:61
+#: ../../docs/classes/class_sliderjoint.rst:63
+#: ../../docs/classes/class_sliderjoint.rst:65
+#: ../../docs/classes/class_sliderjoint.rst:67
+#: ../../docs/classes/class_sliderjoint.rst:74
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../../docs/classes/class_sliderjoint.rst:25
+msgid ":ref:`angular_limit/damping<class_SliderJoint_property_angular_limit/damping>`"
+msgstr ""
+
+#: ../../docs/classes/class_sliderjoint.rst:25
+#: ../../docs/classes/class_sliderjoint.rst:27
+#: ../../docs/classes/class_sliderjoint.rst:33
+#: ../../docs/classes/class_sliderjoint.rst:57
+#: ../../docs/classes/class_sliderjoint.rst:186
+#: ../../docs/classes/class_sliderjoint.rst:204
+#: ../../docs/classes/class_sliderjoint.rst:252
+#: ../../docs/classes/class_sliderjoint.rst:440
+msgid "``0.0``"
+msgstr ""
+
+#: ../../docs/classes/class_sliderjoint.rst:27
+msgid ":ref:`angular_limit/lower_angle<class_SliderJoint_property_angular_limit/lower_angle>`"
+msgstr ""
+
+#: ../../docs/classes/class_sliderjoint.rst:29
+msgid ":ref:`angular_limit/restitution<class_SliderJoint_property_angular_limit/restitution>`"
+msgstr ""
+
+#: ../../docs/classes/class_sliderjoint.rst:29
+#: ../../docs/classes/class_sliderjoint.rst:37
+#: ../../docs/classes/class_sliderjoint.rst:43
+#: ../../docs/classes/class_sliderjoint.rst:51
+#: ../../docs/classes/class_sliderjoint.rst:59
+#: ../../docs/classes/class_sliderjoint.rst:65
+#: ../../docs/classes/class_sliderjoint.rst:216
+#: ../../docs/classes/class_sliderjoint.rst:280
+#: ../../docs/classes/class_sliderjoint.rst:328
+#: ../../docs/classes/class_sliderjoint.rst:392
+#: ../../docs/classes/class_sliderjoint.rst:456
+#: ../../docs/classes/class_sliderjoint.rst:504
+msgid "``0.7``"
+msgstr ""
+
+#: ../../docs/classes/class_sliderjoint.rst:31
+msgid ":ref:`angular_limit/softness<class_SliderJoint_property_angular_limit/softness>`"
+msgstr ""
+
+#: ../../docs/classes/class_sliderjoint.rst:31
+#: ../../docs/classes/class_sliderjoint.rst:35
+#: ../../docs/classes/class_sliderjoint.rst:39
+#: ../../docs/classes/class_sliderjoint.rst:41
+#: ../../docs/classes/class_sliderjoint.rst:45
+#: ../../docs/classes/class_sliderjoint.rst:47
+#: ../../docs/classes/class_sliderjoint.rst:53
+#: ../../docs/classes/class_sliderjoint.rst:55
+#: ../../docs/classes/class_sliderjoint.rst:61
+#: ../../docs/classes/class_sliderjoint.rst:63
+#: ../../docs/classes/class_sliderjoint.rst:67
+#: ../../docs/classes/class_sliderjoint.rst:234
+#: ../../docs/classes/class_sliderjoint.rst:264
+#: ../../docs/classes/class_sliderjoint.rst:296
+#: ../../docs/classes/class_sliderjoint.rst:312
+#: ../../docs/classes/class_sliderjoint.rst:344
+#: ../../docs/classes/class_sliderjoint.rst:360
+#: ../../docs/classes/class_sliderjoint.rst:408
+#: ../../docs/classes/class_sliderjoint.rst:424
+#: ../../docs/classes/class_sliderjoint.rst:472
+#: ../../docs/classes/class_sliderjoint.rst:488
+#: ../../docs/classes/class_sliderjoint.rst:520
+msgid "``1.0``"
+msgstr ""
+
+#: ../../docs/classes/class_sliderjoint.rst:33
+msgid ":ref:`angular_limit/upper_angle<class_SliderJoint_property_angular_limit/upper_angle>`"
+msgstr ""
+
+#: ../../docs/classes/class_sliderjoint.rst:35
+msgid ":ref:`angular_motion/damping<class_SliderJoint_property_angular_motion/damping>`"
+msgstr ""
+
+#: ../../docs/classes/class_sliderjoint.rst:37
+msgid ":ref:`angular_motion/restitution<class_SliderJoint_property_angular_motion/restitution>`"
+msgstr ""
+
+#: ../../docs/classes/class_sliderjoint.rst:39
+msgid ":ref:`angular_motion/softness<class_SliderJoint_property_angular_motion/softness>`"
+msgstr ""
+
+#: ../../docs/classes/class_sliderjoint.rst:41
+msgid ":ref:`angular_ortho/damping<class_SliderJoint_property_angular_ortho/damping>`"
+msgstr ""
+
+#: ../../docs/classes/class_sliderjoint.rst:43
+msgid ":ref:`angular_ortho/restitution<class_SliderJoint_property_angular_ortho/restitution>`"
+msgstr ""
+
+#: ../../docs/classes/class_sliderjoint.rst:45
+msgid ":ref:`angular_ortho/softness<class_SliderJoint_property_angular_ortho/softness>`"
+msgstr ""
+
+#: ../../docs/classes/class_sliderjoint.rst:47
+msgid ":ref:`linear_limit/damping<class_SliderJoint_property_linear_limit/damping>`"
+msgstr ""
+
+#: ../../docs/classes/class_sliderjoint.rst:49
+msgid ":ref:`linear_limit/lower_distance<class_SliderJoint_property_linear_limit/lower_distance>`"
+msgstr ""
+
+#: ../../docs/classes/class_sliderjoint.rst:49
+#: ../../docs/classes/class_sliderjoint.rst:376
+msgid "``-1.0``"
+msgstr ""
+
+#: ../../docs/classes/class_sliderjoint.rst:51
+msgid ":ref:`linear_limit/restitution<class_SliderJoint_property_linear_limit/restitution>`"
+msgstr ""
+
+#: ../../docs/classes/class_sliderjoint.rst:53
+msgid ":ref:`linear_limit/softness<class_SliderJoint_property_linear_limit/softness>`"
+msgstr ""
+
+#: ../../docs/classes/class_sliderjoint.rst:55
+msgid ":ref:`linear_limit/upper_distance<class_SliderJoint_property_linear_limit/upper_distance>`"
+msgstr ""
+
+#: ../../docs/classes/class_sliderjoint.rst:57
+msgid ":ref:`linear_motion/damping<class_SliderJoint_property_linear_motion/damping>`"
+msgstr ""
+
+#: ../../docs/classes/class_sliderjoint.rst:59
+msgid ":ref:`linear_motion/restitution<class_SliderJoint_property_linear_motion/restitution>`"
+msgstr ""
+
+#: ../../docs/classes/class_sliderjoint.rst:61
+msgid ":ref:`linear_motion/softness<class_SliderJoint_property_linear_motion/softness>`"
+msgstr ""
+
+#: ../../docs/classes/class_sliderjoint.rst:63
+msgid ":ref:`linear_ortho/damping<class_SliderJoint_property_linear_ortho/damping>`"
+msgstr ""
+
+#: ../../docs/classes/class_sliderjoint.rst:65
+msgid ":ref:`linear_ortho/restitution<class_SliderJoint_property_linear_ortho/restitution>`"
+msgstr ""
+
+#: ../../docs/classes/class_sliderjoint.rst:67
+msgid ":ref:`linear_ortho/softness<class_SliderJoint_property_linear_ortho/softness>`"
+msgstr ""
+
+#: ../../docs/classes/class_sliderjoint.rst:71
+msgid "Methods"
+msgstr ""
+
+#: ../../docs/classes/class_sliderjoint.rst:74
+msgid ":ref:`get_param<class_SliderJoint_method_get_param>` **(** :ref:`Param<enum_SliderJoint_Param>` param **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_sliderjoint.rst:76
+msgid "void"
+msgstr ""
+
+#: ../../docs/classes/class_sliderjoint.rst:76
+msgid ":ref:`set_param<class_SliderJoint_method_set_param>` **(** :ref:`Param<enum_SliderJoint_Param>` param, :ref:`float<class_float>` value **)**"
+msgstr ""
+
+#: ../../docs/classes/class_sliderjoint.rst:80
+msgid "Enumerations"
+msgstr ""
+
+#: ../../docs/classes/class_sliderjoint.rst:130
+msgid "enum **Param**:"
+msgstr ""
+
+#: ../../docs/classes/class_sliderjoint.rst:132
+msgid "**PARAM_LINEAR_LIMIT_UPPER** = **0** --- The maximum difference between the pivot points on their X axis before damping happens."
+msgstr ""
+
+#: ../../docs/classes/class_sliderjoint.rst:134
+msgid "**PARAM_LINEAR_LIMIT_LOWER** = **1** --- The minimum difference between the pivot points on their X axis before damping happens."
+msgstr ""
+
+#: ../../docs/classes/class_sliderjoint.rst:136
+msgid "**PARAM_LINEAR_LIMIT_SOFTNESS** = **2** --- A factor applied to the movement across the slider axis once the limits get surpassed. The lower, the slower the movement."
+msgstr ""
+
+#: ../../docs/classes/class_sliderjoint.rst:138
+msgid "**PARAM_LINEAR_LIMIT_RESTITUTION** = **3** --- The amount of restitution once the limits are surpassed. The lower, the more velocityenergy gets lost."
+msgstr ""
+
+#: ../../docs/classes/class_sliderjoint.rst:140
+msgid "**PARAM_LINEAR_LIMIT_DAMPING** = **4** --- The amount of damping once the slider limits are surpassed."
+msgstr ""
+
+#: ../../docs/classes/class_sliderjoint.rst:142
+msgid "**PARAM_LINEAR_MOTION_SOFTNESS** = **5** --- A factor applied to the movement across the slider axis as long as the slider is in the limits. The lower, the slower the movement."
+msgstr ""
+
+#: ../../docs/classes/class_sliderjoint.rst:144
+msgid "**PARAM_LINEAR_MOTION_RESTITUTION** = **6** --- The amount of restitution inside the slider limits."
+msgstr ""
+
+#: ../../docs/classes/class_sliderjoint.rst:146
+msgid "**PARAM_LINEAR_MOTION_DAMPING** = **7** --- The amount of damping inside the slider limits."
+msgstr ""
+
+#: ../../docs/classes/class_sliderjoint.rst:148
+msgid "**PARAM_LINEAR_ORTHOGONAL_SOFTNESS** = **8** --- A factor applied to the movement across axes orthogonal to the slider."
+msgstr ""
+
+#: ../../docs/classes/class_sliderjoint.rst:150
+msgid "**PARAM_LINEAR_ORTHOGONAL_RESTITUTION** = **9** --- The amount of restitution when movement is across axes orthogonal to the slider."
+msgstr ""
+
+#: ../../docs/classes/class_sliderjoint.rst:152
+msgid "**PARAM_LINEAR_ORTHOGONAL_DAMPING** = **10** --- The amount of damping when movement is across axes orthogonal to the slider."
+msgstr ""
+
+#: ../../docs/classes/class_sliderjoint.rst:154
+msgid "**PARAM_ANGULAR_LIMIT_UPPER** = **11** --- The upper limit of rotation in the slider."
+msgstr ""
+
+#: ../../docs/classes/class_sliderjoint.rst:156
+msgid "**PARAM_ANGULAR_LIMIT_LOWER** = **12** --- The lower limit of rotation in the slider."
+msgstr ""
+
+#: ../../docs/classes/class_sliderjoint.rst:158
+msgid "**PARAM_ANGULAR_LIMIT_SOFTNESS** = **13** --- A factor applied to the all rotation once the limit is surpassed."
+msgstr ""
+
+#: ../../docs/classes/class_sliderjoint.rst:160
+msgid "**PARAM_ANGULAR_LIMIT_RESTITUTION** = **14** --- The amount of restitution of the rotation when the limit is surpassed."
+msgstr ""
+
+#: ../../docs/classes/class_sliderjoint.rst:162
+msgid "**PARAM_ANGULAR_LIMIT_DAMPING** = **15** --- The amount of damping of the rotation when the limit is surpassed."
+msgstr ""
+
+#: ../../docs/classes/class_sliderjoint.rst:164
+msgid "**PARAM_ANGULAR_MOTION_SOFTNESS** = **16** --- A factor applied to the all rotation in the limits."
+msgstr ""
+
+#: ../../docs/classes/class_sliderjoint.rst:166
+msgid "**PARAM_ANGULAR_MOTION_RESTITUTION** = **17** --- The amount of restitution of the rotation in the limits."
+msgstr ""
+
+#: ../../docs/classes/class_sliderjoint.rst:168
+msgid "**PARAM_ANGULAR_MOTION_DAMPING** = **18** --- The amount of damping of the rotation in the limits."
+msgstr ""
+
+#: ../../docs/classes/class_sliderjoint.rst:170
+msgid "**PARAM_ANGULAR_ORTHOGONAL_SOFTNESS** = **19** --- A factor applied to the all rotation across axes orthogonal to the slider."
+msgstr ""
+
+#: ../../docs/classes/class_sliderjoint.rst:172
+msgid "**PARAM_ANGULAR_ORTHOGONAL_RESTITUTION** = **20** --- The amount of restitution of the rotation across axes orthogonal to the slider."
+msgstr ""
+
+#: ../../docs/classes/class_sliderjoint.rst:174
+msgid "**PARAM_ANGULAR_ORTHOGONAL_DAMPING** = **21** --- The amount of damping of the rotation across axes orthogonal to the slider."
+msgstr ""
+
+#: ../../docs/classes/class_sliderjoint.rst:176
+msgid "**PARAM_MAX** = **22** --- Represents the size of the :ref:`Param<enum_SliderJoint_Param>` enum."
+msgstr ""
+
+#: ../../docs/classes/class_sliderjoint.rst:179
+msgid "Property Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_sliderjoint.rst:183
+msgid ":ref:`float<class_float>` **angular_limit/damping**"
+msgstr ""
+
+#: ../../docs/classes/class_sliderjoint.rst:186
+#: ../../docs/classes/class_sliderjoint.rst:204
+#: ../../docs/classes/class_sliderjoint.rst:216
+#: ../../docs/classes/class_sliderjoint.rst:234
+#: ../../docs/classes/class_sliderjoint.rst:252
+#: ../../docs/classes/class_sliderjoint.rst:264
+#: ../../docs/classes/class_sliderjoint.rst:280
+#: ../../docs/classes/class_sliderjoint.rst:296
+#: ../../docs/classes/class_sliderjoint.rst:312
+#: ../../docs/classes/class_sliderjoint.rst:328
+#: ../../docs/classes/class_sliderjoint.rst:344
+#: ../../docs/classes/class_sliderjoint.rst:360
+#: ../../docs/classes/class_sliderjoint.rst:376
+#: ../../docs/classes/class_sliderjoint.rst:392
+#: ../../docs/classes/class_sliderjoint.rst:408
+#: ../../docs/classes/class_sliderjoint.rst:424
+#: ../../docs/classes/class_sliderjoint.rst:440
+#: ../../docs/classes/class_sliderjoint.rst:456
+#: ../../docs/classes/class_sliderjoint.rst:472
+#: ../../docs/classes/class_sliderjoint.rst:488
+#: ../../docs/classes/class_sliderjoint.rst:504
+#: ../../docs/classes/class_sliderjoint.rst:520
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_sliderjoint.rst:188
+#: ../../docs/classes/class_sliderjoint.rst:218
+#: ../../docs/classes/class_sliderjoint.rst:236
+#: ../../docs/classes/class_sliderjoint.rst:266
+#: ../../docs/classes/class_sliderjoint.rst:282
+#: ../../docs/classes/class_sliderjoint.rst:298
+#: ../../docs/classes/class_sliderjoint.rst:314
+#: ../../docs/classes/class_sliderjoint.rst:330
+#: ../../docs/classes/class_sliderjoint.rst:346
+#: ../../docs/classes/class_sliderjoint.rst:362
+#: ../../docs/classes/class_sliderjoint.rst:378
+#: ../../docs/classes/class_sliderjoint.rst:394
+#: ../../docs/classes/class_sliderjoint.rst:410
+#: ../../docs/classes/class_sliderjoint.rst:426
+#: ../../docs/classes/class_sliderjoint.rst:442
+#: ../../docs/classes/class_sliderjoint.rst:458
+#: ../../docs/classes/class_sliderjoint.rst:474
+#: ../../docs/classes/class_sliderjoint.rst:490
+#: ../../docs/classes/class_sliderjoint.rst:506
+#: ../../docs/classes/class_sliderjoint.rst:522
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_sliderjoint.rst:188
+#: ../../docs/classes/class_sliderjoint.rst:218
+#: ../../docs/classes/class_sliderjoint.rst:236
+#: ../../docs/classes/class_sliderjoint.rst:266
+#: ../../docs/classes/class_sliderjoint.rst:282
+#: ../../docs/classes/class_sliderjoint.rst:298
+#: ../../docs/classes/class_sliderjoint.rst:314
+#: ../../docs/classes/class_sliderjoint.rst:330
+#: ../../docs/classes/class_sliderjoint.rst:346
+#: ../../docs/classes/class_sliderjoint.rst:362
+#: ../../docs/classes/class_sliderjoint.rst:378
+#: ../../docs/classes/class_sliderjoint.rst:394
+#: ../../docs/classes/class_sliderjoint.rst:410
+#: ../../docs/classes/class_sliderjoint.rst:426
+#: ../../docs/classes/class_sliderjoint.rst:442
+#: ../../docs/classes/class_sliderjoint.rst:458
+#: ../../docs/classes/class_sliderjoint.rst:474
+#: ../../docs/classes/class_sliderjoint.rst:490
+#: ../../docs/classes/class_sliderjoint.rst:506
+#: ../../docs/classes/class_sliderjoint.rst:522
+msgid "set_param(value)"
+msgstr ""
+
+#: ../../docs/classes/class_sliderjoint.rst:190
+#: ../../docs/classes/class_sliderjoint.rst:220
+#: ../../docs/classes/class_sliderjoint.rst:238
+#: ../../docs/classes/class_sliderjoint.rst:268
+#: ../../docs/classes/class_sliderjoint.rst:284
+#: ../../docs/classes/class_sliderjoint.rst:300
+#: ../../docs/classes/class_sliderjoint.rst:316
+#: ../../docs/classes/class_sliderjoint.rst:332
+#: ../../docs/classes/class_sliderjoint.rst:348
+#: ../../docs/classes/class_sliderjoint.rst:364
+#: ../../docs/classes/class_sliderjoint.rst:380
+#: ../../docs/classes/class_sliderjoint.rst:396
+#: ../../docs/classes/class_sliderjoint.rst:412
+#: ../../docs/classes/class_sliderjoint.rst:428
+#: ../../docs/classes/class_sliderjoint.rst:444
+#: ../../docs/classes/class_sliderjoint.rst:460
+#: ../../docs/classes/class_sliderjoint.rst:476
+#: ../../docs/classes/class_sliderjoint.rst:492
+#: ../../docs/classes/class_sliderjoint.rst:508
+#: ../../docs/classes/class_sliderjoint.rst:524
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_sliderjoint.rst:190
+#: ../../docs/classes/class_sliderjoint.rst:220
+#: ../../docs/classes/class_sliderjoint.rst:238
+#: ../../docs/classes/class_sliderjoint.rst:268
+#: ../../docs/classes/class_sliderjoint.rst:284
+#: ../../docs/classes/class_sliderjoint.rst:300
+#: ../../docs/classes/class_sliderjoint.rst:316
+#: ../../docs/classes/class_sliderjoint.rst:332
+#: ../../docs/classes/class_sliderjoint.rst:348
+#: ../../docs/classes/class_sliderjoint.rst:364
+#: ../../docs/classes/class_sliderjoint.rst:380
+#: ../../docs/classes/class_sliderjoint.rst:396
+#: ../../docs/classes/class_sliderjoint.rst:412
+#: ../../docs/classes/class_sliderjoint.rst:428
+#: ../../docs/classes/class_sliderjoint.rst:444
+#: ../../docs/classes/class_sliderjoint.rst:460
+#: ../../docs/classes/class_sliderjoint.rst:476
+#: ../../docs/classes/class_sliderjoint.rst:492
+#: ../../docs/classes/class_sliderjoint.rst:508
+#: ../../docs/classes/class_sliderjoint.rst:524
+msgid "get_param()"
+msgstr ""
+
+#: ../../docs/classes/class_sliderjoint.rst:193
+msgid "The amount of damping of the rotation when the limit is surpassed."
+msgstr ""
+
+#: ../../docs/classes/class_sliderjoint.rst:195
+msgid "A lower damping value allows a rotation initiated by body A to travel to body B slower."
+msgstr ""
+
+#: ../../docs/classes/class_sliderjoint.rst:201
+msgid ":ref:`float<class_float>` **angular_limit/lower_angle**"
+msgstr ""
+
+#: ../../docs/classes/class_sliderjoint.rst:207
+msgid "The lower limit of rotation in the slider."
+msgstr ""
+
+#: ../../docs/classes/class_sliderjoint.rst:213
+msgid ":ref:`float<class_float>` **angular_limit/restitution**"
+msgstr ""
+
+#: ../../docs/classes/class_sliderjoint.rst:223
+msgid "The amount of restitution of the rotation when the limit is surpassed."
+msgstr ""
+
+#: ../../docs/classes/class_sliderjoint.rst:225
+msgid "Does not affect damping."
+msgstr ""
+
+#: ../../docs/classes/class_sliderjoint.rst:231
+msgid ":ref:`float<class_float>` **angular_limit/softness**"
+msgstr ""
+
+#: ../../docs/classes/class_sliderjoint.rst:241
+msgid "A factor applied to the all rotation once the limit is surpassed."
+msgstr ""
+
+#: ../../docs/classes/class_sliderjoint.rst:243
+msgid "Makes all rotation slower when between 0 and 1."
+msgstr ""
+
+#: ../../docs/classes/class_sliderjoint.rst:249
+msgid ":ref:`float<class_float>` **angular_limit/upper_angle**"
+msgstr ""
+
+#: ../../docs/classes/class_sliderjoint.rst:255
+msgid "The upper limit of rotation in the slider."
+msgstr ""
+
+#: ../../docs/classes/class_sliderjoint.rst:261
+msgid ":ref:`float<class_float>` **angular_motion/damping**"
+msgstr ""
+
+#: ../../docs/classes/class_sliderjoint.rst:271
+msgid "The amount of damping of the rotation in the limits."
+msgstr ""
+
+#: ../../docs/classes/class_sliderjoint.rst:277
+msgid ":ref:`float<class_float>` **angular_motion/restitution**"
+msgstr ""
+
+#: ../../docs/classes/class_sliderjoint.rst:287
+msgid "The amount of restitution of the rotation in the limits."
+msgstr ""
+
+#: ../../docs/classes/class_sliderjoint.rst:293
+msgid ":ref:`float<class_float>` **angular_motion/softness**"
+msgstr ""
+
+#: ../../docs/classes/class_sliderjoint.rst:303
+msgid "A factor applied to the all rotation in the limits."
+msgstr ""
+
+#: ../../docs/classes/class_sliderjoint.rst:309
+msgid ":ref:`float<class_float>` **angular_ortho/damping**"
+msgstr ""
+
+#: ../../docs/classes/class_sliderjoint.rst:319
+msgid "The amount of damping of the rotation across axes orthogonal to the slider."
+msgstr ""
+
+#: ../../docs/classes/class_sliderjoint.rst:325
+msgid ":ref:`float<class_float>` **angular_ortho/restitution**"
+msgstr ""
+
+#: ../../docs/classes/class_sliderjoint.rst:335
+msgid "The amount of restitution of the rotation across axes orthogonal to the slider."
+msgstr ""
+
+#: ../../docs/classes/class_sliderjoint.rst:341
+msgid ":ref:`float<class_float>` **angular_ortho/softness**"
+msgstr ""
+
+#: ../../docs/classes/class_sliderjoint.rst:351
+msgid "A factor applied to the all rotation across axes orthogonal to the slider."
+msgstr ""
+
+#: ../../docs/classes/class_sliderjoint.rst:357
+msgid ":ref:`float<class_float>` **linear_limit/damping**"
+msgstr ""
+
+#: ../../docs/classes/class_sliderjoint.rst:367
+msgid "The amount of damping that happens once the limit defined by :ref:`linear_limit/lower_distance<class_SliderJoint_property_linear_limit/lower_distance>` and :ref:`linear_limit/upper_distance<class_SliderJoint_property_linear_limit/upper_distance>` is surpassed."
+msgstr ""
+
+#: ../../docs/classes/class_sliderjoint.rst:373
+msgid ":ref:`float<class_float>` **linear_limit/lower_distance**"
+msgstr ""
+
+#: ../../docs/classes/class_sliderjoint.rst:383
+msgid "The minimum difference between the pivot points on their X axis before damping happens."
+msgstr ""
+
+#: ../../docs/classes/class_sliderjoint.rst:389
+msgid ":ref:`float<class_float>` **linear_limit/restitution**"
+msgstr ""
+
+#: ../../docs/classes/class_sliderjoint.rst:399
+msgid "The amount of restitution once the limits are surpassed. The lower, the more velocity-energy gets lost."
+msgstr ""
+
+#: ../../docs/classes/class_sliderjoint.rst:405
+msgid ":ref:`float<class_float>` **linear_limit/softness**"
+msgstr ""
+
+#: ../../docs/classes/class_sliderjoint.rst:415
+msgid "A factor applied to the movement across the slider axis once the limits get surpassed. The lower, the slower the movement."
+msgstr ""
+
+#: ../../docs/classes/class_sliderjoint.rst:421
+msgid ":ref:`float<class_float>` **linear_limit/upper_distance**"
+msgstr ""
+
+#: ../../docs/classes/class_sliderjoint.rst:431
+msgid "The maximum difference between the pivot points on their X axis before damping happens."
+msgstr ""
+
+#: ../../docs/classes/class_sliderjoint.rst:437
+msgid ":ref:`float<class_float>` **linear_motion/damping**"
+msgstr ""
+
+#: ../../docs/classes/class_sliderjoint.rst:447
+msgid "The amount of damping inside the slider limits."
+msgstr ""
+
+#: ../../docs/classes/class_sliderjoint.rst:453
+msgid ":ref:`float<class_float>` **linear_motion/restitution**"
+msgstr ""
+
+#: ../../docs/classes/class_sliderjoint.rst:463
+msgid "The amount of restitution inside the slider limits."
+msgstr ""
+
+#: ../../docs/classes/class_sliderjoint.rst:469
+msgid ":ref:`float<class_float>` **linear_motion/softness**"
+msgstr ""
+
+#: ../../docs/classes/class_sliderjoint.rst:479
+msgid "A factor applied to the movement across the slider axis as long as the slider is in the limits. The lower, the slower the movement."
+msgstr ""
+
+#: ../../docs/classes/class_sliderjoint.rst:485
+msgid ":ref:`float<class_float>` **linear_ortho/damping**"
+msgstr ""
+
+#: ../../docs/classes/class_sliderjoint.rst:495
+msgid "The amount of damping when movement is across axes orthogonal to the slider."
+msgstr ""
+
+#: ../../docs/classes/class_sliderjoint.rst:501
+msgid ":ref:`float<class_float>` **linear_ortho/restitution**"
+msgstr ""
+
+#: ../../docs/classes/class_sliderjoint.rst:511
+msgid "The amount of restitution when movement is across axes orthogonal to the slider."
+msgstr ""
+
+#: ../../docs/classes/class_sliderjoint.rst:517
+msgid ":ref:`float<class_float>` **linear_ortho/softness**"
+msgstr ""
+
+#: ../../docs/classes/class_sliderjoint.rst:527
+msgid "A factor applied to the movement across axes orthogonal to the slider."
+msgstr ""
+
+#: ../../docs/classes/class_sliderjoint.rst:530
+msgid "Method Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_sliderjoint.rst:534
+msgid ":ref:`float<class_float>` **get_param** **(** :ref:`Param<enum_SliderJoint_Param>` param **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_sliderjoint.rst:540
+msgid "void **set_param** **(** :ref:`Param<enum_SliderJoint_Param>` param, :ref:`float<class_float>` value **)**"
+msgstr ""

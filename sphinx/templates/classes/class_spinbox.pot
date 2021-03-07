@@ -1,0 +1,240 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_spinbox.rst:10
+msgid "SpinBox"
+msgstr ""
+
+#: ../../docs/classes/class_spinbox.rst:12
+msgid "**Inherits:** :ref:`Range<class_Range>` **<** :ref:`Control<class_Control>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_spinbox.rst:14
+msgid "Numerical input text field."
+msgstr ""
+
+#: ../../docs/classes/class_spinbox.rst:17
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_spinbox.rst:19
+msgid "SpinBox is a numerical input text field. It allows entering integers and floats."
+msgstr ""
+
+#: ../../docs/classes/class_spinbox.rst:21
+msgid "**Example:**"
+msgstr ""
+
+#: ../../docs/classes/class_spinbox.rst:31
+msgid "The above code will create a ``SpinBox``, disable context menu on it and set the text alignment to right."
+msgstr ""
+
+#: ../../docs/classes/class_spinbox.rst:33
+msgid "See :ref:`Range<class_Range>` class for more options over the ``SpinBox``."
+msgstr ""
+
+#: ../../docs/classes/class_spinbox.rst:36
+msgid "Properties"
+msgstr ""
+
+#: ../../docs/classes/class_spinbox.rst:39
+msgid ":ref:`Align<enum_LineEdit_Align>`"
+msgstr ""
+
+#: ../../docs/classes/class_spinbox.rst:39
+msgid ":ref:`align<class_SpinBox_property_align>`"
+msgstr ""
+
+#: ../../docs/classes/class_spinbox.rst:39
+#: ../../docs/classes/class_spinbox.rst:72
+msgid "``0``"
+msgstr ""
+
+#: ../../docs/classes/class_spinbox.rst:41
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_spinbox.rst:41
+msgid ":ref:`editable<class_SpinBox_property_editable>`"
+msgstr ""
+
+#: ../../docs/classes/class_spinbox.rst:41
+#: ../../docs/classes/class_spinbox.rst:88
+msgid "``true``"
+msgstr ""
+
+#: ../../docs/classes/class_spinbox.rst:43
+#: ../../docs/classes/class_spinbox.rst:45
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../../docs/classes/class_spinbox.rst:43
+msgid ":ref:`prefix<class_SpinBox_property_prefix>`"
+msgstr ""
+
+#: ../../docs/classes/class_spinbox.rst:43
+#: ../../docs/classes/class_spinbox.rst:45
+#: ../../docs/classes/class_spinbox.rst:104
+#: ../../docs/classes/class_spinbox.rst:120
+msgid "``\"\"``"
+msgstr ""
+
+#: ../../docs/classes/class_spinbox.rst:45
+msgid ":ref:`suffix<class_SpinBox_property_suffix>`"
+msgstr ""
+
+#: ../../docs/classes/class_spinbox.rst:49
+msgid "Methods"
+msgstr ""
+
+#: ../../docs/classes/class_spinbox.rst:52
+msgid "void"
+msgstr ""
+
+#: ../../docs/classes/class_spinbox.rst:52
+msgid ":ref:`apply<class_SpinBox_method_apply>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_spinbox.rst:54
+msgid ":ref:`LineEdit<class_LineEdit>`"
+msgstr ""
+
+#: ../../docs/classes/class_spinbox.rst:54
+msgid ":ref:`get_line_edit<class_SpinBox_method_get_line_edit>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_spinbox.rst:58
+msgid "Theme Properties"
+msgstr ""
+
+#: ../../docs/classes/class_spinbox.rst:61
+msgid ":ref:`Texture<class_Texture>`"
+msgstr ""
+
+#: ../../docs/classes/class_spinbox.rst:61
+msgid "updown"
+msgstr ""
+
+#: ../../docs/classes/class_spinbox.rst:65
+msgid "Property Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_spinbox.rst:69
+msgid ":ref:`Align<enum_LineEdit_Align>` **align**"
+msgstr ""
+
+#: ../../docs/classes/class_spinbox.rst:72
+#: ../../docs/classes/class_spinbox.rst:88
+#: ../../docs/classes/class_spinbox.rst:104
+#: ../../docs/classes/class_spinbox.rst:120
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_spinbox.rst:74
+#: ../../docs/classes/class_spinbox.rst:90
+#: ../../docs/classes/class_spinbox.rst:106
+#: ../../docs/classes/class_spinbox.rst:122
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_spinbox.rst:74
+msgid "set_align(value)"
+msgstr ""
+
+#: ../../docs/classes/class_spinbox.rst:76
+#: ../../docs/classes/class_spinbox.rst:92
+#: ../../docs/classes/class_spinbox.rst:108
+#: ../../docs/classes/class_spinbox.rst:124
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_spinbox.rst:76
+msgid "get_align()"
+msgstr ""
+
+#: ../../docs/classes/class_spinbox.rst:79
+msgid "Sets the text alignment of the ``SpinBox``."
+msgstr ""
+
+#: ../../docs/classes/class_spinbox.rst:85
+msgid ":ref:`bool<class_bool>` **editable**"
+msgstr ""
+
+#: ../../docs/classes/class_spinbox.rst:90
+msgid "set_editable(value)"
+msgstr ""
+
+#: ../../docs/classes/class_spinbox.rst:92
+msgid "is_editable()"
+msgstr ""
+
+#: ../../docs/classes/class_spinbox.rst:95
+msgid "If ``true``, the ``SpinBox`` will be editable. Otherwise, it will be read only."
+msgstr ""
+
+#: ../../docs/classes/class_spinbox.rst:101
+msgid ":ref:`String<class_String>` **prefix**"
+msgstr ""
+
+#: ../../docs/classes/class_spinbox.rst:106
+msgid "set_prefix(value)"
+msgstr ""
+
+#: ../../docs/classes/class_spinbox.rst:108
+msgid "get_prefix()"
+msgstr ""
+
+#: ../../docs/classes/class_spinbox.rst:111
+msgid "Adds the specified ``prefix`` string before the numerical value of the ``SpinBox``."
+msgstr ""
+
+#: ../../docs/classes/class_spinbox.rst:117
+msgid ":ref:`String<class_String>` **suffix**"
+msgstr ""
+
+#: ../../docs/classes/class_spinbox.rst:122
+msgid "set_suffix(value)"
+msgstr ""
+
+#: ../../docs/classes/class_spinbox.rst:124
+msgid "get_suffix()"
+msgstr ""
+
+#: ../../docs/classes/class_spinbox.rst:127
+msgid "Adds the specified ``suffix`` string after the numerical value of the ``SpinBox``."
+msgstr ""
+
+#: ../../docs/classes/class_spinbox.rst:130
+msgid "Method Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_spinbox.rst:134
+msgid "void **apply** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_spinbox.rst:136
+msgid "Applies the current value of this ``SpinBox``."
+msgstr ""
+
+#: ../../docs/classes/class_spinbox.rst:142
+msgid ":ref:`LineEdit<class_LineEdit>` **get_line_edit** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_spinbox.rst:144
+msgid "Returns the :ref:`LineEdit<class_LineEdit>` instance from this ``SpinBox``. You can use it to access properties and methods of :ref:`LineEdit<class_LineEdit>`."
+msgstr ""

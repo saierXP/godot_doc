@@ -1,0 +1,292 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_kinematiccollision2d.rst:10
+msgid "KinematicCollision2D"
+msgstr ""
+
+#: ../../docs/classes/class_kinematiccollision2d.rst:12
+msgid "**Inherits:** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_kinematiccollision2d.rst:14
+msgid "Collision data for :ref:`KinematicBody2D<class_KinematicBody2D>` collisions."
+msgstr ""
+
+#: ../../docs/classes/class_kinematiccollision2d.rst:17
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_kinematiccollision2d.rst:19
+msgid "Contains collision data for :ref:`KinematicBody2D<class_KinematicBody2D>` collisions. When a :ref:`KinematicBody2D<class_KinematicBody2D>` is moved using :ref:`KinematicBody2D.move_and_collide<class_KinematicBody2D_method_move_and_collide>`, it stops if it detects a collision with another body. If a collision is detected, a KinematicCollision2D object is returned."
+msgstr ""
+
+#: ../../docs/classes/class_kinematiccollision2d.rst:21
+msgid "This object contains information about the collision, including the colliding object, the remaining motion, and the collision position. This information can be used to calculate a collision response."
+msgstr ""
+
+#: ../../docs/classes/class_kinematiccollision2d.rst:24
+msgid "Properties"
+msgstr ""
+
+#: ../../docs/classes/class_kinematiccollision2d.rst:27
+#: ../../docs/classes/class_kinematiccollision2d.rst:33
+#: ../../docs/classes/class_kinematiccollision2d.rst:39
+msgid ":ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_kinematiccollision2d.rst:27
+msgid ":ref:`collider<class_KinematicCollision2D_property_collider>`"
+msgstr ""
+
+#: ../../docs/classes/class_kinematiccollision2d.rst:29
+#: ../../docs/classes/class_kinematiccollision2d.rst:35
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../../docs/classes/class_kinematiccollision2d.rst:29
+msgid ":ref:`collider_id<class_KinematicCollision2D_property_collider_id>`"
+msgstr ""
+
+#: ../../docs/classes/class_kinematiccollision2d.rst:29
+#: ../../docs/classes/class_kinematiccollision2d.rst:35
+#: ../../docs/classes/class_kinematiccollision2d.rst:70
+#: ../../docs/classes/class_kinematiccollision2d.rst:108
+msgid "``0``"
+msgstr ""
+
+#: ../../docs/classes/class_kinematiccollision2d.rst:31
+msgid ":ref:`Variant<class_Variant>`"
+msgstr ""
+
+#: ../../docs/classes/class_kinematiccollision2d.rst:31
+msgid ":ref:`collider_metadata<class_KinematicCollision2D_property_collider_metadata>`"
+msgstr ""
+
+#: ../../docs/classes/class_kinematiccollision2d.rst:33
+msgid ":ref:`collider_shape<class_KinematicCollision2D_property_collider_shape>`"
+msgstr ""
+
+#: ../../docs/classes/class_kinematiccollision2d.rst:35
+msgid ":ref:`collider_shape_index<class_KinematicCollision2D_property_collider_shape_index>`"
+msgstr ""
+
+#: ../../docs/classes/class_kinematiccollision2d.rst:37
+#: ../../docs/classes/class_kinematiccollision2d.rst:41
+#: ../../docs/classes/class_kinematiccollision2d.rst:43
+#: ../../docs/classes/class_kinematiccollision2d.rst:45
+#: ../../docs/classes/class_kinematiccollision2d.rst:47
+msgid ":ref:`Vector2<class_Vector2>`"
+msgstr ""
+
+#: ../../docs/classes/class_kinematiccollision2d.rst:37
+msgid ":ref:`collider_velocity<class_KinematicCollision2D_property_collider_velocity>`"
+msgstr ""
+
+#: ../../docs/classes/class_kinematiccollision2d.rst:37
+#: ../../docs/classes/class_kinematiccollision2d.rst:41
+#: ../../docs/classes/class_kinematiccollision2d.rst:43
+#: ../../docs/classes/class_kinematiccollision2d.rst:45
+#: ../../docs/classes/class_kinematiccollision2d.rst:47
+#: ../../docs/classes/class_kinematiccollision2d.rst:122
+#: ../../docs/classes/class_kinematiccollision2d.rst:148
+#: ../../docs/classes/class_kinematiccollision2d.rst:162
+#: ../../docs/classes/class_kinematiccollision2d.rst:176
+#: ../../docs/classes/class_kinematiccollision2d.rst:190
+msgid "``Vector2( 0, 0 )``"
+msgstr ""
+
+#: ../../docs/classes/class_kinematiccollision2d.rst:39
+msgid ":ref:`local_shape<class_KinematicCollision2D_property_local_shape>`"
+msgstr ""
+
+#: ../../docs/classes/class_kinematiccollision2d.rst:41
+msgid ":ref:`normal<class_KinematicCollision2D_property_normal>`"
+msgstr ""
+
+#: ../../docs/classes/class_kinematiccollision2d.rst:43
+msgid ":ref:`position<class_KinematicCollision2D_property_position>`"
+msgstr ""
+
+#: ../../docs/classes/class_kinematiccollision2d.rst:45
+msgid ":ref:`remainder<class_KinematicCollision2D_property_remainder>`"
+msgstr ""
+
+#: ../../docs/classes/class_kinematiccollision2d.rst:47
+msgid ":ref:`travel<class_KinematicCollision2D_property_travel>`"
+msgstr ""
+
+#: ../../docs/classes/class_kinematiccollision2d.rst:51
+msgid "Property Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_kinematiccollision2d.rst:55
+msgid ":ref:`Object<class_Object>` **collider**"
+msgstr ""
+
+#: ../../docs/classes/class_kinematiccollision2d.rst:58
+#: ../../docs/classes/class_kinematiccollision2d.rst:72
+#: ../../docs/classes/class_kinematiccollision2d.rst:84
+#: ../../docs/classes/class_kinematiccollision2d.rst:96
+#: ../../docs/classes/class_kinematiccollision2d.rst:110
+#: ../../docs/classes/class_kinematiccollision2d.rst:124
+#: ../../docs/classes/class_kinematiccollision2d.rst:136
+#: ../../docs/classes/class_kinematiccollision2d.rst:150
+#: ../../docs/classes/class_kinematiccollision2d.rst:164
+#: ../../docs/classes/class_kinematiccollision2d.rst:178
+#: ../../docs/classes/class_kinematiccollision2d.rst:192
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_kinematiccollision2d.rst:58
+msgid "get_collider()"
+msgstr ""
+
+#: ../../docs/classes/class_kinematiccollision2d.rst:61
+msgid "The colliding body."
+msgstr ""
+
+#: ../../docs/classes/class_kinematiccollision2d.rst:67
+msgid ":ref:`int<class_int>` **collider_id**"
+msgstr ""
+
+#: ../../docs/classes/class_kinematiccollision2d.rst:70
+#: ../../docs/classes/class_kinematiccollision2d.rst:108
+#: ../../docs/classes/class_kinematiccollision2d.rst:122
+#: ../../docs/classes/class_kinematiccollision2d.rst:148
+#: ../../docs/classes/class_kinematiccollision2d.rst:162
+#: ../../docs/classes/class_kinematiccollision2d.rst:176
+#: ../../docs/classes/class_kinematiccollision2d.rst:190
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_kinematiccollision2d.rst:72
+msgid "get_collider_id()"
+msgstr ""
+
+#: ../../docs/classes/class_kinematiccollision2d.rst:75
+msgid "The colliding body's unique instance ID. See :ref:`Object.get_instance_id<class_Object_method_get_instance_id>`."
+msgstr ""
+
+#: ../../docs/classes/class_kinematiccollision2d.rst:81
+msgid ":ref:`Variant<class_Variant>` **collider_metadata**"
+msgstr ""
+
+#: ../../docs/classes/class_kinematiccollision2d.rst:84
+msgid "get_collider_metadata()"
+msgstr ""
+
+#: ../../docs/classes/class_kinematiccollision2d.rst:87
+msgid "The colliding body's metadata. See :ref:`Object<class_Object>`."
+msgstr ""
+
+#: ../../docs/classes/class_kinematiccollision2d.rst:93
+msgid ":ref:`Object<class_Object>` **collider_shape**"
+msgstr ""
+
+#: ../../docs/classes/class_kinematiccollision2d.rst:96
+msgid "get_collider_shape()"
+msgstr ""
+
+#: ../../docs/classes/class_kinematiccollision2d.rst:99
+msgid "The colliding body's shape."
+msgstr ""
+
+#: ../../docs/classes/class_kinematiccollision2d.rst:105
+msgid ":ref:`int<class_int>` **collider_shape_index**"
+msgstr ""
+
+#: ../../docs/classes/class_kinematiccollision2d.rst:110
+msgid "get_collider_shape_index()"
+msgstr ""
+
+#: ../../docs/classes/class_kinematiccollision2d.rst:113
+msgid "The colliding shape's index. See :ref:`CollisionObject2D<class_CollisionObject2D>`."
+msgstr ""
+
+#: ../../docs/classes/class_kinematiccollision2d.rst:119
+msgid ":ref:`Vector2<class_Vector2>` **collider_velocity**"
+msgstr ""
+
+#: ../../docs/classes/class_kinematiccollision2d.rst:124
+msgid "get_collider_velocity()"
+msgstr ""
+
+#: ../../docs/classes/class_kinematiccollision2d.rst:127
+msgid "The colliding object's velocity."
+msgstr ""
+
+#: ../../docs/classes/class_kinematiccollision2d.rst:133
+msgid ":ref:`Object<class_Object>` **local_shape**"
+msgstr ""
+
+#: ../../docs/classes/class_kinematiccollision2d.rst:136
+msgid "get_local_shape()"
+msgstr ""
+
+#: ../../docs/classes/class_kinematiccollision2d.rst:139
+msgid "The moving object's colliding shape."
+msgstr ""
+
+#: ../../docs/classes/class_kinematiccollision2d.rst:145
+msgid ":ref:`Vector2<class_Vector2>` **normal**"
+msgstr ""
+
+#: ../../docs/classes/class_kinematiccollision2d.rst:150
+msgid "get_normal()"
+msgstr ""
+
+#: ../../docs/classes/class_kinematiccollision2d.rst:153
+msgid "The colliding body's shape's normal at the point of collision."
+msgstr ""
+
+#: ../../docs/classes/class_kinematiccollision2d.rst:159
+msgid ":ref:`Vector2<class_Vector2>` **position**"
+msgstr ""
+
+#: ../../docs/classes/class_kinematiccollision2d.rst:164
+msgid "get_position()"
+msgstr ""
+
+#: ../../docs/classes/class_kinematiccollision2d.rst:167
+msgid "The point of collision, in global coordinates."
+msgstr ""
+
+#: ../../docs/classes/class_kinematiccollision2d.rst:173
+msgid ":ref:`Vector2<class_Vector2>` **remainder**"
+msgstr ""
+
+#: ../../docs/classes/class_kinematiccollision2d.rst:178
+msgid "get_remainder()"
+msgstr ""
+
+#: ../../docs/classes/class_kinematiccollision2d.rst:181
+msgid "The moving object's remaining movement vector."
+msgstr ""
+
+#: ../../docs/classes/class_kinematiccollision2d.rst:187
+msgid ":ref:`Vector2<class_Vector2>` **travel**"
+msgstr ""
+
+#: ../../docs/classes/class_kinematiccollision2d.rst:192
+msgid "get_travel()"
+msgstr ""
+
+#: ../../docs/classes/class_kinematiccollision2d.rst:195
+msgid "The distance the moving object traveled before collision."
+msgstr ""

@@ -1,0 +1,85 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_dtlsserver.rst:10
+msgid "DTLSServer"
+msgstr ""
+
+#: ../../docs/classes/class_dtlsserver.rst:12
+msgid "**Inherits:** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_dtlsserver.rst:14
+msgid "Helper class to implement a DTLS server."
+msgstr ""
+
+#: ../../docs/classes/class_dtlsserver.rst:17
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_dtlsserver.rst:19
+msgid "This class is used to store the state of a DTLS server. Upon :ref:`setup<class_DTLSServer_method_setup>` it converts connected :ref:`PacketPeerUDP<class_PacketPeerUDP>` to :ref:`PacketPeerDTLS<class_PacketPeerDTLS>` accepting them via :ref:`take_connection<class_DTLSServer_method_take_connection>` as DTLS clients. Under the hood, this class is used to store the DTLS state and cookies of the server. The reason of why the state and cookies are needed is outside of the scope of this documentation."
+msgstr ""
+
+#: ../../docs/classes/class_dtlsserver.rst:21
+msgid "Below a small example of how to use it:"
+msgstr ""
+
+#: ../../docs/classes/class_dtlsserver.rst:77
+msgid "Methods"
+msgstr ""
+
+#: ../../docs/classes/class_dtlsserver.rst:80
+msgid ":ref:`Error<enum_@GlobalScope_Error>`"
+msgstr ""
+
+#: ../../docs/classes/class_dtlsserver.rst:80
+msgid ":ref:`setup<class_DTLSServer_method_setup>` **(** :ref:`CryptoKey<class_CryptoKey>` key, :ref:`X509Certificate<class_X509Certificate>` certificate, :ref:`X509Certificate<class_X509Certificate>` chain=null **)**"
+msgstr ""
+
+#: ../../docs/classes/class_dtlsserver.rst:82
+msgid ":ref:`PacketPeerDTLS<class_PacketPeerDTLS>`"
+msgstr ""
+
+#: ../../docs/classes/class_dtlsserver.rst:82
+msgid ":ref:`take_connection<class_DTLSServer_method_take_connection>` **(** :ref:`PacketPeerUDP<class_PacketPeerUDP>` udp_peer **)**"
+msgstr ""
+
+#: ../../docs/classes/class_dtlsserver.rst:86
+msgid "Method Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_dtlsserver.rst:90
+msgid ":ref:`Error<enum_@GlobalScope_Error>` **setup** **(** :ref:`CryptoKey<class_CryptoKey>` key, :ref:`X509Certificate<class_X509Certificate>` certificate, :ref:`X509Certificate<class_X509Certificate>` chain=null **)**"
+msgstr ""
+
+#: ../../docs/classes/class_dtlsserver.rst:92
+msgid "Setup the DTLS server to use the given ``private_key`` and provide the given ``certificate`` to clients. You can pass the optional ``chain`` parameter to provide additional CA chain information along with the certificate."
+msgstr ""
+
+#: ../../docs/classes/class_dtlsserver.rst:98
+msgid ":ref:`PacketPeerDTLS<class_PacketPeerDTLS>` **take_connection** **(** :ref:`PacketPeerUDP<class_PacketPeerUDP>` udp_peer **)**"
+msgstr ""
+
+#: ../../docs/classes/class_dtlsserver.rst:100
+msgid "Try to initiate the DTLS handshake with the given ``udp_peer`` which must be already connected (see :ref:`PacketPeerUDP.connect_to_host<class_PacketPeerUDP_method_connect_to_host>`)."
+msgstr ""
+
+#: ../../docs/classes/class_dtlsserver.rst:102
+msgid "**Note**: You must check that the state of the return PacketPeerUDP is :ref:`PacketPeerDTLS.STATUS_HANDSHAKING<class_PacketPeerDTLS_constant_STATUS_HANDSHAKING>`, as it is normal that 50% of the new connections will be invalid due to cookie exchange."
+msgstr ""

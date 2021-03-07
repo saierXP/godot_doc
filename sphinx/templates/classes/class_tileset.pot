@@ -1,0 +1,1103 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_tileset.rst:10
+msgid "TileSet"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:12
+msgid "**Inherits:** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:14
+msgid "Tile library for tilemaps."
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:17
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:19
+msgid "A TileSet is a library of tiles for a :ref:`TileMap<class_TileMap>`. It contains a list of tiles, each consisting of a sprite and optional collision shapes."
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:21
+msgid "Tiles are referenced by a unique integer ID."
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:24
+msgid "Tutorials"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:26
+msgid ":doc:`../tutorials/2d/using_tilemaps`"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:28
+msgid "`https://godotengine.org/asset-library/asset/120 <https://godotengine.org/asset-library/asset/120>`_"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:30
+msgid "`https://godotengine.org/asset-library/asset/112 <https://godotengine.org/asset-library/asset/112>`_"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:32
+msgid "`https://godotengine.org/asset-library/asset/111 <https://godotengine.org/asset-library/asset/111>`_"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:34
+msgid "`https://godotengine.org/asset-library/asset/519 <https://godotengine.org/asset-library/asset/519>`_"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:36
+msgid "`https://godotengine.org/asset-library/asset/520 <https://godotengine.org/asset-library/asset/520>`_"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:38
+msgid "`https://godotengine.org/asset-library/asset/113 <https://godotengine.org/asset-library/asset/113>`_"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:41
+msgid "Methods"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:44
+#: ../../docs/classes/class_tileset.rst:46
+#: ../../docs/classes/class_tileset.rst:56
+#: ../../docs/classes/class_tileset.rst:62
+#: ../../docs/classes/class_tileset.rst:112
+#: ../../docs/classes/class_tileset.rst:116
+#: ../../docs/classes/class_tileset.rst:124
+#: ../../docs/classes/class_tileset.rst:136
+msgid ":ref:`Vector2<class_Vector2>`"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:44
+msgid ":ref:`_forward_atlas_subtile_selection<class_TileSet_method__forward_atlas_subtile_selection>` **(** :ref:`int<class_int>` atlastile_id, :ref:`Object<class_Object>` tilemap, :ref:`Vector2<class_Vector2>` tile_location **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:46
+msgid ":ref:`_forward_subtile_selection<class_TileSet_method__forward_subtile_selection>` **(** :ref:`int<class_int>` autotile_id, :ref:`int<class_int>` bitmask, :ref:`Object<class_Object>` tilemap, :ref:`Vector2<class_Vector2>` tile_location **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:48
+#: ../../docs/classes/class_tileset.rst:126
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:48
+msgid ":ref:`_is_tile_bound<class_TileSet_method__is_tile_bound>` **(** :ref:`int<class_int>` drawn_id, :ref:`int<class_int>` neighbor_id **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:50
+#: ../../docs/classes/class_tileset.rst:70
+#: ../../docs/classes/class_tileset.rst:72
+#: ../../docs/classes/class_tileset.rst:74
+#: ../../docs/classes/class_tileset.rst:76
+#: ../../docs/classes/class_tileset.rst:78
+#: ../../docs/classes/class_tileset.rst:80
+#: ../../docs/classes/class_tileset.rst:82
+#: ../../docs/classes/class_tileset.rst:84
+#: ../../docs/classes/class_tileset.rst:86
+#: ../../docs/classes/class_tileset.rst:88
+#: ../../docs/classes/class_tileset.rst:90
+#: ../../docs/classes/class_tileset.rst:98
+#: ../../docs/classes/class_tileset.rst:100
+#: ../../docs/classes/class_tileset.rst:142
+#: ../../docs/classes/class_tileset.rst:144
+#: ../../docs/classes/class_tileset.rst:146
+#: ../../docs/classes/class_tileset.rst:148
+#: ../../docs/classes/class_tileset.rst:150
+#: ../../docs/classes/class_tileset.rst:152
+#: ../../docs/classes/class_tileset.rst:154
+#: ../../docs/classes/class_tileset.rst:156
+#: ../../docs/classes/class_tileset.rst:158
+#: ../../docs/classes/class_tileset.rst:160
+#: ../../docs/classes/class_tileset.rst:162
+#: ../../docs/classes/class_tileset.rst:164
+#: ../../docs/classes/class_tileset.rst:166
+#: ../../docs/classes/class_tileset.rst:168
+#: ../../docs/classes/class_tileset.rst:170
+#: ../../docs/classes/class_tileset.rst:172
+#: ../../docs/classes/class_tileset.rst:174
+#: ../../docs/classes/class_tileset.rst:176
+#: ../../docs/classes/class_tileset.rst:178
+msgid "void"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:50
+msgid ":ref:`autotile_clear_bitmask_map<class_TileSet_method_autotile_clear_bitmask_map>` **(** :ref:`int<class_int>` id **)**"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:52
+#: ../../docs/classes/class_tileset.rst:64
+#: ../../docs/classes/class_tileset.rst:66
+#: ../../docs/classes/class_tileset.rst:68
+#: ../../docs/classes/class_tileset.rst:92
+#: ../../docs/classes/class_tileset.rst:94
+#: ../../docs/classes/class_tileset.rst:122
+#: ../../docs/classes/class_tileset.rst:140
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:52
+msgid ":ref:`autotile_get_bitmask<class_TileSet_method_autotile_get_bitmask>` **(** :ref:`int<class_int>` id, :ref:`Vector2<class_Vector2>` coord **)**"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:54
+msgid ":ref:`BitmaskMode<enum_TileSet_BitmaskMode>`"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:54
+msgid ":ref:`autotile_get_bitmask_mode<class_TileSet_method_autotile_get_bitmask_mode>` **(** :ref:`int<class_int>` id **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:56
+msgid ":ref:`autotile_get_icon_coordinate<class_TileSet_method_autotile_get_icon_coordinate>` **(** :ref:`int<class_int>` id **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:58
+#: ../../docs/classes/class_tileset.rst:102
+msgid ":ref:`OccluderPolygon2D<class_OccluderPolygon2D>`"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:58
+msgid ":ref:`autotile_get_light_occluder<class_TileSet_method_autotile_get_light_occluder>` **(** :ref:`int<class_int>` id, :ref:`Vector2<class_Vector2>` coord **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:60
+#: ../../docs/classes/class_tileset.rst:110
+msgid ":ref:`NavigationPolygon<class_NavigationPolygon>`"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:60
+msgid ":ref:`autotile_get_navigation_polygon<class_TileSet_method_autotile_get_navigation_polygon>` **(** :ref:`int<class_int>` id, :ref:`Vector2<class_Vector2>` coord **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:62
+msgid ":ref:`autotile_get_size<class_TileSet_method_autotile_get_size>` **(** :ref:`int<class_int>` id **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:64
+msgid ":ref:`autotile_get_spacing<class_TileSet_method_autotile_get_spacing>` **(** :ref:`int<class_int>` id **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:66
+msgid ":ref:`autotile_get_subtile_priority<class_TileSet_method_autotile_get_subtile_priority>` **(** :ref:`int<class_int>` id, :ref:`Vector2<class_Vector2>` coord **)**"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:68
+msgid ":ref:`autotile_get_z_index<class_TileSet_method_autotile_get_z_index>` **(** :ref:`int<class_int>` id, :ref:`Vector2<class_Vector2>` coord **)**"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:70
+msgid ":ref:`autotile_set_bitmask<class_TileSet_method_autotile_set_bitmask>` **(** :ref:`int<class_int>` id, :ref:`Vector2<class_Vector2>` bitmask, :ref:`int<class_int>` flag **)**"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:72
+msgid ":ref:`autotile_set_bitmask_mode<class_TileSet_method_autotile_set_bitmask_mode>` **(** :ref:`int<class_int>` id, :ref:`BitmaskMode<enum_TileSet_BitmaskMode>` mode **)**"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:74
+msgid ":ref:`autotile_set_icon_coordinate<class_TileSet_method_autotile_set_icon_coordinate>` **(** :ref:`int<class_int>` id, :ref:`Vector2<class_Vector2>` coord **)**"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:76
+msgid ":ref:`autotile_set_light_occluder<class_TileSet_method_autotile_set_light_occluder>` **(** :ref:`int<class_int>` id, :ref:`OccluderPolygon2D<class_OccluderPolygon2D>` light_occluder, :ref:`Vector2<class_Vector2>` coord **)**"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:78
+msgid ":ref:`autotile_set_navigation_polygon<class_TileSet_method_autotile_set_navigation_polygon>` **(** :ref:`int<class_int>` id, :ref:`NavigationPolygon<class_NavigationPolygon>` navigation_polygon, :ref:`Vector2<class_Vector2>` coord **)**"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:80
+msgid ":ref:`autotile_set_size<class_TileSet_method_autotile_set_size>` **(** :ref:`int<class_int>` id, :ref:`Vector2<class_Vector2>` size **)**"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:82
+msgid ":ref:`autotile_set_spacing<class_TileSet_method_autotile_set_spacing>` **(** :ref:`int<class_int>` id, :ref:`int<class_int>` spacing **)**"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:84
+msgid ":ref:`autotile_set_subtile_priority<class_TileSet_method_autotile_set_subtile_priority>` **(** :ref:`int<class_int>` id, :ref:`Vector2<class_Vector2>` coord, :ref:`int<class_int>` priority **)**"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:86
+msgid ":ref:`autotile_set_z_index<class_TileSet_method_autotile_set_z_index>` **(** :ref:`int<class_int>` id, :ref:`Vector2<class_Vector2>` coord, :ref:`int<class_int>` z_index **)**"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:88
+msgid ":ref:`clear<class_TileSet_method_clear>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:90
+msgid ":ref:`create_tile<class_TileSet_method_create_tile>` **(** :ref:`int<class_int>` id **)**"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:92
+msgid ":ref:`find_tile_by_name<class_TileSet_method_find_tile_by_name>` **(** :ref:`String<class_String>` name **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:94
+msgid ":ref:`get_last_unused_tile_id<class_TileSet_method_get_last_unused_tile_id>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:96
+#: ../../docs/classes/class_tileset.rst:132
+msgid ":ref:`Array<class_Array>`"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:96
+msgid ":ref:`get_tiles_ids<class_TileSet_method_get_tiles_ids>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:98
+msgid ":ref:`remove_tile<class_TileSet_method_remove_tile>` **(** :ref:`int<class_int>` id **)**"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:100
+msgid ":ref:`tile_add_shape<class_TileSet_method_tile_add_shape>` **(** :ref:`int<class_int>` id, :ref:`Shape2D<class_Shape2D>` shape, :ref:`Transform2D<class_Transform2D>` shape_transform, :ref:`bool<class_bool>` one_way=false, :ref:`Vector2<class_Vector2>` autotile_coord=Vector2( 0, 0 ) **)**"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:102
+msgid ":ref:`tile_get_light_occluder<class_TileSet_method_tile_get_light_occluder>` **(** :ref:`int<class_int>` id **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:104
+msgid ":ref:`ShaderMaterial<class_ShaderMaterial>`"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:104
+msgid ":ref:`tile_get_material<class_TileSet_method_tile_get_material>` **(** :ref:`int<class_int>` id **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:106
+msgid ":ref:`Color<class_Color>`"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:106
+msgid ":ref:`tile_get_modulate<class_TileSet_method_tile_get_modulate>` **(** :ref:`int<class_int>` id **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:108
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:108
+msgid ":ref:`tile_get_name<class_TileSet_method_tile_get_name>` **(** :ref:`int<class_int>` id **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:110
+msgid ":ref:`tile_get_navigation_polygon<class_TileSet_method_tile_get_navigation_polygon>` **(** :ref:`int<class_int>` id **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:112
+msgid ":ref:`tile_get_navigation_polygon_offset<class_TileSet_method_tile_get_navigation_polygon_offset>` **(** :ref:`int<class_int>` id **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:114
+#: ../../docs/classes/class_tileset.rst:134
+msgid ":ref:`Texture<class_Texture>`"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:114
+msgid ":ref:`tile_get_normal_map<class_TileSet_method_tile_get_normal_map>` **(** :ref:`int<class_int>` id **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:116
+msgid ":ref:`tile_get_occluder_offset<class_TileSet_method_tile_get_occluder_offset>` **(** :ref:`int<class_int>` id **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:118
+msgid ":ref:`Rect2<class_Rect2>`"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:118
+msgid ":ref:`tile_get_region<class_TileSet_method_tile_get_region>` **(** :ref:`int<class_int>` id **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:120
+msgid ":ref:`Shape2D<class_Shape2D>`"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:120
+msgid ":ref:`tile_get_shape<class_TileSet_method_tile_get_shape>` **(** :ref:`int<class_int>` id, :ref:`int<class_int>` shape_id **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:122
+msgid ":ref:`tile_get_shape_count<class_TileSet_method_tile_get_shape_count>` **(** :ref:`int<class_int>` id **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:124
+msgid ":ref:`tile_get_shape_offset<class_TileSet_method_tile_get_shape_offset>` **(** :ref:`int<class_int>` id, :ref:`int<class_int>` shape_id **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:126
+msgid ":ref:`tile_get_shape_one_way<class_TileSet_method_tile_get_shape_one_way>` **(** :ref:`int<class_int>` id, :ref:`int<class_int>` shape_id **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:128
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:128
+msgid ":ref:`tile_get_shape_one_way_margin<class_TileSet_method_tile_get_shape_one_way_margin>` **(** :ref:`int<class_int>` id, :ref:`int<class_int>` shape_id **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:130
+msgid ":ref:`Transform2D<class_Transform2D>`"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:130
+msgid ":ref:`tile_get_shape_transform<class_TileSet_method_tile_get_shape_transform>` **(** :ref:`int<class_int>` id, :ref:`int<class_int>` shape_id **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:132
+msgid ":ref:`tile_get_shapes<class_TileSet_method_tile_get_shapes>` **(** :ref:`int<class_int>` id **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:134
+msgid ":ref:`tile_get_texture<class_TileSet_method_tile_get_texture>` **(** :ref:`int<class_int>` id **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:136
+msgid ":ref:`tile_get_texture_offset<class_TileSet_method_tile_get_texture_offset>` **(** :ref:`int<class_int>` id **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:138
+msgid ":ref:`TileMode<enum_TileSet_TileMode>`"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:138
+msgid ":ref:`tile_get_tile_mode<class_TileSet_method_tile_get_tile_mode>` **(** :ref:`int<class_int>` id **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:140
+msgid ":ref:`tile_get_z_index<class_TileSet_method_tile_get_z_index>` **(** :ref:`int<class_int>` id **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:142
+msgid ":ref:`tile_set_light_occluder<class_TileSet_method_tile_set_light_occluder>` **(** :ref:`int<class_int>` id, :ref:`OccluderPolygon2D<class_OccluderPolygon2D>` light_occluder **)**"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:144
+msgid ":ref:`tile_set_material<class_TileSet_method_tile_set_material>` **(** :ref:`int<class_int>` id, :ref:`ShaderMaterial<class_ShaderMaterial>` material **)**"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:146
+msgid ":ref:`tile_set_modulate<class_TileSet_method_tile_set_modulate>` **(** :ref:`int<class_int>` id, :ref:`Color<class_Color>` color **)**"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:148
+msgid ":ref:`tile_set_name<class_TileSet_method_tile_set_name>` **(** :ref:`int<class_int>` id, :ref:`String<class_String>` name **)**"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:150
+msgid ":ref:`tile_set_navigation_polygon<class_TileSet_method_tile_set_navigation_polygon>` **(** :ref:`int<class_int>` id, :ref:`NavigationPolygon<class_NavigationPolygon>` navigation_polygon **)**"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:152
+msgid ":ref:`tile_set_navigation_polygon_offset<class_TileSet_method_tile_set_navigation_polygon_offset>` **(** :ref:`int<class_int>` id, :ref:`Vector2<class_Vector2>` navigation_polygon_offset **)**"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:154
+msgid ":ref:`tile_set_normal_map<class_TileSet_method_tile_set_normal_map>` **(** :ref:`int<class_int>` id, :ref:`Texture<class_Texture>` normal_map **)**"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:156
+msgid ":ref:`tile_set_occluder_offset<class_TileSet_method_tile_set_occluder_offset>` **(** :ref:`int<class_int>` id, :ref:`Vector2<class_Vector2>` occluder_offset **)**"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:158
+msgid ":ref:`tile_set_region<class_TileSet_method_tile_set_region>` **(** :ref:`int<class_int>` id, :ref:`Rect2<class_Rect2>` region **)**"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:160
+msgid ":ref:`tile_set_shape<class_TileSet_method_tile_set_shape>` **(** :ref:`int<class_int>` id, :ref:`int<class_int>` shape_id, :ref:`Shape2D<class_Shape2D>` shape **)**"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:162
+msgid ":ref:`tile_set_shape_offset<class_TileSet_method_tile_set_shape_offset>` **(** :ref:`int<class_int>` id, :ref:`int<class_int>` shape_id, :ref:`Vector2<class_Vector2>` shape_offset **)**"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:164
+msgid ":ref:`tile_set_shape_one_way<class_TileSet_method_tile_set_shape_one_way>` **(** :ref:`int<class_int>` id, :ref:`int<class_int>` shape_id, :ref:`bool<class_bool>` one_way **)**"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:166
+msgid ":ref:`tile_set_shape_one_way_margin<class_TileSet_method_tile_set_shape_one_way_margin>` **(** :ref:`int<class_int>` id, :ref:`int<class_int>` shape_id, :ref:`float<class_float>` one_way **)**"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:168
+msgid ":ref:`tile_set_shape_transform<class_TileSet_method_tile_set_shape_transform>` **(** :ref:`int<class_int>` id, :ref:`int<class_int>` shape_id, :ref:`Transform2D<class_Transform2D>` shape_transform **)**"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:170
+msgid ":ref:`tile_set_shapes<class_TileSet_method_tile_set_shapes>` **(** :ref:`int<class_int>` id, :ref:`Array<class_Array>` shapes **)**"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:172
+msgid ":ref:`tile_set_texture<class_TileSet_method_tile_set_texture>` **(** :ref:`int<class_int>` id, :ref:`Texture<class_Texture>` texture **)**"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:174
+msgid ":ref:`tile_set_texture_offset<class_TileSet_method_tile_set_texture_offset>` **(** :ref:`int<class_int>` id, :ref:`Vector2<class_Vector2>` texture_offset **)**"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:176
+msgid ":ref:`tile_set_tile_mode<class_TileSet_method_tile_set_tile_mode>` **(** :ref:`int<class_int>` id, :ref:`TileMode<enum_TileSet_TileMode>` tilemode **)**"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:178
+msgid ":ref:`tile_set_z_index<class_TileSet_method_tile_set_z_index>` **(** :ref:`int<class_int>` id, :ref:`int<class_int>` z_index **)**"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:182
+msgid "Enumerations"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:192
+msgid "enum **BitmaskMode**:"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:194
+msgid "**BITMASK_2X2** = **0**"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:196
+msgid "**BITMASK_3X3_MINIMAL** = **1**"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:198
+msgid "**BITMASK_3X3** = **2**"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:222
+msgid "enum **AutotileBindings**:"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:224
+msgid "**BIND_TOPLEFT** = **1**"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:226
+msgid "**BIND_TOP** = **2**"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:228
+msgid "**BIND_TOPRIGHT** = **4**"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:230
+msgid "**BIND_LEFT** = **8**"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:232
+msgid "**BIND_CENTER** = **16**"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:234
+msgid "**BIND_RIGHT** = **32**"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:236
+msgid "**BIND_BOTTOMLEFT** = **64**"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:238
+msgid "**BIND_BOTTOM** = **128**"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:240
+msgid "**BIND_BOTTOMRIGHT** = **256**"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:252
+msgid "enum **TileMode**:"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:254
+msgid "**SINGLE_TILE** = **0**"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:256
+msgid "**AUTO_TILE** = **1**"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:258
+msgid "**ATLAS_TILE** = **2**"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:261
+msgid "Method Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:265
+msgid ":ref:`Vector2<class_Vector2>` **_forward_atlas_subtile_selection** **(** :ref:`int<class_int>` atlastile_id, :ref:`Object<class_Object>` tilemap, :ref:`Vector2<class_Vector2>` tile_location **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:271
+msgid ":ref:`Vector2<class_Vector2>` **_forward_subtile_selection** **(** :ref:`int<class_int>` autotile_id, :ref:`int<class_int>` bitmask, :ref:`Object<class_Object>` tilemap, :ref:`Vector2<class_Vector2>` tile_location **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:277
+msgid ":ref:`bool<class_bool>` **_is_tile_bound** **(** :ref:`int<class_int>` drawn_id, :ref:`int<class_int>` neighbor_id **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:279
+msgid "Determines when the auto-tiler should consider two different auto-tile IDs to be bound together."
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:281
+msgid "**Note:** ``neighbor_id`` will be ``-1`` (:ref:`TileMap.INVALID_CELL<class_TileMap_constant_INVALID_CELL>`) when checking a tile against an empty neighbor tile."
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:287
+msgid "void **autotile_clear_bitmask_map** **(** :ref:`int<class_int>` id **)**"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:289
+msgid "Clears all bitmask information of the autotile."
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:295
+msgid ":ref:`int<class_int>` **autotile_get_bitmask** **(** :ref:`int<class_int>` id, :ref:`Vector2<class_Vector2>` coord **)**"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:297
+msgid "Returns the bitmask of the subtile from an autotile given its coordinates."
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:299
+#: ../../docs/classes/class_tileset.rst:377
+msgid "The value is the sum of the values in :ref:`AutotileBindings<enum_TileSet_AutotileBindings>` present in the subtile (e.g. a value of 5 means the bitmask has bindings in both the top left and top right)."
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:305
+msgid ":ref:`BitmaskMode<enum_TileSet_BitmaskMode>` **autotile_get_bitmask_mode** **(** :ref:`int<class_int>` id **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:307
+msgid "Returns the :ref:`BitmaskMode<enum_TileSet_BitmaskMode>` of the autotile."
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:313
+msgid ":ref:`Vector2<class_Vector2>` **autotile_get_icon_coordinate** **(** :ref:`int<class_int>` id **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:315
+msgid "Returns the subtile that's being used as an icon in an atlas/autotile given its coordinates."
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:317
+#: ../../docs/classes/class_tileset.rst:395
+msgid "The subtile defined as the icon will be used as a fallback when the atlas/autotile's bitmask information is incomplete. It will also be used to represent it in the TileSet editor."
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:323
+msgid ":ref:`OccluderPolygon2D<class_OccluderPolygon2D>` **autotile_get_light_occluder** **(** :ref:`int<class_int>` id, :ref:`Vector2<class_Vector2>` coord **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:325
+msgid "Returns the light occluder of the subtile from an atlas/autotile given its coordinates."
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:331
+msgid ":ref:`NavigationPolygon<class_NavigationPolygon>` **autotile_get_navigation_polygon** **(** :ref:`int<class_int>` id, :ref:`Vector2<class_Vector2>` coord **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:333
+msgid "Returns the navigation polygon of the subtile from an atlas/autotile given its coordinates."
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:339
+msgid ":ref:`Vector2<class_Vector2>` **autotile_get_size** **(** :ref:`int<class_int>` id **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:341
+msgid "Returns the size of the subtiles in an atlas/autotile."
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:347
+msgid ":ref:`int<class_int>` **autotile_get_spacing** **(** :ref:`int<class_int>` id **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:349
+msgid "Returns the spacing between subtiles of the atlas/autotile."
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:355
+msgid ":ref:`int<class_int>` **autotile_get_subtile_priority** **(** :ref:`int<class_int>` id, :ref:`Vector2<class_Vector2>` coord **)**"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:357
+msgid "Returns the priority of the subtile from an autotile given its coordinates."
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:359
+#: ../../docs/classes/class_tileset.rst:437
+msgid "When more than one subtile has the same bitmask value, one of them will be picked randomly for drawing. Its priority will define how often it will be picked."
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:365
+msgid ":ref:`int<class_int>` **autotile_get_z_index** **(** :ref:`int<class_int>` id, :ref:`Vector2<class_Vector2>` coord **)**"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:367
+msgid "Returns the drawing index of the subtile from an atlas/autotile given its coordinates."
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:373
+msgid "void **autotile_set_bitmask** **(** :ref:`int<class_int>` id, :ref:`Vector2<class_Vector2>` bitmask, :ref:`int<class_int>` flag **)**"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:375
+msgid "Sets the bitmask of the subtile from an autotile given its coordinates."
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:383
+msgid "void **autotile_set_bitmask_mode** **(** :ref:`int<class_int>` id, :ref:`BitmaskMode<enum_TileSet_BitmaskMode>` mode **)**"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:385
+msgid "Sets the :ref:`BitmaskMode<enum_TileSet_BitmaskMode>` of the autotile."
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:391
+msgid "void **autotile_set_icon_coordinate** **(** :ref:`int<class_int>` id, :ref:`Vector2<class_Vector2>` coord **)**"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:393
+msgid "Sets the subtile that will be used as an icon in an atlas/autotile given its coordinates."
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:401
+msgid "void **autotile_set_light_occluder** **(** :ref:`int<class_int>` id, :ref:`OccluderPolygon2D<class_OccluderPolygon2D>` light_occluder, :ref:`Vector2<class_Vector2>` coord **)**"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:403
+msgid "Sets the light occluder of the subtile from an atlas/autotile given its coordinates."
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:409
+msgid "void **autotile_set_navigation_polygon** **(** :ref:`int<class_int>` id, :ref:`NavigationPolygon<class_NavigationPolygon>` navigation_polygon, :ref:`Vector2<class_Vector2>` coord **)**"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:411
+msgid "Sets the navigation polygon of the subtile from an atlas/autotile given its coordinates."
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:417
+msgid "void **autotile_set_size** **(** :ref:`int<class_int>` id, :ref:`Vector2<class_Vector2>` size **)**"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:419
+msgid "Sets the size of the subtiles in an atlas/autotile."
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:425
+msgid "void **autotile_set_spacing** **(** :ref:`int<class_int>` id, :ref:`int<class_int>` spacing **)**"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:427
+msgid "Sets the spacing between subtiles of the atlas/autotile."
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:433
+msgid "void **autotile_set_subtile_priority** **(** :ref:`int<class_int>` id, :ref:`Vector2<class_Vector2>` coord, :ref:`int<class_int>` priority **)**"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:435
+msgid "Sets the priority of the subtile from an autotile given its coordinates."
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:443
+msgid "void **autotile_set_z_index** **(** :ref:`int<class_int>` id, :ref:`Vector2<class_Vector2>` coord, :ref:`int<class_int>` z_index **)**"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:445
+msgid "Sets the drawing index of the subtile from an atlas/autotile given its coordinates."
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:451
+msgid "void **clear** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:453
+msgid "Clears all tiles."
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:459
+msgid "void **create_tile** **(** :ref:`int<class_int>` id **)**"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:461
+msgid "Creates a new tile with the given ID."
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:467
+msgid ":ref:`int<class_int>` **find_tile_by_name** **(** :ref:`String<class_String>` name **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:469
+msgid "Returns the first tile matching the given name."
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:475
+msgid ":ref:`int<class_int>` **get_last_unused_tile_id** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:477
+msgid "Returns the ID following the last currently used ID, useful when creating a new tile."
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:483
+msgid ":ref:`Array<class_Array>` **get_tiles_ids** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:485
+msgid "Returns an array of all currently used tile IDs."
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:491
+msgid "void **remove_tile** **(** :ref:`int<class_int>` id **)**"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:493
+msgid "Removes the given tile ID."
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:499
+msgid "void **tile_add_shape** **(** :ref:`int<class_int>` id, :ref:`Shape2D<class_Shape2D>` shape, :ref:`Transform2D<class_Transform2D>` shape_transform, :ref:`bool<class_bool>` one_way=false, :ref:`Vector2<class_Vector2>` autotile_coord=Vector2( 0, 0 ) **)**"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:501
+msgid "Adds a shape to the tile."
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:507
+msgid ":ref:`OccluderPolygon2D<class_OccluderPolygon2D>` **tile_get_light_occluder** **(** :ref:`int<class_int>` id **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:509
+msgid "Returns the tile's light occluder."
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:515
+msgid ":ref:`ShaderMaterial<class_ShaderMaterial>` **tile_get_material** **(** :ref:`int<class_int>` id **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:517
+msgid "Returns the tile's material."
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:523
+msgid ":ref:`Color<class_Color>` **tile_get_modulate** **(** :ref:`int<class_int>` id **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:525
+msgid "Returns the tile's modulation color."
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:531
+msgid ":ref:`String<class_String>` **tile_get_name** **(** :ref:`int<class_int>` id **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:533
+msgid "Returns the tile's name."
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:539
+msgid ":ref:`NavigationPolygon<class_NavigationPolygon>` **tile_get_navigation_polygon** **(** :ref:`int<class_int>` id **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:541
+msgid "Returns the navigation polygon of the tile."
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:547
+msgid ":ref:`Vector2<class_Vector2>` **tile_get_navigation_polygon_offset** **(** :ref:`int<class_int>` id **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:549
+msgid "Returns the offset of the tile's navigation polygon."
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:555
+msgid ":ref:`Texture<class_Texture>` **tile_get_normal_map** **(** :ref:`int<class_int>` id **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:557
+msgid "Returns the tile's normal map texture."
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:563
+msgid ":ref:`Vector2<class_Vector2>` **tile_get_occluder_offset** **(** :ref:`int<class_int>` id **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:565
+msgid "Returns the offset of the tile's light occluder."
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:571
+msgid ":ref:`Rect2<class_Rect2>` **tile_get_region** **(** :ref:`int<class_int>` id **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:573
+msgid "Returns the tile sub-region in the texture."
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:579
+msgid ":ref:`Shape2D<class_Shape2D>` **tile_get_shape** **(** :ref:`int<class_int>` id, :ref:`int<class_int>` shape_id **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:581
+msgid "Returns a tile's given shape."
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:587
+msgid ":ref:`int<class_int>` **tile_get_shape_count** **(** :ref:`int<class_int>` id **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:589
+msgid "Returns the number of shapes assigned to a tile."
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:595
+msgid ":ref:`Vector2<class_Vector2>` **tile_get_shape_offset** **(** :ref:`int<class_int>` id, :ref:`int<class_int>` shape_id **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:597
+msgid "Returns the offset of a tile's shape."
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:603
+msgid ":ref:`bool<class_bool>` **tile_get_shape_one_way** **(** :ref:`int<class_int>` id, :ref:`int<class_int>` shape_id **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:605
+msgid "Returns the one-way collision value of a tile's shape."
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:611
+msgid ":ref:`float<class_float>` **tile_get_shape_one_way_margin** **(** :ref:`int<class_int>` id, :ref:`int<class_int>` shape_id **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:617
+msgid ":ref:`Transform2D<class_Transform2D>` **tile_get_shape_transform** **(** :ref:`int<class_int>` id, :ref:`int<class_int>` shape_id **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:619
+msgid "Returns the :ref:`Transform2D<class_Transform2D>` of a tile's shape."
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:625
+msgid ":ref:`Array<class_Array>` **tile_get_shapes** **(** :ref:`int<class_int>` id **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:627
+msgid "Returns an array of dictionaries describing the tile's shapes."
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:629
+msgid "**Dictionary structure in the array returned by this method:**"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:645
+msgid ":ref:`Texture<class_Texture>` **tile_get_texture** **(** :ref:`int<class_int>` id **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:647
+msgid "Returns the tile's texture."
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:653
+msgid ":ref:`Vector2<class_Vector2>` **tile_get_texture_offset** **(** :ref:`int<class_int>` id **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:655
+msgid "Returns the texture offset of the tile."
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:661
+msgid ":ref:`TileMode<enum_TileSet_TileMode>` **tile_get_tile_mode** **(** :ref:`int<class_int>` id **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:663
+msgid "Returns the tile's :ref:`TileMode<enum_TileSet_TileMode>`."
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:669
+msgid ":ref:`int<class_int>` **tile_get_z_index** **(** :ref:`int<class_int>` id **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:671
+msgid "Returns the tile's Z index (drawing layer)."
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:677
+msgid "void **tile_set_light_occluder** **(** :ref:`int<class_int>` id, :ref:`OccluderPolygon2D<class_OccluderPolygon2D>` light_occluder **)**"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:679
+msgid "Sets a light occluder for the tile."
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:685
+msgid "void **tile_set_material** **(** :ref:`int<class_int>` id, :ref:`ShaderMaterial<class_ShaderMaterial>` material **)**"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:687
+msgid "Sets the tile's material."
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:693
+msgid "void **tile_set_modulate** **(** :ref:`int<class_int>` id, :ref:`Color<class_Color>` color **)**"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:695
+msgid "Sets the tile's modulation color."
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:701
+msgid "void **tile_set_name** **(** :ref:`int<class_int>` id, :ref:`String<class_String>` name **)**"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:703
+msgid "Sets the tile's name."
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:709
+msgid "void **tile_set_navigation_polygon** **(** :ref:`int<class_int>` id, :ref:`NavigationPolygon<class_NavigationPolygon>` navigation_polygon **)**"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:711
+msgid "Sets the tile's navigation polygon."
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:717
+msgid "void **tile_set_navigation_polygon_offset** **(** :ref:`int<class_int>` id, :ref:`Vector2<class_Vector2>` navigation_polygon_offset **)**"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:719
+msgid "Sets an offset for the tile's navigation polygon."
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:725
+msgid "void **tile_set_normal_map** **(** :ref:`int<class_int>` id, :ref:`Texture<class_Texture>` normal_map **)**"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:727
+msgid "Sets the tile's normal map texture."
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:729
+msgid "**Note:** Godot expects the normal map to use X+, Y-, and Z+ coordinates. See `this page <http://wiki.polycount.com/wiki/Normal_Map_Technical_Details#Common_Swizzle_Coordinates>`_ for a comparison of normal map coordinates expected by popular engines."
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:735
+msgid "void **tile_set_occluder_offset** **(** :ref:`int<class_int>` id, :ref:`Vector2<class_Vector2>` occluder_offset **)**"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:737
+msgid "Sets an offset for the tile's light occluder."
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:743
+msgid "void **tile_set_region** **(** :ref:`int<class_int>` id, :ref:`Rect2<class_Rect2>` region **)**"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:745
+msgid "Sets the tile's sub-region in the texture. This is common in texture atlases."
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:751
+msgid "void **tile_set_shape** **(** :ref:`int<class_int>` id, :ref:`int<class_int>` shape_id, :ref:`Shape2D<class_Shape2D>` shape **)**"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:753
+msgid "Sets a shape for the tile, enabling collision."
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:759
+msgid "void **tile_set_shape_offset** **(** :ref:`int<class_int>` id, :ref:`int<class_int>` shape_id, :ref:`Vector2<class_Vector2>` shape_offset **)**"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:761
+msgid "Sets the offset of a tile's shape."
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:767
+msgid "void **tile_set_shape_one_way** **(** :ref:`int<class_int>` id, :ref:`int<class_int>` shape_id, :ref:`bool<class_bool>` one_way **)**"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:769
+msgid "Enables one-way collision on a tile's shape."
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:775
+msgid "void **tile_set_shape_one_way_margin** **(** :ref:`int<class_int>` id, :ref:`int<class_int>` shape_id, :ref:`float<class_float>` one_way **)**"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:781
+msgid "void **tile_set_shape_transform** **(** :ref:`int<class_int>` id, :ref:`int<class_int>` shape_id, :ref:`Transform2D<class_Transform2D>` shape_transform **)**"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:783
+msgid "Sets a :ref:`Transform2D<class_Transform2D>` on a tile's shape."
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:789
+msgid "void **tile_set_shapes** **(** :ref:`int<class_int>` id, :ref:`Array<class_Array>` shapes **)**"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:791
+msgid "Sets an array of shapes for the tile, enabling collision."
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:797
+msgid "void **tile_set_texture** **(** :ref:`int<class_int>` id, :ref:`Texture<class_Texture>` texture **)**"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:799
+msgid "Sets the tile's texture."
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:805
+msgid "void **tile_set_texture_offset** **(** :ref:`int<class_int>` id, :ref:`Vector2<class_Vector2>` texture_offset **)**"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:807
+msgid "Sets the tile's texture offset."
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:813
+msgid "void **tile_set_tile_mode** **(** :ref:`int<class_int>` id, :ref:`TileMode<enum_TileSet_TileMode>` tilemode **)**"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:815
+msgid "Sets the tile's :ref:`TileMode<enum_TileSet_TileMode>`."
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:821
+msgid "void **tile_set_z_index** **(** :ref:`int<class_int>` id, :ref:`int<class_int>` z_index **)**"
+msgstr ""
+
+#: ../../docs/classes/class_tileset.rst:823
+msgid "Sets the tile's drawing index."
+msgstr ""

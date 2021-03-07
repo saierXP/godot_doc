@@ -1,0 +1,397 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_surfacetool.rst:10
+msgid "SurfaceTool"
+msgstr ""
+
+#: ../../docs/classes/class_surfacetool.rst:12
+msgid "**Inherits:** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_surfacetool.rst:14
+msgid "Helper tool to create geometry."
+msgstr ""
+
+#: ../../docs/classes/class_surfacetool.rst:17
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_surfacetool.rst:19
+msgid "The ``SurfaceTool`` is used to construct a :ref:`Mesh<class_Mesh>` by specifying vertex attributes individually. It can be used to construct a :ref:`Mesh<class_Mesh>` from a script. All properties except indices need to be added before calling :ref:`add_vertex<class_SurfaceTool_method_add_vertex>`. For example, to add vertex colors and UVs:"
+msgstr ""
+
+#: ../../docs/classes/class_surfacetool.rst:29
+msgid "The above ``SurfaceTool`` now contains one vertex of a triangle which has a UV coordinate and a specified :ref:`Color<class_Color>`. If another vertex were added without calling :ref:`add_uv<class_SurfaceTool_method_add_uv>` or :ref:`add_color<class_SurfaceTool_method_add_color>`, then the last values would be used."
+msgstr ""
+
+#: ../../docs/classes/class_surfacetool.rst:31
+msgid "Vertex attributes must be passed **before** calling :ref:`add_vertex<class_SurfaceTool_method_add_vertex>`. Failure to do so will result in an error when committing the vertex information to a mesh."
+msgstr ""
+
+#: ../../docs/classes/class_surfacetool.rst:33
+msgid "Additionally, the attributes used before the first vertex is added determine the format of the mesh. For example, if you only add UVs to the first vertex, you cannot add color to any of the subsequent vertices."
+msgstr ""
+
+#: ../../docs/classes/class_surfacetool.rst:35
+msgid "See also :ref:`ArrayMesh<class_ArrayMesh>`, :ref:`ImmediateGeometry<class_ImmediateGeometry>` and :ref:`MeshDataTool<class_MeshDataTool>` for procedural geometry generation."
+msgstr ""
+
+#: ../../docs/classes/class_surfacetool.rst:37
+msgid "**Note:** Godot uses clockwise `winding order <https://learnopengl.com/Advanced-OpenGL/Face-culling>`_ for front faces of triangle primitive modes."
+msgstr ""
+
+#: ../../docs/classes/class_surfacetool.rst:40
+msgid "Tutorials"
+msgstr ""
+
+#: ../../docs/classes/class_surfacetool.rst:42
+msgid "`https://godotengine.org/asset-library/asset/676 <https://godotengine.org/asset-library/asset/676>`_"
+msgstr ""
+
+#: ../../docs/classes/class_surfacetool.rst:45
+msgid "Methods"
+msgstr ""
+
+#: ../../docs/classes/class_surfacetool.rst:48
+#: ../../docs/classes/class_surfacetool.rst:50
+#: ../../docs/classes/class_surfacetool.rst:52
+#: ../../docs/classes/class_surfacetool.rst:54
+#: ../../docs/classes/class_surfacetool.rst:56
+#: ../../docs/classes/class_surfacetool.rst:58
+#: ../../docs/classes/class_surfacetool.rst:60
+#: ../../docs/classes/class_surfacetool.rst:62
+#: ../../docs/classes/class_surfacetool.rst:64
+#: ../../docs/classes/class_surfacetool.rst:66
+#: ../../docs/classes/class_surfacetool.rst:68
+#: ../../docs/classes/class_surfacetool.rst:70
+#: ../../docs/classes/class_surfacetool.rst:72
+#: ../../docs/classes/class_surfacetool.rst:74
+#: ../../docs/classes/class_surfacetool.rst:80
+#: ../../docs/classes/class_surfacetool.rst:82
+#: ../../docs/classes/class_surfacetool.rst:84
+#: ../../docs/classes/class_surfacetool.rst:86
+#: ../../docs/classes/class_surfacetool.rst:88
+#: ../../docs/classes/class_surfacetool.rst:90
+#: ../../docs/classes/class_surfacetool.rst:92
+msgid "void"
+msgstr ""
+
+#: ../../docs/classes/class_surfacetool.rst:48
+msgid ":ref:`add_bones<class_SurfaceTool_method_add_bones>` **(** :ref:`PoolIntArray<class_PoolIntArray>` bones **)**"
+msgstr ""
+
+#: ../../docs/classes/class_surfacetool.rst:50
+msgid ":ref:`add_color<class_SurfaceTool_method_add_color>` **(** :ref:`Color<class_Color>` color **)**"
+msgstr ""
+
+#: ../../docs/classes/class_surfacetool.rst:52
+msgid ":ref:`add_index<class_SurfaceTool_method_add_index>` **(** :ref:`int<class_int>` index **)**"
+msgstr ""
+
+#: ../../docs/classes/class_surfacetool.rst:54
+msgid ":ref:`add_normal<class_SurfaceTool_method_add_normal>` **(** :ref:`Vector3<class_Vector3>` normal **)**"
+msgstr ""
+
+#: ../../docs/classes/class_surfacetool.rst:56
+msgid ":ref:`add_smooth_group<class_SurfaceTool_method_add_smooth_group>` **(** :ref:`bool<class_bool>` smooth **)**"
+msgstr ""
+
+#: ../../docs/classes/class_surfacetool.rst:58
+msgid ":ref:`add_tangent<class_SurfaceTool_method_add_tangent>` **(** :ref:`Plane<class_Plane>` tangent **)**"
+msgstr ""
+
+#: ../../docs/classes/class_surfacetool.rst:60
+msgid ":ref:`add_triangle_fan<class_SurfaceTool_method_add_triangle_fan>` **(** :ref:`PoolVector3Array<class_PoolVector3Array>` vertices, :ref:`PoolVector2Array<class_PoolVector2Array>` uvs=PoolVector2Array(  ), :ref:`PoolColorArray<class_PoolColorArray>` colors=PoolColorArray(  ), :ref:`PoolVector2Array<class_PoolVector2Array>` uv2s=PoolVector2Array(  ), :ref:`PoolVector3Array<class_PoolVector3Array>` normals=PoolVector3Array(  ), :ref:`Array<class_Array>` tangents=[  ] **)**"
+msgstr ""
+
+#: ../../docs/classes/class_surfacetool.rst:62
+msgid ":ref:`add_uv<class_SurfaceTool_method_add_uv>` **(** :ref:`Vector2<class_Vector2>` uv **)**"
+msgstr ""
+
+#: ../../docs/classes/class_surfacetool.rst:64
+msgid ":ref:`add_uv2<class_SurfaceTool_method_add_uv2>` **(** :ref:`Vector2<class_Vector2>` uv2 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_surfacetool.rst:66
+msgid ":ref:`add_vertex<class_SurfaceTool_method_add_vertex>` **(** :ref:`Vector3<class_Vector3>` vertex **)**"
+msgstr ""
+
+#: ../../docs/classes/class_surfacetool.rst:68
+msgid ":ref:`add_weights<class_SurfaceTool_method_add_weights>` **(** :ref:`PoolRealArray<class_PoolRealArray>` weights **)**"
+msgstr ""
+
+#: ../../docs/classes/class_surfacetool.rst:70
+msgid ":ref:`append_from<class_SurfaceTool_method_append_from>` **(** :ref:`Mesh<class_Mesh>` existing, :ref:`int<class_int>` surface, :ref:`Transform<class_Transform>` transform **)**"
+msgstr ""
+
+#: ../../docs/classes/class_surfacetool.rst:72
+msgid ":ref:`begin<class_SurfaceTool_method_begin>` **(** :ref:`PrimitiveType<enum_Mesh_PrimitiveType>` primitive **)**"
+msgstr ""
+
+#: ../../docs/classes/class_surfacetool.rst:74
+msgid ":ref:`clear<class_SurfaceTool_method_clear>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_surfacetool.rst:76
+msgid ":ref:`ArrayMesh<class_ArrayMesh>`"
+msgstr ""
+
+#: ../../docs/classes/class_surfacetool.rst:76
+msgid ":ref:`commit<class_SurfaceTool_method_commit>` **(** :ref:`ArrayMesh<class_ArrayMesh>` existing=null, :ref:`int<class_int>` flags=97280 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_surfacetool.rst:78
+msgid ":ref:`Array<class_Array>`"
+msgstr ""
+
+#: ../../docs/classes/class_surfacetool.rst:78
+msgid ":ref:`commit_to_arrays<class_SurfaceTool_method_commit_to_arrays>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_surfacetool.rst:80
+msgid ":ref:`create_from<class_SurfaceTool_method_create_from>` **(** :ref:`Mesh<class_Mesh>` existing, :ref:`int<class_int>` surface **)**"
+msgstr ""
+
+#: ../../docs/classes/class_surfacetool.rst:82
+msgid ":ref:`create_from_blend_shape<class_SurfaceTool_method_create_from_blend_shape>` **(** :ref:`Mesh<class_Mesh>` existing, :ref:`int<class_int>` surface, :ref:`String<class_String>` blend_shape **)**"
+msgstr ""
+
+#: ../../docs/classes/class_surfacetool.rst:84
+msgid ":ref:`deindex<class_SurfaceTool_method_deindex>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_surfacetool.rst:86
+msgid ":ref:`generate_normals<class_SurfaceTool_method_generate_normals>` **(** :ref:`bool<class_bool>` flip=false **)**"
+msgstr ""
+
+#: ../../docs/classes/class_surfacetool.rst:88
+msgid ":ref:`generate_tangents<class_SurfaceTool_method_generate_tangents>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_surfacetool.rst:90
+msgid ":ref:`index<class_SurfaceTool_method_index>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_surfacetool.rst:92
+msgid ":ref:`set_material<class_SurfaceTool_method_set_material>` **(** :ref:`Material<class_Material>` material **)**"
+msgstr ""
+
+#: ../../docs/classes/class_surfacetool.rst:96
+msgid "Method Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_surfacetool.rst:100
+msgid "void **add_bones** **(** :ref:`PoolIntArray<class_PoolIntArray>` bones **)**"
+msgstr ""
+
+#: ../../docs/classes/class_surfacetool.rst:102
+msgid "Adds an array of bones for the next vertex to use. ``bones`` must contain 4 integers."
+msgstr ""
+
+#: ../../docs/classes/class_surfacetool.rst:108
+msgid "void **add_color** **(** :ref:`Color<class_Color>` color **)**"
+msgstr ""
+
+#: ../../docs/classes/class_surfacetool.rst:110
+msgid "Specifies a :ref:`Color<class_Color>` for the next vertex to use."
+msgstr ""
+
+#: ../../docs/classes/class_surfacetool.rst:112
+msgid "**Note:** The material must have :ref:`SpatialMaterial.vertex_color_use_as_albedo<class_SpatialMaterial_property_vertex_color_use_as_albedo>` enabled for the vertex color to be visible."
+msgstr ""
+
+#: ../../docs/classes/class_surfacetool.rst:118
+msgid "void **add_index** **(** :ref:`int<class_int>` index **)**"
+msgstr ""
+
+#: ../../docs/classes/class_surfacetool.rst:120
+msgid "Adds an index to index array if you are using indexed vertices. Does not need to be called before adding vertices."
+msgstr ""
+
+#: ../../docs/classes/class_surfacetool.rst:126
+msgid "void **add_normal** **(** :ref:`Vector3<class_Vector3>` normal **)**"
+msgstr ""
+
+#: ../../docs/classes/class_surfacetool.rst:128
+msgid "Specifies a normal for the next vertex to use."
+msgstr ""
+
+#: ../../docs/classes/class_surfacetool.rst:134
+msgid "void **add_smooth_group** **(** :ref:`bool<class_bool>` smooth **)**"
+msgstr ""
+
+#: ../../docs/classes/class_surfacetool.rst:136
+msgid "Specifies whether the current vertex (if using only vertex arrays) or current index (if also using index arrays) should use smooth normals for normal calculation."
+msgstr ""
+
+#: ../../docs/classes/class_surfacetool.rst:142
+msgid "void **add_tangent** **(** :ref:`Plane<class_Plane>` tangent **)**"
+msgstr ""
+
+#: ../../docs/classes/class_surfacetool.rst:144
+msgid "Specifies a tangent for the next vertex to use."
+msgstr ""
+
+#: ../../docs/classes/class_surfacetool.rst:150
+msgid "void **add_triangle_fan** **(** :ref:`PoolVector3Array<class_PoolVector3Array>` vertices, :ref:`PoolVector2Array<class_PoolVector2Array>` uvs=PoolVector2Array(  ), :ref:`PoolColorArray<class_PoolColorArray>` colors=PoolColorArray(  ), :ref:`PoolVector2Array<class_PoolVector2Array>` uv2s=PoolVector2Array(  ), :ref:`PoolVector3Array<class_PoolVector3Array>` normals=PoolVector3Array(  ), :ref:`Array<class_Array>` tangents=[  ] **)**"
+msgstr ""
+
+#: ../../docs/classes/class_surfacetool.rst:152
+msgid "Inserts a triangle fan made of array data into :ref:`Mesh<class_Mesh>` being constructed."
+msgstr ""
+
+#: ../../docs/classes/class_surfacetool.rst:154
+msgid "Requires the primitive type be set to :ref:`Mesh.PRIMITIVE_TRIANGLES<class_Mesh_constant_PRIMITIVE_TRIANGLES>`."
+msgstr ""
+
+#: ../../docs/classes/class_surfacetool.rst:160
+msgid "void **add_uv** **(** :ref:`Vector2<class_Vector2>` uv **)**"
+msgstr ""
+
+#: ../../docs/classes/class_surfacetool.rst:162
+msgid "Specifies a set of UV coordinates to use for the next vertex."
+msgstr ""
+
+#: ../../docs/classes/class_surfacetool.rst:168
+msgid "void **add_uv2** **(** :ref:`Vector2<class_Vector2>` uv2 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_surfacetool.rst:170
+msgid "Specifies an optional second set of UV coordinates to use for the next vertex."
+msgstr ""
+
+#: ../../docs/classes/class_surfacetool.rst:176
+msgid "void **add_vertex** **(** :ref:`Vector3<class_Vector3>` vertex **)**"
+msgstr ""
+
+#: ../../docs/classes/class_surfacetool.rst:178
+msgid "Specifies the position of current vertex. Should be called after specifying other vertex properties (e.g. Color, UV)."
+msgstr ""
+
+#: ../../docs/classes/class_surfacetool.rst:184
+msgid "void **add_weights** **(** :ref:`PoolRealArray<class_PoolRealArray>` weights **)**"
+msgstr ""
+
+#: ../../docs/classes/class_surfacetool.rst:186
+msgid "Specifies weight values for next vertex to use. ``weights`` must contain 4 values."
+msgstr ""
+
+#: ../../docs/classes/class_surfacetool.rst:192
+msgid "void **append_from** **(** :ref:`Mesh<class_Mesh>` existing, :ref:`int<class_int>` surface, :ref:`Transform<class_Transform>` transform **)**"
+msgstr ""
+
+#: ../../docs/classes/class_surfacetool.rst:194
+msgid "Append vertices from a given :ref:`Mesh<class_Mesh>` surface onto the current vertex array with specified :ref:`Transform<class_Transform>`."
+msgstr ""
+
+#: ../../docs/classes/class_surfacetool.rst:200
+msgid "void **begin** **(** :ref:`PrimitiveType<enum_Mesh_PrimitiveType>` primitive **)**"
+msgstr ""
+
+#: ../../docs/classes/class_surfacetool.rst:202
+msgid "Called before adding any vertices. Takes the primitive type as an argument (e.g. :ref:`Mesh.PRIMITIVE_TRIANGLES<class_Mesh_constant_PRIMITIVE_TRIANGLES>`)."
+msgstr ""
+
+#: ../../docs/classes/class_surfacetool.rst:208
+msgid "void **clear** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_surfacetool.rst:210
+msgid "Clear all information passed into the surface tool so far."
+msgstr ""
+
+#: ../../docs/classes/class_surfacetool.rst:216
+msgid ":ref:`ArrayMesh<class_ArrayMesh>` **commit** **(** :ref:`ArrayMesh<class_ArrayMesh>` existing=null, :ref:`int<class_int>` flags=97280 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_surfacetool.rst:218
+msgid "Returns a constructed :ref:`ArrayMesh<class_ArrayMesh>` from current information passed in. If an existing :ref:`ArrayMesh<class_ArrayMesh>` is passed in as an argument, will add an extra surface to the existing :ref:`ArrayMesh<class_ArrayMesh>`."
+msgstr ""
+
+#: ../../docs/classes/class_surfacetool.rst:220
+msgid "Default flag is :ref:`Mesh.ARRAY_COMPRESS_DEFAULT<class_Mesh_constant_ARRAY_COMPRESS_DEFAULT>`. See ``ARRAY_COMPRESS_*`` constants in :ref:`ArrayFormat<enum_Mesh_ArrayFormat>` for other flags."
+msgstr ""
+
+#: ../../docs/classes/class_surfacetool.rst:226
+msgid ":ref:`Array<class_Array>` **commit_to_arrays** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_surfacetool.rst:228
+msgid "Commits the data to the same format used by :ref:`ArrayMesh.add_surface_from_arrays<class_ArrayMesh_method_add_surface_from_arrays>`. This way you can further process the mesh data using the :ref:`ArrayMesh<class_ArrayMesh>` API."
+msgstr ""
+
+#: ../../docs/classes/class_surfacetool.rst:234
+msgid "void **create_from** **(** :ref:`Mesh<class_Mesh>` existing, :ref:`int<class_int>` surface **)**"
+msgstr ""
+
+#: ../../docs/classes/class_surfacetool.rst:236
+msgid "Creates a vertex array from an existing :ref:`Mesh<class_Mesh>`."
+msgstr ""
+
+#: ../../docs/classes/class_surfacetool.rst:242
+msgid "void **create_from_blend_shape** **(** :ref:`Mesh<class_Mesh>` existing, :ref:`int<class_int>` surface, :ref:`String<class_String>` blend_shape **)**"
+msgstr ""
+
+#: ../../docs/classes/class_surfacetool.rst:244
+msgid "Creates a vertex array from the specified blend shape of an existing :ref:`Mesh<class_Mesh>`. This can be used to extract a specific pose from a blend shape."
+msgstr ""
+
+#: ../../docs/classes/class_surfacetool.rst:250
+msgid "void **deindex** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_surfacetool.rst:252
+msgid "Removes the index array by expanding the vertex array."
+msgstr ""
+
+#: ../../docs/classes/class_surfacetool.rst:258
+msgid "void **generate_normals** **(** :ref:`bool<class_bool>` flip=false **)**"
+msgstr ""
+
+#: ../../docs/classes/class_surfacetool.rst:260
+msgid "Generates normals from vertices so you do not have to do it manually. If ``flip`` is ``true``, the resulting normals will be inverted."
+msgstr ""
+
+#: ../../docs/classes/class_surfacetool.rst:262
+msgid "Requires the primitive type to be set to :ref:`Mesh.PRIMITIVE_TRIANGLES<class_Mesh_constant_PRIMITIVE_TRIANGLES>`."
+msgstr ""
+
+#: ../../docs/classes/class_surfacetool.rst:268
+msgid "void **generate_tangents** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_surfacetool.rst:270
+msgid "Generates a tangent vector for each vertex. Requires that each vertex have UVs and normals set already."
+msgstr ""
+
+#: ../../docs/classes/class_surfacetool.rst:276
+msgid "void **index** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_surfacetool.rst:278
+msgid "Shrinks the vertex array by creating an index array (avoids reusing vertices)."
+msgstr ""
+
+#: ../../docs/classes/class_surfacetool.rst:284
+msgid "void **set_material** **(** :ref:`Material<class_Material>` material **)**"
+msgstr ""
+
+#: ../../docs/classes/class_surfacetool.rst:286
+msgid "Sets :ref:`Material<class_Material>` to be used by the :ref:`Mesh<class_Mesh>` you are constructing."
+msgstr ""

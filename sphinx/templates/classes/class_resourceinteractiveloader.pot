@@ -1,0 +1,136 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_resourceinteractiveloader.rst:10
+msgid "ResourceInteractiveLoader"
+msgstr ""
+
+#: ../../docs/classes/class_resourceinteractiveloader.rst:12
+msgid "**Inherits:** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_resourceinteractiveloader.rst:14
+msgid "Interactive :ref:`Resource<class_Resource>` loader."
+msgstr ""
+
+#: ../../docs/classes/class_resourceinteractiveloader.rst:17
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_resourceinteractiveloader.rst:19
+msgid "Interactive :ref:`Resource<class_Resource>` loader. This object is returned by :ref:`ResourceLoader<class_ResourceLoader>` when performing an interactive load. It allows loading resources with high granularity, which makes it mainly useful for displaying loading bars or percentages."
+msgstr ""
+
+#: ../../docs/classes/class_resourceinteractiveloader.rst:22
+msgid "Methods"
+msgstr ""
+
+#: ../../docs/classes/class_resourceinteractiveloader.rst:25
+msgid ":ref:`Resource<class_Resource>`"
+msgstr ""
+
+#: ../../docs/classes/class_resourceinteractiveloader.rst:25
+msgid ":ref:`get_resource<class_ResourceInteractiveLoader_method_get_resource>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_resourceinteractiveloader.rst:27
+#: ../../docs/classes/class_resourceinteractiveloader.rst:29
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../../docs/classes/class_resourceinteractiveloader.rst:27
+msgid ":ref:`get_stage<class_ResourceInteractiveLoader_method_get_stage>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_resourceinteractiveloader.rst:29
+msgid ":ref:`get_stage_count<class_ResourceInteractiveLoader_method_get_stage_count>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_resourceinteractiveloader.rst:31
+#: ../../docs/classes/class_resourceinteractiveloader.rst:33
+msgid ":ref:`Error<enum_@GlobalScope_Error>`"
+msgstr ""
+
+#: ../../docs/classes/class_resourceinteractiveloader.rst:31
+msgid ":ref:`poll<class_ResourceInteractiveLoader_method_poll>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_resourceinteractiveloader.rst:33
+msgid ":ref:`wait<class_ResourceInteractiveLoader_method_wait>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_resourceinteractiveloader.rst:37
+msgid "Method Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_resourceinteractiveloader.rst:41
+msgid ":ref:`Resource<class_Resource>` **get_resource** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_resourceinteractiveloader.rst:43
+msgid "Returns the loaded resource if the load operation completed successfully, ``null`` otherwise."
+msgstr ""
+
+#: ../../docs/classes/class_resourceinteractiveloader.rst:49
+msgid ":ref:`int<class_int>` **get_stage** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_resourceinteractiveloader.rst:51
+msgid "Returns the load stage. The total amount of stages can be queried with :ref:`get_stage_count<class_ResourceInteractiveLoader_method_get_stage_count>`."
+msgstr ""
+
+#: ../../docs/classes/class_resourceinteractiveloader.rst:57
+msgid ":ref:`int<class_int>` **get_stage_count** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_resourceinteractiveloader.rst:59
+msgid "Returns the total amount of stages (calls to :ref:`poll<class_ResourceInteractiveLoader_method_poll>`) needed to completely load this resource."
+msgstr ""
+
+#: ../../docs/classes/class_resourceinteractiveloader.rst:65
+msgid ":ref:`Error<enum_@GlobalScope_Error>` **poll** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_resourceinteractiveloader.rst:67
+msgid "Polls the loading operation, i.e. loads a data chunk up to the next stage."
+msgstr ""
+
+#: ../../docs/classes/class_resourceinteractiveloader.rst:69
+msgid "Returns :ref:`@GlobalScope.OK<class_@GlobalScope_constant_OK>` if the poll is successful but the load operation has not finished yet (intermediate stage). This means :ref:`poll<class_ResourceInteractiveLoader_method_poll>` will have to be called again until the last stage is completed."
+msgstr ""
+
+#: ../../docs/classes/class_resourceinteractiveloader.rst:71
+#: ../../docs/classes/class_resourceinteractiveloader.rst:83
+msgid "Returns :ref:`@GlobalScope.ERR_FILE_EOF<class_@GlobalScope_constant_ERR_FILE_EOF>` if the load operation has completed successfully. The loaded resource can be obtained by calling :ref:`get_resource<class_ResourceInteractiveLoader_method_get_resource>`."
+msgstr ""
+
+#: ../../docs/classes/class_resourceinteractiveloader.rst:73
+msgid "Returns another :ref:`Error<enum_@GlobalScope_Error>` code if the poll has failed."
+msgstr ""
+
+#: ../../docs/classes/class_resourceinteractiveloader.rst:79
+msgid ":ref:`Error<enum_@GlobalScope_Error>` **wait** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_resourceinteractiveloader.rst:81
+msgid "Polls the loading operation successively until the resource is completely loaded or a :ref:`poll<class_ResourceInteractiveLoader_method_poll>` fails."
+msgstr ""
+
+#: ../../docs/classes/class_resourceinteractiveloader.rst:85
+msgid "Returns another :ref:`Error<enum_@GlobalScope_Error>` code if a poll has failed, aborting the operation."
+msgstr ""

@@ -1,0 +1,146 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_visualscriptmathconstant.rst:10
+msgid "VisualScriptMathConstant"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptmathconstant.rst:12
+msgid "**Inherits:** :ref:`VisualScriptNode<class_VisualScriptNode>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptmathconstant.rst:14
+msgid "Commonly used mathematical constants."
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptmathconstant.rst:17
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptmathconstant.rst:19
+msgid "Provides common math constants, such as Pi, on an output Data port."
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptmathconstant.rst:21
+msgid "**Input Ports:**"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptmathconstant.rst:23
+msgid "none"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptmathconstant.rst:25
+msgid "**Output Ports:**"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptmathconstant.rst:27
+msgid "Data (variant): ``get``"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptmathconstant.rst:30
+msgid "Properties"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptmathconstant.rst:33
+msgid ":ref:`MathConstant<enum_VisualScriptMathConstant_MathConstant>`"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptmathconstant.rst:33
+msgid ":ref:`constant<class_VisualScriptMathConstant_property_constant>`"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptmathconstant.rst:33
+#: ../../docs/classes/class_visualscriptmathconstant.rst:87
+msgid "``0``"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptmathconstant.rst:37
+msgid "Enumerations"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptmathconstant.rst:59
+msgid "enum **MathConstant**:"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptmathconstant.rst:61
+msgid "**MATH_CONSTANT_ONE** = **0** --- Unity: ``1``."
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptmathconstant.rst:63
+msgid "**MATH_CONSTANT_PI** = **1** --- Pi: ``3.141593``."
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptmathconstant.rst:65
+msgid "**MATH_CONSTANT_HALF_PI** = **2** --- Pi divided by two: ``1.570796``."
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptmathconstant.rst:67
+msgid "**MATH_CONSTANT_TAU** = **3** --- Tau: ``6.283185``."
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptmathconstant.rst:69
+msgid "**MATH_CONSTANT_E** = **4** --- Mathematical constant ``e``, the natural log base: ``2.718282``."
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptmathconstant.rst:71
+msgid "**MATH_CONSTANT_SQRT2** = **5** --- Square root of two: ``1.414214``."
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptmathconstant.rst:73
+msgid "**MATH_CONSTANT_INF** = **6** --- Infinity: ``inf``."
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptmathconstant.rst:75
+msgid "**MATH_CONSTANT_NAN** = **7** --- Not a number: ``nan``."
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptmathconstant.rst:77
+msgid "**MATH_CONSTANT_MAX** = **8** --- Represents the size of the :ref:`MathConstant<enum_VisualScriptMathConstant_MathConstant>` enum."
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptmathconstant.rst:80
+msgid "Property Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptmathconstant.rst:84
+msgid ":ref:`MathConstant<enum_VisualScriptMathConstant_MathConstant>` **constant**"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptmathconstant.rst:87
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptmathconstant.rst:89
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptmathconstant.rst:89
+msgid "set_math_constant(value)"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptmathconstant.rst:91
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptmathconstant.rst:91
+msgid "get_math_constant()"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptmathconstant.rst:94
+msgid "The math constant."
+msgstr ""

@@ -1,0 +1,229 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_editorexportplugin.rst:10
+msgid "EditorExportPlugin"
+msgstr ""
+
+#: ../../docs/classes/class_editorexportplugin.rst:12
+msgid "**Inherits:** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_editorexportplugin.rst:14
+msgid "A script that is executed when exporting the project."
+msgstr ""
+
+#: ../../docs/classes/class_editorexportplugin.rst:17
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_editorexportplugin.rst:19
+msgid "Editor export plugins are automatically activated whenever the user exports the project. Their most common use is to determine what files are being included in the exported project. For each plugin, :ref:`_export_begin<class_EditorExportPlugin_method__export_begin>` is called at the beginning of the export process and then :ref:`_export_file<class_EditorExportPlugin_method__export_file>` is called for each exported file."
+msgstr ""
+
+#: ../../docs/classes/class_editorexportplugin.rst:22
+msgid "Methods"
+msgstr ""
+
+#: ../../docs/classes/class_editorexportplugin.rst:25
+#: ../../docs/classes/class_editorexportplugin.rst:27
+#: ../../docs/classes/class_editorexportplugin.rst:29
+#: ../../docs/classes/class_editorexportplugin.rst:31
+#: ../../docs/classes/class_editorexportplugin.rst:33
+#: ../../docs/classes/class_editorexportplugin.rst:35
+#: ../../docs/classes/class_editorexportplugin.rst:37
+#: ../../docs/classes/class_editorexportplugin.rst:39
+#: ../../docs/classes/class_editorexportplugin.rst:41
+#: ../../docs/classes/class_editorexportplugin.rst:43
+#: ../../docs/classes/class_editorexportplugin.rst:45
+#: ../../docs/classes/class_editorexportplugin.rst:47
+#: ../../docs/classes/class_editorexportplugin.rst:49
+msgid "void"
+msgstr ""
+
+#: ../../docs/classes/class_editorexportplugin.rst:25
+msgid ":ref:`_export_begin<class_EditorExportPlugin_method__export_begin>` **(** :ref:`PoolStringArray<class_PoolStringArray>` features, :ref:`bool<class_bool>` is_debug, :ref:`String<class_String>` path, :ref:`int<class_int>` flags **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_editorexportplugin.rst:27
+msgid ":ref:`_export_end<class_EditorExportPlugin_method__export_end>` **(** **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_editorexportplugin.rst:29
+msgid ":ref:`_export_file<class_EditorExportPlugin_method__export_file>` **(** :ref:`String<class_String>` path, :ref:`String<class_String>` type, :ref:`PoolStringArray<class_PoolStringArray>` features **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_editorexportplugin.rst:31
+msgid ":ref:`add_file<class_EditorExportPlugin_method_add_file>` **(** :ref:`String<class_String>` path, :ref:`PoolByteArray<class_PoolByteArray>` file, :ref:`bool<class_bool>` remap **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorexportplugin.rst:33
+msgid ":ref:`add_ios_bundle_file<class_EditorExportPlugin_method_add_ios_bundle_file>` **(** :ref:`String<class_String>` path **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorexportplugin.rst:35
+msgid ":ref:`add_ios_cpp_code<class_EditorExportPlugin_method_add_ios_cpp_code>` **(** :ref:`String<class_String>` code **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorexportplugin.rst:37
+msgid ":ref:`add_ios_embedded_framework<class_EditorExportPlugin_method_add_ios_embedded_framework>` **(** :ref:`String<class_String>` path **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorexportplugin.rst:39
+msgid ":ref:`add_ios_framework<class_EditorExportPlugin_method_add_ios_framework>` **(** :ref:`String<class_String>` path **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorexportplugin.rst:41
+msgid ":ref:`add_ios_linker_flags<class_EditorExportPlugin_method_add_ios_linker_flags>` **(** :ref:`String<class_String>` flags **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorexportplugin.rst:43
+msgid ":ref:`add_ios_plist_content<class_EditorExportPlugin_method_add_ios_plist_content>` **(** :ref:`String<class_String>` plist_content **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorexportplugin.rst:45
+msgid ":ref:`add_ios_project_static_lib<class_EditorExportPlugin_method_add_ios_project_static_lib>` **(** :ref:`String<class_String>` path **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorexportplugin.rst:47
+msgid ":ref:`add_shared_object<class_EditorExportPlugin_method_add_shared_object>` **(** :ref:`String<class_String>` path, :ref:`PoolStringArray<class_PoolStringArray>` tags **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorexportplugin.rst:49
+msgid ":ref:`skip<class_EditorExportPlugin_method_skip>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorexportplugin.rst:53
+msgid "Method Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_editorexportplugin.rst:57
+msgid "void **_export_begin** **(** :ref:`PoolStringArray<class_PoolStringArray>` features, :ref:`bool<class_bool>` is_debug, :ref:`String<class_String>` path, :ref:`int<class_int>` flags **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_editorexportplugin.rst:59
+msgid "Virtual method to be overridden by the user. It is called when the export starts and provides all information about the export. ``features`` is the list of features for the export, ``is_debug`` is ``true`` for debug builds, ``path`` is the target path for the exported project. ``flags`` is only used when running a runnable profile, e.g. when using native run on Android."
+msgstr ""
+
+#: ../../docs/classes/class_editorexportplugin.rst:65
+msgid "void **_export_end** **(** **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_editorexportplugin.rst:67
+msgid "Virtual method to be overridden by the user. Called when the export is finished."
+msgstr ""
+
+#: ../../docs/classes/class_editorexportplugin.rst:73
+msgid "void **_export_file** **(** :ref:`String<class_String>` path, :ref:`String<class_String>` type, :ref:`PoolStringArray<class_PoolStringArray>` features **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_editorexportplugin.rst:75
+msgid "Virtual method to be overridden by the user. Called for each exported file, providing arguments that can be used to identify the file. ``path`` is the path of the file, ``type`` is the :ref:`Resource<class_Resource>` represented by the file (e.g. :ref:`PackedScene<class_PackedScene>`) and ``features`` is the list of features for the export."
+msgstr ""
+
+#: ../../docs/classes/class_editorexportplugin.rst:77
+msgid "Calling :ref:`skip<class_EditorExportPlugin_method_skip>` inside this callback will make the file not included in the export."
+msgstr ""
+
+#: ../../docs/classes/class_editorexportplugin.rst:83
+msgid "void **add_file** **(** :ref:`String<class_String>` path, :ref:`PoolByteArray<class_PoolByteArray>` file, :ref:`bool<class_bool>` remap **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorexportplugin.rst:85
+msgid "Adds a custom file to be exported. ``path`` is the virtual path that can be used to load the file, ``file`` is the binary data of the file. If ``remap`` is ``true``, file will not be exported, but instead remapped to the given ``path``."
+msgstr ""
+
+#: ../../docs/classes/class_editorexportplugin.rst:91
+msgid "void **add_ios_bundle_file** **(** :ref:`String<class_String>` path **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorexportplugin.rst:93
+msgid "Adds an iOS bundle file from the given ``path`` to the exported project."
+msgstr ""
+
+#: ../../docs/classes/class_editorexportplugin.rst:99
+msgid "void **add_ios_cpp_code** **(** :ref:`String<class_String>` code **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorexportplugin.rst:101
+msgid "Adds a C++ code to the iOS export. The final code is created from the code appended by each active export plugin."
+msgstr ""
+
+#: ../../docs/classes/class_editorexportplugin.rst:107
+msgid "void **add_ios_embedded_framework** **(** :ref:`String<class_String>` path **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorexportplugin.rst:109
+msgid "Adds a dynamic library (\\*.dylib, \\*.framework) to Linking Phase in iOS's Xcode project and embeds it into resulting binary."
+msgstr ""
+
+#: ../../docs/classes/class_editorexportplugin.rst:111
+msgid "**Note:** For static libraries (\\*.a) works in same way as :ref:`add_ios_framework<class_EditorExportPlugin_method_add_ios_framework>`."
+msgstr ""
+
+#: ../../docs/classes/class_editorexportplugin.rst:113
+msgid "This method should not be used for System libraries as they are already present on the device."
+msgstr ""
+
+#: ../../docs/classes/class_editorexportplugin.rst:119
+msgid "void **add_ios_framework** **(** :ref:`String<class_String>` path **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorexportplugin.rst:121
+msgid "Adds a static library (\\*.a) or dynamic library (\\*.dylib, \\*.framework) to Linking Phase in iOS's Xcode project."
+msgstr ""
+
+#: ../../docs/classes/class_editorexportplugin.rst:127
+msgid "void **add_ios_linker_flags** **(** :ref:`String<class_String>` flags **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorexportplugin.rst:129
+msgid "Adds linker flags for the iOS export."
+msgstr ""
+
+#: ../../docs/classes/class_editorexportplugin.rst:135
+msgid "void **add_ios_plist_content** **(** :ref:`String<class_String>` plist_content **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorexportplugin.rst:137
+msgid "Adds content for iOS Property List files."
+msgstr ""
+
+#: ../../docs/classes/class_editorexportplugin.rst:143
+msgid "void **add_ios_project_static_lib** **(** :ref:`String<class_String>` path **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorexportplugin.rst:145
+msgid "Adds a static lib from the given ``path`` to the iOS project."
+msgstr ""
+
+#: ../../docs/classes/class_editorexportplugin.rst:151
+msgid "void **add_shared_object** **(** :ref:`String<class_String>` path, :ref:`PoolStringArray<class_PoolStringArray>` tags **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorexportplugin.rst:153
+msgid "Adds a shared object with the given ``tags`` and destination ``path``."
+msgstr ""
+
+#: ../../docs/classes/class_editorexportplugin.rst:159
+msgid "void **skip** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorexportplugin.rst:161
+msgid "To be called inside :ref:`_export_file<class_EditorExportPlugin_method__export_file>`. Skips the current file, so it's not included in the export."
+msgstr ""

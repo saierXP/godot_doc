@@ -1,0 +1,989 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_treeitem.rst:10
+msgid "TreeItem"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:12
+msgid "**Inherits:** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:14
+msgid "Control for a single item inside a :ref:`Tree<class_Tree>`."
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:17
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:19
+msgid "Control for a single item inside a :ref:`Tree<class_Tree>`. May have child ``TreeItem``\\ s and be styled as well as contain buttons."
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:21
+msgid "You can remove a ``TreeItem`` by using :ref:`Object.free<class_Object_method_free>`."
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:24
+msgid "Properties"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:27
+#: ../../docs/classes/class_treeitem.rst:31
+#: ../../docs/classes/class_treeitem.rst:64
+#: ../../docs/classes/class_treeitem.rst:98
+#: ../../docs/classes/class_treeitem.rst:100
+#: ../../docs/classes/class_treeitem.rst:102
+#: ../../docs/classes/class_treeitem.rst:104
+#: ../../docs/classes/class_treeitem.rst:106
+#: ../../docs/classes/class_treeitem.rst:108
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:27
+msgid ":ref:`collapsed<class_TreeItem_property_collapsed>`"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:29
+#: ../../docs/classes/class_treeitem.rst:52
+#: ../../docs/classes/class_treeitem.rst:68
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:29
+msgid ":ref:`custom_minimum_height<class_TreeItem_property_custom_minimum_height>`"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:31
+msgid ":ref:`disable_folding<class_TreeItem_property_disable_folding>`"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:35
+msgid "Methods"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:38
+#: ../../docs/classes/class_treeitem.rst:42
+#: ../../docs/classes/class_treeitem.rst:44
+#: ../../docs/classes/class_treeitem.rst:46
+#: ../../docs/classes/class_treeitem.rst:48
+#: ../../docs/classes/class_treeitem.rst:110
+#: ../../docs/classes/class_treeitem.rst:112
+#: ../../docs/classes/class_treeitem.rst:114
+#: ../../docs/classes/class_treeitem.rst:116
+#: ../../docs/classes/class_treeitem.rst:118
+#: ../../docs/classes/class_treeitem.rst:120
+#: ../../docs/classes/class_treeitem.rst:122
+#: ../../docs/classes/class_treeitem.rst:124
+#: ../../docs/classes/class_treeitem.rst:126
+#: ../../docs/classes/class_treeitem.rst:128
+#: ../../docs/classes/class_treeitem.rst:130
+#: ../../docs/classes/class_treeitem.rst:132
+#: ../../docs/classes/class_treeitem.rst:134
+#: ../../docs/classes/class_treeitem.rst:136
+#: ../../docs/classes/class_treeitem.rst:138
+#: ../../docs/classes/class_treeitem.rst:140
+#: ../../docs/classes/class_treeitem.rst:142
+#: ../../docs/classes/class_treeitem.rst:144
+#: ../../docs/classes/class_treeitem.rst:146
+#: ../../docs/classes/class_treeitem.rst:148
+#: ../../docs/classes/class_treeitem.rst:150
+#: ../../docs/classes/class_treeitem.rst:152
+#: ../../docs/classes/class_treeitem.rst:154
+#: ../../docs/classes/class_treeitem.rst:156
+#: ../../docs/classes/class_treeitem.rst:158
+#: ../../docs/classes/class_treeitem.rst:160
+msgid "void"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:38
+msgid ":ref:`add_button<class_TreeItem_method_add_button>` **(** :ref:`int<class_int>` column, :ref:`Texture<class_Texture>` button, :ref:`int<class_int>` button_idx=-1, :ref:`bool<class_bool>` disabled=false, :ref:`String<class_String>` tooltip=\"\" **)**"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:40
+#: ../../docs/classes/class_treeitem.rst:74
+msgid ":ref:`Variant<class_Variant>`"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:40
+msgid ":ref:`call_recursive<class_TreeItem_method_call_recursive>` **(** :ref:`String<class_String>` method, ... **)** |vararg|"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:42
+msgid ":ref:`clear_custom_bg_color<class_TreeItem_method_clear_custom_bg_color>` **(** :ref:`int<class_int>` column **)**"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:44
+msgid ":ref:`clear_custom_color<class_TreeItem_method_clear_custom_color>` **(** :ref:`int<class_int>` column **)**"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:46
+msgid ":ref:`deselect<class_TreeItem_method_deselect>` **(** :ref:`int<class_int>` column **)**"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:48
+msgid ":ref:`erase_button<class_TreeItem_method_erase_button>` **(** :ref:`int<class_int>` column, :ref:`int<class_int>` button_idx **)**"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:50
+#: ../../docs/classes/class_treeitem.rst:66
+msgid ":ref:`Texture<class_Texture>`"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:50
+msgid ":ref:`get_button<class_TreeItem_method_get_button>` **(** :ref:`int<class_int>` column, :ref:`int<class_int>` button_idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:52
+msgid ":ref:`get_button_count<class_TreeItem_method_get_button_count>` **(** :ref:`int<class_int>` column **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:54
+#: ../../docs/classes/class_treeitem.rst:90
+#: ../../docs/classes/class_treeitem.rst:92
+#: ../../docs/classes/class_treeitem.rst:96
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:54
+msgid ":ref:`get_button_tooltip<class_TreeItem_method_get_button_tooltip>` **(** :ref:`int<class_int>` column, :ref:`int<class_int>` button_idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:56
+msgid ":ref:`TreeCellMode<enum_TreeItem_TreeCellMode>`"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:56
+msgid ":ref:`get_cell_mode<class_TreeItem_method_get_cell_mode>` **(** :ref:`int<class_int>` column **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:58
+#: ../../docs/classes/class_treeitem.rst:76
+#: ../../docs/classes/class_treeitem.rst:78
+#: ../../docs/classes/class_treeitem.rst:80
+#: ../../docs/classes/class_treeitem.rst:82
+#: ../../docs/classes/class_treeitem.rst:84
+msgid ":ref:`TreeItem<class_TreeItem>`"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:58
+msgid ":ref:`get_children<class_TreeItem_method_get_children>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:60
+#: ../../docs/classes/class_treeitem.rst:62
+#: ../../docs/classes/class_treeitem.rst:70
+msgid ":ref:`Color<class_Color>`"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:60
+msgid ":ref:`get_custom_bg_color<class_TreeItem_method_get_custom_bg_color>` **(** :ref:`int<class_int>` column **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:62
+msgid ":ref:`get_custom_color<class_TreeItem_method_get_custom_color>` **(** :ref:`int<class_int>` column **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:64
+msgid ":ref:`get_expand_right<class_TreeItem_method_get_expand_right>` **(** :ref:`int<class_int>` column **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:66
+msgid ":ref:`get_icon<class_TreeItem_method_get_icon>` **(** :ref:`int<class_int>` column **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:68
+msgid ":ref:`get_icon_max_width<class_TreeItem_method_get_icon_max_width>` **(** :ref:`int<class_int>` column **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:70
+msgid ":ref:`get_icon_modulate<class_TreeItem_method_get_icon_modulate>` **(** :ref:`int<class_int>` column **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:72
+msgid ":ref:`Rect2<class_Rect2>`"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:72
+msgid ":ref:`get_icon_region<class_TreeItem_method_get_icon_region>` **(** :ref:`int<class_int>` column **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:74
+msgid ":ref:`get_metadata<class_TreeItem_method_get_metadata>` **(** :ref:`int<class_int>` column **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:76
+msgid ":ref:`get_next<class_TreeItem_method_get_next>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:78
+msgid ":ref:`get_next_visible<class_TreeItem_method_get_next_visible>` **(** :ref:`bool<class_bool>` wrap=false **)**"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:80
+msgid ":ref:`get_parent<class_TreeItem_method_get_parent>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:82
+msgid ":ref:`get_prev<class_TreeItem_method_get_prev>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:84
+msgid ":ref:`get_prev_visible<class_TreeItem_method_get_prev_visible>` **(** :ref:`bool<class_bool>` wrap=false **)**"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:86
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:86
+msgid ":ref:`get_range<class_TreeItem_method_get_range>` **(** :ref:`int<class_int>` column **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:88
+msgid ":ref:`Dictionary<class_Dictionary>`"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:88
+msgid ":ref:`get_range_config<class_TreeItem_method_get_range_config>` **(** :ref:`int<class_int>` column **)**"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:90
+msgid ":ref:`get_suffix<class_TreeItem_method_get_suffix>` **(** :ref:`int<class_int>` column **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:92
+msgid ":ref:`get_text<class_TreeItem_method_get_text>` **(** :ref:`int<class_int>` column **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:94
+msgid ":ref:`TextAlign<enum_TreeItem_TextAlign>`"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:94
+msgid ":ref:`get_text_align<class_TreeItem_method_get_text_align>` **(** :ref:`int<class_int>` column **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:96
+msgid ":ref:`get_tooltip<class_TreeItem_method_get_tooltip>` **(** :ref:`int<class_int>` column **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:98
+msgid ":ref:`is_button_disabled<class_TreeItem_method_is_button_disabled>` **(** :ref:`int<class_int>` column, :ref:`int<class_int>` button_idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:100
+msgid ":ref:`is_checked<class_TreeItem_method_is_checked>` **(** :ref:`int<class_int>` column **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:102
+msgid ":ref:`is_custom_set_as_button<class_TreeItem_method_is_custom_set_as_button>` **(** :ref:`int<class_int>` column **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:104
+msgid ":ref:`is_editable<class_TreeItem_method_is_editable>` **(** :ref:`int<class_int>` column **)**"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:106
+msgid ":ref:`is_selectable<class_TreeItem_method_is_selectable>` **(** :ref:`int<class_int>` column **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:108
+msgid ":ref:`is_selected<class_TreeItem_method_is_selected>` **(** :ref:`int<class_int>` column **)**"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:110
+msgid ":ref:`move_to_bottom<class_TreeItem_method_move_to_bottom>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:112
+msgid ":ref:`move_to_top<class_TreeItem_method_move_to_top>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:114
+msgid ":ref:`remove_child<class_TreeItem_method_remove_child>` **(** :ref:`Object<class_Object>` child **)**"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:116
+msgid ":ref:`select<class_TreeItem_method_select>` **(** :ref:`int<class_int>` column **)**"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:118
+msgid ":ref:`set_button<class_TreeItem_method_set_button>` **(** :ref:`int<class_int>` column, :ref:`int<class_int>` button_idx, :ref:`Texture<class_Texture>` button **)**"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:120
+msgid ":ref:`set_button_disabled<class_TreeItem_method_set_button_disabled>` **(** :ref:`int<class_int>` column, :ref:`int<class_int>` button_idx, :ref:`bool<class_bool>` disabled **)**"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:122
+msgid ":ref:`set_cell_mode<class_TreeItem_method_set_cell_mode>` **(** :ref:`int<class_int>` column, :ref:`TreeCellMode<enum_TreeItem_TreeCellMode>` mode **)**"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:124
+msgid ":ref:`set_checked<class_TreeItem_method_set_checked>` **(** :ref:`int<class_int>` column, :ref:`bool<class_bool>` checked **)**"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:126
+msgid ":ref:`set_custom_as_button<class_TreeItem_method_set_custom_as_button>` **(** :ref:`int<class_int>` column, :ref:`bool<class_bool>` enable **)**"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:128
+msgid ":ref:`set_custom_bg_color<class_TreeItem_method_set_custom_bg_color>` **(** :ref:`int<class_int>` column, :ref:`Color<class_Color>` color, :ref:`bool<class_bool>` just_outline=false **)**"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:130
+msgid ":ref:`set_custom_color<class_TreeItem_method_set_custom_color>` **(** :ref:`int<class_int>` column, :ref:`Color<class_Color>` color **)**"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:132
+msgid ":ref:`set_custom_draw<class_TreeItem_method_set_custom_draw>` **(** :ref:`int<class_int>` column, :ref:`Object<class_Object>` object, :ref:`String<class_String>` callback **)**"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:134
+msgid ":ref:`set_editable<class_TreeItem_method_set_editable>` **(** :ref:`int<class_int>` column, :ref:`bool<class_bool>` enabled **)**"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:136
+msgid ":ref:`set_expand_right<class_TreeItem_method_set_expand_right>` **(** :ref:`int<class_int>` column, :ref:`bool<class_bool>` enable **)**"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:138
+msgid ":ref:`set_icon<class_TreeItem_method_set_icon>` **(** :ref:`int<class_int>` column, :ref:`Texture<class_Texture>` texture **)**"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:140
+msgid ":ref:`set_icon_max_width<class_TreeItem_method_set_icon_max_width>` **(** :ref:`int<class_int>` column, :ref:`int<class_int>` width **)**"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:142
+msgid ":ref:`set_icon_modulate<class_TreeItem_method_set_icon_modulate>` **(** :ref:`int<class_int>` column, :ref:`Color<class_Color>` modulate **)**"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:144
+msgid ":ref:`set_icon_region<class_TreeItem_method_set_icon_region>` **(** :ref:`int<class_int>` column, :ref:`Rect2<class_Rect2>` region **)**"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:146
+msgid ":ref:`set_metadata<class_TreeItem_method_set_metadata>` **(** :ref:`int<class_int>` column, :ref:`Variant<class_Variant>` meta **)**"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:148
+msgid ":ref:`set_range<class_TreeItem_method_set_range>` **(** :ref:`int<class_int>` column, :ref:`float<class_float>` value **)**"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:150
+msgid ":ref:`set_range_config<class_TreeItem_method_set_range_config>` **(** :ref:`int<class_int>` column, :ref:`float<class_float>` min, :ref:`float<class_float>` max, :ref:`float<class_float>` step, :ref:`bool<class_bool>` expr=false **)**"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:152
+msgid ":ref:`set_selectable<class_TreeItem_method_set_selectable>` **(** :ref:`int<class_int>` column, :ref:`bool<class_bool>` selectable **)**"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:154
+msgid ":ref:`set_suffix<class_TreeItem_method_set_suffix>` **(** :ref:`int<class_int>` column, :ref:`String<class_String>` text **)**"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:156
+msgid ":ref:`set_text<class_TreeItem_method_set_text>` **(** :ref:`int<class_int>` column, :ref:`String<class_String>` text **)**"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:158
+msgid ":ref:`set_text_align<class_TreeItem_method_set_text_align>` **(** :ref:`int<class_int>` column, :ref:`TextAlign<enum_TreeItem_TextAlign>` text_align **)**"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:160
+msgid ":ref:`set_tooltip<class_TreeItem_method_set_tooltip>` **(** :ref:`int<class_int>` column, :ref:`String<class_String>` tooltip **)**"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:164
+msgid "Enumerations"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:178
+msgid "enum **TreeCellMode**:"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:180
+msgid "**CELL_MODE_STRING** = **0** --- Cell contains a string."
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:182
+msgid "**CELL_MODE_CHECK** = **1** --- Cell can be checked."
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:184
+msgid "**CELL_MODE_RANGE** = **2** --- Cell contains a range."
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:186
+msgid "**CELL_MODE_ICON** = **3** --- Cell contains an icon."
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:188
+msgid "**CELL_MODE_CUSTOM** = **4**"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:200
+msgid "enum **TextAlign**:"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:202
+msgid "**ALIGN_LEFT** = **0** --- Align text to the left. See ``set_text_align()``."
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:204
+msgid "**ALIGN_CENTER** = **1** --- Center text. See ``set_text_align()``."
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:206
+msgid "**ALIGN_RIGHT** = **2** --- Align text to the right. See ``set_text_align()``."
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:209
+msgid "Property Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:213
+msgid ":ref:`bool<class_bool>` **collapsed**"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:216
+#: ../../docs/classes/class_treeitem.rst:230
+#: ../../docs/classes/class_treeitem.rst:244
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:216
+msgid "set_collapsed(value)"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:218
+#: ../../docs/classes/class_treeitem.rst:232
+#: ../../docs/classes/class_treeitem.rst:246
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:218
+msgid "is_collapsed()"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:221
+msgid "If ``true``, the TreeItem is collapsed."
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:227
+msgid ":ref:`int<class_int>` **custom_minimum_height**"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:230
+msgid "set_custom_minimum_height(value)"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:232
+msgid "get_custom_minimum_height()"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:235
+msgid "The custom minimum height."
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:241
+msgid ":ref:`bool<class_bool>` **disable_folding**"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:244
+msgid "set_disable_folding(value)"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:246
+msgid "is_folding_disabled()"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:249
+msgid "If ``true``, folding is disabled for this TreeItem."
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:252
+msgid "Method Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:256
+msgid "void **add_button** **(** :ref:`int<class_int>` column, :ref:`Texture<class_Texture>` button, :ref:`int<class_int>` button_idx=-1, :ref:`bool<class_bool>` disabled=false, :ref:`String<class_String>` tooltip=\"\" **)**"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:258
+msgid "Adds a button with :ref:`Texture<class_Texture>` ``button`` at column ``column``. The ``button_idx`` index is used to identify the button when calling other methods. If not specified, the next available index is used, which may be retrieved by calling :ref:`get_button_count<class_TreeItem_method_get_button_count>` immediately after this method. Optionally, the button can be ``disabled`` and have a ``tooltip``."
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:264
+msgid ":ref:`Variant<class_Variant>` **call_recursive** **(** :ref:`String<class_String>` method, ... **)** |vararg|"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:266
+msgid "Calls the ``method`` on the actual TreeItem and its children recursively. Pass parameters as a comma separated list."
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:272
+msgid "void **clear_custom_bg_color** **(** :ref:`int<class_int>` column **)**"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:274
+msgid "Resets the background color for the given column to default."
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:280
+msgid "void **clear_custom_color** **(** :ref:`int<class_int>` column **)**"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:282
+msgid "Resets the color for the given column to default."
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:288
+msgid "void **deselect** **(** :ref:`int<class_int>` column **)**"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:290
+msgid "Deselects the given column."
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:296
+msgid "void **erase_button** **(** :ref:`int<class_int>` column, :ref:`int<class_int>` button_idx **)**"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:298
+msgid "Removes the button at index ``button_idx`` in column ``column``."
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:304
+msgid ":ref:`Texture<class_Texture>` **get_button** **(** :ref:`int<class_int>` column, :ref:`int<class_int>` button_idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:306
+msgid "Returns the :ref:`Texture<class_Texture>` of the button at index ``button_idx`` in column ``column``."
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:312
+msgid ":ref:`int<class_int>` **get_button_count** **(** :ref:`int<class_int>` column **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:314
+msgid "Returns the number of buttons in column ``column``. May be used to get the most recently added button's index, if no index was specified."
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:320
+msgid ":ref:`String<class_String>` **get_button_tooltip** **(** :ref:`int<class_int>` column, :ref:`int<class_int>` button_idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:322
+msgid "Returns the tooltip string for the button at index ``button_idx`` in column ``column``."
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:328
+msgid ":ref:`TreeCellMode<enum_TreeItem_TreeCellMode>` **get_cell_mode** **(** :ref:`int<class_int>` column **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:330
+msgid "Returns the column's cell mode."
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:336
+msgid ":ref:`TreeItem<class_TreeItem>` **get_children** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:338
+msgid "Returns the TreeItem's first child item or a null object if there is none."
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:344
+msgid ":ref:`Color<class_Color>` **get_custom_bg_color** **(** :ref:`int<class_int>` column **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:346
+msgid "Returns the custom background color of column ``column``."
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:352
+msgid ":ref:`Color<class_Color>` **get_custom_color** **(** :ref:`int<class_int>` column **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:354
+msgid "Returns the custom color of column ``column``."
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:360
+msgid ":ref:`bool<class_bool>` **get_expand_right** **(** :ref:`int<class_int>` column **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:362
+msgid "Returns ``true`` if ``expand_right`` is set."
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:368
+msgid ":ref:`Texture<class_Texture>` **get_icon** **(** :ref:`int<class_int>` column **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:370
+msgid "Returns the given column's icon :ref:`Texture<class_Texture>`. Error if no icon is set."
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:376
+msgid ":ref:`int<class_int>` **get_icon_max_width** **(** :ref:`int<class_int>` column **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:378
+msgid "Returns the column's icon's maximum width."
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:384
+msgid ":ref:`Color<class_Color>` **get_icon_modulate** **(** :ref:`int<class_int>` column **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:386
+msgid "Returns the :ref:`Color<class_Color>` modulating the column's icon."
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:392
+msgid ":ref:`Rect2<class_Rect2>` **get_icon_region** **(** :ref:`int<class_int>` column **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:394
+msgid "Returns the icon :ref:`Texture<class_Texture>` region as :ref:`Rect2<class_Rect2>`."
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:400
+msgid ":ref:`Variant<class_Variant>` **get_metadata** **(** :ref:`int<class_int>` column **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:406
+msgid ":ref:`TreeItem<class_TreeItem>` **get_next** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:408
+msgid "Returns the next TreeItem in the tree or a null object if there is none."
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:414
+msgid ":ref:`TreeItem<class_TreeItem>` **get_next_visible** **(** :ref:`bool<class_bool>` wrap=false **)**"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:416
+msgid "Returns the next visible TreeItem in the tree or a null object if there is none."
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:418
+msgid "If ``wrap`` is enabled, the method will wrap around to the first visible element in the tree when called on the last visible element, otherwise it returns ``null``."
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:424
+msgid ":ref:`TreeItem<class_TreeItem>` **get_parent** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:426
+msgid "Returns the parent TreeItem or a null object if there is none."
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:432
+msgid ":ref:`TreeItem<class_TreeItem>` **get_prev** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:434
+msgid "Returns the previous TreeItem in the tree or a null object if there is none."
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:440
+msgid ":ref:`TreeItem<class_TreeItem>` **get_prev_visible** **(** :ref:`bool<class_bool>` wrap=false **)**"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:442
+msgid "Returns the previous visible TreeItem in the tree or a null object if there is none."
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:444
+msgid "If ``wrap`` is enabled, the method will wrap around to the last visible element in the tree when called on the first visible element, otherwise it returns ``null``."
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:450
+msgid ":ref:`float<class_float>` **get_range** **(** :ref:`int<class_int>` column **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:456
+msgid ":ref:`Dictionary<class_Dictionary>` **get_range_config** **(** :ref:`int<class_int>` column **)**"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:462
+msgid ":ref:`String<class_String>` **get_suffix** **(** :ref:`int<class_int>` column **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:468
+msgid ":ref:`String<class_String>` **get_text** **(** :ref:`int<class_int>` column **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:470
+msgid "Returns the given column's text."
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:476
+msgid ":ref:`TextAlign<enum_TreeItem_TextAlign>` **get_text_align** **(** :ref:`int<class_int>` column **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:478
+msgid "Returns the given column's text alignment."
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:484
+msgid ":ref:`String<class_String>` **get_tooltip** **(** :ref:`int<class_int>` column **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:486
+msgid "Returns the given column's tooltip."
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:492
+msgid ":ref:`bool<class_bool>` **is_button_disabled** **(** :ref:`int<class_int>` column, :ref:`int<class_int>` button_idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:494
+msgid "Returns ``true`` if the button at index ``button_idx`` for the given column is disabled."
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:500
+msgid ":ref:`bool<class_bool>` **is_checked** **(** :ref:`int<class_int>` column **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:502
+msgid "Returns ``true`` if the given column is checked."
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:508
+msgid ":ref:`bool<class_bool>` **is_custom_set_as_button** **(** :ref:`int<class_int>` column **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:514
+msgid ":ref:`bool<class_bool>` **is_editable** **(** :ref:`int<class_int>` column **)**"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:516
+msgid "Returns ``true`` if column ``column`` is editable."
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:522
+msgid ":ref:`bool<class_bool>` **is_selectable** **(** :ref:`int<class_int>` column **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:524
+msgid "Returns ``true`` if column ``column`` is selectable."
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:530
+msgid ":ref:`bool<class_bool>` **is_selected** **(** :ref:`int<class_int>` column **)**"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:532
+msgid "Returns ``true`` if column ``column`` is selected."
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:538
+msgid "void **move_to_bottom** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:540
+msgid "Moves this TreeItem to the bottom in the :ref:`Tree<class_Tree>` hierarchy."
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:546
+msgid "void **move_to_top** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:548
+msgid "Moves this TreeItem to the top in the :ref:`Tree<class_Tree>` hierarchy."
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:554
+msgid "void **remove_child** **(** :ref:`Object<class_Object>` child **)**"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:556
+msgid "Removes the given child ``TreeItem`` and all its children from the :ref:`Tree<class_Tree>`. Note that it doesn't free the item from memory, so it can be reused later. To completely remove a ``TreeItem`` use :ref:`Object.free<class_Object_method_free>`."
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:562
+msgid "void **select** **(** :ref:`int<class_int>` column **)**"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:564
+msgid "Selects the column ``column``."
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:570
+msgid "void **set_button** **(** :ref:`int<class_int>` column, :ref:`int<class_int>` button_idx, :ref:`Texture<class_Texture>` button **)**"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:572
+msgid "Sets the given column's button :ref:`Texture<class_Texture>` at index ``button_idx`` to ``button``."
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:578
+msgid "void **set_button_disabled** **(** :ref:`int<class_int>` column, :ref:`int<class_int>` button_idx, :ref:`bool<class_bool>` disabled **)**"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:580
+msgid "If ``true``, disables the button at index ``button_idx`` in column ``column``."
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:586
+msgid "void **set_cell_mode** **(** :ref:`int<class_int>` column, :ref:`TreeCellMode<enum_TreeItem_TreeCellMode>` mode **)**"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:588
+msgid "Sets the given column's cell mode to ``mode``. See :ref:`TreeCellMode<enum_TreeItem_TreeCellMode>` constants."
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:594
+msgid "void **set_checked** **(** :ref:`int<class_int>` column, :ref:`bool<class_bool>` checked **)**"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:596
+msgid "If ``true``, the column ``column`` is checked."
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:602
+msgid "void **set_custom_as_button** **(** :ref:`int<class_int>` column, :ref:`bool<class_bool>` enable **)**"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:608
+msgid "void **set_custom_bg_color** **(** :ref:`int<class_int>` column, :ref:`Color<class_Color>` color, :ref:`bool<class_bool>` just_outline=false **)**"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:610
+msgid "Sets the given column's custom background color and whether to just use it as an outline."
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:616
+msgid "void **set_custom_color** **(** :ref:`int<class_int>` column, :ref:`Color<class_Color>` color **)**"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:618
+msgid "Sets the given column's custom color."
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:624
+msgid "void **set_custom_draw** **(** :ref:`int<class_int>` column, :ref:`Object<class_Object>` object, :ref:`String<class_String>` callback **)**"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:626
+msgid "Sets the given column's custom draw callback to ``callback`` method on ``object``."
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:628
+msgid "The ``callback`` should accept two arguments: the ``TreeItem`` that is drawn and its position and size as a :ref:`Rect2<class_Rect2>`."
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:634
+msgid "void **set_editable** **(** :ref:`int<class_int>` column, :ref:`bool<class_bool>` enabled **)**"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:636
+msgid "If ``true``, column ``column`` is editable."
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:642
+msgid "void **set_expand_right** **(** :ref:`int<class_int>` column, :ref:`bool<class_bool>` enable **)**"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:644
+msgid "If ``true``, column ``column`` is expanded to the right."
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:650
+msgid "void **set_icon** **(** :ref:`int<class_int>` column, :ref:`Texture<class_Texture>` texture **)**"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:652
+msgid "Sets the given column's icon :ref:`Texture<class_Texture>`."
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:658
+msgid "void **set_icon_max_width** **(** :ref:`int<class_int>` column, :ref:`int<class_int>` width **)**"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:660
+msgid "Sets the given column's icon's maximum width."
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:666
+msgid "void **set_icon_modulate** **(** :ref:`int<class_int>` column, :ref:`Color<class_Color>` modulate **)**"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:668
+msgid "Modulates the given column's icon with ``modulate``."
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:674
+msgid "void **set_icon_region** **(** :ref:`int<class_int>` column, :ref:`Rect2<class_Rect2>` region **)**"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:676
+msgid "Sets the given column's icon's texture region."
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:682
+msgid "void **set_metadata** **(** :ref:`int<class_int>` column, :ref:`Variant<class_Variant>` meta **)**"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:688
+msgid "void **set_range** **(** :ref:`int<class_int>` column, :ref:`float<class_float>` value **)**"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:694
+msgid "void **set_range_config** **(** :ref:`int<class_int>` column, :ref:`float<class_float>` min, :ref:`float<class_float>` max, :ref:`float<class_float>` step, :ref:`bool<class_bool>` expr=false **)**"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:700
+msgid "void **set_selectable** **(** :ref:`int<class_int>` column, :ref:`bool<class_bool>` selectable **)**"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:702
+msgid "If ``true``, the given column is selectable."
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:708
+msgid "void **set_suffix** **(** :ref:`int<class_int>` column, :ref:`String<class_String>` text **)**"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:714
+msgid "void **set_text** **(** :ref:`int<class_int>` column, :ref:`String<class_String>` text **)**"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:720
+msgid "void **set_text_align** **(** :ref:`int<class_int>` column, :ref:`TextAlign<enum_TreeItem_TextAlign>` text_align **)**"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:722
+msgid "Sets the given column's text alignment. See :ref:`TextAlign<enum_TreeItem_TextAlign>` for possible values."
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:728
+msgid "void **set_tooltip** **(** :ref:`int<class_int>` column, :ref:`String<class_String>` tooltip **)**"
+msgstr ""
+
+#: ../../docs/classes/class_treeitem.rst:730
+msgid "Sets the given column's tooltip text."
+msgstr ""

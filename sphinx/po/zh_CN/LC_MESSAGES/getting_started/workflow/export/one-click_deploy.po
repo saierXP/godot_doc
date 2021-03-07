@@ -1,0 +1,80 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/getting_started/workflow/export/one-click_deploy.rst:4
+msgid "One-click deploy"
+msgstr "一键部署"
+
+#: ../../docs/getting_started/workflow/export/one-click_deploy.rst:7
+msgid "Sounds good, what is it?"
+msgstr "听起来不错，这是什么？"
+
+#: ../../docs/getting_started/workflow/export/one-click_deploy.rst:9
+#, fuzzy
+msgid ""
+"This feature will pop up automatically once a platform is properly "
+"configured and a supported device is connected to the computer. Since things "
+"can go wrong at many levels (platform may not be configured correctly, SDK "
+"may be incorrectly installed, device may be improperly configured, etc.), "
+"it's good to let the user know that it exists."
+msgstr ""
+"正确配置平台，并将支持的设备连接到计算机后，此功能将自动弹出。 由于可能会在许"
+"多层面上出错（平台可能配置不正确，SDK可能安装不正确，设备可能配置不正确，小猫"
+"吃了USB线等），所以最好让用户知道它的存在。"
+
+#: ../../docs/getting_started/workflow/export/one-click_deploy.rst:15
+#, fuzzy
+msgid ""
+"Some platforms (at the time of this writing, only Android) can detect when a "
+"USB device is connected to the computer, and offer the user to automatically "
+"export, install and run the project (in debug mode) on the device. This "
+"feature is called, in industry buzzwords, \"One-Click Deploy\"."
+msgstr ""
+"某些平台（在撰写本文时，仅Android和Blackberry 10）可以检测到USB设备何时连接到"
+"计算机，并为用户提供了在设备上自动导出、安装和运行项目（以调试模式）的功能。"
+"用业界流行的术语来说，此功能称为 ``一键部署`` （尽管从技术上讲，它是两次单"
+"击...）。"
+
+#: ../../docs/getting_started/workflow/export/one-click_deploy.rst:21
+msgid "Steps for one-click deploy"
+msgstr "一键部署的步骤"
+
+#: ../../docs/getting_started/workflow/export/one-click_deploy.rst:23
+msgid "Configure target platform."
+msgstr "配置目标平台。"
+
+#: ../../docs/getting_started/workflow/export/one-click_deploy.rst:24
+#, fuzzy
+msgid ""
+"Configure device (make sure it's in developer mode, likes the computer, USB "
+"cable is plugged, USB is recognized, etc.)."
+msgstr ""
+"配置设备（确保它处于开发人员模式，就像计算机，已插入USB电缆，已识别USB等）。"
+
+#: ../../docs/getting_started/workflow/export/one-click_deploy.rst:26
+msgid "Connect the device..."
+msgstr "连接设备.."
+
+#: ../../docs/getting_started/workflow/export/one-click_deploy.rst:27
+msgid "And voilà!"
+msgstr "瞧！"
+
+#: ../../docs/getting_started/workflow/export/one-click_deploy.rst:31
+msgid "Click once... and deploy!"
+msgstr "点击一次..然后部署！"

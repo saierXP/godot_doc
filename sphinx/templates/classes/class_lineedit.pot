@@ -1,0 +1,1005 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_lineedit.rst:10
+msgid "LineEdit"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:12
+msgid "**Inherits:** :ref:`Control<class_Control>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:14
+msgid "Control that provides single-line string editing."
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:17
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:19
+msgid "LineEdit provides a single-line string editor, used for text fields."
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:21
+msgid "It features many built-in shortcuts which will always be available (``Ctrl`` here maps to ``Command`` on macOS):"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:23
+msgid "Ctrl + C: Copy"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:25
+msgid "Ctrl + X: Cut"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:27
+msgid "Ctrl + V or Ctrl + Y: Paste/\"yank\""
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:29
+msgid "Ctrl + Z: Undo"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:31
+msgid "Ctrl + Shift + Z: Redo"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:33
+msgid "Ctrl + U: Delete text from the cursor position to the beginning of the line"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:35
+msgid "Ctrl + K: Delete text from the cursor position to the end of the line"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:37
+msgid "Ctrl + A: Select all text"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:39
+msgid "Up/Down arrow: Move the cursor to the beginning/end of the line"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:41
+msgid "On macOS, some extra keyboard shortcuts are available:"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:43
+msgid "Ctrl + F: Like the right arrow key, move the cursor one character right"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:45
+msgid "Ctrl + B: Like the left arrow key, move the cursor one character left"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:47
+msgid "Ctrl + P: Like the up arrow key, move the cursor to the previous line"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:49
+msgid "Ctrl + N: Like the down arrow key, move the cursor to the next line"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:51
+msgid "Ctrl + D: Like the Delete key, delete the character on the right side of cursor"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:53
+msgid "Ctrl + H: Like the Backspace key, delete the character on the left side of the cursor"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:55
+msgid "Command + Left arrow: Like the Home key, move the cursor to the beginning of the line"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:57
+msgid "Command + Right arrow: Like the End key, move the cursor to the end of the line"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:60
+msgid "Properties"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:63
+msgid ":ref:`Align<enum_LineEdit_Align>`"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:63
+msgid ":ref:`align<class_LineEdit_property_align>`"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:63
+#: ../../docs/classes/class_lineedit.rst:69
+#: ../../docs/classes/class_lineedit.rst:81
+#: ../../docs/classes/class_lineedit.rst:256
+#: ../../docs/classes/class_lineedit.rst:304
+#: ../../docs/classes/class_lineedit.rst:384
+msgid "``0``"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:65
+#: ../../docs/classes/class_lineedit.rst:71
+#: ../../docs/classes/class_lineedit.rst:73
+#: ../../docs/classes/class_lineedit.rst:75
+#: ../../docs/classes/class_lineedit.rst:77
+#: ../../docs/classes/class_lineedit.rst:91
+#: ../../docs/classes/class_lineedit.rst:95
+#: ../../docs/classes/class_lineedit.rst:97
+#: ../../docs/classes/class_lineedit.rst:101
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:65
+msgid ":ref:`caret_blink<class_LineEdit_property_caret_blink>`"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:65
+#: ../../docs/classes/class_lineedit.rst:71
+#: ../../docs/classes/class_lineedit.rst:77
+#: ../../docs/classes/class_lineedit.rst:91
+#: ../../docs/classes/class_lineedit.rst:272
+#: ../../docs/classes/class_lineedit.rst:320
+#: ../../docs/classes/class_lineedit.rst:368
+#: ../../docs/classes/class_lineedit.rst:446
+msgid "``false``"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:67
+#: ../../docs/classes/class_lineedit.rst:85
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:67
+msgid ":ref:`caret_blink_speed<class_LineEdit_property_caret_blink_speed>`"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:67
+#: ../../docs/classes/class_lineedit.rst:288
+msgid "``0.65``"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:69
+#: ../../docs/classes/class_lineedit.rst:81
+#: ../../docs/classes/class_lineedit.rst:120
+#: ../../docs/classes/class_lineedit.rst:151
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:69
+msgid ":ref:`caret_position<class_LineEdit_property_caret_position>`"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:71
+msgid ":ref:`clear_button_enabled<class_LineEdit_property_clear_button_enabled>`"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:73
+msgid ":ref:`context_menu_enabled<class_LineEdit_property_context_menu_enabled>`"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:73
+#: ../../docs/classes/class_lineedit.rst:75
+#: ../../docs/classes/class_lineedit.rst:95
+#: ../../docs/classes/class_lineedit.rst:97
+#: ../../docs/classes/class_lineedit.rst:101
+#: ../../docs/classes/class_lineedit.rst:336
+#: ../../docs/classes/class_lineedit.rst:352
+#: ../../docs/classes/class_lineedit.rst:478
+#: ../../docs/classes/class_lineedit.rst:494
+#: ../../docs/classes/class_lineedit.rst:528
+msgid "``true``"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:75
+msgid ":ref:`editable<class_LineEdit_property_editable>`"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:77
+msgid ":ref:`expand_to_text_length<class_LineEdit_property_expand_to_text_length>`"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:79
+msgid ":ref:`FocusMode<enum_Control_FocusMode>`"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:79
+msgid "focus_mode"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:79
+msgid "``2`` *(parent override)*"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:81
+msgid ":ref:`max_length<class_LineEdit_property_max_length>`"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:83
+msgid ":ref:`CursorShape<enum_Control_CursorShape>`"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:83
+msgid "mouse_default_cursor_shape"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:83
+msgid "``1`` *(parent override)*"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:85
+msgid ":ref:`placeholder_alpha<class_LineEdit_property_placeholder_alpha>`"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:85
+#: ../../docs/classes/class_lineedit.rst:400
+msgid "``0.6``"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:87
+#: ../../docs/classes/class_lineedit.rst:93
+#: ../../docs/classes/class_lineedit.rst:99
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:87
+msgid ":ref:`placeholder_text<class_LineEdit_property_placeholder_text>`"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:87
+#: ../../docs/classes/class_lineedit.rst:99
+#: ../../docs/classes/class_lineedit.rst:416
+#: ../../docs/classes/class_lineedit.rst:510
+msgid "``\"\"``"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:89
+#: ../../docs/classes/class_lineedit.rst:133
+msgid ":ref:`Texture<class_Texture>`"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:89
+msgid ":ref:`right_icon<class_LineEdit_property_right_icon>`"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:91
+msgid ":ref:`secret<class_LineEdit_property_secret>`"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:93
+msgid ":ref:`secret_character<class_LineEdit_property_secret_character>`"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:93
+#: ../../docs/classes/class_lineedit.rst:462
+msgid "``\"*\"``"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:95
+msgid ":ref:`selecting_enabled<class_LineEdit_property_selecting_enabled>`"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:97
+msgid ":ref:`shortcut_keys_enabled<class_LineEdit_property_shortcut_keys_enabled>`"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:99
+msgid ":ref:`text<class_LineEdit_property_text>`"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:101
+msgid ":ref:`virtual_keyboard_enabled<class_LineEdit_property_virtual_keyboard_enabled>`"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:105
+msgid "Methods"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:108
+#: ../../docs/classes/class_lineedit.rst:110
+#: ../../docs/classes/class_lineedit.rst:112
+#: ../../docs/classes/class_lineedit.rst:114
+#: ../../docs/classes/class_lineedit.rst:116
+#: ../../docs/classes/class_lineedit.rst:122
+#: ../../docs/classes/class_lineedit.rst:124
+#: ../../docs/classes/class_lineedit.rst:126
+msgid "void"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:108
+msgid ":ref:`append_at_cursor<class_LineEdit_method_append_at_cursor>` **(** :ref:`String<class_String>` text **)**"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:110
+msgid ":ref:`clear<class_LineEdit_method_clear>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:112
+msgid ":ref:`delete_char_at_cursor<class_LineEdit_method_delete_char_at_cursor>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:114
+msgid ":ref:`delete_text<class_LineEdit_method_delete_text>` **(** :ref:`int<class_int>` from_column, :ref:`int<class_int>` to_column **)**"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:116
+msgid ":ref:`deselect<class_LineEdit_method_deselect>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:118
+msgid ":ref:`PopupMenu<class_PopupMenu>`"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:118
+msgid ":ref:`get_menu<class_LineEdit_method_get_menu>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:120
+msgid ":ref:`get_scroll_offset<class_LineEdit_method_get_scroll_offset>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:122
+msgid ":ref:`menu_option<class_LineEdit_method_menu_option>` **(** :ref:`int<class_int>` option **)**"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:124
+msgid ":ref:`select<class_LineEdit_method_select>` **(** :ref:`int<class_int>` from=0, :ref:`int<class_int>` to=-1 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:126
+msgid ":ref:`select_all<class_LineEdit_method_select_all>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:130
+msgid "Theme Properties"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:133
+msgid "clear"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:135
+#: ../../docs/classes/class_lineedit.rst:137
+#: ../../docs/classes/class_lineedit.rst:139
+#: ../../docs/classes/class_lineedit.rst:145
+#: ../../docs/classes/class_lineedit.rst:147
+#: ../../docs/classes/class_lineedit.rst:149
+#: ../../docs/classes/class_lineedit.rst:157
+msgid ":ref:`Color<class_Color>`"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:135
+msgid "clear_button_color"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:135
+#: ../../docs/classes/class_lineedit.rst:145
+msgid "Color( 0.88, 0.88, 0.88, 1 )"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:137
+msgid "clear_button_color_pressed"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:137
+msgid "Color( 1, 1, 1, 1 )"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:139
+msgid "cursor_color"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:139
+msgid "Color( 0.94, 0.94, 0.94, 1 )"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:141
+#: ../../docs/classes/class_lineedit.rst:153
+#: ../../docs/classes/class_lineedit.rst:155
+msgid ":ref:`StyleBox<class_StyleBox>`"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:141
+msgid "focus"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:143
+msgid ":ref:`Font<class_Font>`"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:143
+msgid "font"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:145
+msgid "font_color"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:147
+msgid "font_color_selected"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:147
+msgid "Color( 0, 0, 0, 1 )"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:149
+msgid "font_color_uneditable"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:149
+msgid "Color( 0.88, 0.88, 0.88, 0.5 )"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:151
+msgid "minimum_spaces"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:151
+msgid "12"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:153
+msgid "normal"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:155
+msgid "read_only"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:157
+msgid "selection_color"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:157
+msgid "Color( 0.49, 0.49, 0.49, 1 )"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:161
+msgid "Signals"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:165
+msgid "**text_change_rejected** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:167
+msgid "Emitted when trying to append text that would overflow the :ref:`max_length<class_LineEdit_property_max_length>`."
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:173
+msgid "**text_changed** **(** :ref:`String<class_String>` new_text **)**"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:175
+msgid "Emitted when the text changes."
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:181
+msgid "**text_entered** **(** :ref:`String<class_String>` new_text **)**"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:183
+msgid "Emitted when the user presses :ref:`@GlobalScope.KEY_ENTER<class_@GlobalScope_constant_KEY_ENTER>` on the ``LineEdit``."
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:186
+msgid "Enumerations"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:198
+msgid "enum **Align**:"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:200
+msgid "**ALIGN_LEFT** = **0** --- Aligns the text on the left-hand side of the ``LineEdit``."
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:202
+msgid "**ALIGN_CENTER** = **1** --- Centers the text in the middle of the ``LineEdit``."
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:204
+msgid "**ALIGN_RIGHT** = **2** --- Aligns the text on the right-hand side of the ``LineEdit``."
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:206
+msgid "**ALIGN_FILL** = **3** --- Stretches whitespaces to fit the ``LineEdit``'s width."
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:228
+msgid "enum **MenuItems**:"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:230
+msgid "**MENU_CUT** = **0** --- Cuts (copies and clears) the selected text."
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:232
+msgid "**MENU_COPY** = **1** --- Copies the selected text."
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:234
+msgid "**MENU_PASTE** = **2** --- Pastes the clipboard text over the selected text (or at the cursor's position)."
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:236
+msgid "Non-printable escape characters are automatically stripped from the OS clipboard via :ref:`String.strip_escapes<class_String_method_strip_escapes>`."
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:238
+msgid "**MENU_CLEAR** = **3** --- Erases the whole ``LineEdit`` text."
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:240
+msgid "**MENU_SELECT_ALL** = **4** --- Selects the whole ``LineEdit`` text."
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:242
+msgid "**MENU_UNDO** = **5** --- Undoes the previous action."
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:244
+msgid "**MENU_REDO** = **6** --- Reverse the last undo action."
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:246
+msgid "**MENU_MAX** = **7** --- Represents the size of the :ref:`MenuItems<enum_LineEdit_MenuItems>` enum."
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:249
+msgid "Property Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:253
+msgid ":ref:`Align<enum_LineEdit_Align>` **align**"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:256
+#: ../../docs/classes/class_lineedit.rst:272
+#: ../../docs/classes/class_lineedit.rst:288
+#: ../../docs/classes/class_lineedit.rst:304
+#: ../../docs/classes/class_lineedit.rst:320
+#: ../../docs/classes/class_lineedit.rst:336
+#: ../../docs/classes/class_lineedit.rst:352
+#: ../../docs/classes/class_lineedit.rst:368
+#: ../../docs/classes/class_lineedit.rst:384
+#: ../../docs/classes/class_lineedit.rst:400
+#: ../../docs/classes/class_lineedit.rst:416
+#: ../../docs/classes/class_lineedit.rst:446
+#: ../../docs/classes/class_lineedit.rst:462
+#: ../../docs/classes/class_lineedit.rst:478
+#: ../../docs/classes/class_lineedit.rst:494
+#: ../../docs/classes/class_lineedit.rst:510
+#: ../../docs/classes/class_lineedit.rst:528
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:258
+#: ../../docs/classes/class_lineedit.rst:274
+#: ../../docs/classes/class_lineedit.rst:290
+#: ../../docs/classes/class_lineedit.rst:306
+#: ../../docs/classes/class_lineedit.rst:322
+#: ../../docs/classes/class_lineedit.rst:338
+#: ../../docs/classes/class_lineedit.rst:354
+#: ../../docs/classes/class_lineedit.rst:370
+#: ../../docs/classes/class_lineedit.rst:386
+#: ../../docs/classes/class_lineedit.rst:402
+#: ../../docs/classes/class_lineedit.rst:418
+#: ../../docs/classes/class_lineedit.rst:432
+#: ../../docs/classes/class_lineedit.rst:448
+#: ../../docs/classes/class_lineedit.rst:464
+#: ../../docs/classes/class_lineedit.rst:480
+#: ../../docs/classes/class_lineedit.rst:496
+#: ../../docs/classes/class_lineedit.rst:512
+#: ../../docs/classes/class_lineedit.rst:530
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:258
+msgid "set_align(value)"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:260
+#: ../../docs/classes/class_lineedit.rst:276
+#: ../../docs/classes/class_lineedit.rst:292
+#: ../../docs/classes/class_lineedit.rst:308
+#: ../../docs/classes/class_lineedit.rst:324
+#: ../../docs/classes/class_lineedit.rst:340
+#: ../../docs/classes/class_lineedit.rst:356
+#: ../../docs/classes/class_lineedit.rst:372
+#: ../../docs/classes/class_lineedit.rst:388
+#: ../../docs/classes/class_lineedit.rst:404
+#: ../../docs/classes/class_lineedit.rst:420
+#: ../../docs/classes/class_lineedit.rst:434
+#: ../../docs/classes/class_lineedit.rst:450
+#: ../../docs/classes/class_lineedit.rst:466
+#: ../../docs/classes/class_lineedit.rst:482
+#: ../../docs/classes/class_lineedit.rst:498
+#: ../../docs/classes/class_lineedit.rst:514
+#: ../../docs/classes/class_lineedit.rst:532
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:260
+msgid "get_align()"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:263
+msgid "Text alignment as defined in the :ref:`Align<enum_LineEdit_Align>` enum."
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:269
+msgid ":ref:`bool<class_bool>` **caret_blink**"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:274
+msgid "cursor_set_blink_enabled(value)"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:276
+msgid "cursor_get_blink_enabled()"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:279
+msgid "If ``true``, the caret (visual cursor) blinks."
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:285
+msgid ":ref:`float<class_float>` **caret_blink_speed**"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:290
+msgid "cursor_set_blink_speed(value)"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:292
+msgid "cursor_get_blink_speed()"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:295
+msgid "Duration (in seconds) of a caret's blinking cycle."
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:301
+msgid ":ref:`int<class_int>` **caret_position**"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:306
+msgid "set_cursor_position(value)"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:308
+msgid "get_cursor_position()"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:311
+msgid "The cursor's position inside the ``LineEdit``. When set, the text may scroll to accommodate it."
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:317
+msgid ":ref:`bool<class_bool>` **clear_button_enabled**"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:322
+msgid "set_clear_button_enabled(value)"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:324
+msgid "is_clear_button_enabled()"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:327
+msgid "If ``true``, the ``LineEdit`` will show a clear button if ``text`` is not empty, which can be used to clear the text quickly."
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:333
+msgid ":ref:`bool<class_bool>` **context_menu_enabled**"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:338
+msgid "set_context_menu_enabled(value)"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:340
+msgid "is_context_menu_enabled()"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:343
+msgid "If ``true``, the context menu will appear when right-clicked."
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:349
+msgid ":ref:`bool<class_bool>` **editable**"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:354
+msgid "set_editable(value)"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:356
+msgid "is_editable()"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:359
+msgid "If ``false``, existing text cannot be modified and new text cannot be added."
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:365
+msgid ":ref:`bool<class_bool>` **expand_to_text_length**"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:370
+msgid "set_expand_to_text_length(value)"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:372
+msgid "get_expand_to_text_length()"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:375
+msgid "If ``true``, the ``LineEdit`` width will increase to stay longer than the :ref:`text<class_LineEdit_property_text>`. It will **not** compress if the :ref:`text<class_LineEdit_property_text>` is shortened."
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:381
+msgid ":ref:`int<class_int>` **max_length**"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:386
+msgid "set_max_length(value)"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:388
+msgid "get_max_length()"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:391
+msgid "Maximum amount of characters that can be entered inside the ``LineEdit``. If ``0``, there is no limit."
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:397
+msgid ":ref:`float<class_float>` **placeholder_alpha**"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:402
+msgid "set_placeholder_alpha(value)"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:404
+msgid "get_placeholder_alpha()"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:407
+msgid "Opacity of the :ref:`placeholder_text<class_LineEdit_property_placeholder_text>`. From ``0`` to ``1``."
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:413
+msgid ":ref:`String<class_String>` **placeholder_text**"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:418
+msgid "set_placeholder(value)"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:420
+msgid "get_placeholder()"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:423
+msgid "Text shown when the ``LineEdit`` is empty. It is **not** the ``LineEdit``'s default value (see :ref:`text<class_LineEdit_property_text>`)."
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:429
+msgid ":ref:`Texture<class_Texture>` **right_icon**"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:432
+msgid "set_right_icon(value)"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:434
+msgid "get_right_icon()"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:437
+msgid "Sets the icon that will appear in the right end of the ``LineEdit`` if there's no :ref:`text<class_LineEdit_property_text>`, or always, if :ref:`clear_button_enabled<class_LineEdit_property_clear_button_enabled>` is set to ``false``."
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:443
+msgid ":ref:`bool<class_bool>` **secret**"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:448
+msgid "set_secret(value)"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:450
+msgid "is_secret()"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:453
+msgid "If ``true``, every character is replaced with the secret character (see :ref:`secret_character<class_LineEdit_property_secret_character>`)."
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:459
+msgid ":ref:`String<class_String>` **secret_character**"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:464
+msgid "set_secret_character(value)"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:466
+msgid "get_secret_character()"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:469
+msgid "The character to use to mask secret input (defaults to \"\\*\"). Only a single character can be used as the secret character."
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:475
+msgid ":ref:`bool<class_bool>` **selecting_enabled**"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:480
+msgid "set_selecting_enabled(value)"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:482
+msgid "is_selecting_enabled()"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:485
+msgid "If ``false``, it's impossible to select the text using mouse nor keyboard."
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:491
+msgid ":ref:`bool<class_bool>` **shortcut_keys_enabled**"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:496
+msgid "set_shortcut_keys_enabled(value)"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:498
+msgid "is_shortcut_keys_enabled()"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:501
+msgid "If ``false``, using shortcuts will be disabled."
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:507
+msgid ":ref:`String<class_String>` **text**"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:512
+msgid "set_text(value)"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:514
+msgid "get_text()"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:517
+msgid "String value of the ``LineEdit``."
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:519
+msgid "**Note:** Changing text using this property won't emit the :ref:`text_changed<class_LineEdit_signal_text_changed>` signal."
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:525
+msgid ":ref:`bool<class_bool>` **virtual_keyboard_enabled**"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:530
+msgid "set_virtual_keyboard_enabled(value)"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:532
+msgid "is_virtual_keyboard_enabled()"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:535
+msgid "If ``true``, the native virtual keyboard is shown when focused on platforms that support it."
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:538
+msgid "Method Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:542
+msgid "void **append_at_cursor** **(** :ref:`String<class_String>` text **)**"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:544
+msgid "Adds ``text`` after the cursor. If the resulting value is longer than :ref:`max_length<class_LineEdit_property_max_length>`, nothing happens."
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:550
+msgid "void **clear** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:552
+msgid "Erases the ``LineEdit``'s :ref:`text<class_LineEdit_property_text>`."
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:558
+msgid "void **delete_char_at_cursor** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:560
+msgid "Deletes one character at the cursor's current position (equivalent to pressing the ``Delete`` key)."
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:566
+msgid "void **delete_text** **(** :ref:`int<class_int>` from_column, :ref:`int<class_int>` to_column **)**"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:568
+msgid "Deletes a section of the :ref:`text<class_LineEdit_property_text>` going from position ``from_column`` to ``to_column``. Both parameters should be within the text's length."
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:574
+msgid "void **deselect** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:576
+msgid "Clears the current selection."
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:582
+msgid ":ref:`PopupMenu<class_PopupMenu>` **get_menu** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:584
+msgid "Returns the :ref:`PopupMenu<class_PopupMenu>` of this ``LineEdit``. By default, this menu is displayed when right-clicking on the ``LineEdit``."
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:590
+msgid ":ref:`int<class_int>` **get_scroll_offset** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:592
+msgid "Returns the scroll offset due to :ref:`caret_position<class_LineEdit_property_caret_position>`, as a number of characters."
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:598
+msgid "void **menu_option** **(** :ref:`int<class_int>` option **)**"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:600
+msgid "Executes a given action as defined in the :ref:`MenuItems<enum_LineEdit_MenuItems>` enum."
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:606
+msgid "void **select** **(** :ref:`int<class_int>` from=0, :ref:`int<class_int>` to=-1 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:608
+msgid "Selects characters inside ``LineEdit`` between ``from`` and ``to``. By default, ``from`` is at the beginning and ``to`` at the end."
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:621
+msgid "void **select_all** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_lineedit.rst:623
+msgid "Selects the whole :ref:`String<class_String>`."
+msgstr ""

@@ -1,0 +1,378 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_visualscriptbuiltinfunc.rst:10
+msgid "VisualScriptBuiltinFunc"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptbuiltinfunc.rst:12
+msgid "**Inherits:** :ref:`VisualScriptNode<class_VisualScriptNode>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptbuiltinfunc.rst:14
+msgid "A Visual Script node used to call built-in functions."
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptbuiltinfunc.rst:17
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptbuiltinfunc.rst:19
+msgid "A built-in function used inside a :ref:`VisualScript<class_VisualScript>`. It is usually a math function or an utility function."
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptbuiltinfunc.rst:21
+msgid "See also :ref:`@GDScript<class_@GDScript>`, for the same functions in the GDScript language."
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptbuiltinfunc.rst:24
+msgid "Properties"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptbuiltinfunc.rst:27
+msgid ":ref:`BuiltinFunc<enum_VisualScriptBuiltinFunc_BuiltinFunc>`"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptbuiltinfunc.rst:27
+msgid ":ref:`function<class_VisualScriptBuiltinFunc_property_function>`"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptbuiltinfunc.rst:27
+#: ../../docs/classes/class_visualscriptbuiltinfunc.rst:328
+msgid "``0``"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptbuiltinfunc.rst:31
+msgid "Enumerations"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptbuiltinfunc.rst:173
+msgid "enum **BuiltinFunc**:"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptbuiltinfunc.rst:175
+msgid "**MATH_SIN** = **0** --- Return the sine of the input."
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptbuiltinfunc.rst:177
+msgid "**MATH_COS** = **1** --- Return the cosine of the input."
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptbuiltinfunc.rst:179
+msgid "**MATH_TAN** = **2** --- Return the tangent of the input."
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptbuiltinfunc.rst:181
+msgid "**MATH_SINH** = **3** --- Return the hyperbolic sine of the input."
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptbuiltinfunc.rst:183
+msgid "**MATH_COSH** = **4** --- Return the hyperbolic cosine of the input."
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptbuiltinfunc.rst:185
+msgid "**MATH_TANH** = **5** --- Return the hyperbolic tangent of the input."
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptbuiltinfunc.rst:187
+msgid "**MATH_ASIN** = **6** --- Return the arc sine of the input."
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptbuiltinfunc.rst:189
+msgid "**MATH_ACOS** = **7** --- Return the arc cosine of the input."
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptbuiltinfunc.rst:191
+msgid "**MATH_ATAN** = **8** --- Return the arc tangent of the input."
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptbuiltinfunc.rst:193
+msgid "**MATH_ATAN2** = **9** --- Return the arc tangent of the input, using the signs of both parameters to determine the exact angle."
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptbuiltinfunc.rst:195
+msgid "**MATH_SQRT** = **10** --- Return the square root of the input."
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptbuiltinfunc.rst:197
+msgid "**MATH_FMOD** = **11** --- Return the remainder of one input divided by the other, using floating-point numbers."
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptbuiltinfunc.rst:199
+msgid "**MATH_FPOSMOD** = **12** --- Return the positive remainder of one input divided by the other, using floating-point numbers."
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptbuiltinfunc.rst:201
+msgid "**MATH_FLOOR** = **13** --- Return the input rounded down."
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptbuiltinfunc.rst:203
+msgid "**MATH_CEIL** = **14** --- Return the input rounded up."
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptbuiltinfunc.rst:205
+msgid "**MATH_ROUND** = **15** --- Return the input rounded to the nearest integer."
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptbuiltinfunc.rst:207
+msgid "**MATH_ABS** = **16** --- Return the absolute value of the input."
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptbuiltinfunc.rst:209
+msgid "**MATH_SIGN** = **17** --- Return the sign of the input, turning it into 1, -1, or 0. Useful to determine if the input is positive or negative."
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptbuiltinfunc.rst:211
+msgid "**MATH_POW** = **18** --- Return the input raised to a given power."
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptbuiltinfunc.rst:213
+msgid "**MATH_LOG** = **19** --- Return the natural logarithm of the input. Note that this is not the typical base-10 logarithm function calculators use."
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptbuiltinfunc.rst:215
+msgid "**MATH_EXP** = **20** --- Return the mathematical constant **e** raised to the specified power of the input. **e** has an approximate value of 2.71828."
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptbuiltinfunc.rst:217
+msgid "**MATH_ISNAN** = **21** --- Return whether the input is NaN (Not a Number) or not. NaN is usually produced by dividing 0 by 0, though other ways exist."
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptbuiltinfunc.rst:219
+msgid "**MATH_ISINF** = **22** --- Return whether the input is an infinite floating-point number or not. Infinity is usually produced by dividing a number by 0, though other ways exist."
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptbuiltinfunc.rst:221
+msgid "**MATH_EASE** = **23** --- Easing function, based on exponent. 0 is constant, 1 is linear, 0 to 1 is ease-in, 1+ is ease out. Negative values are in-out/out in."
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptbuiltinfunc.rst:223
+msgid "**MATH_DECIMALS** = **24** --- Return the number of digit places after the decimal that the first non-zero digit occurs."
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptbuiltinfunc.rst:225
+msgid "**MATH_STEPIFY** = **25** --- Return the input snapped to a given step."
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptbuiltinfunc.rst:227
+msgid "**MATH_LERP** = **26** --- Return a number linearly interpolated between the first two inputs, based on the third input. Uses the formula ``a + (a - b) * t``."
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptbuiltinfunc.rst:229
+msgid "**MATH_INVERSE_LERP** = **27**"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptbuiltinfunc.rst:231
+msgid "**MATH_RANGE_LERP** = **28**"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptbuiltinfunc.rst:233
+msgid "**MATH_MOVE_TOWARD** = **29** --- Moves the number toward a value, based on the third input."
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptbuiltinfunc.rst:235
+msgid "**MATH_DECTIME** = **30** --- Return the result of ``value`` decreased by ``step`` \\* ``amount``."
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptbuiltinfunc.rst:237
+msgid "**MATH_RANDOMIZE** = **31** --- Randomize the seed (or the internal state) of the random number generator. Current implementation reseeds using a number based on time."
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptbuiltinfunc.rst:239
+msgid "**MATH_RAND** = **32** --- Return a random 32 bits integer value. To obtain a random value between 0 to N (where N is smaller than 2^32 - 1), you can use it with the remainder function."
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptbuiltinfunc.rst:241
+msgid "**MATH_RANDF** = **33** --- Return a random floating-point value between 0 and 1. To obtain a random value between 0 to N, you can use it with multiplication."
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptbuiltinfunc.rst:243
+msgid "**MATH_RANDOM** = **34** --- Return a random floating-point value between the two inputs."
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptbuiltinfunc.rst:245
+msgid "**MATH_SEED** = **35** --- Set the seed for the random number generator."
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptbuiltinfunc.rst:247
+msgid "**MATH_RANDSEED** = **36** --- Return a random value from the given seed, along with the new seed."
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptbuiltinfunc.rst:249
+msgid "**MATH_DEG2RAD** = **37** --- Convert the input from degrees to radians."
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptbuiltinfunc.rst:251
+msgid "**MATH_RAD2DEG** = **38** --- Convert the input from radians to degrees."
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptbuiltinfunc.rst:253
+msgid "**MATH_LINEAR2DB** = **39** --- Convert the input from linear volume to decibel volume."
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptbuiltinfunc.rst:255
+msgid "**MATH_DB2LINEAR** = **40** --- Convert the input from decibel volume to linear volume."
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptbuiltinfunc.rst:257
+msgid "**MATH_POLAR2CARTESIAN** = **41** --- Converts a 2D point expressed in the polar coordinate system (a distance from the origin ``r`` and an angle ``th``) to the cartesian coordinate system (X and Y axis)."
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptbuiltinfunc.rst:259
+msgid "**MATH_CARTESIAN2POLAR** = **42** --- Converts a 2D point expressed in the cartesian coordinate system (X and Y axis) to the polar coordinate system (a distance from the origin and an angle)."
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptbuiltinfunc.rst:261
+msgid "**MATH_WRAP** = **43**"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptbuiltinfunc.rst:263
+msgid "**MATH_WRAPF** = **44**"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptbuiltinfunc.rst:265
+msgid "**LOGIC_MAX** = **45** --- Return the greater of the two numbers, also known as their maximum."
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptbuiltinfunc.rst:267
+msgid "**LOGIC_MIN** = **46** --- Return the lesser of the two numbers, also known as their minimum."
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptbuiltinfunc.rst:269
+msgid "**LOGIC_CLAMP** = **47** --- Return the input clamped inside the given range, ensuring the result is never outside it. Equivalent to ``min(max(input, range_low), range_high)``."
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptbuiltinfunc.rst:271
+msgid "**LOGIC_NEAREST_PO2** = **48** --- Return the nearest power of 2 to the input."
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptbuiltinfunc.rst:273
+msgid "**OBJ_WEAKREF** = **49** --- Create a :ref:`WeakRef<class_WeakRef>` from the input."
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptbuiltinfunc.rst:275
+msgid "**FUNC_FUNCREF** = **50** --- Create a :ref:`FuncRef<class_FuncRef>` from the input."
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptbuiltinfunc.rst:277
+msgid "**TYPE_CONVERT** = **51** --- Convert between types."
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptbuiltinfunc.rst:279
+msgid "**TYPE_OF** = **52** --- Return the type of the input as an integer. Check :ref:`Variant.Type<enum_@GlobalScope_Variant.Type>` for the integers that might be returned."
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptbuiltinfunc.rst:281
+msgid "**TYPE_EXISTS** = **53** --- Checks if a type is registered in the :ref:`ClassDB<class_ClassDB>`."
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptbuiltinfunc.rst:283
+msgid "**TEXT_CHAR** = **54** --- Return a character with the given ascii value."
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptbuiltinfunc.rst:285
+msgid "**TEXT_STR** = **55** --- Convert the input to a string."
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptbuiltinfunc.rst:287
+msgid "**TEXT_PRINT** = **56** --- Print the given string to the output window."
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptbuiltinfunc.rst:289
+msgid "**TEXT_PRINTERR** = **57** --- Print the given string to the standard error output."
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptbuiltinfunc.rst:291
+msgid "**TEXT_PRINTRAW** = **58** --- Print the given string to the standard output, without adding a newline."
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptbuiltinfunc.rst:293
+msgid "**VAR_TO_STR** = **59** --- Serialize a :ref:`Variant<class_Variant>` to a string."
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptbuiltinfunc.rst:295
+msgid "**STR_TO_VAR** = **60** --- Deserialize a :ref:`Variant<class_Variant>` from a string serialized using :ref:`VAR_TO_STR<class_VisualScriptBuiltinFunc_constant_VAR_TO_STR>`."
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptbuiltinfunc.rst:297
+msgid "**VAR_TO_BYTES** = **61** --- Serialize a :ref:`Variant<class_Variant>` to a :ref:`PoolByteArray<class_PoolByteArray>`."
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptbuiltinfunc.rst:299
+msgid "**BYTES_TO_VAR** = **62** --- Deserialize a :ref:`Variant<class_Variant>` from a :ref:`PoolByteArray<class_PoolByteArray>` serialized using :ref:`VAR_TO_BYTES<class_VisualScriptBuiltinFunc_constant_VAR_TO_BYTES>`."
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptbuiltinfunc.rst:301
+msgid "**COLORN** = **63** --- Return the :ref:`Color<class_Color>` with the given name and alpha ranging from 0 to 1."
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptbuiltinfunc.rst:303
+msgid "**Note:** Names are defined in ``color_names.inc``."
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptbuiltinfunc.rst:305
+msgid "**MATH_SMOOTHSTEP** = **64** --- Return a number smoothly interpolated between the first two inputs, based on the third input. Similar to :ref:`MATH_LERP<class_VisualScriptBuiltinFunc_constant_MATH_LERP>`, but interpolates faster at the beginning and slower at the end. Using Hermite interpolation formula:"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptbuiltinfunc.rst:312
+msgid "**MATH_POSMOD** = **65**"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptbuiltinfunc.rst:314
+msgid "**MATH_LERP_ANGLE** = **66**"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptbuiltinfunc.rst:316
+msgid "**TEXT_ORD** = **67**"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptbuiltinfunc.rst:318
+msgid "**FUNC_MAX** = **68** --- Represents the size of the :ref:`BuiltinFunc<enum_VisualScriptBuiltinFunc_BuiltinFunc>` enum."
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptbuiltinfunc.rst:321
+msgid "Property Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptbuiltinfunc.rst:325
+msgid ":ref:`BuiltinFunc<enum_VisualScriptBuiltinFunc_BuiltinFunc>` **function**"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptbuiltinfunc.rst:328
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptbuiltinfunc.rst:330
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptbuiltinfunc.rst:330
+msgid "set_func(value)"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptbuiltinfunc.rst:332
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptbuiltinfunc.rst:332
+msgid "get_func()"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptbuiltinfunc.rst:335
+msgid "The function to be executed."
+msgstr ""

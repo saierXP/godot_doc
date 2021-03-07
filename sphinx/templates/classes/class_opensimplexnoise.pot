@@ -1,0 +1,322 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_opensimplexnoise.rst:10
+msgid "OpenSimplexNoise"
+msgstr ""
+
+#: ../../docs/classes/class_opensimplexnoise.rst:12
+msgid "**Inherits:** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_opensimplexnoise.rst:14
+msgid "Noise generator based on Open Simplex."
+msgstr ""
+
+#: ../../docs/classes/class_opensimplexnoise.rst:17
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_opensimplexnoise.rst:19
+msgid "This resource allows you to configure and sample a fractal noise space. Here is a brief usage example that configures an OpenSimplexNoise and gets samples at various positions and dimensions:"
+msgstr ""
+
+#: ../../docs/classes/class_opensimplexnoise.rst:38
+msgid "Properties"
+msgstr ""
+
+#: ../../docs/classes/class_opensimplexnoise.rst:41
+#: ../../docs/classes/class_opensimplexnoise.rst:45
+#: ../../docs/classes/class_opensimplexnoise.rst:47
+#: ../../docs/classes/class_opensimplexnoise.rst:58
+#: ../../docs/classes/class_opensimplexnoise.rst:60
+#: ../../docs/classes/class_opensimplexnoise.rst:62
+#: ../../docs/classes/class_opensimplexnoise.rst:64
+#: ../../docs/classes/class_opensimplexnoise.rst:66
+#: ../../docs/classes/class_opensimplexnoise.rst:68
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../../docs/classes/class_opensimplexnoise.rst:41
+msgid ":ref:`lacunarity<class_OpenSimplexNoise_property_lacunarity>`"
+msgstr ""
+
+#: ../../docs/classes/class_opensimplexnoise.rst:41
+#: ../../docs/classes/class_opensimplexnoise.rst:81
+msgid "``2.0``"
+msgstr ""
+
+#: ../../docs/classes/class_opensimplexnoise.rst:43
+#: ../../docs/classes/class_opensimplexnoise.rst:49
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../../docs/classes/class_opensimplexnoise.rst:43
+msgid ":ref:`octaves<class_OpenSimplexNoise_property_octaves>`"
+msgstr ""
+
+#: ../../docs/classes/class_opensimplexnoise.rst:43
+#: ../../docs/classes/class_opensimplexnoise.rst:97
+msgid "``3``"
+msgstr ""
+
+#: ../../docs/classes/class_opensimplexnoise.rst:45
+msgid ":ref:`period<class_OpenSimplexNoise_property_period>`"
+msgstr ""
+
+#: ../../docs/classes/class_opensimplexnoise.rst:45
+#: ../../docs/classes/class_opensimplexnoise.rst:115
+msgid "``64.0``"
+msgstr ""
+
+#: ../../docs/classes/class_opensimplexnoise.rst:47
+msgid ":ref:`persistence<class_OpenSimplexNoise_property_persistence>`"
+msgstr ""
+
+#: ../../docs/classes/class_opensimplexnoise.rst:47
+#: ../../docs/classes/class_opensimplexnoise.rst:131
+msgid "``0.5``"
+msgstr ""
+
+#: ../../docs/classes/class_opensimplexnoise.rst:49
+msgid ":ref:`seed<class_OpenSimplexNoise_property_seed>`"
+msgstr ""
+
+#: ../../docs/classes/class_opensimplexnoise.rst:49
+#: ../../docs/classes/class_opensimplexnoise.rst:147
+msgid "``0``"
+msgstr ""
+
+#: ../../docs/classes/class_opensimplexnoise.rst:53
+msgid "Methods"
+msgstr ""
+
+#: ../../docs/classes/class_opensimplexnoise.rst:56
+#: ../../docs/classes/class_opensimplexnoise.rst:70
+msgid ":ref:`Image<class_Image>`"
+msgstr ""
+
+#: ../../docs/classes/class_opensimplexnoise.rst:56
+msgid ":ref:`get_image<class_OpenSimplexNoise_method_get_image>` **(** :ref:`int<class_int>` width, :ref:`int<class_int>` height **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_opensimplexnoise.rst:58
+msgid ":ref:`get_noise_1d<class_OpenSimplexNoise_method_get_noise_1d>` **(** :ref:`float<class_float>` x **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_opensimplexnoise.rst:60
+msgid ":ref:`get_noise_2d<class_OpenSimplexNoise_method_get_noise_2d>` **(** :ref:`float<class_float>` x, :ref:`float<class_float>` y **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_opensimplexnoise.rst:62
+msgid ":ref:`get_noise_2dv<class_OpenSimplexNoise_method_get_noise_2dv>` **(** :ref:`Vector2<class_Vector2>` pos **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_opensimplexnoise.rst:64
+msgid ":ref:`get_noise_3d<class_OpenSimplexNoise_method_get_noise_3d>` **(** :ref:`float<class_float>` x, :ref:`float<class_float>` y, :ref:`float<class_float>` z **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_opensimplexnoise.rst:66
+msgid ":ref:`get_noise_3dv<class_OpenSimplexNoise_method_get_noise_3dv>` **(** :ref:`Vector3<class_Vector3>` pos **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_opensimplexnoise.rst:68
+msgid ":ref:`get_noise_4d<class_OpenSimplexNoise_method_get_noise_4d>` **(** :ref:`float<class_float>` x, :ref:`float<class_float>` y, :ref:`float<class_float>` z, :ref:`float<class_float>` w **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_opensimplexnoise.rst:70
+msgid ":ref:`get_seamless_image<class_OpenSimplexNoise_method_get_seamless_image>` **(** :ref:`int<class_int>` size **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_opensimplexnoise.rst:74
+msgid "Property Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_opensimplexnoise.rst:78
+msgid ":ref:`float<class_float>` **lacunarity**"
+msgstr ""
+
+#: ../../docs/classes/class_opensimplexnoise.rst:81
+#: ../../docs/classes/class_opensimplexnoise.rst:97
+#: ../../docs/classes/class_opensimplexnoise.rst:115
+#: ../../docs/classes/class_opensimplexnoise.rst:131
+#: ../../docs/classes/class_opensimplexnoise.rst:147
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_opensimplexnoise.rst:83
+#: ../../docs/classes/class_opensimplexnoise.rst:99
+#: ../../docs/classes/class_opensimplexnoise.rst:117
+#: ../../docs/classes/class_opensimplexnoise.rst:133
+#: ../../docs/classes/class_opensimplexnoise.rst:149
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_opensimplexnoise.rst:83
+msgid "set_lacunarity(value)"
+msgstr ""
+
+#: ../../docs/classes/class_opensimplexnoise.rst:85
+#: ../../docs/classes/class_opensimplexnoise.rst:101
+#: ../../docs/classes/class_opensimplexnoise.rst:119
+#: ../../docs/classes/class_opensimplexnoise.rst:135
+#: ../../docs/classes/class_opensimplexnoise.rst:151
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_opensimplexnoise.rst:85
+msgid "get_lacunarity()"
+msgstr ""
+
+#: ../../docs/classes/class_opensimplexnoise.rst:88
+msgid "Difference in period between :ref:`octaves<class_OpenSimplexNoise_property_octaves>`."
+msgstr ""
+
+#: ../../docs/classes/class_opensimplexnoise.rst:94
+msgid ":ref:`int<class_int>` **octaves**"
+msgstr ""
+
+#: ../../docs/classes/class_opensimplexnoise.rst:99
+msgid "set_octaves(value)"
+msgstr ""
+
+#: ../../docs/classes/class_opensimplexnoise.rst:101
+msgid "get_octaves()"
+msgstr ""
+
+#: ../../docs/classes/class_opensimplexnoise.rst:104
+msgid "Number of OpenSimplex noise layers that are sampled to get the fractal noise. Higher values result in more detailed noise but take more time to generate."
+msgstr ""
+
+#: ../../docs/classes/class_opensimplexnoise.rst:106
+msgid "**Note:** The maximum allowed value is 9."
+msgstr ""
+
+#: ../../docs/classes/class_opensimplexnoise.rst:112
+msgid ":ref:`float<class_float>` **period**"
+msgstr ""
+
+#: ../../docs/classes/class_opensimplexnoise.rst:117
+msgid "set_period(value)"
+msgstr ""
+
+#: ../../docs/classes/class_opensimplexnoise.rst:119
+msgid "get_period()"
+msgstr ""
+
+#: ../../docs/classes/class_opensimplexnoise.rst:122
+msgid "Period of the base octave. A lower period results in a higher-frequency noise (more value changes across the same distance)."
+msgstr ""
+
+#: ../../docs/classes/class_opensimplexnoise.rst:128
+msgid ":ref:`float<class_float>` **persistence**"
+msgstr ""
+
+#: ../../docs/classes/class_opensimplexnoise.rst:133
+msgid "set_persistence(value)"
+msgstr ""
+
+#: ../../docs/classes/class_opensimplexnoise.rst:135
+msgid "get_persistence()"
+msgstr ""
+
+#: ../../docs/classes/class_opensimplexnoise.rst:138
+msgid "Contribution factor of the different octaves. A ``persistence`` value of 1 means all the octaves have the same contribution, a value of 0.5 means each octave contributes half as much as the previous one."
+msgstr ""
+
+#: ../../docs/classes/class_opensimplexnoise.rst:144
+msgid ":ref:`int<class_int>` **seed**"
+msgstr ""
+
+#: ../../docs/classes/class_opensimplexnoise.rst:149
+msgid "set_seed(value)"
+msgstr ""
+
+#: ../../docs/classes/class_opensimplexnoise.rst:151
+msgid "get_seed()"
+msgstr ""
+
+#: ../../docs/classes/class_opensimplexnoise.rst:154
+msgid "Seed used to generate random values, different seeds will generate different noise maps."
+msgstr ""
+
+#: ../../docs/classes/class_opensimplexnoise.rst:157
+msgid "Method Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_opensimplexnoise.rst:161
+msgid ":ref:`Image<class_Image>` **get_image** **(** :ref:`int<class_int>` width, :ref:`int<class_int>` height **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_opensimplexnoise.rst:163
+msgid "Generate a noise image with the requested ``width`` and ``height``, based on the current noise parameters."
+msgstr ""
+
+#: ../../docs/classes/class_opensimplexnoise.rst:169
+msgid ":ref:`float<class_float>` **get_noise_1d** **(** :ref:`float<class_float>` x **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_opensimplexnoise.rst:171
+msgid "Returns the 1D noise value ``[-1,1]`` at the given x-coordinate."
+msgstr ""
+
+#: ../../docs/classes/class_opensimplexnoise.rst:173
+msgid "**Note:** This method actually returns the 2D noise value ``[-1,1]`` with fixed y-coordinate value 0.0."
+msgstr ""
+
+#: ../../docs/classes/class_opensimplexnoise.rst:179
+msgid ":ref:`float<class_float>` **get_noise_2d** **(** :ref:`float<class_float>` x, :ref:`float<class_float>` y **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_opensimplexnoise.rst:181
+#: ../../docs/classes/class_opensimplexnoise.rst:189
+msgid "Returns the 2D noise value ``[-1,1]`` at the given position."
+msgstr ""
+
+#: ../../docs/classes/class_opensimplexnoise.rst:187
+msgid ":ref:`float<class_float>` **get_noise_2dv** **(** :ref:`Vector2<class_Vector2>` pos **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_opensimplexnoise.rst:195
+msgid ":ref:`float<class_float>` **get_noise_3d** **(** :ref:`float<class_float>` x, :ref:`float<class_float>` y, :ref:`float<class_float>` z **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_opensimplexnoise.rst:197
+#: ../../docs/classes/class_opensimplexnoise.rst:205
+msgid "Returns the 3D noise value ``[-1,1]`` at the given position."
+msgstr ""
+
+#: ../../docs/classes/class_opensimplexnoise.rst:203
+msgid ":ref:`float<class_float>` **get_noise_3dv** **(** :ref:`Vector3<class_Vector3>` pos **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_opensimplexnoise.rst:211
+msgid ":ref:`float<class_float>` **get_noise_4d** **(** :ref:`float<class_float>` x, :ref:`float<class_float>` y, :ref:`float<class_float>` z, :ref:`float<class_float>` w **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_opensimplexnoise.rst:213
+msgid "Returns the 4D noise value ``[-1,1]`` at the given position."
+msgstr ""
+
+#: ../../docs/classes/class_opensimplexnoise.rst:219
+msgid ":ref:`Image<class_Image>` **get_seamless_image** **(** :ref:`int<class_int>` size **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_opensimplexnoise.rst:221
+msgid "Generate a tileable noise image, based on the current noise parameters. Generated seamless images are always square (``size`` × ``size``)."
+msgstr ""

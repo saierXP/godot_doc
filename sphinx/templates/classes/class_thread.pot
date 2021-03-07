@@ -1,0 +1,153 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_thread.rst:10
+msgid "Thread"
+msgstr ""
+
+#: ../../docs/classes/class_thread.rst:12
+msgid "**Inherits:** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_thread.rst:14
+msgid "A unit of execution in a process."
+msgstr ""
+
+#: ../../docs/classes/class_thread.rst:17
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_thread.rst:19
+msgid "A unit of execution in a process. Can run methods on :ref:`Object<class_Object>`\\ s simultaneously. The use of synchronization via :ref:`Mutex<class_Mutex>` or :ref:`Semaphore<class_Semaphore>` is advised if working with shared objects."
+msgstr ""
+
+#: ../../docs/classes/class_thread.rst:21
+msgid "**Note:** Breakpoints won't break on code if it's running in a thread. This is a current limitation of the GDScript debugger."
+msgstr ""
+
+#: ../../docs/classes/class_thread.rst:24
+msgid "Tutorials"
+msgstr ""
+
+#: ../../docs/classes/class_thread.rst:26
+msgid ":doc:`../tutorials/threads/using_multiple_threads`"
+msgstr ""
+
+#: ../../docs/classes/class_thread.rst:28
+msgid ":doc:`../tutorials/threads/thread_safe_apis`"
+msgstr ""
+
+#: ../../docs/classes/class_thread.rst:30
+msgid "`https://godotengine.org/asset-library/asset/676 <https://godotengine.org/asset-library/asset/676>`_"
+msgstr ""
+
+#: ../../docs/classes/class_thread.rst:33
+msgid "Methods"
+msgstr ""
+
+#: ../../docs/classes/class_thread.rst:36
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../../docs/classes/class_thread.rst:36
+msgid ":ref:`get_id<class_Thread_method_get_id>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_thread.rst:38
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_thread.rst:38
+msgid ":ref:`is_active<class_Thread_method_is_active>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_thread.rst:40
+msgid ":ref:`Error<enum_@GlobalScope_Error>`"
+msgstr ""
+
+#: ../../docs/classes/class_thread.rst:40
+msgid ":ref:`start<class_Thread_method_start>` **(** :ref:`Object<class_Object>` instance, :ref:`String<class_String>` method, :ref:`Variant<class_Variant>` userdata=null, :ref:`Priority<enum_Thread_Priority>` priority=1 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_thread.rst:42
+msgid ":ref:`Variant<class_Variant>`"
+msgstr ""
+
+#: ../../docs/classes/class_thread.rst:42
+msgid ":ref:`wait_to_finish<class_Thread_method_wait_to_finish>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_thread.rst:46
+msgid "Enumerations"
+msgstr ""
+
+#: ../../docs/classes/class_thread.rst:56
+msgid "enum **Priority**:"
+msgstr ""
+
+#: ../../docs/classes/class_thread.rst:58
+msgid "**PRIORITY_LOW** = **0** --- A thread running with lower priority than normally."
+msgstr ""
+
+#: ../../docs/classes/class_thread.rst:60
+msgid "**PRIORITY_NORMAL** = **1** --- A thread with a standard priority."
+msgstr ""
+
+#: ../../docs/classes/class_thread.rst:62
+msgid "**PRIORITY_HIGH** = **2** --- A thread running with higher priority than normally."
+msgstr ""
+
+#: ../../docs/classes/class_thread.rst:65
+msgid "Method Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_thread.rst:69
+msgid ":ref:`String<class_String>` **get_id** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_thread.rst:71
+msgid "Returns the current ``Thread``'s ID, uniquely identifying it among all threads. If the ``Thread`` is not running this returns an empty string."
+msgstr ""
+
+#: ../../docs/classes/class_thread.rst:77
+msgid ":ref:`bool<class_bool>` **is_active** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_thread.rst:79
+msgid "Returns ``true`` if this ``Thread`` is currently active. An active ``Thread`` cannot start work on a new method but can be joined with :ref:`wait_to_finish<class_Thread_method_wait_to_finish>`."
+msgstr ""
+
+#: ../../docs/classes/class_thread.rst:85
+msgid ":ref:`Error<enum_@GlobalScope_Error>` **start** **(** :ref:`Object<class_Object>` instance, :ref:`String<class_String>` method, :ref:`Variant<class_Variant>` userdata=null, :ref:`Priority<enum_Thread_Priority>` priority=1 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_thread.rst:87
+msgid "Starts a new ``Thread`` that runs ``method`` on object ``instance`` with ``userdata`` passed as an argument. Even if no userdata is passed, ``method`` must accept one argument and it will be null. The ``priority`` of the ``Thread`` can be changed by passing a value from the :ref:`Priority<enum_Thread_Priority>` enum."
+msgstr ""
+
+#: ../../docs/classes/class_thread.rst:89
+msgid "Returns :ref:`@GlobalScope.OK<class_@GlobalScope_constant_OK>` on success, or :ref:`@GlobalScope.ERR_CANT_CREATE<class_@GlobalScope_constant_ERR_CANT_CREATE>` on failure."
+msgstr ""
+
+#: ../../docs/classes/class_thread.rst:95
+msgid ":ref:`Variant<class_Variant>` **wait_to_finish** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_thread.rst:97
+msgid "Joins the ``Thread`` and waits for it to finish. Returns what the method called returned."
+msgstr ""

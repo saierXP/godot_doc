@@ -1,0 +1,125 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_resourcesaver.rst:10
+msgid "ResourceSaver"
+msgstr ""
+
+#: ../../docs/classes/class_resourcesaver.rst:12
+msgid "**Inherits:** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_resourcesaver.rst:14
+msgid "Singleton for saving Godot-specific resource types."
+msgstr ""
+
+#: ../../docs/classes/class_resourcesaver.rst:17
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_resourcesaver.rst:19
+msgid "Singleton for saving Godot-specific resource types to the filesystem."
+msgstr ""
+
+#: ../../docs/classes/class_resourcesaver.rst:21
+msgid "It uses the many :ref:`ResourceFormatSaver<class_ResourceFormatSaver>` classes registered in the engine (either built-in or from a plugin) to save engine-specific resource data to text-based (e.g. ``.tres`` or ``.tscn``) or binary files (e.g. ``.res`` or ``.scn``)."
+msgstr ""
+
+#: ../../docs/classes/class_resourcesaver.rst:24
+msgid "Methods"
+msgstr ""
+
+#: ../../docs/classes/class_resourcesaver.rst:27
+msgid ":ref:`PoolStringArray<class_PoolStringArray>`"
+msgstr ""
+
+#: ../../docs/classes/class_resourcesaver.rst:27
+msgid ":ref:`get_recognized_extensions<class_ResourceSaver_method_get_recognized_extensions>` **(** :ref:`Resource<class_Resource>` type **)**"
+msgstr ""
+
+#: ../../docs/classes/class_resourcesaver.rst:29
+msgid ":ref:`Error<enum_@GlobalScope_Error>`"
+msgstr ""
+
+#: ../../docs/classes/class_resourcesaver.rst:29
+msgid ":ref:`save<class_ResourceSaver_method_save>` **(** :ref:`String<class_String>` path, :ref:`Resource<class_Resource>` resource, :ref:`SaverFlags<enum_ResourceSaver_SaverFlags>` flags=0 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_resourcesaver.rst:33
+msgid "Enumerations"
+msgstr ""
+
+#: ../../docs/classes/class_resourcesaver.rst:51
+msgid "enum **SaverFlags**:"
+msgstr ""
+
+#: ../../docs/classes/class_resourcesaver.rst:53
+msgid "**FLAG_RELATIVE_PATHS** = **1** --- Save the resource with a path relative to the scene which uses it."
+msgstr ""
+
+#: ../../docs/classes/class_resourcesaver.rst:55
+msgid "**FLAG_BUNDLE_RESOURCES** = **2** --- Bundles external resources."
+msgstr ""
+
+#: ../../docs/classes/class_resourcesaver.rst:57
+msgid "**FLAG_CHANGE_PATH** = **4** --- Changes the :ref:`Resource.resource_path<class_Resource_property_resource_path>` of the saved resource to match its new location."
+msgstr ""
+
+#: ../../docs/classes/class_resourcesaver.rst:59
+msgid "**FLAG_OMIT_EDITOR_PROPERTIES** = **8** --- Do not save editor-specific metadata (identified by their ``__editor`` prefix)."
+msgstr ""
+
+#: ../../docs/classes/class_resourcesaver.rst:61
+msgid "**FLAG_SAVE_BIG_ENDIAN** = **16** --- Save as big endian (see :ref:`File.endian_swap<class_File_property_endian_swap>`)."
+msgstr ""
+
+#: ../../docs/classes/class_resourcesaver.rst:63
+msgid "**FLAG_COMPRESS** = **32** --- Compress the resource on save using :ref:`File.COMPRESSION_ZSTD<class_File_constant_COMPRESSION_ZSTD>`. Only available for binary resource types."
+msgstr ""
+
+#: ../../docs/classes/class_resourcesaver.rst:65
+msgid "**FLAG_REPLACE_SUBRESOURCE_PATHS** = **64** --- Take over the paths of the saved subresources (see :ref:`Resource.take_over_path<class_Resource_method_take_over_path>`)."
+msgstr ""
+
+#: ../../docs/classes/class_resourcesaver.rst:68
+msgid "Method Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_resourcesaver.rst:72
+msgid ":ref:`PoolStringArray<class_PoolStringArray>` **get_recognized_extensions** **(** :ref:`Resource<class_Resource>` type **)**"
+msgstr ""
+
+#: ../../docs/classes/class_resourcesaver.rst:74
+msgid "Returns the list of extensions available for saving a resource of a given type."
+msgstr ""
+
+#: ../../docs/classes/class_resourcesaver.rst:80
+msgid ":ref:`Error<enum_@GlobalScope_Error>` **save** **(** :ref:`String<class_String>` path, :ref:`Resource<class_Resource>` resource, :ref:`SaverFlags<enum_ResourceSaver_SaverFlags>` flags=0 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_resourcesaver.rst:82
+msgid "Saves a resource to disk to the given path, using a :ref:`ResourceFormatSaver<class_ResourceFormatSaver>` that recognizes the resource object."
+msgstr ""
+
+#: ../../docs/classes/class_resourcesaver.rst:84
+msgid "The ``flags`` bitmask can be specified to customize the save behavior."
+msgstr ""
+
+#: ../../docs/classes/class_resourcesaver.rst:86
+msgid "Returns :ref:`@GlobalScope.OK<class_@GlobalScope_constant_OK>` on success."
+msgstr ""

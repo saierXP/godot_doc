@@ -1,0 +1,178 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_audioeffectpitchshift.rst:10
+msgid "AudioEffectPitchShift"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectpitchshift.rst:12
+msgid "**Inherits:** :ref:`AudioEffect<class_AudioEffect>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectpitchshift.rst:14
+msgid "Adds a pitch-shifting audio effect to an Audio bus."
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectpitchshift.rst:16
+msgid "Raises or lowers the pitch of original sound."
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectpitchshift.rst:19
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectpitchshift.rst:21
+msgid "Allows modulation of pitch independently of tempo. All frequencies can be increased/decreased with minimal effect on transients."
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectpitchshift.rst:24
+msgid "Properties"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectpitchshift.rst:27
+msgid ":ref:`FFT_Size<enum_AudioEffectPitchShift_FFT_Size>`"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectpitchshift.rst:27
+msgid ":ref:`fft_size<class_AudioEffectPitchShift_property_fft_size>`"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectpitchshift.rst:27
+#: ../../docs/classes/class_audioeffectpitchshift.rst:73
+msgid "``3``"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectpitchshift.rst:29
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectpitchshift.rst:29
+msgid ":ref:`oversampling<class_AudioEffectPitchShift_property_oversampling>`"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectpitchshift.rst:29
+#: ../../docs/classes/class_audioeffectpitchshift.rst:87
+msgid "``4``"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectpitchshift.rst:31
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectpitchshift.rst:31
+msgid ":ref:`pitch_scale<class_AudioEffectPitchShift_property_pitch_scale>`"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectpitchshift.rst:31
+#: ../../docs/classes/class_audioeffectpitchshift.rst:101
+msgid "``1.0``"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectpitchshift.rst:35
+msgid "Enumerations"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectpitchshift.rst:51
+msgid "enum **FFT_Size**:"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectpitchshift.rst:53
+msgid "**FFT_SIZE_256** = **0**"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectpitchshift.rst:55
+msgid "**FFT_SIZE_512** = **1**"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectpitchshift.rst:57
+msgid "**FFT_SIZE_1024** = **2**"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectpitchshift.rst:59
+msgid "**FFT_SIZE_2048** = **3**"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectpitchshift.rst:61
+msgid "**FFT_SIZE_4096** = **4**"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectpitchshift.rst:63
+msgid "**FFT_SIZE_MAX** = **5** --- Represents the size of the :ref:`FFT_Size<enum_AudioEffectPitchShift_FFT_Size>` enum."
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectpitchshift.rst:66
+msgid "Property Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectpitchshift.rst:70
+msgid ":ref:`FFT_Size<enum_AudioEffectPitchShift_FFT_Size>` **fft_size**"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectpitchshift.rst:73
+#: ../../docs/classes/class_audioeffectpitchshift.rst:87
+#: ../../docs/classes/class_audioeffectpitchshift.rst:101
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectpitchshift.rst:75
+#: ../../docs/classes/class_audioeffectpitchshift.rst:89
+#: ../../docs/classes/class_audioeffectpitchshift.rst:103
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectpitchshift.rst:75
+msgid "set_fft_size(value)"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectpitchshift.rst:77
+#: ../../docs/classes/class_audioeffectpitchshift.rst:91
+#: ../../docs/classes/class_audioeffectpitchshift.rst:105
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectpitchshift.rst:77
+msgid "get_fft_size()"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectpitchshift.rst:84
+msgid ":ref:`int<class_int>` **oversampling**"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectpitchshift.rst:89
+msgid "set_oversampling(value)"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectpitchshift.rst:91
+msgid "get_oversampling()"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectpitchshift.rst:98
+msgid ":ref:`float<class_float>` **pitch_scale**"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectpitchshift.rst:103
+msgid "set_pitch_scale(value)"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectpitchshift.rst:105
+msgid "get_pitch_scale()"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectpitchshift.rst:108
+msgid "Pitch value. Can range from 0 (-1 octave) to 16 (+16 octaves)."
+msgstr ""

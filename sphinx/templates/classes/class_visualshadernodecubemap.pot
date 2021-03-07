@@ -1,0 +1,173 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_visualshadernodecubemap.rst:10
+msgid "VisualShaderNodeCubeMap"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodecubemap.rst:12
+msgid "**Inherits:** :ref:`VisualShaderNode<class_VisualShaderNode>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodecubemap.rst:14
+msgid "A :ref:`CubeMap<class_CubeMap>` sampling node to be used within the visual shader graph."
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodecubemap.rst:17
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodecubemap.rst:19
+msgid "Translated to ``texture(cubemap, vec3)`` in the shader language. Returns a color vector and alpha channel as scalar."
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodecubemap.rst:22
+msgid "Properties"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodecubemap.rst:25
+msgid ":ref:`CubeMap<class_CubeMap>`"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodecubemap.rst:25
+msgid ":ref:`cube_map<class_VisualShaderNodeCubeMap_property_cube_map>`"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodecubemap.rst:27
+msgid ":ref:`Source<enum_VisualShaderNodeCubeMap_Source>`"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodecubemap.rst:27
+msgid ":ref:`source<class_VisualShaderNodeCubeMap_property_source>`"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodecubemap.rst:27
+#: ../../docs/classes/class_visualshadernodecubemap.rst:29
+#: ../../docs/classes/class_visualshadernodecubemap.rst:87
+#: ../../docs/classes/class_visualshadernodecubemap.rst:103
+msgid "``0``"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodecubemap.rst:29
+msgid ":ref:`TextureType<enum_VisualShaderNodeCubeMap_TextureType>`"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodecubemap.rst:29
+msgid ":ref:`texture_type<class_VisualShaderNodeCubeMap_property_texture_type>`"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodecubemap.rst:33
+msgid "Enumerations"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodecubemap.rst:41
+msgid "enum **Source**:"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodecubemap.rst:43
+msgid "**SOURCE_TEXTURE** = **0** --- Use the :ref:`CubeMap<class_CubeMap>` set via :ref:`cube_map<class_VisualShaderNodeCubeMap_property_cube_map>`. If this is set to :ref:`source<class_VisualShaderNodeCubeMap_property_source>`, the ``samplerCube`` port is ignored."
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodecubemap.rst:45
+msgid "**SOURCE_PORT** = **1** --- Use the :ref:`CubeMap<class_CubeMap>` sampler reference passed via the ``samplerCube`` port. If this is set to :ref:`source<class_VisualShaderNodeCubeMap_property_source>`, the :ref:`cube_map<class_VisualShaderNodeCubeMap_property_cube_map>` texture is ignored."
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodecubemap.rst:57
+msgid "enum **TextureType**:"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodecubemap.rst:59
+msgid "**TYPE_DATA** = **0** --- No hints are added to the uniform declaration."
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodecubemap.rst:61
+msgid "**TYPE_COLOR** = **1** --- Adds ``hint_albedo`` as hint to the uniform declaration for proper sRGB to linear conversion."
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodecubemap.rst:63
+msgid "**TYPE_NORMALMAP** = **2** --- Adds ``hint_normal`` as hint to the uniform declaration, which internally converts the texture for proper usage as normal map."
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodecubemap.rst:66
+msgid "Property Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodecubemap.rst:70
+msgid ":ref:`CubeMap<class_CubeMap>` **cube_map**"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodecubemap.rst:73
+#: ../../docs/classes/class_visualshadernodecubemap.rst:89
+#: ../../docs/classes/class_visualshadernodecubemap.rst:105
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodecubemap.rst:73
+msgid "set_cube_map(value)"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodecubemap.rst:75
+#: ../../docs/classes/class_visualshadernodecubemap.rst:91
+#: ../../docs/classes/class_visualshadernodecubemap.rst:107
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodecubemap.rst:75
+msgid "get_cube_map()"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodecubemap.rst:78
+msgid "The :ref:`CubeMap<class_CubeMap>` texture to sample when using :ref:`SOURCE_TEXTURE<class_VisualShaderNodeCubeMap_constant_SOURCE_TEXTURE>` as :ref:`source<class_VisualShaderNodeCubeMap_property_source>`."
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodecubemap.rst:84
+msgid ":ref:`Source<enum_VisualShaderNodeCubeMap_Source>` **source**"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodecubemap.rst:87
+#: ../../docs/classes/class_visualshadernodecubemap.rst:103
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodecubemap.rst:89
+msgid "set_source(value)"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodecubemap.rst:91
+msgid "get_source()"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodecubemap.rst:94
+msgid "Defines which source should be used for the sampling. See :ref:`Source<enum_VisualShaderNodeCubeMap_Source>` for options."
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodecubemap.rst:100
+msgid ":ref:`TextureType<enum_VisualShaderNodeCubeMap_TextureType>` **texture_type**"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodecubemap.rst:105
+msgid "set_texture_type(value)"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodecubemap.rst:107
+msgid "get_texture_type()"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodecubemap.rst:110
+msgid "Defines the type of data provided by the source texture. See :ref:`TextureType<enum_VisualShaderNodeCubeMap_TextureType>` for options."
+msgstr ""

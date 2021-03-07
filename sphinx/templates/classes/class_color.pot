@@ -1,0 +1,1143 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_color.rst:10
+msgid "Color"
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:12
+msgid "Color in RGBA format using floats on the range of 0 to 1."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:15
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:17
+msgid "A color represented by red, green, blue, and alpha (RGBA) components. The alpha component is often used for transparency. Values are in floating-point and usually range from 0 to 1. Some properties (such as CanvasItem.modulate) may accept values greater than 1 (overbright or HDR colors)."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:19
+msgid "You can also create a color from standardized color names by using :ref:`@GDScript.ColorN<class_@GDScript_method_ColorN>` or directly using the color constants defined here. The standardized color set is based on the `X11 color names <https://en.wikipedia.org/wiki/X11_color_names>`_."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:21
+msgid "If you want to supply values in a range of 0 to 255, you should use :ref:`@GDScript.Color8<class_@GDScript_method_Color8>`."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:23
+msgid "**Note:** In a boolean context, a Color will evaluate to ``false`` if it's equal to ``Color(0, 0, 0, 1)`` (opaque black). Otherwise, a Color will always evaluate to ``true``."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:25
+msgid "`Color constants cheatsheet <https://raw.githubusercontent.com/godotengine/godot-docs/master/img/color_constants.png>`_"
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:28
+msgid "Tutorials"
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:30
+msgid "`https://godotengine.org/asset-library/asset/517 <https://godotengine.org/asset-library/asset/517>`_"
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:32
+msgid "`https://godotengine.org/asset-library/asset/146 <https://godotengine.org/asset-library/asset/146>`_"
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:34
+msgid "`https://godotengine.org/asset-library/asset/133 <https://godotengine.org/asset-library/asset/133>`_"
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:37
+msgid "Properties"
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:40
+#: ../../docs/classes/class_color.rst:44
+#: ../../docs/classes/class_color.rst:48
+#: ../../docs/classes/class_color.rst:52
+#: ../../docs/classes/class_color.rst:54
+#: ../../docs/classes/class_color.rst:58
+#: ../../docs/classes/class_color.rst:60
+#: ../../docs/classes/class_color.rst:83
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:40
+msgid ":ref:`a<class_Color_property_a>`"
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:40
+#: ../../docs/classes/class_color.rst:703
+msgid "``1.0``"
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:42
+#: ../../docs/classes/class_color.rst:46
+#: ../../docs/classes/class_color.rst:50
+#: ../../docs/classes/class_color.rst:56
+#: ../../docs/classes/class_color.rst:93
+#: ../../docs/classes/class_color.rst:95
+#: ../../docs/classes/class_color.rst:97
+#: ../../docs/classes/class_color.rst:99
+#: ../../docs/classes/class_color.rst:103
+#: ../../docs/classes/class_color.rst:105
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:42
+msgid ":ref:`a8<class_Color_property_a8>`"
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:42
+#: ../../docs/classes/class_color.rst:715
+msgid "``255``"
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:44
+msgid ":ref:`b<class_Color_property_b>`"
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:44
+#: ../../docs/classes/class_color.rst:48
+#: ../../docs/classes/class_color.rst:52
+#: ../../docs/classes/class_color.rst:54
+#: ../../docs/classes/class_color.rst:58
+#: ../../docs/classes/class_color.rst:60
+#: ../../docs/classes/class_color.rst:727
+#: ../../docs/classes/class_color.rst:751
+#: ../../docs/classes/class_color.rst:775
+#: ../../docs/classes/class_color.rst:787
+#: ../../docs/classes/class_color.rst:811
+#: ../../docs/classes/class_color.rst:823
+msgid "``0.0``"
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:46
+msgid ":ref:`b8<class_Color_property_b8>`"
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:46
+#: ../../docs/classes/class_color.rst:50
+#: ../../docs/classes/class_color.rst:56
+#: ../../docs/classes/class_color.rst:739
+#: ../../docs/classes/class_color.rst:763
+#: ../../docs/classes/class_color.rst:799
+msgid "``0``"
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:48
+msgid ":ref:`g<class_Color_property_g>`"
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:50
+msgid ":ref:`g8<class_Color_property_g8>`"
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:52
+msgid ":ref:`h<class_Color_property_h>`"
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:54
+msgid ":ref:`r<class_Color_property_r>`"
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:56
+msgid ":ref:`r8<class_Color_property_r8>`"
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:58
+msgid ":ref:`s<class_Color_property_s>`"
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:60
+msgid ":ref:`v<class_Color_property_v>`"
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:64
+msgid "Methods"
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:67
+#: ../../docs/classes/class_color.rst:69
+#: ../../docs/classes/class_color.rst:71
+#: ../../docs/classes/class_color.rst:73
+#: ../../docs/classes/class_color.rst:75
+#: ../../docs/classes/class_color.rst:77
+#: ../../docs/classes/class_color.rst:79
+#: ../../docs/classes/class_color.rst:81
+#: ../../docs/classes/class_color.rst:85
+#: ../../docs/classes/class_color.rst:89
+#: ../../docs/classes/class_color.rst:91
+msgid ":ref:`Color<class_Color>`"
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:67
+msgid ":ref:`Color<class_Color_method_Color>` **(** :ref:`String<class_String>` from **)**"
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:69
+msgid ":ref:`Color<class_Color_method_Color>` **(** :ref:`int<class_int>` from **)**"
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:71
+msgid ":ref:`Color<class_Color_method_Color>` **(** :ref:`float<class_float>` r, :ref:`float<class_float>` g, :ref:`float<class_float>` b **)**"
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:73
+msgid ":ref:`Color<class_Color_method_Color>` **(** :ref:`float<class_float>` r, :ref:`float<class_float>` g, :ref:`float<class_float>` b, :ref:`float<class_float>` a **)**"
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:75
+msgid ":ref:`blend<class_Color_method_blend>` **(** :ref:`Color<class_Color>` over **)**"
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:77
+msgid ":ref:`contrasted<class_Color_method_contrasted>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:79
+msgid ":ref:`darkened<class_Color_method_darkened>` **(** :ref:`float<class_float>` amount **)**"
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:81
+msgid ":ref:`from_hsv<class_Color_method_from_hsv>` **(** :ref:`float<class_float>` h, :ref:`float<class_float>` s, :ref:`float<class_float>` v, :ref:`float<class_float>` a=1.0 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:83
+msgid ":ref:`gray<class_Color_method_gray>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:85
+msgid ":ref:`inverted<class_Color_method_inverted>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:87
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:87
+msgid ":ref:`is_equal_approx<class_Color_method_is_equal_approx>` **(** :ref:`Color<class_Color>` color **)**"
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:89
+msgid ":ref:`lightened<class_Color_method_lightened>` **(** :ref:`float<class_float>` amount **)**"
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:91
+msgid ":ref:`linear_interpolate<class_Color_method_linear_interpolate>` **(** :ref:`Color<class_Color>` b, :ref:`float<class_float>` t **)**"
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:93
+msgid ":ref:`to_abgr32<class_Color_method_to_abgr32>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:95
+msgid ":ref:`to_abgr64<class_Color_method_to_abgr64>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:97
+msgid ":ref:`to_argb32<class_Color_method_to_argb32>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:99
+msgid ":ref:`to_argb64<class_Color_method_to_argb64>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:101
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:101
+msgid ":ref:`to_html<class_Color_method_to_html>` **(** :ref:`bool<class_bool>` with_alpha=true **)**"
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:103
+msgid ":ref:`to_rgba32<class_Color_method_to_rgba32>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:105
+msgid ":ref:`to_rgba64<class_Color_method_to_rgba64>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:109
+msgid "Constants"
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:403
+msgid "**aliceblue** = **Color( 0.94, 0.97, 1, 1 )** --- Alice blue color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:405
+msgid "**antiquewhite** = **Color( 0.98, 0.92, 0.84, 1 )** --- Antique white color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:407
+msgid "**aqua** = **Color( 0, 1, 1, 1 )** --- Aqua color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:409
+msgid "**aquamarine** = **Color( 0.5, 1, 0.83, 1 )** --- Aquamarine color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:411
+msgid "**azure** = **Color( 0.94, 1, 1, 1 )** --- Azure color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:413
+msgid "**beige** = **Color( 0.96, 0.96, 0.86, 1 )** --- Beige color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:415
+msgid "**bisque** = **Color( 1, 0.89, 0.77, 1 )** --- Bisque color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:417
+msgid "**black** = **Color( 0, 0, 0, 1 )** --- Black color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:419
+msgid "**blanchedalmond** = **Color( 1, 0.92, 0.8, 1 )** --- Blanche almond color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:421
+msgid "**blue** = **Color( 0, 0, 1, 1 )** --- Blue color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:423
+msgid "**blueviolet** = **Color( 0.54, 0.17, 0.89, 1 )** --- Blue violet color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:425
+msgid "**brown** = **Color( 0.65, 0.16, 0.16, 1 )** --- Brown color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:427
+msgid "**burlywood** = **Color( 0.87, 0.72, 0.53, 1 )** --- Burly wood color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:429
+msgid "**cadetblue** = **Color( 0.37, 0.62, 0.63, 1 )** --- Cadet blue color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:431
+msgid "**chartreuse** = **Color( 0.5, 1, 0, 1 )** --- Chartreuse color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:433
+msgid "**chocolate** = **Color( 0.82, 0.41, 0.12, 1 )** --- Chocolate color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:435
+msgid "**coral** = **Color( 1, 0.5, 0.31, 1 )** --- Coral color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:437
+msgid "**cornflower** = **Color( 0.39, 0.58, 0.93, 1 )** --- Cornflower color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:439
+msgid "**cornsilk** = **Color( 1, 0.97, 0.86, 1 )** --- Corn silk color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:441
+msgid "**crimson** = **Color( 0.86, 0.08, 0.24, 1 )** --- Crimson color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:443
+msgid "**cyan** = **Color( 0, 1, 1, 1 )** --- Cyan color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:445
+msgid "**darkblue** = **Color( 0, 0, 0.55, 1 )** --- Dark blue color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:447
+msgid "**darkcyan** = **Color( 0, 0.55, 0.55, 1 )** --- Dark cyan color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:449
+msgid "**darkgoldenrod** = **Color( 0.72, 0.53, 0.04, 1 )** --- Dark goldenrod color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:451
+msgid "**darkgray** = **Color( 0.66, 0.66, 0.66, 1 )** --- Dark gray color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:453
+msgid "**darkgreen** = **Color( 0, 0.39, 0, 1 )** --- Dark green color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:455
+msgid "**darkkhaki** = **Color( 0.74, 0.72, 0.42, 1 )** --- Dark khaki color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:457
+msgid "**darkmagenta** = **Color( 0.55, 0, 0.55, 1 )** --- Dark magenta color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:459
+msgid "**darkolivegreen** = **Color( 0.33, 0.42, 0.18, 1 )** --- Dark olive green color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:461
+msgid "**darkorange** = **Color( 1, 0.55, 0, 1 )** --- Dark orange color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:463
+msgid "**darkorchid** = **Color( 0.6, 0.2, 0.8, 1 )** --- Dark orchid color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:465
+msgid "**darkred** = **Color( 0.55, 0, 0, 1 )** --- Dark red color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:467
+msgid "**darksalmon** = **Color( 0.91, 0.59, 0.48, 1 )** --- Dark salmon color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:469
+msgid "**darkseagreen** = **Color( 0.56, 0.74, 0.56, 1 )** --- Dark sea green color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:471
+msgid "**darkslateblue** = **Color( 0.28, 0.24, 0.55, 1 )** --- Dark slate blue color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:473
+msgid "**darkslategray** = **Color( 0.18, 0.31, 0.31, 1 )** --- Dark slate gray color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:475
+msgid "**darkturquoise** = **Color( 0, 0.81, 0.82, 1 )** --- Dark turquoise color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:477
+msgid "**darkviolet** = **Color( 0.58, 0, 0.83, 1 )** --- Dark violet color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:479
+msgid "**deeppink** = **Color( 1, 0.08, 0.58, 1 )** --- Deep pink color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:481
+msgid "**deepskyblue** = **Color( 0, 0.75, 1, 1 )** --- Deep sky blue color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:483
+msgid "**dimgray** = **Color( 0.41, 0.41, 0.41, 1 )** --- Dim gray color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:485
+msgid "**dodgerblue** = **Color( 0.12, 0.56, 1, 1 )** --- Dodger blue color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:487
+msgid "**firebrick** = **Color( 0.7, 0.13, 0.13, 1 )** --- Firebrick color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:489
+msgid "**floralwhite** = **Color( 1, 0.98, 0.94, 1 )** --- Floral white color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:491
+msgid "**forestgreen** = **Color( 0.13, 0.55, 0.13, 1 )** --- Forest green color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:493
+msgid "**fuchsia** = **Color( 1, 0, 1, 1 )** --- Fuchsia color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:495
+msgid "**gainsboro** = **Color( 0.86, 0.86, 0.86, 1 )** --- Gainsboro color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:497
+msgid "**ghostwhite** = **Color( 0.97, 0.97, 1, 1 )** --- Ghost white color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:499
+msgid "**gold** = **Color( 1, 0.84, 0, 1 )** --- Gold color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:501
+msgid "**goldenrod** = **Color( 0.85, 0.65, 0.13, 1 )** --- Goldenrod color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:503
+msgid "**gray** = **Color( 0.75, 0.75, 0.75, 1 )** --- Gray color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:505
+msgid "**green** = **Color( 0, 1, 0, 1 )** --- Green color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:507
+msgid "**greenyellow** = **Color( 0.68, 1, 0.18, 1 )** --- Green yellow color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:509
+msgid "**honeydew** = **Color( 0.94, 1, 0.94, 1 )** --- Honeydew color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:511
+msgid "**hotpink** = **Color( 1, 0.41, 0.71, 1 )** --- Hot pink color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:513
+msgid "**indianred** = **Color( 0.8, 0.36, 0.36, 1 )** --- Indian red color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:515
+msgid "**indigo** = **Color( 0.29, 0, 0.51, 1 )** --- Indigo color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:517
+msgid "**ivory** = **Color( 1, 1, 0.94, 1 )** --- Ivory color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:519
+msgid "**khaki** = **Color( 0.94, 0.9, 0.55, 1 )** --- Khaki color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:521
+msgid "**lavender** = **Color( 0.9, 0.9, 0.98, 1 )** --- Lavender color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:523
+msgid "**lavenderblush** = **Color( 1, 0.94, 0.96, 1 )** --- Lavender blush color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:525
+msgid "**lawngreen** = **Color( 0.49, 0.99, 0, 1 )** --- Lawn green color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:527
+msgid "**lemonchiffon** = **Color( 1, 0.98, 0.8, 1 )** --- Lemon chiffon color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:529
+msgid "**lightblue** = **Color( 0.68, 0.85, 0.9, 1 )** --- Light blue color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:531
+msgid "**lightcoral** = **Color( 0.94, 0.5, 0.5, 1 )** --- Light coral color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:533
+msgid "**lightcyan** = **Color( 0.88, 1, 1, 1 )** --- Light cyan color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:535
+msgid "**lightgoldenrod** = **Color( 0.98, 0.98, 0.82, 1 )** --- Light goldenrod color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:537
+msgid "**lightgray** = **Color( 0.83, 0.83, 0.83, 1 )** --- Light gray color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:539
+msgid "**lightgreen** = **Color( 0.56, 0.93, 0.56, 1 )** --- Light green color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:541
+msgid "**lightpink** = **Color( 1, 0.71, 0.76, 1 )** --- Light pink color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:543
+msgid "**lightsalmon** = **Color( 1, 0.63, 0.48, 1 )** --- Light salmon color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:545
+msgid "**lightseagreen** = **Color( 0.13, 0.7, 0.67, 1 )** --- Light sea green color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:547
+msgid "**lightskyblue** = **Color( 0.53, 0.81, 0.98, 1 )** --- Light sky blue color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:549
+msgid "**lightslategray** = **Color( 0.47, 0.53, 0.6, 1 )** --- Light slate gray color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:551
+msgid "**lightsteelblue** = **Color( 0.69, 0.77, 0.87, 1 )** --- Light steel blue color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:553
+msgid "**lightyellow** = **Color( 1, 1, 0.88, 1 )** --- Light yellow color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:555
+msgid "**lime** = **Color( 0, 1, 0, 1 )** --- Lime color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:557
+msgid "**limegreen** = **Color( 0.2, 0.8, 0.2, 1 )** --- Lime green color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:559
+msgid "**linen** = **Color( 0.98, 0.94, 0.9, 1 )** --- Linen color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:561
+msgid "**magenta** = **Color( 1, 0, 1, 1 )** --- Magenta color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:563
+msgid "**maroon** = **Color( 0.69, 0.19, 0.38, 1 )** --- Maroon color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:565
+msgid "**mediumaquamarine** = **Color( 0.4, 0.8, 0.67, 1 )** --- Medium aquamarine color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:567
+msgid "**mediumblue** = **Color( 0, 0, 0.8, 1 )** --- Medium blue color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:569
+msgid "**mediumorchid** = **Color( 0.73, 0.33, 0.83, 1 )** --- Medium orchid color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:571
+msgid "**mediumpurple** = **Color( 0.58, 0.44, 0.86, 1 )** --- Medium purple color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:573
+msgid "**mediumseagreen** = **Color( 0.24, 0.7, 0.44, 1 )** --- Medium sea green color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:575
+msgid "**mediumslateblue** = **Color( 0.48, 0.41, 0.93, 1 )** --- Medium slate blue color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:577
+msgid "**mediumspringgreen** = **Color( 0, 0.98, 0.6, 1 )** --- Medium spring green color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:579
+msgid "**mediumturquoise** = **Color( 0.28, 0.82, 0.8, 1 )** --- Medium turquoise color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:581
+msgid "**mediumvioletred** = **Color( 0.78, 0.08, 0.52, 1 )** --- Medium violet red color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:583
+msgid "**midnightblue** = **Color( 0.1, 0.1, 0.44, 1 )** --- Midnight blue color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:585
+msgid "**mintcream** = **Color( 0.96, 1, 0.98, 1 )** --- Mint cream color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:587
+msgid "**mistyrose** = **Color( 1, 0.89, 0.88, 1 )** --- Misty rose color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:589
+msgid "**moccasin** = **Color( 1, 0.89, 0.71, 1 )** --- Moccasin color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:591
+msgid "**navajowhite** = **Color( 1, 0.87, 0.68, 1 )** --- Navajo white color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:593
+msgid "**navyblue** = **Color( 0, 0, 0.5, 1 )** --- Navy blue color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:595
+msgid "**oldlace** = **Color( 0.99, 0.96, 0.9, 1 )** --- Old lace color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:597
+msgid "**olive** = **Color( 0.5, 0.5, 0, 1 )** --- Olive color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:599
+msgid "**olivedrab** = **Color( 0.42, 0.56, 0.14, 1 )** --- Olive drab color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:601
+msgid "**orange** = **Color( 1, 0.65, 0, 1 )** --- Orange color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:603
+msgid "**orangered** = **Color( 1, 0.27, 0, 1 )** --- Orange red color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:605
+msgid "**orchid** = **Color( 0.85, 0.44, 0.84, 1 )** --- Orchid color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:607
+msgid "**palegoldenrod** = **Color( 0.93, 0.91, 0.67, 1 )** --- Pale goldenrod color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:609
+msgid "**palegreen** = **Color( 0.6, 0.98, 0.6, 1 )** --- Pale green color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:611
+msgid "**paleturquoise** = **Color( 0.69, 0.93, 0.93, 1 )** --- Pale turquoise color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:613
+msgid "**palevioletred** = **Color( 0.86, 0.44, 0.58, 1 )** --- Pale violet red color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:615
+msgid "**papayawhip** = **Color( 1, 0.94, 0.84, 1 )** --- Papaya whip color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:617
+msgid "**peachpuff** = **Color( 1, 0.85, 0.73, 1 )** --- Peach puff color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:619
+msgid "**peru** = **Color( 0.8, 0.52, 0.25, 1 )** --- Peru color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:621
+msgid "**pink** = **Color( 1, 0.75, 0.8, 1 )** --- Pink color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:623
+msgid "**plum** = **Color( 0.87, 0.63, 0.87, 1 )** --- Plum color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:625
+msgid "**powderblue** = **Color( 0.69, 0.88, 0.9, 1 )** --- Powder blue color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:627
+msgid "**purple** = **Color( 0.63, 0.13, 0.94, 1 )** --- Purple color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:629
+msgid "**rebeccapurple** = **Color( 0.4, 0.2, 0.6, 1 )** --- Rebecca purple color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:631
+msgid "**red** = **Color( 1, 0, 0, 1 )** --- Red color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:633
+msgid "**rosybrown** = **Color( 0.74, 0.56, 0.56, 1 )** --- Rosy brown color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:635
+msgid "**royalblue** = **Color( 0.25, 0.41, 0.88, 1 )** --- Royal blue color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:637
+msgid "**saddlebrown** = **Color( 0.55, 0.27, 0.07, 1 )** --- Saddle brown color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:639
+msgid "**salmon** = **Color( 0.98, 0.5, 0.45, 1 )** --- Salmon color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:641
+msgid "**sandybrown** = **Color( 0.96, 0.64, 0.38, 1 )** --- Sandy brown color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:643
+msgid "**seagreen** = **Color( 0.18, 0.55, 0.34, 1 )** --- Sea green color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:645
+msgid "**seashell** = **Color( 1, 0.96, 0.93, 1 )** --- Seashell color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:647
+msgid "**sienna** = **Color( 0.63, 0.32, 0.18, 1 )** --- Sienna color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:649
+msgid "**silver** = **Color( 0.75, 0.75, 0.75, 1 )** --- Silver color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:651
+msgid "**skyblue** = **Color( 0.53, 0.81, 0.92, 1 )** --- Sky blue color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:653
+msgid "**slateblue** = **Color( 0.42, 0.35, 0.8, 1 )** --- Slate blue color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:655
+msgid "**slategray** = **Color( 0.44, 0.5, 0.56, 1 )** --- Slate gray color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:657
+msgid "**snow** = **Color( 1, 0.98, 0.98, 1 )** --- Snow color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:659
+msgid "**springgreen** = **Color( 0, 1, 0.5, 1 )** --- Spring green color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:661
+msgid "**steelblue** = **Color( 0.27, 0.51, 0.71, 1 )** --- Steel blue color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:663
+msgid "**tan** = **Color( 0.82, 0.71, 0.55, 1 )** --- Tan color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:665
+msgid "**teal** = **Color( 0, 0.5, 0.5, 1 )** --- Teal color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:667
+msgid "**thistle** = **Color( 0.85, 0.75, 0.85, 1 )** --- Thistle color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:669
+msgid "**tomato** = **Color( 1, 0.39, 0.28, 1 )** --- Tomato color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:671
+msgid "**transparent** = **Color( 1, 1, 1, 0 )** --- Transparent color (white with no alpha)."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:673
+msgid "**turquoise** = **Color( 0.25, 0.88, 0.82, 1 )** --- Turquoise color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:675
+msgid "**violet** = **Color( 0.93, 0.51, 0.93, 1 )** --- Violet color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:677
+msgid "**webgray** = **Color( 0.5, 0.5, 0.5, 1 )** --- Web gray color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:679
+msgid "**webgreen** = **Color( 0, 0.5, 0, 1 )** --- Web green color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:681
+msgid "**webmaroon** = **Color( 0.5, 0, 0, 1 )** --- Web maroon color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:683
+msgid "**webpurple** = **Color( 0.5, 0, 0.5, 1 )** --- Web purple color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:685
+msgid "**wheat** = **Color( 0.96, 0.87, 0.7, 1 )** --- Wheat color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:687
+msgid "**white** = **Color( 1, 1, 1, 1 )** --- White color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:689
+msgid "**whitesmoke** = **Color( 0.96, 0.96, 0.96, 1 )** --- White smoke color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:691
+msgid "**yellow** = **Color( 1, 1, 0, 1 )** --- Yellow color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:693
+msgid "**yellowgreen** = **Color( 0.6, 0.8, 0.2, 1 )** --- Yellow green color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:696
+msgid "Property Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:700
+msgid ":ref:`float<class_float>` **a**"
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:703
+#: ../../docs/classes/class_color.rst:715
+#: ../../docs/classes/class_color.rst:727
+#: ../../docs/classes/class_color.rst:739
+#: ../../docs/classes/class_color.rst:751
+#: ../../docs/classes/class_color.rst:763
+#: ../../docs/classes/class_color.rst:775
+#: ../../docs/classes/class_color.rst:787
+#: ../../docs/classes/class_color.rst:799
+#: ../../docs/classes/class_color.rst:811
+#: ../../docs/classes/class_color.rst:823
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:706
+msgid "The color's alpha (transparency) component, typically on the range of 0 to 1."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:712
+msgid ":ref:`int<class_int>` **a8**"
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:718
+msgid "Wrapper for :ref:`a<class_Color_property_a>` that uses the range 0 to 255 instead of 0 to 1."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:724
+msgid ":ref:`float<class_float>` **b**"
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:730
+msgid "The color's blue component, typically on the range of 0 to 1."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:736
+msgid ":ref:`int<class_int>` **b8**"
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:742
+msgid "Wrapper for :ref:`b<class_Color_property_b>` that uses the range 0 to 255 instead of 0 to 1."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:748
+msgid ":ref:`float<class_float>` **g**"
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:754
+msgid "The color's green component, typically on the range of 0 to 1."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:760
+msgid ":ref:`int<class_int>` **g8**"
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:766
+msgid "Wrapper for :ref:`g<class_Color_property_g>` that uses the range 0 to 255 instead of 0 to 1."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:772
+msgid ":ref:`float<class_float>` **h**"
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:778
+msgid "The HSV hue of this color, on the range 0 to 1."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:784
+msgid ":ref:`float<class_float>` **r**"
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:790
+msgid "The color's red component, typically on the range of 0 to 1."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:796
+msgid ":ref:`int<class_int>` **r8**"
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:802
+msgid "Wrapper for :ref:`r<class_Color_property_r>` that uses the range 0 to 255 instead of 0 to 1."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:808
+msgid ":ref:`float<class_float>` **s**"
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:814
+msgid "The HSV saturation of this color, on the range 0 to 1."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:820
+msgid ":ref:`float<class_float>` **v**"
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:826
+msgid "The HSV value (brightness) of this color, on the range 0 to 1."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:829
+msgid "Method Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:833
+msgid ":ref:`Color<class_Color>` **Color** **(** :ref:`String<class_String>` from **)**"
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:835
+msgid "Constructs a color from an HTML hexadecimal color string in ARGB or RGB format. See also :ref:`@GDScript.ColorN<class_@GDScript_method_ColorN>`."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:847
+msgid ":ref:`Color<class_Color>` **Color** **(** :ref:`int<class_int>` from **)**"
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:849
+msgid "Constructs a color from a 32-bit integer in RGBA format (each byte represents a color channel)."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:857
+msgid ":ref:`Color<class_Color>` **Color** **(** :ref:`float<class_float>` r, :ref:`float<class_float>` g, :ref:`float<class_float>` b **)**"
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:859
+msgid "Constructs a color from RGB values, typically between 0 and 1. Alpha will be 1."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:867
+msgid ":ref:`Color<class_Color>` **Color** **(** :ref:`float<class_float>` r, :ref:`float<class_float>` g, :ref:`float<class_float>` b, :ref:`float<class_float>` a **)**"
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:869
+msgid "Constructs a color from RGBA values, typically between 0 and 1."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:879
+msgid ":ref:`Color<class_Color>` **blend** **(** :ref:`Color<class_Color>` over **)**"
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:881
+msgid "Returns a new color resulting from blending this color over another. If the color is opaque, the result is also opaque. The second color may have a range of alpha values."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:893
+msgid ":ref:`Color<class_Color>` **contrasted** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:895
+msgid "Returns the most contrasting color."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:906
+msgid ":ref:`Color<class_Color>` **darkened** **(** :ref:`float<class_float>` amount **)**"
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:908
+msgid "Returns a new color resulting from making this color darker by the specified percentage (ratio from 0 to 1)."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:919
+msgid ":ref:`Color<class_Color>` **from_hsv** **(** :ref:`float<class_float>` h, :ref:`float<class_float>` s, :ref:`float<class_float>` v, :ref:`float<class_float>` a=1.0 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:921
+msgid "Constructs a color from an HSV profile. ``h``, ``s``, and ``v`` are values between 0 and 1."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:931
+msgid ":ref:`float<class_float>` **gray** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:933
+msgid "Returns the color's grayscale representation."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:935
+msgid "The gray value is calculated as ``(r + g + b) / 3``."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:946
+msgid ":ref:`Color<class_Color>` **inverted** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:948
+msgid "Returns the inverted color ``(1 - r, 1 - g, 1 - b, a)``."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:959
+msgid ":ref:`bool<class_bool>` **is_equal_approx** **(** :ref:`Color<class_Color>` color **)**"
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:961
+msgid "Returns ``true`` if this color and ``color`` are approximately equal, by running :ref:`@GDScript.is_equal_approx<class_@GDScript_method_is_equal_approx>` on each component."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:967
+msgid ":ref:`Color<class_Color>` **lightened** **(** :ref:`float<class_float>` amount **)**"
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:969
+msgid "Returns a new color resulting from making this color lighter by the specified percentage (ratio from 0 to 1)."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:980
+msgid ":ref:`Color<class_Color>` **linear_interpolate** **(** :ref:`Color<class_Color>` b, :ref:`float<class_float>` t **)**"
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:982
+msgid "Returns the linear interpolation with another color. The interpolation factor ``t`` is between 0 and 1."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:994
+msgid ":ref:`int<class_int>` **to_abgr32** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:996
+msgid "Returns the color converted to a 32-bit integer in ABGR format (each byte represents a color channel). ABGR is the reversed version of the default format."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:1007
+msgid ":ref:`int<class_int>` **to_abgr64** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:1009
+msgid "Returns the color converted to a 64-bit integer in ABGR format (each word represents a color channel). ABGR is the reversed version of the default format."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:1020
+msgid ":ref:`int<class_int>` **to_argb32** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:1022
+msgid "Returns the color converted to a 32-bit integer in ARGB format (each byte represents a color channel). ARGB is more compatible with DirectX."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:1033
+msgid ":ref:`int<class_int>` **to_argb64** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:1035
+msgid "Returns the color converted to a 64-bit integer in ARGB format (each word represents a color channel). ARGB is more compatible with DirectX."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:1046
+msgid ":ref:`String<class_String>` **to_html** **(** :ref:`bool<class_bool>` with_alpha=true **)**"
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:1048
+msgid "Returns the color's HTML hexadecimal color string in ARGB format (ex: ``ff34f822``)."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:1050
+msgid "Setting ``with_alpha`` to ``false`` excludes alpha from the hexadecimal string."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:1062
+msgid ":ref:`int<class_int>` **to_rgba32** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:1064
+msgid "Returns the color converted to a 32-bit integer in RGBA format (each byte represents a color channel). RGBA is Godot's default format."
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:1075
+msgid ":ref:`int<class_int>` **to_rgba64** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_color.rst:1077
+msgid "Returns the color converted to a 64-bit integer in RGBA format (each word represents a color channel). RGBA is Godot's default format."
+msgstr ""

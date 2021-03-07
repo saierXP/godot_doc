@@ -1,0 +1,165 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_visualscriptyieldsignal.rst:10
+msgid "VisualScriptYieldSignal"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptyieldsignal.rst:12
+msgid "**Inherits:** :ref:`VisualScriptNode<class_VisualScriptNode>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptyieldsignal.rst:17
+msgid "Properties"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptyieldsignal.rst:20
+#: ../../docs/classes/class_visualscriptyieldsignal.rst:26
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptyieldsignal.rst:20
+msgid ":ref:`base_type<class_VisualScriptYieldSignal_property_base_type>`"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptyieldsignal.rst:20
+#: ../../docs/classes/class_visualscriptyieldsignal.rst:56
+msgid "``\"Object\"``"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptyieldsignal.rst:22
+msgid ":ref:`CallMode<enum_VisualScriptYieldSignal_CallMode>`"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptyieldsignal.rst:22
+msgid ":ref:`call_mode<class_VisualScriptYieldSignal_property_call_mode>`"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptyieldsignal.rst:22
+#: ../../docs/classes/class_visualscriptyieldsignal.rst:70
+msgid "``0``"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptyieldsignal.rst:24
+msgid ":ref:`NodePath<class_NodePath>`"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptyieldsignal.rst:24
+msgid ":ref:`node_path<class_VisualScriptYieldSignal_property_node_path>`"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptyieldsignal.rst:26
+msgid ":ref:`signal<class_VisualScriptYieldSignal_property_signal>`"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptyieldsignal.rst:26
+#: ../../docs/classes/class_visualscriptyieldsignal.rst:96
+msgid "``\"\"``"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptyieldsignal.rst:30
+msgid "Enumerations"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptyieldsignal.rst:40
+msgid "enum **CallMode**:"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptyieldsignal.rst:42
+msgid "**CALL_MODE_SELF** = **0**"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptyieldsignal.rst:44
+msgid "**CALL_MODE_NODE_PATH** = **1**"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptyieldsignal.rst:46
+msgid "**CALL_MODE_INSTANCE** = **2**"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptyieldsignal.rst:49
+msgid "Property Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptyieldsignal.rst:53
+msgid ":ref:`String<class_String>` **base_type**"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptyieldsignal.rst:56
+#: ../../docs/classes/class_visualscriptyieldsignal.rst:70
+#: ../../docs/classes/class_visualscriptyieldsignal.rst:96
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptyieldsignal.rst:58
+#: ../../docs/classes/class_visualscriptyieldsignal.rst:72
+#: ../../docs/classes/class_visualscriptyieldsignal.rst:84
+#: ../../docs/classes/class_visualscriptyieldsignal.rst:98
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptyieldsignal.rst:58
+msgid "set_base_type(value)"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptyieldsignal.rst:60
+#: ../../docs/classes/class_visualscriptyieldsignal.rst:74
+#: ../../docs/classes/class_visualscriptyieldsignal.rst:86
+#: ../../docs/classes/class_visualscriptyieldsignal.rst:100
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptyieldsignal.rst:60
+msgid "get_base_type()"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptyieldsignal.rst:67
+msgid ":ref:`CallMode<enum_VisualScriptYieldSignal_CallMode>` **call_mode**"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptyieldsignal.rst:72
+msgid "set_call_mode(value)"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptyieldsignal.rst:74
+msgid "get_call_mode()"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptyieldsignal.rst:81
+msgid ":ref:`NodePath<class_NodePath>` **node_path**"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptyieldsignal.rst:84
+msgid "set_base_path(value)"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptyieldsignal.rst:86
+msgid "get_base_path()"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptyieldsignal.rst:93
+msgid ":ref:`String<class_String>` **signal**"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptyieldsignal.rst:98
+msgid "set_signal(value)"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptyieldsignal.rst:100
+msgid "get_signal()"
+msgstr ""

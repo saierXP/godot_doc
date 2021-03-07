@@ -1,0 +1,117 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_capsuleshape.rst:10
+msgid "CapsuleShape"
+msgstr ""
+
+#: ../../docs/classes/class_capsuleshape.rst:12
+msgid "**Inherits:** :ref:`Shape<class_Shape>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_capsuleshape.rst:14
+#: ../../docs/classes/class_capsuleshape.rst:19
+msgid "Capsule shape for collisions."
+msgstr ""
+
+#: ../../docs/classes/class_capsuleshape.rst:17
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_capsuleshape.rst:22
+msgid "Tutorials"
+msgstr ""
+
+#: ../../docs/classes/class_capsuleshape.rst:24
+msgid "`https://godotengine.org/asset-library/asset/675 <https://godotengine.org/asset-library/asset/675>`_"
+msgstr ""
+
+#: ../../docs/classes/class_capsuleshape.rst:27
+msgid "Properties"
+msgstr ""
+
+#: ../../docs/classes/class_capsuleshape.rst:30
+#: ../../docs/classes/class_capsuleshape.rst:32
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../../docs/classes/class_capsuleshape.rst:30
+msgid ":ref:`height<class_CapsuleShape_property_height>`"
+msgstr ""
+
+#: ../../docs/classes/class_capsuleshape.rst:30
+#: ../../docs/classes/class_capsuleshape.rst:32
+#: ../../docs/classes/class_capsuleshape.rst:43
+#: ../../docs/classes/class_capsuleshape.rst:59
+msgid "``1.0``"
+msgstr ""
+
+#: ../../docs/classes/class_capsuleshape.rst:32
+msgid ":ref:`radius<class_CapsuleShape_property_radius>`"
+msgstr ""
+
+#: ../../docs/classes/class_capsuleshape.rst:36
+msgid "Property Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_capsuleshape.rst:40
+msgid ":ref:`float<class_float>` **height**"
+msgstr ""
+
+#: ../../docs/classes/class_capsuleshape.rst:43
+#: ../../docs/classes/class_capsuleshape.rst:59
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_capsuleshape.rst:45
+#: ../../docs/classes/class_capsuleshape.rst:61
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_capsuleshape.rst:45
+msgid "set_height(value)"
+msgstr ""
+
+#: ../../docs/classes/class_capsuleshape.rst:47
+#: ../../docs/classes/class_capsuleshape.rst:63
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_capsuleshape.rst:47
+msgid "get_height()"
+msgstr ""
+
+#: ../../docs/classes/class_capsuleshape.rst:50
+msgid "The capsule's height."
+msgstr ""
+
+#: ../../docs/classes/class_capsuleshape.rst:56
+msgid ":ref:`float<class_float>` **radius**"
+msgstr ""
+
+#: ../../docs/classes/class_capsuleshape.rst:61
+msgid "set_radius(value)"
+msgstr ""
+
+#: ../../docs/classes/class_capsuleshape.rst:63
+msgid "get_radius()"
+msgstr ""
+
+#: ../../docs/classes/class_capsuleshape.rst:66
+msgid "The capsule's radius."
+msgstr ""

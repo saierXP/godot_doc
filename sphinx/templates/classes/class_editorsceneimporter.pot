@@ -1,0 +1,151 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_editorsceneimporter.rst:10
+msgid "EditorSceneImporter"
+msgstr ""
+
+#: ../../docs/classes/class_editorsceneimporter.rst:12
+msgid "**Inherits:** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_editorsceneimporter.rst:14
+msgid "**Inherited By:** :ref:`EditorSceneImporterFBX<class_EditorSceneImporterFBX>`"
+msgstr ""
+
+#: ../../docs/classes/class_editorsceneimporter.rst:16
+msgid "Imports scenes from third-parties' 3D files."
+msgstr ""
+
+#: ../../docs/classes/class_editorsceneimporter.rst:19
+msgid "Methods"
+msgstr ""
+
+#: ../../docs/classes/class_editorsceneimporter.rst:22
+msgid ":ref:`Array<class_Array>`"
+msgstr ""
+
+#: ../../docs/classes/class_editorsceneimporter.rst:22
+msgid ":ref:`_get_extensions<class_EditorSceneImporter_method__get_extensions>` **(** **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_editorsceneimporter.rst:24
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../../docs/classes/class_editorsceneimporter.rst:24
+msgid ":ref:`_get_import_flags<class_EditorSceneImporter_method__get_import_flags>` **(** **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_editorsceneimporter.rst:26
+#: ../../docs/classes/class_editorsceneimporter.rst:30
+msgid ":ref:`Animation<class_Animation>`"
+msgstr ""
+
+#: ../../docs/classes/class_editorsceneimporter.rst:26
+msgid ":ref:`_import_animation<class_EditorSceneImporter_method__import_animation>` **(** :ref:`String<class_String>` path, :ref:`int<class_int>` flags, :ref:`int<class_int>` bake_fps **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_editorsceneimporter.rst:28
+#: ../../docs/classes/class_editorsceneimporter.rst:32
+msgid ":ref:`Node<class_Node>`"
+msgstr ""
+
+#: ../../docs/classes/class_editorsceneimporter.rst:28
+msgid ":ref:`_import_scene<class_EditorSceneImporter_method__import_scene>` **(** :ref:`String<class_String>` path, :ref:`int<class_int>` flags, :ref:`int<class_int>` bake_fps **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_editorsceneimporter.rst:30
+msgid ":ref:`import_animation_from_other_importer<class_EditorSceneImporter_method_import_animation_from_other_importer>` **(** :ref:`String<class_String>` path, :ref:`int<class_int>` flags, :ref:`int<class_int>` bake_fps **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorsceneimporter.rst:32
+msgid ":ref:`import_scene_from_other_importer<class_EditorSceneImporter_method_import_scene_from_other_importer>` **(** :ref:`String<class_String>` path, :ref:`int<class_int>` flags, :ref:`int<class_int>` bake_fps **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorsceneimporter.rst:36
+msgid "Constants"
+msgstr ""
+
+#: ../../docs/classes/class_editorsceneimporter.rst:58
+msgid "**IMPORT_SCENE** = **1**"
+msgstr ""
+
+#: ../../docs/classes/class_editorsceneimporter.rst:60
+msgid "**IMPORT_ANIMATION** = **2**"
+msgstr ""
+
+#: ../../docs/classes/class_editorsceneimporter.rst:62
+msgid "**IMPORT_ANIMATION_DETECT_LOOP** = **4**"
+msgstr ""
+
+#: ../../docs/classes/class_editorsceneimporter.rst:64
+msgid "**IMPORT_ANIMATION_OPTIMIZE** = **8**"
+msgstr ""
+
+#: ../../docs/classes/class_editorsceneimporter.rst:66
+msgid "**IMPORT_ANIMATION_FORCE_ALL_TRACKS_IN_ALL_CLIPS** = **16**"
+msgstr ""
+
+#: ../../docs/classes/class_editorsceneimporter.rst:68
+msgid "**IMPORT_ANIMATION_KEEP_VALUE_TRACKS** = **32**"
+msgstr ""
+
+#: ../../docs/classes/class_editorsceneimporter.rst:70
+msgid "**IMPORT_GENERATE_TANGENT_ARRAYS** = **256**"
+msgstr ""
+
+#: ../../docs/classes/class_editorsceneimporter.rst:72
+msgid "**IMPORT_FAIL_ON_MISSING_DEPENDENCIES** = **512**"
+msgstr ""
+
+#: ../../docs/classes/class_editorsceneimporter.rst:74
+msgid "**IMPORT_MATERIALS_IN_INSTANCES** = **1024**"
+msgstr ""
+
+#: ../../docs/classes/class_editorsceneimporter.rst:76
+msgid "**IMPORT_USE_COMPRESSION** = **2048**"
+msgstr ""
+
+#: ../../docs/classes/class_editorsceneimporter.rst:79
+msgid "Method Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_editorsceneimporter.rst:83
+msgid ":ref:`Array<class_Array>` **_get_extensions** **(** **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_editorsceneimporter.rst:89
+msgid ":ref:`int<class_int>` **_get_import_flags** **(** **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_editorsceneimporter.rst:95
+msgid ":ref:`Animation<class_Animation>` **_import_animation** **(** :ref:`String<class_String>` path, :ref:`int<class_int>` flags, :ref:`int<class_int>` bake_fps **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_editorsceneimporter.rst:101
+msgid ":ref:`Node<class_Node>` **_import_scene** **(** :ref:`String<class_String>` path, :ref:`int<class_int>` flags, :ref:`int<class_int>` bake_fps **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_editorsceneimporter.rst:107
+msgid ":ref:`Animation<class_Animation>` **import_animation_from_other_importer** **(** :ref:`String<class_String>` path, :ref:`int<class_int>` flags, :ref:`int<class_int>` bake_fps **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorsceneimporter.rst:113
+msgid ":ref:`Node<class_Node>` **import_scene_from_other_importer** **(** :ref:`String<class_String>` path, :ref:`int<class_int>` flags, :ref:`int<class_int>` bake_fps **)**"
+msgstr ""

@@ -1,0 +1,614 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_gridmap.rst:10
+msgid "GridMap"
+msgstr ""
+
+#: ../../docs/classes/class_gridmap.rst:12
+msgid "**Inherits:** :ref:`Spatial<class_Spatial>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_gridmap.rst:14
+msgid "Node for 3D tile-based maps."
+msgstr ""
+
+#: ../../docs/classes/class_gridmap.rst:17
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_gridmap.rst:19
+msgid "GridMap lets you place meshes on a grid interactively. It works both from the editor and from scripts, which can help you create in-game level editors."
+msgstr ""
+
+#: ../../docs/classes/class_gridmap.rst:21
+msgid "GridMaps use a :ref:`MeshLibrary<class_MeshLibrary>` which contains a list of tiles. Each tile is a mesh with materials plus optional collision and navigation shapes."
+msgstr ""
+
+#: ../../docs/classes/class_gridmap.rst:23
+msgid "A GridMap contains a collection of cells. Each grid cell refers to a tile in the :ref:`MeshLibrary<class_MeshLibrary>`. All cells in the map have the same dimensions."
+msgstr ""
+
+#: ../../docs/classes/class_gridmap.rst:25
+msgid "Internally, a GridMap is split into a sparse collection of octants for efficient rendering and physics processing. Every octant has the same dimensions and can contain several cells."
+msgstr ""
+
+#: ../../docs/classes/class_gridmap.rst:28
+msgid "Tutorials"
+msgstr ""
+
+#: ../../docs/classes/class_gridmap.rst:30
+msgid ":doc:`../tutorials/3d/using_gridmaps`"
+msgstr ""
+
+#: ../../docs/classes/class_gridmap.rst:32
+msgid "`https://godotengine.org/asset-library/asset/125 <https://godotengine.org/asset-library/asset/125>`_"
+msgstr ""
+
+#: ../../docs/classes/class_gridmap.rst:34
+msgid "`https://godotengine.org/asset-library/asset/126 <https://godotengine.org/asset-library/asset/126>`_"
+msgstr ""
+
+#: ../../docs/classes/class_gridmap.rst:37
+msgid "Properties"
+msgstr ""
+
+#: ../../docs/classes/class_gridmap.rst:40
+#: ../../docs/classes/class_gridmap.rst:42
+#: ../../docs/classes/class_gridmap.rst:44
+#: ../../docs/classes/class_gridmap.rst:75
+#: ../../docs/classes/class_gridmap.rst:77
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_gridmap.rst:40
+msgid ":ref:`cell_center_x<class_GridMap_property_cell_center_x>`"
+msgstr ""
+
+#: ../../docs/classes/class_gridmap.rst:40
+#: ../../docs/classes/class_gridmap.rst:42
+#: ../../docs/classes/class_gridmap.rst:44
+#: ../../docs/classes/class_gridmap.rst:124
+#: ../../docs/classes/class_gridmap.rst:140
+#: ../../docs/classes/class_gridmap.rst:156
+msgid "``true``"
+msgstr ""
+
+#: ../../docs/classes/class_gridmap.rst:42
+msgid ":ref:`cell_center_y<class_GridMap_property_cell_center_y>`"
+msgstr ""
+
+#: ../../docs/classes/class_gridmap.rst:44
+msgid ":ref:`cell_center_z<class_GridMap_property_cell_center_z>`"
+msgstr ""
+
+#: ../../docs/classes/class_gridmap.rst:46
+#: ../../docs/classes/class_gridmap.rst:52
+#: ../../docs/classes/class_gridmap.rst:54
+#: ../../docs/classes/class_gridmap.rst:71
+#: ../../docs/classes/class_gridmap.rst:73
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../../docs/classes/class_gridmap.rst:46
+msgid ":ref:`cell_octant_size<class_GridMap_property_cell_octant_size>`"
+msgstr ""
+
+#: ../../docs/classes/class_gridmap.rst:46
+#: ../../docs/classes/class_gridmap.rst:172
+msgid "``8``"
+msgstr ""
+
+#: ../../docs/classes/class_gridmap.rst:48
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../../docs/classes/class_gridmap.rst:48
+msgid ":ref:`cell_scale<class_GridMap_property_cell_scale>`"
+msgstr ""
+
+#: ../../docs/classes/class_gridmap.rst:48
+#: ../../docs/classes/class_gridmap.rst:188
+msgid "``1.0``"
+msgstr ""
+
+#: ../../docs/classes/class_gridmap.rst:50
+#: ../../docs/classes/class_gridmap.rst:85
+#: ../../docs/classes/class_gridmap.rst:97
+msgid ":ref:`Vector3<class_Vector3>`"
+msgstr ""
+
+#: ../../docs/classes/class_gridmap.rst:50
+msgid ":ref:`cell_size<class_GridMap_property_cell_size>`"
+msgstr ""
+
+#: ../../docs/classes/class_gridmap.rst:50
+#: ../../docs/classes/class_gridmap.rst:206
+msgid "``Vector3( 2, 2, 2 )``"
+msgstr ""
+
+#: ../../docs/classes/class_gridmap.rst:52
+msgid ":ref:`collision_layer<class_GridMap_property_collision_layer>`"
+msgstr ""
+
+#: ../../docs/classes/class_gridmap.rst:52
+#: ../../docs/classes/class_gridmap.rst:54
+#: ../../docs/classes/class_gridmap.rst:224
+#: ../../docs/classes/class_gridmap.rst:242
+msgid "``1``"
+msgstr ""
+
+#: ../../docs/classes/class_gridmap.rst:54
+msgid ":ref:`collision_mask<class_GridMap_property_collision_mask>`"
+msgstr ""
+
+#: ../../docs/classes/class_gridmap.rst:56
+msgid ":ref:`MeshLibrary<class_MeshLibrary>`"
+msgstr ""
+
+#: ../../docs/classes/class_gridmap.rst:56
+msgid ":ref:`mesh_library<class_GridMap_property_mesh_library>`"
+msgstr ""
+
+#: ../../docs/classes/class_gridmap.rst:60
+msgid "Methods"
+msgstr ""
+
+#: ../../docs/classes/class_gridmap.rst:63
+#: ../../docs/classes/class_gridmap.rst:65
+#: ../../docs/classes/class_gridmap.rst:83
+#: ../../docs/classes/class_gridmap.rst:87
+#: ../../docs/classes/class_gridmap.rst:89
+#: ../../docs/classes/class_gridmap.rst:91
+#: ../../docs/classes/class_gridmap.rst:93
+#: ../../docs/classes/class_gridmap.rst:95
+msgid "void"
+msgstr ""
+
+#: ../../docs/classes/class_gridmap.rst:63
+msgid ":ref:`clear<class_GridMap_method_clear>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_gridmap.rst:65
+msgid ":ref:`clear_baked_meshes<class_GridMap_method_clear_baked_meshes>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_gridmap.rst:67
+msgid ":ref:`RID<class_RID>`"
+msgstr ""
+
+#: ../../docs/classes/class_gridmap.rst:67
+msgid ":ref:`get_bake_mesh_instance<class_GridMap_method_get_bake_mesh_instance>` **(** :ref:`int<class_int>` idx **)**"
+msgstr ""
+
+#: ../../docs/classes/class_gridmap.rst:69
+#: ../../docs/classes/class_gridmap.rst:79
+#: ../../docs/classes/class_gridmap.rst:81
+msgid ":ref:`Array<class_Array>`"
+msgstr ""
+
+#: ../../docs/classes/class_gridmap.rst:69
+msgid ":ref:`get_bake_meshes<class_GridMap_method_get_bake_meshes>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_gridmap.rst:71
+msgid ":ref:`get_cell_item<class_GridMap_method_get_cell_item>` **(** :ref:`int<class_int>` x, :ref:`int<class_int>` y, :ref:`int<class_int>` z **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_gridmap.rst:73
+msgid ":ref:`get_cell_item_orientation<class_GridMap_method_get_cell_item_orientation>` **(** :ref:`int<class_int>` x, :ref:`int<class_int>` y, :ref:`int<class_int>` z **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_gridmap.rst:75
+msgid ":ref:`get_collision_layer_bit<class_GridMap_method_get_collision_layer_bit>` **(** :ref:`int<class_int>` bit **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_gridmap.rst:77
+msgid ":ref:`get_collision_mask_bit<class_GridMap_method_get_collision_mask_bit>` **(** :ref:`int<class_int>` bit **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_gridmap.rst:79
+msgid ":ref:`get_meshes<class_GridMap_method_get_meshes>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_gridmap.rst:81
+msgid ":ref:`get_used_cells<class_GridMap_method_get_used_cells>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_gridmap.rst:83
+msgid ":ref:`make_baked_meshes<class_GridMap_method_make_baked_meshes>` **(** :ref:`bool<class_bool>` gen_lightmap_uv=false, :ref:`float<class_float>` lightmap_uv_texel_size=0.1 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_gridmap.rst:85
+msgid ":ref:`map_to_world<class_GridMap_method_map_to_world>` **(** :ref:`int<class_int>` x, :ref:`int<class_int>` y, :ref:`int<class_int>` z **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_gridmap.rst:87
+msgid ":ref:`resource_changed<class_GridMap_method_resource_changed>` **(** :ref:`Resource<class_Resource>` resource **)**"
+msgstr ""
+
+#: ../../docs/classes/class_gridmap.rst:89
+msgid ":ref:`set_cell_item<class_GridMap_method_set_cell_item>` **(** :ref:`int<class_int>` x, :ref:`int<class_int>` y, :ref:`int<class_int>` z, :ref:`int<class_int>` item, :ref:`int<class_int>` orientation=0 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_gridmap.rst:91
+msgid ":ref:`set_clip<class_GridMap_method_set_clip>` **(** :ref:`bool<class_bool>` enabled, :ref:`bool<class_bool>` clipabove=true, :ref:`int<class_int>` floor=0, Vector3.Axis axis=0 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_gridmap.rst:93
+msgid ":ref:`set_collision_layer_bit<class_GridMap_method_set_collision_layer_bit>` **(** :ref:`int<class_int>` bit, :ref:`bool<class_bool>` value **)**"
+msgstr ""
+
+#: ../../docs/classes/class_gridmap.rst:95
+msgid ":ref:`set_collision_mask_bit<class_GridMap_method_set_collision_mask_bit>` **(** :ref:`int<class_int>` bit, :ref:`bool<class_bool>` value **)**"
+msgstr ""
+
+#: ../../docs/classes/class_gridmap.rst:97
+msgid ":ref:`world_to_map<class_GridMap_method_world_to_map>` **(** :ref:`Vector3<class_Vector3>` pos **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_gridmap.rst:101
+msgid "Signals"
+msgstr ""
+
+#: ../../docs/classes/class_gridmap.rst:105
+msgid "**cell_size_changed** **(** :ref:`Vector3<class_Vector3>` cell_size **)**"
+msgstr ""
+
+#: ../../docs/classes/class_gridmap.rst:107
+msgid "Emitted when :ref:`cell_size<class_GridMap_property_cell_size>` changes."
+msgstr ""
+
+#: ../../docs/classes/class_gridmap.rst:110
+msgid "Constants"
+msgstr ""
+
+#: ../../docs/classes/class_gridmap.rst:114
+msgid "**INVALID_CELL_ITEM** = **-1** --- Invalid cell item that can be used in :ref:`set_cell_item<class_GridMap_method_set_cell_item>` to clear cells (or represent an empty cell in :ref:`get_cell_item<class_GridMap_method_get_cell_item>`)."
+msgstr ""
+
+#: ../../docs/classes/class_gridmap.rst:117
+msgid "Property Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_gridmap.rst:121
+msgid ":ref:`bool<class_bool>` **cell_center_x**"
+msgstr ""
+
+#: ../../docs/classes/class_gridmap.rst:124
+#: ../../docs/classes/class_gridmap.rst:140
+#: ../../docs/classes/class_gridmap.rst:156
+#: ../../docs/classes/class_gridmap.rst:172
+#: ../../docs/classes/class_gridmap.rst:188
+#: ../../docs/classes/class_gridmap.rst:206
+#: ../../docs/classes/class_gridmap.rst:224
+#: ../../docs/classes/class_gridmap.rst:242
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_gridmap.rst:126
+#: ../../docs/classes/class_gridmap.rst:142
+#: ../../docs/classes/class_gridmap.rst:158
+#: ../../docs/classes/class_gridmap.rst:174
+#: ../../docs/classes/class_gridmap.rst:190
+#: ../../docs/classes/class_gridmap.rst:208
+#: ../../docs/classes/class_gridmap.rst:226
+#: ../../docs/classes/class_gridmap.rst:244
+#: ../../docs/classes/class_gridmap.rst:258
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_gridmap.rst:126
+msgid "set_center_x(value)"
+msgstr ""
+
+#: ../../docs/classes/class_gridmap.rst:128
+#: ../../docs/classes/class_gridmap.rst:144
+#: ../../docs/classes/class_gridmap.rst:160
+#: ../../docs/classes/class_gridmap.rst:176
+#: ../../docs/classes/class_gridmap.rst:192
+#: ../../docs/classes/class_gridmap.rst:210
+#: ../../docs/classes/class_gridmap.rst:228
+#: ../../docs/classes/class_gridmap.rst:246
+#: ../../docs/classes/class_gridmap.rst:260
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_gridmap.rst:128
+msgid "get_center_x()"
+msgstr ""
+
+#: ../../docs/classes/class_gridmap.rst:131
+msgid "If ``true``, grid items are centered on the X axis."
+msgstr ""
+
+#: ../../docs/classes/class_gridmap.rst:137
+msgid ":ref:`bool<class_bool>` **cell_center_y**"
+msgstr ""
+
+#: ../../docs/classes/class_gridmap.rst:142
+msgid "set_center_y(value)"
+msgstr ""
+
+#: ../../docs/classes/class_gridmap.rst:144
+msgid "get_center_y()"
+msgstr ""
+
+#: ../../docs/classes/class_gridmap.rst:147
+msgid "If ``true``, grid items are centered on the Y axis."
+msgstr ""
+
+#: ../../docs/classes/class_gridmap.rst:153
+msgid ":ref:`bool<class_bool>` **cell_center_z**"
+msgstr ""
+
+#: ../../docs/classes/class_gridmap.rst:158
+msgid "set_center_z(value)"
+msgstr ""
+
+#: ../../docs/classes/class_gridmap.rst:160
+msgid "get_center_z()"
+msgstr ""
+
+#: ../../docs/classes/class_gridmap.rst:163
+msgid "If ``true``, grid items are centered on the Z axis."
+msgstr ""
+
+#: ../../docs/classes/class_gridmap.rst:169
+msgid ":ref:`int<class_int>` **cell_octant_size**"
+msgstr ""
+
+#: ../../docs/classes/class_gridmap.rst:174
+msgid "set_octant_size(value)"
+msgstr ""
+
+#: ../../docs/classes/class_gridmap.rst:176
+msgid "get_octant_size()"
+msgstr ""
+
+#: ../../docs/classes/class_gridmap.rst:179
+msgid "The size of each octant measured in number of cells. This applies to all three axis."
+msgstr ""
+
+#: ../../docs/classes/class_gridmap.rst:185
+msgid ":ref:`float<class_float>` **cell_scale**"
+msgstr ""
+
+#: ../../docs/classes/class_gridmap.rst:190
+msgid "set_cell_scale(value)"
+msgstr ""
+
+#: ../../docs/classes/class_gridmap.rst:192
+msgid "get_cell_scale()"
+msgstr ""
+
+#: ../../docs/classes/class_gridmap.rst:195
+msgid "The scale of the cell items."
+msgstr ""
+
+#: ../../docs/classes/class_gridmap.rst:197
+msgid "This does not affect the size of the grid cells themselves, only the items in them. This can be used to make cell items overlap their neighbors."
+msgstr ""
+
+#: ../../docs/classes/class_gridmap.rst:203
+msgid ":ref:`Vector3<class_Vector3>` **cell_size**"
+msgstr ""
+
+#: ../../docs/classes/class_gridmap.rst:208
+msgid "set_cell_size(value)"
+msgstr ""
+
+#: ../../docs/classes/class_gridmap.rst:210
+msgid "get_cell_size()"
+msgstr ""
+
+#: ../../docs/classes/class_gridmap.rst:213
+msgid "The dimensions of the grid's cells."
+msgstr ""
+
+#: ../../docs/classes/class_gridmap.rst:215
+msgid "This does not affect the size of the meshes. See :ref:`cell_scale<class_GridMap_property_cell_scale>`."
+msgstr ""
+
+#: ../../docs/classes/class_gridmap.rst:221
+msgid ":ref:`int<class_int>` **collision_layer**"
+msgstr ""
+
+#: ../../docs/classes/class_gridmap.rst:226
+msgid "set_collision_layer(value)"
+msgstr ""
+
+#: ../../docs/classes/class_gridmap.rst:228
+msgid "get_collision_layer()"
+msgstr ""
+
+#: ../../docs/classes/class_gridmap.rst:231
+msgid "The physics layers this GridMap is in."
+msgstr ""
+
+#: ../../docs/classes/class_gridmap.rst:233
+msgid "GridMaps act as static bodies, meaning they aren't affected by gravity or other forces. They only affect other physics bodies that collide with them."
+msgstr ""
+
+#: ../../docs/classes/class_gridmap.rst:239
+msgid ":ref:`int<class_int>` **collision_mask**"
+msgstr ""
+
+#: ../../docs/classes/class_gridmap.rst:244
+msgid "set_collision_mask(value)"
+msgstr ""
+
+#: ../../docs/classes/class_gridmap.rst:246
+msgid "get_collision_mask()"
+msgstr ""
+
+#: ../../docs/classes/class_gridmap.rst:249
+msgid "The physics layers this GridMap detects collisions in. See `Collision layers and masks <https://docs.godotengine.org/en/3.2/tutorials/physics/physics_introduction.html#collision-layers-and-masks>`_ in the documentation for more information."
+msgstr ""
+
+#: ../../docs/classes/class_gridmap.rst:255
+msgid ":ref:`MeshLibrary<class_MeshLibrary>` **mesh_library**"
+msgstr ""
+
+#: ../../docs/classes/class_gridmap.rst:258
+msgid "set_mesh_library(value)"
+msgstr ""
+
+#: ../../docs/classes/class_gridmap.rst:260
+msgid "get_mesh_library()"
+msgstr ""
+
+#: ../../docs/classes/class_gridmap.rst:263
+msgid "The assigned :ref:`MeshLibrary<class_MeshLibrary>`."
+msgstr ""
+
+#: ../../docs/classes/class_gridmap.rst:266
+msgid "Method Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_gridmap.rst:270
+msgid "void **clear** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_gridmap.rst:272
+msgid "Clear all cells."
+msgstr ""
+
+#: ../../docs/classes/class_gridmap.rst:278
+msgid "void **clear_baked_meshes** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_gridmap.rst:284
+msgid ":ref:`RID<class_RID>` **get_bake_mesh_instance** **(** :ref:`int<class_int>` idx **)**"
+msgstr ""
+
+#: ../../docs/classes/class_gridmap.rst:290
+msgid ":ref:`Array<class_Array>` **get_bake_meshes** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_gridmap.rst:296
+msgid ":ref:`int<class_int>` **get_cell_item** **(** :ref:`int<class_int>` x, :ref:`int<class_int>` y, :ref:`int<class_int>` z **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_gridmap.rst:298
+msgid "The :ref:`MeshLibrary<class_MeshLibrary>` item index located at the grid-based X, Y and Z coordinates. If the cell is empty, :ref:`INVALID_CELL_ITEM<class_GridMap_constant_INVALID_CELL_ITEM>` will be returned."
+msgstr ""
+
+#: ../../docs/classes/class_gridmap.rst:304
+msgid ":ref:`int<class_int>` **get_cell_item_orientation** **(** :ref:`int<class_int>` x, :ref:`int<class_int>` y, :ref:`int<class_int>` z **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_gridmap.rst:306
+msgid "The orientation of the cell at the grid-based X, Y and Z coordinates. -1 is returned if the cell is empty."
+msgstr ""
+
+#: ../../docs/classes/class_gridmap.rst:312
+msgid ":ref:`bool<class_bool>` **get_collision_layer_bit** **(** :ref:`int<class_int>` bit **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_gridmap.rst:314
+msgid "Returns an individual bit on the :ref:`collision_layer<class_GridMap_property_collision_layer>`."
+msgstr ""
+
+#: ../../docs/classes/class_gridmap.rst:320
+msgid ":ref:`bool<class_bool>` **get_collision_mask_bit** **(** :ref:`int<class_int>` bit **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_gridmap.rst:322
+msgid "Returns an individual bit on the :ref:`collision_mask<class_GridMap_property_collision_mask>`."
+msgstr ""
+
+#: ../../docs/classes/class_gridmap.rst:328
+msgid ":ref:`Array<class_Array>` **get_meshes** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_gridmap.rst:330
+msgid "Returns an array of :ref:`Transform<class_Transform>` and :ref:`Mesh<class_Mesh>` references corresponding to the non-empty cells in the grid. The transforms are specified in world space."
+msgstr ""
+
+#: ../../docs/classes/class_gridmap.rst:336
+msgid ":ref:`Array<class_Array>` **get_used_cells** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_gridmap.rst:338
+msgid "Returns an array of :ref:`Vector3<class_Vector3>` with the non-empty cell coordinates in the grid map."
+msgstr ""
+
+#: ../../docs/classes/class_gridmap.rst:344
+msgid "void **make_baked_meshes** **(** :ref:`bool<class_bool>` gen_lightmap_uv=false, :ref:`float<class_float>` lightmap_uv_texel_size=0.1 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_gridmap.rst:350
+msgid ":ref:`Vector3<class_Vector3>` **map_to_world** **(** :ref:`int<class_int>` x, :ref:`int<class_int>` y, :ref:`int<class_int>` z **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_gridmap.rst:352
+msgid "Returns the position of a grid cell in the GridMap's local coordinate space."
+msgstr ""
+
+#: ../../docs/classes/class_gridmap.rst:358
+msgid "void **resource_changed** **(** :ref:`Resource<class_Resource>` resource **)**"
+msgstr ""
+
+#: ../../docs/classes/class_gridmap.rst:364
+msgid "void **set_cell_item** **(** :ref:`int<class_int>` x, :ref:`int<class_int>` y, :ref:`int<class_int>` z, :ref:`int<class_int>` item, :ref:`int<class_int>` orientation=0 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_gridmap.rst:366
+msgid "Sets the mesh index for the cell referenced by its grid-based X, Y and Z coordinates."
+msgstr ""
+
+#: ../../docs/classes/class_gridmap.rst:368
+msgid "A negative item index such as :ref:`INVALID_CELL_ITEM<class_GridMap_constant_INVALID_CELL_ITEM>` will clear the cell."
+msgstr ""
+
+#: ../../docs/classes/class_gridmap.rst:370
+msgid "Optionally, the item's orientation can be passed. For valid orientation values, see :ref:`Basis.get_orthogonal_index<class_Basis_method_get_orthogonal_index>`."
+msgstr ""
+
+#: ../../docs/classes/class_gridmap.rst:376
+msgid "void **set_clip** **(** :ref:`bool<class_bool>` enabled, :ref:`bool<class_bool>` clipabove=true, :ref:`int<class_int>` floor=0, Vector3.Axis axis=0 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_gridmap.rst:382
+msgid "void **set_collision_layer_bit** **(** :ref:`int<class_int>` bit, :ref:`bool<class_bool>` value **)**"
+msgstr ""
+
+#: ../../docs/classes/class_gridmap.rst:384
+msgid "Sets an individual bit on the :ref:`collision_layer<class_GridMap_property_collision_layer>`."
+msgstr ""
+
+#: ../../docs/classes/class_gridmap.rst:390
+msgid "void **set_collision_mask_bit** **(** :ref:`int<class_int>` bit, :ref:`bool<class_bool>` value **)**"
+msgstr ""
+
+#: ../../docs/classes/class_gridmap.rst:392
+msgid "Sets an individual bit on the :ref:`collision_mask<class_GridMap_property_collision_mask>`."
+msgstr ""
+
+#: ../../docs/classes/class_gridmap.rst:398
+msgid ":ref:`Vector3<class_Vector3>` **world_to_map** **(** :ref:`Vector3<class_Vector3>` pos **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_gridmap.rst:400
+msgid "Returns the coordinates of the grid cell containing the given point."
+msgstr ""
+
+#: ../../docs/classes/class_gridmap.rst:402
+msgid "``pos`` should be in the GridMap's local coordinate space."
+msgstr ""

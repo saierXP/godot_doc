@@ -1,0 +1,94 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_colorrect.rst:10
+msgid "ColorRect"
+msgstr ""
+
+#: ../../docs/classes/class_colorrect.rst:12
+msgid "**Inherits:** :ref:`Control<class_Control>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_colorrect.rst:14
+msgid "Colored rectangle."
+msgstr ""
+
+#: ../../docs/classes/class_colorrect.rst:17
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_colorrect.rst:19
+msgid "Displays a rectangle filled with a solid :ref:`color<class_ColorRect_property_color>`. If you need to display the border alone, consider using :ref:`ReferenceRect<class_ReferenceRect>` instead."
+msgstr ""
+
+#: ../../docs/classes/class_colorrect.rst:22
+msgid "Tutorials"
+msgstr ""
+
+#: ../../docs/classes/class_colorrect.rst:24
+msgid "`https://godotengine.org/asset-library/asset/515 <https://godotengine.org/asset-library/asset/515>`_"
+msgstr ""
+
+#: ../../docs/classes/class_colorrect.rst:27
+msgid "Properties"
+msgstr ""
+
+#: ../../docs/classes/class_colorrect.rst:30
+msgid ":ref:`Color<class_Color>`"
+msgstr ""
+
+#: ../../docs/classes/class_colorrect.rst:30
+msgid ":ref:`color<class_ColorRect_property_color>`"
+msgstr ""
+
+#: ../../docs/classes/class_colorrect.rst:30
+#: ../../docs/classes/class_colorrect.rst:41
+msgid "``Color( 1, 1, 1, 1 )``"
+msgstr ""
+
+#: ../../docs/classes/class_colorrect.rst:34
+msgid "Property Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_colorrect.rst:38
+msgid ":ref:`Color<class_Color>` **color**"
+msgstr ""
+
+#: ../../docs/classes/class_colorrect.rst:41
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_colorrect.rst:43
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_colorrect.rst:43
+msgid "set_frame_color(value)"
+msgstr ""
+
+#: ../../docs/classes/class_colorrect.rst:45
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_colorrect.rst:45
+msgid "get_frame_color()"
+msgstr ""
+
+#: ../../docs/classes/class_colorrect.rst:48
+msgid "The fill color."
+msgstr ""

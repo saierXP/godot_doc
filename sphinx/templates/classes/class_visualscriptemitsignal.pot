@@ -1,0 +1,102 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_visualscriptemitsignal.rst:10
+msgid "VisualScriptEmitSignal"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptemitsignal.rst:12
+msgid "**Inherits:** :ref:`VisualScriptNode<class_VisualScriptNode>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptemitsignal.rst:14
+msgid "Emits a specified signal."
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptemitsignal.rst:17
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptemitsignal.rst:19
+msgid "Emits a specified signal when it is executed."
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptemitsignal.rst:21
+msgid "**Input Ports:**"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptemitsignal.rst:23
+msgid "Sequence: ``emit``"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptemitsignal.rst:25
+msgid "**Output Ports:**"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptemitsignal.rst:27
+msgid "Sequence"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptemitsignal.rst:30
+msgid "Properties"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptemitsignal.rst:33
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptemitsignal.rst:33
+msgid ":ref:`signal<class_VisualScriptEmitSignal_property_signal>`"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptemitsignal.rst:33
+#: ../../docs/classes/class_visualscriptemitsignal.rst:44
+msgid "``\"\"``"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptemitsignal.rst:37
+msgid "Property Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptemitsignal.rst:41
+msgid ":ref:`String<class_String>` **signal**"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptemitsignal.rst:44
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptemitsignal.rst:46
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptemitsignal.rst:46
+msgid "set_signal(value)"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptemitsignal.rst:48
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptemitsignal.rst:48
+msgid "get_signal()"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptemitsignal.rst:51
+msgid "The signal to emit."
+msgstr ""

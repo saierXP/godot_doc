@@ -1,0 +1,178 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_interpolatedcamera.rst:10
+msgid "InterpolatedCamera"
+msgstr ""
+
+#: ../../docs/classes/class_interpolatedcamera.rst:12
+msgid "**Inherits:** :ref:`Camera<class_Camera>` **<** :ref:`Spatial<class_Spatial>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_interpolatedcamera.rst:14
+msgid "*Deprecated.* Camera which moves toward another node."
+msgstr ""
+
+#: ../../docs/classes/class_interpolatedcamera.rst:17
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_interpolatedcamera.rst:19
+msgid "*Deprecated (will be removed in Godot 4.0).* InterpolatedCamera is a :ref:`Camera<class_Camera>` which smoothly moves to match a target node's position and rotation."
+msgstr ""
+
+#: ../../docs/classes/class_interpolatedcamera.rst:21
+msgid "If it is not :ref:`enabled<class_InterpolatedCamera_property_enabled>` or does not have a valid target set, InterpolatedCamera acts like a normal Camera."
+msgstr ""
+
+#: ../../docs/classes/class_interpolatedcamera.rst:24
+msgid "Properties"
+msgstr ""
+
+#: ../../docs/classes/class_interpolatedcamera.rst:27
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_interpolatedcamera.rst:27
+msgid ":ref:`enabled<class_InterpolatedCamera_property_enabled>`"
+msgstr ""
+
+#: ../../docs/classes/class_interpolatedcamera.rst:27
+#: ../../docs/classes/class_interpolatedcamera.rst:49
+msgid "``false``"
+msgstr ""
+
+#: ../../docs/classes/class_interpolatedcamera.rst:29
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../../docs/classes/class_interpolatedcamera.rst:29
+msgid ":ref:`speed<class_InterpolatedCamera_property_speed>`"
+msgstr ""
+
+#: ../../docs/classes/class_interpolatedcamera.rst:29
+#: ../../docs/classes/class_interpolatedcamera.rst:65
+msgid "``1.0``"
+msgstr ""
+
+#: ../../docs/classes/class_interpolatedcamera.rst:31
+msgid ":ref:`NodePath<class_NodePath>`"
+msgstr ""
+
+#: ../../docs/classes/class_interpolatedcamera.rst:31
+msgid ":ref:`target<class_InterpolatedCamera_property_target>`"
+msgstr ""
+
+#: ../../docs/classes/class_interpolatedcamera.rst:31
+#: ../../docs/classes/class_interpolatedcamera.rst:81
+msgid "``NodePath(\"\")``"
+msgstr ""
+
+#: ../../docs/classes/class_interpolatedcamera.rst:35
+msgid "Methods"
+msgstr ""
+
+#: ../../docs/classes/class_interpolatedcamera.rst:38
+msgid "void"
+msgstr ""
+
+#: ../../docs/classes/class_interpolatedcamera.rst:38
+msgid ":ref:`set_target<class_InterpolatedCamera_method_set_target>` **(** :ref:`Object<class_Object>` target **)**"
+msgstr ""
+
+#: ../../docs/classes/class_interpolatedcamera.rst:42
+msgid "Property Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_interpolatedcamera.rst:46
+msgid ":ref:`bool<class_bool>` **enabled**"
+msgstr ""
+
+#: ../../docs/classes/class_interpolatedcamera.rst:49
+#: ../../docs/classes/class_interpolatedcamera.rst:65
+#: ../../docs/classes/class_interpolatedcamera.rst:81
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_interpolatedcamera.rst:51
+#: ../../docs/classes/class_interpolatedcamera.rst:67
+#: ../../docs/classes/class_interpolatedcamera.rst:83
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_interpolatedcamera.rst:51
+msgid "set_interpolation_enabled(value)"
+msgstr ""
+
+#: ../../docs/classes/class_interpolatedcamera.rst:53
+#: ../../docs/classes/class_interpolatedcamera.rst:69
+#: ../../docs/classes/class_interpolatedcamera.rst:85
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_interpolatedcamera.rst:53
+msgid "is_interpolation_enabled()"
+msgstr ""
+
+#: ../../docs/classes/class_interpolatedcamera.rst:56
+msgid "If ``true``, and a target is set, the camera will move automatically."
+msgstr ""
+
+#: ../../docs/classes/class_interpolatedcamera.rst:62
+msgid ":ref:`float<class_float>` **speed**"
+msgstr ""
+
+#: ../../docs/classes/class_interpolatedcamera.rst:67
+msgid "set_speed(value)"
+msgstr ""
+
+#: ../../docs/classes/class_interpolatedcamera.rst:69
+msgid "get_speed()"
+msgstr ""
+
+#: ../../docs/classes/class_interpolatedcamera.rst:72
+msgid "How quickly the camera moves toward its target. Higher values will result in tighter camera motion."
+msgstr ""
+
+#: ../../docs/classes/class_interpolatedcamera.rst:78
+msgid ":ref:`NodePath<class_NodePath>` **target**"
+msgstr ""
+
+#: ../../docs/classes/class_interpolatedcamera.rst:83
+msgid "set_target_path(value)"
+msgstr ""
+
+#: ../../docs/classes/class_interpolatedcamera.rst:85
+msgid "get_target_path()"
+msgstr ""
+
+#: ../../docs/classes/class_interpolatedcamera.rst:88
+msgid "The target's :ref:`NodePath<class_NodePath>`."
+msgstr ""
+
+#: ../../docs/classes/class_interpolatedcamera.rst:91
+msgid "Method Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_interpolatedcamera.rst:95
+msgid "void **set_target** **(** :ref:`Object<class_Object>` target **)**"
+msgstr ""
+
+#: ../../docs/classes/class_interpolatedcamera.rst:97
+msgid "Sets the node to move toward and orient with."
+msgstr ""

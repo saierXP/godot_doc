@@ -1,0 +1,203 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_checkbox.rst:10
+msgid "CheckBox"
+msgstr ""
+
+#: ../../docs/classes/class_checkbox.rst:12
+msgid "**Inherits:** :ref:`Button<class_Button>` **<** :ref:`BaseButton<class_BaseButton>` **<** :ref:`Control<class_Control>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_checkbox.rst:14
+msgid "Binary choice user interface widget. See also :ref:`CheckButton<class_CheckButton>`."
+msgstr ""
+
+#: ../../docs/classes/class_checkbox.rst:17
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_checkbox.rst:19
+msgid "A checkbox allows the user to make a binary choice (choosing only one of two possible options). It's similar to :ref:`CheckButton<class_CheckButton>` in functionality, but it has a different appearance. To follow established UX patterns, it's recommended to use CheckBox when toggling it has **no** immediate effect on something. For instance, it should be used when toggling it will only do something once a confirmation button is pressed."
+msgstr ""
+
+#: ../../docs/classes/class_checkbox.rst:21
+msgid "See also :ref:`BaseButton<class_BaseButton>` which contains common properties and methods associated with this node."
+msgstr ""
+
+#: ../../docs/classes/class_checkbox.rst:24
+msgid "Properties"
+msgstr ""
+
+#: ../../docs/classes/class_checkbox.rst:27
+msgid ":ref:`TextAlign<enum_Button_TextAlign>`"
+msgstr ""
+
+#: ../../docs/classes/class_checkbox.rst:27
+msgid "align"
+msgstr ""
+
+#: ../../docs/classes/class_checkbox.rst:27
+msgid "``0`` *(parent override)*"
+msgstr ""
+
+#: ../../docs/classes/class_checkbox.rst:29
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_checkbox.rst:29
+msgid "toggle_mode"
+msgstr ""
+
+#: ../../docs/classes/class_checkbox.rst:29
+msgid "``true`` *(parent override)*"
+msgstr ""
+
+#: ../../docs/classes/class_checkbox.rst:33
+msgid "Theme Properties"
+msgstr ""
+
+#: ../../docs/classes/class_checkbox.rst:36
+#: ../../docs/classes/class_checkbox.rst:60
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../../docs/classes/class_checkbox.rst:36
+msgid "check_vadjust"
+msgstr ""
+
+#: ../../docs/classes/class_checkbox.rst:36
+msgid "0"
+msgstr ""
+
+#: ../../docs/classes/class_checkbox.rst:38
+#: ../../docs/classes/class_checkbox.rst:66
+#: ../../docs/classes/class_checkbox.rst:68
+#: ../../docs/classes/class_checkbox.rst:70
+msgid ":ref:`Texture<class_Texture>`"
+msgstr ""
+
+#: ../../docs/classes/class_checkbox.rst:38
+msgid "checked"
+msgstr ""
+
+#: ../../docs/classes/class_checkbox.rst:40
+#: ../../docs/classes/class_checkbox.rst:42
+#: ../../docs/classes/class_checkbox.rst:56
+#: ../../docs/classes/class_checkbox.rst:58
+#: ../../docs/classes/class_checkbox.rst:62
+#: ../../docs/classes/class_checkbox.rst:64
+msgid ":ref:`StyleBox<class_StyleBox>`"
+msgstr ""
+
+#: ../../docs/classes/class_checkbox.rst:40
+msgid "disabled"
+msgstr ""
+
+#: ../../docs/classes/class_checkbox.rst:42
+msgid "focus"
+msgstr ""
+
+#: ../../docs/classes/class_checkbox.rst:44
+msgid ":ref:`Font<class_Font>`"
+msgstr ""
+
+#: ../../docs/classes/class_checkbox.rst:44
+msgid "font"
+msgstr ""
+
+#: ../../docs/classes/class_checkbox.rst:46
+#: ../../docs/classes/class_checkbox.rst:48
+#: ../../docs/classes/class_checkbox.rst:50
+#: ../../docs/classes/class_checkbox.rst:52
+#: ../../docs/classes/class_checkbox.rst:54
+msgid ":ref:`Color<class_Color>`"
+msgstr ""
+
+#: ../../docs/classes/class_checkbox.rst:46
+msgid "font_color"
+msgstr ""
+
+#: ../../docs/classes/class_checkbox.rst:46
+msgid "Color( 0.88, 0.88, 0.88, 1 )"
+msgstr ""
+
+#: ../../docs/classes/class_checkbox.rst:48
+msgid "font_color_disabled"
+msgstr ""
+
+#: ../../docs/classes/class_checkbox.rst:48
+msgid "Color( 0.9, 0.9, 0.9, 0.2 )"
+msgstr ""
+
+#: ../../docs/classes/class_checkbox.rst:50
+msgid "font_color_hover"
+msgstr ""
+
+#: ../../docs/classes/class_checkbox.rst:50
+msgid "Color( 0.94, 0.94, 0.94, 1 )"
+msgstr ""
+
+#: ../../docs/classes/class_checkbox.rst:52
+msgid "font_color_hover_pressed"
+msgstr ""
+
+#: ../../docs/classes/class_checkbox.rst:52
+#: ../../docs/classes/class_checkbox.rst:54
+msgid "Color( 1, 1, 1, 1 )"
+msgstr ""
+
+#: ../../docs/classes/class_checkbox.rst:54
+msgid "font_color_pressed"
+msgstr ""
+
+#: ../../docs/classes/class_checkbox.rst:56
+msgid "hover"
+msgstr ""
+
+#: ../../docs/classes/class_checkbox.rst:58
+msgid "hover_pressed"
+msgstr ""
+
+#: ../../docs/classes/class_checkbox.rst:60
+msgid "hseparation"
+msgstr ""
+
+#: ../../docs/classes/class_checkbox.rst:60
+msgid "4"
+msgstr ""
+
+#: ../../docs/classes/class_checkbox.rst:62
+msgid "normal"
+msgstr ""
+
+#: ../../docs/classes/class_checkbox.rst:64
+msgid "pressed"
+msgstr ""
+
+#: ../../docs/classes/class_checkbox.rst:66
+msgid "radio_checked"
+msgstr ""
+
+#: ../../docs/classes/class_checkbox.rst:68
+msgid "radio_unchecked"
+msgstr ""
+
+#: ../../docs/classes/class_checkbox.rst:70
+msgid "unchecked"
+msgstr ""

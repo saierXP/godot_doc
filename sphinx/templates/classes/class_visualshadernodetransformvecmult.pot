@@ -1,0 +1,110 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_visualshadernodetransformvecmult.rst:10
+msgid "VisualShaderNodeTransformVecMult"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodetransformvecmult.rst:12
+msgid "**Inherits:** :ref:`VisualShaderNode<class_VisualShaderNode>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodetransformvecmult.rst:14
+msgid "Multiplies a :ref:`Transform<class_Transform>` and a :ref:`Vector3<class_Vector3>` within the visual shader graph."
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodetransformvecmult.rst:17
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodetransformvecmult.rst:19
+msgid "A multiplication operation on a transform (4x4 matrix) and a vector, with support for different multiplication operators."
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodetransformvecmult.rst:22
+msgid "Properties"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodetransformvecmult.rst:25
+msgid ":ref:`Operator<enum_VisualShaderNodeTransformVecMult_Operator>`"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodetransformvecmult.rst:25
+msgid ":ref:`operator<class_VisualShaderNodeTransformVecMult_property_operator>`"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodetransformvecmult.rst:25
+#: ../../docs/classes/class_visualshadernodetransformvecmult.rst:59
+msgid "``0``"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodetransformvecmult.rst:29
+msgid "Enumerations"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodetransformvecmult.rst:41
+msgid "enum **Operator**:"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodetransformvecmult.rst:43
+msgid "**OP_AxB** = **0** --- Multiplies transform ``a`` by the vector ``b``."
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodetransformvecmult.rst:45
+msgid "**OP_BxA** = **1** --- Multiplies vector ``b`` by the transform ``a``."
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodetransformvecmult.rst:47
+msgid "**OP_3x3_AxB** = **2** --- Multiplies transform ``a`` by the vector ``b``, skipping the last row and column of the transform."
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodetransformvecmult.rst:49
+msgid "**OP_3x3_BxA** = **3** --- Multiplies vector ``b`` by the transform ``a``, skipping the last row and column of the transform."
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodetransformvecmult.rst:52
+msgid "Property Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodetransformvecmult.rst:56
+msgid ":ref:`Operator<enum_VisualShaderNodeTransformVecMult_Operator>` **operator**"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodetransformvecmult.rst:59
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodetransformvecmult.rst:61
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodetransformvecmult.rst:61
+msgid "set_operator(value)"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodetransformvecmult.rst:63
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodetransformvecmult.rst:63
+msgid "get_operator()"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodetransformvecmult.rst:66
+msgid "The multiplication type to be performed. See :ref:`Operator<enum_VisualShaderNodeTransformVecMult_Operator>` for options."
+msgstr ""

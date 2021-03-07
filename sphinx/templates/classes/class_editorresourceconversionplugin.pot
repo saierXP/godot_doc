@@ -1,0 +1,57 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_editorresourceconversionplugin.rst:10
+msgid "EditorResourceConversionPlugin"
+msgstr ""
+
+#: ../../docs/classes/class_editorresourceconversionplugin.rst:12
+msgid "**Inherits:** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_editorresourceconversionplugin.rst:17
+msgid "Methods"
+msgstr ""
+
+#: ../../docs/classes/class_editorresourceconversionplugin.rst:20
+msgid ":ref:`Resource<class_Resource>`"
+msgstr ""
+
+#: ../../docs/classes/class_editorresourceconversionplugin.rst:20
+msgid ":ref:`_convert<class_EditorResourceConversionPlugin_method__convert>` **(** :ref:`Resource<class_Resource>` resource **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_editorresourceconversionplugin.rst:22
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../../docs/classes/class_editorresourceconversionplugin.rst:22
+msgid ":ref:`_converts_to<class_EditorResourceConversionPlugin_method__converts_to>` **(** **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_editorresourceconversionplugin.rst:26
+msgid "Method Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_editorresourceconversionplugin.rst:30
+msgid ":ref:`Resource<class_Resource>` **_convert** **(** :ref:`Resource<class_Resource>` resource **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_editorresourceconversionplugin.rst:36
+msgid ":ref:`String<class_String>` **_converts_to** **(** **)** |virtual|"
+msgstr ""

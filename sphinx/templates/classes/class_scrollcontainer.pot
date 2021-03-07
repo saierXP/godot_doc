@@ -1,0 +1,306 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_scrollcontainer.rst:10
+msgid "ScrollContainer"
+msgstr ""
+
+#: ../../docs/classes/class_scrollcontainer.rst:12
+msgid "**Inherits:** :ref:`Container<class_Container>` **<** :ref:`Control<class_Control>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_scrollcontainer.rst:14
+msgid "**Inherited By:** :ref:`EditorInspector<class_EditorInspector>`"
+msgstr ""
+
+#: ../../docs/classes/class_scrollcontainer.rst:16
+msgid "A helper node for displaying scrollable elements such as lists."
+msgstr ""
+
+#: ../../docs/classes/class_scrollcontainer.rst:19
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_scrollcontainer.rst:21
+msgid "A ScrollContainer node meant to contain a :ref:`Control<class_Control>` child. ScrollContainers will automatically create a scrollbar child (:ref:`HScrollBar<class_HScrollBar>`, :ref:`VScrollBar<class_VScrollBar>`, or both) when needed and will only draw the Control within the ScrollContainer area. Scrollbars will automatically be drawn at the right (for vertical) or bottom (for horizontal) and will enable dragging to move the viewable Control (and its children) within the ScrollContainer. Scrollbars will also automatically resize the grabber based on the :ref:`Control.rect_min_size<class_Control_property_rect_min_size>` of the Control relative to the ScrollContainer. Works great with a :ref:`Panel<class_Panel>` control. You can set ``EXPAND`` on the children's size flags, so they will upscale to the ScrollContainer's size if it's larger (scroll is invisible for the chosen dimension)."
+msgstr ""
+
+#: ../../docs/classes/class_scrollcontainer.rst:24
+msgid "Properties"
+msgstr ""
+
+#: ../../docs/classes/class_scrollcontainer.rst:27
+#: ../../docs/classes/class_scrollcontainer.rst:29
+#: ../../docs/classes/class_scrollcontainer.rst:35
+#: ../../docs/classes/class_scrollcontainer.rst:39
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_scrollcontainer.rst:27
+msgid ":ref:`follow_focus<class_ScrollContainer_property_follow_focus>`"
+msgstr ""
+
+#: ../../docs/classes/class_scrollcontainer.rst:27
+#: ../../docs/classes/class_scrollcontainer.rst:83
+msgid "``false``"
+msgstr ""
+
+#: ../../docs/classes/class_scrollcontainer.rst:29
+msgid "rect_clip_content"
+msgstr ""
+
+#: ../../docs/classes/class_scrollcontainer.rst:29
+msgid "``true`` *(parent override)*"
+msgstr ""
+
+#: ../../docs/classes/class_scrollcontainer.rst:31
+#: ../../docs/classes/class_scrollcontainer.rst:33
+#: ../../docs/classes/class_scrollcontainer.rst:37
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../../docs/classes/class_scrollcontainer.rst:31
+msgid ":ref:`scroll_deadzone<class_ScrollContainer_property_scroll_deadzone>`"
+msgstr ""
+
+#: ../../docs/classes/class_scrollcontainer.rst:31
+#: ../../docs/classes/class_scrollcontainer.rst:33
+#: ../../docs/classes/class_scrollcontainer.rst:37
+#: ../../docs/classes/class_scrollcontainer.rst:99
+#: ../../docs/classes/class_scrollcontainer.rst:113
+#: ../../docs/classes/class_scrollcontainer.rst:145
+msgid "``0``"
+msgstr ""
+
+#: ../../docs/classes/class_scrollcontainer.rst:33
+msgid ":ref:`scroll_horizontal<class_ScrollContainer_property_scroll_horizontal>`"
+msgstr ""
+
+#: ../../docs/classes/class_scrollcontainer.rst:35
+msgid ":ref:`scroll_horizontal_enabled<class_ScrollContainer_property_scroll_horizontal_enabled>`"
+msgstr ""
+
+#: ../../docs/classes/class_scrollcontainer.rst:35
+#: ../../docs/classes/class_scrollcontainer.rst:39
+#: ../../docs/classes/class_scrollcontainer.rst:129
+#: ../../docs/classes/class_scrollcontainer.rst:161
+msgid "``true``"
+msgstr ""
+
+#: ../../docs/classes/class_scrollcontainer.rst:37
+msgid ":ref:`scroll_vertical<class_ScrollContainer_property_scroll_vertical>`"
+msgstr ""
+
+#: ../../docs/classes/class_scrollcontainer.rst:39
+msgid ":ref:`scroll_vertical_enabled<class_ScrollContainer_property_scroll_vertical_enabled>`"
+msgstr ""
+
+#: ../../docs/classes/class_scrollcontainer.rst:43
+msgid "Methods"
+msgstr ""
+
+#: ../../docs/classes/class_scrollcontainer.rst:46
+msgid ":ref:`HScrollBar<class_HScrollBar>`"
+msgstr ""
+
+#: ../../docs/classes/class_scrollcontainer.rst:46
+msgid ":ref:`get_h_scrollbar<class_ScrollContainer_method_get_h_scrollbar>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_scrollcontainer.rst:48
+msgid ":ref:`VScrollBar<class_VScrollBar>`"
+msgstr ""
+
+#: ../../docs/classes/class_scrollcontainer.rst:48
+msgid ":ref:`get_v_scrollbar<class_ScrollContainer_method_get_v_scrollbar>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_scrollcontainer.rst:52
+msgid "Theme Properties"
+msgstr ""
+
+#: ../../docs/classes/class_scrollcontainer.rst:55
+msgid ":ref:`StyleBox<class_StyleBox>`"
+msgstr ""
+
+#: ../../docs/classes/class_scrollcontainer.rst:55
+msgid "bg"
+msgstr ""
+
+#: ../../docs/classes/class_scrollcontainer.rst:59
+msgid "Signals"
+msgstr ""
+
+#: ../../docs/classes/class_scrollcontainer.rst:63
+msgid "**scroll_ended** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_scrollcontainer.rst:65
+msgid "Emitted when scrolling stops."
+msgstr ""
+
+#: ../../docs/classes/class_scrollcontainer.rst:71
+msgid "**scroll_started** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_scrollcontainer.rst:73
+msgid "Emitted when scrolling is started."
+msgstr ""
+
+#: ../../docs/classes/class_scrollcontainer.rst:76
+msgid "Property Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_scrollcontainer.rst:80
+msgid ":ref:`bool<class_bool>` **follow_focus**"
+msgstr ""
+
+#: ../../docs/classes/class_scrollcontainer.rst:83
+#: ../../docs/classes/class_scrollcontainer.rst:99
+#: ../../docs/classes/class_scrollcontainer.rst:113
+#: ../../docs/classes/class_scrollcontainer.rst:129
+#: ../../docs/classes/class_scrollcontainer.rst:145
+#: ../../docs/classes/class_scrollcontainer.rst:161
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_scrollcontainer.rst:85
+#: ../../docs/classes/class_scrollcontainer.rst:101
+#: ../../docs/classes/class_scrollcontainer.rst:115
+#: ../../docs/classes/class_scrollcontainer.rst:131
+#: ../../docs/classes/class_scrollcontainer.rst:147
+#: ../../docs/classes/class_scrollcontainer.rst:163
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_scrollcontainer.rst:85
+msgid "set_follow_focus(value)"
+msgstr ""
+
+#: ../../docs/classes/class_scrollcontainer.rst:87
+#: ../../docs/classes/class_scrollcontainer.rst:103
+#: ../../docs/classes/class_scrollcontainer.rst:117
+#: ../../docs/classes/class_scrollcontainer.rst:133
+#: ../../docs/classes/class_scrollcontainer.rst:149
+#: ../../docs/classes/class_scrollcontainer.rst:165
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_scrollcontainer.rst:87
+msgid "is_following_focus()"
+msgstr ""
+
+#: ../../docs/classes/class_scrollcontainer.rst:90
+msgid "If ``true``, the ScrollContainer will automatically scroll to focused children (including indirect children) to make sure they are fully visible."
+msgstr ""
+
+#: ../../docs/classes/class_scrollcontainer.rst:96
+msgid ":ref:`int<class_int>` **scroll_deadzone**"
+msgstr ""
+
+#: ../../docs/classes/class_scrollcontainer.rst:101
+msgid "set_deadzone(value)"
+msgstr ""
+
+#: ../../docs/classes/class_scrollcontainer.rst:103
+msgid "get_deadzone()"
+msgstr ""
+
+#: ../../docs/classes/class_scrollcontainer.rst:110
+msgid ":ref:`int<class_int>` **scroll_horizontal**"
+msgstr ""
+
+#: ../../docs/classes/class_scrollcontainer.rst:115
+msgid "set_h_scroll(value)"
+msgstr ""
+
+#: ../../docs/classes/class_scrollcontainer.rst:117
+msgid "get_h_scroll()"
+msgstr ""
+
+#: ../../docs/classes/class_scrollcontainer.rst:120
+msgid "The current horizontal scroll value."
+msgstr ""
+
+#: ../../docs/classes/class_scrollcontainer.rst:126
+msgid ":ref:`bool<class_bool>` **scroll_horizontal_enabled**"
+msgstr ""
+
+#: ../../docs/classes/class_scrollcontainer.rst:131
+msgid "set_enable_h_scroll(value)"
+msgstr ""
+
+#: ../../docs/classes/class_scrollcontainer.rst:133
+msgid "is_h_scroll_enabled()"
+msgstr ""
+
+#: ../../docs/classes/class_scrollcontainer.rst:136
+msgid "If ``true``, enables horizontal scrolling."
+msgstr ""
+
+#: ../../docs/classes/class_scrollcontainer.rst:142
+msgid ":ref:`int<class_int>` **scroll_vertical**"
+msgstr ""
+
+#: ../../docs/classes/class_scrollcontainer.rst:147
+msgid "set_v_scroll(value)"
+msgstr ""
+
+#: ../../docs/classes/class_scrollcontainer.rst:149
+msgid "get_v_scroll()"
+msgstr ""
+
+#: ../../docs/classes/class_scrollcontainer.rst:152
+msgid "The current vertical scroll value."
+msgstr ""
+
+#: ../../docs/classes/class_scrollcontainer.rst:158
+msgid ":ref:`bool<class_bool>` **scroll_vertical_enabled**"
+msgstr ""
+
+#: ../../docs/classes/class_scrollcontainer.rst:163
+msgid "set_enable_v_scroll(value)"
+msgstr ""
+
+#: ../../docs/classes/class_scrollcontainer.rst:165
+msgid "is_v_scroll_enabled()"
+msgstr ""
+
+#: ../../docs/classes/class_scrollcontainer.rst:168
+msgid "If ``true``, enables vertical scrolling."
+msgstr ""
+
+#: ../../docs/classes/class_scrollcontainer.rst:171
+msgid "Method Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_scrollcontainer.rst:175
+msgid ":ref:`HScrollBar<class_HScrollBar>` **get_h_scrollbar** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_scrollcontainer.rst:177
+msgid "Returns the horizontal scrollbar :ref:`HScrollBar<class_HScrollBar>` of this ``ScrollContainer``."
+msgstr ""
+
+#: ../../docs/classes/class_scrollcontainer.rst:183
+msgid ":ref:`VScrollBar<class_VScrollBar>` **get_v_scrollbar** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_scrollcontainer.rst:185
+msgid "Returns the vertical scrollbar :ref:`VScrollBar<class_VScrollBar>` of this ``ScrollContainer``."
+msgstr ""

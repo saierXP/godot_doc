@@ -1,0 +1,374 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_scenestate.rst:10
+msgid "SceneState"
+msgstr ""
+
+#: ../../docs/classes/class_scenestate.rst:12
+msgid "**Inherits:** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_scenestate.rst:14
+msgid "A script interface to a scene file's data."
+msgstr ""
+
+#: ../../docs/classes/class_scenestate.rst:17
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_scenestate.rst:19
+msgid "Maintains a list of resources, nodes, exported, and overridden properties, and built-in scripts associated with a scene."
+msgstr ""
+
+#: ../../docs/classes/class_scenestate.rst:21
+msgid "This class cannot be instantiated directly, it is retrieved for a given scene as the result of :ref:`PackedScene.get_state<class_PackedScene_method_get_state>`."
+msgstr ""
+
+#: ../../docs/classes/class_scenestate.rst:24
+msgid "Methods"
+msgstr ""
+
+#: ../../docs/classes/class_scenestate.rst:27
+msgid ":ref:`Array<class_Array>`"
+msgstr ""
+
+#: ../../docs/classes/class_scenestate.rst:27
+msgid ":ref:`get_connection_binds<class_SceneState_method_get_connection_binds>` **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_scenestate.rst:29
+#: ../../docs/classes/class_scenestate.rst:31
+#: ../../docs/classes/class_scenestate.rst:41
+#: ../../docs/classes/class_scenestate.rst:45
+#: ../../docs/classes/class_scenestate.rst:57
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../../docs/classes/class_scenestate.rst:29
+msgid ":ref:`get_connection_count<class_SceneState_method_get_connection_count>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_scenestate.rst:31
+msgid ":ref:`get_connection_flags<class_SceneState_method_get_connection_flags>` **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_scenestate.rst:33
+#: ../../docs/classes/class_scenestate.rst:35
+#: ../../docs/classes/class_scenestate.rst:49
+#: ../../docs/classes/class_scenestate.rst:51
+#: ../../docs/classes/class_scenestate.rst:59
+#: ../../docs/classes/class_scenestate.rst:63
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../../docs/classes/class_scenestate.rst:33
+msgid ":ref:`get_connection_method<class_SceneState_method_get_connection_method>` **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_scenestate.rst:35
+msgid ":ref:`get_connection_signal<class_SceneState_method_get_connection_signal>` **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_scenestate.rst:37
+#: ../../docs/classes/class_scenestate.rst:39
+#: ../../docs/classes/class_scenestate.rst:53
+#: ../../docs/classes/class_scenestate.rst:55
+msgid ":ref:`NodePath<class_NodePath>`"
+msgstr ""
+
+#: ../../docs/classes/class_scenestate.rst:37
+msgid ":ref:`get_connection_source<class_SceneState_method_get_connection_source>` **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_scenestate.rst:39
+msgid ":ref:`get_connection_target<class_SceneState_method_get_connection_target>` **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_scenestate.rst:41
+msgid ":ref:`get_node_count<class_SceneState_method_get_node_count>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_scenestate.rst:43
+msgid ":ref:`PoolStringArray<class_PoolStringArray>`"
+msgstr ""
+
+#: ../../docs/classes/class_scenestate.rst:43
+msgid ":ref:`get_node_groups<class_SceneState_method_get_node_groups>` **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_scenestate.rst:45
+msgid ":ref:`get_node_index<class_SceneState_method_get_node_index>` **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_scenestate.rst:47
+msgid ":ref:`PackedScene<class_PackedScene>`"
+msgstr ""
+
+#: ../../docs/classes/class_scenestate.rst:47
+msgid ":ref:`get_node_instance<class_SceneState_method_get_node_instance>` **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_scenestate.rst:49
+msgid ":ref:`get_node_instance_placeholder<class_SceneState_method_get_node_instance_placeholder>` **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_scenestate.rst:51
+msgid ":ref:`get_node_name<class_SceneState_method_get_node_name>` **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_scenestate.rst:53
+msgid ":ref:`get_node_owner_path<class_SceneState_method_get_node_owner_path>` **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_scenestate.rst:55
+msgid ":ref:`get_node_path<class_SceneState_method_get_node_path>` **(** :ref:`int<class_int>` idx, :ref:`bool<class_bool>` for_parent=false **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_scenestate.rst:57
+msgid ":ref:`get_node_property_count<class_SceneState_method_get_node_property_count>` **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_scenestate.rst:59
+msgid ":ref:`get_node_property_name<class_SceneState_method_get_node_property_name>` **(** :ref:`int<class_int>` idx, :ref:`int<class_int>` prop_idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_scenestate.rst:61
+msgid ":ref:`Variant<class_Variant>`"
+msgstr ""
+
+#: ../../docs/classes/class_scenestate.rst:61
+msgid ":ref:`get_node_property_value<class_SceneState_method_get_node_property_value>` **(** :ref:`int<class_int>` idx, :ref:`int<class_int>` prop_idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_scenestate.rst:63
+msgid ":ref:`get_node_type<class_SceneState_method_get_node_type>` **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_scenestate.rst:65
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_scenestate.rst:65
+msgid ":ref:`is_node_instance_placeholder<class_SceneState_method_is_node_instance_placeholder>` **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_scenestate.rst:69
+msgid "Enumerations"
+msgstr ""
+
+#: ../../docs/classes/class_scenestate.rst:79
+msgid "enum **GenEditState**:"
+msgstr ""
+
+#: ../../docs/classes/class_scenestate.rst:81
+msgid "**GEN_EDIT_STATE_DISABLED** = **0** --- If passed to :ref:`PackedScene.instance<class_PackedScene_method_instance>`, blocks edits to the scene state."
+msgstr ""
+
+#: ../../docs/classes/class_scenestate.rst:83
+msgid "**GEN_EDIT_STATE_INSTANCE** = **1** --- If passed to :ref:`PackedScene.instance<class_PackedScene_method_instance>`, provides inherited scene resources to the local scene."
+msgstr ""
+
+#: ../../docs/classes/class_scenestate.rst:85
+#: ../../docs/classes/class_scenestate.rst:89
+msgid "**Note:** Only available in editor builds."
+msgstr ""
+
+#: ../../docs/classes/class_scenestate.rst:87
+msgid "**GEN_EDIT_STATE_MAIN** = **2** --- If passed to :ref:`PackedScene.instance<class_PackedScene_method_instance>`, provides local scene resources to the local scene. Only the main scene should receive the main edit state."
+msgstr ""
+
+#: ../../docs/classes/class_scenestate.rst:92
+msgid "Method Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_scenestate.rst:96
+msgid ":ref:`Array<class_Array>` **get_connection_binds** **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_scenestate.rst:98
+msgid "Returns the list of bound parameters for the signal at ``idx``."
+msgstr ""
+
+#: ../../docs/classes/class_scenestate.rst:104
+msgid ":ref:`int<class_int>` **get_connection_count** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_scenestate.rst:106
+msgid "Returns the number of signal connections in the scene."
+msgstr ""
+
+#: ../../docs/classes/class_scenestate.rst:108
+msgid "The ``idx`` argument used to query connection metadata in other ``get_connection_*`` methods in the interval ``[0, get_connection_count() - 1]``."
+msgstr ""
+
+#: ../../docs/classes/class_scenestate.rst:114
+msgid ":ref:`int<class_int>` **get_connection_flags** **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_scenestate.rst:116
+msgid "Returns the connection flags for the signal at ``idx``. See :ref:`ConnectFlags<enum_Object_ConnectFlags>` constants."
+msgstr ""
+
+#: ../../docs/classes/class_scenestate.rst:122
+msgid ":ref:`String<class_String>` **get_connection_method** **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_scenestate.rst:124
+msgid "Returns the method connected to the signal at ``idx``."
+msgstr ""
+
+#: ../../docs/classes/class_scenestate.rst:130
+msgid ":ref:`String<class_String>` **get_connection_signal** **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_scenestate.rst:132
+msgid "Returns the name of the signal at ``idx``."
+msgstr ""
+
+#: ../../docs/classes/class_scenestate.rst:138
+msgid ":ref:`NodePath<class_NodePath>` **get_connection_source** **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_scenestate.rst:140
+msgid "Returns the path to the node that owns the signal at ``idx``, relative to the root node."
+msgstr ""
+
+#: ../../docs/classes/class_scenestate.rst:146
+msgid ":ref:`NodePath<class_NodePath>` **get_connection_target** **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_scenestate.rst:148
+msgid "Returns the path to the node that owns the method connected to the signal at ``idx``, relative to the root node."
+msgstr ""
+
+#: ../../docs/classes/class_scenestate.rst:154
+msgid ":ref:`int<class_int>` **get_node_count** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_scenestate.rst:156
+msgid "Returns the number of nodes in the scene."
+msgstr ""
+
+#: ../../docs/classes/class_scenestate.rst:158
+msgid "The ``idx`` argument used to query node data in other ``get_node_*`` methods in the interval ``[0, get_node_count() - 1]``."
+msgstr ""
+
+#: ../../docs/classes/class_scenestate.rst:164
+msgid ":ref:`PoolStringArray<class_PoolStringArray>` **get_node_groups** **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_scenestate.rst:166
+msgid "Returns the list of group names associated with the node at ``idx``."
+msgstr ""
+
+#: ../../docs/classes/class_scenestate.rst:172
+msgid ":ref:`int<class_int>` **get_node_index** **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_scenestate.rst:174
+msgid "Returns the node's index, which is its position relative to its siblings. This is only relevant and saved in scenes for cases where new nodes are added to an instanced or inherited scene among siblings from the base scene. Despite the name, this index is not related to the ``idx`` argument used here and in other methods."
+msgstr ""
+
+#: ../../docs/classes/class_scenestate.rst:180
+msgid ":ref:`PackedScene<class_PackedScene>` **get_node_instance** **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_scenestate.rst:182
+msgid "Returns a :ref:`PackedScene<class_PackedScene>` for the node at ``idx`` (i.e. the whole branch starting at this node, with its child nodes and resources), or ``null`` if the node is not an instance."
+msgstr ""
+
+#: ../../docs/classes/class_scenestate.rst:188
+msgid ":ref:`String<class_String>` **get_node_instance_placeholder** **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_scenestate.rst:190
+msgid "Returns the path to the represented scene file if the node at ``idx`` is an :ref:`InstancePlaceholder<class_InstancePlaceholder>`."
+msgstr ""
+
+#: ../../docs/classes/class_scenestate.rst:196
+msgid ":ref:`String<class_String>` **get_node_name** **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_scenestate.rst:198
+msgid "Returns the name of the node at ``idx``."
+msgstr ""
+
+#: ../../docs/classes/class_scenestate.rst:204
+msgid ":ref:`NodePath<class_NodePath>` **get_node_owner_path** **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_scenestate.rst:206
+msgid "Returns the path to the owner of the node at ``idx``, relative to the root node."
+msgstr ""
+
+#: ../../docs/classes/class_scenestate.rst:212
+msgid ":ref:`NodePath<class_NodePath>` **get_node_path** **(** :ref:`int<class_int>` idx, :ref:`bool<class_bool>` for_parent=false **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_scenestate.rst:214
+msgid "Returns the path to the node at ``idx``."
+msgstr ""
+
+#: ../../docs/classes/class_scenestate.rst:216
+msgid "If ``for_parent`` is ``true``, returns the path of the ``idx`` node's parent instead."
+msgstr ""
+
+#: ../../docs/classes/class_scenestate.rst:222
+msgid ":ref:`int<class_int>` **get_node_property_count** **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_scenestate.rst:224
+msgid "Returns the number of exported or overridden properties for the node at ``idx``."
+msgstr ""
+
+#: ../../docs/classes/class_scenestate.rst:226
+msgid "The ``prop_idx`` argument used to query node property data in other ``get_node_property_*`` methods in the interval ``[0, get_node_property_count() - 1]``."
+msgstr ""
+
+#: ../../docs/classes/class_scenestate.rst:232
+msgid ":ref:`String<class_String>` **get_node_property_name** **(** :ref:`int<class_int>` idx, :ref:`int<class_int>` prop_idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_scenestate.rst:234
+msgid "Returns the name of the property at ``prop_idx`` for the node at ``idx``."
+msgstr ""
+
+#: ../../docs/classes/class_scenestate.rst:240
+msgid ":ref:`Variant<class_Variant>` **get_node_property_value** **(** :ref:`int<class_int>` idx, :ref:`int<class_int>` prop_idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_scenestate.rst:242
+msgid "Returns the value of the property at ``prop_idx`` for the node at ``idx``."
+msgstr ""
+
+#: ../../docs/classes/class_scenestate.rst:248
+msgid ":ref:`String<class_String>` **get_node_type** **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_scenestate.rst:250
+msgid "Returns the type of the node at ``idx``."
+msgstr ""
+
+#: ../../docs/classes/class_scenestate.rst:256
+msgid ":ref:`bool<class_bool>` **is_node_instance_placeholder** **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_scenestate.rst:258
+msgid "Returns ``true`` if the node at ``idx`` is an :ref:`InstancePlaceholder<class_InstancePlaceholder>`."
+msgstr ""

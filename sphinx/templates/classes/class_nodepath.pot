@@ -1,0 +1,206 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_nodepath.rst:10
+msgid "NodePath"
+msgstr ""
+
+#: ../../docs/classes/class_nodepath.rst:12
+msgid "Pre-parsed scene tree path."
+msgstr ""
+
+#: ../../docs/classes/class_nodepath.rst:15
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_nodepath.rst:17
+msgid "A pre-parsed relative or absolute path in a scene tree, for use with :ref:`Node.get_node<class_Node_method_get_node>` and similar functions. It can reference a node, a resource within a node, or a property of a node or resource. For instance, ``\"Path2D/PathFollow2D/Sprite:texture:size\"`` would refer to the ``size`` property of the ``texture`` resource on the node named ``\"Sprite\"`` which is a child of the other named nodes in the path."
+msgstr ""
+
+#: ../../docs/classes/class_nodepath.rst:19
+msgid "You will usually just pass a string to :ref:`Node.get_node<class_Node_method_get_node>` and it will be automatically converted, but you may occasionally want to parse a path ahead of time with ``NodePath`` or the literal syntax ``@\"path\"``. Exporting a ``NodePath`` variable will give you a node selection widget in the properties panel of the editor, which can often be useful."
+msgstr ""
+
+#: ../../docs/classes/class_nodepath.rst:21
+msgid "A ``NodePath`` is composed of a list of slash-separated node names (like a filesystem path) and an optional colon-separated list of \"subnames\" which can be resources or properties."
+msgstr ""
+
+#: ../../docs/classes/class_nodepath.rst:23
+msgid "Some examples of NodePaths include the following:"
+msgstr ""
+
+#: ../../docs/classes/class_nodepath.rst:39
+msgid "Tutorials"
+msgstr ""
+
+#: ../../docs/classes/class_nodepath.rst:41
+msgid "`https://godotengine.org/asset-library/asset/520 <https://godotengine.org/asset-library/asset/520>`_"
+msgstr ""
+
+#: ../../docs/classes/class_nodepath.rst:44
+msgid "Methods"
+msgstr ""
+
+#: ../../docs/classes/class_nodepath.rst:47
+#: ../../docs/classes/class_nodepath.rst:49
+msgid ":ref:`NodePath<class_NodePath>`"
+msgstr ""
+
+#: ../../docs/classes/class_nodepath.rst:47
+msgid ":ref:`NodePath<class_NodePath_method_NodePath>` **(** :ref:`String<class_String>` from **)**"
+msgstr ""
+
+#: ../../docs/classes/class_nodepath.rst:49
+msgid ":ref:`get_as_property_path<class_NodePath_method_get_as_property_path>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_nodepath.rst:51
+#: ../../docs/classes/class_nodepath.rst:53
+#: ../../docs/classes/class_nodepath.rst:57
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../../docs/classes/class_nodepath.rst:51
+msgid ":ref:`get_concatenated_subnames<class_NodePath_method_get_concatenated_subnames>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_nodepath.rst:53
+msgid ":ref:`get_name<class_NodePath_method_get_name>` **(** :ref:`int<class_int>` idx **)**"
+msgstr ""
+
+#: ../../docs/classes/class_nodepath.rst:55
+#: ../../docs/classes/class_nodepath.rst:59
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../../docs/classes/class_nodepath.rst:55
+msgid ":ref:`get_name_count<class_NodePath_method_get_name_count>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_nodepath.rst:57
+msgid ":ref:`get_subname<class_NodePath_method_get_subname>` **(** :ref:`int<class_int>` idx **)**"
+msgstr ""
+
+#: ../../docs/classes/class_nodepath.rst:59
+msgid ":ref:`get_subname_count<class_NodePath_method_get_subname_count>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_nodepath.rst:61
+#: ../../docs/classes/class_nodepath.rst:63
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_nodepath.rst:61
+msgid ":ref:`is_absolute<class_NodePath_method_is_absolute>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_nodepath.rst:63
+msgid ":ref:`is_empty<class_NodePath_method_is_empty>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_nodepath.rst:67
+msgid "Method Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_nodepath.rst:71
+msgid ":ref:`NodePath<class_NodePath>` **NodePath** **(** :ref:`String<class_String>` from **)**"
+msgstr ""
+
+#: ../../docs/classes/class_nodepath.rst:73
+msgid "Creates a NodePath from a string, e.g. ``\"Path2D/PathFollow2D/Sprite:texture:size\"``. A path is absolute if it starts with a slash. Absolute paths are only valid in the global scene tree, not within individual scenes. In a relative path, ``\".\"`` and ``\"..\"`` indicate the current node and its parent."
+msgstr ""
+
+#: ../../docs/classes/class_nodepath.rst:75
+msgid "The \"subnames\" optionally included after the path to the target node can point to resources or properties, and can also be nested."
+msgstr ""
+
+#: ../../docs/classes/class_nodepath.rst:77
+msgid "Examples of valid NodePaths (assuming that those nodes exist and have the referenced resources or properties):"
+msgstr ""
+
+#: ../../docs/classes/class_nodepath.rst:98
+msgid ":ref:`NodePath<class_NodePath>` **get_as_property_path** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_nodepath.rst:100
+msgid "Returns a node path with a colon character (``:``) prepended, transforming it to a pure property path with no node name (defaults to resolving from the current node)."
+msgstr ""
+
+#: ../../docs/classes/class_nodepath.rst:114
+msgid ":ref:`String<class_String>` **get_concatenated_subnames** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_nodepath.rst:116
+msgid "Returns all subnames concatenated with a colon character (``:``) as separator, i.e. the right side of the first colon in a node path."
+msgstr ""
+
+#: ../../docs/classes/class_nodepath.rst:127
+msgid ":ref:`String<class_String>` **get_name** **(** :ref:`int<class_int>` idx **)**"
+msgstr ""
+
+#: ../../docs/classes/class_nodepath.rst:129
+msgid "Gets the node name indicated by ``idx`` (0 to :ref:`get_name_count<class_NodePath_method_get_name_count>`)."
+msgstr ""
+
+#: ../../docs/classes/class_nodepath.rst:142
+msgid ":ref:`int<class_int>` **get_name_count** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_nodepath.rst:144
+msgid "Gets the number of node names which make up the path. Subnames (see :ref:`get_subname_count<class_NodePath_method_get_subname_count>`) are not included."
+msgstr ""
+
+#: ../../docs/classes/class_nodepath.rst:146
+msgid "For example, ``\"Path2D/PathFollow2D/Sprite\"`` has 3 names."
+msgstr ""
+
+#: ../../docs/classes/class_nodepath.rst:152
+msgid ":ref:`String<class_String>` **get_subname** **(** :ref:`int<class_int>` idx **)**"
+msgstr ""
+
+#: ../../docs/classes/class_nodepath.rst:154
+msgid "Gets the resource or property name indicated by ``idx`` (0 to :ref:`get_subname_count<class_NodePath_method_get_subname_count>`)."
+msgstr ""
+
+#: ../../docs/classes/class_nodepath.rst:166
+msgid ":ref:`int<class_int>` **get_subname_count** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_nodepath.rst:168
+msgid "Gets the number of resource or property names (\"subnames\") in the path. Each subname is listed after a colon character (``:``) in the node path."
+msgstr ""
+
+#: ../../docs/classes/class_nodepath.rst:170
+msgid "For example, ``\"Path2D/PathFollow2D/Sprite:texture:load_path\"`` has 2 subnames."
+msgstr ""
+
+#: ../../docs/classes/class_nodepath.rst:176
+msgid ":ref:`bool<class_bool>` **is_absolute** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_nodepath.rst:178
+msgid "Returns ``true`` if the node path is absolute (as opposed to relative), which means that it starts with a slash character (``/``). Absolute node paths can be used to access the root node (``\"/root\"``) or autoloads (e.g. ``\"/global\"`` if a \"global\" autoload was registered)."
+msgstr ""
+
+#: ../../docs/classes/class_nodepath.rst:184
+msgid ":ref:`bool<class_bool>` **is_empty** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_nodepath.rst:186
+msgid "Returns ``true`` if the node path is empty."
+msgstr ""

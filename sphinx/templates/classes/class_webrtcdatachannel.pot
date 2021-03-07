@@ -1,0 +1,292 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_webrtcdatachannel.rst:10
+msgid "WebRTCDataChannel"
+msgstr ""
+
+#: ../../docs/classes/class_webrtcdatachannel.rst:12
+msgid "**Inherits:** :ref:`PacketPeer<class_PacketPeer>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_webrtcdatachannel.rst:14
+msgid "**Inherited By:** :ref:`WebRTCDataChannelGDNative<class_WebRTCDataChannelGDNative>`"
+msgstr ""
+
+#: ../../docs/classes/class_webrtcdatachannel.rst:19
+msgid "Properties"
+msgstr ""
+
+#: ../../docs/classes/class_webrtcdatachannel.rst:22
+msgid ":ref:`WriteMode<enum_WebRTCDataChannel_WriteMode>`"
+msgstr ""
+
+#: ../../docs/classes/class_webrtcdatachannel.rst:22
+msgid ":ref:`write_mode<class_WebRTCDataChannel_property_write_mode>`"
+msgstr ""
+
+#: ../../docs/classes/class_webrtcdatachannel.rst:22
+#: ../../docs/classes/class_webrtcdatachannel.rst:97
+msgid "``1``"
+msgstr ""
+
+#: ../../docs/classes/class_webrtcdatachannel.rst:26
+msgid "Methods"
+msgstr ""
+
+#: ../../docs/classes/class_webrtcdatachannel.rst:29
+msgid "void"
+msgstr ""
+
+#: ../../docs/classes/class_webrtcdatachannel.rst:29
+msgid ":ref:`close<class_WebRTCDataChannel_method_close>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_webrtcdatachannel.rst:31
+#: ../../docs/classes/class_webrtcdatachannel.rst:35
+#: ../../docs/classes/class_webrtcdatachannel.rst:37
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../../docs/classes/class_webrtcdatachannel.rst:31
+msgid ":ref:`get_id<class_WebRTCDataChannel_method_get_id>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_webrtcdatachannel.rst:33
+#: ../../docs/classes/class_webrtcdatachannel.rst:39
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../../docs/classes/class_webrtcdatachannel.rst:33
+msgid ":ref:`get_label<class_WebRTCDataChannel_method_get_label>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_webrtcdatachannel.rst:35
+msgid ":ref:`get_max_packet_life_time<class_WebRTCDataChannel_method_get_max_packet_life_time>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_webrtcdatachannel.rst:37
+msgid ":ref:`get_max_retransmits<class_WebRTCDataChannel_method_get_max_retransmits>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_webrtcdatachannel.rst:39
+msgid ":ref:`get_protocol<class_WebRTCDataChannel_method_get_protocol>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_webrtcdatachannel.rst:41
+msgid ":ref:`ChannelState<enum_WebRTCDataChannel_ChannelState>`"
+msgstr ""
+
+#: ../../docs/classes/class_webrtcdatachannel.rst:41
+msgid ":ref:`get_ready_state<class_WebRTCDataChannel_method_get_ready_state>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_webrtcdatachannel.rst:43
+#: ../../docs/classes/class_webrtcdatachannel.rst:45
+#: ../../docs/classes/class_webrtcdatachannel.rst:49
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_webrtcdatachannel.rst:43
+msgid ":ref:`is_negotiated<class_WebRTCDataChannel_method_is_negotiated>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_webrtcdatachannel.rst:45
+msgid ":ref:`is_ordered<class_WebRTCDataChannel_method_is_ordered>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_webrtcdatachannel.rst:47
+msgid ":ref:`Error<enum_@GlobalScope_Error>`"
+msgstr ""
+
+#: ../../docs/classes/class_webrtcdatachannel.rst:47
+msgid ":ref:`poll<class_WebRTCDataChannel_method_poll>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_webrtcdatachannel.rst:49
+msgid ":ref:`was_string_packet<class_WebRTCDataChannel_method_was_string_packet>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_webrtcdatachannel.rst:53
+msgid "Enumerations"
+msgstr ""
+
+#: ../../docs/classes/class_webrtcdatachannel.rst:61
+msgid "enum **WriteMode**:"
+msgstr ""
+
+#: ../../docs/classes/class_webrtcdatachannel.rst:63
+msgid "**WRITE_MODE_TEXT** = **0** --- Tells the channel to send data over this channel as text. An external peer (non-Godot) would receive this as a string."
+msgstr ""
+
+#: ../../docs/classes/class_webrtcdatachannel.rst:65
+msgid "**WRITE_MODE_BINARY** = **1** --- Tells the channel to send data over this channel as binary. An external peer (non-Godot) would receive this as array buffer or blob."
+msgstr ""
+
+#: ../../docs/classes/class_webrtcdatachannel.rst:79
+msgid "enum **ChannelState**:"
+msgstr ""
+
+#: ../../docs/classes/class_webrtcdatachannel.rst:81
+msgid "**STATE_CONNECTING** = **0** --- The channel was created, but it's still trying to connect."
+msgstr ""
+
+#: ../../docs/classes/class_webrtcdatachannel.rst:83
+msgid "**STATE_OPEN** = **1** --- The channel is currently open, and data can flow over it."
+msgstr ""
+
+#: ../../docs/classes/class_webrtcdatachannel.rst:85
+msgid "**STATE_CLOSING** = **2** --- The channel is being closed, no new messages will be accepted, but those already in queue will be flushed."
+msgstr ""
+
+#: ../../docs/classes/class_webrtcdatachannel.rst:87
+msgid "**STATE_CLOSED** = **3** --- The channel was closed, or connection failed."
+msgstr ""
+
+#: ../../docs/classes/class_webrtcdatachannel.rst:90
+msgid "Property Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_webrtcdatachannel.rst:94
+msgid ":ref:`WriteMode<enum_WebRTCDataChannel_WriteMode>` **write_mode**"
+msgstr ""
+
+#: ../../docs/classes/class_webrtcdatachannel.rst:97
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_webrtcdatachannel.rst:99
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_webrtcdatachannel.rst:99
+msgid "set_write_mode(value)"
+msgstr ""
+
+#: ../../docs/classes/class_webrtcdatachannel.rst:101
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_webrtcdatachannel.rst:101
+msgid "get_write_mode()"
+msgstr ""
+
+#: ../../docs/classes/class_webrtcdatachannel.rst:104
+msgid "The transfer mode to use when sending outgoing packet. Either text or binary."
+msgstr ""
+
+#: ../../docs/classes/class_webrtcdatachannel.rst:107
+msgid "Method Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_webrtcdatachannel.rst:111
+msgid "void **close** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_webrtcdatachannel.rst:113
+msgid "Closes this data channel, notifying the other peer."
+msgstr ""
+
+#: ../../docs/classes/class_webrtcdatachannel.rst:119
+msgid ":ref:`int<class_int>` **get_id** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_webrtcdatachannel.rst:121
+msgid "Returns the id assigned to this channel during creation (or auto-assigned during negotiation)."
+msgstr ""
+
+#: ../../docs/classes/class_webrtcdatachannel.rst:123
+msgid "If the channel is not negotiated out-of-band the id will only be available after the connection is established (will return ``65535`` until then)."
+msgstr ""
+
+#: ../../docs/classes/class_webrtcdatachannel.rst:129
+msgid ":ref:`String<class_String>` **get_label** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_webrtcdatachannel.rst:131
+msgid "Returns the label assigned to this channel during creation."
+msgstr ""
+
+#: ../../docs/classes/class_webrtcdatachannel.rst:137
+msgid ":ref:`int<class_int>` **get_max_packet_life_time** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_webrtcdatachannel.rst:139
+msgid "Returns the ``maxPacketLifeTime`` value assigned to this channel during creation."
+msgstr ""
+
+#: ../../docs/classes/class_webrtcdatachannel.rst:141
+#: ../../docs/classes/class_webrtcdatachannel.rst:151
+msgid "Will be ``65535`` if not specified."
+msgstr ""
+
+#: ../../docs/classes/class_webrtcdatachannel.rst:147
+msgid ":ref:`int<class_int>` **get_max_retransmits** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_webrtcdatachannel.rst:149
+msgid "Returns the ``maxRetransmits`` value assigned to this channel during creation."
+msgstr ""
+
+#: ../../docs/classes/class_webrtcdatachannel.rst:157
+msgid ":ref:`String<class_String>` **get_protocol** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_webrtcdatachannel.rst:159
+msgid "Returns the sub-protocol assigned to this channel during creation. An empty string if not specified."
+msgstr ""
+
+#: ../../docs/classes/class_webrtcdatachannel.rst:165
+msgid ":ref:`ChannelState<enum_WebRTCDataChannel_ChannelState>` **get_ready_state** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_webrtcdatachannel.rst:167
+msgid "Returns the current state of this channel, see :ref:`ChannelState<enum_WebRTCDataChannel_ChannelState>`."
+msgstr ""
+
+#: ../../docs/classes/class_webrtcdatachannel.rst:173
+msgid ":ref:`bool<class_bool>` **is_negotiated** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_webrtcdatachannel.rst:175
+msgid "Returns ``true`` if this channel was created with out-of-band configuration."
+msgstr ""
+
+#: ../../docs/classes/class_webrtcdatachannel.rst:181
+msgid ":ref:`bool<class_bool>` **is_ordered** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_webrtcdatachannel.rst:183
+msgid "Returns ``true`` if this channel was created with ordering enabled (default)."
+msgstr ""
+
+#: ../../docs/classes/class_webrtcdatachannel.rst:189
+msgid ":ref:`Error<enum_@GlobalScope_Error>` **poll** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_webrtcdatachannel.rst:191
+msgid "Reserved, but not used for now."
+msgstr ""
+
+#: ../../docs/classes/class_webrtcdatachannel.rst:197
+msgid ":ref:`bool<class_bool>` **was_string_packet** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_webrtcdatachannel.rst:199
+msgid "Returns ``true`` if the last received packet was transferred as text. See :ref:`write_mode<class_WebRTCDataChannel_property_write_mode>`."
+msgstr ""

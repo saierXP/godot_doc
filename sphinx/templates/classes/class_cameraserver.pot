@@ -1,0 +1,170 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_cameraserver.rst:10
+msgid "CameraServer"
+msgstr ""
+
+#: ../../docs/classes/class_cameraserver.rst:12
+msgid "**Inherits:** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_cameraserver.rst:14
+msgid "Server keeping track of different cameras accessible in Godot."
+msgstr ""
+
+#: ../../docs/classes/class_cameraserver.rst:17
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_cameraserver.rst:19
+msgid "The ``CameraServer`` keeps track of different cameras accessible in Godot. These are external cameras such as webcams or the cameras on your phone."
+msgstr ""
+
+#: ../../docs/classes/class_cameraserver.rst:21
+msgid "It is notably used to provide AR modules with a video feed from the camera."
+msgstr ""
+
+#: ../../docs/classes/class_cameraserver.rst:24
+msgid "Methods"
+msgstr ""
+
+#: ../../docs/classes/class_cameraserver.rst:27
+#: ../../docs/classes/class_cameraserver.rst:35
+msgid "void"
+msgstr ""
+
+#: ../../docs/classes/class_cameraserver.rst:27
+msgid ":ref:`add_feed<class_CameraServer_method_add_feed>` **(** :ref:`CameraFeed<class_CameraFeed>` feed **)**"
+msgstr ""
+
+#: ../../docs/classes/class_cameraserver.rst:29
+msgid ":ref:`Array<class_Array>`"
+msgstr ""
+
+#: ../../docs/classes/class_cameraserver.rst:29
+msgid ":ref:`feeds<class_CameraServer_method_feeds>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_cameraserver.rst:31
+msgid ":ref:`CameraFeed<class_CameraFeed>`"
+msgstr ""
+
+#: ../../docs/classes/class_cameraserver.rst:31
+msgid ":ref:`get_feed<class_CameraServer_method_get_feed>` **(** :ref:`int<class_int>` index **)**"
+msgstr ""
+
+#: ../../docs/classes/class_cameraserver.rst:33
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../../docs/classes/class_cameraserver.rst:33
+msgid ":ref:`get_feed_count<class_CameraServer_method_get_feed_count>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_cameraserver.rst:35
+msgid ":ref:`remove_feed<class_CameraServer_method_remove_feed>` **(** :ref:`CameraFeed<class_CameraFeed>` feed **)**"
+msgstr ""
+
+#: ../../docs/classes/class_cameraserver.rst:39
+msgid "Signals"
+msgstr ""
+
+#: ../../docs/classes/class_cameraserver.rst:43
+msgid "**camera_feed_added** **(** :ref:`int<class_int>` id **)**"
+msgstr ""
+
+#: ../../docs/classes/class_cameraserver.rst:45
+msgid "Emitted when a :ref:`CameraFeed<class_CameraFeed>` is added (e.g. webcam is plugged in)."
+msgstr ""
+
+#: ../../docs/classes/class_cameraserver.rst:51
+msgid "**camera_feed_removed** **(** :ref:`int<class_int>` id **)**"
+msgstr ""
+
+#: ../../docs/classes/class_cameraserver.rst:53
+msgid "Emitted when a :ref:`CameraFeed<class_CameraFeed>` is removed (e.g. webcam is unplugged)."
+msgstr ""
+
+#: ../../docs/classes/class_cameraserver.rst:56
+msgid "Enumerations"
+msgstr ""
+
+#: ../../docs/classes/class_cameraserver.rst:68
+msgid "enum **FeedImage**:"
+msgstr ""
+
+#: ../../docs/classes/class_cameraserver.rst:70
+msgid "**FEED_RGBA_IMAGE** = **0** --- The RGBA camera image."
+msgstr ""
+
+#: ../../docs/classes/class_cameraserver.rst:72
+msgid "**FEED_YCBCR_IMAGE** = **0** --- The YCbCr camera image."
+msgstr ""
+
+#: ../../docs/classes/class_cameraserver.rst:74
+msgid "**FEED_Y_IMAGE** = **0** --- The Y component camera image."
+msgstr ""
+
+#: ../../docs/classes/class_cameraserver.rst:76
+msgid "**FEED_CBCR_IMAGE** = **1** --- The CbCr component camera image."
+msgstr ""
+
+#: ../../docs/classes/class_cameraserver.rst:79
+msgid "Method Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_cameraserver.rst:83
+msgid "void **add_feed** **(** :ref:`CameraFeed<class_CameraFeed>` feed **)**"
+msgstr ""
+
+#: ../../docs/classes/class_cameraserver.rst:85
+msgid "Adds a camera feed to the camera server."
+msgstr ""
+
+#: ../../docs/classes/class_cameraserver.rst:91
+msgid ":ref:`Array<class_Array>` **feeds** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_cameraserver.rst:93
+msgid "Returns an array of :ref:`CameraFeed<class_CameraFeed>`\\ s."
+msgstr ""
+
+#: ../../docs/classes/class_cameraserver.rst:99
+msgid ":ref:`CameraFeed<class_CameraFeed>` **get_feed** **(** :ref:`int<class_int>` index **)**"
+msgstr ""
+
+#: ../../docs/classes/class_cameraserver.rst:101
+msgid "Returns the :ref:`CameraFeed<class_CameraFeed>` with this id."
+msgstr ""
+
+#: ../../docs/classes/class_cameraserver.rst:107
+msgid ":ref:`int<class_int>` **get_feed_count** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_cameraserver.rst:109
+msgid "Returns the number of :ref:`CameraFeed<class_CameraFeed>`\\ s registered."
+msgstr ""
+
+#: ../../docs/classes/class_cameraserver.rst:115
+msgid "void **remove_feed** **(** :ref:`CameraFeed<class_CameraFeed>` feed **)**"
+msgstr ""
+
+#: ../../docs/classes/class_cameraserver.rst:117
+msgid "Removes a :ref:`CameraFeed<class_CameraFeed>`."
+msgstr ""

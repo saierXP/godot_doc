@@ -1,0 +1,199 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_prismmesh.rst:10
+msgid "PrismMesh"
+msgstr ""
+
+#: ../../docs/classes/class_prismmesh.rst:12
+msgid "**Inherits:** :ref:`PrimitiveMesh<class_PrimitiveMesh>` **<** :ref:`Mesh<class_Mesh>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_prismmesh.rst:14
+#: ../../docs/classes/class_prismmesh.rst:19
+msgid "Class representing a prism-shaped :ref:`PrimitiveMesh<class_PrimitiveMesh>`."
+msgstr ""
+
+#: ../../docs/classes/class_prismmesh.rst:17
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_prismmesh.rst:22
+msgid "Properties"
+msgstr ""
+
+#: ../../docs/classes/class_prismmesh.rst:25
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../../docs/classes/class_prismmesh.rst:25
+msgid ":ref:`left_to_right<class_PrismMesh_property_left_to_right>`"
+msgstr ""
+
+#: ../../docs/classes/class_prismmesh.rst:25
+#: ../../docs/classes/class_prismmesh.rst:44
+msgid "``0.5``"
+msgstr ""
+
+#: ../../docs/classes/class_prismmesh.rst:27
+msgid ":ref:`Vector3<class_Vector3>`"
+msgstr ""
+
+#: ../../docs/classes/class_prismmesh.rst:27
+msgid ":ref:`size<class_PrismMesh_property_size>`"
+msgstr ""
+
+#: ../../docs/classes/class_prismmesh.rst:27
+#: ../../docs/classes/class_prismmesh.rst:60
+msgid "``Vector3( 2, 2, 2 )``"
+msgstr ""
+
+#: ../../docs/classes/class_prismmesh.rst:29
+#: ../../docs/classes/class_prismmesh.rst:31
+#: ../../docs/classes/class_prismmesh.rst:33
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../../docs/classes/class_prismmesh.rst:29
+msgid ":ref:`subdivide_depth<class_PrismMesh_property_subdivide_depth>`"
+msgstr ""
+
+#: ../../docs/classes/class_prismmesh.rst:29
+#: ../../docs/classes/class_prismmesh.rst:31
+#: ../../docs/classes/class_prismmesh.rst:33
+#: ../../docs/classes/class_prismmesh.rst:76
+#: ../../docs/classes/class_prismmesh.rst:92
+#: ../../docs/classes/class_prismmesh.rst:108
+msgid "``0``"
+msgstr ""
+
+#: ../../docs/classes/class_prismmesh.rst:31
+msgid ":ref:`subdivide_height<class_PrismMesh_property_subdivide_height>`"
+msgstr ""
+
+#: ../../docs/classes/class_prismmesh.rst:33
+msgid ":ref:`subdivide_width<class_PrismMesh_property_subdivide_width>`"
+msgstr ""
+
+#: ../../docs/classes/class_prismmesh.rst:37
+msgid "Property Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_prismmesh.rst:41
+msgid ":ref:`float<class_float>` **left_to_right**"
+msgstr ""
+
+#: ../../docs/classes/class_prismmesh.rst:44
+#: ../../docs/classes/class_prismmesh.rst:60
+#: ../../docs/classes/class_prismmesh.rst:76
+#: ../../docs/classes/class_prismmesh.rst:92
+#: ../../docs/classes/class_prismmesh.rst:108
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_prismmesh.rst:46
+#: ../../docs/classes/class_prismmesh.rst:62
+#: ../../docs/classes/class_prismmesh.rst:78
+#: ../../docs/classes/class_prismmesh.rst:94
+#: ../../docs/classes/class_prismmesh.rst:110
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_prismmesh.rst:46
+msgid "set_left_to_right(value)"
+msgstr ""
+
+#: ../../docs/classes/class_prismmesh.rst:48
+#: ../../docs/classes/class_prismmesh.rst:64
+#: ../../docs/classes/class_prismmesh.rst:80
+#: ../../docs/classes/class_prismmesh.rst:96
+#: ../../docs/classes/class_prismmesh.rst:112
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_prismmesh.rst:48
+msgid "get_left_to_right()"
+msgstr ""
+
+#: ../../docs/classes/class_prismmesh.rst:51
+msgid "Displacement of the upper edge along the X axis. 0.0 positions edge straight above the bottom-left edge."
+msgstr ""
+
+#: ../../docs/classes/class_prismmesh.rst:57
+msgid ":ref:`Vector3<class_Vector3>` **size**"
+msgstr ""
+
+#: ../../docs/classes/class_prismmesh.rst:62
+msgid "set_size(value)"
+msgstr ""
+
+#: ../../docs/classes/class_prismmesh.rst:64
+msgid "get_size()"
+msgstr ""
+
+#: ../../docs/classes/class_prismmesh.rst:67
+msgid "Size of the prism."
+msgstr ""
+
+#: ../../docs/classes/class_prismmesh.rst:73
+msgid ":ref:`int<class_int>` **subdivide_depth**"
+msgstr ""
+
+#: ../../docs/classes/class_prismmesh.rst:78
+msgid "set_subdivide_depth(value)"
+msgstr ""
+
+#: ../../docs/classes/class_prismmesh.rst:80
+msgid "get_subdivide_depth()"
+msgstr ""
+
+#: ../../docs/classes/class_prismmesh.rst:83
+msgid "Number of added edge loops along the Z axis."
+msgstr ""
+
+#: ../../docs/classes/class_prismmesh.rst:89
+msgid ":ref:`int<class_int>` **subdivide_height**"
+msgstr ""
+
+#: ../../docs/classes/class_prismmesh.rst:94
+msgid "set_subdivide_height(value)"
+msgstr ""
+
+#: ../../docs/classes/class_prismmesh.rst:96
+msgid "get_subdivide_height()"
+msgstr ""
+
+#: ../../docs/classes/class_prismmesh.rst:99
+msgid "Number of added edge loops along the Y axis."
+msgstr ""
+
+#: ../../docs/classes/class_prismmesh.rst:105
+msgid ":ref:`int<class_int>` **subdivide_width**"
+msgstr ""
+
+#: ../../docs/classes/class_prismmesh.rst:110
+msgid "set_subdivide_width(value)"
+msgstr ""
+
+#: ../../docs/classes/class_prismmesh.rst:112
+msgid "get_subdivide_width()"
+msgstr ""
+
+#: ../../docs/classes/class_prismmesh.rst:115
+msgid "Number of added edge loops along the X axis."
+msgstr ""

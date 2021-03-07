@@ -1,0 +1,259 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_websocketclient.rst:10
+msgid "WebSocketClient"
+msgstr ""
+
+#: ../../docs/classes/class_websocketclient.rst:12
+msgid "**Inherits:** :ref:`WebSocketMultiplayerPeer<class_WebSocketMultiplayerPeer>` **<** :ref:`NetworkedMultiplayerPeer<class_NetworkedMultiplayerPeer>` **<** :ref:`PacketPeer<class_PacketPeer>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_websocketclient.rst:14
+msgid "A WebSocket client implementation."
+msgstr ""
+
+#: ../../docs/classes/class_websocketclient.rst:17
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_websocketclient.rst:19
+msgid "This class implements a WebSocket client compatible with any RFC 6455-compliant WebSocket server."
+msgstr ""
+
+#: ../../docs/classes/class_websocketclient.rst:21
+msgid "This client can be optionally used as a network peer for the :ref:`MultiplayerAPI<class_MultiplayerAPI>`."
+msgstr ""
+
+#: ../../docs/classes/class_websocketclient.rst:23
+msgid "After starting the client (:ref:`connect_to_url<class_WebSocketClient_method_connect_to_url>`), you will need to :ref:`NetworkedMultiplayerPeer.poll<class_NetworkedMultiplayerPeer_method_poll>` it at regular intervals (e.g. inside :ref:`Node._process<class_Node_method__process>`)."
+msgstr ""
+
+#: ../../docs/classes/class_websocketclient.rst:25
+msgid "You will receive appropriate signals when connecting, disconnecting, or when new data is available."
+msgstr ""
+
+#: ../../docs/classes/class_websocketclient.rst:28
+msgid "Properties"
+msgstr ""
+
+#: ../../docs/classes/class_websocketclient.rst:31
+msgid ":ref:`X509Certificate<class_X509Certificate>`"
+msgstr ""
+
+#: ../../docs/classes/class_websocketclient.rst:31
+msgid ":ref:`trusted_ssl_certificate<class_WebSocketClient_property_trusted_ssl_certificate>`"
+msgstr ""
+
+#: ../../docs/classes/class_websocketclient.rst:33
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_websocketclient.rst:33
+msgid ":ref:`verify_ssl<class_WebSocketClient_property_verify_ssl>`"
+msgstr ""
+
+#: ../../docs/classes/class_websocketclient.rst:37
+msgid "Methods"
+msgstr ""
+
+#: ../../docs/classes/class_websocketclient.rst:40
+msgid ":ref:`Error<enum_@GlobalScope_Error>`"
+msgstr ""
+
+#: ../../docs/classes/class_websocketclient.rst:40
+msgid ":ref:`connect_to_url<class_WebSocketClient_method_connect_to_url>` **(** :ref:`String<class_String>` url, :ref:`PoolStringArray<class_PoolStringArray>` protocols=PoolStringArray(  ), :ref:`bool<class_bool>` gd_mp_api=false, :ref:`PoolStringArray<class_PoolStringArray>` custom_headers=PoolStringArray(  ) **)**"
+msgstr ""
+
+#: ../../docs/classes/class_websocketclient.rst:42
+msgid "void"
+msgstr ""
+
+#: ../../docs/classes/class_websocketclient.rst:42
+msgid ":ref:`disconnect_from_host<class_WebSocketClient_method_disconnect_from_host>` **(** :ref:`int<class_int>` code=1000, :ref:`String<class_String>` reason=\"\" **)**"
+msgstr ""
+
+#: ../../docs/classes/class_websocketclient.rst:44
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../../docs/classes/class_websocketclient.rst:44
+msgid ":ref:`get_connected_host<class_WebSocketClient_method_get_connected_host>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_websocketclient.rst:46
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../../docs/classes/class_websocketclient.rst:46
+msgid ":ref:`get_connected_port<class_WebSocketClient_method_get_connected_port>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_websocketclient.rst:50
+msgid "Signals"
+msgstr ""
+
+#: ../../docs/classes/class_websocketclient.rst:54
+msgid "**connection_closed** **(** :ref:`bool<class_bool>` was_clean_close **)**"
+msgstr ""
+
+#: ../../docs/classes/class_websocketclient.rst:56
+msgid "Emitted when the connection to the server is closed. ``was_clean_close`` will be ``true`` if the connection was shutdown cleanly."
+msgstr ""
+
+#: ../../docs/classes/class_websocketclient.rst:62
+msgid "**connection_error** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_websocketclient.rst:64
+msgid "Emitted when the connection to the server fails."
+msgstr ""
+
+#: ../../docs/classes/class_websocketclient.rst:70
+msgid "**connection_established** **(** :ref:`String<class_String>` protocol **)**"
+msgstr ""
+
+#: ../../docs/classes/class_websocketclient.rst:72
+msgid "Emitted when a connection with the server is established, ``protocol`` will contain the sub-protocol agreed with the server."
+msgstr ""
+
+#: ../../docs/classes/class_websocketclient.rst:78
+msgid "**data_received** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_websocketclient.rst:80
+msgid "Emitted when a WebSocket message is received."
+msgstr ""
+
+#: ../../docs/classes/class_websocketclient.rst:82
+msgid "**Note:** This signal is *not* emitted when used as high-level multiplayer peer."
+msgstr ""
+
+#: ../../docs/classes/class_websocketclient.rst:88
+msgid "**server_close_request** **(** :ref:`int<class_int>` code, :ref:`String<class_String>` reason **)**"
+msgstr ""
+
+#: ../../docs/classes/class_websocketclient.rst:90
+msgid "Emitted when the server requests a clean close. You should keep polling until you get a :ref:`connection_closed<class_WebSocketClient_signal_connection_closed>` signal to achieve the clean close. See :ref:`WebSocketPeer.close<class_WebSocketPeer_method_close>` for more details."
+msgstr ""
+
+#: ../../docs/classes/class_websocketclient.rst:93
+msgid "Property Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_websocketclient.rst:97
+msgid ":ref:`X509Certificate<class_X509Certificate>` **trusted_ssl_certificate**"
+msgstr ""
+
+#: ../../docs/classes/class_websocketclient.rst:100
+#: ../../docs/classes/class_websocketclient.rst:116
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_websocketclient.rst:100
+msgid "set_trusted_ssl_certificate(value)"
+msgstr ""
+
+#: ../../docs/classes/class_websocketclient.rst:102
+#: ../../docs/classes/class_websocketclient.rst:118
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_websocketclient.rst:102
+msgid "get_trusted_ssl_certificate()"
+msgstr ""
+
+#: ../../docs/classes/class_websocketclient.rst:105
+msgid "If specified, this :ref:`X509Certificate<class_X509Certificate>` will be the only one accepted when connecting to an SSL host. Any other certificate provided by the server will be regarded as invalid."
+msgstr ""
+
+#: ../../docs/classes/class_websocketclient.rst:107
+msgid "**Note:** Specifying a custom ``trusted_ssl_certificate`` is not supported in HTML5 exports due to browsers restrictions."
+msgstr ""
+
+#: ../../docs/classes/class_websocketclient.rst:113
+msgid ":ref:`bool<class_bool>` **verify_ssl**"
+msgstr ""
+
+#: ../../docs/classes/class_websocketclient.rst:116
+msgid "set_verify_ssl_enabled(value)"
+msgstr ""
+
+#: ../../docs/classes/class_websocketclient.rst:118
+msgid "is_verify_ssl_enabled()"
+msgstr ""
+
+#: ../../docs/classes/class_websocketclient.rst:121
+msgid "If ``true``, SSL certificate verification is enabled."
+msgstr ""
+
+#: ../../docs/classes/class_websocketclient.rst:123
+msgid "**Note:** You must specify the certificates to be used in the Project Settings for it to work when exported."
+msgstr ""
+
+#: ../../docs/classes/class_websocketclient.rst:126
+msgid "Method Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_websocketclient.rst:130
+msgid ":ref:`Error<enum_@GlobalScope_Error>` **connect_to_url** **(** :ref:`String<class_String>` url, :ref:`PoolStringArray<class_PoolStringArray>` protocols=PoolStringArray(  ), :ref:`bool<class_bool>` gd_mp_api=false, :ref:`PoolStringArray<class_PoolStringArray>` custom_headers=PoolStringArray(  ) **)**"
+msgstr ""
+
+#: ../../docs/classes/class_websocketclient.rst:132
+msgid "Connects to the given URL requesting one of the given ``protocols`` as sub-protocol. If the list empty (default), no sub-protocol will be requested."
+msgstr ""
+
+#: ../../docs/classes/class_websocketclient.rst:134
+msgid "If ``true`` is passed as ``gd_mp_api``, the client will behave like a network peer for the :ref:`MultiplayerAPI<class_MultiplayerAPI>`, connections to non-Godot servers will not work, and :ref:`data_received<class_WebSocketClient_signal_data_received>` will not be emitted."
+msgstr ""
+
+#: ../../docs/classes/class_websocketclient.rst:136
+msgid "If ``false`` is passed instead (default), you must call :ref:`PacketPeer<class_PacketPeer>` functions (``put_packet``, ``get_packet``, etc.) on the :ref:`WebSocketPeer<class_WebSocketPeer>` returned via ``get_peer(1)`` and not on this object directly (e.g. ``get_peer(1).put_packet(data)``)."
+msgstr ""
+
+#: ../../docs/classes/class_websocketclient.rst:138
+msgid "You can optionally pass a list of ``custom_headers`` to be added to the handshake HTTP request."
+msgstr ""
+
+#: ../../docs/classes/class_websocketclient.rst:140
+msgid "**Note:** Specifying ``custom_headers`` is not supported in HTML5 exports due to browsers restrictions."
+msgstr ""
+
+#: ../../docs/classes/class_websocketclient.rst:146
+msgid "void **disconnect_from_host** **(** :ref:`int<class_int>` code=1000, :ref:`String<class_String>` reason=\"\" **)**"
+msgstr ""
+
+#: ../../docs/classes/class_websocketclient.rst:148
+msgid "Disconnects this client from the connected host. See :ref:`WebSocketPeer.close<class_WebSocketPeer_method_close>` for more information."
+msgstr ""
+
+#: ../../docs/classes/class_websocketclient.rst:154
+msgid ":ref:`String<class_String>` **get_connected_host** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_websocketclient.rst:156
+msgid "Return the IP address of the currently connected host."
+msgstr ""
+
+#: ../../docs/classes/class_websocketclient.rst:162
+msgid ":ref:`int<class_int>` **get_connected_port** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_websocketclient.rst:164
+msgid "Return the IP port of the currently connected host."
+msgstr ""

@@ -1,0 +1,300 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_editorspatialgizmo.rst:10
+msgid "EditorSpatialGizmo"
+msgstr ""
+
+#: ../../docs/classes/class_editorspatialgizmo.rst:12
+msgid "**Inherits:** :ref:`SpatialGizmo<class_SpatialGizmo>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_editorspatialgizmo.rst:14
+msgid "Custom gizmo for editing Spatial objects."
+msgstr ""
+
+#: ../../docs/classes/class_editorspatialgizmo.rst:17
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_editorspatialgizmo.rst:19
+msgid "Custom gizmo that is used for providing custom visualization and editing (handles) for 3D Spatial objects. See :ref:`EditorSpatialGizmoPlugin<class_EditorSpatialGizmoPlugin>` for more information."
+msgstr ""
+
+#: ../../docs/classes/class_editorspatialgizmo.rst:22
+msgid "Methods"
+msgstr ""
+
+#: ../../docs/classes/class_editorspatialgizmo.rst:25
+#: ../../docs/classes/class_editorspatialgizmo.rst:27
+#: ../../docs/classes/class_editorspatialgizmo.rst:29
+#: ../../docs/classes/class_editorspatialgizmo.rst:31
+#: ../../docs/classes/class_editorspatialgizmo.rst:33
+#: ../../docs/classes/class_editorspatialgizmo.rst:35
+#: ../../docs/classes/class_editorspatialgizmo.rst:37
+#: ../../docs/classes/class_editorspatialgizmo.rst:39
+#: ../../docs/classes/class_editorspatialgizmo.rst:51
+#: ../../docs/classes/class_editorspatialgizmo.rst:53
+#: ../../docs/classes/class_editorspatialgizmo.rst:55
+#: ../../docs/classes/class_editorspatialgizmo.rst:57
+msgid "void"
+msgstr ""
+
+#: ../../docs/classes/class_editorspatialgizmo.rst:25
+msgid ":ref:`add_collision_segments<class_EditorSpatialGizmo_method_add_collision_segments>` **(** :ref:`PoolVector3Array<class_PoolVector3Array>` segments **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorspatialgizmo.rst:27
+msgid ":ref:`add_collision_triangles<class_EditorSpatialGizmo_method_add_collision_triangles>` **(** :ref:`TriangleMesh<class_TriangleMesh>` triangles **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorspatialgizmo.rst:29
+msgid ":ref:`add_handles<class_EditorSpatialGizmo_method_add_handles>` **(** :ref:`PoolVector3Array<class_PoolVector3Array>` handles, :ref:`Material<class_Material>` material, :ref:`bool<class_bool>` billboard=false, :ref:`bool<class_bool>` secondary=false **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorspatialgizmo.rst:31
+msgid ":ref:`add_lines<class_EditorSpatialGizmo_method_add_lines>` **(** :ref:`PoolVector3Array<class_PoolVector3Array>` lines, :ref:`Material<class_Material>` material, :ref:`bool<class_bool>` billboard=false, :ref:`Color<class_Color>` modulate=Color( 1, 1, 1, 1 ) **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorspatialgizmo.rst:33
+msgid ":ref:`add_mesh<class_EditorSpatialGizmo_method_add_mesh>` **(** :ref:`ArrayMesh<class_ArrayMesh>` mesh, :ref:`bool<class_bool>` billboard=false, :ref:`SkinReference<class_SkinReference>` skeleton=null, :ref:`Material<class_Material>` material=null **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorspatialgizmo.rst:35
+msgid ":ref:`add_unscaled_billboard<class_EditorSpatialGizmo_method_add_unscaled_billboard>` **(** :ref:`Material<class_Material>` material, :ref:`float<class_float>` default_scale=1, :ref:`Color<class_Color>` modulate=Color( 1, 1, 1, 1 ) **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorspatialgizmo.rst:37
+msgid ":ref:`clear<class_EditorSpatialGizmo_method_clear>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorspatialgizmo.rst:39
+msgid ":ref:`commit_handle<class_EditorSpatialGizmo_method_commit_handle>` **(** :ref:`int<class_int>` index, :ref:`Variant<class_Variant>` restore, :ref:`bool<class_bool>` cancel=false **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_editorspatialgizmo.rst:41
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../../docs/classes/class_editorspatialgizmo.rst:41
+msgid ":ref:`get_handle_name<class_EditorSpatialGizmo_method_get_handle_name>` **(** :ref:`int<class_int>` index **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_editorspatialgizmo.rst:43
+msgid ":ref:`Variant<class_Variant>`"
+msgstr ""
+
+#: ../../docs/classes/class_editorspatialgizmo.rst:43
+msgid ":ref:`get_handle_value<class_EditorSpatialGizmo_method_get_handle_value>` **(** :ref:`int<class_int>` index **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_editorspatialgizmo.rst:45
+msgid ":ref:`EditorSpatialGizmoPlugin<class_EditorSpatialGizmoPlugin>`"
+msgstr ""
+
+#: ../../docs/classes/class_editorspatialgizmo.rst:45
+msgid ":ref:`get_plugin<class_EditorSpatialGizmo_method_get_plugin>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_editorspatialgizmo.rst:47
+msgid ":ref:`Spatial<class_Spatial>`"
+msgstr ""
+
+#: ../../docs/classes/class_editorspatialgizmo.rst:47
+msgid ":ref:`get_spatial_node<class_EditorSpatialGizmo_method_get_spatial_node>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_editorspatialgizmo.rst:49
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_editorspatialgizmo.rst:49
+msgid ":ref:`is_handle_highlighted<class_EditorSpatialGizmo_method_is_handle_highlighted>` **(** :ref:`int<class_int>` index **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_editorspatialgizmo.rst:51
+msgid ":ref:`redraw<class_EditorSpatialGizmo_method_redraw>` **(** **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_editorspatialgizmo.rst:53
+msgid ":ref:`set_handle<class_EditorSpatialGizmo_method_set_handle>` **(** :ref:`int<class_int>` index, :ref:`Camera<class_Camera>` camera, :ref:`Vector2<class_Vector2>` point **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_editorspatialgizmo.rst:55
+msgid ":ref:`set_hidden<class_EditorSpatialGizmo_method_set_hidden>` **(** :ref:`bool<class_bool>` hidden **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorspatialgizmo.rst:57
+msgid ":ref:`set_spatial_node<class_EditorSpatialGizmo_method_set_spatial_node>` **(** :ref:`Node<class_Node>` node **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorspatialgizmo.rst:61
+msgid "Method Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_editorspatialgizmo.rst:65
+msgid "void **add_collision_segments** **(** :ref:`PoolVector3Array<class_PoolVector3Array>` segments **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorspatialgizmo.rst:67
+msgid "Adds the specified ``segments`` to the gizmo's collision shape for picking. Call this function during :ref:`redraw<class_EditorSpatialGizmo_method_redraw>`."
+msgstr ""
+
+#: ../../docs/classes/class_editorspatialgizmo.rst:73
+msgid "void **add_collision_triangles** **(** :ref:`TriangleMesh<class_TriangleMesh>` triangles **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorspatialgizmo.rst:75
+msgid "Adds collision triangles to the gizmo for picking. A :ref:`TriangleMesh<class_TriangleMesh>` can be generated from a regular :ref:`Mesh<class_Mesh>` too. Call this function during :ref:`redraw<class_EditorSpatialGizmo_method_redraw>`."
+msgstr ""
+
+#: ../../docs/classes/class_editorspatialgizmo.rst:81
+msgid "void **add_handles** **(** :ref:`PoolVector3Array<class_PoolVector3Array>` handles, :ref:`Material<class_Material>` material, :ref:`bool<class_bool>` billboard=false, :ref:`bool<class_bool>` secondary=false **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorspatialgizmo.rst:83
+msgid "Adds a list of handles (points) which can be used to deform the object being edited."
+msgstr ""
+
+#: ../../docs/classes/class_editorspatialgizmo.rst:85
+msgid "There are virtual functions which will be called upon editing of these handles. Call this function during :ref:`redraw<class_EditorSpatialGizmo_method_redraw>`."
+msgstr ""
+
+#: ../../docs/classes/class_editorspatialgizmo.rst:91
+msgid "void **add_lines** **(** :ref:`PoolVector3Array<class_PoolVector3Array>` lines, :ref:`Material<class_Material>` material, :ref:`bool<class_bool>` billboard=false, :ref:`Color<class_Color>` modulate=Color( 1, 1, 1, 1 ) **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorspatialgizmo.rst:93
+msgid "Adds lines to the gizmo (as sets of 2 points), with a given material. The lines are used for visualizing the gizmo. Call this function during :ref:`redraw<class_EditorSpatialGizmo_method_redraw>`."
+msgstr ""
+
+#: ../../docs/classes/class_editorspatialgizmo.rst:99
+msgid "void **add_mesh** **(** :ref:`ArrayMesh<class_ArrayMesh>` mesh, :ref:`bool<class_bool>` billboard=false, :ref:`SkinReference<class_SkinReference>` skeleton=null, :ref:`Material<class_Material>` material=null **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorspatialgizmo.rst:101
+msgid "Adds a mesh to the gizmo with the specified ``billboard`` state, ``skeleton`` and ``material``. If ``billboard`` is ``true``, the mesh will rotate to always face the camera. Call this function during :ref:`redraw<class_EditorSpatialGizmo_method_redraw>`."
+msgstr ""
+
+#: ../../docs/classes/class_editorspatialgizmo.rst:107
+msgid "void **add_unscaled_billboard** **(** :ref:`Material<class_Material>` material, :ref:`float<class_float>` default_scale=1, :ref:`Color<class_Color>` modulate=Color( 1, 1, 1, 1 ) **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorspatialgizmo.rst:109
+msgid "Adds an unscaled billboard for visualization. Call this function during :ref:`redraw<class_EditorSpatialGizmo_method_redraw>`."
+msgstr ""
+
+#: ../../docs/classes/class_editorspatialgizmo.rst:115
+msgid "void **clear** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorspatialgizmo.rst:117
+msgid "Removes everything in the gizmo including meshes, collisions and handles."
+msgstr ""
+
+#: ../../docs/classes/class_editorspatialgizmo.rst:123
+msgid "void **commit_handle** **(** :ref:`int<class_int>` index, :ref:`Variant<class_Variant>` restore, :ref:`bool<class_bool>` cancel=false **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_editorspatialgizmo.rst:125
+msgid "Commit a handle being edited (handles must have been previously added by :ref:`add_handles<class_EditorSpatialGizmo_method_add_handles>`)."
+msgstr ""
+
+#: ../../docs/classes/class_editorspatialgizmo.rst:127
+msgid "If the ``cancel`` parameter is ``true``, an option to restore the edited value to the original is provided."
+msgstr ""
+
+#: ../../docs/classes/class_editorspatialgizmo.rst:133
+msgid ":ref:`String<class_String>` **get_handle_name** **(** :ref:`int<class_int>` index **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_editorspatialgizmo.rst:135
+msgid "Gets the name of an edited handle (handles must have been previously added by :ref:`add_handles<class_EditorSpatialGizmo_method_add_handles>`)."
+msgstr ""
+
+#: ../../docs/classes/class_editorspatialgizmo.rst:137
+msgid "Handles can be named for reference to the user when editing."
+msgstr ""
+
+#: ../../docs/classes/class_editorspatialgizmo.rst:143
+msgid ":ref:`Variant<class_Variant>` **get_handle_value** **(** :ref:`int<class_int>` index **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_editorspatialgizmo.rst:145
+msgid "Gets actual value of a handle. This value can be anything and used for eventually undoing the motion when calling :ref:`commit_handle<class_EditorSpatialGizmo_method_commit_handle>`."
+msgstr ""
+
+#: ../../docs/classes/class_editorspatialgizmo.rst:151
+msgid ":ref:`EditorSpatialGizmoPlugin<class_EditorSpatialGizmoPlugin>` **get_plugin** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_editorspatialgizmo.rst:153
+msgid "Returns the :ref:`EditorSpatialGizmoPlugin<class_EditorSpatialGizmoPlugin>` that owns this gizmo. It's useful to retrieve materials using :ref:`EditorSpatialGizmoPlugin.get_material<class_EditorSpatialGizmoPlugin_method_get_material>`."
+msgstr ""
+
+#: ../../docs/classes/class_editorspatialgizmo.rst:159
+msgid ":ref:`Spatial<class_Spatial>` **get_spatial_node** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_editorspatialgizmo.rst:161
+msgid "Returns the Spatial node associated with this gizmo."
+msgstr ""
+
+#: ../../docs/classes/class_editorspatialgizmo.rst:167
+msgid ":ref:`bool<class_bool>` **is_handle_highlighted** **(** :ref:`int<class_int>` index **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_editorspatialgizmo.rst:169
+msgid "Returns ``true`` if the handle at index ``index`` is highlighted by being hovered with the mouse."
+msgstr ""
+
+#: ../../docs/classes/class_editorspatialgizmo.rst:175
+msgid "void **redraw** **(** **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_editorspatialgizmo.rst:177
+msgid "This function is called when the :ref:`Spatial<class_Spatial>` this gizmo refers to changes (the :ref:`Spatial.update_gizmo<class_Spatial_method_update_gizmo>` is called)."
+msgstr ""
+
+#: ../../docs/classes/class_editorspatialgizmo.rst:183
+msgid "void **set_handle** **(** :ref:`int<class_int>` index, :ref:`Camera<class_Camera>` camera, :ref:`Vector2<class_Vector2>` point **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_editorspatialgizmo.rst:185
+msgid "This function is used when the user drags a gizmo handle (previously added with :ref:`add_handles<class_EditorSpatialGizmo_method_add_handles>`) in screen coordinates."
+msgstr ""
+
+#: ../../docs/classes/class_editorspatialgizmo.rst:187
+msgid "The :ref:`Camera<class_Camera>` is also provided so screen coordinates can be converted to raycasts."
+msgstr ""
+
+#: ../../docs/classes/class_editorspatialgizmo.rst:193
+msgid "void **set_hidden** **(** :ref:`bool<class_bool>` hidden **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorspatialgizmo.rst:195
+msgid "Sets the gizmo's hidden state. If ``true``, the gizmo will be hidden. If ``false``, it will be shown."
+msgstr ""
+
+#: ../../docs/classes/class_editorspatialgizmo.rst:201
+msgid "void **set_spatial_node** **(** :ref:`Node<class_Node>` node **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorspatialgizmo.rst:203
+msgid "Sets the reference :ref:`Spatial<class_Spatial>` node for the gizmo. ``node`` must inherit from :ref:`Spatial<class_Spatial>`."
+msgstr ""

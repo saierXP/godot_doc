@@ -1,0 +1,150 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_meshtexture.rst:10
+msgid "MeshTexture"
+msgstr ""
+
+#: ../../docs/classes/class_meshtexture.rst:12
+msgid "**Inherits:** :ref:`Texture<class_Texture>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_meshtexture.rst:14
+msgid "Simple texture that uses a mesh to draw itself."
+msgstr ""
+
+#: ../../docs/classes/class_meshtexture.rst:17
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_meshtexture.rst:19
+msgid "Simple texture that uses a mesh to draw itself. It's limited because flags can't be changed and region drawing is not supported."
+msgstr ""
+
+#: ../../docs/classes/class_meshtexture.rst:22
+msgid "Properties"
+msgstr ""
+
+#: ../../docs/classes/class_meshtexture.rst:25
+msgid ":ref:`Texture<class_Texture>`"
+msgstr ""
+
+#: ../../docs/classes/class_meshtexture.rst:25
+msgid ":ref:`base_texture<class_MeshTexture_property_base_texture>`"
+msgstr ""
+
+#: ../../docs/classes/class_meshtexture.rst:27
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../../docs/classes/class_meshtexture.rst:27
+msgid "flags"
+msgstr ""
+
+#: ../../docs/classes/class_meshtexture.rst:27
+msgid "``0`` *(parent override)*"
+msgstr ""
+
+#: ../../docs/classes/class_meshtexture.rst:29
+msgid ":ref:`Vector2<class_Vector2>`"
+msgstr ""
+
+#: ../../docs/classes/class_meshtexture.rst:29
+msgid ":ref:`image_size<class_MeshTexture_property_image_size>`"
+msgstr ""
+
+#: ../../docs/classes/class_meshtexture.rst:29
+#: ../../docs/classes/class_meshtexture.rst:56
+msgid "``Vector2( 0, 0 )``"
+msgstr ""
+
+#: ../../docs/classes/class_meshtexture.rst:31
+msgid ":ref:`Mesh<class_Mesh>`"
+msgstr ""
+
+#: ../../docs/classes/class_meshtexture.rst:31
+msgid ":ref:`mesh<class_MeshTexture_property_mesh>`"
+msgstr ""
+
+#: ../../docs/classes/class_meshtexture.rst:35
+msgid "Property Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_meshtexture.rst:39
+msgid ":ref:`Texture<class_Texture>` **base_texture**"
+msgstr ""
+
+#: ../../docs/classes/class_meshtexture.rst:42
+#: ../../docs/classes/class_meshtexture.rst:58
+#: ../../docs/classes/class_meshtexture.rst:72
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_meshtexture.rst:42
+msgid "set_base_texture(value)"
+msgstr ""
+
+#: ../../docs/classes/class_meshtexture.rst:44
+#: ../../docs/classes/class_meshtexture.rst:60
+#: ../../docs/classes/class_meshtexture.rst:74
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_meshtexture.rst:44
+msgid "get_base_texture()"
+msgstr ""
+
+#: ../../docs/classes/class_meshtexture.rst:47
+msgid "Sets the base texture that the Mesh will use to draw."
+msgstr ""
+
+#: ../../docs/classes/class_meshtexture.rst:53
+msgid ":ref:`Vector2<class_Vector2>` **image_size**"
+msgstr ""
+
+#: ../../docs/classes/class_meshtexture.rst:56
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_meshtexture.rst:58
+msgid "set_image_size(value)"
+msgstr ""
+
+#: ../../docs/classes/class_meshtexture.rst:60
+msgid "get_image_size()"
+msgstr ""
+
+#: ../../docs/classes/class_meshtexture.rst:63
+msgid "Sets the size of the image, needed for reference."
+msgstr ""
+
+#: ../../docs/classes/class_meshtexture.rst:69
+msgid ":ref:`Mesh<class_Mesh>` **mesh**"
+msgstr ""
+
+#: ../../docs/classes/class_meshtexture.rst:72
+msgid "set_mesh(value)"
+msgstr ""
+
+#: ../../docs/classes/class_meshtexture.rst:74
+msgid "get_mesh()"
+msgstr ""
+
+#: ../../docs/classes/class_meshtexture.rst:77
+msgid "Sets the mesh used to draw. It must be a mesh using 2D vertices."
+msgstr ""

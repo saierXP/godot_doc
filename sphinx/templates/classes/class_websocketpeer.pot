@@ -1,0 +1,198 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_websocketpeer.rst:10
+msgid "WebSocketPeer"
+msgstr ""
+
+#: ../../docs/classes/class_websocketpeer.rst:12
+msgid "**Inherits:** :ref:`PacketPeer<class_PacketPeer>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_websocketpeer.rst:14
+msgid "A class representing a specific WebSocket connection."
+msgstr ""
+
+#: ../../docs/classes/class_websocketpeer.rst:17
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_websocketpeer.rst:19
+msgid "This class represent a specific WebSocket connection, you can do lower level operations with it."
+msgstr ""
+
+#: ../../docs/classes/class_websocketpeer.rst:21
+msgid "You can choose to write to the socket in binary or text mode, and you can recognize the mode used for writing by the other peer."
+msgstr ""
+
+#: ../../docs/classes/class_websocketpeer.rst:24
+msgid "Methods"
+msgstr ""
+
+#: ../../docs/classes/class_websocketpeer.rst:27
+#: ../../docs/classes/class_websocketpeer.rst:37
+#: ../../docs/classes/class_websocketpeer.rst:39
+msgid "void"
+msgstr ""
+
+#: ../../docs/classes/class_websocketpeer.rst:27
+msgid ":ref:`close<class_WebSocketPeer_method_close>` **(** :ref:`int<class_int>` code=1000, :ref:`String<class_String>` reason=\"\" **)**"
+msgstr ""
+
+#: ../../docs/classes/class_websocketpeer.rst:29
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../../docs/classes/class_websocketpeer.rst:29
+msgid ":ref:`get_connected_host<class_WebSocketPeer_method_get_connected_host>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_websocketpeer.rst:31
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../../docs/classes/class_websocketpeer.rst:31
+msgid ":ref:`get_connected_port<class_WebSocketPeer_method_get_connected_port>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_websocketpeer.rst:33
+msgid ":ref:`WriteMode<enum_WebSocketPeer_WriteMode>`"
+msgstr ""
+
+#: ../../docs/classes/class_websocketpeer.rst:33
+msgid ":ref:`get_write_mode<class_WebSocketPeer_method_get_write_mode>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_websocketpeer.rst:35
+#: ../../docs/classes/class_websocketpeer.rst:41
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_websocketpeer.rst:35
+msgid ":ref:`is_connected_to_host<class_WebSocketPeer_method_is_connected_to_host>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_websocketpeer.rst:37
+msgid ":ref:`set_no_delay<class_WebSocketPeer_method_set_no_delay>` **(** :ref:`bool<class_bool>` enabled **)**"
+msgstr ""
+
+#: ../../docs/classes/class_websocketpeer.rst:39
+msgid ":ref:`set_write_mode<class_WebSocketPeer_method_set_write_mode>` **(** :ref:`WriteMode<enum_WebSocketPeer_WriteMode>` mode **)**"
+msgstr ""
+
+#: ../../docs/classes/class_websocketpeer.rst:41
+msgid ":ref:`was_string_packet<class_WebSocketPeer_method_was_string_packet>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_websocketpeer.rst:45
+msgid "Enumerations"
+msgstr ""
+
+#: ../../docs/classes/class_websocketpeer.rst:53
+msgid "enum **WriteMode**:"
+msgstr ""
+
+#: ../../docs/classes/class_websocketpeer.rst:55
+msgid "**WRITE_MODE_TEXT** = **0** --- Specifies that WebSockets messages should be transferred as text payload (only valid UTF-8 is allowed)."
+msgstr ""
+
+#: ../../docs/classes/class_websocketpeer.rst:57
+msgid "**WRITE_MODE_BINARY** = **1** --- Specifies that WebSockets messages should be transferred as binary payload (any byte combination is allowed)."
+msgstr ""
+
+#: ../../docs/classes/class_websocketpeer.rst:60
+msgid "Method Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_websocketpeer.rst:64
+msgid "void **close** **(** :ref:`int<class_int>` code=1000, :ref:`String<class_String>` reason=\"\" **)**"
+msgstr ""
+
+#: ../../docs/classes/class_websocketpeer.rst:66
+msgid "Closes this WebSocket connection. ``code`` is the status code for the closure (see RFC 6455 section 7.4 for a list of valid status codes). ``reason`` is the human readable reason for closing the connection (can be any UTF-8 string that's smaller than 123 bytes)."
+msgstr ""
+
+#: ../../docs/classes/class_websocketpeer.rst:68
+msgid "**Note:** To achieve a clean close, you will need to keep polling until either :ref:`WebSocketClient.connection_closed<class_WebSocketClient_signal_connection_closed>` or :ref:`WebSocketServer.client_disconnected<class_WebSocketServer_signal_client_disconnected>` is received."
+msgstr ""
+
+#: ../../docs/classes/class_websocketpeer.rst:70
+msgid "**Note:** The HTML5 export might not support all status codes. Please refer to browser-specific documentation for more details."
+msgstr ""
+
+#: ../../docs/classes/class_websocketpeer.rst:76
+msgid ":ref:`String<class_String>` **get_connected_host** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_websocketpeer.rst:78
+msgid "Returns the IP address of the connected peer."
+msgstr ""
+
+#: ../../docs/classes/class_websocketpeer.rst:80
+#: ../../docs/classes/class_websocketpeer.rst:90
+#: ../../docs/classes/class_websocketpeer.rst:116
+msgid "**Note:** Not available in the HTML5 export."
+msgstr ""
+
+#: ../../docs/classes/class_websocketpeer.rst:86
+msgid ":ref:`int<class_int>` **get_connected_port** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_websocketpeer.rst:88
+msgid "Returns the remote port of the connected peer."
+msgstr ""
+
+#: ../../docs/classes/class_websocketpeer.rst:96
+msgid ":ref:`WriteMode<enum_WebSocketPeer_WriteMode>` **get_write_mode** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_websocketpeer.rst:98
+msgid "Gets the current selected write mode. See :ref:`WriteMode<enum_WebSocketPeer_WriteMode>`."
+msgstr ""
+
+#: ../../docs/classes/class_websocketpeer.rst:104
+msgid ":ref:`bool<class_bool>` **is_connected_to_host** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_websocketpeer.rst:106
+msgid "Returns ``true`` if this peer is currently connected."
+msgstr ""
+
+#: ../../docs/classes/class_websocketpeer.rst:112
+msgid "void **set_no_delay** **(** :ref:`bool<class_bool>` enabled **)**"
+msgstr ""
+
+#: ../../docs/classes/class_websocketpeer.rst:114
+msgid "Disable Nagle's algorithm on the underling TCP socket (default). See :ref:`StreamPeerTCP.set_no_delay<class_StreamPeerTCP_method_set_no_delay>` for more information."
+msgstr ""
+
+#: ../../docs/classes/class_websocketpeer.rst:122
+msgid "void **set_write_mode** **(** :ref:`WriteMode<enum_WebSocketPeer_WriteMode>` mode **)**"
+msgstr ""
+
+#: ../../docs/classes/class_websocketpeer.rst:124
+msgid "Sets the socket to use the given :ref:`WriteMode<enum_WebSocketPeer_WriteMode>`."
+msgstr ""
+
+#: ../../docs/classes/class_websocketpeer.rst:130
+msgid ":ref:`bool<class_bool>` **was_string_packet** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_websocketpeer.rst:132
+msgid "Returns ``true`` if the last received packet was sent as a text payload. See :ref:`WriteMode<enum_WebSocketPeer_WriteMode>`."
+msgstr ""

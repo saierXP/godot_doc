@@ -1,0 +1,438 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_giprobe.rst:10
+msgid "GIProbe"
+msgstr ""
+
+#: ../../docs/classes/class_giprobe.rst:12
+msgid "**Inherits:** :ref:`VisualInstance<class_VisualInstance>` **<** :ref:`Spatial<class_Spatial>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_giprobe.rst:14
+msgid "Real-time global illumination (GI) probe."
+msgstr ""
+
+#: ../../docs/classes/class_giprobe.rst:17
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_giprobe.rst:19
+msgid "``GIProbe``\\ s are used to provide high-quality real-time indirect light to scenes. They precompute the effect of objects that emit light and the effect of static geometry to simulate the behavior of complex light in real-time. ``GIProbe``\\ s need to be baked before using, however, once baked, dynamic objects will receive light from them. Further, lights can be fully dynamic or baked."
+msgstr ""
+
+#: ../../docs/classes/class_giprobe.rst:21
+msgid "Having ``GIProbe``\\ s in a scene can be expensive, the quality of the probe can be turned down in exchange for better performance in the :ref:`ProjectSettings<class_ProjectSettings>` using :ref:`ProjectSettings.rendering/quality/voxel_cone_tracing/high_quality<class_ProjectSettings_property_rendering/quality/voxel_cone_tracing/high_quality>`."
+msgstr ""
+
+#: ../../docs/classes/class_giprobe.rst:24
+msgid "Tutorials"
+msgstr ""
+
+#: ../../docs/classes/class_giprobe.rst:26
+msgid ":doc:`../tutorials/3d/gi_probes`"
+msgstr ""
+
+#: ../../docs/classes/class_giprobe.rst:28
+msgid "`https://godotengine.org/asset-library/asset/678 <https://godotengine.org/asset-library/asset/678>`_"
+msgstr ""
+
+#: ../../docs/classes/class_giprobe.rst:31
+msgid "Properties"
+msgstr ""
+
+#: ../../docs/classes/class_giprobe.rst:34
+#: ../../docs/classes/class_giprobe.rst:42
+#: ../../docs/classes/class_giprobe.rst:48
+#: ../../docs/classes/class_giprobe.rst:50
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../../docs/classes/class_giprobe.rst:34
+msgid ":ref:`bias<class_GIProbe_property_bias>`"
+msgstr ""
+
+#: ../../docs/classes/class_giprobe.rst:34
+#: ../../docs/classes/class_giprobe.rst:99
+msgid "``1.5``"
+msgstr ""
+
+#: ../../docs/classes/class_giprobe.rst:36
+#: ../../docs/classes/class_giprobe.rst:46
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_giprobe.rst:36
+msgid ":ref:`compress<class_GIProbe_property_compress>`"
+msgstr ""
+
+#: ../../docs/classes/class_giprobe.rst:36
+#: ../../docs/classes/class_giprobe.rst:46
+#: ../../docs/classes/class_giprobe.rst:117
+#: ../../docs/classes/class_giprobe.rst:195
+msgid "``false``"
+msgstr ""
+
+#: ../../docs/classes/class_giprobe.rst:38
+msgid ":ref:`GIProbeData<class_GIProbeData>`"
+msgstr ""
+
+#: ../../docs/classes/class_giprobe.rst:38
+msgid ":ref:`data<class_GIProbe_property_data>`"
+msgstr ""
+
+#: ../../docs/classes/class_giprobe.rst:40
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../../docs/classes/class_giprobe.rst:40
+msgid ":ref:`dynamic_range<class_GIProbe_property_dynamic_range>`"
+msgstr ""
+
+#: ../../docs/classes/class_giprobe.rst:40
+#: ../../docs/classes/class_giprobe.rst:147
+msgid "``4``"
+msgstr ""
+
+#: ../../docs/classes/class_giprobe.rst:42
+msgid ":ref:`energy<class_GIProbe_property_energy>`"
+msgstr ""
+
+#: ../../docs/classes/class_giprobe.rst:42
+#: ../../docs/classes/class_giprobe.rst:163
+msgid "``1.0``"
+msgstr ""
+
+#: ../../docs/classes/class_giprobe.rst:44
+msgid ":ref:`Vector3<class_Vector3>`"
+msgstr ""
+
+#: ../../docs/classes/class_giprobe.rst:44
+msgid ":ref:`extents<class_GIProbe_property_extents>`"
+msgstr ""
+
+#: ../../docs/classes/class_giprobe.rst:44
+#: ../../docs/classes/class_giprobe.rst:179
+msgid "``Vector3( 10, 10, 10 )``"
+msgstr ""
+
+#: ../../docs/classes/class_giprobe.rst:46
+msgid ":ref:`interior<class_GIProbe_property_interior>`"
+msgstr ""
+
+#: ../../docs/classes/class_giprobe.rst:48
+msgid ":ref:`normal_bias<class_GIProbe_property_normal_bias>`"
+msgstr ""
+
+#: ../../docs/classes/class_giprobe.rst:48
+#: ../../docs/classes/class_giprobe.rst:211
+msgid "``0.0``"
+msgstr ""
+
+#: ../../docs/classes/class_giprobe.rst:50
+msgid ":ref:`propagation<class_GIProbe_property_propagation>`"
+msgstr ""
+
+#: ../../docs/classes/class_giprobe.rst:50
+#: ../../docs/classes/class_giprobe.rst:227
+msgid "``0.7``"
+msgstr ""
+
+#: ../../docs/classes/class_giprobe.rst:52
+msgid ":ref:`Subdiv<enum_GIProbe_Subdiv>`"
+msgstr ""
+
+#: ../../docs/classes/class_giprobe.rst:52
+msgid ":ref:`subdiv<class_GIProbe_property_subdiv>`"
+msgstr ""
+
+#: ../../docs/classes/class_giprobe.rst:52
+#: ../../docs/classes/class_giprobe.rst:243
+msgid "``1``"
+msgstr ""
+
+#: ../../docs/classes/class_giprobe.rst:56
+msgid "Methods"
+msgstr ""
+
+#: ../../docs/classes/class_giprobe.rst:59
+#: ../../docs/classes/class_giprobe.rst:61
+msgid "void"
+msgstr ""
+
+#: ../../docs/classes/class_giprobe.rst:59
+msgid ":ref:`bake<class_GIProbe_method_bake>` **(** :ref:`Node<class_Node>` from_node=null, :ref:`bool<class_bool>` create_visual_debug=false **)**"
+msgstr ""
+
+#: ../../docs/classes/class_giprobe.rst:61
+msgid ":ref:`debug_bake<class_GIProbe_method_debug_bake>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_giprobe.rst:65
+msgid "Enumerations"
+msgstr ""
+
+#: ../../docs/classes/class_giprobe.rst:79
+msgid "enum **Subdiv**:"
+msgstr ""
+
+#: ../../docs/classes/class_giprobe.rst:81
+msgid "**SUBDIV_64** = **0** --- Use 64 subdivisions. This is the lowest quality setting, but the fastest. Use it if you can, but especially use it on lower-end hardware."
+msgstr ""
+
+#: ../../docs/classes/class_giprobe.rst:83
+msgid "**SUBDIV_128** = **1** --- Use 128 subdivisions. This is the default quality setting."
+msgstr ""
+
+#: ../../docs/classes/class_giprobe.rst:85
+msgid "**SUBDIV_256** = **2** --- Use 256 subdivisions."
+msgstr ""
+
+#: ../../docs/classes/class_giprobe.rst:87
+msgid "**SUBDIV_512** = **3** --- Use 512 subdivisions. This is the highest quality setting, but the slowest. On lower-end hardware this could cause the GPU to stall."
+msgstr ""
+
+#: ../../docs/classes/class_giprobe.rst:89
+msgid "**SUBDIV_MAX** = **4** --- Represents the size of the :ref:`Subdiv<enum_GIProbe_Subdiv>` enum."
+msgstr ""
+
+#: ../../docs/classes/class_giprobe.rst:92
+msgid "Property Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_giprobe.rst:96
+msgid ":ref:`float<class_float>` **bias**"
+msgstr ""
+
+#: ../../docs/classes/class_giprobe.rst:99
+#: ../../docs/classes/class_giprobe.rst:117
+#: ../../docs/classes/class_giprobe.rst:147
+#: ../../docs/classes/class_giprobe.rst:163
+#: ../../docs/classes/class_giprobe.rst:179
+#: ../../docs/classes/class_giprobe.rst:195
+#: ../../docs/classes/class_giprobe.rst:211
+#: ../../docs/classes/class_giprobe.rst:227
+#: ../../docs/classes/class_giprobe.rst:243
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_giprobe.rst:101
+#: ../../docs/classes/class_giprobe.rst:119
+#: ../../docs/classes/class_giprobe.rst:133
+#: ../../docs/classes/class_giprobe.rst:149
+#: ../../docs/classes/class_giprobe.rst:165
+#: ../../docs/classes/class_giprobe.rst:181
+#: ../../docs/classes/class_giprobe.rst:197
+#: ../../docs/classes/class_giprobe.rst:213
+#: ../../docs/classes/class_giprobe.rst:229
+#: ../../docs/classes/class_giprobe.rst:245
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_giprobe.rst:101
+msgid "set_bias(value)"
+msgstr ""
+
+#: ../../docs/classes/class_giprobe.rst:103
+#: ../../docs/classes/class_giprobe.rst:121
+#: ../../docs/classes/class_giprobe.rst:135
+#: ../../docs/classes/class_giprobe.rst:151
+#: ../../docs/classes/class_giprobe.rst:167
+#: ../../docs/classes/class_giprobe.rst:183
+#: ../../docs/classes/class_giprobe.rst:199
+#: ../../docs/classes/class_giprobe.rst:215
+#: ../../docs/classes/class_giprobe.rst:231
+#: ../../docs/classes/class_giprobe.rst:247
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_giprobe.rst:103
+msgid "get_bias()"
+msgstr ""
+
+#: ../../docs/classes/class_giprobe.rst:106
+msgid "Offsets the lookup of the light contribution from the ``GIProbe``. This can be used to avoid self-shadowing, but may introduce light leaking at higher values. This and :ref:`normal_bias<class_GIProbe_property_normal_bias>` should be played around with to minimize self-shadowing and light leaking."
+msgstr ""
+
+#: ../../docs/classes/class_giprobe.rst:108
+msgid "**Note:** ``bias`` should usually be above 1.0 as that is the size of the voxels."
+msgstr ""
+
+#: ../../docs/classes/class_giprobe.rst:114
+msgid ":ref:`bool<class_bool>` **compress**"
+msgstr ""
+
+#: ../../docs/classes/class_giprobe.rst:119
+msgid "set_compress(value)"
+msgstr ""
+
+#: ../../docs/classes/class_giprobe.rst:121
+msgid "is_compressed()"
+msgstr ""
+
+#: ../../docs/classes/class_giprobe.rst:124
+msgid "If ``true``, the data for this ``GIProbe`` will be compressed. Compression saves space, but results in far worse visual quality."
+msgstr ""
+
+#: ../../docs/classes/class_giprobe.rst:130
+msgid ":ref:`GIProbeData<class_GIProbeData>` **data**"
+msgstr ""
+
+#: ../../docs/classes/class_giprobe.rst:133
+msgid "set_probe_data(value)"
+msgstr ""
+
+#: ../../docs/classes/class_giprobe.rst:135
+msgid "get_probe_data()"
+msgstr ""
+
+#: ../../docs/classes/class_giprobe.rst:138
+msgid "The :ref:`GIProbeData<class_GIProbeData>` resource that holds the data for this ``GIProbe``."
+msgstr ""
+
+#: ../../docs/classes/class_giprobe.rst:144
+msgid ":ref:`int<class_int>` **dynamic_range**"
+msgstr ""
+
+#: ../../docs/classes/class_giprobe.rst:149
+msgid "set_dynamic_range(value)"
+msgstr ""
+
+#: ../../docs/classes/class_giprobe.rst:151
+msgid "get_dynamic_range()"
+msgstr ""
+
+#: ../../docs/classes/class_giprobe.rst:154
+msgid "The maximum brightness that the ``GIProbe`` will recognize. Brightness will be scaled within this range."
+msgstr ""
+
+#: ../../docs/classes/class_giprobe.rst:160
+msgid ":ref:`float<class_float>` **energy**"
+msgstr ""
+
+#: ../../docs/classes/class_giprobe.rst:165
+msgid "set_energy(value)"
+msgstr ""
+
+#: ../../docs/classes/class_giprobe.rst:167
+msgid "get_energy()"
+msgstr ""
+
+#: ../../docs/classes/class_giprobe.rst:170
+msgid "Energy multiplier. Makes the lighting contribution from the ``GIProbe`` brighter."
+msgstr ""
+
+#: ../../docs/classes/class_giprobe.rst:176
+msgid ":ref:`Vector3<class_Vector3>` **extents**"
+msgstr ""
+
+#: ../../docs/classes/class_giprobe.rst:181
+msgid "set_extents(value)"
+msgstr ""
+
+#: ../../docs/classes/class_giprobe.rst:183
+msgid "get_extents()"
+msgstr ""
+
+#: ../../docs/classes/class_giprobe.rst:186
+msgid "The size of the area covered by the ``GIProbe``. If you make the extents larger without increasing the subdivisions with :ref:`subdiv<class_GIProbe_property_subdiv>`, the size of each cell will increase and result in lower detailed lighting."
+msgstr ""
+
+#: ../../docs/classes/class_giprobe.rst:192
+msgid ":ref:`bool<class_bool>` **interior**"
+msgstr ""
+
+#: ../../docs/classes/class_giprobe.rst:197
+msgid "set_interior(value)"
+msgstr ""
+
+#: ../../docs/classes/class_giprobe.rst:199
+msgid "is_interior()"
+msgstr ""
+
+#: ../../docs/classes/class_giprobe.rst:202
+msgid "If ``true``, ignores the sky contribution when calculating lighting."
+msgstr ""
+
+#: ../../docs/classes/class_giprobe.rst:208
+msgid ":ref:`float<class_float>` **normal_bias**"
+msgstr ""
+
+#: ../../docs/classes/class_giprobe.rst:213
+msgid "set_normal_bias(value)"
+msgstr ""
+
+#: ../../docs/classes/class_giprobe.rst:215
+msgid "get_normal_bias()"
+msgstr ""
+
+#: ../../docs/classes/class_giprobe.rst:218
+msgid "Offsets the lookup into the ``GIProbe`` based on the object's normal direction. Can be used to reduce some self-shadowing artifacts."
+msgstr ""
+
+#: ../../docs/classes/class_giprobe.rst:224
+msgid ":ref:`float<class_float>` **propagation**"
+msgstr ""
+
+#: ../../docs/classes/class_giprobe.rst:229
+msgid "set_propagation(value)"
+msgstr ""
+
+#: ../../docs/classes/class_giprobe.rst:231
+msgid "get_propagation()"
+msgstr ""
+
+#: ../../docs/classes/class_giprobe.rst:234
+msgid "How much light propagates through the probe internally. A higher value allows light to spread further."
+msgstr ""
+
+#: ../../docs/classes/class_giprobe.rst:240
+msgid ":ref:`Subdiv<enum_GIProbe_Subdiv>` **subdiv**"
+msgstr ""
+
+#: ../../docs/classes/class_giprobe.rst:245
+msgid "set_subdiv(value)"
+msgstr ""
+
+#: ../../docs/classes/class_giprobe.rst:247
+msgid "get_subdiv()"
+msgstr ""
+
+#: ../../docs/classes/class_giprobe.rst:250
+msgid "Number of times to subdivide the grid that the ``GIProbe`` operates on. A higher number results in finer detail and thus higher visual quality, while lower numbers result in better performance."
+msgstr ""
+
+#: ../../docs/classes/class_giprobe.rst:253
+msgid "Method Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_giprobe.rst:257
+msgid "void **bake** **(** :ref:`Node<class_Node>` from_node=null, :ref:`bool<class_bool>` create_visual_debug=false **)**"
+msgstr ""
+
+#: ../../docs/classes/class_giprobe.rst:259
+msgid "Bakes the effect from all :ref:`GeometryInstance<class_GeometryInstance>`\\ s marked with :ref:`GeometryInstance.use_in_baked_light<class_GeometryInstance_property_use_in_baked_light>` and :ref:`Light<class_Light>`\\ s marked with either :ref:`Light.BAKE_INDIRECT<class_Light_constant_BAKE_INDIRECT>` or :ref:`Light.BAKE_ALL<class_Light_constant_BAKE_ALL>`. If ``create_visual_debug`` is ``true``, after baking the light, this will generate a :ref:`MultiMesh<class_MultiMesh>` that has a cube representing each solid cell with each cube colored to the cell's albedo color. This can be used to visualize the ``GIProbe``'s data and debug any issues that may be occurring."
+msgstr ""
+
+#: ../../docs/classes/class_giprobe.rst:265
+msgid "void **debug_bake** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_giprobe.rst:267
+msgid "Calls :ref:`bake<class_GIProbe_method_bake>` with ``create_visual_debug`` enabled."
+msgstr ""

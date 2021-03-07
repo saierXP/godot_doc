@@ -1,0 +1,94 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_sphereshape.rst:10
+msgid "SphereShape"
+msgstr ""
+
+#: ../../docs/classes/class_sphereshape.rst:12
+msgid "**Inherits:** :ref:`Shape<class_Shape>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_sphereshape.rst:14
+msgid "Sphere shape for 3D collisions."
+msgstr ""
+
+#: ../../docs/classes/class_sphereshape.rst:17
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_sphereshape.rst:19
+msgid "Sphere shape for 3D collisions, which can be set into a :ref:`PhysicsBody<class_PhysicsBody>` or :ref:`Area<class_Area>`. This shape is useful for modeling sphere-like 3D objects."
+msgstr ""
+
+#: ../../docs/classes/class_sphereshape.rst:22
+msgid "Tutorials"
+msgstr ""
+
+#: ../../docs/classes/class_sphereshape.rst:24
+msgid "`https://godotengine.org/asset-library/asset/675 <https://godotengine.org/asset-library/asset/675>`_"
+msgstr ""
+
+#: ../../docs/classes/class_sphereshape.rst:27
+msgid "Properties"
+msgstr ""
+
+#: ../../docs/classes/class_sphereshape.rst:30
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../../docs/classes/class_sphereshape.rst:30
+msgid ":ref:`radius<class_SphereShape_property_radius>`"
+msgstr ""
+
+#: ../../docs/classes/class_sphereshape.rst:30
+#: ../../docs/classes/class_sphereshape.rst:41
+msgid "``1.0``"
+msgstr ""
+
+#: ../../docs/classes/class_sphereshape.rst:34
+msgid "Property Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_sphereshape.rst:38
+msgid ":ref:`float<class_float>` **radius**"
+msgstr ""
+
+#: ../../docs/classes/class_sphereshape.rst:41
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_sphereshape.rst:43
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_sphereshape.rst:43
+msgid "set_radius(value)"
+msgstr ""
+
+#: ../../docs/classes/class_sphereshape.rst:45
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_sphereshape.rst:45
+msgid "get_radius()"
+msgstr ""
+
+#: ../../docs/classes/class_sphereshape.rst:48
+msgid "The sphere's radius. The shape's diameter is double the radius."
+msgstr ""

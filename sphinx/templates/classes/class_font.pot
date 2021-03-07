@@ -1,0 +1,212 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_font.rst:10
+msgid "Font"
+msgstr ""
+
+#: ../../docs/classes/class_font.rst:12
+msgid "**Inherits:** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_font.rst:14
+msgid "**Inherited By:** :ref:`BitmapFont<class_BitmapFont>`, :ref:`DynamicFont<class_DynamicFont>`"
+msgstr ""
+
+#: ../../docs/classes/class_font.rst:16
+msgid "Internationalized font and text drawing support."
+msgstr ""
+
+#: ../../docs/classes/class_font.rst:19
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_font.rst:21
+msgid "Font contains a Unicode-compatible character set, as well as the ability to draw it with variable width, ascent, descent and kerning. For creating fonts from TTF files (or other font formats), see the editor support for fonts."
+msgstr ""
+
+#: ../../docs/classes/class_font.rst:23
+msgid "**Note:** If a DynamicFont doesn't contain a character used in a string, the character in question will be replaced with codepoint ``0xfffd`` if it's available in the DynamicFont. If this replacement character isn't available in the DynamicFont, the character will be hidden without displaying any replacement character in the string."
+msgstr ""
+
+#: ../../docs/classes/class_font.rst:25
+msgid "**Note:** If a BitmapFont doesn't contain a character used in a string, the character in question will be hidden without displaying any replacement character in the string."
+msgstr ""
+
+#: ../../docs/classes/class_font.rst:28
+msgid "Methods"
+msgstr ""
+
+#: ../../docs/classes/class_font.rst:31
+#: ../../docs/classes/class_font.rst:51
+msgid "void"
+msgstr ""
+
+#: ../../docs/classes/class_font.rst:31
+msgid ":ref:`draw<class_Font_method_draw>` **(** :ref:`RID<class_RID>` canvas_item, :ref:`Vector2<class_Vector2>` position, :ref:`String<class_String>` string, :ref:`Color<class_Color>` modulate=Color( 1, 1, 1, 1 ), :ref:`int<class_int>` clip_w=-1, :ref:`Color<class_Color>` outline_modulate=Color( 1, 1, 1, 1 ) **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_font.rst:33
+#: ../../docs/classes/class_font.rst:35
+#: ../../docs/classes/class_font.rst:39
+#: ../../docs/classes/class_font.rst:41
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../../docs/classes/class_font.rst:33
+msgid ":ref:`draw_char<class_Font_method_draw_char>` **(** :ref:`RID<class_RID>` canvas_item, :ref:`Vector2<class_Vector2>` position, :ref:`int<class_int>` char, :ref:`int<class_int>` next=-1, :ref:`Color<class_Color>` modulate=Color( 1, 1, 1, 1 ), :ref:`bool<class_bool>` outline=false **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_font.rst:35
+msgid ":ref:`get_ascent<class_Font_method_get_ascent>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_font.rst:37
+#: ../../docs/classes/class_font.rst:43
+#: ../../docs/classes/class_font.rst:45
+msgid ":ref:`Vector2<class_Vector2>`"
+msgstr ""
+
+#: ../../docs/classes/class_font.rst:37
+msgid ":ref:`get_char_size<class_Font_method_get_char_size>` **(** :ref:`int<class_int>` char, :ref:`int<class_int>` next=0 **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_font.rst:39
+msgid ":ref:`get_descent<class_Font_method_get_descent>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_font.rst:41
+msgid ":ref:`get_height<class_Font_method_get_height>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_font.rst:43
+msgid ":ref:`get_string_size<class_Font_method_get_string_size>` **(** :ref:`String<class_String>` string **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_font.rst:45
+msgid ":ref:`get_wordwrap_string_size<class_Font_method_get_wordwrap_string_size>` **(** :ref:`String<class_String>` string, :ref:`float<class_float>` width **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_font.rst:47
+#: ../../docs/classes/class_font.rst:49
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_font.rst:47
+msgid ":ref:`has_outline<class_Font_method_has_outline>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_font.rst:49
+msgid ":ref:`is_distance_field_hint<class_Font_method_is_distance_field_hint>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_font.rst:51
+msgid ":ref:`update_changes<class_Font_method_update_changes>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_font.rst:55
+msgid "Method Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_font.rst:59
+msgid "void **draw** **(** :ref:`RID<class_RID>` canvas_item, :ref:`Vector2<class_Vector2>` position, :ref:`String<class_String>` string, :ref:`Color<class_Color>` modulate=Color( 1, 1, 1, 1 ), :ref:`int<class_int>` clip_w=-1, :ref:`Color<class_Color>` outline_modulate=Color( 1, 1, 1, 1 ) **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_font.rst:61
+msgid "Draw ``string`` into a canvas item using the font at a given position, with ``modulate`` color, and optionally clipping the width. ``position`` specifies the baseline, not the top. To draw from the top, *ascent* must be added to the Y axis."
+msgstr ""
+
+#: ../../docs/classes/class_font.rst:63
+msgid "See also :ref:`CanvasItem.draw_string<class_CanvasItem_method_draw_string>`."
+msgstr ""
+
+#: ../../docs/classes/class_font.rst:69
+msgid ":ref:`float<class_float>` **draw_char** **(** :ref:`RID<class_RID>` canvas_item, :ref:`Vector2<class_Vector2>` position, :ref:`int<class_int>` char, :ref:`int<class_int>` next=-1, :ref:`Color<class_Color>` modulate=Color( 1, 1, 1, 1 ), :ref:`bool<class_bool>` outline=false **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_font.rst:71
+msgid "Draw character ``char`` into a canvas item using the font at a given position, with ``modulate`` color, and optionally kerning if ``next`` is passed. clipping the width. ``position`` specifies the baseline, not the top. To draw from the top, *ascent* must be added to the Y axis. The width used by the character is returned, making this function useful for drawing strings character by character."
+msgstr ""
+
+#: ../../docs/classes/class_font.rst:77
+msgid ":ref:`float<class_float>` **get_ascent** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_font.rst:79
+msgid "Returns the font ascent (number of pixels above the baseline)."
+msgstr ""
+
+#: ../../docs/classes/class_font.rst:85
+msgid ":ref:`Vector2<class_Vector2>` **get_char_size** **(** :ref:`int<class_int>` char, :ref:`int<class_int>` next=0 **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_font.rst:87
+msgid "Returns the size of a character, optionally taking kerning into account if the next character is provided."
+msgstr ""
+
+#: ../../docs/classes/class_font.rst:93
+msgid ":ref:`float<class_float>` **get_descent** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_font.rst:95
+msgid "Returns the font descent (number of pixels below the baseline)."
+msgstr ""
+
+#: ../../docs/classes/class_font.rst:101
+msgid ":ref:`float<class_float>` **get_height** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_font.rst:103
+msgid "Returns the total font height (ascent plus descent) in pixels."
+msgstr ""
+
+#: ../../docs/classes/class_font.rst:109
+msgid ":ref:`Vector2<class_Vector2>` **get_string_size** **(** :ref:`String<class_String>` string **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_font.rst:111
+msgid "Returns the size of a string, taking kerning and advance into account."
+msgstr ""
+
+#: ../../docs/classes/class_font.rst:117
+msgid ":ref:`Vector2<class_Vector2>` **get_wordwrap_string_size** **(** :ref:`String<class_String>` string, :ref:`float<class_float>` width **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_font.rst:119
+msgid "Returns the size that the string would have with word wrapping enabled with a fixed ``width``."
+msgstr ""
+
+#: ../../docs/classes/class_font.rst:125
+msgid ":ref:`bool<class_bool>` **has_outline** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_font.rst:127
+msgid "Returns ``true`` if the font has an outline."
+msgstr ""
+
+#: ../../docs/classes/class_font.rst:133
+msgid ":ref:`bool<class_bool>` **is_distance_field_hint** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_font.rst:139
+msgid "void **update_changes** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_font.rst:141
+msgid "After editing a font (changing size, ascent, char rects, etc.). Call this function to propagate changes to controls that might use it."
+msgstr ""

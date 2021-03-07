@@ -1,0 +1,90 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_csgprimitive.rst:10
+msgid "CSGPrimitive"
+msgstr ""
+
+#: ../../docs/classes/class_csgprimitive.rst:12
+msgid "**Inherits:** :ref:`CSGShape<class_CSGShape>` **<** :ref:`GeometryInstance<class_GeometryInstance>` **<** :ref:`VisualInstance<class_VisualInstance>` **<** :ref:`Spatial<class_Spatial>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_csgprimitive.rst:14
+msgid "**Inherited By:** :ref:`CSGBox<class_CSGBox>`, :ref:`CSGCylinder<class_CSGCylinder>`, :ref:`CSGMesh<class_CSGMesh>`, :ref:`CSGPolygon<class_CSGPolygon>`, :ref:`CSGSphere<class_CSGSphere>`, :ref:`CSGTorus<class_CSGTorus>`"
+msgstr ""
+
+#: ../../docs/classes/class_csgprimitive.rst:16
+msgid "Base class for CSG primitives."
+msgstr ""
+
+#: ../../docs/classes/class_csgprimitive.rst:19
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_csgprimitive.rst:21
+msgid "Parent class for various CSG primitives. It contains code and functionality that is common between them. It cannot be used directly. Instead use one of the various classes that inherit from it."
+msgstr ""
+
+#: ../../docs/classes/class_csgprimitive.rst:24
+msgid "Properties"
+msgstr ""
+
+#: ../../docs/classes/class_csgprimitive.rst:27
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_csgprimitive.rst:27
+msgid ":ref:`invert_faces<class_CSGPrimitive_property_invert_faces>`"
+msgstr ""
+
+#: ../../docs/classes/class_csgprimitive.rst:27
+#: ../../docs/classes/class_csgprimitive.rst:38
+msgid "``false``"
+msgstr ""
+
+#: ../../docs/classes/class_csgprimitive.rst:31
+msgid "Property Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_csgprimitive.rst:35
+msgid ":ref:`bool<class_bool>` **invert_faces**"
+msgstr ""
+
+#: ../../docs/classes/class_csgprimitive.rst:38
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_csgprimitive.rst:40
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_csgprimitive.rst:40
+msgid "set_invert_faces(value)"
+msgstr ""
+
+#: ../../docs/classes/class_csgprimitive.rst:42
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_csgprimitive.rst:42
+msgid "is_inverting_faces()"
+msgstr ""
+
+#: ../../docs/classes/class_csgprimitive.rst:45
+msgid "Invert the faces of the mesh."
+msgstr ""

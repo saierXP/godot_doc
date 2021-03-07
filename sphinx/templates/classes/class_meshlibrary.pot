@@ -1,0 +1,334 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_meshlibrary.rst:10
+msgid "MeshLibrary"
+msgstr ""
+
+#: ../../docs/classes/class_meshlibrary.rst:12
+msgid "**Inherits:** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_meshlibrary.rst:14
+msgid "Library of meshes."
+msgstr ""
+
+#: ../../docs/classes/class_meshlibrary.rst:17
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_meshlibrary.rst:19
+msgid "A library of meshes. Contains a list of :ref:`Mesh<class_Mesh>` resources, each with a name and ID. Each item can also include collision and navigation shapes. This resource is used in :ref:`GridMap<class_GridMap>`."
+msgstr ""
+
+#: ../../docs/classes/class_meshlibrary.rst:22
+msgid "Tutorials"
+msgstr ""
+
+#: ../../docs/classes/class_meshlibrary.rst:24
+msgid "`https://godotengine.org/asset-library/asset/126 <https://godotengine.org/asset-library/asset/126>`_"
+msgstr ""
+
+#: ../../docs/classes/class_meshlibrary.rst:26
+msgid "`https://godotengine.org/asset-library/asset/125 <https://godotengine.org/asset-library/asset/125>`_"
+msgstr ""
+
+#: ../../docs/classes/class_meshlibrary.rst:29
+msgid "Methods"
+msgstr ""
+
+#: ../../docs/classes/class_meshlibrary.rst:32
+#: ../../docs/classes/class_meshlibrary.rst:34
+#: ../../docs/classes/class_meshlibrary.rst:54
+#: ../../docs/classes/class_meshlibrary.rst:56
+#: ../../docs/classes/class_meshlibrary.rst:58
+#: ../../docs/classes/class_meshlibrary.rst:60
+#: ../../docs/classes/class_meshlibrary.rst:62
+#: ../../docs/classes/class_meshlibrary.rst:64
+#: ../../docs/classes/class_meshlibrary.rst:66
+msgid "void"
+msgstr ""
+
+#: ../../docs/classes/class_meshlibrary.rst:32
+msgid ":ref:`clear<class_MeshLibrary_method_clear>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_meshlibrary.rst:34
+msgid ":ref:`create_item<class_MeshLibrary_method_create_item>` **(** :ref:`int<class_int>` id **)**"
+msgstr ""
+
+#: ../../docs/classes/class_meshlibrary.rst:36
+#: ../../docs/classes/class_meshlibrary.rst:52
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../../docs/classes/class_meshlibrary.rst:36
+msgid ":ref:`find_item_by_name<class_MeshLibrary_method_find_item_by_name>` **(** :ref:`String<class_String>` name **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_meshlibrary.rst:38
+msgid ":ref:`PoolIntArray<class_PoolIntArray>`"
+msgstr ""
+
+#: ../../docs/classes/class_meshlibrary.rst:38
+msgid ":ref:`get_item_list<class_MeshLibrary_method_get_item_list>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_meshlibrary.rst:40
+msgid ":ref:`Mesh<class_Mesh>`"
+msgstr ""
+
+#: ../../docs/classes/class_meshlibrary.rst:40
+msgid ":ref:`get_item_mesh<class_MeshLibrary_method_get_item_mesh>` **(** :ref:`int<class_int>` id **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_meshlibrary.rst:42
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../../docs/classes/class_meshlibrary.rst:42
+msgid ":ref:`get_item_name<class_MeshLibrary_method_get_item_name>` **(** :ref:`int<class_int>` id **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_meshlibrary.rst:44
+msgid ":ref:`NavigationMesh<class_NavigationMesh>`"
+msgstr ""
+
+#: ../../docs/classes/class_meshlibrary.rst:44
+msgid ":ref:`get_item_navmesh<class_MeshLibrary_method_get_item_navmesh>` **(** :ref:`int<class_int>` id **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_meshlibrary.rst:46
+msgid ":ref:`Transform<class_Transform>`"
+msgstr ""
+
+#: ../../docs/classes/class_meshlibrary.rst:46
+msgid ":ref:`get_item_navmesh_transform<class_MeshLibrary_method_get_item_navmesh_transform>` **(** :ref:`int<class_int>` id **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_meshlibrary.rst:48
+msgid ":ref:`Texture<class_Texture>`"
+msgstr ""
+
+#: ../../docs/classes/class_meshlibrary.rst:48
+msgid ":ref:`get_item_preview<class_MeshLibrary_method_get_item_preview>` **(** :ref:`int<class_int>` id **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_meshlibrary.rst:50
+msgid ":ref:`Array<class_Array>`"
+msgstr ""
+
+#: ../../docs/classes/class_meshlibrary.rst:50
+msgid ":ref:`get_item_shapes<class_MeshLibrary_method_get_item_shapes>` **(** :ref:`int<class_int>` id **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_meshlibrary.rst:52
+msgid ":ref:`get_last_unused_item_id<class_MeshLibrary_method_get_last_unused_item_id>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_meshlibrary.rst:54
+msgid ":ref:`remove_item<class_MeshLibrary_method_remove_item>` **(** :ref:`int<class_int>` id **)**"
+msgstr ""
+
+#: ../../docs/classes/class_meshlibrary.rst:56
+msgid ":ref:`set_item_mesh<class_MeshLibrary_method_set_item_mesh>` **(** :ref:`int<class_int>` id, :ref:`Mesh<class_Mesh>` mesh **)**"
+msgstr ""
+
+#: ../../docs/classes/class_meshlibrary.rst:58
+msgid ":ref:`set_item_name<class_MeshLibrary_method_set_item_name>` **(** :ref:`int<class_int>` id, :ref:`String<class_String>` name **)**"
+msgstr ""
+
+#: ../../docs/classes/class_meshlibrary.rst:60
+msgid ":ref:`set_item_navmesh<class_MeshLibrary_method_set_item_navmesh>` **(** :ref:`int<class_int>` id, :ref:`NavigationMesh<class_NavigationMesh>` navmesh **)**"
+msgstr ""
+
+#: ../../docs/classes/class_meshlibrary.rst:62
+msgid ":ref:`set_item_navmesh_transform<class_MeshLibrary_method_set_item_navmesh_transform>` **(** :ref:`int<class_int>` id, :ref:`Transform<class_Transform>` navmesh **)**"
+msgstr ""
+
+#: ../../docs/classes/class_meshlibrary.rst:64
+msgid ":ref:`set_item_preview<class_MeshLibrary_method_set_item_preview>` **(** :ref:`int<class_int>` id, :ref:`Texture<class_Texture>` texture **)**"
+msgstr ""
+
+#: ../../docs/classes/class_meshlibrary.rst:66
+msgid ":ref:`set_item_shapes<class_MeshLibrary_method_set_item_shapes>` **(** :ref:`int<class_int>` id, :ref:`Array<class_Array>` shapes **)**"
+msgstr ""
+
+#: ../../docs/classes/class_meshlibrary.rst:70
+msgid "Method Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_meshlibrary.rst:74
+msgid "void **clear** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_meshlibrary.rst:76
+msgid "Clears the library."
+msgstr ""
+
+#: ../../docs/classes/class_meshlibrary.rst:82
+msgid "void **create_item** **(** :ref:`int<class_int>` id **)**"
+msgstr ""
+
+#: ../../docs/classes/class_meshlibrary.rst:84
+msgid "Creates a new item in the library with the given ID."
+msgstr ""
+
+#: ../../docs/classes/class_meshlibrary.rst:86
+msgid "You can get an unused ID from :ref:`get_last_unused_item_id<class_MeshLibrary_method_get_last_unused_item_id>`."
+msgstr ""
+
+#: ../../docs/classes/class_meshlibrary.rst:92
+msgid ":ref:`int<class_int>` **find_item_by_name** **(** :ref:`String<class_String>` name **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_meshlibrary.rst:94
+msgid "Returns the first item with the given name."
+msgstr ""
+
+#: ../../docs/classes/class_meshlibrary.rst:100
+msgid ":ref:`PoolIntArray<class_PoolIntArray>` **get_item_list** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_meshlibrary.rst:102
+msgid "Returns the list of item IDs in use."
+msgstr ""
+
+#: ../../docs/classes/class_meshlibrary.rst:108
+msgid ":ref:`Mesh<class_Mesh>` **get_item_mesh** **(** :ref:`int<class_int>` id **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_meshlibrary.rst:110
+msgid "Returns the item's mesh."
+msgstr ""
+
+#: ../../docs/classes/class_meshlibrary.rst:116
+msgid ":ref:`String<class_String>` **get_item_name** **(** :ref:`int<class_int>` id **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_meshlibrary.rst:118
+msgid "Returns the item's name."
+msgstr ""
+
+#: ../../docs/classes/class_meshlibrary.rst:124
+msgid ":ref:`NavigationMesh<class_NavigationMesh>` **get_item_navmesh** **(** :ref:`int<class_int>` id **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_meshlibrary.rst:126
+msgid "Returns the item's navigation mesh."
+msgstr ""
+
+#: ../../docs/classes/class_meshlibrary.rst:132
+msgid ":ref:`Transform<class_Transform>` **get_item_navmesh_transform** **(** :ref:`int<class_int>` id **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_meshlibrary.rst:134
+msgid "Returns the transform applied to the item's navigation mesh."
+msgstr ""
+
+#: ../../docs/classes/class_meshlibrary.rst:140
+msgid ":ref:`Texture<class_Texture>` **get_item_preview** **(** :ref:`int<class_int>` id **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_meshlibrary.rst:142
+msgid "When running in the editor, returns a generated item preview (a 3D rendering in isometric perspective). When used in a running project, returns the manually-defined item preview which can be set using :ref:`set_item_preview<class_MeshLibrary_method_set_item_preview>`. Returns an empty :ref:`Texture<class_Texture>` if no preview was manually set in a running project."
+msgstr ""
+
+#: ../../docs/classes/class_meshlibrary.rst:148
+msgid ":ref:`Array<class_Array>` **get_item_shapes** **(** :ref:`int<class_int>` id **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_meshlibrary.rst:150
+msgid "Returns an item's collision shapes."
+msgstr ""
+
+#: ../../docs/classes/class_meshlibrary.rst:152
+msgid "The array consists of each :ref:`Shape<class_Shape>` followed by its :ref:`Transform<class_Transform>`."
+msgstr ""
+
+#: ../../docs/classes/class_meshlibrary.rst:158
+msgid ":ref:`int<class_int>` **get_last_unused_item_id** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_meshlibrary.rst:160
+msgid "Gets an unused ID for a new item."
+msgstr ""
+
+#: ../../docs/classes/class_meshlibrary.rst:166
+msgid "void **remove_item** **(** :ref:`int<class_int>` id **)**"
+msgstr ""
+
+#: ../../docs/classes/class_meshlibrary.rst:168
+msgid "Removes the item."
+msgstr ""
+
+#: ../../docs/classes/class_meshlibrary.rst:174
+msgid "void **set_item_mesh** **(** :ref:`int<class_int>` id, :ref:`Mesh<class_Mesh>` mesh **)**"
+msgstr ""
+
+#: ../../docs/classes/class_meshlibrary.rst:176
+msgid "Sets the item's mesh."
+msgstr ""
+
+#: ../../docs/classes/class_meshlibrary.rst:182
+msgid "void **set_item_name** **(** :ref:`int<class_int>` id, :ref:`String<class_String>` name **)**"
+msgstr ""
+
+#: ../../docs/classes/class_meshlibrary.rst:184
+msgid "Sets the item's name."
+msgstr ""
+
+#: ../../docs/classes/class_meshlibrary.rst:186
+msgid "This name is shown in the editor. It can also be used to look up the item later using :ref:`find_item_by_name<class_MeshLibrary_method_find_item_by_name>`."
+msgstr ""
+
+#: ../../docs/classes/class_meshlibrary.rst:192
+msgid "void **set_item_navmesh** **(** :ref:`int<class_int>` id, :ref:`NavigationMesh<class_NavigationMesh>` navmesh **)**"
+msgstr ""
+
+#: ../../docs/classes/class_meshlibrary.rst:194
+msgid "Sets the item's navigation mesh."
+msgstr ""
+
+#: ../../docs/classes/class_meshlibrary.rst:200
+msgid "void **set_item_navmesh_transform** **(** :ref:`int<class_int>` id, :ref:`Transform<class_Transform>` navmesh **)**"
+msgstr ""
+
+#: ../../docs/classes/class_meshlibrary.rst:202
+msgid "Sets the transform to apply to the item's navigation mesh."
+msgstr ""
+
+#: ../../docs/classes/class_meshlibrary.rst:208
+msgid "void **set_item_preview** **(** :ref:`int<class_int>` id, :ref:`Texture<class_Texture>` texture **)**"
+msgstr ""
+
+#: ../../docs/classes/class_meshlibrary.rst:210
+msgid "Sets a texture to use as the item's preview icon in the editor."
+msgstr ""
+
+#: ../../docs/classes/class_meshlibrary.rst:216
+msgid "void **set_item_shapes** **(** :ref:`int<class_int>` id, :ref:`Array<class_Array>` shapes **)**"
+msgstr ""
+
+#: ../../docs/classes/class_meshlibrary.rst:218
+msgid "Sets an item's collision shapes."
+msgstr ""
+
+#: ../../docs/classes/class_meshlibrary.rst:220
+msgid "The array should consist of :ref:`Shape<class_Shape>` objects, each followed by a :ref:`Transform<class_Transform>` that will be applied to it. For shapes that should not have a transform, use :ref:`Transform.IDENTITY<class_Transform_constant_IDENTITY>`."
+msgstr ""

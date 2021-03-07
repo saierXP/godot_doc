@@ -1,0 +1,183 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_bone2d.rst:10
+msgid "Bone2D"
+msgstr ""
+
+#: ../../docs/classes/class_bone2d.rst:12
+msgid "**Inherits:** :ref:`Node2D<class_Node2D>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_bone2d.rst:14
+msgid "Joint used with :ref:`Skeleton2D<class_Skeleton2D>` to control and animate other nodes."
+msgstr ""
+
+#: ../../docs/classes/class_bone2d.rst:17
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_bone2d.rst:19
+msgid "Use a hierarchy of ``Bone2D`` bound to a :ref:`Skeleton2D<class_Skeleton2D>` to control, and animate other :ref:`Node2D<class_Node2D>` nodes."
+msgstr ""
+
+#: ../../docs/classes/class_bone2d.rst:21
+msgid "You can use ``Bone2D`` and ``Skeleton2D`` nodes to animate 2D meshes created with the Polygon 2D UV editor."
+msgstr ""
+
+#: ../../docs/classes/class_bone2d.rst:23
+msgid "Each bone has a :ref:`rest<class_Bone2D_property_rest>` transform that you can reset to with :ref:`apply_rest<class_Bone2D_method_apply_rest>`. These rest poses are relative to the bone's parent."
+msgstr ""
+
+#: ../../docs/classes/class_bone2d.rst:25
+msgid "If in the editor, you can set the rest pose of an entire skeleton using a menu option, from the code, you need to iterate over the bones to set their individual rest poses."
+msgstr ""
+
+#: ../../docs/classes/class_bone2d.rst:28
+msgid "Properties"
+msgstr ""
+
+#: ../../docs/classes/class_bone2d.rst:31
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../../docs/classes/class_bone2d.rst:31
+msgid ":ref:`default_length<class_Bone2D_property_default_length>`"
+msgstr ""
+
+#: ../../docs/classes/class_bone2d.rst:31
+#: ../../docs/classes/class_bone2d.rst:55
+msgid "``16.0``"
+msgstr ""
+
+#: ../../docs/classes/class_bone2d.rst:33
+#: ../../docs/classes/class_bone2d.rst:44
+msgid ":ref:`Transform2D<class_Transform2D>`"
+msgstr ""
+
+#: ../../docs/classes/class_bone2d.rst:33
+msgid ":ref:`rest<class_Bone2D_property_rest>`"
+msgstr ""
+
+#: ../../docs/classes/class_bone2d.rst:33
+#: ../../docs/classes/class_bone2d.rst:71
+msgid "``Transform2D( 0, 0, 0, 0, 0, 0 )``"
+msgstr ""
+
+#: ../../docs/classes/class_bone2d.rst:37
+msgid "Methods"
+msgstr ""
+
+#: ../../docs/classes/class_bone2d.rst:40
+msgid "void"
+msgstr ""
+
+#: ../../docs/classes/class_bone2d.rst:40
+msgid ":ref:`apply_rest<class_Bone2D_method_apply_rest>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_bone2d.rst:42
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../../docs/classes/class_bone2d.rst:42
+msgid ":ref:`get_index_in_skeleton<class_Bone2D_method_get_index_in_skeleton>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_bone2d.rst:44
+msgid ":ref:`get_skeleton_rest<class_Bone2D_method_get_skeleton_rest>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_bone2d.rst:48
+msgid "Property Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_bone2d.rst:52
+msgid ":ref:`float<class_float>` **default_length**"
+msgstr ""
+
+#: ../../docs/classes/class_bone2d.rst:55
+#: ../../docs/classes/class_bone2d.rst:71
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_bone2d.rst:57
+#: ../../docs/classes/class_bone2d.rst:73
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_bone2d.rst:57
+msgid "set_default_length(value)"
+msgstr ""
+
+#: ../../docs/classes/class_bone2d.rst:59
+#: ../../docs/classes/class_bone2d.rst:75
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_bone2d.rst:59
+msgid "get_default_length()"
+msgstr ""
+
+#: ../../docs/classes/class_bone2d.rst:62
+msgid "Length of the bone's representation drawn in the editor's viewport in pixels."
+msgstr ""
+
+#: ../../docs/classes/class_bone2d.rst:68
+msgid ":ref:`Transform2D<class_Transform2D>` **rest**"
+msgstr ""
+
+#: ../../docs/classes/class_bone2d.rst:73
+msgid "set_rest(value)"
+msgstr ""
+
+#: ../../docs/classes/class_bone2d.rst:75
+msgid "get_rest()"
+msgstr ""
+
+#: ../../docs/classes/class_bone2d.rst:78
+msgid "Rest transform of the bone. You can reset the node's transforms to this value using :ref:`apply_rest<class_Bone2D_method_apply_rest>`."
+msgstr ""
+
+#: ../../docs/classes/class_bone2d.rst:81
+msgid "Method Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_bone2d.rst:85
+msgid "void **apply_rest** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_bone2d.rst:87
+msgid "Stores the node's current transforms in :ref:`rest<class_Bone2D_property_rest>`."
+msgstr ""
+
+#: ../../docs/classes/class_bone2d.rst:93
+msgid ":ref:`int<class_int>` **get_index_in_skeleton** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_bone2d.rst:95
+msgid "Returns the node's index as part of the entire skeleton. See :ref:`Skeleton2D<class_Skeleton2D>`."
+msgstr ""
+
+#: ../../docs/classes/class_bone2d.rst:101
+msgid ":ref:`Transform2D<class_Transform2D>` **get_skeleton_rest** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_bone2d.rst:103
+msgid "Returns the node's :ref:`rest<class_Bone2D_property_rest>` ``Transform2D`` if it doesn't have a parent, or its rest pose relative to its parent."
+msgstr ""

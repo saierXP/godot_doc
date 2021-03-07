@@ -1,0 +1,295 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_audioeffectreverb.rst:10
+msgid "AudioEffectReverb"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectreverb.rst:12
+msgid "**Inherits:** :ref:`AudioEffect<class_AudioEffect>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectreverb.rst:14
+msgid "Adds a reverberation audio effect to an Audio bus."
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectreverb.rst:16
+msgid "Simulates the sound of acoustic environments such as rooms, concert halls, caverns, or an open spaces."
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectreverb.rst:19
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectreverb.rst:21
+msgid "Simulates rooms of different sizes. Its parameters can be adjusted to simulate the sound of a specific room."
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectreverb.rst:24
+msgid "Tutorials"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectreverb.rst:26
+msgid "`https://godotengine.org/asset-library/asset/678 <https://godotengine.org/asset-library/asset/678>`_"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectreverb.rst:29
+msgid "Properties"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectreverb.rst:32
+#: ../../docs/classes/class_audioeffectreverb.rst:34
+#: ../../docs/classes/class_audioeffectreverb.rst:36
+#: ../../docs/classes/class_audioeffectreverb.rst:38
+#: ../../docs/classes/class_audioeffectreverb.rst:40
+#: ../../docs/classes/class_audioeffectreverb.rst:42
+#: ../../docs/classes/class_audioeffectreverb.rst:44
+#: ../../docs/classes/class_audioeffectreverb.rst:46
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectreverb.rst:32
+msgid ":ref:`damping<class_AudioEffectReverb_property_damping>`"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectreverb.rst:32
+#: ../../docs/classes/class_audioeffectreverb.rst:46
+#: ../../docs/classes/class_audioeffectreverb.rst:57
+#: ../../docs/classes/class_audioeffectreverb.rst:169
+msgid "``0.5``"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectreverb.rst:34
+msgid ":ref:`dry<class_AudioEffectReverb_property_dry>`"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectreverb.rst:34
+#: ../../docs/classes/class_audioeffectreverb.rst:44
+#: ../../docs/classes/class_audioeffectreverb.rst:73
+#: ../../docs/classes/class_audioeffectreverb.rst:153
+msgid "``1.0``"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectreverb.rst:36
+msgid ":ref:`hipass<class_AudioEffectReverb_property_hipass>`"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectreverb.rst:36
+#: ../../docs/classes/class_audioeffectreverb.rst:89
+msgid "``0.0``"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectreverb.rst:38
+msgid ":ref:`predelay_feedback<class_AudioEffectReverb_property_predelay_feedback>`"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectreverb.rst:38
+#: ../../docs/classes/class_audioeffectreverb.rst:105
+msgid "``0.4``"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectreverb.rst:40
+msgid ":ref:`predelay_msec<class_AudioEffectReverb_property_predelay_msec>`"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectreverb.rst:40
+#: ../../docs/classes/class_audioeffectreverb.rst:121
+msgid "``150.0``"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectreverb.rst:42
+msgid ":ref:`room_size<class_AudioEffectReverb_property_room_size>`"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectreverb.rst:42
+#: ../../docs/classes/class_audioeffectreverb.rst:137
+msgid "``0.8``"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectreverb.rst:44
+msgid ":ref:`spread<class_AudioEffectReverb_property_spread>`"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectreverb.rst:46
+msgid ":ref:`wet<class_AudioEffectReverb_property_wet>`"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectreverb.rst:50
+msgid "Property Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectreverb.rst:54
+msgid ":ref:`float<class_float>` **damping**"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectreverb.rst:57
+#: ../../docs/classes/class_audioeffectreverb.rst:73
+#: ../../docs/classes/class_audioeffectreverb.rst:89
+#: ../../docs/classes/class_audioeffectreverb.rst:105
+#: ../../docs/classes/class_audioeffectreverb.rst:121
+#: ../../docs/classes/class_audioeffectreverb.rst:137
+#: ../../docs/classes/class_audioeffectreverb.rst:153
+#: ../../docs/classes/class_audioeffectreverb.rst:169
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectreverb.rst:59
+#: ../../docs/classes/class_audioeffectreverb.rst:75
+#: ../../docs/classes/class_audioeffectreverb.rst:91
+#: ../../docs/classes/class_audioeffectreverb.rst:107
+#: ../../docs/classes/class_audioeffectreverb.rst:123
+#: ../../docs/classes/class_audioeffectreverb.rst:139
+#: ../../docs/classes/class_audioeffectreverb.rst:155
+#: ../../docs/classes/class_audioeffectreverb.rst:171
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectreverb.rst:59
+msgid "set_damping(value)"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectreverb.rst:61
+#: ../../docs/classes/class_audioeffectreverb.rst:77
+#: ../../docs/classes/class_audioeffectreverb.rst:93
+#: ../../docs/classes/class_audioeffectreverb.rst:109
+#: ../../docs/classes/class_audioeffectreverb.rst:125
+#: ../../docs/classes/class_audioeffectreverb.rst:141
+#: ../../docs/classes/class_audioeffectreverb.rst:157
+#: ../../docs/classes/class_audioeffectreverb.rst:173
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectreverb.rst:61
+msgid "get_damping()"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectreverb.rst:64
+msgid "Defines how reflective the imaginary room's walls are. Value can range from 0 to 1."
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectreverb.rst:70
+msgid ":ref:`float<class_float>` **dry**"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectreverb.rst:75
+msgid "set_dry(value)"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectreverb.rst:77
+msgid "get_dry()"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectreverb.rst:80
+msgid "Output percent of original sound. At 0, only modified sound is outputted. Value can range from 0 to 1."
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectreverb.rst:86
+msgid ":ref:`float<class_float>` **hipass**"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectreverb.rst:91
+msgid "set_hpf(value)"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectreverb.rst:93
+msgid "get_hpf()"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectreverb.rst:96
+msgid "High-pass filter passes signals with a frequency higher than a certain cutoff frequency and attenuates signals with frequencies lower than the cutoff frequency. Value can range from 0 to 1."
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectreverb.rst:102
+msgid ":ref:`float<class_float>` **predelay_feedback**"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectreverb.rst:107
+msgid "set_predelay_feedback(value)"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectreverb.rst:109
+msgid "get_predelay_feedback()"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectreverb.rst:112
+msgid "Output percent of predelay. Value can range from 0 to 1."
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectreverb.rst:118
+msgid ":ref:`float<class_float>` **predelay_msec**"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectreverb.rst:123
+msgid "set_predelay_msec(value)"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectreverb.rst:125
+msgid "get_predelay_msec()"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectreverb.rst:128
+msgid "Time between the original signal and the early reflections of the reverb signal, in milliseconds."
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectreverb.rst:134
+msgid ":ref:`float<class_float>` **room_size**"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectreverb.rst:139
+msgid "set_room_size(value)"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectreverb.rst:141
+msgid "get_room_size()"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectreverb.rst:144
+msgid "Dimensions of simulated room. Bigger means more echoes. Value can range from 0 to 1."
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectreverb.rst:150
+msgid ":ref:`float<class_float>` **spread**"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectreverb.rst:155
+msgid "set_spread(value)"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectreverb.rst:157
+msgid "get_spread()"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectreverb.rst:160
+msgid "Widens or narrows the stereo image of the reverb tail. 1 means fully widens. Value can range from 0 to 1."
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectreverb.rst:166
+msgid ":ref:`float<class_float>` **wet**"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectreverb.rst:171
+msgid "set_wet(value)"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectreverb.rst:173
+msgid "get_wet()"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectreverb.rst:176
+msgid "Output percent of modified sound. At 0, only original sound is outputted. Value can range from 0 to 1."
+msgstr ""

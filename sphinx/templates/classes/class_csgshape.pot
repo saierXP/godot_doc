@@ -1,0 +1,358 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_csgshape.rst:10
+msgid "CSGShape"
+msgstr ""
+
+#: ../../docs/classes/class_csgshape.rst:12
+msgid "**Inherits:** :ref:`GeometryInstance<class_GeometryInstance>` **<** :ref:`VisualInstance<class_VisualInstance>` **<** :ref:`Spatial<class_Spatial>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_csgshape.rst:14
+msgid "**Inherited By:** :ref:`CSGCombiner<class_CSGCombiner>`, :ref:`CSGPrimitive<class_CSGPrimitive>`"
+msgstr ""
+
+#: ../../docs/classes/class_csgshape.rst:16
+msgid "The CSG base class."
+msgstr ""
+
+#: ../../docs/classes/class_csgshape.rst:19
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_csgshape.rst:21
+msgid "This is the CSG base class that provides CSG operation support to the various CSG nodes in Godot."
+msgstr ""
+
+#: ../../docs/classes/class_csgshape.rst:24
+msgid "Properties"
+msgstr ""
+
+#: ../../docs/classes/class_csgshape.rst:27
+#: ../../docs/classes/class_csgshape.rst:37
+#: ../../docs/classes/class_csgshape.rst:44
+#: ../../docs/classes/class_csgshape.rst:46
+#: ../../docs/classes/class_csgshape.rst:50
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_csgshape.rst:27
+msgid ":ref:`calculate_tangents<class_CSGShape_property_calculate_tangents>`"
+msgstr ""
+
+#: ../../docs/classes/class_csgshape.rst:27
+#: ../../docs/classes/class_csgshape.rst:84
+msgid "``true``"
+msgstr ""
+
+#: ../../docs/classes/class_csgshape.rst:29
+#: ../../docs/classes/class_csgshape.rst:31
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../../docs/classes/class_csgshape.rst:29
+msgid ":ref:`collision_layer<class_CSGShape_property_collision_layer>`"
+msgstr ""
+
+#: ../../docs/classes/class_csgshape.rst:29
+#: ../../docs/classes/class_csgshape.rst:31
+#: ../../docs/classes/class_csgshape.rst:100
+#: ../../docs/classes/class_csgshape.rst:120
+msgid "``1``"
+msgstr ""
+
+#: ../../docs/classes/class_csgshape.rst:31
+msgid ":ref:`collision_mask<class_CSGShape_property_collision_mask>`"
+msgstr ""
+
+#: ../../docs/classes/class_csgshape.rst:33
+msgid ":ref:`Operation<enum_CSGShape_Operation>`"
+msgstr ""
+
+#: ../../docs/classes/class_csgshape.rst:33
+msgid ":ref:`operation<class_CSGShape_property_operation>`"
+msgstr ""
+
+#: ../../docs/classes/class_csgshape.rst:33
+#: ../../docs/classes/class_csgshape.rst:136
+msgid "``0``"
+msgstr ""
+
+#: ../../docs/classes/class_csgshape.rst:35
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../../docs/classes/class_csgshape.rst:35
+msgid ":ref:`snap<class_CSGShape_property_snap>`"
+msgstr ""
+
+#: ../../docs/classes/class_csgshape.rst:35
+#: ../../docs/classes/class_csgshape.rst:152
+msgid "``0.001``"
+msgstr ""
+
+#: ../../docs/classes/class_csgshape.rst:37
+msgid ":ref:`use_collision<class_CSGShape_property_use_collision>`"
+msgstr ""
+
+#: ../../docs/classes/class_csgshape.rst:37
+#: ../../docs/classes/class_csgshape.rst:168
+msgid "``false``"
+msgstr ""
+
+#: ../../docs/classes/class_csgshape.rst:41
+msgid "Methods"
+msgstr ""
+
+#: ../../docs/classes/class_csgshape.rst:44
+msgid ":ref:`get_collision_layer_bit<class_CSGShape_method_get_collision_layer_bit>` **(** :ref:`int<class_int>` bit **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_csgshape.rst:46
+msgid ":ref:`get_collision_mask_bit<class_CSGShape_method_get_collision_mask_bit>` **(** :ref:`int<class_int>` bit **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_csgshape.rst:48
+msgid ":ref:`Array<class_Array>`"
+msgstr ""
+
+#: ../../docs/classes/class_csgshape.rst:48
+msgid ":ref:`get_meshes<class_CSGShape_method_get_meshes>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_csgshape.rst:50
+msgid ":ref:`is_root_shape<class_CSGShape_method_is_root_shape>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_csgshape.rst:52
+#: ../../docs/classes/class_csgshape.rst:54
+msgid "void"
+msgstr ""
+
+#: ../../docs/classes/class_csgshape.rst:52
+msgid ":ref:`set_collision_layer_bit<class_CSGShape_method_set_collision_layer_bit>` **(** :ref:`int<class_int>` bit, :ref:`bool<class_bool>` value **)**"
+msgstr ""
+
+#: ../../docs/classes/class_csgshape.rst:54
+msgid ":ref:`set_collision_mask_bit<class_CSGShape_method_set_collision_mask_bit>` **(** :ref:`int<class_int>` bit, :ref:`bool<class_bool>` value **)**"
+msgstr ""
+
+#: ../../docs/classes/class_csgshape.rst:58
+msgid "Enumerations"
+msgstr ""
+
+#: ../../docs/classes/class_csgshape.rst:68
+msgid "enum **Operation**:"
+msgstr ""
+
+#: ../../docs/classes/class_csgshape.rst:70
+msgid "**OPERATION_UNION** = **0** --- Geometry of both primitives is merged, intersecting geometry is removed."
+msgstr ""
+
+#: ../../docs/classes/class_csgshape.rst:72
+msgid "**OPERATION_INTERSECTION** = **1** --- Only intersecting geometry remains, the rest is removed."
+msgstr ""
+
+#: ../../docs/classes/class_csgshape.rst:74
+msgid "**OPERATION_SUBTRACTION** = **2** --- The second shape is subtracted from the first, leaving a dent with its shape."
+msgstr ""
+
+#: ../../docs/classes/class_csgshape.rst:77
+msgid "Property Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_csgshape.rst:81
+msgid ":ref:`bool<class_bool>` **calculate_tangents**"
+msgstr ""
+
+#: ../../docs/classes/class_csgshape.rst:84
+#: ../../docs/classes/class_csgshape.rst:100
+#: ../../docs/classes/class_csgshape.rst:120
+#: ../../docs/classes/class_csgshape.rst:136
+#: ../../docs/classes/class_csgshape.rst:152
+#: ../../docs/classes/class_csgshape.rst:168
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_csgshape.rst:86
+#: ../../docs/classes/class_csgshape.rst:102
+#: ../../docs/classes/class_csgshape.rst:122
+#: ../../docs/classes/class_csgshape.rst:138
+#: ../../docs/classes/class_csgshape.rst:154
+#: ../../docs/classes/class_csgshape.rst:170
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_csgshape.rst:86
+msgid "set_calculate_tangents(value)"
+msgstr ""
+
+#: ../../docs/classes/class_csgshape.rst:88
+#: ../../docs/classes/class_csgshape.rst:104
+#: ../../docs/classes/class_csgshape.rst:124
+#: ../../docs/classes/class_csgshape.rst:140
+#: ../../docs/classes/class_csgshape.rst:156
+#: ../../docs/classes/class_csgshape.rst:172
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_csgshape.rst:88
+msgid "is_calculating_tangents()"
+msgstr ""
+
+#: ../../docs/classes/class_csgshape.rst:91
+msgid "Calculate tangents for the CSG shape which allows the use of normal maps. This is only applied on the root shape, this setting is ignored on any child."
+msgstr ""
+
+#: ../../docs/classes/class_csgshape.rst:97
+msgid ":ref:`int<class_int>` **collision_layer**"
+msgstr ""
+
+#: ../../docs/classes/class_csgshape.rst:102
+msgid "set_collision_layer(value)"
+msgstr ""
+
+#: ../../docs/classes/class_csgshape.rst:104
+msgid "get_collision_layer()"
+msgstr ""
+
+#: ../../docs/classes/class_csgshape.rst:107
+msgid "The physics layers this area is in."
+msgstr ""
+
+#: ../../docs/classes/class_csgshape.rst:109
+msgid "Collidable objects can exist in any of 32 different layers. These layers work like a tagging system, and are not visual. A collidable can use these layers to select with which objects it can collide, using the collision_mask property."
+msgstr ""
+
+#: ../../docs/classes/class_csgshape.rst:111
+msgid "A contact is detected if object A is in any of the layers that object B scans, or object B is in any layer scanned by object A. See `Collision layers and masks <https://docs.godotengine.org/en/3.2/tutorials/physics/physics_introduction.html#collision-layers-and-masks>`_ in the documentation for more information."
+msgstr ""
+
+#: ../../docs/classes/class_csgshape.rst:117
+msgid ":ref:`int<class_int>` **collision_mask**"
+msgstr ""
+
+#: ../../docs/classes/class_csgshape.rst:122
+msgid "set_collision_mask(value)"
+msgstr ""
+
+#: ../../docs/classes/class_csgshape.rst:124
+msgid "get_collision_mask()"
+msgstr ""
+
+#: ../../docs/classes/class_csgshape.rst:127
+msgid "The physics layers this CSG shape scans for collisions. See `Collision layers and masks <https://docs.godotengine.org/en/3.2/tutorials/physics/physics_introduction.html#collision-layers-and-masks>`_ in the documentation for more information."
+msgstr ""
+
+#: ../../docs/classes/class_csgshape.rst:133
+msgid ":ref:`Operation<enum_CSGShape_Operation>` **operation**"
+msgstr ""
+
+#: ../../docs/classes/class_csgshape.rst:138
+msgid "set_operation(value)"
+msgstr ""
+
+#: ../../docs/classes/class_csgshape.rst:140
+msgid "get_operation()"
+msgstr ""
+
+#: ../../docs/classes/class_csgshape.rst:143
+msgid "The operation that is performed on this shape. This is ignored for the first CSG child node as the operation is between this node and the previous child of this nodes parent."
+msgstr ""
+
+#: ../../docs/classes/class_csgshape.rst:149
+msgid ":ref:`float<class_float>` **snap**"
+msgstr ""
+
+#: ../../docs/classes/class_csgshape.rst:154
+msgid "set_snap(value)"
+msgstr ""
+
+#: ../../docs/classes/class_csgshape.rst:156
+msgid "get_snap()"
+msgstr ""
+
+#: ../../docs/classes/class_csgshape.rst:159
+msgid "Snap makes the mesh snap to a given distance so that the faces of two meshes can be perfectly aligned. A lower value results in greater precision but may be harder to adjust."
+msgstr ""
+
+#: ../../docs/classes/class_csgshape.rst:165
+msgid ":ref:`bool<class_bool>` **use_collision**"
+msgstr ""
+
+#: ../../docs/classes/class_csgshape.rst:170
+msgid "set_use_collision(value)"
+msgstr ""
+
+#: ../../docs/classes/class_csgshape.rst:172
+msgid "is_using_collision()"
+msgstr ""
+
+#: ../../docs/classes/class_csgshape.rst:175
+msgid "Adds a collision shape to the physics engine for our CSG shape. This will always act like a static body. Note that the collision shape is still active even if the CSG shape itself is hidden."
+msgstr ""
+
+#: ../../docs/classes/class_csgshape.rst:178
+msgid "Method Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_csgshape.rst:182
+msgid ":ref:`bool<class_bool>` **get_collision_layer_bit** **(** :ref:`int<class_int>` bit **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_csgshape.rst:184
+#: ../../docs/classes/class_csgshape.rst:192
+msgid "Returns an individual bit on the collision mask."
+msgstr ""
+
+#: ../../docs/classes/class_csgshape.rst:190
+msgid ":ref:`bool<class_bool>` **get_collision_mask_bit** **(** :ref:`int<class_int>` bit **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_csgshape.rst:198
+msgid ":ref:`Array<class_Array>` **get_meshes** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_csgshape.rst:200
+msgid "Returns an :ref:`Array<class_Array>` with two elements, the first is the :ref:`Transform<class_Transform>` of this node and the second is the root :ref:`Mesh<class_Mesh>` of this node. Only works when this node is the root shape."
+msgstr ""
+
+#: ../../docs/classes/class_csgshape.rst:206
+msgid ":ref:`bool<class_bool>` **is_root_shape** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_csgshape.rst:208
+msgid "Returns ``true`` if this is a root shape and is thus the object that is rendered."
+msgstr ""
+
+#: ../../docs/classes/class_csgshape.rst:214
+msgid "void **set_collision_layer_bit** **(** :ref:`int<class_int>` bit, :ref:`bool<class_bool>` value **)**"
+msgstr ""
+
+#: ../../docs/classes/class_csgshape.rst:216
+msgid "Sets individual bits on the layer mask. Use this if you only need to change one layer's value."
+msgstr ""
+
+#: ../../docs/classes/class_csgshape.rst:222
+msgid "void **set_collision_mask_bit** **(** :ref:`int<class_int>` bit, :ref:`bool<class_bool>` value **)**"
+msgstr ""
+
+#: ../../docs/classes/class_csgshape.rst:224
+msgid "Sets individual bits on the collision mask. Use this if you only need to change one layer's value."
+msgstr ""

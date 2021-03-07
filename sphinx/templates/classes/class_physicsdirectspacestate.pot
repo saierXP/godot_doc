@@ -1,0 +1,184 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_physicsdirectspacestate.rst:10
+msgid "PhysicsDirectSpaceState"
+msgstr ""
+
+#: ../../docs/classes/class_physicsdirectspacestate.rst:12
+msgid "**Inherits:** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_physicsdirectspacestate.rst:14
+msgid "Direct access object to a space in the :ref:`PhysicsServer<class_PhysicsServer>`."
+msgstr ""
+
+#: ../../docs/classes/class_physicsdirectspacestate.rst:17
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_physicsdirectspacestate.rst:19
+msgid "Direct access object to a space in the :ref:`PhysicsServer<class_PhysicsServer>`. It's used mainly to do queries against objects and areas residing in a given space."
+msgstr ""
+
+#: ../../docs/classes/class_physicsdirectspacestate.rst:22
+msgid "Tutorials"
+msgstr ""
+
+#: ../../docs/classes/class_physicsdirectspacestate.rst:24
+msgid ":doc:`../tutorials/physics/ray-casting`"
+msgstr ""
+
+#: ../../docs/classes/class_physicsdirectspacestate.rst:27
+msgid "Methods"
+msgstr ""
+
+#: ../../docs/classes/class_physicsdirectspacestate.rst:30
+#: ../../docs/classes/class_physicsdirectspacestate.rst:32
+#: ../../docs/classes/class_physicsdirectspacestate.rst:38
+msgid ":ref:`Array<class_Array>`"
+msgstr ""
+
+#: ../../docs/classes/class_physicsdirectspacestate.rst:30
+msgid ":ref:`cast_motion<class_PhysicsDirectSpaceState_method_cast_motion>` **(** :ref:`PhysicsShapeQueryParameters<class_PhysicsShapeQueryParameters>` shape, :ref:`Vector3<class_Vector3>` motion **)**"
+msgstr ""
+
+#: ../../docs/classes/class_physicsdirectspacestate.rst:32
+msgid ":ref:`collide_shape<class_PhysicsDirectSpaceState_method_collide_shape>` **(** :ref:`PhysicsShapeQueryParameters<class_PhysicsShapeQueryParameters>` shape, :ref:`int<class_int>` max_results=32 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_physicsdirectspacestate.rst:34
+#: ../../docs/classes/class_physicsdirectspacestate.rst:36
+msgid ":ref:`Dictionary<class_Dictionary>`"
+msgstr ""
+
+#: ../../docs/classes/class_physicsdirectspacestate.rst:34
+msgid ":ref:`get_rest_info<class_PhysicsDirectSpaceState_method_get_rest_info>` **(** :ref:`PhysicsShapeQueryParameters<class_PhysicsShapeQueryParameters>` shape **)**"
+msgstr ""
+
+#: ../../docs/classes/class_physicsdirectspacestate.rst:36
+msgid ":ref:`intersect_ray<class_PhysicsDirectSpaceState_method_intersect_ray>` **(** :ref:`Vector3<class_Vector3>` from, :ref:`Vector3<class_Vector3>` to, :ref:`Array<class_Array>` exclude=[  ], :ref:`int<class_int>` collision_mask=2147483647, :ref:`bool<class_bool>` collide_with_bodies=true, :ref:`bool<class_bool>` collide_with_areas=false **)**"
+msgstr ""
+
+#: ../../docs/classes/class_physicsdirectspacestate.rst:38
+msgid ":ref:`intersect_shape<class_PhysicsDirectSpaceState_method_intersect_shape>` **(** :ref:`PhysicsShapeQueryParameters<class_PhysicsShapeQueryParameters>` shape, :ref:`int<class_int>` max_results=32 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_physicsdirectspacestate.rst:42
+msgid "Method Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_physicsdirectspacestate.rst:46
+msgid ":ref:`Array<class_Array>` **cast_motion** **(** :ref:`PhysicsShapeQueryParameters<class_PhysicsShapeQueryParameters>` shape, :ref:`Vector3<class_Vector3>` motion **)**"
+msgstr ""
+
+#: ../../docs/classes/class_physicsdirectspacestate.rst:48
+msgid "Checks whether the shape can travel to a point. The method will return an array with two floats between 0 and 1, both representing a fraction of ``motion``. The first is how far the shape can move without triggering a collision, and the second is the point at which a collision will occur. If no collision is detected, the returned array will be ``[1, 1]``."
+msgstr ""
+
+#: ../../docs/classes/class_physicsdirectspacestate.rst:50
+msgid "If the shape can not move, the returned array will be ``[0, 0]`` under Bullet, and empty under GodotPhysics."
+msgstr ""
+
+#: ../../docs/classes/class_physicsdirectspacestate.rst:56
+msgid ":ref:`Array<class_Array>` **collide_shape** **(** :ref:`PhysicsShapeQueryParameters<class_PhysicsShapeQueryParameters>` shape, :ref:`int<class_int>` max_results=32 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_physicsdirectspacestate.rst:58
+msgid "Checks the intersections of a shape, given through a :ref:`PhysicsShapeQueryParameters<class_PhysicsShapeQueryParameters>` object, against the space. The resulting array contains a list of points where the shape intersects another. Like with :ref:`intersect_shape<class_PhysicsDirectSpaceState_method_intersect_shape>`, the number of returned results can be limited to save processing time."
+msgstr ""
+
+#: ../../docs/classes/class_physicsdirectspacestate.rst:64
+msgid ":ref:`Dictionary<class_Dictionary>` **get_rest_info** **(** :ref:`PhysicsShapeQueryParameters<class_PhysicsShapeQueryParameters>` shape **)**"
+msgstr ""
+
+#: ../../docs/classes/class_physicsdirectspacestate.rst:66
+msgid "Checks the intersections of a shape, given through a :ref:`PhysicsShapeQueryParameters<class_PhysicsShapeQueryParameters>` object, against the space. If it collides with more than one shape, the nearest one is selected. The returned object is a dictionary containing the following fields:"
+msgstr ""
+
+#: ../../docs/classes/class_physicsdirectspacestate.rst:68
+#: ../../docs/classes/class_physicsdirectspacestate.rst:92
+#: ../../docs/classes/class_physicsdirectspacestate.rst:116
+msgid "``collider_id``: The colliding object's ID."
+msgstr ""
+
+#: ../../docs/classes/class_physicsdirectspacestate.rst:70
+msgid "``linear_velocity``: The colliding object's velocity :ref:`Vector3<class_Vector3>`. If the object is an :ref:`Area<class_Area>`, the result is ``(0, 0, 0)``."
+msgstr ""
+
+#: ../../docs/classes/class_physicsdirectspacestate.rst:72
+#: ../../docs/classes/class_physicsdirectspacestate.rst:94
+msgid "``normal``: The object's surface normal at the intersection point."
+msgstr ""
+
+#: ../../docs/classes/class_physicsdirectspacestate.rst:74
+msgid "``point``: The intersection point."
+msgstr ""
+
+#: ../../docs/classes/class_physicsdirectspacestate.rst:76
+#: ../../docs/classes/class_physicsdirectspacestate.rst:98
+#: ../../docs/classes/class_physicsdirectspacestate.rst:118
+msgid "``rid``: The intersecting object's :ref:`RID<class_RID>`."
+msgstr ""
+
+#: ../../docs/classes/class_physicsdirectspacestate.rst:78
+#: ../../docs/classes/class_physicsdirectspacestate.rst:100
+#: ../../docs/classes/class_physicsdirectspacestate.rst:120
+msgid "``shape``: The shape index of the colliding shape."
+msgstr ""
+
+#: ../../docs/classes/class_physicsdirectspacestate.rst:80
+msgid "If the shape did not intersect anything, then an empty dictionary is returned instead."
+msgstr ""
+
+#: ../../docs/classes/class_physicsdirectspacestate.rst:86
+msgid ":ref:`Dictionary<class_Dictionary>` **intersect_ray** **(** :ref:`Vector3<class_Vector3>` from, :ref:`Vector3<class_Vector3>` to, :ref:`Array<class_Array>` exclude=[  ], :ref:`int<class_int>` collision_mask=2147483647, :ref:`bool<class_bool>` collide_with_bodies=true, :ref:`bool<class_bool>` collide_with_areas=false **)**"
+msgstr ""
+
+#: ../../docs/classes/class_physicsdirectspacestate.rst:88
+msgid "Intersects a ray in a given space. The returned object is a dictionary with the following fields:"
+msgstr ""
+
+#: ../../docs/classes/class_physicsdirectspacestate.rst:90
+#: ../../docs/classes/class_physicsdirectspacestate.rst:114
+msgid "``collider``: The colliding object."
+msgstr ""
+
+#: ../../docs/classes/class_physicsdirectspacestate.rst:96
+msgid "``position``: The intersection point."
+msgstr ""
+
+#: ../../docs/classes/class_physicsdirectspacestate.rst:102
+msgid "If the ray did not intersect anything, then an empty dictionary is returned instead."
+msgstr ""
+
+#: ../../docs/classes/class_physicsdirectspacestate.rst:104
+msgid "Additionally, the method can take an ``exclude`` array of objects or :ref:`RID<class_RID>`\\ s that are to be excluded from collisions, a ``collision_mask`` bitmask representing the physics layers to check in, or booleans to determine if the ray should collide with :ref:`PhysicsBody<class_PhysicsBody>`\\ s or :ref:`Area<class_Area>`\\ s, respectively."
+msgstr ""
+
+#: ../../docs/classes/class_physicsdirectspacestate.rst:110
+msgid ":ref:`Array<class_Array>` **intersect_shape** **(** :ref:`PhysicsShapeQueryParameters<class_PhysicsShapeQueryParameters>` shape, :ref:`int<class_int>` max_results=32 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_physicsdirectspacestate.rst:112
+msgid "Checks the intersections of a shape, given through a :ref:`PhysicsShapeQueryParameters<class_PhysicsShapeQueryParameters>` object, against the space. The intersected shapes are returned in an array containing dictionaries with the following fields:"
+msgstr ""
+
+#: ../../docs/classes/class_physicsdirectspacestate.rst:122
+msgid "The number of intersections can be limited with the ``max_results`` parameter, to reduce the processing time."
+msgstr ""

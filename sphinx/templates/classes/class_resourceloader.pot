@@ -1,0 +1,205 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_resourceloader.rst:10
+msgid "ResourceLoader"
+msgstr ""
+
+#: ../../docs/classes/class_resourceloader.rst:12
+msgid "**Inherits:** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_resourceloader.rst:14
+msgid "Singleton used to load resource files."
+msgstr ""
+
+#: ../../docs/classes/class_resourceloader.rst:17
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_resourceloader.rst:19
+msgid "Singleton used to load resource files from the filesystem."
+msgstr ""
+
+#: ../../docs/classes/class_resourceloader.rst:21
+msgid "It uses the many :ref:`ResourceFormatLoader<class_ResourceFormatLoader>` classes registered in the engine (either built-in or from a plugin) to load files into memory and convert them to a format that can be used by the engine."
+msgstr ""
+
+#: ../../docs/classes/class_resourceloader.rst:24
+msgid "Tutorials"
+msgstr ""
+
+#: ../../docs/classes/class_resourceloader.rst:26
+msgid "`https://godotengine.org/asset-library/asset/677 <https://godotengine.org/asset-library/asset/677>`_"
+msgstr ""
+
+#: ../../docs/classes/class_resourceloader.rst:29
+msgid "Methods"
+msgstr ""
+
+#: ../../docs/classes/class_resourceloader.rst:32
+#: ../../docs/classes/class_resourceloader.rst:38
+#: ../../docs/classes/class_resourceloader.rst:40
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_resourceloader.rst:32
+msgid ":ref:`exists<class_ResourceLoader_method_exists>` **(** :ref:`String<class_String>` path, :ref:`String<class_String>` type_hint=\"\" **)**"
+msgstr ""
+
+#: ../../docs/classes/class_resourceloader.rst:34
+#: ../../docs/classes/class_resourceloader.rst:36
+msgid ":ref:`PoolStringArray<class_PoolStringArray>`"
+msgstr ""
+
+#: ../../docs/classes/class_resourceloader.rst:34
+msgid ":ref:`get_dependencies<class_ResourceLoader_method_get_dependencies>` **(** :ref:`String<class_String>` path **)**"
+msgstr ""
+
+#: ../../docs/classes/class_resourceloader.rst:36
+msgid ":ref:`get_recognized_extensions_for_type<class_ResourceLoader_method_get_recognized_extensions_for_type>` **(** :ref:`String<class_String>` type **)**"
+msgstr ""
+
+#: ../../docs/classes/class_resourceloader.rst:38
+msgid ":ref:`has<class_ResourceLoader_method_has>` **(** :ref:`String<class_String>` path **)**"
+msgstr ""
+
+#: ../../docs/classes/class_resourceloader.rst:40
+msgid ":ref:`has_cached<class_ResourceLoader_method_has_cached>` **(** :ref:`String<class_String>` path **)**"
+msgstr ""
+
+#: ../../docs/classes/class_resourceloader.rst:42
+msgid ":ref:`Resource<class_Resource>`"
+msgstr ""
+
+#: ../../docs/classes/class_resourceloader.rst:42
+msgid ":ref:`load<class_ResourceLoader_method_load>` **(** :ref:`String<class_String>` path, :ref:`String<class_String>` type_hint=\"\", :ref:`bool<class_bool>` no_cache=false **)**"
+msgstr ""
+
+#: ../../docs/classes/class_resourceloader.rst:44
+msgid ":ref:`ResourceInteractiveLoader<class_ResourceInteractiveLoader>`"
+msgstr ""
+
+#: ../../docs/classes/class_resourceloader.rst:44
+msgid ":ref:`load_interactive<class_ResourceLoader_method_load_interactive>` **(** :ref:`String<class_String>` path, :ref:`String<class_String>` type_hint=\"\" **)**"
+msgstr ""
+
+#: ../../docs/classes/class_resourceloader.rst:46
+msgid "void"
+msgstr ""
+
+#: ../../docs/classes/class_resourceloader.rst:46
+msgid ":ref:`set_abort_on_missing_resources<class_ResourceLoader_method_set_abort_on_missing_resources>` **(** :ref:`bool<class_bool>` abort **)**"
+msgstr ""
+
+#: ../../docs/classes/class_resourceloader.rst:50
+msgid "Method Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_resourceloader.rst:54
+msgid ":ref:`bool<class_bool>` **exists** **(** :ref:`String<class_String>` path, :ref:`String<class_String>` type_hint=\"\" **)**"
+msgstr ""
+
+#: ../../docs/classes/class_resourceloader.rst:56
+msgid "Returns whether a recognized resource exists for the given ``path``."
+msgstr ""
+
+#: ../../docs/classes/class_resourceloader.rst:58
+msgid "An optional ``type_hint`` can be used to further specify the :ref:`Resource<class_Resource>` type that should be handled by the :ref:`ResourceFormatLoader<class_ResourceFormatLoader>`."
+msgstr ""
+
+#: ../../docs/classes/class_resourceloader.rst:64
+msgid ":ref:`PoolStringArray<class_PoolStringArray>` **get_dependencies** **(** :ref:`String<class_String>` path **)**"
+msgstr ""
+
+#: ../../docs/classes/class_resourceloader.rst:66
+msgid "Returns the dependencies for the resource at the given ``path``."
+msgstr ""
+
+#: ../../docs/classes/class_resourceloader.rst:72
+msgid ":ref:`PoolStringArray<class_PoolStringArray>` **get_recognized_extensions_for_type** **(** :ref:`String<class_String>` type **)**"
+msgstr ""
+
+#: ../../docs/classes/class_resourceloader.rst:74
+msgid "Returns the list of recognized extensions for a resource type."
+msgstr ""
+
+#: ../../docs/classes/class_resourceloader.rst:80
+msgid ":ref:`bool<class_bool>` **has** **(** :ref:`String<class_String>` path **)**"
+msgstr ""
+
+#: ../../docs/classes/class_resourceloader.rst:82
+msgid "*Deprecated method.* Use :ref:`has_cached<class_ResourceLoader_method_has_cached>` or :ref:`exists<class_ResourceLoader_method_exists>` instead."
+msgstr ""
+
+#: ../../docs/classes/class_resourceloader.rst:88
+msgid ":ref:`bool<class_bool>` **has_cached** **(** :ref:`String<class_String>` path **)**"
+msgstr ""
+
+#: ../../docs/classes/class_resourceloader.rst:90
+msgid "Returns whether a cached resource is available for the given ``path``."
+msgstr ""
+
+#: ../../docs/classes/class_resourceloader.rst:92
+msgid "Once a resource has been loaded by the engine, it is cached in memory for faster access, and future calls to the :ref:`load<class_ResourceLoader_method_load>` or :ref:`load_interactive<class_ResourceLoader_method_load_interactive>` methods will use the cached version. The cached resource can be overridden by using :ref:`Resource.take_over_path<class_Resource_method_take_over_path>` on a new resource for that same path."
+msgstr ""
+
+#: ../../docs/classes/class_resourceloader.rst:98
+msgid ":ref:`Resource<class_Resource>` **load** **(** :ref:`String<class_String>` path, :ref:`String<class_String>` type_hint=\"\", :ref:`bool<class_bool>` no_cache=false **)**"
+msgstr ""
+
+#: ../../docs/classes/class_resourceloader.rst:100
+msgid "Loads a resource at the given ``path``, caching the result for further access."
+msgstr ""
+
+#: ../../docs/classes/class_resourceloader.rst:102
+msgid "The registered :ref:`ResourceFormatLoader<class_ResourceFormatLoader>`\\ s are queried sequentially to find the first one which can handle the file's extension, and then attempt loading. If loading fails, the remaining ResourceFormatLoaders are also attempted."
+msgstr ""
+
+#: ../../docs/classes/class_resourceloader.rst:104
+#: ../../docs/classes/class_resourceloader.rst:120
+msgid "An optional ``type_hint`` can be used to further specify the :ref:`Resource<class_Resource>` type that should be handled by the :ref:`ResourceFormatLoader<class_ResourceFormatLoader>`. Anything that inherits from :ref:`Resource<class_Resource>` can be used as a type hint, for example :ref:`Image<class_Image>`."
+msgstr ""
+
+#: ../../docs/classes/class_resourceloader.rst:106
+msgid "If ``no_cache`` is ``true``, the resource cache will be bypassed and the resource will be loaded anew. Otherwise, the cached resource will be returned if it exists."
+msgstr ""
+
+#: ../../docs/classes/class_resourceloader.rst:108
+msgid "Returns an empty resource if no :ref:`ResourceFormatLoader<class_ResourceFormatLoader>` could handle the file."
+msgstr ""
+
+#: ../../docs/classes/class_resourceloader.rst:110
+msgid "GDScript has a simplified :ref:`@GDScript.load<class_@GDScript_method_load>` built-in method which can be used in most situations, leaving the use of ``ResourceLoader`` for more advanced scenarios."
+msgstr ""
+
+#: ../../docs/classes/class_resourceloader.rst:116
+msgid ":ref:`ResourceInteractiveLoader<class_ResourceInteractiveLoader>` **load_interactive** **(** :ref:`String<class_String>` path, :ref:`String<class_String>` type_hint=\"\" **)**"
+msgstr ""
+
+#: ../../docs/classes/class_resourceloader.rst:118
+msgid "Starts loading a resource interactively. The returned :ref:`ResourceInteractiveLoader<class_ResourceInteractiveLoader>` object allows to load with high granularity, calling its :ref:`ResourceInteractiveLoader.poll<class_ResourceInteractiveLoader_method_poll>` method successively to load chunks."
+msgstr ""
+
+#: ../../docs/classes/class_resourceloader.rst:126
+msgid "void **set_abort_on_missing_resources** **(** :ref:`bool<class_bool>` abort **)**"
+msgstr ""
+
+#: ../../docs/classes/class_resourceloader.rst:128
+msgid "Changes the behavior on missing sub-resources. The default behavior is to abort loading."
+msgstr ""

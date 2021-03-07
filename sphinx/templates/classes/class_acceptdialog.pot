@@ -1,0 +1,270 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_acceptdialog.rst:10
+msgid "AcceptDialog"
+msgstr ""
+
+#: ../../docs/classes/class_acceptdialog.rst:12
+msgid "**Inherits:** :ref:`WindowDialog<class_WindowDialog>` **<** :ref:`Popup<class_Popup>` **<** :ref:`Control<class_Control>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_acceptdialog.rst:14
+msgid "**Inherited By:** :ref:`ConfirmationDialog<class_ConfirmationDialog>`"
+msgstr ""
+
+#: ../../docs/classes/class_acceptdialog.rst:16
+msgid "Base dialog for user notification."
+msgstr ""
+
+#: ../../docs/classes/class_acceptdialog.rst:19
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_acceptdialog.rst:21
+msgid "This dialog is useful for small notifications to the user about an event. It can only be accepted or closed, with the same result."
+msgstr ""
+
+#: ../../docs/classes/class_acceptdialog.rst:24
+msgid "Properties"
+msgstr ""
+
+#: ../../docs/classes/class_acceptdialog.rst:27
+#: ../../docs/classes/class_acceptdialog.rst:29
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_acceptdialog.rst:27
+msgid ":ref:`dialog_autowrap<class_AcceptDialog_property_dialog_autowrap>`"
+msgstr ""
+
+#: ../../docs/classes/class_acceptdialog.rst:27
+#: ../../docs/classes/class_acceptdialog.rst:76
+msgid "``false``"
+msgstr ""
+
+#: ../../docs/classes/class_acceptdialog.rst:29
+msgid ":ref:`dialog_hide_on_ok<class_AcceptDialog_property_dialog_hide_on_ok>`"
+msgstr ""
+
+#: ../../docs/classes/class_acceptdialog.rst:29
+#: ../../docs/classes/class_acceptdialog.rst:92
+msgid "``true``"
+msgstr ""
+
+#: ../../docs/classes/class_acceptdialog.rst:31
+#: ../../docs/classes/class_acceptdialog.rst:33
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../../docs/classes/class_acceptdialog.rst:31
+msgid ":ref:`dialog_text<class_AcceptDialog_property_dialog_text>`"
+msgstr ""
+
+#: ../../docs/classes/class_acceptdialog.rst:31
+#: ../../docs/classes/class_acceptdialog.rst:110
+msgid "``\"\"``"
+msgstr ""
+
+#: ../../docs/classes/class_acceptdialog.rst:33
+msgid "window_title"
+msgstr ""
+
+#: ../../docs/classes/class_acceptdialog.rst:33
+msgid "``\"Alert!\"`` *(parent override)*"
+msgstr ""
+
+#: ../../docs/classes/class_acceptdialog.rst:37
+msgid "Methods"
+msgstr ""
+
+#: ../../docs/classes/class_acceptdialog.rst:40
+#: ../../docs/classes/class_acceptdialog.rst:42
+#: ../../docs/classes/class_acceptdialog.rst:46
+msgid ":ref:`Button<class_Button>`"
+msgstr ""
+
+#: ../../docs/classes/class_acceptdialog.rst:40
+msgid ":ref:`add_button<class_AcceptDialog_method_add_button>` **(** :ref:`String<class_String>` text, :ref:`bool<class_bool>` right=false, :ref:`String<class_String>` action=\"\" **)**"
+msgstr ""
+
+#: ../../docs/classes/class_acceptdialog.rst:42
+msgid ":ref:`add_cancel<class_AcceptDialog_method_add_cancel>` **(** :ref:`String<class_String>` name **)**"
+msgstr ""
+
+#: ../../docs/classes/class_acceptdialog.rst:44
+msgid ":ref:`Label<class_Label>`"
+msgstr ""
+
+#: ../../docs/classes/class_acceptdialog.rst:44
+msgid ":ref:`get_label<class_AcceptDialog_method_get_label>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_acceptdialog.rst:46
+msgid ":ref:`get_ok<class_AcceptDialog_method_get_ok>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_acceptdialog.rst:48
+msgid "void"
+msgstr ""
+
+#: ../../docs/classes/class_acceptdialog.rst:48
+msgid ":ref:`register_text_enter<class_AcceptDialog_method_register_text_enter>` **(** :ref:`Node<class_Node>` line_edit **)**"
+msgstr ""
+
+#: ../../docs/classes/class_acceptdialog.rst:52
+msgid "Signals"
+msgstr ""
+
+#: ../../docs/classes/class_acceptdialog.rst:56
+msgid "**confirmed** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_acceptdialog.rst:58
+msgid "Emitted when the dialog is accepted, i.e. the OK button is pressed."
+msgstr ""
+
+#: ../../docs/classes/class_acceptdialog.rst:64
+msgid "**custom_action** **(** :ref:`String<class_String>` action **)**"
+msgstr ""
+
+#: ../../docs/classes/class_acceptdialog.rst:66
+msgid "Emitted when a custom button is pressed. See :ref:`add_button<class_AcceptDialog_method_add_button>`."
+msgstr ""
+
+#: ../../docs/classes/class_acceptdialog.rst:69
+msgid "Property Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_acceptdialog.rst:73
+msgid ":ref:`bool<class_bool>` **dialog_autowrap**"
+msgstr ""
+
+#: ../../docs/classes/class_acceptdialog.rst:76
+#: ../../docs/classes/class_acceptdialog.rst:92
+#: ../../docs/classes/class_acceptdialog.rst:110
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_acceptdialog.rst:78
+#: ../../docs/classes/class_acceptdialog.rst:94
+#: ../../docs/classes/class_acceptdialog.rst:112
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_acceptdialog.rst:78
+msgid "set_autowrap(value)"
+msgstr ""
+
+#: ../../docs/classes/class_acceptdialog.rst:80
+#: ../../docs/classes/class_acceptdialog.rst:96
+#: ../../docs/classes/class_acceptdialog.rst:114
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_acceptdialog.rst:80
+msgid "has_autowrap()"
+msgstr ""
+
+#: ../../docs/classes/class_acceptdialog.rst:83
+msgid "Sets autowrapping for the text in the dialog."
+msgstr ""
+
+#: ../../docs/classes/class_acceptdialog.rst:89
+msgid ":ref:`bool<class_bool>` **dialog_hide_on_ok**"
+msgstr ""
+
+#: ../../docs/classes/class_acceptdialog.rst:94
+msgid "set_hide_on_ok(value)"
+msgstr ""
+
+#: ../../docs/classes/class_acceptdialog.rst:96
+msgid "get_hide_on_ok()"
+msgstr ""
+
+#: ../../docs/classes/class_acceptdialog.rst:99
+msgid "If ``true``, the dialog is hidden when the OK button is pressed. You can set it to ``false`` if you want to do e.g. input validation when receiving the :ref:`confirmed<class_AcceptDialog_signal_confirmed>` signal, and handle hiding the dialog in your own logic."
+msgstr ""
+
+#: ../../docs/classes/class_acceptdialog.rst:101
+msgid "**Note:** Some nodes derived from this class can have a different default value, and potentially their own built-in logic overriding this setting. For example :ref:`FileDialog<class_FileDialog>` defaults to ``false``, and has its own input validation code that is called when you press OK, which eventually hides the dialog if the input is valid. As such, this property can't be used in :ref:`FileDialog<class_FileDialog>` to disable hiding the dialog when pressing OK."
+msgstr ""
+
+#: ../../docs/classes/class_acceptdialog.rst:107
+msgid ":ref:`String<class_String>` **dialog_text**"
+msgstr ""
+
+#: ../../docs/classes/class_acceptdialog.rst:112
+msgid "set_text(value)"
+msgstr ""
+
+#: ../../docs/classes/class_acceptdialog.rst:114
+msgid "get_text()"
+msgstr ""
+
+#: ../../docs/classes/class_acceptdialog.rst:117
+msgid "The text displayed by the dialog."
+msgstr ""
+
+#: ../../docs/classes/class_acceptdialog.rst:120
+msgid "Method Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_acceptdialog.rst:124
+msgid ":ref:`Button<class_Button>` **add_button** **(** :ref:`String<class_String>` text, :ref:`bool<class_bool>` right=false, :ref:`String<class_String>` action=\"\" **)**"
+msgstr ""
+
+#: ../../docs/classes/class_acceptdialog.rst:126
+msgid "Adds a button with label ``text`` and a custom ``action`` to the dialog and returns the created button. ``action`` will be passed to the :ref:`custom_action<class_AcceptDialog_signal_custom_action>` signal when pressed."
+msgstr ""
+
+#: ../../docs/classes/class_acceptdialog.rst:128
+msgid "If ``true``, ``right`` will place the button to the right of any sibling buttons."
+msgstr ""
+
+#: ../../docs/classes/class_acceptdialog.rst:134
+msgid ":ref:`Button<class_Button>` **add_cancel** **(** :ref:`String<class_String>` name **)**"
+msgstr ""
+
+#: ../../docs/classes/class_acceptdialog.rst:136
+msgid "Adds a button with label ``name`` and a cancel action to the dialog and returns the created button."
+msgstr ""
+
+#: ../../docs/classes/class_acceptdialog.rst:142
+msgid ":ref:`Label<class_Label>` **get_label** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_acceptdialog.rst:144
+msgid "Returns the label used for built-in text."
+msgstr ""
+
+#: ../../docs/classes/class_acceptdialog.rst:150
+msgid ":ref:`Button<class_Button>` **get_ok** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_acceptdialog.rst:152
+msgid "Returns the OK :ref:`Button<class_Button>` instance."
+msgstr ""
+
+#: ../../docs/classes/class_acceptdialog.rst:158
+msgid "void **register_text_enter** **(** :ref:`Node<class_Node>` line_edit **)**"
+msgstr ""
+
+#: ../../docs/classes/class_acceptdialog.rst:160
+msgid "Registers a :ref:`LineEdit<class_LineEdit>` in the dialog. When the enter key is pressed, the dialog will be accepted."
+msgstr ""

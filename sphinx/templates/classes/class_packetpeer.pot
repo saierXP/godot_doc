@@ -1,0 +1,230 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_packetpeer.rst:10
+msgid "PacketPeer"
+msgstr ""
+
+#: ../../docs/classes/class_packetpeer.rst:12
+msgid "**Inherits:** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_packetpeer.rst:14
+msgid "**Inherited By:** :ref:`NetworkedMultiplayerPeer<class_NetworkedMultiplayerPeer>`, :ref:`PacketPeerDTLS<class_PacketPeerDTLS>`, :ref:`PacketPeerGDNative<class_PacketPeerGDNative>`, :ref:`PacketPeerStream<class_PacketPeerStream>`, :ref:`PacketPeerUDP<class_PacketPeerUDP>`, :ref:`WebRTCDataChannel<class_WebRTCDataChannel>`, :ref:`WebSocketPeer<class_WebSocketPeer>`"
+msgstr ""
+
+#: ../../docs/classes/class_packetpeer.rst:16
+msgid "Abstraction and base class for packet-based protocols."
+msgstr ""
+
+#: ../../docs/classes/class_packetpeer.rst:19
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_packetpeer.rst:21
+msgid "PacketPeer is an abstraction and base class for packet-based protocols (such as UDP). It provides an API for sending and receiving packets both as raw data or variables. This makes it easy to transfer data over a protocol, without having to encode data as low-level bytes or having to worry about network ordering."
+msgstr ""
+
+#: ../../docs/classes/class_packetpeer.rst:24
+msgid "Properties"
+msgstr ""
+
+#: ../../docs/classes/class_packetpeer.rst:27
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_packetpeer.rst:27
+msgid ":ref:`allow_object_decoding<class_PacketPeer_property_allow_object_decoding>`"
+msgstr ""
+
+#: ../../docs/classes/class_packetpeer.rst:27
+#: ../../docs/classes/class_packetpeer.rst:57
+msgid "``false``"
+msgstr ""
+
+#: ../../docs/classes/class_packetpeer.rst:29
+#: ../../docs/classes/class_packetpeer.rst:36
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../../docs/classes/class_packetpeer.rst:29
+msgid ":ref:`encode_buffer_max_size<class_PacketPeer_property_encode_buffer_max_size>`"
+msgstr ""
+
+#: ../../docs/classes/class_packetpeer.rst:29
+#: ../../docs/classes/class_packetpeer.rst:77
+msgid "``8388608``"
+msgstr ""
+
+#: ../../docs/classes/class_packetpeer.rst:33
+msgid "Methods"
+msgstr ""
+
+#: ../../docs/classes/class_packetpeer.rst:36
+msgid ":ref:`get_available_packet_count<class_PacketPeer_method_get_available_packet_count>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_packetpeer.rst:38
+msgid ":ref:`PoolByteArray<class_PoolByteArray>`"
+msgstr ""
+
+#: ../../docs/classes/class_packetpeer.rst:38
+msgid ":ref:`get_packet<class_PacketPeer_method_get_packet>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_packetpeer.rst:40
+#: ../../docs/classes/class_packetpeer.rst:44
+#: ../../docs/classes/class_packetpeer.rst:46
+msgid ":ref:`Error<enum_@GlobalScope_Error>`"
+msgstr ""
+
+#: ../../docs/classes/class_packetpeer.rst:40
+msgid ":ref:`get_packet_error<class_PacketPeer_method_get_packet_error>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_packetpeer.rst:42
+msgid ":ref:`Variant<class_Variant>`"
+msgstr ""
+
+#: ../../docs/classes/class_packetpeer.rst:42
+msgid ":ref:`get_var<class_PacketPeer_method_get_var>` **(** :ref:`bool<class_bool>` allow_objects=false **)**"
+msgstr ""
+
+#: ../../docs/classes/class_packetpeer.rst:44
+msgid ":ref:`put_packet<class_PacketPeer_method_put_packet>` **(** :ref:`PoolByteArray<class_PoolByteArray>` buffer **)**"
+msgstr ""
+
+#: ../../docs/classes/class_packetpeer.rst:46
+msgid ":ref:`put_var<class_PacketPeer_method_put_var>` **(** :ref:`Variant<class_Variant>` var, :ref:`bool<class_bool>` full_objects=false **)**"
+msgstr ""
+
+#: ../../docs/classes/class_packetpeer.rst:50
+msgid "Property Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_packetpeer.rst:54
+msgid ":ref:`bool<class_bool>` **allow_object_decoding**"
+msgstr ""
+
+#: ../../docs/classes/class_packetpeer.rst:57
+#: ../../docs/classes/class_packetpeer.rst:77
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_packetpeer.rst:59
+#: ../../docs/classes/class_packetpeer.rst:79
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_packetpeer.rst:59
+msgid "set_allow_object_decoding(value)"
+msgstr ""
+
+#: ../../docs/classes/class_packetpeer.rst:61
+#: ../../docs/classes/class_packetpeer.rst:81
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_packetpeer.rst:61
+msgid "is_object_decoding_allowed()"
+msgstr ""
+
+#: ../../docs/classes/class_packetpeer.rst:64
+msgid "*Deprecated.* Use ``get_var`` and ``put_var`` parameters instead."
+msgstr ""
+
+#: ../../docs/classes/class_packetpeer.rst:66
+msgid "If ``true``, the PacketPeer will allow encoding and decoding of object via :ref:`get_var<class_PacketPeer_method_get_var>` and :ref:`put_var<class_PacketPeer_method_put_var>`."
+msgstr ""
+
+#: ../../docs/classes/class_packetpeer.rst:68
+#: ../../docs/classes/class_packetpeer.rst:121
+msgid "**Warning:** Deserialized objects can contain code which gets executed. Do not use this option if the serialized object comes from untrusted sources to avoid potential security threats such as remote code execution."
+msgstr ""
+
+#: ../../docs/classes/class_packetpeer.rst:74
+msgid ":ref:`int<class_int>` **encode_buffer_max_size**"
+msgstr ""
+
+#: ../../docs/classes/class_packetpeer.rst:79
+msgid "set_encode_buffer_max_size(value)"
+msgstr ""
+
+#: ../../docs/classes/class_packetpeer.rst:81
+msgid "get_encode_buffer_max_size()"
+msgstr ""
+
+#: ../../docs/classes/class_packetpeer.rst:84
+msgid "Maximum buffer size allowed when encoding :ref:`Variant<class_Variant>`\\ s. Raise this value to support heavier memory allocations."
+msgstr ""
+
+#: ../../docs/classes/class_packetpeer.rst:86
+msgid "The :ref:`put_var<class_PacketPeer_method_put_var>` method allocates memory on the stack, and the buffer used will grow automatically to the closest power of two to match the size of the :ref:`Variant<class_Variant>`. If the :ref:`Variant<class_Variant>` is bigger than ``encode_buffer_max_size``, the method will error out with :ref:`@GlobalScope.ERR_OUT_OF_MEMORY<class_@GlobalScope_constant_ERR_OUT_OF_MEMORY>`."
+msgstr ""
+
+#: ../../docs/classes/class_packetpeer.rst:89
+msgid "Method Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_packetpeer.rst:93
+msgid ":ref:`int<class_int>` **get_available_packet_count** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_packetpeer.rst:95
+msgid "Returns the number of packets currently available in the ring-buffer."
+msgstr ""
+
+#: ../../docs/classes/class_packetpeer.rst:101
+msgid ":ref:`PoolByteArray<class_PoolByteArray>` **get_packet** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_packetpeer.rst:103
+msgid "Gets a raw packet."
+msgstr ""
+
+#: ../../docs/classes/class_packetpeer.rst:109
+msgid ":ref:`Error<enum_@GlobalScope_Error>` **get_packet_error** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_packetpeer.rst:111
+msgid "Returns the error state of the last packet received (via :ref:`get_packet<class_PacketPeer_method_get_packet>` and :ref:`get_var<class_PacketPeer_method_get_var>`)."
+msgstr ""
+
+#: ../../docs/classes/class_packetpeer.rst:117
+msgid ":ref:`Variant<class_Variant>` **get_var** **(** :ref:`bool<class_bool>` allow_objects=false **)**"
+msgstr ""
+
+#: ../../docs/classes/class_packetpeer.rst:119
+msgid "Gets a Variant. If ``allow_objects`` (or :ref:`allow_object_decoding<class_PacketPeer_property_allow_object_decoding>`) is ``true``, decoding objects is allowed."
+msgstr ""
+
+#: ../../docs/classes/class_packetpeer.rst:127
+msgid ":ref:`Error<enum_@GlobalScope_Error>` **put_packet** **(** :ref:`PoolByteArray<class_PoolByteArray>` buffer **)**"
+msgstr ""
+
+#: ../../docs/classes/class_packetpeer.rst:129
+msgid "Sends a raw packet."
+msgstr ""
+
+#: ../../docs/classes/class_packetpeer.rst:135
+msgid ":ref:`Error<enum_@GlobalScope_Error>` **put_var** **(** :ref:`Variant<class_Variant>` var, :ref:`bool<class_bool>` full_objects=false **)**"
+msgstr ""
+
+#: ../../docs/classes/class_packetpeer.rst:137
+msgid "Sends a :ref:`Variant<class_Variant>` as a packet. If ``full_objects`` (or :ref:`allow_object_decoding<class_PacketPeer_property_allow_object_decoding>`) is ``true``, encoding objects is allowed (and can potentially include code)."
+msgstr ""

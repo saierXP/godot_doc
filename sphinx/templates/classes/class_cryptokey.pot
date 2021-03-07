@@ -1,0 +1,82 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_cryptokey.rst:10
+msgid "CryptoKey"
+msgstr ""
+
+#: ../../docs/classes/class_cryptokey.rst:12
+msgid "**Inherits:** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_cryptokey.rst:14
+msgid "A cryptographic key (RSA)."
+msgstr ""
+
+#: ../../docs/classes/class_cryptokey.rst:17
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_cryptokey.rst:19
+msgid "The CryptoKey class represents a cryptographic key. Keys can be loaded and saved like any other :ref:`Resource<class_Resource>`."
+msgstr ""
+
+#: ../../docs/classes/class_cryptokey.rst:21
+msgid "They can be used to generate a self-signed :ref:`X509Certificate<class_X509Certificate>` via :ref:`Crypto.generate_self_signed_certificate<class_Crypto_method_generate_self_signed_certificate>` and as private key in :ref:`StreamPeerSSL.accept_stream<class_StreamPeerSSL_method_accept_stream>` along with the appropriate certificate."
+msgstr ""
+
+#: ../../docs/classes/class_cryptokey.rst:23
+msgid "**Note:** Not available in HTML5 exports."
+msgstr ""
+
+#: ../../docs/classes/class_cryptokey.rst:26
+msgid "Methods"
+msgstr ""
+
+#: ../../docs/classes/class_cryptokey.rst:29
+#: ../../docs/classes/class_cryptokey.rst:31
+msgid ":ref:`Error<enum_@GlobalScope_Error>`"
+msgstr ""
+
+#: ../../docs/classes/class_cryptokey.rst:29
+msgid ":ref:`load<class_CryptoKey_method_load>` **(** :ref:`String<class_String>` path **)**"
+msgstr ""
+
+#: ../../docs/classes/class_cryptokey.rst:31
+msgid ":ref:`save<class_CryptoKey_method_save>` **(** :ref:`String<class_String>` path **)**"
+msgstr ""
+
+#: ../../docs/classes/class_cryptokey.rst:35
+msgid "Method Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_cryptokey.rst:39
+msgid ":ref:`Error<enum_@GlobalScope_Error>` **load** **(** :ref:`String<class_String>` path **)**"
+msgstr ""
+
+#: ../../docs/classes/class_cryptokey.rst:41
+msgid "Loads a key from ``path`` (\"\\*.key\" file)."
+msgstr ""
+
+#: ../../docs/classes/class_cryptokey.rst:47
+msgid ":ref:`Error<enum_@GlobalScope_Error>` **save** **(** :ref:`String<class_String>` path **)**"
+msgstr ""
+
+#: ../../docs/classes/class_cryptokey.rst:49
+msgid "Saves a key to the given ``path`` (should be a \"\\*.key\" file)."
+msgstr ""

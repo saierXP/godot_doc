@@ -1,0 +1,255 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_navigationpolygon.rst:10
+msgid "NavigationPolygon"
+msgstr ""
+
+#: ../../docs/classes/class_navigationpolygon.rst:12
+msgid "**Inherits:** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_navigationpolygon.rst:14
+msgid "A node that has methods to draw outlines or use indices of vertices to create navigation polygons."
+msgstr ""
+
+#: ../../docs/classes/class_navigationpolygon.rst:17
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_navigationpolygon.rst:19
+msgid "There are two ways to create polygons. Either by using the :ref:`add_outline<class_NavigationPolygon_method_add_outline>` method, or using the :ref:`add_polygon<class_NavigationPolygon_method_add_polygon>` method."
+msgstr ""
+
+#: ../../docs/classes/class_navigationpolygon.rst:21
+msgid "Using :ref:`add_outline<class_NavigationPolygon_method_add_outline>`:"
+msgstr ""
+
+#: ../../docs/classes/class_navigationpolygon.rst:31
+msgid "Using :ref:`add_polygon<class_NavigationPolygon_method_add_polygon>` and indices of the vertices array."
+msgstr ""
+
+#: ../../docs/classes/class_navigationpolygon.rst:43
+msgid "Tutorials"
+msgstr ""
+
+#: ../../docs/classes/class_navigationpolygon.rst:45
+msgid "`https://godotengine.org/asset-library/asset/117 <https://godotengine.org/asset-library/asset/117>`_"
+msgstr ""
+
+#: ../../docs/classes/class_navigationpolygon.rst:48
+msgid "Methods"
+msgstr ""
+
+#: ../../docs/classes/class_navigationpolygon.rst:51
+#: ../../docs/classes/class_navigationpolygon.rst:53
+#: ../../docs/classes/class_navigationpolygon.rst:55
+#: ../../docs/classes/class_navigationpolygon.rst:57
+#: ../../docs/classes/class_navigationpolygon.rst:59
+#: ../../docs/classes/class_navigationpolygon.rst:71
+#: ../../docs/classes/class_navigationpolygon.rst:73
+#: ../../docs/classes/class_navigationpolygon.rst:75
+#: ../../docs/classes/class_navigationpolygon.rst:77
+msgid "void"
+msgstr ""
+
+#: ../../docs/classes/class_navigationpolygon.rst:51
+msgid ":ref:`add_outline<class_NavigationPolygon_method_add_outline>` **(** :ref:`PoolVector2Array<class_PoolVector2Array>` outline **)**"
+msgstr ""
+
+#: ../../docs/classes/class_navigationpolygon.rst:53
+msgid ":ref:`add_outline_at_index<class_NavigationPolygon_method_add_outline_at_index>` **(** :ref:`PoolVector2Array<class_PoolVector2Array>` outline, :ref:`int<class_int>` index **)**"
+msgstr ""
+
+#: ../../docs/classes/class_navigationpolygon.rst:55
+msgid ":ref:`add_polygon<class_NavigationPolygon_method_add_polygon>` **(** :ref:`PoolIntArray<class_PoolIntArray>` polygon **)**"
+msgstr ""
+
+#: ../../docs/classes/class_navigationpolygon.rst:57
+msgid ":ref:`clear_outlines<class_NavigationPolygon_method_clear_outlines>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_navigationpolygon.rst:59
+msgid ":ref:`clear_polygons<class_NavigationPolygon_method_clear_polygons>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_navigationpolygon.rst:61
+#: ../../docs/classes/class_navigationpolygon.rst:69
+msgid ":ref:`PoolVector2Array<class_PoolVector2Array>`"
+msgstr ""
+
+#: ../../docs/classes/class_navigationpolygon.rst:61
+msgid ":ref:`get_outline<class_NavigationPolygon_method_get_outline>` **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_navigationpolygon.rst:63
+#: ../../docs/classes/class_navigationpolygon.rst:67
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../../docs/classes/class_navigationpolygon.rst:63
+msgid ":ref:`get_outline_count<class_NavigationPolygon_method_get_outline_count>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_navigationpolygon.rst:65
+msgid ":ref:`PoolIntArray<class_PoolIntArray>`"
+msgstr ""
+
+#: ../../docs/classes/class_navigationpolygon.rst:65
+msgid ":ref:`get_polygon<class_NavigationPolygon_method_get_polygon>` **(** :ref:`int<class_int>` idx **)**"
+msgstr ""
+
+#: ../../docs/classes/class_navigationpolygon.rst:67
+msgid ":ref:`get_polygon_count<class_NavigationPolygon_method_get_polygon_count>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_navigationpolygon.rst:69
+msgid ":ref:`get_vertices<class_NavigationPolygon_method_get_vertices>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_navigationpolygon.rst:71
+msgid ":ref:`make_polygons_from_outlines<class_NavigationPolygon_method_make_polygons_from_outlines>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_navigationpolygon.rst:73
+msgid ":ref:`remove_outline<class_NavigationPolygon_method_remove_outline>` **(** :ref:`int<class_int>` idx **)**"
+msgstr ""
+
+#: ../../docs/classes/class_navigationpolygon.rst:75
+msgid ":ref:`set_outline<class_NavigationPolygon_method_set_outline>` **(** :ref:`int<class_int>` idx, :ref:`PoolVector2Array<class_PoolVector2Array>` outline **)**"
+msgstr ""
+
+#: ../../docs/classes/class_navigationpolygon.rst:77
+msgid ":ref:`set_vertices<class_NavigationPolygon_method_set_vertices>` **(** :ref:`PoolVector2Array<class_PoolVector2Array>` vertices **)**"
+msgstr ""
+
+#: ../../docs/classes/class_navigationpolygon.rst:81
+msgid "Method Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_navigationpolygon.rst:85
+msgid "void **add_outline** **(** :ref:`PoolVector2Array<class_PoolVector2Array>` outline **)**"
+msgstr ""
+
+#: ../../docs/classes/class_navigationpolygon.rst:87
+msgid "Appends a :ref:`PoolVector2Array<class_PoolVector2Array>` that contains the vertices of an outline to the internal array that contains all the outlines. You have to call :ref:`make_polygons_from_outlines<class_NavigationPolygon_method_make_polygons_from_outlines>` in order for this array to be converted to polygons that the engine will use."
+msgstr ""
+
+#: ../../docs/classes/class_navigationpolygon.rst:93
+msgid "void **add_outline_at_index** **(** :ref:`PoolVector2Array<class_PoolVector2Array>` outline, :ref:`int<class_int>` index **)**"
+msgstr ""
+
+#: ../../docs/classes/class_navigationpolygon.rst:95
+msgid "Adds a :ref:`PoolVector2Array<class_PoolVector2Array>` that contains the vertices of an outline to the internal array that contains all the outlines at a fixed position. You have to call :ref:`make_polygons_from_outlines<class_NavigationPolygon_method_make_polygons_from_outlines>` in order for this array to be converted to polygons that the engine will use."
+msgstr ""
+
+#: ../../docs/classes/class_navigationpolygon.rst:101
+msgid "void **add_polygon** **(** :ref:`PoolIntArray<class_PoolIntArray>` polygon **)**"
+msgstr ""
+
+#: ../../docs/classes/class_navigationpolygon.rst:103
+msgid "Adds a polygon using the indices of the vertices you get when calling :ref:`get_vertices<class_NavigationPolygon_method_get_vertices>`."
+msgstr ""
+
+#: ../../docs/classes/class_navigationpolygon.rst:109
+msgid "void **clear_outlines** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_navigationpolygon.rst:111
+msgid "Clears the array of the outlines, but it doesn't clear the vertices and the polygons that were created by them."
+msgstr ""
+
+#: ../../docs/classes/class_navigationpolygon.rst:117
+msgid "void **clear_polygons** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_navigationpolygon.rst:119
+msgid "Clears the array of polygons, but it doesn't clear the array of outlines and vertices."
+msgstr ""
+
+#: ../../docs/classes/class_navigationpolygon.rst:125
+msgid ":ref:`PoolVector2Array<class_PoolVector2Array>` **get_outline** **(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_navigationpolygon.rst:127
+msgid "Returns a :ref:`PoolVector2Array<class_PoolVector2Array>` containing the vertices of an outline that was created in the editor or by script."
+msgstr ""
+
+#: ../../docs/classes/class_navigationpolygon.rst:133
+msgid ":ref:`int<class_int>` **get_outline_count** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_navigationpolygon.rst:135
+msgid "Returns the number of outlines that were created in the editor or by script."
+msgstr ""
+
+#: ../../docs/classes/class_navigationpolygon.rst:141
+msgid ":ref:`PoolIntArray<class_PoolIntArray>` **get_polygon** **(** :ref:`int<class_int>` idx **)**"
+msgstr ""
+
+#: ../../docs/classes/class_navigationpolygon.rst:143
+msgid "Returns a :ref:`PoolIntArray<class_PoolIntArray>` containing the indices of the vertices of a created polygon."
+msgstr ""
+
+#: ../../docs/classes/class_navigationpolygon.rst:149
+msgid ":ref:`int<class_int>` **get_polygon_count** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_navigationpolygon.rst:151
+msgid "Returns the count of all polygons."
+msgstr ""
+
+#: ../../docs/classes/class_navigationpolygon.rst:157
+msgid ":ref:`PoolVector2Array<class_PoolVector2Array>` **get_vertices** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_navigationpolygon.rst:159
+msgid "Returns a :ref:`PoolVector2Array<class_PoolVector2Array>` containing all the vertices being used to create the polygons."
+msgstr ""
+
+#: ../../docs/classes/class_navigationpolygon.rst:165
+msgid "void **make_polygons_from_outlines** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_navigationpolygon.rst:167
+msgid "Creates polygons from the outlines added in the editor or by script."
+msgstr ""
+
+#: ../../docs/classes/class_navigationpolygon.rst:173
+msgid "void **remove_outline** **(** :ref:`int<class_int>` idx **)**"
+msgstr ""
+
+#: ../../docs/classes/class_navigationpolygon.rst:175
+msgid "Removes an outline created in the editor or by script. You have to call :ref:`make_polygons_from_outlines<class_NavigationPolygon_method_make_polygons_from_outlines>` for the polygons to update."
+msgstr ""
+
+#: ../../docs/classes/class_navigationpolygon.rst:181
+msgid "void **set_outline** **(** :ref:`int<class_int>` idx, :ref:`PoolVector2Array<class_PoolVector2Array>` outline **)**"
+msgstr ""
+
+#: ../../docs/classes/class_navigationpolygon.rst:183
+msgid "Changes an outline created in the editor or by script. You have to call :ref:`make_polygons_from_outlines<class_NavigationPolygon_method_make_polygons_from_outlines>` for the polygons to update."
+msgstr ""
+
+#: ../../docs/classes/class_navigationpolygon.rst:189
+msgid "void **set_vertices** **(** :ref:`PoolVector2Array<class_PoolVector2Array>` vertices **)**"
+msgstr ""
+
+#: ../../docs/classes/class_navigationpolygon.rst:191
+msgid "Sets the vertices that can be then indexed to create polygons with the :ref:`add_polygon<class_NavigationPolygon_method_add_polygon>` method."
+msgstr ""

@@ -1,0 +1,61 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_panelcontainer.rst:10
+msgid "PanelContainer"
+msgstr ""
+
+#: ../../docs/classes/class_panelcontainer.rst:12
+msgid "**Inherits:** :ref:`Container<class_Container>` **<** :ref:`Control<class_Control>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_panelcontainer.rst:14
+msgid "**Inherited By:** :ref:`ScriptEditor<class_ScriptEditor>`"
+msgstr ""
+
+#: ../../docs/classes/class_panelcontainer.rst:16
+msgid "Panel container type."
+msgstr ""
+
+#: ../../docs/classes/class_panelcontainer.rst:19
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_panelcontainer.rst:21
+msgid "Panel container type. This container fits controls inside of the delimited area of a stylebox. It's useful for giving controls an outline."
+msgstr ""
+
+#: ../../docs/classes/class_panelcontainer.rst:24
+msgid "Tutorials"
+msgstr ""
+
+#: ../../docs/classes/class_panelcontainer.rst:26
+msgid "`https://godotengine.org/asset-library/asset/520 <https://godotengine.org/asset-library/asset/520>`_"
+msgstr ""
+
+#: ../../docs/classes/class_panelcontainer.rst:29
+msgid "Theme Properties"
+msgstr ""
+
+#: ../../docs/classes/class_panelcontainer.rst:32
+msgid ":ref:`StyleBox<class_StyleBox>`"
+msgstr ""
+
+#: ../../docs/classes/class_panelcontainer.rst:32
+msgid "panel"
+msgstr ""

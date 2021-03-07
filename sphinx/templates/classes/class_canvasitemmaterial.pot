@@ -1,0 +1,273 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_canvasitemmaterial.rst:10
+msgid "CanvasItemMaterial"
+msgstr ""
+
+#: ../../docs/classes/class_canvasitemmaterial.rst:12
+msgid "**Inherits:** :ref:`Material<class_Material>` **<** :ref:`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_canvasitemmaterial.rst:14
+msgid "A material for :ref:`CanvasItem<class_CanvasItem>`\\ s."
+msgstr ""
+
+#: ../../docs/classes/class_canvasitemmaterial.rst:17
+msgid "Description"
+msgstr ""
+
+#: ../../docs/classes/class_canvasitemmaterial.rst:19
+msgid "``CanvasItemMaterial``\\ s provide a means of modifying the textures associated with a CanvasItem. They specialize in describing blend and lighting behaviors for textures. Use a :ref:`ShaderMaterial<class_ShaderMaterial>` to more fully customize a material's interactions with a :ref:`CanvasItem<class_CanvasItem>`."
+msgstr ""
+
+#: ../../docs/classes/class_canvasitemmaterial.rst:22
+msgid "Properties"
+msgstr ""
+
+#: ../../docs/classes/class_canvasitemmaterial.rst:25
+msgid ":ref:`BlendMode<enum_CanvasItemMaterial_BlendMode>`"
+msgstr ""
+
+#: ../../docs/classes/class_canvasitemmaterial.rst:25
+msgid ":ref:`blend_mode<class_CanvasItemMaterial_property_blend_mode>`"
+msgstr ""
+
+#: ../../docs/classes/class_canvasitemmaterial.rst:25
+#: ../../docs/classes/class_canvasitemmaterial.rst:27
+#: ../../docs/classes/class_canvasitemmaterial.rst:91
+#: ../../docs/classes/class_canvasitemmaterial.rst:107
+msgid "``0``"
+msgstr ""
+
+#: ../../docs/classes/class_canvasitemmaterial.rst:27
+msgid ":ref:`LightMode<enum_CanvasItemMaterial_LightMode>`"
+msgstr ""
+
+#: ../../docs/classes/class_canvasitemmaterial.rst:27
+msgid ":ref:`light_mode<class_CanvasItemMaterial_property_light_mode>`"
+msgstr ""
+
+#: ../../docs/classes/class_canvasitemmaterial.rst:29
+#: ../../docs/classes/class_canvasitemmaterial.rst:33
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../../docs/classes/class_canvasitemmaterial.rst:29
+msgid ":ref:`particles_anim_h_frames<class_CanvasItemMaterial_property_particles_anim_h_frames>`"
+msgstr ""
+
+#: ../../docs/classes/class_canvasitemmaterial.rst:31
+#: ../../docs/classes/class_canvasitemmaterial.rst:35
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_canvasitemmaterial.rst:31
+msgid ":ref:`particles_anim_loop<class_CanvasItemMaterial_property_particles_anim_loop>`"
+msgstr ""
+
+#: ../../docs/classes/class_canvasitemmaterial.rst:33
+msgid ":ref:`particles_anim_v_frames<class_CanvasItemMaterial_property_particles_anim_v_frames>`"
+msgstr ""
+
+#: ../../docs/classes/class_canvasitemmaterial.rst:35
+msgid ":ref:`particles_animation<class_CanvasItemMaterial_property_particles_animation>`"
+msgstr ""
+
+#: ../../docs/classes/class_canvasitemmaterial.rst:35
+#: ../../docs/classes/class_canvasitemmaterial.rst:171
+msgid "``false``"
+msgstr ""
+
+#: ../../docs/classes/class_canvasitemmaterial.rst:39
+msgid "Enumerations"
+msgstr ""
+
+#: ../../docs/classes/class_canvasitemmaterial.rst:53
+msgid "enum **BlendMode**:"
+msgstr ""
+
+#: ../../docs/classes/class_canvasitemmaterial.rst:55
+msgid "**BLEND_MODE_MIX** = **0** --- Mix blending mode. Colors are assumed to be independent of the alpha (opacity) value."
+msgstr ""
+
+#: ../../docs/classes/class_canvasitemmaterial.rst:57
+msgid "**BLEND_MODE_ADD** = **1** --- Additive blending mode."
+msgstr ""
+
+#: ../../docs/classes/class_canvasitemmaterial.rst:59
+msgid "**BLEND_MODE_SUB** = **2** --- Subtractive blending mode."
+msgstr ""
+
+#: ../../docs/classes/class_canvasitemmaterial.rst:61
+msgid "**BLEND_MODE_MUL** = **3** --- Multiplicative blending mode."
+msgstr ""
+
+#: ../../docs/classes/class_canvasitemmaterial.rst:63
+msgid "**BLEND_MODE_PREMULT_ALPHA** = **4** --- Mix blending mode. Colors are assumed to be premultiplied by the alpha (opacity) value."
+msgstr ""
+
+#: ../../docs/classes/class_canvasitemmaterial.rst:75
+msgid "enum **LightMode**:"
+msgstr ""
+
+#: ../../docs/classes/class_canvasitemmaterial.rst:77
+msgid "**LIGHT_MODE_NORMAL** = **0** --- Render the material using both light and non-light sensitive material properties."
+msgstr ""
+
+#: ../../docs/classes/class_canvasitemmaterial.rst:79
+msgid "**LIGHT_MODE_UNSHADED** = **1** --- Render the material as if there were no light."
+msgstr ""
+
+#: ../../docs/classes/class_canvasitemmaterial.rst:81
+msgid "**LIGHT_MODE_LIGHT_ONLY** = **2** --- Render the material as if there were only light."
+msgstr ""
+
+#: ../../docs/classes/class_canvasitemmaterial.rst:84
+msgid "Property Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_canvasitemmaterial.rst:88
+msgid ":ref:`BlendMode<enum_CanvasItemMaterial_BlendMode>` **blend_mode**"
+msgstr ""
+
+#: ../../docs/classes/class_canvasitemmaterial.rst:91
+#: ../../docs/classes/class_canvasitemmaterial.rst:107
+#: ../../docs/classes/class_canvasitemmaterial.rst:171
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_canvasitemmaterial.rst:93
+#: ../../docs/classes/class_canvasitemmaterial.rst:109
+#: ../../docs/classes/class_canvasitemmaterial.rst:123
+#: ../../docs/classes/class_canvasitemmaterial.rst:139
+#: ../../docs/classes/class_canvasitemmaterial.rst:155
+#: ../../docs/classes/class_canvasitemmaterial.rst:173
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_canvasitemmaterial.rst:93
+msgid "set_blend_mode(value)"
+msgstr ""
+
+#: ../../docs/classes/class_canvasitemmaterial.rst:95
+#: ../../docs/classes/class_canvasitemmaterial.rst:111
+#: ../../docs/classes/class_canvasitemmaterial.rst:125
+#: ../../docs/classes/class_canvasitemmaterial.rst:141
+#: ../../docs/classes/class_canvasitemmaterial.rst:157
+#: ../../docs/classes/class_canvasitemmaterial.rst:175
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_canvasitemmaterial.rst:95
+msgid "get_blend_mode()"
+msgstr ""
+
+#: ../../docs/classes/class_canvasitemmaterial.rst:98
+msgid "The manner in which a material's rendering is applied to underlying textures."
+msgstr ""
+
+#: ../../docs/classes/class_canvasitemmaterial.rst:104
+msgid ":ref:`LightMode<enum_CanvasItemMaterial_LightMode>` **light_mode**"
+msgstr ""
+
+#: ../../docs/classes/class_canvasitemmaterial.rst:109
+msgid "set_light_mode(value)"
+msgstr ""
+
+#: ../../docs/classes/class_canvasitemmaterial.rst:111
+msgid "get_light_mode()"
+msgstr ""
+
+#: ../../docs/classes/class_canvasitemmaterial.rst:114
+msgid "The manner in which material reacts to lighting."
+msgstr ""
+
+#: ../../docs/classes/class_canvasitemmaterial.rst:120
+msgid ":ref:`int<class_int>` **particles_anim_h_frames**"
+msgstr ""
+
+#: ../../docs/classes/class_canvasitemmaterial.rst:123
+msgid "set_particles_anim_h_frames(value)"
+msgstr ""
+
+#: ../../docs/classes/class_canvasitemmaterial.rst:125
+msgid "get_particles_anim_h_frames()"
+msgstr ""
+
+#: ../../docs/classes/class_canvasitemmaterial.rst:128
+msgid "The number of columns in the spritesheet assigned as :ref:`Texture<class_Texture>` for a :ref:`Particles2D<class_Particles2D>` or :ref:`CPUParticles2D<class_CPUParticles2D>`."
+msgstr ""
+
+#: ../../docs/classes/class_canvasitemmaterial.rst:130
+#: ../../docs/classes/class_canvasitemmaterial.rst:146
+#: ../../docs/classes/class_canvasitemmaterial.rst:162
+msgid "**Note:** This property is only used and visible in the editor if :ref:`particles_animation<class_CanvasItemMaterial_property_particles_animation>` is ``true``."
+msgstr ""
+
+#: ../../docs/classes/class_canvasitemmaterial.rst:136
+msgid ":ref:`bool<class_bool>` **particles_anim_loop**"
+msgstr ""
+
+#: ../../docs/classes/class_canvasitemmaterial.rst:139
+msgid "set_particles_anim_loop(value)"
+msgstr ""
+
+#: ../../docs/classes/class_canvasitemmaterial.rst:141
+msgid "get_particles_anim_loop()"
+msgstr ""
+
+#: ../../docs/classes/class_canvasitemmaterial.rst:144
+msgid "If ``true``, the particles animation will loop."
+msgstr ""
+
+#: ../../docs/classes/class_canvasitemmaterial.rst:152
+msgid ":ref:`int<class_int>` **particles_anim_v_frames**"
+msgstr ""
+
+#: ../../docs/classes/class_canvasitemmaterial.rst:155
+msgid "set_particles_anim_v_frames(value)"
+msgstr ""
+
+#: ../../docs/classes/class_canvasitemmaterial.rst:157
+msgid "get_particles_anim_v_frames()"
+msgstr ""
+
+#: ../../docs/classes/class_canvasitemmaterial.rst:160
+msgid "The number of rows in the spritesheet assigned as :ref:`Texture<class_Texture>` for a :ref:`Particles2D<class_Particles2D>` or :ref:`CPUParticles2D<class_CPUParticles2D>`."
+msgstr ""
+
+#: ../../docs/classes/class_canvasitemmaterial.rst:168
+msgid ":ref:`bool<class_bool>` **particles_animation**"
+msgstr ""
+
+#: ../../docs/classes/class_canvasitemmaterial.rst:173
+msgid "set_particles_animation(value)"
+msgstr ""
+
+#: ../../docs/classes/class_canvasitemmaterial.rst:175
+msgid "get_particles_animation()"
+msgstr ""
+
+#: ../../docs/classes/class_canvasitemmaterial.rst:178
+msgid "If ``true``, enable spritesheet-based animation features when assigned to :ref:`Particles2D<class_Particles2D>` and :ref:`CPUParticles2D<class_CPUParticles2D>` nodes. The :ref:`ParticlesMaterial.anim_speed<class_ParticlesMaterial_property_anim_speed>` or :ref:`CPUParticles2D.anim_speed<class_CPUParticles2D_property_anim_speed>` should also be set to a positive value for the animation to play."
+msgstr ""
+
+#: ../../docs/classes/class_canvasitemmaterial.rst:180
+msgid "This property (and other ``particles_anim_*`` properties that depend on it) has no effect on other types of nodes."
+msgstr ""

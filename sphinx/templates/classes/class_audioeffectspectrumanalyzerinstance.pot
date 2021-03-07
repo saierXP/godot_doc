@@ -1,0 +1,61 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_audioeffectspectrumanalyzerinstance.rst:10
+msgid "AudioEffectSpectrumAnalyzerInstance"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectspectrumanalyzerinstance.rst:12
+msgid "**Inherits:** :ref:`AudioEffectInstance<class_AudioEffectInstance>` **<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectspectrumanalyzerinstance.rst:17
+msgid "Methods"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectspectrumanalyzerinstance.rst:20
+msgid ":ref:`Vector2<class_Vector2>`"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectspectrumanalyzerinstance.rst:20
+msgid ":ref:`get_magnitude_for_frequency_range<class_AudioEffectSpectrumAnalyzerInstance_method_get_magnitude_for_frequency_range>` **(** :ref:`float<class_float>` from_hz, :ref:`float<class_float>` to_hz, :ref:`MagnitudeMode<enum_AudioEffectSpectrumAnalyzerInstance_MagnitudeMode>` mode=1 **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectspectrumanalyzerinstance.rst:24
+msgid "Enumerations"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectspectrumanalyzerinstance.rst:32
+msgid "enum **MagnitudeMode**:"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectspectrumanalyzerinstance.rst:34
+msgid "**MAGNITUDE_AVERAGE** = **0** --- Use the average value as magnitude."
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectspectrumanalyzerinstance.rst:36
+msgid "**MAGNITUDE_MAX** = **1** --- Use the maximum value as magnitude."
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectspectrumanalyzerinstance.rst:39
+msgid "Method Descriptions"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectspectrumanalyzerinstance.rst:43
+msgid ":ref:`Vector2<class_Vector2>` **get_magnitude_for_frequency_range** **(** :ref:`float<class_float>` from_hz, :ref:`float<class_float>` to_hz, :ref:`MagnitudeMode<enum_AudioEffectSpectrumAnalyzerInstance_MagnitudeMode>` mode=1 **)** |const|"
+msgstr ""
