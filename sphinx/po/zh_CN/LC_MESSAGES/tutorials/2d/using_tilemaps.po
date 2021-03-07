@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"POT-Creation-Date: 2021-03-07 21:43+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -71,8 +71,8 @@ msgid ""
 msgstr ""
 "使用图块集时，相邻的图块匹配很重要。 Godot的默认设置是使用插值的“滤镜"
 "(Filter)”模式导入2D图像，这将导致图块之间的边界很丑。选择图像，然后单击\"导入"
-"(Import)\"选项卡。关闭``Filter``，然后单击“重新导入”。有关详细信息，请参见 :"
-"ref:`doc_import_images` 。"
+"(Import)\"选项卡。关闭 ``Filter`` ，然后单击“重新导入”。有关详细信息，请参"
+"见 :ref:`doc_import_images` 。"
 
 #: ../../docs/tutorials/2d/using_tilemaps.rst:37
 msgid "TileMap node"
@@ -84,9 +84,9 @@ msgid ""
 "TileMap uses a square grid of tiles. You can also use a perspective-based "
 "\"Isometric\" mode or define your own custom tile shape."
 msgstr ""
-"在场景中添加一个新的TileMap <class_TileMap>节点。默认情况下，TileMap使用正方"
-"形的图块网格。您还可以使用基于透视图的“Isometric”模式或定义自己的自定义图块形"
-"状。"
+"在场景中添加一个新的 :ref:`TileMap <class_TileMap>` 节点。默认情况下，TileMap"
+"使用正方形的图块网格。您还可以使用基于透视图的“Isometric”模式或定义自己的自定"
+"义图块形状。"
 
 #: ../../docs/tutorials/2d/using_tilemaps.rst:45
 msgid ""
@@ -103,7 +103,7 @@ msgid ""
 "This defines the size of the grid. This should match the pixel size of your "
 "tiles. The default value is ``(64, 64)``."
 msgstr ""
-"这定义了网格的大小。这应与您的图块的像素大小匹配。默认值为``（64，64）''。"
+"这定义了网格的大小。这应与您的图块的像素大小匹配。默认值为 ``（64，64） `` 。"
 
 #: ../../docs/tutorials/2d/using_tilemaps.rst:56
 msgid "``YSort``"
@@ -114,8 +114,8 @@ msgid ""
 "This causes tiles to be drawn in order of their ``Y`` position, so that "
 "\"lower\" tiles are drawn on top of \"higher\" ones."
 msgstr ""
-"这将导致以“ Y”(竖直方向)位置的顺序绘制图块，这样的话“较低”图块的绘制覆盖在“较"
-"高”图块的上面。"
+"这将导致以 ``Y`` (竖直方向)位置的顺序绘制图块，这样的话“较低”图块的绘制覆盖"
+"在“较高”图块的上面。"
 
 #: ../../docs/tutorials/2d/using_tilemaps.rst:59
 msgid "``Half Offset`` and ``Tile Origin``"
@@ -176,12 +176,10 @@ msgstr ""
 "若要添加新TileSet，请单击“Tile Set”属性并选择“新建 TileSet(New TileSet)”。"
 
 #: ../../docs/tutorials/2d/using_tilemaps.rst:84
-#, fuzzy
 msgid ""
 "Click on the TileSet property, and the \"TileSet\" panel will open at the "
 "bottom of the editor window:"
-msgstr ""
-"当你这么做的时候你会看到一个\"TileSet(瓦片集)\"面板出现在编辑器窗口的底部："
+msgstr "单击TileSet属性，“TileSet”面板将在编辑器窗口底部打开："
 
 #: ../../docs/tutorials/2d/using_tilemaps.rst:89
 msgid ""
@@ -190,7 +188,7 @@ msgid ""
 "image."
 msgstr ""
 "首先，您需要添加用于砖块的纹理。点击“Add Texture(s) to TileSet(添加纹理到磁贴"
-"集)”按钮，选择``tileshev et.png``的图片。"
+"集)”按钮，选择 ``tilesheet.png`` 的图片。"
 
 #: ../../docs/tutorials/2d/using_tilemaps.rst:92
 msgid ""
@@ -256,14 +254,13 @@ msgid "Atlas tiles"
 msgstr "Atlas Tiles(图块组)"
 
 #: ../../docs/tutorials/2d/using_tilemaps.rst:129
-#, fuzzy
 msgid ""
 "Rather than adding individual tiles one at a time, you can define a group of "
 "tiles all at once using an atlas. This also allows you to randomly generate "
 "tiles from the group."
 msgstr ""
-"与其一次添加一个图块，您可以使用图块组(Atlas Tiles)一次性定义一组图块。单"
-"击“New Atlas”并拖动以选择整张图块清单(tile sheet)。"
+"你可以使用地图集（atlas）一次定义一组图块，而不必一次添加一个图块。这也允许你"
+"从组中随机生成图块。"
 
 #: ../../docs/tutorials/2d/using_tilemaps.rst:133
 msgid "Click \"New Atlas\" and drag to select the entire tile sheet."
@@ -275,8 +272,8 @@ msgid ""
 "settings to `(64, 64)`, or your tiles may be chopped into smaller pieces. "
 "You can find this in the Inspector:"
 msgstr ""
-"如果你还没有设置，请确保将Snap Options中的“Step”更改为“(64,64)” 或者别的适合"
-"你图块的大小。你可以在属性面板中找到它："
+"如果你还没有设置，请确保将Snap Options中的“Step”更改为 `(64, 64)` 或者别的适"
+"合你图块的大小。你可以在属性面板中找到它："
 
 #: ../../docs/tutorials/2d/using_tilemaps.rst:143
 msgid ""
@@ -305,7 +302,7 @@ msgstr ""
 #: ../../docs/tutorials/2d/using_tilemaps.rst:156
 #, fuzzy
 msgid "Random tile priorities"
-msgstr "Render priority(渲染优先级)"
+msgstr "Random tile priorities（随机图块优先级）"
 
 #: ../../docs/tutorials/2d/using_tilemaps.rst:158
 msgid ""
@@ -386,9 +383,8 @@ msgid ""
 msgstr "位掩码必须满足所有\"on\"和\"off'位才能匹配，但\"ignore\"位会被忽略。"
 
 #: ../../docs/tutorials/2d/using_tilemaps.rst:195
-#, fuzzy
 msgid "2x2"
-msgstr "22"
+msgstr "2x2"
 
 #: ../../docs/tutorials/2d/using_tilemaps.rst:197
 msgid "In 2x2 mode, each bitmask contains four bits, one for each corner."
@@ -452,14 +448,13 @@ msgstr "Key:"
 
 #: ../../docs/tutorials/2d/using_tilemaps.rst:221
 #: ../../docs/tutorials/2d/using_tilemaps.rst:254
-#, fuzzy
 msgid "Red: \"on\""
-msgstr "Red: \"on\""
+msgstr "红色：“on”"
 
 #: ../../docs/tutorials/2d/using_tilemaps.rst:222
 #: ../../docs/tutorials/2d/using_tilemaps.rst:255
 msgid "White: \"off\""
-msgstr "白色: \"off\""
+msgstr "白色：“off”"
 
 #: ../../docs/tutorials/2d/using_tilemaps.rst:227
 msgid "3x3 (minimal)"
@@ -498,7 +493,7 @@ msgstr "总共需要47个图块，才能为该模式可以测试的每种设置�
 
 #: ../../docs/tutorials/2d/using_tilemaps.rst:244
 msgid "Right-click an image and choose **Save image as…** to save it."
-msgstr "右键单击图像并选择**保存图像为...**来保存它。"
+msgstr "右键单击图像并选择 **保存图像为...** 来保存它。"
 
 #: ../../docs/tutorials/2d/using_tilemaps.rst:248
 msgid ""
@@ -550,7 +545,7 @@ msgstr "**模版 - 上帝视角的墙 3/4 透视 (厚墙):**"
 msgid ""
 "When using this template, set the TileSet subtile size to ``Vector2(64, "
 "88)``."
-msgstr "使用此模板时，将图块集子图块大小设置为``Vector2(64, 88)``。"
+msgstr "使用此模板时，将图块集子图块大小设置为 ``Vector2(64, 88)`` 。"
 
 #: ../../docs/tutorials/2d/using_tilemaps.rst:281
 msgid "**Template - Top-down wall in 3/4 perspective (tall walls):**"
@@ -562,8 +557,8 @@ msgid ""
 "184)`` and the \"Selected Tile\" Texture offset to height minus the cell "
 "size. This means the texture offset should be ``Vector2(0, -120)``:"
 msgstr ""
-"使用该模板时，将 \"吸附选项\"步长设置为``Vector2(64, 184)``，\"选定图块\"纹理"
-"偏移为高度减去单元格大小，这意味着纹理偏移应该是``Vector2(0, -120)``:"
+"使用该模板时，将 \"吸附选项\"步长设置为 ``Vector2(64, 184)`` ，“选定图块”纹理"
+"偏移为高度减去单元格大小，这意味着纹理偏移应该是 ``Vector2(0, -120)`` ："
 
 #: ../../docs/tutorials/2d/using_tilemaps.rst:290
 msgid "3x3"
@@ -656,10 +651,9 @@ msgid ""
 msgstr "您可以使用编辑器右上方的图标来翻转和旋转图块。"
 
 #: ../../docs/tutorials/2d/using_tilemaps.rst:334
-#, fuzzy
 msgid ""
 "To draw straight lines, hold :kbd:`Shift` while clicking and dragging a tile."
-msgstr "要绘制直线，请在单击并拖动图块时按住<Shift>。"
+msgstr "要绘制直线，请在点击并拖动图块时按住 :kbd:`Shift` 。"
 
 #: ../../docs/tutorials/2d/using_tilemaps.rst:336
 msgid ""

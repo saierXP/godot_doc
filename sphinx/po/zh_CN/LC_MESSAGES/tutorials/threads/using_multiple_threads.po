@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"POT-Creation-Date: 2021-03-07 21:43+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -39,7 +39,7 @@ msgstr ""
 msgid ""
 "If using other languages (C#, C++), it may be easier to use the threading "
 "classes they support."
-msgstr ""
+msgstr "如果使用其他语言（C#、C++），它们支持的线程类可能会更容易使用。"
 
 #: ../../docs/tutorials/threads/using_multiple_threads.rst:18
 #, fuzzy

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"POT-Creation-Date: 2021-03-07 21:43+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -907,17 +907,17 @@ msgstr "14: :ref:`Color<class_color>`"
 #: ../../docs/tutorials/misc/binary_serialization_api.rst:301
 #: ../../docs/tutorials/misc/binary_serialization_api.rst:475
 msgid "Red (typically 0..1, can be above 1 for overbright colors)"
-msgstr ""
+msgstr "红色(一般为0...1，对于过亮的颜色可大于1)"
 
 #: ../../docs/tutorials/misc/binary_serialization_api.rst:303
 #: ../../docs/tutorials/misc/binary_serialization_api.rst:477
 msgid "Green (typically 0..1, can be above 1 for overbright colors)"
-msgstr ""
+msgstr "绿色(一般为0...1，对于过亮的颜色可大于1)"
 
 #: ../../docs/tutorials/misc/binary_serialization_api.rst:305
 #: ../../docs/tutorials/misc/binary_serialization_api.rst:479
 msgid "Blue (typically 0..1, can be above 1 for overbright colors)"
-msgstr ""
+msgstr "蓝色(一般为0...1，对于过亮的颜色可大于1)"
 
 #: ../../docs/tutorials/misc/binary_serialization_api.rst:307
 #: ../../docs/tutorials/misc/binary_serialization_api.rst:481

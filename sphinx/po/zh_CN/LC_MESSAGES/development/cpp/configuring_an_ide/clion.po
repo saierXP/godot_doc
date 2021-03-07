@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"POT-Creation-Date: 2021-03-07 21:43+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,10 +22,13 @@ msgid "CLion"
 msgstr "CLion"
 
 #: ../../docs/development/cpp/configuring_an_ide/clion.rst:6
+#, fuzzy
 msgid ""
 "`CLion <https://www.jetbrains.com/clion/>`_ is a commercial `JetBrains "
 "<https://www.jetbrains.com/>`_ IDE for C++."
 msgstr ""
+"`CLion <https://www.jetbrains.com/clion/>`_是一个商用的`JetBrains <https://"
+"www.jetbrains.com/>`_ C++的IDE。"
 
 #: ../../docs/development/cpp/configuring_an_ide/clion.rst:10
 msgid "Importing the project"

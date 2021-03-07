@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"POT-Creation-Date: 2021-03-07 21:43+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -332,8 +332,9 @@ msgid "Editor interface (C++)"
 msgstr "Godot接口"
 
 #: ../../docs/community/contributing/editor_and_docs_localization.rst:215
+#, fuzzy
 msgid "The editor translations originate from C++ strings, and may use:"
-msgstr ""
+msgstr "编辑器翻译源自C++字符串，可使用："
 
 #: ../../docs/community/contributing/editor_and_docs_localization.rst:217
 msgid ""

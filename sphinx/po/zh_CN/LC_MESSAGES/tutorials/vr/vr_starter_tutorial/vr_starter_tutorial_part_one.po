@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"POT-Creation-Date: 2021-03-07 21:43+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -938,22 +938,23 @@ msgid ""
 "changes in the VR controller, and so the teleport mesh can be used by both "
 "VR controllers."
 msgstr ""
-"接下来我们获得:ref:`Raycast <class_Raycast>`节点，将使用它来确定传送的位置，"
-"并将其分配给``teleport_raycast``变量。然后我们获得:ref:`MeshInstance "
-"<class_MeshInstance>`节点，用其显示玩家被传送到哪里。我们用来传送的节点是"
-"``Game``场景的一个子节点，这样做是为了让传送网格节点不受VR控制器变化的影响，"
+"接下来我们获得 :ref:`Raycast <class_Raycast>`节点，将使用它来确定传送的位置，"
+"并将其分配给 ``teleport_raycast`` 变量。然后我们获得 :ref:`MeshInstance "
+"<class_MeshInstance>`节点，用其显示玩家被传送到哪里。我们用来传送的节点是 "
+"``Game`` 场景的一个子节点，这样做是为了让传送网格节点不受VR控制器变化的影响，"
 "传送网格可以被两个VR控制器使用。"
 
 #: ../../docs/tutorials/vr/vr_starter_tutorial/vr_starter_tutorial_part_one.rst:582
+#, fuzzy
 msgid ""
 "Then the ``teleport_button_down`` variable is set to false, ``teleport_mesh."
 "visible`` is set to ``false``, and ``teleport_raycast.visible`` is set to "
 "``false``. This sets up the variables for teleporting the player into their "
 "initial, not teleporting the player, state."
 msgstr ""
-"然后将``teleport_button_down``变量设置为false，``teleport_mesh.visible``设置"
-"为``false``，``teleport_raycast.visible```设置为``false``，这样就设置了传送玩"
-"家进入初始状态，而不是传送玩家的变量。"
+"然后将 ``teleport_button_down`` 变量设置为false， ``teleport_mesh.visible`` "
+"设置为 ``false`` ， ``teleport_raycast.visible`` 设置为 ``false`` ，这样就设"
+"置了传送玩家进入初始状态，而不是传送玩家的变量。"
 
 #: ../../docs/tutorials/vr/vr_starter_tutorial/vr_starter_tutorial_part_one.rst:585
 #, fuzzy
@@ -974,7 +975,7 @@ msgid ""
 "'laser sight' child node of ``grab_raycast`` is not visible."
 msgstr ""
 "接下来将 ``grab_mode`` 设置为 ``AREA`` ，这样VR 控制器将尝试在按下 VR 控制器"
-"的抓取/紧握按钮时使用 ``grab_area`` 中定义的 :ref:`区域（Area） "
+"的抓取/握持按钮时使用 ``grab_area`` 中定义的 :ref:`区域（Area） "
 "<class_Area>` 节点抓取对象。我们还将 ``grab_raycast`` 节点的 ``visible`` 属性"
 "设置为 ``false`` ，这样 ``grab_raycast`` 的 ‘激光瞄准器（laser sight）’子节点"
 "就不可见了。"
@@ -987,6 +988,10 @@ msgid ""
 "``sleep_area_exited`` functions will be used to make :ref:`RigidBody "
 "<class_RigidBody>` nodes unable to sleep when nearby the VR controller."
 msgstr ""
+"之后我们将VR控制器中的 \"Sleep_Area \"节点的 \"body_entered \"和 "
+"\"body_exited \"信号连接到 \"sleep_area_entered \"和 \"sleep_area_exited \"函"
+"数中。`sleep_area_entered``和`sleep_area_exited``函数将用于使:ref:`RigidBody "
+"<class_RigidBody>`节点在VR控制器附近时无法休眠。"
 
 #: ../../docs/tutorials/vr/vr_starter_tutorial/vr_starter_tutorial_part_one.rst:593
 #, fuzzy
@@ -1004,6 +1009,10 @@ msgid ""
 "is pressed or released, the ``button_pressed`` or ``button_released`` "
 "functions defined in this script will be called."
 msgstr ""
+"最后，VR控制器扩展的:ref:`ARVRController <class_ARVRController>`节点中的"
+"`button_pressed``和`button_release``信号分别与`button_pressed``和"
+"`button_released``函数相连。这意味着当VR控制器上的某个按钮被按下或释放时，本"
+"脚本中定义的 \"button_pressed \"或 \"button_released \"函数将被调用。"
 
 #: ../../docs/tutorials/vr/vr_starter_tutorial/vr_starter_tutorial_part_one.rst:601
 #, fuzzy
@@ -1017,6 +1026,9 @@ msgid ""
 "<class_ARVRController>` node, is more than zero then the VR controller "
 "rumbles."
 msgstr ""
+"首先我们检查``rumble``变量是否大于零。如果``rumble``变量，也就是:ref:"
+"`ARVRController <class_ARVRController>`节点的一个属性，大于零，那么VR控制器就"
+"会发出隆隆声。"
 
 #: ../../docs/tutorials/vr/vr_starter_tutorial/vr_starter_tutorial_part_one.rst:606
 msgid ""
@@ -1026,6 +1038,10 @@ msgid ""
 "condition to check if ``rumble`` is less than zero, which sets ``rumble`` to "
 "zero if its value is less than zero."
 msgstr ""
+"如果``rumble``变量大于零，那么我们每隔一秒用``CONTROLLER_RUMBLE_FADE_SPEED``"
+"减去``CONTROLLER_RUMBLE_FADE_SPEED``乘以delta，就可以减少rumble``。然后有一个"
+"``if``条件来检查``rumble``是否小于零，如果其值小于零，则将``rumble``设置为"
+"零。"
 
 #: ../../docs/tutorials/vr/vr_starter_tutorial/vr_starter_tutorial_part_one.rst:609
 msgid ""
@@ -1033,6 +1049,8 @@ msgid ""
 "rumble. Now when we set ``rumble`` to a value, this code will automatically "
 "make it fade over time."
 msgstr ""
+"这一小段代码是我们减少VR控制器的隆隆声所需要的全部内容。现在，当我们将"
+"``rumble``设置为一个值时，这段代码将自动使其随着时间的推移而逐渐消失。"
 
 #: ../../docs/tutorials/vr/vr_starter_tutorial/vr_starter_tutorial_part_one.rst:613
 msgid ""
@@ -1040,6 +1058,8 @@ msgid ""
 "variable is equal to ``true``, which means this VR controller is trying to "
 "teleport."
 msgstr ""
+"第一段代码检查``teleport_button_down``变量是否等于``true``，这意味着这个VR控"
+"制器正在尝试传送。"
 
 #: ../../docs/tutorials/vr/vr_starter_tutorial/vr_starter_tutorial_part_one.rst:615
 #, fuzzy
@@ -1065,6 +1085,11 @@ msgid ""
 "vector returned by the raycast is greater than or equal to ``0.85`` on the Y "
 "axis."
 msgstr ""
+"这段代码通过检查`teleport_raycast``中的`is_colliding``函数是否为真，来检查"
+"`teleport_raycast``是否与任何东西相撞。如果:ref:`Raycast <class_Raycast>`与某"
+"物相撞，我们就检查:ref:`PhysicsBody <class_PhysicsBody>`与Raycast相撞的:ref:"
+"`StaticBody <class_StaticBody>`是否为:ref:`StaticBody <class_StaticBody>`。然"
+"后我们检查raycast返回的碰撞法向量在Y轴上是否大于或等于``0.85``。"
 
 #: ../../docs/tutorials/vr/vr_starter_tutorial/vr_starter_tutorial_part_one.rst:622
 msgid ""
@@ -1072,6 +1097,8 @@ msgid ""
 "RigidBody nodes and we only want the player to be able to teleport on floor-"
 "like surfaces."
 msgstr ""
+"我们这样做是因为我们不希望用户能够传送到RigidBody节点上，我们只希望玩家能够在"
+"类似地板的表面进行传送。"
 
 #: ../../docs/tutorials/vr/vr_starter_tutorial/vr_starter_tutorial_part_one.rst:624
 msgid ""
@@ -1081,6 +1108,10 @@ msgid ""
 "world space. We then move the ``teleport_mesh`` to the world position stored "
 "in ``teleport_pos``."
 msgstr ""
+"如果所有这些条件都得到满足，那么我们就将``teleport_pos``变量分配给"
+"``teleport_raycast``中的``get_collision_point``函数。这将把``teleport_pos``分"
+"配给射线广播在世界空间中碰撞的位置。然后我们将``teleport_mesh``移动到"
+"``teleport_pos``中存储的世界位置。"
 
 #: ../../docs/tutorials/vr/vr_starter_tutorial/vr_starter_tutorial_part_one.rst:627
 msgid ""
@@ -1089,6 +1120,8 @@ msgid ""
 "update on where the user will be teleporting to when the release the "
 "teleport button."
 msgstr ""
+"这段代码将通过传送射线广播获得玩家瞄准的位置，并更新传送网，在释放传送按钮"
+"时，直观地更新用户将传送到哪里。"
 
 #: ../../docs/tutorials/vr/vr_starter_tutorial/vr_starter_tutorial_part_one.rst:632
 msgid ""
@@ -1097,6 +1130,9 @@ msgid ""
 "`ARVRController <class_ARVRController>`. If the VR controller is active, "
 "then it calls the ``_physics_process_update_controller_velocity`` function."
 msgstr ""
+"下一节代码首先通过``get_is_active``函数检查VR控制器是否处于活动状态，该函数"
+"由:ref:`ARVRController <class_ARVRController>`定义。如果VR控制器是活动的，那"
+"么它就会调用``_physics_process_update_controller_velocity``函数。"
 
 #: ../../docs/tutorials/vr/vr_starter_tutorial/vr_starter_tutorial_part_one.rst:635
 msgid ""
@@ -1105,6 +1141,9 @@ msgid ""
 "but this process gets a rough idea of the velocity of the VR controller, "
 "which is fine for the purposes of this tutorial."
 msgstr ""
+"``_physics_process_update_controller_velocity``函数将通过位置的变化来计算VR控"
+"制器的速度。它并不完美，但这个过程可以得到VR控制器的速度的一个大致概念，对于"
+"本教程的目的来说，这是很好的。"
 
 #: ../../docs/tutorials/vr/vr_starter_tutorial/vr_starter_tutorial_part_one.rst:640
 msgid ""
@@ -1112,6 +1151,8 @@ msgid ""
 "object by checking to see if the ``held_object`` variable is not equal to "
 "``null``."
 msgstr ""
+"下一段代码通过检查``held_object``变量是否不等于``null``来检查VR控制器是否持有"
+"一个对象。"
 
 #: ../../docs/tutorials/vr/vr_starter_tutorial/vr_starter_tutorial_part_one.rst:642
 msgid ""
@@ -1121,6 +1162,10 @@ msgid ""
 "``held_object`` node. This will make the held object have the same position, "
 "rotation, and scale of the ``grab_pos_node`` node in world space."
 msgstr ""
+"如果VR控制器持有一个对象，我们首先将它的比例存储在一个名为``held_scale``的临"
+"时变量中。然后我们将持有对象的``global_transform``设置为``held_object``节点的"
+"``global_transform``。这将使持有的对象在世界空间中具有与``grab_pos_node``节点"
+"相同的位置、旋转和比例。"
 
 #: ../../docs/tutorials/vr/vr_starter_tutorial/vr_starter_tutorial_part_one.rst:645
 msgid ""
@@ -1128,12 +1173,16 @@ msgid ""
 "is grabbed, we need to set the ``scale`` property of the ``held_object`` "
 "node back to ``held_scale``."
 msgstr ""
+"但是，由于我们不希望被抓取的对象在被抓取时的比例发生变化，我们需要将"
+"``held_object``节点的``scale``属性设置为``held_scale``。"
 
 #: ../../docs/tutorials/vr/vr_starter_tutorial/vr_starter_tutorial_part_one.rst:647
 msgid ""
 "This section of code will keep the held object in the same position and "
 "rotation as the VR controller, keeping it synced with the VR controller."
 msgstr ""
+"这段代码将使持有的物体与VR控制器保持相同的位置和旋转，使其与VR控制器保持同"
+"步。"
 
 #: ../../docs/tutorials/vr/vr_starter_tutorial/vr_starter_tutorial_part_one.rst:651
 msgid ""
@@ -1142,6 +1191,8 @@ msgid ""
 "all the code for moving the player when the touchpad/joystick on the VR "
 "controller moves."
 msgstr ""
+"最后，最后一段代码只是简单地调用``_physics_process_directional_movement``函"
+"数。这个函数包含了当VR控制器上的触摸板/操纵杆移动时移动玩家的所有代码。"
 
 #: ../../docs/tutorials/vr/vr_starter_tutorial/vr_starter_tutorial_part_one.rst:656
 #, fuzzy
@@ -1165,6 +1216,10 @@ msgid ""
 "there are cached velocities within ``prior_controller_velocities``, then we "
 "iterate through each of the stored velocities using a ``for`` loop."
 msgstr ""
+"然后我们检查是否有任何存储/缓存的VR控制器速度保存在"
+"``prior_controller_velocities``数组中。我们通过检查``size()``函数是否返回一个"
+"大于``0``的值。如果在``prior_controller_velocities``中存在缓存的速度，那么我"
+"们就使用``for``循环对每个存储的速度进行迭代。"
 
 #: ../../docs/tutorials/vr/vr_starter_tutorial/vr_starter_tutorial_part_one.rst:665
 msgid ""
@@ -1176,6 +1231,10 @@ msgid ""
 "previous velocities into account, making the direction of the controller's "
 "velocity more accurate."
 msgstr ""
+"对于每一个缓存的速度，我们只需将其值添加到``controller_velocity``中。一旦代码"
+"通过了``prior_controller_velocities``中的所有缓存速度，我们将"
+"``controller_velocity``除以``prior_controller_velocities``数组的大小，就会得"
+"到综合速度值。这有助于将之前的速度考虑在内，使控制器的速度方向更加准确。"
 
 #: ../../docs/tutorials/vr/vr_starter_tutorial/vr_starter_tutorial_part_one.rst:671
 msgid ""
@@ -1187,6 +1246,11 @@ msgid ""
 "``prior_controller_position`` to the current position of the VR controller, "
 "which we store in a variable called ``relative_controller_position``."
 msgstr ""
+"接下来我们计算VR控制器自上次``_physics_process``函数调用后的位置变化。我们通"
+"过从VR控制器的全局位置``global_transform.origin``中减去"
+"``prior_controller_position``来计算。这将给我们一个:ref:`Vector3 "
+"<class_Vector3>`从``prior_controller_position``中的位置指向VR控制器的当前位"
+"置，我们将其存储在一个名为``relative_controller_position``的变量中。"
 
 #: ../../docs/tutorials/vr/vr_starter_tutorial/vr_starter_tutorial_part_one.rst:675
 msgid ""
@@ -1196,6 +1260,10 @@ msgid ""
 "so it can be taken into account on the next calculation of the VR "
 "controller's velocity."
 msgstr ""
+"接下来我们将位置的变化添加到``controller_velocity``中，这样在计算速度时就会考"
+"虑到最新的位置变化。然后我们将``relative_controller_position``添加到"
+"``prior_controller_velocities``中，这样在下一次计算VR控制器的速度时就可以将其"
+"考虑进去。"
 
 #: ../../docs/tutorials/vr/vr_starter_tutorial/vr_starter_tutorial_part_one.rst:678
 msgid ""
@@ -1207,6 +1275,10 @@ msgid ""
 "decent most of the time and for the purposes of this tutorial, it is good "
 "enough."
 msgstr ""
+"然后``prior_controller_position``用VR控制器的全局位置``global_transform."
+"origin``更新。然后我们将``controller_velocity``除以``delta``，这样速度就会更"
+"高，得到的结果就像我们期望的那样，同时还是相对于已经过去的时间量。这不是一个"
+"完美的解决方案，但大多数时候结果看起来还不错，就本教程而言，这已经足够了。"
 
 #: ../../docs/tutorials/vr/vr_starter_tutorial/vr_starter_tutorial_part_one.rst:682
 msgid ""
@@ -1217,6 +1289,10 @@ msgid ""
 "remove the oldest cached velocity by calling the ``remove`` function and "
 "passing in a index position of ``0``."
 msgstr ""
+"后，函数检查``prior_controller_velocities``是否有超过``30``的速度缓存，检查"
+"``size()``函数是否返回一个大于``30``的值。如果在"
+"``prior_controller_velocities``中存储了超过``30``的缓存速度，那么我们只需通过"
+"调用``remove``函数并传递一个``0``的索引位置来删除最老的缓存速度。"
 
 #: ../../docs/tutorials/vr/vr_starter_tutorial/vr_starter_tutorial_part_one.rst:688
 msgid ""
@@ -1226,6 +1302,9 @@ msgid ""
 "perfect, it gives a decent idea of how fast the VR controller is moving in "
 "3D space."
 msgstr ""
+"这个函数最终要做的是通过计算VR控制器在过去三十次``_physics_process``的相对位"
+"置变化，得到VR控制器速度的一个大概。虽然这并不完美，但它可以很好地了解VR控制"
+"器在3D空间中的移动速度。"
 
 #: ../../docs/tutorials/vr/vr_starter_tutorial/vr_starter_tutorial_part_one.rst:693
 #, fuzzy
@@ -1239,6 +1318,8 @@ msgid ""
 "assigns them to :ref:`Vector2 <class_Vector2>` variables called "
 "``trackpad_vector`` and ``joystick_vector`` respectively."
 msgstr ""
+"首先，这个函数获取触控板和操纵杆的轴，并将它们分配给:ref:`Vector2 "
+"<class_Vector2>`变量，分别称为``trackpad_vector``和``joystick_vector``。"
 
 #: ../../docs/tutorials/vr/vr_starter_tutorial/vr_starter_tutorial_part_one.rst:697
 msgid ""
@@ -1246,6 +1327,8 @@ msgid ""
 "your VR headset and controller. The inputs in this tutorial are the index "
 "values of a Windows Mixed Reality headset."
 msgstr ""
+"您可能需要根据您的VR头显和控制器重新映射操纵杆和/或触摸板的索引值。本教程中的"
+"输入是Windows混合现实耳机的索引值。"
 
 #: ../../docs/tutorials/vr/vr_starter_tutorial/vr_starter_tutorial_part_one.rst:700
 msgid ""
@@ -1253,6 +1336,8 @@ msgid ""
 "account for. The code for this is detailed in the article below, with slight "
 "changes as the code is converted from C# to GDScript."
 msgstr ""
+"然后``trackpad_vector``和``joystick_vector``具有它们的盲区。这方面的代码在下"
+"面的文章中详细介绍了，随着代码从C#转换到GDScript，略有变化。"
 
 #: ../../docs/tutorials/vr/vr_starter_tutorial/vr_starter_tutorial_part_one.rst:703
 msgid ""
@@ -1268,6 +1353,13 @@ msgid ""
 "the right direction vector is stored in a variable called "
 "``right_direction``."
 msgstr ""
+"一旦 \"trackpad_vector \"和 \"joystick_vector \"变量的盲区被计算在内，代码就"
+"会得到相对于 :ref:`ARVRCamera <class_ARVRCamera>`的全局变换的前进和右转方向的"
+"向量。这样做的目的是给我们提供相对于用户相机的旋转，即 :ref:`ARVRCamera "
+"<class_ARVRCamera>`，在世界空间中向前和向右指向的向量。当您在Godot编辑器中选"
+"择一个对象并启用 \"局部空间模式 \"按钮时，这些向量与蓝色和红色箭头的方向相"
+"同。前进方向向量存储在一个名为 \"forward_direction \"的变量中，而右侧方向向量"
+"存储在一个名为 \"right_direction \"的变量中。"
 
 #: ../../docs/tutorials/vr/vr_starter_tutorial/vr_starter_tutorial_part_one.rst:709
 msgid ""
@@ -1277,6 +1369,10 @@ msgid ""
 "use a single :ref:`Vector2 <class_Vector2>` for moving the user. We assign "
 "the combined direction to a variable called ``movement_vector``."
 msgstr ""
+"接下来，代码将``trackpad_vector``和``joystick_vector``变量加在一起，并使用"
+"``normalized``函数对结果进行标准化。这样我们就得到了两个输入设备的组合移动方"
+"向，所以我们可以使用一个:ref:`Vector2 <class_Vector2>`来移动用户。我们将组合"
+"方向分配给一个名为``movement_vector``的变量。"
 
 #: ../../docs/tutorials/vr/vr_starter_tutorial/vr_starter_tutorial_part_one.rst:712
 msgid ""
@@ -1287,6 +1383,10 @@ msgid ""
 "forward when the trackpad/joystick is pushed forward or backwards. We assign "
 "this to a variable called ``movement_forward``."
 msgstr ""
+"然后我们计算用户将朝 ``forward_direction`` 方向前进的距离大小。为了计算它，我"
+"们将 ``forward_direction`` 乘以 ``movement_vector.x`` 、 ``delta`` 和 "
+"``MOVEMENT_SPEED`` 。这将给我们提供当触控板/操纵杆被向前或向后推时用户将向前"
+"移动的距离。我们将其分配给名为 ``movement_forward`` 的变量。"
 
 #: ../../docs/tutorials/vr/vr_starter_tutorial/vr_starter_tutorial_part_one.rst:716
 msgid ""
@@ -1297,6 +1397,11 @@ msgid ""
 "the distance the user will move right when the trackpad/joystick is pushed "
 "right or left. We assign this to a variable called ``movement_right``."
 msgstr ""
+"我们对用户向右移动的距离进行类似的计算，相对于存储在``right_direction``中的正"
+"确方向。为了计算用户向右移动的距离，我们将``right_direction``乘以"
+"``movement_vector.y``、``delta``和``MOVEMENT_SPEED``。这将给我们提供当触控板/"
+"操纵杆被向右或向左推时，用户将向右移动的距离。我们将其分配给一个名为"
+"``movement_right``的变量。"
 
 #: ../../docs/tutorials/vr/vr_starter_tutorial/vr_starter_tutorial_part_one.rst:720
 msgid ""
@@ -1305,6 +1410,9 @@ msgid ""
 "the user cannot fly/fall simply by moving the trackpad or joystick. Without "
 "doing this, the player could fly in the direction they are facing."
 msgstr ""
+"接下来，我们将 \"向前移动 \"和 \"向右移动 \"的 \"Y \"轴上的任何移动，将它们"
+"的 \"Y \"值赋值为 \"0\"。我们这样做是为了让用户不能仅仅通过移动触控板或操纵杆"
+"来飞行/下降。如果不这样做，玩家可能会朝着他们所面对的方向飞行。"
 
 #: ../../docs/tutorials/vr/vr_starter_tutorial/vr_starter_tutorial_part_one.rst:723
 msgid ""
@@ -1318,6 +1426,13 @@ msgid ""
 "We also set the ``directional_movement`` variable to ``true`` so the code "
 "knows this VR controller is moving the player."
 msgstr ""
+"最后，我们检查``movement_right``或``movement_forward``上的``length``函数是否"
+"大于``0```。如果是，那么我们需要移动用户。要移动用户，我们使用``get_parent()."
+"global_translate``对:ref:`ARVROrigin <class_ARVROrigin>`节点进行全局翻译，并"
+"将``movement_right``变量与``movement_forward``变量一起传递给它。这将使玩家沿"
+"着触控板/操纵杆指向的方向移动，相对于VR头显的旋转。我们还将"
+"``directional_movement``变量设置为``true``，这样代码就知道这个VR控制器在移动"
+"玩家。"
 
 #: ../../docs/tutorials/vr/vr_starter_tutorial/vr_starter_tutorial_part_one.rst:728
 msgid ""
@@ -1326,6 +1441,9 @@ msgid ""
 "variable to ``false`` so the code knows this VR controller is not moving the "
 "player."
 msgstr ""
+"如果``movement_right``或``movement_forward``上的``length``函数小于或等于"
+"``0``，那么我们只需将``directional_movement``变量设置为``false``，这样代码就"
+"知道这个VR控制器没有移动玩家。"
 
 #: ../../docs/tutorials/vr/vr_starter_tutorial/vr_starter_tutorial_part_one.rst:734
 msgid ""
@@ -1335,6 +1453,9 @@ msgid ""
 "headset, so if the player pushes forward and turns their head to the left, "
 "they will move to the left."
 msgstr ""
+"这个功能最终要做的是接受VR控制器的触控板和操纵杆的输入，并按照玩家推动它们的"
+"方向移动。移动是相对于VR头显的旋转而言的，所以如果玩家向前推并向左转头，它们"
+"就会向左移动。"
 
 #: ../../docs/tutorials/vr/vr_starter_tutorial/vr_starter_tutorial_part_one.rst:739
 #, fuzzy
@@ -1348,12 +1469,16 @@ msgid ""
 "is passed in by the ``button_pressed`` signal in :ref:`ARVRController "
 "<class_ARVRController>`, which we connected in the ``_ready`` function."
 msgstr ""
+"这个函数检查刚刚按下的VR按钮是否等于本项目中使用的一个VR按钮。`button_index``"
+"变量是由:ref:`ARVRController <class_ARVRController>`中的`button_pressed``信号"
+"传递进来的，我们在``_ready``函数中连接了这个信号。"
 
 #: ../../docs/tutorials/vr/vr_starter_tutorial/vr_starter_tutorial_part_one.rst:744
 msgid ""
 "There are only three buttons we are looking for in this project: the trigger "
 "button, the grab/grip button, and the menu button."
 msgstr ""
+"在这个项目中，我们要找的按钮只有三个：触发按钮、抓取/握持按钮和菜单按钮。"
 
 #: ../../docs/tutorials/vr/vr_starter_tutorial/vr_starter_tutorial_part_one.rst:746
 msgid ""
@@ -1361,6 +1486,8 @@ msgid ""
 "and controller. The inputs in this tutorial are the index values of a "
 "Windows Mixed Reality headset."
 msgstr ""
+"您可能需要根据您的VR头显和控制器重新映射这些按钮索引值。本教程中的输入是"
+"Windows混合现实头盔的索引值。"
 
 #: ../../docs/tutorials/vr/vr_starter_tutorial/vr_starter_tutorial_part_one.rst:749
 msgid ""
@@ -1368,6 +1495,8 @@ msgid ""
 "to the trigger button on the VR controller. If the button pressed is the "
 "trigger button, then the ``_on_button_pressed_trigger`` function is called."
 msgstr ""
+"首先我们检查``button_index``是否等于``15``，这应该映射到VR控制器的触发按钮。"
+"如果按下的按钮是触发按钮，那么就会调用``_on_button_pressed_trigger``函数。"
 
 #: ../../docs/tutorials/vr/vr_starter_tutorial/vr_starter_tutorial_part_one.rst:752
 msgid ""
@@ -1375,6 +1504,8 @@ msgid ""
 "pressed. If the button pressed is the grab button, the "
 "``_on_button_pressed_grab`` function is called."
 msgstr ""
+"如果``button_index``等于``2``，那么抓取按钮刚刚被按下。如果按下的是抓取按钮，"
+"则调用``_on_button_pressed_grab``函数。"
 
 #: ../../docs/tutorials/vr/vr_starter_tutorial/vr_starter_tutorial_part_one.rst:754
 msgid ""
@@ -1382,6 +1513,9 @@ msgid ""
 "just pressed. If the button pressed is the menu button, the "
 "``_on_button_pressed_menu`` function is called."
 msgstr ""
+"最后，如果``button_index``等于``1``，则表示刚刚按下了菜单键，如果按下的是菜单"
+"键，则调用``_on_button_pressed_menu``函数。如果按下的按钮是菜单按钮，则调用"
+"``_on_button_pressed_menu``函数。"
 
 #: ../../docs/tutorials/vr/vr_starter_tutorial/vr_starter_tutorial_part_one.rst:758
 #, fuzzy
@@ -1398,6 +1532,11 @@ msgid ""
 "controller is trying to teleport or not, as ``teleport_mesh`` will be "
 "visible if the other VR controller is teleporting."
 msgstr ""
+"首先这个函数通过检查``held_object``是否等于``null``来检查VR控制器是否没有拿"
+"着。如果VR控制器没有持有任何东西，那么我们假设VR控制器上的触发按压是为了传"
+"送。然后我们确保``teleport_mesh.visible``等于``false``。我们用这个来判断另一"
+"个VR控制器是否在尝试传送，因为如果另一个VR控制器在传送，那么``teleport_mesh``"
+"将是可见的。"
 
 #: ../../docs/tutorials/vr/vr_starter_tutorial/vr_starter_tutorial_part_one.rst:764
 msgid ""
@@ -1410,6 +1549,12 @@ msgid ""
 "``teleport_raycast`` visible to the player has a 'laser sight' they can use "
 "to aim the teleportation pos."
 msgstr ""
+"如果``teleport_mesh.visible``等于``false``，那么就可以用这个VR控制器进行远程"
+"传输。将``teleport_button_down``变量设置为``true``，``teleport_mesh.visible``"
+"设置为true，``teleport_raycast.visible```设置为``true``，将告诉"
+"``_physics_process``中的代码，这个VR控制器将进行传送，使``teleport_mesh``可"
+"见，这样用户就知道传送到哪里，并使``teleport_raycast``可见，这样玩家就可以用"
+"激光瞄准器来瞄准传送位置。"
 
 #: ../../docs/tutorials/vr/vr_starter_tutorial/vr_starter_tutorial_part_one.rst:771
 msgid ""
@@ -1421,6 +1566,11 @@ msgid ""
 "the special/custom :ref:`RigidBody <class_RigidBody>`-based nodes in the "
 "project."
 msgstr ""
+"如果``held_object``不等于``null``，那么VR控制器就会持有一些东西。然后检查被持"
+"有的对象``held_object``是否扩展自``VR_Interactable_Rigidbody``类，虽然还没有"
+"做``VR_Interactable_Rigidbody``，但是将自定义一个"
+"``VR_Interactable_Rigidbody``的类，将在项目中所有基于特殊的或自定义的:ref:"
+"`RigidBody <class_RigidBody>`节点上使用。"
 
 #: ../../docs/tutorials/vr/vr_starter_tutorial/vr_starter_tutorial_part_one.rst:775
 #: ../../docs/tutorials/vr/vr_starter_tutorial/vr_starter_tutorial_part_one.rst:850
@@ -1451,6 +1601,7 @@ msgid ""
 msgstr ""
 
 #: ../../docs/tutorials/vr/vr_starter_tutorial/vr_starter_tutorial_part_one.rst:787
+#, fuzzy
 msgid ""
 "Then we check to see if the VR controller is currently not holding anything "
 "by checking if ``held_object`` is equal to ``null``. If the VR controller is "
@@ -1458,12 +1609,16 @@ msgid ""
 "the VR controller is holding something, ``held_object`` is not equal to "
 "``null``, then the ``_throw_rigidbody`` function is called."
 msgstr ""
+"然后我们通过检查``held_object''是否等于``null''来检查VR控制器当前是否没有任何"
+"东西。如果VR控制器没有容纳任何东西，则调用_pickup_rigidbody函数。如果VR控制器"
+"持有某物，则“ held_object”不等于“ null”，则将调用“ _throw_rigidbody”函数。"
 
 #: ../../docs/tutorials/vr/vr_starter_tutorial/vr_starter_tutorial_part_one.rst:790
+#, fuzzy
 msgid ""
 "Finally, the pick-up/drop sound is played by calling the ``play`` function "
 "on ``hand_pickup_drop_sound``."
-msgstr ""
+msgstr "最后，通过在hand_pickup_drop_sound上调用play函数来播放拾取/放下声音。"
 
 #: ../../docs/tutorials/vr/vr_starter_tutorial/vr_starter_tutorial_part_one.rst:794
 #, fuzzy

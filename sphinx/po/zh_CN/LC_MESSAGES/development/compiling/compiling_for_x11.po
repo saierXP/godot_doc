@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"POT-Creation-Date: 2021-03-07 21:43+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -306,8 +306,9 @@ msgid ""
 msgstr ""
 
 #: ../../docs/development/compiling/compiling_for_x11.rst:214
+#, fuzzy
 msgid "Clang tends to give more useful error messages compared to GCC."
-msgstr ""
+msgstr "与GCC相比，Clang往往会给出更有用的错误信息。"
 
 #: ../../docs/development/compiling/compiling_for_x11.rst:216
 msgid ""

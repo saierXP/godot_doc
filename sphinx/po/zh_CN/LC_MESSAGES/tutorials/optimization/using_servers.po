@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"POT-Creation-Date: 2021-03-07 21:43+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -43,7 +43,7 @@ msgstr "性能比直接使用简单API要低"
 
 #: ../../docs/tutorials/optimization/using_servers.rst:14
 msgid "It is not possible to use multiple threads to control them"
-msgstr ""
+msgstr "无法使用多个线程来控制它们"
 
 #: ../../docs/tutorials/optimization/using_servers.rst:15
 msgid "More memory is needed."
@@ -116,6 +116,8 @@ msgid ""
 "Just explore their APIs and you will realize that the all functions provided "
 "are low-level implementations of everything Godot allows you to do."
 msgstr ""
+"你只需研究它们的API，就会意识到，它们所提供的全部函数都是Godot允许你操作的低"
+"级实现。"
 
 #: ../../docs/tutorials/optimization/using_servers.rst:45
 msgid "RIDs"
@@ -159,13 +161,18 @@ msgid ""
 "<class_CanvasLayer_method_get_canvas>` method will return the canvas RID in "
 "the server."
 msgstr ""
+"对于CanvasLayer来说， :ref:`CanvasLayer.get_canvas() "
+"<class_CanvasLayer_method_get_canvas>`方法将返回服务器中的canvas RID。"
 
 #: ../../docs/tutorials/optimization/using_servers.rst:64
+#, fuzzy
 msgid ""
 "For Viewport, the :ref:`Viewport.get_viewport_rid() "
 "<class_Viewport_method_get_viewport_rid>` method will return the viewport "
 "RID in the server."
 msgstr ""
+"对于Viewport来说， :ref:`Viewport.get_viewport_rid() "
+"<class_Viewport_method_get_viewport_rid>`方法将返回服务器中的viewport RID。"
 
 #: ../../docs/tutorials/optimization/using_servers.rst:66
 msgid ""
@@ -195,10 +202,11 @@ msgid ""
 msgstr ""
 
 #: ../../docs/tutorials/optimization/using_servers.rst:78
+#, fuzzy
 msgid ""
 "Just explore the nodes and resources you are familiar with and find the "
 "functions to obtain the server *RIDs*."
-msgstr ""
+msgstr "只需浏览您熟悉的节点和资源，并找到获取服务器 *RIDs* 的功能。"
 
 #: ../../docs/tutorials/optimization/using_servers.rst:80
 msgid ""

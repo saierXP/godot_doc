@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"POT-Creation-Date: 2021-03-07 21:43+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -54,8 +54,9 @@ msgid ""
 msgstr ""
 
 #: ../../docs/tutorials/debug/debugger_panel.rst:23
+#, fuzzy
 msgid "You can use the buttons in the top-right corner to:"
-msgstr ""
+msgstr "您可以使用右上角的按钮执行以下操作："
 
 #: ../../docs/tutorials/debug/debugger_panel.rst:25
 msgid ""

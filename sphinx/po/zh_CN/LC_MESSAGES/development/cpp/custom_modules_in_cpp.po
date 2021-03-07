@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"POT-Creation-Date: 2021-03-07 21:43+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -305,10 +305,13 @@ msgid ""
 msgstr ""
 
 #: ../../docs/development/cpp/custom_modules_in_cpp.rst:313
+#, fuzzy
 msgid ""
 ":ref:`Introduction to the buildsystem - Custom modules build option "
 "<doc_buildsystem_custom_modules>`."
 msgstr ""
+":参考：\"构建系统介绍----自定义模块构建选项<doc_buildsystem_custom_modules>"
+"\"。"
 
 #: ../../docs/development/cpp/custom_modules_in_cpp.rst:316
 msgid "Improving the build system for development"

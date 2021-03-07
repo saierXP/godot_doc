@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-07 15:00+0800\n"
+"POT-Creation-Date: 2021-03-07 21:43+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -137,11 +137,11 @@ msgstr ""
 
 #: ../../docs/tutorials/2d/particle_systems_2d.rst:73
 msgid "Lifetime: 0.5"
-msgstr "寿命 : 0.5"
+msgstr "寿命：0.5"
 
 #: ../../docs/tutorials/2d/particle_systems_2d.rst:77
 msgid "Lifetime: 4.0"
-msgstr "寿命 : 4.0"
+msgstr "寿命：4.0"
 
 #: ../../docs/tutorials/2d/particle_systems_2d.rst:82
 msgid "One Shot"
@@ -197,11 +197,11 @@ msgstr ""
 
 #: ../../docs/tutorials/2d/particle_systems_2d.rst:110
 msgid "0: Emit particles at regular intervals (default value)."
-msgstr "0:定期发射粒子(默认值)。"
+msgstr "0：定期发射粒子(默认值)。"
 
 #: ../../docs/tutorials/2d/particle_systems_2d.rst:111
 msgid "1: Emit all particles simultaneously."
-msgstr "1:同时发射所有粒子。"
+msgstr "1：同时发射所有粒子。"
 
 #: ../../docs/tutorials/2d/particle_systems_2d.rst:113
 msgid ""
@@ -340,8 +340,8 @@ msgid ""
 "``Vector3(1, 0, 0)`` which makes particles emit to the right. However, with "
 "the default gravity settings, particles will go straight down."
 msgstr ""
-"这是粒子发射的基础方向。默认值是``Vector3(1,0,0)``，它使粒子向右发射。然而，"
-"在默认的重力设置下，粒子会直线下降。"
+"这是粒子发射的基础方向。默认值是 ``Vector3(1,0,0)`` ，它使粒子向右发射。然"
+"而，在默认的重力设置下，粒子会直线下降。"
 
 #: ../../docs/tutorials/2d/particle_systems_2d.rst:190
 msgid ""
@@ -349,8 +349,8 @@ msgid ""
 "than 0. Here, we set the initial velocity to 40. You'll notice that "
 "particles emit toward the right, then go down because of gravity."
 msgstr ""
-"为了让这个属性作用更明显，你需要一个大于0的初始速度。这里，我们把初始速度设为"
-"40。你会注意到粒子向右发射，然后受重力作用下降。"
+"为了让这个属性作用更明显，你需要一个大于0的 *初始速度（initial velocity）* 。"
+"这里，我们把初始速度设为40。你会注意到粒子向右发射，然后受重力作用下降。"
 
 #: ../../docs/tutorials/2d/particle_systems_2d.rst:197
 msgid "Spread"
