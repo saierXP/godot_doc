@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-07 21:43+0800\n"
+"POT-Creation-Date: 2021-03-28 20:28+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -122,21 +122,21 @@ msgid ""
 msgstr ":ref:`InputEvent <class_InputEvent>`"
 
 #: ../../docs/tutorials/inputs/input_examples.rst:119
-#, fuzzy
 msgid ""
 ":ref:`InputEventWithModifiers <class_InputEventWithModifiers>` - adds the "
 "ability to check if modifiers are pressed, such as :kbd:`Shift` or :kbd:"
 "`Alt`."
 msgstr ""
-":ref:`带有修饰符的输入事件<class_InputEventWithModifiers>`加入了检查是否按下"
-"修饰符的功能，例如“Shift”或“Alt”。"
+":ref:`InputEventWithModifiers <class_InputEventWithModifiers>` - 增加了检查是"
+"否按下修饰按键，如 :kbd:`Shift` 或 :kbd:`Alt` 。"
 
 #: ../../docs/tutorials/inputs/input_examples.rst:120
-#, fuzzy
 msgid ""
 ":ref:`InputEventMouse <class_InputEventMouse>` - adds mouse event "
 "properties, such as ``position``"
-msgstr ":ref:`InputEventMouseMotion <class_InputEventMouseMotion>`"
+msgstr ""
+":ref:`InputEventMouse <class_InputEventMouse>` - 增加鼠标事件属性，如 "
+"``position``"
 
 #: ../../docs/tutorials/inputs/input_examples.rst:121
 msgid ""
@@ -278,8 +278,8 @@ msgid ""
 "whenever the mouse moves. You can find the move's distance with the "
 "``relative`` property."
 msgstr ""
-":ref:`鼠标移动输入事件<class_InputEventMouseMotion>`事件在鼠标移动时发生。可"
-"以通过“相对”属性找到移动的距离。"
+":ref:`InputEventMouseMotion <class_InputEventMouseMotion>` 只要鼠标移动就会发"
+"生事件。可以通过 ``relative`` 属性找到移动的距离。"
 
 #: ../../docs/tutorials/inputs/input_examples.rst:306
 msgid ""

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-07 21:43+0800\n"
+"POT-Creation-Date: 2021-03-28 20:28+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -383,14 +383,13 @@ msgid ""
 msgstr ":ref:`ARVRCamera <class_ARVRCamera>`节点在Y轴上的偏移量为用户的高度。"
 
 #: ../../docs/tutorials/vr/vr_starter_tutorial/vr_starter_tutorial_part_one.rst:109
-#, fuzzy
 msgid ""
 "If the VR system supports room tracking, then the :ref:`ARVRCamera "
 "<class_ARVRCamera>` node may be offset on the X and Z axes as the player "
 "moves."
 msgstr ""
-"如果VR系统支持房间跟踪，那么:ref: `ARVRCamera <class_ARVRCamera>`节点可能会在"
-"玩家移动时在X轴和Z轴上偏移。"
+"如果VR系统支持房间跟踪，那么 :ref:`ARVRCamera <class_ARVRCamera>` 节点可能会"
+"在玩家移动时在X轴和Z轴上偏移。"
 
 #: ../../docs/tutorials/vr/vr_starter_tutorial/vr_starter_tutorial_part_one.rst:111
 msgid ""
@@ -945,7 +944,6 @@ msgstr ""
 "传送网格可以被两个VR控制器使用。"
 
 #: ../../docs/tutorials/vr/vr_starter_tutorial/vr_starter_tutorial_part_one.rst:582
-#, fuzzy
 msgid ""
 "Then the ``teleport_button_down`` variable is set to false, ``teleport_mesh."
 "visible`` is set to ``false``, and ``teleport_raycast.visible`` is set to "
@@ -1195,11 +1193,10 @@ msgstr ""
 "数。这个函数包含了当VR控制器上的触摸板/操纵杆移动时移动玩家的所有代码。"
 
 #: ../../docs/tutorials/vr/vr_starter_tutorial/vr_starter_tutorial_part_one.rst:656
-#, fuzzy
 msgid ""
 "``_physics_process_update_controller_velocity`` function step-by-step "
 "explanation"
-msgstr "``_physics_process_update_controller_velocity''函数的逐步说明"
+msgstr "``_physics_process_update_controller_velocity`` 函数步骤解释"
 
 #: ../../docs/tutorials/vr/vr_starter_tutorial/vr_starter_tutorial_part_one.rst:658
 #, fuzzy
@@ -1307,10 +1304,9 @@ msgstr ""
 "器在3D空间中的移动速度。"
 
 #: ../../docs/tutorials/vr/vr_starter_tutorial/vr_starter_tutorial_part_one.rst:693
-#, fuzzy
 msgid ""
 "``_physics_process_directional_movement`` function step-by-step explanation"
-msgstr "``_physics_process_directional_movement''函数的逐步说明"
+msgstr "``_physics_process_directional_movement`` 函数分步解释"
 
 #: ../../docs/tutorials/vr/vr_starter_tutorial/vr_starter_tutorial_part_one.rst:695
 msgid ""
@@ -1518,9 +1514,8 @@ msgstr ""
 "``_on_button_pressed_menu``函数。"
 
 #: ../../docs/tutorials/vr/vr_starter_tutorial/vr_starter_tutorial_part_one.rst:758
-#, fuzzy
 msgid "``_on_button_pressed_trigger`` function step-by-step explanation"
-msgstr "``_on_button_pressed_trigger``函数的逐步说明"
+msgstr "``_on_button_pressed_trigger`` 函数的逐步说明"
 
 #: ../../docs/tutorials/vr/vr_starter_tutorial/vr_starter_tutorial_part_one.rst:760
 msgid ""
@@ -1587,6 +1582,9 @@ msgid ""
 "to do when the trigger is pressed and the object is held by the VR "
 "controller."
 msgstr ""
+"如果``held_object``扩展自``VR_Interactable_Rigidbody``，那么我们就调用"
+"``interact``函数，这样，当触发器被按下，对象被VR控制器握住时，被握住的对象就"
+"可以做任何它应做的事情。"
 
 #: ../../docs/tutorials/vr/vr_starter_tutorial/vr_starter_tutorial_part_one.rst:782
 #, fuzzy
@@ -1599,6 +1597,8 @@ msgid ""
 "``true``. If it is, then it calls ``return``. We do this because we do not "
 "want the user to be able to pick up objects while teleporting."
 msgstr ""
+"首先，这个函数检查``teleport_button_down``是否等于``true``，如果是，则调用"
+"``return``，这样做是因为我们不希望用户在传送时能够拾取对象。"
 
 #: ../../docs/tutorials/vr/vr_starter_tutorial/vr_starter_tutorial_part_one.rst:787
 #, fuzzy
@@ -1631,6 +1631,8 @@ msgid ""
 "using to store the :ref:`RigidBody <class_RigidBody>` that the VR controller "
 "is going to pick up, assuming there is a RigidBody to pick up."
 msgstr ""
+"首先函数定义了一个名为``rigid_body``的变量，我们要用它来存储VR控制器要拾取的:"
+"ref:`RigidBody <class_RigidBody>`，假设要拾取一个RigidBody。"
 
 #: ../../docs/tutorials/vr/vr_starter_tutorial/vr_starter_tutorial_part_one.rst:801
 msgid ""
@@ -1641,6 +1643,11 @@ msgid ""
 "ref:`PhysicsBody <class_PhysicsBody>` nodes. We assign the array of :ref:"
 "`PhysicsBody <class_PhysicsBody>` to a new variable called ``bodies``."
 msgstr ""
+"然后函数检查``grab_mode``变量是否等于``AREA``，如果等于，则使用"
+"``get_overlapping_bodies``函数获取``grab_area``内的所有 :ref:`PhysicsBody "
+"<class_PhysicsBody>`节点。该函数将返回一个:ref:`PhysicsBody "
+"<class_PhysicsBody>`节点的数组。我们将:ref:`PhysicsBody <class_PhysicsBody>`"
+"的数组分配给一个新的变量``bodies``。"
 
 #: ../../docs/tutorials/vr/vr_starter_tutorial/vr_starter_tutorial_part_one.rst:805
 msgid ""
@@ -1648,6 +1655,8 @@ msgid ""
 "``0``. If it is, we go through each of the :ref:`PhysicsBody "
 "<class_PhysicsBody>` nodes in ``bodies`` using a for loop."
 msgstr ""
+"然后我们检查``bodies``变量的长度是否大于``0``，如果是，我们使用for循环来检查"
+"``bodies``中的:ref:`PhysicsBody <class_PhysicsBody>`节点。"
 
 #: ../../docs/tutorials/vr/vr_starter_tutorial/vr_starter_tutorial_part_one.rst:807
 msgid ""
@@ -1665,6 +1674,16 @@ msgid ""
 "name ``NO_PICKUP``, then we assign the ``rigid_body`` variable to the :ref:"
 "`RigidBody <class_RigidBody>` node and break the for loop."
 msgstr ""
+"对于每个 :ref:`PhysicsBody <class_PhysicsBody>` 节点，我们使用``if body is "
+"RigidBody``检查它是否是 :ref:`RigidBody <class_RigidBody>` 节点，如果 .ref:"
+"`PhysicsBody <class_PhysicsBody>` 节点是 :ref:`RigidBody <class_RigidBody>` "
+"节点或其扩展，将返回``true``。如果对象是 :ref:`RigidBody <class_RigidBody>`，"
+"那么我们检查在body中有没有定义一个名为``NO_PICKUP``的变量或常量。之所以这样"
+"做，是因为如果你想让:ref:`RigidBody <class_RigidBody>`节点无法被拾取，只需要"
+"定义一个名为``NO_PICKUP``的常量或变量，VR控制器就会无法拾取它。如果:ref:"
+"`RigidBody <class_RigidBody>`节点没有定义一个名称为``NO_PICKUP``的变量或常"
+"量，那么将``rigid_body``变量赋值给:ref:`RigidBody <class_RigidBody>`节点，并"
+"中断for循环。"
 
 #: ../../docs/tutorials/vr/vr_starter_tutorial/vr_starter_tutorial_part_one.rst:813
 msgid ""
@@ -1674,6 +1693,9 @@ msgid ""
 "``NO_PICKUP`` and assigns it to the ``rigid_body`` variable so we can do "
 "some additional post processing later in this function."
 msgstr ""
+"这部分代码要做的是遍历``grab_area``内的所有物理实体，并获取第一个没有变量或常"
+"量 ``NO_PICKUP`` 的 :ref:`RigidBody <class_RigidBody>` 节点，并且将其分配给 "
+"``rigid_body`` 变量，以便我们稍后可以在此函数中进行一些额外的后期处理。"
 
 #: ../../docs/tutorials/vr/vr_starter_tutorial/vr_starter_tutorial_part_one.rst:818
 msgid ""
@@ -1686,6 +1708,12 @@ msgid ""
 "the ``is_colliding`` function, which will return true if the :ref:`Raycast "
 "<class_Raycast>` hit something."
 msgstr ""
+"如果 ``grab_mode`` 变量不等于 ``AREA`` 我们就检查它是否等于 ``RAYCAST`` 。如"
+"果它等于 ``RAYCAST`` ，我们就使用 ``force_raycast_update`` 函数强制更新 "
+"``grab_raycast`` 节点。``force_raycast_update`` 函数将用物理世界的最新变化更"
+"新 :ref:`Raycast <class_Raycast>` 。然后我们使用 ``is_colliding`` 函数检查 "
+"``grab_raycast`` 节点是否与某物相撞，如果 :ref:`Raycast <class_Raycast>` 撞到"
+"了某物，则返回true。"
 
 #: ../../docs/tutorials/vr/vr_starter_tutorial/vr_starter_tutorial_part_one.rst:822
 msgid ""
@@ -1699,6 +1727,14 @@ msgid ""
 "it does not, then it assigns the :ref:`RigidBody <class_RigidBody>` node to "
 "the ``rigid_body`` variable."
 msgstr ""
+"如果 ``grab_raycast`` 命中了什么东西，我们就会使用 ``get_collider`` 函数得"
+"到 :ref:`PhysicsBody <class_PhysicsBody>` 命中的节点。然后，代码使用 ``if "
+"body is RigidBody`` 检查节点是否是 :ref:`RigidBody <class_RigidBody>` 节点，"
+"如果 :ref:`PhysicsBody <class_PhysicsBody>`节点是 :ref:`RigidBody "
+"<class_RigidBody>`节点或扩展了 :ref:`RigidBody <class_RigidBody>`节点，代码将"
+"返回 ``true`` 。然后代码检查 :ref:`RigidBody <class_RigidBody>` 节点是否没有"
+"名为 ``NO_PICKUP`` 的变量，如果没有，则将 :ref:`RigidBody <class_RigidBody>` "
+"节点赋值给 ``rigid_body`` 变量。"
 
 #: ../../docs/tutorials/vr/vr_starter_tutorial/vr_starter_tutorial_part_one.rst:827
 #, fuzzy
@@ -1723,6 +1759,9 @@ msgid ""
 "controller found a :ref:`RigidBody <class_RigidBody>`-based node that can be "
 "picked up."
 msgstr ""
+"最后一段代码首先检查 ``rigid_body`` 是否不等于 ``null`` 。如果 "
+"``rigid_body`` 不等于 ``null`` ，那么VR控制器找到了一个可以拾取的 :ref:"
+"`RigidBody <class_RigidBody>` 类型节点。"
 
 #: ../../docs/tutorials/vr/vr_starter_tutorial/vr_starter_tutorial_part_one.rst:836
 msgid ""
@@ -1733,6 +1772,12 @@ msgid ""
 "and ``mask`` as keys for the respective values. This is so we can reapply "
 "them later when the object is dropped by the VR controller."
 msgstr ""
+"如果有一个VR控制器要拾取，我们将 ``held_object`` 分配给存储在 ``rigid_body`` "
+"中的 :ref:`RigidBody <class_RigidBody>` 节点。然后将 :ref:`RigidBody "
+"<class_RigidBody>` 节点的 ``mode`` 、 ``collision_layer`` 和 "
+"``collision_mask`` 以 ``mode`` 、 ``layer`` 和 ``mask`` 作为各自值的键存储在 "
+"``held_object_data`` 中。这是为了以后当对象被VR控制器丢弃时，可以重新应用它"
+"们。"
 
 #: ../../docs/tutorials/vr/vr_starter_tutorial/vr_starter_tutorial_part_one.rst:840
 #, fuzzy
@@ -1755,6 +1800,10 @@ msgid ""
 "``grab_raycast`` 'laser sight' is made invisible by setting the ``visible`` "
 "property to ``false``."
 msgstr ""
+"接下来将 ``hand_mesh`` :ref:`MeshInstance <class_MeshInstance>` 通过设置 "
+"``visible`` 属性为 ``false`` 而使 ``hand_mesh`` 变得不可见。这样，手就不会挡"
+"住所持对象的去路。同样 ``grab_raycast`` '激光瞄准器' 也是通过设置 "
+"``visible`` 属性为 ``false`` 而变得不可见的。"
 
 #: ../../docs/tutorials/vr/vr_starter_tutorial/vr_starter_tutorial_part_one.rst:846
 msgid ""
@@ -1767,6 +1816,12 @@ msgid ""
 "controller, where the a reference to the controller is stored in the "
 "``controller`` variable, through calling the ``picked_up`` function."
 msgstr ""
+"然后，代码检查持有的对象是否扩展了一个叫做``VR_Interactable_Rigidbody``的类。"
+"如果是，那么就在``held_object``上设置``controller``的变量为``self``，然后在"
+"``held_object``上调用``picked_up```函数。虽然我们还没有做"
+"``VR_Interactable_Rigidbody``，但这样做的作用是通过调用``picked_up``函数，设"
+"置告诉``VR_Interactable_Rigidbody``类，它被一个VR控制器持有，控制器的引用存储"
+"在``controller``变量中。"
 
 #: ../../docs/tutorials/vr/vr_starter_tutorial/vr_starter_tutorial_part_one.rst:852
 #: ../../docs/tutorials/vr/vr_starter_tutorial/vr_starter_tutorial_part_one.rst:876
@@ -1774,6 +1829,8 @@ msgid ""
 "The code should make more sense after completing part 2 of this tutorial "
 "series, where we will actually be using ``VR_Interactable_Rigidbody``."
 msgstr ""
+"在完成本系列教程的第二部分后，代码应该会更有意义，在那里我们将实际使用"
+"``VR_Interactable_Rigidbody``。"
 
 #: ../../docs/tutorials/vr/vr_starter_tutorial/vr_starter_tutorial_part_one.rst:854
 msgid ""
@@ -1782,6 +1839,9 @@ msgid ""
 "`Raycast <class_Raycast>`, it sets it up so that it can be carried by the VR "
 "controller."
 msgstr ""
+"这段代码的作用是，如果使用抓取 :ref:`Area <class_RigidBody>`或 :ref:`Raycast "
+"<class_Raycast>`找到了 :ref:`RigidBody <class_RigidBody>`，它就会将其设置为可"
+"以被VR控制器携带。"
 
 #: ../../docs/tutorials/vr/vr_starter_tutorial/vr_starter_tutorial_part_one.rst:858
 #, fuzzy
@@ -1797,6 +1857,10 @@ msgid ""
 "called if an object is held, this check helps ensure that if something "
 "strange happens, this function will react as expected."
 msgstr ""
+"首先，该函数通过检查``held_object``变量是否等于``null``来检查VR控制器是否没有"
+"持有任何对象。如果是，那么它只是调用``return``，所以什么都不会发生。虽然这应"
+"该是不可能的，但``_throw_rigidbody``函数应该只在对象被持有的情况下被调用，这"
+"种检查有助于确保如果发生了一些奇怪的事情，这个函数将按照预期的方式做出反应。"
 
 #: ../../docs/tutorials/vr/vr_starter_tutorial/vr_starter_tutorial_part_one.rst:864
 msgid ""
@@ -1807,6 +1871,10 @@ msgid ""
 "``held_object``. This will set the :ref:`RigidBody <class_RigidBody>` back "
 "to the state it was prior to being picked up."
 msgstr ""
+"在检查VR控制器是否持有对象后，我们假设它是，并将存储的:ref:`RigidBody "
+"<class_RigidBody>`数据设置回持有对象。我们将存储在``held_object_data``字典中"
+"的``mode``、``layer``和``mask``数据重新应用到``held_object``中的对象。这将把:"
+"ref:`RigidBody <class_RigidBody>`设置回被拾取之前的状态。"
 
 #: ../../docs/tutorials/vr/vr_starter_tutorial/vr_starter_tutorial_part_one.rst:868
 msgid ""
@@ -1814,6 +1882,8 @@ msgid ""
 "`RigidBody <class_RigidBody>` is thrown in the direction of the VR "
 "controller's velocity, ``controller_velocity``."
 msgstr ""
+"然后我们在``held_object``上调用``apply_impulse``，这样:ref:`RigidBody "
+"<class_RigidBody>`就会被抛向VR控制器的速度方向，``controller_velocity``。"
 
 #: ../../docs/tutorials/vr/vr_starter_tutorial/vr_starter_tutorial_part_one.rst:870
 msgid ""
@@ -1826,6 +1896,13 @@ msgid ""
 "the ``controller`` variable to ``null`` so that the :ref:`RigidBody "
 "<class_RigidBody>` knows that it is not being held."
 msgstr ""
+"然后，我们检查持有的对象是否扩展了一个叫做``VR_Interactable_Rigidbody``的类。"
+"如果是，那么我们在``held_object``中调用一个叫做``dropped``的函数，并将"
+"``held_object.controller``设置为``null``。虽然我们还没有做"
+"``VR_Interactable_Rigidbody``，但是这样做的目的是调用``droppped``函数，这样:"
+"ref:`RigidBody <class_RigidBody>`就可以在drop时做任何需要做的事情，我们将"
+"``controller``变量设置为``null```，这样:ref:`RigidBody <class_RigidBody>`就知"
+"道它没有被持有。"
 
 #: ../../docs/tutorials/vr/vr_starter_tutorial/vr_starter_tutorial_part_one.rst:878
 msgid ""
@@ -1835,6 +1912,10 @@ msgid ""
 "holding anything, we make the ``hand_mesh`` visible by setting ``hand_mesh."
 "visible`` to true."
 msgstr ""
+"无论``held_object``是否扩展了``VR_Interactable_Rigidbody``，我们都要将"
+"``held_object``设置为``null``，这样VR控制器就知道它不再拿着任何东西了。因为VR"
+"控制器不再持有任何东西，所以我们将``hand_mesh.visible``设置为true，使"
+"``hand_mesh``可见。"
 
 #: ../../docs/tutorials/vr/vr_starter_tutorial/vr_starter_tutorial_part_one.rst:881
 msgid ""
@@ -1842,6 +1923,9 @@ msgid ""
 "``grab_raycast.visible`` to ``true`` so the 'laser sight' for the :ref:"
 "`Raycast <class_Raycast>` in ``grab_raycast`` is visible."
 msgstr ""
+"最后，如果``grab_mode``变量设置为``RAYCAST``，我们将``grab_raycast.visible``"
+"设置为``true```，这样``grab_raycast``中的:ref:`Raycast <class_Raycast>``的'激"
+"光视线'是可见的。"
 
 #: ../../docs/tutorials/vr/vr_starter_tutorial/vr_starter_tutorial_part_one.rst:885
 #, fuzzy
@@ -1857,6 +1941,11 @@ msgid ""
 "holding anything, then ``grab_raycast.visible`` is set to ``true`` so the "
 "'laser sight' on the grab raycast is visible."
 msgstr ""
+"首先这个函数检查是否``grab_mode``变量等于``AREA``。如果是，则将“ grab_mode”设"
+"置为“ RAYCAST”。然后，它会检查该 VR控制器是否未持有任何东西，如果"
+"``held_object``等于``null``，则为未持有。如果该 VR控制器未持有任何东西，那么"
+"``grab_raycast.visible``的值被设置为``True``，则“激光瞄准器”的抓取光线投射可"
+"见。"
 
 #: ../../docs/tutorials/vr/vr_starter_tutorial/vr_starter_tutorial_part_one.rst:891
 msgid ""
@@ -1865,8 +1954,12 @@ msgid ""
 "to ``AREA`` and sets ``grab_raycast.visible`` to ``false`` so the 'laser "
 "sight' on the grab raycast is not visible."
 msgstr ""
+"如果 ``grab_mode`` 变量不等于``AREA``, 将会检查它是否等于``RAYCAST``. 如果是"
+"的话，这将把 ``grab_mode`` 设置为 ``AREA`` 并且将 ``grab_raycast.visible`` 设"
+"置为 ``false`` ，因此grab raycast上的\"激光瞄准器\"将会不可见。"
 
 #: ../../docs/tutorials/vr/vr_starter_tutorial/vr_starter_tutorial_part_one.rst:894
+#, fuzzy
 msgid ""
 "This section of code simply changes how the VR controller will grab :ref:"
 "`RigidBody <class_RigidBody>`-based nodes when the grab/grip button is "
@@ -1876,6 +1969,13 @@ msgid ""
 "``RAYCAST`` the :ref:`Raycast <class_Raycast>` node in ``grab_raycast`` will "
 "be used for detecting :ref:`RigidBody <class_RigidBody>` nodes."
 msgstr ""
+"这个区域的代码只是简单的更改了VR控制器的抓取方式 :ref:`RigidBody "
+"<class_RigidBody>`-based nodes when the grab/grip button is pressed. If "
+"``grab_mode`` is set to ``AREA``, then the :ref:`Area <class_Area>` node in "
+"``grab_area`` will be used for detecting :ref:`RigidBody <class_RigidBody>` "
+"nodes, while if ``grab_mode`` is set to ``RAYCAST`` the :ref:`Raycast "
+"<class_Raycast>` node in ``grab_raycast`` will be used for detecting :ref:"
+"`RigidBody <class_RigidBody>` nodes."
 
 #: ../../docs/tutorials/vr/vr_starter_tutorial/vr_starter_tutorial_part_one.rst:900
 #, fuzzy
@@ -1891,12 +1991,17 @@ msgid ""
 "`ARVRController <class_ARVRController>`, which we connected in the "
 "``_ready`` function."
 msgstr ""
+"这个函数中唯一的一段代码是检查刚刚释放的按钮的索引 ``button_index`` 是否等于 "
+"``15`` ，它应该映射到VR控制器上的触发按钮。 ``button_index`` 变量是由 :ref:"
+"`ARVRController <class_ARVRController>` 中的 ``button_release`` 信号传递进来"
+"的，我们之前在``_ready``函数中连接了这个信号。"
 
 #: ../../docs/tutorials/vr/vr_starter_tutorial/vr_starter_tutorial_part_one.rst:905
 msgid ""
 "If the trigger button was just released, then the "
 "``_on_button_released_trigger`` function is called."
 msgstr ""
+"如果触发器按钮被松开, 那么 ``_on_button_released_trigger`` 函数将会被调用。"
 
 #: ../../docs/tutorials/vr/vr_starter_tutorial/vr_starter_tutorial_part_one.rst:909
 #, fuzzy
@@ -1909,6 +2014,8 @@ msgid ""
 "controller is trying to teleport by checking if the ``teleport_button_down`` "
 "variable is equal to ``true``."
 msgstr ""
+"该函数中唯一的一段代码首先通过检查``teleport_button_down``变量是否等于"
+"``true``来检查VR控制器是否在尝试传送。"
 
 #: ../../docs/tutorials/vr/vr_starter_tutorial/vr_starter_tutorial_part_one.rst:913
 msgid ""
@@ -1917,6 +2024,9 @@ msgid ""
 "visible. It does this by checking to see if ``teleport_pos`` is not equal to "
 "``null`` and if ``teleport_mesh.visible`` is equal to ``true``."
 msgstr ""
+"如果`teleport_button_down```变量等于``true``，代码就会检查是否设置了传送位"
+"置，以及传送网格是否可见。这是通过检查``teleport_pos``是否不等于``null``和"
+"``teleport_mesh.visible``是否等于``true```来实现的。"
 
 #: ../../docs/tutorials/vr/vr_starter_tutorial/vr_starter_tutorial_part_one.rst:916
 msgid ""
@@ -1930,6 +2040,12 @@ msgid ""
 "`ARVRCamera <class_ARVRCamera>`, which we store in a variable called "
 "``camera_offset``."
 msgstr ""
+"如果有一个传送位置设置，并且传送网格是可见的，那么代码就会计算从摄像机到:ref:"
+"`ARVROrigin <class_ARVROrigin>`节点的偏移量，该节点被假定为VR控制器的父节点。"
+"为了计算偏移量，``Player_Camera``节点的全局位置(``global_transform.origin``)"
+"将会减去:ref:`ARVROrigin <class_ARVROrigin>`节点的全局位置。这将产生一个从 :"
+"ref:`ARVROrigin <class_ARVROrigin>`指向 :ref:`ARVRCamera <class_ARVRCamera>`"
+"的向量，我们将其存储在一个名为``camera_offset``的变量中。"
 
 #: ../../docs/tutorials/vr/vr_starter_tutorial/vr_starter_tutorial_part_one.rst:920
 msgid ""
@@ -1942,6 +2058,12 @@ msgid ""
 "you wanted to teleport at, your position would be offset by the amount of "
 "distance you have from the :ref:`ARVROrigin <class_ARVROrigin>` node."
 msgstr ""
+"我们之所以需要知道偏移量，是因为一些VR头显使用了房间追踪，玩家的摄像头可以从:"
+"ref:`ARVROrigin <class_ARVROrigin>`节点上进行偏移。正因为如此，当我们传送时，"
+"我们希望保留房间追踪产生的偏移，这样当玩家传送时，房间追踪产生的偏移就不会被"
+"应用。如果没有这个功能，如果你在一个房间里移动，然后传送，你的位置就不会出现"
+"在你想传送的位置，而是会被你与:ref:`ARVROrigin <class_ARVROrigin>`节点的距离"
+"所抵消。"
 
 #: ../../docs/tutorials/vr/vr_starter_tutorial/vr_starter_tutorial_part_one.rst:924
 msgid ""
@@ -1950,6 +2072,9 @@ msgid ""
 "to offset based on the user's height. If we did not do this, when "
 "teleporting the player's head would be level with the ground."
 msgstr ""
+"现在我们知道了从VR摄像机到VR原点的偏移量，我们需要去除``Y``轴上的差异。我们之"
+"所以这样做，是因为我们不希望根据用户的身高进行偏移。如果不这样做的话，当传送"
+"时，玩家的头部将与地面持平。"
 
 #: ../../docs/tutorials/vr/vr_starter_tutorial/vr_starter_tutorial_part_one.rst:927
 msgid ""
@@ -1959,6 +2084,10 @@ msgid ""
 "teleport the player and remove the room tracking offset, so the user appears "
 "exactly where they want when teleporting."
 msgstr ""
+"然后，我们便可以通过将ARVROrigin节点的全局位置(``global_transform.origin``)设"
+"置为``teleport_pos``中存储的位置，并从中减去``camera_offset`` 来传送玩家。这"
+"将会在传送玩家的同时，移除房间跟踪的偏移。因此保证用户在传送时，将会出现在他"
+"们想要的地方。"
 
 #: ../../docs/tutorials/vr/vr_starter_tutorial/vr_starter_tutorial_part_one.rst:930
 msgid ""
@@ -1968,6 +2097,10 @@ msgid ""
 "invisible, ``teleport_raycast.visible`` is set to ``false``, and "
 "``teleport_pos`` is set to ``null``."
 msgstr ""
+"最后，不管VR控制器是否对用户进行了传送，我们都要重置传送相关的变量。我们把 "
+"`teleport_button_down```设置为``false``，`teleport_mesh.visible```设置为"
+"``false```以便让传送网格不可见，`teleport_raycast.visible```设置为"
+"``false```，然后把 `teleport_pos```设置为``null```。"
 
 #: ../../docs/tutorials/vr/vr_starter_tutorial/vr_starter_tutorial_part_one.rst:935
 #, fuzzy
@@ -1982,6 +2115,9 @@ msgid ""
 "``can_sleep`` variable to ``false`` and sets the ``sleeping`` variable to "
 "``false``."
 msgstr ""
+"这个函数中唯一的一段代码是检查进入``Sleep_Area``节点的:ref:`PhysicsBody "
+"<class_PhysicsBody>`节点是否有一个叫``can_sleep``的变量。如果有，则将"
+"``can_sleep``变量设为``false``，并将``sleeping``变量设为``false``。"
 
 #: ../../docs/tutorials/vr/vr_starter_tutorial/vr_starter_tutorial_part_one.rst:940
 msgid ""
@@ -1991,6 +2127,10 @@ msgid ""
 "<class_PhysicsBody>` node. To work around this, we simply 'wake up' :ref:"
 "`PhysicsBody <class_PhysicsBody>` nodes that are close to the VR controller."
 msgstr ""
+"如果不这样做，睡眠状态的 :ref:`PhysicsBody <class_PhysicsBody>` 节点将无法被 "
+"VR 控制器拿起，即使 VR 控制器与 :ref:`PhysicsBody <class_PhysicsBody>` 节点处"
+"于同一位置。为了解决这个问题，我们只需 \"唤醒 \"靠近VR控制器的 :ref:"
+"`PhysicsBody <class_PhysicsBody>`节点即可。"
 
 #: ../../docs/tutorials/vr/vr_starter_tutorial/vr_starter_tutorial_part_one.rst:946
 #, fuzzy
@@ -2004,12 +2144,17 @@ msgid ""
 "has a variable called ``can_sleep``. If it does, then it sets the "
 "``can_sleep`` variable to ``true``."
 msgstr ""
+"这个函数中唯一的一段代码是检查进入``Sleep_Area``节点的:ref:`PhysicsBody "
+"<class_PhysicsBody>`节点是否有一个叫``can_sleep``的变量。如果有，则将"
+"``can_sleep``变量设置为``true``。"
 
 #: ../../docs/tutorials/vr/vr_starter_tutorial/vr_starter_tutorial_part_one.rst:951
 msgid ""
 "This allows :ref:`RigidBody <class_RigidBody>` nodes that leave the "
 "``Sleep_Area`` to sleep again, saving performance."
 msgstr ""
+"这将允许离开 ``Sleep_Area`` 的 :ref:`RigidBody <class_RigidBody>` 节点再次睡"
+"眠，以便节省性能。"
 
 #: ../../docs/tutorials/vr/vr_starter_tutorial/vr_starter_tutorial_part_one.rst:955
 #, fuzzy
@@ -2028,6 +2173,10 @@ msgid ""
 "not defined it yet. While we will not be using ``VR_Interactable_Rigidbody`` "
 "in this tutorial, let's create it real quick so the project can be run."
 msgstr ""
+"现在，我们只需要在测试项目之前再做一件事！现在我们引用了一个叫做"
+"``VR_Interactable_Rigidbody``的类，但是我们还没有定义它。虽然我们在本教程中不"
+"会使用``VR_Interactable_Rigidbody``，但我们还是要快速创建它，以便项目能够运"
+"行。"
 
 #: ../../docs/tutorials/vr/vr_starter_tutorial/vr_starter_tutorial_part_one.rst:963
 msgid "Creating a base class for interactable VR objects"
@@ -2038,12 +2187,16 @@ msgid ""
 "With the ``Script`` tab still open, create a new GDScript called "
 "``VR_Interactable_Rigidbody.gd``."
 msgstr ""
+"在 ``Script`` 标签页仍然打开的情况下，创建一个新的GDScript，名为 "
+"``VR_Interactable_Rigidbody.gd`` 。"
 
 #: ../../docs/tutorials/vr/vr_starter_tutorial/vr_starter_tutorial_part_one.rst:967
 msgid ""
 "You can create GDScripts in the ``Script`` tab by pressing ``File -> New "
 "Script...``."
 msgstr ""
+"你可以在 ``Script`` 选项卡中通过点击 ``File -> New Script...`` 来新建一个"
+"GDScripts脚本。"
 
 #: ../../docs/tutorials/vr/vr_starter_tutorial/vr_starter_tutorial_part_one.rst:969
 #, fuzzy
@@ -2065,6 +2218,11 @@ msgid ""
 "without having to load the script directly or do anything special. We can "
 "compare the class just like all of the built-in Godot classes."
 msgstr ""
+"首先，我们用 ``class_name VR_Interactable_Rigidbody`` 作为脚本的开头。这样做"
+"的目的是告诉Godot这个GDScript是一个新的类，叫做 "
+"``VR_Interactable_Rigidbody`` 。这使我们可以将节点与其他脚本文件中的 "
+"``VR_Interactable_Rigidbody`` 类进行比较，而不必直接加载脚本或做任何特殊的事"
+"情。我们可以像所有内置的Godot类一样对该类进行比较。"
 
 #: ../../docs/tutorials/vr/vr_starter_tutorial/vr_starter_tutorial_part_one.rst:1005
 msgid ""
@@ -2075,6 +2233,10 @@ msgid ""
 "reference to the VR controller is so held objects can access VR controller "
 "specific data, like ``controller_velocity``."
 msgstr ""
+"接下来是一个名为 ``controller`` 的类变量。 ``controller`` 将被用来保存对当前"
+"持有物品的VR控制器的引用。如果一个VR控制器没有持有物品，那么 ``controller`` "
+"变量的值将为 ``null`` 。我们需要对VR控制器有一个引用的原因，是为了让被持有的"
+"物品能够访问VR控制器的特定数据，比如 ``controller_velocity`` 。"
 
 #: ../../docs/tutorials/vr/vr_starter_tutorial/vr_starter_tutorial_part_one.rst:1009
 msgid ""
@@ -2082,6 +2244,9 @@ msgid ""
 "and all we do is simply have ``pass`` as there is nothing we need to do when "
 "the object is added to the scene in ``VR_Interactable_Rigidbody``."
 msgstr ""
+"最后，我们有四个函数。 ``_ready`` 函数是由Godot定义的，我们要做的只是将其 "
+"``pass`` 。因为在 ``VR_Interactable_Rigidbody`` 中，当对象被添加到场景中时，"
+"我们并不需要做什么。"
 
 #: ../../docs/tutorials/vr/vr_starter_tutorial/vr_starter_tutorial_part_one.rst:1012
 #, fuzzy
@@ -2100,6 +2265,9 @@ msgid ""
 "project, we are using the stub functions so there is a consistent interface "
 "across all interactable :ref:`RigidBody <class_RigidBody>` objects."
 msgstr ""
+"存根函数指的是一个定义了，但其中没有任何代码的函数。存根函数一般被设计成可以"
+"被覆盖或扩展。在这个项目中，我们使用了存根函数，因此在所有可交互的 :ref:"
+"`RigidBody <class_RigidBody>` 对象中都将有一个一致的接口。"
 
 #: ../../docs/tutorials/vr/vr_starter_tutorial/vr_starter_tutorial_part_one.rst:1017
 #, fuzzy
@@ -2116,6 +2284,8 @@ msgid ""
 "we'll start making special interactable :ref:`RigidBody <class_RigidBody>` "
 "objects."
 msgstr ""
+"这就是我们现在需要做的所有事情！在本系列教程的下一部分，我们将开始制作特殊的"
+"可交互的 :ref:`RigidBody <class_RigidBody>` 对象。"
 
 #: ../../docs/tutorials/vr/vr_starter_tutorial/vr_starter_tutorial_part_one.rst:1023
 #, fuzzy
@@ -2178,6 +2348,10 @@ msgid ""
 "player is moving using the VR controllers. This should help reduce motion "
 "sickness."
 msgstr ""
+"首先，让我们迅速切换回 ``Game.tscn`` 。在 :ref:`ARVROrigin "
+"<class_ARVROrigin>` 节点下有一个子节点叫 ``Movement_Vignette`` 。当玩家使用VR"
+"控制器移动时，这个节点将在VR头显上应用一个简单的晕影。这应该有助于减少晕动"
+"症。"
 
 #: ../../docs/tutorials/vr/vr_starter_tutorial/vr_starter_tutorial_part_one.rst:1045
 #, fuzzy
@@ -2220,6 +2394,8 @@ msgid ""
 "There are two class variables, ``controller_one`` and ``controller_two``. "
 "These variables will hold references to the left and right VR controllers."
 msgstr ""
+"这里有两个类变量， ``controller_one`` 和 ``controller_two`` 。这两个变量将分"
+"别保存对左、右VR控制器的引用。"
 
 #: ../../docs/tutorials/vr/vr_starter_tutorial/vr_starter_tutorial_part_one.rst:1102
 #, fuzzy
@@ -2237,6 +2413,10 @@ msgid ""
 "``interface`` is equal to ``null``, then ``_process`` is disabled using "
 "``set_process`` with a value of ``false``."
 msgstr ""
+"等待之后，使用 ``ARVRServer.primary_interface`` 检索主VR接口，该接口被分配给"
+"一个名为 ``interface`` 的变量。然后代码会检查 ``interface`` 是否等于 "
+"``null`` ，如果 ``interface`` 等于 ``null`` ，则使用 ``set_process`` 禁用 "
+"``_process`` ，值为 ``false`` 。"
 
 #: ../../docs/tutorials/vr/vr_starter_tutorial/vr_starter_tutorial_part_one.rst:1108
 msgid ""
@@ -2247,6 +2427,10 @@ msgid ""
 "accordingly. We also set the ``rect_position`` of the vignette shader to "
 "zero so it is in the correct position relative to the screen."
 msgstr ""
+"如果 ``interface`` 不是 ``null`` ，那么我们将vignette shader的 ``rect_size`` "
+"设置为VR视口的渲染大小，这样它就会占据整个屏幕。我们需要这样做，因为不同的VR"
+"头显有不同的分辨率和纵横比，所以需要相应地调整节点的大小，还要将vignette "
+"shader的 ``rect_position`` 设置为0，这样相对于屏幕的位置处于正确。"
 
 #: ../../docs/tutorials/vr/vr_starter_tutorial/vr_starter_tutorial_part_one.rst:1112
 msgid ""
@@ -2255,6 +2439,9 @@ msgid ""
 "vignette shader is made invisible by default by setting it's ``visible`` "
 "property to ``false``."
 msgstr ""
+"然后检索左和右VR控制器，并分别分配给 ``controller_one`` 和 "
+"``controller_two`` 变量。最后，通过将vignette shader的 ``visible`` 属性设置"
+"为 ``false`` ，使其默认为不可见。"
 
 #: ../../docs/tutorials/vr/vr_starter_tutorial/vr_starter_tutorial_part_one.rst:1117
 msgid ""
@@ -2262,6 +2449,9 @@ msgid ""
 "``controller_two`` are equal to ``null``. If either node is equal to "
 "``null``, then ``return`` is called so nothing happens."
 msgstr ""
+"在 ``_process`` 中，代码首先检查 ``controller_one`` 或 ``controller_two`` 是"
+"否等于 ``null`` 。如果其中一个节点等于 ``null`` ，则调用 ``return`` 来退出函"
+"数，这样就不会发生任何事情。"
 
 #: ../../docs/tutorials/vr/vr_starter_tutorial/vr_starter_tutorial_part_one.rst:1120
 msgid ""
@@ -2274,6 +2464,10 @@ msgid ""
 "in both VR controllers, than the vignette shader makes itself invisible by "
 "setting it's ``visible`` property to ``false``."
 msgstr ""
+"然后代码会通过检查 ``controller_one`` 或 ``controller_two`` 中的 "
+"``directional_movement`` 是否等于 ``true`` 来检查VR控制器中的任何一个是否在使"
+"用触摸板/摇杆移动玩家。如果VR控制器中的任何一个在移动玩家，那么vignette "
+"shader将通过设置它的 ``visible`` 属性为 ``true`` 来使自己可见。"
 
 #: ../../docs/tutorials/vr/vr_starter_tutorial/vr_starter_tutorial_part_one.rst:1127
 #, fuzzy
@@ -2308,9 +2502,13 @@ msgid ""
 "special :ref:`RigidBody <class_RigidBody>`-based objects for the player to "
 "use!"
 msgstr ""
+"现在你已经拥有了完全可以工作的VR控制器，可以在环境中移动，并与基于 :ref:"
+"`RigidBody <class_RigidBody>` 的对象进行交互。在本系列教程的下一部分，我们将"
+"创建一些特殊的，基于 :ref:`RigidBody <class_RigidBody>` 的对象供玩家使用!"
 
 #: ../../docs/tutorials/vr/vr_starter_tutorial/vr_starter_tutorial_part_one.rst:1144
 msgid ""
 "You can download the finished project for this tutorial series on the Godot "
 "OpenVR GitHub repository, under the releases tab!"
 msgstr ""
+"你可以在Godot OpenVR GitHub仓库的Release标签中下载本系列教程的成品项目！"

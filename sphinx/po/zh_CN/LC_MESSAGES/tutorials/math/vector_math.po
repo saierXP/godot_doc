@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-07 21:43+0800\n"
+"POT-Creation-Date: 2021-03-28 20:28+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -255,15 +255,15 @@ msgid "Normalization"
 msgstr "归一化"
 
 #: ../../docs/tutorials/math/vector_math.rst:189
-#, fuzzy
 msgid ""
 "**Normalizing** a vector means reducing its length to ``1`` while preserving "
 "its direction. This is done by dividing each of its components by its "
 "magnitude. Because this is such a common operation, ``Vector2`` and "
 "``Vector3`` provide a method for normalizing:"
 msgstr ""
-"**归一化** 向量意味着在保持其方向的同时将其长度减少到 ``1`` 。这是通过将每个"
-"分量除以其大小来完成的:"
+"**归一化** 一个向量意味着将其长度缩减到 ``1`` ，并保留其方向。其方法是将每个"
+"分量除以其幅度。由于这是一个很常见的操作， ``Vector2`` 和 ``Vector3`` 提供了"
+"归一化的方法:"
 
 #: ../../docs/tutorials/math/vector_math.rst:204
 msgid ""

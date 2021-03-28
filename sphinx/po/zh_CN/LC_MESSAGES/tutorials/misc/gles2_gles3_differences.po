@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-07 21:43+0800\n"
+"POT-Creation-Date: 2021-03-28 20:28+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -292,6 +292,9 @@ msgid ""
 "compression mode (instead of Video RAM). This can be done in the Import dock "
 "after selecting them in the FileSystem dock."
 msgstr ""
+"由于ETC不支持透明度，您必须重新导入包含alpha通道的纹理，以使用未压缩、有损或"
+"无损压缩模式（而不是视频RAM）。这可以在文件系统栏中选择它们后，在导入栏中完"
+"成。"
 
 #: ../../docs/tutorials/misc/gles2_gles3_differences.rst:122
 msgid "Blend shapes"
@@ -418,6 +421,8 @@ msgid ""
 "Functions not in GLES2's GLSL were added with Godots own shader standard "
 "library. These functions may perform worse in GLES2 compared to GLES3."
 msgstr ""
+"GLES2的GLSL中没有的函数是用Godots自己的shader标准库添加的，这些函数在GLES2中"
+"的表现可能比GLES3差。"
 
 #: ../../docs/tutorials/misc/gles2_gles3_differences.rst:171
 #, fuzzy
@@ -429,6 +434,8 @@ msgid ""
 "GLES2 does not support ``textureSize()``. You can get the size of a texture "
 "the old fashioned way by passing in a uniform with the texture size yourself."
 msgstr ""
+"GLES2不支持 ``textureSize()`` 。你可以用老式的方式获得纹理的大小，通过传入一"
+"个带有纹理大小的uniform。"
 
 #: ../../docs/tutorials/misc/gles2_gles3_differences.rst:189
 #, fuzzy
@@ -442,6 +449,9 @@ msgid ""
 "that, when written to, will have no effect or could even cause issues when "
 "using the GLES2 backend."
 msgstr ""
+"Godot还提供了许多内置变量和渲染模式。有些变量在GLES2中无法被支持。以下是一些"
+"内置变量和渲染模式的列表，这些变量和渲染模式在写入GLES2后端时不会有任何影响，"
+"甚至可能会导致问题。"
 
 #: ../../docs/tutorials/misc/gles2_gles3_differences.rst:196
 #, fuzzy

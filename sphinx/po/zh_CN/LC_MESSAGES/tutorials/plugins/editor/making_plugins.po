@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-07 21:43+0800\n"
+"POT-Creation-Date: 2021-03-28 20:28+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -131,6 +131,9 @@ msgid ""
 "change: it must be a ``tool`` script, or else it will not load properly in "
 "the editor, and it must inherit from :ref:`class_EditorPlugin`."
 msgstr ""
+"创建插件后，对话框会自动为你打开EditorPlugin脚本。该脚本有两个要求，你不能改"
+"变：它必须是一个 ``tool`` 脚本，否则将无法在编辑器中正常加载；它必须继承 :"
+"ref:`class_EditorPlugin`。"
 
 #: ../../docs/tutorials/plugins/editor/making_plugins.rst:76
 msgid ""
@@ -138,6 +141,8 @@ msgid ""
 "uses must *also* be a tool.  Any GDScript without ``tool`` imported into the "
 "editor will act like an empty file!"
 msgstr ""
+"除了EditorPlugin脚本之外，插件所使用的任何其他GDScript也必须是一个tool。 任何"
+"没有 ``tool`` 导入编辑器的GDScript都会像一个空文件一样!"
 
 #: ../../docs/tutorials/plugins/editor/making_plugins.rst:80
 #, fuzzy
@@ -181,6 +186,9 @@ msgid ""
 "Class system <doc_scripting_continued_class_name>`. If you are writing "
 "GDScript or NativeScript, we recommend using Script Classes instead."
 msgstr ""
+"通过EditorPlugin添加的节点是 \"CustomType \"节点。虽然它们可以与任何脚本语言"
+"一起工作，但功能比 :ref:`脚本类系统<doc_scripting_continued_class_name>` 少。"
+"如果你正在编写GDScript或NativeScript，建议使用脚本类代替。"
 
 #: ../../docs/tutorials/plugins/editor/making_plugins.rst:143
 #, fuzzy

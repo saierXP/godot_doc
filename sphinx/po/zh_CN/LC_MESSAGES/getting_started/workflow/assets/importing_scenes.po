@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-07 21:43+0800\n"
+"POT-Creation-Date: 2021-03-28 20:28+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -62,14 +62,13 @@ msgid "ESCN, a Godot specific format that Blender can export with a plugin."
 msgstr "ESCN，Blender可以通过插件导出的，一种Godot特定格式。"
 
 #: ../../docs/getting_started/workflow/assets/importing_scenes.rst:20
-#, fuzzy
 msgid ""
 "FBX, supported via the Open Asset Import library. However, FBX is "
 "proprietary, so we recommend using other formats listed above, if suitable "
 "for your workflow."
 msgstr ""
-"FBX：通过 Open Asset Import library 提供支持。然而，FBX 是proprietary ，所以"
-"如果无特殊要求的话，推荐使用上面列出的格式。"
+"FBX：通过 Open Asset Import library 提供支持。然而，FBX 是专属格式 ，所以如果"
+"无特殊要求的话，推荐使用上面列出的格式。"
 
 #: ../../docs/getting_started/workflow/assets/importing_scenes.rst:23
 msgid ""
@@ -150,12 +149,12 @@ msgstr ""
 "个，也可以。"
 
 #: ../../docs/getting_started/workflow/assets/importing_scenes.rst:57
-#, fuzzy
 msgid ""
 "Blender does not export emissive textures with the glTF file. If your model "
 "uses one, it must be brought in separately."
 msgstr ""
-"Blender不会使用glTF文件导出发射纹理。如果您的模型使用这种，则必须单独提供。"
+"Blender导出的glTF文件不会包含放射纹理。如果您的模型使用这种文件，则必须单独分"
+"开导入。"
 
 #: ../../docs/getting_started/workflow/assets/importing_scenes.rst:61
 msgid "Exporting DAE files from Blender"
@@ -170,22 +169,21 @@ msgstr ""
 "不应该使用。"
 
 #: ../../docs/getting_started/workflow/assets/importing_scenes.rst:66
-#, fuzzy
 msgid ""
 "Godot provides a `Blender plugin <https://github.com/godotengine/collada-"
 "exporter>`_ that will correctly export COLLADA scenes for use in Godot. It "
 "does not work in Blender 2.8 or newer, but there are plans to update it in "
 "the future."
 msgstr ""
-"Godot 提供了一个 `Blender 插件 <https://github.com/godotengine/collada-"
-"exporter>`_，可以正确的地导出 COLLADA 场景以用于Godot。"
+"Godot提供了一个`Blender插件<https://github.com/godotengine/collada-"
+"exporter>`_，可以正确导出COLLADA场景，供Godot使用。它不能在Blender 2.8或更新"
+"的版本中使用，但有计划在未来更新它。"
 
 #: ../../docs/getting_started/workflow/assets/importing_scenes.rst:71
 msgid "Exporting ESCN files from Blender"
 msgstr "从Blender导出ESCN文件"
 
 #: ../../docs/getting_started/workflow/assets/importing_scenes.rst:73
-#, fuzzy
 msgid ""
 "The most powerful one, called `godot-blender-exporter <https://github.com/"
 "godotengine/godot-blender-exporter>`__. It uses a .escn file, which is kind "
@@ -193,9 +191,10 @@ msgid ""
 "information as possible from a Blender scene. However, it is considered "
 "experimental."
 msgstr ""
-"最强大的一个，名为 `godot-blender-exporter <https://github.com/godotengine/"
-"godot-blender-exporter>`__。它使用 ``.escn`` 文件，这是.tscn文件（Godot场景文"
-"件）的另一种称呼；它从Blender场景中保留尽可能多的信息。"
+"最强大的一个，叫做`godot-blender-exporter <https://github.com/godotengine/"
+"godot-blender-exporter>`__。它使用的是.escn文件，这也是.tscn文件（Godot场景文"
+"件）的另一种名称；它从Blender场景中保留了尽可能多的信息。然而，它被认为是试验"
+"性的。"
 
 #: ../../docs/getting_started/workflow/assets/importing_scenes.rst:79
 msgid ""
@@ -819,7 +818,6 @@ msgid "Remove nodes (-noimp)"
 msgstr "删除节点（``-noimp``）"
 
 #: ../../docs/getting_started/workflow/assets/importing_scenes.rst:385
-#, fuzzy
 msgid ""
 "Objects that have the ``-noimp`` suffix will be removed at import-time no "
 "matter what their type is. They will not appear in the imported scene."
@@ -828,9 +826,8 @@ msgstr ""
 "入的场景中。"
 
 #: ../../docs/getting_started/workflow/assets/importing_scenes.rst:389
-#, fuzzy
 msgid "Create collisions (-col, -convcol, -colonly, -convcolonly)"
-msgstr "创建碰撞体（``-col``、``-colonly``、``-convcolonly``）"
+msgstr "创建碰撞体（ ``-col`` 、 ``-colonly`` 、 ``-convcolonly`` ）"
 
 #: ../../docs/getting_started/workflow/assets/importing_scenes.rst:391
 msgid ""
@@ -865,45 +862,41 @@ msgstr ""
 "体。"
 
 #: ../../docs/getting_started/workflow/assets/importing_scenes.rst:406
-#, fuzzy
 msgid ""
 "However, in both cases, the visual geometry may be too complex or not smooth "
 "enough for collisions. This can create physics glitches and slow down the "
 "engine unneccesarily."
 msgstr ""
-"然而，通常情况下，视觉几何体对于碰撞来说太复杂或太不平滑，最终效果不佳。"
+"然而，在这两个例子中，视觉几何体处理过于复杂或不够光滑的碰撞，物理引擎会出现"
+"小故障从而不必要的降低了引擎的速度。"
 
 #: ../../docs/getting_started/workflow/assets/importing_scenes.rst:410
-#, fuzzy
 msgid ""
 "To solve this, the ``-colonly`` modifier exists. It will remove the mesh "
 "upon importing and will create a :ref:`class_staticbody` collision instead. "
 "This helps the visual mesh and actual collision to be separated."
 msgstr ""
-"这有助于将可视的网格和实际碰撞体分开。为了解决这个问题，存在 ``-colony`` 修饰"
-"符，该修饰符将在导入时删除网格，并创建一个 :ref:`class_staticbody` 碰撞体。这"
-"有助于将视觉网格与实际碰撞分开。"
+"为了解决这个问题，存在 ``-colonly`` 修饰符。它将在导入时删除该网格，并创建一"
+"个 :ref:`class_staticbody` 碰撞体来代替。这有助于将可视网格与实际碰撞体分开。"
 
 #: ../../docs/getting_started/workflow/assets/importing_scenes.rst:414
-#, fuzzy
 msgid ""
 "The option ``-convcolonly`` works in a similar way, but will create a :ref:"
 "`class_convexpolygonshape` instead."
 msgstr ""
-"选项 ``-convcolonly`` 将创建一个 :ref:`class_convexpolygonshape` 而不是一个 :"
-"ref:`class_concavepolygonshape`。"
+"选项 ``-convcolonly`` 已相似的方式工作，但将创建一个 :ref:"
+"`class_convexpolygonshape` 而不是一个 :ref:`class_concavepolygonshape`。"
 
 #: ../../docs/getting_started/workflow/assets/importing_scenes.rst:416
-#, fuzzy
 msgid ""
 "The option ``-colonly`` can also be used with Blender's empty objects. On "
 "import, it will create a :ref:`class_staticbody` with a collision node as a "
 "child. The collision node will have one of a number of predefined shapes, "
 "depending on Blender's empty draw type:"
 msgstr ""
-"选项 ``-colonly`` 也可以与Blender的空对象一起使用。导入时，它将创建一个带有碰"
-"撞节点的 :ref:`class_staticbody` 作为子节点。碰撞节点将具有许多预定义的形状之"
-"一，具体取决于Blender的空绘制类型："
+"选项 ``-colonly`` 也可以与Blender的空对象一起使用。导入时，它将创建一个将一个"
+"碰撞节点作为子节点的 :ref:`class_staticbody` 。该碰撞节点将具有许多预定义的形"
+"状之中的一个形状，具体取决于Blender的空物体的绘制类型："
 
 #: ../../docs/getting_started/workflow/assets/importing_scenes.rst:423
 msgid "Single arrow will create a :ref:`class_rayshape`."
@@ -932,14 +925,13 @@ msgstr ""
 "常有最好的性能和可靠性。"
 
 #: ../../docs/getting_started/workflow/assets/importing_scenes.rst:434
-#, fuzzy
 msgid ""
 "For better visibility in Blender's editor, you can set the \"X-Ray\" option "
 "on collision empties and set some distinct color for them in Blender's "
 "**User Preferences > Themes > 3D View > Empty**."
 msgstr ""
-"为了提高Blender编辑器的可见性，用户可以在碰撞空物体上设置 ``X-Ray`` 选项，并"
-"在用户首选项/主题/ 3D视图/空物体中为它们设置不同的颜色。"
+"为了Blender编辑器中更佳的可见性，可以在碰撞空物体上设置“透视”选项，并在"
+"Blender的 **用户偏好设置> 主题> 3D视图> 空物体** 中为它们设置不同的颜色。"
 
 #: ../../docs/getting_started/workflow/assets/importing_scenes.rst:440
 msgid ""
@@ -952,50 +944,48 @@ msgid "Create navigation (-navmesh)"
 msgstr "创建导航（``-navmesh``）"
 
 #: ../../docs/getting_started/workflow/assets/importing_scenes.rst:446
-#, fuzzy
 msgid ""
 "A mesh node with the ``-navmesh`` suffix will be converted to a navigation "
 "mesh. The original Mesh object will be removed at import-time."
-msgstr "具有此后缀的网格节点将被转换为导航网格。原始网格节点将被删除。"
+msgstr ""
+"具有 ``-navmesh`` 后缀的网格节点，将被转换为导航网格。原始网格节点将在导入时"
+"被删除。"
 
 #: ../../docs/getting_started/workflow/assets/importing_scenes.rst:450
 msgid "Create a VehicleBody (-vehicle)"
 msgstr "创建一个 ``VehicleBody`` （``-vehicle``）"
 
 #: ../../docs/getting_started/workflow/assets/importing_scenes.rst:452
-#, fuzzy
 msgid ""
 "A mesh node with the ``-vehicle`` suffix will be imported as a child to a :"
 "ref:`class_VehicleBody` node."
 msgstr ""
-"具有此后缀的网格节点将作为子节点导入到 :ref:`VehicleBody "
-"<class_VehicleBody>` 节点。"
+"具有 ``-vehicle`` 后缀的网格节点，将作为一个 :ref:`VehicleBody "
+"<class_VehicleBody>` 节点的子节点被导入。"
 
 #: ../../docs/getting_started/workflow/assets/importing_scenes.rst:456
 msgid "Create a VehicleWheel (-wheel)"
 msgstr "创建一个 ``VehicleWheel`` （``-wheel``）"
 
 #: ../../docs/getting_started/workflow/assets/importing_scenes.rst:458
-#, fuzzy
 msgid ""
 "A mesh node with the ``-wheel`` suffix will be imported as a child to a :ref:"
 "`class_VehicleWheel` node."
 msgstr ""
-"具有此后缀的网格节点将作为子节点导入到 :ref:`VehicleWheel "
-"<class_VehicleWheel>` 节点。"
+"具有 ``-wheel`` 后缀的网格节点，将作为一个 :ref:`VehicleWheel "
+"<class_VehicleWheel>` 节点的子节点被导入。"
 
 #: ../../docs/getting_started/workflow/assets/importing_scenes.rst:462
 msgid "Rigid Body (-rigid)"
 msgstr "刚体（``-rigid``）"
 
 #: ../../docs/getting_started/workflow/assets/importing_scenes.rst:464
-#, fuzzy
 msgid ""
 "A mesh node with the ``-rigid`` suffix will be imported as a :ref:"
 "`class_RigidBody`."
 msgstr ""
-"具有此后缀的网格节点将作为子节点导入到 :ref:`VehicleBody "
-"<class_VehicleBody>` 节点。"
+"具有 ``-rigid`` 后缀的网格节点，将作为一个 :ref:`VehicleBody "
+"<class_VehicleBody>` 节点的子节点被导入。"
 
 #: ../../docs/getting_started/workflow/assets/importing_scenes.rst:467
 msgid "Animation loop (-loop, -cycle)"
@@ -1012,10 +1002,9 @@ msgstr ""
 "环标志的Godot动画导入。**这是区分大小写的，不需要连字符。**"
 
 #: ../../docs/getting_started/workflow/assets/importing_scenes.rst:473
-#, fuzzy
 msgid ""
 "In Blender, this requires using the NLA Editor and naming the Action with "
 "the ``loop`` or ``cycle`` prefix or suffix."
 msgstr ""
-"在Blender中，这需要使用NLA编辑器，并用 ``loop`` 和 ``cycle`` 前缀或后缀命名动"
-"作。"
+"在Blender中，这需要使用NLA编辑器，并用 ``loop`` 或 ``cycle`` 前缀或后缀命名该"
+"动作。"

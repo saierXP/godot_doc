@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-07 21:43+0800\n"
+"POT-Creation-Date: 2021-03-28 20:28+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -119,14 +119,13 @@ msgstr ""
 "器``以及``混合着色器``"
 
 #: ../../docs/getting_started/workflow/assets/escn_exporter/material.rst:50
-#, fuzzy
 msgid ""
 "If possible, try to use PrincipledBSDF node with GGX distribution as the "
 "output shader node, it is the only one guaranteed to be exactly correct. "
 "Others are just based on approximation."
 msgstr ""
-"如果可能，请尝试使用具有GGX分布的 ``PrincipledBSDF`` 节点作为输出着色器节点，"
-"这是唯一能保证完全正确的方法。其他仅基于近似值。"
+"如果可能的话，尽量使用带有GGX分布的PrincipledBSDF节点作为输出着色器节点，这是"
+"唯一能保证完全正确的节点，其他的只是基于近似值。"
 
 #: ../../docs/getting_started/workflow/assets/escn_exporter/material.rst:53
 msgid ""

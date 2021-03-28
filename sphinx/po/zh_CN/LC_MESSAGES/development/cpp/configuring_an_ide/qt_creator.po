@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-07 21:43+0800\n"
+"POT-Creation-Date: 2021-03-28 20:28+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -64,7 +64,7 @@ msgstr ""
 msgid ""
 "You can change this configuration later by right-clicking on your project "
 "and selecting the **Edit Files...** option."
-msgstr ""
+msgstr "你可以在之后通过在你的项目上右键选择**编辑文件..**选项来更改此配置。"
 
 #: ../../docs/development/cpp/configuring_an_ide/qt_creator.rst:40
 msgid "Finish the import."
@@ -75,6 +75,8 @@ msgid ""
 "Open the ``project_name.includes`` file and add a line containing ``.`` to "
 "it to correctly enable the code completion."
 msgstr ""
+"打开 ``project_name.includes`` 文件，并在其中添加包含 ``.`` 的行，以正确启用"
+"代码自动完成功能。"
 
 #: ../../docs/development/cpp/configuring_an_ide/qt_creator.rst:48
 #, fuzzy
@@ -144,6 +146,10 @@ msgid ""
 "``tools`` enabled. You can use ``%{buildDir}`` to reference the project "
 "root, e.g: ``%{buildDir}/bin/godot.x11.opt.tools.64``."
 msgstr ""
+"在 **Executable** 下指定位于 ``<Godot根目录>/bin`` 文件夹中的可执行文件的路"
+"径。文件名取决于你的编译配置，例如： ``godot.x11.tools.64`` 对于64位X11平台，"
+"启用 ``tools`` 。你可以使用 ``%{buildDir}`` 来引用项目根目录，例如： ``"
+"%{buildDir}/bin/godot.x11.opt.tools.64`` 。"
 
 #: ../../docs/development/cpp/configuring_an_ide/qt_creator.rst:80
 #, fuzzy
@@ -166,6 +172,8 @@ msgid ""
 "To learn more about command line arguments, refer to the :ref:`command line "
 "tutorial <doc_command_line_tutorial>`."
 msgstr ""
+"要了解更多的命令行参数，请参考 :ref:`命令行教程"
+"<doc_command_line_tutorial>` 。"
 
 #: ../../docs/development/cpp/configuring_an_ide/qt_creator.rst:91
 msgid "Code style configuration"

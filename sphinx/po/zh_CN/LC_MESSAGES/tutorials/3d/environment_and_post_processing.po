@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-07 21:43+0800\n"
+"POT-Creation-Date: 2021-03-28 20:28+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,13 +22,12 @@ msgid "Environment and post-processing"
 msgstr "环境和后处理"
 
 #: ../../docs/tutorials/3d/environment_and_post_processing.rst:6
-#, fuzzy
 msgid ""
 "Godot 3 provides a redesigned Environment resource, as well as a new post-"
 "processing system with many available effects right out of the box."
 msgstr ""
-"Godot 3提供了重新设计的环境资源，以及一个全新的后期处理系统，其开箱即用，具有"
-"许多可用的效果。"
+"Godot 3提供了重新设计的环境资源（Environment resource），以及一个全新的后期处"
+"理（post-processing）系统，其开箱即用，具有许多可用的效果。"
 
 #: ../../docs/tutorials/3d/environment_and_post_processing.rst:10
 msgid "Environment"
@@ -119,15 +118,15 @@ msgid "Background"
 msgstr "背景"
 
 #: ../../docs/tutorials/3d/environment_and_post_processing.rst:61
-#, fuzzy
 msgid ""
 "The Background section contains settings on how to fill the background "
 "(parts of the screen where objects were not drawn). In Godot 3.0, the "
 "background not only serves the purpose of displaying an image or color, it "
 "can also change how objects are affected by ambient and reflected light."
 msgstr ""
-"“背景”部分包含有关如何填充背景的设置(屏幕中未绘制对象的部分)。 在Godot 3.0"
-"中，背景不仅用于显示图像或颜色，还可以改变物体受环境光和反射光影响的方式。"
+"“背景（Background） ”部分包含有关如何填充背景的设置(屏幕中未绘制对象的部"
+"分)。 在Godot 3.0中，背景不仅用于显示图像或颜色，还可以改变物体受环境光和反射"
+"光影响的方式。"
 
 #: ../../docs/tutorials/3d/environment_and_post_processing.rst:68
 msgid "There are many ways to set the background:"
@@ -137,12 +136,15 @@ msgstr "设置背景的方法有很多种:"
 msgid ""
 "**Clear Color** uses the default clear color defined by the project. The "
 "background will be a constant color."
-msgstr "** Clear Color **使用项目定义的默认清晰颜色。 背景将是恒定的颜色。"
+msgstr ""
+"** 清晰颜色（Clear Color ）** 使用项目设置中定义的默认清晰颜色。 背景将是恒定"
+"的颜色。"
 
 #: ../../docs/tutorials/3d/environment_and_post_processing.rst:71
-#, fuzzy
 msgid "**Custom Color** is like Clear Color, but with a custom color value."
-msgstr "**自定义颜色**与“清除颜色”类似，但具有自定义颜色值。"
+msgstr ""
+"**自定义颜色（Custom Color）** 与清晰颜色（Clear Color）类似，但具有自定义颜"
+"色值。"
 
 #: ../../docs/tutorials/3d/environment_and_post_processing.rst:72
 msgid ""
@@ -150,18 +152,17 @@ msgid ""
 "procedural sky (a simple sky featuring a gradient and an optional sun). "
 "Objects will reflect it and absorb ambient light from it."
 msgstr ""
-"** Sky **可让您定义全景天空(360度球体纹理)或程序天空(具有渐变和可选太阳的简单"
-"天空)。 物体将反射它并从中吸收环境光。"
+"**天空（Sky） ** 可让您定义全景天空(360度球体纹理)或程序天空(具有渐变和可选太"
+"阳的简单天空)。 物体将反射它并从中吸收环境光。"
 
 #: ../../docs/tutorials/3d/environment_and_post_processing.rst:73
-#, fuzzy
 msgid ""
 "**Color+Sky** lets you define a sky (as above), but uses a constant color "
 "value for drawing the background. The sky will only be used for reflection "
 "and ambient light."
 msgstr ""
-"** Color + Sky **可让您定义天空(如上所示)，但使用恒定颜色值绘制背景。 天空仅"
-"用于反射和环境光。"
+"** 颜色+天空（Color + Sky ）** 可让您定义天空(如上所示)，但使用恒定颜色值绘制"
+"背景。 天空仅用于反射和环境光。"
 
 #: ../../docs/tutorials/3d/environment_and_post_processing.rst:76
 msgid "Ambient Light"
@@ -187,28 +188,27 @@ msgstr ""
 "(如前所述，但天空需要设置为背景) 启用)。"
 
 #: ../../docs/tutorials/3d/environment_and_post_processing.rst:89
-#, fuzzy
 msgid ""
 "When a *Sky* is set as background, it's possible to blend between ambient "
 "color and sky using the **Sky Contribution** setting (this value is 1.0 by "
 "default for convenience, so only the sky affects objects)."
 msgstr ""
-"当* Sky *设置为背景时，可以使用** Sky Contribution **设置在环境颜色和天空之间"
-"进行混合(为方便起见，此值默认为1.0，因此只有天空会影响对象)。"
+"当 *天空（Sky）* 设置为背景时，可以使用 **天空贡献度（Sky Contribution）** 设"
+"置在环境颜色（ambient color）和天空（sky）之间进行混合（为方便起见，此值默认"
+"为1.0，因此只有天空会影响对象）。"
 
 #: ../../docs/tutorials/3d/environment_and_post_processing.rst:93
 msgid "Here is a comparison of how different ambient light affects a scene:"
 msgstr "以下是不同环境光对场景的影响比较:"
 
 #: ../../docs/tutorials/3d/environment_and_post_processing.rst:97
-#, fuzzy
 msgid ""
 "Finally, there is an **Energy** setting, which is a multiplier. It's useful "
 "when working with HDR."
-msgstr "最后有一个** Energy **设置，这是一个乘数，在使用HDR时非常有用。"
+msgstr ""
+"最后有一个 **能量（Energy）** 设置，这是一个乘数，在使用HDR时非常有用。"
 
 #: ../../docs/tutorials/3d/environment_and_post_processing.rst:100
-#, fuzzy
 msgid ""
 "In general, ambient light should only be used for simple scenes, large "
 "exteriors, or for performance reasons (ambient light is cheap), as it does "
@@ -217,9 +217,10 @@ msgid ""
 "indirect light propagates. Below is a comparison, in terms of quality, "
 "between using a flat ambient color and a GIProbe:"
 msgstr ""
-"通常，环境光应该仅用于简单的场景，大的外部或出于性能原因(环境光很便宜)，因为"
-"它不能提供最佳的照明质量。 最好从ReflectionProbe或GIProbe生成环境光，这将更加"
-"忠实地模拟间接光传播的方式。 以下是使用平坦环境色和GIProbe之间的质量比较:"
+"一般来说，环境光应该只用于简单的场景和大型外景，或是出于性能考虑（环境光消耗"
+"少），但它不能提供最好的光照质量。最好是用ReflectionProbe或GIProbe生成环境"
+"光，这样可以更忠实地模拟间接光的传播方式。下面是使用平面环境色和GIProbe在质量"
+"上的比较:"
 
 #: ../../docs/tutorials/3d/environment_and_post_processing.rst:109
 msgid ""
@@ -313,11 +314,10 @@ msgid ""
 msgstr "**曝光:** 色调映射曝光，模拟随时间接收的光量。"
 
 #: ../../docs/tutorials/3d/environment_and_post_processing.rst:149
-#, fuzzy
 msgid ""
 "**White:** Tone mapping white, which simulates where in the scale white is "
 "located (by default 1.0)."
-msgstr "**白色:** 色调映射白色，模拟刻度中白色所在的位置(默认为1.0)。"
+msgstr "**White:** 色调映射白色，模拟缩放白色的位置（默认为1.0）。"
 
 #: ../../docs/tutorials/3d/environment_and_post_processing.rst:152
 msgid "Auto Exposure (HDR)"
@@ -735,8 +735,8 @@ msgid ""
 "image with no blending involved. In general, it's too strong to be used, but "
 "can look good with low intensity Bloom (produces a dream-like effect)."
 msgstr ""
-"**添加剂**是最强的，因为它只是在图像上添加了发光效果而不涉及混合。 一般来说，"
-"它太强大而无法使用，但在低强度Bloom下可以看起来很好(产生梦幻般的效果)。"
+"**添加剂** 是最强的，因为它只是在图像上添加了发光效果而不涉及混合。 一般来"
+"说，它太强大而无法使用，但在低强度Bloom下可以看起来很好(产生梦幻般的效果)。"
 
 #: ../../docs/tutorials/3d/environment_and_post_processing.rst:324
 msgid ""

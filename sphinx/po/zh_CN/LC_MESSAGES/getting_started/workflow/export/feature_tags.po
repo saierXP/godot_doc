@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-07 21:43+0800\n"
+"POT-Creation-Date: 2021-03-28 20:28+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -155,7 +155,7 @@ msgstr "**Server**"
 
 #: ../../docs/getting_started/workflow/export/feature_tags.rst:52
 msgid "Running on the headless server platform"
-msgstr "在无头服务器平台上运行"
+msgstr "在精简服务平台上运行"
 
 #: ../../docs/getting_started/workflow/export/feature_tags.rst:54
 msgid "**debug**"

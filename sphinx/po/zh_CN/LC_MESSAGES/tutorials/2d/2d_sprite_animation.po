@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-07 21:43+0800\n"
+"POT-Creation-Date: 2021-03-28 20:28+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -155,9 +155,8 @@ msgstr ""
 "一个简单的例子, 按住右方向键播放动画，松开后就停下。"
 
 #: ../../docs/tutorials/2d/2d_sprite_animation.rst:90
-#, fuzzy
 msgid "Sprite sheet with AnimatedSprite"
-msgstr "Sprite sheet (精灵清单)和 AnimationPlayer(动画播放器)"
+msgstr "带有AnimatedSprite[动画精灵]的精灵表"
 
 #: ../../docs/tutorials/2d/2d_sprite_animation.rst:92
 msgid ""

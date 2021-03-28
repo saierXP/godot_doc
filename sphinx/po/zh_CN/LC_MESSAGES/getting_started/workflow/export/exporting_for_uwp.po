@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-07 21:43+0800\n"
+"POT-Creation-Date: 2021-03-28 20:28+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -31,7 +31,6 @@ msgstr ""
 "到Windows应用商店。也可以在任何平台上，而不仅仅是从Windows上，导出UWP软件包。"
 
 #: ../../docs/getting_started/workflow/export/exporting_for_uwp.rst:10
-#, fuzzy
 msgid ""
 "However, if you want to install and run the app, you need to sign it with a "
 "trusted signature. Godot supports automatic signing of packages with "
@@ -158,9 +157,8 @@ msgstr ""
 "令："
 
 #: ../../docs/getting_started/workflow/export/exporting_for_uwp.rst:64
-#, fuzzy
 msgid "Setting up automatic signing"
-msgstr "设置装配"
+msgstr "设置自动签名"
 
 #: ../../docs/getting_started/workflow/export/exporting_for_uwp.rst:66
 msgid ""

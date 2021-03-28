@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-07 21:43+0800\n"
+"POT-Creation-Date: 2021-03-28 20:28+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -487,7 +487,7 @@ msgstr "``editor/take_screenshot``"
 
 #: ../../docs/getting_started/editor/default_key_mapping.rst:70
 msgid "Toggle Fullscreen"
-msgstr "进入／离开全屏模式"
+msgstr "切换全屏模式"
 
 #: ../../docs/getting_started/editor/default_key_mapping.rst:70
 msgid ":kbd:`Shift + F11`"
@@ -2056,7 +2056,7 @@ msgstr "``script_editor/run_file``"
 
 #: ../../docs/getting_started/editor/default_key_mapping.rst:332
 msgid "Toggle Scripts Panel"
-msgstr "开启／关闭脚本面板"
+msgstr "切换脚本面板"
 
 #: ../../docs/getting_started/editor/default_key_mapping.rst:332
 msgid ":kbd:`Ctrl + \\\\`"
@@ -2557,7 +2557,7 @@ msgstr "``animation_editor/goto_prev_step``"
 
 #: ../../docs/getting_started/editor/default_key_mapping.rst:475
 msgid "Tile Map Editor"
-msgstr "瓦片地图（Tile Map）编辑器"
+msgstr "图块地图[Tile Map]编辑器"
 
 #: ../../docs/getting_started/editor/default_key_mapping.rst:480
 msgid "Find Tile"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-07 21:43+0800\n"
+"POT-Creation-Date: 2021-03-28 20:28+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,9 +18,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../docs/tutorials/3d/3d_rendering_limitations.rst:4
-#, fuzzy
 msgid "3D rendering limitations"
-msgstr "3D性能和局限性"
+msgstr "3D渲染的局限性"
 
 #: ../../docs/tutorials/3d/3d_rendering_limitations.rst:7
 msgid "Introduction"
@@ -36,9 +35,8 @@ msgstr ""
 "地工作，你需要了解这些局限性。"
 
 #: ../../docs/tutorials/3d/3d_rendering_limitations.rst:14
-#, fuzzy
 msgid "Texture size limits"
-msgstr "``TextureRect``"
+msgstr "纹理尺寸限制"
 
 #: ../../docs/tutorials/3d/3d_rendering_limitations.rst:16
 msgid ""
@@ -159,9 +157,8 @@ msgstr ""
 "得更远。"
 
 #: ../../docs/tutorials/3d/3d_rendering_limitations.rst:76
-#, fuzzy
 msgid "Transparency sorting"
-msgstr "透明"
+msgstr "透明度排序"
 
 #: ../../docs/tutorials/3d/3d_rendering_limitations.rst:78
 msgid ""
@@ -210,9 +207,8 @@ msgstr ""
 "Dither或Object Dither来代替PixelAlpha，这将使材质不透明，它也可以投射阴影。"
 
 #: ../../docs/tutorials/3d/3d_rendering_limitations.rst:101
-#, fuzzy
 msgid "Multi-sample antialiasing"
-msgstr "多个实例"
+msgstr "多采样抗锯齿"
 
 #: ../../docs/tutorials/3d/3d_rendering_limitations.rst:103
 msgid ""

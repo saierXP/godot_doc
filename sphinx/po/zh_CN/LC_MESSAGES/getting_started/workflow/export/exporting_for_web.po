@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-07 21:43+0800\n"
+"POT-Creation-Date: 2021-03-28 20:28+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -50,7 +50,6 @@ msgstr ""
 "`` 协议时不，会加载导出的项目。要解决此问题，请使用本地服务器。"
 
 #: ../../docs/getting_started/workflow/export/exporting_for_web.rst:19
-#, fuzzy
 msgid ""
 "Python offers an easy method to start a local server. Use ``python -m http."
 "server 8000 --bind 127.0.0.1`` with Python 3 to serve the current working "
@@ -58,9 +57,10 @@ msgid ""
 "information <https://developer.mozilla.org/en-US/docs/Learn/Common_questions/"
 "set_up_a_local_testing_server>`__."
 msgstr ""
-"Python提供了一种启动本地服务器的简便方法。使用Python2中的 ``python -m "
-"SimpleHTTPServer`` 或Python 3的 ``python -m http.server``，将在 ``http://"
-"localhost:8000`` 上提供当前的工作目录。"
+"Python提供了一个简单的方法来启动本地服务器。用Python 3使用 ``python -m http."
+"server 8000 --bind 127.0.0.1`` 为当前工作目录 ``http://localhost:8000`` 服"
+"务。 `其他信息请参考MDN <https://developer.mozilla.org/en-US/docs/Learn/"
+"Common_questions/set_up_a_local_testing_server>`__ 。"
 
 #: ../../docs/getting_started/workflow/export/exporting_for_web.rst:24
 msgid ""
@@ -87,11 +87,10 @@ msgstr ""
 "时，HTML5导出将使用 *WebGL 2* 。"
 
 #: ../../docs/getting_started/workflow/export/exporting_for_web.rst:35
-#, fuzzy
 msgid ""
 "Using WebGL 2 is not recommended due to its expected removal from Godot "
 "without replacement."
-msgstr "不建议使用 WebGL 2 ，因为它预期会在不更换的情况下从 Godot 中删除。"
+msgstr "不推荐使用WebGL 2，因为它预计会从Godot中移除而不需要替换。"
 
 #: ../../docs/getting_started/workflow/export/exporting_for_web.rst:38
 msgid ""
@@ -236,7 +235,6 @@ msgid "Exported ``.html`` file must not be reused"
 msgstr "导出的 ``.html`` 文件不得重复使用"
 
 #: ../../docs/getting_started/workflow/export/exporting_for_web.rst:102
-#, fuzzy
 msgid ""
 "Each project must generate their own HTML file. On export, several text "
 "placeholders are replaced in the **generated HTML file** specifically for "
@@ -244,10 +242,10 @@ msgid ""
 "file** will be lost in future exports. To customize the generated file, see :"
 "ref:`doc_customizing_html5_shell`."
 msgstr ""
-"每个项目必须生成自己的HTML文件。导出时，会在 **生成的HTML文件** 中替换多个文"
-"本占位符，专门用于给定的导出选项。对 **生成的HTML文件** 的任何直接修改将在以"
-"后的导出中丢失。要自定义生成的文件，请参阅 :ref:"
-"`doc_customizing_html5_shell`。"
+"每个项目必须生成自己的HTML文件。在导出时，在 **生成的HTML文件** 中，有几个文"
+"本占位符会被替换，专门用于给定的导出选项。任何对 **生成的HTML文件** 的直接修"
+"改将在以后的导出中丢失。要自定义生成的文件，请参见 :ref:"
+"`doc_customizing_html5_shell` 。"
 
 #: ../../docs/getting_started/workflow/export/exporting_for_web.rst:106
 msgid "Boot splash is not displayed"
@@ -263,9 +261,8 @@ msgstr ""
 "`自定义HTML页面 <doc_customizing_html5_shell>` 可以显示它。"
 
 #: ../../docs/getting_started/workflow/export/exporting_for_web.rst:113
-#, fuzzy
 msgid "Shader language limitations"
-msgstr "3D性能和局限性"
+msgstr "着色器语言限制"
 
 #: ../../docs/getting_started/workflow/export/exporting_for_web.rst:115
 msgid ""
@@ -297,7 +294,6 @@ msgid "C#"
 msgstr "C#"
 
 #: ../../docs/getting_started/workflow/export/exporting_for_web.rst:126
-#, fuzzy
 msgid "Clipboard synchronization between engine and operating system"
 msgstr "引擎和操作系统之间的剪贴板同步"
 
@@ -309,16 +305,15 @@ msgstr ""
 "除了 :ref:`class_HTTPClient` 和 :ref:`class_WebSocketClient` 之外的网络"
 
 #: ../../docs/getting_started/workflow/export/exporting_for_web.rst:129
-#, fuzzy
 msgid ""
 "Check the `list of open HTML5 issues on GitHub <https://github.com/"
 "godotengine/godot/issues?q=is:open+is:issue+label:platform:html5>`__ to see "
 "if the functionality you're interested in has an issue yet. If not, open one "
 "to communicate your interest."
 msgstr ""
-"检查 `Github上的HTML5问题列表 <https://github.com/godotengine/godot/issues?"
-"q=is:open+is:issue+label:platform:html5>`__ 看看您关注的功能是否有问题。如果"
-"没有，请打开一个来表达您的关注。"
+"查看GitHub上的 `HTML5公开议题列表<https://github.com/godotengine/godot/"
+"issues?q=is:open+is:issue+label:platform:html5>`__ ，看看你关注的功能是否有议"
+"题。如果没有，请打开一个议题来表达你的兴趣。"
 
 #: ../../docs/getting_started/workflow/export/exporting_for_web.rst:135
 msgid "Serving the files"
@@ -421,8 +416,8 @@ msgid ""
 "HTML page. This allows to, for example, load webfonts and third-party "
 "JavaScript APIs, include CSS, or run JavaScript code."
 msgstr ""
-"**Head Include** 被附加到生成的HTML页面的 ``<head>`` 元素中。这允许，例如，加"
-"载 ``webfonts`` 和第三方JavaScript API、包括CSS、或运行JavaScript代码。"
+"**Head Include** 被附加到生成的HTML页面的 ``<head>`` 元素中。例如，这允许加载"
+"webfonts和第三方JavaScript APIs，包括CSS或运行JavaScript代码。"
 
 #: ../../docs/getting_started/workflow/export/exporting_for_web.rst:187
 msgid "Calling JavaScript from script"
@@ -473,7 +468,6 @@ msgid "Any other JavaScript value is returned as ``null``."
 msgstr "任何其他JavaScript值都返回为 ``null`` 。"
 
 #: ../../docs/getting_started/workflow/export/exporting_for_web.rst:217
-#, fuzzy
 msgid ""
 "HTML5 export templates may be :ref:`built <doc_compiling_for_web>` without "
 "support for the singleton to improve security. With such templates, and on "
@@ -481,9 +475,10 @@ msgid ""
 "``null``.  The availability of the singleton can be checked with the "
 "``JavaScript`` :ref:`feature tag <doc_feature_tags>`::"
 msgstr ""
-"可以在不支持单例的情况下构建HTML5导出模板。使用这样的模板，在HTML5以外的平台"
-"上，调用 ``JavaScript.eval`` 也会返回 ``null`` 。可以使用 ``JavaScript`` 的 :"
-"ref:`功能标签 <doc_feature_tags>` 来检查单例的可用性："
+"HTML5导出模板可能会 :ref:`built <doc_compiling_for_web>` 不支持单例以提高安全"
+"性。对于这样的模板，在HTML5以外的平台上，调用 ``JavaScript.eval`` 也会返回 "
+"``null`` 。 可以通过 ``JavaScript`` :ref:`feature标签<doc_feature_tags>` 来检"
+"查单例的可用性:"
 
 #: ../../docs/getting_started/workflow/export/exporting_for_web.rst:231
 msgid ""

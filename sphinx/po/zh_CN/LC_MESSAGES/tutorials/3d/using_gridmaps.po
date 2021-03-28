@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-07 21:43+0800\n"
+"POT-Creation-Date: 2021-03-28 20:28+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -137,8 +137,7 @@ msgid ""
 "To export the library, click on Scene -> Convert To.. -> MeshLibrary.., and "
 "save it as a resource."
 msgstr ""
-"要导出库，请单击``场景`` ->``转换为...`` ->``MeshLibrary(网格库)...``，并将其"
-"另存为资源。"
+"要导出库，点击 Scene -> Convert To.. -> MeshLibrary... ，并将其保存为资源。"
 
 #: ../../docs/tutorials/3d/using_gridmaps.rst:73
 msgid ""
@@ -176,7 +175,7 @@ msgid ""
 "kbd:`Shift` and use Right-click."
 msgstr ""
 "现在，您可以通过从调色板中选择一个图块并使用左键单击在编辑器窗口中放置来开始"
-"设计关卡。 要删除图块，请使用Shift + 右键单击。"
+"设计关卡。 要删除图块，请使用 :kbd:`Shift` + 右键单击。"
 
 #: ../../docs/tutorials/3d/using_gridmaps.rst:91
 #, fuzzy
@@ -184,7 +183,8 @@ msgid ""
 "Click on the \"GridMap\" menu to see options and shortcuts. For example, "
 "pressing :kbd:`S` rotates a tile around the y-axis."
 msgstr ""
-"单击``GridMap``菜单可以查看选项和快捷键。 例如，按下``S``围绕y轴旋转图块。"
+"单击 ``GridMap`` 菜单可以查看选项和快捷键。 例如，按下 :kbd:`S` 围绕y轴旋转图"
+"块。"
 
 #: ../../docs/tutorials/3d/using_gridmaps.rst:96
 #, fuzzy
@@ -193,8 +193,8 @@ msgid ""
 "selection box. You can duplicate or clear the selected area using the "
 "respective menu options."
 msgstr ""
-"按住<Shift>并使用鼠标左键拖动将绘制一个选择框。 您可以使用相应的菜单选项复制"
-"或清除所选区域。"
+"按住 :kbd:`Shift` 并使用鼠标左键拖动将绘制一个选择框。 您可以使用相应的菜单选"
+"项复制或清除所选区域。"
 
 #: ../../docs/tutorials/3d/using_gridmaps.rst:102
 #, fuzzy

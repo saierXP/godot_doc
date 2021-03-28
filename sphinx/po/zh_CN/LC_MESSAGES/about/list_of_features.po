@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-07 21:43+0800\n"
+"POT-Creation-Date: 2021-03-28 20:28+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1297,12 +1297,12 @@ msgstr ":ref:`可拖拽分割器 <class_SplitContainer>` 布局。"
 #: ../../docs/about/list_of_features.rst:504
 msgid ""
 "Scale to multiple resolutions using the ``2d`` or ``viewport`` stretch modes."
-msgstr "使用``2d`` 或 ``视图`` 拉伸模式缩放多种分辨率。"
+msgstr "使用 ``2d`` 或 ``视图`` 拉伸模式缩放多种分辨率。"
 
 #: ../../docs/about/list_of_features.rst:505
 msgid ""
 "Support any aspect ratio using anchors and the ``expand`` stretch aspect."
-msgstr "使用锚点和``expand``等比例缩放，支持任意纵横比。"
+msgstr "使用锚点和 ``expand`` 等比例缩放，支持任意纵横比。"
 
 #: ../../docs/about/list_of_features.rst:507
 msgid "**Theming:**"

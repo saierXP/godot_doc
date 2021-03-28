@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-07 21:43+0800\n"
+"POT-Creation-Date: 2021-03-28 20:28+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -236,7 +236,6 @@ msgid ""
 msgstr "现在，无论何时在项目中运行任何场景，该脚本都将始终加载。"
 
 #: ../../docs/getting_started/step_by_step/singletons_autoload.rst:135
-#, fuzzy
 msgid ""
 "Returning to the script, it needs to fetch the current scene in the "
 "`_ready()` function. Both the current scene (the one with the button) and "

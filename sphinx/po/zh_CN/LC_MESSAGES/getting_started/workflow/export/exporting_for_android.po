@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-07 21:43+0800\n"
+"POT-Creation-Date: 2021-03-28 20:28+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -38,13 +38,11 @@ msgid "Download and install the Android SDK."
 msgstr "下载并安装 Android SDK。"
 
 #: ../../docs/getting_started/workflow/export/exporting_for_android.rst:14
-#, fuzzy
 msgid ""
 "You can install it using `Android Studio <https://developer.android.com/"
 "studio/>`__."
 msgstr ""
-"下载并安装Android SDK，从 `developer.android.com <https://developer.android."
-"com/studio/>`__."
+"你可以用 `Android Studio安装它<https://developer.android.com/studio/>`__."
 
 #: ../../docs/getting_started/workflow/export/exporting_for_android.rst:16
 msgid ""
@@ -84,19 +82,15 @@ msgid "Install OpenJDK"
 msgstr "安装OpenJDK"
 
 #: ../../docs/getting_started/workflow/export/exporting_for_android.rst:30
-#, fuzzy
 msgid ""
 "Download and install  `OpenJDK <https://adoptopenjdk.net/index.html>`__."
-msgstr ""
-"下载安装  `OpenJDK 8 <https://adoptopenjdk.net/index.html?"
-"variant=openjdk8&jvmVariant=hotspot>`__，新的版本无法工作。"
+msgstr "下载并安装 `OpenJDK <https://adoptopenjdk.net/index.html>`__ 。"
 
 #: ../../docs/getting_started/workflow/export/exporting_for_android.rst:33
 msgid "Create a debug.keystore"
 msgstr "创建一个debug.keystore"
 
 #: ../../docs/getting_started/workflow/export/exporting_for_android.rst:35
-#, fuzzy
 msgid ""
 "Android needs a debug keystore file to install to devices and distribute non-"
 "release APKs. If you have used the SDK before and have built projects, ant "
@@ -109,11 +103,10 @@ msgstr ""
 "上，您可以在 ``〜/ .android`` 目录中找到它）。"
 
 #: ../../docs/getting_started/workflow/export/exporting_for_android.rst:40
-#, fuzzy
 msgid ""
 "If you can't find it or need to generate one, the keytool command from the "
 "JDK can be used for this purpose::"
-msgstr "如果找不到或需要生成一个，JDK的 ``keytool`` 命令可用于此目的："
+msgstr "如果找不到或需要生成一个，则可以使用JDK中的keytool命令："
 
 #: ../../docs/getting_started/workflow/export/exporting_for_android.rst:45
 msgid ""
@@ -133,21 +126,19 @@ msgid "Setting it up in Godot"
 msgstr "在Godot中设置它"
 
 #: ../../docs/getting_started/workflow/export/exporting_for_android.rst:50
-#, fuzzy
 msgid ""
 "Enter the Editor Settings screen. This screen contains the editor settings "
 "for the user account in the computer (it's independent of the project)."
 msgstr ""
-"进入编辑器设置画面。此画面包含计算机中用户帐户的编辑器设置（它独立于项目）。"
+"进入编辑器设置屏幕。此屏幕包含计算机中用户帐户的编辑器设置（独立于项目）。"
 
 #: ../../docs/getting_started/workflow/export/exporting_for_android.rst:56
 msgid "Scroll down to the section where the Android settings are located:"
 msgstr "向下滚动到Android设置所在的部分："
 
 #: ../../docs/getting_started/workflow/export/exporting_for_android.rst:60
-#, fuzzy
 msgid "In that screen, 2 paths need to be set:"
-msgstr "在该界面中，需要设置3个文件的路径："
+msgstr "在该屏幕中，需要设置两个路径："
 
 #: ../../docs/getting_started/workflow/export/exporting_for_android.rst:62
 msgid ""

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-07 21:43+0800\n"
+"POT-Creation-Date: 2021-03-28 20:28+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -27,6 +27,8 @@ msgid ""
 "Projects exported for the Web expose the ``Engine`` class to the JavaScript "
 "environment, that allows fine control over the engine's start-up process."
 msgstr ""
+"输出到Web的项目向JavaScript环境暴露了 ``Engine`` 类，允许对引擎的启动过程进行"
+"精细控制。"
 
 #: ../../docs/tutorials/platform/html5_shell_classref.rst:9
 #, fuzzy
@@ -51,6 +53,9 @@ msgid ""
 "the exported HTML page. To understand practical use of the ``Engine`` class, "
 "see :ref:`Custom HTML page for Web export <doc_customizing_html5_shell>`."
 msgstr ""
+"``Engine`` 类提供了在Web上加载和启动导出项目的方法。对于默认的导出设置，这已"
+"经是导出的HTML页面的一部分。要了解 ``Engine`` 类的实际使用，请参见 :ref:`自定"
+"义Web导出的HTML页面<doc_customizing_html5_shell>` 。"
 
 #: ../../docs/tutorials/platform/html5_shell_classref.rst:20
 #, fuzzy
@@ -299,6 +304,8 @@ msgid ""
 "information refer to the `official documentation <https://emscripten.org/"
 "docs/api_reference/module.html>`__ on Emscripten."
 msgstr ""
+"Emscripten的```Module```提供的运行时环境。更多信息请参考Emscripten的`官方文档"
+"<https://emscripten.org/docs/api_reference/module.html>`__手稿。"
 
 #: ../../docs/tutorials/platform/html5_shell_classref.rst:118
 #, fuzzy
@@ -315,6 +322,8 @@ msgid ""
 "Initialize the engine instance. Optionally, pass the base path to the engine "
 "to load it, if it hasn't been loaded yet. See :js:meth:`Engine.load`."
 msgstr ""
+"初始化引擎实例。如果引擎还没有被加载，可以选择将基本路径传递给引擎来加载它。"
+"参见 :js:meth:`Engine.load` 。"
 
 #: ../../docs/tutorials/platform/html5_shell_classref.rst:132
 msgid "Promise that resolves once the engine is loaded and initialized."
@@ -401,13 +410,15 @@ msgstr "引擎启动后解析的承诺。"
 #: ../../docs/tutorials/platform/html5_shell_classref.rst:173
 msgid ""
 "Start the game instance using the given executable URL and main pack URL."
-msgstr ""
+msgstr "使用给定的可执行网址和主包网址启动游戏实例。"
 
 #: ../../docs/tutorials/platform/html5_shell_classref.rst:175
 msgid ""
 "This will initialize the instance if it is not initialized. For manual "
 "initialization, see :js:meth:`engine.init`."
 msgstr ""
+"如果实例没有被初始化，这将初始化它。关于手动初始化，请参见 :js:meth:`engine."
+"init` 。"
 
 #: ../../docs/tutorials/platform/html5_shell_classref.rst:178
 #, fuzzy
@@ -466,7 +477,7 @@ msgstr "如果在开始时需要调整画布大小，则为\"真\"，否则为�
 
 #: ../../docs/tutorials/platform/html5_shell_classref.rst:217
 msgid "Specify a language code to select the proper localization for the game."
-msgstr ""
+msgstr "指定语言代码，为游戏选择合适的本地化。"
 
 #: ../../docs/tutorials/platform/html5_shell_classref.rst:219
 #, fuzzy
@@ -510,7 +521,7 @@ msgstr "为便于使用，每帧只调用一次回调，因此，没有必要使
 msgid ""
 "If the callback function receives a total amount of bytes as 0, this means "
 "that it is impossible to calculate. Possible reasons include:"
-msgstr ""
+msgstr "如果回调函数接收到的字节总数为0，这意味着无法计算。可能的原因包括："
 
 #: ../../docs/tutorials/platform/html5_shell_classref.rst:243
 msgid "Files are delivered with server-side chunked compression"
@@ -557,3 +568,5 @@ msgid ""
 "method should usually only be used in debug pages. By default, ``console."
 "warn()`` is used."
 msgstr ""
+"指定一个用于处理标准错误流的回调函数。这个方法通常只应该在调试页面中使用，默"
+"认情况下，使用 ``console.warning()`` 。"

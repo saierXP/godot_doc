@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-07 21:43+0800\n"
+"POT-Creation-Date: 2021-03-28 20:28+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1019,15 +1019,14 @@ msgid ""
 msgstr "我们的最后一个函数是 ``_input`` 函数，谢天谢地它很简短:"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_one.rst:651
-#, fuzzy
 msgid ""
 "First we make sure that the event we are dealing with is an :ref:"
 "`InputEventMouseMotion <class_InputEventMouseMotion>` event. We also want to "
 "check if the cursor is captured, as we do not want to rotate if it is not."
 msgstr ""
-"首先，我们确保我们正在处理的事件是 :ref:`InputEventMouseMotion "
-"<class_InputEventMouseMotion>` event。 我们还想检查光标是否被捕获，因为如果不"
-"是，我们不想旋转。"
+"首先确保要处理的事件是一个 :ref:`InputEventMouseMotion "
+"<class_InputEventMouseMotion>`事件。检查光标是否被捕获，因为如果没有捕获，我"
+"们就不希望旋转。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_one.rst:654
 msgid ""
@@ -1043,8 +1042,9 @@ msgid ""
 "rotate based on the relative mouse motion provided by :ref:"
 "`InputEventMouseMotion <class_InputEventMouseMotion>`."
 msgstr ""
-"如果事件确实是鼠标移动事件并且捕获了光标，我们将根据以下提供的相对鼠标移动进"
-"行旋转 :ref:`InputEventMouseMotion <class_InputEventMouseMotion>`。"
+"如果该事件确实是一个鼠标运动事件，并且光标被捕获，将根据 :ref:"
+"`InputEventMouseMotion <class_InputEventMouseMotion>` 提供的相对鼠标运动进行"
+"旋转。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_one.rst:660
 msgid ""
@@ -1052,7 +1052,7 @@ msgid ""
 "relative mouse motion's ``Y`` value, provided by :ref:`InputEventMouseMotion "
 "<class_InputEventMouseMotion>`."
 msgstr ""
-"首先，我们使用相对鼠标运动的 ``Y`` 值旋转 ``X`` 轴上的``rotation_helper`` 节"
+"首先，我们使用相对鼠标运动的 ``Y`` 值旋转 ``X`` 轴上的 ``rotation_helper`` 节"
 "点，提供者 :ref:`InputEventMouseMotion <class_InputEventMouseMotion>`。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_one.rst:663

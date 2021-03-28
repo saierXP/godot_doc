@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-07 21:43+0800\n"
+"POT-Creation-Date: 2021-03-28 20:28+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,61 +18,54 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../docs/getting_started/workflow/best_practices/what_are_godot_classes.rst:4
-#, fuzzy
 msgid "Applying object-oriented principles in Godot"
 msgstr "在Godot中应用面向对象的原则"
 
 #: ../../docs/getting_started/workflow/best_practices/what_are_godot_classes.rst:6
-#, fuzzy
 msgid ""
 "The engine offers two main ways to create reusable objects: scripts and "
 "scenes. Neither of these technically define classes under the hood."
 msgstr ""
-"引擎提供了两种创建可重用对象的主要方式：脚本和场景。这两种从技术讲并没有定义"
-"底层的类。"
+"引擎提供了两种创建可重用对象的主要方式：脚本和场景。这两种方式在技术上都没有"
+"在引擎下定义类。"
 
 #: ../../docs/getting_started/workflow/best_practices/what_are_godot_classes.rst:9
-#, fuzzy
 msgid ""
 "Still, many best practices using Godot involve applying object-oriented "
 "programming principles to the scripts and scenes that compose your game. "
 "That is why it's useful to understand how we can think of them as classes."
 msgstr ""
-"不过，许多使用 Godot 的最佳实践都涉及将面向对象的编程原则应用于构成游戏的脚本"
-"和场景。因此，了解如何把脚本和场景看作类是很实用的。"
+"尽管如此，使用Godot的许多最佳实践涉及到将面向对象的编程原则应用到组成你的游戏"
+"的脚本和场景中。这就是为什么了解我们如何将它们视为类是很有用的。"
 
 #: ../../docs/getting_started/workflow/best_practices/what_are_godot_classes.rst:13
-#, fuzzy
 msgid ""
 "This guide briefly explains how scripts and scenes work in the engine's core "
 "to help you understand how they work under the hood."
 msgstr ""
-"本指南介绍了，脚本和场景在引擎核心中的工作方式，以帮助您了解Godot在引擎盖下的"
-"工作方式，并帮助您更好地理解本系列中某些最佳实践的来历。"
+"本指南简要介绍了脚本和场景在引擎核心中的工作方式，以帮助您了解它们在引擎中的"
+"工作方式。"
 
 #: ../../docs/getting_started/workflow/best_practices/what_are_godot_classes.rst:17
-#, fuzzy
 msgid "How scripts work in the engine"
 msgstr "脚本在引擎中的工作原理"
 
 #: ../../docs/getting_started/workflow/best_practices/what_are_godot_classes.rst:19
-#, fuzzy
 msgid ""
 "The engine provides built-in classes like :ref:`Node <class_Node>`. You can "
 "extend those to create derived types using a script."
 msgstr ""
-"引擎提供了内置的类，如:ref:`Node <class_Node>`。你可以使用脚本扩展这些类来创"
-"建派生类型。"
+"引擎提供了内置的类，如 :ref:`Node <class_Node>` 。你可以使用脚本扩展这些类来"
+"创建派生类型。"
 
 #: ../../docs/getting_started/workflow/best_practices/what_are_godot_classes.rst:22
-#, fuzzy
 msgid ""
 "These scripts are not technically classes. Instead, they are resources that "
 "tell the engine a sequence of initializations to perform on one of the "
 "engine's built-in classes."
 msgstr ""
-"Godot引擎提供了内置类，如 :ref:`Node <class_Node>`。用户创建的类型从技术上讲"
-"不是类。相反，它们是资源，告诉在引擎的某一内置类上，执行初始化的序列。"
+"这些脚本在技术上不是类。相反，它们是告诉引擎在内置类中执行一系列初始化的资"
+"源。"
 
 #: ../../docs/getting_started/workflow/best_practices/what_are_godot_classes.rst:25
 msgid ""
@@ -100,28 +93,24 @@ msgid "Signals."
 msgstr "信号。"
 
 #: ../../docs/getting_started/workflow/best_practices/what_are_godot_classes.rst:34
-#, fuzzy
 msgid ""
 "This ``ClassDB`` is what objects check against when performing an operation "
 "like accessing a property or calling a method. It checks the database's "
 "records and the object's base types' records to see if the object supports "
 "the operation."
 msgstr ""
-"当执行诸如访问属性或调用方法之类的操作时，对象会对此 ``ClassClass`` 进行检"
-"查。``ClassDB`` 检查数据库的记录和对象的基本类型的记录，以查看对象是否支持该"
-"操作。"
+"这个 ``ClassDB`` 是对象在执行访问属性或调用方法等操作时的检查对象。它检查数据"
+"库的记录和对象的基本类型记录，以确定对象是否支持该操作。"
 
 #: ../../docs/getting_started/workflow/best_practices/what_are_godot_classes.rst:38
-#, fuzzy
 msgid ""
 "Attaching a :ref:`Script <class_Script>` to your object extends the methods, "
 "properties, and signals available from the ``ClassDB``."
 msgstr ""
-"将:ref:`Script <class_Script>`附加到你的对象中，可以扩展``ClassDB``中的方法、"
-"属性和信号。"
+"将 :ref:`Script <class_Script>`附加到你的对象中，可以扩展 ``ClassDB`` 中的方"
+"法、属性和信号。"
 
 #: ../../docs/getting_started/workflow/best_practices/what_are_godot_classes.rst:43
-#, fuzzy
 msgid ""
 "Even scripts that don't use the ``extends`` keyword implicitly inherit from "
 "the engine's base :ref:`Reference <class_Reference>` class. As a result, you "
@@ -129,34 +118,34 @@ msgid ""
 "they extend ``Reference`` though, you cannot attach them to a :ref:`Node "
 "<class_Node>`."
 msgstr ""
-"即使不是从内置类型继承的脚本（即不以 ``extends`` 关键字开头的脚本），也隐式地"
-"继承自引擎的基本 :ref:`Reference <class_Reference>` 类。这允许对象，在引擎逻"
-"辑认为适当的地方，遵从脚本的内容。"
+"即使是不使用 ``extends`` 关键字的脚本，也会隐式地继承引擎的基础 :ref:"
+"`Reference <class_Reference>` 类。因此，你可以从代码中实例化脚本，而无需使用 "
+"``extends`` 关键字。不过由于它们扩展了 ``Reference`` ，你不能把它们附加到一"
+"个 :ref:`Node <class_Node>` 。"
 
 #: ../../docs/getting_started/workflow/best_practices/what_are_godot_classes.rst:49
 msgid "Scenes"
 msgstr "场景"
 
 #: ../../docs/getting_started/workflow/best_practices/what_are_godot_classes.rst:51
-#, fuzzy
 msgid ""
 "The behavior of scenes has many similarities to classes, so it can make "
 "sense to think of a scene as a class. Scenes are reusable, instantiable, and "
 "inheritable groups of nodes. Creating a scene is similar to having a script "
 "that creates nodes and adds them as children using ``add_child()``."
 msgstr ""
-"场景的行为与类有很多相似之处，因此可将场景视为类，是可重用，可实例化和可继承"
-"的节点组。创建场景类似于使用脚本创建节点，并使用add_child（）将其添加为子级。"
+"场景的行为与类有很多相似之处，所以把场景看成一个类是有意义的。场景是可重用、"
+"可实例化、可继承的节点组。创建场景类似于有一个脚本，创建节点并使用 "
+"``add_child()`` 将其添加为子节点。"
 
 #: ../../docs/getting_started/workflow/best_practices/what_are_godot_classes.rst:55
-#, fuzzy
 msgid ""
 "We often pair a scene with a scripted root node that makes use of the "
 "scene's nodes. As such, the scene is often an extension of the script's "
 "declarative code."
 msgstr ""
-"为什么这些对场景组织很重要？因为场景 *是* 对象。人们通常使用子节点，将场景与"
-"脚本化的根节点配对。这意味着场景通常是，脚本声明性代码的扩展。"
+"我们经常将场景与使用场景节点的脚本根节点配对。因此，场景通常是脚本声明性代码"
+"的扩展。"
 
 #: ../../docs/getting_started/workflow/best_practices/what_are_godot_classes.rst:58
 msgid "The content of a scene helps to define:"
@@ -171,7 +160,6 @@ msgid "How they are organized"
 msgstr "它们是如何组织的"
 
 #: ../../docs/getting_started/workflow/best_practices/what_are_godot_classes.rst:62
-#, fuzzy
 msgid "How they are initialized"
 msgstr "它们是如何初始化的"
 
@@ -180,28 +168,25 @@ msgid "What signal connections they have with each other"
 msgstr "它们彼此之间有什么信号连接"
 
 #: ../../docs/getting_started/workflow/best_practices/what_are_godot_classes.rst:65
-#, fuzzy
 msgid ""
 "Why is any of this important to scene organization? Because instances of "
 "scenes *are* objects. As a result, many object-oriented principles that "
 "apply to written code also apply to scenes: single responsibility, "
 "encapsulation, and others."
 msgstr ""
-"为什么这些对场景组织很重要？因为场景 *是* 对象。人们通常使用子节点，将场景与"
-"脚本化的根节点配对。这意味着场景通常是，脚本声明性代码的扩展。"
+"为什么这些对场景组织很重要？因为场景的实例 *是* 对象。因此，许多适用于书写代"
+"码的面向对象原则也适用于场景: 单一职责、封装等。"
 
 #: ../../docs/getting_started/workflow/best_practices/what_are_godot_classes.rst:69
-#, fuzzy
 msgid ""
 "The scene is *always an extension of the script attached to its root node*, "
 "so you can interpret it as part of a class."
 msgstr ""
-"场景 *始终是附加到其根节点的脚本的扩展*。您可以将其包含的所有节点，视为单个类"
-"的一部分。"
+"场景 *总是脚本的延伸，附着在它的根节点上* ，所以你可以把它解释为一个类的一部"
+"分。"
 
 #: ../../docs/getting_started/workflow/best_practices/what_are_godot_classes.rst:72
-#, fuzzy
 msgid ""
 "Most of the techniques explained in this best practices series build on this "
 "point."
-msgstr "本系列中介绍的大多数技巧和技术，都将以此为基础。"
+msgstr "此系列最佳实践中所解释的大部分技术都建立在这一点上。"

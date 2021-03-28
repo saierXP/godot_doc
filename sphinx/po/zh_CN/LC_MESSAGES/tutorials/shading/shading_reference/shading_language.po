@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-07 21:43+0800\n"
+"POT-Creation-Date: 2021-03-28 20:28+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1502,9 +1502,8 @@ msgid "vec_type **step** (vec_type a, vec_type b)"
 msgstr "vec_type **step** ( vec_type a, vec_type b )"
 
 #: ../../docs/tutorials/shading/shading_reference/shading_language.rst:675
-#, fuzzy
 msgid "``b[i] < a[i] ? 0.0 : 1.0``"
-msgstr "\\` b[i] < a[i] ? 0.0 : 1.0 \\`"
+msgstr "``b[i] < a[i] ? 0.0 : 1.0``"
 
 #: ../../docs/tutorials/shading/shading_reference/shading_language.rst:677
 #, fuzzy
@@ -1512,9 +1511,8 @@ msgid "vec_type **step** (float a, vec_type b)"
 msgstr "vec_type **step** ( float a, vec_type b )"
 
 #: ../../docs/tutorials/shading/shading_reference/shading_language.rst:677
-#, fuzzy
 msgid "``b[i] < a ? 0.0 : 1.0``"
-msgstr "\\` b[i] < a ? 0.0 : 1.0 \\`"
+msgstr "``b[i] < a ? 0.0 : 1.0``"
 
 #: ../../docs/tutorials/shading/shading_reference/shading_language.rst:679
 #, fuzzy

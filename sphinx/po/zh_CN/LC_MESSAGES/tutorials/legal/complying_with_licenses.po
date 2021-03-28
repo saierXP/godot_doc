@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-07 21:43+0800\n"
+"POT-Creation-Date: 2021-03-28 20:28+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -83,6 +83,9 @@ msgid ""
 "sell copies of the Software, and to permit persons to whom the Software is "
 "furnished to do so, subject to the following conditions:"
 msgstr ""
+"特此免费授予获得本软件及相关文档文件副本（以下简称“软件”）的任何人免费使用本"
+"软件的权利，包括但不限于使用、复制、修改、合并、发布、分发、再授权和/或出售本"
+"软件副本的权利，并允许具有本软件的个人遵循以下条件："
 
 #: ../../docs/tutorials/legal/complying_with_licenses.rst:29
 #: ../../docs/tutorials/legal/complying_with_licenses.rst:90
@@ -102,6 +105,10 @@ msgid ""
 "FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS "
 "IN THE SOFTWARE."
 msgstr ""
+"本软件是 \"按原样 \"提供的，没有任何形式的明示或暗示的保证，包括但不限于适销"
+"性、特定用途的适用性和不侵权的保证。在任何情况下，作者或版权持有者均不对因本"
+"软件或本软件的使用或其他交易而引起的、因本软件的使用或与本软件有关的合同、侵"
+"权或其他行为的任何索赔、损害或其他责任负责。"
 
 #: ../../docs/tutorials/legal/complying_with_licenses.rst:34
 msgid ""
@@ -135,6 +142,8 @@ msgid ""
 "the bottom after showing the rest of the credits. Most large studios use "
 "this approach with open source licenses."
 msgstr ""
+"在片头画面的某处加入上述许可文字。它可以在显示其余的片头后的底部。大多数大型"
+"工作室都使用这种方法来处理开放源码许可证。"
 
 #: ../../docs/tutorials/legal/complying_with_licenses.rst:47
 #, fuzzy
@@ -144,7 +153,7 @@ msgstr "许可证"
 #: ../../docs/tutorials/legal/complying_with_licenses.rst:49
 msgid ""
 "Some games have a special menu (often in the settings) to display licenses."
-msgstr ""
+msgstr "有些游戏有一个特殊的菜单（通常在设置中）来显示许可证。"
 
 #: ../../docs/tutorials/legal/complying_with_licenses.rst:52
 msgid "Output log"
@@ -156,6 +165,8 @@ msgid ""
 "<class_@GDScript_method_print>` function may be enough on platforms where a "
 "global output log is readable (as an example, mobile devices)."
 msgstr ""
+"只需使用 :ref:`print() <class_@GDScript_method_print>` 函数打印许可文本，在全"
+"局输出日志可读的平台上就足够了（例如，移动设备）。"
 
 #: ../../docs/tutorials/legal/complying_with_licenses.rst:57
 msgid "Accompanying file"
@@ -166,6 +177,8 @@ msgid ""
 "If the game is distributed on desktop operating systems, a file containing "
 "the license can be added to the software that is installed to the user PC."
 msgstr ""
+"如果游戏是在桌面操作系统上发行的，可以将包含许可证的文件添加到安装到用户PC的"
+"软件中。"
 
 #: ../../docs/tutorials/legal/complying_with_licenses.rst:62
 #, fuzzy
@@ -175,7 +188,7 @@ msgstr "编辑器手册"
 #: ../../docs/tutorials/legal/complying_with_licenses.rst:64
 msgid ""
 "If the game includes printed manuals, license text can be included there."
-msgstr ""
+msgstr "如果游戏中包含印刷手册，可以在其中加入授权文本。"
 
 #: ../../docs/tutorials/legal/complying_with_licenses.rst:67
 #, fuzzy
@@ -189,6 +202,9 @@ msgid ""
 "license inclusion, but some do. Make sure to do it if you are using them. "
 "Here is a list of which ones require it:"
 msgstr ""
+"Godot本身包含 `第三方<https://github.com/godotengine/godot/blob/master/"
+"COPYRIGHT.txt>` _编写的软件。其中大部分不需要加入许可证，但有些需要。如果你在"
+"使用它们，一定要这样做。下面是一个列表，其中列出了有哪些是需要许可证的:"
 
 #: ../../docs/tutorials/legal/complying_with_licenses.rst:72
 #, fuzzy
@@ -201,12 +217,17 @@ msgid ""
 "license requires attribution, so the following text must be included "
 "together with the Godot license:"
 msgstr ""
+"Godot使用`FreeType <https://www.freetype.org/>`_来渲染字体。它的许可证要求注"
+"明出处，因此必须在Godot许可证中加入以下文:"
 
 #: ../../docs/tutorials/legal/complying_with_licenses.rst:77
+#, fuzzy
 msgid ""
 "Portions of this software are copyright © <year> The FreeType Project (www."
 "freetype.org).  All rights reserved."
 msgstr ""
+"本软件的部分版权归©<year> The FreeType Project（www.freetype.org）所有。版权"
+"所有。"
 
 #: ../../docs/tutorials/legal/complying_with_licenses.rst:81
 msgid "ENet"
@@ -217,6 +238,8 @@ msgid ""
 "If the project being created is a multiplayer game using the `ENet <http://"
 "enet.bespin.org/>`_ driver, ENet has similar licensing terms as Godot"
 msgstr ""
+"如果正在创建的项目是使用 `ENet <http://enet.bespin.org/>` _驱动程序的多人游"
+"戏，ENet的许可条款与Godot类似"
 
 #: ../../docs/tutorials/legal/complying_with_licenses.rst:86
 msgid "Copyright (c) 2002-2016 Lee Salzman"
@@ -232,6 +255,8 @@ msgid ""
 "through HTTP requests), the `MBedTLS <https://tls.mbed.org>`_ Apache license "
 "needs to be complied by including the following text:"
 msgstr ""
+"如果项目使用Godot 3.1或以上版本，并且使用SSL（通常通过HTTP请求），则需要通过"
+"包含以下文本来遵守`MBedTLS <https://tls.mbed.org>`_ Apache许可证："
 
 #: ../../docs/tutorials/legal/complying_with_licenses.rst:100
 #, fuzzy
@@ -244,6 +269,8 @@ msgid ""
 "not use this file except in compliance with the License. You may obtain a "
 "copy of the License at"
 msgstr ""
+"根据Apache许可证2.0版本（以下简称 \"许可证\"）授权；您不得使用本文件，除非符"
+"合许可证的规定。你可以在以下地址获得许可证的副本"
 
 #: ../../docs/tutorials/legal/complying_with_licenses.rst:104
 msgid "http://www.apache.org/licenses/LICENSE-2.0"
@@ -257,9 +284,12 @@ msgid ""
 "License for the specific language governing permissions and limitations "
 "under the License."
 msgstr ""
+"除非适用法律要求或书面同意，否则根据许可证分发的软件是以 \"原样 \"为基础分发"
+"的，没有任何形式的明示或暗示的保证或条件。请参阅许可证中关于许可证下权限和限"
+"制的具体语言。"
 
 #: ../../docs/tutorials/legal/complying_with_licenses.rst:108
 msgid ""
 "Keep in mind that Godot 2.x and 3.0 use `OpenSSL <https://www.openssl.org>`_ "
 "instead."
-msgstr ""
+msgstr "请记住，Godot2.x和3.0中使用的是`openssl<https://www.openssl.org>`_。"

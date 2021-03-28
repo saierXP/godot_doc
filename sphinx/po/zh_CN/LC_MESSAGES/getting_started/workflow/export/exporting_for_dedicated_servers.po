@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-07 21:43+0800\n"
+"POT-Creation-Date: 2021-03-28 20:28+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,9 +18,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../docs/getting_started/workflow/export/exporting_for_dedicated_servers.rst:4
-#, fuzzy
 msgid "Exporting for dedicated servers"
-msgstr "为Web导出"
+msgstr "导出专用服务"
 
 #: ../../docs/getting_started/workflow/export/exporting_for_dedicated_servers.rst:6
 msgid ""
@@ -32,9 +31,8 @@ msgstr ""
 "Godot 的服务器版本。"
 
 #: ../../docs/getting_started/workflow/export/exporting_for_dedicated_servers.rst:10
-#, fuzzy
 msgid "Platform support"
-msgstr "提供mod支持"
+msgstr "平台支持"
 
 #: ../../docs/getting_started/workflow/export/exporting_for_dedicated_servers.rst:12
 msgid ""
@@ -73,7 +71,7 @@ msgstr "如果项目使用C#，那么就必须使用带有Mono的服务器。"
 
 #: ../../docs/getting_started/workflow/export/exporting_for_dedicated_servers.rst:24
 msgid "\"Headless\" versus \"server\" binaries"
-msgstr "「Headless」vs「server」版本"
+msgstr "\"精简\"与 \"服务\"二进制文件的比较"
 
 #: ../../docs/getting_started/workflow/export/exporting_for_dedicated_servers.rst:26
 msgid ""
@@ -97,18 +95,17 @@ msgid ""
 "be used for exporting projects. This binary *can* be used to run dedicated "
 "servers, but it's not recommended as it's larger and less optimized."
 msgstr ""
-"**Headless（无头）：** 包含编辑器功能的可执行文件，目的是用来导出项目。该可执"
-"行文件 **可以** 用来运行专用服务器，但是因为其体积较大，优化程度较低，所以不"
-"建议将其作为专用服务器使用。"
+"**Headless:** [精简]只包含编辑器功能的可执行文件，目的是用来导出项目。该可执"
+"行文件 **可以** 用来运行专用服务，但是因为其体积较大，优化程度较低，所以不建"
+"议将其作为专用服务器使用。"
 
 #: ../../docs/getting_started/workflow/export/exporting_for_dedicated_servers.rst:37
 msgid "Exporting a PCK file"
 msgstr "导出 PCK 文件"
 
 #: ../../docs/getting_started/workflow/export/exporting_for_dedicated_servers.rst:39
-#, fuzzy
 msgid "There are two ways to export a project for a server:"
-msgstr "获取证书有两种方法:"
+msgstr "有两种方法可以导出服务项目:"
 
 #: ../../docs/getting_started/workflow/export/exporting_for_dedicated_servers.rst:41
 msgid ""
@@ -142,19 +139,17 @@ msgstr ""
 "持原样。"
 
 #: ../../docs/getting_started/workflow/export/exporting_for_dedicated_servers.rst:54
-#, fuzzy
 msgid "See :ref:`doc_exporting_projects` for more information."
-msgstr "详情见 :ref:`doc_running_code_in_the_editor`。"
+msgstr "详见 :ref:`doc_exporting_projects` 。"
 
 #: ../../docs/getting_started/workflow/export/exporting_for_dedicated_servers.rst:58
-#, fuzzy
 msgid ""
 "If you're exporting the project from a headless editor, call the headless "
 "editor with the `--export-pack` option while in the project folder to export "
 "only a PCK file."
 msgstr ""
-"如果你从无周边(Headless)编辑器导出项目，在项目文件夹中使用`--export-pack`选项"
-"调用无周边编辑器，只导出一个PCK文件。"
+"如果你从(Headless)精简编辑器导出项目，在项目文件夹中使用 `--export-pack` 选项"
+"调用精简编辑器，只导出一个PCK文件。"
 
 #: ../../docs/getting_started/workflow/export/exporting_for_dedicated_servers.rst:64
 msgid ""
@@ -167,19 +162,17 @@ msgstr ""
 "大。未来的Godot版本计划加入对去除PCK文件中服务器不需要资源的支持。"
 
 #: ../../docs/getting_started/workflow/export/exporting_for_dedicated_servers.rst:69
-#, fuzzy
 msgid ""
 "On the bright side, this allows the same PCK file to be used both by a "
 "client and dedicated server build. This can be useful if you want to ship a "
 "single archive that can be used both as a client and dedicated server."
 msgstr ""
-"从好的方面看，这允许客户端和专用服务器构建使用同一个PCK文件。如果你想发布一个"
-"既可用于客户端又可用于专用服务器的单一归档文件，这可能很有用。"
+"从好的方面，这允许客户端和专用服务构建使用同一个PCK文件。如果你想发布一个既可"
+"用于客户端又可用于专用服务的单一存档文件，可能很有用。"
 
 #: ../../docs/getting_started/workflow/export/exporting_for_dedicated_servers.rst:74
-#, fuzzy
 msgid "Preparing the server distribution"
-msgstr "准备项目"
+msgstr "准备服务分布"
 
 #: ../../docs/getting_started/workflow/export/exporting_for_dedicated_servers.rst:76
 msgid ""
@@ -196,45 +189,40 @@ msgstr ""
 "参数指定PCK文件的路径::"
 
 #: ../../docs/getting_started/workflow/export/exporting_for_dedicated_servers.rst:86
-#, fuzzy
 msgid "Starting the dedicated server"
-msgstr "为Web导出"
+msgstr "启动专用服务"
 
 #: ../../docs/getting_started/workflow/export/exporting_for_dedicated_servers.rst:88
-#, fuzzy
 msgid ""
 "If both your client and server are part of the same Godot project, you will "
 "have to add a way to start the server directly using a command-line "
 "argument. This can be done by adding the following code snippet in your main "
 "scene (or a singleton)'s ``_ready()`` method::"
 msgstr ""
-"如果你的客户端和服务器都是同一个Godot项目的一部分，你必须添加一个使用命令行参"
-"数直接启动服务器的方法。可以通过在主场景（或单例）的``_ready()``方法中添加以"
-"下代码片段来实现::"
+"如果你的客户端和服务都是同一个Godot项目的一部分，你必须添加一个使用命令行参数"
+"直接启动服务的方法。这可以通过在你的主场景（或单例）的 ``_ready()`` 方法中添"
+"加以下代码片段来实现::"
 
 #: ../../docs/getting_started/workflow/export/exporting_for_dedicated_servers.rst:99
-#, fuzzy
 msgid ""
 "Alternatively, you can make the dedicated server always start up if a "
 "headless or server binary is detected::"
-msgstr "另外，也可以在监测到无周边或服务器可执行文件时始终启动专用服务："
+msgstr "另外，你也可以让专用服务在检测到精简或服务器二进制时总是启动::"
 
 #: ../../docs/getting_started/workflow/export/exporting_for_dedicated_servers.rst:109
-#, fuzzy
 msgid ""
 "If your client and server are separate Godot projects, your server should "
 "most likely be configured in a way where running the main scene starts a "
 "server automatically."
 msgstr ""
-"如果你的客户端和服务器是独立的Godot项目，你的服务器通常应该配置成运行主场景时"
-"自动启动服务器的方式。"
+"如果你的客户端和服务器是独立的Godot项目，服务器通常应该配置成运行主场景时自启"
+"服务的方式。"
 
 #: ../../docs/getting_started/workflow/export/exporting_for_dedicated_servers.rst:114
 msgid "Next steps"
 msgstr "下一步"
 
 #: ../../docs/getting_started/workflow/export/exporting_for_dedicated_servers.rst:116
-#, fuzzy
 msgid ""
 "On Linux, to make your dedicated server restart after a crash or system "
 "reboot, you can `create a systemd service <https://medium.com/@benmorel/"
@@ -242,19 +230,18 @@ msgid ""
 "view server logs in a more convenient fashion, with automatic log rotation "
 "provided by systemd."
 msgstr ""
-"在Linux上，为了让你的专用服务器在崩溃或系统重启后重新启动，你可以`创建一个系"
-"统服务<https://medium.com/@benmorel/creating-a-linux-servicewith-"
-"systemd-611b5c8b91d6>`__。这也可以让你更方便的查看服务器日志，系统提供的日志"
-"自动分割功能。"
+"在Linux上，为了让你的专用服务在崩溃或系统重启后重新启动，你可以 `创建一个系统"
+"服务<https://medium.com/@benmorel/creating-a-linux-servicewith-"
+"systemd-611b5c8b91d6>`__ 。这也可以更方便的查看服务器日志，系统提供的日志自动"
+"轮询功能。"
 
 #: ../../docs/getting_started/workflow/export/exporting_for_dedicated_servers.rst:122
-#, fuzzy
 msgid ""
 "If you have experience with containers, you could also look into wrapping "
 "your dedicated server in a `Docker <https://www.docker.com/>`__ container. "
 "This way, it can be used more easily in an automatic scaling setup (which is "
 "outside the scope of this tutorial)."
 msgstr ""
-"如果你有容器的经验，你也可以考虑将你的专用服务器包装在一个`Docker <https://"
-"www.docker.com/>`__容器中。这样，在自动缩放设置中可以更容易地使用它（这不在本"
-"教程的范围内）。"
+"如果你有容器的经验，可以考虑将专用服务器包装在一个 `Docker <https://www."
+"docker.com/>`__ 容器中。这样，在弹性配置中可以更容易地使用它（这不在本教程的"
+"范围内）。"

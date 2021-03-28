@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-07 21:43+0800\n"
+"POT-Creation-Date: 2021-03-28 20:28+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -58,19 +58,17 @@ msgstr ""
 "动态对象也将自动从场景接收间接光照。"
 
 #: ../../docs/tutorials/3d/gi_probes.rst:24
-#, fuzzy
 msgid ""
 "Just like with ``ReflectionProbe``, ``GIProbe`` can be blended (in a bit "
 "more limited way), so it is possible to provide full real-time lighting for "
 "a stage without having to resort to lightmaps."
 msgstr ""
-"就像ReflectionProbe一样，GIProbe可以混合(以更有限的方式)，因此可以为舞台提供"
-"完整的实时照明，而无需借助光照贴图。"
+"就像 \"ReflectionProbe[反射探针]\"一样，\"GIProbe[GI探针]\"也可以进行混合（方"
+"式比较有限），可以为舞台提供完整的实时照明，而不必依赖于光照贴图。"
 
 #: ../../docs/tutorials/3d/gi_probes.rst:28
-#, fuzzy
 msgid "The main downsides of ``GIProbe`` are:"
-msgstr "GIProbe的主要缺点是:"
+msgstr "``GIProbe[GI探针]`` 的主要缺点是:"
 
 #: ../../docs/tutorials/3d/gi_probes.rst:30
 msgid ""
@@ -87,63 +85,62 @@ msgstr ""
 "率)。"
 
 #: ../../docs/tutorials/3d/gi_probes.rst:32
-#, fuzzy
 msgid ""
 "Reflections are voxelized, so they don't look as sharp as with "
 "``ReflectionProbe``. However, in exchange they are volumetric, so any room "
 "size or shape works for them. Mixing them with Screen Space Reflection also "
 "works well."
 msgstr ""
-"反射是体素化的，因此它们看起来不像ReflectionProbe那样清晰。 但是，作为交换，"
-"它们是体积的，因此任何房间大小或形状都适用于它们。 将它们与屏幕空间反射混合也"
-"很有效。"
+"反射是体素化，所以它们看起来不像 ``ReflectionProbe[反射探针]`` 那样清晰。然"
+"而，作为交换，它们经过体积化，所以任何房间的大小或形状都可以适用。将它们与屏"
+"幕空间反射混合使用时也很有效。"
 
 #: ../../docs/tutorials/3d/gi_probes.rst:33
-#, fuzzy
 msgid ""
 "They consume considerably more video memory than Reflection Probes, so they "
 "must be used with care in the right subdivision sizes."
-msgstr "它们比Reflection Probes消耗的视频内存要多得多，因此必须小心使用它们。"
+msgstr ""
+"它们比反射探头消耗的视频内存大得多，所以在使用时必须注意正确的细分尺寸。"
 
 #: ../../docs/tutorials/3d/gi_probes.rst:36
 msgid "Setting up"
 msgstr "设置"
 
 #: ../../docs/tutorials/3d/gi_probes.rst:38
-#, fuzzy
 msgid ""
 "Just like a ``ReflectionProbe``, simply set up the ``GIProbe`` by wrapping "
 "it around the geometry that will be affected."
-msgstr "就像ReflectionProbe一样，只需将GIProbe包在受影响的几何体周围即可。"
+msgstr ""
+"就像ReflectionProbe[反射探针]一样，只需将GIProbe[GI探针]包裹在受影响的几何体"
+"周围即可。"
 
 #: ../../docs/tutorials/3d/gi_probes.rst:43
-#, fuzzy
 msgid ""
 "Afterwards, make sure to enable the geometry will be baked. This is "
 "important in order for ``GIProbe`` to recognize objects, otherwise they will "
 "be ignored:"
 msgstr ""
-"然后，确保启用几何体将被烘焙。 这对于GIPRobe识别对象很重要，否则它们将被忽略:"
+"之后，确认启用几何体将被烘焙，这对 ``GIProbe[GI探针]`` 识别对象很重要，否则会"
+"被忽略:"
 
 #: ../../docs/tutorials/3d/gi_probes.rst:48
-#, fuzzy
 msgid ""
 "Once the geometry is set up, push the Bake button that appears on the 3D "
 "editor toolbar to begin the pre-baking process:"
-msgstr "设置几何体后，按下3D编辑器工具栏上显示的“烘焙”按钮开始预烘焙过程:"
+msgstr ""
+"设置好几何体后，按下3D编辑器工具栏上出现的 \"烘焙\" 按钮，开始预烘焙过程:"
 
 #: ../../docs/tutorials/3d/gi_probes.rst:54
 msgid "Adding lights"
 msgstr "添加灯光"
 
 #: ../../docs/tutorials/3d/gi_probes.rst:56
-#, fuzzy
 msgid ""
 "Unless there are materials with emission, ``GIProbe`` does nothing by "
 "default. Lights need to be added to the scene to have an effect."
 msgstr ""
-"除非存在具有发射的材质，否则GIProbe默认不执行任何操作。 需要将灯光添加到场景"
-"才能生效。"
+"除非有发光的材质，否则 ``GIProbe[GI探针]`` 默认什么都不做。灯光需要添加到场景"
+"中才有效果。"
 
 #: ../../docs/tutorials/3d/gi_probes.rst:59
 msgid ""
@@ -159,35 +156,32 @@ msgid ""
 msgstr "但在某些情况下，间接光线可能太弱。 灯具有间接乘数来调整:"
 
 #: ../../docs/tutorials/3d/gi_probes.rst:69
-#, fuzzy
 msgid ""
 "And, as ``GIProbe`` lighting updates in real-time, this effect is immediate:"
-msgstr "而且，随着GIPRobe照明实时更新，这种效果立竿见影:"
+msgstr "而且，由于 ``GIProbe[GI探针]`` 灯光将实时更新，效果立竿见影:"
 
 #: ../../docs/tutorials/3d/gi_probes.rst:74
 msgid "Reflections"
 msgstr "反射"
 
 #: ../../docs/tutorials/3d/gi_probes.rst:76
-#, fuzzy
 msgid ""
 "For very metallic materials with low roughness, it's possible to appreciate "
 "voxel reflections. Keep in mind that these have far less detail than "
 "Reflection Probes or Screen Space Reflections, but fully reflect "
 "volumetrically."
 msgstr ""
-"对于具有高金属度和低粗糙度的材质，可以欣赏体素反射。 请记住，它们的细节远远少"
-"于反射探测器或屏幕空间反射，但完全反映了体积。"
+"对于粗糙度很低的金属材质，可以观察到体素反射。请注意，这些细节远不如反射探针"
+"或屏幕空间反射，但却能充分反映体积。"
 
 #: ../../docs/tutorials/3d/gi_probes.rst:82
-#, fuzzy
 msgid ""
 "``GIProbe``\\ s can be easily mixed with Reflection Probes and Screen Space "
 "Reflections, as a full 3-stage fallback-chain. This allows to have precise "
 "reflections where needed:"
 msgstr ""
-"GIProbes可以轻松地与Reflection Probes和Screen Space Reflections混合使用，作为"
-"一个完整的3阶段后备链。 这允许在需要时进行精确反射:"
+"``GIProbe``\\ s 可以很容易地与反射探针和屏幕空间反射混合使用，成为一个完整的"
+"三阶段回调链。这样就可以在需要的地方进行精确的反射:"
 
 #: ../../docs/tutorials/3d/gi_probes.rst:88
 msgid "Interior vs exterior"
@@ -223,13 +217,12 @@ msgid "GI Probes support a few parameters for tweaking:"
 msgstr "GI探针支持一些调整参数:"
 
 #: ../../docs/tutorials/3d/gi_probes.rst:110
-#, fuzzy
 msgid ""
 "**Subdiv** Subdivision used for the probe. The default (128) is generally "
 "good for small- to medium-sized areas. Bigger subdivisions use more memory."
 msgstr ""
-"** Subdiv **用于探测的细分。 默认值(128)通常适用于中小大小区域。 较大的细分使"
-"用更多的内存。"
+"**Subdiv** 探针使用的细分。默认值(128)通常适用于中小型区域，更大的细分将占用"
+"更多内存。"
 
 #: ../../docs/tutorials/3d/gi_probes.rst:111
 msgid "**Extents** Size of the probe. Can be tweaked from the gizmo."
@@ -288,8 +281,9 @@ msgid "Quality"
 msgstr "质量"
 
 #: ../../docs/tutorials/3d/gi_probes.rst:124
-#, fuzzy
 msgid ""
 "``GIProbe``\\ s are quite demanding. It is possible to use lower quality "
 "voxel cone tracing in exchange for more performance."
-msgstr "GIProbes相当苛刻。 可以使用较低质量的体素锥跟踪来交换更多性能。"
+msgstr ""
+"``GIProbe``\\ s 的要求相当高。可以使用较低质量的体素锥体追踪来换取更高的性"
+"能。"

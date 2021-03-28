@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-07 21:43+0800\n"
+"POT-Creation-Date: 2021-03-28 20:28+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -79,12 +79,12 @@ msgid ""
 "methods are available to arrays or other objects, should be looked up in the "
 "linked class descriptions."
 msgstr ""
-"在下面，概述了GDScript。详细信息，例如哪些方法可用于数组或其他对象，应该在链"
-"接的类描述中查找。"
+"在下面，概述了GDScript。详细信息，例如哪些方法可用于数组或其他对象，可以在链"
+"接的类描述中查找到这些方法。"
 
 #: ../../docs/getting_started/scripting/gdscript/gdscript_basics.rst:122
 msgid "Identifiers"
-msgstr "标识符"
+msgstr "标识符（Identifiers）"
 
 #: ../../docs/getting_started/scripting/gdscript/gdscript_basics.rst:124
 msgid ""
@@ -93,13 +93,13 @@ msgid ""
 "identifier. Additionally, identifiers must not begin with a digit. "
 "Identifiers are case-sensitive (``foo`` is different from ``FOO``)."
 msgstr ""
-"任何限制自己为字母字符（ ``a`` 到 ``z`` 和 ``A`` 到 ``Z`` ）、数字（ ``0`` "
-"到 ``9`` ）和 ``_`` 的字符串都可以作为标识符。此外，标识符不能以数字开头。标"
-"识符区分大小写（ ``foo`` 和 ``FOO`` 是不同的）。"
+"任何仅限于字母字符（ ``a`` 到 ``z`` 和 ``A`` 到 ``Z`` ）、数字（ ``0`` 到 "
+"``9`` ）和 ``_`` 的字符串都可以作为标识符。此外，标识符不能以数字开头。标识符"
+"区分大小写（ ``foo`` 和 ``FOO`` 是不同的）。"
 
 #: ../../docs/getting_started/scripting/gdscript/gdscript_basics.rst:130
 msgid "Keywords"
-msgstr "关键词"
+msgstr "关键字（Keywords）"
 
 #: ../../docs/getting_started/scripting/gdscript/gdscript_basics.rst:132
 msgid ""
@@ -108,9 +108,9 @@ msgid ""
 "Operators (like ``in``, ``not``, ``and`` or ``or``) and names of built-in "
 "types as listed in the following sections are also reserved."
 msgstr ""
-"以下是该语言支持的关键字列表。由于关键字是保留字（令牌），它们不能用作标识"
-"符。操作符（如 ``in``、 ``not``、 ``and``、或 ``or`` ）以及下面列出的内置类型"
-"的名称也是保留的。"
+"以下是该语言支持的关键字列表。由于关键字是保留字（令牌 [tokens]），它们不能用"
+"作标识符。操作符（如 ``in``、 ``not``、 ``and``、或 ``or`` ）以及下面列出的内"
+"置类型的名称也是保留的。"
 
 #: ../../docs/getting_started/scripting/gdscript/gdscript_basics.rst:137
 msgid ""
@@ -118,9 +118,9 @@ msgid ""
 "godotengine/godot/blob/master/modules/gdscript/gdscript_tokenizer.cpp>`_ in "
 "case you want to take a look under the hood."
 msgstr ""
-"关键字定义在 `GDScript tokenizer <https://github.com/godotengine/godot/blob/"
-"master/modules/gdscript/gdscript_tokenizer.cpp>`_ 中，以防您想了解其中的内"
-"幕。"
+"关键字定义在 `GDScript tokenizer (GDScript 分词器)<https://github.com/"
+"godotengine/godot/blob/master/modules/gdscript/gdscript_tokenizer.cpp>`_ 中，"
+"以防您想了解其中的内幕。"
 
 #: ../../docs/getting_started/scripting/gdscript/gdscript_basics.rst:141
 msgid "Keyword"
@@ -453,7 +453,7 @@ msgstr "运算符"
 
 #: ../../docs/getting_started/scripting/gdscript/gdscript_basics.rst:227
 msgid "The following is the list of supported operators and their precedence."
-msgstr "下面是支持的运算符的列表及其优先级。"
+msgstr "下面是支持的运算符列表及其优先级（越上面越高）。"
 
 #: ../../docs/getting_started/scripting/gdscript/gdscript_basics.rst:230
 msgid "**Operator**"
@@ -642,11 +642,11 @@ msgstr "赋值（最低优先级）"
 
 #: ../../docs/getting_started/scripting/gdscript/gdscript_basics.rst:282
 msgid "Literals"
-msgstr "字面量"
+msgstr "字面量（Literals）"
 
 #: ../../docs/getting_started/scripting/gdscript/gdscript_basics.rst:285
 msgid "**Literal**"
-msgstr "**字面量**"
+msgstr "**字面量（Literal）**"
 
 #: ../../docs/getting_started/scripting/gdscript/gdscript_basics.rst:285
 msgid "**Type**"
@@ -706,7 +706,7 @@ msgstr "``@\"Node/Label\"``"
 
 #: ../../docs/getting_started/scripting/gdscript/gdscript_basics.rst:299
 msgid ":ref:`class_NodePath` or StringName"
-msgstr ":ref:`class_NodePath` 或 ``StringName``"
+msgstr ":ref:`class_NodePath`或StringName"
 
 #: ../../docs/getting_started/scripting/gdscript/gdscript_basics.rst:301
 msgid "``$NodePath``"
@@ -721,7 +721,7 @@ msgid ""
 "Integers and floats can have their numbers separated with ``_`` to make them "
 "more readable. The following ways to write numbers are all valid::"
 msgstr ""
-"整数和浮点数可以用``_``来分隔，使其更易读。以下表示数字的方式都是有效的："
+"整数和浮点数可以用 ``_`` 来分隔，使其更易读。以下表示数字的方式都是有效的："
 
 #: ../../docs/getting_started/scripting/gdscript/gdscript_basics.rst:313
 msgid "Comments"
@@ -909,7 +909,7 @@ msgstr "``\\uXXXX``"
 
 #: ../../docs/getting_started/scripting/gdscript/gdscript_basics.rst:392
 msgid "Unicode codepoint ``XXXX`` (hexadecimal, case-insensitive)"
-msgstr "Unicode 代码点 ``XXXX``（十六进制，不区分大小写）"
+msgstr "Unicode 代码点 ``XXXX`` （十六进制，不区分大小写）"
 
 #: ../../docs/getting_started/scripting/gdscript/gdscript_basics.rst:396
 msgid "GDScript also supports :ref:`doc_gdscript_printf`."
@@ -1241,7 +1241,7 @@ msgid ""
 "NestedClass`` if you declared ``class NestedClass`` inside the ``class "
 "InnerClass`` in the same scope)."
 msgstr ""
-"在同一个脚本中的其他类，尊重作用域（如果在相同作用域内，在 ``class "
+"在同一个脚本中的其他类，遵循作用域（如果在相同作用域内，在 ``class "
 "InnerClass`` 中声明 ``class NestedClass`` 得到 ``InnerClass."
 "NestedClass`` ）。"
 
@@ -1629,7 +1629,7 @@ msgstr "首先测试数组的长度，它的大小必须与模式相同，否则
 msgid ""
 "**Open-ended array**: An array can be bigger than the pattern by making the "
 "last subpattern ``..``."
-msgstr "**开放式数组**：通过使最后一个子模式为 ``..``，可以使数组大于模式。"
+msgstr "**开放式数组**: 通过使最后一个子模式为 ``..`` ，可以使数组大于模式。"
 
 #: ../../docs/getting_started/scripting/gdscript/gdscript_basics.rst:973
 msgid "Every subpattern has to be comma-separated."
@@ -1655,7 +1655,7 @@ msgstr "首先要测试字典的大小，它的大小必须与模式相同，否
 msgid ""
 "**Open-ended dictionary**: A dictionary can be bigger than the pattern by "
 "making the last subpattern ``..``."
-msgstr "**开放式字典**：通过使最后一个子模式为 ``..``，可以使字典大于模式。"
+msgstr "**开放式字典**: 通过将最后一个子字样改为 ``..`` ，使字典可以比模式大。"
 
 #: ../../docs/getting_started/scripting/gdscript/gdscript_basics.rst:994
 msgid "Every subpattern has to be comma separated."

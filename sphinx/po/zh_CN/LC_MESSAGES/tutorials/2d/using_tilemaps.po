@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-07 21:43+0800\n"
+"POT-Creation-Date: 2021-03-28 20:28+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -238,9 +238,9 @@ msgid ""
 "button. Make sure you still have grid snap enabled, then click and drag in "
 "the tile. A square collision shape appears in light blue:"
 msgstr ""
-"单击编辑器窗口底部的“瓦片集”返回到瓦片集工具。单击之前定义的砖块(用黄色表"
-"示)。选择“Collision”标签并点击“新建一个四边形”按钮。确保你网格对齐还开着，然"
-"后单击并拖动砖块。会出现淡蓝色的矩形碰撞框："
+"点击编辑器窗口底部的 \"TileSet\"，返回到图块集工具。点击你之前定义的图块（黄"
+"色勾勒）。选择 \"碰撞 \"选项卡，点击 \"创建一个新的矩形\" 按钮。确保你仍然启"
+"用了网格吸附，然后点击并拖入图块。一个正方形的碰撞形状将出现在浅蓝色当中:"
 
 #: ../../docs/tutorials/2d/using_tilemaps.rst:124
 msgid ""
@@ -300,9 +300,8 @@ msgstr ""
 "起。"
 
 #: ../../docs/tutorials/2d/using_tilemaps.rst:156
-#, fuzzy
 msgid "Random tile priorities"
-msgstr "Random tile priorities（随机图块优先级）"
+msgstr "随机图块优先级"
 
 #: ../../docs/tutorials/2d/using_tilemaps.rst:158
 msgid ""
@@ -428,9 +427,8 @@ msgstr ""
 
 #: ../../docs/tutorials/2d/using_tilemaps.rst:214
 #: ../../docs/tutorials/2d/using_tilemaps.rst:246
-#, fuzzy
 msgid "**Template - Generic:**"
-msgstr "**模板 - 通用：**"
+msgstr "**Template - Generic[通用模版]:**"
 
 #: ../../docs/tutorials/2d/using_tilemaps.rst:216
 msgid ""
@@ -442,7 +440,6 @@ msgstr ""
 
 #: ../../docs/tutorials/2d/using_tilemaps.rst:219
 #: ../../docs/tutorials/2d/using_tilemaps.rst:252
-#, fuzzy
 msgid "Key:"
 msgstr "Key:"
 
@@ -514,24 +511,20 @@ msgid "Key (applies to the four templates below):"
 msgstr "Key（适用于以下四个模板）："
 
 #: ../../docs/tutorials/2d/using_tilemaps.rst:264
-#, fuzzy
 msgid "Green: floor"
-msgstr "绿色:地面"
+msgstr "Green: floor"
 
 #: ../../docs/tutorials/2d/using_tilemaps.rst:265
-#, fuzzy
 msgid "Cyan: wall"
-msgstr "青色:墙"
+msgstr "Cyan: wall"
 
 #: ../../docs/tutorials/2d/using_tilemaps.rst:266
-#, fuzzy
 msgid "Yellow: top of wall"
 msgstr "黄色: 墙顶"
 
 #: ../../docs/tutorials/2d/using_tilemaps.rst:267
-#, fuzzy
 msgid "Transparent: air"
-msgstr "透明"
+msgstr "透明: 空气"
 
 #: ../../docs/tutorials/2d/using_tilemaps.rst:271
 msgid "**Template - Top-down wall in 3/4 perspective:**"
@@ -585,9 +578,8 @@ msgstr ""
 "总共需要256个图块，才能为该模式可以测试的每种排列提供准确的一个位掩码。"
 
 #: ../../docs/tutorials/2d/using_tilemaps.rst:302
-#, fuzzy
 msgid "Disabling autotile"
-msgstr "禁用不需要的模块"
+msgstr "禁用自动图块"
 
 #: ../../docs/tutorials/2d/using_tilemaps.rst:304
 msgid ""
@@ -599,9 +591,8 @@ msgstr ""
 "块行为并手动选择图块。"
 
 #: ../../docs/tutorials/2d/using_tilemaps.rst:309
-#, fuzzy
 msgid "Autotile binding"
-msgstr "自动总线禁用"
+msgstr "自动图块绑定"
 
 #: ../../docs/tutorials/2d/using_tilemaps.rst:311
 msgid ""

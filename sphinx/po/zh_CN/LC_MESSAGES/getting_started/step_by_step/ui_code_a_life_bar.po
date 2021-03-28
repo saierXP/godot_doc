@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-07 21:43+0800\n"
+"POT-Creation-Date: 2021-03-28 20:28+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -383,7 +383,6 @@ msgstr ""
 "态。"
 
 #: ../../docs/getting_started/step_by_step/ui_code_a_life_bar.rst:215
-#, fuzzy
 msgid ""
 "The Observer pattern, that signals derive from, still adds a bit of coupling "
 "between node branches. But it's generally lighter and more secure than "

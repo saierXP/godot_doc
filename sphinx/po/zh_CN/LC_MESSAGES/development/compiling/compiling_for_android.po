@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-07 21:43+0800\n"
+"POT-Creation-Date: 2021-03-28 20:28+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -235,7 +235,7 @@ msgstr "使用导出模板"
 #: ../../docs/development/compiling/compiling_for_android.rst:148
 msgid ""
 "You can use the following commands to remove the generated export templates:"
-msgstr ""
+msgstr "您可以使用以下命令删除生成的导出模板："
 
 #: ../../docs/development/compiling/compiling_for_android.rst:160
 msgid "Using the export templates"
@@ -329,6 +329,9 @@ msgid ""
 "up the buildsystem <doc_android_setting_up_the_buildsystem>` for more "
 "information."
 msgstr ""
+"仔细检查你是否设置了``ANDROID_HOME``和``ANDROID_NDK_ROOT``环境变量。这是平台"
+"出现在SCons的检测平台列表中所需要的。更多信息请参见:ref:`设置构建系统"
+"<doc_android_setting_up_the_buildsystem>`。"
 
 #: ../../docs/development/compiling/compiling_for_android.rst:212
 msgid "Application not installed"

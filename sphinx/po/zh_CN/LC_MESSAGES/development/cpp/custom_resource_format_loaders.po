@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-07 21:43+0800\n"
+"POT-Creation-Date: 2021-03-28 20:28+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -41,8 +41,8 @@ msgid ""
 "This guide assumes the reader knows how to create C++ modules and Godot data "
 "types. If not, refer to this guide :ref:`doc_custom_modules_in_c++`."
 msgstr ""
-"本指南假定读者知道如何创建C++模块和Godot数据类型。如果没有，请参考指南 :ref:"
-"`doc_custom_modules_in_c++`。"
+"本指南假定读者知道如何创建C++模块和Godot数据类型。如果不知道，请参考本指南 :"
+"ref:`doc_custom_modules_in_c++` 。"
 
 #: ../../docs/development/cpp/custom_resource_format_loaders.rst:18
 #: ../../docs/development/cpp/custom_resource_format_loaders.rst:39
@@ -142,7 +142,7 @@ msgstr "创建一个资源格式加载器"
 msgid ""
 "If you'd like to be able to edit and save a resource, you can implement a "
 "``ResourceFormatSaver``:"
-msgstr ""
+msgstr "如果您希望能够编辑和保存资源，则可以实现``ResourceFormatSaver``:"
 
 #: ../../docs/development/cpp/custom_resource_format_loaders.rst:158
 msgid "Creating custom data types"
@@ -221,6 +221,7 @@ msgid ""
 "Save a file called ``demo.json`` with the following contents and place it in "
 "the project's root folder:"
 msgstr ""
+"保存具有以下内容的名为``demo.json``的文件，并将其放置在项目的根文件夹中："
 
 #: ../../docs/development/cpp/custom_resource_format_loaders.rst:379
 msgid "Then attach the following script to any node::"

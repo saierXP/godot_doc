@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-07 21:43+0800\n"
+"POT-Creation-Date: 2021-03-28 20:28+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -149,7 +149,7 @@ msgstr ""
 
 #: ../../docs/tutorials/shading/shader_materials.rst:67
 msgid "To learn more about visual shaders, read :ref:`doc_visual_shaders`."
-msgstr "要了解更多关于视觉着色器的信息，请阅读:ref:`doc_visual_shaders`。"
+msgstr "要了解更多关于可视化着色器的信息，请阅读 :ref:`doc_visual_shaders` 。"
 
 #: ../../docs/tutorials/shading/shader_materials.rst:70
 msgid "Converting to ShaderMaterial"

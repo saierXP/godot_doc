@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-07 21:43+0800\n"
+"POT-Creation-Date: 2021-03-28 20:28+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -417,6 +417,8 @@ msgid ""
 "resources in their native language instead of English, our community helps "
 "translate both the Godot editor and its documentation in many languages."
 msgstr ""
+"为了让每个人都能使用Godot，包括那些可能更喜欢使用母语而不是英语资源的用户，我"
+"们的社区帮助把Godot编辑器和它的文档翻译成多种语言。"
 
 #: ../../docs/community/contributing/ways_to_contribute.rst:201
 #, fuzzy

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-07 21:43+0800\n"
+"POT-Creation-Date: 2021-03-28 20:28+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,9 +18,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../docs/tutorials/3d/vertex_animation/animating_thousands_of_fish.rst:4
-#, fuzzy
 msgid "Animating thousands of fish with MultiMeshInstance"
-msgstr "用渐变节点动画生命的损失"
+msgstr "用MultiMeshInstance动画化数以千计条鱼"
 
 #: ../../docs/tutorials/3d/vertex_animation/animating_thousands_of_fish.rst:6
 msgid ""
@@ -51,12 +50,10 @@ msgid ""
 msgstr "我们将从一条鱼的动画开始。然后，我们将看到如何将该动画扩展到数千条鱼。"
 
 #: ../../docs/tutorials/3d/vertex_animation/animating_thousands_of_fish.rst:18
-#, fuzzy
 msgid "Animating one Fish"
-msgstr "动画"
+msgstr "动画化一条鱼"
 
 #: ../../docs/tutorials/3d/vertex_animation/animating_thousands_of_fish.rst:20
-#, fuzzy
 msgid ""
 "We will start with a single fish. Load your fish model into a :ref:"
 "`MeshInstance <class_MeshInstance>` and add a new :ref:`ShaderMaterial "

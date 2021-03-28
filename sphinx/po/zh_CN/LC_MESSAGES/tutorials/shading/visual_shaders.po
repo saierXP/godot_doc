@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-07 21:43+0800\n"
+"POT-Creation-Date: 2021-03-28 20:28+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,9 +18,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../docs/tutorials/shading/visual_shaders.rst:4
-#, fuzzy
 msgid "VisualShaders"
-msgstr ":ref:`doc_visual_shader_plugins`"
+msgstr "可视化着色器"
 
 #: ../../docs/tutorials/shading/visual_shaders.rst:6
 msgid ""
@@ -206,9 +205,8 @@ msgstr ""
 "值。"
 
 #: ../../docs/tutorials/shading/visual_shaders.rst:94
-#, fuzzy
 msgid "Visual Shader nodes"
-msgstr ":ref:`doc_visual_shader_plugins`"
+msgstr "可视化着色器节点"
 
 #: ../../docs/tutorials/shading/visual_shaders.rst:96
 msgid ""
