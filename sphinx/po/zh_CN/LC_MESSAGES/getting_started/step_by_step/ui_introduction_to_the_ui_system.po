@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-28 20:28+0800\n"
+"POT-Creation-Date: 2021-04-25 22:16+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -381,11 +381,13 @@ msgstr ""
 "您有许多容器节点可供使用，可以为您缩放和放置UI元素。 他们控制自己的子项。"
 
 #: ../../docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:175
+#, fuzzy
 msgid ""
 "On the other side, you have the layout menu. It helps you to anchor, place "
 "and resize a UI element within its parent."
 msgstr ""
-"另一方面，您有布局菜单。它帮助您在其父级中锚定、放置和重新调整UI元素的大小。"
+"**用锚点精确地放置UI元素:** 使用 **Layout** 菜单来放置和调整UI元素相对于其父"
+"元素的大小。"
 
 #: ../../docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:177
 msgid ""
@@ -592,8 +594,9 @@ msgstr ""
 "了："
 
 #: ../../docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:294
+#, fuzzy
 msgid "MarginContainer, to add margins around part of the UI"
-msgstr "``MarginContainer``，在UI的部件周围添加边距"
+msgstr "MarginContainer边缘容器，以在部分UI周围添加边缘"
 
 #: ../../docs/getting_started/step_by_step/ui_introduction_to_the_ui_system.rst:295
 msgid "CenterContainer, to center its children in its bounding box"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-28 20:28+0800\n"
+"POT-Creation-Date: 2021-04-25 22:16+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -144,15 +144,14 @@ msgid "Resampling"
 msgstr "重采样"
 
 #: ../../docs/development/cpp/custom_audiostreams.rst:234
-#, fuzzy
 msgid ""
 "Godot's AudioServer currently uses 44100 Hz sample rate. When other sample "
 "rates are needed such as 48000, either provide one or use "
 "AudioStreamPlaybackResampled. Godot provides cubic interpolation for audio "
 "resampling."
 msgstr ""
-"Godot的AudioServer目前使用44100Hz采样率。当需要其他采样率（如48000）时，请提"
-"供一个或使用AudioStreamPlaybackResampled。Godot为音频重采样提供了立方插值。"
+"Godot的AudioServer目前使用44100Hz采样率。当需要其他采样率如48000时，要么提供"
+"一个，要么使用AudioStreamPlaybackResampled。Godot为音频重采样提供立方插值。"
 
 #: ../../docs/development/cpp/custom_audiostreams.rst:238
 msgid ""

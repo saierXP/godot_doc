@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-28 20:28+0800\n"
+"POT-Creation-Date: 2021-04-25 22:16+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,9 +18,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../docs/development/editor/editor_style_guide.rst:4
-#, fuzzy
 msgid "Editor style guide"
-msgstr "C# 风格指南"
+msgstr "编辑器风格指南"
 
 #: ../../docs/development/editor/editor_style_guide.rst:7
 msgid "Introduction"
@@ -40,9 +39,8 @@ msgstr ""
 "更快地被合并，因为所需的审核步骤更少。"
 
 #: ../../docs/development/editor/editor_style_guide.rst:16
-#, fuzzy
 msgid "Writing style"
-msgstr "警告系统"
+msgstr "写作风格"
 
 #: ../../docs/development/editor/editor_style_guide.rst:18
 msgid ""
@@ -83,21 +81,18 @@ msgid ""
 msgstr "除了上述准则外，尽量遵循 :ref:`doc_docs_writing_guidelines` 。"
 
 #: ../../docs/development/editor/editor_style_guide.rst:35
-#, fuzzy
 msgid "Button and menu texts"
-msgstr "选项和预设"
+msgstr "按钮和菜单文本"
 
 #: ../../docs/development/editor/editor_style_guide.rst:37
 msgid "Capitalize text in buttons and menu actions:"
 msgstr "将按钮和菜单操作中的文本大写："
 
 #: ../../docs/development/editor/editor_style_guide.rst:39
-#, fuzzy
 msgid "**Good:** *Open Editor Data Folder*"
 msgstr "**Good:** *打开编辑器数据文件夹*"
 
 #: ../../docs/development/editor/editor_style_guide.rst:40
-#, fuzzy
 msgid "**Bad:** *Open editor data folder*"
 msgstr "**Bad:** *打开编辑器数据文件夹*"
 
@@ -107,19 +102,16 @@ msgid ""
 msgstr "如果菜单操作打开了模式对话框，用省略号（ ``...`` ）作为后缀。"
 
 #: ../../docs/development/editor/editor_style_guide.rst:44
-#, fuzzy
 msgid "**Good:** *Editor Settings...*"
 msgstr "**Good:** *编辑器设置...*"
 
 #: ../../docs/development/editor/editor_style_guide.rst:45
-#, fuzzy
 msgid "**Bad:** *Editor Settings*"
-msgstr "编辑器图标"
+msgstr "**Bad:** *编辑器设置*"
 
 #: ../../docs/development/editor/editor_style_guide.rst:48
-#, fuzzy
 msgid "Inspector sections"
-msgstr "导入插件"
+msgstr "检查器插件"
 
 #: ../../docs/development/editor/editor_style_guide.rst:50
 msgid ""
@@ -137,14 +129,12 @@ msgid ""
 msgstr "有一些有效的例外情况，例如 :ref:`class_SpatialMaterial` 中的材质特征。"
 
 #: ../../docs/development/editor/editor_style_guide.rst:57
-#, fuzzy
 msgid "This advice also applies to the Project Settings and Editor Settings."
 msgstr "这个建议也适用于项目设置和编辑器设置。"
 
 #: ../../docs/development/editor/editor_style_guide.rst:60
-#, fuzzy
 msgid "Inspector performance hints"
-msgstr "导入插件"
+msgstr "检查器性能提示"
 
 #: ../../docs/development/editor/editor_style_guide.rst:62
 msgid ""
@@ -197,9 +187,8 @@ msgid ""
 msgstr "如果你要添加一个新的枚举，它的值应该从最快的选项到最慢的选项排序。"
 
 #: ../../docs/development/editor/editor_style_guide.rst:84
-#, fuzzy
 msgid "Tooltips"
-msgstr "工具"
+msgstr "工具提示"
 
 #: ../../docs/development/editor/editor_style_guide.rst:86
 msgid ""

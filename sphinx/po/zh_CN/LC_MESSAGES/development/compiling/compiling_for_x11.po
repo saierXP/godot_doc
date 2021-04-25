@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-28 20:28+0800\n"
+"POT-Creation-Date: 2021-04-25 22:16+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -88,14 +88,12 @@ msgstr ""
 "`doc_introduction_to_the_buildsystem`。"
 
 #: ../../docs/development/compiling/compiling_for_x11.rst:33
-#, fuzzy
 msgid "Distro-specific one-liners"
 msgstr "各个发行版的安装指令"
 
 #: ../../docs/development/compiling/compiling_for_x11.rst:35
-#, fuzzy
 msgid "**Alpine Linux**"
-msgstr "**Arch Linux**"
+msgstr "**Alpine Linux**"
 
 #: ../../docs/development/compiling/compiling_for_x11.rst:40
 msgid "**Arch Linux**"
@@ -130,14 +128,12 @@ msgid "**openSUSE**"
 msgstr "**openSUSE**"
 
 #: ../../docs/development/compiling/compiling_for_x11.rst:82
-#, fuzzy
 msgid "**NetBSD**"
-msgstr "**FreeBSD**"
+msgstr "**NetBSD**"
 
 #: ../../docs/development/compiling/compiling_for_x11.rst:86
-#, fuzzy
 msgid "For audio support, you can optionally install ``pulseaudio``."
-msgstr "对于音频支持，你可以选择安装``pulseaudio``。"
+msgstr "对于音频支持，你可以选择安装 ``pulseaudio`` 。"
 
 #: ../../docs/development/compiling/compiling_for_x11.rst:88
 msgid "**Solus**"
@@ -199,9 +195,8 @@ msgid ""
 "optimization is a memory-intensive process, this will require about 3 GB of "
 "available RAM while compiling."
 msgstr ""
-"如果要使用MinGW编译Godot，则可以通过添加SCons选项 ``use_lto=yes`` 使二进制文"
-"件变得更小、更快。由于链接时间优化是一个占用大量内存的过程，因此编译时将需要"
-"大约3 GB的可用RAM。"
+"如果你用GCC编译Godot，你可以通过添加SCons选项 ``use_lto=yes`` 来使可执行文件"
+"更小更快。由于链接时优化是一个内存密集的过程，在编译时需要大约7GB的可用内存。"
 
 #: ../../docs/development/compiling/compiling_for_x11.rst:132
 msgid ""
@@ -315,9 +310,8 @@ msgid ""
 msgstr "与GNU ld或gold相比，LD链接Godot的速度明显更快。这导致更快的迭代时间。"
 
 #: ../../docs/development/compiling/compiling_for_x11.rst:214
-#, fuzzy
 msgid "Clang tends to give more useful error messages compared to GCC."
-msgstr "与GCC相比，Clang往往会给出更有用的错误信息。"
+msgstr "与GCC相比，Clang倾向于给出更多有用的错误信息。"
 
 #: ../../docs/development/compiling/compiling_for_x11.rst:216
 msgid ""

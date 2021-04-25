@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-28 20:28+0800\n"
+"POT-Creation-Date: 2021-04-25 22:16+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -47,7 +47,6 @@ msgstr ""
 "衡数据访问和完整性。"
 
 #: ../../docs/tutorials/misc/change_scenes_manually.rst:44
-#, fuzzy
 msgid ""
 "**We can delete the existing scene.** :ref:`SceneTree.change_scene() "
 "<class_SceneTree_method_change_scene>` and :ref:`SceneTree.change_scene_to() "
@@ -56,10 +55,11 @@ msgid ""
 "root node's name is \"Main\", one could do ``get_node(\"/root/Main\")."
 "free()`` to delete the whole scene."
 msgstr ""
-"1. **我们可以删除现有场景。** :ref:`SceneTree.change_scene / _to "
-"<class_SceneTree_method_change_scene>` 将立即删除当前场景。开发人员也可以删除"
-"主场景。假设根节点的名称是“Main”，可以执行 `get_node(\"/root/Main\").free()` "
-"删除整个场景。"
+"**我们可以删除现有场景.** :ref:`SceneTree.change_scene() "
+"<class_SceneTree_method_change_scene>` 和 :ref:`SceneTree.change_scene_to() "
+"<class_SceneTree_method_change_scene_to>` 会立即删除当前场景。不过开发者也可"
+"以删除主场景。假设根节点的名字是 \"Main\"，可以执行 ``get_node(\"/root/Main"
+"\").free()`` 来删除整个场景。"
 
 #: ../../docs/tutorials/misc/change_scenes_manually.rst:51
 msgid "Unloads memory."
@@ -169,15 +169,14 @@ msgstr ""
 "测试性能，以确保目标平台能够支持它们提供的负载。"
 
 #: ../../docs/tutorials/misc/change_scenes_manually.rst:101
-#, fuzzy
 msgid ""
 "**We can remove the existing scene from the tree.** Assign a variable to the "
 "existing scene's root node. Then use :ref:`Node.remove_child(Node) "
 "<class_Node_method_remove_child>` to detach the entire scene from the tree."
 msgstr ""
-"**我们可以从树中删除现有场景。**将变量分配给现有场景的根节点。然后使用 :ref:"
-"`Node.remove_child(Node)<class_Node_method_remove_child>` 从树中分离整个场"
-"景。"
+"**我们可以从树上删除现有的场景。** 给现有场景的根节点分配一个变量。然后使用 :"
+"ref:`Node.remove_child(Node) <class_Node_method_remove_child>`来将整个场景从"
+"树上分离。"
 
 #: ../../docs/tutorials/misc/change_scenes_manually.rst:106
 msgid "Memory still exists (similar pros/cons as with hiding it from view)."
@@ -213,8 +212,8 @@ msgid ""
 "preserving a a scene's data between scene changes (adding the scene to the "
 "root node)."
 msgstr ""
-"在某些情况下，人们可能希望同时出现许多场景。也许一个是在运行时添加自己的单"
-"例，或者在场景更改之间保留场景的数据(将场景添加到根节点)。"
+"在有些情况下，人们可能希望有许多场景同时存在。也许人们在运行时添加他们自己的"
+"单例，或者在场景变化之间保留一个场景的数据（将场景添加到根节点）。"
 
 #: ../../docs/tutorials/misc/change_scenes_manually.rst:133
 msgid ""

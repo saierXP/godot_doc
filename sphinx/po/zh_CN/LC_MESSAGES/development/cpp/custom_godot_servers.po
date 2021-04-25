@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-28 20:28+0800\n"
+"POT-Creation-Date: 2021-04-25 22:16+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -26,7 +26,6 @@ msgid "Introduction"
 msgstr "简介"
 
 #: ../../docs/development/cpp/custom_godot_servers.rst:9
-#, fuzzy
 msgid ""
 "Godot implements multi-threading as servers. Servers are daemons which "
 "manage data, process it, and push the result. Servers implement the mediator "
@@ -34,9 +33,9 @@ msgid ""
 "other modules. In addition, the server claims ownership for its RID "
 "allocations."
 msgstr ""
-"Godot将多线程实现为服务。服务是守护进程，用于管理数据、进程和推送结果。服务实"
-"现中介者模式，该模式为引擎和其他模块解释资源ID和过程数据。此外，服务要求对其"
-"RID分配拥有所有权。"
+"Godot将多线程实现为服务器。服务器是管理数据、处理数据和推送结果的守护进程。服"
+"务器实现中介模式，该模式解释引擎和其他模块的资源ID和处理数据。此外，服务器声"
+"明其RID分配的所有权。"
 
 #: ../../docs/development/cpp/custom_godot_servers.rst:15
 msgid ""
@@ -159,7 +158,7 @@ msgid ""
 "In ``register_server_types()``, ``Engine::get_singleton()->add_singleton`` "
 "is used to register the dummy class in GDScript."
 msgstr ""
-"在 ``register_server_types()`` 中，``Engine :: get_singleton() -> "
+"在 ``register_server_types()`` 中， ``Engine :: get_singleton() -> "
 "add_singleton`` 用于在GDScript中注册虚拟类。"
 
 #: ../../docs/development/cpp/custom_godot_servers.rst:376

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-28 20:28+0800\n"
+"POT-Creation-Date: 2021-04-25 22:16+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -59,13 +59,12 @@ msgstr ""
 "运行时更改键映射!"
 
 #: ../../docs/tutorials/inputs/inputevent.rst:40
-#, fuzzy
 msgid ""
 "You can set up your InputMap under **Project > Project Settings > Input "
 "Map** and then use those actions like this:"
 msgstr ""
-"您可以在 **Project > Project Settings > Input Map** 下设置InputMap，然后像这"
-"样使用这些操作:"
+"您可以在 **Project > Project Settings > Input Map** 下设置您的输入映射，然后"
+"使用以下操作："
 
 #: ../../docs/tutorials/inputs/inputevent.rst:60
 msgid "How does it work?"
@@ -120,6 +119,7 @@ msgstr ""
 "许GUI侦听。"
 
 #: ../../docs/tutorials/inputs/inputevent.rst:82
+#, fuzzy
 msgid ""
 "Second, it will try to feed the input to the GUI, and see if any control can "
 "receive it. If so, the :ref:`Control <class_Control>` will be called via the "
@@ -134,15 +134,15 @@ msgid ""
 "_gui_input() <class_Control_method__gui_input>` callback, and whether these "
 "events are propagated further."
 msgstr ""
-"然后，它会尝试将输入提供给GUI，并查看是否有任何控件可以接收它。 如果是这"
-"样， :ref:`Control <class_Control>` 将通过虚函数 :ref:`Control._gui_input() "
-"<class_Control_method__gui_input>` 被调用并发出信号 “input_event”(此函数可通"
-"过以下方式重新实现: 脚本继承自它)。 如果控件想“消耗”该事件，它将调用 :ref:"
-"`Control.accept_event()<class_Control_method_accept_event>` 使得该事件不再传"
-"播。 使用 :ref:`Control.mouse_filter <class_Control_property_mouse_filter>` "
-"属性来控制是否 :ref:`Control <class_Control>` 通过以下方式通知鼠标事件 :ref:"
-"`Control._gui_input()<class_Control_method__gui_input>` 回调，以及是否这些事"
-"件进一步传播。"
+"然后，它会尝试将输入提供给GUI，并查看是否有任何控件可以接收它。 如果有， :"
+"ref:`Control <class_Control>` 将通过虚函数 :ref:`Control._gui_input() "
+"<class_Control_method__gui_input>` 被调用并发出信号 “gui_input”（此函数可通过"
+"继承它的脚本重新实现）。 如果控件想“消耗”该事件，它将调用 :ref:`Control."
+"accept_event() <class_Control_method_accept_event>` 阻止事件的传播。用 :ref:"
+"`Control.mouse_filter <class_Control_property_mouse_filter>` 属性来控制 :ref:"
+"`Control <class_Control>`是否通过 :ref:`Control._gui_input() "
+"<class_Control_method__gui_input>` 回调接收鼠标事件的通知，以及是否进一步传播"
+"这些事件。"
 
 #: ../../docs/tutorials/inputs/inputevent.rst:92
 msgid ""
@@ -204,14 +204,13 @@ msgstr ""
 "点的父辈节点才会接收事件。"
 
 #: ../../docs/tutorials/inputs/inputevent.rst:115
-#, fuzzy
 msgid ""
 "In accordance with Godot's node-based design, this enables specialized child "
 "nodes to handle and consume particular events, while their ancestors, and "
 "ultimately the scene root, can provide more generalized behavior if needed."
 msgstr ""
-"根据Godot基于节点的设计，这使得专门的子节点能够处理和消费特定事件，而他们的祖"
-"先，以及最终的场景根，可以在需要时提供更广泛的行为。"
+"根据Godot基于节点的设计，这使得专门的子节点能够处理和消费特定的事件，而它们的"
+"父级节点，以及最终的场景根节点，可以在需要时提供更通用的行为。"
 
 #: ../../docs/tutorials/inputs/inputevent.rst:121
 msgid "Anatomy of an InputEvent"
@@ -227,11 +226,10 @@ msgstr ""
 "西，只包含一些基本信息，如事件ID(每个事件增加)，设备索引等。"
 
 #: ../../docs/tutorials/inputs/inputevent.rst:127
-#, fuzzy
 msgid ""
 "There are several specialized types of InputEvent, described in the table "
 "below:"
-msgstr "有几种特殊类型的InputEvent，如下表所示:"
+msgstr "InputEvent有几种专门的类型，如下表所述:"
 
 #: ../../docs/tutorials/inputs/inputevent.rst:130
 msgid "Event"
@@ -266,9 +264,8 @@ msgid "KEY"
 msgstr "KEY"
 
 #: ../../docs/tutorials/inputs/inputevent.rst:134
-#, fuzzy
 msgid "Contains a scancode and Unicode value, as well as modifiers."
-msgstr "包含扫描码和unicode值，以及修饰符。"
+msgstr "包含一个扫描码和Unicode值，以及修改器。"
 
 #: ../../docs/tutorials/inputs/inputevent.rst:137
 msgid ":ref:`InputEventMouseButton <class_InputEventMouseButton>`"
@@ -391,29 +388,27 @@ msgid ""
 msgstr "可以从``操作``选项卡的``项目设置``菜单中创建操作。"
 
 #: ../../docs/tutorials/inputs/inputevent.rst:175
-#, fuzzy
 msgid ""
 "Any event has the methods :ref:`InputEvent.is_action() "
 "<class_InputEvent_method_is_action>`, :ref:`InputEvent.is_pressed() "
 "<class_InputEvent_method_is_pressed>` and :ref:`InputEvent "
 "<class_InputEvent>`."
 msgstr ""
-"任何事件都有以下方法 :ref:`InputEvent.is_action() "
+"任何事件都有方法 :ref:`InputEvent.is_action() "
 "<class_InputEvent_method_is_action>`, :ref:`InputEvent.is_pressed() "
-"<class_InputEvent_is_pressed>` 和 :ref:`InputEvent <class_InputEvent>`。"
+"<class_InputEvent_method_is_pressed>` and :ref:`InputEvent "
+"<class_InputEvent>`."
 
 #: ../../docs/tutorials/inputs/inputevent.rst:178
-#, fuzzy
 msgid ""
 "Alternatively, it may be desired to supply the game back with an action from "
 "the game code (a good example of this is detecting gestures). The Input "
 "singleton has a method for this: :ref:`Input.parse_input_event() "
 "<class_input_method_parse_input_event>`. You would normally use it like this:"
 msgstr ""
-"或者，您可能希望向游戏提供来自游戏代码的动作(例如检测手势)。 Input单例有一个"
-"方法: :ref:`Input."
-"parse_input_event()<class_input_method_parse_input_event>` 。 您通常会这样使"
-"用它:"
+"或者，可能希望从游戏代码中向游戏提供一个动作，一个很好的例子是检测手势。Input"
+"单例有一个方法来实现这个功能 :ref:`Input.parse_input_event() "
+"<class_input_method_parse_input_event>` 。通常这样使用它:"
 
 #: ../../docs/tutorials/inputs/inputevent.rst:203
 msgid "InputMap"
@@ -428,7 +423,7 @@ msgid ""
 "the project settings (project.godot). So any dynamic system of this type "
 "needs to store settings in the way the programmer best sees fit."
 msgstr ""
-"通常需要通过代码定制和重新映射输入。 如果整个工作流程依赖于行为， :ref:"
-"`InputMap <class_InputMap>` 单例非常适合在运行时重新分配或创建不同的行为。 此"
-"单例不会保存(必须手动修改)，其状态从项目设置(project.godot)运行。 因此，这种"
-"类型的动态系统需要以程序员最适合的方式存储设置。"
+"经常需要的从代码中定制和重新映射输入。如果你的整个运行流程依赖于动作，那么 :"
+"ref:`InputMap <class_InputMap>` 单例是在运行时重新分配或创建不同动作的理想选"
+"择。这个单例不被保存（必须手动修改），其状态从项目设置进行（project.godot）。"
+"所以任何这种类型的动态系统，都需要以程序员认为最合适的方式来存储设置。"

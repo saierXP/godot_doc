@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-28 20:28+0800\n"
+"POT-Creation-Date: 2021-04-25 22:16+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,33 +18,31 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../docs/tutorials/platform/html5_shell_classref.rst:4
-#, fuzzy
 msgid "HTML5 shell class reference"
-msgstr "如何编写类参考手册"
+msgstr "HTML5 shell类参考"
 
 #: ../../docs/tutorials/platform/html5_shell_classref.rst:6
+#, fuzzy
 msgid ""
 "Projects exported for the Web expose the ``Engine`` class to the JavaScript "
 "environment, that allows fine control over the engine's start-up process."
 msgstr ""
-"输出到Web的项目向JavaScript环境暴露了 ``Engine`` 类，允许对引擎的启动过程进行"
-"精细控制。"
+"为web导出的项目向JavaScript环境暴露了 :js:class:`Engine` 类，从而可以更好地控"
+"制引擎的启动过程。"
 
 #: ../../docs/tutorials/platform/html5_shell_classref.rst:9
-#, fuzzy
 msgid ""
 "This API is built in an asynchronous manner and requires basic understanding "
 "of `Promises <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/"
 "Using_promises>`__."
 msgstr ""
-"本API基于并要求对承诺有基本的理解。 <https://developer.mozilla.org/en-US/"
-"docs/Web/JavaScript/Guide/Using_promises>`__."
+"这个API是以异步的方式建立的，需要对 `Promises <https://developer.mozilla.org/"
+"en-US/docs/Web/JavaScript/Guide/Using_promises>`__ 的基本理解。"
 
 #: ../../docs/tutorials/platform/html5_shell_classref.rst:13
 #: ../../docs/tutorials/platform/html5_shell_classref.rst:43
-#, fuzzy
 msgid "Engine"
-msgstr "关于Godot引擎"
+msgstr "引擎"
 
 #: ../../docs/tutorials/platform/html5_shell_classref.rst:15
 msgid ""
@@ -58,9 +56,8 @@ msgstr ""
 "义Web导出的HTML页面<doc_customizing_html5_shell>` 。"
 
 #: ../../docs/tutorials/platform/html5_shell_classref.rst:20
-#, fuzzy
 msgid "Static Methods"
-msgstr "静态函数"
+msgstr "静态方法"
 
 #: ../../docs/tutorials/platform/html5_shell_classref.rst:23
 #: ../../docs/tutorials/platform/html5_shell_classref.rst:45
@@ -71,8 +68,9 @@ msgid "Promise"
 msgstr "Promise"
 
 #: ../../docs/tutorials/platform/html5_shell_classref.rst:23
+#, fuzzy
 msgid "`Engine.load <#Engine.load>`__ **(** string basePath **)**"
-msgstr "`Engine.load <#Engine.load>`__ **(** string basePath **)**"
+msgstr ":js:attr:`load <Engine.load>` **(** string basePath **)**"
 
 #: ../../docs/tutorials/platform/html5_shell_classref.rst:25
 #: ../../docs/tutorials/platform/html5_shell_classref.rst:29
@@ -84,26 +82,26 @@ msgstr "`Engine.load <#Engine.load>`__ **(** string basePath **)**"
 #: ../../docs/tutorials/platform/html5_shell_classref.rst:63
 #: ../../docs/tutorials/platform/html5_shell_classref.rst:65
 #: ../../docs/tutorials/platform/html5_shell_classref.rst:67
-#, fuzzy
 msgid "void"
-msgstr "**void**"
+msgstr "void"
 
 #: ../../docs/tutorials/platform/html5_shell_classref.rst:25
+#, fuzzy
 msgid "`Engine.unload <#Engine.unload>`__ **(** **)**"
-msgstr "`Engine.unload <#Engine.unload>`__ **(** **)**"
+msgstr "`Engine <#Engine>`__ **(** **)**"
+
+#: ../../docs/tutorials/platform/html5_shell_classref.rst:27
+msgid "boolean"
+msgstr "boolean"
 
 #: ../../docs/tutorials/platform/html5_shell_classref.rst:27
 #, fuzzy
-msgid "boolean"
-msgstr "bool"
-
-#: ../../docs/tutorials/platform/html5_shell_classref.rst:27
 msgid ""
 "`Engine.isWebGLAvailable <#Engine.isWebGLAvailable>`__ **(** *[ number "
 "majorVersion=1 ]* **)**"
 msgstr ""
-"`Engine.isWebGLAvailable <#Engine.isWebGLAvailable>`__ **(** *[ number "
-"majorVersion=1 ]* **)**"
+":js:attr: `isWebGLAvailable <Engine.isWebGLAvailable>` **(** *[ number "
+"majorVersion=1 ] **)**"
 
 #: ../../docs/tutorials/platform/html5_shell_classref.rst:29
 #, fuzzy
@@ -138,16 +136,19 @@ msgid "`Engine <#Engine>`__ **(** **)**"
 msgstr "`Engine <#Engine>`__ **(** **)**"
 
 #: ../../docs/tutorials/platform/html5_shell_classref.rst:45
+#, fuzzy
 msgid "`engine.init <#engine.init>`__ **(** *[ string basePath ]* **)**"
-msgstr "`engine.init <#engine.init>`__ **(** *[ string basePath ]* **)**"
+msgstr ""
+":js:attr: `init <Engine.prototype.init>` **(** *[ string basePath ]**) **"
 
 #: ../../docs/tutorials/platform/html5_shell_classref.rst:47
+#, fuzzy
 msgid ""
 "`engine.preloadFile <#engine.preloadFile>`__ **(** string\\|ArrayBuffer file "
 "*[, string path ]* **)**"
 msgstr ""
-"`engine.preloadFile <#engine.preloadFile>`__ **(** string\\|ArrayBuffer file "
-"*[, string path ]* **)**"
+":js:attr: `preloadFile <Engine.prototype.preloadFile>` **(** string\\|"
+"ArrayBuffer file *[, string path ]**) **"
 
 #: ../../docs/tutorials/platform/html5_shell_classref.rst:49
 msgid ""
@@ -229,9 +230,8 @@ msgid "Static Method Descriptions"
 msgstr "静态函数"
 
 #: ../../docs/tutorials/platform/html5_shell_classref.rst:76
-#, fuzzy
 msgid "Load the engine from the specified base path."
-msgstr "从已通过的底层路径加载引擎。"
+msgstr "从指定的基本路径加载引擎。"
 
 #: ../../docs/tutorials/platform/html5_shell_classref.rst:0
 #: ../../docs/<rst_epilog>:0
@@ -260,8 +260,7 @@ msgstr "卸载引擎以释放内存。"
 msgid ""
 "This method is called automatically once the engine is started unless "
 "explicitly disabled using :js:meth:`engine.setUnloadAfterInit`."
-msgstr ""
-"除非使用:js:func:`引擎.初始化后卸载`显式禁用，否则引擎一旦启动就会自动调用。"
+msgstr "这个方法将被自动调用，取决于配置。参见 :js:attr: `unloadAfterInit` 。"
 
 #: ../../docs/tutorials/platform/html5_shell_classref.rst:92
 msgid ""
@@ -273,13 +272,14 @@ msgstr "检查 WebGL 是否可用。（可选）指定要检查的特定 WebGL �
 #, fuzzy
 msgid ""
 "The major WebGL version to check for. Defaults to ``1`` for *WebGL 1.0*."
-msgstr "主要WebGL版本检查。*WebGL 1.0*默认值为1。"
+msgstr "要检查的主要WebGL版本。"
 
 #: ../../docs/tutorials/platform/html5_shell_classref.rst:96
+#, fuzzy
 msgid ""
 "``true`` if the given major version of WebGL is available, ``false`` "
 "otherwise."
-msgstr "如果WebGL的主要版本可用，则为真，否则为假。"
+msgstr "如果给定的WebGL的主要版本是可用的。"
 
 #: ../../docs/tutorials/platform/html5_shell_classref.rst:102
 #, fuzzy
@@ -295,8 +295,9 @@ msgid "Filename extension without preceding dot."
 msgstr "文件名扩展没有前面的点。"
 
 #: ../../docs/tutorials/platform/html5_shell_classref.rst:110
+#, fuzzy
 msgid "Instance Property Descriptions"
-msgstr "实例属性描述"
+msgstr "request_achievement_descriptions"
 
 #: ../../docs/tutorials/platform/html5_shell_classref.rst:114
 msgid ""
@@ -326,17 +327,17 @@ msgstr ""
 "参见 :js:meth:`Engine.load` 。"
 
 #: ../../docs/tutorials/platform/html5_shell_classref.rst:132
+#, fuzzy
 msgid "Promise that resolves once the engine is loaded and initialized."
-msgstr "承诺一旦加载并初始化引擎就会解析。"
+msgstr "一旦引擎被加载和初始化，一个 ``Promise`` 就会被解析。"
 
 #: ../../docs/tutorials/platform/html5_shell_classref.rst:137
-#, fuzzy
 msgid ""
 "Load a file so it is available in the instance's file system once it runs. "
 "Must be called **before** starting the instance."
 msgstr ""
-"这会加载一个文件，以便在启动实例后在文件系统中可用。 必须在启动实例**之前** "
-"调用。"
+"加载一个文件，这样一旦运行，它就可以在实例的文件系统中使用。必须在启动实例 **"
+"之前** 调用。"
 
 #: ../../docs/tutorials/platform/html5_shell_classref.rst:140
 #, fuzzy
@@ -345,36 +346,32 @@ msgid ""
 "``ArrayBuffer`` or a view on one, the buffer will used as the content of the "
 "file."
 msgstr ""
-"如果 ``file`` 是一个字符串，那么该文件将从该URL加载。 如果 ``file`` 是一个 "
-"``ArrayBuffer`` 或一个视图，缓冲区将用作文件的内容。"
+"要预装的文件，如果是一个 ``string`` ，文件将从该路径加载。如果是一个  "
+"``ArrayBuffer`` 或一个视图，该缓冲区将被用作文件的内容。"
 
 #: ../../docs/tutorials/platform/html5_shell_classref.rst:141
 #, fuzzy
 msgid "If type is ``string``, the file will be loaded from that path."
-msgstr "如果类型是字符串，则文件将从该路径加载。"
+msgstr "如果是 ``string`` ，文件将从该路径加载。"
 
 #: ../../docs/tutorials/platform/html5_shell_classref.rst:143
 #, fuzzy
 msgid ""
 "If type is ``ArrayBuffer`` or a view on one, the buffer will used as the "
 "content of the file."
-msgstr ""
-"如果 ``file`` 是一个字符串，那么该文件将从该URL加载。 如果 ``file`` 是一个 "
-"``ArrayBuffer`` 或一个视图，缓冲区将用作文件的内容。"
+msgstr "如果是一个 ``ArrayBuffer`` 或一个视图，该缓冲区将被用作文件的内容。"
 
 #: ../../docs/tutorials/platform/html5_shell_classref.rst:146
 #, fuzzy
 msgid ""
 "Path by which the file will be accessible. Required, if ``file`` is not a "
 "string. If not passed, the path is derived from the URL of the loaded file."
-msgstr ""
-"如果 ``path`` 是一个字符串，它指定文件可用的路径。 如果 ``file`` 不是字符串，"
-"这是必需的。 否则，路径是从加载的文件的URL派生的。"
+msgstr "用于访问文件的路径。如果 ``file`` 不是一个字符串，则为必需的。"
 
 #: ../../docs/tutorials/platform/html5_shell_classref.rst:151
 #, fuzzy
 msgid "Promise that resolves once the file is loaded."
-msgstr "返回一个预先加载文件后解析的promise。"
+msgstr "一个一旦文件被加载就会解析的Promise。"
 
 #: ../../docs/tutorials/platform/html5_shell_classref.rst:156
 #, fuzzy
@@ -382,21 +379,23 @@ msgid ""
 "Start the instance of the engine, using the passed strings as command line "
 "arguments. :js:meth:`engine.startGame` can be used in typical cases instead."
 msgstr ""
-"启动引擎实例，将传递的字符串作为参数传递给 ``main()`` 函数。 这样可以很好地控"
-"制引擎的使用方式，但通常名称以 ``engine.start`` 开头的其他方法更易于使用。"
+"使用给定的覆盖配置（如果有的话）启动引擎实例。 :js:meth:`startGame <Engine."
+"prototype.startGame>` 可以在典型情况下代替使用。"
 
 #: ../../docs/tutorials/platform/html5_shell_classref.rst:160
+#, fuzzy
 msgid ""
 "This will initialize the instance if it is not initialized. For manual "
 "initialization, see :js:meth:`engine.init`. The engine must be loaded "
 "beforehand."
 msgstr ""
-"如果实例未初始化，这将对其进行初始化。手动初始化参见：js：meth：`Engine."
-"init`。引擎必须事先装载好。"
+"如果实例没有被初始化，它将初始化它。对于手动初始化，请参阅 :js:meth:`init "
+"<Engine.prototype.init>` 。引擎必须事先加载。"
 
 #: ../../docs/tutorials/platform/html5_shell_classref.rst:163
+#, fuzzy
 msgid "Fails if a canvas cannot be found on the page."
-msgstr "如果在页面上找不到画布，则失败。"
+msgstr "如果在页面上找不到画布，或者没有在配置中指定，则失败。"
 
 #: ../../docs/tutorials/platform/html5_shell_classref.rst:165
 #, fuzzy
@@ -405,27 +404,29 @@ msgstr "命令行参数。"
 
 #: ../../docs/tutorials/platform/html5_shell_classref.rst:168
 msgid "Promise that resolves once the engine started."
-msgstr "引擎启动后解析的承诺。"
+msgstr "引擎启动后解析的Promise。"
 
 #: ../../docs/tutorials/platform/html5_shell_classref.rst:173
+#, fuzzy
 msgid ""
 "Start the game instance using the given executable URL and main pack URL."
-msgstr "使用给定的可执行网址和主包网址启动游戏实例。"
+msgstr "使用给定的配置覆盖（如果有的话）启动游戏实例。"
 
 #: ../../docs/tutorials/platform/html5_shell_classref.rst:175
+#, fuzzy
 msgid ""
 "This will initialize the instance if it is not initialized. For manual "
 "initialization, see :js:meth:`engine.init`."
 msgstr ""
-"如果实例没有被初始化，这将初始化它。关于手动初始化，请参见 :js:meth:`engine."
-"init` 。"
+"如果实例没有被初始化，将初始化它。对于手动初始化，见 :js:meth:`init <Engine."
+"prototype.init>` 。"
 
 #: ../../docs/tutorials/platform/html5_shell_classref.rst:178
 #, fuzzy
 msgid ""
 "This will load the engine if it is not loaded. The base path of the "
 "executable URL will be used as the engine base path."
-msgstr "如果尚未加载引擎，则将使用传递的URL的基本路径来加载引擎。"
+msgstr "如果未加载引擎，则将加载引擎，并预加载主pck。"
 
 #: ../../docs/tutorials/platform/html5_shell_classref.rst:181
 msgid "Executable name in a form of URL, omitting filename extension."
@@ -437,14 +438,14 @@ msgstr "主程序包从这网址开始游戏。"
 
 #: ../../docs/tutorials/platform/html5_shell_classref.rst:187
 msgid "Promise that resolves once the game started."
-msgstr "当游戏启动后承诺解析。"
+msgstr "一旦游戏开始就会解析Promise."
 
 #: ../../docs/tutorials/platform/html5_shell_classref.rst:192
 #, fuzzy
 msgid ""
 "Specify whether the engine will be unloaded automatically after the instance "
 "is initialized. Enabled by default."
-msgstr "指定初始化实例后是否自动卸载引擎。"
+msgstr "在实例被初始化后，是否自动卸载引擎。"
 
 #: ../../docs/tutorials/platform/html5_shell_classref.rst:195
 msgid ""
@@ -462,7 +463,7 @@ msgstr "默认情况下，页面上的第一个画布元素用于呈现。"
 #: ../../docs/tutorials/platform/html5_shell_classref.rst:204
 #, fuzzy
 msgid "The canvas element to use."
-msgstr "使用的画布。"
+msgstr "要使用的HTML DOM Canvas对象。"
 
 #: ../../docs/tutorials/platform/html5_shell_classref.rst:209
 #, fuzzy
@@ -482,7 +483,9 @@ msgstr "指定语言代码，为游戏选择合适的本地化。"
 #: ../../docs/tutorials/platform/html5_shell_classref.rst:219
 #, fuzzy
 msgid "Complete list of :ref:`supported locales <doc_locales>`."
-msgstr "列表:参考:`地区设置<文档_地区设置>`."
+msgstr ""
+"如果没有指定，将使用浏览器的语言环境。请参阅完整的 :ref:`supported locales "
+"<doc_locales>` 。"
 
 #: ../../docs/tutorials/platform/html5_shell_classref.rst:221
 msgid "Language code."
@@ -515,7 +518,9 @@ msgid ""
 "Specify a callback function for displaying download progress. The callback "
 "function is called once per frame, so that the usage of "
 "``requestAnimationFrame()`` is not necessary."
-msgstr "为便于使用，每帧只调用一次回调，因此，没有必要使用“请求动画帧()”。"
+msgstr ""
+"该函数在下载文件时每帧被调用一次，所以没有必要使用 "
+"``requestAnimationFrame()`` 。"
 
 #: ../../docs/tutorials/platform/html5_shell_classref.rst:240
 msgid ""
@@ -547,13 +552,12 @@ msgstr ""
 "总字节数。"
 
 #: ../../docs/tutorials/platform/html5_shell_classref.rst:254
+#, fuzzy
 msgid ""
 "Specify a callback function for handling the standard output stream. This "
 "method should usually only be used in debug pages. By default, ``console."
 "log()`` is used."
-msgstr ""
-"指定用于处理标准输出流的回调函数。此方法通常只应在调试页中使用。默认使用"
-"``console.log()``。"
+msgstr "用于处理标准输出流的回调函数。这个方法通常应该只在调试页面使用。"
 
 #: ../../docs/tutorials/platform/html5_shell_classref.rst:257
 #: ../../docs/tutorials/platform/html5_shell_classref.rst:265
@@ -563,10 +567,9 @@ msgid ""
 msgstr "回调函数调用带有一个参数，要打印的字符串。"
 
 #: ../../docs/tutorials/platform/html5_shell_classref.rst:262
+#, fuzzy
 msgid ""
 "Specify a callback function for handling the standard error stream. This "
 "method should usually only be used in debug pages. By default, ``console."
 "warn()`` is used."
-msgstr ""
-"指定一个用于处理标准错误流的回调函数。这个方法通常只应该在调试页面中使用，默"
-"认情况下，使用 ``console.warning()`` 。"
+msgstr "用于处理标准错误流的回调函数。这个方法通常应该只在调试页面使用。"

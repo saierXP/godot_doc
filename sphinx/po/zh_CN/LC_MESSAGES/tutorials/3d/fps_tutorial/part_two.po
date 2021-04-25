@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-28 20:28+0800\n"
+"POT-Creation-Date: 2021-04-25 22:16+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,9 +22,8 @@ msgid "Part 2"
 msgstr "第2部分"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:7
-#, fuzzy
 msgid "Part overview"
-msgstr "零件概述"
+msgstr "部分概述"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:9
 msgid "In this part we will be giving our player weapons to play with."
@@ -95,11 +94,10 @@ msgid ""
 msgstr "``states``:用于保存动画状态的字典。 (以下进一步说明)"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:159
-#, fuzzy
 msgid ""
 "``animation_speeds``: A dictionary for holding all the speeds at which we "
 "want to play our animations."
-msgstr "``animation_speeds``:一个字典，用于保存我们想要播放动画的所有速度。"
+msgstr "``animation_speeds``:一个字典，用来保存我们想要播放的动画的所有速度。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:160
 msgid ""
@@ -123,7 +121,6 @@ msgstr ""
 "里大致是如何设置``states``:"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:166
-#, fuzzy
 msgid ""
 "``states`` is a dictionary with the key being the name of the current state, "
 "and the value being an array holding all the animations (states) we can "
@@ -131,12 +128,12 @@ msgid ""
 "state, we can only transition to ``Knife_equip``, ``Pistol_equip``, "
 "``Rifle_equip``, and ``Idle_unarmed``."
 msgstr ""
-"``states``是一个字典，键是当前状态的名称，值是一个包含我们可以转换到的所有动"
-"画(状态)的数组。 例如，如果我们当前处于 ``Idle_unarmed`` 状态，我们只能转换"
-"为 ``Knife_equip`` ， ``Pistol_equip`` ， ``Rifle_equip`` 和 "
-"``Idle_unarmed`` 。"
+"``states`` 是一个字典，键是当前状态的名称，值是一个数组，里面有可以转换的所有"
+"动画及状态。例如，如果当前处于 ``Idle_unarmed`` 状态，只能过渡到 "
+"``Knife_equip`` 、 ``Pistol_equip`` 、 ``Rifle_equip`` 和 ``Idle_unarmed`` 。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:171
+#, fuzzy
 msgid ""
 "If we try to transition to a state that is not included in the possible "
 "transitions states for the state we are in, then we get a warning message "
@@ -146,17 +143,16 @@ msgid ""
 msgstr ""
 "如果我们尝试转换到未包含在我们所处状态的可能转换状态中的状态，那么我们会收到"
 "警告消息并且动画不会更改。 我们也可以自动从一些状态转换到其他状态，这将在下面"
-"的“animation_ended”中进一步解释"
+"的“animation_ended”中进一步解释。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:175
-#, fuzzy
 msgid ""
 "For the sake of keeping this tutorial simple, we are not using a 'proper' "
 "state machine. If you are interested to know more about state machines, see "
 "the following articles:"
 msgstr ""
-"为了保持本教程的简单，我们没有使用“正确的”状态机。 如果您有兴趣了解有关状态机"
-"的更多信息，请参阅以下文章:"
+"为了保持本教程的简单性，我们没有使用 完整的 '状态机' 。如果你有兴趣了解更多关"
+"于状态机的知识，请看以下文章:"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:179
 msgid ""
@@ -212,7 +208,6 @@ msgstr ""
 "后使用它的方式。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:196
-#, fuzzy
 msgid "Now let's look at ``_ready``."
 msgstr "现在让我们来看看 ``_ready`` 。"
 
@@ -235,8 +230,9 @@ msgstr ""
 "``animation_ended`` 。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:206
+#, fuzzy
 msgid "Lets look at ``set_animation`` next."
-msgstr "让我们看看下面的 ``set_animation`` 。"
+msgstr "接下来我们看一下 ``set_animation`` 。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:208
 msgid ""
@@ -250,34 +246,31 @@ msgstr ""
 "那么我们将更改为该动画。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:212
-#, fuzzy
 msgid ""
 "Firstly, we check if the passed in animation name is the same name as the "
 "animation currently playing. If they are the same, then we write a warning "
 "to the console and return ``true``."
 msgstr ""
-"首先，我们检查传入的动画名称是否与当前播放的动画名称相同。 如果它们是相同的，"
-"那么我们向控制台写一个警告并返回 ``true`` 。"
+"首先，我们检查传入的动画名称是否与当前播放的动画名称相同。如果它们是相同的，"
+"那么就向控制台书写一个警告，并返回 ``true`` 。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:215
-#, fuzzy
 msgid ""
 "Secondly, we see if :ref:`AnimationPlayer <class_AnimationPlayer>` has the "
 "animation with the name ``animation_name`` using ``has_animation``. If it "
 "does not, we return ``false``."
 msgstr ""
-"接下来我们看看 :ref:`AnimationPlayer <class_AnimationPlayer>` 使用 "
-"``has_animation`` 创建名为 ``animation_name`` 的动画。 如果没有，我们返回 "
-"``false`` 。"
+"其次，使用 ``has_animation`` 查看 :ref:`AnimationPlayer "
+"<class_AnimationPlayer>` 是否有名称为 ``animation_name`` 的动画。如果没有，返"
+"回``false``。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:218
-#, fuzzy
 msgid ""
 "Thirdly, we check whether ``current_state`` is set. If we have a state in "
 "``current_state``, then we get all the possible states we can transition to."
 msgstr ""
-"如果我们在 ``current_state`` 中有一个状态，那么我们就可以获得所有可以转换到的"
-"状态。"
+"第三，检查 ``current_state`` 是否被设置。如果在 ``current_state`` 中有一个状"
+"态，那么就可以转换到所有可能的状态。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:220
 msgid ""
@@ -320,8 +313,9 @@ msgid ""
 msgstr "我们将混合时间设置为“-1”，因为我们想立即更改动画。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:236
+#, fuzzy
 msgid "Now lets look at ``animation_ended``."
-msgstr "现在让我们来看看 ``animation_ended`` 。"
+msgstr "现在来看看 ``animation_ended`` 。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:238
 msgid ""
@@ -333,14 +327,13 @@ msgstr ""
 "<class_AnimationPlayer>` 当它完成播放动画时。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:241
-#, fuzzy
 msgid ""
 "For certain animation states, we may need to transition into another state "
 "when it's finished. To handle this, we check for every possible animation "
 "state. If we need to, we will transition into another state."
 msgstr ""
-"对于某些动画状态，我们可能需要在完成后转换到另一个状态。 为了解决这个问题，我"
-"们检查每个可能的动画状态。 如果我们需要，我们将过渡到另一个州。"
+"对于某些动画状态，可能需要在它完成后过渡到另一个状态。为了处理这个问题，我们"
+"会检查每一个可能的动画状态，如果需要，将过渡到另一个状态。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:244
 msgid ""
@@ -353,18 +346,15 @@ msgstr ""
 "不会发送 ``animation_finished`` 信号，并且即将再循环。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:248
-#, fuzzy
 msgid ""
 "The transitions in ``animation_ended`` would ideally be part of the data in "
 "``states``, but in an effort to make the tutorial easier to understand, "
 "we'll hard code each state transition in ``animation_ended``."
 msgstr ""
-"理想情况下， ``animation_ended`` 中的转换将成为 ``states`` 中数据的一部分，但"
-"为了使教程更容易理解，我们将在 ``animation_ended`` 中对每个状态转换进行硬编"
-"码。"
+"``animation_ended`` 中的转换最好是 ``states`` 中数据的一部分，但为了使教程更"
+"容易理解，我们将对 ``animation_ended`` 中的每个状态转换进行硬编码。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:254
-#, fuzzy
 msgid ""
 "Finally, there is ``animation_callback``. This function will be called by a "
 "call method track in our animations. If we have a :ref:`FuncRef "
@@ -372,10 +362,10 @@ msgid ""
 "in function. If we do not have a :ref:`FuncRef <class_FuncRef>` assigned to "
 "``callback_function``, we print out a warning to the console."
 msgstr ""
-"最后我们有 ``animation_callback`` 。 此功能将由我们的动画中的功能轨道调用。 "
-"如果我们有一个 :ref:`FuncRef <class_FuncRef>` 分配给 ``callback_function`` ，"
-"那么我们调用传入函数。 如果我们没有 :ref:`FuncRef <class_FuncRef>` 分配给 "
-"``callback_function`` ，我们会向控制台打印一个警告。"
+"最后是 ``animation_callback`` ，这个函数将被我们动画中的调用方法跟踪其调用。"
+"如果有一个 :ref:`FuncRef <class_FuncRef>` 分配给 ``callback_function`` ，那么"
+"就会调用这个传递进来的函数。如果没有分配给 ``callback_function`` 的 :ref:"
+"`FuncRef <class_FuncRef>`，就会向控制台打印出一个警告。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:258
 msgid ""
@@ -391,14 +381,13 @@ msgid "Getting the animations ready"
 msgstr "准备好动画"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:264
-#, fuzzy
 msgid ""
 "Now that we have a working animation manager, we need to call it from our "
 "player script. Before that, though, we need to set some animation callback "
 "tracks in our firing animations."
 msgstr ""
-"现在我们有了一个有效的动画管理器，我们需要从我们的游戏角色脚本中调用它。 在此"
-"之前，我们需要在我们的射击动画中设置一些动画回调轨道。"
+"现在我们已经有了一个运行的动画管理器，需要从玩家脚本中来调用它。不过在此之"
+"前，需要在发射动画中设置一些动画回调跟踪。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:267
 msgid ""
@@ -411,14 +400,13 @@ msgstr ""
 "` ->` `Animation_Player``)。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:270
-#, fuzzy
 msgid ""
 "We need to attach a call method track to three of our animations: The firing "
 "animation for the pistol, rifle, and knife. Let's start with the pistol. "
 "Click the animation drop down list and select \"Pistol_fire\"."
 msgstr ""
-"我们需要将功能轨道附加到我们的三个动画中:手枪，步枪和刀的射击动画。 让我们从"
-"手枪开始吧。 单击动画下拉列表，然后选择“Pistol_fire”。"
+"我们需要给三个动画附加一个调用方法跟踪。手枪、步枪和刀的射击动画，让我们从手"
+"枪开始。点击动画下拉列表，选择 \"Pistol_fire\" 。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:273
 msgid ""
@@ -431,16 +419,15 @@ msgstr ""
 "循环按钮和向上箭头"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:278
-#, fuzzy
 msgid ""
 "This will bring up a window with a few choices. We want to add a call method "
 "track, so click the option that reads \"Call Method Track\". This will open "
 "a window showing the entire node tree. Navigate to the :ref:`AnimationPlayer "
 "<class_AnimationPlayer>` node, select it, and press OK."
 msgstr ""
-"这将打开一个有三个选择的窗口。 我们想要添加一个函数回调轨道，所以单击“Add "
-"Call Func Track”选项。 这将打开一个显示整个节点树的窗口。 导航到 :ref:"
-"`AnimationPlayer <class_AnimationPlayer>` 节点，选择它，然后按OK。"
+"这会弹出一个窗口，里面有几个选择。我们要添加一个调用方法跟踪，所以点击 \"调用"
+"方法跟踪\" 的选项。这将打开一个窗口，显示整个节点树。导航到 :ref:"
+"`AnimationPlayer <class_AnimationPlayer>` 节点，选择它，然后按确定。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:284
 msgid ""
@@ -454,11 +441,10 @@ msgstr ""
 "直到到达枪口开始闪烁的点。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:288
-#, fuzzy
 msgid ""
 "The timeline is the window where all the points in our animation are stored. "
 "Each of the little points represents a point of animation data."
-msgstr "时间轴是存储动画中所有点的窗口。 每个小点代表一个动画数据点。"
+msgstr "时间轴是存储动画中所有点的窗口，每一个小点都代表一个动画数据点。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:291
 msgid ""
@@ -488,13 +474,12 @@ msgstr ""
 "也被称为枪管。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:303
-#, fuzzy
 msgid ""
 "For finer control when scrubbing the timeline, press :kbd:`Ctrl` and scroll "
 "forward with the mouse wheel to zoom in. Scrolling backwards will zoom out."
 msgstr ""
-"要在删除时间线时进行更精细的控制，请按“控制”并使用鼠标滚轮向前滚动以放大。向"
-"后滚动将缩小。"
+"在清量时间轴时，为了更精细地控制，按 :kbd:`Ctrl` 键，用鼠标滚轮向前滚动可放"
+"大，向后滚动则会缩小。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:306
 msgid ""
@@ -505,22 +490,19 @@ msgstr ""
 "式。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:308
-#, fuzzy
 msgid ""
 "Once you get to a point you like, right click on the row for \"Animation "
 "Player\" and press ``Insert Key``. In the empty name field, enter "
 "``animation_callback`` and press :kbd:`Enter`."
 msgstr ""
-"点击后，右侧会打开一个新窗口。 现在单击 ``AnimationPlayer`` 轨道上的绿点。 这"
-"将显示与时间线中该点相关的信息。 在空名称字段中，输入 ``animation_callback`` "
-"并按 ``enter`` 。"
+"到达所需位置后，右击 \"Animation Player\" 这一行，按 ``Insert Key`` 。在空的"
+"名称栏中，输入 ``animation_callback`` ，然后按 :kbd:`Enter` 。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:314
-#, fuzzy
 msgid ""
 "Now when we are playing this animation the call method track will be "
 "triggered at that specific point of the animation."
-msgstr "现在，当我们播放此动画时，将在动画的特定点触发回调函数。"
+msgstr "现在，当我们在播放这个动画时，调用方法跟踪将在动画的那个特定点被触发。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:318
 msgid "Let's repeat the process for the rifle and knife firing animations!"
@@ -536,7 +518,6 @@ msgstr ""
 "按照上面的步骤！ 它完全相同，只是在不同的动画上。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:323
-#, fuzzy
 msgid ""
 "Go to the \"Rifle_fire\" animation from the animation drop down. Add the "
 "call method track once you reach the bottom of the animation track list by "
@@ -544,19 +525,19 @@ msgid ""
 "muzzle starts to flash and right click and press ``Insert Key`` to add a "
 "call method track point at that position on the track."
 msgstr ""
-"从动画下拉菜单转到“Rifle_fire”动画。 通过单击屏幕底部的小加号图标，一旦到达动"
-"画轨道列表的底部，添加功能回调轨道。 找到枪口开始闪烁的点，然后单击小绿色加号"
-"以在轨道上的该位置添加功能回调点。"
+"从动画下拉列表中进入 \"Rifle_fire\" 动画。到动画轨道列表的最下方，点击列表上"
+"方的 \"Add Track\" 按钮，添加调用方法跟踪。找到枪口开始闪光的点，右键按 "
+"``Insert Key`` 在轨道上的该位置添加调用方法跟踪点。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:327
-#, fuzzy
 msgid ""
 "Type \"animation_callback\" into the name field of the pop up which opened "
 "and press :kbd:`Enter`."
-msgstr "在弹出窗口的名称字段中输入“动画_回调”，然后按“回车”键。"
+msgstr ""
+"在打开的弹出窗口的名称栏中输入 \"animation_callback\" ，然后按 :kbd:"
+"`Enter` 。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:329
-#, fuzzy
 msgid ""
 "Now we need to apply the callback method track to the knife animation. "
 "Select the \"Knife_fire\" animation and scroll to the bottom of the "
@@ -564,9 +545,9 @@ msgid ""
 "method track. Next find a point around the first third of the animation to "
 "place the animation callback method point at."
 msgstr ""
-"现在我们需要将回调函数轨道应用于刀动画。 选择“Knife_fire”动画并滚动到动画轨道"
-"的底部。 单击动画窗口底部的加号，然后添加函数回调轨道。 接下来，在动画的前三"
-"分之一处找到一个点，将动画回调函数指向。"
+"现在我们需要将回调方法跟踪应用到刀动画中。选择 \"Knife_fire\" 动画，滚动到动"
+"画轨道的底部。点击列表上方的 \"Add Track\" 按钮，添加一个方法跟踪。接下来在动"
+"画的前三分之一处找一个点，将动画回调方法点放在这里。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:333
 msgid ""
@@ -579,26 +560,25 @@ msgstr ""
 "用枪械射击逻辑，因此动画的命名风格与其他动画一致。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:337
-#, fuzzy
 msgid ""
 "From there right click on the timeline and click \"Insert Key\". Put "
 "\"animation_callback\" into the name field and press :kbd:`Enter`."
 msgstr ""
-"从那里右键单击时间轴并单击“插入关键帧”。将“动画_回调”放入名称字段并按“回车”。"
+"从那里右击时间轴，点击 \"Insert Key\" 。在名称栏中输入 \"animation_callback"
+"\" ，然后按 :kbd:`Enter` 。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:339
 msgid "Be sure to save your work!"
 msgstr "一定要保存您的工作！"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:341
-#, fuzzy
 msgid ""
 "With that done, we are almost ready to start adding the ability to fire to "
 "our player script! We need to set up one last scene: The scene for our "
 "bullet object."
 msgstr ""
-"完成后，我们几乎准备开始添加触发我们的游戏角色脚本的功能！ 我们需要设置最后一"
-"个场景:我们的子弹对象的场景。"
+"完成后，我们就可以开始在玩家脚本中添加开火的功能了。我们需要设置最后一个场"
+"景，子弹对象的场景."
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:345
 msgid "Creating the bullet scene"
@@ -624,19 +604,17 @@ msgstr ""
 "在这种方法中，我们在枪的方向上创建/生成一个子弹对象，然后向前行进。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:356
-#, fuzzy
 msgid ""
 "There are several advantages to this method. The first being we do not have "
 "to store the bullets in our player. We can simply create the bullet and then "
 "move on, and the bullet itself will handle checking for collisions, sending "
 "the proper signal(s) to the object it collides with, and destroying itself."
 msgstr ""
-"这种方法有几个优点。 首先，我们不必将子弹存储在我们的游戏角色中。 我们可以简"
-"单地创建子弹然后继续前进，子弹本身用手柄检查碰撞，将正确的信号发送到它碰撞的"
-"对象，并自行销毁。"
+"这种方法有几个优点。首先是我们不必将子弹存储在玩家中。我们可以简单地创建子"
+"弹，然后继续前进，而子弹本身将处理检查碰撞，发送适当的信号给它碰撞的对象，并"
+"销毁自己。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:359
-#, fuzzy
 msgid ""
 "Another advantage is we can have more complex bullet movement. If we want to "
 "make the bullet fall ever so slightly as time goes on, we can make the "
@@ -645,10 +623,10 @@ msgid ""
 "instantly hit whatever it's pointed at. This feels more realistic because "
 "nothing in real life moves instantly from one point to another."
 msgstr ""
-"另一个优点是我们可以拥有更复杂的子弹运动。 如果我们想让子弹随着时间的推移而下"
-"降，我们可以让子弹控制脚本慢慢将子弹推向地面。 使用一个物体也会使子弹花费时间"
-"到达目标，它不会立即击中它所指向的任何物体。 这种感觉更加真实，因为现实生活中"
-"的任何事物都不会立即从一个点移动到另一个。"
+"另一个优点是我们可以有更复杂的子弹运动。如果我们想让子弹随着时间的推移而微微"
+"下降，可以让子弹控制脚本慢慢地把子弹推向地面。使用物体也会让子弹需要时间来到"
+"达目标，它不会立即击中任何它所指向的东西。这样感觉更真实，因为现实生活中没有"
+"任何东西会瞬间从一个点移动到另一个点。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:363
 msgid ""
@@ -687,11 +665,10 @@ msgstr ""
 "完全来自我的观察。 **它们可能完全错误** 。我从未参与** 任何**以下游戏)"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:374
-#, fuzzy
 msgid ""
 "Halo (Rocket launchers, fragmentation grenades, sniper rifles, brute shot, "
 "and more)"
-msgstr "光环(火箭发射器，碎片手榴弹，狙击步枪，蛮力射击等)"
+msgstr "光环（火箭发射器、破片手雷、狙击步枪、暴力射击等）"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:375
 msgid ""
@@ -729,11 +706,10 @@ msgstr ""
 "一人称射击游戏时要牢记这一点，特别是如果您计划在未来添加某种形式的网络。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:387
-#, fuzzy
 msgid ""
 "The other way of handling bullet collisions we will be looking at is "
 "raycasting."
-msgstr "我们将关注的另一种处理子弹碰撞的方法是光线投射。"
+msgstr "我们将讨论的另一种处理子弹碰撞的方法是光线投射（raycasting）。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:389
 msgid ""
@@ -786,14 +762,13 @@ msgid "Battlefield (Assault rifles, SMGs, carbines, pistols, and more)"
 msgstr "战场(突击步枪，SMG，卡宾枪，手枪等)"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:402
-#, fuzzy
 msgid ""
 "One huge advantage of this method is that it's light on performance. Sending "
 "a couple hundred rays through space is *much* easier for the computer to "
 "calculate than sending a couple hundred bullet objects."
 msgstr ""
-"这种方法的一个巨大优势是它的性能很好。 通过空间发送几百条光线对于计算机来说比"
-"发送几百个子弹对象更简单。"
+"这种方法的一个巨大优势是它的性能要求不高。 在空间中发送几百条光线对于计算机来"
+"说比发送几百个子弹对象 *简单得多* 。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:406
 msgid ""
@@ -807,7 +782,6 @@ msgstr ""
 "线投射。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:409
-#, fuzzy
 msgid ""
 "Raycasting does have some disadvantages, though. One major disadvantage is "
 "we cannot easily cast a ray in anything but a linear line. This means we can "
@@ -816,10 +790,10 @@ msgid ""
 "positions, but not only is this hard to implement in code, it is also "
 "heavier on performance."
 msgstr ""
-"然而，Raycasting确实有一些缺点。 一个主要的缺点是我们不能轻易地将光线投射到除"
-"线性线之外的任何物体上。 这意味着我们只能用直线射击，不管我们的射线长度是多"
-"长。 您可以通过在不同位置投射多条光线来创建子弹运动的幻觉，但这不仅难以在代码"
-"中实现，而且在性能上也更重。"
+"然而，Raycasting确实有一些缺点。 一个主要的缺点是我们不能简单地以线性线以外的"
+"方式投射一条光线。 这意味着无论光线长度有多长，都只能用直线射击。 尽管可以通"
+"过在不同位置投射多条光线来创建子弹运动的幻觉，但这不仅难以在代码中实现，而且"
+"性能负担也更重。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:413
 msgid ""
@@ -838,13 +812,12 @@ msgstr ""
 "得如此之快，我们的眼睛无论如何都看不到它。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:420
-#, fuzzy
 msgid ""
 "Let's get the bullet object set up. This is what our pistol will create when "
 "the \"Pistol_fire\" animation callback function is called."
 msgstr ""
-"让我们设置子弹对象。 这就是我们的手枪在调用“Pistol_fire”动画回调函数时会创建"
-"的内容。"
+"让我们设置子弹对象——在调用“Pistol_fire”动画回调函数时，我们的手枪会创建的内"
+"容。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:423
 msgid ""
@@ -853,17 +826,18 @@ msgid ""
 "<class_MeshInstance>` and an :ref:`Area <class_Area>` with a :ref:"
 "`CollisionShape <class_CollisionShape>` children to it."
 msgstr ""
-"打开 ``Bullet_Scene.tscn`` 。 场景包含 :ref:`Spatial <class_Spatial>` 节点名"
-"为bullet，带有 :ref:`MeshInstance <class_MeshInstance>` 和 :ref:`Area "
-"<class_Area>` 带有 :ref:`CollisionShape <class_CollisionShape>` children 它。"
+"打开 ``Bullet_Scene.tscn`` 。 这个场景包含一个名为bullet的 :ref:`Spatial "
+"<class_Spatial>` 节点，附有一个 :ref:`MeshInstance <class_MeshInstance>` 以及"
+"一个带有 :ref:`CollisionShape <class_CollisionShape>`子节点的 :ref:`Area "
+"<class_Area>`。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:427
 msgid ""
 "Create a new script called ``Bullet_script.gd`` and attach it to the "
 "``Bullet`` :ref:`Spatial <class_Spatial>`."
 msgstr ""
-"创建一个名为 ``Bullet_script.gd`` 的新脚本并将其附加到``Bullet`` :ref:"
-"`Spatial <class_Spatial>`。"
+"创建一个名为 ``Bullet_script.gd`` 的新脚本并将其附加到 ``Bullet`` :ref:"
+"`Spatial <class_Spatial>`上。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:429
 msgid ""
@@ -871,11 +845,10 @@ msgid ""
 "will be using the :ref:`Area <class_Area>` to check whether or not we've "
 "collided with something"
 msgstr ""
-"我们将在根部移动整个子弹对象(``Bullet``)。 我们将使用 :ref:`Area "
-"<class_Area>` 来检查我们是否与某些东西相撞"
+"我们将在根部移动整个子弹对象（ ``Bullet`` ）。使用 :ref:`Area <class_Area>` "
+"来检查是否碰撞了什么东西"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:431
-#, fuzzy
 msgid ""
 "Why are we using an :ref:`Area <class_Area>` and not a :ref:`RigidBody "
 "<class_RigidBody>`? The main reason we're not using a :ref:`RigidBody "
@@ -885,10 +858,10 @@ msgid ""
 "<class_RigidBody>` nodes, including other bullets, will be effected."
 msgstr ""
 "为什么我们使用 :ref:`Area <class_Area>` 而不是 :ref:`RigidBody "
-"<class_RigidBody>`？ 我们没有使用的主要原因是 :ref:`RigidBody "
-"<class_RigidBody>` 是因为我们不希望子弹与其他人交互 :ref:`RigidBody "
-"<class_RigidBody>` 节点。 通过使用 :ref:`Area <class_Area>` 我们确保其他任何"
-"一个 :ref:`RigidBody <class_RigidBody>` 节点，包括其他子弹，将受到影响。"
+"<class_RigidBody>`？ 不使用 :ref:`RigidBody <class_RigidBody>`的主要原因是我"
+"们不希望子弹与其他 :ref:`RigidBody <class_RigidBody>` 节点发生交互。我们通过"
+"使用 :ref:`Area <class_Area>` 确保其他任何 :ref:`RigidBody "
+"<class_RigidBody>` 节点，包括其他子弹，都不会受到影响。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:435
 msgid ""
@@ -902,33 +875,30 @@ msgid "Here's the script that will control our bullet:"
 msgstr "这是控制我们子弹的脚本:"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:473
-#, fuzzy
 msgid "Let's go through the script:"
-msgstr "这是控制我们子弹的脚本:"
+msgstr "让我们过一遍脚本："
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:477
 msgid "First we define a few class variables:"
 msgstr "首先我们定义一些类变量:"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:479
-#, fuzzy
 msgid "``BULLET_SPEED``: The speed at which the bullet travels."
-msgstr "``BULLET_SPEED``:子弹行进的速度。"
+msgstr "``BULLET_SPEED``:子弹前进的速度。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:480
-#, fuzzy
 msgid ""
 "``BULLET_DAMAGE``: The damage the bullet will cause to anything with which "
 "it collides."
-msgstr "``BULLET_DAMAGE``:子弹对它碰撞的任何伤害。"
+msgstr "``BULLET_DAMAGE``:子弹对碰撞物造成的伤害。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:481
 msgid "``KILL_TIMER``: How long the bullet can last without hitting anything."
-msgstr "``KILL_TIMER``:子弹可以持续多久而不击中任何东西。"
+msgstr "``KILL_TIMER``:子弹未击中情况下的的存在时间。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:482
 msgid "``timer``: A float for tracking how long the bullet has been alive."
-msgstr "``timer``:一个用于跟踪子弹活着多久的浮子。"
+msgstr "``timer``:一个用于跟踪子弹存在时间的浮点数。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:483
 msgid ""
@@ -944,14 +914,13 @@ msgstr ""
 "互方式。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:488
-#, fuzzy
 msgid ""
 "The reason we are using a kill timer is so we do not have a case where we "
 "get a bullet travelling forever. By using a kill timer, we can ensure that "
 "no bullets will travel forever and consume resources."
 msgstr ""
-"我们使用杀戮计时器的原因是因为我们没有永久性地发射子弹的情况。 通过使用kill计"
-"时器，我们可以确保没有子弹将永远传播并消耗资源。"
+"我们使用kill timer 是因为子弹不会无休止地运动下去。 通过使用kill timer，我们"
+"可以确保不会出现子弹一直移动而消耗资源的问题。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:492
 msgid ""
@@ -962,10 +931,10 @@ msgid ""
 "need to change the damage and speed of these bullets, so we need them to be "
 "variables and not constants."
 msgstr ""
-"如 :ref:`doc_fps_tutorial_part_one`，我们有几个全部大写的类变量。 这背后的原"
-"因与下面给出的原因相同 :ref:`doc_fps_tutorial_part_one`:我们希望将这些变量视"
-"为常量，但我们希望能够更改它们。 在这种情况下，我们稍后需要更改这些子弹的损坏"
-"和速度，因此我们需要它们是变量而不是常量。"
+"与 :ref:`doc_fps_tutorial_part_one`一样，我们定义了几个全大写的类变量。 这背"
+"后的原因与 :ref:`doc_fps_tutorial_part_one`:给出的原因相同：我们希望将这些变"
+"量作为常量使用，但同时也希望能够更改它们。 在本例中，我们稍后需要更改这些子弹"
+"的伤害和速度，因此我们需要让它们成为变量而不是常量。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:499
 msgid ""
@@ -976,35 +945,32 @@ msgstr ""
 "体进入该区域时调用 ``collided`` 函数。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:504
-#, fuzzy
 msgid ""
 "``_physics_process`` gets the bullet's local ``Z`` axis. If you look at the "
 "scene in local mode, you will find that the bullet faces the positive local "
 "``Z`` axis."
 msgstr ""
-"``_physics_process``获得子弹的本地``Z``轴。 如果您以局部模式观察场景，您会发"
-"现子弹面向正的本地“Z”轴。"
+"``_physics_process`` 获得子弹的局部``Z``轴。 如果你以局部模式观察场景，你会发"
+"现子弹面向局部 ``Z`` 正轴。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:507
 msgid ""
 "Next we translate the entire bullet by that forward direction, multiplying "
 "in our speed and delta time."
-msgstr "接下来，我们按照前进方向翻译整个项目符号，乘以我们的速度和增量时间。"
+msgstr "接下来，我们将整个子弹按前进方向进行平移，乘上速度和时间增量。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:509
-#, fuzzy
 msgid ""
 "After that we add delta time to our timer and check whether the timer has "
 "reached a value as big or greater than our ``KILL_TIME`` constant. If it "
 "has, we use ``queue_free`` to free the bullet."
 msgstr ""
-"之后我们将增量时间添加到我们的计时器，并检查计时器是否长于或长于我们的 "
-"``KILL_TIME`` 常量。 如果有，我们使用 ``queue_free`` 释放子弹。"
+"之后我们将时间增量加到计时器上，检查计时器是否大于或等于我们的 ``KILL_TIME`` "
+"常量。 如果是，就调用 ``queue_free`` 释放子弹。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:514
-#, fuzzy
 msgid "In ``collided`` we check whether we've hit something yet."
-msgstr "在 ``collided`` 中，我们检查我们是否已经击中了某些东西。"
+msgstr "在 ``collided`` 中，我们检查子弹是否击中东西。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:516
 msgid ""
@@ -1017,8 +983,8 @@ msgid ""
 msgstr ""
 "请记住，只有当一个实体进入 :ref:`Area <class_Area>` 节点时才会调用 "
 "``collided`` 。 如果子弹尚未与某些东西发生碰撞，我们将继续检查子弹发生碰撞的"
-"物体是否具有名为“bullet_hit”的功能/方法。 如果是这样，我们称之为并传递子弹的"
-"伤害和子弹的全局变换，这样我们就可以获得子弹的旋转和位置。"
+"物体是否具有名为“bullet_hit”的功能/方法。 如果有，我们调用并传递子弹的伤害和"
+"子弹的全局变换，这样我们就可以获得子弹的旋转和位置。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:521
 msgid ""
@@ -1038,8 +1004,8 @@ msgid ""
 "sure the bullet does not hit anything else."
 msgstr ""
 "我们将子弹的 ``hit_something`` 变量设置为 ``true`` ，因为无论子弹碰撞的物体是"
-"否具有 ``bullet_hit`` 函数/方法，它都会击中某些东西，所以我们需要制作 确定子"
-"弹没有击中任何其他东西。"
+"否具有 ``bullet_hit`` 函数/方法，它都已经击中了一件东西，所以我们需要确保子弹"
+"不再击中任何其他东西。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:527
 msgid "Then we free the bullet using ``queue_free``."
@@ -1050,11 +1016,10 @@ msgid ""
 "You may be wondering why we even have a ``hit_something`` variable if we "
 "free the bullet using ``queue_free`` as soon as it hits something."
 msgstr ""
-"您可能想知道为什么我们甚至有一个 ``hit_something`` 变量，如果我们在命中某事时"
-"立即使用 ``queue_free`` 释放子弹。"
+"你可能想知道，既然我们已经使用了 ``queue_free`` 在子弹击中某物的时候释放子"
+"弹，为什么还需要一个 ``hit_something`` 变量。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:532
-#, fuzzy
 msgid ""
 "The reason we need to track whether we've hit something or not is because "
 "``queue_free`` does not immediately free the node, so the bullet could "
@@ -1062,9 +1027,9 @@ msgid ""
 "whether the bullet has hit something, we can make sure that the bullet will "
 "only hit one object."
 msgstr ""
-"我们需要跟踪我们是否击中某个东西的原因是因为 ``queue_free`` 没有立即释放节"
-"点，所以子弹可能会在Godot有机会释放它之前与另一个物体发生碰撞。 通过跟踪子弹"
-"是否击中了什么，我们可以确保子弹只击中一个物体。"
+"我们需要跟踪是否击中某物的原因是 ``queue_free`` 没有立即释放节点，所以子弹可"
+"能会在Godot有机会释放它之前与另一个物体发生碰撞。 通过追踪子弹是否击中，我们"
+"可以确保子弹只击中一个物体。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:540
 msgid ""
@@ -1093,21 +1058,20 @@ msgstr ""
 "段距离。 ``Gun_aim_point``将作为子弹在进行时肯定会碰撞的点。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:551
-#, fuzzy
 msgid ""
 "There is a invisible mesh instance for debugging purposes. The mesh is a "
 "small sphere that visually shows at which target the bullets will be aiming."
 msgstr ""
-"有一个不可见的网格实例用于调试目的。 网格是一个小球体，可以直观地显示子弹将瞄"
-"准的位置。"
+"这里有一个用于调试的隐形网格实例。这个网格是一个小球体，可以直观地显示子弹将"
+"瞄准的位置。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:554
 msgid ""
 "Open up ``Gun_Fire_Points`` and you'll find three more :ref:`Spatial "
 "<class_Spatial>` nodes, one for each weapon."
 msgstr ""
-"打开 ``Gun_Fire_Points`` ，您会发现另外三个 :ref:`Spatial <class_Spatial>` 节"
-"点，每个武器一个。"
+"打开 ``Gun_Fire_Points`` ，你会发现另外三个 :ref:`Spatial <class_Spatial>` 节"
+"点，每把武器各一个。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:557
 msgid ""
@@ -1115,9 +1079,9 @@ msgid ""
 "node. This is where we will be sending the raycasts for our rifle's bullets. "
 "The length of the raycast will dictate how far our bullets will travel."
 msgstr ""
-"打开 ``Rifle_Point`` 您会找到一个 :ref:`Raycast <class_Raycast>` 节点。 这是"
-"我们将为我们的步枪的子弹发送光线投射的地方。 光线投射的长度将决定我们的子弹将"
-"走多远。"
+"打开 ``Rifle_Point`` ，你会找到一个 :ref:`Raycast <class_Raycast>` 节点。 我"
+"们将在这里为我们的步枪子弹发送光线投射。 光线投射的长度将决定我们的子弹能走多"
+"远。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:561
 msgid ""
@@ -1130,7 +1094,6 @@ msgstr ""
 "速发射大量子弹。 如果我们使用bullet对象，很可能会在旧机器上遇到性能问题。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:565
-#, fuzzy
 msgid ""
 "If you are wondering from where the positions of the points came, they are "
 "the rough positions of the ends of each weapon. You can see this by going to "
@@ -1138,12 +1101,11 @@ msgid ""
 "through the timeline. The point for each weapon should mostly line up with "
 "the end of each weapon."
 msgstr ""
-"如果您想知道点的位置来自哪里，它们就是每个武器末端的粗略位置。 您可以通过转"
-"到 ``AnimationPlayer`` ，选择其中一个触发动画并在时间轴上擦洗来看到这一点。 "
-"每种武器的重点应该主要与每种武器的结束对齐。"
+"如果你想知道发射点的位置，它们大致就在每个武器的末端。 你可以转到 "
+"``AnimationPlayer`` ，选择其中一个发射动画并拖动时间轴来观察。 每种武器的发射"
+"点应该基本与它的末端对齐。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:571
-#, fuzzy
 msgid ""
 "Open up ``Knife_Point`` and you'll find an :ref:`Area <class_Area>` node. We "
 "are using an :ref:`Area <class_Area>` for the knife because we only care for "
@@ -1151,10 +1113,10 @@ msgid ""
 "If we were making a throwing knife, we would likely spawn a bullet object "
 "that looks like a knife."
 msgstr ""
-"打开 ``Knife_Point`` 您会找到一个 :ref:`Area <class_Area>` 节点。 我们正在使"
-"用 :ref:`Area <class_Area>` 因为我们只关心靠近我们的所有尸体，因为我们的刀不"
-"会射入太空。 如果我们正在制作一把投掷刀，我们可能会生成一个看起来像刀子的子弹"
-"物体。"
+"打开 ``Knife_Point`` ，你会看到一个 :ref:`Area <class_Area>` 节点。 我们对刀"
+"应用 :ref:`Area <class_Area>`是因为我们只关心接近我们的所有物体，并且刀不会被"
+"射向空中。 而如果我们要制作一把可投掷的飞刀，我们更可能会生成一个看起来像刀子"
+"的子弹物体。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:576
 msgid ""
@@ -1248,7 +1210,6 @@ msgid ""
 msgstr "我们定义大多数这些变量的原因是我们可以在 ``Player.gd`` 中使用它们。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:661
-#, fuzzy
 msgid ""
 "Each of the weapons we'll make will have all these variables (minus "
 "``bullet_scene``) so we have a consistent interface to interact with in "
@@ -1257,23 +1218,21 @@ msgid ""
 "makes our code much more modular because we can add weapons without having "
 "to change much of the code in ``Player.gd`` and it will just work."
 msgstr ""
-"我们所做的所有武器都将拥有所有这些变量(减去 ``bullet_scene`` )，因此我们在 "
-"``Player.gd`` 中有一个一致的界面来与之交互。 通过在每个武器中使用相同的变量/"
-"函数，我们可以与它们进行交互而无需知道我们正在使用哪种武器，这使得我们的代码"
-"更加模块化，因为我们可以添加武器而无需更改“游戏角色”中的大部分代码 .gd``它会"
-"起作用。"
+"我们要做的每一件武器都会有这些变量（减去 ``bullet_scene`` ），这样我们在 "
+"``Player.gd`` 中就有了一个一致的交互界面。通过在每个武器中使用相同的变量和函"
+"数，我们可以与之进行交互，而不必知道我们使用的是哪种武器，这使得代码更加模块"
+"化，可以添加武器，而不必改变 ``Player.gd`` 中的许多代码，而且能正常工作。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:666
-#, fuzzy
 msgid ""
 "We could write all the code in ``Player.gd``, but then ``Player.gd`` will "
 "get increasingly harder to manage as we add weapons. By using a modular "
 "design with a consistent interface, we can keep ``Player.gd`` nice and neat, "
 "while also making it easier to add/remove/modify weapons."
 msgstr ""
-"我们可以在 ``Player.gd`` 中编写所有代码，但随着我们添加武器， ``Player.gd`` "
-"将变得越来越难以管理。 通过使用具有一致界面的模块化设计，我们可以保持“Player."
-"gd”的美观和整洁，同时还可以更容易地添加/删除/修改武器。"
+"我们可以把所有的代码都写在 ``Player.gd`` 中，但这样一来， ``Player.gd`` 会随"
+"着我们添加武器而变得越来越难管理。通过使用具有一致界面的模块化设计，我们可以"
+"使 ``Player.gd`` 保持良好和整洁，同时也使添加和删除和修改武器变得更加容易。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:671
 msgid "In ``_ready`` we simply pass over it."
@@ -1316,23 +1275,21 @@ msgid "The first thing we do is instance the bullet scene we made earlier."
 msgstr "我们做的第一件事就是我们之前制作的子弹场景。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:687
-#, fuzzy
 msgid ""
 "By instancing the scene, we are creating a new node holding all the node(s) "
 "in the scene we instanced, effectively cloning that scene."
 msgstr ""
-"通过实例化场景，我们创建了一个新节点，其中包含我们实例化的场景中的所有节点，"
-"有效地克隆了该场景。"
+"通过实例化场景，我们创建了一个新的节点，并持有我们实例化的场景中的所有节点，"
+"将有效地克隆了该场景。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:689
-#, fuzzy
 msgid ""
 "Then we add a ``clone`` to the first child node of the root of the scene we "
 "are currently in. By doing this, we're making it a child of the root node of "
 "the currently loaded scene."
 msgstr ""
-"然后我们将“克隆”添加到我们当前所在场景的根的第一个子节点。通过这样做，我们将"
-"它作为当前加载场景的根节点的子节点。"
+"然后，我们在当前所在场景的根节点的第一个子节点上添加一个 ``clone`` 。这样就把"
+"它变成了当前加载场景的根节点的子节点。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:691
 msgid ""
@@ -1347,36 +1304,33 @@ msgstr ""
 "们将把 ``clone`` 添加为 ``Testing_Area`` 的子项，这是该场景中的根节点。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:694
-#, fuzzy
 msgid ""
 "As mentioned later below in the section on adding sounds, this method makes "
 "an assumption. This will be explained later in the section on adding sounds "
 "in :ref:`doc_fps_tutorial_part_three`"
 msgstr ""
-"正如下文关于添加声音的部分所述，此方法做出了假设。 这将在后面的关于添加声音的"
-"部分中解释 :ref:`doc_fps_tutorial_part_three`"
+"正如下面关于添加声音的章节中提到的，这个方法做了一个假设。将在后面的添加声音"
+"一节中解释 :ref:`doc_fps_tutorial_part_three`"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:697
-#, fuzzy
 msgid ""
 "Next we set the global transform of the clone to the ``Pistol_Point``'s "
 "global transform. The reason we do this is so the bullet is spawned at the "
 "end of the pistol."
 msgstr ""
-"接下来，我们将克隆的全局变换设置为“Pistol_Aim_Point”的全局变换。 我们这样做的"
-"原因是手枪末端会产生子弹。"
+"接下来我们将克隆的全局变换设置为 ``Pistol_Point`` 的全局变换。这样做的原因是"
+"为了让子弹在手枪的末端产生。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:699
-#, fuzzy
 msgid ""
 "You can see that ``Pistol_Point`` is positioned right at the end of the "
 "pistol by clicking the :ref:`AnimationPlayer <class_AnimationPlayer>` and "
 "scrolling through ``Pistol_fire``. You'll find the position is more or less "
 "at the end of the pistol when it fires."
 msgstr ""
-"您可以通过单击 :ref:`AnimationPlayer <class_AnimationPlayer>并滚动浏览 "
-"``Pistol_fire`` 来看到 ``Pistol_Aim_Point`` 位于手枪的末端。 您会发现这个位置"
-"或多或少位于手枪发射结束时。"
+"你可以通过点击 :ref:`AnimationPlayer <class_AnimationPlayer>` ，滚动浏览 "
+"``Pistol_fire`` ，就可以看到 ``Pistol_Point`` 的位置就在手枪的末端。你会发现"
+"手枪射击时，位置差不多就在手枪的尾部。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:702
 msgid ""
@@ -1397,16 +1351,15 @@ msgid "Now let's look at ``equip_weapon``:"
 msgstr "现在让我们来看看`equip_weapon``:"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:710
-#, fuzzy
 msgid ""
 "The first thing we do is check to see whether the animation manager is in "
 "the pistol's idle animation. If we are in the pistol's idle animation, we "
 "set ``is_weapon_enabled`` to ``true`` and return ``true`` because the pistol "
 "has successfully been equipped."
 msgstr ""
-"我们要做的第一件事是检查动画管理器是否在手枪的空闲动画中。 如果我们在手枪的闲"
-"置动画中，我们将 ``is_weapon_enabled`` 设置为 ``true`` 并返回 ``true`` 因为手"
-"枪已成功装备。"
+"我们首先要做的是检查动画管理器是否在手枪的闲置动画中。如果在手枪的闲置动画"
+"中，我们将 ``is_weapon_enabled`` 设置为 ``true`` ，并返回 ``true`` ，因为手枪"
+"已经成功装备。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:714
 msgid ""
@@ -1456,19 +1409,17 @@ msgid ""
 msgstr "``unequip_weapon``类似于``equip_weapon``，但我们却反过来检查。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:731
-#, fuzzy
 msgid ""
 "First we check to see whether the player is in the idle animation state. "
 "Then we check to make sure the player is not in the ``Pistol_unequip`` "
 "animation. If the player is not in the ``Pistol_unequip`` animation, we want "
 "to play the ``pistol_unequip`` animation."
 msgstr ""
-"首先，我们检查游戏角色是否处于空闲动画状态。 然后我们检查以确保游戏角色不"
-"在“Pistol_unequip”动画中。 如果游戏角色不在“Pistol_unequip”动画中，我们想播"
-"放 ``pistol_unequip`` 动画。"
+"首先我们检查玩家是否处于闲置动画状态，然后检查玩家是否处于 "
+"``Pistol_unequip`` 动画状态，如果玩家不在 ``Pistol_unequip`` 动画中，就播放 "
+"``Pistol_unequip`` 动画。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:734
-#, fuzzy
 msgid ""
 "You may be wondering why we are checking to see whether the player is in the "
 "pistol's idle animation, and then making sure the player is not unequipping "
@@ -1477,13 +1428,12 @@ msgid ""
 "process ``set_animation``, so we add this additional check to make sure the "
 "unequip animation plays."
 msgstr ""
-"您可能想知道为什么我们要检查游戏角色是否在手枪的空闲动画中，然后确保游戏角色"
-"不会立即取消。 额外检查背后的原因是因为我们可以(在极少数情况下)在我们有机会处"
-"理 ``set_animation`` 之前两次调用 ``unequip_weapon`` ，所以我们添加这个额外的"
-"检查以确保取消设置动画播放。"
+"你可能想知道为什么我们要检查玩家是否在手枪的闲置动画中，然后确保玩家没有在闲"
+"置动画后立即解除装备。其原因是，我们可能在极少数情况下在处理 "
+"``set_animation`` 之前就调用 ``unequip_weapon`` 两次，所以添加了这个额外的检"
+"查来确保unquip动画的播放。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:738
-#, fuzzy
 msgid ""
 "Next we check to see whether the player is in ``Idle_unarmed``, which is the "
 "animation state we will transition into from ``Pistol_unequip``. If the "
@@ -1491,10 +1441,10 @@ msgid ""
 "``false`` since we are no longer using this weapon, and return ``true`` "
 "because we have successfully unequipped the pistol."
 msgstr ""
-"接下来我们检查游戏角色是否在“Idle_unarmed”中，这是我们将从“Pistol_unequip”转"
-"换成的动画状态。 如果游戏角色在 ``Idle_unarmed`` ，那么我们将 "
-"``is_weapon_enabled`` 设置为 ``false`` ，因为我们不再使用这种武器，并返回 "
-"``true`` 因为我们已经成功地装备了手枪。"
+"接下来我们检查玩家是否处于 ``Idle_unarmed`` ，也就是将从 ``Pistol_unequip`` "
+"过渡到的动画状态。如果玩家处于 ``Idle_unarmed`` ，那么我们将 "
+"``is_weapon_enabled`` 设置为 ``false`` ，因为不再使用这把武器，并返回 "
+"``true`` ，因为已经成功解除了手枪的装备。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:741
 msgid ""
@@ -1509,12 +1459,10 @@ msgid "Creating the other two weapons"
 msgstr "制造另外两种武器"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:746
-#, fuzzy
 msgid ""
 "Now that we have all the code we'll need for the pistol, let's add the code "
 "for the rifle and knife next."
-msgstr ""
-"现在我们已经掌握了手枪所需的所有代码，接下来我们将为步枪和刀具添加代码。"
+msgstr "现在我们已经有了手枪所需要的所有代码，接下来添加步枪和刀的代码。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:748
 msgid ""
@@ -1580,7 +1528,6 @@ msgstr ""
 "力在脚下射击。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:815
-#, fuzzy
 msgid ""
 "If the body is not the player, we then check to see if it has a function/"
 "method called ``bullet_hit``. If it does, we call it and pass in the amount "
@@ -1588,10 +1535,9 @@ msgid ""
 "ref:`Raycast <class_Raycast>` so we can tell from which direction the bullet "
 "came."
 msgstr ""
-"如果物体不是游戏角色，我们检查他们是否有一个名为 ``bullet_hit`` 的函数/方"
-"法。 如果他们这样做，我们称之为并传递这个子弹所造成的伤害量(``DAMAGE``)，以"
-"及 :ref:`Raycast <class_Raycast>` 的全局变换，这样我们可以知道子弹来自哪个方"
-"向。"
+"如果主体不是玩家，我们就检查它是否有一个叫做 ``bullet_hit`` 的函数或方法。如"
+"果有，我们就调用它，并传入子弹的伤害量 ``DAMAGE`` ，以及 :ref:`Raycast "
+"<class_Raycast>` 的全局变换，这样我们就可以知道子弹是从哪个方向发射过来的。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:820
 msgid "Now all we need to do is write the code for the knife."
@@ -1624,14 +1570,14 @@ msgstr ""
 "点。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:877
-#, fuzzy
 msgid ""
 "Next we want to get all the collision bodies inside the :ref:`Area "
 "<class_Area>` using ``get_overlapping_bodies``. This will return a list of "
 "every body that touches the :ref:`Area <class_Area>`."
 msgstr ""
-"接下来我们想要使用 ``get_overlapping_bodies`` 获取所有的碰撞体 :ref:`Area "
-"<class_Area>`。 这将返回触及的每个实体的列表 :ref:`Area <class_Area>`。"
+"接下来我们要使用 ``get_overlapping_bodies`` 来获取 :ref:`Area <class_Area>` "
+"内的所有碰撞体。这将返回一个接触到 :ref:`Area <class_Area>` 的所有碰撞体的列"
+"表。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:880
 msgid "We next want to go through each of those bodies."
@@ -1675,20 +1621,17 @@ msgid "Making the weapons work"
 msgstr "制造武器"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:895
-#, fuzzy
 msgid "Let's start making the weapons work in ``Player.gd``."
-msgstr "让我们开始在 ``Player.gd`` 中制作武器。"
+msgstr "让我们开始在 ``Player.gd`` 中使武器运作。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:897
-#, fuzzy
 msgid ""
 "First let's start by adding some class variables we'll need for the weapons:"
-msgstr "首先让我们首先添加一些我们需要的武器类变量:"
+msgstr "首先，我们先为武器添加一些需要的类变量:"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:915
-#, fuzzy
 msgid "Let's go over what these new variables will do:"
-msgstr "让我们回顾一下这些新变量的作用:"
+msgstr "来介绍一下这些新变量的作用:"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:917
 msgid ""
@@ -1707,9 +1650,8 @@ msgstr ""
 "``UNARMED`` ， ``KNIFE`` ， ``PISTOL`` 和 ``RIFLE`` 。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:919
-#, fuzzy
 msgid "``weapons``: A dictionary that will hold all the weapon nodes."
-msgstr "``weapon``:一个包含所有武器节点的字典。"
+msgstr "``weapons``: 一个存放所有武器节点的字典。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:920
 msgid ""
@@ -1745,13 +1687,10 @@ msgstr ""
 "``health``:我们的球员有多少健康。 在本教程的这一部分中，我们将不会使用它。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:925
-#, fuzzy
 msgid ""
 "``UI_status_label``: A label to show how much health we have, and how much "
 "ammo we have both in our gun and in reserve."
-msgstr ""
-"``UI_status_label``:一个标签，显示我们有多少健康，以及我们在枪支和储备中有多"
-"少弹药。"
+msgstr "``UI_status_label``: 标签显示我们健康状况数值，以及枪和储备的弹药量。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:929
 msgid ""
@@ -1777,14 +1716,13 @@ msgstr ""
 "写 ``fire_bullet`` 函数，但我们很快就会到达那里。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:967
-#, fuzzy
 msgid ""
 "Next we get all the weapon nodes and assign them to ``weapons``. This will "
 "allow us to access the weapon nodes only with their name (``KNIFE``, "
 "``PISTOL``, or ``RIFLE``)."
 msgstr ""
-"接下来我们获取所有武器节点并将它们分配给 ``weapon`` 。 这将允许我们只使用他们"
-"的名字(``KNIFE``， ``PISTOL`` 或 ``RIFLE`` )来访问武器节点。"
+"接下来，我们得到所有的武器节点，并将它们分配给 ``weapons`` 。这将允许我们只访"
+"问武器节点的名称( ``KNIFE`` 、 ``PISTOL`` 或 ``RIFLE`` )。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:970
 msgid ""
@@ -1831,31 +1769,27 @@ msgid "Finally, we get the UI :ref:`Label <class_Label>` from our HUD."
 msgstr "最后，我们从我们的HUD获取UI :ref:`Label <class_Label>` 。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:986
-#, fuzzy
 msgid ""
 "Let's add a new function call to ``_physics_process`` so we can change "
 "weapons. Here's the new code:"
 msgstr ""
-"让我们为 ``_physics_process`` 添加一个新的函数调用，这样我们就可以改变武器"
-"了。 这是新代码:"
+"让我们在 ``_physics_process`` 中添加一个新的函数调用，这样就可以更换武器了。"
+"下面是新的代码:"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:996
 msgid "Now we will call ``process_changing_weapons``."
 msgstr "现在我们将调用 ``process_changing_weapons`` 。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:1000
-#, fuzzy
 msgid ""
 "Now let's add all the player input code for the weapons in "
 "``process_input``. Add the following code:"
 msgstr ""
-"现在让我们在 ``process_input`` 中添加武器的所有游戏角色输入代码。 添加以下代"
-"码:"
+"现在让我们在 ``process_input`` 中添加所有玩家输入时武器的代码。添加以下代码:"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:1040
-#, fuzzy
 msgid "Let's go over the additions, starting with how we're changing weapons."
-msgstr "让我们回顾一下，从我们如何改变武器开始。"
+msgstr "先来介绍一下新增的内容，是如何改变武器的。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:1042
 msgid ""
@@ -1883,14 +1817,14 @@ msgstr ""
 "参阅https://en.wikipedia.org/wiki/Zero-based_numbering。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:1050
-#, fuzzy
 msgid ""
 "Next we check to see if ``shift_weapon_positive`` or "
 "``shift_weapon_negative`` is pressed. If one of them is, we add/subtract "
 "``1`` from ``weapon_change_number``."
 msgstr ""
-"接下来我们检查是否按下了``shift weapon positive``或``shift weapon "
-"negative``。 如果其中之一，我们从 ``weapon_change_number`` 添加/减去 ``1`` 。"
+"接下来，我们检查 ``shift_weapon_positive`` 或r ``shift_weapon_negative`` 是否"
+"被按下。如果其中之一被按下，就从 ``weapon_change_number`` 中添加或减去 "
+"``1`` 。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:1053
 msgid ""
@@ -1904,7 +1838,6 @@ msgstr ""
 "量，并确保 ``weapon_change_number`` 为“0”。 或者更多。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:1056
-#, fuzzy
 msgid ""
 "Then we check to make sure the player is not already changing weapons. If "
 "the player is not, we then check to see if the weapon the player wants to "
@@ -1913,10 +1846,10 @@ msgid ""
 "set ``changing_weapon_name`` to the weapon at ``weapon_change_number`` and "
 "set ``changing_weapon`` to ``true``."
 msgstr ""
-"然后我们检查以确保游戏角色还没有更换武器。 如果游戏角色不是，我们会检查游戏角"
-"色想要改变的武器是否是新武器，而不是游戏角色当前使用的武器。 如果游戏角色想要"
-"改变的武器是一种新武器，那么我们将 ``changing_weapon_name`` 设置为 "
-"``weapon_change_number`` 中的武器并将 ``changing_weapon`` 设置为true。"
+"然后我们检查玩家是否还没有更换武器。如果还没有，就检查玩家要更换的武器是否是"
+"新的武器，而不是玩家当前使用的武器。如果玩家要换的武器是新武器，我们就将 "
+"``changing_weapon_name`` 设置为 ``weapon_change_number`` 的武器，并将 "
+"``changing_weapon`` 设置为 ``true`` 。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:1060
 msgid ""
@@ -1928,19 +1861,17 @@ msgstr ""
 "没有更换武器。 接下来，我们获得当前武器的武器节点。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:1064
-#, fuzzy
 msgid ""
 "If the current weapon node does not equal ``null``, and the player is in its "
 "``IDLE_ANIM_NAME`` state, we set the player's animation to the current "
 "weapon's ``FIRE_ANIM_NAME``."
 msgstr ""
-"如果当前武器节点不等于null，并且游戏角色处于“IDLE_ANIM_NAME”状态，我们将游戏"
-"角色的动画设置为当前武器的“FIRE_ANIM_NAME”。"
+"如果当前武器节点不等于 ``null`` ，并且玩家处于 ``IDLE_ANIM_NAME`` 状态，我们"
+"将玩家的动画设置为当前武器的 ``FIRE_ANIM_NAME`` 。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:1069
-#, fuzzy
 msgid "Let's add ``process_changing_weapons`` next."
-msgstr "让我们接下来添加 ``process_changing_weapons`` 。"
+msgstr "接下来我们再加上``process_changing_weapons`` 。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:1071
 msgid "Add the following code:"
@@ -1951,12 +1882,13 @@ msgid "Let's go over what's happening here:"
 msgstr "让我们回顾一下这里发生的事情:"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:1109
+#, fuzzy
 msgid ""
 "The first thing we do is make sure we've received input to change weapons. "
 "We do this by making sure ``changing_weapons`` is ``true``."
 msgstr ""
-"我们要做的第一件事就是确保我们收到改变武器的投入。 我们通过确保 "
-"``changing_weapons`` 是 ``true`` 来做到这一点。"
+"我们要做的第一件事是确保已经收到了更换武器的输入。就是确保 "
+"``changing_weapon`` 是 ``true`` 。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:1111
 msgid ""
@@ -1971,7 +1903,6 @@ msgid "Then we get the current weapon from ``weapons``."
 msgstr "然后我们从“武器”中获取当前的武器。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:1115
-#, fuzzy
 msgid ""
 "If the current weapon is not ``null``, then we need to check whether the "
 "weapon is enabled. If the weapon is enabled, we call its ``unequip_weapon`` "
@@ -1979,9 +1910,10 @@ msgid ""
 "enabled, we set ``weapon_unequipped`` to ``true`` because the weapon has "
 "successfully been unequipped."
 msgstr ""
-"如果当前武器不是“null”，那么我们需要检查武器是否启用。 如果武器已启用，我们将"
-"其称为 ``unequip_weapon`` 函数，以便启动非全景动画。 如果没有启用武器，我们"
-"将 ``weapon_unequipped`` 设置为 ``true`` ，因为武器已成功装备。"
+"如果当前的武器不是 ``null`` ，那么我们需要检查该武器是否被启用。如果武器被启"
+"用，调用它的 ``unequip_weapon`` 函数，这样它就会启动解除装备的动画。如果武器"
+"没有启用，我们将 ``weapon_unequipped`` 设置为 ``true`` ，因为武器已经成功地解"
+"除了装备。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:1118
 msgid ""
@@ -2034,7 +1966,6 @@ msgstr ""
 "``true`` ，因为我们没有“UNARMED”的任何节点/脚本，我们也没有 任何动画。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:1131
-#, fuzzy
 msgid ""
 "Finally, we check to see whether the player has successfully equipped the "
 "new weapon. If (s)he has done so, we set ``changing_weapon`` to ``false`` "
@@ -2042,10 +1973,10 @@ msgid ""
 "``current_weapon_name`` to ``changing_weapon_name`` since the current weapon "
 "has changed, and then we set ``changing_weapon_name`` to an empty string."
 msgstr ""
-"最后，我们检查游戏角色是否已成功装备新武器。 如果游戏角色有，我们将 "
-"``changing_weapon`` 设置为 ``false`` ，因为游戏角色不再更换武器。 我们还将 "
-"``current_weapon_name`` 设置为 ``changing_weapon_name`` ，因为当前武器已经改"
-"变，然后我们将 ``changing_weapon_name`` 设置为空字符串。"
+"最后，我们检查玩家是否成功装备了新武器。如果他成功装备了， 把 "
+"``changing_weapon`` 设置为 ``false`` ， 因为玩家不再更换武器。还将 "
+"``current_weapon_name`` 设置为 ``changing_weapon_name`` ，因为当前武器已更"
+"改，然后将 ``changing_weapon_name`` 设置为空字符串。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:1137
 msgid ""
@@ -2068,13 +1999,12 @@ msgid "Let's go over what this function does:"
 msgstr "让我们回顾一下这个功能的作用："
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:1153
-#, fuzzy
 msgid ""
 "First we check to see whether the player is changing weapons. If the player "
 "is changing weapons, we do not want shoot, so we ``return``."
 msgstr ""
-"首先，我们检查游戏角色是否正在更换武器。 如果游戏角色正在更换武器，我们不想拍"
-"摄，所以我们“返回”。"
+"首先，我们检查玩家是否正在更换武器。如果玩家正在更换武器，不想射击，所以 "
+"``return`` 。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:1155
 msgid ""
@@ -2103,11 +2033,10 @@ msgstr ""
 "以改变武器射击子弹的速度！"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:1167
-#, fuzzy
 msgid ""
 "Before we are ready to test our new weapons, we still have a bit of work to "
 "do."
-msgstr "在我们准备测试新武器之前，我们还有一些工作要做。"
+msgstr "在我们准备测试新武器之前，还有一些工作要做。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:1170
 msgid "Creating some test subjects"
@@ -2127,9 +2056,8 @@ msgid "Now we need to add this code:"
 msgstr "现在我们需要添加以下代码:"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:1192
-#, fuzzy
 msgid "Let's go over how ``bullet_hit`` works:"
-msgstr "让我们回顾一下 ``bullet_hit`` 的工作原理:"
+msgstr "让我们看一下 ``bullet_hit`` 的工作原理:"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:1195
 msgid ""
@@ -2180,67 +2108,61 @@ msgstr ""
 "大小不会影响子弹移动的程度 :ref:`RigidBody <class_RigidBody>`。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:1210
-#, fuzzy
 msgid ""
 "Finally, we need to calculate the force for the impulse. For this, we use "
 "the direction the bullet is facing and multiply it by the bullet's damage. "
 "This gives a nice result and for stronger bullets, we get a stronger result."
 msgstr ""
-"最后，我们需要计算冲动力。 为此，我们使用子弹面向的方向并将其乘以子弹的伤"
-"害。 这给出了一个很好的结果，对于更强的子弹，我们得到了更强的结果。"
+"最后，我们需要计算出冲力，使用子弹所面向的方向，然后乘以子弹的伤害。这样就能"
+"得到一个不错的结果，对于更强的子弹，将得到的结果会更强。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:1215
-#, fuzzy
 msgid ""
 "Now we need to attach this script to all of the :ref:`RigidBody "
 "<class_RigidBody>` nodes we want to affect."
 msgstr ""
-"现在我们需要将这个脚本附加到我们想要生效的所有 :ref:`RigidBody "
-"<class_RigidBody>` 节点。"
+"现在需要将这个脚本附加到所有我们想要影响的 :ref:`RigidBody "
+"<class_RigidBody>` 节点上。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:1217
-#, fuzzy
 msgid ""
 "Open up ``Testing_Area.tscn`` and select all the cubes parented to the "
 "``Cubes`` node."
-msgstr "打开 ``Testing_Area.tscn`` 并选择所有以'`Cubes``节点为父级的立方体。"
+msgstr ""
+"打开 ``Testing_Area.tscn`` ，选择所有以 ``Cubes`` 节点为父节点的立方体。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:1219
-#, fuzzy
 msgid ""
 "If you select the top cube, and then hold down :kbd:`Shift` and select the "
 "last cube, Godot will select all the cubes in-between!"
 msgstr ""
-"如果选择顶部立方体，然后按住“shift”并选择最后一个立方体，Godot将选择其间的所"
-"有立方体！"
+"如果你选择最上面的立方体，然后按住 :kbd:`Shift` 并选择最后一个立方体，Godot会"
+"选择其间所有的立方体!"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:1222
-#, fuzzy
 msgid ""
 "Once you have all the cubes selected, scroll down in the inspector until you "
 "get to the \"scripts\" section. Click the drop down and select \"Load\". "
 "Open your newly created ``RigidBody_hit_test.gd`` script."
 msgstr ""
-"选择所有多维数据集后，在属性面板中向下滚动，直到进入“脚本”部分。 单击下拉列表"
-"并选择“加载”。 打开新创建的 ``RigidBody_hit_test.gd`` 脚本。"
+"一旦你选择了所有的立方体，在属性面板中向下滚动，直到你到达 \"scripts\" 部分。"
+"点击下拉菜单并选择 \"Load\"。打开你新创建的 ``RigidBody_hit_test.gd`` 脚本。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:1226
 msgid "Final notes"
 msgstr "最后的笔记"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:1230
-#, fuzzy
 msgid ""
 "That was a lot of code! But now, with all that done, you can go and give "
 "your weapons a test!"
-msgstr "那是很多代码！ 但是现在完成所有这些，您可以去测试您的武器了！"
+msgstr "那是很多代码!但现在，所有这些都做完了，你可以去测试你的武器了!"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:1232
-#, fuzzy
 msgid ""
 "You should now be able to fire as many bullets as you want at the cubes and "
 "they will move in response to the bullets colliding with them."
-msgstr "您现在应该可以在立方体上发射任意数量的子弹，它们会随着子弹碰撞而移动。"
+msgstr "现在你应该可以向方块发射任意数量的子弹，它们会随着子弹的碰撞而移动。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:1235
 msgid ""
@@ -2251,7 +2173,7 @@ msgstr ""
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:1237
 msgid "If you ever get lost, be sure to read over the code again!"
-msgstr "如果您迷路了，请务必再次阅读代码！"
+msgstr "如果你感到迷茫，请一定要再读一遍代码！"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_two.rst:1239
 msgid ""

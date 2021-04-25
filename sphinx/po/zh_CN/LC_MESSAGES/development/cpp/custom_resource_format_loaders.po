@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-28 20:28+0800\n"
+"POT-Creation-Date: 2021-04-25 22:16+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -57,13 +57,12 @@ msgstr ":ref:`ResourceLoader <class_resourceloader>`"
 
 #: ../../docs/development/cpp/custom_resource_format_loaders.rst:21
 #: ../../docs/development/cpp/custom_resource_format_loaders.rst:358
-#, fuzzy
 msgid ""
 "`core/io/resource_loader.cpp <https://github.com/godotengine/godot/blob/"
 "master/core/io/resource_loader.cpp>`_"
 msgstr ""
 "`core/io/resource_loader.cpp <https://github.com/godotengine/godot/blob/"
-"master/core/io/resource_loader.cpp#L258>`__"
+"master/core/io/resource_loader.cpp>`_"
 
 #: ../../docs/development/cpp/custom_resource_format_loaders.rst:24
 msgid "What for?"
@@ -98,13 +97,12 @@ msgid "ImageFormatLoader should be used to load images."
 msgstr "应使用ImageFormatLoader加载图像。"
 
 #: ../../docs/development/cpp/custom_resource_format_loaders.rst:41
-#, fuzzy
 msgid ""
 "`core/io/image_loader.h <https://github.com/godotengine/godot/blob/master/"
 "core/io/image_loader.h>`_"
 msgstr ""
 "`core/io/image_loader.h <https://github.com/godotengine/godot/blob/master/"
-"core/io/image_loader.h>`__"
+"core/io/image_loader.h>`_"
 
 #: ../../docs/development/cpp/custom_resource_format_loaders.rst:45
 msgid "Creating a ResourceFormatLoader"
@@ -116,13 +114,14 @@ msgid ""
 msgstr "每种文件格式都包含一个数据容器和一个 ``ResourceFormatLoader``。"
 
 #: ../../docs/development/cpp/custom_resource_format_loaders.rst:49
+#, fuzzy
 msgid ""
 "ResourceFormatLoaders are usually simple classes which return all the "
 "necessary metadata for supporting new extensions in Godot. The class must "
 "the return the format name and the extension string."
 msgstr ""
-"ResourceFormatLoader通常是简单的类，它们返回所有必需的元数据以支持Godot中的新"
-"扩展。该类必须返回格式名称和扩展名字符串。"
+"ResourceFormatLoaders通常是简单的类，返回支持Godot中新扩展的所有必要元数据。"
+"该类必须返回格式名称和扩展字符串。"
 
 #: ../../docs/development/cpp/custom_resource_format_loaders.rst:53
 msgid ""
@@ -134,9 +133,8 @@ msgstr ""
 "（Resource）。要加载资源，``load`` 必须能够读取和处理序列化的资源数据。"
 
 #: ../../docs/development/cpp/custom_resource_format_loaders.rst:109
-#, fuzzy
 msgid "Creating a ResourceFormatSaver"
-msgstr "创建一个资源格式加载器"
+msgstr "创建ResourceFormatSaver"
 
 #: ../../docs/development/cpp/custom_resource_format_loaders.rst:111
 msgid ""
@@ -178,27 +176,24 @@ msgid ""
 msgstr "例如，下面是将 ``FileAccess`` 调用转换为 ``std::istream`` 的代码。"
 
 #: ../../docs/development/cpp/custom_resource_format_loaders.rst:305
-#, fuzzy
 msgid "`istream <http://www.cplusplus.com/reference/istream/istream/>`_"
-msgstr "`istream <http://www.cplusplus.com/reference/istream/istream/>`__"
+msgstr "`istream <http://www.cplusplus.com/reference/istream/istream/>`_"
 
 #: ../../docs/development/cpp/custom_resource_format_loaders.rst:306
-#, fuzzy
 msgid ""
 "`streambuf <http://www.cplusplus.com/reference/streambuf/streambuf/?"
 "kw=streambuf>`_"
 msgstr ""
 "`streambuf <http://www.cplusplus.com/reference/streambuf/streambuf/?"
-"kw=streambuf>`__"
+"kw=streambuf>`_"
 
 #: ../../docs/development/cpp/custom_resource_format_loaders.rst:307
-#, fuzzy
 msgid ""
 "`core/io/fileaccess.h <https://github.com/godotengine/godot/blob/master/core/"
 "os/file_access.h>`_"
 msgstr ""
 "`core/io/fileaccess.h <https://github.com/godotengine/godot/blob/master/core/"
-"os/file_access.h>`__"
+"os/file_access.h>`_"
 
 #: ../../docs/development/cpp/custom_resource_format_loaders.rst:310
 msgid "Registering the new file format"

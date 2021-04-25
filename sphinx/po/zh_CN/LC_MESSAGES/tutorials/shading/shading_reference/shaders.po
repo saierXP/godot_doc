@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-28 20:28+0800\n"
+"POT-Creation-Date: 2021-04-25 22:16+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -82,30 +82,26 @@ msgstr ""
 "子）。 不同的类型支持不同的渲染模式，内置变量，和处理函数。"
 
 #: ../../docs/tutorials/shading/shading_reference/shaders.rst:33
-#, fuzzy
 msgid ""
 "All shaders need to specify their type in the first line, in the following "
 "format:"
-msgstr "任何着色器都需要指定此类型的第一行，格式如下:"
+msgstr "所有着色器都需要在第一行指定其类型，格式如下:"
 
 #: ../../docs/tutorials/shading/shading_reference/shaders.rst:39
 msgid "Valid types are:"
 msgstr "有效的类型有："
 
 #: ../../docs/tutorials/shading/shading_reference/shaders.rst:41
-#, fuzzy
 msgid ":ref:`spatial <doc_spatial_shader>`: For 3D rendering."
-msgstr "“spatial”:用于3D渲染。"
+msgstr ":ref:`spatial <doc_spatial_shader>`: 用于3D渲染."
 
 #: ../../docs/tutorials/shading/shading_reference/shaders.rst:42
-#, fuzzy
 msgid ":ref:`canvas_item <doc_canvas_item_shader>`: For 2D rendering."
-msgstr "“canvas_item”:用于2D渲染。"
+msgstr ":ref:`canvas_item <doc_canvas_item_shader>`: 用于2D渲染."
 
 #: ../../docs/tutorials/shading/shading_reference/shaders.rst:43
-#, fuzzy
 msgid ":ref:`particles <doc_particle_shader>`: For particle systems."
-msgstr "\"particles\":用于粒子系统。"
+msgstr ":ref:`particles <doc_particle_shader>`: 用于粒子系统。"
 
 #: ../../docs/tutorials/shading/shading_reference/shaders.rst:45
 msgid ""
@@ -114,7 +110,6 @@ msgid ""
 msgstr "有关每种着色类型的详细信息，参见相应的参考文档。"
 
 #: ../../docs/tutorials/shading/shading_reference/shaders.rst:48
-#, fuzzy
 msgid "Render modes"
 msgstr "渲染模式"
 
@@ -143,34 +138,32 @@ msgstr ""
 "器类型的文档。"
 
 #: ../../docs/tutorials/shading/shading_reference/shaders.rst:66
-#, fuzzy
 msgid "Processor functions"
 msgstr "处理器函数"
 
 #: ../../docs/tutorials/shading/shading_reference/shaders.rst:68
-#, fuzzy
 msgid ""
 "Depending on the shader type, different processor functions may be "
 "optionally overridden. For \"spatial\" and \"canvas_item\", it is possible "
 "to override ``vertex``, ``fragment``, and ``light``. For \"particles\", only "
 "``vertex`` can be overridden."
 msgstr ""
-"根据着色器类型的不同，处理器函数可以被选择性地重写。对"
-"于“spatial”和“canvas_item”，可以重写“vertex”、“fragment”和“light”。对"
-"于“particles”，只能重写“vertex”。"
+"根据着色器的类型，不同的处理器功能可以被选择性地重写。对于 \"spatial\" 和 "
+"\"canvas_item\" ，可以覆盖 ``vertex`` 、 ``fragment`` 和 ``light`` 。对于 "
+"\"particles\" ，只有 ``vertex`` 可以被覆盖。"
 
 #: ../../docs/tutorials/shading/shading_reference/shaders.rst:73
-#, fuzzy
 msgid "Vertex processor"
 msgstr "顶点处理器"
 
 #: ../../docs/tutorials/shading/shading_reference/shaders.rst:75
-#, fuzzy
 msgid ""
 "The ``vertex`` processing function is called once for every vertex in "
 "\"spatial\" and \"canvas_item\" shaders. For \"particles\" shaders, it is "
 "called once for every particle."
-msgstr "为每个顶点，2D或3D调用“顶点”处理函数。 对于粒子，它被称为每个粒子。"
+msgstr ""
+"在 \"spatial\" 和 \"canvas_item\" 着色器中，每一个顶点都要调用一次 "
+"``vertex`` 处理函数。对于 \"particles\" 着色器，它对每个粒子都调用一次。"
 
 #: ../../docs/tutorials/shading/shading_reference/shaders.rst:78
 msgid ""
@@ -179,8 +172,8 @@ msgid ""
 "variables that will be sent to the fragment function by using varyings(see "
 "other doc)."
 msgstr ""
-"“顶点”函数用于修改传递给片段函数的每个顶点信息。也可用于建立变量，这些变量将"
-"通过使用变量发送到片段函数(请参见“其他文档”)。"
+"``vertex``函数用于修改每个顶点的信息，这些信息将被传递给片段函数。它也可以用"
+"来建立变量，这些变量将通过使用variings（见其他文档）被发送到片段函数。"
 
 #: ../../docs/tutorials/shading/shading_reference/shaders.rst:82
 msgid ""
@@ -194,20 +187,19 @@ msgstr ""
 "<doc_spatial_shader>`来获得这个示例。"
 
 #: ../../docs/tutorials/shading/shading_reference/shaders.rst:87
-#, fuzzy
 msgid "Fragment processor"
 msgstr "片段处理器"
 
 #: ../../docs/tutorials/shading/shading_reference/shaders.rst:89
-#, fuzzy
 msgid ""
 "The ``fragment`` processing function is used to set up the Godot material "
 "parameters per pixel. This code runs on every visible pixel the object or "
 "primitive draws. It is only available in \"spatial\" and \"canvas_item\" "
 "shaders."
 msgstr ""
-"“片段”处理器用于设置每个像素的Godot材质参数。 此代码在对象或基元被绘制到的每"
-"个可见像素上运行。"
+"``fragment`` 处理函数用于设置每个像素的Godot材质参数。该代码在对象或基本单元"
+"绘制的每个可见像素上运行。它只在 \"spatial\" 和 \"canvas_item\" 着色器中可"
+"用。"
 
 #: ../../docs/tutorials/shading/shading_reference/shaders.rst:93
 msgid ""
@@ -231,12 +223,10 @@ msgstr ""
 "除所有对应的代码。因此，您不会将计算力浪费在不使用的效果上。"
 
 #: ../../docs/tutorials/shading/shading_reference/shaders.rst:103
-#, fuzzy
 msgid "Light processor"
 msgstr "光处理器"
 
 #: ../../docs/tutorials/shading/shading_reference/shaders.rst:105
-#, fuzzy
 msgid ""
 "The ``light`` processor runs per pixel too, but also runs for every light "
 "that affects the object (and does not run if no lights affect the object). "
@@ -244,8 +234,9 @@ msgid ""
 "typically operates on the material properties setup inside the ``fragment`` "
 "function."
 msgstr ""
-"“光”处理器也按像素运行，但也会影响每个影响对象的光(如果没有光影响对象，则不会"
-"运行)。"
+"``light`` 处理也是按像素运行的，但也为每一个影响物体的光线而运行（如果没有光"
+"线影响物体，则不运行）。它作为一个函数存在于 \"fragment\" 处理内部，通常在 "
+"\"fragment\" 函数中设置的材质属性上运行。"
 
 #: ../../docs/tutorials/shading/shading_reference/shaders.rst:110
 msgid ""
@@ -254,6 +245,6 @@ msgid ""
 "`CanvasItem shaders <doc_canvas_item_shader>` and :ref:`Spatial shaders "
 "<doc_spatial_shader>`, respectively."
 msgstr ""
-"``光照`` 处理器在二维和三维环境下的工作方式不同；要了解它如何在每种情况下工"
-"作，请分别查阅文档 :ref:`画布组件着色器 <doc_canvas_item_shader>`以及 :ref:`"
-"空间着色器 <doc_spatial_shader>`。"
+"``light`` 处理在2D中的工作方式与在3D中的工作方式不同；关于它在每一种情况下的"
+"工作方式的描述，请分别参阅它们的文档， :ref:`CanvasItem shaders "
+"<doc_canvas_item_shader>` 和 :ref:`Spatial shaders <doc_spatial_shader>` 。"

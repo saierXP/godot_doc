@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-28 20:28+0800\n"
+"POT-Creation-Date: 2021-04-25 22:16+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -50,14 +50,13 @@ msgstr ""
 "目标分支(通常是 *master* 分支)的一部分。"
 
 #: ../../docs/community/contributing/pr_workflow.rst:22
-#, fuzzy
 msgid ""
 "We will go together through an example to show the typical workflow and "
 "associated Git commands. But first, let's have a quick look at the "
 "organization of Godot's Git repository."
 msgstr ""
-"我们将一起通过一个示例展示典型的工作流程和相关的Git命令。但首先，让我们快速了"
-"解Godot的Git存储库的组织结构。"
+"我们将一起通过一个例子来展示典型的工作流程和相关的Git命令。但首先，让我们快速"
+"了解一下Godot的Git仓库的组织结构。"
 
 #: ../../docs/community/contributing/pr_workflow.rst:27
 msgid "Git source repository"
@@ -125,7 +124,6 @@ msgstr ""
 "用于生产。这是应该优先进行PR的地方。"
 
 #: ../../docs/community/contributing/pr_workflow.rst:57
-#, fuzzy
 msgid ""
 "The stable branches are named after their version, e.g. ``3.1`` and ``2.1``. "
 "They are used to backport bugfixes and enhancements from the ``master`` "
@@ -137,18 +135,18 @@ msgid ""
 "if so make the PR for the ``master`` branch in priority. Release managers "
 "can then cherry-pick the fix to a stable branch if relevant."
 msgstr ""
-"稳定的分支以它们的版本命名，例如 ``3.0`` 和 ``2.1`` 。它们(例如3.0.2或2.1.5)"
-"用于将错误修复和增强功能从 ``master`` 分支移植到当前维护的稳定版本。根据经"
-"验，将保留最后一个稳定分支直到下一个主要版本(例如，将保留 ``2.0`` 分支直到"
-"Godot 2.1发行)。如果要对维护的稳定分支进行PR，则必须检查您的更改是否也与 "
-"``master`` 分支相关。"
+"稳定分支以其版本命名，例如： ``3.1`` and ``2.1`` 。它们用于将 \"master \"分支"
+"中的错误修复和增强功能回传到当前维护的稳定版本（例如3.1.2或2.1.6）。根据经"
+"验，最后一个稳定分支会被维护到下一个主要版本（例如， ``3.0`` 分支被维护到"
+"Godot 3.1的发布）。如果你想针对被维护的稳定分支做PR，请先检查你的修改是否也"
+"与 ``master`` 分支有关，如果是，请优先为 ``master`` 分支做PR。发布管理者可以"
+"在相关的情况下将修复的内容挑选到稳定分支。"
 
 #: ../../docs/community/contributing/pr_workflow.rst:67
-#, fuzzy
 msgid ""
 "There might occasionally be feature branches, usually meant to be merged "
 "into the ``master`` branch at some time."
-msgstr "有时可能会有功能分支，通常意味着在某个时候合并到 ``master`` 分支。"
+msgstr "偶尔也会有特性分支，通常是为了在某个时候合并到 ``master`` 分支。"
 
 #: ../../docs/community/contributing/pr_workflow.rst:71
 msgid "Forking and cloning"
@@ -219,7 +217,6 @@ msgid ""
 msgstr "我们将从建立对我们分叉的原始存储库的引用开始："
 
 #: ../../docs/community/contributing/pr_workflow.rst:117
-#, fuzzy
 msgid ""
 "This will create a reference named ``upstream`` pointing to the original "
 "``godotengine/godot`` repository. This will be useful when you want to pull "
@@ -227,9 +224,9 @@ msgid ""
 "remote reference named ``origin``, which points to your fork (``USERNAME/"
 "godot``)."
 msgstr ""
-"这将创建一个名为 ``upstream`` 的引用，指向原始的godotengine/godot存储库。当您"
-"想从它的 ``master`` 分支中提取新的提交来更新您的fork时，这将非常有用。您有另"
-"一个名为 ``origin`` 的 ``remote`` 引用，它指向您的fork。"
+"这将创建一个名为 ``upstream`` 的引用，指向原始的 ``godotengine/godot`` 版本"
+"库。当你想从它的 ``master`` 分支拉取新的提交来更新你的fork时，这将很有用。你"
+"有另一个名为 ``origin`` 的远程引用，它指向你的fork（ ``USERNAME/godot`` ）。"
 
 #: ../../docs/community/contributing/pr_workflow.rst:122
 msgid ""
@@ -261,13 +258,12 @@ msgstr ""
 "将为您提供在Git中工作时要了解的基本命令。"
 
 #: ../../docs/community/contributing/pr_workflow.rst:137
-#, fuzzy
 msgid ""
 "In the following, we will assume as an example that you want to implement a "
 "feature in Godot's project manager, which is coded in the ``editor/"
 "project_manager.cpp`` file."
 msgstr ""
-"在下文中，我们假设您要在Godot的项目管理器中实现一个功能，该功能已在 ``editor/"
+"下面，我们将假设你想在Godot的项目管理器中实现一个功能，该功能在 ``editor/"
 "project_manager.cpp`` 文件中编码。"
 
 #: ../../docs/community/contributing/pr_workflow.rst:142
@@ -449,7 +445,6 @@ msgstr ""
 "project_manager.cpp`` 文件进行更改。"
 
 #: ../../docs/community/contributing/pr_workflow.rst:257
-#, fuzzy
 msgid ""
 "By default, those changes are *unstaged*. The staging area is a layer "
 "between your working directory (where you make your modifications) and the "
@@ -458,10 +453,10 @@ msgid ""
 "you need to *stage* them with the ``git add`` command, and then to commit "
 "them with the ``git commit`` command."
 msgstr ""
-"默认情况下，这些更改是 *未暂存的(unstaged)*。暂存区域是您的工作目录(您进行修"
-"改的位置)和本地git存储库(``.git`` 文件夹中的提交和所有元数据)之间的一个层。要"
-"将工作目录中的更改带到Git存储库，您需要使用 ``git add`` 命令对它们进行 *暂存"
-"(stage)*，然后使用 ``git commit`` 命令提交它们。"
+"默认情况下，这些修改是 *未暂存的* 。暂存区域是工作目录（你进行修改的地方）和"
+"本地 Git 仓库（提交和所有元数据在 ``.git`` 文件夹中）之间的一层。要把工作目录"
+"中的修改带到 Git 仓库，你需要用 ``git add`` 命令把它们归档，然后用 ``git "
+"commit`` 命令提交它们。"
 
 #: ../../docs/community/contributing/pr_workflow.rst:264
 msgid ""
@@ -601,19 +596,17 @@ msgid "Issuing a pull request"
 msgstr "发出拉取请求"
 
 #: ../../docs/community/contributing/pr_workflow.rst:356
-#, fuzzy
 msgid ""
 "When you load your fork's branch on GitHub, you should see a line saying *"
 "\"This branch is 2 commits ahead of godotengine:master.\"* (and potentially "
 "some commits behind, if your ``master`` branch was out of sync with the "
 "upstream ``master`` branch)."
 msgstr ""
-"当您在GitHub上加载fork的分支时，您应该看到一行说 *“此分支比godotengine:master"
-"提前2个提交。”* 如果您的 ``master`` 分支与上游 ``master`` 分支不同步，则可能"
-"会有一些提交。"
+"当你在GitHub上加传你的fork的分支时，你应该看到一行字： *\"This branch is 2 "
+"commits ahead of godotengine:master.\"*（如果你的 ``master`` 分支与上游的 "
+"``master`` 分支不同步，则可能落后一些提交）。"
 
 #: ../../docs/community/contributing/pr_workflow.rst:363
-#, fuzzy
 msgid ""
 "On that line, there is a \"Pull request\" link. Clicking it will open a form "
 "that will let you issue a pull request on the ``godotengine/godot`` upstream "
@@ -622,10 +615,10 @@ msgid ""
 "conflicts), don't create the PR, something went wrong. Go to IRC and ask for "
 "support :)"
 msgstr ""
-"在那一行，有一个 ``拉取请求`` 链接。点击它将打开一个表单，该表单使您可以在"
-"godotengine/godot上游存储库上发出拉取请求。它应该显示您的两个提交，并声明 ``"
-"能够合并``。 如果没有(例如，它有更多的提交，或说有合并冲突)，不要创建PR，出错"
-"了。去IRC并寻求支持：)"
+"在这一行，有一个 \"Pull request\" 链接。点击它将打开一个表单，让你在 "
+"``godotengine/godot`` 上游仓库发出一个Pull request。它应该显示你的两个提交，"
+"并说明 \"Able to merge\" 。如果不是这样（例如，它有更多的提交，或者说有合并冲"
+"突），不要创建PR，出了问题。到IRC去寻求支持吧 :)"
 
 #: ../../docs/community/contributing/pr_workflow.rst:369
 msgid ""
@@ -703,7 +696,6 @@ msgstr ""
 "如何进行给定文件是最后修改的。"
 
 #: ../../docs/community/contributing/pr_workflow.rst:438
-#, fuzzy
 msgid ""
 "To squash those extraneous commits into the main one, we will have to "
 "*rewrite history*. Right, we have that power. You may read that it's a bad "
@@ -711,9 +703,10 @@ msgid ""
 "in your fork, you can do whatever you want, and everything is allowed to get "
 "neat PRs :)"
 msgstr ""
-"要将这两个提交压缩在一起，我们将不得不 *重写历史记录* 。对，我们有这种能力。"
-"您可能会了解到这是一个不好的做法，确实，当涉及到上游存储库的分支时。但是在您"
-"的分叉中，您可以做任何您想做的事情，并且一切都被允许以获得整洁的PR :)"
+"为了把那些不相干的提交压缩到主要的提交中，我们将不得不 *重写历史记录* 。没"
+"错，我们有这个权力。你可能会读到这是一种不好的做法，当涉及到上游仓库的分支"
+"时，这确实是事实。但在你的fork中，你可以做任何你想做的事，而且一切都可以得到"
+"整洁的PR :)"
 
 #: ../../docs/community/contributing/pr_workflow.rst:443
 msgid ""
@@ -811,14 +804,13 @@ msgstr ""
 "误："
 
 #: ../../docs/community/contributing/pr_workflow.rst:512
-#, fuzzy
 msgid ""
 "This is a sane behavior, Git will not let you push changes that would "
 "override remote content. But that's actually what we want to do here, so we "
 "will have to *force* it:"
 msgstr ""
-"这是一种理智的行为，Git不允许您推送将覆盖远程内容的更改。 但这实际上是我们要"
-"在此处执行的操作，因此我们将不得不 *强制* 执行此操作："
+"这是一个理智的行为，Git不会让你推送会覆盖远程内容的修改。但这正是我们想做的，"
+"所以我们必须 *强制* 它:"
 
 #: ../../docs/community/contributing/pr_workflow.rst:520
 msgid ""

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-28 20:28+0800\n"
+"POT-Creation-Date: 2021-04-25 22:16+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -49,9 +49,8 @@ msgid ""
 msgstr "如果你对着色器不熟悉，可以从阅读:ref:`doc_what_are_shaders`开始。"
 
 #: ../../docs/tutorials/shading/visual_shaders.rst:22
-#, fuzzy
 msgid "Creating a VisualShader"
-msgstr "导出TileSet"
+msgstr "创建VisualShader"
 
 #: ../../docs/tutorials/shading/visual_shaders.rst:24
 msgid ""
@@ -126,9 +125,8 @@ msgstr ""
 "以看到代码。这可以方便理解特定节点的作用，以及如何在脚本中呈现。"
 
 #: ../../docs/tutorials/shading/visual_shaders.rst:61
-#, fuzzy
 msgid "Using the Visual Shader Editor"
-msgstr "使用外部的文本编辑器"
+msgstr "使用Visual Shader编辑器"
 
 #: ../../docs/tutorials/shading/visual_shaders.rst:63
 msgid ""
@@ -144,9 +142,8 @@ msgstr ""
 "菜单。"
 
 #: ../../docs/tutorials/shading/visual_shaders.rst:71
-#, fuzzy
 msgid "This popup has the following properties:"
-msgstr "使用以下参数之一:"
+msgstr "此弹出窗口具有以下属性："
 
 #: ../../docs/tutorials/shading/visual_shaders.rst:73
 msgid ""
@@ -217,9 +214,8 @@ msgstr ""
 "例。"
 
 #: ../../docs/tutorials/shading/visual_shaders.rst:100
-#, fuzzy
 msgid "Expression node"
-msgstr "表达式（``Expression``）节点"
+msgstr "表达式节点"
 
 #: ../../docs/tutorials/shading/visual_shaders.rst:102
 msgid ""
@@ -248,9 +244,8 @@ msgstr ""
 "的全部力量，例如循环，关键字 ``discard`` ，扩展类型，等等。例如："
 
 #: ../../docs/tutorials/shading/visual_shaders.rst:120
-#, fuzzy
 msgid "Fresnel node"
-msgstr "创建节点"
+msgstr "Fresnel结点"
 
 #: ../../docs/tutorials/shading/visual_shaders.rst:122
 msgid ""
@@ -264,9 +259,8 @@ msgstr ""
 "的照明效果。"
 
 #: ../../docs/tutorials/shading/visual_shaders.rst:130
-#, fuzzy
 msgid "Boolean node"
-msgstr "布尔或"
+msgstr "布尔节点"
 
 #: ../../docs/tutorials/shading/visual_shaders.rst:132
 msgid ""
@@ -280,9 +274,8 @@ msgstr ""
 "部件。"
 
 #: ../../docs/tutorials/shading/visual_shaders.rst:139
-#, fuzzy
 msgid "If node"
-msgstr "node"
+msgstr "If node"
 
 #: ../../docs/tutorials/shading/visual_shaders.rst:141
 msgid ""
@@ -297,9 +290,8 @@ msgstr ""
 "情况下它等于最小值，即 ``0.00001`` ）， ``a > b`` 和 ``a < b`` 。"
 
 #: ../../docs/tutorials/shading/visual_shaders.rst:150
-#, fuzzy
 msgid "Switch node"
-msgstr "选择（``Switch``）"
+msgstr "切换节点"
 
 #: ../../docs/tutorials/shading/visual_shaders.rst:152
 msgid ""

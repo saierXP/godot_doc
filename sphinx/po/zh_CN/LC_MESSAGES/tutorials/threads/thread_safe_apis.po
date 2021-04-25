@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-28 20:28+0800\n"
+"POT-Creation-Date: 2021-04-25 22:16+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,7 +18,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../docs/tutorials/threads/thread_safe_apis.rst:4
-#, fuzzy
 msgid "Thread-safe APIs"
 msgstr "线程安全的API"
 
@@ -27,13 +26,11 @@ msgid "Threads"
 msgstr "线程"
 
 #: ../../docs/tutorials/threads/thread_safe_apis.rst:9
-#, fuzzy
 msgid ""
 "Threads are used to balance processing power across CPUs and cores. Godot "
 "supports multithreading, but not in the whole engine."
 msgstr ""
-"使用线程是一种平衡进程的常用方法, 它可将工作分散到各个CPU和核心中。 Godot支持"
-"多线程，但不是在整个引擎中。"
+"线程是用来平衡各CPU和核心的处理能力。Godot支持多线程，但不是在整个引擎中。"
 
 #: ../../docs/tutorials/threads/thread_safe_apis.rst:12
 msgid ""
@@ -46,15 +43,15 @@ msgid "Global scope"
 msgstr "全局作用域"
 
 #: ../../docs/tutorials/threads/thread_safe_apis.rst:17
-#, fuzzy
 msgid ""
 ":ref:`Global Scope<class_@GlobalScope>` singletons are all thread-safe. "
 "Accessing servers from threads is supported (for VisualServer and Physics "
 "servers, ensure threaded or thread-safe operation is enabled in the project "
 "settings!)."
 msgstr ""
-":ref:`Global Scope<class_@GlobalScope>` 单例都是线程安全的。 支持从线程访问服"
-"务器(对于VisualServer和Physics服务器，确保在项目设置中启用了线程安全操作！)。"
+":ref:`Global Scope<class_@GlobalScope>`单例都是线程安全的。支持从线程访问服务"
+"器（对于VisualServer和物理服务器，确保在项目设置中启用线程或线程安全操"
+"作！）。"
 
 #: ../../docs/tutorials/threads/thread_safe_apis.rst:19
 msgid ""
@@ -70,14 +67,13 @@ msgid "Scene tree"
 msgstr "场景树"
 
 #: ../../docs/tutorials/threads/thread_safe_apis.rst:24
-#, fuzzy
 msgid ""
 "Interacting with the active scene tree is **NOT** thread-safe. Make sure to "
 "use mutexes when sending data between threads. If you want to call functions "
 "from a thread, the *call_deferred* function may be used:"
 msgstr ""
-"与激活的场景树交互 **不是** 线程安全的。 确保在线程之间发送数据时使用互斥"
-"锁。 如果要从线程调用函数，可以使用 *call_deferred* 函数:"
+"与活动场景树的交互是线程 **不** 安全的。当在线程之间发送数据时，请确保使用"
+"mutexes。如果你想从一个线程调用函数，可以使用 *call_deferred* 函数:"
 
 #: ../../docs/tutorials/threads/thread_safe_apis.rst:33
 msgid ""

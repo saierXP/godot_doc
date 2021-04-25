@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-28 20:28+0800\n"
+"POT-Creation-Date: 2021-04-25 22:16+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -157,9 +157,8 @@ msgstr ""
 "级贡献者。"
 
 #: ../../docs/community/contributing/bug_triage_guidelines.rst:65
-#, fuzzy
 msgid "*Needs rebase*: the issue need a Git rebase to be merged."
-msgstr "*Needs rebase*：该问题需要git重设基线来合并。"
+msgstr "*Needs rebase* ：该问题需要Git rebase才能合并。"
 
 #: ../../docs/community/contributing/bug_triage_guidelines.rst:66
 msgid ""
@@ -308,7 +307,6 @@ msgid "Milestones"
 msgstr "里程碑"
 
 #: ../../docs/community/contributing/bug_triage_guidelines.rst:120
-#, fuzzy
 msgid ""
 "`Milestones <https://github.com/godotengine/godot/milestones>`_ correspond "
 "to planned future versions of Godot for which there is an existing roadmap. "
@@ -319,11 +317,11 @@ msgid ""
 "critical bug that can't be accepted in any future stable release, or "
 "anything that Juan wants to work on right now. :)"
 msgstr ""
-"`里程碑 <https://github.com/godotengine/godot/milestones>`_ 对应计划的未来版"
-"本的Godot，其中存在一个现有的路线图。符合上述路线图的问题应在相应的里程碑下提"
-"出；如果它们与当前的路线图不符，则应从里程碑移除。根据经验，如果问题涉及里程"
-"碑中的新功能，将来的稳定版本中无法接受的严重错误或Juan想要现在正确解决的任何"
-"问题，则问题对应于该里程碑 :)"
+"`里程碑 <https://github.com/godotengine/godot/milestones>`_ 对应于已有路线图"
+"的Godot未来计划版本。符合上述路线图的问题应归入相应的里程碑下；如果它们不符合"
+"任何现有的路线图，则应将其放在没有里程碑的地方。根据经验，如果一个问题涉及到"
+"一个里程碑中的新功能，或者一个不能在未来稳定版本中被接受的关键错误，或者任何"
+"Juan现在想做的事情，那么它就对应于一个特定的里程碑。)"
 
 #: ../../docs/community/contributing/bug_triage_guidelines.rst:129
 msgid ""

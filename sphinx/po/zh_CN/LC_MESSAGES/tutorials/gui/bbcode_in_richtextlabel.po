@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-28 20:28+0800\n"
+"POT-Creation-Date: 2021-04-25 22:16+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -38,14 +38,13 @@ msgstr ""
 "一部分文本居中。要绕过此限制，可以使用 :ref:`class_RichTextLabel` 。"
 
 #: ../../docs/tutorials/gui/bbcode_in_richtextlabel.rst:15
-#, fuzzy
 msgid ""
 ":ref:`class_RichTextLabel` allows the display of complex text markup in a "
 "Control. It has a built-in API for generating the markup, but can also parse "
 "a BBCode."
 msgstr ""
-":ref:`class_RichTextLabel` 允许在控件上显示复杂的文本标记。它提供了内置的API"
-"用以生成这些标记，并且能解析BBCode。"
+":ref:`class_RichTextLabel` 允许在一个控件中显示复杂的文本标记。它有一个内置的"
+"API用于生成标记，也可以解析一个BBCode。"
 
 #: ../../docs/tutorials/gui/bbcode_in_richtextlabel.rst:18
 msgid ""
@@ -68,10 +67,10 @@ msgid ""
 "this happens, you need to toggle the \"Enabled\" checkbox in the \"Bb Code\" "
 "section (``bbcode_enabled``)."
 msgstr ""
-"对于统一格式的文本，可以在“Text”属性中编写，但如果要使用BBCode标签，则应改"
-"用“Bb Code”下的“Text”属性（ ``bbcode_text`` ）。设置此属性将解析标签并设置格"
-"式。不过在此之前，你需要勾选“Bb Code”下的“Enable”属性"
-"（ ``bbcode_enabled`` ）。"
+"对于统一格式的文本，您可以写入 \"Text\" 属性，但如果您想使用BBCode标记，您应"
+"该使用 \"Bb Code\" 部分的 \"Text\" 属性来代替（ ``bbcode_text`` ）。写入这个"
+"属性将触发对您的标记的解析，以按要求格式化文本。在这之前，你需要切换 \"Bb代码"
+"\" 部分的 \"启用\" 复选框（ ``bbcode_enabled`` ）。"
 
 #: ../../docs/tutorials/gui/bbcode_in_richtextlabel.rst:32
 msgid ""
@@ -212,9 +211,8 @@ msgid "``[fill]{text}[/fill]``"
 msgstr "``[fill]{text}[/fill]``"
 
 #: ../../docs/tutorials/gui/bbcode_in_richtextlabel.rst:69
-#, fuzzy
 msgid "Makes {text} fill the RichTextLabel's width."
-msgstr "使得 {text} 填充整个宽度。"
+msgstr "使{text}填充RichTextLabel的宽度。"
 
 #: ../../docs/tutorials/gui/bbcode_in_richtextlabel.rst:71
 msgid "**indent**"
@@ -311,7 +309,6 @@ msgstr ""
 "改变 {text} 的颜色, 可以使用颜色名称或十六进制码指定颜色，如 ``#ff00ff`` 。"
 
 #: ../../docs/tutorials/gui/bbcode_in_richtextlabel.rst:87
-#, fuzzy
 msgid "**table**"
 msgstr "**table**"
 
@@ -598,11 +595,10 @@ msgid ""
 msgstr "``absolute_index``告诉你作为索引到整个文本的距离。"
 
 #: ../../docs/tutorials/gui/bbcode_in_richtextlabel.rst:211
-#, fuzzy
 msgid ""
 "``elapsed_time`` is the total amount of time the text effect has been "
 "running."
-msgstr "``destroyed_timer``:一个变量，用于跟踪炮塔被摧毁的时间。"
+msgstr "``elapsed_time`` 是文本效果运行的总时间。"
 
 #: ../../docs/tutorials/gui/bbcode_in_richtextlabel.rst:212
 msgid ""
@@ -649,9 +645,8 @@ msgstr ""
 "户修复自定义渲染出现的任何错误。"
 
 #: ../../docs/tutorials/gui/bbcode_in_richtextlabel.rst:228
-#, fuzzy
 msgid "Here are some examples of custom effects:"
-msgstr "下面是一个简单的示例，说明它是如何工作的："
+msgstr "以下是一些自定义效果的示例："
 
 #: ../../docs/tutorials/gui/bbcode_in_richtextlabel.rst:231
 msgid "Ghost"
@@ -662,11 +657,9 @@ msgid "Pulse"
 msgstr "脉冲"
 
 #: ../../docs/tutorials/gui/bbcode_in_richtextlabel.rst:281
-#, fuzzy
 msgid "Matrix"
-msgstr "矩阵提示"
+msgstr "矩阵"
 
 #: ../../docs/tutorials/gui/bbcode_in_richtextlabel.rst:316
-#, fuzzy
 msgid "This will add a few new BBCode commands, which can be used like so:"
-msgstr "这将添加一个新函数，只需双击其名称即可重命名该函数："
+msgstr "这将增加一些新的BBCode命令，可以像这样使用:"

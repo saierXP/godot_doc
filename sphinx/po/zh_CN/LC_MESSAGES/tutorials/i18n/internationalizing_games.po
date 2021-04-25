@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-28 20:28+0800\n"
+"POT-Creation-Date: 2021-04-25 22:16+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -102,7 +102,6 @@ msgid "Converting keys to text"
 msgstr "将键转换为文本"
 
 #: ../../docs/tutorials/i18n/internationalizing_games.rst:54
-#, fuzzy
 msgid ""
 "Some controls, such as :ref:`Button <class_Button>` and :ref:`Label "
 "<class_Label>`, will automatically fetch a translation if their text matches "
@@ -110,19 +109,19 @@ msgid ""
 "\"MAIN_SCREEN_GREETING1\" and that key exists in the current translation, "
 "then the text will automatically be translated."
 msgstr ""
-"一些控件如 :ref:`Button <class_Button>` 和 :ref:`Label <class_Label>` 将自动"
-"获取翻译, 如果它们的文本与翻译键匹配。 例如，如果标签的文本"
-"是“MAIN_SCREEN_GREETING1”并且该键存在于当前翻译中，则文本将自动翻译。"
+"一些控件，例如 :ref:`Button <class_Button>` 和 :ref:`Label <class_Label>`，如"
+"果它们的文本与一个翻译键值相匹配，将自动获取翻译内容。例如，如果一个标签的文"
+"本是 \"MAIN_SCREEN_GREETING1\" 并且该键值存在于当前的翻译中，那么该文本将被自"
+"动翻译。"
 
 #: ../../docs/tutorials/i18n/internationalizing_games.rst:59
-#, fuzzy
 msgid ""
 "In code, the :ref:`Object.tr() <class_Object_method_tr>` function can be "
 "used. This will just look up the text in the translations and convert it if "
 "found:"
 msgstr ""
-"在代码中，可以使用 :ref:`Object.tr() <class_Object_method_tr>` 函数。 这将只"
-"查找翻译中的文本并在找到时进行转换:"
+"在代码中，可以使用 :ref:`Object.tr() <class_Object_method_tr>` 函数。这将只是"
+"在翻译中查找文本，如果找到的话就进行转换:"
 
 #: ../../docs/tutorials/i18n/internationalizing_games.rst:69
 msgid "Making controls resizable"

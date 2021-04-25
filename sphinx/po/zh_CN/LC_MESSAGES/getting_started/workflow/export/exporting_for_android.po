@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-28 20:28+0800\n"
+"POT-Creation-Date: 2021-04-25 22:16+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,12 +22,13 @@ msgid "Exporting for Android"
 msgstr "为Android导出"
 
 #: ../../docs/getting_started/workflow/export/exporting_for_android.rst:6
+#, fuzzy
 msgid ""
 "Exporting for Android has fewer requirements than compiling Godot for it. "
 "The following steps detail what is needed to setup the SDK and the engine."
 msgstr ""
-"为Android导出比为Android编译Godot的要求更少。以下步骤详细说明了设置SDK和引擎"
-"所需的内容。"
+"导出Android的要求比编译Android的Godot要少。下面的步骤详细介绍了设置Android "
+"SDK和引擎所需的内容。"
 
 #: ../../docs/getting_started/workflow/export/exporting_for_android.rst:10
 msgid "Download the Android SDK"
@@ -38,11 +39,13 @@ msgid "Download and install the Android SDK."
 msgstr "下载并安装 Android SDK。"
 
 #: ../../docs/getting_started/workflow/export/exporting_for_android.rst:14
+#, fuzzy
 msgid ""
 "You can install it using `Android Studio <https://developer.android.com/"
 "studio/>`__."
 msgstr ""
-"你可以用 `Android Studio安装它<https://developer.android.com/studio/>`__."
+"你可以使用 `Android Studio 4.1或更高版本<https://developer.android.com/"
+"studio/>`__ 进行安装。"
 
 #: ../../docs/getting_started/workflow/export/exporting_for_android.rst:16
 msgid ""
@@ -78,13 +81,17 @@ msgstr ""
 "command-line/sdkmanager>`__命令以完成安装过程："
 
 #: ../../docs/getting_started/workflow/export/exporting_for_android.rst:28
+#, fuzzy
 msgid "Install OpenJDK"
-msgstr "安装OpenJDK"
+msgstr "安装OpenJDK 8"
 
 #: ../../docs/getting_started/workflow/export/exporting_for_android.rst:30
+#, fuzzy
 msgid ""
 "Download and install  `OpenJDK <https://adoptopenjdk.net/index.html>`__."
-msgstr "下载并安装 `OpenJDK <https://adoptopenjdk.net/index.html>`__ 。"
+msgstr ""
+"下载并安装 `OpenJDK 8 <https://adoptopenjdk.net/index.html?"
+"variant=openjdk8&jvmVariant=hotspot>`__ 。"
 
 #: ../../docs/getting_started/workflow/export/exporting_for_android.rst:33
 msgid "Create a debug.keystore"
@@ -250,13 +257,14 @@ msgid ""
 msgstr "**自适应图标背景:** 提供的背景图标 -> 默认 Godot 背景图标。"
 
 #: ../../docs/getting_started/workflow/export/exporting_for_android.rst:90
+#, fuzzy
 msgid ""
 "It's highly recommended to provide all requested icons, and at least with "
 "the specified resolutions. Only this way your application will look great on "
 "all Android devices and versions."
 msgstr ""
-"强烈推荐提供必需的图标，至少是指定的分辨率。只有这样，你的应用才能在所有"
-"Android设备和版本看起来不错。"
+"强烈建议提供所有要求的图标的指定分辨率。这样一来，你的应用程序在所有的Android"
+"设备和版本上都会显得非常漂亮。"
 
 #: ../../docs/getting_started/workflow/export/exporting_for_android.rst:93
 msgid "Exporting for Google Play Store"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-28 20:28+0800\n"
+"POT-Creation-Date: 2021-04-25 22:16+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,9 +18,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../docs/tutorials/debug/debugger_panel.rst:4
-#, fuzzy
 msgid "Debugger panel"
-msgstr "调试器"
+msgstr "调试器面板"
 
 #: ../../docs/tutorials/debug/debugger_panel.rst:6
 msgid ""
@@ -31,22 +30,20 @@ msgstr ""
 "调试器**即可打开。"
 
 #: ../../docs/tutorials/debug/debugger_panel.rst:11
-#, fuzzy
 msgid ""
 "The debugger panel is split into several tabs, each focusing on a specific "
 "task."
-msgstr "调试器面板分为几个选项卡，每个选项卡专注于特定任务。"
+msgstr "调试器面板被分成几个标签，每个标签专注于一个特定的任务。"
 
 #: ../../docs/tutorials/debug/debugger_panel.rst:14
 msgid "Debugger"
 msgstr "调试器"
 
 #: ../../docs/tutorials/debug/debugger_panel.rst:16
-#, fuzzy
 msgid ""
 "The Debugger tab opens automatically when the GDScript compiler reaches a "
 "breakpoint in your code."
-msgstr "当 GDScript 编译器在代码中达到断点时，“调试器”选项卡将自动打开。"
+msgstr "当GDScript编译器在你的代码中达到一个断点时，调试器选项卡会自动打开。"
 
 #: ../../docs/tutorials/debug/debugger_panel.rst:19
 msgid ""
@@ -58,9 +55,8 @@ msgstr ""
 "状态信息，以及控制程序执行的按钮。"
 
 #: ../../docs/tutorials/debug/debugger_panel.rst:23
-#, fuzzy
 msgid "You can use the buttons in the top-right corner to:"
-msgstr "您可以使用右上角的按钮执行以下操作："
+msgstr "你可以使用右上角的按钮来："
 
 #: ../../docs/tutorials/debug/debugger_panel.rst:25
 msgid ""

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-28 20:28+0800\n"
+"POT-Creation-Date: 2021-04-25 22:16+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -179,13 +179,12 @@ msgid "Curve2D, Curve3D, Path and Path2D"
 msgstr "二维曲线，三维曲线，路径和二维路径"
 
 #: ../../docs/tutorials/math/beziers_and_curves.rst:143
-#, fuzzy
 msgid ""
 "There are two objects that contain curves: :ref:`Curve3D <class_Curve3D>` "
 "and :ref:`Curve2D <class_Curve2D>` (for 3D and 2D respectively)."
 msgstr ""
-"CurveTables 是相同的事情, 除了映射到浮点值的数组或 :ref:`Curve "
-"<class_Curve>`/ :ref:`Curve2D <class_Curve2D>` 资源对象。"
+"有两个对象包含曲线 :ref:`Curve3D <class_Curve3D>` 和 :ref:`Curve2D "
+"<class_Curve2D>` （分别代表3D和2D）。"
 
 #: ../../docs/tutorials/math/beziers_and_curves.rst:145
 msgid ""
@@ -265,14 +264,13 @@ msgstr ""
 "(所以画很多点就是在浪费时间)。"
 
 #: ../../docs/tutorials/math/beziers_and_curves.rst:183
-#, fuzzy
 msgid ""
 "Before drawing Bezier curves, *tessellation* is required. This is often done "
 "with a recursive or divide and conquer function that splits the curve until "
 "the curvature amount becomes less than a certain threshold."
 msgstr ""
-"在绘制贝塞尔曲线之前，必须进行*细分曲面*。一般通过递归或分治函数来完成，该函"
-"数将曲线分割，直到曲率值小于某个阈值。"
+"在绘制贝塞尔曲线之前，需要进行 *细分* 。这通常是用递归函数或除法函数来完成"
+"的，它可以分割曲线，直到曲率变得小于某个阈值。"
 
 #: ../../docs/tutorials/math/beziers_and_curves.rst:185
 msgid ""

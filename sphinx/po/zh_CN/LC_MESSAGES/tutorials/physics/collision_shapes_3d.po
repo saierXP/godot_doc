@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-28 20:28+0800\n"
+"POT-Creation-Date: 2021-04-25 22:16+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,14 +18,12 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../docs/tutorials/physics/collision_shapes_3d.rst:4
-#, fuzzy
 msgid "Collision shapes (3D)"
-msgstr "碰撞形状"
+msgstr "碰撞形状(3D)"
 
 #: ../../docs/tutorials/physics/collision_shapes_3d.rst:6
-#, fuzzy
 msgid "This guide explains:"
-msgstr "将打印:"
+msgstr "本指南解释："
 
 #: ../../docs/tutorials/physics/collision_shapes_3d.rst:8
 msgid "The types of collision shapes available in 3D in Godot."
@@ -36,12 +34,10 @@ msgid "Using a convex or a concave mesh as a collision shape."
 msgstr "使用凸形或凹形网格作为碰撞形状。"
 
 #: ../../docs/tutorials/physics/collision_shapes_3d.rst:10
-#, fuzzy
 msgid "Performance considerations regarding 3D collisions."
-msgstr "性能监控工具."
+msgstr "有关3D碰撞的性能注意事项。"
 
 #: ../../docs/tutorials/physics/collision_shapes_3d.rst:12
-#, fuzzy
 msgid ""
 "Godot provides many kinds of collision shapes, with different performance "
 "and accuracy tradeoffs."
@@ -67,29 +63,24 @@ msgstr ""
 "互 \"碰撞\"。"
 
 #: ../../docs/tutorials/physics/collision_shapes_3d.rst:26
-#, fuzzy
 msgid "Primitive collision shapes"
-msgstr "显示碰撞区域"
+msgstr "基本碰撞形状"
 
 #: ../../docs/tutorials/physics/collision_shapes_3d.rst:28
-#, fuzzy
 msgid "Godot provides the following primitive collision shape types:"
-msgstr "Godot支持以下3D *场景文件格式*："
+msgstr "Godot提供了以下基本碰撞形状类型:"
 
 #: ../../docs/tutorials/physics/collision_shapes_3d.rst:30
-#, fuzzy
 msgid ":ref:`class_BoxShape`"
-msgstr ":ref:`Sprite <class_Sprite>`"
+msgstr ":ref:`class_BoxShape`"
 
 #: ../../docs/tutorials/physics/collision_shapes_3d.rst:31
-#, fuzzy
 msgid ":ref:`class_SphereShape`"
-msgstr ":ref:`CSGSphere <class_CSGSphere>`"
+msgstr ":ref:`class_SphereShape`"
 
 #: ../../docs/tutorials/physics/collision_shapes_3d.rst:32
-#, fuzzy
 msgid ":ref:`class_CapsuleShape`"
-msgstr "9: :ref:`Plane<class_plane>`"
+msgstr ":ref:`class_CapsuleShape`"
 
 #: ../../docs/tutorials/physics/collision_shapes_3d.rst:33
 msgid ""
@@ -117,9 +108,8 @@ msgstr ""
 "可靠的，通常也能提供更好的性能。"
 
 #: ../../docs/tutorials/physics/collision_shapes_3d.rst:45
-#, fuzzy
 msgid "Convex collision shapes"
-msgstr "碰撞形状"
+msgstr "凸型碰撞形状"
 
 #: ../../docs/tutorials/physics/collision_shapes_3d.rst:47
 msgid ""
@@ -183,9 +173,8 @@ msgstr ""
 "但性能不佳。对于中等复杂度的对象，可能会比使用单个凹形碰撞形状更快。"
 
 #: ../../docs/tutorials/physics/collision_shapes_3d.rst:77
-#, fuzzy
 msgid "Concave or trimesh collision shapes"
-msgstr "碰撞形状"
+msgstr "凹面或三面体碰撞形状"
 
 #: ../../docs/tutorials/physics/collision_shapes_3d.rst:79
 msgid ""
@@ -235,7 +224,7 @@ msgid ""
 "MeshInstance and using the **Mesh** menu at the top of the 3D viewport. The "
 "editor exposes two options:"
 msgstr ""
-"您可以通过选择一个网格实例，并使用3D视口顶部的**网格**菜单从编辑器中生成一个"
+"您可以通过选择一个网格实例，并使用3D视窗顶部的**网格**菜单从编辑器中生成一个"
 "凹形碰撞形状。编辑器提供两个选项:"
 
 #: ../../docs/tutorials/physics/collision_shapes_3d.rst:104
@@ -287,9 +276,8 @@ msgstr ""
 "`doc_importing_scenes_import_hints`。"
 
 #: ../../docs/tutorials/physics/collision_shapes_3d.rst:129
-#, fuzzy
 msgid "Performance caveats"
-msgstr "性能"
+msgstr "性能方面的注意事项"
 
 #: ../../docs/tutorials/physics/collision_shapes_3d.rst:131
 msgid ""

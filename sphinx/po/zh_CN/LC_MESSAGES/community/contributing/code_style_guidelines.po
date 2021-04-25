@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-28 20:28+0800\n"
+"POT-Creation-Date: 2021-04-25 22:16+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -89,7 +89,6 @@ msgstr ""
 "查并自动修复所有提交。"
 
 #: ../../docs/community/contributing/code_style_guidelines.rst:37
-#, fuzzy
 msgid ""
 "Godot's code style should *not* be applied to third-party code, i.e. that is "
 "included in Godot's source tree but was not written specifically for our "
@@ -97,12 +96,11 @@ msgid ""
 "own style guides (or lack thereof), and don't want to introduce differences "
 "that would make syncing with upstream repositories harder."
 msgstr ""
-"Godot的代码风格应该 *不* 适用于第三方代码，即包含在Godot的源代码树中，但不是"
-"专门为我们的项目编写的代码。这样的代码通常来自不同的上游项目，具有自己的样式"
-"指南(或缺少样式指南)，并且不希望引入会使上游存储库同步变得更难的差异。"
+"Godot的代码风格 *不应该* 适用于第三方代码，即包含在Godot的源代码树中，但不是"
+"专门为我们的项目编写的。这样的代码通常来自不同的上游项目，有他们自己的风格指"
+"南（或缺乏风格规则），我们不想引入差异，使其与上游仓库的同步更加困难。"
 
 #: ../../docs/community/contributing/code_style_guidelines.rst:44
-#, fuzzy
 msgid ""
 "Third-party code is usually included in the ``thirdparty/`` folder and can "
 "thus easily be excluded from formatting scripts. For the rare cases where a "
@@ -110,10 +108,10 @@ msgid ""
 "you can use ``/* clang-format off */`` and ``/* clang-format on */`` to tell "
 "clang-format to ignore a chunk of code."
 msgstr ""
-"第三方代码通常包含在 ``thirdparty /`` 文件夹中，因此可以轻松地从格式化脚本中"
-"排除。对于需要将第三方代码段直接包含在Godot文件中的极少数情况，您可以使用 ``/"
-"* clang-format off */`` 和 ``/* clang-format on */`` 来告诉clang-format忽略一"
-"个代码块。"
+"第三方代码通常包含在 ``thirdparty/`` 文件夹中，因此可以很容易地从格式化脚本中"
+"排除。在极少数情况下，第三方代码片段需要直接包含在Godot文件中，你可以使用 ``/"
+"* clang-format off */`` 和 ``/* clang-format on */`` 来告诉clang-format忽略某"
+"块儿的代码。"
 
 #: ../../docs/community/contributing/code_style_guidelines.rst:52
 msgid "Using clang-format locally"
@@ -326,25 +324,24 @@ msgstr ""
 "object.h\"``。然后，Godot标头引入的块应用一个空行以进行分隔。"
 
 #: ../../docs/community/contributing/code_style_guidelines.rst:142
-#, fuzzy
 msgid ""
 "Finally, third-party headers (either from ``thirdparty`` or from the "
 "system's include paths) come next and should be included with the < and > "
 "symbols, e.g. ``#include <png.h>``. The block of third-party headers should "
 "also be followed by an empty line for separation."
 msgstr ""
-"最后，第三方标头(来自 ``第三方`` 或系统的引入路径)接下来应该在<和>符号中引"
-"入，例如 ``#include <png.h>``。第三方标头块后面还应跟一个空行进行分隔。"
+"最后，第三方头文件（无论是来自 ``thirdparty`` 还是来自系统的包含路径）接下"
+"来，应该用 < and > 符号包含，例如 ``#include <png.h>`` 。第三方头文件块的后面"
+"也应该有一个空行来分隔。"
 
 #: ../../docs/community/contributing/code_style_guidelines.rst:146
-#, fuzzy
 msgid ""
 "Godot and third-party headers should be included in the file that requires "
 "them, i.e. in the `.h` header if used in the declarative code or in the `."
 "cpp` if used only in the imperative code."
 msgstr ""
-"Godot和第三方标头应该在需要它们的文件中引入，即如果在声明性代码中使用则在 `."
-"h` 头文件中引入，或者如果仅在命令式代码中使用则在 `.cpp` 中引入。"
+"Godot和第三方标头应包含在需要它们的文件中，即，如果在声明性代码中使用，则在 "
+"`.h` 标头中；如果仅在命令性代码中使用，则在 `.cpp` 中。"
 
 #: ../../docs/community/contributing/code_style_guidelines.rst:150
 msgid "Example:"
@@ -355,16 +352,15 @@ msgid "Java"
 msgstr "Java"
 
 #: ../../docs/community/contributing/code_style_guidelines.rst:240
-#, fuzzy
 msgid ""
 "Godot's Java code (mostly in ``platform/android``) is also enforced via "
 "``clang-format``, so see the instructions above to set it up. Keep in mind "
 "that this style guide only applies to code written and maintained by Godot, "
 "not third-party code such as the ``java/src/com/google`` subfolder."
 msgstr ""
-"Godot的Java代码(主要在 ``platform/android`` 中)也通过 ``clang-format`` 强制执"
-"行格式化，因此请参阅上面的说明进行设置。请记住，此样式指南仅适用于Godot编写和"
-"维护的代码，而不适用于第三方代码，例如 ``java/src/com/google`` 子文件夹。"
+"Godot的Java代码（主要在 ``platform/android`` 中）也是通过 ``clang-format`` 来"
+"执行的，所以请看上面的说明来设置它。请记住，本风格规则只适用于Godot编写和维护"
+"的代码，而不是第三方代码，如 ``java/src/com/google`` 子文件夹。"
 
 #: ../../docs/community/contributing/code_style_guidelines.rst:246
 msgid "Python"
@@ -387,9 +383,8 @@ msgstr ""
 "式>`\\。使用`Black使Python更改变黑<https://pypi.org/project/black/>`__."
 
 #: ../../docs/community/contributing/code_style_guidelines.rst:255
-#, fuzzy
 msgid "Using black locally"
-msgstr "在本地使用clang-format"
+msgstr "本地使用黑色"
 
 #: ../../docs/community/contributing/code_style_guidelines.rst:257
 msgid ""
@@ -398,21 +393,18 @@ msgid ""
 msgstr "首先，您需要安装black。Black需要python3.6.0+才能运行。"
 
 #: ../../docs/community/contributing/code_style_guidelines.rst:263
-#, fuzzy
 msgid "Here's how to install black:"
-msgstr "以下是如何安装clang-format："
+msgstr "下面介绍如何安装black："
 
 #: ../../docs/community/contributing/code_style_guidelines.rst:270
-#, fuzzy
 msgid "You then have different possibilities to apply black to your changes:"
-msgstr "然后，您就有不同的可能性将clang-format应用于您的更改："
+msgstr "然后，您有不同的可能性将黑色应用于您的更改："
 
 #: ../../docs/community/contributing/code_style_guidelines.rst:275
-#, fuzzy
 msgid ""
 "You can apply ``black`` manually to one or more files with the following "
 "command:"
-msgstr "您可以使用以下命令手动将clang-format应用于一个或多个文件："
+msgstr "您可以使用以下命令将 ``black`` 手动应用于一个或多个文件："
 
 #: ../../docs/community/contributing/code_style_guidelines.rst:282
 msgid ""
@@ -429,36 +421,33 @@ msgstr ""
 "符。"
 
 #: ../../docs/community/contributing/code_style_guidelines.rst:290
-#, fuzzy
 msgid ""
 "For ease of use, we provide a pre-commit hook for Git that will run black "
 "automatically on all your commits to check them, and let you apply its "
 "changes in the final commit."
 msgstr ""
-"为了易于使用，我们为Git提供了一个预提交钩子，它将在您的所有提交上自动运行"
-"clang-format来检查它们，并允许您在最终提交中应用其更改。"
+"为了便于使用，我们为Git提供了一个预提交钩子，它将在您的所有提交上自动运行以检"
+"查您的提交，并让您在最终提交中应用其更改。"
 
 #: ../../docs/community/contributing/code_style_guidelines.rst:294
-#, fuzzy
 msgid ""
 "This \"hook\" is a script which can be found in ``misc/hooks``. Refer to "
 "that folder's ``README.md`` for installation instructions."
 msgstr ""
-"这个 ``钩子`` 是一个可以在 ``misc/hooks`` 中找到的脚本，请参阅该文件夹的"
-"README.md以获取安装说明。"
+"这个 \"hook\" 是一个脚本，可以在 ``misc/hooks`` 中找到。请参考该文件夹的 "
+"``README.md`` ，了解安装说明。"
 
 #: ../../docs/community/contributing/code_style_guidelines.rst:299
-#, fuzzy
 msgid "Editor integration"
-msgstr "轨道插补"
+msgstr "编辑器集成"
 
 #: ../../docs/community/contributing/code_style_guidelines.rst:301
-#, fuzzy
 msgid ""
 "Many IDEs or code editors have beautifier plugins that can be configured to "
 "run black automatically, for example each time you save a file. For details "
 "you can check `Black editor integration <https://github.com/psf/black#editor-"
 "integration>`__."
 msgstr ""
-"大多数IDE或代码编辑器都有美化插件，可以配置为自动运行clang-format，例如每次保"
-"存文件时。"
+"许多集成开发环境或代码编辑器都有美化插件，可以配置为自动运行black，例如每次保"
+"存文件时。有关详细信息，可以查看 `black编辑器集成<https://github.com/psf/"
+"black#editor-integration>`__ 。"

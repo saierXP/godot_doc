@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-28 20:28+0800\n"
+"POT-Creation-Date: 2021-04-25 22:16+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -263,18 +263,18 @@ msgstr ""
 
 #: ../../docs/tutorials/shading/your_first_shader/your_first_canvasitem_shader.rst:142
 msgid "Uniform input"
-msgstr "统一值输入"
+msgstr "Uniform输入"
 
 #: ../../docs/tutorials/shading/your_first_shader/your_first_canvasitem_shader.rst:144
 msgid ""
 "Uniform input is used to pass data into a shader that will be the same "
 "across the entire shader."
-msgstr "统一值输入用于向着色器中传递数据，这些数据在整个着色器中都是相同的。"
+msgstr "Uniform输入是用来向着色器传递数据的，这些数据在整个着色器中是相同的。"
 
 #: ../../docs/tutorials/shading/your_first_shader/your_first_canvasitem_shader.rst:146
 msgid ""
 "You can use uniforms by defining them at the top of your shader like so:"
-msgstr "你可以通过在着色器顶部定义来使用统一值，如："
+msgstr "你可以通过在着色器顶部定义来使用Uniform值，如："
 
 #: ../../docs/tutorials/shading/your_first_shader/your_first_canvasitem_shader.rst:152
 msgid ""
@@ -284,7 +284,7 @@ msgstr "用法的更多详情请参见 :ref:`着色语言文档 <doc_shading_lan
 
 #: ../../docs/tutorials/shading/your_first_shader/your_first_canvasitem_shader.rst:154
 msgid "Add a uniform to change the amount of blue in our Sprite."
-msgstr "添加一个统一值来改变精灵中蓝色的数量。"
+msgstr "添加一个Uniform值来改变精灵中蓝色量。"
 
 #: ../../docs/tutorials/shading/your_first_shader/your_first_canvasitem_shader.rst:165
 msgid ""
@@ -294,9 +294,9 @@ msgid ""
 "uniform you just declared. If you change the value in the editor, it will "
 "overwrite the default value you provided in the shader."
 msgstr ""
-"现在，您可以从编辑器中更改精灵中的蓝色数量。回顾一下创建着色器的属性面板。您"
-"可以看到一个名为“着色器参数”的部分。展开这个部分，你会看到你刚刚声明的统一"
-"值。如果在编辑器中更改该值，它将覆盖着色器中提供的默认值。"
+"现在你可以在编辑器中改变Sprite的蓝色量。回头看看你创建着色器的地方的属性面"
+"板。你应该看到一个叫做 \"Shader Param\" 的部分。展开这个部分，你会看到你刚刚"
+"声明的Uniform。如果你在编辑器中改变这个值，它将覆盖你在着色器中提供的默认值。"
 
 #: ../../docs/tutorials/shading/your_first_shader/your_first_canvasitem_shader.rst:171
 msgid "Interacting with shaders from code"
@@ -308,16 +308,16 @@ msgid ""
 "which is called on the node's material resource. With a Sprite node, the "
 "following code can be used to set the ``blue`` uniform."
 msgstr ""
-"可以使用函数“set_shader_param()”从代码中更改统一值，该函数在节点的材质资源上"
-"调用。使用精灵节点，以下代码可用于设置“蓝色”统一值。"
+"你可以使用在节点的材质资源上调用的函数 ``set_shader_param()`` ，从代码中改变"
+"Uniform。对于一个Sprite节点，可以使用下面的代码来设置 ``blue`` Uniform。"
 
 #: ../../docs/tutorials/shading/your_first_shader/your_first_canvasitem_shader.rst:181
 msgid ""
 "Note that the name of the uniform is a string. The string must match exactly "
 "with how it is written in the shader, including spelling and case."
 msgstr ""
-"注意，统一值的名称是一个字符串。字符串必须与它在着色器中的书写方式完全匹配，"
-"包括拼写和大小写。"
+"注意，uniform值的名称是一个字符串。字符串必须与它在着色器中的书写方式完全匹"
+"配，包括拼写和大小写。"
 
 #: ../../docs/tutorials/shading/your_first_shader/your_first_canvasitem_shader.rst:185
 msgid "Your first vertex function"

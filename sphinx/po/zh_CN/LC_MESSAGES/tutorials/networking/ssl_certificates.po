@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-28 20:28+0800\n"
+"POT-Creation-Date: 2021-04-25 22:16+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -38,20 +38,19 @@ msgstr ""
 "ref:`HTTPClient <class_HTTPClient>` 类也通过使用相同的包装器来支持HTTPS。"
 
 #: ../../docs/tutorials/networking/ssl_certificates.rst:16
-#, fuzzy
 msgid ""
 "Godot includes SSL certificates from Mozilla, but you can provide your own "
 "with a .crt file in the project settings:"
-msgstr "为了使SSL工作，需要提供证书。必须在项目设置中指定.crt文件:"
+msgstr ""
+"Godot包括了来自Mozilla的SSL证书，但你可以在项目设置中用.crt文件提供你自己的："
 
 #: ../../docs/tutorials/networking/ssl_certificates.rst:21
-#, fuzzy
 msgid ""
 "This file should contain any number of public certificates in `PEM format "
 "<https://en.wikipedia.org/wiki/Privacy-enhanced_Electronic_Mail>`__."
 msgstr ""
-"此文件应包含了许多具有 https://en.wikipedia.org/wiki/Privacy-"
-"enhanced_Electronic_Mail 格式的公共证书。"
+"该文件应包含任意数量的 `PEM格式的公共证书<https://en.wikipedia.org/wiki/"
+"Privacy-enhanced_Electronic_Mail>`__ 。"
 
 #: ../../docs/tutorials/networking/ssl_certificates.rst:24
 msgid ""
@@ -68,14 +67,13 @@ msgid "Approach 1: self signed cert"
 msgstr "方法1:自签名证书"
 
 #: ../../docs/tutorials/networking/ssl_certificates.rst:34
-#, fuzzy
 msgid ""
 "The first approach is the simplest: generate a private and public key pair "
 "and add the public key (in PEM format) to the .crt file. The private key "
 "should go to your server."
 msgstr ""
-"第一种方法是最简单的:生成一副私钥和公钥对，并将公钥放在.crt文件中(再说一遍，"
-"是PEM格式)。 私钥应该放到您的服务器中。"
+"第一种方法最简单：生成一个私钥和公钥对，并将公钥（PEM格式）添加到.crt文件中。"
+"私钥应该放到你的服务器上。"
 
 #: ../../docs/tutorials/networking/ssl_certificates.rst:38
 msgid ""
@@ -102,14 +100,13 @@ msgstr ""
 "过程，但它更加``正式``并且确保您的身份被清晰地表示。"
 
 #: ../../docs/tutorials/networking/ssl_certificates.rst:52
-#, fuzzy
 msgid ""
 "Unless you are working with large companies or corporations, or need to "
 "connect to someone else's servers (i.e., connecting to Google or some other "
 "REST API provider via HTTPS), this method is not as useful."
 msgstr ""
-"除非您在大型公司工作或与其合作，或者需要连接到其他人的服务器(即通过HTTPS连接"
-"到Google或其他REST API提供商)，否则此方法并不实用。"
+"除非你与大公司或企业合作，或需要连接到别人的服务器（即通过HTTPS连接到谷歌或其"
+"他REST API供应商），否则这种方法就不那么有用。"
 
 #: ../../docs/tutorials/networking/ssl_certificates.rst:56
 msgid ""

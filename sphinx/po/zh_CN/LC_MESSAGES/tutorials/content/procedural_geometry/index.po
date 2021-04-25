@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-28 20:28+0800\n"
+"POT-Creation-Date: 2021-04-25 22:16+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -33,9 +33,8 @@ msgstr ""
 "况下如何发挥作用。"
 
 #: ../../docs/tutorials/content/procedural_geometry/index.rst:20
-#, fuzzy
 msgid "What is geometry?"
-msgstr "它是什么？"
+msgstr "什么是几何？"
 
 #: ../../docs/tutorials/content/procedural_geometry/index.rst:22
 msgid ""
@@ -47,9 +46,8 @@ msgstr ""
 "位置数组来表示。在Godot中，几何体用Meshes来表示。"
 
 #: ../../docs/tutorials/content/procedural_geometry/index.rst:26
-#, fuzzy
 msgid "What is a Mesh?"
-msgstr "它是什么？"
+msgstr "什么是网格？"
 
 #: ../../docs/tutorials/content/procedural_geometry/index.rst:28
 msgid ""
@@ -95,9 +93,8 @@ msgstr ""
 "数组为每个实例存储不同的颜色和变换，但所有的实例都使用相同的材质。"
 
 #: ../../docs/tutorials/content/procedural_geometry/index.rst:46
-#, fuzzy
 msgid "What a Mesh is"
-msgstr "空间节点"
+msgstr "什么是网格"
 
 #: ../../docs/tutorials/content/procedural_geometry/index.rst:48
 msgid ""
@@ -114,9 +111,8 @@ msgstr ""
 "递一个包含曲面信息的数组来手动构造一个Mesh。"
 
 #: ../../docs/tutorials/content/procedural_geometry/index.rst:54
-#, fuzzy
 msgid "Surfaces"
-msgstr "目标表面"
+msgstr "Surfaces"
 
 #: ../../docs/tutorials/content/procedural_geometry/index.rst:56
 msgid ""
@@ -128,9 +124,8 @@ msgstr ""
 "``MeshInstance.override_material`` 覆盖Mesh中所有曲面的材质。"
 
 #: ../../docs/tutorials/content/procedural_geometry/index.rst:60
-#, fuzzy
 msgid "Surface array"
-msgstr "raw array"
+msgstr "表面数组"
 
 #: ../../docs/tutorials/content/procedural_geometry/index.rst:62
 msgid ""
@@ -196,9 +191,8 @@ msgstr ""
 "有关ArrayMesh的更多信息，请参阅 :ref:`ArrayMesh tutorial <doc_arraymesh>`。"
 
 #: ../../docs/tutorials/content/procedural_geometry/index.rst:89
-#, fuzzy
 msgid "MeshDataTool"
-msgstr "网格数据工具"
+msgstr "MeshDataTool"
 
 #: ../../docs/tutorials/content/procedural_geometry/index.rst:91
 msgid ""
@@ -217,9 +211,8 @@ msgstr ""
 "<doc_meshdatatool>`."
 
 #: ../../docs/tutorials/content/procedural_geometry/index.rst:97
-#, fuzzy
 msgid "SurfaceTool"
-msgstr "表面工具"
+msgstr "SurfaceTool"
 
 #: ../../docs/tutorials/content/procedural_geometry/index.rst:99
 msgid ""
@@ -236,9 +229,8 @@ msgstr ""
 "<doc_surfacetool>`。"
 
 #: ../../docs/tutorials/content/procedural_geometry/index.rst:104
-#, fuzzy
 msgid "ImmediateGeometry"
-msgstr "立即几何体"
+msgstr "Immediate geometry (立即几何体)"
 
 #: ../../docs/tutorials/content/procedural_geometry/index.rst:106
 msgid ""
@@ -265,18 +257,16 @@ msgstr ""
 "过画线来可视化物理学射线广播等）。"
 
 #: ../../docs/tutorials/content/procedural_geometry/index.rst:115
-#, fuzzy
 msgid ""
 "For more information about ImmediateGeometry, please see the :ref:"
 "`ImmediateGeometry tutorial <doc_immediategeometry>`."
 msgstr ""
-"有关Godot如何处理输入的更多信息，请阅读 :ref:`Input Event "
-"Tutorial<doc_inputevent>` 。"
+"有关 ImmediateGeometry 的更多信息，请参见 :ref:`ImmediateGeometry tutorial "
+"<doc_immediategeometry>` 。"
 
 #: ../../docs/tutorials/content/procedural_geometry/index.rst:118
-#, fuzzy
 msgid "Which one should I use?"
-msgstr "使用哪种运动方式？"
+msgstr "我应该使用哪一个？"
 
 #: ../../docs/tutorials/content/procedural_geometry/index.rst:120
 msgid ""

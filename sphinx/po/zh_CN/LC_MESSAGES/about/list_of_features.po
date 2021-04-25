@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-28 20:28+0800\n"
+"POT-Creation-Date: 2021-04-25 22:16+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -26,14 +26,16 @@ msgid "This page aims to list all features currently supported by Godot."
 msgstr "这一页旨在罗列所有的现在被 Godot 支持的功能特性。"
 
 #: ../../docs/about/list_of_features.rst:10
+#, fuzzy
 msgid ""
 "This page lists features supported by the current stable version of Godot "
 "(3.2). `More features <https://docs.godotengine.org/en/latest/about/"
 "list_of_features.html>`__ are available in the latest development version "
 "(4.0)."
 msgstr ""
-"这个页面列出了当前稳定版本的Godot (3.2)所支持的特性。更多的特性可以在最新的开"
-"发版本(4.0)中查阅。"
+"这个页面列出了当前稳定版本的Godot (3.3)所支持的特性。最新的开发版本（4.0）提"
+"供`更多特性 <https://docs.godotengine.org/en/latest/about/list_of_features."
+"html>`__ 。"
 
 #: ../../docs/about/list_of_features.rst:15
 msgid "Features"
@@ -566,7 +568,7 @@ msgstr "色调映射（线性、Reinhard、Filmic、ACES）。"
 
 #: ../../docs/about/list_of_features.rst:220
 msgid "*GLES3:* Automatic exposure adjustments based on viewport brightness."
-msgstr "*GLES3:*根据视口亮度自动调整曝光。"
+msgstr "*GLES3:*根据视窗亮度自动调整曝光。"
 
 #: ../../docs/about/list_of_features.rst:221
 msgid "*GLES3:* Near and far depth of field."
@@ -896,7 +898,7 @@ msgstr "**API使用:**"
 
 #: ../../docs/about/list_of_features.rst:357
 msgid "*Windows:* WASAPI."
-msgstr "*Windows:* WASAPI."
+msgstr "*Windows：* WASAPI。"
 
 #: ../../docs/about/list_of_features.rst:358
 msgid "*macOS:* CoreAudio."
@@ -1100,14 +1102,15 @@ msgid ""
 "Store localization strings using :ref:`CSV <doc_internationalizing_games>` "
 "or :ref:`gettext <doc_localization_using_gettext>`."
 msgstr ""
-"使用 ：ref：'CSV <doc_internationalizing_games>\"或 ：ref：'gettext "
-"<doc_localization_using_gettext>\"存储本地化字符串。"
+"使用 :ref:`CSV <doc_internationalizing_games>` 或 :ref:`gettext "
+"<doc_localization_using_gettext>` 存储本地化字符串。"
 
 #: ../../docs/about/list_of_features.rst:438
 msgid ""
 "Use localized strings in your project automatically in GUI elements or by "
 "using the ``tr()`` function."
-msgstr "通过GUI元素或使用 ``tr()`` 函数在项目中自动使用本地化字符串。"
+msgstr ""
+"在你的项目中自动在GUI元素中或通过使用 ``tr()`` 函数使用本地化的字符串。"
 
 #: ../../docs/about/list_of_features.rst:440
 msgid ""

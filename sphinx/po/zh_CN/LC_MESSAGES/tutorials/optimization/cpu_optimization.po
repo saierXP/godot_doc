@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-28 20:28+0800\n"
+"POT-Creation-Date: 2021-04-25 22:16+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,14 +18,12 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../docs/tutorials/optimization/cpu_optimization.rst:4
-#, fuzzy
 msgid "CPU optimization"
-msgstr "优化"
+msgstr "CPU优化"
 
 #: ../../docs/tutorials/optimization/cpu_optimization.rst:7
-#, fuzzy
 msgid "Measuring performance"
-msgstr "灯光性能"
+msgstr "测量性能"
 
 #: ../../docs/tutorials/optimization/cpu_optimization.rst:9
 msgid ""
@@ -46,9 +44,8 @@ msgid ""
 msgstr "对于CPU来说，找出瓶颈的最简单方法就是使用性能剖析器。"
 
 #: ../../docs/tutorials/optimization/cpu_optimization.rst:19
-#, fuzzy
 msgid "CPU profilers"
-msgstr "性能分析器"
+msgstr "CPU分析器"
 
 #: ../../docs/tutorials/optimization/cpu_optimization.rst:21
 msgid ""
@@ -105,9 +102,8 @@ msgid ""
 msgstr "有关使用Godot内置分析器的更多信息，请参阅：:ref:`doc_debugger_panel`。"
 
 #: ../../docs/tutorials/optimization/cpu_optimization.rst:52
-#, fuzzy
 msgid "External profilers"
-msgstr "外部文件"
+msgstr "外部分析器"
 
 #: ../../docs/tutorials/optimization/cpu_optimization.rst:54
 msgid ""
@@ -194,9 +190,8 @@ msgstr ""
 "导致了2D批处理的发展，通过减少这方面的瓶颈，大大加快了2D渲染的速度。"
 
 #: ../../docs/tutorials/optimization/cpu_optimization.rst:99
-#, fuzzy
 msgid "Manually timing functions"
-msgstr "内置功能"
+msgstr "手动计时函数"
 
 #: ../../docs/tutorials/optimization/cpu_optimization.rst:101
 msgid ""
@@ -231,7 +226,6 @@ msgstr ""
 "说明优化是否有效（或无效）。"
 
 #: ../../docs/tutorials/optimization/cpu_optimization.rst:127
-#, fuzzy
 msgid "Caches"
 msgstr "缓存"
 
@@ -296,7 +290,6 @@ msgstr ""
 "gdnative>` 时，你还是要特别注意缓存问题。"
 
 #: ../../docs/tutorials/optimization/cpu_optimization.rst:160
-#, fuzzy
 msgid "Languages"
 msgstr "语言"
 
@@ -353,9 +346,8 @@ msgstr ""
 "内。"
 
 #: ../../docs/tutorials/optimization/cpu_optimization.rst:189
-#, fuzzy
 msgid "Other languages"
-msgstr "设计语言"
+msgstr "其他语言"
 
 #: ../../docs/tutorials/optimization/cpu_optimization.rst:191
 msgid ""
@@ -487,9 +479,8 @@ msgstr ""
 "况下，更是如此。"
 
 #: ../../docs/tutorials/optimization/cpu_optimization.rst:251
-#, fuzzy
 msgid "Here are some techniques to speed up physics:"
-msgstr "有一些事情需要注意："
+msgstr "以下是一些加速物理的技巧:"
 
 #: ../../docs/tutorials/optimization/cpu_optimization.rst:253
 msgid ""

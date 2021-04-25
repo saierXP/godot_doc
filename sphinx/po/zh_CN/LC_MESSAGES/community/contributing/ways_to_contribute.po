@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-28 20:28+0800\n"
+"POT-Creation-Date: 2021-04-25 22:16+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -88,7 +88,6 @@ msgstr ""
 "程)及其翻译。以下各节将介绍对引擎做贡献的所有这些“直接”方式。"
 
 #: ../../docs/community/contributing/ways_to_contribute.rst:40
-#, fuzzy
 msgid ""
 "**Donate.** Godot is a non-profit project, but it can still benefit from "
 "user donations for many things. Apart from usual expenses such as hosting "
@@ -102,13 +101,12 @@ msgid ""
 "some money to the project, check `our website <https://godotengine.org/"
 "donate>`_ for details."
 msgstr ""
-"**捐赠。** Godot是一个非盈利项目，但它仍然可以从用户捐赠中受益从而做许多事"
-"情。 除了如托管费用或活动宣传材料等日常开支外，我们还会在必要时使用捐款来购买"
-"硬件(例如，使用捐款来购买Macbook Pro，以实现Retina/HiDPI支持，以及其它与macOS"
-"相关的其他功能)。最重要的是，我们还使用捐款来聘请核心开发人员，以便他们可以在"
-"引擎上全职工作。即使月工资很低，我们也需要稳定的捐款收入才能继续这样做，到目"
-"前为止，这对项目非常有利。因此，如果您想为该项目捐款，请访问 `我们的网站 "
-"<https://godotengine.org/donate>`_ 了解详细信息。"
+"**捐赠。** Godot是一个非盈利项目，但它可以从用户捐赠中受益。 除了服务器托管费"
+"用和活动宣传材料等日常开支外，我们还会在必要时使用捐款来购买硬件(例如，使用捐"
+"款购买一台Macbook Pro来开发Retina/HiDPI支持，以及和macOS相关的其他功能)。最重"
+"要的是，我们会使用捐款聘请全职开发引擎的核心开发人员。即使月薪不高，我们也需"
+"要稳定的捐款收入才能维持，而目前为止，全职开发对项目非常有益。如果您想为该项"
+"目捐款，请访问 `我们的网站 <https://godotengine.org/donate>`_ 了解详细信息。"
 
 #: ../../docs/community/contributing/ways_to_contribute.rst:54
 msgid "Contributing code"
@@ -127,7 +125,6 @@ msgstr ""
 "软件 <https://en.wikipedia.org/wiki/Free_and_open-source_software>`_ 。"
 
 #: ../../docs/community/contributing/ways_to_contribute.rst:61
-#, fuzzy
 msgid ""
 "As such, everyone is entitled to modify `Godot's source code <https://github."
 "com/godotengine/godot>`_, and send those modifications back to the upstream "
@@ -137,9 +134,9 @@ msgid ""
 "Git commits (patches) into the main development branch."
 msgstr ""
 "因此，每个人都有权修改 `Godot的源代码 <https://github.com/godotengine/"
-"godot>`_ ，并以补丁(一个文本文件，描述了可以立即应用的更改)的形式将这些修改发"
-"送回上游项目，或者——以我们使用的现代工作流程——通过所谓的 ``拉取请求`` (PR)，"
-"即直接将一个或多个git commit(补丁)合并到主开发分支的方案。"
+"godot>`_ ，并以补丁（描述预定更改的文本文件）的形式将这些修改发送回上游项目，"
+"或者——用现代的工作流程——通过所谓的“拉取请求”(PR)，直接请求将一个或多个Git "
+"commits（补丁）合并到主开发分支。"
 
 #: ../../docs/community/contributing/ways_to_contribute.rst:68
 msgid "Contributing code changes upstream has two big advantages:"
@@ -161,26 +158,24 @@ msgstr ""
 "在某些情况下，如果更改过于具体，则仅在您自己的项目中保留可能依然有用。"
 
 #: ../../docs/community/contributing/ways_to_contribute.rst:78
-#, fuzzy
 msgid ""
 "The whole community will benefit from your work, and other contributors will "
 "behave the same way, contributing code that will be beneficial to you. At "
 "the time of this writing, more than 1000 developers have contributed code "
 "changes to the engine!"
 msgstr ""
-"整个社区将从您的工作中受益，其他贡献者将以相同的方式行事，贡献对您有益的代"
-"码。在撰写本文时，已有超过300名开发人员为引擎贡献了代码更改！"
+"整个社区都会从你的工作中受益，其他贡献者也会以同样的方式，贡献对你有益的代"
+"码。在写这篇文章的时候，已经有超过1000名开发者为引擎贡献了代码的修改!"
 
 #: ../../docs/community/contributing/ways_to_contribute.rst:83
-#, fuzzy
 msgid ""
 "To ensure good collaboration and overall quality, the Godot developers "
 "enforce some rules for code contributions, for example regarding the style "
 "to use in the C++ code (indentation, brackets, etc.) or the Git and PR "
 "workflow."
 msgstr ""
-"为了确保良好的协作和整体质量，Godot开发人员对代码贡献实施了一些规则，例如有关"
-"C ++代码(缩进、方括号等)或git和PR工作流程中使用的样式。"
+"为了确保良好的合作和整体质量，Godot的开发者对代码贡献实行一些规则，例如关于C+"
+"+代码的风格（缩进、括号等）或Git和PR工作流程。"
 
 #: ../../docs/community/contributing/ways_to_contribute.rst:87
 msgid ""
@@ -376,7 +371,6 @@ msgid ""
 msgstr "在Godot中有两个独立的称为 ``文档`` 的资源："
 
 #: ../../docs/community/contributing/ways_to_contribute.rst:179
-#, fuzzy
 msgid ""
 "**The class reference.** This is the documentation for the complete Godot "
 "API as exposed to GDScript and the other scripting languages. It can be "
@@ -385,10 +379,10 @@ msgid ""
 "the `doc/base/classes.xml` in Godot's Git repository, and make a pull "
 "request. See :ref:`doc_updating_the_class_reference` for more details."
 msgstr ""
-"**类参考手册。** 这是GDScript和其他脚本语言公开的完整Godot API的文档。可以直"
-"接在Godot的代码编辑器中离线查询，也可以在线访问 :ref:`Godot API <toc-class-"
-"ref>`。要为类参考手册做贡献，您必须在Godot的git存储库中编辑 `doc/base/"
-"classes.xml`，并拉取请求。有关更多详细信息，参见 :ref:"
+"**类参考.** 这是完整的Godot API的文档，它呈现在GDScript和其他脚本语言中。可以"
+"在离线状态下，直接在Godot的代码编辑器中查阅，也可以在线查阅 :ref:`Godot API "
+"<toc-class-ref>`。要对类参考做出贡献，你必须编辑Godot的Git仓库中的 `doc/base/"
+"classes.xml` ，并pull request。更多细节请看 :ref:"
 "`doc_updating_the_class_reference`。"
 
 #: ../../docs/community/contributing/ways_to_contribute.rst:187
@@ -407,9 +401,8 @@ msgstr ""
 "`doc_documentation_guidelines`。"
 
 #: ../../docs/community/contributing/ways_to_contribute.rst:195
-#, fuzzy
 msgid "Contributing translations"
-msgstr "导入翻译"
+msgstr "贡献翻译"
 
 #: ../../docs/community/contributing/ways_to_contribute.rst:197
 msgid ""
@@ -421,6 +414,5 @@ msgstr ""
 "们的社区帮助把Godot编辑器和它的文档翻译成多种语言。"
 
 #: ../../docs/community/contributing/ways_to_contribute.rst:201
-#, fuzzy
 msgid "See :ref:`doc_editor_and_docs_localization` for more details."
-msgstr "SCons（有关详细信息，请参阅 :ref:`doc_compiling_for_windows`）。"
+msgstr "详见 :ref:`doc_editor_and_docs_localization` 。"

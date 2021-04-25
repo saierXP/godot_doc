@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-28 20:28+0800\n"
+"POT-Creation-Date: 2021-04-25 22:16+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -287,11 +287,11 @@ msgstr ""
 
 #: ../../docs/tutorials/3d/spatial_material.rst:150
 msgid "Use as Albedo"
-msgstr "Use as Albedo(用作反照率颜色)"
+msgstr "Use as Albedo(用作反射率颜色)"
 
 #: ../../docs/tutorials/3d/spatial_material.rst:152
 msgid "Choosing this option means vertex color is used as albedo color."
-msgstr "选择此选项意味着用顶点颜色作为反照率颜色。"
+msgstr "选择此选项意味着用顶点颜色作为反射颜色。"
 
 #: ../../docs/tutorials/3d/spatial_material.rst:155
 msgid "Is sRGB"
@@ -594,7 +594,7 @@ msgstr ""
 
 #: ../../docs/tutorials/3d/spatial_material.rst:306
 msgid "Albedo"
-msgstr "Albedo(反照率)"
+msgstr "Albedo(反射率)"
 
 #: ../../docs/tutorials/3d/spatial_material.rst:308
 msgid ""
@@ -611,7 +611,7 @@ msgstr ""
 
 #: ../../docs/tutorials/3d/spatial_material.rst:314
 msgid "Albedo color and texture can be used together as they are multiplied."
-msgstr "反照率颜色(Albedo Color)和纹理可以一起使用，因为它们会被相乘。"
+msgstr "反射颜色(Albedo Color)和纹理可以一起使用，因为它们会被相乘。"
 
 #: ../../docs/tutorials/3d/spatial_material.rst:316
 msgid ""
@@ -865,8 +865,8 @@ msgid ""
 "texture, which can be blended in many ways. By combining this with secondary "
 "UV or triplanar modes, many interesting textures can be achieved."
 msgstr ""
-"Godot允许使用辅助反照率和法线贴图生成细节纹理，可以通过多种方式进行混合。 通"
-"过将其与二级UV或三平面模式相结合，可以实现许多有趣的纹理。"
+"Godot允许使用辅助反射和法线贴图生成细节纹理，可以通过多种方式进行混合。 通过"
+"将其与二级UV或三平面模式相结合，可以实现许多有趣的纹理。"
 
 #: ../../docs/tutorials/3d/spatial_material.rst:477
 msgid "There are several settings that control how detail is used."
@@ -926,8 +926,8 @@ msgid ""
 "Albedo: This is where you put an albedo texture you want to blend. If "
 "nothing is in this slot it will be interpreted as white by default."
 msgstr ""
-"Albedo：在此处放置要混合的Albedo纹理。如果此插槽中没有任何内容，则默认情况下"
-"将其解释为纯白。"
+"Albedo：在此处放置要混合的反射纹理。如果此插槽中没有任何内容，则默认情况下将"
+"其解释为纯白。"
 
 #: ../../docs/tutorials/3d/spatial_material.rst:505
 msgid ""

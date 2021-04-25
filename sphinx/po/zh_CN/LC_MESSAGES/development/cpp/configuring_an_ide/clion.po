@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-28 20:28+0800\n"
+"POT-Creation-Date: 2021-04-25 22:16+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,13 +22,12 @@ msgid "CLion"
 msgstr "CLion"
 
 #: ../../docs/development/cpp/configuring_an_ide/clion.rst:6
-#, fuzzy
 msgid ""
 "`CLion <https://www.jetbrains.com/clion/>`_ is a commercial `JetBrains "
 "<https://www.jetbrains.com/>`_ IDE for C++."
 msgstr ""
-"`CLion <https://www.jetbrains.com/clion/>`_是一个商用的`JetBrains <https://"
-"www.jetbrains.com/>`_ C++的IDE。"
+"`CLion <https://www.jetbrains.com/clion/>` _是一个商业化的 `JetBrains "
+"<https://www.jetbrains.com/>` _的C++IDE。"
 
 #: ../../docs/development/cpp/configuring_an_ide/clion.rst:10
 msgid "Importing the project"
@@ -56,13 +55,15 @@ msgstr ""
 "菜单中选择**文件 > 打开**。"
 
 #: ../../docs/development/cpp/configuring_an_ide/clion.rst:20
+#, fuzzy
 msgid ""
 "Navigate to ``<Godot root directory>/platform/android/java/lib`` (the "
 "``CMakeLists.txt`` file is located there) and select it (but *not* the "
 "``CMakeLists.txt`` file itself), then click **OK**."
 msgstr ""
-"导航到``<Godot根目录>/platform/android/java/lib``(``CMakeLists.txt``文件就在"
-"那里)并选择它(但不是*``CMakeLists.txt``文件本身)，然后点击**确定**。"
+"导航到 ``<Godot根目录>/platform/android/java/nativeSrcsConfigs`` "
+"（ ``CMakeLists.txt`` 文件位于那里）并选择它（但 *不是* ``CMakeLists.txt`` 文"
+"件本身），然后点击 **OK** 。"
 
 #: ../../docs/development/cpp/configuring_an_ide/clion.rst:27
 msgid "The folder containing the ``CMakeLists.txt`` file."

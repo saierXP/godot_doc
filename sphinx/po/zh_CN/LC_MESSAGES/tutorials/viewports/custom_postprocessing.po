@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-28 20:28+0800\n"
+"POT-Creation-Date: 2021-04-25 22:16+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -26,14 +26,13 @@ msgid "Introduction"
 msgstr "简介"
 
 #: ../../docs/tutorials/viewports/custom_postprocessing.rst:9
-#, fuzzy
 msgid ""
 "Godot provides many post-processing effects out of the box, including Bloom, "
 "DOF, and SSAO. Sometimes you want to write your own custom effect. Here's "
 "how you can do so."
 msgstr ""
-"Godot提供了许多开箱即用的后处理效果，包括Bloom，DOF和SSAO。 有时您想编写自己"
-"的自定义效果。 这是您如何做到的。"
+"Godot提供许多开箱即用的后期处理效果，包括Bloom、DOF和SSAO。有时你想编写自己的"
+"自定义效果。下面介绍如何做到这一点。"
 
 #: ../../docs/tutorials/viewports/custom_postprocessing.rst:12
 msgid ""
@@ -58,15 +57,14 @@ msgstr ""
 "reading_shaders>` 。"
 
 #: ../../docs/tutorials/viewports/custom_postprocessing.rst:22
-#, fuzzy
 msgid ""
 "As of the time of writing, Godot does not support rendering to multiple "
 "buffers at the same time. Your post-processing shader will not have access "
 "to normals or other render passes. You only have access to the rendered "
 "frame."
 msgstr ""
-"在撰写本文时，Godot不支持同时渲染到多个缓冲区。 您的后期处理着色器将无法访问"
-"法线或其他渲染过程。 您只能访问渲染帧。"
+"在撰写本文时，Godot不支持同时对多个缓冲区进行渲染。处理之后着色器将无法访问法"
+"线或其他渲染通道。你只能访问已渲染的帧。"
 
 #: ../../docs/tutorials/viewports/custom_postprocessing.rst:27
 msgid "Single pass post-processing"
@@ -84,54 +82,50 @@ msgstr ""
 "另一个屏幕内显示您的``Viewport`` :ref:`Control <class_Control>` 节点。"
 
 #: ../../docs/tutorials/viewports/custom_postprocessing.rst:36
-#, fuzzy
 msgid ""
 "Rendering using a ``Viewport`` gives you control over how the scene render, "
 "including the framerate, and you can use the ``ViewportContainer`` to render "
 "3D objects in a 2D scene."
 msgstr ""
-"使用 ``Viewport`` 渲染可以控制场景的渲染方式，包括帧速率，您可以使用 "
-"``ViewportContainer`` 在2D场景中渲染3D对象。"
+"使用 ``Viewport`` 进行渲染可以控制场景的渲染方式，包括帧率，你可以使用 "
+"``ViewportContainer`` 来渲染2D场景中的3D对象。"
 
 #: ../../docs/tutorials/viewports/custom_postprocessing.rst:40
-#, fuzzy
 msgid ""
 "For this demo, we will use a :ref:`Node2D <class_Node2D>` with a "
 "``ViewportContainer`` and finally a ``Viewport``. Your **Scene** tab should "
 "look like this:"
 msgstr ""
-"对于这个演示，我们将使用 :ref:`Node2D <class_Node2D>` 和 "
-"``ViewportContainer`` ，最后是 ``Viewport`` 。 您的“节点”选项卡应如下所示:"
+"在这个演示中，我们将使用一个 :ref:`Node2D <class_Node2D>` 与一个 "
+"``ViewportContainer`` 和一个 ``Viewport`` 。你的 **Scene** 选项卡应该看起来像"
+"这样:"
 
 #: ../../docs/tutorials/viewports/custom_postprocessing.rst:45
-#, fuzzy
 msgid ""
 "Inside the ``Viewport``, you can have whatever you want. This will contain "
 "your main scene. For this tutorial, we will use a field of random boxes:"
 msgstr ""
-"在“Viewport”里，您可以得到任何您想要的东西。这将包含您的主场景。对于本教程，"
-"我们将使用一个随机框字段:"
+"在 ``Viewport`` 内，你可以有任何你想要的东西。这将包含你的主场景。在本教程"
+"中，我们将使用一个随机盒子的领域："
 
 #: ../../docs/tutorials/viewports/custom_postprocessing.rst:50
-#, fuzzy
 msgid ""
 "Add a new :ref:`ShaderMaterial <class_ShaderMaterial>` to the "
 "``ViewportContainer``, and assign a new shader resource to it. You can "
 "access your rendered ``Viewport`` with the built-in ``TEXTURE`` uniform."
 msgstr ""
-"在 ``ViewportContainer`` 中添加一个新的a :ref:`ShaderMaterial "
-"<class_ShaderMaterial>` ，并为其分配一个新的着色器资源。 您可以使用内置的 "
-"``TEXTURE`` 制服来访问渲染的 ``Viewport`` 。"
+"添加一个新的 :ref:`ShaderMaterial <class_ShaderMaterial>` 到 "
+"``ViewportContainer`` ，并给它分配一个新的着色器资源。你可以通过内置的 "
+"``TEXTURE`` 制式来访问你渲染好的 ``Viewport`` 。"
 
 #: ../../docs/tutorials/viewports/custom_postprocessing.rst:55
-#, fuzzy
 msgid ""
 "You can choose not to use a ``ViewportContainer``, but if you do so, you "
 "will need to create your own uniform in the shader and pass the ``Viewport`` "
 "texture in manually, like so:"
 msgstr ""
-"您可以选择不使用 ``ViewportContainer`` ，但如果这样做，您将需要在着色器中创建"
-"自己的制服并手动传递 ``Viewport`` 纹理，如下所示:"
+"你可以选择不使用 ``ViewportContainer`` ，但如果这样做，将需要在着色器中创建你"
+"自己的uniform，并手动传递 ``Viewport`` 纹理，像这样:"
 
 #: ../../docs/tutorials/viewports/custom_postprocessing.rst:64
 msgid "And you can pass the texture into the shader from GDScript like so:"
@@ -176,7 +170,6 @@ msgstr ""
 "其进行处理。"
 
 #: ../../docs/tutorials/viewports/custom_postprocessing.rst:108
-#, fuzzy
 msgid ""
 "To make a multi-pass post-processing shader, you stack ``Viewport`` nodes. "
 "In the example above, you rendered the content of one ``Viewport`` object "
@@ -185,10 +178,11 @@ msgid ""
 "``Viewport`` into another and then rendering the last ``Viewport`` into the "
 "root ``Viewport``."
 msgstr ""
-"要制作多遍后处理着色器，请堆叠“Viewport”节点。 在上面的示例中，您通过 "
-"``ViewportContainer`` 节点将一个 ``Viewport`` 对象的内容渲染到根 "
-"``Viewport`` 中。 您可以通过将一个 ``Viewport`` 的内容渲染到另一个，然后将最"
-"后一个 ``Viewport`` 渲染到根 ``Viewport`` 中来为多遍着色器做同样的事情。"
+"为了制作一个多通道的后期处理着色器，你可以将 ``Viewport`` 节点堆叠起来。在上"
+"面的例子中，通过一个 ``ViewportContainer`` 节点，将一个 ``Viewport`` 对象的内"
+"容渲染到根 ``Viewport`` 。通过将一个 ``Viewport`` 的内容渲染到另一个 "
+"``Viewport`` 中，然后将最后一个 ``Viewport`` 渲染到根 ``Viewport`` 中，对一个"
+"多通道着色器做相同的操作。"
 
 #: ../../docs/tutorials/viewports/custom_postprocessing.rst:113
 msgid "Your scene hierarchy will look something like this:"
@@ -213,11 +207,10 @@ msgstr ""
 "地渲染它们。"
 
 #: ../../docs/tutorials/viewports/custom_postprocessing.rst:126
-#, fuzzy
 msgid ""
 "Apart from the node structure, the steps are the same as with the single-"
 "pass post-processing shader."
-msgstr "除节点结构外，步骤与单遍后处理着色器相同。"
+msgstr "除了节点结构外，其步骤与单通道后期处理着色器相同。"
 
 #: ../../docs/tutorials/viewports/custom_postprocessing.rst:128
 msgid ""
@@ -230,17 +223,15 @@ msgstr ""
 "`ViewportContainers <class_ViewportContainer>`。 应用着色器的顺序无关紧要:"
 
 #: ../../docs/tutorials/viewports/custom_postprocessing.rst:168
-#, fuzzy
 msgid ""
 "Using the above code, you should end up with a full screen blur effect like "
 "below."
 msgstr "使用上面的代码，您应该得到如下所示的全屏模糊效果。"
 
 #: ../../docs/tutorials/viewports/custom_postprocessing.rst:172
-#, fuzzy
 msgid ""
 "For more information on how ``Viewport`` nodes work, see the :ref:`Viewports "
 "Tutorial <doc_viewports>`."
 msgstr ""
 "有关 ``Viewport`` 节点如何工作的更多信息，请参阅 :ref:`Viewports Tutorial "
-"<doc_viewports>`。"
+"<doc_viewports>` 。"

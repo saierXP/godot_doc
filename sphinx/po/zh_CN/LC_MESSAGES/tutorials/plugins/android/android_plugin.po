@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-28 20:28+0800\n"
+"POT-Creation-Date: 2021-04-25 22:16+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -108,9 +108,8 @@ msgid "Push notifications"
 msgstr "推送通知"
 
 #: ../../docs/tutorials/plugins/android/android_plugin.rst:33
-#, fuzzy
 msgid "Android plugin"
-msgstr "Android"
+msgstr "安卓插件"
 
 #: ../../docs/tutorials/plugins/android/android_plugin.rst:35
 msgid ""
@@ -124,20 +123,21 @@ msgstr ""
 "虽然在Godot 3.2中引入了Android插件系统，但从Godot 3.2.2开始，Android插件系统"
 "得到了重大架构更新。新的插件系统与之前的插件系统是向后不兼容的，但在未来发布"
 "的3.2.x分支中，这两个系统都会保留功能。由于我们之前没有对Android插件系统进行"
-"版本更新，新的插件系统现在被标记为``v1``，是现代Godot Android生态系统的起点。"
+"版本更新，新的插件系统现在被标记为 ``v1`` ，是现代Godot Android生态系统的起"
+"点。"
 
 #: ../../docs/tutorials/plugins/android/android_plugin.rst:39
 msgid ""
 "**Note:** In Godot 4.0, the previous system will be fully deprecated and "
 "removed."
-msgstr "**注意：**在Godot 4.0中，以前的系统将被完全废弃和删除。"
+msgstr "**注意：** 在Godot 4.0中，以前的系统将被完全废弃和删除。"
 
 #: ../../docs/tutorials/plugins/android/android_plugin.rst:41
 msgid ""
 "As a prerequisite, make sure you understand how to set up a :ref:`custom "
 "build environment<doc_android_custom_build>` for Android."
 msgstr ""
-"作为前提条件，请确保你了解如何为Android设置一个:ref:`自定义构建环境"
+"作为前提条件，请确保你了解如何为Android设置一个 :ref:`自定义构建环境"
 "<doc_android_custom_build>`。"
 
 #: ../../docs/tutorials/plugins/android/android_plugin.rst:43
@@ -146,9 +146,9 @@ msgid ""
 "developer.android.com/studio/projects/android-library#aar-contents>`_ (*aar* "
 "archive file) with the following caveats:"
 msgstr ""
-"odot Android插件的核心是一个`Android归档库<https://developer.android.com/"
-"studio/projects/android-library#aar-contents>`_(*aar*归档文件)，其注意事项如"
-"下："
+"odot Android插件的核心是一个 `Android归档库<https://developer.android.com/"
+"studio/projects/android-library#aar-contents>`_ ( *aar* 归档文件)，其注意事项"
+"如下："
 
 #: ../../docs/tutorials/plugins/android/android_plugin.rst:46
 msgid ""
@@ -157,19 +157,18 @@ msgid ""
 "release on the `Godot download page <https://godotengine.org/download>`_."
 msgstr ""
 "该库必须依赖Godot引擎库(``godot-lib.<version>.<status>.aar``)。每一个Godot版"
-"本都有一个稳定的版本，可以在`Godot下载页面<https://godotengine.org/"
-"download>`_。"
+"本都有一个稳定的版本，可以在 `Godot下载页面<https://godotengine.org/"
+"download>`_ 。"
 
 #: ../../docs/tutorials/plugins/android/android_plugin.rst:48
 msgid ""
 "The library must include a specifically configured ``<meta-data>`` tag in "
 "its manifest file."
-msgstr "库必须在其清单文件中包含一个专门配置的``<meta-data>``标签。"
+msgstr "库必须在其清单文件中包含一个专门配置的 ``<meta-data>`` 标签。"
 
 #: ../../docs/tutorials/plugins/android/android_plugin.rst:51
-#, fuzzy
 msgid "Building an Android plugin"
-msgstr "创建Android模块"
+msgstr "创建Android插件"
 
 #: ../../docs/tutorials/plugins/android/android_plugin.rst:53
 msgid ""
@@ -177,16 +176,16 @@ msgid ""
 "is strongly recommended as the IDE to use to create Android plugins. The "
 "instructions below assumes that you're using Android Studio."
 msgstr ""
-"**前提条件：** `Android Studio <https://developer.android.com/studio>`_强烈建"
-"议作为创建Android插件的IDE使用。下面的说明假设你使用的是Android Studio。"
+"**前提条件：** `Android Studio <https://developer.android.com/studio>`_ 强烈"
+"建议作为创建Android插件的IDE使用。下面的说明假设你使用的是Android Studio。"
 
 #: ../../docs/tutorials/plugins/android/android_plugin.rst:56
 msgid ""
 "Follow `these instructions <https://developer.android.com/studio/projects/"
 "android-library>`__ to create an Android library module for your plugin."
 msgstr ""
-"按照`这些说明<https://developer.android.com/studio/projects/android-"
-"library>`__为你的插件创建一个Android库模块。"
+"按照 `这些说明<https://developer.android.com/studio/projects/android-"
+"library>`__ 为你的插件创建一个Android库模块。"
 
 #: ../../docs/tutorials/plugins/android/android_plugin.rst:58
 msgid "Add the Godot engine library as a dependency to your plugin module:"
@@ -198,7 +197,7 @@ msgid ""
 "from the `Godot download page <https://godotengine.org/download>`_ (e.g: "
 "``godot-lib.3.2.2.stable.aar``)."
 msgstr ""
-"从`Godot下载页面<https://godotengine.org/download>`_ 下载Godot引擎库"
+"从 `Godot下载页面<https://godotengine.org/download>`_ 下载Godot引擎库"
 "（ ``godot-lib.<版本（version）>.<状态（status）>.arr`` ）（例如： ``godot-"
 "lib.3.2.2.stable.arr`` )。"
 
@@ -208,16 +207,16 @@ msgid ""
 "android-library#AddDependency>`__ to add the Godot engine library as a "
 "dependency for your plugin."
 msgstr ""
-"按照`这些说明<https://developer.android.com/studio/projects/android-"
-"library#AddDependency>`__来添加Godot引擎库作为你的插件的依赖。"
+"按照 `这些说明<https://developer.android.com/studio/projects/android-"
+"library#AddDependency>`__ 来添加Godot引擎库作为你的插件的依赖。"
 
 #: ../../docs/tutorials/plugins/android/android_plugin.rst:65
 msgid ""
 "In the plugin module's ``build.gradle`` file, replace ``implementation`` "
 "with ``compileOnly`` for the dependency line for the Godot engine library."
 msgstr ""
-"在插件模块的``build.gradle``文件中，将Godot引擎库的依赖行``implementation``改"
-"为``compileOnly``。"
+"在插件模块的 ``build.gradle`` 文件中，将Godot引擎库的依赖行 "
+"``implementation`` 改为 ``compileOnly`` 。"
 
 #: ../../docs/tutorials/plugins/android/android_plugin.rst:67
 msgid ""
@@ -226,27 +225,27 @@ msgid ""
 "instantiate a singleton object that will be used by the Godot engine to "
 "load, initialize and run the plugin."
 msgstr ""
-"在插件模块中创建一个新的类，并确保它扩展为``org.godotengine.godot.plugin."
-"GodotPlugin``。在运行时，它将被用于实例化一个单人对象，该对象将被Godot引擎用"
+"在插件模块中创建一个新的类，并确保它扩展为 ``org.godotengine.godot.plugin."
+"GodotPlugin`` 。在运行时，它将被用于实例化一个单例对象，该对象将被Godot引擎用"
 "于加载、初始化和运行插件。"
 
 #: ../../docs/tutorials/plugins/android/android_plugin.rst:70
 msgid "Update the plugin ``AndroidManifest.xml`` file:"
-msgstr "更新插件``AndroidManifest.xml``文件:"
+msgstr "更新插件 ``AndroidManifest.xml`` 文件:"
 
 #: ../../docs/tutorials/plugins/android/android_plugin.rst:72
-#, fuzzy
 msgid "Open the plugin ``AndroidManifest.xml`` file."
-msgstr "打开插件``AndroidManifest.xml``文件。"
+msgstr "打开插件 ``AndroidManifest.xml`` 文件。"
 
 #: ../../docs/tutorials/plugins/android/android_plugin.rst:74
 msgid "Add the ``<application></application>`` tag if it's missing."
-msgstr "如果``<application></application>`` 不见了，请添加该标签。"
+msgstr "如果 ``<application></application>`` 不见了，请添加该标签。"
 
 #: ../../docs/tutorials/plugins/android/android_plugin.rst:76
 msgid ""
 "In the ``<application>`` tag, add a ``<meta-data>`` tag setup as follow::"
-msgstr "在``<application>``标签中，添加一个``<meta-data>``标签设置，如下所示："
+msgstr ""
+"在 ``<application>`` 标签中，添加一个 ``<meta-data>`` 标签设置，如下所示："
 
 #: ../../docs/tutorials/plugins/android/android_plugin.rst:82
 msgid ""
@@ -254,8 +253,8 @@ msgid ""
 "ClassFullName`` is the full name (package + class name) of the plugin "
 "loading class."
 msgstr ""
-"其中``PluginName``是插件的名称，``plugin.init.ClassFullName``是插件加载类的全"
-"称（包+类名）。"
+"其中 ``PluginName`` 是插件的名称， ``plugin.init.ClassFullName`` 是插件加载类"
+"的全称（包+类名）。"
 
 #: ../../docs/tutorials/plugins/android/android_plugin.rst:84
 msgid ""
@@ -265,9 +264,9 @@ msgid ""
 "need, pick only one version (usually the ``release`` one) which to provide "
 "your users with."
 msgstr ""
-"为你的插件添加剩余的逻辑，并运行``gradlew build``命令来生成插件的``aar``文"
-"件。构建过程中可能会同时生成 \"debug \"和 \"release \"的 \"aar \"文件。根据你"
-"的需要，只选择一个版本（通常是``release``的版本）提供给你的用户。"
+"为你的插件添加剩余的逻辑，并运行 ``gradlew build`` 命令来生成插件的 ``aar`` "
+"文件。构建过程中可能会同时生成 ``debug`` 和 ``release`` 的 ``aar`` 文件。根据"
+"你的需要，只选择一个版本（通常是 ``release`` 的版本）提供给你的用户。"
 
 #: ../../docs/tutorials/plugins/android/android_plugin.rst:88
 msgid ""
@@ -275,8 +274,8 @@ msgid ""
 "``[PluginName]*.aar`` where ``PluginName`` is the name of the plugin in "
 "PascalCase (e.g.: ``GodotPayment.release.aar``)."
 msgstr ""
-"建议``aar``文件名符合以下模式：``[PluginName]*.aar``其中``PluginName``是"
-"PascalCase中的插件名称（例如：``GodotPayment.release.aar``）。"
+"建议 ``aar`` 文件名符合以下模式： ``[PluginName]*.aar`` 其中 ``PluginName`` "
+"是PascalCase中的插件名称（例如： ``GodotPayment.release.aar`` ）。"
 
 #: ../../docs/tutorials/plugins/android/android_plugin.rst:90
 msgid ""
@@ -287,41 +286,38 @@ msgstr "创建一个Godot Android插件配置文件，帮助系统检测并加�
 #: ../../docs/tutorials/plugins/android/android_plugin.rst:92
 msgid ""
 "The configuration file extension must be ``gdap`` (e.g.: ``MyPlugin.gdap``)."
-msgstr "这配置文件必须是 ``gdap``(例如: ``MyPlugin.gdap``)。"
+msgstr "这配置文件必须是 ``gdap`` (例如： ``MyPlugin.gdap``)。"
 
 #: ../../docs/tutorials/plugins/android/android_plugin.rst:94
-#, fuzzy
 msgid "The configuration file format is as follow::"
-msgstr "文本内容如下："
+msgstr "配置文件格式如下："
 
 #: ../../docs/tutorials/plugins/android/android_plugin.rst:108
-#, fuzzy
 msgid "The ``config`` section and fields are required and defined as follow:"
-msgstr "``config````部分和字段是必须的，定义如下："
+msgstr "``config`` 部分和字段是必须的，定义如下："
 
 #: ../../docs/tutorials/plugins/android/android_plugin.rst:110
-#, fuzzy
 msgid "**name**: name of the plugin"
-msgstr "名称 (选项的名称)"
+msgstr "**名称（name）** ：(插件的名称)"
 
 #: ../../docs/tutorials/plugins/android/android_plugin.rst:112
 msgid ""
 "**binary_type**: can be either ``local`` or ``remote``. The type affects the "
 "**binary** field"
 msgstr ""
-"**binary_type**: 可以是 ``local`` 或 ``remote`` 。类型影响 **二进制** 字段"
+"**二进制类型（binary_type）** ： 可以是 ``local`` 或 ``remote`` 。类型影响 **"
+"二进制（binary）** 字段"
 
 #: ../../docs/tutorials/plugins/android/android_plugin.rst:114
-#, fuzzy
 msgid "**binary**:"
-msgstr "**分类**:"
+msgstr "**二进制（binary）**:"
 
 #: ../../docs/tutorials/plugins/android/android_plugin.rst:116
 msgid ""
 "if **binary_type** is ``local``, then this should be the filepath of the "
 "plugin ``aar`` file."
 msgstr ""
-"如果**binary_type**是``local``，那么这应该是插件``aar``文件的文件路径。"
+"如果 **binary_type** 是 ``local`` ，那么这应该是插件 ``aar`` 文件的文件路径。"
 
 #: ../../docs/tutorials/plugins/android/android_plugin.rst:118
 msgid ""
@@ -342,9 +338,9 @@ msgid ""
 "dependencies#dependency-types>`_ (e.g.: ``org.godot.example:my-"
 "plugin:0.0.0``)."
 msgstr ""
-"如果**binary_type**是``remote``，那么这应该是一个`remote gradle二进制"
-"<https://developer.android.com/studio/build/dependencies#dependency-"
-"types>`_(例如：``org.godot.example:my-plugin:0.0.0``)的声明。"
+"如果 **binary_type** 是 ``remote`` ，那么这应该是一个 `remote gradle二进制"
+"<https://developer.android.com/studio/build/dependencies#dependency-types>`_ "
+"(例如：``org.godot.example:my-plugin:0.0.0`` )的声明。"
 
 #: ../../docs/tutorials/plugins/android/android_plugin.rst:124
 msgid ""
@@ -377,9 +373,8 @@ msgstr ""
 "maven仓库"
 
 #: ../../docs/tutorials/plugins/android/android_plugin.rst:133
-#, fuzzy
 msgid "Loading and using an Android plugin"
-msgstr "创建Android模块"
+msgstr "加载和使用Android插件"
 
 #: ../../docs/tutorials/plugins/android/android_plugin.rst:135
 msgid ""
@@ -398,16 +393,15 @@ msgid ""
 "plugins in the Android export presets window under the **Plugins** section."
 msgstr ""
 "Godot编辑器会自动解析 ``res://android/plugins`` 目录下的所有 ``.gdap`` 文件，"
-"并在**Plugins**部分的Android导出预设窗口中显示检测到的可切换插件列表。"
+"并在 **Plugins** 部分的Android导出预设窗口中显示检测到的可切换插件列表。"
 
 #: ../../docs/tutorials/plugins/android/android_plugin.rst:141
 msgid "From your script:"
 msgstr "从你的脚本中:"
 
 #: ../../docs/tutorials/plugins/android/android_plugin.rst:151
-#, fuzzy
 msgid "Bundling GDNative resources"
-msgstr "获取资源"
+msgstr "捆绑GDNative资源"
 
 #: ../../docs/tutorials/plugins/android/android_plugin.rst:153
 msgid ""
@@ -445,23 +439,22 @@ msgid ""
 "runtime, the plugin will provide these paths to Godot core which will use "
 "them to load and initialize the bundled GDNative libraries."
 msgstr ""
-"对于GDNative库，插件单人对象必须覆盖``org.godotengine.godot.plugin."
-"GodotPlugin::getPluginGDNativeLibrariesPaths()``方法，并返回捆绑的GDNative库"
-"配置文件的路径(``*.gdnlib``)。这些路径必须是相对于``assets``目录的。在运行"
-"时，插件将把这些路径提供给Godot core，Godot core将使用它们来加载和初始化捆绑"
-"的GDNative库。"
+"对于GDNative库，插件单例对象必须覆盖 ``org.godotengine.godot.plugin."
+"GodotPlugin::getPluginGDNativeLibrariesPaths()`` 方法，并返回捆绑的GDNative库"
+"配置文件的路径( ``*.gdnlib`` )。这些路径必须是相对于 ``assets`` 目录的。在运"
+"行时，插件将把这些路径提供给Godot核心，核心将使用它们来加载和初始化捆绑的"
+"GDNative库。"
 
 #: ../../docs/tutorials/plugins/android/android_plugin.rst:166
-#, fuzzy
 msgid "Reference implementations"
-msgstr "实现"
+msgstr "参考方案"
 
 #: ../../docs/tutorials/plugins/android/android_plugin.rst:168
-#, fuzzy
 msgid ""
 "`Godot Oculus Mobile plugin <https://github.com/GodotVR/"
 "godot_oculus_mobile>`_"
-msgstr "分叉 `Godot存储库 <https://github.com/godotengine/godot>`_"
+msgstr ""
+"`Godot Oculus Mobile插件<https://github.com/GodotVR/godot_oculus_mobile>`_"
 
 #: ../../docs/tutorials/plugins/android/android_plugin.rst:170
 msgid ""
@@ -472,11 +465,12 @@ msgstr ""
 "master/plugin/src/main/assets/addons/godot_ovrmobile>`_"
 
 #: ../../docs/tutorials/plugins/android/android_plugin.rst:172
-#, fuzzy
 msgid ""
 "`Godot Google Play Billing plugin <https://github.com/godotengine/godot-"
 "google-play-billing>`_"
-msgstr "分叉 `Godot存储库 <https://github.com/godotengine/godot>`_"
+msgstr ""
+"`Godot Google Play Billing插件<https://github.com/godotengine/godot-google-"
+"play-billing>`_"
 
 #: ../../docs/tutorials/plugins/android/android_plugin.rst:176
 msgid "Troubleshooting"
@@ -484,11 +478,11 @@ msgstr "故障排除"
 
 #: ../../docs/tutorials/plugins/android/android_plugin.rst:179
 msgid "Godot crashes upon load"
-msgstr "Godot在装载时坠毁"
+msgstr "Godot在加载时崩溃"
 
 #: ../../docs/tutorials/plugins/android/android_plugin.rst:181
 msgid "Check ``adb logcat`` for possible problems, then:"
-msgstr "检查``adb logcat``是否存在可能的问题，然后:"
+msgstr "检查 ``adb logcat`` 是否存在可能的问题，然后:"
 
 #: ../../docs/tutorials/plugins/android/android_plugin.rst:183
 msgid ""
@@ -502,6 +496,5 @@ msgstr ""
 "``int[]``、``byte[]``、``float[]``、``java.lang.String[]``。"
 
 #: ../../docs/tutorials/plugins/android/android_plugin.rst:185
-#, fuzzy
 msgid "More complex datatypes are not supported for now."
-msgstr "在GLES2中不支持融合变形。"
+msgstr "暂时不支持更复杂的数据类型。"

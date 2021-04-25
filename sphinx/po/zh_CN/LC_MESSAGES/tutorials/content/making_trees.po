@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-28 20:28+0800\n"
+"POT-Creation-Date: 2021-04-25 22:16+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -82,7 +82,6 @@ msgid "This is a simple example of a shader for leaves:"
 msgstr "这是一个简单的树叶着色器的示例:"
 
 #: ../../docs/tutorials/content/making_trees.rst:44
-#, fuzzy
 msgid ""
 "This is a spatial shader. There is no front/back culling (so leaves can be "
 "seen from both sides), and alpha prepass is used, so there are less depth "
@@ -91,9 +90,10 @@ msgid ""
 "can be duplicated, moved, etc. and it will still work together with other "
 "trees."
 msgstr ""
-"这是一个空间着色器。没有前/后剔除(因此可以从两侧看到叶节点)，并且使用了alpha "
-"prepass，因此使用透明(和叶节点投射阴影)产生的深度弧值更少。最后，对于摇摆效"
-"果，推荐world坐标，这样树就可以复制、移动等，并且仍然可以与其他树一起工作。"
+"这是一个空间着色器。没有前/后剔除（所以可以从两边看到叶子），并且使用了alpha"
+"预通道，所以使用透明度（和叶子投射阴影）导致的深度伪影比较少。最后，对于摇摆"
+"的效果，推荐使用世界坐标，以使树可以被复制、移动等，并且仍然可以和其他树一起"
+"使用。"
 
 #: ../../docs/tutorials/content/making_trees.rst:51
 msgid ""
@@ -115,9 +115,8 @@ msgstr ""
 "步出现。"
 
 #: ../../docs/tutorials/content/making_trees.rst:70
-#, fuzzy
 msgid "Finally, all that's left is the fragment shader:"
-msgstr "最后剩下的就是片段着色器:"
+msgstr "最后，剩下的就是片段着色器了:"
 
 #: ../../docs/tutorials/content/making_trees.rst:83
 msgid "And this is pretty much it."

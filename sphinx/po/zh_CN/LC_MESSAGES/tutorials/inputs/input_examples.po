@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-28 20:28+0800\n"
+"POT-Creation-Date: 2021-04-25 22:16+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,7 +18,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../docs/tutorials/inputs/input_examples.rst:4
-#, fuzzy
 msgid "Input examples"
 msgstr "输入示例"
 
@@ -60,10 +59,11 @@ msgid ""
 "`Input <class_Input>` singleton, which you can use to query the state of an "
 "input."
 msgstr ""
-"有时候，你想让游戏对某个输入事件做出反应——例如按下“跳跃”按钮。对于其他情况，"
-"可能希望只要按下键就会发生一些事情，比如移动。在第一种情况下，您可以使"
-"用“_input()”函数，它将在发生输入事件时调用。在第二种情况下，Godot提供了:ref:`"
-"输入<class_Input>`单例，您可以使用它来查询输入的状态。"
+"有时你想让你的游戏对某一输入事件作出反应--例如按下 \"跳跃\" 按钮。在其他情况"
+"下，你可能希望只要有一个键被按下就会发生一些事情，比如移动。在第一种情况下，"
+"你可以使用 ``_input()`` 函数，只要有输入事件发生就会调用该函数。在第二种情况"
+"下，Godot提供了 :ref:`Input <class_Input>` 单例，你可以用它来查询一个输入的状"
+"态。"
 
 #: ../../docs/tutorials/inputs/input_examples.rst:29
 msgid "Examples:"
@@ -116,10 +116,9 @@ msgstr ""
 "继承自以下类："
 
 #: ../../docs/tutorials/inputs/input_examples.rst:118
-#, fuzzy
 msgid ""
 ":ref:`InputEvent <class_InputEvent>` - the base class for all input events"
-msgstr ":ref:`InputEvent <class_InputEvent>`"
+msgstr ":ref:`InputEvent <class_InputEvent>` - 所有输入事件的基类"
 
 #: ../../docs/tutorials/inputs/input_examples.rst:119
 msgid ""
@@ -181,9 +180,8 @@ msgstr ""
 "目->项目设置，并选择事件表选项卡："
 
 #: ../../docs/tutorials/inputs/input_examples.rst:161
-#, fuzzy
 msgid "Capturing actions"
-msgstr "静态函数"
+msgstr "捕捉动作"
 
 #: ../../docs/tutorials/inputs/input_examples.rst:163
 msgid ""
@@ -199,15 +197,15 @@ msgid "Keyboard events"
 msgstr "键盘事件"
 
 #: ../../docs/tutorials/inputs/input_examples.rst:187
-#, fuzzy
 msgid ""
 "Keyboard events are captured in :ref:`InputEventKey <class_InputEventKey>`. "
 "While it's recommended to use input actions instead, there may be cases "
 "where you want to specifically look at key events. For this example, let's "
 "check for the :kbd:`T`:"
 msgstr ""
-"键盘事件在:参考:‘输入事件键位 <类_输入事件键位>’中捕获。虽然建议使用输入行"
-"为，在某些情况下，您可能希望特别关注关键事件。对于这个示例，我们检查“T”键:"
+"键盘事件在 :ref:`InputEventKey <class_InputEventKey>`中被捕获。虽然建议使用输"
+"入动作来代替，但在某些情况下，你可能会想专门查看按键事件。对于当前示例，来检"
+"查一下 :kbd:`T`:"
 
 #: ../../docs/tutorials/inputs/input_examples.rst:213
 #: ../../docs/tutorials/inputs/input_examples.rst:251
@@ -222,7 +220,6 @@ msgid "Keyboard modifiers"
 msgstr "键盘修饰符"
 
 #: ../../docs/tutorials/inputs/input_examples.rst:219
-#, fuzzy
 msgid ""
 "Modifier properties are inherited from :ref:`InputEventWithModifiers "
 "<class_InputEventWithModifiers>`. This  allows you to check for modifier "
@@ -230,9 +227,9 @@ msgid ""
 "happen when the :kbd:`T` is pressed, but something different when it's :kbd:"
 "`Shift + T`:"
 msgstr ""
-"修饰符属性继承自:参考:‘带有修饰符的输入事件<类_带有修饰符的输入事件>’。这允许"
-"您使用布尔属性检查修饰符组合。假设您希望在按下“T”键时发生一件事情，但当它"
-"是“Shift+T”时，情况就不一样了:"
+"修饰符属性继承自 :ref:`InputEventWithModifiers "
+"<class_InputEventWithModifiers>` ，可使用布尔属性检查修饰符组合。试想，当按"
+"下 :kbd:`T` 时，发生一件事，但当按下 :kbd:`Shift + T` 时，却发生不同的事情:"
 
 #: ../../docs/tutorials/inputs/input_examples.rst:255
 msgid "Mouse events"
@@ -288,9 +285,8 @@ msgid ""
 msgstr "下面是一个使用鼠标事件拖放:ref:`精灵<class_Sprite>`节点的例子："
 
 #: ../../docs/tutorials/inputs/input_examples.rst:379
-#, fuzzy
 msgid "Touch events"
-msgstr "输入事件"
+msgstr "触摸事件"
 
 #: ../../docs/tutorials/inputs/input_examples.rst:381
 msgid ""

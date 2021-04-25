@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-28 20:28+0800\n"
+"POT-Creation-Date: 2021-04-25 22:16+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -36,14 +36,13 @@ msgid "Before starting, there are two things you need to do:"
 msgstr "在开始之前，你有2件事情需要做:"
 
 #: ../../docs/tutorials/vr/developing_for_oculus_quest.rst:14
-#, fuzzy
 msgid ""
 "First you need to go through the steps on the :ref:"
 "`doc_exporting_for_android` page. This leads you through installing the "
 "toolset that Godot needs to export to Android devices."
 msgstr ""
-"此外，在尝试构建自定义导出模板之前，您仍然需要按照 :ref:"
-"`doc_exporting_for_android` 教程中提到的步骤进行操作。"
+"首先你需要完成 :ref:`doc_exporting_for_android` 页面上的步骤。这将引导你安装"
+"Godot导出到Android设备所需的工具集。"
 
 #: ../../docs/tutorials/vr/developing_for_oculus_quest.rst:18
 msgid ""
@@ -55,7 +54,6 @@ msgstr ""
 "com/GodotVR/godot-oculus-mobile-asset>`__ 手动下载。"
 
 #: ../../docs/tutorials/vr/developing_for_oculus_quest.rst:22
-#, fuzzy
 msgid "Setting Up Godot"
 msgstr "设置Godot"
 
@@ -78,9 +76,8 @@ msgstr ""
 "于这样:"
 
 #: ../../docs/tutorials/vr/developing_for_oculus_quest.rst:36
-#, fuzzy
 msgid "Now you can start building the main scene:"
-msgstr "或者您可以一起运行它们:"
+msgstr "现在你可以开始构建主场景:"
 
 #: ../../docs/tutorials/vr/developing_for_oculus_quest.rst:38
 msgid "Add an :ref:`ARVROrigin <class_ARVROrigin>` node first."
@@ -127,9 +124,8 @@ msgstr ""
 "<class_ARVRController>` 节点。这些节点将代表我们的控制器。"
 
 #: ../../docs/tutorials/vr/developing_for_oculus_quest.rst:46
-#, fuzzy
 msgid "Now add a script to the main node and add the following code:"
-msgstr "将脚本添加到场景中的KinematicBody2D上，并添加以下代码:"
+msgstr "现在给主节点添加一个脚本，并添加以下代码:"
 
 #: ../../docs/tutorials/vr/developing_for_oculus_quest.rst:76
 msgid ""
@@ -168,9 +164,8 @@ msgid "Now save and close the export window."
 msgstr "现在保存并关闭导出窗口。"
 
 #: ../../docs/tutorials/vr/developing_for_oculus_quest.rst:98
-#, fuzzy
 msgid "Setting Up Your Quest"
-msgstr "设置Godot"
+msgstr "设置您的任务"
 
 #: ../../docs/tutorials/vr/developing_for_oculus_quest.rst:100
 msgid ""
@@ -224,10 +219,9 @@ msgstr ""
 "godot_oculus_quest_toolkit>`__."
 
 #: ../../docs/tutorials/vr/developing_for_oculus_quest.rst:130
-#, fuzzy
 msgid ""
 "If you want to help out with improving the plugin please join us `here "
 "<https://github.com/GodotVR/godot_oculus_mobile>`__."
 msgstr ""
-"如果您正在为文档做贡献，可以在 `这里 <https://github.com/godotengine/godot-"
-"docs>`_ 找到它的存储库。"
+"如果你想帮助改进这个插件，请加入我们的行列 `here <https://github.com/GodotVR/"
+"godot_oculus_mobile>`__ 。"

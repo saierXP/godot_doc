@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-28 20:28+0800\n"
+"POT-Creation-Date: 2021-04-25 22:16+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,9 +18,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../docs/tutorials/optimization/general_optimization.rst:4
-#, fuzzy
 msgid "General optimization tips"
-msgstr "优化"
+msgstr "一般优化提示"
 
 #: ../../docs/tutorials/optimization/general_optimization.rst:7
 msgid "Introduction"
@@ -62,9 +61,8 @@ msgid "And preferably, we will use a blend of the two."
 msgstr "我们最好将两者混合使用。"
 
 #: ../../docs/tutorials/optimization/general_optimization.rst:26
-#, fuzzy
 msgid "Smoke and mirrors"
-msgstr "节点和资源"
+msgstr "烟雾和镜子"
 
 #: ../../docs/tutorials/optimization/general_optimization.rst:28
 msgid ""
@@ -79,7 +77,6 @@ msgstr ""
 "应该努力学习行业的技巧，同时努力发明新的技巧。"
 
 #: ../../docs/tutorials/optimization/general_optimization.rst:34
-#, fuzzy
 msgid "The nature of slowness"
 msgstr "缓慢的本质"
 
@@ -92,11 +89,10 @@ msgstr ""
 "型:"
 
 #: ../../docs/tutorials/optimization/general_optimization.rst:39
-#, fuzzy
 msgid ""
 "A slow process that occurs every frame, leading to a continuously low frame "
 "rate."
-msgstr "每个帧都会发生缓慢的过程，导致帧速率持续较低。"
+msgstr "每一帧都发生的缓慢过程，导致持续的低帧率。"
 
 #: ../../docs/tutorials/optimization/general_optimization.rst:41
 msgid ""
@@ -115,9 +111,8 @@ msgid "Each of these are annoying to the user, but in different ways."
 msgstr "每一种都会给用户带来烦恼，但方式不同。"
 
 #: ../../docs/tutorials/optimization/general_optimization.rst:49
-#, fuzzy
 msgid "Measuring performance"
-msgstr "灯光性能"
+msgstr "测量性能"
 
 #: ../../docs/tutorials/optimization/general_optimization.rst:51
 msgid ""
@@ -210,9 +205,8 @@ msgid ""
 msgstr "由于这些限制，你经常需要使用侦测工作来找出瓶颈所在。"
 
 #: ../../docs/tutorials/optimization/general_optimization.rst:88
-#, fuzzy
 msgid "Detective work"
-msgstr "检测3D"
+msgstr "侦查工作"
 
 #: ../../docs/tutorials/optimization/general_optimization.rst:90
 msgid ""
@@ -224,9 +218,8 @@ msgstr ""
 "复方面）。这可以包括假设测试和二进制搜索。"
 
 #: ../../docs/tutorials/optimization/general_optimization.rst:95
-#, fuzzy
 msgid "Hypothesis testing"
-msgstr "测试"
+msgstr "假设检验"
 
 #: ../../docs/tutorials/optimization/general_optimization.rst:97
 msgid ""
@@ -251,7 +244,6 @@ msgid ""
 msgstr "你可以通过保持一切不变，但改变精灵的大小，并测量性能来进行测试。"
 
 #: ../../docs/tutorials/optimization/general_optimization.rst:109
-#, fuzzy
 msgid "Binary search"
 msgstr "二分查找"
 
@@ -273,9 +265,8 @@ msgstr ""
 "一旦你知道两半中的哪一半包含瓶颈，你可以重复这个过程，直到你确定问题区域。"
 
 #: ../../docs/tutorials/optimization/general_optimization.rst:120
-#, fuzzy
 msgid "Profilers"
-msgstr "性能分析器"
+msgstr "分析器"
 
 #: ../../docs/tutorials/optimization/general_optimization.rst:122
 msgid ""
@@ -303,7 +294,6 @@ msgid ""
 msgstr "有关使用Godot内置分析器的更多信息，请参阅：:ref:`doc_debugger_panel`。"
 
 #: ../../docs/tutorials/optimization/general_optimization.rst:134
-#, fuzzy
 msgid "Principles"
 msgstr "原则"
 
@@ -366,9 +356,8 @@ msgstr ""
 "\"* 这句话上。虽然过早的优化是不可取的，但高性能的软件是高性能设计的结果。"
 
 #: ../../docs/tutorials/optimization/general_optimization.rst:164
-#, fuzzy
 msgid "Performant design"
-msgstr "性能"
+msgstr "高性能的设计"
 
 #: ../../docs/tutorials/optimization/general_optimization.rst:166
 msgid ""
@@ -395,12 +384,10 @@ msgstr ""
 "水平的优化，通常也会比一个低水平优化的平庸设计快很多倍。"
 
 #: ../../docs/tutorials/optimization/general_optimization.rst:179
-#, fuzzy
 msgid "Incremental design"
-msgstr "增量更新/补丁"
+msgstr "渐进式设计"
 
 #: ../../docs/tutorials/optimization/general_optimization.rst:181
-#, fuzzy
 msgid ""
 "Of course, in practice, unless you have prior knowledge, you are unlikely to "
 "come up with the best design the first time. Instead, you'll often make a "
@@ -410,13 +397,12 @@ msgid ""
 "have finalized the overall design. Otherwise, much of your work will be "
 "thrown out."
 msgstr ""
-"当然，在实践中，除非你有事先的知识，否则你不太可能在第一次就想出最好的设计。"
-"相反，你通常会为特定的代码区域创建一系列版本，每个版本都采用不同的方法来解决"
-"问题，直到你得到满意的解决方案。在完成总体设计之前，不要在细节上花费太多时"
-"间，这一点很重要。否则，你的大部分工作将被淘汰。"
+"当然，在实践中，除非你事先有知识，否则你不可能在第一次就拿出最好的设计。相"
+"反，你往往会对某一特定区域的代码做出一系列版本，每一个版本都采取不同的方法来"
+"解决这个问题，直到你得出一个满意的解决方案。重要的是，在你最终确定整体设计之"
+"前，在这个阶段不要在细节上花费太多时间。否则，你的很多工作都会被淘汰。"
 
 #: ../../docs/tutorials/optimization/general_optimization.rst:188
-#, fuzzy
 msgid ""
 "It's difficult to give general guidelines for performant design because this "
 "is so dependent on the problem. One point worth mentioning though, on the "
@@ -425,14 +411,14 @@ msgid ""
 "designing data structures and algorithms for *cache locality* of data and "
 "linear access, rather than jumping around in memory."
 msgstr ""
-"很难给出性能设计的一般准则，因为这是如此依赖于问题。不过，值得一提的一点是，"
-"在CPU方面，现代CPU几乎总是受到内存带宽的限制。这导致了面向数据设计的复兴，它"
-"涉及到为数据的“缓存局部性”和线性访问设计数据结构和算法，而不是在内存中跳跃。"
+"很难给出高性能设计的一般准则，因为这与问题有很大关系。不过有一点值得一提，在"
+"CPU方面，现代CPU几乎总是受到内存带宽的限制。这导致了面向数据的设计的重新兴"
+"起，这涉及到设计数据结构和算法以实现数据的 *缓存定位* 和线性访问，而不是在内"
+"存中跳跃。"
 
 #: ../../docs/tutorials/optimization/general_optimization.rst:196
-#, fuzzy
 msgid "The optimization process"
-msgstr "优化"
+msgstr "优化过程"
 
 #: ../../docs/tutorials/optimization/general_optimization.rst:198
 msgid ""
@@ -444,24 +430,21 @@ msgstr ""
 "最慢的功能，可轻松实现的目标。"
 
 #: ../../docs/tutorials/optimization/general_optimization.rst:202
-#, fuzzy
 msgid ""
 "Once we've successfully improved the speed of the slowest area, it may no "
 "longer be the bottleneck. So we should test/profile again and find the next "
 "bottleneck on which to focus."
 msgstr ""
-"一旦我们成功地提高了最慢区域的速度，它可能不再是瓶颈。因此，我们应该再次测试/"
-"分析，并找到下一个需要关注的瓶颈。"
+"一旦我们成功地提高了最慢区域的速度，它可能就不再是瓶颈了。因此，我们应该再次"
+"进行测试/分析，找到下一个需要关注的瓶颈。"
 
 #: ../../docs/tutorials/optimization/general_optimization.rst:206
-#, fuzzy
 msgid "The process is thus:"
-msgstr "原因是:"
+msgstr "因此，该过程是："
 
 #: ../../docs/tutorials/optimization/general_optimization.rst:208
-#, fuzzy
 msgid "Profile / Identify bottleneck."
-msgstr "资料/确定瓶颈。"
+msgstr "分析和确定瓶颈。"
 
 #: ../../docs/tutorials/optimization/general_optimization.rst:209
 msgid "Optimize bottleneck."
@@ -472,9 +455,8 @@ msgid "Return to step 1."
 msgstr "返回步骤1。"
 
 #: ../../docs/tutorials/optimization/general_optimization.rst:213
-#, fuzzy
 msgid "Optimizing bottlenecks"
-msgstr "优化APK大小"
+msgstr "优化瓶颈"
 
 #: ../../docs/tutorials/optimization/general_optimization.rst:215
 msgid ""
@@ -484,7 +466,6 @@ msgstr ""
 "有些分析器甚至会告诉你一个函数的哪个部分在减慢速度（哪些数据访问、计算）。"
 
 #: ../../docs/tutorials/optimization/general_optimization.rst:218
-#, fuzzy
 msgid ""
 "As with design, you should concentrate your efforts first on making sure the "
 "algorithms and data structures are the best they can be. Data access should "
@@ -495,11 +476,11 @@ msgid ""
 "containing precalculated data or simply by storing the results of complex "
 "calculations into a script constant and reading its value."
 msgstr ""
-"与设计一样，你应该首先集中精力确保算法和数据结构是最好的。数据访问应该是本地"
-"的（以充分利用CPU缓存），而使用紧凑的数据存储通常更好（同样，总是根据测试结果"
-"进行配置）。通常，你会提前计算繁重的计算。这可以通过在加载级别时执行计算、加"
-"载包含预计算数据的文件或简单地将复杂计算的结果存储到脚本常量中并读取其值来实"
-"现。"
+"与设计一样，你应该首先集中精力确保算法和数据结构是最好的。数据访问应该是局部"
+"的（以最好地利用CPU缓存），而且使用紧凑的数据存储通常会更好（同样，总是对测试"
+"结果进行分析）。通常情况下，你会提前预计算繁重的计算。这可以通过在加载关卡时"
+"执行计算、加载包含预计算数据的文件或简单地将复杂的计算结果存储到脚本常量中并"
+"读取其值来实现。"
 
 #: ../../docs/tutorials/optimization/general_optimization.rst:227
 msgid ""
@@ -525,12 +506,10 @@ msgstr ""
 "不做这种优化。"
 
 #: ../../docs/tutorials/optimization/general_optimization.rst:238
-#, fuzzy
 msgid "Appendix"
 msgstr "附录"
 
 #: ../../docs/tutorials/optimization/general_optimization.rst:241
-#, fuzzy
 msgid "Bottleneck math"
 msgstr "瓶颈数学"
 

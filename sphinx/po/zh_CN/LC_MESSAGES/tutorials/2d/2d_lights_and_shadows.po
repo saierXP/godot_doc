@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-28 20:28+0800\n"
+"POT-Creation-Date: 2021-04-25 22:16+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -328,6 +328,7 @@ msgstr ""
 "心。"
 
 #: ../../docs/tutorials/2d/2d_lights_and_shadows.rst:133
+#, fuzzy
 msgid ""
 "At the time of writing, 3.0 is the stable release version. The 3.1 "
 "development branch contains many changes to the animation system, so the "
@@ -335,8 +336,8 @@ msgid ""
 "`doc_introduction_2d_animation` for more information."
 msgstr ""
 "在撰写本文时，3.0是稳定版本。 3.1开发版本已经对动画系统的做了许多更改，因此此"
-"处不会介绍demo中的动画。 请参阅 :ref:`doc_introduction_2d_animation` 以了解更"
-"多信息。"
+"处不会介绍demo中的动画。 请参阅 :ref:`doc_introduction_animation` 以了解更多"
+"信息。"
 
 #: ../../docs/tutorials/2d/2d_lights_and_shadows.rst:137
 msgid ""

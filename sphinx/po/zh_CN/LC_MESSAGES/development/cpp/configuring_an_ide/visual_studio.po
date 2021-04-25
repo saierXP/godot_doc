@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-28 20:28+0800\n"
+"POT-Creation-Date: 2021-04-25 22:16+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,9 +18,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../docs/development/cpp/configuring_an_ide/visual_studio.rst:4
-#, fuzzy
 msgid "Visual Studio"
-msgstr "Visual Studio Code"
+msgstr "Visual Studio"
 
 #: ../../docs/development/cpp/configuring_an_ide/visual_studio.rst:6
 msgid ""
@@ -52,9 +51,8 @@ msgid ""
 msgstr "导航到Godot根文件夹，打开命令提示符或PowerShell窗口。"
 
 #: ../../docs/development/cpp/configuring_an_ide/visual_studio.rst:18
-#, fuzzy
 msgid "Run ``scons platform=windows vsproj=yes`` to generate the solution."
-msgstr "运行``scons platform=windows vsproj=yes``来生成解决方案。"
+msgstr "运行 ``scons platform=windows vsproj=yes`` 来生成解决方案。"
 
 #: ../../docs/development/cpp/configuring_an_ide/visual_studio.rst:19
 msgid ""
@@ -76,9 +74,8 @@ msgid ""
 msgstr "Visual Studio必须配置C++包，可以在intaller中选择:"
 
 #: ../../docs/development/cpp/configuring_an_ide/visual_studio.rst:30
-#, fuzzy
 msgid "Debugging the project"
-msgstr "准备项目"
+msgstr "调试项目"
 
 #: ../../docs/development/cpp/configuring_an_ide/visual_studio.rst:32
 msgid ""

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-28 20:28+0800\n"
+"POT-Creation-Date: 2021-04-25 22:16+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -52,9 +52,8 @@ msgstr ""
 "ref:`容器<class_container>`更有用。"
 
 #: ../../docs/tutorials/gui/gui_containers.rst:18
-#, fuzzy
 msgid "Container layout"
-msgstr "容器"
+msgstr "容器布局"
 
 #: ../../docs/tutorials/gui/gui_containers.rst:20
 msgid ""
@@ -76,14 +75,13 @@ msgstr ""
 "节点的尝试，都将在它们的父节点下一次调整大小时被忽略或失效。"
 
 #: ../../docs/tutorials/gui/gui_containers.rst:28
-#, fuzzy
 msgid ""
 "Likewise, when a *Container* derived node is resized, all its children will "
 "be re-positioned according to it, with a behavior based on the type of "
 "container used:"
 msgstr ""
-"同样，当一个*容器*派生节点被调整大小时，所有的子节点都会根据它重新定位，基于"
-"使用的容器类型的行为："
+"同样，当一个 *Container* 派生的节点被调整大小时，它的所有子节点将根据它重新定"
+"位，其行为基于所用的容器类型:"
 
 #: ../../docs/tutorials/gui/gui_containers.rst:33
 msgid "Example of *HBoxContainer* resizing children buttons."
@@ -127,15 +125,15 @@ msgstr ""
 "项被选中时(默认情况)，只*填充*指定区域。"
 
 #: ../../docs/tutorials/gui/gui_containers.rst:49
-#, fuzzy
 msgid ""
 "**Expand**: Attempts to use as much space as possible in the parent "
 "container (in each axis). Controls that don't expand will be pushed away by "
 "those that do. Between expanding controls, the amount of space they take "
 "from each other is determined by the *Ratio* (see below)."
 msgstr ""
-"**扩展**：尝试在父容器中使用尽可能多的空间(在每个轴中)。非扩展控件将被扩展控"
-"件推开。在扩展控件之间，相互占用的空间量由*比例*决定(见下文)。"
+"**扩展**: 试图在父容器中尽可能多地使用空间（在每个轴中）。不展开的控件会被展"
+"开的控件推开。在扩展的控件之间，它们相互占用的空间大小由 *Ratio* 决定（见下"
+"文）。"
 
 #: ../../docs/tutorials/gui/gui_containers.rst:52
 msgid ""
@@ -161,9 +159,8 @@ msgid ""
 msgstr "建议使用这些标记和不同的容器进行试验，以便更好地了解它们是如何工作的。"
 
 #: ../../docs/tutorials/gui/gui_containers.rst:60
-#, fuzzy
 msgid "Container types"
-msgstr "容器"
+msgstr "容器类型"
 
 #: ../../docs/tutorials/gui/gui_containers.rst:62
 msgid ""
@@ -172,9 +169,8 @@ msgid ""
 msgstr "Godot提供了几种开箱即用的容器类型，因为它们有不同的用途："
 
 #: ../../docs/tutorials/gui/gui_containers.rst:65
-#, fuzzy
 msgid "Box Containers"
-msgstr "容器"
+msgstr "Box容器"
 
 #: ../../docs/tutorials/gui/gui_containers.rst:67
 msgid ""
@@ -194,9 +190,8 @@ msgid ""
 msgstr "这些容器使用*比例*属性，用于设置*扩展*标记的子容器。"
 
 #: ../../docs/tutorials/gui/gui_containers.rst:76
-#, fuzzy
 msgid "Grid Container"
-msgstr "容器"
+msgstr "网格容器"
 
 #: ../../docs/tutorials/gui/gui_containers.rst:78
 msgid ""
@@ -208,9 +203,8 @@ msgstr ""
 "数量)。同时使用垂直和水平扩展标记。"
 
 #: ../../docs/tutorials/gui/gui_containers.rst:84
-#, fuzzy
 msgid "Margin Container"
-msgstr "容器"
+msgstr "边距容器"
 
 #: ../../docs/tutorials/gui/gui_containers.rst:86
 msgid ""
@@ -222,18 +216,16 @@ msgstr ""
 "主题配置，将在页边距上添加填充。"
 
 #: ../../docs/tutorials/gui/gui_containers.rst:92
-#, fuzzy
 msgid ""
 "Again, keep in mind that the margins are a *Theme* value, so they need to be "
 "edited from the constants overrides section of each control:"
 msgstr ""
-"同样，请记住边距是一个*主题*值，因此，如果需要单个控件，需要在常量覆盖部分编"
-"辑它们："
+"同样，请记住，边距是一个 *Theme* 值，所以它们需要从每个控件的常量重写部分进行"
+"编辑:"
 
 #: ../../docs/tutorials/gui/gui_containers.rst:98
-#, fuzzy
 msgid "Tab Container"
-msgstr "容器"
+msgstr "标签容器"
 
 #: ../../docs/tutorials/gui/gui_containers.rst:100
 msgid ""
@@ -251,13 +243,12 @@ msgid ""
 msgstr "通过点击位于容器顶部的选项卡，来标记*当前*选项卡："
 
 #: ../../docs/tutorials/gui/gui_containers.rst:109
-#, fuzzy
 msgid ""
 "The titles are generated from the node names by default (although they can "
 "be overridden via *TabContainer* API)."
 msgstr ""
-"默认情况下，标题是由节点名生成的(尽管可以通过*选项卡容器*的应用程序接口覆盖它"
-"们)。"
+"默认情况下，标题是由节点名称生成的（尽管它们可以通过 *TabContainer* API被重"
+"写）。"
 
 #: ../../docs/tutorials/gui/gui_containers.rst:111
 msgid ""
@@ -266,9 +257,8 @@ msgid ""
 msgstr "在*选项卡容器*主题覆盖中，可以修改选项卡位置和*盒子样式*等内容。"
 
 #: ../../docs/tutorials/gui/gui_containers.rst:114
-#, fuzzy
 msgid "Split Container"
-msgstr "视区容器"
+msgstr "拆分容器"
 
 #: ../../docs/tutorials/gui/gui_containers.rst:116
 msgid ""
@@ -288,9 +278,8 @@ msgid ""
 msgstr "可以拖动除数来改变两个子元素之间的大小关系："
 
 #: ../../docs/tutorials/gui/gui_containers.rst:128
-#, fuzzy
 msgid "PanelContainer"
-msgstr "容器"
+msgstr "PanelContainer"
 
 #: ../../docs/tutorials/gui/gui_containers.rst:130
 msgid ""
@@ -309,9 +298,8 @@ msgid ""
 msgstr "这个容器作为顶层非常有用，或者只是为布局各个部分添加自定义背景。"
 
 #: ../../docs/tutorials/gui/gui_containers.rst:139
-#, fuzzy
 msgid "ScrollContainer"
-msgstr "容器"
+msgstr "ScrollContainer"
 
 #: ../../docs/tutorials/gui/gui_containers.rst:141
 msgid ""
@@ -340,9 +328,8 @@ msgstr ""
 "使用。"
 
 #: ../../docs/tutorials/gui/gui_containers.rst:156
-#, fuzzy
 msgid "ViewportContainer"
-msgstr "视区容器"
+msgstr "ViewportContainer"
 
 #: ../../docs/tutorials/gui/gui_containers.rst:158
 msgid ""
@@ -350,13 +337,12 @@ msgid ""
 "child, and it will display it as if it was an image (via :ref:"
 "`ViewportContainer <class_ViewportContainer>`)."
 msgstr ""
-"这是一个特殊的控件，它只接受单个*视口*节点作为子节点，它会像显示图像一样显示"
-"它(通过:ref:`视口容器 <class_ViewportContainer>`)。"
+"这是一个特殊的控件，它只接受单个*视窗*节点作为子节点，它会像显示图像一样显示"
+"它(通过:ref:`视窗容器 <class_ViewportContainer>`)。"
 
 #: ../../docs/tutorials/gui/gui_containers.rst:162
-#, fuzzy
 msgid "Creating custom Containers"
-msgstr "创建自定义数据类型"
+msgstr "创建自定义容器"
 
 #: ../../docs/tutorials/gui/gui_containers.rst:164
 msgid ""

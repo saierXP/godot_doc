@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-28 20:28+0800\n"
+"POT-Creation-Date: 2021-04-25 22:16+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,9 +18,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../docs/development/cpp/common_engine_methods_and_macros.rst:4
-#, fuzzy
 msgid "Common engine methods and macros"
-msgstr "如何编写方法和类"
+msgstr "常见的引擎方法和宏"
 
 #: ../../docs/development/cpp/common_engine_methods_and_macros.rst:6
 msgid ""
@@ -32,9 +31,8 @@ msgstr ""
 "用到。本页面向初学者，但对那些编写自定义C++模块的人也很有用。"
 
 #: ../../docs/development/cpp/common_engine_methods_and_macros.rst:11
-#, fuzzy
 msgid "Print text"
-msgstr "绘制图块"
+msgstr "打印文本"
 
 #: ../../docs/development/cpp/common_engine_methods_and_macros.rst:31
 msgid ""
@@ -43,9 +41,8 @@ msgid ""
 msgstr "如果你需要在信息中添加占位符，请使用下面描述的格式字符串。"
 
 #: ../../docs/development/cpp/common_engine_methods_and_macros.rst:35
-#, fuzzy
 msgid "Format a string"
-msgstr "格式"
+msgstr "格式化字符串"
 
 #: ../../docs/development/cpp/common_engine_methods_and_macros.rst:37
 msgid ""
@@ -72,14 +69,12 @@ msgid "This is mainly useful when printing numbers directly."
 msgstr "在直接打印数字时，这主要是有用的。"
 
 #: ../../docs/development/cpp/common_engine_methods_and_macros.rst:68
-#, fuzzy
 msgid "Internationalize a string"
-msgstr "国际化"
+msgstr "国际化字符串"
 
 #: ../../docs/development/cpp/common_engine_methods_and_macros.rst:70
-#, fuzzy
 msgid "There are two types of internationalization in Godot's codebase:"
-msgstr "在Godot中有两种方法来设计UI。 您可以："
+msgstr "Godot的代码库中有两种国际化类型："
 
 #: ../../docs/development/cpp/common_engine_methods_and_macros.rst:72
 msgid ""
@@ -121,9 +116,8 @@ msgstr ""
 "它的占位符已经被替换了。"
 
 #: ../../docs/development/cpp/common_engine_methods_and_macros.rst:103
-#, fuzzy
 msgid "Clamp a value"
-msgstr "Bislama (Tuvalu)"
+msgstr "限制值"
 
 #: ../../docs/development/cpp/common_engine_methods_and_macros.rst:105
 msgid ""
@@ -157,10 +151,9 @@ msgid ""
 msgstr "这将打印从 ``begin`` 执行到 ``end`` 声明之间的花费时间。"
 
 #: ../../docs/development/cpp/common_engine_methods_and_macros.rst:140
-#, fuzzy
 msgid ""
 "You may have to ``#include \"core/os/os.h\"`` if it's not present already."
-msgstr "如果还没有的话，你可能需要``#include \"core/os/os.h\"``。"
+msgstr "如果还不存在，则可能需要 ``#include \"core/os/os.h\"`` 。"
 
 #: ../../docs/development/cpp/common_engine_methods_and_macros.rst:142
 msgid ""
@@ -171,14 +164,12 @@ msgstr ""
 "include。"
 
 #: ../../docs/development/cpp/common_engine_methods_and_macros.rst:146
-#, fuzzy
 msgid "Get project/editor settings"
-msgstr "使用项目设置"
+msgstr "获取project/editor设置"
 
 #: ../../docs/development/cpp/common_engine_methods_and_macros.rst:148
-#, fuzzy
 msgid "There are four macros available for this:"
-msgstr "获取证书有两种方法:"
+msgstr "有四种宏可供选择:"
 
 #: ../../docs/development/cpp/common_engine_methods_and_macros.rst:160
 msgid ""
@@ -196,9 +187,8 @@ msgstr ""
 "用``GLOBAL_GET``/``EDITOR_GET``。"
 
 #: ../../docs/development/cpp/common_engine_methods_and_macros.rst:174
-#, fuzzy
 msgid "Error macros"
-msgstr "错误"
+msgstr "错误宏"
 
 #: ../../docs/development/cpp/common_engine_methods_and_macros.rst:176
 msgid ""

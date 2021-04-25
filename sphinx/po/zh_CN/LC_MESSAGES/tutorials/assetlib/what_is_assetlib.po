@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-28 20:28+0800\n"
+"POT-Creation-Date: 2021-04-25 22:16+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -34,7 +34,6 @@ msgstr ""
 "站 <https://godotengine.org/asset-library/asset>`_ 上下载。"
 
 #: ../../docs/tutorials/assetlib/what_is_assetlib.rst:11
-#, fuzzy
 msgid ""
 "On the surface, the Asset Library might look and function similar to asset "
 "stores available for other engines, such as Unity's Asset Store, or Unreal "
@@ -43,9 +42,9 @@ msgid ""
 "distributed under non-free, proprietary licenses, limiting what you can do "
 "with them."
 msgstr ""
-"从表面上看，资源馆的外观和功能类似于其他引擎的资源商店，例如Unity的资源商店或"
-"虚幻引擎的市场，您可以在其中提交可自由使用的资源以及付费的商业资源。 此外，此"
-"类资源通常在非自由的专有许可下分发，限制了您对它们的使用。"
+"从表面上看，资产库的外观和功能可能类似于其他引擎的资产库，比如Unity的资产库，"
+"或者虚幻引擎的市场，在那里你可以提交免费的资产，以及付费的商业资产。此外，很"
+"多时候，这些资产是在非自由、专有的许可证下发布的，限制了你对它们的使用。"
 
 #: ../../docs/tutorials/assetlib/what_is_assetlib.rst:17
 msgid ""
@@ -80,9 +79,8 @@ msgstr ""
 "吧！"
 
 #: ../../docs/tutorials/assetlib/what_is_assetlib.rst:29
-#, fuzzy
 msgid "Types of assets"
-msgstr "类型转换（``TypeCast``）"
+msgstr "资产类型"
 
 #: ../../docs/tutorials/assetlib/what_is_assetlib.rst:31
 msgid ""
@@ -116,11 +114,10 @@ msgid "Can paid assets be uploaded to the asset library?"
 msgstr "需要收费的资源可以上传到资源馆吗？"
 
 #: ../../docs/tutorials/assetlib/what_is_assetlib.rst:47
-#, fuzzy
 msgid ""
 "Not to the official one, though in the future, there might be other asset "
 "libraries which allow it. That said, you are allowed to monetize and sell "
 "Godot assets outside the Asset Library."
 msgstr ""
-"官方的资源馆不行，不过将来可能有其他的资源馆允许这样做。也就是说，您可以在资"
-"源馆之外出售Godot资源。"
+"不是对官方的，虽然在未来，可能会有其他资产库允许这样做。也就是说，你可以在资"
+"产库以外的地方将Godot资产货币化和出售。"

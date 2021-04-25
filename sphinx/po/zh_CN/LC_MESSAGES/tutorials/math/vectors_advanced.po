@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-28 20:28+0800\n"
+"POT-Creation-Date: 2021-04-25 22:16+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -376,11 +376,10 @@ msgid "More information"
 msgstr "更多信息"
 
 #: ../../docs/tutorials/math/vectors_advanced.rst:591
-#, fuzzy
 msgid ""
 "For more information on using vector math in Godot, see the following "
 "article:"
-msgstr "有关在Godot中使用向量数学的更多信息，请参阅以下文章:"
+msgstr "关于在Godot中使用向量数学的更多信息，请参见以下文章:"
 
 #: ../../docs/tutorials/math/vectors_advanced.rst:593
 msgid ":ref:`doc_matrices_and_transforms`"

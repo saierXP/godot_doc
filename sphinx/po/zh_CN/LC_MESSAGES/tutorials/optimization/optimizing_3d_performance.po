@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-28 20:28+0800\n"
+"POT-Creation-Date: 2021-04-25 22:16+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,19 +18,16 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../docs/tutorials/optimization/optimizing_3d_performance.rst:1
-#, fuzzy
 msgid "optimization"
 msgstr "优化"
 
 #: ../../docs/tutorials/optimization/optimizing_3d_performance.rst:7
-#, fuzzy
 msgid "Optimizing 3D performance"
-msgstr "灯光性能"
+msgstr "优化3D性能"
 
 #: ../../docs/tutorials/optimization/optimizing_3d_performance.rst:10
-#, fuzzy
 msgid "Culling"
-msgstr "轮询"
+msgstr "剔除"
 
 #: ../../docs/tutorials/optimization/optimizing_3d_performance.rst:12
 msgid ""
@@ -39,13 +36,12 @@ msgid ""
 "that take place in a small area, however things can quickly become "
 "problematic in larger levels."
 msgstr ""
-"Godot会自动执行视图frustum culling，以防止渲染视口外的物体。这对于发生在小范"
-"围内的游戏来说效果很好，然而在较大的关卡中，事情很快就会变得很麻烦。"
+"Godot会自动执行视图视锥剔除，以防止渲染视窗外的物体。这对于发生在小范围内的游"
+"戏来说效果很好，然而在较大的关卡中，事情很快就会变得很麻烦。"
 
 #: ../../docs/tutorials/optimization/optimizing_3d_performance.rst:18
-#, fuzzy
 msgid "Occlusion culling"
-msgstr "遮挡模式"
+msgstr "遮挡剔除"
 
 #: ../../docs/tutorials/optimization/optimizing_3d_performance.rst:20
 msgid ""
@@ -74,14 +70,15 @@ msgstr ""
 "降低性能。"
 
 #: ../../docs/tutorials/optimization/optimizing_3d_performance.rst:33
+#, fuzzy
 msgid ""
 "One way we can potentially reduce the amount to be rendered is to take "
 "advantage of occlusion. As of Godot 3.2.2, there is no built in support for "
 "occlusion in Godot. However, with careful design you can still get many of "
 "the advantages."
 msgstr ""
-"我们可以减少渲染量的一种方法是利用遮挡。从Godot 3.2.2开始，Godot中没有内置的"
-"咬合支持。然而，通过精心设计，你仍然可以获得许多优势。"
+"我们有可能减少渲染量的一个方法是利用遮挡。从Godot 3.3开始，Godot中没有内置的"
+"闭塞支持。然而，通过精心设计，你仍然可以获得许多优势。"
 
 #: ../../docs/tutorials/optimization/optimizing_3d_performance.rst:37
 msgid ""
@@ -117,7 +114,6 @@ msgstr ""
 "需要增加更多的墙来防止玩家看得太远，这样会因为失去了遮挡机会而降低性能。"
 
 #: ../../docs/tutorials/optimization/optimizing_3d_performance.rst:56
-#, fuzzy
 msgid "Other occlusion techniques"
 msgstr "其他遮挡技术"
 
@@ -135,7 +131,6 @@ msgid "Transparent objects"
 msgstr "透明物体"
 
 #: ../../docs/tutorials/optimization/optimizing_3d_performance.rst:65
-#, fuzzy
 msgid ""
 "Godot sorts objects by :ref:`Material <class_Material>` and :ref:`Shader "
 "<class_Shader>` to improve performance. This, however, can not be done with "
@@ -145,17 +140,17 @@ msgid ""
 "transparency, try to make that section a separate surface with its own "
 "material."
 msgstr ""
-"如前所述，Godot通过材质和着色器对对象进行排序以提高性能。 但是，这不能在透明"
-"对象上完成。 透明对象从后向前呈现，以便与背后的内容进行混合。 因此，请尽量将"
-"透明物体保持在最低限度！ 如果对象有一小部分是透明的，请尝试将该部分作为单独的"
-"材质。"
+"Godot通过 :ref:`Material <class_Material>` 和 :ref:`Shader <class_Shader>` 对"
+"对象进行排序以提高性能。然而，这对透明物体来说是不可能的。透明物体从后往前渲"
+"染，以便与后面的物体混合。因此， **尽量少使用透明对象** 。如果一个物体有一小"
+"部分是透明的，尽量让这部分成为一个独立的表面，有自己的材质。"
 
 #: ../../docs/tutorials/optimization/optimizing_3d_performance.rst:73
-#, fuzzy
 msgid ""
 "For more information, see the :ref:`GPU optimizations "
 "<doc_gpu_optimization>` doc."
-msgstr "有关更多信息，请参见 :ref:`doc_c_sharp_differences` 页面。"
+msgstr ""
+"更多信息，请参阅 :ref:`GPU optimizations <doc_gpu_optimization>` 文档。"
 
 #: ../../docs/tutorials/optimization/optimizing_3d_performance.rst:77
 msgid "Level of detail (LOD)"
@@ -175,9 +170,8 @@ msgstr ""
 "离的模型。您可以使用较低的多边形模型，或者使用透明度来模拟更复杂的几何体。"
 
 #: ../../docs/tutorials/optimization/optimizing_3d_performance.rst:87
-#, fuzzy
 msgid "Billboards and imposters"
-msgstr "Billboard Mode(广告牌模式)"
+msgstr "Billboards和imposters"
 
 #: ../../docs/tutorials/optimization/optimizing_3d_performance.rst:89
 msgid ""
@@ -221,7 +215,6 @@ msgid "Use instancing (MultiMesh)"
 msgstr "使用多网格(MultiMesh)"
 
 #: ../../docs/tutorials/optimization/optimizing_3d_performance.rst:109
-#, fuzzy
 msgid ""
 "If several identical objects have to be drawn in the same place or nearby, "
 "try using :ref:`MultiMesh <class_MultiMesh>` instead. MultiMesh allows the "
@@ -229,14 +222,14 @@ msgid ""
 "it ideal for flocks, grass, particles, and anything else where you have "
 "thousands of identical objects."
 msgstr ""
-"如果必须在同一个地方或附近绘制几个相同的对象，请尝试使用 :ref:`MultiMesh "
-"<class_MultiMesh>` 。 MultiMesh允许以极低的性能成本绘制数十万个物体，使其成为"
-"鸡群，草，颗粒等的理想选择。"
+"如果必须在同一地点或附近绘制多个相同的对象，请尝试使用 :ref:`MultiMesh "
+"<class_MultiMesh>` 来代替。MultiMesh允许以很小的性能代价来绘制成千上万的对"
+"象，这使得它非常适合用于绘制羊群、草地、粒子以及其他任何有成千上万相同对象的"
+"地方。"
 
 #: ../../docs/tutorials/optimization/optimizing_3d_performance.rst:115
-#, fuzzy
 msgid "Also see the :ref:`Using MultiMesh <doc_using_multimesh>` doc."
-msgstr "也可以参考:ref:`Using MultiMesh <doc_using_multimesh>`文档。"
+msgstr "另请参阅 :ref:`Using MultiMesh <doc_using_multimesh>`文档。"
 
 #: ../../docs/tutorials/optimization/optimizing_3d_performance.rst:118
 msgid "Bake lighting"
@@ -262,20 +255,17 @@ msgstr ""
 "动态的，有时，这需要做出的权衡。"
 
 #: ../../docs/tutorials/optimization/optimizing_3d_performance.rst:128
-#, fuzzy
 msgid ""
 "In general, if several lights need to affect a scene, it's best to use :ref:"
 "`doc_baked_lightmaps`. Baking can also improve the scene quality by adding "
 "indirect light bounces."
 msgstr ""
-"小灯通常不是性能问题。 阴影问题就稍大一些。 一般来说，如果几个灯需要影响一个"
-"场景，理想的是烘焙它( :ref:`doc_baked_lightmaps` )。 烘焙还可以通过添加间接光"
-"反弹来改善场景质量。"
+"一般来说，如果几个灯光需要影响一个场景，最好使用 :ref:"
+"`doc_baked_lightmaps` 。烘焙也可以通过增加间接光的反弹来提高场景的质量。"
 
 #: ../../docs/tutorials/optimization/optimizing_3d_performance.rst:133
-#, fuzzy
 msgid "Animation and skinning"
-msgstr "动画长度"
+msgstr "动画和皮肤"
 
 #: ../../docs/tutorials/optimization/optimizing_3d_performance.rst:135
 msgid ""
@@ -288,7 +278,6 @@ msgstr ""
 "动画模型的多边形数量，或者任何时候限制屏幕上的模型数量。"
 
 #: ../../docs/tutorials/optimization/optimizing_3d_performance.rst:140
-#, fuzzy
 msgid "Large worlds"
 msgstr "庞大的世界"
 

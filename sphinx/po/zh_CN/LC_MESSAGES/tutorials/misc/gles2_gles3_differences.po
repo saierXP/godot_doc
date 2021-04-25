@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-28 20:28+0800\n"
+"POT-Creation-Date: 2021-04-25 22:16+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -119,15 +119,14 @@ msgid "HDR"
 msgstr "高动态范围"
 
 #: ../../docs/tutorials/misc/gles2_gles3_differences.rst:49
-#, fuzzy
 msgid ""
 "GLES2 is not capable of using High Dynamic Range (HDR) rendering features. "
 "If HDR is set for your project, or for a given viewport, Godot will still "
 "user Low Dynamic Range (LDR) which limits viewport values to the ``0-1`` "
 "range."
 msgstr ""
-"GLES不能使用高动态范围(HDR)渲染功能。如果您为项目或指定视区设置了HDR, Godot仍"
-"然会使用低动态范围(LDR)，这将视区值范围限制在“0-1”之间。"
+"GLES2不能够使用高动态范围（HDR）渲染功能。如果你的项目或某个视口设置了HDR，"
+"Godot仍将使用低动态范围（LDR），将视口值限制在 ``0-1`` 范围内。"
 
 #: ../../docs/tutorials/misc/gles2_gles3_differences.rst:54
 msgid "SpatialMaterial features"
@@ -144,7 +143,6 @@ msgid "Refraction"
 msgstr "Refraction(折射)"
 
 #: ../../docs/tutorials/misc/gles2_gles3_differences.rst:59
-#, fuzzy
 msgid "Subsurface scattering"
 msgstr "次表面散射"
 
@@ -210,7 +208,6 @@ msgid "Sky (including procedural sky)"
 msgstr "天空(包括程序生成天空)"
 
 #: ../../docs/tutorials/misc/gles2_gles3_differences.rst:83
-#, fuzzy
 msgid "Ambient light"
 msgstr "环境光"
 
@@ -227,7 +224,6 @@ msgid "Glow (also known as bloom)"
 msgstr "辉光(也称为光晕)"
 
 #: ../../docs/tutorials/misc/gles2_gles3_differences.rst:87
-#, fuzzy
 msgid "Adjustment"
 msgstr "调整"
 
@@ -332,24 +328,20 @@ msgid "vec_type **modf** ( vec_type x, out vec_type i )"
 msgstr "vec_type **modf** ( vec_type x, out vec_type i )"
 
 #: ../../docs/tutorials/misc/gles2_gles3_differences.rst:139
-#, fuzzy
 msgid "vec_int_type **floatBitsToInt** ( vec_type x )"
-msgstr "vec_int_type **floatBitsToInt** ( vec_type )"
+msgstr "vec_int_type **floatBitsToInt** ( vec_type x )"
 
 #: ../../docs/tutorials/misc/gles2_gles3_differences.rst:141
-#, fuzzy
 msgid "vec_uint_type **floatBitsToUint** ( vec_type x )"
-msgstr "vec_uint_type **floatBitsToUint** ( vec_type )"
+msgstr "vec_uint_type **floatBitsToUint** ( vec_type x )"
 
 #: ../../docs/tutorials/misc/gles2_gles3_differences.rst:143
-#, fuzzy
 msgid "vec_type **intBitsToFloat** ( vec_int_type x )"
-msgstr "vec_type **intBitsToFloat** ( vec_int_type )"
+msgstr "vec_type **intBitsToFloat** ( vec_int_type x )"
 
 #: ../../docs/tutorials/misc/gles2_gles3_differences.rst:145
-#, fuzzy
 msgid "vec_type **uintBitsToFloat** ( vec_uint_type x )"
-msgstr "vec_type **uintBitsToFloat** ( vec_uint_type )"
+msgstr "vec_type **uintBitsToFloat** ( vec_uint_type x )"
 
 #: ../../docs/tutorials/misc/gles2_gles3_differences.rst:147
 msgid "ivec2 **textureSize** ( sampler2D_type s, int lod )"
@@ -357,7 +349,6 @@ msgstr "ivec2 **textureSize** ( sampler2D_type s, int lod )"
 
 #: ../../docs/tutorials/misc/gles2_gles3_differences.rst:147
 #: ../../docs/tutorials/misc/gles2_gles3_differences.rst:149
-#, fuzzy
 msgid "See workaround below"
 msgstr "请参阅下面的解决方法"
 
@@ -366,55 +357,51 @@ msgid "ivec2 **textureSize** ( samplerCube s, int lod )"
 msgstr "ivec2 **textureSize** ( samplerCube s, int lod )"
 
 #: ../../docs/tutorials/misc/gles2_gles3_differences.rst:151
-#, fuzzy
 msgid "vec4_type **texture** ( sampler_type s, vec_type uv [, float bias] )"
-msgstr "vec4_type **texture** ( sampler2D_type s, vec2 uv [, float bias] )"
+msgstr "vec4_type **texture** ( sampler_type s, vec_type uv [, float bias] )"
 
 #: ../../docs/tutorials/misc/gles2_gles3_differences.rst:151
 msgid "**bias** not available in vertex shader"
 msgstr "**偏差**在顶点着色器中不可用"
 
 #: ../../docs/tutorials/misc/gles2_gles3_differences.rst:153
-#, fuzzy
 msgid ""
 "vec4_type **textureProj** ( sampler_type s, vec_type uv [, float bias] )"
-msgstr "vec4_type **textureProj** ( sampler2D_type s, vec3 uv [, float bias] )"
+msgstr ""
+"vec4_type **textureProj** ( sampler_type s, vec_type uv [, float bias] )"
 
 #: ../../docs/tutorials/misc/gles2_gles3_differences.rst:155
-#, fuzzy
 msgid "vec4_type **textureLod** ( sampler_type s, vec_type uv, float lod )"
-msgstr "vec4_type **textureLod** ( sampler2D_type s, vec2 uv, float lod )"
+msgstr "vec4_type **textureLod** ( sampler_type s, vec_type uv, float lod )"
 
 #: ../../docs/tutorials/misc/gles2_gles3_differences.rst:155
 msgid "Only available in vertex shader on some hardware"
 msgstr "只在某些硬件的顶点着色器中可用"
 
 #: ../../docs/tutorials/misc/gles2_gles3_differences.rst:157
-#, fuzzy
 msgid "vec4_type **textureProjLod** ( sampler_type s, vec_type uv, float lod )"
-msgstr "vec4_type **textureProjLod** ( sampler2D_type s, vec3 uv, float lod )"
+msgstr ""
+"vec4_type **textureProjLod** ( sampler_type s, vec_type uv, float lod )"
 
 #: ../../docs/tutorials/misc/gles2_gles3_differences.rst:159
-#, fuzzy
 msgid ""
 "vec4_type **textureGrad** ( sampler_type s, vec_type uv, vec_type dPdx, "
 "vec_type dPdy)"
-msgstr "vec4_type **textureLod** ( sampler2D_type s, vec2 uv, float lod )"
+msgstr ""
+"vec4_type **textureGrad** ( sampler_type s, vec_type uv, vec_type dPdx, "
+"vec_type dPdy)"
 
 #: ../../docs/tutorials/misc/gles2_gles3_differences.rst:161
-#, fuzzy
 msgid "vec_type **dFdx** ( vec_type p )"
-msgstr "vec_type **dFdx** ( vec_type )"
+msgstr "vec_type **dFdx** ( vec_type p )"
 
 #: ../../docs/tutorials/misc/gles2_gles3_differences.rst:163
-#, fuzzy
 msgid "vec_type **dFdy** ( vec_type p )"
-msgstr "vec_type **dFdy** ( vec_type )"
+msgstr "vec_type **dFdy** ( vec_type p )"
 
 #: ../../docs/tutorials/misc/gles2_gles3_differences.rst:165
-#, fuzzy
 msgid "vec_type **fwidth** ( vec_type p )"
-msgstr "vec_type **fwidth** ( vec_type )"
+msgstr "vec_type **fwidth** ( vec_type p )"
 
 #: ../../docs/tutorials/misc/gles2_gles3_differences.rst:168
 msgid ""
@@ -425,9 +412,8 @@ msgstr ""
 "的表现可能比GLES3差。"
 
 #: ../../docs/tutorials/misc/gles2_gles3_differences.rst:171
-#, fuzzy
 msgid "``textureSize()`` workaround"
-msgstr "``textureSize()``操作方法"
+msgstr "``textureSize()`` 工作方法"
 
 #: ../../docs/tutorials/misc/gles2_gles3_differences.rst:173
 msgid ""
@@ -438,9 +424,8 @@ msgstr ""
 "个带有纹理大小的uniform。"
 
 #: ../../docs/tutorials/misc/gles2_gles3_differences.rst:189
-#, fuzzy
 msgid "Built in variables and render modes"
-msgstr "渲染模式"
+msgstr "内置变量和渲染模式"
 
 #: ../../docs/tutorials/misc/gles2_gles3_differences.rst:191
 msgid ""
@@ -454,9 +439,8 @@ msgstr ""
 "甚至可能会导致问题。"
 
 #: ../../docs/tutorials/misc/gles2_gles3_differences.rst:196
-#, fuzzy
 msgid "Variable / Render Mode"
-msgstr "渲染模式"
+msgstr "可变和渲染模式"
 
 #: ../../docs/tutorials/misc/gles2_gles3_differences.rst:198
 msgid "``ensure_correct_normals``"
@@ -467,18 +451,16 @@ msgid "``INSTANCE_ID``"
 msgstr "``INSTANCE_ID``"
 
 #: ../../docs/tutorials/misc/gles2_gles3_differences.rst:202
-#, fuzzy
 msgid "``DEPTH``"
-msgstr "“深度图纹理”"
+msgstr "``DEPTH``"
 
 #: ../../docs/tutorials/misc/gles2_gles3_differences.rst:204
 msgid "``ANISOTROPY``"
 msgstr "``ANISOTROPY``"
 
 #: ../../docs/tutorials/misc/gles2_gles3_differences.rst:206
-#, fuzzy
 msgid "``ANISOTROPY_FLOW``"
-msgstr "out vec2 **ANISOTROPY_FLOW**"
+msgstr "``ANISOTROPY_FLOW``"
 
 #: ../../docs/tutorials/misc/gles2_gles3_differences.rst:208
 msgid "``SSS_STRENGTH``"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-28 20:28+0800\n"
+"POT-Creation-Date: 2021-04-25 22:16+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,7 +18,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../docs/community/contributing/editor_and_docs_localization.rst:4
-#, fuzzy
 msgid "Editor and docs localization"
 msgstr "编辑器和文档本地化"
 
@@ -33,27 +32,24 @@ msgstr ""
 "此，多亏了社区的翻译工作，我们尽最大努力使最重要的资源以多种语言提供。"
 
 #: ../../docs/community/contributing/editor_and_docs_localization.rst:13
-#, fuzzy
 msgid "These resources include:"
-msgstr "其他有效的关键字包括："
+msgstr "这些资源包括："
 
 #: ../../docs/community/contributing/editor_and_docs_localization.rst:15
-#, fuzzy
 msgid ""
 "The `Godot editor's interface <https://hosted.weblate.org/projects/godot-"
 "engine/godot/>`__ (ca. 15,000 words)."
 msgstr ""
-"在 `Hosted Weblate <https://hosted.weblate.org/projects/godot-engine/godot-"
-"docs/>`__ 上的文档可以被翻译成任何语言。"
+"`Godot编辑界面 <https://hosted.weblate.org/projects/godot-engine/godot/>`__ "
+"(约15,000个字)."
 
 #: ../../docs/community/contributing/editor_and_docs_localization.rst:17
-#, fuzzy
 msgid ""
 "The `online documentation <https://hosted.weblate.org/projects/godot-engine/"
 "godot-docs/>`__ (editor manual and tutorials, ca. 300,000 words)."
 msgstr ""
-"在 `Hosted Weblate <https://hosted.weblate.org/projects/godot-engine/godot-"
-"docs/>`__ 上的文档可以被翻译成任何语言。"
+"`online documentation <https://hosted.weblate.org/projects/godot-engine/"
+"godot-docs/>` __（编辑器手册和教程，约30万字）。"
 
 #: ../../docs/community/contributing/editor_and_docs_localization.rst:19
 msgid ""
@@ -97,9 +93,8 @@ msgstr ""
 "考。"
 
 #: ../../docs/community/contributing/editor_and_docs_localization.rst:40
-#, fuzzy
 msgid "Using Weblate for translations"
-msgstr "配置导入的译文"
+msgstr "使用Weblate进行翻译"
 
 #: ../../docs/community/contributing/editor_and_docs_localization.rst:42
 msgid ""
@@ -142,9 +137,8 @@ msgstr ""
 "user/translating.html>`__更多细节。"
 
 #: ../../docs/community/contributing/editor_and_docs_localization.rst:64
-#, fuzzy
 msgid "Adding a new language"
-msgstr "着色语言"
+msgstr "增加一种新的语言"
 
 #: ../../docs/community/contributing/editor_and_docs_localization.rst:66
 msgid ""
@@ -199,9 +193,8 @@ msgstr ""
 "MX”等，如果需要）或葡萄牙语（pt\\u BR``vs``pt\\u pt``）。"
 
 #: ../../docs/community/contributing/editor_and_docs_localization.rst:97
-#, fuzzy
 msgid "Translation interface"
-msgstr "TranslationServer类"
+msgstr "翻译接口"
 
 #: ../../docs/community/contributing/editor_and_docs_localization.rst:99
 msgid ""
@@ -289,9 +282,8 @@ msgstr ""
 "GitHub上的原始字符串。您可能需要在页面中搜索字符串来定位它及其周围的上下文。"
 
 #: ../../docs/community/contributing/editor_and_docs_localization.rst:143
-#, fuzzy
 msgid "Locating original content"
-msgstr "创建3D内容"
+msgstr "查找原始内容"
 
 #: ../../docs/community/contributing/editor_and_docs_localization.rst:145
 msgid ""
@@ -395,9 +387,8 @@ msgstr ""
 "的在线版本时，给定的段落或节标题可能不在您期望的位置。"
 
 #: ../../docs/community/contributing/editor_and_docs_localization.rst:206
-#, fuzzy
 msgid "Respecting the markup syntax"
-msgstr "测试结果"
+msgstr "遵守标记语法"
 
 #: ../../docs/community/contributing/editor_and_docs_localization.rst:208
 msgid ""
@@ -409,14 +400,12 @@ msgstr ""
 "在翻译中产生语法错误非常重要。"
 
 #: ../../docs/community/contributing/editor_and_docs_localization.rst:213
-#, fuzzy
 msgid "Editor interface (C++)"
-msgstr "Godot接口"
+msgstr "编辑器接口(C++)"
 
 #: ../../docs/community/contributing/editor_and_docs_localization.rst:215
-#, fuzzy
 msgid "The editor translations originate from C++ strings, and may use:"
-msgstr "编辑器翻译源自C++字符串，可使用："
+msgstr "编辑部的翻译源于C++字符串，并且可以使用："
 
 #: ../../docs/community/contributing/editor_and_docs_localization.rst:217
 msgid ""
@@ -450,9 +439,8 @@ msgstr ""
 "子：："
 
 #: ../../docs/community/contributing/editor_and_docs_localization.rst:247
-#, fuzzy
 msgid "Online documentation (RST)"
-msgstr "文档结构"
+msgstr "在线文件(RST)"
 
 #: ../../docs/community/contributing/editor_and_docs_localization.rst:249
 msgid ""
@@ -476,9 +464,8 @@ msgstr ""
 "能会特别遇到内联标记（粗体、斜体、内联代码）以及内部和外部超链接标记。"
 
 #: ../../docs/community/contributing/editor_and_docs_localization.rst:297
-#, fuzzy
 msgid "Class reference (BBCode)"
-msgstr "类参考"
+msgstr "类参考 (BBCode)"
 
 #: ../../docs/community/contributing/editor_and_docs_localization.rst:299
 msgid ""
@@ -536,9 +523,8 @@ msgstr ""
 "用。"
 
 #: ../../docs/community/contributing/editor_and_docs_localization.rst:331
-#, fuzzy
 msgid "Offline translation and testing"
-msgstr "国际化"
+msgstr "离线翻译和测试"
 
 #: ../../docs/community/contributing/editor_and_docs_localization.rst:333
 msgid ""
@@ -599,19 +585,18 @@ msgstr ""
 "master/editor/translations>`__)."
 
 #: ../../docs/community/contributing/editor_and_docs_localization.rst:362
-#, fuzzy
 msgid ""
 "You can also test class reference changes the same way by renaming the PO "
 "file similarly and placing it in the ``doc/translations/`` folder (`GitHub "
 "<https://github.com/godotengine/godot/tree/master/doc/translations>`__)."
 msgstr ""
-"类参考手册位于Godot的GitHub存储库中 `doc/classes/ <https://github.com/"
-"godotengine/godot/tree/master/doc/classes>`_ 路径下的XML文件中。"
+"你也可以用同样的方法测试类的引用变化，方法是对PO文件进行类似的重命名，并将其"
+"放在 ``doc/translations/`` 文件夹中（ `GitHub <https://github.com/"
+"godotengine/godot/tree/master/doc/translations>` __）。"
 
 #: ../../docs/community/contributing/editor_and_docs_localization.rst:367
-#, fuzzy
 msgid "Localizing documentation images"
-msgstr "更新文档模板"
+msgstr "本地化文档图像"
 
 #: ../../docs/community/contributing/editor_and_docs_localization.rst:369
 msgid ""
@@ -624,14 +609,13 @@ msgstr ""
 "其他类型的视觉内容。其中一些包含文本，因此可能与您的语言中的本地化相关。"
 
 #: ../../docs/community/contributing/editor_and_docs_localization.rst:373
-#, fuzzy
 msgid ""
 "This part is not handled via Weblate, but directly on the `godot-docs-l10n "
 "<https://github.com/godotengine/godot-docs-l10n>`_ Git repository where the "
 "documentation translations are synced from Weblate."
 msgstr ""
-"翻译后的字符串由文档维护人员在 `godot-docs-l10n <https://github.com/"
-"godotengine/godot-docs-l10n>`__ 存储库中手动同步更新。"
+"这部分不通过Weblate处理，而是直接在 `godot-docs-l10n <https://github.com/"
+"godotengine/godot-docs-l10n>` _ Git仓库中处理，文档翻译从Weblate同步过来。"
 
 #: ../../docs/community/contributing/editor_and_docs_localization.rst:379
 msgid ""

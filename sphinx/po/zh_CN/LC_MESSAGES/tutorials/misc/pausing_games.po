@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-28 20:28+0800\n"
+"POT-Creation-Date: 2021-04-25 22:16+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -26,16 +26,15 @@ msgid "Pause?"
 msgstr "暂停？"
 
 #: ../../docs/tutorials/misc/pausing_games.rst:9
-#, fuzzy
 msgid ""
 "In most games it is desirable to, at some point, interrupt the game to do "
 "something else, such as taking a break or changing options. However, this is "
 "not as simple as it seems. The game might be stopped, but it might be "
 "desirable that some menus and animations continue working."
 msgstr ""
-"在大多数游戏中，希望在某些时候中断游戏以做其他事情，例如休息或改变选项。 然"
-"而，这并不像看起来那么简单。 游戏可能会停止，但可能需要一些菜单和动画继续工"
-"作。"
+"在大多数游戏中，最好是在某些时候中断游戏，做一些其他事情，比如休息一下或改变"
+"选项。然而，这并不像它看起来那么简单。游戏可能被停止，但可能希望一些菜单和动"
+"画继续工作。"
 
 #: ../../docs/tutorials/misc/pausing_games.rst:15
 msgid ""
@@ -99,9 +98,8 @@ msgstr ""
 "节点中的``暂停模式``属性来完成的:"
 
 #: ../../docs/tutorials/misc/pausing_games.rst:53
-#, fuzzy
 msgid "You can achieve the same result in code:"
-msgstr "您可以使用以下命令检查所有远程服务器的列表:"
+msgstr "你可以在代码中实现同样的结果:"
 
 #: ../../docs/tutorials/misc/pausing_games.rst:62
 msgid ""

@@ -42,13 +42,13 @@ master_doc = "index"
 # General information about the project
 project = "Godot Engine"
 copyright = (
-    "2014-2020, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)"
+    "2014-2021, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)"
 )
 author = "Juan Linietsky, Ariel Manzur and the Godot community"
 
 # Version info for the project, acts as replacement for |version| and |release|
 # The short X.Y version
-version = os.getenv("READTHEDOCS_VERSION", "3.2")
+version = os.getenv("READTHEDOCS_VERSION", "3.3")
 # The full version, including alpha/beta/rc tags
 release = version
 

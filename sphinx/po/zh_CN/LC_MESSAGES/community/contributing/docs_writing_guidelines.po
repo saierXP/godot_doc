@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-28 20:28+0800\n"
+"POT-Creation-Date: 2021-04-25 22:16+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -107,7 +107,6 @@ msgstr ""
 "助您实现这一目标。"
 
 #: ../../docs/community/contributing/docs_writing_guidelines.rst:36
-#, fuzzy
 msgid "7 rules for clear English"
 msgstr "英语清晰的7条规则"
 
@@ -408,14 +407,12 @@ msgid "**Don't** add a type hint with a colon or by casting:"
 msgstr "**不要**用冒号或强制转换添加类型提示："
 
 #: ../../docs/community/contributing/docs_writing_guidelines.rst:301
-#, fuzzy
 msgid "**Do** write constants and variables with dynamic typing:"
-msgstr "[Do] 使用动态类型编写常量变量："
+msgstr "**Do** 用动态类型编写常量和变量:"
 
 #: ../../docs/community/contributing/docs_writing_guidelines.rst:311
-#, fuzzy
 msgid "**Don't** write functions with inferred arguments or return types:"
-msgstr "**不要** 写一些简短而含糊的摘要："
+msgstr "**不要**用推断的参数或返回类型编写函数："
 
 #: ../../docs/community/contributing/docs_writing_guidelines.rst:322
 msgid "**Do** write functions using dynamic typing:"
@@ -444,14 +441,12 @@ msgstr ""
 "他们提供了有关在实际项目中可以在何处使用代码段的参考框架。"
 
 #: ../../docs/community/contributing/docs_writing_guidelines.rst:344
-#, fuzzy
 msgid "**Don't** write made-up examples:"
-msgstr "**不要** 写一些简短而含糊的摘要："
+msgstr "**不要** 写虚构的例子："
 
 #: ../../docs/community/contributing/docs_writing_guidelines.rst:355
-#, fuzzy
 msgid "**Do** write concrete examples:"
-msgstr "**不要** 写 \"of the X\"："
+msgstr "**要** 写出具体事例:"
 
 #: ../../docs/community/contributing/docs_writing_guidelines.rst:367
 msgid ""
@@ -529,11 +524,10 @@ msgstr ""
 "是否`` 可能不明确，且不适用于每个成员变量。"
 
 #: ../../docs/community/contributing/docs_writing_guidelines.rst:432
-#, fuzzy
 msgid ""
 "Also, surround boolean values, variable names and methods with ``[code][/"
 "code]``."
-msgstr "布尔值、变量名和方法围绕着 ``[code][/code]``。"
+msgstr "另外，在布尔值、变量名和方法周围用 ``[code][/code]`` 。"
 
 #: ../../docs/community/contributing/docs_writing_guidelines.rst:434
 msgid "**Do** start with \"if true\":"
@@ -555,9 +549,8 @@ msgstr ""
 "在的参数，如 ``'this'`` 或 ```this``` 。"
 
 #: ../../docs/community/contributing/docs_writing_guidelines.rst:452
-#, fuzzy
 msgid "Common vocabulary to use in Godot's documentation"
-msgstr "在Godot文档中使用的常用词汇"
+msgstr "在Godot的文档中要用到的常用词汇"
 
 #: ../../docs/community/contributing/docs_writing_guidelines.rst:454
 msgid ""
@@ -621,9 +614,8 @@ msgstr ""
 "是 ``属性(properties)``。"
 
 #: ../../docs/community/contributing/docs_writing_guidelines.rst:486
-#, fuzzy
 msgid "Keyboard shortcut guidelines"
-msgstr "键盘快捷键"
+msgstr "键盘快捷键指南"
 
 #: ../../docs/community/contributing/docs_writing_guidelines.rst:488
 msgid ""
@@ -697,11 +689,10 @@ msgstr ""
 "异性过滤器质量设置为16x。"
 
 #: ../../docs/community/contributing/docs_writing_guidelines.rst:517
-#, fuzzy
 msgid ""
 "Screenshot sizes should not exceed 1920×1080 to ensure fast loading on "
 "slower connections."
-msgstr "屏幕截图大小不应超过1920x1080。"
+msgstr "屏幕截图尺寸不应超过1920×1080，以确保在较慢的连接上快速加载。"
 
 #: ../../docs/community/contributing/docs_writing_guidelines.rst:520
 msgid ""
@@ -716,7 +707,6 @@ msgstr ""
 "可以很容易地看到色盲的人。请不要使用红色，因为它对某些用户不可见。"
 
 #: ../../docs/community/contributing/docs_writing_guidelines.rst:526
-#, fuzzy
 msgid ""
 "Before you add or replace any images in the documentation, they should be "
 "run through a PNG compressor to save size. You can use the lossless OxiPNG "
@@ -725,9 +715,10 @@ msgid ""
 "<https://pngquant.org/>`_. With it, almost no image quality is lost during "
 "compression."
 msgstr ""
-"在添加或替换文档中的任何图像之前，应通过png压缩器运行它们以节省大小。应该使用"
-"在Krita或Photoshop等程序中内置的无损压缩器。但是您也可以使用有损的压缩器，例"
-"如 `pngquant <https://pngquant.org/>`_ ，在压缩过程中几乎不会丢失图像质量。"
+"在你添加或替换文档中的任何图片之前，它们应该通过运行PNG压缩器以节省尺寸。你可"
+"以使用 `Squoosh <https://squoosh.app/>`__ 中包含的无损OxiPNG压缩器来达到这个"
+"目的。对于较大的图像，可以考虑使用像 `pngquant <https://pngquant.org/>`_ 的有"
+"损压缩器。有了它，在压缩过程中几乎没有图像质量损失。"
 
 #: ../../docs/community/contributing/docs_writing_guidelines.rst:535
 msgid ""

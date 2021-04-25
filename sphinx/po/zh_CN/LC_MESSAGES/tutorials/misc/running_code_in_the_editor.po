@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-28 20:28+0800\n"
+"POT-Creation-Date: 2021-04-25 22:16+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -45,14 +45,13 @@ msgstr ""
 "物。 以下是一些用例:"
 
 #: ../../docs/tutorials/misc/running_code_in_the_editor.rst:13
-#, fuzzy
 msgid ""
 "If you have a cannon that shoots cannonballs affected by physics (gravity), "
 "you can draw the cannonball's trajectory in the editor, making level design "
 "a lot easier."
 msgstr ""
-"如果您有一门大炮发出受物理(重力)影响的炮弹，您可以在编辑器中绘制炮弹的轨迹，"
-"使得关卡设计更容易。"
+"如果你有一门发射受物理学（重力）影响的炮弹的大炮，你可以在编辑器中画出炮弹的"
+"轨迹，使关卡设计容易得多。"
 
 #: ../../docs/tutorials/misc/running_code_in_the_editor.rst:14
 msgid ""
@@ -92,11 +91,10 @@ msgid "How to use it"
 msgstr "如何使用它"
 
 #: ../../docs/tutorials/misc/running_code_in_the_editor.rst:30
-#, fuzzy
 msgid ""
 "To turn a script into a tool, add the keyword ``tool`` at the top of your "
 "code."
-msgstr "要将脚本转换为工具，请在代码顶部添加 ``tool`` 关键字。"
+msgstr "要把一个脚本变成一个工具，在你的代码顶部添加关键字 ``tool`` 。"
 
 #: ../../docs/tutorials/misc/running_code_in_the_editor.rst:32
 msgid ""
@@ -104,38 +102,33 @@ msgid ""
 msgstr "要检查您当前是否在编辑器中，请使用 : ``Engine.editor_hint``。"
 
 #: ../../docs/tutorials/misc/running_code_in_the_editor.rst:34
-#, fuzzy
 msgid "For example, if you want to execute some code only in the editor, use:"
-msgstr "例如，如果只想在编辑器中执行某些代码，请使用:"
+msgstr "例如，如果你想只在编辑器中执行一些代码，可以使用："
 
 #: ../../docs/tutorials/misc/running_code_in_the_editor.rst:49
-#, fuzzy
 msgid ""
 "On the other hand, if you want to execute code only in game, simply negate "
 "the same statement:"
-msgstr "另一方面，如果您只想在游戏中执行代码，只需否定先前的表达式:"
+msgstr "另一方面，如果你想只在游戏中执行代码，只需否定相同的语句："
 
 #: ../../docs/tutorials/misc/running_code_in_the_editor.rst:64
-#, fuzzy
 msgid ""
 "Pieces of code do not have either of the 2 conditions above will run both in-"
 "editor and in-game."
-msgstr "没有上述任何条件的代码片段将在编辑器和游戏中运行。"
+msgstr "不具备上述两个条件之一的代码片断将在编辑器和游戏中运行。"
 
 #: ../../docs/tutorials/misc/running_code_in_the_editor.rst:66
-#, fuzzy
 msgid "Here is how a ``_process()`` function might look for you:"
 msgstr "以下是 ``_process()`` 函数的示例:"
 
 #: ../../docs/tutorials/misc/running_code_in_the_editor.rst:97
-#, fuzzy
 msgid ""
 "Modifications in editor are permanent. For example, in the following case, "
 "when we remove the script, the node will keep its rotation. Be careful to "
 "avoid making unwanted modifications."
 msgstr ""
-"编辑器中的修改是永久性的。 在我们的示例中，当我们删除脚本时，节点将保持其旋转"
-"方向。 请注意不要进行不必要的修改。"
+"编辑器中的修改是永久性的。例如，在下面的情况下，当我们删除脚本时，节点将保持"
+"其旋转。要注意避免做不需要的修改。"
 
 #: ../../docs/tutorials/misc/running_code_in_the_editor.rst:100
 msgid "Try it out"
@@ -177,9 +170,8 @@ msgstr ""
 "转。"
 
 #: ../../docs/tutorials/misc/running_code_in_the_editor.rst:161
-#, fuzzy
 msgid "Editing variables"
-msgstr "编辑实例"
+msgstr "编辑变量"
 
 #: ../../docs/tutorials/misc/running_code_in_the_editor.rst:162
 msgid ""
@@ -218,23 +210,20 @@ msgstr ""
 "可见。"
 
 #: ../../docs/tutorials/misc/running_code_in_the_editor.rst:220
-#, fuzzy
 msgid "If you are using ``tool``:"
-msgstr "如果你正在使用``tool``:"
+msgstr "如果你使用的是 ``tool`` :"
 
 #: ../../docs/tutorials/misc/running_code_in_the_editor.rst:239
-#, fuzzy
 msgid "If you are using :ref:`EditorScript<class_EditorScript>`:"
-msgstr "如果你使用:ref:`EditorScript<class_EditorScript>`:"
+msgstr "如果你使用 :ref:`EditorScript<class_EditorScript>` :"
 
 #: ../../docs/tutorials/misc/running_code_in_the_editor.rst:260
-#, fuzzy
 msgid ""
 "Using ``tool`` improperly can yield many errors. It is advised to first "
 "write the code how you want it, and only then add the ``tool`` keyword to "
 "the top. Also, make sure to separate code that runs in-editor from code that "
 "runs in-game. This way, you can find bugs more easily."
 msgstr ""
-"不正确地使用 ``tool`` 可能会产生许多错误。 建议首先按照您想要的方式编写代码，"
-"然后只在顶部添加 ``tool`` 关键字。 还要确保将代码划分为在编辑器中运行的部分和"
-"在游戏中运行的部分。 这样您就可以更轻松地找到您的错误。"
+"不适当地使用 ``tool`` 会产生许多错误。建议首先按照你想要的方式写代码，然后才"
+"在上面添加 ``tool`` 关键字。另外，要确保把在编辑器中运行的代码和在游戏中运行"
+"的代码分开。这样，你可以更容易地发现错误。"

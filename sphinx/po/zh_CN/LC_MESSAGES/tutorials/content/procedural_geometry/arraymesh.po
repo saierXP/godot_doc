@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-28 20:28+0800\n"
+"POT-Creation-Date: 2021-04-25 22:16+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,9 +18,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../docs/tutorials/content/procedural_geometry/arraymesh.rst:4
-#, fuzzy
 msgid "Using the ArrayMesh"
-msgstr "使用资源馆"
+msgstr "使用ArrayMesh"
 
 #: ../../docs/tutorials/content/procedural_geometry/arraymesh.rst:6
 msgid ""
@@ -65,9 +64,8 @@ msgid "``ARRAY_VERTEX`` = 0 | PoolVector3Array or PoolVector2Array"
 msgstr "``ARRAY_VERTEX`` = 0 | PoolVector3Array or PoolVector2Array"
 
 #: ../../docs/tutorials/content/procedural_geometry/arraymesh.rst:21
-#, fuzzy
 msgid "``ARRAY_NORMAL`` = 1 | PoolVector3Array"
-msgstr "PoolVector3Array"
+msgstr "``ARRAY_NORMAL`` = 1 | PoolVector3Array"
 
 #: ../../docs/tutorials/content/procedural_geometry/arraymesh.rst:22
 msgid ""
@@ -121,7 +119,6 @@ msgstr ""
 "一样的"
 
 #: ../../docs/tutorials/content/procedural_geometry/arraymesh.rst:37
-#, fuzzy
 msgid "The index array is unique."
 msgstr "索引数组是唯一的。"
 
@@ -166,9 +163,8 @@ msgstr ""
 "需要创建一个。"
 
 #: ../../docs/tutorials/content/procedural_geometry/arraymesh.rst:54
-#, fuzzy
 msgid "Next, add a script to the MeshInstance."
-msgstr "资源的文字描述。"
+msgstr "接下来，在MeshInstance中添加一个脚本。"
 
 #: ../../docs/tutorials/content/procedural_geometry/arraymesh.rst:56
 msgid "Under ``_ready()``, create a new Array."
@@ -205,9 +201,8 @@ msgstr ""
 "何基本类型。"
 
 #: ../../docs/tutorials/content/procedural_geometry/arraymesh.rst:99
-#, fuzzy
 msgid "Put together the full code looks like:"
-msgstr "现在这个星球看起来像:"
+msgstr "完整的代码如下:"
 
 #: ../../docs/tutorials/content/procedural_geometry/arraymesh.rst:130
 msgid ""
@@ -216,9 +211,8 @@ msgid ""
 msgstr "中间可以放你想要的任何代码。下面将介绍一些放在中间的示例代码。"
 
 #: ../../docs/tutorials/content/procedural_geometry/arraymesh.rst:134
-#, fuzzy
 msgid "Generating geometry"
-msgstr "生成的几何体"
+msgstr "生成几何体"
 
 #: ../../docs/tutorials/content/procedural_geometry/arraymesh.rst:136
 msgid ""
@@ -235,9 +229,8 @@ msgstr ""
 "网上寻找相关的教程进行学习。"
 
 #: ../../docs/tutorials/content/procedural_geometry/arraymesh.rst:203
-#, fuzzy
 msgid "Combined with the code above, this code will generate a sphere."
-msgstr "结合上面的代码，这段代码将生成一个球体。"
+msgstr "与上面的代码相结合，这段代码将生成一个球体。"
 
 #: ../../docs/tutorials/content/procedural_geometry/arraymesh.rst:205
 msgid ""
@@ -249,9 +242,8 @@ msgstr ""
 "言和引擎的教程将其转换为Godot。"
 
 #: ../../docs/tutorials/content/procedural_geometry/arraymesh.rst:209
-#, fuzzy
 msgid "Saving"
-msgstr "保存游戏"
+msgstr "保存中"
 
 #: ../../docs/tutorials/content/procedural_geometry/arraymesh.rst:211
 msgid ""

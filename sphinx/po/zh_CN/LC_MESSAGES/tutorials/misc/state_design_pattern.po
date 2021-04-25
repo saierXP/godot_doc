@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-28 20:28+0800\n"
+"POT-Creation-Date: 2021-04-25 22:16+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,9 +18,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../docs/tutorials/misc/state_design_pattern.rst:4
-#, fuzzy
 msgid "State design pattern"
-msgstr "绑定模式"
+msgstr "状态设计模式"
 
 #: ../../docs/tutorials/misc/state_design_pattern.rst:7
 msgid "Introduction"
@@ -50,9 +49,8 @@ msgid ""
 msgstr "玩家的每一个状态都可以有一个子节点，在使用时会被调用。"
 
 #: ../../docs/tutorials/misc/state_design_pattern.rst:17
-#, fuzzy
 msgid "Enums can be used in conjunction with a match statement."
-msgstr "枚举可与match语句结合使用。"
+msgstr "Enums可以与匹配语句一起使用。"
 
 #: ../../docs/tutorials/misc/state_design_pattern.rst:18
 msgid ""
@@ -70,18 +68,16 @@ msgstr ""
 "现。"
 
 #: ../../docs/tutorials/misc/state_design_pattern.rst:24
-#, fuzzy
 msgid ""
 "There is a great resource explaining the concept of the state design pattern "
 "here: https://gameprogrammingpatterns.com/state.html"
 msgstr ""
-"您可以在 `这里 <http://gameprogrammingpatterns.com/observer.html>`__ 阅读有关"
-"观察者模式的更多信息"
+"这里有一个很好的资源来解释状态设计模式的概念 : https://"
+"gameprogrammingpatterns.com/state.html"
 
 #: ../../docs/tutorials/misc/state_design_pattern.rst:28
-#, fuzzy
 msgid "Script setup"
-msgstr "GDScript"
+msgstr "脚本设置"
 
 #: ../../docs/tutorials/misc/state_design_pattern.rst:30
 msgid ""

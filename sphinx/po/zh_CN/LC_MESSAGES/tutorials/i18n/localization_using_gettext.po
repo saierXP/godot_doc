@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-28 20:28+0800\n"
+"POT-Creation-Date: 2021-04-25 22:16+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -255,9 +255,8 @@ msgstr ""
 "Web平台。"
 
 #: ../../docs/tutorials/i18n/localization_using_gettext.rst:141
-#, fuzzy
 msgid "Loading a messages file in Godot"
-msgstr "在 Godot 3.0+ 中导入资源"
+msgstr "在Godot中加载信息文件"
 
 #: ../../docs/tutorials/i18n/localization_using_gettext.rst:143
 msgid ""
@@ -273,13 +272,12 @@ msgstr ""
 "\\n\"`` 属性中推算出来。"
 
 #: ../../docs/tutorials/i18n/localization_using_gettext.rst:149
-#, fuzzy
 msgid ""
 "See :ref:`doc_internationalizing_games` for more information on importing "
 "and testing translations in Godot."
 msgstr ""
-"请参阅 :ref:`Ray-casting <doc_ray-casting>` 了解有关Godot的光线投射的更多信"
-"息。"
+"关于在Godot中导入和测试翻译的更多信息，请参见 :ref:"
+"`doc_internationalizing_games` 。"
 
 #: ../../docs/tutorials/i18n/localization_using_gettext.rst:153
 msgid "Updating message files to follow the PO template"
@@ -296,13 +294,12 @@ msgstr ""
 "的字符串。这可以使用``msgmerge``工具自动完成："
 
 #: ../../docs/tutorials/i18n/localization_using_gettext.rst:165
-#, fuzzy
 msgid ""
 "If you want to keep a backup of the original message file (which would be "
 "saved as ``fr.po~`` in this example), remove the ``--backup=none`` argument."
 msgstr ""
-"如果你想保留原始消息文件的备份（在本例中会保存为``fr.po~``），请删除``--"
-"backup=none``参数。"
+"如果你想保留原始消息文件的备份，在本例中会保存为 ``fr.po~`` ，请删除 ``--"
+"backup=none`` 参数。"
 
 #: ../../docs/tutorials/i18n/localization_using_gettext.rst:169
 msgid "Checking the validity of a PO file or template"

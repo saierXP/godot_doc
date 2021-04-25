@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-28 20:28+0800\n"
+"POT-Creation-Date: 2021-04-25 22:16+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,19 +22,17 @@ msgid "Part 3"
 msgstr "第3部分"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_three.rst:7
-#, fuzzy
 msgid "Part overview"
-msgstr "零件概述"
+msgstr "部分概述"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_three.rst:9
-#, fuzzy
 msgid ""
 "In this part, we will be limiting the player's weapons by giving them ammo. "
 "We will also be giving the player the ability to reload, and we will be "
 "adding sounds when the weapons fire."
 msgstr ""
-"在这部分中，我们将通过给予弹药来限制游戏角色的武器。 我们还将为游戏角色提供重"
-"新加载的能力，并且当武器射击时我们将添加声音。"
+"在这个部分，我们将通过给玩家的武器提供弹药来限制他们。还将赋予玩家重新装填的"
+"能力，并且将添加武器开火时的声音。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_three.rst:15
 msgid ""
@@ -55,10 +53,9 @@ msgid "Changing levels"
 msgstr "改变水平"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_three.rst:24
-#, fuzzy
 msgid ""
 "Now that we have a fully working FPS, let's move to a more FPS-like level."
-msgstr "现在我们已经有了一个完全正常工作的FPS，让我们转向更高级别的FPS。"
+msgstr "现在我们已经有了一个完全可以运作的FPS，让我们进入一个更像FPS的级别。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_three.rst:26
 msgid ""
@@ -71,14 +68,14 @@ msgstr ""
 "Ruins_Level.tscn``)。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_three.rst:29
-#, fuzzy
 msgid ""
 "``Space_Level.tscn`` and ``Ruins_Level.tscn`` are complete custom FPS levels "
 "created for the purpose of this tutorial. Press ``Play Current Scene`` "
 "button, or :kbd:`F6` on keyboard, and give each a try."
 msgstr ""
-"``Space_Level.tscn``和``Ruins_Level.tscn``是为本教程的目的而创建的完整自定义"
-"FPS级别。 按“F6`”播放打开的场景，或按“播放当前场景按钮”，然后给它们旋转一下。"
+"``Space_Level.tscn`` 和 ``Ruins_Level.tscn`` 是为了本教程而制作的完整的自定义"
+"FPS关卡。按 ``Play Current Scene`` 按钮，或按键盘上的 :kbd:`F6`，分别尝试一"
+"下。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_three.rst:33
 msgid ""
@@ -100,9 +97,8 @@ msgstr ""
 "Space关卡和Ruins Level关卡场景进行以下更改:"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_three.rst:40
-#, fuzzy
 msgid "Open ``res://assets/Space_Level_Objects/Space_Level.tscn``."
-msgstr "打开 ``res://assets/Space_Level_Objects/Space_Level.tscn``."
+msgstr "打开 ``res://assets/Space_Level_Objects/Space_Level.tscn`` 。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_three.rst:41
 msgid ""
@@ -119,14 +115,12 @@ msgstr ""
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_three.rst:42
 #: ../../docs/tutorials/3d/fps_tutorial/part_three.rst:46
-#, fuzzy
 msgid "Do the same for the **Walls** node."
-msgstr "根节点的规模。"
+msgstr "对 **Walls** 节点做同样的操作。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_three.rst:44
-#, fuzzy
 msgid "Open ``res://assets/Ruin_Level_Objects/Ruins_Level.tscn``."
-msgstr "打开 ``res://assets/Ruin_Level_Objects/Ruins_Level.tscn``."
+msgstr "打开 ``res://assets/Ruin_Level_Objects/Ruins_Level.tscn`` 。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_three.rst:45
 msgid ""
@@ -158,11 +152,10 @@ msgid ""
 msgstr "按照以下说明选择您要使用的场景中的任何一个(或两个)"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_three.rst:87
-#, fuzzy
 msgid ""
 "Now you can fire at all the rigid bodies in either level and they will react "
 "to bullets hitting them!"
-msgstr "现在您可以射击任何级别的所有刚体，它们会对撞击它们的子弹作出反应！"
+msgstr "现在你可以向任一关卡中的所有刚体开火，它们会对子弹击中而做出反应!"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_three.rst:90
 msgid "Adding ammo"
@@ -209,40 +202,37 @@ msgstr ""
 "在``Clone.BULLET_DAMAGE = DAMAGE``下添加以下内容:``ammo_in_weapon - = 1``"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_three.rst:112
-#, fuzzy
 msgid ""
 "This will remove one from ``ammo_in_weapon`` every time the player fires. "
 "Notice we're not checking to see if the player has enough ammo or not in "
 "``fire_weapon``. Instead, we're going to check to see if the player has "
 "enough ammo in ``Player.gd``."
 msgstr ""
-"每次游戏角色开火时，这将从“ammo_in_weapon”中删除一个。 请注意，我们没有检查游"
-"戏角色是否在“fire_weapon”中有足够的弹药。 相反，我们将检查游戏角色是否"
-"在“Player.gd”中有足够的弹药。"
+"这将在玩家每次开火时从 ``ammo_in_weapon`` 中删除一个。请注意，我们不是在 "
+"``fire_weapon`` 中检查玩家是否有足够的弹药，而是在 ``Player.gd`` 中检查玩家是"
+"否有足够的弹药。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_three.rst:117
 msgid "Now we need to add ammo for both the rifle and the knife."
 msgstr "现在我们需要为步枪和刀子添加弹药。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_three.rst:119
-#, fuzzy
 msgid ""
 "You may be wondering why we are adding ammo for the knife given it does not "
 "consume any ammunition. The reason we want to add ammo to the knife is so we "
 "have a consistent interface for all our weapons."
 msgstr ""
-"您可能想知道为什么我们为刀子添加弹药，因为它不消耗任何弹药。 我们想要给刀子添"
-"加弹药的原因是我们为所有武器提供了一致的界面。"
+"你可能想知道为什么我们要为小刀添加弹药，它不消耗任何弹药，之所以要给小刀添加"
+"弹药，是为了让我们的所有武器有一个一致的界面。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_three.rst:122
-#, fuzzy
 msgid ""
 "If we did not add ammo variables for the knife, we would have to add checks "
 "for the knife. By adding the ammo variables to the knife, we don't need to "
 "worry about whether or not all our weapons have the same variables."
 msgstr ""
-"如果我们没有为刀子添加弹药变量，我们将不得不添加刀具检查。 通过将弹药变量添加"
-"到刀具中，我们无需担心我们的武器是否具有相同的变量。"
+"如果我们不为刀子添加弹药变量，就必须为刀子添加检查。通过给刀子添加弹药变量，"
+"就不用担心武器是否都有相同的变量。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_three.rst:125
 msgid "Add the following class variables to ``Weapon_Rifle.gd``:"
@@ -265,22 +255,18 @@ msgid ""
 msgstr "现在剩下的就是刀。 将以下内容添加到``Weapon_Knife.gd``:"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_three.rst:144
-#, fuzzy
 msgid "Because the knife does not consume ammo, that is all we need to add."
-msgstr "因为刀不消耗弹药，所以我们需要添加。"
+msgstr "因为这把刀不消耗弹药，所以我们只需要添加。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_three.rst:148
 msgid "Now we need to change one thing in ``Player.gd``, that is to say,"
 msgstr "现在我们需要在“ Player.gd”中更改一件事，也就是说，"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_three.rst:150
-#, fuzzy
 msgid ""
 "how we're firing the weapons in ``process_input``. Change the code for "
 "firing weapons to the following:"
-msgstr ""
-"我们需要改变我们在 ``process_input`` 中发射武器的方式。 将发射武器的代码更改"
-"为以下内容:"
+msgstr "如何在 ``process_input`` 中发射武器。将发射武器的代码改为:"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_three.rst:165
 msgid ""
@@ -289,13 +275,12 @@ msgid ""
 msgstr "现在武器的弹药数量有限，并且当游戏角色用尽时将停止射击。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_three.rst:169
-#, fuzzy
 msgid ""
 "Ideally, we'd like to let the player be able to see how much ammo is left. "
 "Let's make a new function called ``process_UI``."
 msgstr ""
-"理想情况下，我们想让游戏角色能够看到剩下多少弹药。 让我们创建一个名为 "
-"``process_UI`` 的新函数。"
+"理想情况下，我们希望让玩家能够看到还剩多少弹药。让我们做一个新的函数，叫做 "
+"``process_UI`` 。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_three.rst:171
 msgid "First, add ``process_UI(delta)`` to ``_physics_process``."
@@ -311,14 +296,13 @@ msgid "Let's go over what's happening:"
 msgstr "让我们回顾一下发生的事情:"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_three.rst:187
-#, fuzzy
 msgid ""
 "Firstly, we check to see if the current weapon is either ``UNARMED`` or "
 "``KNIFE``. If it is, we change the ``UI_status_label``'s text to only show "
 "the player's health since ``UNARMED`` and ``KNIFE`` do not consume ammo."
 msgstr ""
-"首先，我们检查当前武器是“UNARMED”还是“KNIFE”。 如果是，我们改变 "
-"``UI_status_label`` 的文本只显示游戏角色的健康状况，因为 ``UNARMED`` 和 "
+"首先，我们检查当前的武器是 ``UNARMED`` 还是 ``KNIFE`` 。如果是，我们改变 "
+"``UI_status_label`` 的文字，只显示玩家的健康状况，因为 ``UNARMED`` 和 "
 "``KNIFE`` 不消耗弹药。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_three.rst:190
@@ -328,14 +312,13 @@ msgid ""
 msgstr "如果游戏角色正在使用消耗弹药的武器，我们首先获得武器节点。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_three.rst:192
-#, fuzzy
 msgid ""
 "Then we change ``UI_status_label``'s text to show the player's health, along "
 "with how much ammo the player has in the weapon and how much spare ammo the "
 "player has for that weapon."
 msgstr ""
-"然后改变 ``UI_status_label`` 的文字，以显示游戏角色的健康状况，游戏角色在武器"
-"中的弹药量以及游戏角色对该武器的弹药量。"
+"然后我们将 ``UI_status_label`` 的文字改为显示玩家的健康状况，以及玩家在武器中"
+"的弹药数量和该武器的备用弹药数量。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_three.rst:196
 msgid "Now we can see how much ammo the player has through the HUD."
@@ -354,11 +337,10 @@ msgstr ""
 "加重装！"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_three.rst:203
-#, fuzzy
 msgid ""
 "For reloading, we need to add a few more variables and a function to every "
 "weapon."
-msgstr "对于重新加载，我们需要为每个武器添加一些变量和一个函数。"
+msgstr "对于重装，我们需要给每把武器增加一些变量和一个函数。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_three.rst:214
 msgid ""
@@ -402,23 +384,21 @@ msgstr ""
 "角色没有开火，装备或无装备时重新加载。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_three.rst:254
-#, fuzzy
 msgid ""
 "Next we check to see if the player has spare ammo, and if the ammo already "
 "in the weapon is equal to a fully reloaded weapon. This way we can ensure "
 "the player cannot reload when the player has no ammo or when the weapon is "
 "already full of ammo."
 msgstr ""
-"接下来我们检查游戏角色是否有备用弹药，以及武器中已有的弹药是否等于完全重装的"
-"武器。 这样我们可以确保当游戏角色没有弹药或者武器已经装满弹药时游戏角色无法重"
-"新加载。"
+"接下来我们检查一下玩家是否有备用弹药，以及武器中已有的弹药是否等于满载的武"
+"器。这样我们就可以保证在玩家没有弹药或者武器已经装满弹药的情况下，不能重新装"
+"填。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_three.rst:257
-#, fuzzy
 msgid ""
 "If we can still reload, then we calculate the amount of ammo needed to "
 "reload the weapon."
-msgstr "如果我们仍然可以重新加载，那么我们计算重装武器所需的弹药量。"
+msgstr "如果还能重装，那么我们就计算一下重装武器所需要的弹药数量。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_three.rst:259
 msgid ""
@@ -430,13 +410,12 @@ msgstr ""
 "然后将 ``ammo_in_weapon`` 设置为武器/弹仓的满载值。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_three.rst:261
-#, fuzzy
 msgid ""
 "If the player does not have enough ammo, we add all the ammo left in "
 "``spare_ammo``, and then set ``spare_ammo`` to ``0``."
 msgstr ""
-"如果游戏角色没有足够的弹药，我们在 ``spare_ammo`` 中添加所有弹药，然后将 "
-"``spare_ammo`` 设置为 ``0`` 。"
+"如果玩家没有足够的弹药，我们就把 ``spare_ammo`` 中剩余的弹药全部加进去，然后"
+"把 ``spare_ammo`` 设为 ``0`` 。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_three.rst:263
 msgid ""
@@ -467,9 +446,8 @@ msgid "Now we need to add ``reload_weapon`` to ``Weapon_Rifle.gd``:"
 msgstr "现在我们需要将 ``reload_weapon`` 添加到``Weapon_Rifle.gd``:"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_three.rst:309
-#, fuzzy
 msgid "This code is exactly the same as the one for the pistol."
-msgstr "此代码与手枪完全相同。"
+msgstr "这个代码和手枪的代码完全一样。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_three.rst:313
 msgid ""
@@ -540,9 +518,8 @@ msgid "Let's go over what's happening here."
 msgstr "让我们回顾一下这里发生的事情。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_three.rst:372
-#, fuzzy
 msgid "Firstly, we check to make sure the player is trying to reload."
-msgstr "首先，我们检查以确保游戏角色正在尝试重新加载。"
+msgstr "首先，我们检查一下玩家是否在尝试重装。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_three.rst:374
 msgid ""
@@ -560,14 +537,13 @@ msgid ""
 msgstr "如果当前武器等于“null”，则当前武器为“UNARMED”。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_three.rst:378
-#, fuzzy
 msgid ""
 "Finally, we set ``reloading_weapon`` to ``false`` because, regardless of "
 "whether the player successfully reloaded, we've tried reloading and no "
 "longer need to keep trying."
 msgstr ""
-"最后，我们将 ``reloading_weapon`` 设置为 ``false`` ，因为不管游戏角色是否成功"
-"重载，我们都尝试重新加载，不再需要继续尝试。"
+"最后，我们把 ``reloading_weapon`` 设置为 ``false`` ，因为无论玩家是否成功重"
+"装，都已经尝试过重装，不再需要继续尝试。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_three.rst:383
 msgid ""
@@ -577,14 +553,13 @@ msgstr ""
 "在我们让游戏角色重新加载之前，我们需要在 ``process_input`` 中更改一些内容。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_three.rst:385
-#, fuzzy
 msgid ""
 "The first thing we need to change is in the code for changing weapons. We "
 "need to add an additional check (``if reloading_weapon == false:``) to see "
 "if the player is reloading:"
 msgstr ""
-"我们需要改变的第一件事是改变武器的代码。 我们需要添加一个额外的检查(``if "
-"reloading_weapon == false:``)以查看游戏角色是否正在重新加载:"
+"我们首先需要修改的是更换武器的代码。需要增加一个额外的检查( ``if "
+"reloading_weapon == false:`` )来查看玩家是否在重装:"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_three.rst:396
 msgid ""
@@ -610,14 +585,13 @@ msgid "Then we check to see if the ``reload`` action has been pressed."
 msgstr "然后我们检查是否按下了 ``reload`` 动作。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_three.rst:427
-#, fuzzy
 msgid ""
 "If the player has pressed ``reload``, we then get the current weapon and "
 "check to make sure it is not ``null``. Then we check to see whether the "
 "weapon can reload or not using its ``CAN_RELOAD`` constant."
 msgstr ""
-"如果游戏角色按下了“reload”，我们就会得到当前的武器并检查以确保它不是“null”。 "
-"然后我们检查武器是否可以使用其 ``CAN_RELOAD`` 常量重新加载。"
+"如果玩家按了 ``reload`` ，我们就会得到当前的武器，并检查它是否是 ``null`` 。"
+"然后使用常量 ``CAN_RELOAD`` 检查武器是否可以重装。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_three.rst:430
 msgid ""
@@ -634,13 +608,11 @@ msgid ""
 msgstr "然后我们通过每一件武器来确保游戏角色还没有玩过那个武器的重装动画。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_three.rst:434
-#, fuzzy
 msgid ""
 "If the player is not reloading any weapon, we set ``reloading_weapon`` to "
 "``true``."
 msgstr ""
-"如果游戏角色没有使用任何武器重装，我们将 ``reloading_weapon`` 设置为 "
-"``true`` 。"
+"如果玩家没有重新装填任何武器，我们将 ``reloading_weapon`` 设置为 ``true`` 。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_three.rst:438
 msgid ""
@@ -650,13 +622,12 @@ msgstr ""
 "我想补充的一件事是，如果您试图发射武器并且没有弹药，那么武器会自动重装。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_three.rst:440
-#, fuzzy
 msgid ""
 "We also need to add an additional if check (``is_reloading_weapon == false:"
 "``) so the player cannot fire the current weapon while reloading."
 msgstr ""
-"我们还需要添加一个额外的if check(``is_reloading_weapon == false:``)，以便游戏"
-"角色在重新加载时无法触发当前武器。"
+"我们还需要增加一个额外的if检查( ``is_reloading_weapon == false:`` )，这样玩家"
+"在重装时当前的武器就不能发射。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_three.rst:443
 msgid ""
@@ -667,43 +638,38 @@ msgstr ""
 "载:"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_three.rst:461
-#, fuzzy
 msgid ""
 "Now we check to make sure the player is not reloading before we fire the "
 "weapon, and when we have ``0`` or less ammo in the current weapon, we set "
 "``reloading_weapon`` to ``true`` if the player tries to fire."
 msgstr ""
-"现在我们检查以确保在我们开火之前游戏角色没有重新加载，当我们在当前武器中使"
-"用“0”或更少的弹药时，如果游戏角色尝试，我们将 ``reloading_weapon`` 设置为"
-"``true`` 开火。"
+"现在我们在发射武器之前，先检查一下玩家是否有重新装填弹药，当前武器中的弹药为 "
+"``0`` 或更少时，如果玩家试图发射，就将 ``reloading_weapon`` 设置为 "
+"``true`` 。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_three.rst:464
-#, fuzzy
 msgid ""
 "This will make it so the player will try to reload when attempting to fire "
 "an empty weapon."
-msgstr "当游戏角色试图发射空武器时，这将使游戏角色尝试重新加载。"
+msgstr "这将使玩家在试图发射空武器时，会尝试重新装填。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_three.rst:468
-#, fuzzy
 msgid ""
 "With that done, the player can now reload! Give it a try! Now you can fire "
 "all the spare ammo for each weapon."
 msgstr ""
-"完成后，游戏角色现在可以重新加载！ 试试看！ 现在您可以为每个武器发射所有备用"
-"弹药。"
+"做好了这些，玩家现在就可以重装了!试试吧!现在你可以把每把武器的备用弹药全部发"
+"射出去。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_three.rst:471
 msgid "Adding sounds"
 msgstr "添加声音"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_three.rst:473
-#, fuzzy
 msgid ""
 "Finally, let's add some sounds that accompany the player firing, reloading "
 "and changing weapons."
-msgstr ""
-"最后，让我们添加一些在游戏角色重装，更换武器以及游戏角色开火时播放的声音。"
+msgstr "最后，让我们添加一些伴随玩家射击、重装和更换武器的声音。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_three.rst:475
 msgid ""
@@ -717,7 +683,6 @@ msgstr ""
 "可以在Sonniss.com GDC 2017 Game Audio Bundle中找到。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_three.rst:479
-#, fuzzy
 msgid ""
 "Open up ``Simple_Audio_Player.tscn``. It is simply a :ref:`Spatial "
 "<class_Spatial>` with an :ref:`AudioStreamPlayer <class_AudioStreamPlayer>` "
@@ -771,21 +736,19 @@ msgstr ""
 "码:"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_three.rst:544
-#, fuzzy
 msgid ""
 "By setting ``position`` to ``null`` by default in ``play_sound``, we are "
 "making it an optional argument, meaning ``position`` doesn't necessarily "
 "have to be passed in to call ``play_sound``."
 msgstr ""
-"通过在 ``play_sound`` 中默认设置 ``position`` 为 ``null`` ，我们将它作为一个"
-"可选参数，这意味着 ``position`` 不一定要被传入来调用 ``play_sound`` 。"
+"在 ``play_sound`` 中默认将 ``position`` 设置为 ``null`` ，我们将它作为一个可"
+"选的参数，这意味着 ``position`` 不一定要传入才能调用 ``play_sound`` 。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_three.rst:547
 msgid "Let's go over what's happening here:"
 msgstr "让我们回顾一下这里发生的事情:"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_three.rst:551
-#, fuzzy
 msgid ""
 "In ``_ready``, we get the :ref:`AudioStreamPlayer <class_AudioStreamPlayer>` "
 "and connect its ``finished`` signal to the ``destroy_self`` function. It "
@@ -797,17 +760,16 @@ msgstr ""
 "在 ``_ready`` 中我们得到 :ref:`AudioStreamPlayer <class_AudioStreamPlayer>` "
 "并将其 ``finished`` 信号连接到 ``destroy_self`` 函数。 无论是否为 :ref:"
 "`AudioStreamPlayer <class_AudioStreamPlayer>` 或 :ref:`AudioStreamPlayer3D "
-"<class_AudioStreamPlayer3D>` 节点，因为它们都有完成的信号。 为了确保它没有播"
-"放任何声音，我们在 :ref:`AudioStreamPlayer <class_AudioStreamPlayer>` 上调用 "
+"<class_AudioStreamPlayer3D>` 节点，因为它们都有finished信号。 为了确保它不播"
+"放任何声音，我们在 :ref:`AudioStreamPlayer <class_AudioStreamPlayer>`上调用 "
 "``stop`` 。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_three.rst:555
-#, fuzzy
 msgid ""
 "Make sure your sound files are **not** set to loop! If it is set to loop, "
 "the sounds will continue to play infinitely and the script will not work!"
 msgstr ""
-"确保您的声音文件不是**设置为循环！ 如果设置为循环，声音将继续无限播放，脚本将"
+"确保您的声音文件 **不是** 设置为循环！ 如果设置为循环，声音将无限播放，脚本将"
 "无法正常工作！"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_three.rst:558
@@ -828,13 +790,12 @@ msgid ""
 msgstr "如果是未知声音，我们会向控制台输出错误消息并释放音频播放器。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_three.rst:564
-#, fuzzy
 msgid ""
 "If you are using an :ref:`AudioStreamPlayer3D <class_AudioStreamPlayer3D>`, "
 "remove the ``#`` to set the position of the audio player node so it plays at "
 "the correct position."
 msgstr ""
-"如果您使用的是 :ref:`AudioStreamPlayer3D <class_AudioStreamPlayer3D>`，请删"
+"如果您使用的是 :ref:`AudioStreamPlayer3D <class_AudioStreamPlayer3D>` ，请删"
 "除 ``#`` 以设置音频播放器节点的位置，使其在正确的位置播放。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_three.rst:567
@@ -861,7 +822,6 @@ msgid "This system is extremely simple and has some major flaws:"
 msgstr "这个系统非常简单，有一些重大缺陷:"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_three.rst:575
-#, fuzzy
 msgid ""
 "One flaw is we have to pass in a string value to play a sound. While it is "
 "relatively simple to remember the names of the three sounds, it can be "
@@ -869,10 +829,10 @@ msgid ""
 "sounds in some sort of container with exposed variables so we do not have to "
 "remember the name(s) of each sound effect we want to play."
 msgstr ""
-"一个缺陷是我们必须传入一个字符串值来播放声音。 虽然记住三种声音的名称相对简"
-"单，但是当您有更多的声音时它会变得越来越复杂。 理想情况下，我们会将这些声音放"
-"在某种具有暴露变量的容器中，这样我们就不必记住我们想要播放的每种声音效果的名"
-"称。"
+"有一个缺陷是我们必须传入一个字符串值来播放一个声音。虽然记住这三个声音的名字"
+"相对简单，但当你有更多的声音时，它可能会越来越复杂。理想的情况是，我们将这些"
+"声音放在某种容器中，并有暴露的变量，这样我们就不必记住要播放的每个声音效果的"
+"名字。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_three.rst:580
 msgid ""
@@ -896,14 +856,13 @@ msgstr ""
 "望能够随时播放任何脚本中的声音。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_three.rst:590
-#, fuzzy
 msgid ""
 "With that done, let's open up ``Player.gd`` again. First we need to load the "
 "``Simple_Audio_Player.tscn``. Place the following code in the class "
 "variables section of the script:"
 msgstr ""
-"完成后，让我们再次打开 ``Player.gd`` 。 首先，我们需要加载 "
-"``Simple_Audio_Player.tscn`` 。 将以下代码放在类变量中:"
+"做完这些，我们再打开 ``Player.gd`` 。首先我们需要加载 ``Simple_Audio_Player."
+"tscn`` 。在脚本的类变量部分放入以下代码:"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_three.rst:597
 msgid ""
@@ -917,17 +876,15 @@ msgstr ""
 "创建一个 ``create_sound`` 函数:"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_three.rst:609
-#, fuzzy
 msgid "Let's walk through what this function does:"
-msgstr "让我们来看看这个函数的作用:"
+msgstr "我们来介绍一下这个函数的作用:"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_three.rst:613
-#, fuzzy
 msgid ""
 "The first line instances the ``Simple_Audio_Player.tscn`` scene and assigns "
 "it to a variable named ``audio_clone``."
 msgstr ""
-"第一行实例化 ``Simple_Audio_Player.tscn`` 场景并将其分配给名为 "
+"第一行实例化 ``Simple_Audio_Player.tscn`` 场景，并将其分配给一个名为 "
 "``audio_clone`` 的变量。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_three.rst:616
@@ -953,7 +910,6 @@ msgstr ""
 "假设，即根节点的第一个子节点是游戏角色所处的根场景，这可能并非总是如此**。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_three.rst:624
-#, fuzzy
 msgid ""
 "If this doesn't make sense to you, don't worry too much about it. The second "
 "line of code only does not work reliably if you have multiple scenes loaded "
@@ -961,9 +917,9 @@ msgid ""
 "projects and will not be happening in this tutorial series. This is only "
 "potentially a issue depending on how you handle scene loading."
 msgstr ""
-"如果这对您没有意义，不要过于担心。 如果您一次将多个场景作为子节点加载到根节"
-"点，则第二行代码无法可靠地工作，这对于大多数项目很少发生，并且在本教程系列中"
-"不会发生。 这可能只是一个问题，具体取决于您处理场景加载的方式。"
+"如果这对你没有意义，不要太担心。第二行代码只有在你将多个场景作为根节点的子节"
+"点同时加载的情况下才会不可靠地运行，这在大多数项目中很少发生，在本系列教程中"
+"也不会发生。这只是潜在的问题，取决于你如何处理场景加载。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_three.rst:628
 msgid ""
@@ -1048,14 +1004,13 @@ msgid ""
 msgstr "现在您拥有有限弹药的武器，当您开火时它们会播放声音！"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_three.rst:686
-#, fuzzy
 msgid ""
 "At this point, we have all the basics of an FPS game working. There are "
 "still a few things that would be nice to add, and we're going to add them in "
 "the next three parts!"
 msgstr ""
-"在这一点上，我们拥有FPS游戏的所有基础知识。 还有一些很好的东西可以添加，我们"
-"将在接下来的三个部分中添加它们！"
+"至此，我们已经具备了一个FPS游戏的所有基本功能。还有一些东西可以添加，将在接下"
+"来的三个部分中添加它们!"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_three.rst:689
 msgid ""
@@ -1077,7 +1032,7 @@ msgstr ""
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_three.rst:695
 msgid "If you ever get lost, be sure to read over the code again!"
-msgstr "如果您迷路了，请务必再次阅读代码！"
+msgstr "如果你感到迷茫，请一定要再读一遍代码！"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_three.rst:697
 msgid ""

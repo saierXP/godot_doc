@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-28 20:28+0800\n"
+"POT-Creation-Date: 2021-04-25 22:16+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,9 +18,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../docs/tutorials/assetlib/using_assetlib.rst:4
-#, fuzzy
 msgid "Using the Asset Library"
-msgstr "使用资源馆"
+msgstr "使用资产库"
 
 #: ../../docs/tutorials/assetlib/using_assetlib.rst:7
 msgid "On the website"
@@ -31,27 +30,25 @@ msgid "Overview"
 msgstr "概览"
 
 #: ../../docs/tutorials/assetlib/using_assetlib.rst:12
-#, fuzzy
 msgid ""
 "As mentioned before, you can access the web frontend of the Asset Library on "
 "`Godot's official website <https://godotengine.org/asset-library/asset>`_. "
 "This is what it looks like when you first visit it:"
 msgstr ""
-"如前所述，您可以在 `Godot的官方网站 <https://godotengine.org/asset-library/"
-"asset>`_ 上访问AssetLib的网页，这就是您第一次访问它时的样子:"
+"如前所述，你可以在 `Godot的官方网站<https://godotengine.org/asset-library/"
+"asset>` _ 上访问资产库的web前端。这是你第一次访问它时的样子:"
 
 #: ../../docs/tutorials/assetlib/using_assetlib.rst:16
 msgid "|image0|"
 msgstr "|image0|"
 
 #: ../../docs/tutorials/assetlib/using_assetlib.rst:18
-#, fuzzy
 msgid ""
 "At the top, you see the **header**, which takes you to various other parts "
 "of the AssetLib - at the moment, it's empty, as we are not logged in."
 msgstr ""
-"在顶部，您会看到 **标题** ，它将您带到AssetLib的各个其他部分 - 此时它还是空"
-"的，因为我们尚未登录。"
+"在顶部，你看到 **header** ，它导航到AssetLib的各个其他部分，目前，它是空的，"
+"因为我们没有登录。"
 
 #: ../../docs/tutorials/assetlib/using_assetlib.rst:22
 msgid "Searching"
@@ -222,11 +219,10 @@ msgid "|image5|"
 msgstr "|image5|"
 
 #: ../../docs/tutorials/assetlib/using_assetlib.rst:92
-#, fuzzy
 msgid ""
 "This will change the look of the AssetLib header. Now you get access to a "
 "handful of new functions:"
-msgstr "这将更改AssetLib标题部分的外观。 现在您可以访问一些新功能:"
+msgstr "这将改变AssetLib标题的外观。现在你可以访问一些新的功能:"
 
 #: ../../docs/tutorials/assetlib/using_assetlib.rst:95
 msgid ""
@@ -247,14 +243,13 @@ msgid "|image6|"
 msgstr "|image6|"
 
 #: ../../docs/tutorials/assetlib/using_assetlib.rst:101
-#, fuzzy
 msgid ""
 "You can learn how to submit assets to the Library, and what the asset "
 "submission guidelines are, in the next part of this tutorial, :ref:"
 "`doc_uploading_to_assetlib`."
 msgstr ""
-"您可以在本教程的下一部分 : :ref:`doc_uploading_to_assetlib` 中学习如何向资源"
-"馆提交资源以及了解资源提交指南。"
+"你可以在本教程的下一部分学习如何向库提交资产，以及资产提交指南是什么, :ref:"
+"`doc_uploading_to_assetlib`。"
 
 #: ../../docs/tutorials/assetlib/using_assetlib.rst:105
 msgid "In the editor"
@@ -299,7 +294,6 @@ msgstr ""
 "期等因素对其进行排序。"
 
 #: ../../docs/tutorials/assetlib/using_assetlib.rst:124
-#, fuzzy
 msgid ""
 "Notably, you can only fetch assets for the current version of Godot you are "
 "running. Projects, Demos and Templates can be downloaded from from the "
@@ -309,10 +303,10 @@ msgid ""
 "results are updated in real-time (you do not have to press Search after "
 "every change to your search query for the changes to take place)."
 msgstr ""
-"值得注意的是，您只能获取当前正在运行的Godot版本的资源。 此外，您只能从"
-"AssetLib的项目管理器视图中下载项目，演示和模板，而插件(工具，脚本，材质等)只"
-"能从项目内的AssetLib下载。 此外，与使用网页前端不同的是，搜索结果会实时更新"
-"(您不必在每次更改搜索查询后再按搜索)。"
+"值得注意的是，你只能获取你正在运行的Godot的当前版本的资产。项目、演示和模板可"
+"以从AssetLib的Project Manager视图中下载。附加组件（工具、脚本、材质等）可以从"
+"项目内的AssetLib下载并添加到当前项目中。此外，与使用web前端不同，搜索结果是实"
+"时更新的，不必在每次更改搜索查询后再按搜索。"
 
 #: ../../docs/tutorials/assetlib/using_assetlib.rst:132
 msgid ""

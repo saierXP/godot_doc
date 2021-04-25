@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-28 20:28+0800\n"
+"POT-Creation-Date: 2021-04-25 22:16+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -45,7 +45,6 @@ msgstr ""
 "两者之间的都是*插值*。"
 
 #: ../../docs/tutorials/math/interpolation.rst:12
-#, fuzzy
 msgid ""
 "Between two real (floating-point) numbers, a simple interpolation is usually "
 "described as:"
@@ -74,9 +73,8 @@ msgstr ""
 "曲线>`页面。"
 
 #: ../../docs/tutorials/math/interpolation.rst:31
-#, fuzzy
 msgid "Vector interpolation"
-msgstr "轨道插补"
+msgstr "向量插值"
 
 #: ../../docs/tutorials/math/interpolation.rst:33
 msgid ""
@@ -108,14 +106,12 @@ msgid ""
 msgstr "下面是使用插值从A点到B点的简单伪代码:"
 
 #: ../../docs/tutorials/math/interpolation.rst:48
-#, fuzzy
 msgid "It will produce the following motion:"
-msgstr "这样做会产生以下行为:"
+msgstr "它将产生以下运动:"
 
 #: ../../docs/tutorials/math/interpolation.rst:53
-#, fuzzy
 msgid "Transform interpolation"
-msgstr "轨道插补"
+msgstr "变换插值"
 
 #: ../../docs/tutorials/math/interpolation.rst:55
 msgid ""
@@ -124,8 +120,9 @@ msgid ""
 "the function :ref:`Transform.interpolate_with() "
 "<class_Transform_method_interpolate_with>` can be used."
 msgstr ""
-"也可以插值整个变换(确保它们要么具有统一的刻度，要么至少具有相同的非均匀刻"
-"度)。为此，可以使用这个函数:参考:`变换.插值_与() <类_变换_方法_插值_与>`。"
+"也可以对整个变换进行插值（确保它们有统一的缩放，或者至少有相同的非统一缩"
+"放）。对此，可以使用函数 :ref:`Transform.interpolate_with() "
+"<class_Transform_method_interpolate_with>` 。"
 
 #: ../../docs/tutorials/math/interpolation.rst:58
 msgid ""
@@ -133,19 +130,16 @@ msgid ""
 msgstr "下面是将猴子从位置1转换为位置2的例子："
 
 #: ../../docs/tutorials/math/interpolation.rst:62
-#, fuzzy
 msgid "Using the following pseudocode:"
-msgstr "添加以下代码:"
+msgstr "使用以下伪代码："
 
 #: ../../docs/tutorials/math/interpolation.rst:74
-#, fuzzy
 msgid "And again, it will produce the following motion:"
-msgstr "这样做会产生以下行为:"
+msgstr "又会产生下面的动作:"
 
 #: ../../docs/tutorials/math/interpolation.rst:80
-#, fuzzy
 msgid "Smoothing motion"
-msgstr "根骨骼运动"
+msgstr "平滑运动"
 
 #: ../../docs/tutorials/math/interpolation.rst:82
 msgid ""
@@ -154,9 +148,8 @@ msgid ""
 msgstr "插值可用于平滑运动、旋转等。下面是使用平滑运动跟随鼠标的圆圈的例子："
 
 #: ../../docs/tutorials/math/interpolation.rst:94
-#, fuzzy
 msgid "Here is how it looks:"
-msgstr "下面是它的外观图:"
+msgstr "如下："
 
 #: ../../docs/tutorials/math/interpolation.rst:98
 msgid ""

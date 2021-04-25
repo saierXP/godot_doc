@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-28 20:28+0800\n"
+"POT-Creation-Date: 2021-04-25 22:16+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -44,7 +44,8 @@ msgstr ""
 "试器。"
 
 #: ../../docs/getting_started/workflow/export/exporting_for_pc.rst:18
+#, fuzzy
 msgid ""
 "If you export for Windows with embedded PCK files, you will not be able to "
 "sign the program, it will break."
-msgstr "如果你为Windows导出内嵌PCK的文件，你无法为程序签名，它会损坏。"
+msgstr "如果你用内嵌的PCK文件导出到Windows，你将无法签名程序，因为它会崩溃。"

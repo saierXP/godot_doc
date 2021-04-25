@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-28 20:28+0800\n"
+"POT-Creation-Date: 2021-04-25 22:16+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,18 +18,16 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../docs/community/contributing/updating_the_class_reference.rst:4
-#, fuzzy
 msgid "Contributing to the class reference"
-msgstr "在类参考手册中贡献"
+msgstr "为类参考手册贡献"
 
 #: ../../docs/community/contributing/updating_the_class_reference.rst:8
-#, fuzzy
 msgid ""
 "This guide also is available as a `video tutorial on YouTube <https://www."
 "youtube.com/watch?v=5jeHXxeX-JY>`_."
 msgstr ""
-"您可以在Youtube上观看这个指南的 `视频 <https://www.youtube.com/watch?"
-"v=5jeHXxeX-JY>`_。"
+"本指南也可以在YouTube上以 `video tutorial on YouTube <https://www.youtube."
+"com/watch?v=5jeHXxeX-JY>` _。"
 
 #: ../../docs/community/contributing/updating_the_class_reference.rst:10
 msgid ""
@@ -125,11 +123,10 @@ msgid "Get started with GitHub"
 msgstr "开始使用GitHub"
 
 #: ../../docs/community/contributing/updating_the_class_reference.rst:42
-#, fuzzy
 msgid ""
 "If you're new to Git and GitHub, this guide will help you get started. "
 "You'll learn to:"
-msgstr "如果您是Git和Github的新手，这个指南会帮助您入门。您将学会："
+msgstr "如果你是Git和GitHub的新手，本指南将帮助你入门。你将学会："
 
 #: ../../docs/community/contributing/updating_the_class_reference.rst:44
 msgid "Fork and clone Godot's repository"
@@ -144,15 +141,14 @@ msgid "Create a pull request so your improvements end in the official docs"
 msgstr "创建拉取请求，以便您的改进最终在官方文档中"
 
 #: ../../docs/community/contributing/updating_the_class_reference.rst:48
-#, fuzzy
 msgid ""
 "If you're new to Git, the version control system Godot uses, go through "
 "`GitHub's interactive guide <https://try.github.io/levels/1/challenges/1>`_. "
 "You'll learn some essential vocabulary and get a sense for the tool."
 msgstr ""
-"如果您是git，即Godot使用的版本控制系统的新手，请阅读 `GitHub的交互式指南 "
-"<https://try.github.io/levels/1/challenges/1>`_ 。您将学习一些必要的词汇并了"
-"解该工具。"
+"如果你是Godot使用的版本控制系统Git的新手，请阅读 `GitHub's interactive guide "
+"<https://try.github.io/levels/1/challenges/1>` _。你会学到一些基本的词汇，并"
+"对这个工具有所了解。"
 
 #: ../../docs/community/contributing/updating_the_class_reference.rst:51
 msgid "Fork Godot"
@@ -167,14 +163,13 @@ msgid "Clone the repository on your computer:"
 msgstr "在计算机上克隆存储库："
 
 #: ../../docs/community/contributing/updating_the_class_reference.rst:61
-#, fuzzy
 msgid ""
 "Create a new branch to make your changes. It makes it a lot easier to sync "
 "your improvements with other docs writers. It's also easier to clean up your "
 "repository if you run into any issues with Git."
 msgstr ""
-"创建一个新分支以进行更改。它使您的改进与其他文档编写者同步变得容易得多，如果"
-"您对git有任何问题，则更容易清理您的存储库。"
+"创建一个新的分支来进行你的修改。这使得你的改进与其他文档编写者的同步变得更加"
+"容易。如果你遇到任何关于Git的问题，也更容易清理你的仓库。"
 
 #: ../../docs/community/contributing/updating_the_class_reference.rst:67
 msgid ""
@@ -210,13 +205,12 @@ msgid "You can check the list of all remote servers with:"
 msgstr "您可以使用以下命令检查所有远程服务器的列表："
 
 #: ../../docs/community/contributing/updating_the_class_reference.rst:86
-#, fuzzy
 msgid ""
 "You should have two: ``origin``, your fork on GitHub that Git adds by "
 "default, and ``upstream``, that you just added:"
 msgstr ""
-"您应该有两个：``origin`` ，您在github上的fork，默认添加的git，以及您刚添加的 "
-"``upstream``："
+"你应该有两个: ``origin`` ，Git默认添加的你在GitHub上的fork和你刚刚添加的 "
+"``upstream`` :"
 
 #: ../../docs/community/contributing/updating_the_class_reference.rst:96
 msgid ""
@@ -248,23 +242,21 @@ msgstr ""
 "有本地更改。确保仅在进行重要更改 *之前* 运行此命令 。"
 
 #: ../../docs/community/contributing/updating_the_class_reference.rst:113
-#, fuzzy
 msgid ""
 "Another option is to delete the branch you're working on, synchronize the "
 "master branch with the Godot repository, and create a new branch:"
 msgstr ""
-"另一个选择是删除您正在处理的分支，将主分支与Godot存储库同步，并创建一个全新的"
-"分支："
+"另一个办法是删除你正在工作的分支，将主分支与Godot仓库同步，然后创建一个新的分"
+"支:"
 
 #: ../../docs/community/contributing/updating_the_class_reference.rst:122
-#, fuzzy
 msgid ""
 "If you're feeling lost by now, come to our `IRC channels <https://webchat."
 "freenode.net/?channels=#godotengine>`_ and ask for help. Experienced Git "
 "users will give you a hand."
 msgstr ""
-"如果您现在感到迷茫，请来我们的 `IRC频道 <http://webchat.freenode.net/?"
-"channels=#godotengine>`_ 并寻求帮助。经验丰富的git用户会帮助您。"
+"如果你现在感到迷茫，请到我们的 `IRC channels <https://webchat.freenode.net/?"
+"channels=#godotengine>` _ 来寻求帮助。有经验的Git用户会给你提供帮助的。"
 
 #: ../../docs/community/contributing/updating_the_class_reference.rst:125
 msgid "Updating the documentation template"
@@ -283,7 +275,6 @@ msgstr ""
 "行以下命令(假设64位Linux)："
 
 #: ../../docs/community/contributing/updating_the_class_reference.rst:133
-#, fuzzy
 msgid ""
 "The XML files in doc/classes should then be up-to-date with current Godot "
 "Engine features. You can then check what changed using the ``git diff`` "
@@ -291,9 +282,9 @@ msgid ""
 "to document, please commit those changes first before starting to edit the "
 "template:"
 msgstr ""
-"然后，doc/classes中的xml文件应该与当前的Godot引擎功能保持同步。然后，您可以使"
-"用 ``git diff`` 命令检查更改的内容。如果其他类的更改超出了您计划记录的类，请"
-"在开始编辑模板之前先提交这些更改："
+"这样，doc/classes中的XML文件应该是最新的，符合当前Godot引擎的特性。然后你可以"
+"用 ``git diff`` 命令检查哪些地方有变化。如果除了你打算记录的类之外，其他类也"
+"有变化，请在开始编辑模板之前先提交这些变化:"
 
 #: ../../docs/community/contributing/updating_the_class_reference.rst:140
 msgid "You are now ready to edit this file to add stuff."
@@ -325,7 +316,6 @@ msgid ""
 msgstr "完成后，您可以通过Godot分叉的GitHub UI请求拉取请求。"
 
 #: ../../docs/community/contributing/updating_the_class_reference.rst:160
-#, fuzzy
 msgid ""
 "Although you can edit files on GitHub, it's not recommended. As hundreds of "
 "contributors work on Godot, the Git history must stay clean. Each commit "
@@ -336,11 +326,12 @@ msgid ""
 "version of the repository cleanly. Also, it's harder to keep clean indents "
 "from GitHub. And they're very important in the docs."
 msgstr ""
-"虽然您可以在GitHub上编辑文件，但不建议这样做。由于数百名贡献者在Godot工作，"
-"git历史必须保持清洁。每个提交都应捆绑您对类参考手册所做的所有相关改进、新功"
-"能、错误修复……当您从GitHub进行编辑时，每次要保存时，它都会创建一个新分支和一"
-"个拉取请求。如果在您的更改得到审核之前几天过去了，您将无法干净地更新到最新版"
-"本的存储库。此外，从GitHub保持干净的缩进更难。它们在文档中非常重要。"
+"虽然你可以在GitHub上编辑文件，但不建议这样做。由于数以百计的贡献者在Godot上工"
+"作，Git历史必须保持干净。每次提交都应该捆绑所有你对类参考的相关改进，一个新的"
+"功能，错误修复......当你从GitHub编辑时，每次你想保存时，它都会创建一个新的分"
+"支和一个Pull Request。如果过了几天你的修改才得到审查，你就不能干净利落地更新"
+"到最新版本的仓库。另外，要从GitHub上保持干净的缩进也比较困难。而它们对于文档"
+"是非常重要的。"
 
 #: ../../docs/community/contributing/updating_the_class_reference.rst:162
 msgid ""
@@ -363,14 +354,13 @@ msgstr ""
 "XML文件。XML列出了您在类参考手册中找到的常量和方法。Godot自动生成并更新XML。"
 
 #: ../../docs/community/contributing/updating_the_class_reference.rst:169
-#, fuzzy
 msgid ""
 "Edit it using your favorite text editor. If you use a code editor, make sure "
 "that it doesn't change the indent style: tabs for the XML, and 4 spaces "
 "inside BBCode-style blocks. More on that below."
 msgstr ""
-"使用您喜欢的文本编辑器编辑它。如果使用代码编辑器，请确保它不会更改缩进样式："
-"XML的制表符和BBcode样式块中的4个空格。以下更多关于该内容。"
+"用你喜欢的文本编辑器编辑它。如果你使用代码编辑器，请确保它不会改变缩进样式："
+"XML使用制表符，而BBCode风格的块内使用4个空格。下面有更多这方面的内容。"
 
 #: ../../docs/community/contributing/updating_the_class_reference.rst:171
 msgid ""
@@ -449,18 +439,16 @@ msgstr ""
 "用搜索功能快速查找类。"
 
 #: ../../docs/community/contributing/updating_the_class_reference.rst:233
-#, fuzzy
 msgid "Improve formatting with BBCode style tags"
-msgstr "使用BBcode样式标签改进格式"
+msgstr "改进BBCode风格标签的格式"
 
 #: ../../docs/community/contributing/updating_the_class_reference.rst:235
-#, fuzzy
 msgid ""
 "Godot's class reference supports BBCode-like tags. They add nice formatting "
 "to the text. Here's the list of available tags:"
 msgstr ""
-"Godot的类参考手册支持类似BBcode的标记。它们为文本添加了很好的格式。这是可用标"
-"签的列表："
+"Godot的类参考支持类似BBCode的标签。它们为文本添加了漂亮的格式。下面是可用标签"
+"的列表："
 
 #: ../../docs/community/contributing/updating_the_class_reference.rst:238
 msgid "Tag"
@@ -634,9 +622,8 @@ msgid "[kbd] [/kbd]"
 msgstr "[kbd] [/kbd]"
 
 #: ../../docs/community/contributing/updating_the_class_reference.rst:260
-#, fuzzy
 msgid "Keyboard/mouse shortcut"
-msgstr "键盘快捷键"
+msgstr "键盘和鼠标快捷键"
 
 #: ../../docs/community/contributing/updating_the_class_reference.rst:260
 msgid "Some [kbd]Ctrl + C[/kbd] key."

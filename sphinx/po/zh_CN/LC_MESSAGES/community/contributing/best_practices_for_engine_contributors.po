@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-28 20:28+0800\n"
+"POT-Creation-Date: 2021-04-25 22:16+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,7 +18,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../docs/community/contributing/best_practices_for_engine_contributors.rst:4
-#, fuzzy
 msgid "Best practices for engine contributors"
 msgstr "引擎贡献者的最佳做法"
 
@@ -142,9 +141,8 @@ msgid "I think it would be useful for users to..."
 msgstr "我想这对于用户来说是有用的...."
 
 #: ../../docs/community/contributing/best_practices_for_engine_contributors.rst:68
-#, fuzzy
 msgid "I think users will eventually need to..."
-msgstr "如果是这样，那么需要…"
+msgstr "我认为用户最终需要..."
 
 #: ../../docs/community/contributing/best_practices_for_engine_contributors.rst:70
 msgid ""
@@ -182,7 +180,6 @@ msgid "The complexity of the problem"
 msgstr "问题的复杂性"
 
 #: ../../docs/community/contributing/best_practices_for_engine_contributors.rst:89
-#, fuzzy
 msgid "The frequency the problem"
 msgstr "问题发生的频率"
 

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-28 20:28+0800\n"
+"POT-Creation-Date: 2021-04-25 22:16+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -78,9 +78,8 @@ msgid "Still, Godot is designed to work around this problem."
 msgstr "当然，Godot的设计工作中还是可以解决这个问题。"
 
 #: ../../docs/tutorials/optimization/using_servers.rst:27
-#, fuzzy
 msgid "Servers"
-msgstr "**服务器**"
+msgstr "Servers"
 
 #: ../../docs/tutorials/optimization/using_servers.rst:29
 msgid ""
@@ -185,14 +184,13 @@ msgstr ""
 "<class_CanvasLayer_method_get_canvas>` 方法将返回服务器中的canvas RID。"
 
 #: ../../docs/tutorials/optimization/using_servers.rst:64
-#, fuzzy
 msgid ""
 "For Viewport, the :ref:`Viewport.get_viewport_rid() "
 "<class_Viewport_method_get_viewport_rid>` method will return the viewport "
 "RID in the server."
 msgstr ""
-"对于Viewport来说， :ref:`Viewport.get_viewport_rid() "
-"<class_Viewport_method_get_viewport_rid>`方法将返回服务器中的viewport RID。"
+"对于视口， :ref:`Viewport.get_viewport_rid() "
+"<class_Viewport_method_get_viewport_rid>` 方法将返回服务器中的视口RID。"
 
 #: ../../docs/tutorials/optimization/using_servers.rst:66
 msgid ""
@@ -234,11 +232,10 @@ msgstr ""
 "获取场景 *instance* 和 *instance base* 。"
 
 #: ../../docs/tutorials/optimization/using_servers.rst:78
-#, fuzzy
 msgid ""
 "Just explore the nodes and resources you are familiar with and find the "
 "functions to obtain the server *RIDs*."
-msgstr "只需浏览您熟悉的节点和资源，并找到获取服务器 *RIDs* 的功能。"
+msgstr "只需探索你所熟悉的节点和资源，找到获得服务器 *RID* 的功能。"
 
 #: ../../docs/tutorials/optimization/using_servers.rst:80
 msgid ""
@@ -250,9 +247,8 @@ msgstr ""
 "以及与现有的交互。"
 
 #: ../../docs/tutorials/optimization/using_servers.rst:84
-#, fuzzy
 msgid "Creating a sprite"
-msgstr "创建一个脚本"
+msgstr "创建精灵"
 
 #: ../../docs/tutorials/optimization/using_servers.rst:86
 msgid ""
@@ -274,12 +270,10 @@ msgstr ""
 "行）。"
 
 #: ../../docs/tutorials/optimization/using_servers.rst:117
-#, fuzzy
 msgid "Primitives are cleared this way:"
-msgstr "原始物体通过这种方式清除："
+msgstr "基本单元是这种方式被清除:"
 
 #: ../../docs/tutorials/optimization/using_servers.rst:126
-#, fuzzy
 msgid "Instantiating a Mesh into 3D space"
 msgstr "将网格实例化到3D空间"
 
@@ -294,15 +288,14 @@ msgid "Creating a 2D RigidBody and moving a sprite with it"
 msgstr "创建一个2D刚体并使用它移动精灵"
 
 #: ../../docs/tutorials/optimization/using_servers.rst:158
-#, fuzzy
 msgid ""
 "This creates a :ref:`RigidBody2D <class_RigidBody2D>` using the :ref:"
 "`Physics2DServer <class_Physics2DServer>` API, and moves a :ref:`CanvasItem "
 "<class_CanvasItem>` when the body moves."
 msgstr ""
-"结果空间 :ref:`RID <class_RID>` 可在3D的 :ref:`PhysicsServer "
-"<class_PhysicsServer>` 和2D的 :ref:`Physics2DServer <class_Physics2DServer>` "
-"中。"
+"这将使用 :ref:`Physics2DServer <class_Physics2DServer>` API创建一个 :ref:"
+"`RigidBody2D <class_RigidBody2D>`，并在物体移动时移动一个 :ref:`CanvasItem "
+"<class_CanvasItem>`。"
 
 #: ../../docs/tutorials/optimization/using_servers.rst:192
 msgid ""
@@ -314,9 +307,8 @@ msgstr ""
 "<class_RigidBody>` 和 :ref:`PhysicsServer <class_PhysicsServer>` ）。"
 
 #: ../../docs/tutorials/optimization/using_servers.rst:196
-#, fuzzy
 msgid "Getting data from the servers"
-msgstr "将数据发送到服务器"
+msgstr "从服务器获取数据"
 
 #: ../../docs/tutorials/optimization/using_servers.rst:198
 msgid ""

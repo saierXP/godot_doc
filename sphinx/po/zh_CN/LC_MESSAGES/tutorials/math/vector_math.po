@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-28 20:28+0800\n"
+"POT-Creation-Date: 2021-04-25 22:16+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -116,7 +116,6 @@ msgid "Vector operations"
 msgstr "向量运算"
 
 #: ../../docs/tutorials/math/vector_math.rst:60
-#, fuzzy
 msgid ""
 "You can use either method (x and y coordinates or angle and magnitude) to "
 "refer to a vector, but for convenience, programmers typically use the "
@@ -124,12 +123,11 @@ msgid ""
 "corner of the screen, so to place a 2D node named ``Node2D`` 400 pixels to "
 "the right and 300 pixels down, use the following code:"
 msgstr ""
-"您可以使用任意一种方法(x和y坐标或角度和大小)来引用向量，但是为了方便起见，程"
-"序员通常使用坐标表示法。例如，在Godot中，原点是屏幕左上角，因此要将一个名为"
-"``Node2D`` 的2D节点向右放置400像素，向下放置300像素，请使用以下代码:"
+"您可以使用任意一种方法，x和y坐标或角度和大小，来引用向量，但是为了方便起见，"
+"程序员通常使用坐标表示法。例如，在Godot中，原点是屏幕左上角，因此要将一个名"
+"为 ``Node2D`` 的2D节点向右400像素，向下300像素，请使用以下代码:"
 
 #: ../../docs/tutorials/math/vector_math.rst:76
-#, fuzzy
 msgid ""
 "Godot supports both :ref:`Vector2 <class_Vector2>` and :ref:`Vector3 "
 "<class_Vector3>` for 2D and 3D usage, respectively. The same mathematical "
@@ -368,7 +366,6 @@ msgstr ""
 "到游戏角色吗?"
 
 #: ../../docs/tutorials/math/vector_math.rst:298
-#, fuzzy
 msgid ""
 "The green arrows ``fA`` and ``fB`` are **unit vectors** representing the "
 "zombies' facing directions and the blue semicircle represents its field of "
@@ -377,10 +374,10 @@ msgid ""
 "to do this called ``direction_to``. If the angle between this vector and the "
 "facing vector is less than 90°, then the zombie can see the player."
 msgstr ""
-"绿色箭头 ``fA`` 和 ``fB`` 是 **单位向量** 表示丧尸的朝向，蓝色半圆表示其视"
-"野。对于丧尸 ``A`` ，我们使用 ``P - A`` 找到指向游戏角色的方向向量 ``AP`` 并"
-"将其归一化。如果这个向量和面向向量之间的夹角小于90°,那么丧尸可以看到游戏角"
-"色。"
+"绿色箭头 ``fA`` 和 ``fB`` 是 **单位向量** ，代表僵尸的朝向，蓝色半圆代表其视"
+"野。对于僵尸 ``A`` ，我们用 ``P - A`` 找到指向玩家的方向向量 ``AP`` ，并进行"
+"归一化处理，不过，Godot有一个辅助方法可以做到这一点，叫做 ``direction_to`` 。"
+"如果这个向量和面对的向量之间的角度小于90°，那么僵尸就可以看到玩家。"
 
 #: ../../docs/tutorials/math/vector_math.rst:306
 msgid "In code it would look like this:"
@@ -391,7 +388,6 @@ msgid "Cross product"
 msgstr "叉乘"
 
 #: ../../docs/tutorials/math/vector_math.rst:326
-#, fuzzy
 msgid ""
 "Like the dot product, the **cross product** is an operation on two vectors. "
 "However, the result of the cross product is a vector with a direction that "
@@ -399,9 +395,9 @@ msgid ""
 "two vectors are parallel, the result of their cross product will be a null "
 "vector."
 msgstr ""
-"和点乘一样， **叉乘** 是对两个向量的运算。然而，叉乘的结果是一个方向垂直于这"
-"两个向量的向量。它的大小取决于它们的相对角度。如果两个向量是平行的，它们叉乘"
-"的结果就是零向量。"
+"和点积一样， **交叉乘积** 也是对两个向量的运算。但是，交叉乘积的结果是一个方"
+"向与两个向量垂直的向量。它的大小取决于相对角度。如果两个向量是平行的，那么交"
+"叉乘积的结果将是一个空向量。"
 
 #: ../../docs/tutorials/math/vector_math.rst:335
 msgid "The cross product is calculated like this:"
@@ -444,7 +440,6 @@ msgid "Pointing to a target"
 msgstr "指向目标"
 
 #: ../../docs/tutorials/math/vector_math.rst:403
-#, fuzzy
 msgid ""
 "In the dot product section above, we saw how it could be used to find the "
 "angle between two vectors. However, in 3D, this is not enough information. "
@@ -452,9 +447,9 @@ msgid ""
 "calculating the cross product of the current facing direction and the target "
 "direction. The resulting perpendicular vector is the axis of rotation."
 msgstr ""
-"在上面的点乘部分，我们看到了如何用它来求两个向量之间的夹角。然而，在3D中，这"
-"是不够的。我们还需要知道绕哪个轴旋转。这可以通过计算当前方向与目标方向的叉乘"
-"得到。得到的垂直向量是旋转轴。"
+"在上面的点积部分，我们看到如何用它来查找两个向量之间的角度。然而，在3D中，这"
+"些信息还不够。我们还需要知道在围绕什么轴旋转。我们可以通过计算当前面对的方向"
+"和目标方向的交叉乘积来查找。由此得到的垂直向量就是旋转轴。"
 
 #: ../../docs/tutorials/math/vector_math.rst:411
 msgid "More information"

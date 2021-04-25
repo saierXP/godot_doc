@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-28 20:28+0800\n"
+"POT-Creation-Date: 2021-04-25 22:16+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -212,7 +212,5 @@ msgstr ""
 "源目录的根路径："
 
 #: ../../docs/development/compiling/cross-compiling_for_ios_on_linux.rst:162
-#, fuzzy
 msgid "Then you will have iOS fat binaries in ``bin`` directory."
-msgstr ""
-"然后您将在 ``bin/godot.iphone.opt.debug.fat`` 中拥有一个iOS胖二进制文件。"
+msgstr "然后你将在 ``bin`` 目录下有iOS大的二进制文件。"

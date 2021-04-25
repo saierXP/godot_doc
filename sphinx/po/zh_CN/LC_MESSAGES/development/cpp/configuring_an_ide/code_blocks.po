@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-28 20:28+0800\n"
+"POT-Creation-Date: 2021-04-25 22:16+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -85,9 +85,8 @@ msgstr ""
 "标。"
 
 #: ../../docs/development/cpp/configuring_an_ide/code_blocks.rst:44
-#, fuzzy
 msgid "Configuring the build"
-msgstr "自定义构建"
+msgstr "配置构建"
 
 #: ../../docs/development/cpp/configuring_an_ide/code_blocks.rst:46
 msgid ""
@@ -131,9 +130,8 @@ msgstr ""
 "如果你使用的是Windows，所有的命令都需要在前面加上`cmd /c``来启动命令解释器。"
 
 #: ../../docs/development/cpp/configuring_an_ide/code_blocks.rst:76
-#, fuzzy
 msgid "Windows example:"
-msgstr "一个示例:"
+msgstr "Windows示例："
 
 #: ../../docs/development/cpp/configuring_an_ide/code_blocks.rst:82
 msgid ""
@@ -144,9 +142,8 @@ msgstr ""
 "钮，或者按:kbd:`Ctrl + F9`。"
 
 #: ../../docs/development/cpp/configuring_an_ide/code_blocks.rst:85
-#, fuzzy
 msgid "Configuring the run"
-msgstr "配置项目"
+msgstr "配置运行"
 
 #: ../../docs/development/cpp/configuring_an_ide/code_blocks.rst:87
 msgid ""
@@ -188,9 +185,8 @@ msgstr ""
 "项卡可用于添加和删除构建目标，以便使用和创建不同的构建。"
 
 #: ../../docs/development/cpp/configuring_an_ide/code_blocks.rst:100
-#, fuzzy
 msgid "Adding files to the project"
-msgstr "向游戏角色添加手榴弹"
+msgstr "将文件添加到项目"
 
 #: ../../docs/development/cpp/configuring_an_ide/code_blocks.rst:102
 msgid ""

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-28 20:28+0800\n"
+"POT-Creation-Date: 2021-04-25 22:16+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,9 +18,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../docs/tutorials/content/procedural_geometry/surfacetool.rst:4
-#, fuzzy
 msgid "Using the SurfaceTool"
-msgstr "使用模块"
+msgstr "使用SurfaceTool"
 
 #: ../../docs/tutorials/content/procedural_geometry/surfacetool.rst:6
 msgid ""
@@ -35,13 +34,12 @@ msgstr ""
 "顶点的属性(如法线、UV、颜色)，然后当添加一个顶点时，它就会捕获这些属性。"
 
 #: ../../docs/tutorials/content/procedural_geometry/surfacetool.rst:11
-#, fuzzy
 msgid ""
 "The SurfaceTool also provides some useful helper functions like ``index()`` "
 "and ``generate_normals()``."
 msgstr ""
-"SurfaceTool还提供了一些有用的辅助函数，如``index()``和"
-"``generate_normals()``。"
+"SurfaceTool还提供了一些有用的辅助函数，如 ``index()`` 和 "
+"``generate_normals()`` 。"
 
 #: ../../docs/tutorials/content/procedural_geometry/surfacetool.rst:13
 msgid "Attributes are added before each vertex is added:"

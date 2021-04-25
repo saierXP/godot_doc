@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-28 20:28+0800\n"
+"POT-Creation-Date: 2021-04-25 22:16+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,20 +18,18 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../docs/tutorials/shading/godot_shader_language_style_guide.rst:4
-#, fuzzy
 msgid "Godot shader language style guide"
 msgstr "Godot着色器语言风格指南"
 
 #: ../../docs/tutorials/shading/godot_shader_language_style_guide.rst:6
-#, fuzzy
 msgid ""
 "This style guide lists conventions to write elegant shaders. The goal is to "
 "encourage writing clean, readable code and promote consistency across "
 "projects, discussions, and tutorials. Hopefully, this will also support the "
 "development of auto-formatting tools."
 msgstr ""
-"该样式指南列出了编写优雅GDScript的约定。目标是促进编写干净、可读的代码，并促"
-"进项目、讨论和教程之间的一致性。希望这也会促进开发自动格式化工具。"
+"本风格指南列出了编写优雅着色器的约定。其目的是鼓励编写干净、可读的代码，并促"
+"进各项目、讨论和教程的一致性。希望这也能支持自动格式化工具的发展。"
 
 #: ../../docs/tutorials/shading/godot_shader_language_style_guide.rst:11
 msgid ""
@@ -61,16 +59,14 @@ msgid ""
 msgstr "一般来说，在项目和团队中保持代码的一致性比遵循本指南进行tee更为重要。"
 
 #: ../../docs/tutorials/shading/godot_shader_language_style_guide.rst:23
-#, fuzzy
 msgid ""
 "Godot's built-in shader editor uses a lot of these conventions by default. "
 "Let it help you."
-msgstr "Godot的内置脚本编辑器默认使用了很多这些约定。让它帮助您。"
+msgstr "Godot的内置着色器编辑器默认使用了很多这样的约定。让它来帮助你。"
 
 #: ../../docs/tutorials/shading/godot_shader_language_style_guide.rst:26
-#, fuzzy
 msgid "Here is a complete shader example based on these guidelines:"
-msgstr "下面是一个简单的示例，说明它是如何工作的："
+msgstr "下面是一个基于这些准则的完整着色器例子:"
 
 #: ../../docs/tutorials/shading/godot_shader_language_style_guide.rst:50
 msgid "Formatting"
@@ -107,10 +103,9 @@ msgid "Indentation"
 msgstr "缩进"
 
 #: ../../docs/tutorials/shading/godot_shader_language_style_guide.rst:63
-#, fuzzy
 msgid ""
 "Each indent level should be one tab greater than the block containing it."
-msgstr "每个缩进级别必须大于包含它的代码块。"
+msgstr "每个缩进级别应比包含它的区块多一个制表符。"
 
 #: ../../docs/tutorials/shading/godot_shader_language_style_guide.rst:65
 #: ../../docs/tutorials/shading/godot_shader_language_style_guide.rst:84
@@ -163,16 +158,14 @@ msgid "Blank lines"
 msgstr "空白行"
 
 #: ../../docs/tutorials/shading/godot_shader_language_style_guide.rst:134
-#, fuzzy
 msgid "Surround function definitions with one (and only one) blank line:"
-msgstr "用两个空行包围函数和类定义："
+msgstr "用一个（而且只有一个）空行围绕着函数定义："
 
 #: ../../docs/tutorials/shading/godot_shader_language_style_guide.rst:146
-#, fuzzy
 msgid ""
 "Use one (and only one) blank line inside functions to separate logical "
 "sections."
-msgstr "函数内部使用一个空行来分隔逻辑部分。"
+msgstr "在函数中使用一个（而且只有一个）空行来分隔逻辑部分。"
 
 #: ../../docs/tutorials/shading/godot_shader_language_style_guide.rst:149
 msgid "Line length"
@@ -183,14 +176,13 @@ msgid "Keep individual lines of code under 100 characters."
 msgstr "把每行代码控制在100个字符以内。"
 
 #: ../../docs/tutorials/shading/godot_shader_language_style_guide.rst:153
-#, fuzzy
 msgid ""
 "If you can, try to keep lines under 80 characters. This helps to read the "
 "code on small displays and with two shaders opened side-by-side in an "
 "external text editor. For example, when looking at a differential revision."
 msgstr ""
-"如果可以的话，尽量把行控制在80个字符以下。这有助于在小屏幕上阅读代码，并在外"
-"部文本编辑器中并排打开两个脚本。例如，在查看差异修订时。"
+"如果可以的话，尽量将行数保持在80个字符以下。这有助于在小显示器上和在外部文本"
+"编辑器中并排打开的两个着色器上阅读代码。例如，在查看差异修改时。"
 
 #: ../../docs/tutorials/shading/godot_shader_language_style_guide.rst:158
 msgid "One statement per line"
@@ -222,36 +214,33 @@ msgid ""
 msgstr "如果你的注释可以容纳在单行上，就不要使用多行注释语法:"
 
 #: ../../docs/tutorials/shading/godot_shader_language_style_guide.rst:216
-#, fuzzy
 msgid ""
 "In the shader editor, to make the selected code a comment (or uncomment it), "
 "press :kbd:`Ctrl + K`. This feature adds or removes ``//`` at the start of "
 "the selected lines."
 msgstr ""
-"在脚本编辑器中，要切换已注释的选定代码，请按<kbd>Ctrl</kbd><kbd>K</kbd>。此功"
-"能在选定行的开头添加一个#符号。"
+"在着色器编辑器中，要使选定的代码成为注释或取消注释，按 :kbd:`Ctrl + K` 。该功"
+"能在所选行的开头添加或删除 ``//`` 。"
 
 #: ../../docs/tutorials/shading/godot_shader_language_style_guide.rst:221
 msgid "Whitespace"
 msgstr "空格"
 
 #: ../../docs/tutorials/shading/godot_shader_language_style_guide.rst:223
-#, fuzzy
 msgid ""
 "Always use one space around operators and after commas. Also, avoid "
 "extraneous spaces in function calls."
 msgstr ""
-"请始终在运算符前后和逗号后使用一个空格。也避免在字典引用和函数调用中使用多余"
-"的空格。"
+"在运算符周围和逗号后面总是使用一个空格。另外，避免在函数调用中使用多余的空"
+"格。"
 
 #: ../../docs/tutorials/shading/godot_shader_language_style_guide.rst:242
 msgid "Don't use spaces to align expressions vertically:"
 msgstr "不要使用空格垂直对齐表达式："
 
 #: ../../docs/tutorials/shading/godot_shader_language_style_guide.rst:250
-#, fuzzy
 msgid "Floating-point numbers"
-msgstr "浮点数（实数）"
+msgstr "浮点数字"
 
 #: ../../docs/tutorials/shading/godot_shader_language_style_guide.rst:252
 msgid ""
@@ -264,9 +253,8 @@ msgstr ""
 "数字。"
 
 #: ../../docs/tutorials/shading/godot_shader_language_style_guide.rst:273
-#, fuzzy
 msgid "Accessing vector members"
-msgstr "添加向量"
+msgstr "访问向量成员"
 
 #: ../../docs/tutorials/shading/godot_shader_language_style_guide.rst:275
 msgid ""
@@ -315,9 +303,8 @@ msgid "Code order"
 msgstr "代码顺序"
 
 #: ../../docs/tutorials/shading/godot_shader_language_style_guide.rst:323
-#, fuzzy
 msgid "We suggest to organize shader code this way:"
-msgstr "我们建议按以下方式组织GDScript代码："
+msgstr "我们建议以这种方式组织着色器代码:"
 
 #: ../../docs/tutorials/shading/godot_shader_language_style_guide.rst:340
 msgid ""
@@ -329,14 +316,12 @@ msgstr ""
 "代码的工作原理，并避免与变量声明顺序相关的错误。"
 
 #: ../../docs/tutorials/shading/godot_shader_language_style_guide.rst:344
-#, fuzzy
 msgid "This code order follows two rules of thumb:"
-msgstr "此代码顺序遵循四个经验法则："
+msgstr "此代码顺序遵循两个经验法则："
 
 #: ../../docs/tutorials/shading/godot_shader_language_style_guide.rst:346
-#, fuzzy
 msgid "Metadata and properties first, followed by methods."
-msgstr "首先是属性和信号，然后是方法。"
+msgstr "先是元数据和属性，然后是方法。"
 
 #: ../../docs/tutorials/shading/godot_shader_language_style_guide.rst:347
 msgid ""

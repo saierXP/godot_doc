@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-28 20:28+0800\n"
+"POT-Creation-Date: 2021-04-25 22:16+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,38 +22,34 @@ msgid "Part 6"
 msgstr "第6部分"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_six.rst:7
-#, fuzzy
 msgid "Part overview"
-msgstr "零件概述"
+msgstr "部分概述"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_six.rst:9
-#, fuzzy
 msgid ""
 "In this part, we're going to add a main menu and pause menu, add a respawn "
 "system for the player, and change/move the sound system so we can use it "
 "from any script."
 msgstr ""
-"在这部分中，我们将添加一个主菜单和暂停菜单，为游戏角色添加重新生成的系统，以"
-"及更改/移动声音系统，以便我们可以从任何脚本中使用它。"
+"在这部分，我们将添加一个主菜单和暂停菜单，为玩家添加一个重生系统，并改变和移"
+"动声音系统，以便可以从任何脚本中使用它。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_six.rst:12
-#, fuzzy
 msgid ""
 "This is the last part of the FPS tutorial; by the end of this, you will have "
 "a solid base to build amazing FPS games with Godot!"
 msgstr ""
-"这是FPS教程的最后一部分，到最后您将有一个坚实的基础，用Godot建立惊人的FPS游"
-"戏！"
+"这是FPS教程的最后一部分;结束后，你将有一个坚实的基础，用Godot建立惊人的FPS游"
+"戏!"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_six.rst:16
-#, fuzzy
 msgid ""
 "You are assumed to have finished :ref:`doc_fps_tutorial_part_five` before "
 "moving on to this part of the tutorial. The finished project from :ref:"
 "`doc_fps_tutorial_part_five` will be the starting project for part 6"
 msgstr ""
-"在继续本教程的这一部分之前，假设您已完成 :ref:`doc_fps_tutorial_part_five`。 "
-"完成的项目来自 :ref:`doc_fps_tutorial_part_four`将成为第6部分的起始项目"
+"假设您已经完成了 :ref:`doc_fps_tutorial_part_five`，才会进入本部分教程。从 :"
+"ref:`doc_fps_tutorial_part_five` 中完成的项目将是第六部分的起始项目"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_six.rst:19
 msgid "Let's get started!"
@@ -64,11 +60,10 @@ msgid "Adding the main menu"
 msgstr "添加主菜单"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_six.rst:24
-#, fuzzy
 msgid ""
 "Firstly, open up ``Main_Menu.tscn`` and take a look at how the scene is set "
 "up."
-msgstr "首先，打开 ``Main_Menu.tscn`` 并查看场景的设置方式。"
+msgstr "首先，打开 ``Main_Menu.tscn`` ，看看场景是如何设置的。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_six.rst:26
 msgid ""
@@ -86,14 +81,13 @@ msgstr ""
 "空盒的相机，没什么特别的。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_six.rst:32
-#, fuzzy
 msgid ""
 "Feel free to expand all the nodes and see how they're set up. Remember to "
 "keep only ``Start_Menu`` visible when you're done, as that's the screen we "
 "want to show first when we enter the main menu."
 msgstr ""
-"随意扩展所有节点，看看他们如何设置。 记得在完成后只能看到 ``Start_Menu`` ，因"
-"为这是我们进入主菜单时想要首先显示的屏幕。"
+"随意展开所有的节点，看看它们是如何设置的。记住，当你完成后，只保留 "
+"``Start_Menu`` 可见，因为当我们进入主菜单时，希望首先显示的是这个屏幕。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_six.rst:35
 msgid ""
@@ -180,30 +174,28 @@ msgid "Now let's go over ``_ready``"
 msgstr "现在让我们回顾一下 ``_ready``"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_six.rst:142
-#, fuzzy
 msgid ""
 "Firstly, we get all the :ref:`Panel <class_Panel>` nodes and assign them to "
 "the proper variables."
 msgstr ""
-"首先，我们得到所有 :ref:`Panel <class_Panel>` 节点并将它们分配给适当的变量。"
+"首先，我们得到所有的 :ref:`Panel <class_Panel>` 节点，并将它们分配到合适的变"
+"量中。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_six.rst:144
-#, fuzzy
 msgid ""
 "Next, we connect all the buttons ``pressed`` signals to their respective "
 "``[panel_name_here]_button_pressed`` functions."
 msgstr ""
-"接下来，我们将所有按钮 ``pressed`` 信号连接到各自的``[panel_name_here] "
-"_button_pressed``函数。"
+"接下来，我们将所有的按钮 ``pressed`` 信号连接到各自的 "
+"``[panel_name_here]_button_pressed`` 函数。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_six.rst:146
-#, fuzzy
 msgid ""
 "We then set the mouse mode to ``MOUSE_MODE_VISIBLE`` to ensure whenever the "
 "player returns to this scene, the mouse will be visible."
 msgstr ""
-"然后我们将鼠标模式设置为“MOUSE_MODE_VISIBLE”以确保每当游戏角色返回此场景时鼠"
-"标将可见。"
+"然后，我们将鼠标模式设置为 ``MOUSE_MODE_VISIBLE`` ，以保证每当玩家回到这个场"
+"景时，鼠标都是可见的。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_six.rst:148
 msgid ""
@@ -211,8 +203,8 @@ msgid ""
 "ref:`HSlider <class_HSlider>` nodes so their values line up with the mouse "
 "and joypad sensitivity in the singleton."
 msgstr ""
-"然后我们得到一个叫做“Globals”的单例人士。 然后我们设置 :ref:`HSlider "
-"<class_HSlider>` 节点的值，使它们的值与单例中的鼠标和游戏手柄灵敏度对齐。"
+"然后我们得到一个叫 ``Globals`` 的单例。然后设置 :ref:`HSlider "
+"<class_HSlider>` 节点的值，使它们的值与单例中的鼠标和手柄的灵敏度一致。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_six.rst:151
 msgid ""
@@ -221,10 +213,9 @@ msgid ""
 msgstr "我们还没有制作 ``Globals`` 单例，所以不用担心！ 我们很快就会成功！"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_six.rst:155
-#, fuzzy
 msgid ""
 "In ``start_menu_button_pressed``, we check to see which button is pressed."
-msgstr "在 ``start_menu_pressed`` 中，我们检查按下了哪个按钮。"
+msgstr "在 ``start_menu_button_pressed`` 中，我们检查哪个按钮被按下。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_six.rst:157
 msgid ""
@@ -247,7 +238,6 @@ msgid ""
 msgstr "如果按下“后退”按钮，我们会更改当前可见的面板以返回主菜单。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_six.rst:165
-#, fuzzy
 msgid ""
 "If one of the scene changing buttons is pressed, we fist call "
 "``set_mouse_and_joypad_sensitivity`` so the singleton (``Globals.gd``) has "
@@ -255,14 +245,14 @@ msgid ""
 "singleton to change nodes using its ``load_new_scene`` function, passing in "
 "the file path of the scene the player has selected."
 msgstr ""
-"如果按下一个场景改变按钮，我们首先调用 "
-"``set_mouse_and_joypad_sensitivity`` ，因此单例(``Globals.gd``)具有来自 :ref:"
-"`HSlider <class_HSlider>` 节点的值。 然后我们告诉单例使用它的 "
-"``load_new_scene`` 函数来改变节点，传入游戏角色选择的场景的文件路径。"
+"如果有一个场景变化按钮被按下，首先调用 "
+"``set_mouse_and_joypad_sensitivity`` ，这样单例( ``Globals.gd`` )就有了 :ref:"
+"`HSlider <class_HSlider>` 节点的值。然后，用它的 ``load_new_scene`` 函数告诉"
+"单例改变节点，并传入玩家选择的场景的文件路径。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_six.rst:169
 msgid "Don't worry about the singleton, we'll get there soon!"
-msgstr "不要担心单例人士，我们很快就会到达那里！"
+msgstr "不要担心单例，我们很快到了！"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_six.rst:173
 msgid ""
@@ -270,33 +260,30 @@ msgid ""
 msgstr "在 ``options_menu_button_pressed`` 中，我们检查按下了哪个按钮。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_six.rst:177
-#, fuzzy
 msgid ""
 "If the ``fullscreen`` button is pressed, we toggle the :ref:`OS "
 "<class_OS>`'s full screen mode by setting it to the flipped version of its "
 "current value."
 msgstr ""
-"如果按下 ``fullscreen`` 按钮，我们通过将其设置为当前值的翻转版本来切换 :ref:"
-"`OS <class_OS>的全屏模式。"
+"如果按下 ``fullscreen`` 按钮，我们就会将 :ref:`OS <class_OS>` 的全屏模式设置"
+"为其当前值的翻转版本。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_six.rst:179
-#, fuzzy
 msgid ""
 "If the ``vsync`` button is pressed, we set the :ref:`OS <class_OS>`'s Vsync "
 "based on the state of the Vsync check button."
 msgstr ""
-"如果按下 ``vsync`` 按钮，我们根据Vsync检查按钮的状态设置 :ref:`OS <class_OS>"
-"的Vsync。"
+"如果 ``vsync`` 按钮被按下，我们根据Vsync检查按钮的状态来设置 :ref:`OS "
+"<class_OS>` 的Vsync。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_six.rst:183
 msgid "Finally, lets take a look at ``set_mouse_and_joypad_sensitivity``."
 msgstr "最后，让我们来看看 ``set_mouse_and_joypad_sensitivity`` 。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_six.rst:185
-#, fuzzy
 msgid ""
 "Firstly, we get the ``Globals`` singleton and assign it to a local variable."
-msgstr "首先，我们得到 ``Globals`` 单例并将其分配给局部变量。"
+msgstr "首先，我们得到 ``Globals`` 单例，并将其分配给一个局部变量。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_six.rst:187
 msgid ""
@@ -312,13 +299,12 @@ msgid "Making the ``Globals`` singleton"
 msgstr "使 ``Globals`` 单例"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_six.rst:192
-#, fuzzy
 msgid ""
 "Now, for all this to work, we need to create the ``Globals`` singleton. Make "
 "a new script in the ``Script`` tab and call it ``Globals.gd``."
 msgstr ""
-"现在，为了全部工作，我们需要创建 ``Globals`` 单例。 在 ``Script`` 选项卡中创"
-"建一个新脚本，并将其命名为 ``Globals.gd`` 。"
+"现在，为了让所有这些都能正常工作，我们需要创建 ``Globals`` 单例。在 "
+"``Script`` 选项卡中创建一个新的脚本，并将其命名为 ``Globals.gd`` 。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_six.rst:194
 msgid ""
@@ -328,24 +314,23 @@ msgid ""
 "``Globals.gd``."
 msgstr ""
 "要制作 ``Globals`` 单例，请转到编辑器中的 ``Script`` 选项卡，然后单击 "
-"``New`` 并出现一个``Create Script``框，除了`` 路径``您需要插入脚本名称"
-"``Globals.gd``。"
+"``New`` 并出现一个 ``Create Script`` 框，除了 ``Path`` 您需要插入脚本名称 "
+"``Globals.gd`` 。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_six.rst:196
 msgid "Add the following to ``Globals.gd``."
 msgstr "将以下内容添加到 ``Globals.gd`` 中。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_six.rst:211
-#, fuzzy
 msgid ""
 "As you can see, it's quite small and simple. As this part progresses, we "
 "will keep adding more complex logic to ``Globals.gd``, but for now, all it "
 "is doing is holding two class variables, and abstract defining how we change "
 "scenes."
 msgstr ""
-"如您所见，它非常小而且简单。 随着这部分的进展，我们将不断向 ``Globals.gd`` 添"
-"加更复杂的逻辑，但是现在它所做的只是保存两个类变量，并且抽象定义我们如何改变"
-"场景。"
+"正如你所看到的，它是相当小而简单的。随着这部分的进展，我们会不断给 ``Globals."
+"gd`` 添加更复杂的逻辑，但现在，它所做的就是持有两个类变量，以及抽象定义我们如"
+"何改变场景。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_six.rst:214
 msgid ""
@@ -364,16 +349,15 @@ msgstr ""
 "gd`` 中加载它。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_six.rst:217
-#, fuzzy
 msgid ""
 "Right now, all we will be using ``Globals.gd`` for is a way to carry "
 "variables across scenes. Because the sensitivities of our mouse and joypad "
 "are stored in ``Globals.gd``, any changes we make in one scene (like in "
 "``Options_Menu``) will affect the sensitivity for the player."
 msgstr ""
-"现在我们所有人都使用 ``Globals.gd`` 是一种跨场景传递变量的方法。 因为我们的鼠"
-"标和游戏手柄的灵敏度存储在 ``Globals.gd`` 中，我们在一个场景中所做的任何更改"
-"(如在`'Options_Menu``中)都会影响游戏角色的灵敏度。"
+"现在，我们将使用 ``Globals.gd`` 来实现跨场景携带变量的功能。因为鼠标和手柄的"
+"灵敏度都存储在 ``Globals.gd`` 中，我们在一个场景中做的任何改变（比如在 "
+"``Options_Menu`` 中）都会影响玩家的灵敏度。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_six.rst:220
 msgid ""
@@ -386,13 +370,12 @@ msgstr ""
 "场景路径。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_six.rst:222
-#, fuzzy
 msgid ""
 "That's all the code needed for ``Globals.gd`` right now! Before we can test "
 "the main menu, we first need to set ``Globals.gd`` as an autoload script."
 msgstr ""
-"这就是现在 ``Globals.gd`` 所需的全部代码！ 在我们测试主菜单之前，我们首先需要"
-"将 ``Globals.gd`` 设置为自动加载脚本。"
+"这就是现在 ``Globals.gd`` 所需要的所有代码!在我们测试主菜单之前，首先需要将 "
+"``Globals.gd`` 设置为自动加载脚本。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_six.rst:224
 msgid "Open up the ``Project Settings`` and click the ``AutoLoad`` tab."
@@ -458,16 +441,14 @@ msgid "Adding the debug menu"
 msgstr "添加调试菜单"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_six.rst:247
-#, fuzzy
 msgid ""
 "Now, let's add a simple debugging scene so we can track things like FPS "
 "(Frames Per Second) in-game. Open up ``Debug_Display.tscn``."
 msgstr ""
-"现在让我们添加一个简单的调试场景，以便我们可以跟踪游戏中的FPS(每秒帧数)等内"
-"容。 打开 ``Debug_Display.tscn`` 。"
+"现在，让我们添加一个简单的调试场景，这样就可以在游戏中跟踪FPS（每秒帧数）等内"
+"容。打开 ``Debug_Display.tscn`` 。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_six.rst:249
-#, fuzzy
 msgid ""
 "You can see it's a :ref:`Panel <class_Panel>` positioned in the top right "
 "corner of the screen. It has three :ref:`Labels <class_Label>`, one for "
@@ -475,9 +456,9 @@ msgid ""
 "the game is running, and a label for showing with which Godot version the "
 "game is running."
 msgstr ""
-"您可以看到它是 :ref:`Panel <class_Panel>` 位于屏幕的右上角。 它有三个 :ref:"
-"`Labels <class_Label>`，一个用于显示游戏运行的FPS，一个用于显示游戏运行的操作"
-"系统，以及用于显示游戏运行的Godot版本的标签。"
+"你可以看到它是一个 :ref:`Panel <class_Panel>`，位置在屏幕的右上角。它有三个 :"
+"ref:`Labels <class_Label>`，一个是显示游戏运行的FPS，一个是显示游戏在什么操作"
+"系统上运行，还有一个标签是显示游戏在哪个Godot版本上运行。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_six.rst:252
 msgid ""
@@ -494,7 +475,6 @@ msgid "Let's go over what this script does."
 msgstr "我们来看看这个脚本的功能。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_six.rst:269
-#, fuzzy
 msgid ""
 "In ``_ready``, we set the ``OS_Label``'s text to the name provided by :ref:"
 "`OS <class_OS>` using the ``get_name`` function. This will return the name "
@@ -503,11 +483,11 @@ msgid ""
 "running Linux, it will return ``X11``."
 msgstr ""
 "在 ``_ready`` 中，我们使用 ``get_name`` 函数将 ``OS_Label`` 的文本设置为 :"
-"ref:`OS <class_OS>` 提供的名称。 这将返回Godot编译的OS(或操作系统)的名称。 例"
-"如，当您运行Windows时，它将返回“Windows”，而当您运行Linux时，它将返回“X11”。"
+"ref:`OS <class_OS>` 提供的名称。这将返回Godot被编译的操作系统或操作系统的名"
+"称。例如，当你运行Windows时，它将返回 ``Windows`` ，而当你运行Linux时，它将返"
+"回 ``X11`` 。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_six.rst:273
-#, fuzzy
 msgid ""
 "Then, we set the ``Engine_Label``'s text to the version info provided by "
 "``Engine.get_version_info``. ``Engine.get_version_info`` returns a "
@@ -517,14 +497,13 @@ msgid ""
 "``Engine_Label``. See :ref:`Engine <class_Engine>` for more information on "
 "the values ``get_version_info`` returns."
 msgstr ""
-"然后我们将 ``Engine_Label`` 的文本设置为 ``Engine.get_version_info`` 提供的版"
-"本信息。 ``Engine.get_version_info``返回一个字典，其中包含有关Godot当前运行版"
-"本的有用信息。 我们只关心字符串版本，至少对于这个标签，所以我们得到字符串并将"
-"其指定为 ``Engine_Label`` 中的 ``text`` 。 有关值 ``get_version_info`` 返回的"
-"更多信息，请参阅 :ref:`Engine <class_Engine>` 。"
+"然后，我们将 ``Engine_Label`` 的文本设置为 ``Engine.get_version_info`` 提供的"
+"版本信息。 ``Engine.get_version_info`` 会返回一个字典，里面有关于当前运行的"
+"Godot版本的有用信息。我们只关心字符串的版本，至少对这个标签来说是这样，所以我"
+"们得到这个字符串，并将其赋值为 ``Engine_Label`` 中的 ``text`` 。参见 :ref:"
+"`Engine <class_Engine>` 了解更多关于 ``get_version_info`` 返回值的信息。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_six.rst:277
-#, fuzzy
 msgid ""
 "In ``_process``, we set the text of the ``FPS_Label`` to ``Engine."
 "get_frames_per_second``, but because ``get_frames_per_second`` returns an "
@@ -532,9 +511,9 @@ msgid ""
 "to the :ref:`Label <class_Label>`."
 msgstr ""
 "在 ``_process`` 中，我们将 ``FPS_Label`` 的文本设置为 ``Engine."
-"get_frames_per_second`` ，但是因为 ``get_frames_per_second`` 返回一个整数，我"
-"们必须使用``str`将它强制转换为字符串。 `之前我们可以将它添加到 :ref:`Label "
-"<class_Label>`。"
+"get_frames_per_second`` ，但由于 ``get_frames_per_second`` 返回的是一个整数，"
+"所以我们必须先用 ``str`` 将其转变成一个字符串，然后才能将其添加到 :ref:"
+"`Label <class_Label>` 中。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_six.rst:282
 msgid ""
@@ -549,13 +528,12 @@ msgid "to this instead:"
 msgstr "改为:"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_six.rst:296
-#, fuzzy
 msgid ""
 "This will call a new function called ``set_debug_display`` in our singleton, "
 "so let's add that next!"
 msgstr ""
-"这将在我们的单例中调用一个名为 ``set_debug_display`` 的新函数，所以让我们接下"
-"来添加它！"
+"这将会在单例中调用一个新的函数 ``set_debug_display`` ，所以接下来让我们添加这"
+"个函数吧!"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_six.rst:300
 #: ../../docs/tutorials/3d/fps_tutorial/part_six.rst:391
@@ -590,7 +568,6 @@ msgstr ""
 "为以下内容:"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_six.rst:327
-#, fuzzy
 msgid ""
 "Now in ``_ready``, we create a new canvas layer, assign it to "
 "``canvas_layer`` and add it as a child. Because ``Globals.gd`` is an "
@@ -599,11 +576,11 @@ msgid ""
 "makes a :ref:`Node <class_Node>`, we can treat ``Globals.gd`` like any other "
 "node with regard to adding/removing children nodes."
 msgstr ""
-"现在在 ``_ready`` 中，我们创建一个新的画布层，将其分配给 ``canvas_layer`` 并"
-"将其添加为子画面。 因为 ``Globals.gd`` 是一个自动加载/单例，当游戏启动时，"
-"Godot将创建一个 :ref:`Node <class_Node>`，它将附加“Globals.gd”。 由于Godot创"
-"建了一个 :ref:`Node <class_Node>`，我们可以将 ``Globals.gd`` 视为添加/删除子"
-"节点的任何其他节点。"
+"现在在 ``_ready`` 中，我们创建一个新的画布层，将其分配给 ``canvas_layer`` ，"
+"并将其添加为子节点。因为 ``Globals.gd`` 是一个自动加载单例，所以当游戏启动"
+"时，Godot会做一个 :ref:`Node <class_Node>` ，它将有 ``Globals.gd`` 附在上面。"
+"由于Godot制作了一个 :ref:`Node <class_Node>` ，我们可以像对待其他节点一样对"
+"待 ``Globals.gd`` 来添加或删除子节点。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_six.rst:331
 msgid ""
@@ -615,7 +592,6 @@ msgstr ""
 "gd`` 中实例/spawn的所有GUI和UI节点总是绘制在其他所有东西之上。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_six.rst:334
-#, fuzzy
 msgid ""
 "When adding nodes to a singleton/autoload, you have to be careful not to "
 "lose reference to any of the child nodes. This is because nodes will not be "
@@ -623,9 +599,9 @@ msgid ""
 "memory problems if you are instancing/spawning lots of nodes and you are not "
 "freeing them."
 msgstr ""
-"将节点添加到单例/自动加载时，必须注意不要丢失对任何子节点的引用。 这是因为当"
-"您更改场景时不会释放/销毁节点，这意味着如果您实例化/生成大量节点并且您没有释"
-"放它们，则可能会遇到内存问题。"
+"当将节点添加到单例自动加载时，你必须小心不要丢失对任何子节点的引用。这是因为"
+"当你改变活动场景时，节点不会被释放和销毁，这意味着如果你在实例化和生成很多节"
+"点而没有释放它们，可能会遇到内存问题。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_six.rst:340
 msgid "Now we need to add ``set_debug_display`` to ``Globals.gd``:"
@@ -685,10 +661,10 @@ msgid ""
 "children of the singleton/autoload will stay for as long as the game is "
 "running, without any additional work on our part!"
 msgstr ""
-"请注意，即使将“Main_Menu.tscn`”中的场景更改为另一个场景(如“Testing_Area."
-"tscn``)，调试显示仍然保持不变。 这是单例/自动加载中实例化/生成节点的美妙之"
-"处，并将它们作为子元素添加到单例/自动加载中。 作为单件/自动加载的子节点添加的"
-"任何节点将在游戏运行期间保持不变，而我们没有任何额外的工作！"
+"注意到即使你从 ``Main_Menu.tscn`` 到另一个场景（如 ``Testing_Area.tscn`` ）改"
+"变场景时，调试显示也会保持。这就是在单例/自动加载中实例化/spawning节点并将它"
+"们作为子节点添加到单例/自动加载的好处。只要游戏还在运行，任何作为单例/自动加"
+"载的子节点都会一直存在，而不需要我们做任何额外的工作!"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_six.rst:374
 msgid "Adding a pause menu"
@@ -707,20 +683,18 @@ msgid "Open up ``Pause_Popup.tscn``."
 msgstr "打开 ``Pause_Popup.tscn`` 。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_six.rst:380
-#, fuzzy
 msgid ""
 "Notice how the root node in ``Pause_Popup`` is a :ref:`WindowDialog "
 "<class_WindowDialog>`; :ref:`WindowDialog <class_WindowDialog>` inherits "
 "from :ref:`Popup <class_Popup>`, which means :ref:`WindowDialog "
 "<class_WindowDialog>` can act like a popup."
 msgstr ""
-"注意 ``Pause_Popup`` 中的根节点是如何 :ref:`WindowDialog "
-"<class_WindowDialog>`。 :ref:`WindowDialog <class_WindowDialog>` 继承自 :ref:"
-"`Popup <class_Popup>`，这意味着 :ref:`WindowDialog <class_WindowDialog>` 可以"
-"像弹出窗口一样。"
+"注意 ``Pause_Popup`` 中的根节点是一个 :ref:`WindowDialog "
+"<class_WindowDialog>` ； :ref:`WindowDialog <class_WindowDialog>` 继承自 :"
+"ref:`Popup <class_Popup>` ，这意味着 :ref:`WindowDialog "
+"<class_WindowDialog>` 可以像弹出窗口一样运行。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_six.rst:383
-#, fuzzy
 msgid ""
 "Select ``Pause_Popup`` and scroll down all the way till you get to the "
 "``Pause`` menu in the inspector. Notice how the pause mode is set to "
@@ -728,12 +702,11 @@ msgid ""
 "makes it so it will continue to process even when the game is paused, which "
 "we need in order to interact with the UI elements."
 msgstr ""
-"选择 ``Pause_Popup`` 并向下滚动，直到您到达属性面板中的 ``Pause`` 菜单。 注意"
-"暂停模式如何设置为 ``process`` 而不是 ``inherit`` ，就像它通常默认设置一样。 "
-"这使得它即使在游戏暂停时也会继续处理，这是我们为了与UI元素进行交互所需要的。"
+"选择 ``Pause_Popup`` ，然后一直向下滚动，直到在检查器中找到 ``Pause`` 菜单。"
+"请注意，暂停模式被设置为 ``process`` ，而不是像通常默认设置的 ``inherit`` 。"
+"这使得它即使在游戏暂停时也会继续处理，我们需要这样做才能与UI元素进行交互。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_six.rst:387
-#, fuzzy
 msgid ""
 "Now that we've looked at how ``Pause_Popup.tscn`` is set up, let's write the "
 "code to make it work. Normally, we'd attach a script to the root node of the "
@@ -741,9 +714,9 @@ msgid ""
 "couple of signals in ``Globals.gd``, we'll write all the code for the popup "
 "there."
 msgstr ""
-"现在我们已经了解了如何设置 ``Pause_Popup.tscn`` ，让我们编写代码使其工作。 通"
-"常我们会在这种情况下将脚本附加到场景的根节点，“Pause_Popup”。但是由于我们需要"
-"在 ``Globals.gd`` 中接收一些信号，我们将全部写入 弹出窗口的代码。"
+"现在我们已经了解 ``Pause_Popup.tscn`` 是如何设置的，让我们编写代码来使它工"
+"作。通常，我们会在场景的根节点上附加一个脚本，在本例中是 ``Pause_Popup`` ，但"
+"由于需要在 ``Globals.gd`` 中接收一些信号，我们将在那里写弹出窗口的所有代码。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_six.rst:399
 msgid "``MAIN_MENU_PATH``: The path to the main menu scene."
@@ -770,22 +743,20 @@ msgid "Let's go over what's happening here."
 msgstr "让我们回顾一下这里发生的事情。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_six.rst:428
-#, fuzzy
 msgid ""
 "Firstly, we check to see if the ``ui_cancel`` action is pressed. Then, we "
 "check to make sure ``Globals.gd`` does not already have a ``popup`` open by "
 "checking to see if ``popup`` is equal to ``null``."
 msgstr ""
-"首先，我们检查是否按下了 ``ui_cancel`` 动作。 然后我们通过检查 ``popup`` 是否"
-"等于 ``null`` 来检查 ``Globals.gd`` 是否还没有打开 ``popup`` 。"
+"首先，我们检查 ``ui_cancel`` 动作是否被按下。然后，我们通过检查 ``popup`` 是"
+"否等于 ``null`` 来确保 ``Globals.gd`` 没有打开 ``popup`` 。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_six.rst:431
-#, fuzzy
 msgid ""
 "If ``Globals.gd`` do not have a pop-up open, we instance ``POPUP_SCENE`` and "
 "assign it to ``popup``."
 msgstr ""
-"如果 ``Globals.gd`` 没有弹出窗口，我们实例 ``POPUP_SCENE`` 并将其分配给 "
+"如果 ``Globals.gd`` 没有弹出窗口，我们实例化 ``POPUP_SCENE`` 并将其分配给 "
 "``popup`` 。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_six.rst:433
@@ -797,37 +768,33 @@ msgstr ""
 "快添加。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_six.rst:435
-#, fuzzy
 msgid ""
 "Next, we assign both the ``popup_hide`` signal from the :ref:`WindowDialog "
 "<class_WindowDialog>` and the ``pressed`` signal from the resume button to "
 "``popup_closed``, which we will be adding shortly."
 msgstr ""
-"接下来，我们将来自 :ref:`WindowDialog <class_WindowDialog>` 的 "
-"``popup_hide`` 信号和来自resume按钮的 ``pressed`` 信号分配给 "
-"``popup_closed`` ，我们将很快添加。"
+"接下来，我们将 :ref:`WindowDialog <class_WindowDialog>` 的 ``popup_hide`` 信"
+"号和resume按钮的 ``pressed`` 信号都分配给 ``popup_closed`` ，将很快添加。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_six.rst:438
-#, fuzzy
 msgid ""
 "Then, we add ``popup`` as a child of ``canvas_layer`` so it's drawn on top. "
 "We then tell ``popup`` to pop up at the center of the screen using "
 "``popup_centered``."
 msgstr ""
-"然后我们添加 ``popup`` 作为 ``canvas_layer`` 的子节点，所以它被绘制在顶部。 "
-"然后我们使用 ``popup_centered`` 告诉 ``popup`` 弹出屏幕中心。"
+"然后，我们添加 ``popup`` 作为 ``canvas_layer`` 的子级，这样它就会被绘制在上"
+"面。然后用 ``popup_centered`` 通知 ``popup`` 在屏幕中心弹出。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_six.rst:440
-#, fuzzy
 msgid ""
 "Next, we make sure the mouse mode is ``MOUSE_MODE_VISIBLE`` so the player "
 "can interact with the pop-up. If we did not do this, the player would not be "
 "able to interact with the pop up in any scene where the mouse mode is "
 "``MOUSE_MODE_CAPTURED``."
 msgstr ""
-"接下来，我们确保鼠标模式为“MOUSE_MODE_VISIBLE”，以便游戏角色可以与弹出窗口进"
-"行交互。 如果我们不这样做，游戏角色将无法与鼠标模式为“MOUSE_MODE_CAPTURED”的"
-"任何场景中的弹出窗口进行交互。"
+"接下来，我们确保鼠标模式为 ``MOUSE_MODE_VISIBLE`` ，这样玩家就可以与弹出窗口"
+"进行交互。如果我们不这样做，玩家将无法在任何鼠标模式为 "
+"``MOUSE_MODE_CAPTURED`` 的场景中与弹出窗口交互。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_six.rst:443
 msgid "Finally, we pause the entire :ref:`SceneTree <class_SceneTree>`."
@@ -838,11 +805,10 @@ msgid "For more information on pausing in Godot, see :ref:`doc_pausing_games`"
 msgstr "有关在Godot中暂停的更多信息，请参阅 :ref:`doc_pausing_games`"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_six.rst:449
-#, fuzzy
 msgid ""
 "Now, we need to add the functions to which we've connected the signals. "
 "Let's add ``popup_closed`` first."
-msgstr "现在我们需要添加我们已连接信号的功能。 我们先添加 ``popup_closed`` 。"
+msgstr "现在，我们需要添加连接信号的函数。先添加 ``popup_closed`` 。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_six.rst:451
 #: ../../docs/tutorials/3d/fps_tutorial/part_six.rst:466
@@ -850,10 +816,9 @@ msgid "Add the following to ``Globals.gd``:"
 msgstr "将以下内容添加到``Globals.gd``:"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_six.rst:462
-#, fuzzy
 msgid ""
 "``popup_closed`` will resume the game and destroy the pop-up if there is one."
-msgstr "``popup_closed``将恢复游戏并摧毁弹出窗口(如果有的话)。"
+msgstr "``popup_closed`` 将恢复游戏，并在有弹出窗口的情况下销毁。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_six.rst:464
 msgid ""
@@ -862,21 +827,19 @@ msgid ""
 msgstr "``popup_quit``类似，但我们也确保鼠标可见并将场景更改为标题屏幕。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_six.rst:481
-#, fuzzy
 msgid ""
 "``popup_quit`` will resume the game, set the mouse mode to "
 "``MOUSE_MODE_VISIBLE`` to ensure the mouse is visible in the main menu, "
 "destroy the pop-up if there is one, and change scenes to the main menu."
 msgstr ""
-"``popup_quit``将恢复游戏，将鼠标模式设置为 ``MOUSE_MODE_VISIBLE`` 以确保鼠标"
-"在主菜单中可见，如果有则弹出窗口，并将场景更改为主菜单。"
+"``popup_quit`` 将恢复游戏，将鼠标模式设置为 ``MOUSE_MODE_VISIBLE`` 以确保鼠标"
+"在主菜单中可见，如果有弹出窗口，则销毁弹出窗口，并将场景改为主菜单。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_six.rst:486
-#, fuzzy
 msgid ""
 "Before we're ready to test the pop-up, we should change one thing in "
 "``Player.gd``."
-msgstr "在我们准备测试弹出窗口之前，我们应该在 ``Player.gd`` 中改变一件事。"
+msgstr "在我们准备测试弹出窗口之前，应该在 ``Player.gd`` 中修改一件事。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_six.rst:488
 msgid ""
@@ -895,32 +858,29 @@ msgid "You will leave only:"
 msgstr "您只会离开:"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_six.rst:509
-#, fuzzy
 msgid ""
 "Now, instead of capturing/freeing the mouse, we check whether the current "
 "mouse mode is ``MOUSE_MODE_VISIBLE``. If it is, we set it back to "
 "``MOUSE_MODE_CAPTURED``."
 msgstr ""
-"现在，我们不是捕获/释放鼠标，而是检查当前鼠标模式是否"
-"为“MOUSE_MODE_VISIBLE”。 如果是，我们将其设置回 ``MOUSE_MODE_CAPTURED`` 。"
+"现在，我们不是捕捉或释放鼠标，而是检查当前的鼠标模式是否为 "
+"``MOUSE_MODE_VISIBLE`` 。如果是，就把它设置为 ``MOUSE_MODE_CAPTURED`` 。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_six.rst:512
-#, fuzzy
 msgid ""
 "Because the pop-up makes the mouse mode ``MOUSE_MODE_VISIBLE`` whenever you "
 "pause, we no longer have to worry about freeing and capturing the cursor in "
 "``Player.gd``."
 msgstr ""
-"因为只要您暂停，弹出窗口就会使鼠标模式为“MOUSE_MODE_VISIBLE”，我们不再需要担"
-"心在“Player.gd”中释放和捕获光标。"
+"因为每当你暂停时，弹出的窗口会使鼠标模式为 ``MOUSE_MODE_VISIBLE`` ，所以我们"
+"不再担心在 ``Player.gd`` 中释放和捕捉光标。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_six.rst:516
-#, fuzzy
 msgid ""
 "Now the pause menu pop-up is finished. You can now pause at any point in the "
 "game and return to the main menu!"
 msgstr ""
-"现在弹出暂停菜单已完成。 您现在可以在游戏中的任何位置暂停并返回主菜单！"
+"现在弹出的暂停菜单已经完成。现在你可以在游戏中的任何一点暂停并返回主菜单!"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_six.rst:519
 msgid "Starting the respawn system"
@@ -935,16 +895,15 @@ msgstr ""
 "我们接下来添加！"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_six.rst:523
-#, fuzzy
 msgid ""
 "Firstly, open up ``Player.tscn`` and expand ``HUD``. Notice how there is a :"
 "ref:`ColorRect <class_ColorRect>` called ``Death_Screen``. When the player "
 "dies, we're going to make ``Death_Screen`` visible, and show them how long "
 "they have to wait before the player is able to respawn."
 msgstr ""
-"首先，打开 ``Player.tscn`` 并展开 ``HUD`` 。 注意如何 :ref:`ColorRect "
-"<class_ColorRect>` ` ``Death_Screen`` 。 当游戏角色死亡时，我们将使 "
-"``Death_Screen`` 可见，并告诉他们在游戏角色能够重生之前他们需要等待多长时间。"
+"首先，打开 ``Player.tscn`` ，展开 ``HUD`` 。注意有一个 :ref:`ColorRect "
+"<class_ColorRect>` 叫 ``Death_Screen`` 。当玩家死亡时，我们将使 "
+"``Death_Screen`` 可见，并向他们展示在玩家能够重生之前他们需要等待多长时间。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_six.rst:526
 msgid "Open up ``Player.gd`` and add the following class variables:"
@@ -982,22 +941,21 @@ msgid ""
 "in the player's global :ref:`Transform <class_Transform>` to the position "
 "returned by ``globals.get_respawn_position``."
 msgstr ""
-"现在我们得到 ``Globals.gd`` 单例并将其分配给 ``globals``。 我们还通过在游戏角"
-"色的全局中设置原点来设置游戏角色的全局位置 :ref:`Transform "
-"<class_Transform>` 到 ``globals.get_respawn_position`` 返回的位置。"
+"现在我们得到 ``Globals.gd`` 的单例，并将其分配给 ``globals`` 。我们还设置了玩"
+"家的全局位置，将玩家的全局 :ref:`Transform <class_Transform>` 中的原点设置为"
+"由 ``globals.get_respawn_position`` 返回的位置。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_six.rst:554
 msgid "Don't worry, we will be adding ``get_respawn_position`` further below!"
 msgstr "别担心，我们将在下面添加“get_respawn_position`”！"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_six.rst:558
-#, fuzzy
 msgid ""
 "Next, we need to make a few changes to ``_physics_process``. Change "
 "``_physics_process`` to the following:"
 msgstr ""
-"接下来我们需要对 ``physics_process`` 进行一些更改。 将 "
-"``physics_processing`` 更改为以下内容:"
+"接下来，我们需要对 ``_physics_process`` 进行一些修改。将 "
+"``_physics_process`` 改为："
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_six.rst:576
 msgid ""
@@ -1008,16 +966,15 @@ msgstr ""
 "``process_respawn`` 。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_six.rst:578
-#, fuzzy
 msgid ""
 "The ``if !is_dead:`` expression is equivalent and works in the same way as "
 "the expression ``if is_dead == false:``. And by removing the ``!`` sign from "
 "the expression we obtain the opposite expression ``if is_dead == true:``. It "
 "is just a shorter way of writing the same code functionality."
 msgstr ""
-"``if！is_dead:``表达式是等价的，其工作方式与表达式``if is_dead == false:``相"
-"同。 通过从表达式中删除 ``！`` 符号，我们获得了相反的表达式``if is_dead == "
-"true:``。 这只是编写相同代码功能的一种较短方式。"
+"``if !is_dead:`` 表达式与 ``if is_dead == false:`` 表达式是等价的，工作方式相"
+"同。而把表达式中的 ``!`` 号去掉，我们就可以得到相反的表达式 ``if is_dead == "
+"true:`` 。这只是用一种更短的方式来写同样的代码功能。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_six.rst:580
 msgid "We have not made ``process_respawn`` yet, so let's change that."
@@ -1049,15 +1006,14 @@ msgstr ""
 "角色不会用尸体挡住任何东西。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_six.rst:651
-#, fuzzy
 msgid ""
 "Next, we set ``changing_weapon`` to ``true`` and set "
 "``changing_weapon_name`` to ``UNARMED``. This is so, if the player is using "
 "a weapon, it is put away when they dies."
 msgstr ""
-"接下来我们将 ``changing_weapon`` 设置为 ``true`` 并将 "
-"``changing_weapon_name`` 设置为 ``UNARMED`` 。 如果游戏角色使用武器就是这样，"
-"当游戏角色死亡时它会被收起。"
+"接下来，我们将 ``changing_weapon`` 设置为 ``true`` ，并将 "
+"``changing_weapon_name`` 设置为 ``UNARMED`` 。这样一来，如果玩家在使用武器，"
+"当他们死亡时，武器就会被收起来。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_six.rst:654
 msgid ""
@@ -1071,27 +1027,24 @@ msgstr ""
 "``Panel`` 和``Crosshair``节点，看不见。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_six.rst:657
-#, fuzzy
 msgid ""
 "Next, we set ``dead_time`` to ``RESPAWN_TIME`` so we can start counting down "
 "how long the player has been dead. We also set ``is_dead`` to ``true`` so we "
 "know the player has died."
 msgstr ""
-"接下来我们将 ``dead_time`` 设置为 ``RESPAWN_TIME`` ，这样我们就可以开始倒计时"
-"游戏角色死了多久。 我们还将 ``is_dead`` 设置为 ``true`` ，因此我们知道游戏角"
-"色已经死亡。"
+"接下来，我们把 ``dead_time`` 设置为 ``RESPAWN_TIME`` ，这样就可以开始倒数玩家"
+"已经死亡多久。还将 ``is_dead`` 设置为 ``true`` ，这样就知道玩家已经死亡。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_six.rst:659
-#, fuzzy
 msgid ""
 "If the player is holding an object when they died, we need to throw it. We "
 "first check whether the player is holding an object or not. If the player is "
 "holding a object, we throw it using the same code as the throwing code we "
 "added in :ref:`doc_fps_tutorial_part_five`."
 msgstr ""
-"如果游戏角色在死亡时持有物体，我们需要扔掉它。 我们首先检查游戏角色是否持有物"
-"体。 如果游戏角色持有一个对象，我们使用与我们添加的抛出代码相同的代码抛出它 :"
-"ref:`doc_fps_tutorial_part_five`。"
+"如果玩家死亡的时候手里持有一个东西，我们就需要扔掉它。我们首先检查玩家是否持"
+"有一个物体。如果玩家持有一个物体，使用与 :ref:`doc_fps_tutorial_part_five` 中"
+"添加的投掷代码相同的代码来投掷它。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_six.rst:662
 msgid ""
@@ -1411,7 +1364,7 @@ msgid ""
 "so when the audio player is destroyed, we can also remove it from a list in "
 "``Globals.gd``."
 msgstr ""
-"最后，不是在 ``Player.gd`` 中实例化/生成，而是在“Globals.gd”中生成音频播放"
+"最后，不是在 ``Player.gd`` 中实例化/生成，而是在 ``Player.gd`` 中生成音频播放"
 "器，这样我们就可以从任何场景创建声音。 现在音频播放器存储了 ``Globals.gd`` 单"
 "例，所以当音频播放器被销毁时，我们也可以从 ``Globals.gd`` 中的列表中删除它。"
 
@@ -1436,15 +1389,15 @@ msgid ""
 msgstr ""
 "我们还添加了两个新的类变量 ``should_loop`` 和 ``globals`` 。 我们将使用 "
 "``should_loop`` 来判断音频播放器是否应该在声音结束时循环，而 ``globals`` 将保"
-"持 ``Globals.gd`` 单例。"
+"留 ``Globals.gd`` 单例。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_six.rst:877
 msgid ""
 "The only change in ``_ready`` is now audio player is getting the ``Globals."
 "gd`` singleton and assigning it to ``globals``."
 msgstr ""
-"在``_ready``里的唯一变化是现在音频播放器正在获得``Globals.gd``单例并将其分配"
-"给``globals``。"
+"在 ``_ready`` 里的唯一变化是现在音频播放器正在获得 ``Globals.gd`` 单例并将其"
+"分配给 ``globals`` 。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_six.rst:879
 msgid ""
@@ -1455,9 +1408,9 @@ msgid ""
 "an error message, remove the audio player from a list in the ``Globals.gd`` "
 "singleton called ``created_audio``, and then free the audio player."
 msgstr ""
-"``play_sound``现在需要传入一个名为``audio_stream``的音频流，而不是 "
+"``play_sound`` 现在需要传入一个名为 ``audio_stream`` 的音频流，而不是 "
 "``sound_name`` 。 我们不是检查声音名称和设置音频播放器的流，而是检查以确保传"
-"入音频流。如果未传入音频流，我们打印错误消息，从列表中删除音频播放器 在 "
+"入音频流。如果未传入音频流，我们打印错误消息，从列表中删除音频播放器，在 "
 "``Globals.gd`` 单例中称为 ``created_audio`` ，然后释放音频播放器。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_six.rst:883
@@ -1471,8 +1424,8 @@ msgid ""
 msgstr ""
 "最后，在 ``sound_finished`` 中，我们首先检查音频播放器是否应该使用 "
 "``should_loop`` 循环。 如果音频播放器应该循环，我们将从头开始再次播放声音，位"
-"置为“0.0”。 如果音频播放器不应该循环，我们从名为 ``created_audio`` 的"
-"``Globals.gd``单曲列表中删除音频播放器，然后释放音频播放器。"
+"置为 ``0.0`` 。 如果音频播放器不应该循环，我们从名为 ``created_audio`` 的 "
+"``Globals.gd`` 单曲列表中删除音频播放器，然后释放音频播放器。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_six.rst:889
 msgid ""
@@ -1571,8 +1524,7 @@ msgid ""
 "Remember, we have to be careful adding nodes to a singleton, since these "
 "nodes will not be destroyed when changing scenes."
 msgstr ""
-"请记住，我们必须小心地将节点添加到单个节点，因为在更改场景时这些节点不会被销"
-"毁。"
+"记住，我们必须小心地将节点添加到单例中，因为这些节点在改变场景时不会被销毁。"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_six.rst:951
 msgid ""
@@ -1679,7 +1631,7 @@ msgstr "在此之上，你已打下构建更复杂的FPS游戏的良好基础。
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_six.rst:1004
 msgid "If you ever get lost, be sure to read over the code again!"
-msgstr "如果您迷路了，请务必再次阅读代码！"
+msgstr "如果你感到迷茫，请一定要再读一遍代码！"
 
 #: ../../docs/tutorials/3d/fps_tutorial/part_six.rst:1006
 msgid ""

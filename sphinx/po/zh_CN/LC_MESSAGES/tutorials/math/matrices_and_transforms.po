@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-28 20:28+0800\n"
+"POT-Creation-Date: 2021-04-25 22:16+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -101,14 +101,13 @@ msgstr ""
 "列表示。改变列会改变这些向量。我们将在接下来的几个例子中看到如何操作它们。"
 
 #: ../../docs/tutorials/math/matrices_and_transforms.rst:49
-#, fuzzy
 msgid ""
 "You should not worry about manipulating rows directly, as we usually work "
 "with columns. However, you can think of the rows of the matrix as showing "
 "which vectors contribute to moving in a given direction."
 msgstr ""
-"你不需要关心直接操作行，因为我们通常操作列。不过，你可以把矩阵的行看作是有助"
-"于在给定方向上移动的向量。"
+"您不必担心直接操作行，因为我们通常使用列。然而，你可以把矩阵的行看作是表示哪"
+"些向量有助于在给定的方向上移动。"
 
 #: ../../docs/tutorials/math/matrices_and_transforms.rst:53
 msgid ""
@@ -389,7 +388,6 @@ msgstr ""
 "图，以及能复制它的代码，但我鼓励您尝试不看代码就复制屏幕截图！"
 
 #: ../../docs/tutorials/math/matrices_and_transforms.rst:280
-#, fuzzy
 msgid "Shearing the transformation matrix (advanced)"
 msgstr "剪切变换矩阵(高级)"
 

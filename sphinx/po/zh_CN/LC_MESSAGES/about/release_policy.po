@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-28 20:28+0800\n"
+"POT-Creation-Date: 2021-04-25 22:16+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -122,8 +122,9 @@ msgstr "三月2019"
 #: ../../docs/about/release_policy.rst:41
 #: ../../docs/about/release_policy.rst:43
 #: ../../docs/about/release_policy.rst:45
+#, fuzzy
 msgid "|partial| Only critical, security and platform support fixes."
-msgstr "|partial| 仅对关键、安全和平台支持进行修复。"
+msgstr "|partial| 仅关键、安全和平台支持修复（最后更新：3.2.3）。"
 
 #: ../../docs/about/release_policy.rst:43
 msgid "Godot 3.0"
@@ -172,6 +173,7 @@ msgid "December 2014"
 msgstr "2014年12月"
 
 #: ../../docs/about/release_policy.rst:59
+#, fuzzy
 msgid ""
 "**Legend:** |supported| Full support - |partial| Partial support - |eol| No "
 "support (end of life) - |unstable| Development version"
@@ -180,23 +182,25 @@ msgstr ""
 "束） - |unstable| 开发版本"
 
 #: ../../docs/about/release_policy.rst:65
+#, fuzzy
 msgid ""
 "Pre-release Godot versions aren't intended to be used in production and are "
 "provided on a best-effort basis."
-msgstr "预览版的Godot版本并不打算用于生产，而是在尽最大努力提供根基。"
+msgstr "预览版的Godot版本并不打算用于生产，仅用于测试目的。"
 
 #: ../../docs/about/release_policy.rst:71
 msgid "When is the next release out?"
 msgstr "下一个版本什么时候出来？"
 
 #: ../../docs/about/release_policy.rst:73
+#, fuzzy
 msgid ""
 "While Godot contributors aren't working under any deadlines, there's usually "
 "a major or minor Godot release made available every year. Following this "
 "trend, this means Godot 4.0 will most likely be released in **2021**."
 msgstr ""
-"虽然Godot的贡献者并没有在任何期限内工作，但通常每年都会有一个主要或次要的"
-"Godot版本。按照这一趋势，Godot 4.0很可能在**2021年**发布。"
+"虽然Godot的贡献者并没有截止日期，但通常每年都会发布一个主要或次要的Godot版"
+"本，每一个版本之间都有数次维护更新。"
 
 #: ../../docs/about/release_policy.rst:77
 msgid ""

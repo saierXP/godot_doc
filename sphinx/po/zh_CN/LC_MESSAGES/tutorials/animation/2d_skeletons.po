@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-28 20:28+0800\n"
+"POT-Creation-Date: 2021-04-25 22:16+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -77,14 +77,13 @@ msgid "Setup"
 msgstr "场景布置"
 
 #: ../../docs/tutorials/animation/2d_skeletons.rst:34
-#, fuzzy
 msgid ""
 "Before starting, we recommend you to go through the :ref:"
 "`doc_cutout_animation` tutorial to gain a general understanding of animating "
 "within Godot."
 msgstr ""
-"在开始之前，建议您阅读:参考:'文档_剪纸动画'教程，以便对Godot的动画系统有个大"
-"致的了解。"
+"在开始之前，我们建议您先浏览一下 :ref:`doc_cutout_animation` 教程，以便对"
+"Godot中的动画制作有一个大致的了解。"
 
 #: ../../docs/tutorials/animation/2d_skeletons.rst:38
 msgid ""
@@ -144,13 +143,13 @@ msgid ""
 msgstr "转到*点*模式，选择铅笔，在需要的区域绘制一个多边形:"
 
 #: ../../docs/tutorials/animation/2d_skeletons.rst:77
-#, fuzzy
 msgid ""
 "Duplicate the polygon node and give it a proper name. Then, enter the \"UV\" "
 "dialog again and replace the old polygon with another one in the new desired "
 "piece."
 msgstr ""
-"复制该多边形节点并重命名,再次进入“UV”对话框，将旧多边形替换为新多边形。"
+"复制多边形节点，并给它一个合适的名字。然后，再次进入 \"UV\" 对话框，在新的所"
+"需设计中用另一个多边形替换旧的多边形。"
 
 #: ../../docs/tutorials/animation/2d_skeletons.rst:81
 msgid ""
@@ -167,19 +166,17 @@ msgstr ""
 "移动多边形后，请记住通过在多边形2D UV编辑器中选择编辑->“多边形->UV”来更新UV。"
 
 #: ../../docs/tutorials/animation/2d_skeletons.rst:89
-#, fuzzy
 msgid "Keep doing this until you mapped all pieces."
-msgstr "重复这样的操作，直到所有部分都被映射。"
+msgstr "继续这样做，直到你映射所有的部件。"
 
 #: ../../docs/tutorials/animation/2d_skeletons.rst:93
-#, fuzzy
 msgid ""
 "You will notice that pieces for nodes appear in the same layout as they do "
 "in the original texture. This is because by default, when you draw a "
 "polygon, the UV and points are the same."
 msgstr ""
-"您会注意到，节点的片段与它们在原始纹理中的布局相同。这是因为(默认情况下)绘制"
-"多边形时，UV和点是一样的。"
+"你会注意到，节点的部分与它们在原始纹理中的布局是一样的。这是因为默认情况下，"
+"当你绘制一个多边形时，UV和点是一样的。"
 
 #: ../../docs/tutorials/animation/2d_skeletons.rst:97
 msgid ""
@@ -237,16 +234,15 @@ msgstr ""
 "况下没有子骨骼。*提示*单根骨的长度属性可以通过属性面板来改变:"
 
 #: ../../docs/tutorials/animation/2d_skeletons.rst:134
-#, fuzzy
 msgid ""
 "In this case, we don't need to rotate the bone (coincidentally the jaw "
 "points right in the sprite), but in case you need to, feel free to do it. "
 "Again, this is only really needed for tip bones as nodes with children don't "
 "usually need a length or a specific rotation."
 msgstr ""
-"在本例中，我们不需要旋转该单根骨(因为它恰好适合精灵图片下巴的角度)，如果你想"
-"更改的话，请随意。重复一遍,该单根骨仅仅起到提示作用，带有子节点的节点通常不需"
-"要长度或者特定的旋转。"
+"在这种情况下，我们不需要旋转骨头，巧合的是，精灵中的下巴指向右边，但万一需"
+"要，可以随意旋转。同样，这只是对尖端骨骼的真正需要，因为带有子节点通常不需要"
+"长度或特定的旋转。"
 
 #: ../../docs/tutorials/animation/2d_skeletons.rst:139
 msgid "Keep going and build the whole skeleton:"
@@ -274,14 +270,13 @@ msgid "Deforming the polygons"
 msgstr "多边形的变形"
 
 #: ../../docs/tutorials/animation/2d_skeletons.rst:156
-#, fuzzy
 msgid ""
 "Select the previously created polygons and assign the skeleton node to their "
 "``Skeleton`` property. This will ensure that they can eventually be deformed "
 "by it."
 msgstr ""
-"选择之前创建的多边形，并将骨骼节点分配给它们的“骨骼”(skeleton)属性。这能确保"
-"最终使它们变形。"
+"选择之前创建的多边形，并将骨架节点分配给它们的 ``Skeleton`` 属性。这将确保它"
+"们最终能被变形。"
 
 #: ../../docs/tutorials/animation/2d_skeletons.rst:162
 msgid "Click the property highlighted above and select the skeleton node:"
@@ -391,14 +386,13 @@ msgstr ""
 "你满意的结果。"
 
 #: ../../docs/tutorials/animation/2d_skeletons.rst:230
-#, fuzzy
 msgid ""
 "**Note:** Don't forget that your newly added internal vertices also need "
 "weight painting! Go to the *Bones* section again to assign them to the right "
 "bones."
 msgstr ""
-"**注意:**不要忘记，新增加的内部顶点也需要绘制权重！再次转到*单根骨*部分，将它"
-"们分配到正确的单根骨上。"
+"**注意:** 不要忘记你新添加的内部顶点也需要绘制权重!再次转到 *骨骼* 部分，将它"
+"们分配到正确的骨骼。"
 
 #: ../../docs/tutorials/animation/2d_skeletons.rst:233
 msgid "Once you are all set, you will get much better results:"

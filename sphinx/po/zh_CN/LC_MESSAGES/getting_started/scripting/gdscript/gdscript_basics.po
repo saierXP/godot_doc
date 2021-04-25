@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-28 20:28+0800\n"
+"POT-Creation-Date: 2021-04-25 22:16+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1976,6 +1976,7 @@ msgid "Memory management"
 msgstr "内存管理"
 
 #: ../../docs/getting_started/scripting/gdscript/gdscript_basics.rst:1328
+#, fuzzy
 msgid ""
 "If a class inherits from :ref:`class_Reference`, then instances will be "
 "freed when no longer in use. No garbage collector exists, just reference "
@@ -1986,10 +1987,10 @@ msgid ""
 "creating weak references."
 msgstr ""
 "如果一个类继承了 :ref:`class_Reference`，那么当不再使用时，实例将被释放。不存"
-"在垃圾回收器，只有引用计数。默认情况下，所有没有定义继承的类都会扩展为 "
-"**Reference** 类。如果不希望这样，那么一个类必须手动继承 :ref:"
-"`class_Object`，并且必须调用 ``instance.free()`` 。为了避免无法释放的引用循"
-"环，提供了一个 ``weakref`` 函数用于创建弱引用。"
+"在垃圾回收器，只有引用计数。默认情况下，所有没有定义继承的类都会作为 "
+"**Reference** 类的扩展。如果不希望这样，那么这个类必须手动继承 :ref:"
+"`class_Object`，并且必须调用 ``instance.free()`` 。为了避免因造成循环引用而导"
+"致无法释放，我们提供了 ``weakref`` 函数用于创建弱引用。示例如下："
 
 #: ../../docs/getting_started/scripting/gdscript/gdscript_basics.rst:1336
 msgid ""
@@ -2239,8 +2240,9 @@ msgstr ""
 "``completed`` 信号。"
 
 #: ../../docs/getting_started/scripting/gdscript/gdscript_basics.rst:1644
+#, fuzzy
 msgid "Onready keyword"
-msgstr "``Onready`` 关键字"
+msgstr "`Onready` 关键字"
 
 #: ../../docs/getting_started/scripting/gdscript/gdscript_basics.rst:1646
 msgid ""

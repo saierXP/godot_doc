@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-28 20:28+0800\n"
+"POT-Creation-Date: 2021-04-25 22:16+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -45,16 +45,15 @@ msgid "Preparing scene"
 msgstr "准备场景"
 
 #: ../../docs/tutorials/networking/http_request_class.rst:14
-#, fuzzy
 msgid ""
 "Create a new empty scene, add a CanvasLayer as the root node and add a "
 "script to it. Then add two child nodes to it: a Button and an HTTPRequest "
 "node. You will need to connect the following signals to the CanvasLayer "
 "script:"
 msgstr ""
-"创建一个新的空场景，添加CanvasLayer作为其根节点并向其添加脚本。 然后向其添加"
-"两个子节点:Button和HTTPRequest节点。 您需要将以下信号连接到CanvasLayer节点的"
-"脚本:"
+"创建一个新的空场景，添加一个CanvasLayer作为根节点，并为其添加一个脚本。然后给"
+"它添加两个子节点：一个Button和一个HTTPRequest节点。然后需要把以下信号连接到"
+"CanvasLayer脚本上："
 
 #: ../../docs/tutorials/networking/http_request_class.rst:16
 msgid "Button.pressed: When the button is pressed, we will start the request."
@@ -118,13 +117,12 @@ msgstr ""
 "的 ``user-agent`` 头部部分)，您可以像这样使用:"
 
 #: ../../docs/tutorials/networking/http_request_class.rst:53
-#, fuzzy
 msgid ""
 "Please note that, for SSL/TLS encryption and thus HTTPS URLs to work, you "
 "may need to take some steps as described :ref:`here <doc_ssl_certificates>`."
 msgstr ""
-"请注意，为可以用到SSL/TLS加密即HTTPS 格式的网址上，您可能需要额外的操作, 见 :"
-"ref:`here <doc_ssl_certificates>` 。"
+"请注意，为了使SSL/TLS加密，从而使HTTPS URL发挥作用，你可能需要采取一些额外的"
+"操作步骤，如 :ref:`here <doc_ssl_certificates>` 。"
 
 #: ../../docs/tutorials/networking/http_request_class.rst:55
 msgid ""
@@ -145,14 +143,13 @@ msgid "Sending data to server"
 msgstr "将数据发送到服务器"
 
 #: ../../docs/tutorials/networking/http_request_class.rst:61
-#, fuzzy
 msgid ""
 "Until now, we have limited ourselves to requesting data from a server. But "
 "what if you need to send data to the server? Here is a common way of doing "
 "it:"
 msgstr ""
-"到目前为止，我们仅限于从服务器请求数据。 但是，如果您需要将数据发送到服务器"
-"呢？ 下面是一种常见的做法:"
+"到目前为止，我们仅限于从服务器上请求数据。但如果你需要向服务器发送数据呢？这"
+"里有一个常见的方法："
 
 #: ../../docs/tutorials/networking/http_request_class.rst:72
 msgid ""

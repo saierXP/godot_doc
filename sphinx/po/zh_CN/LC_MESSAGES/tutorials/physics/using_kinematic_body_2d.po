@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-28 20:28+0800\n"
+"POT-Creation-Date: 2021-04-25 22:16+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -26,7 +26,6 @@ msgid "Introduction"
 msgstr "简介"
 
 #: ../../docs/tutorials/physics/using_kinematic_body_2d.rst:9
-#, fuzzy
 msgid ""
 "Godot offers several collision objects to provide both collision detection "
 "and response. Trying to decide which one to use for your project can be "
@@ -35,10 +34,10 @@ msgid ""
 "we'll look at the :ref:`KinematicBody2D <class_KinematicBody2D>` node and "
 "show some examples of how to use it."
 msgstr ""
-"为提供碰撞检测和响应，Godot提供了许多碰撞对象。 决定哪一个用于您的项目可能会"
-"令人困惑。 如果您了解每个碰撞对象的工作原理以及它们的优缺点，您可以避免出现问"
-"题并简化开发。 在本教程中，我们将查看 :ref:`KinematicBody2D "
-"<class_KinematicBody2D>` 节点，并展示一些如何使用它的示例。"
+"Godot提供了几种碰撞对象来提供碰撞检测和响应。试图决定在你的项目中使用哪一个可"
+"能会让你感到困惑。如果你了解它们中的每一个是如何工作的，以及它们的优点和缺点"
+"是什么，你就可以避免问题并简化开发。在本教程中，我们将查看 :ref:"
+"`KinematicBody2D <class_KinematicBody2D>` 节点，并展示一些如何使用它的例子。"
 
 #: ../../docs/tutorials/physics/using_kinematic_body_2d.rst:16
 msgid ""
@@ -53,7 +52,6 @@ msgid "What is a kinematic body?"
 msgstr "什么是运动体？"
 
 #: ../../docs/tutorials/physics/using_kinematic_body_2d.rst:22
-#, fuzzy
 msgid ""
 "``KinematicBody2D`` is for implementing bodies that are controlled via code. "
 "Kinematic bodies detect collisions with other bodies when moving, but are "
@@ -61,9 +59,10 @@ msgid ""
 "this means that you have to write some code to create their behavior, it "
 "also means you have more precise control over how they move and react."
 msgstr ""
-"``KinematicBody2D`` 主要用在需通过代码控制的物体中。 它们在移动时检测碰撞，但"
-"不受重力或摩擦等物理引擎特性的影响。 这意味着您必须编写一些代码来创建它们的行"
-"为，但这也意味着您可以更精确地控制它们的移动和反应。"
+"``KinematicBody2D`` 用于实现通过代码控制的物体。运动体在移动时可以检测到与其"
+"他物体的碰撞，但不受引擎物理属性的影响，比如重力或摩擦。虽然这意味着你必须编"
+"写一些代码来创建它们的行为，但这也意味着你可以更精确地控制它们如何移动和反"
+"应。"
 
 #: ../../docs/tutorials/physics/using_kinematic_body_2d.rst:28
 msgid ""
@@ -75,12 +74,10 @@ msgstr ""
 "物理引擎不会移动 `KinematicBody2D`。"
 
 #: ../../docs/tutorials/physics/using_kinematic_body_2d.rst:33
-#, fuzzy
 msgid "Movement and collision"
 msgstr "运动与碰撞"
 
 #: ../../docs/tutorials/physics/using_kinematic_body_2d.rst:35
-#, fuzzy
 msgid ""
 "When moving a ``KinematicBody2D``, you should not set its ``position`` "
 "property directly. Instead, you use the ``move_and_collide()`` or "
@@ -89,24 +86,23 @@ msgid ""
 "After a KinematicBody2D has collided, any *collision response* must be coded "
 "manually."
 msgstr ""
-"移动 ``KinematicBody2D`` 时，不应直接设置其 ``position`` 属性。 相反，您使用 "
-"``move_and_collide()`` 或 ``move_and_slide()`` 方法。 这些方法沿着给定的向量"
-"移动物体，如果检测到与另一个物体发生了碰撞，它将立即停止运动。 在"
-"KinematicBody2D发生碰撞后，必须手动编码它的 *碰撞响应* 。"
+"当移动一个 ``KinematicBody2D`` 时，你不应该直接设置它的 ``position`` 属性，而"
+"是使用 ``move_and_collide()`` 或 ``move_and_slide()`` 方法。这些方法沿着给定"
+"的矢量移动物体，如果检测到与另一个体发生碰撞，则立即停止。在KinematicBody2D发"
+"生碰撞后，任何 *碰撞响应* 必须手动编码。"
 
 #: ../../docs/tutorials/physics/using_kinematic_body_2d.rst:41
-#, fuzzy
 msgid ""
 "You should only do Kinematic body movement in the ``_physics_process()`` "
 "callback."
-msgstr "运动体的移动应该只在 ``_physics_process()`` 回调中完成。"
+msgstr "你应该只在 ``_physics_process()`` 回调中做Kinematic物体运动。"
 
 #: ../../docs/tutorials/physics/using_kinematic_body_2d.rst:43
-#, fuzzy
 msgid ""
 "The two movement methods serve different purposes, and later in this "
 "tutorial, you'll see examples of how they work."
-msgstr "这两种移动方法有不同的用途，您将在本教程中看到它们如何工作的示例。"
+msgstr ""
+"这两种运动方法有不同的作用，在后面的教程中，你会看到它们如何工作的例子。"
 
 #: ../../docs/tutorials/physics/using_kinematic_body_2d.rst:47
 msgid "``move_and_collide``"
@@ -127,28 +123,26 @@ msgstr ""
 "ref:`KinematicCollision2D <class_KinematicCollision2D>` 对象。"
 
 #: ../../docs/tutorials/physics/using_kinematic_body_2d.rst:55
-#, fuzzy
 msgid ""
 "``KinematicCollision2D`` is an object containing data about the collision "
 "and the colliding object. Using this data, you can calculate your collision "
 "response."
 msgstr ""
-"``KinematicCollision2D`` 是包含有关碰撞和碰撞对象的数据。 使用这些数据，您可"
-"以计算碰撞响应。"
+"``KinematicCollision2D`` 是一个包含碰撞和碰撞对象数据的对象。使用这些数据，你"
+"可以计算出你的碰撞响应。"
 
 #: ../../docs/tutorials/physics/using_kinematic_body_2d.rst:60
 msgid "``move_and_slide``"
 msgstr "``move_and_slide``"
 
 #: ../../docs/tutorials/physics/using_kinematic_body_2d.rst:62
-#, fuzzy
 msgid ""
 "The ``move_and_slide()`` method is intended to simplify the collision "
 "response in the common case where you want one body to slide along the "
 "other. It is especially useful in platformers or top-down games, for example."
 msgstr ""
-"``move_and_slide()`` 方法旨在简化您希望一个物体沿另一个物体滑动的常见情况下的"
-"碰撞响应。 这在平台游戏或跳跃游戏中特别有用。"
+"``move_and_slide()`` 方法旨在简化常见情况下的碰撞响应，即你希望一个物体沿着另"
+"一个物体滑动。例如，在平台游戏或自上而下的游戏中，它特别有用。"
 
 #: ../../docs/tutorials/physics/using_kinematic_body_2d.rst:66
 msgid ""
@@ -168,12 +162,10 @@ msgstr ""
 "为:"
 
 #: ../../docs/tutorials/physics/using_kinematic_body_2d.rst:73
-#, fuzzy
 msgid "``up_direction`` - *default value:* ``Vector2( 0, 0 )``"
-msgstr "``floor_normal`` - *默认值:* ``Vector2(0,0)``"
+msgstr "``up_direction`` - *默认值:* ``Vector2( 0, 0 )``"
 
 #: ../../docs/tutorials/physics/using_kinematic_body_2d.rst:75
-#, fuzzy
 msgid ""
 "This parameter allows you to define what surfaces the engine should consider "
 "being the floor. Setting this lets you use the ``is_on_floor()``, "
@@ -181,32 +173,28 @@ msgid ""
 "surface the body is in contact with. The default value means that all "
 "surfaces are considered walls."
 msgstr ""
-"此参数允许您定义引擎应考虑作为地板的表面。 设置它允许您使用 "
-"``is_on_floor()`` ， ``is_on_wall()`` 和 ``is_on_ceiling()`` 方法来检测物体接"
-"触的表面类型。 默认值表示所有曲面都被视为墙。"
+"这个参数允许你定义哪些表面应该被引擎视为地板。设置这个参数可以让你使用 "
+"``is_on_floor()`` 、 ``is_on_wall()`` 和 ``is_on_ceiling()`` 方法来检测物体接"
+"触的表面类型。默认值意味着所有的表面都被认为是墙壁。"
 
 #: ../../docs/tutorials/physics/using_kinematic_body_2d.rst:80
-#, fuzzy
 msgid "``stop_on_slope`` - *default value:* ``false``"
-msgstr "``slope_stop_min_velocity`` - *默认值:* ``5``"
+msgstr "``stop_on_slope`` - *默认值:* ``false``"
 
 #: ../../docs/tutorials/physics/using_kinematic_body_2d.rst:82
-#, fuzzy
 msgid ""
 "This parameter prevents a body from sliding down slopes when standing still."
-msgstr "这是站在斜坡上时的最小速度。 这可以防止物体在静止时滑下斜坡。"
+msgstr "该参数可以防止物体站立不动时从斜坡上滑落。"
 
 #: ../../docs/tutorials/physics/using_kinematic_body_2d.rst:84
-#, fuzzy
 msgid "``max_slides`` - *default value:* ``4``"
-msgstr "``max_bounces`` - *默认值:* ``4``"
+msgstr "``max_slides`` - *默认值:* ``4``"
 
 #: ../../docs/tutorials/physics/using_kinematic_body_2d.rst:86
-#, fuzzy
 msgid ""
 "This parameter is the maximum number of collisions before the body stops "
 "moving. Setting it too low may prevent movement entirely."
-msgstr "这是物体停止移动前的最大碰撞次数。 将此设置得太低可能会完全阻止移动。"
+msgstr "这个参数是物体停止移动前的最大碰撞次数。设置太低可能会完全阻止移动。"
 
 #: ../../docs/tutorials/physics/using_kinematic_body_2d.rst:89
 msgid ""
@@ -222,9 +210,8 @@ msgid ""
 msgstr "这是表面不再被视为“地板”之前的最大角度。"
 
 #: ../../docs/tutorials/physics/using_kinematic_body_2d.rst:93
-#, fuzzy
 msgid "``infinite_inertia`` - *default value:* ``true``"
-msgstr "``max_bounces`` - *默认值:* ``4``"
+msgstr "``infinite_inertia`` - *默认值:* ``true``"
 
 #: ../../docs/tutorials/physics/using_kinematic_body_2d.rst:95
 msgid ""
@@ -242,7 +229,6 @@ msgid "``move_and_slide_with_snap``"
 msgstr "``move_and_slide_with_snap``"
 
 #: ../../docs/tutorials/physics/using_kinematic_body_2d.rst:102
-#, fuzzy
 msgid ""
 "This method adds some additional functionality to ``move_and_slide()`` by "
 "adding the ``snap`` parameter. As long as this vector is in contact with the "
@@ -251,25 +237,22 @@ msgid ""
 "by setting ``snap`` to ``Vector2.ZERO`` or by using ``move_and_slide()`` "
 "instead."
 msgstr ""
-"这个方法通过添加 ``snap`` 参数为 ``move_and_slide()`` 添加了一些额外的功能。 "
-"只要该向量与地面接触，物体将保持附着在表面上。 请注意，这意味着您必须在跳跃时"
-"禁用捕捉。 您可以通过将 ``snap`` 设置为 ``Vector2(0,0)`` 或者使用 "
-"``move_and_slide()`` 来实现。"
+"这个方法通过添加 ``sap`` 参数，给 ``move_and_slide()`` 增加了一些额外的功能。"
+"只要这个向量与地面接触，物体就会保持在表面上。注意，这意味着你必须在例如跳跃"
+"时禁用捕捉。你可以将 ``sap`` 设置为 ``Vector2.ZERO`` 或者使用 "
+"``move_and_slide()`` 代替。"
 
 #: ../../docs/tutorials/physics/using_kinematic_body_2d.rst:110
-#, fuzzy
 msgid "Detecting collisions"
-msgstr "准备碰撞"
+msgstr "检测碰撞"
 
 #: ../../docs/tutorials/physics/using_kinematic_body_2d.rst:112
-#, fuzzy
 msgid ""
 "When using ``move_and_collide()`` the function returns a "
 "``KinematicCollision2D`` directly, and you can use this in your code."
 msgstr ""
-"当使用 ``move_and_collide()`` 时，该函数返回一个 :ref:`KinematicCollision2D "
-"<class_KinematicCollision2D>` 对象，其中包含有关碰撞和碰撞体的信息。 您可以使"
-"用此信息来确定响应。"
+"当使用 ``move_and_collide()`` 时，函数直接返回一个 "
+"``KinematicCollision2D`` ，你可以在代码中使用这个。"
 
 #: ../../docs/tutorials/physics/using_kinematic_body_2d.rst:115
 msgid ""
@@ -287,19 +270,18 @@ msgid ""
 msgstr "`get_slide_count()`只计算物体碰撞和改变方向的次数。"
 
 #: ../../docs/tutorials/physics/using_kinematic_body_2d.rst:135
-#, fuzzy
 msgid ""
 "See :ref:`KinematicCollision2D <class_KinematicCollision2D>` for details on "
 "what collision data is returned."
 msgstr ""
-"参考 :ref:`Particles2D <class_Particles2D>` 来了解使用粒子效果的更多细节。"
+"关于返回哪些碰撞数据，请参见 :ref:`KinematicCollision2D "
+"<class_KinematicCollision2D>` 。"
 
 #: ../../docs/tutorials/physics/using_kinematic_body_2d.rst:139
 msgid "Which movement method to use?"
 msgstr "使用哪种运动方式？"
 
 #: ../../docs/tutorials/physics/using_kinematic_body_2d.rst:141
-#, fuzzy
 msgid ""
 "A common question from new Godot users is: \"How do you decide which "
 "movement function to use?\" Often, the response is to use "
@@ -308,10 +290,10 @@ msgid ""
 "case, and ``move_and_collide()`` is more general. For example, the following "
 "two code snippets result in the same collision response:"
 msgstr ""
-"一个Godot新用户的常见问题是:“如何决定使用哪种运动函数？” 通常回答是使用 "
-"``move_and_slide()`` 因为它“更简单”，但不一定是这种情况。 想到它的一种方法是 "
-"``move_and_slide()`` 是一种特殊情况， ``move_and_collide()` `更通用。 例如，"
-"以下两个代码段会导致相同的碰撞响应:"
+"Godot新用户的一个常见问题是：\"你如何决定使用哪个移动函数？\"通常，回答是使"
+"用 ``move_and_slide()`` ，因为它 \"更简单\" ，但情况不一定如此。有一种思路"
+"是， ``move_and_slide()`` 是一种特殊情况，而 ``move_and_collide()`` 更通用。"
+"例如，下面两个代码片段的结果是相同的碰撞响应:"
 
 #: ../../docs/tutorials/physics/using_kinematic_body_2d.rst:172
 msgid ""
@@ -372,14 +354,12 @@ msgid "Movement and walls"
 msgstr "移动和墙壁"
 
 #: ../../docs/tutorials/physics/using_kinematic_body_2d.rst:200
-#, fuzzy
 msgid ""
 "If you've downloaded the sample project, this example is in \"BasicMovement."
 "tscn\"."
-msgstr "如果您已下载示例项目，则此示例位于“BasicMovement.tscn”场景中。"
+msgstr "如果你已经下载了示例项目，这个例子在 \"BasicMovement.tscn\" 中。"
 
 #: ../../docs/tutorials/physics/using_kinematic_body_2d.rst:202
-#, fuzzy
 msgid ""
 "For this example, add a ``KinematicBody2D`` with two children: a ``Sprite`` "
 "and a ``CollisionShape2D``. Use the Godot \"icon.png\" as the Sprite's "
@@ -387,11 +367,11 @@ msgid ""
 "``Sprite``). In the ``CollisionShape2D``'s *Shape* property, select \"New "
 "RectangleShape2D\" and size the rectangle to fit over the sprite image."
 msgstr ""
-"对于这个示例，添加一个带有两个子节点的``KinematicBody2D``:一个``Sprite``和一"
-"个``CollisionShape2D``。 使用Godot“icon.png”作为Sprite的纹理(将它从"
-"Filesystem 面板拖到 ``Sprite`` 的* Texture *属性中)。 在 "
-"``CollisionShape2D`` 的* Shape *属性中，选择“New RectangleShape2D”并调整矩形"
-"大小以适合精灵图像。"
+"在这个例子中，添加一个 ``KinematicBody2D`` ，有两个子级: ``Sprite`` 和 "
+"``CollisionShape2D`` 。使用Godot \"icon.png\" 作为Sprite的纹理，将其从文件系"
+"统栏拖到 ``Sprite`` 的 *Texture* 属性。在 ``CollisionShape2D`` 的 *Shape* 属"
+"性中，选择 \"New RectangleShape2D\" ，并将矩形的大小调整到适合sprite图像的大"
+"小。"
 
 #: ../../docs/tutorials/physics/using_kinematic_body_2d.rst:208
 msgid ""
@@ -487,14 +467,13 @@ msgid "And the code for the Bullet:"
 msgstr "子弹的代码:"
 
 #: ../../docs/tutorials/physics/using_kinematic_body_2d.rst:453
-#, fuzzy
 msgid ""
 "The action happens in ``_physics_process()``. After using "
 "``move_and_collide()``, if a collision occurs, a ``KinematicCollision2D`` "
 "object is returned (otherwise, the return is ``Nil``)."
 msgstr ""
-"动作发生在 ``_physics_process()`` 中。 使用 ``move_and_slide()`` 如果发生碰"
-"撞，则返回一个 ``Kinematic Collision 2D`` 对象(否则，返回为 ``Nil``)。"
+"动作发生在 ``_physics_process()`` 中。在使用 ``move_and_collide()`` 后，如果"
+"发生碰撞，将返回一个 ``KinematicCollision2D`` 对象，否则，返回 ``Nil`` 。"
 
 #: ../../docs/tutorials/physics/using_kinematic_body_2d.rst:457
 msgid ""
@@ -543,7 +522,6 @@ msgid "Here's the code for the player body:"
 msgstr "这是游戏角色物体的代码:"
 
 #: ../../docs/tutorials/physics/using_kinematic_body_2d.rst:558
-#, fuzzy
 msgid ""
 "When using ``move_and_slide()``, the function returns a vector representing "
 "the movement that remained after the slide collision occurred. Setting that "
@@ -551,22 +529,20 @@ msgid ""
 "slopes smoothly. Try removing ``velocity =`` and see what happens if you "
 "don't do this."
 msgstr ""
-"当使用 ``move_and_slide()`` 时，该函数返回一个向量，表示滑动碰撞发生后剩余的"
-"运动。 将该值设置回角色的“速度”可以让我们平稳地上下移动斜坡。 尝试删除 "
-"``velocity =`` ，看看如果您不这样做会发生什么。"
+"当使用 ``move_and_slide()`` 时，该函数返回一个向量，代表滑动碰撞发生后剩余的"
+"运动。将该值设置返回角色的 ``velocity`` ，我们就可以顺利地在斜坡上和斜坡下移"
+"动。试着去掉 ``velocity =`` ，看看如果不这样做会发生什么。"
 
 #: ../../docs/tutorials/physics/using_kinematic_body_2d.rst:563
-#, fuzzy
 msgid ""
 "Also note that we've added ``Vector2(0, -1)`` as the floor normal. This "
 "vector points straight upward. As a result, if the character collides with "
 "an object that has this normal, it will be considered a floor."
 msgstr ""
-"另请注意，我们添加了 ``Vector2(0，-1)`` 作为最低法线。 这是向上指向的向量。 "
-"这意味着如果角色与具有此法线的对象发生碰撞，则将其视为地板。"
+"同时注意，我们已经添加了 ``Vector2(0, -1)`` 作为地板法线。这是向上指向的向"
+"量。因此，如果角色与具有该法线的物体相撞，它将被视为地板。"
 
 #: ../../docs/tutorials/physics/using_kinematic_body_2d.rst:567
-#, fuzzy
 msgid ""
 "Using the floor normal allows us to make jumping work, using "
 "``is_on_floor()``. This function will only return ``true`` after a "
@@ -574,13 +550,12 @@ msgid ""
 "45 degrees of the given floor vector. You can control the maximum angle by "
 "setting ``floor_max_angle``."
 msgstr ""
-"使用地板法线允许我们使用 ``is_on_floor()`` 进行跳跃工作。 这个函数只会在 "
-"``move_and_slide()`` 碰撞后返回 ``true`` ，其中碰撞体的法线在给定楼层向量的45"
-"度范围内(这可以通过设置 ``floor_max_angle`` 来调整)。"
+"使用地板法线，我们可以使用 ``is_on_floor()`` 来使跳跃工作。这个函数只有在发"
+"生 ``move_and_slide()`` 碰撞后，碰撞体的法线在给定的地板矢量45度以内时才会返"
+"回 ``true`` 。你可以通过设置 ``floor_max_angle`` 来控制最大角度。"
 
 #: ../../docs/tutorials/physics/using_kinematic_body_2d.rst:572
-#, fuzzy
 msgid ""
 "This angle also allows you to implement other features like wall jumps using "
 "``is_on_wall()``, for example."
-msgstr "这也允许您使用 ``is_on_wall()`` 来实现其他功能，例如墙跳。"
+msgstr "这个角度也允许你使用 ``is_on_wall()`` 实现其他功能，比如墙面跳跃。"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-28 20:28+0800\n"
+"POT-Creation-Date: 2021-04-25 22:16+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,14 +18,12 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../docs/tutorials/plugins/editor/making_main_screen_plugins.rst:4
-#, fuzzy
 msgid "Making main screen plugins"
-msgstr "制作插件"
+msgstr "制作主屏幕插件"
 
 #: ../../docs/tutorials/plugins/editor/making_main_screen_plugins.rst:7
-#, fuzzy
 msgid "What this tutorial covers"
-msgstr "观看教程"
+msgstr "本教程涵盖的内容"
 
 #: ../../docs/tutorials/plugins/editor/making_main_screen_plugins.rst:9
 msgid ""
@@ -50,9 +48,8 @@ msgstr ""
 "印文本到控制台的单个按钮。"
 
 #: ../../docs/tutorials/plugins/editor/making_main_screen_plugins.rst:20
-#, fuzzy
 msgid "Initializing the plugin"
-msgstr "初始化网络"
+msgstr "初始化插件"
 
 #: ../../docs/tutorials/plugins/editor/making_main_screen_plugins.rst:22
 msgid ""
@@ -85,9 +82,8 @@ msgstr ""
 "增加了一个新的中心视图。现在，我们暂且把这个脚本保持原样，以后再来讨论它。"
 
 #: ../../docs/tutorials/plugins/editor/making_main_screen_plugins.rst:65
-#, fuzzy
 msgid "Main screen scene"
-msgstr "主场景"
+msgstr "主画面场景"
 
 #: ../../docs/tutorials/plugins/editor/making_main_screen_plugins.rst:67
 msgid ""
@@ -98,9 +94,9 @@ msgid ""
 "inspector. The panel now uses all the space available in the main viewport."
 msgstr ""
 "创建一个新的场景，其根节点由``Control``派生而来（在本例插件中，我们将使根节点"
-"为``CenterContainer``）。选择这个根节点，在视口中，点击```Layout```菜单，选择"
+"为``CenterContainer``）。选择这个根节点，在视窗中，点击```Layout```菜单，选择"
 "``Full Rect``。你还需要在检查器中启用``Expand``垂直尺寸标志。面板现在使用主视"
-"口中的所有可用空间。"
+"窗中的所有可用空间。"
 
 #: ../../docs/tutorials/plugins/editor/making_main_screen_plugins.rst:74
 msgid ""
@@ -126,9 +122,8 @@ msgid ""
 msgstr "我们完成了主屏幕面板。将场景保存为``main_panel.tscn``。"
 
 #: ../../docs/tutorials/plugins/editor/making_main_screen_plugins.rst:93
-#, fuzzy
 msgid "Update the plugin script"
-msgstr "找到iap.gd脚本"
+msgstr "更新插件脚本"
 
 #: ../../docs/tutorials/plugins/editor/making_main_screen_plugins.rst:95
 msgid ""
@@ -179,14 +174,14 @@ msgid ""
 "clicks on the main viewport buttons at the top of the editor."
 msgstr ""
 "``make_visible()``函数被重写，以根据需要隐藏或显示主面板。当用户点击编辑器顶"
-"部的主视口按钮时，编辑器会自动调用该函数。"
+"部的主视窗按钮时，编辑器会自动调用该函数。"
 
 #: ../../docs/tutorials/plugins/editor/making_main_screen_plugins.rst:158
 msgid ""
 "The ``get_plugin_name()`` and ``get_plugin_icon()`` functions control the "
 "displayed name and icon for the plugin's main viewport button."
 msgstr ""
-"``get_plugin_name()``和``get_plugin_icon()``函数控制插件主视口按钮的显示名称"
+"``get_plugin_name()``和``get_plugin_icon()``函数控制插件主视窗按钮的显示名称"
 "和图标。"
 
 #: ../../docs/tutorials/plugins/editor/making_main_screen_plugins.rst:161
@@ -197,10 +192,9 @@ msgid ""
 "switch to the 3D viewport."
 msgstr ""
 "另一个你可以添加的函数是``handles()``函数，它允许你处理一个节点类型，当选择该"
-"类型时自动聚焦主屏幕。这类似于点击一个3D节点会自动切换到3D视口。"
+"类型时自动聚焦主屏幕。这类似于点击一个3D节点会自动切换到3D视窗。"
 
 #: ../../docs/tutorials/plugins/editor/making_main_screen_plugins.rst:167
-#, fuzzy
 msgid "Try the plugin"
 msgstr "试试这个插件"
 
@@ -210,17 +204,16 @@ msgid ""
 "next to 2D, 3D, Script above the main viewport. Clicking it will take you to "
 "your new main screen plugin, and the button in the middle will print text."
 msgstr ""
-"在项目设置中激活插件。你会观察到主视口上方的2D、3D、脚本旁边有一个新的按钮。"
+"在项目设置中激活插件。你会观察到主视窗上方的2D、3D、脚本旁边有一个新的按钮。"
 "点击它将带你进入新的主屏幕插件，中间的按钮将打印文本。"
 
 #: ../../docs/tutorials/plugins/editor/making_main_screen_plugins.rst:173
-#, fuzzy
 msgid ""
 "If you would like to try a finished version of this plugin, check out the "
 "plugin demos here: https://github.com/godotengine/godot-demo-projects/tree/"
 "master/plugins"
 msgstr ""
-"如果你想尝试这个插件的成品版本，请看这里的插件演示：https://github.com/"
+"如果你想试试这个插件的完成版，请在这里查看插件演示：https://github.com/"
 "godotengine/godot-demo-projects/tree/master/plugins"
 
 #: ../../docs/tutorials/plugins/editor/making_main_screen_plugins.rst:177

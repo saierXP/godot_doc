@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-28 20:28+0800\n"
+"POT-Creation-Date: 2021-04-25 22:16+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -73,10 +73,13 @@ msgstr ""
 "具。"
 
 #: ../../docs/getting_started/workflow/export/exporting_projects.rst:34
+#, fuzzy
 msgid ""
 "Finally, Godot has a simple but efficient system for creating DLCs as extra "
 "package files."
-msgstr "最后，Godot有一个简单但有效的系统，可将DLC创建为额外的程序包文件。"
+msgstr ""
+"最后，Godot有一个简单但有效的系统，用于:ref:`将DLC创建为额外的包文件 "
+"<doc_exporting_pcks>` 。"
 
 #: ../../docs/getting_started/workflow/export/exporting_projects.rst:38
 msgid "On mobile"

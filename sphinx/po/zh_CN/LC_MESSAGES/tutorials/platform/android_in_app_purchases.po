@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-28 20:28+0800\n"
+"POT-Creation-Date: 2021-04-25 22:16+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -46,11 +46,11 @@ msgid "Migrating from Godot 3.2.1 and lower (GodotPaymentsV3)"
 msgstr "从Godot 3.2.1和更低版本迁移(GodotPaymentsV3)"
 
 #: ../../docs/tutorials/platform/android_in_app_purchases.rst:17
-#, fuzzy
 msgid ""
 "The new ``GodotGooglePlayBilling`` API is not compatible with its "
 "predecessor ``GodotPaymentsV3``."
-msgstr "新的``GodotGooglePlayBilling``API与其前身``GodotPaymentsV3``不兼容。"
+msgstr ""
+"新的 ``GodotGooglePlayBilling`` API与其前身 ``GodotPaymentsV3`` 不兼容。"
 
 #: ../../docs/tutorials/platform/android_in_app_purchases.rst:20
 msgid "Changes"
@@ -77,9 +77,8 @@ msgstr ""
 "被退还。"
 
 #: ../../docs/tutorials/platform/android_in_app_purchases.rst:27
-#, fuzzy
 msgid "Support for subscriptions"
-msgstr "导入选项"
+msgstr "支持订阅"
 
 #: ../../docs/tutorials/platform/android_in_app_purchases.rst:28
 msgid "Signals (no polling or callback objects)"
@@ -137,14 +136,12 @@ msgstr "只要连接了API，你就可以使用 ``querySkuDetails`` 来查询SKU
 
 #: ../../docs/tutorials/platform/android_in_app_purchases.rst:83
 #: ../../docs/tutorials/platform/android_in_app_purchases.rst:115
-#, fuzzy
 msgid "Full example:"
-msgstr "例如："
+msgstr "完整示例："
 
 #: ../../docs/tutorials/platform/android_in_app_purchases.rst:96
-#, fuzzy
 msgid "Purchase an item"
-msgstr "检查用户是否购买了商品"
+msgstr "购买项目"
 
 #: ../../docs/tutorials/platform/android_in_app_purchases.rst:98
 msgid ""
@@ -156,9 +153,8 @@ msgstr ""
 "查询一个项目的SKU详情。"
 
 #: ../../docs/tutorials/platform/android_in_app_purchases.rst:109
-#, fuzzy
 msgid "Check if the user purchased an item"
-msgstr "检查用户是否购买了商品"
+msgstr "检查用户是否购买了某个项目"
 
 #: ../../docs/tutorials/platform/android_in_app_purchases.rst:111
 msgid ""
@@ -172,9 +168,8 @@ msgstr ""
 "<class_Dictionary>` 的状态码和一个购买数组或一个错误信息。"
 
 #: ../../docs/tutorials/platform/android_in_app_purchases.rst:129
-#, fuzzy
 msgid "Consumables"
-msgstr "常量"
+msgstr "消耗品"
 
 #: ../../docs/tutorials/platform/android_in_app_purchases.rst:131
 msgid ""
@@ -189,9 +184,8 @@ msgstr ""
 "购买令牌。调用 ``consumePurchase`` 会自动确认购买。"
 
 #: ../../docs/tutorials/platform/android_in_app_purchases.rst:148
-#, fuzzy
 msgid "Subscriptions"
-msgstr "描述"
+msgstr "订阅"
 
 #: ../../docs/tutorials/platform/android_in_app_purchases.rst:150
 msgid ""

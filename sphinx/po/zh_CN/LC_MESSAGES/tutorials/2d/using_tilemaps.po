@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-28 20:28+0800\n"
+"POT-Creation-Date: 2021-04-25 22:16+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -434,9 +434,7 @@ msgstr "**Template - Generic[通用模版]:**"
 msgid ""
 "This template can be used for sideways or fully top-down perspectives. It's "
 "designed for a TileMap cell size of 64x64."
-msgstr ""
-"此模版可用于侧面或完整由上而下的视角。专为大小为 64x64 的 TileMap 图块格所设"
-"计的。"
+msgstr "此模版可用于侧视角或完全的俯视角。每一个TileMap 图块格的尺寸是64x64。"
 
 #: ../../docs/tutorials/2d/using_tilemaps.rst:219
 #: ../../docs/tutorials/2d/using_tilemaps.rst:252
@@ -512,19 +510,19 @@ msgstr "Key（适用于以下四个模板）："
 
 #: ../../docs/tutorials/2d/using_tilemaps.rst:264
 msgid "Green: floor"
-msgstr "Green: floor"
+msgstr "绿色：地面"
 
 #: ../../docs/tutorials/2d/using_tilemaps.rst:265
 msgid "Cyan: wall"
-msgstr "Cyan: wall"
+msgstr "青色：墙"
 
 #: ../../docs/tutorials/2d/using_tilemaps.rst:266
 msgid "Yellow: top of wall"
-msgstr "黄色: 墙顶"
+msgstr "黄色：墙顶"
 
 #: ../../docs/tutorials/2d/using_tilemaps.rst:267
 msgid "Transparent: air"
-msgstr "透明: 空气"
+msgstr "透明：空气"
 
 #: ../../docs/tutorials/2d/using_tilemaps.rst:271
 msgid "**Template - Top-down wall in 3/4 perspective:**"
@@ -582,13 +580,14 @@ msgid "Disabling autotile"
 msgstr "禁用自动图块"
 
 #: ../../docs/tutorials/2d/using_tilemaps.rst:304
+#, fuzzy
 msgid ""
 "When using an autotile, it is possible to turn of the autotile behaviour and "
 "select tiles manually, by clicking \"Disable Autotile\" at the top of the "
 "tile selection window."
 msgstr ""
 "当使用自动图块时，可以通过单击图块选择窗口顶部的\"禁用自动图块\"来关闭自动图"
-"块行为并手动选择图块。"
+"块行为，并手动选择图块。"
 
 #: ../../docs/tutorials/2d/using_tilemaps.rst:309
 msgid "Autotile binding"

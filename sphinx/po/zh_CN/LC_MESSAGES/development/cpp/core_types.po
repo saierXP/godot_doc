@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-28 20:28+0800\n"
+"POT-Creation-Date: 2021-04-25 22:16+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -37,16 +37,14 @@ msgid "Definitions"
 msgstr "定义"
 
 #: ../../docs/development/cpp/core_types.rst:15
-#, fuzzy
 msgid ""
 "Godot uses the standard C99 datatypes, such as ``uint8_t``, ``uint32_t``, "
 "``int64_t``, etc. which are nowadays supported by every compiler. "
 "Reinventing the wheel for those is not fun, as it makes code more difficult "
 "to read."
 msgstr ""
-"Godot使用C98标准的数据类型，例如 ``uint8_t`` 、``uint32_t``、 ``int64_t`` "
-"等，如今，每个编译器都支持这些类型。为此重新发明轮子并不好玩，因为它使代码更"
-"难以阅读。"
+"Godot使用标准的C99数据类型，如 ``uint8_t``, ``uint32_t``, ``int64_t`` 等，现"
+"在每个编译器都支持。为这些东西重新造轮子并不有趣，因为它使代码更难阅读。"
 
 #: ../../docs/development/cpp/core_types.rst:20
 msgid ""
@@ -253,7 +251,7 @@ msgstr "Godot 还提供了一系列通用的容器："
 
 #: ../../docs/development/cpp/core_types.rst:142
 msgid "Vector"
-msgstr "矢量"
+msgstr "向量"
 
 #: ../../docs/development/cpp/core_types.rst:143
 msgid "List"

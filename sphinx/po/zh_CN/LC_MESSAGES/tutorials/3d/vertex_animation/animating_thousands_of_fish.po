@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-28 20:28+0800\n"
+"POT-Creation-Date: 2021-04-25 22:16+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -120,12 +120,11 @@ msgid ""
 "the motion so that you can tweak the animation in editor and see the results "
 "in real time, without the shader having to recompile."
 msgstr ""
-"有关动画的所有代码都将在顶点着色器中，并有一致的控制运动量。 我们统一来控制运"
-"动的强度，以便您可以在编辑器中调整动画并实时查看结果，而不需要着色器重新编"
-"译。"
+"所有的动画代码都在顶点着色器中，并由uniforms控制运动量。我们使用uniforms来控"
+"制运动的强度，这样你就可以在编辑器中调整动画，并实时看到结果，而不用重新编译"
+"着色器。"
 
 #: ../../docs/tutorials/3d/vertex_animation/animating_thousands_of_fish.rst:48
-#, fuzzy
 msgid ""
 "All the motions will be made using cosine waves applied to ``VERTEX`` in "
 "model space. We want the vertices to be in model space so that the motion is "
@@ -133,9 +132,9 @@ msgid ""
 "will always move the fish back and forth in its left to right direction, "
 "instead of on the ``x`` axis in the world orientation."
 msgstr ""
-"所有动作都将使用模型空间中应用于``VERTEX``的余弦波进行。 我们希望顶点位于模型"
-"空间中，以便运动始终相对于鱼的方向。 例如，从一侧到另一侧将始终在左右方向上来"
-"回移动鱼，而不是在世界方向上的``x``轴上。"
+"所有的运动都将使用余弦波应用于模型空间中的 ``VERTEX`` 。我们希望顶点在模型空"
+"间中，使运动总是相对于鱼的方向。例如，side-to-side将始终使鱼在其左至右的方向"
+"上来回移动，而不是在世界方向的 ``x`` 轴上。"
 
 #: ../../docs/tutorials/3d/vertex_animation/animating_thousands_of_fish.rst:53
 msgid ""
@@ -219,19 +218,17 @@ msgstr ""
 "阵。"
 
 #: ../../docs/tutorials/3d/vertex_animation/animating_thousands_of_fish.rst:126
-#, fuzzy
 msgid ""
 "We apply the rotation in the ``xy`` axes so that the fish appears to roll "
 "around its spine. For this to work, the fish's spine needs to be centered on "
 "the ``z`` axis."
 msgstr ""
-"我们在“xy”轴上旋转，这样鱼就会绕着它的脊柱滚动。要做到这一点，鱼的脊柱需要"
-"以“z”轴为中心。"
+"我们在 ``xy`` 轴上应用旋转，使鱼看起来绕着它的脊柱滚动。要做到这一点，鱼的脊"
+"柱需要以 ``z`` 轴为中心。"
 
 #: ../../docs/tutorials/3d/vertex_animation/animating_thousands_of_fish.rst:133
-#, fuzzy
 msgid "Here is the fish with twist applied:"
-msgstr "这是GDScript示例代码:"
+msgstr "这是应用扭曲的鱼:"
 
 #: ../../docs/tutorials/3d/vertex_animation/animating_thousands_of_fish.rst:137
 msgid ""
@@ -268,7 +265,6 @@ msgid ""
 msgstr "对于波浪，我们将运动乘以“遮罩”，这就把它限制在后半部分。"
 
 #: ../../docs/tutorials/3d/vertex_animation/animating_thousands_of_fish.rst:163
-#, fuzzy
 msgid ""
 "In order to apply the mask to the twist, we use ``mix``. ``mix`` allows us "
 "to mix the vertex position between a fully rotated vertex and one that is "
@@ -277,10 +273,10 @@ msgid ""
 "are replacing the ``VERTEX`` with the rotated version. If we multiplied that "
 "by ``mask``, we would shrink the fish."
 msgstr ""
-"为了将遮罩应用于扭曲，我们使用“混合”。“混合”允许我们混合一个完全旋转的顶点和"
-"一个没有旋转的顶点之间的顶点位置。我们需要使用“混合”而不是“遮罩”乘以旋转的“顶"
-"点”，因为我们没有将运动添加到“顶点”，而是用旋转的版本替换了“顶点”。如果我们把"
-"它乘以“遮罩”，鱼就会缩小。"
+"为了将遮罩应用于扭曲，我们使用 ``mix`` 。 ``mix`` 允许在完全旋转的顶点和未旋"
+"转的顶点之间混合顶点位置。需要使用 ``mix`` 而不是将 ``mask`` 乘以旋转后的 "
+"``VERTEX`` ，因为不是将运动加到 ``VERTEX`` 上，而是用旋转后的版本替换 "
+"``VERTEX`` 。如果把它乘以 ``mask`` ，就会把鱼缩小。"
 
 #: ../../docs/tutorials/3d/vertex_animation/animating_thousands_of_fish.rst:174
 msgid "Putting the four motions together gives us the final animation."
@@ -292,19 +288,18 @@ msgid ""
 "fish. You will find that you can create a wide variety of swim styles using "
 "these four motions."
 msgstr ""
-"为了改变鱼的游泳周期，继续统一播放吧。你会发现可以用这四个动作创造出多种多样"
-"的游泳风格。"
+"继续发挥uniforms的作用，以改变鱼的游泳周期。你会发现，你可以用这四个动作创造"
+"出各种各样的游泳方式。"
 
 #: ../../docs/tutorials/3d/vertex_animation/animating_thousands_of_fish.rst:182
 msgid "Making a school of fish"
 msgstr "制作一群鱼"
 
 #: ../../docs/tutorials/3d/vertex_animation/animating_thousands_of_fish.rst:184
-#, fuzzy
 msgid ""
 "Godot makes it easy to render thousands of the same object using a "
 "MultiMeshInstance node."
-msgstr "godot 使在属性面板中创建自定义资源变得很容易。"
+msgstr "Godot可以使用MultiMeshInstance节点轻松渲染成千上万的相同对象。"
 
 #: ../../docs/tutorials/3d/vertex_animation/animating_thousands_of_fish.rst:186
 msgid ""
@@ -351,7 +346,6 @@ msgid ""
 msgstr "“变换_格式”指定使用的变换是3D还是2D。对于本教程，选择3D。"
 
 #: ../../docs/tutorials/3d/vertex_animation/animating_thousands_of_fish.rst:203
-#, fuzzy
 msgid ""
 "For both ``color_format`` and ``custom_data_format`` you can choose between "
 "``None``, ``Byte``, and ``Float``. ``None`` means you won't be passing in "
@@ -362,11 +356,12 @@ msgid ""
 "``Byte`` will take less memory and be faster, but you may see some visual "
 "artifacts."
 msgstr ""
-"对于“颜色_格式”和“自定义_数据_格式”，您可以在“无”，“字节”，和“浮点数”之间进行"
-"选择，“无”表示您不会传递该数据(可以是每个实例的“颜色”变量，也可以是“实例_自定"
-"义”变量)到着色器中。“字节”表示每个组成颜色的数字将被存储为8位，“浮点数”表示每"
-"个数字将被存储为一个浮点数(32位)。“浮点数”更慢但更精确，“字节”将占用更少的内"
-"存和更快，但您可能会看到一些视觉瑕疵。"
+"对于 ``color_format`` 和 ``custom_data_format`` ，你可以在 ``None`` 、 "
+"``Byte`` 和 ``Float`` 之间选择。 ``None`` 意味着你不会将这些数据（无论是每个"
+"实例的 ``COLOR`` 变量，还是 ``INSTANCE_CUSTOM`` ）传递给着色器。 ``Byte`` 意"
+"味着组成你传入的颜色的每一个数字将被存储为8位，而 ``Float`` 意味着每一个数字"
+"将被存储为一个浮点数（32位）。 ``Float`` 速度较慢，但更精确， ``Byte`` 占用内"
+"存较少，速度较快，但你可能会看到一些视觉上的伪像。"
 
 #: ../../docs/tutorials/3d/vertex_animation/animating_thousands_of_fish.rst:210
 msgid "Now, set ``instance_count`` to the number of fish you want to have."
@@ -417,9 +412,8 @@ msgstr ""
 "自然了。"
 
 #: ../../docs/tutorials/3d/vertex_animation/animating_thousands_of_fish.rst:237
-#, fuzzy
 msgid "Animating a school of fish"
-msgstr "动画控件"
+msgstr "动画鱼群"
 
 #: ../../docs/tutorials/3d/vertex_animation/animating_thousands_of_fish.rst:239
 msgid ""
@@ -461,7 +455,6 @@ msgid ""
 msgstr "甚至您还可以像更改每个实例的自定义值一样，尝试更改每个实例的颜色。"
 
 #: ../../docs/tutorials/3d/vertex_animation/animating_thousands_of_fish.rst:269
-#, fuzzy
 msgid ""
 "One problem that you will run into at this point is that the fish are "
 "animated, but they are not moving. You can move them by updating the per-"
@@ -469,9 +462,9 @@ msgid ""
 "faster than moving thousands of MeshInstances per frame, it'll still likely "
 "be slow."
 msgstr ""
-"您会遇到一个问题，鱼虽然是有动画的，但它们并没有移动。您可以通过更新每帧鱼的"
-"每个实例转换来移动它们。尽管这样做比每帧移动数千个网格实例要快，它仍然可能是"
-"缓慢的。"
+"这时你会遇到一个问题，那就是鱼是有动画的，但是它们没有移动。你可以通过每一帧"
+"更新每个鱼的实例变换来移动它们。虽然这样做会比每帧移动数千个MeshInstances要"
+"快，但还是可能会很慢。"
 
 #: ../../docs/tutorials/3d/vertex_animation/animating_thousands_of_fish.rst:274
 msgid ""

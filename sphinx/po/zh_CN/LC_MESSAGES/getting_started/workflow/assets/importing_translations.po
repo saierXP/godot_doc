@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-28 20:28+0800\n"
+"POT-Creation-Date: 2021-04-25 22:16+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -26,13 +26,14 @@ msgid "Games and internationalization"
 msgstr "游戏与国际化"
 
 #: ../../docs/getting_started/workflow/assets/importing_translations.rst:9
+#, fuzzy
 msgid ""
 "The world is full of different markets and cultures and, to maximize "
 "profits™, nowadays games are released in several languages. To solve this, "
 "internationalized text must be supported in any modern game engine."
 msgstr ""
-"世界上充满了不同的市场和文化，并且为了最大化利润，当今的游戏以多种语言发行。"
-"为了解决这个问题，任何现代游戏引擎都必须支持国际化的文本。"
+"世界上充满了不同的语言和文化，所以现在的游戏都是以多种语言发布的。为了处理这"
+"个问题，任何现代游戏引擎都必须支持国际化的文本。"
 
 #: ../../docs/getting_started/workflow/assets/importing_translations.rst:14
 msgid ""

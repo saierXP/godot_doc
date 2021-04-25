@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-28 20:28+0800\n"
+"POT-Creation-Date: 2021-04-25 22:16+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -43,23 +43,29 @@ msgid "Godot supports the following 3D *scene file formats*:"
 msgstr "Godot支持以下 3D *场景文件格式*："
 
 #: ../../docs/getting_started/workflow/assets/importing_scenes.rst:16
+#, fuzzy
 msgid "glTF 2.0. Godot has full support for text and binary formats."
-msgstr "glTF 2.0：Godot 完全支持文本（text ）和二进制（binary）格式。"
+msgstr ""
+"glTF 2.0 **(建议使用)**。Godot完全支持文本（ ``.gltf`` ）和二进制（ ``."
+"glb`` ）格式。"
 
 #: ../../docs/getting_started/workflow/assets/importing_scenes.rst:17
 msgid "DAE (COLLADA), an older format that is fully supported."
 msgstr "DAE (COLLADA)：一个比较老的格式，当然完全支持。"
 
 #: ../../docs/getting_started/workflow/assets/importing_scenes.rst:18
+#, fuzzy
 msgid ""
 "OBJ (Wavefront) formats. It is also fully supported, but pretty limited (no "
 "support for pivots, skeletons, etc)."
 msgstr ""
-"OBJ（Wavefront）格式。它也得到完全支持，但是非常有限（不支持枢轴、骨架等）。"
+"OBJ（Wavefront）格式+他们的MTL材质文件。这也是完全支持的，但相当有限（不支持"
+"枢轴、骨架、动画、PBR材质......）。"
 
 #: ../../docs/getting_started/workflow/assets/importing_scenes.rst:19
+#, fuzzy
 msgid "ESCN, a Godot specific format that Blender can export with a plugin."
-msgstr "ESCN，Blender可以通过插件导出的，一种Godot特定格式。"
+msgstr "ESCN，是Godot特有的格式，Blender可以用插件导出。"
 
 #: ../../docs/getting_started/workflow/assets/importing_scenes.rst:20
 msgid ""
@@ -876,8 +882,8 @@ msgid ""
 "upon importing and will create a :ref:`class_staticbody` collision instead. "
 "This helps the visual mesh and actual collision to be separated."
 msgstr ""
-"为了解决这个问题，存在 ``-colonly`` 修饰符。它将在导入时删除该网格，并创建一"
-"个 :ref:`class_staticbody` 碰撞体来代替。这有助于将可视网格与实际碰撞体分开。"
+"为了解决这个问题，存在 ``-colony`` 修饰符，该修饰符将在导入时删除网格，并创建"
+"一个 :ref:`class_staticbody` 静态碰撞体。这有助于将可视网格和实际碰撞体分开。"
 
 #: ../../docs/getting_started/workflow/assets/importing_scenes.rst:414
 msgid ""
@@ -894,9 +900,9 @@ msgid ""
 "child. The collision node will have one of a number of predefined shapes, "
 "depending on Blender's empty draw type:"
 msgstr ""
-"选项 ``-colonly`` 也可以与Blender的空对象一起使用。导入时，它将创建一个将一个"
-"碰撞节点作为子节点的 :ref:`class_staticbody` 。该碰撞节点将具有许多预定义的形"
-"状之中的一个形状，具体取决于Blender的空物体的绘制类型："
+"选项 ``-colonly`` 也可以与Blender的空对象一起使用。导入时，它将创建一个带有碰"
+"撞节点的 :ref:`class_staticbody` 作为子节点。碰撞节点将具有许多预定义的形状之"
+"一，具体取决于Blender的空绘制类型："
 
 #: ../../docs/getting_started/workflow/assets/importing_scenes.rst:423
 msgid "Single arrow will create a :ref:`class_rayshape`."

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-28 20:28+0800\n"
+"POT-Creation-Date: 2021-04-25 22:16+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,16 +18,14 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../docs/tutorials/physics/using_area_2d.rst:4
-#, fuzzy
 msgid "Using Area2D"
-msgstr "Area2D"
+msgstr "使用Area2D"
 
 #: ../../docs/tutorials/physics/using_area_2d.rst:7
 msgid "Introduction"
 msgstr "简介"
 
 #: ../../docs/tutorials/physics/using_area_2d.rst:9
-#, fuzzy
 msgid ""
 "Godot offers a number of collision objects to provide both collision "
 "detection and response. Trying to decide which one to use for your project "
@@ -36,10 +34,10 @@ msgid ""
 "tutorial, we'll look at the :ref:`Area2D <class_Area2D>` node and show some "
 "examples of how it can be used."
 msgstr ""
-"为提供碰撞检测和响应，Godot提供了许多碰撞对象。 决定哪一个用于您的项目可能会"
-"令人困惑。 如果您了解每个碰撞对象的工作原理以及它们的优缺点，您可以避免出现问"
-"题并简化开发。 在本教程中，我们将查看 :ref:`KinematicBody2D "
-"<class_KinematicBody2D>` 节点，并展示一些如何使用它的示例。"
+"Godot提供了许多碰撞对象来提供碰撞检测和响应。试图决定为你的项目使用哪一个可能"
+"会让人感到困惑。如果你了解它们各自的工作原理以及它们的优点和缺点，你就可以避"
+"免问题并简化开发。在本教程中，我们将查看 :ref:`Area2D <class_Area2D>` 节点，"
+"并展示一些如何使用它的例子。"
 
 #: ../../docs/tutorials/physics/using_area_2d.rst:15
 msgid ""
@@ -50,9 +48,8 @@ msgstr ""
 "`doc_physics_introduction` 。"
 
 #: ../../docs/tutorials/physics/using_area_2d.rst:19
-#, fuzzy
 msgid "What is an area?"
-msgstr "它是什么？"
+msgstr "什么是area？"
 
 #: ../../docs/tutorials/physics/using_area_2d.rst:21
 msgid ""
@@ -66,9 +63,8 @@ msgstr ""
 "地物理属性。我们将在下面讨论这些功能中的每一个。"
 
 #: ../../docs/tutorials/physics/using_area_2d.rst:27
-#, fuzzy
 msgid "Area properties"
-msgstr "节点属性"
+msgstr "Area属性"
 
 #: ../../docs/tutorials/physics/using_area_2d.rst:29
 msgid "Areas have many properties you can use to customize their behavior."
@@ -131,9 +127,8 @@ msgstr ""
 "不能推它，只是想让它在玩家触碰它的时候消失。"
 
 #: ../../docs/tutorials/physics/using_area_2d.rst:58
-#, fuzzy
 msgid "Here's the node setup for the coin:"
-msgstr "这是游戏角色物体的代码:"
+msgstr "这是硬币节点的设置:"
 
 #: ../../docs/tutorials/physics/using_area_2d.rst:62
 msgid ""
@@ -158,9 +153,8 @@ msgid "Now our player can collect the coins!"
 msgstr "现在我们的游戏角色可以收集硬币了！"
 
 #: ../../docs/tutorials/physics/using_area_2d.rst:92
-#, fuzzy
 msgid "Some other usage examples:"
-msgstr "一些例子:"
+msgstr "其他一些使用实例:"
 
 #: ../../docs/tutorials/physics/using_area_2d.rst:94
 msgid ""
@@ -187,10 +181,9 @@ msgstr ""
 "玩家进入时激活它们。"
 
 #: ../../docs/tutorials/physics/using_area_2d.rst:98
-#, fuzzy
 msgid ""
 "See the :ref:`doc_your_first_game` for an example of using Area2D in a game."
-msgstr "有关实现2D移动方案的示例，请参阅 :ref:`doc_2d_movement` 。"
+msgstr "请参阅 :ref:`doc_your_first_game` ，了解在游戏中使用Area2D的例子。"
 
 #: ../../docs/tutorials/physics/using_area_2d.rst:101
 msgid "Area influence"
@@ -245,9 +238,8 @@ msgid "The physics properties that can be overridden are:"
 msgstr "可以重写的物理属性有:"
 
 #: ../../docs/tutorials/physics/using_area_2d.rst:118
-#, fuzzy
 msgid "*Gravity* - Gravity's strength inside the area."
-msgstr "*重力*--区域内的重力强度。"
+msgstr "*Gravity* -区域内的重力强度。"
 
 #: ../../docs/tutorials/physics/using_area_2d.rst:119
 msgid ""
@@ -268,9 +260,8 @@ msgid ""
 msgstr "*角度阻尼*-物体停止旋转的速度-每秒损失的角速度。"
 
 #: ../../docs/tutorials/physics/using_area_2d.rst:124
-#, fuzzy
 msgid "Point gravity"
-msgstr "int array"
+msgstr "Point重力"
 
 #: ../../docs/tutorials/physics/using_area_2d.rst:126
 msgid ""
@@ -294,10 +285,8 @@ msgid ""
 msgstr "以下所附中的示例项目包含三个区域，它们说明了物理重写。"
 
 #: ../../docs/tutorials/physics/using_area_2d.rst:139
-#, fuzzy
 msgid ""
 "You can download this project here: :download:`using_area_2d.zip <files/"
 "using_area_2d.zip>`"
 msgstr ""
-"您可以在此处下载此示例项目 : :download:`2D_movement_demo.zip "
-"<files/2D_movement_demo.zip>`"
+"你可以在这里下载这个项目 :`using_area_2d.zip <files/using_area_2d.zip>`"

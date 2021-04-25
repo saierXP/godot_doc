@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-28 20:28+0800\n"
+"POT-Creation-Date: 2021-04-25 22:16+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -146,13 +146,14 @@ msgid ""
 msgstr "要创建固定的关节，选择“软体”节点上的顶点："
 
 #: ../../docs/tutorials/physics/soft_body.rst:55
+#, fuzzy
 msgid ""
 "The pinned joints can be find in ``SoftBody``'s ``Attachments`` property, "
 "choose the ``BoneAttachment`` as the ``SpatialAttachment`` for each pinned "
 "joints, the pinned joints are now attached to the neck."
 msgstr ""
-"固定节点可以在“软体”的“附属”属性中找到，选择“附属骨骼”作为每个固定关节的“空间"
-"附属”，现在固定关节连接到脖子上。"
+"在 ``SoftBody`` 的 ``Attachments`` 属性中可以找到图钉关节，为每个被图钉关节选"
+"择 ``BoneAttachment`` 作为 ``SpatialAttachment`` ，被图钉关节连接到颈部。"
 
 #: ../../docs/tutorials/physics/soft_body.rst:59
 msgid ""

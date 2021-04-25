@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-28 20:28+0800\n"
+"POT-Creation-Date: 2021-04-25 22:16+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -81,13 +81,12 @@ msgid "Disabling advanced GUI nodes"
 msgstr "禁用高级GUI节点"
 
 #: ../../docs/development/compiling/optimizing_for_size.rst:43
-#, fuzzy
 msgid ""
 "Most small games don't require complex GUI controls such as Tree, ItemList, "
 "TextEdit or GraphEdit. They can be disabled using a build flag:"
 msgstr ""
-"大多数小游戏不需要复杂的GUI控件，如Tree、ItemList、TextEditor或GraphEdit。可"
-"以使用构建标志禁用它们："
+"大多数小游戏不需要复杂的GUI控件，如Tree、ItemList、TextEdit或GraphEdit。它们"
+"可以用一个构建标志来禁用："
 
 #: ../../docs/development/compiling/optimizing_for_size.rst:51
 msgid "Disabling unwanted modules"
@@ -129,7 +128,6 @@ msgstr ""
 "内容类似于以下："
 
 #: ../../docs/development/compiling/optimizing_for_size.rst:117
-#, fuzzy
 msgid ":ref:`doc_overriding_build_options`."
 msgstr ":ref:`doc_overriding_build_options`."
 
@@ -138,13 +136,12 @@ msgid "Optimizing for size instead of speed"
 msgstr "针对大小而不是速度优化"
 
 #: ../../docs/development/compiling/optimizing_for_size.rst:122
-#, fuzzy
 msgid ""
 "Godot 3.1 onwards allows compiling using size optimizations (instead of "
 "speed). To enable this, set the ``optimize`` flag to ``size``:"
 msgstr ""
-"Godot 3.1以后允许使用尺寸优化选项进行编译。要启用它，只需将 ``optimize`` 标志"
-"设置为 ``size``："
+"Godot 3.1以上版本允许使用尺寸优化（而不是速度优化）进行编译。要启用这个功能，"
+"请将 ``optimize`` 标志设置为 ``size`` ："
 
 #: ../../docs/development/compiling/optimizing_for_size.rst:129
 msgid "Some platforms such as WebAssembly already use this mode by default."
@@ -165,10 +162,11 @@ msgstr ""
 "的模板功能和未使用的代码来工作。目前，它可以与GCC和MSVC编译器一起使用："
 
 #: ../../docs/development/compiling/optimizing_for_size.rst:143
+#, fuzzy
 msgid ""
 "Linking becomes much slower with this option, so it should be used only for "
 "release builds."
-msgstr "使用此选项，链接变得慢得多，因此它应该仅用于发布版本。"
+msgstr "使用这个选项，链接会变得更慢，更消耗内存，所以它应该只用于发布构建。"
 
 #: ../../docs/development/compiling/optimizing_for_size.rst:147
 msgid "Stripping binaries"

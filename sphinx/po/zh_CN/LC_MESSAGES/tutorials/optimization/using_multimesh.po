@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-28 20:28+0800\n"
+"POT-Creation-Date: 2021-04-25 22:16+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,9 +18,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../docs/tutorials/optimization/using_multimesh.rst:4
-#, fuzzy
 msgid "Optimization using MultiMeshes"
-msgstr "利用服务器进行优化"
+msgstr "使用MultiMeshes优化"
 
 #: ../../docs/tutorials/optimization/using_multimesh.rst:6
 msgid ""
@@ -41,9 +40,8 @@ msgstr ""
 "另一种可能的优化方法。"
 
 #: ../../docs/tutorials/optimization/using_multimesh.rst:15
-#, fuzzy
 msgid "MultiMeshes"
-msgstr "MultiMesh设置"
+msgstr "MultiMeshes"
 
 #: ../../docs/tutorials/optimization/using_multimesh.rst:17
 msgid ""
@@ -123,9 +121,8 @@ msgstr ""
 "数量改变可见的数量。"
 
 #: ../../docs/tutorials/optimization/using_multimesh.rst:48
-#, fuzzy
 msgid "Multimesh example"
-msgstr "计时器示例"
+msgstr "多重网格示例"
 
 #: ../../docs/tutorials/optimization/using_multimesh.rst:50
 msgid ""

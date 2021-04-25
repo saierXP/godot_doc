@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-28 20:28+0800\n"
+"POT-Creation-Date: 2021-04-25 22:16+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -47,7 +47,6 @@ msgstr ""
 "有关这些参数的完整列表，请参见:ref:`空间着色器<doc_spatial_shader>`参考文档。"
 
 #: ../../docs/tutorials/shading/your_first_shader/your_second_spatial_shader.rst:15
-#, fuzzy
 msgid ""
 "A difference between the vertex function and a fragment function is that the "
 "vertex function runs per vertex and sets properties such as ``VERTEX`` "
@@ -55,9 +54,9 @@ msgid ""
 "most importantly, sets the ``ALBEDO`` color of the :ref:"
 "`Mesh<class_MeshInstance>`."
 msgstr ""
-"顶点着色器和片段着色器之间的区别在于顶点着色器每个顶点运行并设置诸"
-"如“VERTEX”(位置)和“正常”的属性，而片段着色器按像素运行，最重要的是， 设置 :"
-"ref:`Mesh <class_MeshInstance>` 的 ``ALBEDO`` 颜色。"
+"顶点函数和片段函数的区别在于，顶点函数是按顶点运行的，并设置诸如 ``VERTEX`` "
+"（坐标）和 ``NORMAL`` 等属性，而片段着色器是按像素运行的，最重要的是设置 :"
+"ref:`Mesh<class_MeshInstance>` 的 ``ALBEDO`` 颜色。"
 
 #: ../../docs/tutorials/shading/your_first_shader/your_second_spatial_shader.rst:20
 msgid "Your first spatial fragment function"
@@ -115,11 +114,11 @@ msgstr "在本教程的这一部分中，我们将介绍如何将前一部分的
 #: ../../docs/tutorials/shading/your_first_shader/your_second_spatial_shader.rst:50
 msgid ""
 "First let's set the color of the water. We do that by setting ``ALBEDO``."
-msgstr "首先让我们设置水的颜色，我们通过设置“反射率”来做到这一点。"
+msgstr "首先让我们设置水的颜色。我们通过设置 ``ALBEDO`` 来做到这一点。"
 
 #: ../../docs/tutorials/shading/your_first_shader/your_second_spatial_shader.rst:52
 msgid "``ALBEDO`` is a ``vec3`` that contains the color of the object."
-msgstr "“反射率”是一种与物体颜色相关的“三维数组”。"
+msgstr "``ALBEDO`` 是一个 ``vec3`` ，包含物体的颜色。"
 
 #: ../../docs/tutorials/shading/your_first_shader/your_second_spatial_shader.rst:54
 msgid "Let's set it to a nice shade of blue."
@@ -155,9 +154,10 @@ msgid ""
 "low ``METALLIC`` has a more equal representation of sky color and ``ALBEDO`` "
 "color."
 msgstr ""
-"“金属度”是指物体有多像金属。最好将其设置为接近“0”或“1”。“金属度”可以视作调整"
-"反射和“反射率”颜色之间的平衡。高“金属度”几乎忽略了“反射率”，使之看起来像天空"
-"之境。而低“金属度”有更加均衡的天空颜色和“反射率”颜色表现。"
+"``METALLIC`` 指定该物体有多像金属，它最好设置为接近 ``0`` 或 ``1`` 。把 "
+"``METALLIC`` 看作是改变反射和 ``ALBEDO`` 颜色之间的平衡。高的 ``METALLIC`` 几"
+"乎完全忽略了 ``ALBEDO`` ，看起来像天空的镜子。而低的 ``METALLIC`` 对天空的颜"
+"色和 ``ALBEDO`` 的颜色有一个更平实的表现。"
 
 #: ../../docs/tutorials/shading/your_first_shader/your_second_spatial_shader.rst:78
 msgid ""
@@ -243,9 +243,10 @@ msgid ""
 "these properties with a texture, or to a flat number. But with shaders we "
 "can set them based on any mathematical function that we can dream up."
 msgstr ""
-"并将其混合到“粗糙度”和“反射率”中。这是ShaderMaterials相对于SpatialMaterials的"
-"优势。使用SpatialMaterials，我们可以使用纹理或统一数字设置这些属性。而使用着"
-"色器，我们可以基于自己想到的数学函数来设置。"
+"并将其混合到 ``ROUGHNESS`` 和 ``ALBEDO`` 。这是ShaderMaterials比"
+"SpatialMaterials的好处。使用SpatialMaterials，我们可以用纹理来设置这些属性，"
+"或者设置成一个统一的数字。但是用着色器，我们可以根据我们能想到的任何数学函数"
+"来设置它们。"
 
 #: ../../docs/tutorials/shading/your_first_shader/your_second_spatial_shader.rst:160
 msgid ""
@@ -254,9 +255,9 @@ msgid ""
 "This is done easily by decreasing the values of the ``vec3`` we pass into "
 "``ALBEDO``. Let's set them to ``vec3(0.01, 0.03, 0.05)``."
 msgstr ""
-"现在，仅需5行代码，您就可以拥有复杂的外观。现在我们有了照明，这水看起来过于明"
-"亮。我们将其变暗。通过减小我们传递给“反射率”的vec3的值，可以轻松完成此操作。"
-"让我们将它们设置为“vec3(0.01, 0.03, 0.05)”。"
+"而现在，只需要5行代码，你就可以拥有看起来很复杂的水。现在，我们有了照明，这个"
+"水看起来太亮了。让我们把它变暗。这可以通过减少我们传入 ``ALBEDO`` 的 "
+"``vec3`` 的值来轻松实现。让我们把它们设置为 ``vec3(0.01, 0.03, 0.05)`` 。"
 
 #: ../../docs/tutorials/shading/your_first_shader/your_second_spatial_shader.rst:168
 msgid "Animating with ``TIME``"
@@ -390,8 +391,9 @@ msgid ""
 msgstr "现在我们可以用``wave()``代替``height()``函数的内容。"
 
 #: ../../docs/tutorials/shading/your_first_shader/your_second_spatial_shader.rst:277
+#, fuzzy
 msgid "Using this you get:"
-msgstr "用这个获得:"
+msgstr "这样一来，你会得到："
 
 #: ../../docs/tutorials/shading/your_first_shader/your_second_spatial_shader.rst:281
 msgid ""

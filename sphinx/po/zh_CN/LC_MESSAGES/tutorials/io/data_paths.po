@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-28 20:28+0800\n"
+"POT-Creation-Date: 2021-04-25 22:16+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -26,14 +26,13 @@ msgid "Path separators"
 msgstr "路径分隔符"
 
 #: ../../docs/tutorials/io/data_paths.rst:9
-#, fuzzy
 msgid ""
 "For the sake of supporting as many platforms as possible, Godot only accepts "
 "UNIX-style path separators (``/``). These work on all platforms, including "
 "Windows."
 msgstr ""
-"为了支持尽可能多的平台，Godot只接受UNIX风格的路径分隔符(``/``)。在包括Windows"
-"在内的所有平台上，这种路径分隔符均可以正常工作。"
+"为了支持尽可能多的平台，Godot只接受UNIX风格的路径分隔符（ ``/`` ）。这将在所"
+"有的平台上都可以使用，包括Windows。"
 
 #: ../../docs/tutorials/io/data_paths.rst:13
 msgid "A path like ``C:\\Projects`` will become ``C:/Projects``."
@@ -44,14 +43,13 @@ msgid "Resource path"
 msgstr "资源路径"
 
 #: ../../docs/tutorials/io/data_paths.rst:18
-#, fuzzy
 msgid ""
 "As mentioned in the :ref:`doc_command_line_tutorial`, Godot considers that a "
 "project exists in any given folder that contains a ``project.godot`` text "
 "file, even if such file is empty."
 msgstr ""
-"如前所述，Godot认为一个项目文件夹中包含一个 ``project.godot`` 文本文件，即使"
-"该文件是空的。"
+"正如在 :ref:`doc_command_line_tutorial` 中提到的，Godot认为一个项目存在于任何"
+"包含 ``project.godot`` 文本文件的指定文件夹中，即使该文件是空的。"
 
 #: ../../docs/tutorials/io/data_paths.rst:22
 msgid ""
@@ -99,9 +97,8 @@ msgstr ""
 "<doc_feature_tags>` 命令覆写 。"
 
 #: ../../docs/tutorials/io/data_paths.rst:45
-#, fuzzy
 msgid "Editor data paths"
-msgstr "数据路径"
+msgstr "编辑器数据路径"
 
 #: ../../docs/tutorials/io/data_paths.rst:47
 msgid ""
@@ -120,32 +117,26 @@ msgid "Location"
 msgstr "位置"
 
 #: ../../docs/tutorials/io/data_paths.rst:53
-#, fuzzy
 msgid "User data"
-msgstr "用户路径"
+msgstr "用户数据"
 
 #: ../../docs/tutorials/io/data_paths.rst:53
 #: ../../docs/tutorials/io/data_paths.rst:57
-#, fuzzy
 msgid "Windows: ``%APPDATA%\\Godot\\``"
-msgstr "Windows: ``%APPDATA%\\Godot\\templates\\<version>\\``"
+msgstr "Windows: ``%APPDATA%\\Godot\\``"
 
 #: ../../docs/tutorials/io/data_paths.rst:54
 #: ../../docs/tutorials/io/data_paths.rst:58
-#, fuzzy
 msgid "macOS: ``~/Library/Application Support/Godot/``"
-msgstr ""
-"macOS: ``$HOME/Library/Application Support/Godot/templates/<version>/``"
+msgstr "macOS: ``~/Library/Application Support/Godot/``"
 
 #: ../../docs/tutorials/io/data_paths.rst:55
-#, fuzzy
 msgid "Linux: ``~/.local/share/godot/``"
-msgstr "Linux: ``$HOME/.local/share/godot/templates/<version>/``"
+msgstr "Linux: ``~/.local/share/godot/``"
 
 #: ../../docs/tutorials/io/data_paths.rst:57
-#, fuzzy
 msgid "User settings"
-msgstr "跟踪设置"
+msgstr "用户设置"
 
 #: ../../docs/tutorials/io/data_paths.rst:59
 msgid "Linux: ``~/.config/godot/``"
@@ -156,9 +147,8 @@ msgid "Cache"
 msgstr "缓存"
 
 #: ../../docs/tutorials/io/data_paths.rst:61
-#, fuzzy
 msgid "Windows: ``%TEMP%\\Godot\\``"
-msgstr "Windows: ``%APPDATA%\\Godot\\templates\\<version>\\``"
+msgstr "Windows: ``%TEMP%\\Godot\\``"
 
 #: ../../docs/tutorials/io/data_paths.rst:62
 msgid "macOS: ``~/Library/Caches/Godot/``"
@@ -206,7 +196,6 @@ msgstr ""
 "godot/`下的子文件夹中。"
 
 #: ../../docs/tutorials/io/data_paths.rst:85
-#, fuzzy
 msgid "Self-contained mode"
 msgstr "自包含模式"
 

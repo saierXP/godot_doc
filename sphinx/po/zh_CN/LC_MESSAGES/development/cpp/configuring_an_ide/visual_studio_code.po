@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-28 20:28+0800\n"
+"POT-Creation-Date: 2021-04-25 22:16+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,13 +22,14 @@ msgid "Visual Studio Code"
 msgstr "Visual Studio Code"
 
 #: ../../docs/development/cpp/configuring_an_ide/visual_studio_code.rst:6
+#, fuzzy
 msgid ""
 "`Visual Studio Code <https://code.visualstudio.com>`_ is a free cross-"
 "platform IDE by `Microsoft <https://microsoft.com>`_ (not to be confused "
 "with :ref:`doc_configuring_an_ide_vs`)."
 msgstr ""
-"`Visual Studio Code <https://code.visualstudio.com>`_ 是 `Microsoft <https://"
-"microsoft.com>`_ 的一个免费的跨平台集成开发环境（不要与 :ref:"
+"`Visual Studio Code <https://code.visualstudio.com>` _是 `Microsoft <https://"
+"microsoft.com>` _推出的免费跨平台代码编辑器（不要与 :ref:"
 "`doc_configuring_an_ide_vs` 混淆）。"
 
 #: ../../docs/development/cpp/configuring_an_ide/visual_studio_code.rst:10
@@ -36,13 +37,12 @@ msgid "Importing the project"
 msgstr "导入项目"
 
 #: ../../docs/development/cpp/configuring_an_ide/visual_studio_code.rst:12
-#, fuzzy
 msgid ""
 "Make sure the C/C++ extension is installed. You can find instructions in the "
 "`official documentation <https://code.visualstudio.com/docs/languages/cpp>`_."
 msgstr ""
-"确保已安装C/C++扩展。您可以在 `文档 <https://code.visualstudio.com/docs/"
-"languages/cpp>`_ 中找到相关说明。"
+"确保C/C++扩展已经安装。你可以在 `官方文件<https://code.visualstudio.com/docs/"
+"languages/cpp>`_ 中找到说明。"
 
 #: ../../docs/development/cpp/configuring_an_ide/visual_studio_code.rst:14
 msgid ""
@@ -76,18 +76,16 @@ msgid "An example of a filled out ``tasks.json``."
 msgstr "填好了``tasks.json``的一个例子。"
 
 #: ../../docs/development/cpp/configuring_an_ide/visual_studio_code.rst:54
-#, fuzzy
 msgid ""
 "Arguments can be different based on your own setup and needs. See :ref:"
 "`doc_introduction_to_the_buildsystem` for a full list of arguments."
 msgstr ""
-"先阅读:doc:`ui_introduction_to_the_ui_system`来学习Godot的用户界面系统是如何"
-"工作的。"
+"参数可以根据你自己的设置和需要而不同。参见 :ref:"
+"`doc_introduction_to_the_buildsystem`以获取完整的参数列表。"
 
 #: ../../docs/development/cpp/configuring_an_ide/visual_studio_code.rst:58
-#, fuzzy
 msgid "Debugging the project"
-msgstr "准备项目"
+msgstr "调试项目"
 
 #: ../../docs/development/cpp/configuring_an_ide/visual_studio_code.rst:60
 msgid ""
@@ -120,9 +118,8 @@ msgstr ""
 "在 ``launch.json`` 文件中找到 ``\"configurations\"`` 数组，并添加一个新部分:"
 
 #: ../../docs/development/cpp/configuring_an_ide/visual_studio_code.rst:102
-#, fuzzy
 msgid "An example of a filled out ``launch.json``."
-msgstr "填好的``launch.json``的例子。"
+msgstr "填写好的 ``launch.json`` 的例子。"
 
 #: ../../docs/development/cpp/configuring_an_ide/visual_studio_code.rst:104
 msgid ""

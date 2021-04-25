@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-28 20:28+0800\n"
+"POT-Creation-Date: 2021-04-25 22:16+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -48,12 +48,10 @@ msgid ""
 msgstr "从 **Targets** 部分打开您的构建目标，并选择 **Info** 标签。"
 
 #: ../../docs/development/cpp/configuring_an_ide/xcode.rst:19
-#, fuzzy
 msgid "Fill out the form with the following settings:"
-msgstr "这样做会产生以下行为:"
+msgstr "按以下设置填写表格:"
 
 #: ../../docs/development/cpp/configuring_an_ide/xcode.rst:22
-#, fuzzy
 msgid "Build Tool"
 msgstr "构建工具"
 
@@ -66,22 +64,17 @@ msgid "Arguments"
 msgstr "参数"
 
 #: ../../docs/development/cpp/configuring_an_ide/xcode.rst:24
-#, fuzzy
 msgid ""
 "See :ref:`doc_introduction_to_the_buildsystem` for a full list of arguments."
-msgstr ""
-"先阅读:doc:`ui_introduction_to_the_ui_system`来学习Godot的用户界面系统是如何"
-"工作的。"
+msgstr "参见 :ref:`doc_introduction_to_the_buildsystem`，获取完整的参数列表。"
 
 #: ../../docs/development/cpp/configuring_an_ide/xcode.rst:26
-#, fuzzy
 msgid "Directory"
-msgstr "数据目录"
+msgstr "目录"
 
 #: ../../docs/development/cpp/configuring_an_ide/xcode.rst:26
-#, fuzzy
 msgid "A full path to the Godot root folder"
-msgstr "在Godot存储库上拉取请求"
+msgstr "到Godot根文件夹的完整路径"
 
 #: ../../docs/development/cpp/configuring_an_ide/xcode.rst:33
 msgid ""
@@ -121,11 +114,10 @@ msgstr ""
 "source / **``。"
 
 #: ../../docs/development/cpp/configuring_an_ide/xcode.rst:53
-#, fuzzy
 msgid ""
 "Add the Godot source to the project by dragging and dropping it into the "
 "project file browser."
-msgstr "将Godot源拖放到项目文件浏览器中。"
+msgstr "将Godot源码拖放到项目文件浏览器中，将其添加到项目中。"
 
 #: ../../docs/development/cpp/configuring_an_ide/xcode.rst:54
 msgid "Uncheck **Create external build system project**."
@@ -140,21 +132,18 @@ msgstr ""
 "并在**添加到目标(Add to targets)**部分中选中*仅*您的命令行索引目标。"
 
 #: ../../docs/development/cpp/configuring_an_ide/xcode.rst:67
-#, fuzzy
 msgid "Xcode will now index the files. This may take a few minutes."
-msgstr "点击完成（Finish）。Xcode将会开始索引文件。"
+msgstr "Xcode现在将索引这些文件。这可能需要几分钟的时间。"
 
 #: ../../docs/development/cpp/configuring_an_ide/xcode.rst:68
-#, fuzzy
 msgid ""
 "Once Xcode is done indexing, you should have jump-to-definition, "
 "autocompletion, and full syntax highlighting."
-msgstr "完成之后，您就可以使用代码跳转、自动补全、完整的语法高亮等功能了。"
+msgstr "一旦Xcode完成了索引，你应该有跳转定义、自动完成和完整的语法突出显示。"
 
 #: ../../docs/development/cpp/configuring_an_ide/xcode.rst:72
-#, fuzzy
 msgid "Debugging the project"
-msgstr "准备项目"
+msgstr "调试项目"
 
 #: ../../docs/development/cpp/configuring_an_ide/xcode.rst:74
 msgid ""
@@ -171,9 +160,8 @@ msgid "Locate the **Build > Post Actions** section."
 msgstr "定位到 **Build > Post Actions** 区。"
 
 #: ../../docs/development/cpp/configuring_an_ide/xcode.rst:78
-#, fuzzy
 msgid "Add a new script run action"
-msgstr "添加一个新的动画"
+msgstr "增加一个新的脚本运行操作"
 
 #: ../../docs/development/cpp/configuring_an_ide/xcode.rst:79
 msgid ""
@@ -184,11 +172,10 @@ msgstr ""
 "中引用项目目录。"
 
 #: ../../docs/development/cpp/configuring_an_ide/xcode.rst:81
-#, fuzzy
 msgid ""
 "Create a script that will give the binary a name that Xcode can recognize, e."
 "g.:"
-msgstr "创建一个脚本，给二进制文件一个 Xcode 可以识别的名字，例如："
+msgstr "创建一个脚本，给二进制文件起一个Xcode可以识别的名字，例如:"
 
 #: ../../docs/development/cpp/configuring_an_ide/xcode.rst:91
 msgid "Build the external build target."

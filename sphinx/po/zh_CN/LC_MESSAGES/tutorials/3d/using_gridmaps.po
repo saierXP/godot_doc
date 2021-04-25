@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-28 20:28+0800\n"
+"POT-Creation-Date: 2021-04-25 22:16+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -168,26 +168,23 @@ msgstr ""
 "值。 将``Center Y``属性设置为``Off``。"
 
 #: ../../docs/tutorials/3d/using_gridmaps.rst:87
-#, fuzzy
 msgid ""
 "Now you can start designing the level by choosing a tile from the palette "
 "and placing it with Left-Click in the editor window. To remove a tile, hold :"
 "kbd:`Shift` and use Right-click."
 msgstr ""
-"现在，您可以通过从调色板中选择一个图块并使用左键单击在编辑器窗口中放置来开始"
-"设计关卡。 要删除图块，请使用 :kbd:`Shift` + 右键单击。"
+"现在你可以开始设计关卡了，从调色板中选择一个图块，然后在编辑器窗口中用左键单"
+"击它。要删除一个图块，按住 :kbd:`Shift` 并使用右键单击。"
 
 #: ../../docs/tutorials/3d/using_gridmaps.rst:91
-#, fuzzy
 msgid ""
 "Click on the \"GridMap\" menu to see options and shortcuts. For example, "
 "pressing :kbd:`S` rotates a tile around the y-axis."
 msgstr ""
-"单击 ``GridMap`` 菜单可以查看选项和快捷键。 例如，按下 :kbd:`S` 围绕y轴旋转图"
+"单击 ``GridMap`` 菜单可以查看选项和快捷键。 例如，按下 :kbd:`S` 绕y轴旋转图"
 "块。"
 
 #: ../../docs/tutorials/3d/using_gridmaps.rst:96
-#, fuzzy
 msgid ""
 "Holding :kbd:`Shift` and dragging with the left mouse button will draw a "
 "selection box. You can duplicate or clear the selected area using the "
@@ -197,7 +194,6 @@ msgstr ""
 "项复制或清除所选区域。"
 
 #: ../../docs/tutorials/3d/using_gridmaps.rst:102
-#, fuzzy
 msgid ""
 "In the menu, you can also change the axis you're drawing on, as well as "
 "shift the drawing plane higher or lower on its axis."

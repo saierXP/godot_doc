@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-28 20:28+0800\n"
+"POT-Creation-Date: 2021-04-25 22:16+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -39,9 +39,8 @@ msgid "The guide below explains how to find a regression by bisecting."
 msgstr "以下指南说明了如何通过二等分查找回归。"
 
 #: ../../docs/community/contributing/bisecting_regressions.rst:17
-#, fuzzy
 msgid "What is bisecting?"
-msgstr "它是什么？"
+msgstr "什么是两分法？"
 
 #: ../../docs/community/contributing/bisecting_regressions.rst:19
 msgid ""

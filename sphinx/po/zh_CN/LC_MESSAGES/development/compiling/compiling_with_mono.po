@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Godot Engine 3.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-28 20:28+0800\n"
+"POT-Creation-Date: 2021-04-25 22:16+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -38,9 +38,8 @@ msgid "NuGet"
 msgstr "NuGet"
 
 #: ../../docs/development/compiling/compiling_with_mono.rst:14
-#, fuzzy
 msgid "**On Linux/macOS only:** pkg-config"
-msgstr "**仅在 Linux/macOS 上：** pkg-config"
+msgstr "**仅在Linux/macOS :** pkg-config"
 
 #: ../../docs/development/compiling/compiling_with_mono.rst:16
 msgid ""
@@ -139,7 +138,6 @@ msgstr ""
 "目标构建Godot，而无需重复此过程。"
 
 #: ../../docs/development/compiling/compiling_with_mono.rst:70
-#, fuzzy
 msgid ""
 "``<godot_binary>`` refers to the tools binary you compiled above with the "
 "Mono module enabled. Its exact name will differ based on your system and "
@@ -150,12 +148,12 @@ msgid ""
 "named binaries without this suffix. These binaries can't be used to generate "
 "the Mono glue."
 msgstr ""
-"``<godot_binary>`` 指的是您在启用Mono模块时编译的工具二进制文件。 它的确切名"
-"称将根据您的系统和配置而有所不同，但应该采用 ``bin/godot.<platform>.tools."
-"<bits>.mono`` 的形式，例如 ``bin/godot.x11.tools.64.mono`` 或 ``bin/godot."
-"windows.tools.64.exe``。 要特别注意 **.mono** 后缀！如果您以前在没有Mono支持"
-"的情况下编译了Godot，则可能有不带该后缀的类似名称的二进制文件。这些二进制文件"
-"不能用于生成Mono胶水。"
+"``<godot_binary>`` 是指你在上面编译时启用Mono模块的工具可执行文件。它的确切名"
+"称将根据你的系统和配置而不同，但应该是 ``bin/godot.<platform>.tools.<bits>."
+"mono`` 的形式，例如 ``bin/godot.x11.tools.64.mono`` 或 ``bin/godot.windows."
+"tools.64.mono.exe`` 。要特别注意 **.mono** 的后缀!如果你以前编译的Godot不支持"
+"Mono，你可能会有类似的没有这个后缀的二进制。这些二进制文件不能用来生成Mono胶"
+"水。"
 
 #: ../../docs/development/compiling/compiling_with_mono.rst:80
 msgid "Notes"
@@ -262,27 +260,25 @@ msgstr ""
 "要文件。它必须与Godot可执行文件一起分发。"
 
 #: ../../docs/development/compiling/compiling_with_mono.rst:168
-#, fuzzy
 msgid ""
 "The information below doesn't apply for Android, iOS and WASM, as there is "
 "no data directory for these platforms."
-msgstr "以下信息不适用于Android，因为该平台没有数据目录。"
+msgstr "下面的信息不适用于Android、iOS和WASM，因为这些平台没有数据目录。"
 
 #: ../../docs/development/compiling/compiling_with_mono.rst:172
 msgid "Export templates"
 msgstr "导出模板"
 
 #: ../../docs/development/compiling/compiling_with_mono.rst:174
-#, fuzzy
 msgid ""
 "The name of the data directory for an export template differs based on the "
 "configuration it was built with. The format is ``data.mono.<platform>.<bits>."
 "<target>``, e.g. ``data.mono.x11.32.release_debug`` or ``data.mono."
 "windows.64.release``."
 msgstr ""
-"导出模板的数据目录的名称根据其构建的配置而有所不同。格式为 ``data.mono."
-"<platform>.<bits>.<target>`` ，例如 ``data.mono.x11.32.debug`` 或 ``data."
-"mono.windows.64.release``。"
+"导出模板的数据目录名称根据构建时的配置不同而不同。格式是 ``data.mono."
+"<platform>.<bits>.<target>`` ，例如 ``data.mono.x11.32.release_debug`` 或 "
+"``data.mono.windows.64.release`` 。"
 
 #: ../../docs/development/compiling/compiling_with_mono.rst:179
 msgid ""
@@ -398,9 +394,8 @@ msgstr ""
 "``Tools`` 子目录包含编辑器所需的工具，如 ``GodotTools`` 程序集及其依赖项。"
 
 #: ../../docs/development/compiling/compiling_with_mono.rst:228
-#, fuzzy
 msgid "Building the Mono runtime"
-msgstr "构建导出模板"
+msgstr "构建Mono运行时"
 
 #: ../../docs/development/compiling/compiling_with_mono.rst:230
 msgid ""
@@ -414,17 +409,15 @@ msgstr ""
 "这些平台构建Mono运行时。"
 
 #: ../../docs/development/compiling/compiling_with_mono.rst:235
-#, fuzzy
 msgid ""
 "We recommend using these `build scripts <https://github.com/godotengine/"
 "godot-mono-builds>`_. They simplify this process but also include some "
 "patches needed for proper functioning with Godot. See the README on the link "
 "above for instructions on how to use the scripts."
 msgstr ""
-"在构建Godot之前，您需要为目标体系结构交叉编译的Mono运行时。我们建议使用这些 `"
-"构建 <https://github.com/godotengine/godot-mono-builds>`_。它们简化了此过程，"
-"但还包括使Godot正常运行所需的一些补丁。有关如何使用脚本的说明，请参见上面的链"
-"接上的自述文件。"
+"我们推荐使用这些 `build scripts <https://github.com/godotengine/godot-mono-"
+"builds>`_ 。它们简化了这一过程，但也包括一些与Godot正常运行所需的补丁。关于如"
+"何使用这些脚本，请看上面链接中的README说明。"
 
 #: ../../docs/development/compiling/compiling_with_mono.rst:241
 msgid "Targeting Android"
@@ -443,7 +436,6 @@ msgstr ""
 "会自动添加到Gradle项目中。"
 
 #: ../../docs/development/compiling/compiling_with_mono.rst:249
-#, fuzzy
 msgid ""
 "Once you've built Mono, you can proceed to build Godot with the instructions "
 "described in this page and the :ref:`Compiling for "
@@ -452,19 +444,17 @@ msgid ""
 "mono_prefix=\"$HOME/mono-installs/android-armeabi-v7a-release\"`` (This path "
 "may be different on your system)."
 msgstr ""
-"构建了Mono之后，您可以按照本页以及 :ref:`为Android编译 "
-"<doc_compiling_for_android>` 页面中所述的说明继续构建Godot。确保让SCons知道刚"
-"刚构建的Mono运行时的位置（在您的系统上可能有所不同，具体取决于您用于构建Mono"
-"的选项）： ``scons [...] mono_prefix=\"$HOME/mono-installs/android-armeabi-"
-"v7a-release\"`` 。"
+"一旦你建立了Mono，你就可以按照本页和 :ref:`Compiling for "
+"Android<doc_compiling_for_android>` 页面中描述的说明继续构建Godot。请确保让"
+"SCons知道你刚刚构建的Mono运行时的位置，例如。 ``scons [...] mono_prefix="
+"\"$HOME/mono-installs/android-armeabi-v7a-release\"`` （这个路径在你的系统上"
+"可能不同）。"
 
 #: ../../docs/development/compiling/compiling_with_mono.rst:257
-#, fuzzy
 msgid "Targeting iOS"
-msgstr "目标平台为Android"
+msgstr "针对iOS"
 
 #: ../../docs/development/compiling/compiling_with_mono.rst:259
-#, fuzzy
 msgid ""
 "Once you've built Mono, you can proceed to build Godot with the instructions "
 "described in this page and the :ref:`Compiling for "
@@ -473,11 +463,10 @@ msgid ""
 "mono_prefix=\"$HOME/mono-installs/ios-arm64-release\"`` (This path may be "
 "different on your system)."
 msgstr ""
-"构建了Mono之后，您可以按照本页以及 :ref:`为Android编译 "
-"<doc_compiling_for_android>` 页面中所述的说明继续构建Godot。确保让SCons知道刚"
-"刚构建的Mono运行时的位置（在您的系统上可能有所不同，具体取决于您用于构建Mono"
-"的选项）： ``scons [...] mono_prefix=\"$HOME/mono-installs/android-armeabi-"
-"v7a-release\"`` 。"
+"一旦你构建了Mono，你就可以按照本页面和 :ref:`Compiling for "
+"iOS<doc_compiling_for_ios>` 页面中描述的说明来构建Godot。请确保让SCons知道你"
+"刚刚构建的Mono运行时的位置，例如。 ``scons [...] mono_prefix=\"$HOME/mono-"
+"installs/ios-arm64-release\"`` （这个路径在你的系统上可能不同）。"
 
 #: ../../docs/development/compiling/compiling_with_mono.rst:266
 msgid ""
@@ -515,9 +504,8 @@ msgstr ""
 "``<templates>/iphone-mono-libs/lib<name>.iphone.fat.a``中查找库。"
 
 #: ../../docs/development/compiling/compiling_with_mono.rst:304
-#, fuzzy
 msgid "Targeting WebAssembly"
-msgstr "**网页：** WebAssembly"
+msgstr "针对WebAssembly"
 
 #: ../../docs/development/compiling/compiling_with_mono.rst:306
 msgid ""
@@ -526,7 +514,6 @@ msgid ""
 msgstr "无论Mono模块是否启用，目前为WebAssembly构建都涉及相同的过程。"
 
 #: ../../docs/development/compiling/compiling_with_mono.rst:308
-#, fuzzy
 msgid ""
 "Once you've built Mono, you can proceed to build Godot with the instructions "
 "described in this page and the :ref:`Compiling for the "
@@ -535,16 +522,14 @@ msgid ""
 "mono_prefix=\"$HOME/mono-installs/wasm-runtime-release\"`` (This path may be "
 "different on your system)."
 msgstr ""
-"构建了Mono之后，您可以按照本页以及 :ref:`为Android编译 "
-"<doc_compiling_for_android>` 页面中所述的说明继续构建Godot。确保让SCons知道刚"
-"刚构建的Mono运行时的位置（在您的系统上可能有所不同，具体取决于您用于构建Mono"
-"的选项）： ``scons [...] mono_prefix=\"$HOME/mono-installs/android-armeabi-"
-"v7a-release\"`` 。"
+"一旦你建立了Mono，你就可以按照本页和 :ref:`Compiling for the "
+"Web<doc_compiling_for_web>` 页面中描述的说明继续建立Godot。请确保让SCons知道"
+"你刚刚构建的Mono运行时的位置，例如。 ``scons [...] mono_prefix=\"$HOME/mono-"
+"installs/wasm-runtime-release\"`` （这个路径在你的系统上可能不同）。"
 
 #: ../../docs/development/compiling/compiling_with_mono.rst:316
-#, fuzzy
 msgid "Base Class Library"
-msgstr "素材库"
+msgstr "基础类库"
 
 #: ../../docs/development/compiling/compiling_with_mono.rst:318
 msgid ""
@@ -560,9 +545,8 @@ msgstr ""
 "``<templates>/bcl/javascript``。"
 
 #: ../../docs/development/compiling/compiling_with_mono.rst:323
-#, fuzzy
 msgid "Alternatively, Godot will look for them in the following locations:"
-msgstr "这样做会产生以下行为:"
+msgstr "或者，Godot会在以下地点寻找它们："
 
 #: ../../docs/development/compiling/compiling_with_mono.rst:326
 msgid "Android"
@@ -581,18 +565,16 @@ msgid "``<templates>/bcl/monotouch``"
 msgstr "``<templates>/bcl/monotouch``"
 
 #: ../../docs/development/compiling/compiling_with_mono.rst:330
-#, fuzzy
 msgid "WebAssembly"
-msgstr "**网页：** WebAssembly"
+msgstr "WebAssembly"
 
 #: ../../docs/development/compiling/compiling_with_mono.rst:330
 msgid "``<templates>/bcl/wasm``"
 msgstr "``<templates>/bcl/wasm``"
 
 #: ../../docs/development/compiling/compiling_with_mono.rst:332
-#, fuzzy
 msgid "Linux and macOS"
-msgstr "在 macOS 上运行"
+msgstr "Linux和MacOS"
 
 #: ../../docs/development/compiling/compiling_with_mono.rst:332
 msgid "``<templates>/bcl/net_4_x``"
@@ -625,9 +607,8 @@ msgstr ""
 "使用它所运行的BCL（``<data_folder>/Mono/lib/mono/4.5``）。"
 
 #: ../../docs/development/compiling/compiling_with_mono.rst:346
-#, fuzzy
 msgid "AOT cross-compilers"
-msgstr "交叉编译"
+msgstr "AOT交叉编译器"
 
 #: ../../docs/development/compiling/compiling_with_mono.rst:348
 msgid ""
@@ -647,13 +628,12 @@ msgstr ""
 "``<data_folder>/Tools/aot-compilers/``。"
 
 #: ../../docs/development/compiling/compiling_with_mono.rst:354
-#, fuzzy
 msgid ""
 "In order to build the cross-compilers we recommend using these `build "
 "scripts <https://github.com/godotengine/godot-mono-builds>`_."
 msgstr ""
-"如果您正在为文档做贡献，可以在 `这里 <https://github.com/godotengine/godot-"
-"docs>`_ 找到它的存储库。"
+"为了构建交叉编译器，我们推荐使用这些 `build scripts <https://github.com/"
+"godotengine/godot-mono-builds>` _。"
 
 #: ../../docs/development/compiling/compiling_with_mono.rst:357
 msgid ""
@@ -676,9 +656,8 @@ msgid ""
 msgstr "以下是使用Mono模块进行构建时可用的命令行选项的列表："
 
 #: ../../docs/development/compiling/compiling_with_mono.rst:366
-#, fuzzy
 msgid "**module_mono_enabled**\\ =yes | **no**"
-msgstr "**module_mono_enabled**：在启用Mono模块的情况下构建Godot（是| **否**）"
+msgstr "**module_mono_enabled**\\ =yes | **no**"
 
 #: ../../docs/development/compiling/compiling_with_mono.rst:368
 msgid "Build Godot with the Mono module enabled."
@@ -696,7 +675,6 @@ msgstr ""
 "是否在构建中包括胶水源文件，并将 ``MONO_GLUE_DISABLED`` 定义为预处理器宏。"
 
 #: ../../docs/development/compiling/compiling_with_mono.rst:375
-#, fuzzy
 msgid "**mono_prefix**\\ =path"
 msgstr "**mono_prefix**\\ =path"
 
