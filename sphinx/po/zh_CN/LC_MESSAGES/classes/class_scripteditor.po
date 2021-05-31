@@ -1,0 +1,205 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2021, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-31 12:15+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_scripteditor.rst:10
+msgid "ScriptEditor"
+msgstr ""
+
+#: ../../docs/classes/class_scripteditor.rst:12
+msgid ""
+"**Inherits:** :ref:`PanelContainer<class_PanelContainer>` **<** :ref:"
+"`Container<class_Container>` **<** :ref:`Control<class_Control>` **<** :ref:"
+"`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:"
+"`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_scripteditor.rst:14
+msgid "Godot editor's script editor."
+msgstr ""
+
+#: ../../docs/classes/class_scripteditor.rst:17
+msgid "Description"
+msgstr "描述"
+
+#: ../../docs/classes/class_scripteditor.rst:19
+msgid ""
+"**Note:** This class shouldn't be instantiated directly. Instead, access the "
+"singleton using :ref:`EditorInterface."
+"get_script_editor<class_EditorInterface_method_get_script_editor>`."
+msgstr ""
+
+#: ../../docs/classes/class_scripteditor.rst:22
+msgid "Methods"
+msgstr "方法"
+
+#: ../../docs/classes/class_scripteditor.rst:25
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_scripteditor.rst:25
+msgid ""
+":ref:`can_drop_data_fw<class_ScriptEditor_method_can_drop_data_fw>` **(** :"
+"ref:`Vector2<class_Vector2>` point, :ref:`Variant<class_Variant>` data, :ref:"
+"`Control<class_Control>` from **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_scripteditor.rst:27
+#: ../../docs/classes/class_scripteditor.rst:35
+#: ../../docs/classes/class_scripteditor.rst:37
+msgid "void"
+msgstr ""
+
+#: ../../docs/classes/class_scripteditor.rst:27
+msgid ""
+":ref:`drop_data_fw<class_ScriptEditor_method_drop_data_fw>` **(** :ref:"
+"`Vector2<class_Vector2>` point, :ref:`Variant<class_Variant>` data, :ref:"
+"`Control<class_Control>` from **)**"
+msgstr ""
+
+#: ../../docs/classes/class_scripteditor.rst:29
+msgid ":ref:`Script<class_Script>`"
+msgstr ""
+
+#: ../../docs/classes/class_scripteditor.rst:29
+msgid ""
+":ref:`get_current_script<class_ScriptEditor_method_get_current_script>` "
+"**(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_scripteditor.rst:31
+msgid ":ref:`Variant<class_Variant>`"
+msgstr ""
+
+#: ../../docs/classes/class_scripteditor.rst:31
+msgid ""
+":ref:`get_drag_data_fw<class_ScriptEditor_method_get_drag_data_fw>` **(** :"
+"ref:`Vector2<class_Vector2>` point, :ref:`Control<class_Control>` from **)**"
+msgstr ""
+
+#: ../../docs/classes/class_scripteditor.rst:33
+msgid ":ref:`Array<class_Array>`"
+msgstr ""
+
+#: ../../docs/classes/class_scripteditor.rst:33
+msgid ""
+":ref:`get_open_scripts<class_ScriptEditor_method_get_open_scripts>` **(** "
+"**)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_scripteditor.rst:35
+msgid ""
+":ref:`goto_line<class_ScriptEditor_method_goto_line>` **(** :ref:"
+"`int<class_int>` line_number **)**"
+msgstr ""
+
+#: ../../docs/classes/class_scripteditor.rst:37
+msgid ""
+":ref:"
+"`open_script_create_dialog<class_ScriptEditor_method_open_script_create_dialog>` "
+"**(** :ref:`String<class_String>` base_name, :ref:`String<class_String>` "
+"base_path **)**"
+msgstr ""
+
+#: ../../docs/classes/class_scripteditor.rst:41
+msgid "Signals"
+msgstr "信号"
+
+#: ../../docs/classes/class_scripteditor.rst:45
+msgid ""
+"**editor_script_changed** **(** :ref:`Script<class_Script>` script **)**"
+msgstr ""
+
+#: ../../docs/classes/class_scripteditor.rst:47
+msgid ""
+"Emitted when user changed active script. Argument is a freshly activated :"
+"ref:`Script<class_Script>`."
+msgstr ""
+
+#: ../../docs/classes/class_scripteditor.rst:53
+msgid "**script_close** **(** :ref:`Script<class_Script>` script **)**"
+msgstr ""
+
+#: ../../docs/classes/class_scripteditor.rst:55
+msgid ""
+"Emitted when editor is about to close the active script. Argument is a :ref:"
+"`Script<class_Script>` that is going to be closed."
+msgstr ""
+
+#: ../../docs/classes/class_scripteditor.rst:58
+msgid "Method Descriptions"
+msgstr "方法说明"
+
+#: ../../docs/classes/class_scripteditor.rst:62
+msgid ""
+":ref:`bool<class_bool>` **can_drop_data_fw** **(** :ref:"
+"`Vector2<class_Vector2>` point, :ref:`Variant<class_Variant>` data, :ref:"
+"`Control<class_Control>` from **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_scripteditor.rst:68
+msgid ""
+"void **drop_data_fw** **(** :ref:`Vector2<class_Vector2>` point, :ref:"
+"`Variant<class_Variant>` data, :ref:`Control<class_Control>` from **)**"
+msgstr ""
+
+#: ../../docs/classes/class_scripteditor.rst:74
+msgid ":ref:`Script<class_Script>` **get_current_script** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_scripteditor.rst:76
+msgid ""
+"Returns a :ref:`Script<class_Script>` that is currently active in editor."
+msgstr ""
+
+#: ../../docs/classes/class_scripteditor.rst:82
+msgid ""
+":ref:`Variant<class_Variant>` **get_drag_data_fw** **(** :ref:"
+"`Vector2<class_Vector2>` point, :ref:`Control<class_Control>` from **)**"
+msgstr ""
+
+#: ../../docs/classes/class_scripteditor.rst:88
+msgid ":ref:`Array<class_Array>` **get_open_scripts** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_scripteditor.rst:90
+msgid ""
+"Returns an array with all :ref:`Script<class_Script>` objects which are "
+"currently open in editor."
+msgstr ""
+
+#: ../../docs/classes/class_scripteditor.rst:96
+msgid "void **goto_line** **(** :ref:`int<class_int>` line_number **)**"
+msgstr ""
+
+#: ../../docs/classes/class_scripteditor.rst:98
+msgid "Goes to the specified line in the current script."
+msgstr ""
+
+#: ../../docs/classes/class_scripteditor.rst:104
+msgid ""
+"void **open_script_create_dialog** **(** :ref:`String<class_String>` "
+"base_name, :ref:`String<class_String>` base_path **)**"
+msgstr ""
+
+#: ../../docs/classes/class_scripteditor.rst:106
+msgid ""
+"Opens the script create dialog. The script will extend ``base_name``. The "
+"file extension can be omitted from ``base_path``. It will be added based on "
+"the selected scripting language."
+msgstr ""

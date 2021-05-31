@@ -1,0 +1,337 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2021, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-31 12:15+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_timer.rst:10
+msgid "Timer"
+msgstr ""
+
+#: ../../docs/classes/class_timer.rst:12
+msgid "**Inherits:** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_timer.rst:14
+msgid "A countdown timer."
+msgstr "倒数计时器。"
+
+#: ../../docs/classes/class_timer.rst:17
+msgid "Description"
+msgstr "描述"
+
+#: ../../docs/classes/class_timer.rst:19
+msgid ""
+"Counts down a specified interval and emits a signal on reaching 0. Can be "
+"set to repeat or \"one-shot\" mode."
+msgstr ""
+
+#: ../../docs/classes/class_timer.rst:21
+msgid ""
+"**Note:** To create an one-shot timer without instantiating a node, use :ref:"
+"`SceneTree.create_timer<class_SceneTree_method_create_timer>`."
+msgstr ""
+
+#: ../../docs/classes/class_timer.rst:24
+msgid "Tutorials"
+msgstr "教程"
+
+#: ../../docs/classes/class_timer.rst:26
+msgid ""
+"`https://godotengine.org/asset-library/asset/515 <https://godotengine.org/"
+"asset-library/asset/515>`_"
+msgstr ""
+
+#: ../../docs/classes/class_timer.rst:29
+msgid "Properties"
+msgstr "属性"
+
+#: ../../docs/classes/class_timer.rst:32 ../../docs/classes/class_timer.rst:34
+#: ../../docs/classes/class_timer.rst:36 ../../docs/classes/class_timer.rst:49
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_timer.rst:32
+msgid ":ref:`autostart<class_Timer_property_autostart>`"
+msgstr ""
+
+#: ../../docs/classes/class_timer.rst:32 ../../docs/classes/class_timer.rst:34
+#: ../../docs/classes/class_timer.rst:88 ../../docs/classes/class_timer.rst:106
+msgid "``false``"
+msgstr ""
+
+#: ../../docs/classes/class_timer.rst:34
+msgid ":ref:`one_shot<class_Timer_property_one_shot>`"
+msgstr ""
+
+#: ../../docs/classes/class_timer.rst:36
+msgid ":ref:`paused<class_Timer_property_paused>`"
+msgstr ""
+
+#: ../../docs/classes/class_timer.rst:38
+msgid ":ref:`TimerProcessMode<enum_Timer_TimerProcessMode>`"
+msgstr ""
+
+#: ../../docs/classes/class_timer.rst:38
+msgid ":ref:`process_mode<class_Timer_property_process_mode>`"
+msgstr ""
+
+#: ../../docs/classes/class_timer.rst:38 ../../docs/classes/class_timer.rst:136
+msgid "``1``"
+msgstr ""
+
+#: ../../docs/classes/class_timer.rst:40 ../../docs/classes/class_timer.rst:42
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../../docs/classes/class_timer.rst:40
+msgid ":ref:`time_left<class_Timer_property_time_left>`"
+msgstr ""
+
+#: ../../docs/classes/class_timer.rst:42
+msgid ":ref:`wait_time<class_Timer_property_wait_time>`"
+msgstr ""
+
+#: ../../docs/classes/class_timer.rst:42 ../../docs/classes/class_timer.rst:166
+msgid "``1.0``"
+msgstr ""
+
+#: ../../docs/classes/class_timer.rst:46
+msgid "Methods"
+msgstr "方法"
+
+#: ../../docs/classes/class_timer.rst:49
+msgid ":ref:`is_stopped<class_Timer_method_is_stopped>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_timer.rst:51 ../../docs/classes/class_timer.rst:53
+msgid "void"
+msgstr ""
+
+#: ../../docs/classes/class_timer.rst:51
+msgid ""
+":ref:`start<class_Timer_method_start>` **(** :ref:`float<class_float>` "
+"time_sec=-1 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_timer.rst:53
+msgid ":ref:`stop<class_Timer_method_stop>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_timer.rst:57
+msgid "Signals"
+msgstr "信号"
+
+#: ../../docs/classes/class_timer.rst:61
+msgid "**timeout** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_timer.rst:63
+msgid "Emitted when the timer reaches 0."
+msgstr ""
+
+#: ../../docs/classes/class_timer.rst:66
+msgid "Enumerations"
+msgstr "枚举"
+
+#: ../../docs/classes/class_timer.rst:74
+msgid "enum **TimerProcessMode**:"
+msgstr ""
+
+#: ../../docs/classes/class_timer.rst:76
+msgid ""
+"**TIMER_PROCESS_PHYSICS** = **0** --- Update the timer during the physics "
+"step at each frame (fixed framerate processing)."
+msgstr ""
+
+#: ../../docs/classes/class_timer.rst:78
+msgid ""
+"**TIMER_PROCESS_IDLE** = **1** --- Update the timer during the idle time at "
+"each frame."
+msgstr ""
+
+#: ../../docs/classes/class_timer.rst:81
+msgid "Property Descriptions"
+msgstr "属性说明"
+
+#: ../../docs/classes/class_timer.rst:85
+msgid ":ref:`bool<class_bool>` **autostart**"
+msgstr ""
+
+#: ../../docs/classes/class_timer.rst:88 ../../docs/classes/class_timer.rst:106
+#: ../../docs/classes/class_timer.rst:136
+#: ../../docs/classes/class_timer.rst:166
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_timer.rst:90 ../../docs/classes/class_timer.rst:108
+#: ../../docs/classes/class_timer.rst:122
+#: ../../docs/classes/class_timer.rst:138
+#: ../../docs/classes/class_timer.rst:168
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_timer.rst:90
+msgid "set_autostart(value)"
+msgstr ""
+
+#: ../../docs/classes/class_timer.rst:92 ../../docs/classes/class_timer.rst:110
+#: ../../docs/classes/class_timer.rst:124
+#: ../../docs/classes/class_timer.rst:140
+#: ../../docs/classes/class_timer.rst:152
+#: ../../docs/classes/class_timer.rst:170
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_timer.rst:92
+msgid "has_autostart()"
+msgstr ""
+
+#: ../../docs/classes/class_timer.rst:95
+msgid ""
+"If ``true``, the timer will automatically start when entering the scene tree."
+msgstr ""
+
+#: ../../docs/classes/class_timer.rst:97
+msgid ""
+"**Note:** This property is automatically set to ``false`` after the timer "
+"enters the scene tree and starts."
+msgstr ""
+
+#: ../../docs/classes/class_timer.rst:103
+msgid ":ref:`bool<class_bool>` **one_shot**"
+msgstr ""
+
+#: ../../docs/classes/class_timer.rst:108
+msgid "set_one_shot(value)"
+msgstr ""
+
+#: ../../docs/classes/class_timer.rst:110
+msgid "is_one_shot()"
+msgstr ""
+
+#: ../../docs/classes/class_timer.rst:113
+msgid ""
+"If ``true``, the timer will stop when reaching 0. If ``false``, it will "
+"restart."
+msgstr ""
+
+#: ../../docs/classes/class_timer.rst:119
+msgid ":ref:`bool<class_bool>` **paused**"
+msgstr ""
+
+#: ../../docs/classes/class_timer.rst:122
+msgid "set_paused(value)"
+msgstr ""
+
+#: ../../docs/classes/class_timer.rst:124
+msgid "is_paused()"
+msgstr ""
+
+#: ../../docs/classes/class_timer.rst:127
+msgid ""
+"If ``true``, the timer is paused and will not process until it is unpaused "
+"again, even if :ref:`start<class_Timer_method_start>` is called."
+msgstr ""
+
+#: ../../docs/classes/class_timer.rst:133
+msgid ":ref:`TimerProcessMode<enum_Timer_TimerProcessMode>` **process_mode**"
+msgstr ""
+
+#: ../../docs/classes/class_timer.rst:138
+msgid "set_timer_process_mode(value)"
+msgstr ""
+
+#: ../../docs/classes/class_timer.rst:140
+msgid "get_timer_process_mode()"
+msgstr ""
+
+#: ../../docs/classes/class_timer.rst:143
+msgid ""
+"Processing mode. See :ref:`TimerProcessMode<enum_Timer_TimerProcessMode>`."
+msgstr ""
+
+#: ../../docs/classes/class_timer.rst:149
+msgid ":ref:`float<class_float>` **time_left**"
+msgstr ""
+
+#: ../../docs/classes/class_timer.rst:152
+msgid "get_time_left()"
+msgstr ""
+
+#: ../../docs/classes/class_timer.rst:155
+msgid ""
+"The timer's remaining time in seconds. Returns 0 if the timer is inactive."
+msgstr ""
+
+#: ../../docs/classes/class_timer.rst:157
+msgid ""
+"**Note:** You cannot set this value. To change the timer's remaining time, "
+"use :ref:`start<class_Timer_method_start>`."
+msgstr ""
+
+#: ../../docs/classes/class_timer.rst:163
+msgid ":ref:`float<class_float>` **wait_time**"
+msgstr ""
+
+#: ../../docs/classes/class_timer.rst:168
+msgid "set_wait_time(value)"
+msgstr ""
+
+#: ../../docs/classes/class_timer.rst:170
+msgid "get_wait_time()"
+msgstr ""
+
+#: ../../docs/classes/class_timer.rst:173
+msgid "Wait time in seconds."
+msgstr ""
+
+#: ../../docs/classes/class_timer.rst:176
+msgid "Method Descriptions"
+msgstr "方法说明"
+
+#: ../../docs/classes/class_timer.rst:180
+msgid ":ref:`bool<class_bool>` **is_stopped** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_timer.rst:182
+msgid "Returns ``true`` if the timer is stopped."
+msgstr ""
+
+#: ../../docs/classes/class_timer.rst:188
+msgid "void **start** **(** :ref:`float<class_float>` time_sec=-1 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_timer.rst:190
+msgid ""
+"Starts the timer. Sets ``wait_time`` to ``time_sec`` if ``time_sec > 0``. "
+"This also resets the remaining time to ``wait_time``."
+msgstr ""
+
+#: ../../docs/classes/class_timer.rst:192
+msgid ""
+"**Note:** this method will not resume a paused timer. See :ref:"
+"`paused<class_Timer_property_paused>`."
+msgstr ""
+
+#: ../../docs/classes/class_timer.rst:198
+msgid "void **stop** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_timer.rst:200
+#, fuzzy
+msgid "Stops the timer."
+msgstr "停止定时器。"

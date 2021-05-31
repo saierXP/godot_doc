@@ -1,0 +1,237 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2021, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-31 12:15+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_windowdialog.rst:10
+msgid "WindowDialog"
+msgstr ""
+
+#: ../../docs/classes/class_windowdialog.rst:12
+msgid ""
+"**Inherits:** :ref:`Popup<class_Popup>` **<** :ref:`Control<class_Control>` "
+"**<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` "
+"**<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_windowdialog.rst:14
+msgid "**Inherited By:** :ref:`AcceptDialog<class_AcceptDialog>`"
+msgstr ""
+
+#: ../../docs/classes/class_windowdialog.rst:16
+msgid "Base class for window dialogs."
+msgstr ""
+
+#: ../../docs/classes/class_windowdialog.rst:19
+msgid "Description"
+msgstr "描述"
+
+#: ../../docs/classes/class_windowdialog.rst:21
+msgid ""
+"Windowdialog is the base class for all window-based dialogs. It's a by-"
+"default toplevel :ref:`Control<class_Control>` that draws a window "
+"decoration and allows motion and resizing."
+msgstr ""
+
+#: ../../docs/classes/class_windowdialog.rst:24
+msgid "Properties"
+msgstr "属性"
+
+#: ../../docs/classes/class_windowdialog.rst:27
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_windowdialog.rst:27
+msgid ":ref:`resizable<class_WindowDialog_property_resizable>`"
+msgstr ""
+
+#: ../../docs/classes/class_windowdialog.rst:27
+#: ../../docs/classes/class_windowdialog.rst:70
+msgid "``false``"
+msgstr ""
+
+#: ../../docs/classes/class_windowdialog.rst:29
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../../docs/classes/class_windowdialog.rst:29
+msgid ":ref:`window_title<class_WindowDialog_property_window_title>`"
+msgstr ""
+
+#: ../../docs/classes/class_windowdialog.rst:29
+#: ../../docs/classes/class_windowdialog.rst:86
+msgid "``\"\"``"
+msgstr ""
+
+#: ../../docs/classes/class_windowdialog.rst:33
+msgid "Methods"
+msgstr "方法"
+
+#: ../../docs/classes/class_windowdialog.rst:36
+msgid ":ref:`TextureButton<class_TextureButton>`"
+msgstr ""
+
+#: ../../docs/classes/class_windowdialog.rst:36
+msgid ""
+":ref:`get_close_button<class_WindowDialog_method_get_close_button>` **(** "
+"**)**"
+msgstr ""
+
+#: ../../docs/classes/class_windowdialog.rst:40
+msgid "Theme Properties"
+msgstr "主题属性"
+
+#: ../../docs/classes/class_windowdialog.rst:43
+#: ../../docs/classes/class_windowdialog.rst:47
+msgid ":ref:`Texture<class_Texture>`"
+msgstr ""
+
+#: ../../docs/classes/class_windowdialog.rst:43
+msgid "close"
+msgstr ""
+
+#: ../../docs/classes/class_windowdialog.rst:45
+#: ../../docs/classes/class_windowdialog.rst:49
+#: ../../docs/classes/class_windowdialog.rst:53
+#: ../../docs/classes/class_windowdialog.rst:59
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../../docs/classes/class_windowdialog.rst:45
+msgid "close_h_ofs"
+msgstr ""
+
+#: ../../docs/classes/class_windowdialog.rst:45
+#: ../../docs/classes/class_windowdialog.rst:49
+msgid "18"
+msgstr ""
+
+#: ../../docs/classes/class_windowdialog.rst:47
+msgid "close_highlight"
+msgstr ""
+
+#: ../../docs/classes/class_windowdialog.rst:49
+msgid "close_v_ofs"
+msgstr ""
+
+#: ../../docs/classes/class_windowdialog.rst:51
+msgid ":ref:`StyleBox<class_StyleBox>`"
+msgstr ""
+
+#: ../../docs/classes/class_windowdialog.rst:51
+msgid "panel"
+msgstr ""
+
+#: ../../docs/classes/class_windowdialog.rst:53
+msgid "scaleborder_size"
+msgstr ""
+
+#: ../../docs/classes/class_windowdialog.rst:53
+msgid "4"
+msgstr ""
+
+#: ../../docs/classes/class_windowdialog.rst:55
+msgid ":ref:`Color<class_Color>`"
+msgstr ""
+
+#: ../../docs/classes/class_windowdialog.rst:55
+msgid "title_color"
+msgstr ""
+
+#: ../../docs/classes/class_windowdialog.rst:55
+msgid "Color( 0, 0, 0, 1 )"
+msgstr ""
+
+#: ../../docs/classes/class_windowdialog.rst:57
+msgid ":ref:`Font<class_Font>`"
+msgstr ""
+
+#: ../../docs/classes/class_windowdialog.rst:57
+msgid "title_font"
+msgstr ""
+
+#: ../../docs/classes/class_windowdialog.rst:59
+msgid "title_height"
+msgstr ""
+
+#: ../../docs/classes/class_windowdialog.rst:59
+msgid "20"
+msgstr ""
+
+#: ../../docs/classes/class_windowdialog.rst:63
+msgid "Property Descriptions"
+msgstr "属性说明"
+
+#: ../../docs/classes/class_windowdialog.rst:67
+msgid ":ref:`bool<class_bool>` **resizable**"
+msgstr ""
+
+#: ../../docs/classes/class_windowdialog.rst:70
+#: ../../docs/classes/class_windowdialog.rst:86
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_windowdialog.rst:72
+#: ../../docs/classes/class_windowdialog.rst:88
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_windowdialog.rst:72
+msgid "set_resizable(value)"
+msgstr ""
+
+#: ../../docs/classes/class_windowdialog.rst:74
+#: ../../docs/classes/class_windowdialog.rst:90
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_windowdialog.rst:74
+msgid "get_resizable()"
+msgstr ""
+
+#: ../../docs/classes/class_windowdialog.rst:77
+msgid "If ``true``, the user can resize the window."
+msgstr ""
+
+#: ../../docs/classes/class_windowdialog.rst:83
+msgid ":ref:`String<class_String>` **window_title**"
+msgstr ""
+
+#: ../../docs/classes/class_windowdialog.rst:88
+msgid "set_title(value)"
+msgstr ""
+
+#: ../../docs/classes/class_windowdialog.rst:90
+msgid "get_title()"
+msgstr ""
+
+#: ../../docs/classes/class_windowdialog.rst:93
+msgid "The text displayed in the window's title bar."
+msgstr ""
+
+#: ../../docs/classes/class_windowdialog.rst:96
+msgid "Method Descriptions"
+msgstr "方法说明"
+
+#: ../../docs/classes/class_windowdialog.rst:100
+msgid ""
+":ref:`TextureButton<class_TextureButton>` **get_close_button** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_windowdialog.rst:102
+msgid "Returns the close :ref:`TextureButton<class_TextureButton>`."
+msgstr ""

@@ -1,0 +1,172 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2021, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-31 12:15+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_inputeventscreentouch.rst:10
+msgid "InputEventScreenTouch"
+msgstr ""
+
+#: ../../docs/classes/class_inputeventscreentouch.rst:12
+msgid ""
+"**Inherits:** :ref:`InputEvent<class_InputEvent>` **<** :ref:"
+"`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :"
+"ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_inputeventscreentouch.rst:14
+msgid "Input event type for screen touch events."
+msgstr ""
+
+#: ../../docs/classes/class_inputeventscreentouch.rst:16
+msgid "(only available on mobile devices)"
+msgstr ""
+
+#: ../../docs/classes/class_inputeventscreentouch.rst:19
+msgid "Description"
+msgstr "描述"
+
+#: ../../docs/classes/class_inputeventscreentouch.rst:21
+msgid ""
+"Stores multi-touch press/release information. Supports touch press, touch "
+"release and :ref:`index<class_InputEventScreenTouch_property_index>` for "
+"multi-touch count and order."
+msgstr ""
+
+#: ../../docs/classes/class_inputeventscreentouch.rst:24
+msgid "Tutorials"
+msgstr "教程"
+
+#: ../../docs/classes/class_inputeventscreentouch.rst:26
+msgid ":doc:`../tutorials/inputs/inputevent`"
+msgstr ""
+
+#: ../../docs/classes/class_inputeventscreentouch.rst:29
+msgid "Properties"
+msgstr "属性"
+
+#: ../../docs/classes/class_inputeventscreentouch.rst:32
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../../docs/classes/class_inputeventscreentouch.rst:32
+msgid ":ref:`index<class_InputEventScreenTouch_property_index>`"
+msgstr ""
+
+#: ../../docs/classes/class_inputeventscreentouch.rst:32
+#: ../../docs/classes/class_inputeventscreentouch.rst:47
+msgid "``0``"
+msgstr ""
+
+#: ../../docs/classes/class_inputeventscreentouch.rst:34
+msgid ":ref:`Vector2<class_Vector2>`"
+msgstr ""
+
+#: ../../docs/classes/class_inputeventscreentouch.rst:34
+msgid ":ref:`position<class_InputEventScreenTouch_property_position>`"
+msgstr ""
+
+#: ../../docs/classes/class_inputeventscreentouch.rst:34
+#: ../../docs/classes/class_inputeventscreentouch.rst:63
+msgid "``Vector2( 0, 0 )``"
+msgstr ""
+
+#: ../../docs/classes/class_inputeventscreentouch.rst:36
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_inputeventscreentouch.rst:36
+msgid ":ref:`pressed<class_InputEventScreenTouch_property_pressed>`"
+msgstr ""
+
+#: ../../docs/classes/class_inputeventscreentouch.rst:36
+#: ../../docs/classes/class_inputeventscreentouch.rst:79
+msgid "``false``"
+msgstr ""
+
+#: ../../docs/classes/class_inputeventscreentouch.rst:40
+msgid "Property Descriptions"
+msgstr "属性说明"
+
+#: ../../docs/classes/class_inputeventscreentouch.rst:44
+msgid ":ref:`int<class_int>` **index**"
+msgstr ""
+
+#: ../../docs/classes/class_inputeventscreentouch.rst:47
+#: ../../docs/classes/class_inputeventscreentouch.rst:63
+#: ../../docs/classes/class_inputeventscreentouch.rst:79
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_inputeventscreentouch.rst:49
+#: ../../docs/classes/class_inputeventscreentouch.rst:65
+#: ../../docs/classes/class_inputeventscreentouch.rst:81
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_inputeventscreentouch.rst:49
+msgid "set_index(value)"
+msgstr ""
+
+#: ../../docs/classes/class_inputeventscreentouch.rst:51
+#: ../../docs/classes/class_inputeventscreentouch.rst:67
+#: ../../docs/classes/class_inputeventscreentouch.rst:83
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_inputeventscreentouch.rst:51
+msgid "get_index()"
+msgstr ""
+
+#: ../../docs/classes/class_inputeventscreentouch.rst:54
+msgid ""
+"The touch index in the case of a multi-touch event. One index = one finger."
+msgstr ""
+
+#: ../../docs/classes/class_inputeventscreentouch.rst:60
+msgid ":ref:`Vector2<class_Vector2>` **position**"
+msgstr ""
+
+#: ../../docs/classes/class_inputeventscreentouch.rst:65
+msgid "set_position(value)"
+msgstr ""
+
+#: ../../docs/classes/class_inputeventscreentouch.rst:67
+msgid "get_position()"
+msgstr ""
+
+#: ../../docs/classes/class_inputeventscreentouch.rst:70
+msgid "The touch position."
+msgstr "触摸位置。"
+
+#: ../../docs/classes/class_inputeventscreentouch.rst:76
+msgid ":ref:`bool<class_bool>` **pressed**"
+msgstr ""
+
+#: ../../docs/classes/class_inputeventscreentouch.rst:81
+msgid "set_pressed(value)"
+msgstr ""
+
+#: ../../docs/classes/class_inputeventscreentouch.rst:83
+msgid "is_pressed()"
+msgstr ""
+
+#: ../../docs/classes/class_inputeventscreentouch.rst:86
+msgid ""
+"If ``true``, the touch's state is pressed. If ``false``, the touch's state "
+"is released."
+msgstr ""

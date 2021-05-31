@@ -1,0 +1,515 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2021, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-31 12:15+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_editorfiledialog.rst:10
+msgid "EditorFileDialog"
+msgstr ""
+
+#: ../../docs/classes/class_editorfiledialog.rst:12
+msgid ""
+"**Inherits:** :ref:`ConfirmationDialog<class_ConfirmationDialog>` **<** :ref:"
+"`AcceptDialog<class_AcceptDialog>` **<** :ref:"
+"`WindowDialog<class_WindowDialog>` **<** :ref:`Popup<class_Popup>` **<** :"
+"ref:`Control<class_Control>` **<** :ref:`CanvasItem<class_CanvasItem>` "
+"**<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_editorfiledialog.rst:14
+msgid ""
+"A modified version of :ref:`FileDialog<class_FileDialog>` used by the editor."
+msgstr ""
+
+#: ../../docs/classes/class_editorfiledialog.rst:17
+msgid "Properties"
+msgstr "属性"
+
+#: ../../docs/classes/class_editorfiledialog.rst:20
+msgid ":ref:`Access<enum_EditorFileDialog_Access>`"
+msgstr ""
+
+#: ../../docs/classes/class_editorfiledialog.rst:20
+msgid ":ref:`access<class_EditorFileDialog_property_access>`"
+msgstr ""
+
+#: ../../docs/classes/class_editorfiledialog.rst:20
+#: ../../docs/classes/class_editorfiledialog.rst:32
+#: ../../docs/classes/class_editorfiledialog.rst:148
+#: ../../docs/classes/class_editorfiledialog.rst:228
+msgid "``0``"
+msgstr ""
+
+#: ../../docs/classes/class_editorfiledialog.rst:22
+#: ../../docs/classes/class_editorfiledialog.rst:24
+#: ../../docs/classes/class_editorfiledialog.rst:26
+#: ../../docs/classes/class_editorfiledialog.rst:40
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../../docs/classes/class_editorfiledialog.rst:22
+msgid ":ref:`current_dir<class_EditorFileDialog_property_current_dir>`"
+msgstr ""
+
+#: ../../docs/classes/class_editorfiledialog.rst:22
+#: ../../docs/classes/class_editorfiledialog.rst:26
+#: ../../docs/classes/class_editorfiledialog.rst:164
+#: ../../docs/classes/class_editorfiledialog.rst:196
+msgid "``\"res://\"``"
+msgstr ""
+
+#: ../../docs/classes/class_editorfiledialog.rst:24
+msgid ":ref:`current_file<class_EditorFileDialog_property_current_file>`"
+msgstr ""
+
+#: ../../docs/classes/class_editorfiledialog.rst:24
+#: ../../docs/classes/class_editorfiledialog.rst:180
+msgid "``\"\"``"
+msgstr ""
+
+#: ../../docs/classes/class_editorfiledialog.rst:26
+msgid ":ref:`current_path<class_EditorFileDialog_property_current_path>`"
+msgstr ""
+
+#: ../../docs/classes/class_editorfiledialog.rst:28
+#: ../../docs/classes/class_editorfiledialog.rst:30
+#: ../../docs/classes/class_editorfiledialog.rst:36
+#: ../../docs/classes/class_editorfiledialog.rst:38
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_editorfiledialog.rst:28
+msgid "dialog_hide_on_ok"
+msgstr ""
+
+#: ../../docs/classes/class_editorfiledialog.rst:28
+msgid "``false`` *(parent override)*"
+msgstr ""
+
+#: ../../docs/classes/class_editorfiledialog.rst:30
+msgid ""
+":ref:"
+"`disable_overwrite_warning<class_EditorFileDialog_property_disable_overwrite_warning>`"
+msgstr ""
+
+#: ../../docs/classes/class_editorfiledialog.rst:30
+#: ../../docs/classes/class_editorfiledialog.rst:38
+#: ../../docs/classes/class_editorfiledialog.rst:212
+#: ../../docs/classes/class_editorfiledialog.rst:260
+msgid "``false``"
+msgstr ""
+
+#: ../../docs/classes/class_editorfiledialog.rst:32
+msgid ":ref:`DisplayMode<enum_EditorFileDialog_DisplayMode>`"
+msgstr ""
+
+#: ../../docs/classes/class_editorfiledialog.rst:32
+msgid ":ref:`display_mode<class_EditorFileDialog_property_display_mode>`"
+msgstr ""
+
+#: ../../docs/classes/class_editorfiledialog.rst:34
+msgid ":ref:`Mode<enum_EditorFileDialog_Mode>`"
+msgstr ""
+
+#: ../../docs/classes/class_editorfiledialog.rst:34
+msgid ":ref:`mode<class_EditorFileDialog_property_mode>`"
+msgstr ""
+
+#: ../../docs/classes/class_editorfiledialog.rst:34
+#: ../../docs/classes/class_editorfiledialog.rst:244
+msgid "``4``"
+msgstr ""
+
+#: ../../docs/classes/class_editorfiledialog.rst:36
+msgid "resizable"
+msgstr ""
+
+#: ../../docs/classes/class_editorfiledialog.rst:36
+msgid "``true`` *(parent override)*"
+msgstr ""
+
+#: ../../docs/classes/class_editorfiledialog.rst:38
+msgid ""
+":ref:`show_hidden_files<class_EditorFileDialog_property_show_hidden_files>`"
+msgstr ""
+
+#: ../../docs/classes/class_editorfiledialog.rst:40
+msgid "window_title"
+msgstr ""
+
+#: ../../docs/classes/class_editorfiledialog.rst:40
+msgid "``\"Save a File\"`` *(parent override)*"
+msgstr ""
+
+#: ../../docs/classes/class_editorfiledialog.rst:44
+msgid "Methods"
+msgstr "方法"
+
+#: ../../docs/classes/class_editorfiledialog.rst:47
+#: ../../docs/classes/class_editorfiledialog.rst:49
+#: ../../docs/classes/class_editorfiledialog.rst:53
+msgid "void"
+msgstr ""
+
+#: ../../docs/classes/class_editorfiledialog.rst:47
+msgid ""
+":ref:`add_filter<class_EditorFileDialog_method_add_filter>` **(** :ref:"
+"`String<class_String>` filter **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorfiledialog.rst:49
+msgid ""
+":ref:`clear_filters<class_EditorFileDialog_method_clear_filters>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorfiledialog.rst:51
+msgid ":ref:`VBoxContainer<class_VBoxContainer>`"
+msgstr ""
+
+#: ../../docs/classes/class_editorfiledialog.rst:51
+msgid ":ref:`get_vbox<class_EditorFileDialog_method_get_vbox>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorfiledialog.rst:53
+msgid ":ref:`invalidate<class_EditorFileDialog_method_invalidate>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorfiledialog.rst:57
+msgid "Signals"
+msgstr "信号"
+
+#: ../../docs/classes/class_editorfiledialog.rst:61
+msgid "**dir_selected** **(** :ref:`String<class_String>` dir **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorfiledialog.rst:63
+msgid "Emitted when a directory is selected."
+msgstr "选择目录时发出。"
+
+#: ../../docs/classes/class_editorfiledialog.rst:69
+msgid "**file_selected** **(** :ref:`String<class_String>` path **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorfiledialog.rst:71
+msgid "Emitted when a file is selected."
+msgstr "选择文件时发出。"
+
+#: ../../docs/classes/class_editorfiledialog.rst:77
+msgid ""
+"**files_selected** **(** :ref:`PoolStringArray<class_PoolStringArray>` paths "
+"**)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorfiledialog.rst:79
+msgid "Emitted when multiple files are selected."
+msgstr "选择多个文件时发出。"
+
+#: ../../docs/classes/class_editorfiledialog.rst:82
+msgid "Enumerations"
+msgstr "枚举"
+
+#: ../../docs/classes/class_editorfiledialog.rst:96
+msgid "enum **Mode**:"
+msgstr ""
+
+#: ../../docs/classes/class_editorfiledialog.rst:98
+msgid ""
+"**MODE_OPEN_FILE** = **0** --- The ``EditorFileDialog`` can select only one "
+"file. Accepting the window will open the file."
+msgstr ""
+
+#: ../../docs/classes/class_editorfiledialog.rst:100
+msgid ""
+"**MODE_OPEN_FILES** = **1** --- The ``EditorFileDialog`` can select multiple "
+"files. Accepting the window will open all files."
+msgstr ""
+
+#: ../../docs/classes/class_editorfiledialog.rst:102
+msgid ""
+"**MODE_OPEN_DIR** = **2** --- The ``EditorFileDialog`` can select only one "
+"directory. Accepting the window will open the directory."
+msgstr ""
+
+#: ../../docs/classes/class_editorfiledialog.rst:104
+msgid ""
+"**MODE_OPEN_ANY** = **3** --- The ``EditorFileDialog`` can select a file or "
+"directory. Accepting the window will open it."
+msgstr ""
+
+#: ../../docs/classes/class_editorfiledialog.rst:106
+msgid ""
+"**MODE_SAVE_FILE** = **4** --- The ``EditorFileDialog`` can select only one "
+"file. Accepting the window will save the file."
+msgstr ""
+
+#: ../../docs/classes/class_editorfiledialog.rst:118
+msgid "enum **Access**:"
+msgstr ""
+
+#: ../../docs/classes/class_editorfiledialog.rst:120
+msgid ""
+"**ACCESS_RESOURCES** = **0** --- The ``EditorFileDialog`` can only view "
+"``res://`` directory contents."
+msgstr ""
+
+#: ../../docs/classes/class_editorfiledialog.rst:122
+msgid ""
+"**ACCESS_USERDATA** = **1** --- The ``EditorFileDialog`` can only view "
+"``user://`` directory contents."
+msgstr ""
+
+#: ../../docs/classes/class_editorfiledialog.rst:124
+msgid ""
+"**ACCESS_FILESYSTEM** = **2** --- The ``EditorFileDialog`` can view the "
+"entire local file system."
+msgstr ""
+
+#: ../../docs/classes/class_editorfiledialog.rst:134
+msgid "enum **DisplayMode**:"
+msgstr ""
+
+#: ../../docs/classes/class_editorfiledialog.rst:136
+msgid ""
+"**DISPLAY_THUMBNAILS** = **0** --- The ``EditorFileDialog`` displays "
+"resources as thumbnails."
+msgstr ""
+
+#: ../../docs/classes/class_editorfiledialog.rst:138
+msgid ""
+"**DISPLAY_LIST** = **1** --- The ``EditorFileDialog`` displays resources as "
+"a list of filenames."
+msgstr ""
+
+#: ../../docs/classes/class_editorfiledialog.rst:141
+msgid "Property Descriptions"
+msgstr "属性说明"
+
+#: ../../docs/classes/class_editorfiledialog.rst:145
+msgid ":ref:`Access<enum_EditorFileDialog_Access>` **access**"
+msgstr ""
+
+#: ../../docs/classes/class_editorfiledialog.rst:148
+#: ../../docs/classes/class_editorfiledialog.rst:164
+#: ../../docs/classes/class_editorfiledialog.rst:180
+#: ../../docs/classes/class_editorfiledialog.rst:196
+#: ../../docs/classes/class_editorfiledialog.rst:212
+#: ../../docs/classes/class_editorfiledialog.rst:228
+#: ../../docs/classes/class_editorfiledialog.rst:244
+#: ../../docs/classes/class_editorfiledialog.rst:260
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_editorfiledialog.rst:150
+#: ../../docs/classes/class_editorfiledialog.rst:166
+#: ../../docs/classes/class_editorfiledialog.rst:182
+#: ../../docs/classes/class_editorfiledialog.rst:198
+#: ../../docs/classes/class_editorfiledialog.rst:214
+#: ../../docs/classes/class_editorfiledialog.rst:230
+#: ../../docs/classes/class_editorfiledialog.rst:246
+#: ../../docs/classes/class_editorfiledialog.rst:262
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_editorfiledialog.rst:150
+msgid "set_access(value)"
+msgstr ""
+
+#: ../../docs/classes/class_editorfiledialog.rst:152
+#: ../../docs/classes/class_editorfiledialog.rst:168
+#: ../../docs/classes/class_editorfiledialog.rst:184
+#: ../../docs/classes/class_editorfiledialog.rst:200
+#: ../../docs/classes/class_editorfiledialog.rst:216
+#: ../../docs/classes/class_editorfiledialog.rst:232
+#: ../../docs/classes/class_editorfiledialog.rst:248
+#: ../../docs/classes/class_editorfiledialog.rst:264
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_editorfiledialog.rst:152
+msgid "get_access()"
+msgstr ""
+
+#: ../../docs/classes/class_editorfiledialog.rst:155
+msgid ""
+"The location from which the user may select a file, including ``res://``, "
+"``user://``, and the local file system."
+msgstr ""
+
+#: ../../docs/classes/class_editorfiledialog.rst:161
+msgid ":ref:`String<class_String>` **current_dir**"
+msgstr ""
+
+#: ../../docs/classes/class_editorfiledialog.rst:166
+msgid "set_current_dir(value)"
+msgstr ""
+
+#: ../../docs/classes/class_editorfiledialog.rst:168
+msgid "get_current_dir()"
+msgstr ""
+
+#: ../../docs/classes/class_editorfiledialog.rst:171
+msgid "The currently occupied directory."
+msgstr "当前占用的目录。"
+
+#: ../../docs/classes/class_editorfiledialog.rst:177
+msgid ":ref:`String<class_String>` **current_file**"
+msgstr ""
+
+#: ../../docs/classes/class_editorfiledialog.rst:182
+msgid "set_current_file(value)"
+msgstr ""
+
+#: ../../docs/classes/class_editorfiledialog.rst:184
+msgid "get_current_file()"
+msgstr ""
+
+#: ../../docs/classes/class_editorfiledialog.rst:187
+msgid "The currently selected file."
+msgstr "当前选择的文件。"
+
+#: ../../docs/classes/class_editorfiledialog.rst:193
+msgid ":ref:`String<class_String>` **current_path**"
+msgstr ""
+
+#: ../../docs/classes/class_editorfiledialog.rst:198
+msgid "set_current_path(value)"
+msgstr ""
+
+#: ../../docs/classes/class_editorfiledialog.rst:200
+msgid "get_current_path()"
+msgstr ""
+
+#: ../../docs/classes/class_editorfiledialog.rst:203
+msgid "The file system path in the address bar."
+msgstr "地址栏中的文件系统路径。"
+
+#: ../../docs/classes/class_editorfiledialog.rst:209
+msgid ":ref:`bool<class_bool>` **disable_overwrite_warning**"
+msgstr ""
+
+#: ../../docs/classes/class_editorfiledialog.rst:214
+msgid "set_disable_overwrite_warning(value)"
+msgstr ""
+
+#: ../../docs/classes/class_editorfiledialog.rst:216
+msgid "is_overwrite_warning_disabled()"
+msgstr ""
+
+#: ../../docs/classes/class_editorfiledialog.rst:219
+msgid ""
+"If ``true``, the ``EditorFileDialog`` will not warn the user before "
+"overwriting files."
+msgstr ""
+
+#: ../../docs/classes/class_editorfiledialog.rst:225
+msgid ":ref:`DisplayMode<enum_EditorFileDialog_DisplayMode>` **display_mode**"
+msgstr ""
+
+#: ../../docs/classes/class_editorfiledialog.rst:230
+msgid "set_display_mode(value)"
+msgstr ""
+
+#: ../../docs/classes/class_editorfiledialog.rst:232
+msgid "get_display_mode()"
+msgstr ""
+
+#: ../../docs/classes/class_editorfiledialog.rst:235
+msgid ""
+"The view format in which the ``EditorFileDialog`` displays resources to the "
+"user."
+msgstr ""
+
+#: ../../docs/classes/class_editorfiledialog.rst:241
+msgid ":ref:`Mode<enum_EditorFileDialog_Mode>` **mode**"
+msgstr ""
+
+#: ../../docs/classes/class_editorfiledialog.rst:246
+msgid "set_mode(value)"
+msgstr ""
+
+#: ../../docs/classes/class_editorfiledialog.rst:248
+msgid "get_mode()"
+msgstr ""
+
+#: ../../docs/classes/class_editorfiledialog.rst:251
+msgid ""
+"The purpose of the ``EditorFileDialog``, which defines the allowed behaviors."
+msgstr ""
+
+#: ../../docs/classes/class_editorfiledialog.rst:257
+msgid ":ref:`bool<class_bool>` **show_hidden_files**"
+msgstr ""
+
+#: ../../docs/classes/class_editorfiledialog.rst:262
+msgid "set_show_hidden_files(value)"
+msgstr ""
+
+#: ../../docs/classes/class_editorfiledialog.rst:264
+msgid "is_showing_hidden_files()"
+msgstr ""
+
+#: ../../docs/classes/class_editorfiledialog.rst:267
+msgid ""
+"If ``true``, hidden files and directories will be visible in the "
+"``EditorFileDialog``."
+msgstr ""
+
+#: ../../docs/classes/class_editorfiledialog.rst:270
+msgid "Method Descriptions"
+msgstr "方法说明"
+
+#: ../../docs/classes/class_editorfiledialog.rst:274
+msgid "void **add_filter** **(** :ref:`String<class_String>` filter **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorfiledialog.rst:276
+msgid ""
+"Adds a comma-delimited file extension filter option to the "
+"``EditorFileDialog`` with an optional semi-colon-delimited label."
+msgstr ""
+
+#: ../../docs/classes/class_editorfiledialog.rst:278
+msgid ""
+"For example, ``\"*.tscn, *.scn; Scenes\"`` results in filter text \"Scenes "
+"(\\*.tscn, \\*.scn)\"."
+msgstr ""
+
+#: ../../docs/classes/class_editorfiledialog.rst:284
+msgid "void **clear_filters** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorfiledialog.rst:286
+msgid "Removes all filters except for \"All Files (\\*)\"."
+msgstr ""
+
+#: ../../docs/classes/class_editorfiledialog.rst:292
+msgid ":ref:`VBoxContainer<class_VBoxContainer>` **get_vbox** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorfiledialog.rst:294
+msgid "Returns the ``VBoxContainer`` used to display the file system."
+msgstr ""
+
+#: ../../docs/classes/class_editorfiledialog.rst:300
+msgid "void **invalidate** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorfiledialog.rst:302
+msgid ""
+"Notify the ``EditorFileDialog`` that its view of the data is no longer "
+"accurate. Updates the view contents on next view update."
+msgstr ""

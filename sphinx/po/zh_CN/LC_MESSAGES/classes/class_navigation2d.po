@@ -1,0 +1,211 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2021, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-31 12:15+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_navigation2d.rst:10
+msgid "Navigation2D"
+msgstr ""
+
+#: ../../docs/classes/class_navigation2d.rst:12
+msgid ""
+"**Inherits:** :ref:`Node2D<class_Node2D>` **<** :ref:"
+"`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:"
+"`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_navigation2d.rst:14
+msgid "2D navigation and pathfinding node."
+msgstr ""
+
+#: ../../docs/classes/class_navigation2d.rst:17
+msgid "Description"
+msgstr "描述"
+
+#: ../../docs/classes/class_navigation2d.rst:19
+msgid ""
+"Navigation2D provides navigation and pathfinding within a 2D area, specified "
+"as a collection of :ref:`NavigationPolygon<class_NavigationPolygon>` "
+"resources. By default, these are automatically collected from child :ref:"
+"`NavigationPolygonInstance<class_NavigationPolygonInstance>` nodes, but they "
+"can also be added on the fly with :ref:"
+"`navpoly_add<class_Navigation2D_method_navpoly_add>`."
+msgstr ""
+
+#: ../../docs/classes/class_navigation2d.rst:22
+msgid "Tutorials"
+msgstr "教程"
+
+#: ../../docs/classes/class_navigation2d.rst:24
+msgid ""
+"`https://godotengine.org/asset-library/asset/117 <https://godotengine.org/"
+"asset-library/asset/117>`_"
+msgstr ""
+
+#: ../../docs/classes/class_navigation2d.rst:27
+msgid "Methods"
+msgstr "方法"
+
+#: ../../docs/classes/class_navigation2d.rst:30
+msgid ":ref:`Vector2<class_Vector2>`"
+msgstr ""
+
+#: ../../docs/classes/class_navigation2d.rst:30
+msgid ""
+":ref:`get_closest_point<class_Navigation2D_method_get_closest_point>` **(** :"
+"ref:`Vector2<class_Vector2>` to_point **)**"
+msgstr ""
+
+#: ../../docs/classes/class_navigation2d.rst:32
+msgid ":ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_navigation2d.rst:32
+msgid ""
+":ref:"
+"`get_closest_point_owner<class_Navigation2D_method_get_closest_point_owner>` "
+"**(** :ref:`Vector2<class_Vector2>` to_point **)**"
+msgstr ""
+
+#: ../../docs/classes/class_navigation2d.rst:34
+msgid ":ref:`PoolVector2Array<class_PoolVector2Array>`"
+msgstr ""
+
+#: ../../docs/classes/class_navigation2d.rst:34
+msgid ""
+":ref:`get_simple_path<class_Navigation2D_method_get_simple_path>` **(** :ref:"
+"`Vector2<class_Vector2>` start, :ref:`Vector2<class_Vector2>` end, :ref:"
+"`bool<class_bool>` optimize=true **)**"
+msgstr ""
+
+#: ../../docs/classes/class_navigation2d.rst:36
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../../docs/classes/class_navigation2d.rst:36
+msgid ""
+":ref:`navpoly_add<class_Navigation2D_method_navpoly_add>` **(** :ref:"
+"`NavigationPolygon<class_NavigationPolygon>` mesh, :ref:"
+"`Transform2D<class_Transform2D>` xform, :ref:`Object<class_Object>` "
+"owner=null **)**"
+msgstr ""
+
+#: ../../docs/classes/class_navigation2d.rst:38
+#: ../../docs/classes/class_navigation2d.rst:40
+msgid "void"
+msgstr ""
+
+#: ../../docs/classes/class_navigation2d.rst:38
+msgid ""
+":ref:`navpoly_remove<class_Navigation2D_method_navpoly_remove>` **(** :ref:"
+"`int<class_int>` id **)**"
+msgstr ""
+
+#: ../../docs/classes/class_navigation2d.rst:40
+msgid ""
+":ref:"
+"`navpoly_set_transform<class_Navigation2D_method_navpoly_set_transform>` "
+"**(** :ref:`int<class_int>` id, :ref:`Transform2D<class_Transform2D>` xform "
+"**)**"
+msgstr ""
+
+#: ../../docs/classes/class_navigation2d.rst:44
+msgid "Method Descriptions"
+msgstr "方法说明"
+
+#: ../../docs/classes/class_navigation2d.rst:48
+msgid ""
+":ref:`Vector2<class_Vector2>` **get_closest_point** **(** :ref:"
+"`Vector2<class_Vector2>` to_point **)**"
+msgstr ""
+
+#: ../../docs/classes/class_navigation2d.rst:50
+msgid ""
+"Returns the navigation point closest to the point given. Points are in local "
+"coordinate space."
+msgstr ""
+
+#: ../../docs/classes/class_navigation2d.rst:56
+msgid ""
+":ref:`Object<class_Object>` **get_closest_point_owner** **(** :ref:"
+"`Vector2<class_Vector2>` to_point **)**"
+msgstr ""
+
+#: ../../docs/classes/class_navigation2d.rst:58
+msgid ""
+"Returns the owner of the :ref:`NavigationPolygon<class_NavigationPolygon>` "
+"which contains the navigation point closest to the point given. This is "
+"usually a :ref:`NavigationPolygonInstance<class_NavigationPolygonInstance>`. "
+"For polygons added via :ref:"
+"`navpoly_add<class_Navigation2D_method_navpoly_add>`, returns the owner that "
+"was given (or ``null`` if the ``owner`` parameter was omitted)."
+msgstr ""
+
+#: ../../docs/classes/class_navigation2d.rst:64
+msgid ""
+":ref:`PoolVector2Array<class_PoolVector2Array>` **get_simple_path** **(** :"
+"ref:`Vector2<class_Vector2>` start, :ref:`Vector2<class_Vector2>` end, :ref:"
+"`bool<class_bool>` optimize=true **)**"
+msgstr ""
+
+#: ../../docs/classes/class_navigation2d.rst:66
+msgid ""
+"Returns the path between two given points. Points are in local coordinate "
+"space. If ``optimize`` is ``true`` (the default), the path is smoothed by "
+"merging path segments where possible."
+msgstr ""
+
+#: ../../docs/classes/class_navigation2d.rst:72
+msgid ""
+":ref:`int<class_int>` **navpoly_add** **(** :ref:"
+"`NavigationPolygon<class_NavigationPolygon>` mesh, :ref:"
+"`Transform2D<class_Transform2D>` xform, :ref:`Object<class_Object>` "
+"owner=null **)**"
+msgstr ""
+
+#: ../../docs/classes/class_navigation2d.rst:74
+msgid ""
+"Adds a :ref:`NavigationPolygon<class_NavigationPolygon>`. Returns an ID for "
+"use with :ref:`navpoly_remove<class_Navigation2D_method_navpoly_remove>` or :"
+"ref:"
+"`navpoly_set_transform<class_Navigation2D_method_navpoly_set_transform>`. If "
+"given, a :ref:`Transform2D<class_Transform2D>` is applied to the polygon. "
+"The optional ``owner`` is used as return value for :ref:"
+"`get_closest_point_owner<class_Navigation2D_method_get_closest_point_owner>`."
+msgstr ""
+
+#: ../../docs/classes/class_navigation2d.rst:80
+msgid "void **navpoly_remove** **(** :ref:`int<class_int>` id **)**"
+msgstr ""
+
+#: ../../docs/classes/class_navigation2d.rst:82
+msgid ""
+"Removes the :ref:`NavigationPolygon<class_NavigationPolygon>` with the given "
+"ID."
+msgstr ""
+
+#: ../../docs/classes/class_navigation2d.rst:88
+msgid ""
+"void **navpoly_set_transform** **(** :ref:`int<class_int>` id, :ref:"
+"`Transform2D<class_Transform2D>` xform **)**"
+msgstr ""
+
+#: ../../docs/classes/class_navigation2d.rst:90
+msgid ""
+"Sets the transform applied to the :ref:"
+"`NavigationPolygon<class_NavigationPolygon>` with the given ID."
+msgstr ""

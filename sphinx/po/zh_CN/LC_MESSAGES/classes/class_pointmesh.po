@@ -1,0 +1,62 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2021, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-31 12:15+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_pointmesh.rst:10
+msgid "PointMesh"
+msgstr ""
+
+#: ../../docs/classes/class_pointmesh.rst:12
+msgid ""
+"**Inherits:** :ref:`PrimitiveMesh<class_PrimitiveMesh>` **<** :ref:"
+"`Mesh<class_Mesh>` **<** :ref:`Resource<class_Resource>` **<** :ref:"
+"`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_pointmesh.rst:14
+msgid "Mesh with a single Point primitive."
+msgstr ""
+
+#: ../../docs/classes/class_pointmesh.rst:17
+msgid "Description"
+msgstr "描述"
+
+#: ../../docs/classes/class_pointmesh.rst:19
+msgid ""
+"The PointMesh is made from a single point. Instead of relying on triangles, "
+"points are rendered as a single rectangle on the screen with a constant "
+"size. They are intended to be used with Particle systems, but can be used as "
+"a cheap way to render constant size billboarded sprites (for example in a "
+"point cloud)."
+msgstr ""
+
+#: ../../docs/classes/class_pointmesh.rst:21
+msgid ""
+"PointMeshes, must be used with a material that has a point size. Point size "
+"can be accessed in a shader with ``POINT_SIZE``, or in a :ref:"
+"`SpatialMaterial<class_SpatialMaterial>` by setting :ref:`SpatialMaterial."
+"flags_use_point_size<class_SpatialMaterial_property_flags_use_point_size>` "
+"and the variable :ref:`SpatialMaterial."
+"params_point_size<class_SpatialMaterial_property_params_point_size>`."
+msgstr ""
+
+#: ../../docs/classes/class_pointmesh.rst:23
+msgid ""
+"When using PointMeshes, properties that normally alter vertices will be "
+"ignored, including billboard mode, grow, and cull face."
+msgstr ""

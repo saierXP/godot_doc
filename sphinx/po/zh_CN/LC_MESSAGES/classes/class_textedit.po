@@ -1,0 +1,2077 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2021, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-31 12:15+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_textedit.rst:10
+msgid "TextEdit"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:12
+msgid ""
+"**Inherits:** :ref:`Control<class_Control>` **<** :ref:"
+"`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:"
+"`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:14
+msgid "Multiline text editing control."
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:17
+msgid "Description"
+msgstr "描述"
+
+#: ../../docs/classes/class_textedit.rst:19
+msgid ""
+"TextEdit is meant for editing large, multiline text. It also has facilities "
+"for editing code, such as syntax highlighting support and multiple levels of "
+"undo/redo."
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:22
+msgid "Properties"
+msgstr "属性"
+
+#: ../../docs/classes/class_textedit.rst:25
+#: ../../docs/classes/class_textedit.rst:27
+#: ../../docs/classes/class_textedit.rst:31
+#: ../../docs/classes/class_textedit.rst:33
+#: ../../docs/classes/class_textedit.rst:35
+#: ../../docs/classes/class_textedit.rst:37
+#: ../../docs/classes/class_textedit.rst:39
+#: ../../docs/classes/class_textedit.rst:43
+#: ../../docs/classes/class_textedit.rst:45
+#: ../../docs/classes/class_textedit.rst:47
+#: ../../docs/classes/class_textedit.rst:49
+#: ../../docs/classes/class_textedit.rst:51
+#: ../../docs/classes/class_textedit.rst:57
+#: ../../docs/classes/class_textedit.rst:59
+#: ../../docs/classes/class_textedit.rst:65
+#: ../../docs/classes/class_textedit.rst:67
+#: ../../docs/classes/class_textedit.rst:69
+#: ../../docs/classes/class_textedit.rst:71
+#: ../../docs/classes/class_textedit.rst:73
+#: ../../docs/classes/class_textedit.rst:79
+#: ../../docs/classes/class_textedit.rst:81
+#: ../../docs/classes/class_textedit.rst:92
+#: ../../docs/classes/class_textedit.rst:140
+#: ../../docs/classes/class_textedit.rst:144
+#: ../../docs/classes/class_textedit.rst:146
+#: ../../docs/classes/class_textedit.rst:148
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:25
+msgid ":ref:`breakpoint_gutter<class_TextEdit_property_breakpoint_gutter>`"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:25
+#: ../../docs/classes/class_textedit.rst:27
+#: ../../docs/classes/class_textedit.rst:31
+#: ../../docs/classes/class_textedit.rst:37
+#: ../../docs/classes/class_textedit.rst:39
+#: ../../docs/classes/class_textedit.rst:43
+#: ../../docs/classes/class_textedit.rst:45
+#: ../../docs/classes/class_textedit.rst:47
+#: ../../docs/classes/class_textedit.rst:49
+#: ../../docs/classes/class_textedit.rst:51
+#: ../../docs/classes/class_textedit.rst:57
+#: ../../docs/classes/class_textedit.rst:59
+#: ../../docs/classes/class_textedit.rst:69
+#: ../../docs/classes/class_textedit.rst:71
+#: ../../docs/classes/class_textedit.rst:73
+#: ../../docs/classes/class_textedit.rst:81
+#: ../../docs/classes/class_textedit.rst:384
+#: ../../docs/classes/class_textedit.rst:400
+#: ../../docs/classes/class_textedit.rst:432
+#: ../../docs/classes/class_textedit.rst:484
+#: ../../docs/classes/class_textedit.rst:500
+#: ../../docs/classes/class_textedit.rst:516
+#: ../../docs/classes/class_textedit.rst:532
+#: ../../docs/classes/class_textedit.rst:548
+#: ../../docs/classes/class_textedit.rst:564
+#: ../../docs/classes/class_textedit.rst:580
+#: ../../docs/classes/class_textedit.rst:612
+#: ../../docs/classes/class_textedit.rst:628
+#: ../../docs/classes/class_textedit.rst:710
+#: ../../docs/classes/class_textedit.rst:726
+#: ../../docs/classes/class_textedit.rst:742
+#: ../../docs/classes/class_textedit.rst:806
+msgid "``false``"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:27
+msgid ":ref:`caret_blink<class_TextEdit_property_caret_blink>`"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:29
+#: ../../docs/classes/class_textedit.rst:63
+#: ../../docs/classes/class_textedit.rst:77
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:29
+msgid ":ref:`caret_blink_speed<class_TextEdit_property_caret_blink_speed>`"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:29
+#: ../../docs/classes/class_textedit.rst:416
+msgid "``0.65``"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:31
+msgid ":ref:`caret_block_mode<class_TextEdit_property_caret_block_mode>`"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:33
+msgid ""
+":ref:"
+"`caret_moving_by_right_click<class_TextEdit_property_caret_moving_by_right_click>`"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:33
+#: ../../docs/classes/class_textedit.rst:35
+#: ../../docs/classes/class_textedit.rst:65
+#: ../../docs/classes/class_textedit.rst:67
+#: ../../docs/classes/class_textedit.rst:79
+#: ../../docs/classes/class_textedit.rst:450
+#: ../../docs/classes/class_textedit.rst:468
+#: ../../docs/classes/class_textedit.rst:676
+#: ../../docs/classes/class_textedit.rst:694
+#: ../../docs/classes/class_textedit.rst:790
+msgid "``true``"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:35
+msgid ""
+":ref:`context_menu_enabled<class_TextEdit_property_context_menu_enabled>`"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:37
+msgid ":ref:`draw_spaces<class_TextEdit_property_draw_spaces>`"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:39
+msgid ":ref:`draw_tabs<class_TextEdit_property_draw_tabs>`"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:41
+msgid ":ref:`FocusMode<enum_Control_FocusMode>`"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:41
+msgid "focus_mode"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:41
+msgid "``2`` *(parent override)*"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:43
+msgid ":ref:`fold_gutter<class_TextEdit_property_fold_gutter>`"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:45
+msgid ":ref:`hiding_enabled<class_TextEdit_property_hiding_enabled>`"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:47
+msgid ""
+":ref:"
+"`highlight_all_occurrences<class_TextEdit_property_highlight_all_occurrences>`"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:49
+msgid ""
+":ref:`highlight_current_line<class_TextEdit_property_highlight_current_line>`"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:51
+msgid ":ref:`minimap_draw<class_TextEdit_property_minimap_draw>`"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:53
+#: ../../docs/classes/class_textedit.rst:61
+#: ../../docs/classes/class_textedit.rst:102
+#: ../../docs/classes/class_textedit.rst:104
+#: ../../docs/classes/class_textedit.rst:124
+#: ../../docs/classes/class_textedit.rst:128
+#: ../../docs/classes/class_textedit.rst:130
+#: ../../docs/classes/class_textedit.rst:134
+#: ../../docs/classes/class_textedit.rst:136
+#: ../../docs/classes/class_textedit.rst:203
+#: ../../docs/classes/class_textedit.rst:205
+#: ../../docs/classes/class_textedit.rst:209
+#: ../../docs/classes/class_textedit.rst:235
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:53
+msgid ":ref:`minimap_width<class_TextEdit_property_minimap_width>`"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:53
+#: ../../docs/classes/class_textedit.rst:596
+msgid "``80``"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:55
+msgid ":ref:`CursorShape<enum_Control_CursorShape>`"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:55
+msgid "mouse_default_cursor_shape"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:55
+msgid "``1`` *(parent override)*"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:57
+msgid ""
+":ref:"
+"`override_selected_font_color<class_TextEdit_property_override_selected_font_color>`"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:59
+msgid ":ref:`readonly<class_TextEdit_property_readonly>`"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:61
+msgid ":ref:`scroll_horizontal<class_TextEdit_property_scroll_horizontal>`"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:61
+#: ../../docs/classes/class_textedit.rst:644
+msgid "``0``"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:63
+msgid ":ref:`scroll_vertical<class_TextEdit_property_scroll_vertical>`"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:63
+#: ../../docs/classes/class_textedit.rst:660
+msgid "``0.0``"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:65
+msgid ":ref:`selecting_enabled<class_TextEdit_property_selecting_enabled>`"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:67
+msgid ""
+":ref:`shortcut_keys_enabled<class_TextEdit_property_shortcut_keys_enabled>`"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:69
+msgid ":ref:`show_line_numbers<class_TextEdit_property_show_line_numbers>`"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:71
+msgid ":ref:`smooth_scrolling<class_TextEdit_property_smooth_scrolling>`"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:73
+msgid ":ref:`syntax_highlighting<class_TextEdit_property_syntax_highlighting>`"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:75
+#: ../../docs/classes/class_textedit.rst:122
+#: ../../docs/classes/class_textedit.rst:132
+#: ../../docs/classes/class_textedit.rst:138
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:75
+msgid ":ref:`text<class_TextEdit_property_text>`"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:75
+#: ../../docs/classes/class_textedit.rst:758
+msgid "``\"\"``"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:77
+msgid ":ref:`v_scroll_speed<class_TextEdit_property_v_scroll_speed>`"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:77
+#: ../../docs/classes/class_textedit.rst:774
+msgid "``80.0``"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:79
+msgid ""
+":ref:"
+"`virtual_keyboard_enabled<class_TextEdit_property_virtual_keyboard_enabled>`"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:81
+msgid ":ref:`wrap_enabled<class_TextEdit_property_wrap_enabled>`"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:85
+msgid "Methods"
+msgstr "方法"
+
+#: ../../docs/classes/class_textedit.rst:88
+#: ../../docs/classes/class_textedit.rst:90
+#: ../../docs/classes/class_textedit.rst:94
+#: ../../docs/classes/class_textedit.rst:96
+#: ../../docs/classes/class_textedit.rst:98
+#: ../../docs/classes/class_textedit.rst:100
+#: ../../docs/classes/class_textedit.rst:106
+#: ../../docs/classes/class_textedit.rst:108
+#: ../../docs/classes/class_textedit.rst:110
+#: ../../docs/classes/class_textedit.rst:112
+#: ../../docs/classes/class_textedit.rst:114
+#: ../../docs/classes/class_textedit.rst:116
+#: ../../docs/classes/class_textedit.rst:142
+#: ../../docs/classes/class_textedit.rst:150
+#: ../../docs/classes/class_textedit.rst:152
+#: ../../docs/classes/class_textedit.rst:154
+#: ../../docs/classes/class_textedit.rst:156
+#: ../../docs/classes/class_textedit.rst:160
+#: ../../docs/classes/class_textedit.rst:162
+#: ../../docs/classes/class_textedit.rst:164
+#: ../../docs/classes/class_textedit.rst:166
+#: ../../docs/classes/class_textedit.rst:168
+#: ../../docs/classes/class_textedit.rst:170
+#: ../../docs/classes/class_textedit.rst:172
+#: ../../docs/classes/class_textedit.rst:174
+msgid "void"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:88
+msgid ""
+":ref:`add_color_region<class_TextEdit_method_add_color_region>` **(** :ref:"
+"`String<class_String>` begin_key, :ref:`String<class_String>` end_key, :ref:"
+"`Color<class_Color>` color, :ref:`bool<class_bool>` line_only=false **)**"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:90
+msgid ""
+":ref:`add_keyword_color<class_TextEdit_method_add_keyword_color>` **(** :ref:"
+"`String<class_String>` keyword, :ref:`Color<class_Color>` color **)**"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:92
+msgid ""
+":ref:`can_fold<class_TextEdit_method_can_fold>` **(** :ref:`int<class_int>` "
+"line **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:94
+msgid ""
+":ref:"
+"`center_viewport_to_cursor<class_TextEdit_method_center_viewport_to_cursor>` "
+"**(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:96
+msgid ":ref:`clear_colors<class_TextEdit_method_clear_colors>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:98
+msgid ""
+":ref:`clear_undo_history<class_TextEdit_method_clear_undo_history>` **(** "
+"**)**"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:100
+msgid ":ref:`copy<class_TextEdit_method_copy>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:102
+msgid ""
+":ref:`cursor_get_column<class_TextEdit_method_cursor_get_column>` **(** "
+"**)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:104
+msgid ""
+":ref:`cursor_get_line<class_TextEdit_method_cursor_get_line>` **(** **)** |"
+"const|"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:106
+msgid ""
+":ref:`cursor_set_column<class_TextEdit_method_cursor_set_column>` **(** :ref:"
+"`int<class_int>` column, :ref:`bool<class_bool>` adjust_viewport=true **)**"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:108
+msgid ""
+":ref:`cursor_set_line<class_TextEdit_method_cursor_set_line>` **(** :ref:"
+"`int<class_int>` line, :ref:`bool<class_bool>` adjust_viewport=true, :ref:"
+"`bool<class_bool>` can_be_hidden=true, :ref:`int<class_int>` wrap_index=0 "
+"**)**"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:110
+msgid ":ref:`cut<class_TextEdit_method_cut>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:112
+msgid ":ref:`deselect<class_TextEdit_method_deselect>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:114
+msgid ":ref:`fold_all_lines<class_TextEdit_method_fold_all_lines>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:116
+msgid ""
+":ref:`fold_line<class_TextEdit_method_fold_line>` **(** :ref:"
+"`int<class_int>` line **)**"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:118
+msgid ":ref:`Array<class_Array>`"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:118
+msgid ""
+":ref:`get_breakpoints<class_TextEdit_method_get_breakpoints>` **(** **)** |"
+"const|"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:120
+#: ../../docs/classes/class_textedit.rst:181
+#: ../../docs/classes/class_textedit.rst:183
+#: ../../docs/classes/class_textedit.rst:185
+#: ../../docs/classes/class_textedit.rst:187
+#: ../../docs/classes/class_textedit.rst:189
+#: ../../docs/classes/class_textedit.rst:191
+#: ../../docs/classes/class_textedit.rst:193
+#: ../../docs/classes/class_textedit.rst:197
+#: ../../docs/classes/class_textedit.rst:199
+#: ../../docs/classes/class_textedit.rst:201
+#: ../../docs/classes/class_textedit.rst:207
+#: ../../docs/classes/class_textedit.rst:211
+#: ../../docs/classes/class_textedit.rst:213
+#: ../../docs/classes/class_textedit.rst:215
+#: ../../docs/classes/class_textedit.rst:225
+#: ../../docs/classes/class_textedit.rst:227
+#: ../../docs/classes/class_textedit.rst:229
+#: ../../docs/classes/class_textedit.rst:231
+#: ../../docs/classes/class_textedit.rst:233
+#: ../../docs/classes/class_textedit.rst:237
+#: ../../docs/classes/class_textedit.rst:239
+#: ../../docs/classes/class_textedit.rst:243
+#: ../../docs/classes/class_textedit.rst:247
+#: ../../docs/classes/class_textedit.rst:249
+#: ../../docs/classes/class_textedit.rst:253
+#: ../../docs/classes/class_textedit.rst:257
+msgid ":ref:`Color<class_Color>`"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:120
+msgid ""
+":ref:`get_keyword_color<class_TextEdit_method_get_keyword_color>` **(** :ref:"
+"`String<class_String>` keyword **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:122
+msgid ""
+":ref:`get_line<class_TextEdit_method_get_line>` **(** :ref:`int<class_int>` "
+"line **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:124
+msgid ""
+":ref:`get_line_count<class_TextEdit_method_get_line_count>` **(** **)** |"
+"const|"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:126
+msgid ":ref:`PopupMenu<class_PopupMenu>`"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:126
+msgid ":ref:`get_menu<class_TextEdit_method_get_menu>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:128
+msgid ""
+":ref:"
+"`get_selection_from_column<class_TextEdit_method_get_selection_from_column>` "
+"**(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:130
+msgid ""
+":ref:"
+"`get_selection_from_line<class_TextEdit_method_get_selection_from_line>` "
+"**(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:132
+msgid ""
+":ref:`get_selection_text<class_TextEdit_method_get_selection_text>` **(** "
+"**)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:134
+msgid ""
+":ref:"
+"`get_selection_to_column<class_TextEdit_method_get_selection_to_column>` "
+"**(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:136
+msgid ""
+":ref:`get_selection_to_line<class_TextEdit_method_get_selection_to_line>` "
+"**(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:138
+msgid ""
+":ref:`get_word_under_cursor<class_TextEdit_method_get_word_under_cursor>` "
+"**(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:140
+msgid ""
+":ref:`has_keyword_color<class_TextEdit_method_has_keyword_color>` **(** :ref:"
+"`String<class_String>` keyword **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:142
+msgid ""
+":ref:`insert_text_at_cursor<class_TextEdit_method_insert_text_at_cursor>` "
+"**(** :ref:`String<class_String>` text **)**"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:144
+msgid ""
+":ref:`is_folded<class_TextEdit_method_is_folded>` **(** :ref:"
+"`int<class_int>` line **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:146
+msgid ""
+":ref:`is_line_hidden<class_TextEdit_method_is_line_hidden>` **(** :ref:"
+"`int<class_int>` line **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:148
+msgid ""
+":ref:`is_selection_active<class_TextEdit_method_is_selection_active>` **(** "
+"**)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:150
+msgid ""
+":ref:`menu_option<class_TextEdit_method_menu_option>` **(** :ref:"
+"`int<class_int>` option **)**"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:152
+msgid ":ref:`paste<class_TextEdit_method_paste>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:154
+msgid ":ref:`redo<class_TextEdit_method_redo>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:156
+msgid ""
+":ref:`remove_breakpoints<class_TextEdit_method_remove_breakpoints>` **(** "
+"**)**"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:158
+msgid ":ref:`PoolIntArray<class_PoolIntArray>`"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:158
+msgid ""
+":ref:`search<class_TextEdit_method_search>` **(** :ref:"
+"`String<class_String>` key, :ref:`int<class_int>` flags, :ref:"
+"`int<class_int>` from_line, :ref:`int<class_int>` from_column **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:160
+msgid ""
+":ref:`select<class_TextEdit_method_select>` **(** :ref:`int<class_int>` "
+"from_line, :ref:`int<class_int>` from_column, :ref:`int<class_int>` "
+"to_line, :ref:`int<class_int>` to_column **)**"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:162
+msgid ":ref:`select_all<class_TextEdit_method_select_all>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:164
+msgid ""
+":ref:`set_line<class_TextEdit_method_set_line>` **(** :ref:`int<class_int>` "
+"line, :ref:`String<class_String>` new_text **)**"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:166
+msgid ""
+":ref:`set_line_as_hidden<class_TextEdit_method_set_line_as_hidden>` **(** :"
+"ref:`int<class_int>` line, :ref:`bool<class_bool>` enable **)**"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:168
+msgid ""
+":ref:`toggle_fold_line<class_TextEdit_method_toggle_fold_line>` **(** :ref:"
+"`int<class_int>` line **)**"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:170
+msgid ":ref:`undo<class_TextEdit_method_undo>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:172
+msgid ""
+":ref:`unfold_line<class_TextEdit_method_unfold_line>` **(** :ref:"
+"`int<class_int>` line **)**"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:174
+msgid ""
+":ref:`unhide_all_lines<class_TextEdit_method_unhide_all_lines>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:178
+msgid "Theme Properties"
+msgstr "主题属性"
+
+#: ../../docs/classes/class_textedit.rst:181
+msgid "background_color"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:181
+msgid "Color( 0, 0, 0, 0 )"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:183
+msgid "bookmark_color"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:183
+msgid "Color( 0.08, 0.49, 0.98, 1 )"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:185
+msgid "brace_mismatch_color"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:185
+msgid "Color( 1, 0.2, 0.2, 1 )"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:187
+msgid "breakpoint_color"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:187
+msgid "Color( 0.8, 0.8, 0.4, 0.2 )"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:189
+msgid "caret_background_color"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:189
+#: ../../docs/classes/class_textedit.rst:229
+msgid "Color( 0, 0, 0, 1 )"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:191
+msgid "caret_color"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:191
+#: ../../docs/classes/class_textedit.rst:225
+msgid "Color( 0.88, 0.88, 0.88, 1 )"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:193
+msgid "code_folding_color"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:193
+msgid "Color( 0.8, 0.8, 0.8, 0.8 )"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:195
+#: ../../docs/classes/class_textedit.rst:217
+#: ../../docs/classes/class_textedit.rst:241
+#: ../../docs/classes/class_textedit.rst:245
+msgid ":ref:`StyleBox<class_StyleBox>`"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:195
+msgid "completion"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:197
+msgid "completion_background_color"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:197
+msgid "Color( 0.17, 0.16, 0.2, 1 )"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:199
+msgid "completion_existing_color"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:199
+msgid "Color( 0.87, 0.87, 0.87, 0.13 )"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:201
+msgid "completion_font_color"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:201
+msgid "Color( 0.67, 0.67, 0.67, 1 )"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:203
+msgid "completion_lines"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:203
+msgid "7"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:205
+msgid "completion_max_width"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:205
+msgid "50"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:207
+msgid "completion_scroll_color"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:207
+msgid "Color( 1, 1, 1, 1 )"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:209
+msgid "completion_scroll_width"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:209
+msgid "3"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:211
+msgid "completion_selected_color"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:211
+msgid "Color( 0.26, 0.26, 0.27, 1 )"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:213
+msgid "current_line_color"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:213
+msgid "Color( 0.25, 0.25, 0.26, 0.8 )"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:215
+msgid "executing_line_color"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:215
+msgid "Color( 0.2, 0.8, 0.2, 0.4 )"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:217
+msgid "focus"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:219
+#: ../../docs/classes/class_textedit.rst:221
+#: ../../docs/classes/class_textedit.rst:251
+#: ../../docs/classes/class_textedit.rst:255
+msgid ":ref:`Texture<class_Texture>`"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:219
+msgid "fold"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:221
+msgid "folded"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:223
+msgid ":ref:`Font<class_Font>`"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:223
+msgid "font"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:225
+msgid "font_color"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:227
+msgid "font_color_readonly"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:227
+msgid "Color( 0.88, 0.88, 0.88, 0.5 )"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:229
+msgid "font_color_selected"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:231
+msgid "function_color"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:231
+msgid "Color( 0.4, 0.64, 0.81, 1 )"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:233
+msgid "line_number_color"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:233
+msgid "Color( 0.67, 0.67, 0.67, 0.4 )"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:235
+msgid "line_spacing"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:235
+msgid "4"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:237
+msgid "mark_color"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:237
+msgid "Color( 1, 0.4, 0.4, 0.4 )"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:239
+msgid "member_variable_color"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:239
+msgid "Color( 0.9, 0.31, 0.35, 1 )"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:241
+msgid "normal"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:243
+msgid "number_color"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:243
+msgid "Color( 0.92, 0.58, 0.2, 1 )"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:245
+msgid "read_only"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:247
+msgid "safe_line_number_color"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:247
+msgid "Color( 0.67, 0.78, 0.67, 0.6 )"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:249
+msgid "selection_color"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:249
+msgid "Color( 0.49, 0.49, 0.49, 1 )"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:251
+msgid "space"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:253
+msgid "symbol_color"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:253
+msgid "Color( 0.94, 0.94, 0.94, 1 )"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:255
+msgid "tab"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:257
+msgid "word_highlighted_color"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:257
+msgid "Color( 0.8, 0.9, 0.9, 0.15 )"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:261
+msgid "Signals"
+msgstr "信号"
+
+#: ../../docs/classes/class_textedit.rst:265
+msgid "**breakpoint_toggled** **(** :ref:`int<class_int>` row **)**"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:267
+msgid "Emitted when a breakpoint is placed via the breakpoint gutter."
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:273
+msgid "**cursor_changed** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:275
+msgid "Emitted when the cursor changes."
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:281
+msgid ""
+"**info_clicked** **(** :ref:`int<class_int>` row, :ref:"
+"`String<class_String>` info **)**"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:283
+msgid "Emitted when the info icon is clicked."
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:289
+msgid "**request_completion** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:295
+msgid ""
+"**symbol_lookup** **(** :ref:`String<class_String>` symbol, :ref:"
+"`int<class_int>` row, :ref:`int<class_int>` column **)**"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:301
+msgid "**text_changed** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:303
+msgid "Emitted when the text changes."
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:306
+msgid "Enumerations"
+msgstr "枚举"
+
+#: ../../docs/classes/class_textedit.rst:316
+msgid "enum **SearchFlags**:"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:318
+msgid "**SEARCH_MATCH_CASE** = **1** --- Match case when searching."
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:320
+msgid "**SEARCH_WHOLE_WORDS** = **2** --- Match whole words when searching."
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:322
+msgid "**SEARCH_BACKWARDS** = **4** --- Search from end to beginning."
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:332
+msgid "enum **SearchResult**:"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:334
+msgid ""
+"**SEARCH_RESULT_COLUMN** = **0** --- Used to access the result column from :"
+"ref:`search<class_TextEdit_method_search>`."
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:336
+msgid ""
+"**SEARCH_RESULT_LINE** = **1** --- Used to access the result line from :ref:"
+"`search<class_TextEdit_method_search>`."
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:358
+msgid "enum **MenuItems**:"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:360
+msgid "**MENU_CUT** = **0** --- Cuts (copies and clears) the selected text."
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:362
+msgid "**MENU_COPY** = **1** --- Copies the selected text."
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:364
+msgid ""
+"**MENU_PASTE** = **2** --- Pastes the clipboard text over the selected text "
+"(or at the cursor's position)."
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:366
+msgid "**MENU_CLEAR** = **3** --- Erases the whole ``TextEdit`` text."
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:368
+msgid "**MENU_SELECT_ALL** = **4** --- Selects the whole ``TextEdit`` text."
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:370
+msgid "**MENU_UNDO** = **5** --- Undoes the previous action."
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:372
+msgid "**MENU_REDO** = **6** --- Redoes the previous action."
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:374
+msgid ""
+"**MENU_MAX** = **7** --- Represents the size of the :ref:"
+"`MenuItems<enum_TextEdit_MenuItems>` enum."
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:377
+msgid "Property Descriptions"
+msgstr "属性说明"
+
+#: ../../docs/classes/class_textedit.rst:381
+msgid ":ref:`bool<class_bool>` **breakpoint_gutter**"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:384
+#: ../../docs/classes/class_textedit.rst:400
+#: ../../docs/classes/class_textedit.rst:416
+#: ../../docs/classes/class_textedit.rst:432
+#: ../../docs/classes/class_textedit.rst:450
+#: ../../docs/classes/class_textedit.rst:468
+#: ../../docs/classes/class_textedit.rst:484
+#: ../../docs/classes/class_textedit.rst:500
+#: ../../docs/classes/class_textedit.rst:516
+#: ../../docs/classes/class_textedit.rst:532
+#: ../../docs/classes/class_textedit.rst:548
+#: ../../docs/classes/class_textedit.rst:564
+#: ../../docs/classes/class_textedit.rst:580
+#: ../../docs/classes/class_textedit.rst:596
+#: ../../docs/classes/class_textedit.rst:612
+#: ../../docs/classes/class_textedit.rst:628
+#: ../../docs/classes/class_textedit.rst:644
+#: ../../docs/classes/class_textedit.rst:660
+#: ../../docs/classes/class_textedit.rst:676
+#: ../../docs/classes/class_textedit.rst:694
+#: ../../docs/classes/class_textedit.rst:710
+#: ../../docs/classes/class_textedit.rst:726
+#: ../../docs/classes/class_textedit.rst:742
+#: ../../docs/classes/class_textedit.rst:758
+#: ../../docs/classes/class_textedit.rst:774
+#: ../../docs/classes/class_textedit.rst:790
+#: ../../docs/classes/class_textedit.rst:806
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:386
+#: ../../docs/classes/class_textedit.rst:402
+#: ../../docs/classes/class_textedit.rst:418
+#: ../../docs/classes/class_textedit.rst:434
+#: ../../docs/classes/class_textedit.rst:452
+#: ../../docs/classes/class_textedit.rst:470
+#: ../../docs/classes/class_textedit.rst:486
+#: ../../docs/classes/class_textedit.rst:502
+#: ../../docs/classes/class_textedit.rst:518
+#: ../../docs/classes/class_textedit.rst:534
+#: ../../docs/classes/class_textedit.rst:550
+#: ../../docs/classes/class_textedit.rst:566
+#: ../../docs/classes/class_textedit.rst:582
+#: ../../docs/classes/class_textedit.rst:598
+#: ../../docs/classes/class_textedit.rst:614
+#: ../../docs/classes/class_textedit.rst:630
+#: ../../docs/classes/class_textedit.rst:646
+#: ../../docs/classes/class_textedit.rst:662
+#: ../../docs/classes/class_textedit.rst:678
+#: ../../docs/classes/class_textedit.rst:696
+#: ../../docs/classes/class_textedit.rst:712
+#: ../../docs/classes/class_textedit.rst:728
+#: ../../docs/classes/class_textedit.rst:744
+#: ../../docs/classes/class_textedit.rst:760
+#: ../../docs/classes/class_textedit.rst:776
+#: ../../docs/classes/class_textedit.rst:792
+#: ../../docs/classes/class_textedit.rst:808
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:386
+msgid "set_breakpoint_gutter_enabled(value)"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:388
+#: ../../docs/classes/class_textedit.rst:404
+#: ../../docs/classes/class_textedit.rst:420
+#: ../../docs/classes/class_textedit.rst:436
+#: ../../docs/classes/class_textedit.rst:454
+#: ../../docs/classes/class_textedit.rst:472
+#: ../../docs/classes/class_textedit.rst:488
+#: ../../docs/classes/class_textedit.rst:504
+#: ../../docs/classes/class_textedit.rst:520
+#: ../../docs/classes/class_textedit.rst:536
+#: ../../docs/classes/class_textedit.rst:552
+#: ../../docs/classes/class_textedit.rst:568
+#: ../../docs/classes/class_textedit.rst:584
+#: ../../docs/classes/class_textedit.rst:600
+#: ../../docs/classes/class_textedit.rst:616
+#: ../../docs/classes/class_textedit.rst:632
+#: ../../docs/classes/class_textedit.rst:648
+#: ../../docs/classes/class_textedit.rst:664
+#: ../../docs/classes/class_textedit.rst:680
+#: ../../docs/classes/class_textedit.rst:698
+#: ../../docs/classes/class_textedit.rst:714
+#: ../../docs/classes/class_textedit.rst:730
+#: ../../docs/classes/class_textedit.rst:746
+#: ../../docs/classes/class_textedit.rst:762
+#: ../../docs/classes/class_textedit.rst:778
+#: ../../docs/classes/class_textedit.rst:794
+#: ../../docs/classes/class_textedit.rst:810
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:388
+msgid "is_breakpoint_gutter_enabled()"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:391
+msgid "If ``true``, the breakpoint gutter is visible."
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:397
+msgid ":ref:`bool<class_bool>` **caret_blink**"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:402
+msgid "cursor_set_blink_enabled(value)"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:404
+msgid "cursor_get_blink_enabled()"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:407
+msgid "If ``true``, the caret (visual cursor) blinks."
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:413
+msgid ":ref:`float<class_float>` **caret_blink_speed**"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:418
+msgid "cursor_set_blink_speed(value)"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:420
+msgid "cursor_get_blink_speed()"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:423
+msgid "Duration (in seconds) of a caret's blinking cycle."
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:429
+msgid ":ref:`bool<class_bool>` **caret_block_mode**"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:434
+msgid "cursor_set_block_mode(value)"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:436
+msgid "cursor_is_block_mode()"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:439
+msgid "If ``true``, the caret displays as a rectangle."
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:441
+msgid "If ``false``, the caret displays as a bar."
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:447
+msgid ":ref:`bool<class_bool>` **caret_moving_by_right_click**"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:452
+msgid "set_right_click_moves_caret(value)"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:454
+msgid "is_right_click_moving_caret()"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:457
+msgid ""
+"If ``true``, a right-click moves the cursor at the mouse position before "
+"displaying the context menu."
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:459
+msgid "If ``false``, the context menu disregards mouse location."
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:465
+msgid ":ref:`bool<class_bool>` **context_menu_enabled**"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:470
+msgid "set_context_menu_enabled(value)"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:472
+msgid "is_context_menu_enabled()"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:475
+msgid "If ``true``, a right-click displays the context menu."
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:481
+msgid ":ref:`bool<class_bool>` **draw_spaces**"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:486
+msgid "set_draw_spaces(value)"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:488
+msgid "is_drawing_spaces()"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:491
+msgid ""
+"If ``true``, the \"space\" character will have a visible representation."
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:497
+msgid ":ref:`bool<class_bool>` **draw_tabs**"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:502
+msgid "set_draw_tabs(value)"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:504
+msgid "is_drawing_tabs()"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:507
+msgid "If ``true``, the \"tab\" character will have a visible representation."
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:513
+msgid ":ref:`bool<class_bool>` **fold_gutter**"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:518
+msgid "set_draw_fold_gutter(value)"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:520
+msgid "is_drawing_fold_gutter()"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:523
+msgid ""
+"If ``true``, the fold gutter is visible. This enables folding groups of "
+"indented lines."
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:529
+msgid ":ref:`bool<class_bool>` **hiding_enabled**"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:534
+msgid "set_hiding_enabled(value)"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:536
+msgid "is_hiding_enabled()"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:539
+msgid ""
+"If ``true``, all lines that have been set to hidden by :ref:"
+"`set_line_as_hidden<class_TextEdit_method_set_line_as_hidden>`, will not be "
+"visible."
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:545
+msgid ":ref:`bool<class_bool>` **highlight_all_occurrences**"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:550
+msgid "set_highlight_all_occurrences(value)"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:552
+msgid "is_highlight_all_occurrences_enabled()"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:555
+msgid "If ``true``, all occurrences of the selected text will be highlighted."
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:561
+msgid ":ref:`bool<class_bool>` **highlight_current_line**"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:566
+msgid "set_highlight_current_line(value)"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:568
+msgid "is_highlight_current_line_enabled()"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:571
+msgid "If ``true``, the line containing the cursor is highlighted."
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:577
+msgid ":ref:`bool<class_bool>` **minimap_draw**"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:582
+msgid "draw_minimap(value)"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:584
+msgid "is_drawing_minimap()"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:587
+msgid ""
+"If ``true``, a minimap is shown, providing an outline of your source code."
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:593
+msgid ":ref:`int<class_int>` **minimap_width**"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:598
+msgid "set_minimap_width(value)"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:600
+msgid "get_minimap_width()"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:603
+msgid "The width, in pixels, of the minimap."
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:609
+msgid ":ref:`bool<class_bool>` **override_selected_font_color**"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:614
+msgid "set_override_selected_font_color(value)"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:616
+msgid "is_overriding_selected_font_color()"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:619
+msgid ""
+"If ``true``, custom ``font_color_selected`` will be used for selected text."
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:625
+msgid ":ref:`bool<class_bool>` **readonly**"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:630
+msgid "set_readonly(value)"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:632
+msgid "is_readonly()"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:635
+msgid ""
+"If ``true``, read-only mode is enabled. Existing text cannot be modified and "
+"new text cannot be added."
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:641
+msgid ":ref:`int<class_int>` **scroll_horizontal**"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:646
+msgid "set_h_scroll(value)"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:648
+msgid "get_h_scroll()"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:651
+msgid "The current horizontal scroll value."
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:657
+msgid ":ref:`float<class_float>` **scroll_vertical**"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:662
+msgid "set_v_scroll(value)"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:664
+msgid "get_v_scroll()"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:667
+msgid "The current vertical scroll value."
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:673
+msgid ":ref:`bool<class_bool>` **selecting_enabled**"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:678
+msgid "set_selecting_enabled(value)"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:680
+msgid "is_selecting_enabled()"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:683
+msgid "If ``true``, text can be selected."
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:685
+msgid ""
+"If ``false``, text can not be selected by the user or by the :ref:"
+"`select<class_TextEdit_method_select>` or :ref:"
+"`select_all<class_TextEdit_method_select_all>` methods."
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:691
+msgid ":ref:`bool<class_bool>` **shortcut_keys_enabled**"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:696
+msgid "set_shortcut_keys_enabled(value)"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:698
+msgid "is_shortcut_keys_enabled()"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:701
+msgid ""
+"If ``true``, shortcut keys for context menu items are enabled, even if the "
+"context menu is disabled."
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:707
+msgid ":ref:`bool<class_bool>` **show_line_numbers**"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:712
+msgid "set_show_line_numbers(value)"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:714
+msgid "is_show_line_numbers_enabled()"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:717
+msgid "If ``true``, line numbers are displayed to the left of the text."
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:723
+msgid ":ref:`bool<class_bool>` **smooth_scrolling**"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:728
+msgid "set_smooth_scroll_enable(value)"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:730
+msgid "is_smooth_scroll_enabled()"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:733
+msgid ""
+"If ``true``, sets the ``step`` of the scrollbars to ``0.25`` which results "
+"in smoother scrolling."
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:739
+msgid ":ref:`bool<class_bool>` **syntax_highlighting**"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:744
+msgid "set_syntax_coloring(value)"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:746
+msgid "is_syntax_coloring_enabled()"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:749
+msgid ""
+"If ``true``, any custom color properties that have been set for this "
+"``TextEdit`` will be visible."
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:755
+msgid ":ref:`String<class_String>` **text**"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:760
+msgid "set_text(value)"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:762
+msgid "get_text()"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:765
+msgid "String value of the ``TextEdit``."
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:771
+msgid ":ref:`float<class_float>` **v_scroll_speed**"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:776
+msgid "set_v_scroll_speed(value)"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:778
+msgid "get_v_scroll_speed()"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:781
+#, fuzzy
+msgid "Vertical scroll sensitivity."
+msgstr "垂直滚动的灵敏度。"
+
+#: ../../docs/classes/class_textedit.rst:787
+msgid ":ref:`bool<class_bool>` **virtual_keyboard_enabled**"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:792
+msgid "set_virtual_keyboard_enabled(value)"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:794
+msgid "is_virtual_keyboard_enabled()"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:797
+msgid ""
+"If ``true``, the native virtual keyboard is shown when focused on platforms "
+"that support it."
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:803
+msgid ":ref:`bool<class_bool>` **wrap_enabled**"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:808
+msgid "set_wrap_enabled(value)"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:810
+msgid "is_wrap_enabled()"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:813
+msgid ""
+"If ``true``, enables text wrapping when it goes beyond the edge of what is "
+"visible."
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:816
+msgid "Method Descriptions"
+msgstr "方法说明"
+
+#: ../../docs/classes/class_textedit.rst:820
+msgid ""
+"void **add_color_region** **(** :ref:`String<class_String>` begin_key, :ref:"
+"`String<class_String>` end_key, :ref:`Color<class_Color>` color, :ref:"
+"`bool<class_bool>` line_only=false **)**"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:822
+msgid "Adds color region (given the delimiters) and its colors."
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:828
+msgid ""
+"void **add_keyword_color** **(** :ref:`String<class_String>` keyword, :ref:"
+"`Color<class_Color>` color **)**"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:830
+msgid "Adds a ``keyword`` and its :ref:`Color<class_Color>`."
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:836
+msgid ""
+":ref:`bool<class_bool>` **can_fold** **(** :ref:`int<class_int>` line **)** |"
+"const|"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:838
+msgid ""
+"Returns if the given line is foldable, that is, it has indented lines right "
+"below it."
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:844
+msgid "void **center_viewport_to_cursor** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:846
+msgid ""
+"Centers the viewport on the line the editing cursor is at. This also resets "
+"the :ref:`scroll_horizontal<class_TextEdit_property_scroll_horizontal>` "
+"value to ``0``."
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:852
+msgid "void **clear_colors** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:854
+msgid ""
+"Clears all custom syntax coloring information previously added with :ref:"
+"`add_color_region<class_TextEdit_method_add_color_region>` or :ref:"
+"`add_keyword_color<class_TextEdit_method_add_keyword_color>`."
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:860
+msgid "void **clear_undo_history** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:862
+msgid "Clears the undo history."
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:868
+msgid "void **copy** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:870
+msgid "Copy's the current text selection."
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:876
+msgid ":ref:`int<class_int>` **cursor_get_column** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:878
+msgid "Returns the column the editing cursor is at."
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:884
+msgid ":ref:`int<class_int>` **cursor_get_line** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:886
+msgid "Returns the line the editing cursor is at."
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:892
+msgid ""
+"void **cursor_set_column** **(** :ref:`int<class_int>` column, :ref:"
+"`bool<class_bool>` adjust_viewport=true **)**"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:894
+msgid "Moves the cursor at the specified ``column`` index."
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:896
+#: ../../docs/classes/class_textedit.rst:906
+msgid ""
+"If ``adjust_viewport`` is set to ``true``, the viewport will center at the "
+"cursor position after the move occurs."
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:902
+msgid ""
+"void **cursor_set_line** **(** :ref:`int<class_int>` line, :ref:"
+"`bool<class_bool>` adjust_viewport=true, :ref:`bool<class_bool>` "
+"can_be_hidden=true, :ref:`int<class_int>` wrap_index=0 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:904
+msgid "Moves the cursor at the specified ``line`` index."
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:908
+msgid ""
+"If ``can_be_hidden`` is set to ``true``, the specified ``line`` can be "
+"hidden using :ref:"
+"`set_line_as_hidden<class_TextEdit_method_set_line_as_hidden>`."
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:914
+msgid "void **cut** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:916
+msgid "Cut's the current selection."
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:922
+msgid "void **deselect** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:924
+msgid "Deselects the current selection."
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:930
+msgid "void **fold_all_lines** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:932
+msgid ""
+"Folds all lines that are possible to be folded (see :ref:"
+"`can_fold<class_TextEdit_method_can_fold>`)."
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:938
+msgid "void **fold_line** **(** :ref:`int<class_int>` line **)**"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:940
+msgid ""
+"Folds the given line, if possible (see :ref:"
+"`can_fold<class_TextEdit_method_can_fold>`)."
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:946
+msgid ":ref:`Array<class_Array>` **get_breakpoints** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:948
+msgid "Returns an array containing the line number of each breakpoint."
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:954
+msgid ""
+":ref:`Color<class_Color>` **get_keyword_color** **(** :ref:"
+"`String<class_String>` keyword **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:956
+msgid "Returns the :ref:`Color<class_Color>` of the specified ``keyword``."
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:962
+msgid ""
+":ref:`String<class_String>` **get_line** **(** :ref:`int<class_int>` line "
+"**)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:964
+msgid "Returns the text of a specific line."
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:970
+msgid ":ref:`int<class_int>` **get_line_count** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:972
+msgid "Returns the amount of total lines in the text."
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:978
+msgid ":ref:`PopupMenu<class_PopupMenu>` **get_menu** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:980
+msgid ""
+"Returns the :ref:`PopupMenu<class_PopupMenu>` of this ``TextEdit``. By "
+"default, this menu is displayed when right-clicking on the ``TextEdit``."
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:986
+msgid ":ref:`int<class_int>` **get_selection_from_column** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:988
+msgid "Returns the selection begin column."
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:994
+msgid ":ref:`int<class_int>` **get_selection_from_line** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:996
+msgid "Returns the selection begin line."
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:1002
+msgid ":ref:`String<class_String>` **get_selection_text** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:1004
+msgid "Returns the text inside the selection."
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:1010
+msgid ":ref:`int<class_int>` **get_selection_to_column** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:1012
+msgid "Returns the selection end column."
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:1018
+msgid ":ref:`int<class_int>` **get_selection_to_line** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:1020
+msgid "Returns the selection end line."
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:1026
+msgid ""
+":ref:`String<class_String>` **get_word_under_cursor** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:1028
+msgid ""
+"Returns a :ref:`String<class_String>` text with the word under the caret "
+"(text cursor) location."
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:1034
+msgid ""
+":ref:`bool<class_bool>` **has_keyword_color** **(** :ref:"
+"`String<class_String>` keyword **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:1036
+msgid "Returns whether the specified ``keyword`` has a color set to it or not."
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:1042
+msgid ""
+"void **insert_text_at_cursor** **(** :ref:`String<class_String>` text **)**"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:1044
+msgid "Insert the specified text at the cursor position."
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:1050
+msgid ""
+":ref:`bool<class_bool>` **is_folded** **(** :ref:`int<class_int>` line **)** "
+"|const|"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:1052
+msgid "Returns whether the line at the specified index is folded or not."
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:1058
+msgid ""
+":ref:`bool<class_bool>` **is_line_hidden** **(** :ref:`int<class_int>` line "
+"**)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:1060
+msgid "Returns whether the line at the specified index is hidden or not."
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:1066
+msgid ":ref:`bool<class_bool>` **is_selection_active** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:1068
+msgid "Returns ``true`` if the selection is active."
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:1074
+msgid "void **menu_option** **(** :ref:`int<class_int>` option **)**"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:1076
+msgid ""
+"Triggers a right-click menu action by the specified index. See :ref:"
+"`MenuItems<enum_TextEdit_MenuItems>` for a list of available indexes."
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:1082
+msgid "void **paste** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:1084
+msgid "Paste the current selection."
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:1090
+msgid "void **redo** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:1092
+#, fuzzy
+msgid "Perform redo operation."
+msgstr "执行重做操作。"
+
+#: ../../docs/classes/class_textedit.rst:1098
+msgid "void **remove_breakpoints** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:1100
+msgid ""
+"Removes all the breakpoints. This will not fire the :ref:"
+"`breakpoint_toggled<class_TextEdit_signal_breakpoint_toggled>` signal."
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:1106
+msgid ""
+":ref:`PoolIntArray<class_PoolIntArray>` **search** **(** :ref:"
+"`String<class_String>` key, :ref:`int<class_int>` flags, :ref:"
+"`int<class_int>` from_line, :ref:`int<class_int>` from_column **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:1108
+msgid ""
+"Perform a search inside the text. Search flags can be specified in the :ref:"
+"`SearchFlags<enum_TextEdit_SearchFlags>` enum."
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:1110
+msgid ""
+"Returns an empty ``PoolIntArray`` if no result was found. Otherwise, the "
+"result line and column can be accessed at indices specified in the :ref:"
+"`SearchResult<enum_TextEdit_SearchResult>` enum, e.g:"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:1124
+msgid ""
+"void **select** **(** :ref:`int<class_int>` from_line, :ref:`int<class_int>` "
+"from_column, :ref:`int<class_int>` to_line, :ref:`int<class_int>` to_column "
+"**)**"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:1126
+msgid "Perform selection, from line/column to line/column."
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:1128
+#: ../../docs/classes/class_textedit.rst:1138
+msgid ""
+"If :ref:`selecting_enabled<class_TextEdit_property_selecting_enabled>` is "
+"``false``, no selection will occur."
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:1134
+msgid "void **select_all** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:1136
+msgid "Select all the text."
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:1144
+msgid ""
+"void **set_line** **(** :ref:`int<class_int>` line, :ref:"
+"`String<class_String>` new_text **)**"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:1146
+msgid "Sets the text for a specific line."
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:1152
+msgid ""
+"void **set_line_as_hidden** **(** :ref:`int<class_int>` line, :ref:"
+"`bool<class_bool>` enable **)**"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:1154
+msgid "If ``true``, hides the line of the specified index."
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:1160
+msgid "void **toggle_fold_line** **(** :ref:`int<class_int>` line **)**"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:1162
+msgid "Toggle the folding of the code block at the given line."
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:1168
+msgid "void **undo** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:1170
+#, fuzzy
+msgid "Perform undo operation."
+msgstr "执行撤销操作。"
+
+#: ../../docs/classes/class_textedit.rst:1176
+msgid "void **unfold_line** **(** :ref:`int<class_int>` line **)**"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:1178
+msgid "Unfolds the given line, if folded."
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:1184
+msgid "void **unhide_all_lines** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_textedit.rst:1186
+msgid ""
+"Unhide all lines that were previously set to hidden by :ref:"
+"`set_line_as_hidden<class_TextEdit_method_set_line_as_hidden>`."
+msgstr ""

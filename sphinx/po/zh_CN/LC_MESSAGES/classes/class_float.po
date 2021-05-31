@@ -1,0 +1,101 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2021, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-31 12:15+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_float.rst:10
+msgid "float"
+msgstr ""
+
+#: ../../docs/classes/class_float.rst:12 ../../docs/classes/class_float.rst:17
+msgid "Float built-in type."
+msgstr "浮点数内置类型。"
+
+#: ../../docs/classes/class_float.rst:15
+msgid "Description"
+msgstr "描述"
+
+#: ../../docs/classes/class_float.rst:20
+msgid "Methods"
+msgstr "方法"
+
+#: ../../docs/classes/class_float.rst:23 ../../docs/classes/class_float.rst:25
+#: ../../docs/classes/class_float.rst:27
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../../docs/classes/class_float.rst:23
+msgid ""
+":ref:`float<class_float_method_float>` **(** :ref:`bool<class_bool>` from "
+"**)**"
+msgstr ""
+
+#: ../../docs/classes/class_float.rst:25
+msgid ""
+":ref:`float<class_float_method_float>` **(** :ref:`int<class_int>` from **)**"
+msgstr ""
+
+#: ../../docs/classes/class_float.rst:27
+msgid ""
+":ref:`float<class_float_method_float>` **(** :ref:`String<class_String>` "
+"from **)**"
+msgstr ""
+
+#: ../../docs/classes/class_float.rst:31
+msgid "Method Descriptions"
+msgstr "方法说明"
+
+#: ../../docs/classes/class_float.rst:35
+msgid ""
+":ref:`float<class_float>` **float** **(** :ref:`bool<class_bool>` from **)**"
+msgstr ""
+
+#: ../../docs/classes/class_float.rst:37
+msgid ""
+"Cast a :ref:`bool<class_bool>` value to a floating-point value, "
+"``float(true)`` will be equal to 1.0 and ``float(false)`` will be equal to "
+"0.0."
+msgstr ""
+
+#: ../../docs/classes/class_float.rst:41
+msgid ""
+":ref:`float<class_float>` **float** **(** :ref:`int<class_int>` from **)**"
+msgstr ""
+
+#: ../../docs/classes/class_float.rst:43
+msgid ""
+"Cast an :ref:`int<class_int>` value to a floating-point value, ``float(1)`` "
+"will be equal to 1.0."
+msgstr ""
+
+#: ../../docs/classes/class_float.rst:47
+msgid ""
+":ref:`float<class_float>` **float** **(** :ref:`String<class_String>` from "
+"**)**"
+msgstr ""
+
+#: ../../docs/classes/class_float.rst:49
+msgid ""
+"Cast a :ref:`String<class_String>` value to a floating-point value. This "
+"method accepts float value strings like ``\"1.23\"`` and exponential "
+"notation strings for its parameter so calling ``float(\"1e3\")`` will return "
+"1000.0 and calling ``float(\"1e-3\")`` will return 0.001. Calling this "
+"method with an invalid float string will return 0. This method stops parsing "
+"at the first invalid character and will return the parsed result so far, so "
+"calling ``float(\"1a3\")`` will return 1 while calling ``float(\"1e3a2\")`` "
+"will return 1000.0."
+msgstr ""

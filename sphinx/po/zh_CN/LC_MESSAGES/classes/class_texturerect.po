@@ -1,0 +1,295 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2021, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-31 12:15+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_texturerect.rst:10
+msgid "TextureRect"
+msgstr ""
+
+#: ../../docs/classes/class_texturerect.rst:12
+msgid ""
+"**Inherits:** :ref:`Control<class_Control>` **<** :ref:"
+"`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:"
+"`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_texturerect.rst:14
+msgid "Control for drawing textures."
+msgstr ""
+
+#: ../../docs/classes/class_texturerect.rst:17
+msgid "Description"
+msgstr "描述"
+
+#: ../../docs/classes/class_texturerect.rst:19
+msgid ""
+"Used to draw icons and sprites in a user interface. The texture's placement "
+"can be controlled with the :ref:"
+"`stretch_mode<class_TextureRect_property_stretch_mode>` property. It can "
+"scale, tile, or stay centered inside its bounding rectangle."
+msgstr ""
+
+#: ../../docs/classes/class_texturerect.rst:21
+msgid ""
+"**Note:** You should enable :ref:`flip_v<class_TextureRect_property_flip_v>` "
+"when using a TextureRect to display a :ref:"
+"`ViewportTexture<class_ViewportTexture>`. Alternatively, you can enable :ref:"
+"`Viewport."
+"render_target_v_flip<class_Viewport_property_render_target_v_flip>` on the "
+"Viewport. Otherwise, the image will appear upside down."
+msgstr ""
+
+#: ../../docs/classes/class_texturerect.rst:24
+msgid "Tutorials"
+msgstr "教程"
+
+#: ../../docs/classes/class_texturerect.rst:26
+msgid ""
+"`https://godotengine.org/asset-library/asset/676 <https://godotengine.org/"
+"asset-library/asset/676>`_"
+msgstr ""
+
+#: ../../docs/classes/class_texturerect.rst:29
+msgid "Properties"
+msgstr "属性"
+
+#: ../../docs/classes/class_texturerect.rst:32
+#: ../../docs/classes/class_texturerect.rst:34
+#: ../../docs/classes/class_texturerect.rst:36
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_texturerect.rst:32
+msgid ":ref:`expand<class_TextureRect_property_expand>`"
+msgstr ""
+
+#: ../../docs/classes/class_texturerect.rst:32
+#: ../../docs/classes/class_texturerect.rst:34
+#: ../../docs/classes/class_texturerect.rst:36
+#: ../../docs/classes/class_texturerect.rst:92
+#: ../../docs/classes/class_texturerect.rst:108
+#: ../../docs/classes/class_texturerect.rst:124
+msgid "``false``"
+msgstr ""
+
+#: ../../docs/classes/class_texturerect.rst:34
+msgid ":ref:`flip_h<class_TextureRect_property_flip_h>`"
+msgstr ""
+
+#: ../../docs/classes/class_texturerect.rst:36
+msgid ":ref:`flip_v<class_TextureRect_property_flip_v>`"
+msgstr ""
+
+#: ../../docs/classes/class_texturerect.rst:38
+msgid ":ref:`MouseFilter<enum_Control_MouseFilter>`"
+msgstr ""
+
+#: ../../docs/classes/class_texturerect.rst:38
+msgid "mouse_filter"
+msgstr ""
+
+#: ../../docs/classes/class_texturerect.rst:38
+msgid "``1`` *(parent override)*"
+msgstr ""
+
+#: ../../docs/classes/class_texturerect.rst:40
+msgid ":ref:`StretchMode<enum_TextureRect_StretchMode>`"
+msgstr ""
+
+#: ../../docs/classes/class_texturerect.rst:40
+msgid ":ref:`stretch_mode<class_TextureRect_property_stretch_mode>`"
+msgstr ""
+
+#: ../../docs/classes/class_texturerect.rst:40
+#: ../../docs/classes/class_texturerect.rst:140
+msgid "``0``"
+msgstr ""
+
+#: ../../docs/classes/class_texturerect.rst:42
+msgid ":ref:`Texture<class_Texture>`"
+msgstr ""
+
+#: ../../docs/classes/class_texturerect.rst:42
+msgid ":ref:`texture<class_TextureRect_property_texture>`"
+msgstr ""
+
+#: ../../docs/classes/class_texturerect.rst:46
+msgid "Enumerations"
+msgstr "枚举"
+
+#: ../../docs/classes/class_texturerect.rst:66
+msgid "enum **StretchMode**:"
+msgstr ""
+
+#: ../../docs/classes/class_texturerect.rst:68
+msgid ""
+"**STRETCH_SCALE_ON_EXPAND** = **0** --- Scale to fit the node's bounding "
+"rectangle, only if ``expand`` is ``true``. Default ``stretch_mode``, for "
+"backwards compatibility. Until you set ``expand`` to ``true``, the texture "
+"will behave like :ref:"
+"`STRETCH_KEEP<class_TextureRect_constant_STRETCH_KEEP>`."
+msgstr ""
+
+#: ../../docs/classes/class_texturerect.rst:70
+msgid ""
+"**STRETCH_SCALE** = **1** --- Scale to fit the node's bounding rectangle."
+msgstr ""
+
+#: ../../docs/classes/class_texturerect.rst:72
+msgid "**STRETCH_TILE** = **2** --- Tile inside the node's bounding rectangle."
+msgstr ""
+
+#: ../../docs/classes/class_texturerect.rst:74
+msgid ""
+"**STRETCH_KEEP** = **3** --- The texture keeps its original size and stays "
+"in the bounding rectangle's top-left corner."
+msgstr ""
+
+#: ../../docs/classes/class_texturerect.rst:76
+msgid ""
+"**STRETCH_KEEP_CENTERED** = **4** --- The texture keeps its original size "
+"and stays centered in the node's bounding rectangle."
+msgstr ""
+
+#: ../../docs/classes/class_texturerect.rst:78
+msgid ""
+"**STRETCH_KEEP_ASPECT** = **5** --- Scale the texture to fit the node's "
+"bounding rectangle, but maintain the texture's aspect ratio."
+msgstr ""
+
+#: ../../docs/classes/class_texturerect.rst:80
+msgid ""
+"**STRETCH_KEEP_ASPECT_CENTERED** = **6** --- Scale the texture to fit the "
+"node's bounding rectangle, center it and maintain its aspect ratio."
+msgstr ""
+
+#: ../../docs/classes/class_texturerect.rst:82
+msgid ""
+"**STRETCH_KEEP_ASPECT_COVERED** = **7** --- Scale the texture so that the "
+"shorter side fits the bounding rectangle. The other side clips to the node's "
+"limits."
+msgstr ""
+
+#: ../../docs/classes/class_texturerect.rst:85
+msgid "Property Descriptions"
+msgstr "属性说明"
+
+#: ../../docs/classes/class_texturerect.rst:89
+msgid ":ref:`bool<class_bool>` **expand**"
+msgstr ""
+
+#: ../../docs/classes/class_texturerect.rst:92
+#: ../../docs/classes/class_texturerect.rst:108
+#: ../../docs/classes/class_texturerect.rst:124
+#: ../../docs/classes/class_texturerect.rst:140
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_texturerect.rst:94
+#: ../../docs/classes/class_texturerect.rst:110
+#: ../../docs/classes/class_texturerect.rst:126
+#: ../../docs/classes/class_texturerect.rst:142
+#: ../../docs/classes/class_texturerect.rst:156
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_texturerect.rst:94
+msgid "set_expand(value)"
+msgstr ""
+
+#: ../../docs/classes/class_texturerect.rst:96
+#: ../../docs/classes/class_texturerect.rst:112
+#: ../../docs/classes/class_texturerect.rst:128
+#: ../../docs/classes/class_texturerect.rst:144
+#: ../../docs/classes/class_texturerect.rst:158
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_texturerect.rst:96
+msgid "has_expand()"
+msgstr ""
+
+#: ../../docs/classes/class_texturerect.rst:99
+msgid "If ``true``, the texture scales to fit its bounding rectangle."
+msgstr ""
+
+#: ../../docs/classes/class_texturerect.rst:105
+msgid ":ref:`bool<class_bool>` **flip_h**"
+msgstr ""
+
+#: ../../docs/classes/class_texturerect.rst:110
+msgid "set_flip_h(value)"
+msgstr ""
+
+#: ../../docs/classes/class_texturerect.rst:112
+msgid "is_flipped_h()"
+msgstr ""
+
+#: ../../docs/classes/class_texturerect.rst:115
+msgid "If ``true``, texture is flipped horizontally."
+msgstr ""
+
+#: ../../docs/classes/class_texturerect.rst:121
+msgid ":ref:`bool<class_bool>` **flip_v**"
+msgstr ""
+
+#: ../../docs/classes/class_texturerect.rst:126
+msgid "set_flip_v(value)"
+msgstr ""
+
+#: ../../docs/classes/class_texturerect.rst:128
+msgid "is_flipped_v()"
+msgstr ""
+
+#: ../../docs/classes/class_texturerect.rst:131
+msgid "If ``true``, texture is flipped vertically."
+msgstr ""
+
+#: ../../docs/classes/class_texturerect.rst:137
+msgid ":ref:`StretchMode<enum_TextureRect_StretchMode>` **stretch_mode**"
+msgstr ""
+
+#: ../../docs/classes/class_texturerect.rst:142
+msgid "set_stretch_mode(value)"
+msgstr ""
+
+#: ../../docs/classes/class_texturerect.rst:144
+msgid "get_stretch_mode()"
+msgstr ""
+
+#: ../../docs/classes/class_texturerect.rst:147
+msgid ""
+"Controls the texture's behavior when resizing the node's bounding rectangle. "
+"See :ref:`StretchMode<enum_TextureRect_StretchMode>`."
+msgstr ""
+
+#: ../../docs/classes/class_texturerect.rst:153
+msgid ":ref:`Texture<class_Texture>` **texture**"
+msgstr ""
+
+#: ../../docs/classes/class_texturerect.rst:156
+msgid "set_texture(value)"
+msgstr ""
+
+#: ../../docs/classes/class_texturerect.rst:158
+msgid "get_texture()"
+msgstr ""
+
+#: ../../docs/classes/class_texturerect.rst:161
+msgid "The node's :ref:`Texture<class_Texture>` resource."
+msgstr ""

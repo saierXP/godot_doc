@@ -1,0 +1,106 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2021, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-31 12:15+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_animationnodeadd2.rst:10
+msgid "AnimationNodeAdd2"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeadd2.rst:12
+msgid ""
+"**Inherits:** :ref:`AnimationNode<class_AnimationNode>` **<** :ref:"
+"`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :"
+"ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeadd2.rst:14
+msgid ""
+"Blends two animations additively inside of an :ref:"
+"`AnimationNodeBlendTree<class_AnimationNodeBlendTree>`."
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeadd2.rst:17
+msgid "Description"
+msgstr "描述"
+
+#: ../../docs/classes/class_animationnodeadd2.rst:19
+msgid ""
+"A resource to add to an :ref:"
+"`AnimationNodeBlendTree<class_AnimationNodeBlendTree>`. Blends two "
+"animations additively based on an amount value in the ``[0.0, 1.0]`` range."
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeadd2.rst:22
+msgid "Tutorials"
+msgstr "教程"
+
+#: ../../docs/classes/class_animationnodeadd2.rst:24
+msgid ":doc:`../tutorials/animation/animation_tree`"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeadd2.rst:27
+msgid "Properties"
+msgstr "属性"
+
+#: ../../docs/classes/class_animationnodeadd2.rst:30
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeadd2.rst:30
+msgid ":ref:`sync<class_AnimationNodeAdd2_property_sync>`"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeadd2.rst:30
+#: ../../docs/classes/class_animationnodeadd2.rst:41
+msgid "``false``"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeadd2.rst:34
+msgid "Property Descriptions"
+msgstr "属性说明"
+
+#: ../../docs/classes/class_animationnodeadd2.rst:38
+msgid ":ref:`bool<class_bool>` **sync**"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeadd2.rst:41
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeadd2.rst:43
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeadd2.rst:43
+msgid "set_use_sync(value)"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeadd2.rst:45
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeadd2.rst:45
+msgid "is_using_sync()"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeadd2.rst:48
+msgid ""
+"If ``true``, sets the ``optimization`` to ``false`` when calling :ref:"
+"`AnimationNode.blend_input<class_AnimationNode_method_blend_input>`, forcing "
+"the blended animations to update every frame."
+msgstr ""

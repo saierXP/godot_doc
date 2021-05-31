@@ -1,0 +1,109 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2021, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-31 12:15+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_confirmationdialog.rst:10
+msgid "ConfirmationDialog"
+msgstr ""
+
+#: ../../docs/classes/class_confirmationdialog.rst:12
+msgid ""
+"**Inherits:** :ref:`AcceptDialog<class_AcceptDialog>` **<** :ref:"
+"`WindowDialog<class_WindowDialog>` **<** :ref:`Popup<class_Popup>` **<** :"
+"ref:`Control<class_Control>` **<** :ref:`CanvasItem<class_CanvasItem>` "
+"**<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_confirmationdialog.rst:14
+msgid ""
+"**Inherited By:** :ref:`EditorFileDialog<class_EditorFileDialog>`, :ref:"
+"`FileDialog<class_FileDialog>`, :ref:"
+"`ScriptCreateDialog<class_ScriptCreateDialog>`"
+msgstr ""
+
+#: ../../docs/classes/class_confirmationdialog.rst:16
+msgid "Dialog for confirmation of actions."
+msgstr "确认动作的对话框。"
+
+#: ../../docs/classes/class_confirmationdialog.rst:19
+msgid "Description"
+msgstr "描述"
+
+#: ../../docs/classes/class_confirmationdialog.rst:21
+msgid ""
+"Dialog for confirmation of actions. This dialog inherits from :ref:"
+"`AcceptDialog<class_AcceptDialog>`, but has by default an OK and Cancel "
+"button (in host OS order)."
+msgstr ""
+
+#: ../../docs/classes/class_confirmationdialog.rst:23
+msgid "To get cancel action, you can use:"
+msgstr ""
+
+#: ../../docs/classes/class_confirmationdialog.rst:30
+msgid "Properties"
+msgstr "属性"
+
+#: ../../docs/classes/class_confirmationdialog.rst:33
+msgid ":ref:`Vector2<class_Vector2>`"
+msgstr ""
+
+#: ../../docs/classes/class_confirmationdialog.rst:33
+msgid "rect_min_size"
+msgstr ""
+
+#: ../../docs/classes/class_confirmationdialog.rst:33
+msgid "``Vector2( 200, 70 )`` *(parent override)*"
+msgstr ""
+
+#: ../../docs/classes/class_confirmationdialog.rst:35
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../../docs/classes/class_confirmationdialog.rst:35
+msgid "window_title"
+msgstr ""
+
+#: ../../docs/classes/class_confirmationdialog.rst:35
+msgid "``\"Please Confirm...\"`` *(parent override)*"
+msgstr ""
+
+#: ../../docs/classes/class_confirmationdialog.rst:39
+msgid "Methods"
+msgstr "方法"
+
+#: ../../docs/classes/class_confirmationdialog.rst:42
+msgid ":ref:`Button<class_Button>`"
+msgstr ""
+
+#: ../../docs/classes/class_confirmationdialog.rst:42
+msgid ""
+":ref:`get_cancel<class_ConfirmationDialog_method_get_cancel>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_confirmationdialog.rst:46
+msgid "Method Descriptions"
+msgstr "方法说明"
+
+#: ../../docs/classes/class_confirmationdialog.rst:50
+msgid ":ref:`Button<class_Button>` **get_cancel** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_confirmationdialog.rst:52
+msgid "Returns the cancel button."
+msgstr "返回取消按钮。"

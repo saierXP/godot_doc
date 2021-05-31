@@ -1,0 +1,136 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2021, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-31 12:15+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_bool.rst:10
+msgid "bool"
+msgstr ""
+
+#: ../../docs/classes/class_bool.rst:12
+msgid "Boolean built-in type."
+msgstr "布尔型内置型。"
+
+#: ../../docs/classes/class_bool.rst:15
+msgid "Description"
+msgstr "描述"
+
+#: ../../docs/classes/class_bool.rst:17
+msgid ""
+"Boolean is a built-in type. There are two boolean values: ``true`` and "
+"``false``. You can think of it as an switch with on or off (1 or 0) setting. "
+"Booleans are used in programming for logic in condition statements, like "
+"``if`` statements."
+msgstr ""
+
+#: ../../docs/classes/class_bool.rst:19
+msgid ""
+"Booleans can be directly used in ``if`` statements. The code below "
+"demonstrates this on the ``if can_shoot:`` line. You don't need to use ``== "
+"true``, you only need ``if can_shoot:``. Similarly, use ``if not can_shoot:"
+"`` rather than ``== false``."
+msgstr ""
+
+#: ../../docs/classes/class_bool.rst:29
+msgid ""
+"The following code will only create a bullet if both conditions are met: "
+"action \"shoot\" is pressed and if ``can_shoot`` is ``true``."
+msgstr ""
+
+#: ../../docs/classes/class_bool.rst:31
+msgid ""
+"**Note:** ``Input.is_action_pressed(\"shoot\")`` is also a boolean that is "
+"``true`` when \"shoot\" is pressed and ``false`` when \"shoot\" isn't "
+"pressed."
+msgstr ""
+
+#: ../../docs/classes/class_bool.rst:41
+msgid ""
+"The following code will set ``can_shoot`` to ``false`` and start a timer. "
+"This will prevent player from shooting until the timer runs out. Next "
+"``can_shoot`` will be set to ``true`` again allowing player to shoot once "
+"again."
+msgstr ""
+
+#: ../../docs/classes/class_bool.rst:58
+msgid "Methods"
+msgstr "方法"
+
+#: ../../docs/classes/class_bool.rst:61 ../../docs/classes/class_bool.rst:63
+#: ../../docs/classes/class_bool.rst:65
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_bool.rst:61
+msgid ""
+":ref:`bool<class_bool_method_bool>` **(** :ref:`int<class_int>` from **)**"
+msgstr ""
+
+#: ../../docs/classes/class_bool.rst:63
+msgid ""
+":ref:`bool<class_bool_method_bool>` **(** :ref:`float<class_float>` from "
+"**)**"
+msgstr ""
+
+#: ../../docs/classes/class_bool.rst:65
+msgid ""
+":ref:`bool<class_bool_method_bool>` **(** :ref:`String<class_String>` from "
+"**)**"
+msgstr ""
+
+#: ../../docs/classes/class_bool.rst:69
+msgid "Method Descriptions"
+msgstr "方法说明"
+
+#: ../../docs/classes/class_bool.rst:73
+msgid ":ref:`bool<class_bool>` **bool** **(** :ref:`int<class_int>` from **)**"
+msgstr ""
+
+#: ../../docs/classes/class_bool.rst:75
+msgid ""
+"Cast an :ref:`int<class_int>` value to a boolean value, this method will "
+"return ``false`` if ``0`` is passed in, and ``true`` for all other ints."
+msgstr ""
+
+#: ../../docs/classes/class_bool.rst:79
+msgid ""
+":ref:`bool<class_bool>` **bool** **(** :ref:`float<class_float>` from **)**"
+msgstr ""
+
+#: ../../docs/classes/class_bool.rst:81
+msgid ""
+"Cast a :ref:`float<class_float>` value to a boolean value, this method will "
+"return ``false`` if ``0.0`` is passed in, and ``true`` for all other floats."
+msgstr ""
+
+#: ../../docs/classes/class_bool.rst:85
+msgid ""
+":ref:`bool<class_bool>` **bool** **(** :ref:`String<class_String>` from **)**"
+msgstr ""
+
+#: ../../docs/classes/class_bool.rst:87
+msgid ""
+"Cast a :ref:`String<class_String>` value to a boolean value, this method "
+"will return ``false`` if ``\"\"`` is passed in, and ``true`` for all non-"
+"empty strings."
+msgstr ""
+
+#: ../../docs/classes/class_bool.rst:89
+msgid ""
+"Examples: ``bool(\"False\")`` returns ``true``, ``bool(\"\")`` returns "
+"``false``."
+msgstr ""

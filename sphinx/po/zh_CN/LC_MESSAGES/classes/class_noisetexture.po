@@ -1,0 +1,266 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2021, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-31 12:15+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_noisetexture.rst:10
+msgid "NoiseTexture"
+msgstr ""
+
+#: ../../docs/classes/class_noisetexture.rst:12
+msgid ""
+"**Inherits:** :ref:`Texture<class_Texture>` **<** :ref:"
+"`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :"
+"ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_noisetexture.rst:14
+msgid ":ref:`OpenSimplexNoise<class_OpenSimplexNoise>` filled texture."
+msgstr ""
+
+#: ../../docs/classes/class_noisetexture.rst:17
+msgid "Description"
+msgstr "描述"
+
+#: ../../docs/classes/class_noisetexture.rst:19
+msgid ""
+"Uses an :ref:`OpenSimplexNoise<class_OpenSimplexNoise>` to fill the texture "
+"data. You can specify the texture size but keep in mind that larger textures "
+"will take longer to generate and seamless noise only works with square sized "
+"textures."
+msgstr ""
+
+#: ../../docs/classes/class_noisetexture.rst:21
+msgid "NoiseTexture can also generate normalmap textures."
+msgstr ""
+
+#: ../../docs/classes/class_noisetexture.rst:23
+msgid ""
+"The class uses :ref:`Thread<class_Thread>`\\ s to generate the texture data "
+"internally, so :ref:`Texture.get_data<class_Texture_method_get_data>` may "
+"return ``null`` if the generation process has not completed yet. In that "
+"case, you need to wait for the texture to be generated before accessing the "
+"data:"
+msgstr ""
+
+#: ../../docs/classes/class_noisetexture.rst:32
+msgid "Properties"
+msgstr "属性"
+
+#: ../../docs/classes/class_noisetexture.rst:35
+#: ../../docs/classes/class_noisetexture.rst:45
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_noisetexture.rst:35
+msgid ":ref:`as_normalmap<class_NoiseTexture_property_as_normalmap>`"
+msgstr ""
+
+#: ../../docs/classes/class_noisetexture.rst:35
+#: ../../docs/classes/class_noisetexture.rst:45
+#: ../../docs/classes/class_noisetexture.rst:58
+#: ../../docs/classes/class_noisetexture.rst:120
+msgid "``false``"
+msgstr ""
+
+#: ../../docs/classes/class_noisetexture.rst:37
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../../docs/classes/class_noisetexture.rst:37
+msgid ":ref:`bump_strength<class_NoiseTexture_property_bump_strength>`"
+msgstr ""
+
+#: ../../docs/classes/class_noisetexture.rst:37
+#: ../../docs/classes/class_noisetexture.rst:74
+msgid "``8.0``"
+msgstr ""
+
+#: ../../docs/classes/class_noisetexture.rst:39
+#: ../../docs/classes/class_noisetexture.rst:41
+#: ../../docs/classes/class_noisetexture.rst:47
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../../docs/classes/class_noisetexture.rst:39
+msgid "flags"
+msgstr ""
+
+#: ../../docs/classes/class_noisetexture.rst:39
+msgid "``7`` *(parent override)*"
+msgstr ""
+
+#: ../../docs/classes/class_noisetexture.rst:41
+msgid ":ref:`height<class_NoiseTexture_property_height>`"
+msgstr ""
+
+#: ../../docs/classes/class_noisetexture.rst:41
+#: ../../docs/classes/class_noisetexture.rst:47
+#: ../../docs/classes/class_noisetexture.rst:90
+#: ../../docs/classes/class_noisetexture.rst:136
+msgid "``512``"
+msgstr ""
+
+#: ../../docs/classes/class_noisetexture.rst:43
+msgid ":ref:`OpenSimplexNoise<class_OpenSimplexNoise>`"
+msgstr ""
+
+#: ../../docs/classes/class_noisetexture.rst:43
+msgid ":ref:`noise<class_NoiseTexture_property_noise>`"
+msgstr ""
+
+#: ../../docs/classes/class_noisetexture.rst:45
+msgid ":ref:`seamless<class_NoiseTexture_property_seamless>`"
+msgstr ""
+
+#: ../../docs/classes/class_noisetexture.rst:47
+msgid ":ref:`width<class_NoiseTexture_property_width>`"
+msgstr ""
+
+#: ../../docs/classes/class_noisetexture.rst:51
+msgid "Property Descriptions"
+msgstr "属性说明"
+
+#: ../../docs/classes/class_noisetexture.rst:55
+msgid ":ref:`bool<class_bool>` **as_normalmap**"
+msgstr ""
+
+#: ../../docs/classes/class_noisetexture.rst:58
+#: ../../docs/classes/class_noisetexture.rst:74
+#: ../../docs/classes/class_noisetexture.rst:90
+#: ../../docs/classes/class_noisetexture.rst:120
+#: ../../docs/classes/class_noisetexture.rst:136
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_noisetexture.rst:60
+#: ../../docs/classes/class_noisetexture.rst:76
+#: ../../docs/classes/class_noisetexture.rst:92
+#: ../../docs/classes/class_noisetexture.rst:106
+#: ../../docs/classes/class_noisetexture.rst:122
+#: ../../docs/classes/class_noisetexture.rst:138
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_noisetexture.rst:60
+msgid "set_as_normalmap(value)"
+msgstr ""
+
+#: ../../docs/classes/class_noisetexture.rst:62
+#: ../../docs/classes/class_noisetexture.rst:78
+#: ../../docs/classes/class_noisetexture.rst:94
+#: ../../docs/classes/class_noisetexture.rst:108
+#: ../../docs/classes/class_noisetexture.rst:124
+#: ../../docs/classes/class_noisetexture.rst:140
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_noisetexture.rst:62
+msgid "is_normalmap()"
+msgstr ""
+
+#: ../../docs/classes/class_noisetexture.rst:65
+msgid ""
+"If ``true``, the resulting texture contains a normal map created from the "
+"original noise interpreted as a bump map."
+msgstr ""
+
+#: ../../docs/classes/class_noisetexture.rst:71
+msgid ":ref:`float<class_float>` **bump_strength**"
+msgstr ""
+
+#: ../../docs/classes/class_noisetexture.rst:76
+msgid "set_bump_strength(value)"
+msgstr ""
+
+#: ../../docs/classes/class_noisetexture.rst:78
+msgid "get_bump_strength()"
+msgstr ""
+
+#: ../../docs/classes/class_noisetexture.rst:81
+msgid ""
+"Strength of the bump maps used in this texture. A higher value will make the "
+"bump maps appear larger while a lower value will make them appear softer."
+msgstr ""
+
+#: ../../docs/classes/class_noisetexture.rst:87
+msgid ":ref:`int<class_int>` **height**"
+msgstr ""
+
+#: ../../docs/classes/class_noisetexture.rst:92
+msgid "set_height(value)"
+msgstr ""
+
+#: ../../docs/classes/class_noisetexture.rst:94
+msgid "get_height()"
+msgstr ""
+
+#: ../../docs/classes/class_noisetexture.rst:97
+msgid "Height of the generated texture."
+msgstr ""
+
+#: ../../docs/classes/class_noisetexture.rst:103
+msgid ":ref:`OpenSimplexNoise<class_OpenSimplexNoise>` **noise**"
+msgstr ""
+
+#: ../../docs/classes/class_noisetexture.rst:106
+msgid "set_noise(value)"
+msgstr ""
+
+#: ../../docs/classes/class_noisetexture.rst:108
+msgid "get_noise()"
+msgstr ""
+
+#: ../../docs/classes/class_noisetexture.rst:111
+msgid ""
+"The :ref:`OpenSimplexNoise<class_OpenSimplexNoise>` instance used to "
+"generate the noise."
+msgstr ""
+
+#: ../../docs/classes/class_noisetexture.rst:117
+msgid ":ref:`bool<class_bool>` **seamless**"
+msgstr ""
+
+#: ../../docs/classes/class_noisetexture.rst:122
+msgid "set_seamless(value)"
+msgstr ""
+
+#: ../../docs/classes/class_noisetexture.rst:124
+msgid "get_seamless()"
+msgstr ""
+
+#: ../../docs/classes/class_noisetexture.rst:127
+msgid ""
+"Whether the texture can be tiled without visible seams or not. Seamless "
+"textures take longer to generate."
+msgstr ""
+
+#: ../../docs/classes/class_noisetexture.rst:133
+msgid ":ref:`int<class_int>` **width**"
+msgstr ""
+
+#: ../../docs/classes/class_noisetexture.rst:138
+msgid "set_width(value)"
+msgstr ""
+
+#: ../../docs/classes/class_noisetexture.rst:140
+msgid "get_width()"
+msgstr ""
+
+#: ../../docs/classes/class_noisetexture.rst:143
+msgid "Width of the generated texture."
+msgstr ""

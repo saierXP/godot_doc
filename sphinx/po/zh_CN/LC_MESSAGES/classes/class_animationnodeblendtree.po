@@ -1,0 +1,318 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2021, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-31 12:15+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_animationnodeblendtree.rst:10
+msgid "AnimationNodeBlendTree"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendtree.rst:12
+msgid ""
+"**Inherits:** :ref:`AnimationRootNode<class_AnimationRootNode>` **<** :ref:"
+"`AnimationNode<class_AnimationNode>` **<** :ref:`Resource<class_Resource>` "
+"**<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendtree.rst:14
+msgid ""
+":ref:`AnimationTree<class_AnimationTree>` node resource that contains many "
+"blend type nodes."
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendtree.rst:17
+msgid "Description"
+msgstr "描述"
+
+#: ../../docs/classes/class_animationnodeblendtree.rst:19
+msgid ""
+"This node may contain a sub-tree of any other blend type nodes, such as mix, "
+"blend2, blend3, one shot, etc. This is one of the most commonly used roots."
+msgstr ""
+"该节点可以包含任何其他混合类型节点的子树，例如mix，blend2，blend3，一个shot"
+"等。这是最常用的根之一。"
+
+#: ../../docs/classes/class_animationnodeblendtree.rst:22
+msgid "Tutorials"
+msgstr "教程"
+
+#: ../../docs/classes/class_animationnodeblendtree.rst:24
+msgid ":doc:`../tutorials/animation/animation_tree`"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendtree.rst:27
+msgid "Properties"
+msgstr "属性"
+
+#: ../../docs/classes/class_animationnodeblendtree.rst:30
+#: ../../docs/classes/class_animationnodeblendtree.rst:45
+msgid ":ref:`Vector2<class_Vector2>`"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendtree.rst:30
+msgid ":ref:`graph_offset<class_AnimationNodeBlendTree_property_graph_offset>`"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendtree.rst:30
+#: ../../docs/classes/class_animationnodeblendtree.rst:91
+msgid "``Vector2( 0, 0 )``"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendtree.rst:34
+msgid "Methods"
+msgstr "方法"
+
+#: ../../docs/classes/class_animationnodeblendtree.rst:37
+#: ../../docs/classes/class_animationnodeblendtree.rst:39
+#: ../../docs/classes/class_animationnodeblendtree.rst:41
+#: ../../docs/classes/class_animationnodeblendtree.rst:49
+#: ../../docs/classes/class_animationnodeblendtree.rst:51
+#: ../../docs/classes/class_animationnodeblendtree.rst:53
+msgid "void"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendtree.rst:37
+msgid ""
+":ref:`add_node<class_AnimationNodeBlendTree_method_add_node>` **(** :ref:"
+"`String<class_String>` name, :ref:`AnimationNode<class_AnimationNode>` "
+"node, :ref:`Vector2<class_Vector2>` position=Vector2( 0, 0 ) **)**"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendtree.rst:39
+msgid ""
+":ref:`connect_node<class_AnimationNodeBlendTree_method_connect_node>` **(** :"
+"ref:`String<class_String>` input_node, :ref:`int<class_int>` input_index, :"
+"ref:`String<class_String>` output_node **)**"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendtree.rst:41
+msgid ""
+":ref:`disconnect_node<class_AnimationNodeBlendTree_method_disconnect_node>` "
+"**(** :ref:`String<class_String>` input_node, :ref:`int<class_int>` "
+"input_index **)**"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendtree.rst:43
+msgid ":ref:`AnimationNode<class_AnimationNode>`"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendtree.rst:43
+msgid ""
+":ref:`get_node<class_AnimationNodeBlendTree_method_get_node>` **(** :ref:"
+"`String<class_String>` name **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendtree.rst:45
+msgid ""
+":ref:"
+"`get_node_position<class_AnimationNodeBlendTree_method_get_node_position>` "
+"**(** :ref:`String<class_String>` name **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendtree.rst:47
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendtree.rst:47
+msgid ""
+":ref:`has_node<class_AnimationNodeBlendTree_method_has_node>` **(** :ref:"
+"`String<class_String>` name **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendtree.rst:49
+msgid ""
+":ref:`remove_node<class_AnimationNodeBlendTree_method_remove_node>` **(** :"
+"ref:`String<class_String>` name **)**"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendtree.rst:51
+msgid ""
+":ref:`rename_node<class_AnimationNodeBlendTree_method_rename_node>` **(** :"
+"ref:`String<class_String>` name, :ref:`String<class_String>` new_name **)**"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendtree.rst:53
+msgid ""
+":ref:"
+"`set_node_position<class_AnimationNodeBlendTree_method_set_node_position>` "
+"**(** :ref:`String<class_String>` name, :ref:`Vector2<class_Vector2>` "
+"position **)**"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendtree.rst:57
+msgid "Constants"
+msgstr "常量"
+
+#: ../../docs/classes/class_animationnodeblendtree.rst:71
+msgid "**CONNECTION_OK** = **0** --- The connection was successful."
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendtree.rst:73
+msgid "**CONNECTION_ERROR_NO_INPUT** = **1** --- The input node is ``null``."
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendtree.rst:75
+msgid ""
+"**CONNECTION_ERROR_NO_INPUT_INDEX** = **2** --- The specified input port is "
+"out of range."
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendtree.rst:77
+msgid "**CONNECTION_ERROR_NO_OUTPUT** = **3** --- The output node is ``null``."
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendtree.rst:79
+msgid ""
+"**CONNECTION_ERROR_SAME_NODE** = **4** --- Input and output nodes are the "
+"same."
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendtree.rst:81
+msgid ""
+"**CONNECTION_ERROR_CONNECTION_EXISTS** = **5** --- The specified connection "
+"already exists."
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendtree.rst:84
+msgid "Property Descriptions"
+msgstr "属性说明"
+
+#: ../../docs/classes/class_animationnodeblendtree.rst:88
+msgid ":ref:`Vector2<class_Vector2>` **graph_offset**"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendtree.rst:91
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendtree.rst:93
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendtree.rst:93
+msgid "set_graph_offset(value)"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendtree.rst:95
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendtree.rst:95
+msgid "get_graph_offset()"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendtree.rst:98
+msgid "The global offset of all sub-nodes."
+msgstr "所有子节点的全局偏移量。"
+
+#: ../../docs/classes/class_animationnodeblendtree.rst:101
+msgid "Method Descriptions"
+msgstr "方法说明"
+
+#: ../../docs/classes/class_animationnodeblendtree.rst:105
+msgid ""
+"void **add_node** **(** :ref:`String<class_String>` name, :ref:"
+"`AnimationNode<class_AnimationNode>` node, :ref:`Vector2<class_Vector2>` "
+"position=Vector2( 0, 0 ) **)**"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendtree.rst:107
+msgid ""
+"Adds an :ref:`AnimationNode<class_AnimationNode>` at the given ``position``. "
+"The ``name`` is used to identify the created sub-node later."
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendtree.rst:113
+msgid ""
+"void **connect_node** **(** :ref:`String<class_String>` input_node, :ref:"
+"`int<class_int>` input_index, :ref:`String<class_String>` output_node **)**"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendtree.rst:115
+msgid ""
+"Connects the output of an :ref:`AnimationNode<class_AnimationNode>` as input "
+"for another :ref:`AnimationNode<class_AnimationNode>`, at the input port "
+"specified by ``input_index``."
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendtree.rst:121
+msgid ""
+"void **disconnect_node** **(** :ref:`String<class_String>` input_node, :ref:"
+"`int<class_int>` input_index **)**"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendtree.rst:123
+msgid "Disconnects the node connected to the specified input."
+msgstr "断开连接到指定输入端的节点。"
+
+#: ../../docs/classes/class_animationnodeblendtree.rst:129
+msgid ""
+":ref:`AnimationNode<class_AnimationNode>` **get_node** **(** :ref:"
+"`String<class_String>` name **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendtree.rst:131
+msgid "Returns the sub-node with the specified ``name``."
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendtree.rst:137
+msgid ""
+":ref:`Vector2<class_Vector2>` **get_node_position** **(** :ref:"
+"`String<class_String>` name **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendtree.rst:139
+msgid "Returns the position of the sub-node with the specified ``name``."
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendtree.rst:145
+msgid ""
+":ref:`bool<class_bool>` **has_node** **(** :ref:`String<class_String>` name "
+"**)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendtree.rst:147
+msgid "Returns ``true`` if a sub-node with specified ``name`` exists."
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendtree.rst:153
+msgid "void **remove_node** **(** :ref:`String<class_String>` name **)**"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendtree.rst:155
+msgid "Removes a sub-node."
+msgstr "删除一个子节点。"
+
+#: ../../docs/classes/class_animationnodeblendtree.rst:161
+msgid ""
+"void **rename_node** **(** :ref:`String<class_String>` name, :ref:"
+"`String<class_String>` new_name **)**"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendtree.rst:163
+msgid "Changes the name of a sub-node."
+msgstr "更改子节点的名称。"
+
+#: ../../docs/classes/class_animationnodeblendtree.rst:169
+msgid ""
+"void **set_node_position** **(** :ref:`String<class_String>` name, :ref:"
+"`Vector2<class_Vector2>` position **)**"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendtree.rst:171
+msgid "Modifies the position of a sub-node."
+msgstr "修改子节点的位置。"

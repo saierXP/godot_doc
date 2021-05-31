@@ -1,0 +1,511 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2021, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-31 12:15+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_collisionobject.rst:10
+msgid "CollisionObject"
+msgstr ""
+
+#: ../../docs/classes/class_collisionobject.rst:12
+msgid ""
+"**Inherits:** :ref:`Spatial<class_Spatial>` **<** :ref:`Node<class_Node>` "
+"**<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_collisionobject.rst:14
+msgid ""
+"**Inherited By:** :ref:`Area<class_Area>`, :ref:"
+"`PhysicsBody<class_PhysicsBody>`"
+msgstr ""
+
+#: ../../docs/classes/class_collisionobject.rst:16
+msgid "Base node for collision objects."
+msgstr "碰撞对象的基础节点。"
+
+#: ../../docs/classes/class_collisionobject.rst:19
+msgid "Description"
+msgstr "描述"
+
+#: ../../docs/classes/class_collisionobject.rst:21
+msgid ""
+"CollisionObject is the base class for physics objects. It can hold any "
+"number of collision :ref:`Shape<class_Shape>`\\ s. Each shape must be "
+"assigned to a *shape owner*. The CollisionObject can have any number of "
+"shape owners. Shape owners are not nodes and do not appear in the editor, "
+"but are accessible through code using the ``shape_owner_*`` methods."
+msgstr ""
+
+#: ../../docs/classes/class_collisionobject.rst:24
+msgid "Properties"
+msgstr "属性"
+
+#: ../../docs/classes/class_collisionobject.rst:27
+#: ../../docs/classes/class_collisionobject.rst:29
+#: ../../docs/classes/class_collisionobject.rst:44
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_collisionobject.rst:27
+msgid ""
+":ref:"
+"`input_capture_on_drag<class_CollisionObject_property_input_capture_on_drag>`"
+msgstr ""
+
+#: ../../docs/classes/class_collisionobject.rst:27
+#: ../../docs/classes/class_collisionobject.rst:104
+msgid "``false``"
+msgstr ""
+
+#: ../../docs/classes/class_collisionobject.rst:29
+msgid ""
+":ref:`input_ray_pickable<class_CollisionObject_property_input_ray_pickable>`"
+msgstr ""
+
+#: ../../docs/classes/class_collisionobject.rst:29
+#: ../../docs/classes/class_collisionobject.rst:120
+msgid "``true``"
+msgstr ""
+
+#: ../../docs/classes/class_collisionobject.rst:33
+msgid "Methods"
+msgstr "方法"
+
+#: ../../docs/classes/class_collisionobject.rst:36
+#: ../../docs/classes/class_collisionobject.rst:46
+#: ../../docs/classes/class_collisionobject.rst:50
+#: ../../docs/classes/class_collisionobject.rst:52
+#: ../../docs/classes/class_collisionobject.rst:64
+#: ../../docs/classes/class_collisionobject.rst:66
+#: ../../docs/classes/class_collisionobject.rst:68
+msgid "void"
+msgstr ""
+
+#: ../../docs/classes/class_collisionobject.rst:36
+msgid ""
+":ref:`_input_event<class_CollisionObject_method__input_event>` **(** :ref:"
+"`Object<class_Object>` camera, :ref:`InputEvent<class_InputEvent>` event, :"
+"ref:`Vector3<class_Vector3>` click_position, :ref:`Vector3<class_Vector3>` "
+"click_normal, :ref:`int<class_int>` shape_idx **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_collisionobject.rst:38
+#: ../../docs/classes/class_collisionobject.rst:48
+#: ../../docs/classes/class_collisionobject.rst:58
+#: ../../docs/classes/class_collisionobject.rst:60
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../../docs/classes/class_collisionobject.rst:38
+msgid ""
+":ref:`create_shape_owner<class_CollisionObject_method_create_shape_owner>` "
+"**(** :ref:`Object<class_Object>` owner **)**"
+msgstr ""
+
+#: ../../docs/classes/class_collisionobject.rst:40
+msgid ":ref:`RID<class_RID>`"
+msgstr ""
+
+#: ../../docs/classes/class_collisionobject.rst:40
+msgid ""
+":ref:`get_rid<class_CollisionObject_method_get_rid>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_collisionobject.rst:42
+msgid ":ref:`Array<class_Array>`"
+msgstr ""
+
+#: ../../docs/classes/class_collisionobject.rst:42
+msgid ""
+":ref:`get_shape_owners<class_CollisionObject_method_get_shape_owners>` **(** "
+"**)**"
+msgstr ""
+
+#: ../../docs/classes/class_collisionobject.rst:44
+msgid ""
+":ref:"
+"`is_shape_owner_disabled<class_CollisionObject_method_is_shape_owner_disabled>` "
+"**(** :ref:`int<class_int>` owner_id **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_collisionobject.rst:46
+msgid ""
+":ref:`remove_shape_owner<class_CollisionObject_method_remove_shape_owner>` "
+"**(** :ref:`int<class_int>` owner_id **)**"
+msgstr ""
+
+#: ../../docs/classes/class_collisionobject.rst:48
+msgid ""
+":ref:`shape_find_owner<class_CollisionObject_method_shape_find_owner>` "
+"**(** :ref:`int<class_int>` shape_index **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_collisionobject.rst:50
+msgid ""
+":ref:"
+"`shape_owner_add_shape<class_CollisionObject_method_shape_owner_add_shape>` "
+"**(** :ref:`int<class_int>` owner_id, :ref:`Shape<class_Shape>` shape **)**"
+msgstr ""
+
+#: ../../docs/classes/class_collisionobject.rst:52
+msgid ""
+":ref:"
+"`shape_owner_clear_shapes<class_CollisionObject_method_shape_owner_clear_shapes>` "
+"**(** :ref:`int<class_int>` owner_id **)**"
+msgstr ""
+
+#: ../../docs/classes/class_collisionobject.rst:54
+msgid ":ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_collisionobject.rst:54
+msgid ""
+":ref:"
+"`shape_owner_get_owner<class_CollisionObject_method_shape_owner_get_owner>` "
+"**(** :ref:`int<class_int>` owner_id **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_collisionobject.rst:56
+msgid ":ref:`Shape<class_Shape>`"
+msgstr ""
+
+#: ../../docs/classes/class_collisionobject.rst:56
+msgid ""
+":ref:"
+"`shape_owner_get_shape<class_CollisionObject_method_shape_owner_get_shape>` "
+"**(** :ref:`int<class_int>` owner_id, :ref:`int<class_int>` shape_id **)** |"
+"const|"
+msgstr ""
+
+#: ../../docs/classes/class_collisionobject.rst:58
+msgid ""
+":ref:"
+"`shape_owner_get_shape_count<class_CollisionObject_method_shape_owner_get_shape_count>` "
+"**(** :ref:`int<class_int>` owner_id **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_collisionobject.rst:60
+msgid ""
+":ref:"
+"`shape_owner_get_shape_index<class_CollisionObject_method_shape_owner_get_shape_index>` "
+"**(** :ref:`int<class_int>` owner_id, :ref:`int<class_int>` shape_id **)** |"
+"const|"
+msgstr ""
+
+#: ../../docs/classes/class_collisionobject.rst:62
+msgid ":ref:`Transform<class_Transform>`"
+msgstr ""
+
+#: ../../docs/classes/class_collisionobject.rst:62
+msgid ""
+":ref:"
+"`shape_owner_get_transform<class_CollisionObject_method_shape_owner_get_transform>` "
+"**(** :ref:`int<class_int>` owner_id **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_collisionobject.rst:64
+msgid ""
+":ref:"
+"`shape_owner_remove_shape<class_CollisionObject_method_shape_owner_remove_shape>` "
+"**(** :ref:`int<class_int>` owner_id, :ref:`int<class_int>` shape_id **)**"
+msgstr ""
+
+#: ../../docs/classes/class_collisionobject.rst:66
+msgid ""
+":ref:"
+"`shape_owner_set_disabled<class_CollisionObject_method_shape_owner_set_disabled>` "
+"**(** :ref:`int<class_int>` owner_id, :ref:`bool<class_bool>` disabled **)**"
+msgstr ""
+
+#: ../../docs/classes/class_collisionobject.rst:68
+msgid ""
+":ref:"
+"`shape_owner_set_transform<class_CollisionObject_method_shape_owner_set_transform>` "
+"**(** :ref:`int<class_int>` owner_id, :ref:`Transform<class_Transform>` "
+"transform **)**"
+msgstr ""
+
+#: ../../docs/classes/class_collisionobject.rst:72
+msgid "Signals"
+msgstr "信号"
+
+#: ../../docs/classes/class_collisionobject.rst:76
+msgid ""
+"**input_event** **(** :ref:`Node<class_Node>` camera, :ref:"
+"`InputEvent<class_InputEvent>` event, :ref:`Vector3<class_Vector3>` "
+"click_position, :ref:`Vector3<class_Vector3>` click_normal, :ref:"
+"`int<class_int>` shape_idx **)**"
+msgstr ""
+
+#: ../../docs/classes/class_collisionobject.rst:78
+msgid ""
+"Emitted when :ref:`_input_event<class_CollisionObject_method__input_event>` "
+"receives an event. See its description for details."
+msgstr ""
+
+#: ../../docs/classes/class_collisionobject.rst:84
+msgid "**mouse_entered** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_collisionobject.rst:86
+msgid "Emitted when the mouse pointer enters any of this object's shapes."
+msgstr "当鼠标指针进入此对象的任何形状时触发。"
+
+#: ../../docs/classes/class_collisionobject.rst:92
+msgid "**mouse_exited** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_collisionobject.rst:94
+msgid "Emitted when the mouse pointer exits all this object's shapes."
+msgstr "当鼠标指针退出此对象的所有形状时发出。"
+
+#: ../../docs/classes/class_collisionobject.rst:97
+msgid "Property Descriptions"
+msgstr "属性说明"
+
+#: ../../docs/classes/class_collisionobject.rst:101
+msgid ":ref:`bool<class_bool>` **input_capture_on_drag**"
+msgstr ""
+
+#: ../../docs/classes/class_collisionobject.rst:104
+#: ../../docs/classes/class_collisionobject.rst:120
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_collisionobject.rst:106
+#: ../../docs/classes/class_collisionobject.rst:122
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_collisionobject.rst:106
+msgid "set_capture_input_on_drag(value)"
+msgstr ""
+
+#: ../../docs/classes/class_collisionobject.rst:108
+#: ../../docs/classes/class_collisionobject.rst:124
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_collisionobject.rst:108
+msgid "get_capture_input_on_drag()"
+msgstr ""
+
+#: ../../docs/classes/class_collisionobject.rst:111
+msgid ""
+"If ``true``, the ``CollisionObject`` will continue to receive input events "
+"as the mouse is dragged across its shapes."
+msgstr ""
+
+#: ../../docs/classes/class_collisionobject.rst:117
+msgid ":ref:`bool<class_bool>` **input_ray_pickable**"
+msgstr ""
+
+#: ../../docs/classes/class_collisionobject.rst:122
+msgid "set_ray_pickable(value)"
+msgstr ""
+
+#: ../../docs/classes/class_collisionobject.rst:124
+msgid "is_ray_pickable()"
+msgstr ""
+
+#: ../../docs/classes/class_collisionobject.rst:127
+msgid ""
+"If ``true``, the ``CollisionObject``'s shapes will respond to :ref:"
+"`RayCast<class_RayCast>`\\ s."
+msgstr ""
+
+#: ../../docs/classes/class_collisionobject.rst:130
+msgid "Method Descriptions"
+msgstr "方法说明"
+
+#: ../../docs/classes/class_collisionobject.rst:134
+msgid ""
+"void **_input_event** **(** :ref:`Object<class_Object>` camera, :ref:"
+"`InputEvent<class_InputEvent>` event, :ref:`Vector3<class_Vector3>` "
+"click_position, :ref:`Vector3<class_Vector3>` click_normal, :ref:"
+"`int<class_int>` shape_idx **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_collisionobject.rst:136
+msgid ""
+"Accepts unhandled :ref:`InputEvent<class_InputEvent>`\\ s. "
+"``click_position`` is the clicked location in world space and "
+"``click_normal`` is the normal vector extending from the clicked surface of "
+"the :ref:`Shape<class_Shape>` at ``shape_idx``. Connect to the "
+"``input_event`` signal to easily pick up these events."
+msgstr ""
+
+#: ../../docs/classes/class_collisionobject.rst:142
+msgid ""
+":ref:`int<class_int>` **create_shape_owner** **(** :ref:"
+"`Object<class_Object>` owner **)**"
+msgstr ""
+
+#: ../../docs/classes/class_collisionobject.rst:144
+msgid ""
+"Creates a new shape owner for the given object. Returns ``owner_id`` of the "
+"new owner for future reference."
+msgstr ""
+
+#: ../../docs/classes/class_collisionobject.rst:150
+msgid ":ref:`RID<class_RID>` **get_rid** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_collisionobject.rst:152
+msgid "Returns the object's :ref:`RID<class_RID>`."
+msgstr ""
+
+#: ../../docs/classes/class_collisionobject.rst:158
+msgid ":ref:`Array<class_Array>` **get_shape_owners** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_collisionobject.rst:160
+msgid ""
+"Returns an :ref:`Array<class_Array>` of ``owner_id`` identifiers. You can "
+"use these ids in other methods that take ``owner_id`` as an argument."
+msgstr ""
+
+#: ../../docs/classes/class_collisionobject.rst:166
+msgid ""
+":ref:`bool<class_bool>` **is_shape_owner_disabled** **(** :ref:"
+"`int<class_int>` owner_id **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_collisionobject.rst:168
+msgid "If ``true``, the shape owner and its shapes are disabled."
+msgstr ""
+
+#: ../../docs/classes/class_collisionobject.rst:174
+msgid "void **remove_shape_owner** **(** :ref:`int<class_int>` owner_id **)**"
+msgstr ""
+
+#: ../../docs/classes/class_collisionobject.rst:176
+msgid "Removes the given shape owner."
+msgstr "移除给定形状的所有者。"
+
+#: ../../docs/classes/class_collisionobject.rst:182
+msgid ""
+":ref:`int<class_int>` **shape_find_owner** **(** :ref:`int<class_int>` "
+"shape_index **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_collisionobject.rst:184
+msgid "Returns the ``owner_id`` of the given shape."
+msgstr ""
+
+#: ../../docs/classes/class_collisionobject.rst:190
+msgid ""
+"void **shape_owner_add_shape** **(** :ref:`int<class_int>` owner_id, :ref:"
+"`Shape<class_Shape>` shape **)**"
+msgstr ""
+
+#: ../../docs/classes/class_collisionobject.rst:192
+msgid "Adds a :ref:`Shape<class_Shape>` to the shape owner."
+msgstr ""
+
+#: ../../docs/classes/class_collisionobject.rst:198
+msgid ""
+"void **shape_owner_clear_shapes** **(** :ref:`int<class_int>` owner_id **)**"
+msgstr ""
+
+#: ../../docs/classes/class_collisionobject.rst:200
+msgid "Removes all shapes from the shape owner."
+msgstr "移除形状所有者的所有形状。"
+
+#: ../../docs/classes/class_collisionobject.rst:206
+msgid ""
+":ref:`Object<class_Object>` **shape_owner_get_owner** **(** :ref:"
+"`int<class_int>` owner_id **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_collisionobject.rst:208
+msgid "Returns the parent object of the given shape owner."
+msgstr "返回给定形状所有者的父对象。"
+
+#: ../../docs/classes/class_collisionobject.rst:214
+msgid ""
+":ref:`Shape<class_Shape>` **shape_owner_get_shape** **(** :ref:"
+"`int<class_int>` owner_id, :ref:`int<class_int>` shape_id **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_collisionobject.rst:216
+msgid ""
+"Returns the :ref:`Shape<class_Shape>` with the given id from the given shape "
+"owner."
+msgstr ""
+
+#: ../../docs/classes/class_collisionobject.rst:222
+msgid ""
+":ref:`int<class_int>` **shape_owner_get_shape_count** **(** :ref:"
+"`int<class_int>` owner_id **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_collisionobject.rst:224
+msgid "Returns the number of shapes the given shape owner contains."
+msgstr "返回给定形状所有者包含的形状数量。"
+
+#: ../../docs/classes/class_collisionobject.rst:230
+msgid ""
+":ref:`int<class_int>` **shape_owner_get_shape_index** **(** :ref:"
+"`int<class_int>` owner_id, :ref:`int<class_int>` shape_id **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_collisionobject.rst:232
+msgid ""
+"Returns the child index of the :ref:`Shape<class_Shape>` with the given id "
+"from the given shape owner."
+msgstr ""
+
+#: ../../docs/classes/class_collisionobject.rst:238
+msgid ""
+":ref:`Transform<class_Transform>` **shape_owner_get_transform** **(** :ref:"
+"`int<class_int>` owner_id **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_collisionobject.rst:240
+msgid "Returns the shape owner's :ref:`Transform<class_Transform>`."
+msgstr ""
+
+#: ../../docs/classes/class_collisionobject.rst:246
+msgid ""
+"void **shape_owner_remove_shape** **(** :ref:`int<class_int>` owner_id, :ref:"
+"`int<class_int>` shape_id **)**"
+msgstr ""
+
+#: ../../docs/classes/class_collisionobject.rst:248
+msgid "Removes a shape from the given shape owner."
+msgstr "从给定的形状所有者中删除一个形状。"
+
+#: ../../docs/classes/class_collisionobject.rst:254
+msgid ""
+"void **shape_owner_set_disabled** **(** :ref:`int<class_int>` owner_id, :ref:"
+"`bool<class_bool>` disabled **)**"
+msgstr ""
+
+#: ../../docs/classes/class_collisionobject.rst:256
+msgid "If ``true``, disables the given shape owner."
+msgstr ""
+
+#: ../../docs/classes/class_collisionobject.rst:262
+msgid ""
+"void **shape_owner_set_transform** **(** :ref:`int<class_int>` owner_id, :"
+"ref:`Transform<class_Transform>` transform **)**"
+msgstr ""
+
+#: ../../docs/classes/class_collisionobject.rst:264
+msgid "Sets the :ref:`Transform<class_Transform>` of the given shape owner."
+msgstr ""

@@ -1,0 +1,160 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2021, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-31 12:15+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_visualshadernodevectorop.rst:10
+msgid "VisualShaderNodeVectorOp"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodevectorop.rst:12
+msgid ""
+"**Inherits:** :ref:`VisualShaderNode<class_VisualShaderNode>` **<** :ref:"
+"`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :"
+"ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodevectorop.rst:14
+msgid "A vector operator to be used within the visual shader graph."
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodevectorop.rst:17
+msgid "Description"
+msgstr "描述"
+
+#: ../../docs/classes/class_visualshadernodevectorop.rst:19
+msgid ""
+"A visual shader node for use of vector operators. Operates on vector ``a`` "
+"and vector ``b``."
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodevectorop.rst:22
+msgid "Properties"
+msgstr "属性"
+
+#: ../../docs/classes/class_visualshadernodevectorop.rst:25
+msgid ":ref:`Operator<enum_VisualShaderNodeVectorOp_Operator>`"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodevectorop.rst:25
+msgid ":ref:`operator<class_VisualShaderNodeVectorOp_property_operator>`"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodevectorop.rst:25
+#: ../../docs/classes/class_visualshadernodevectorop.rst:91
+msgid "``0``"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodevectorop.rst:29
+msgid "Enumerations"
+msgstr "枚举"
+
+#: ../../docs/classes/class_visualshadernodevectorop.rst:57
+msgid "enum **Operator**:"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodevectorop.rst:59
+msgid "**OP_ADD** = **0** --- Adds two vectors."
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodevectorop.rst:61
+msgid "**OP_SUB** = **1** --- Subtracts a vector from a vector."
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodevectorop.rst:63
+msgid "**OP_MUL** = **2** --- Multiplies two vectors."
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodevectorop.rst:65
+msgid "**OP_DIV** = **3** --- Divides vector by vector."
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodevectorop.rst:67
+msgid "**OP_MOD** = **4** --- Returns the remainder of the two vectors."
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodevectorop.rst:69
+msgid ""
+"**OP_POW** = **5** --- Returns the value of the first parameter raised to "
+"the power of the second, for each component of the vectors."
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodevectorop.rst:71
+msgid ""
+"**OP_MAX** = **6** --- Returns the greater of two values, for each component "
+"of the vectors."
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodevectorop.rst:73
+msgid ""
+"**OP_MIN** = **7** --- Returns the lesser of two values, for each component "
+"of the vectors."
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodevectorop.rst:75
+msgid "**OP_CROSS** = **8** --- Calculates the cross product of two vectors."
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodevectorop.rst:77
+msgid "**OP_ATAN2** = **9** --- Returns the arc-tangent of the parameters."
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodevectorop.rst:79
+msgid ""
+"**OP_REFLECT** = **10** --- Returns the vector that points in the direction "
+"of reflection. ``a`` is incident vector and ``b`` is the normal vector."
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodevectorop.rst:81
+msgid ""
+"**OP_STEP** = **11** --- Vector step operator. Returns ``0.0`` if ``a`` is "
+"smaller than ``b`` and ``1.0`` otherwise."
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodevectorop.rst:84
+msgid "Property Descriptions"
+msgstr "属性说明"
+
+#: ../../docs/classes/class_visualshadernodevectorop.rst:88
+msgid ":ref:`Operator<enum_VisualShaderNodeVectorOp_Operator>` **operator**"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodevectorop.rst:91
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodevectorop.rst:93
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodevectorop.rst:93
+msgid "set_operator(value)"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodevectorop.rst:95
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodevectorop.rst:95
+msgid "get_operator()"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodevectorop.rst:98
+msgid ""
+"The operator to be used. See :ref:"
+"`Operator<enum_VisualShaderNodeVectorOp_Operator>` for options."
+msgstr ""

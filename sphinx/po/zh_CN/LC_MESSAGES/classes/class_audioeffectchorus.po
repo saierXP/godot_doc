@@ -1,0 +1,802 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2021, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-31 12:15+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_audioeffectchorus.rst:10
+msgid "AudioEffectChorus"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectchorus.rst:12
+msgid ""
+"**Inherits:** :ref:`AudioEffect<class_AudioEffect>` **<** :ref:"
+"`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :"
+"ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectchorus.rst:14
+msgid "Adds a chorus audio effect."
+msgstr "添加合唱音频效果。"
+
+#: ../../docs/classes/class_audioeffectchorus.rst:17
+msgid "Description"
+msgstr "描述"
+
+#: ../../docs/classes/class_audioeffectchorus.rst:19
+msgid ""
+"Adds a chorus audio effect. The effect applies a filter with voices to "
+"duplicate the audio source and manipulate it through the filter."
+msgstr ""
+"添加一个合唱音频效果。该效果应用带有声音的滤波器来复制音频源，并通过滤波器对"
+"其进行操作。"
+
+#: ../../docs/classes/class_audioeffectchorus.rst:22
+msgid "Properties"
+msgstr "属性"
+
+#: ../../docs/classes/class_audioeffectchorus.rst:25
+#: ../../docs/classes/class_audioeffectchorus.rst:27
+#: ../../docs/classes/class_audioeffectchorus.rst:29
+#: ../../docs/classes/class_audioeffectchorus.rst:31
+#: ../../docs/classes/class_audioeffectchorus.rst:33
+#: ../../docs/classes/class_audioeffectchorus.rst:35
+#: ../../docs/classes/class_audioeffectchorus.rst:37
+#: ../../docs/classes/class_audioeffectchorus.rst:39
+#: ../../docs/classes/class_audioeffectchorus.rst:41
+#: ../../docs/classes/class_audioeffectchorus.rst:43
+#: ../../docs/classes/class_audioeffectchorus.rst:45
+#: ../../docs/classes/class_audioeffectchorus.rst:47
+#: ../../docs/classes/class_audioeffectchorus.rst:49
+#: ../../docs/classes/class_audioeffectchorus.rst:51
+#: ../../docs/classes/class_audioeffectchorus.rst:53
+#: ../../docs/classes/class_audioeffectchorus.rst:55
+#: ../../docs/classes/class_audioeffectchorus.rst:57
+#: ../../docs/classes/class_audioeffectchorus.rst:59
+#: ../../docs/classes/class_audioeffectchorus.rst:61
+#: ../../docs/classes/class_audioeffectchorus.rst:63
+#: ../../docs/classes/class_audioeffectchorus.rst:65
+#: ../../docs/classes/class_audioeffectchorus.rst:67
+#: ../../docs/classes/class_audioeffectchorus.rst:69
+#: ../../docs/classes/class_audioeffectchorus.rst:71
+#: ../../docs/classes/class_audioeffectchorus.rst:73
+#: ../../docs/classes/class_audioeffectchorus.rst:77
+#: ../../docs/classes/class_audioeffectchorus.rst:84
+#: ../../docs/classes/class_audioeffectchorus.rst:86
+#: ../../docs/classes/class_audioeffectchorus.rst:88
+#: ../../docs/classes/class_audioeffectchorus.rst:90
+#: ../../docs/classes/class_audioeffectchorus.rst:92
+#: ../../docs/classes/class_audioeffectchorus.rst:94
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectchorus.rst:25
+msgid ":ref:`dry<class_AudioEffectChorus_property_dry>`"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectchorus.rst:25
+#: ../../docs/classes/class_audioeffectchorus.rst:117
+msgid "``1.0``"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectchorus.rst:27
+msgid ""
+":ref:`voice/1/cutoff_hz<class_AudioEffectChorus_property_voice/1/cutoff_hz>`"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectchorus.rst:27
+#: ../../docs/classes/class_audioeffectchorus.rst:39
+#: ../../docs/classes/class_audioeffectchorus.rst:133
+#: ../../docs/classes/class_audioeffectchorus.rst:229
+msgid "``8000.0``"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectchorus.rst:29
+msgid ""
+":ref:`voice/1/delay_ms<class_AudioEffectChorus_property_voice/1/delay_ms>`"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectchorus.rst:29
+#: ../../docs/classes/class_audioeffectchorus.rst:149
+msgid "``15.0``"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectchorus.rst:31
+msgid ""
+":ref:`voice/1/depth_ms<class_AudioEffectChorus_property_voice/1/depth_ms>`"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectchorus.rst:31
+#: ../../docs/classes/class_audioeffectchorus.rst:165
+msgid "``2.0``"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectchorus.rst:33
+msgid ""
+":ref:`voice/1/level_db<class_AudioEffectChorus_property_voice/1/level_db>`"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectchorus.rst:33
+#: ../../docs/classes/class_audioeffectchorus.rst:45
+#: ../../docs/classes/class_audioeffectchorus.rst:181
+#: ../../docs/classes/class_audioeffectchorus.rst:277
+msgid "``0.0``"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectchorus.rst:35
+msgid ":ref:`voice/1/pan<class_AudioEffectChorus_property_voice/1/pan>`"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectchorus.rst:35
+#: ../../docs/classes/class_audioeffectchorus.rst:197
+msgid "``-0.5``"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectchorus.rst:37
+msgid ""
+":ref:`voice/1/rate_hz<class_AudioEffectChorus_property_voice/1/rate_hz>`"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectchorus.rst:37
+#: ../../docs/classes/class_audioeffectchorus.rst:213
+msgid "``0.8``"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectchorus.rst:39
+msgid ""
+":ref:`voice/2/cutoff_hz<class_AudioEffectChorus_property_voice/2/cutoff_hz>`"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectchorus.rst:41
+msgid ""
+":ref:`voice/2/delay_ms<class_AudioEffectChorus_property_voice/2/delay_ms>`"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectchorus.rst:41
+#: ../../docs/classes/class_audioeffectchorus.rst:245
+msgid "``20.0``"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectchorus.rst:43
+msgid ""
+":ref:`voice/2/depth_ms<class_AudioEffectChorus_property_voice/2/depth_ms>`"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectchorus.rst:43
+#: ../../docs/classes/class_audioeffectchorus.rst:261
+msgid "``3.0``"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectchorus.rst:45
+msgid ""
+":ref:`voice/2/level_db<class_AudioEffectChorus_property_voice/2/level_db>`"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectchorus.rst:47
+msgid ":ref:`voice/2/pan<class_AudioEffectChorus_property_voice/2/pan>`"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectchorus.rst:47
+#: ../../docs/classes/class_audioeffectchorus.rst:77
+#: ../../docs/classes/class_audioeffectchorus.rst:293
+#: ../../docs/classes/class_audioeffectchorus.rst:509
+msgid "``0.5``"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectchorus.rst:49
+msgid ""
+":ref:`voice/2/rate_hz<class_AudioEffectChorus_property_voice/2/rate_hz>`"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectchorus.rst:49
+#: ../../docs/classes/class_audioeffectchorus.rst:309
+msgid "``1.2``"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectchorus.rst:51
+msgid ""
+":ref:`voice/3/cutoff_hz<class_AudioEffectChorus_property_voice/3/cutoff_hz>`"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectchorus.rst:53
+msgid ""
+":ref:`voice/3/delay_ms<class_AudioEffectChorus_property_voice/3/delay_ms>`"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectchorus.rst:55
+msgid ""
+":ref:`voice/3/depth_ms<class_AudioEffectChorus_property_voice/3/depth_ms>`"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectchorus.rst:57
+msgid ""
+":ref:`voice/3/level_db<class_AudioEffectChorus_property_voice/3/level_db>`"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectchorus.rst:59
+msgid ":ref:`voice/3/pan<class_AudioEffectChorus_property_voice/3/pan>`"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectchorus.rst:61
+msgid ""
+":ref:`voice/3/rate_hz<class_AudioEffectChorus_property_voice/3/rate_hz>`"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectchorus.rst:63
+msgid ""
+":ref:`voice/4/cutoff_hz<class_AudioEffectChorus_property_voice/4/cutoff_hz>`"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectchorus.rst:65
+msgid ""
+":ref:`voice/4/delay_ms<class_AudioEffectChorus_property_voice/4/delay_ms>`"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectchorus.rst:67
+msgid ""
+":ref:`voice/4/depth_ms<class_AudioEffectChorus_property_voice/4/depth_ms>`"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectchorus.rst:69
+msgid ""
+":ref:`voice/4/level_db<class_AudioEffectChorus_property_voice/4/level_db>`"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectchorus.rst:71
+msgid ":ref:`voice/4/pan<class_AudioEffectChorus_property_voice/4/pan>`"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectchorus.rst:73
+msgid ""
+":ref:`voice/4/rate_hz<class_AudioEffectChorus_property_voice/4/rate_hz>`"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectchorus.rst:75
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectchorus.rst:75
+msgid ":ref:`voice_count<class_AudioEffectChorus_property_voice_count>`"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectchorus.rst:75
+#: ../../docs/classes/class_audioeffectchorus.rst:493
+msgid "``2``"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectchorus.rst:77
+msgid ":ref:`wet<class_AudioEffectChorus_property_wet>`"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectchorus.rst:81
+msgid "Methods"
+msgstr "方法"
+
+#: ../../docs/classes/class_audioeffectchorus.rst:84
+msgid ""
+":ref:"
+"`get_voice_cutoff_hz<class_AudioEffectChorus_method_get_voice_cutoff_hz>` "
+"**(** :ref:`int<class_int>` voice_idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectchorus.rst:86
+msgid ""
+":ref:`get_voice_delay_ms<class_AudioEffectChorus_method_get_voice_delay_ms>` "
+"**(** :ref:`int<class_int>` voice_idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectchorus.rst:88
+msgid ""
+":ref:`get_voice_depth_ms<class_AudioEffectChorus_method_get_voice_depth_ms>` "
+"**(** :ref:`int<class_int>` voice_idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectchorus.rst:90
+msgid ""
+":ref:`get_voice_level_db<class_AudioEffectChorus_method_get_voice_level_db>` "
+"**(** :ref:`int<class_int>` voice_idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectchorus.rst:92
+msgid ""
+":ref:`get_voice_pan<class_AudioEffectChorus_method_get_voice_pan>` **(** :"
+"ref:`int<class_int>` voice_idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectchorus.rst:94
+msgid ""
+":ref:`get_voice_rate_hz<class_AudioEffectChorus_method_get_voice_rate_hz>` "
+"**(** :ref:`int<class_int>` voice_idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectchorus.rst:96
+#: ../../docs/classes/class_audioeffectchorus.rst:98
+#: ../../docs/classes/class_audioeffectchorus.rst:100
+#: ../../docs/classes/class_audioeffectchorus.rst:102
+#: ../../docs/classes/class_audioeffectchorus.rst:104
+#: ../../docs/classes/class_audioeffectchorus.rst:106
+msgid "void"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectchorus.rst:96
+msgid ""
+":ref:"
+"`set_voice_cutoff_hz<class_AudioEffectChorus_method_set_voice_cutoff_hz>` "
+"**(** :ref:`int<class_int>` voice_idx, :ref:`float<class_float>` cutoff_hz "
+"**)**"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectchorus.rst:98
+msgid ""
+":ref:`set_voice_delay_ms<class_AudioEffectChorus_method_set_voice_delay_ms>` "
+"**(** :ref:`int<class_int>` voice_idx, :ref:`float<class_float>` delay_ms "
+"**)**"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectchorus.rst:100
+msgid ""
+":ref:`set_voice_depth_ms<class_AudioEffectChorus_method_set_voice_depth_ms>` "
+"**(** :ref:`int<class_int>` voice_idx, :ref:`float<class_float>` depth_ms "
+"**)**"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectchorus.rst:102
+msgid ""
+":ref:`set_voice_level_db<class_AudioEffectChorus_method_set_voice_level_db>` "
+"**(** :ref:`int<class_int>` voice_idx, :ref:`float<class_float>` level_db "
+"**)**"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectchorus.rst:104
+msgid ""
+":ref:`set_voice_pan<class_AudioEffectChorus_method_set_voice_pan>` **(** :"
+"ref:`int<class_int>` voice_idx, :ref:`float<class_float>` pan **)**"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectchorus.rst:106
+msgid ""
+":ref:`set_voice_rate_hz<class_AudioEffectChorus_method_set_voice_rate_hz>` "
+"**(** :ref:`int<class_int>` voice_idx, :ref:`float<class_float>` rate_hz "
+"**)**"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectchorus.rst:110
+msgid "Property Descriptions"
+msgstr "属性说明"
+
+#: ../../docs/classes/class_audioeffectchorus.rst:114
+msgid ":ref:`float<class_float>` **dry**"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectchorus.rst:117
+#: ../../docs/classes/class_audioeffectchorus.rst:133
+#: ../../docs/classes/class_audioeffectchorus.rst:149
+#: ../../docs/classes/class_audioeffectchorus.rst:165
+#: ../../docs/classes/class_audioeffectchorus.rst:181
+#: ../../docs/classes/class_audioeffectchorus.rst:197
+#: ../../docs/classes/class_audioeffectchorus.rst:213
+#: ../../docs/classes/class_audioeffectchorus.rst:229
+#: ../../docs/classes/class_audioeffectchorus.rst:245
+#: ../../docs/classes/class_audioeffectchorus.rst:261
+#: ../../docs/classes/class_audioeffectchorus.rst:277
+#: ../../docs/classes/class_audioeffectchorus.rst:293
+#: ../../docs/classes/class_audioeffectchorus.rst:309
+#: ../../docs/classes/class_audioeffectchorus.rst:493
+#: ../../docs/classes/class_audioeffectchorus.rst:509
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectchorus.rst:119
+#: ../../docs/classes/class_audioeffectchorus.rst:135
+#: ../../docs/classes/class_audioeffectchorus.rst:151
+#: ../../docs/classes/class_audioeffectchorus.rst:167
+#: ../../docs/classes/class_audioeffectchorus.rst:183
+#: ../../docs/classes/class_audioeffectchorus.rst:199
+#: ../../docs/classes/class_audioeffectchorus.rst:215
+#: ../../docs/classes/class_audioeffectchorus.rst:231
+#: ../../docs/classes/class_audioeffectchorus.rst:247
+#: ../../docs/classes/class_audioeffectchorus.rst:263
+#: ../../docs/classes/class_audioeffectchorus.rst:279
+#: ../../docs/classes/class_audioeffectchorus.rst:295
+#: ../../docs/classes/class_audioeffectchorus.rst:311
+#: ../../docs/classes/class_audioeffectchorus.rst:325
+#: ../../docs/classes/class_audioeffectchorus.rst:339
+#: ../../docs/classes/class_audioeffectchorus.rst:353
+#: ../../docs/classes/class_audioeffectchorus.rst:367
+#: ../../docs/classes/class_audioeffectchorus.rst:381
+#: ../../docs/classes/class_audioeffectchorus.rst:395
+#: ../../docs/classes/class_audioeffectchorus.rst:409
+#: ../../docs/classes/class_audioeffectchorus.rst:423
+#: ../../docs/classes/class_audioeffectchorus.rst:437
+#: ../../docs/classes/class_audioeffectchorus.rst:451
+#: ../../docs/classes/class_audioeffectchorus.rst:465
+#: ../../docs/classes/class_audioeffectchorus.rst:479
+#: ../../docs/classes/class_audioeffectchorus.rst:495
+#: ../../docs/classes/class_audioeffectchorus.rst:511
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectchorus.rst:119
+msgid "set_dry(value)"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectchorus.rst:121
+#: ../../docs/classes/class_audioeffectchorus.rst:137
+#: ../../docs/classes/class_audioeffectchorus.rst:153
+#: ../../docs/classes/class_audioeffectchorus.rst:169
+#: ../../docs/classes/class_audioeffectchorus.rst:185
+#: ../../docs/classes/class_audioeffectchorus.rst:201
+#: ../../docs/classes/class_audioeffectchorus.rst:217
+#: ../../docs/classes/class_audioeffectchorus.rst:233
+#: ../../docs/classes/class_audioeffectchorus.rst:249
+#: ../../docs/classes/class_audioeffectchorus.rst:265
+#: ../../docs/classes/class_audioeffectchorus.rst:281
+#: ../../docs/classes/class_audioeffectchorus.rst:297
+#: ../../docs/classes/class_audioeffectchorus.rst:313
+#: ../../docs/classes/class_audioeffectchorus.rst:327
+#: ../../docs/classes/class_audioeffectchorus.rst:341
+#: ../../docs/classes/class_audioeffectchorus.rst:355
+#: ../../docs/classes/class_audioeffectchorus.rst:369
+#: ../../docs/classes/class_audioeffectchorus.rst:383
+#: ../../docs/classes/class_audioeffectchorus.rst:397
+#: ../../docs/classes/class_audioeffectchorus.rst:411
+#: ../../docs/classes/class_audioeffectchorus.rst:425
+#: ../../docs/classes/class_audioeffectchorus.rst:439
+#: ../../docs/classes/class_audioeffectchorus.rst:453
+#: ../../docs/classes/class_audioeffectchorus.rst:467
+#: ../../docs/classes/class_audioeffectchorus.rst:481
+#: ../../docs/classes/class_audioeffectchorus.rst:497
+#: ../../docs/classes/class_audioeffectchorus.rst:513
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectchorus.rst:121
+msgid "get_dry()"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectchorus.rst:124
+msgid "The effect's raw signal."
+msgstr "效果的原始信号。"
+
+#: ../../docs/classes/class_audioeffectchorus.rst:130
+msgid ":ref:`float<class_float>` **voice/1/cutoff_hz**"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectchorus.rst:135
+#: ../../docs/classes/class_audioeffectchorus.rst:231
+#: ../../docs/classes/class_audioeffectchorus.rst:325
+#: ../../docs/classes/class_audioeffectchorus.rst:409
+msgid "set_voice_cutoff_hz(value)"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectchorus.rst:137
+#: ../../docs/classes/class_audioeffectchorus.rst:233
+#: ../../docs/classes/class_audioeffectchorus.rst:327
+#: ../../docs/classes/class_audioeffectchorus.rst:411
+msgid "get_voice_cutoff_hz()"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectchorus.rst:140
+#: ../../docs/classes/class_audioeffectchorus.rst:236
+#: ../../docs/classes/class_audioeffectchorus.rst:330
+#: ../../docs/classes/class_audioeffectchorus.rst:414
+msgid "The voice's cutoff frequency."
+msgstr "声音的截止频率。"
+
+#: ../../docs/classes/class_audioeffectchorus.rst:146
+msgid ":ref:`float<class_float>` **voice/1/delay_ms**"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectchorus.rst:151
+#: ../../docs/classes/class_audioeffectchorus.rst:247
+#: ../../docs/classes/class_audioeffectchorus.rst:339
+#: ../../docs/classes/class_audioeffectchorus.rst:423
+msgid "set_voice_delay_ms(value)"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectchorus.rst:153
+#: ../../docs/classes/class_audioeffectchorus.rst:249
+#: ../../docs/classes/class_audioeffectchorus.rst:341
+#: ../../docs/classes/class_audioeffectchorus.rst:425
+msgid "get_voice_delay_ms()"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectchorus.rst:156
+#: ../../docs/classes/class_audioeffectchorus.rst:252
+#: ../../docs/classes/class_audioeffectchorus.rst:344
+#: ../../docs/classes/class_audioeffectchorus.rst:428
+msgid "The voice's signal delay."
+msgstr "声音的信号延迟。"
+
+#: ../../docs/classes/class_audioeffectchorus.rst:162
+msgid ":ref:`float<class_float>` **voice/1/depth_ms**"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectchorus.rst:167
+#: ../../docs/classes/class_audioeffectchorus.rst:263
+#: ../../docs/classes/class_audioeffectchorus.rst:353
+#: ../../docs/classes/class_audioeffectchorus.rst:437
+msgid "set_voice_depth_ms(value)"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectchorus.rst:169
+#: ../../docs/classes/class_audioeffectchorus.rst:265
+#: ../../docs/classes/class_audioeffectchorus.rst:355
+#: ../../docs/classes/class_audioeffectchorus.rst:439
+msgid "get_voice_depth_ms()"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectchorus.rst:172
+#: ../../docs/classes/class_audioeffectchorus.rst:268
+#: ../../docs/classes/class_audioeffectchorus.rst:358
+#: ../../docs/classes/class_audioeffectchorus.rst:442
+msgid "The voice filter's depth."
+msgstr "语音滤镜的深度。"
+
+#: ../../docs/classes/class_audioeffectchorus.rst:178
+msgid ":ref:`float<class_float>` **voice/1/level_db**"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectchorus.rst:183
+#: ../../docs/classes/class_audioeffectchorus.rst:279
+#: ../../docs/classes/class_audioeffectchorus.rst:367
+#: ../../docs/classes/class_audioeffectchorus.rst:451
+msgid "set_voice_level_db(value)"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectchorus.rst:185
+#: ../../docs/classes/class_audioeffectchorus.rst:281
+#: ../../docs/classes/class_audioeffectchorus.rst:369
+#: ../../docs/classes/class_audioeffectchorus.rst:453
+msgid "get_voice_level_db()"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectchorus.rst:188
+#: ../../docs/classes/class_audioeffectchorus.rst:284
+#: ../../docs/classes/class_audioeffectchorus.rst:372
+#: ../../docs/classes/class_audioeffectchorus.rst:456
+msgid "The voice's volume."
+msgstr "声音的音量。"
+
+#: ../../docs/classes/class_audioeffectchorus.rst:194
+msgid ":ref:`float<class_float>` **voice/1/pan**"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectchorus.rst:199
+#: ../../docs/classes/class_audioeffectchorus.rst:295
+#: ../../docs/classes/class_audioeffectchorus.rst:381
+#: ../../docs/classes/class_audioeffectchorus.rst:465
+msgid "set_voice_pan(value)"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectchorus.rst:201
+#: ../../docs/classes/class_audioeffectchorus.rst:297
+#: ../../docs/classes/class_audioeffectchorus.rst:383
+#: ../../docs/classes/class_audioeffectchorus.rst:467
+msgid "get_voice_pan()"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectchorus.rst:204
+#: ../../docs/classes/class_audioeffectchorus.rst:300
+#: ../../docs/classes/class_audioeffectchorus.rst:386
+#: ../../docs/classes/class_audioeffectchorus.rst:470
+msgid "The voice's pan level."
+msgstr "声音的声像水平。"
+
+#: ../../docs/classes/class_audioeffectchorus.rst:210
+msgid ":ref:`float<class_float>` **voice/1/rate_hz**"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectchorus.rst:215
+#: ../../docs/classes/class_audioeffectchorus.rst:311
+#: ../../docs/classes/class_audioeffectchorus.rst:395
+#: ../../docs/classes/class_audioeffectchorus.rst:479
+msgid "set_voice_rate_hz(value)"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectchorus.rst:217
+#: ../../docs/classes/class_audioeffectchorus.rst:313
+#: ../../docs/classes/class_audioeffectchorus.rst:397
+#: ../../docs/classes/class_audioeffectchorus.rst:481
+msgid "get_voice_rate_hz()"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectchorus.rst:220
+#: ../../docs/classes/class_audioeffectchorus.rst:316
+#: ../../docs/classes/class_audioeffectchorus.rst:400
+#: ../../docs/classes/class_audioeffectchorus.rst:484
+msgid "The voice's filter rate."
+msgstr "语音的过滤率。"
+
+#: ../../docs/classes/class_audioeffectchorus.rst:226
+msgid ":ref:`float<class_float>` **voice/2/cutoff_hz**"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectchorus.rst:242
+msgid ":ref:`float<class_float>` **voice/2/delay_ms**"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectchorus.rst:258
+msgid ":ref:`float<class_float>` **voice/2/depth_ms**"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectchorus.rst:274
+msgid ":ref:`float<class_float>` **voice/2/level_db**"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectchorus.rst:290
+msgid ":ref:`float<class_float>` **voice/2/pan**"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectchorus.rst:306
+msgid ":ref:`float<class_float>` **voice/2/rate_hz**"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectchorus.rst:322
+msgid ":ref:`float<class_float>` **voice/3/cutoff_hz**"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectchorus.rst:336
+msgid ":ref:`float<class_float>` **voice/3/delay_ms**"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectchorus.rst:350
+msgid ":ref:`float<class_float>` **voice/3/depth_ms**"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectchorus.rst:364
+msgid ":ref:`float<class_float>` **voice/3/level_db**"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectchorus.rst:378
+msgid ":ref:`float<class_float>` **voice/3/pan**"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectchorus.rst:392
+msgid ":ref:`float<class_float>` **voice/3/rate_hz**"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectchorus.rst:406
+msgid ":ref:`float<class_float>` **voice/4/cutoff_hz**"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectchorus.rst:420
+msgid ":ref:`float<class_float>` **voice/4/delay_ms**"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectchorus.rst:434
+msgid ":ref:`float<class_float>` **voice/4/depth_ms**"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectchorus.rst:448
+msgid ":ref:`float<class_float>` **voice/4/level_db**"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectchorus.rst:462
+msgid ":ref:`float<class_float>` **voice/4/pan**"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectchorus.rst:476
+msgid ":ref:`float<class_float>` **voice/4/rate_hz**"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectchorus.rst:490
+msgid ":ref:`int<class_int>` **voice_count**"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectchorus.rst:495
+msgid "set_voice_count(value)"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectchorus.rst:497
+msgid "get_voice_count()"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectchorus.rst:500
+msgid "The amount of voices in the effect."
+msgstr "效果中的声音数量。"
+
+#: ../../docs/classes/class_audioeffectchorus.rst:506
+msgid ":ref:`float<class_float>` **wet**"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectchorus.rst:511
+msgid "set_wet(value)"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectchorus.rst:513
+msgid "get_wet()"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectchorus.rst:516
+msgid "The effect's processed signal."
+msgstr "效果的已处理信号。"
+
+#: ../../docs/classes/class_audioeffectchorus.rst:519
+msgid "Method Descriptions"
+msgstr "方法说明"
+
+#: ../../docs/classes/class_audioeffectchorus.rst:523
+msgid ""
+":ref:`float<class_float>` **get_voice_cutoff_hz** **(** :ref:"
+"`int<class_int>` voice_idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectchorus.rst:529
+msgid ""
+":ref:`float<class_float>` **get_voice_delay_ms** **(** :ref:`int<class_int>` "
+"voice_idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectchorus.rst:535
+msgid ""
+":ref:`float<class_float>` **get_voice_depth_ms** **(** :ref:`int<class_int>` "
+"voice_idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectchorus.rst:541
+msgid ""
+":ref:`float<class_float>` **get_voice_level_db** **(** :ref:`int<class_int>` "
+"voice_idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectchorus.rst:547
+msgid ""
+":ref:`float<class_float>` **get_voice_pan** **(** :ref:`int<class_int>` "
+"voice_idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectchorus.rst:553
+msgid ""
+":ref:`float<class_float>` **get_voice_rate_hz** **(** :ref:`int<class_int>` "
+"voice_idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectchorus.rst:559
+msgid ""
+"void **set_voice_cutoff_hz** **(** :ref:`int<class_int>` voice_idx, :ref:"
+"`float<class_float>` cutoff_hz **)**"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectchorus.rst:565
+msgid ""
+"void **set_voice_delay_ms** **(** :ref:`int<class_int>` voice_idx, :ref:"
+"`float<class_float>` delay_ms **)**"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectchorus.rst:571
+msgid ""
+"void **set_voice_depth_ms** **(** :ref:`int<class_int>` voice_idx, :ref:"
+"`float<class_float>` depth_ms **)**"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectchorus.rst:577
+msgid ""
+"void **set_voice_level_db** **(** :ref:`int<class_int>` voice_idx, :ref:"
+"`float<class_float>` level_db **)**"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectchorus.rst:583
+msgid ""
+"void **set_voice_pan** **(** :ref:`int<class_int>` voice_idx, :ref:"
+"`float<class_float>` pan **)**"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectchorus.rst:589
+msgid ""
+"void **set_voice_rate_hz** **(** :ref:`int<class_int>` voice_idx, :ref:"
+"`float<class_float>` rate_hz **)**"
+msgstr ""

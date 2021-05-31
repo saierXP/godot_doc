@@ -1,0 +1,207 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2021, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-31 12:15+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_primitivemesh.rst:10
+msgid "PrimitiveMesh"
+msgstr ""
+
+#: ../../docs/classes/class_primitivemesh.rst:12
+msgid ""
+"**Inherits:** :ref:`Mesh<class_Mesh>` **<** :ref:`Resource<class_Resource>` "
+"**<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_primitivemesh.rst:14
+msgid ""
+"**Inherited By:** :ref:`CapsuleMesh<class_CapsuleMesh>`, :ref:"
+"`CubeMesh<class_CubeMesh>`, :ref:`CylinderMesh<class_CylinderMesh>`, :ref:"
+"`PlaneMesh<class_PlaneMesh>`, :ref:`PointMesh<class_PointMesh>`, :ref:"
+"`PrismMesh<class_PrismMesh>`, :ref:`QuadMesh<class_QuadMesh>`, :ref:"
+"`SphereMesh<class_SphereMesh>`"
+msgstr ""
+
+#: ../../docs/classes/class_primitivemesh.rst:16
+msgid ""
+"Base class for all primitive meshes. Handles applying a :ref:"
+"`Material<class_Material>` to a primitive mesh."
+msgstr ""
+
+#: ../../docs/classes/class_primitivemesh.rst:19
+msgid "Description"
+msgstr "描述"
+
+#: ../../docs/classes/class_primitivemesh.rst:21
+msgid ""
+"Base class for all primitive meshes. Handles applying a :ref:"
+"`Material<class_Material>` to a primitive mesh. Examples include :ref:"
+"`CapsuleMesh<class_CapsuleMesh>`, :ref:`CubeMesh<class_CubeMesh>`, :ref:"
+"`CylinderMesh<class_CylinderMesh>`, :ref:`PlaneMesh<class_PlaneMesh>`, :ref:"
+"`PrismMesh<class_PrismMesh>`, :ref:`QuadMesh<class_QuadMesh>`, and :ref:"
+"`SphereMesh<class_SphereMesh>`."
+msgstr ""
+
+#: ../../docs/classes/class_primitivemesh.rst:24
+msgid "Properties"
+msgstr "属性"
+
+#: ../../docs/classes/class_primitivemesh.rst:27
+msgid ":ref:`AABB<class_AABB>`"
+msgstr ""
+
+#: ../../docs/classes/class_primitivemesh.rst:27
+msgid ":ref:`custom_aabb<class_PrimitiveMesh_property_custom_aabb>`"
+msgstr ""
+
+#: ../../docs/classes/class_primitivemesh.rst:27
+#: ../../docs/classes/class_primitivemesh.rst:49
+msgid "``AABB( 0, 0, 0, 0, 0, 0 )``"
+msgstr ""
+
+#: ../../docs/classes/class_primitivemesh.rst:29
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_primitivemesh.rst:29
+msgid ":ref:`flip_faces<class_PrimitiveMesh_property_flip_faces>`"
+msgstr ""
+
+#: ../../docs/classes/class_primitivemesh.rst:29
+#: ../../docs/classes/class_primitivemesh.rst:65
+msgid "``false``"
+msgstr ""
+
+#: ../../docs/classes/class_primitivemesh.rst:31
+msgid ":ref:`Material<class_Material>`"
+msgstr ""
+
+#: ../../docs/classes/class_primitivemesh.rst:31
+msgid ":ref:`material<class_PrimitiveMesh_property_material>`"
+msgstr ""
+
+#: ../../docs/classes/class_primitivemesh.rst:35
+msgid "Methods"
+msgstr "方法"
+
+#: ../../docs/classes/class_primitivemesh.rst:38
+msgid ":ref:`Array<class_Array>`"
+msgstr ""
+
+#: ../../docs/classes/class_primitivemesh.rst:38
+msgid ""
+":ref:`get_mesh_arrays<class_PrimitiveMesh_method_get_mesh_arrays>` **(** "
+"**)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_primitivemesh.rst:42
+msgid "Property Descriptions"
+msgstr "属性说明"
+
+#: ../../docs/classes/class_primitivemesh.rst:46
+msgid ":ref:`AABB<class_AABB>` **custom_aabb**"
+msgstr ""
+
+#: ../../docs/classes/class_primitivemesh.rst:49
+#: ../../docs/classes/class_primitivemesh.rst:65
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_primitivemesh.rst:51
+#: ../../docs/classes/class_primitivemesh.rst:67
+#: ../../docs/classes/class_primitivemesh.rst:83
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_primitivemesh.rst:51
+msgid "set_custom_aabb(value)"
+msgstr ""
+
+#: ../../docs/classes/class_primitivemesh.rst:53
+#: ../../docs/classes/class_primitivemesh.rst:69
+#: ../../docs/classes/class_primitivemesh.rst:85
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_primitivemesh.rst:53
+msgid "get_custom_aabb()"
+msgstr ""
+
+#: ../../docs/classes/class_primitivemesh.rst:56
+msgid ""
+"Overrides the :ref:`AABB<class_AABB>` with one defined by user for use with "
+"frustum culling. Especially useful to avoid unnexpected culling when  using "
+"a shader to offset vertices."
+msgstr ""
+
+#: ../../docs/classes/class_primitivemesh.rst:62
+msgid ":ref:`bool<class_bool>` **flip_faces**"
+msgstr ""
+
+#: ../../docs/classes/class_primitivemesh.rst:67
+msgid "set_flip_faces(value)"
+msgstr ""
+
+#: ../../docs/classes/class_primitivemesh.rst:69
+msgid "get_flip_faces()"
+msgstr ""
+
+#: ../../docs/classes/class_primitivemesh.rst:72
+msgid ""
+"If set, the order of the vertices in each triangle are reversed resulting in "
+"the backside of the mesh being drawn."
+msgstr ""
+
+#: ../../docs/classes/class_primitivemesh.rst:74
+msgid ""
+"This gives the same result as using :ref:`SpatialMaterial."
+"CULL_BACK<class_SpatialMaterial_constant_CULL_BACK>` in :ref:"
+"`SpatialMaterial."
+"params_cull_mode<class_SpatialMaterial_property_params_cull_mode>`."
+msgstr ""
+
+#: ../../docs/classes/class_primitivemesh.rst:80
+msgid ":ref:`Material<class_Material>` **material**"
+msgstr ""
+
+#: ../../docs/classes/class_primitivemesh.rst:83
+msgid "set_material(value)"
+msgstr ""
+
+#: ../../docs/classes/class_primitivemesh.rst:85
+msgid "get_material()"
+msgstr ""
+
+#: ../../docs/classes/class_primitivemesh.rst:88
+msgid "The current :ref:`Material<class_Material>` of the primitive mesh."
+msgstr ""
+
+#: ../../docs/classes/class_primitivemesh.rst:91
+msgid "Method Descriptions"
+msgstr "方法说明"
+
+#: ../../docs/classes/class_primitivemesh.rst:95
+msgid ":ref:`Array<class_Array>` **get_mesh_arrays** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_primitivemesh.rst:97
+msgid ""
+"Returns mesh arrays used to constitute surface of :ref:`Mesh<class_Mesh>`. "
+"The result can be passed to :ref:`ArrayMesh."
+"add_surface_from_arrays<class_ArrayMesh_method_add_surface_from_arrays>` to "
+"create a new surface. For example:"
+msgstr ""

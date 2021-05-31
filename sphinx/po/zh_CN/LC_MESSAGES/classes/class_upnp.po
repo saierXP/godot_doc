@@ -1,0 +1,577 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2021, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-31 12:15+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_upnp.rst:10
+msgid "UPNP"
+msgstr ""
+
+#: ../../docs/classes/class_upnp.rst:12
+msgid ""
+"**Inherits:** :ref:`Reference<class_Reference>` **<** :ref:"
+"`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_upnp.rst:14
+#, fuzzy
+msgid "UPNP network functions."
+msgstr "UPNP网络功能。"
+
+#: ../../docs/classes/class_upnp.rst:17
+msgid "Description"
+msgstr "描述"
+
+#: ../../docs/classes/class_upnp.rst:19
+msgid ""
+"Provides UPNP functionality to discover :ref:`UPNPDevice<class_UPNPDevice>`"
+"\\ s on the local network and execute commands on them, like managing port "
+"mappings (port forwarding) and querying the local and remote network IP "
+"address. Note that methods on this class are synchronous and block the "
+"calling thread."
+msgstr ""
+
+#: ../../docs/classes/class_upnp.rst:21
+msgid "To forward a specific port:"
+msgstr ""
+
+#: ../../docs/classes/class_upnp.rst:30
+msgid "To close a specific port (e.g. after you have finished using it):"
+msgstr ""
+
+#: ../../docs/classes/class_upnp.rst:37
+msgid "Properties"
+msgstr "属性"
+
+#: ../../docs/classes/class_upnp.rst:40
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_upnp.rst:40
+msgid ":ref:`discover_ipv6<class_UPNP_property_discover_ipv6>`"
+msgstr ""
+
+#: ../../docs/classes/class_upnp.rst:40 ../../docs/classes/class_upnp.rst:205
+msgid "``false``"
+msgstr ""
+
+#: ../../docs/classes/class_upnp.rst:42 ../../docs/classes/class_upnp.rst:53
+#: ../../docs/classes/class_upnp.rst:57 ../../docs/classes/class_upnp.rst:59
+#: ../../docs/classes/class_upnp.rst:63
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../../docs/classes/class_upnp.rst:42
+msgid ":ref:`discover_local_port<class_UPNP_property_discover_local_port>`"
+msgstr ""
+
+#: ../../docs/classes/class_upnp.rst:42 ../../docs/classes/class_upnp.rst:221
+msgid "``0``"
+msgstr ""
+
+#: ../../docs/classes/class_upnp.rst:44 ../../docs/classes/class_upnp.rst:67
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../../docs/classes/class_upnp.rst:44
+msgid ":ref:`discover_multicast_if<class_UPNP_property_discover_multicast_if>`"
+msgstr ""
+
+#: ../../docs/classes/class_upnp.rst:44 ../../docs/classes/class_upnp.rst:237
+msgid "``\"\"``"
+msgstr ""
+
+#: ../../docs/classes/class_upnp.rst:48
+msgid "Methods"
+msgstr "方法"
+
+#: ../../docs/classes/class_upnp.rst:51 ../../docs/classes/class_upnp.rst:55
+#: ../../docs/classes/class_upnp.rst:69 ../../docs/classes/class_upnp.rst:71
+msgid "void"
+msgstr ""
+
+#: ../../docs/classes/class_upnp.rst:51
+msgid ""
+":ref:`add_device<class_UPNP_method_add_device>` **(** :ref:"
+"`UPNPDevice<class_UPNPDevice>` device **)**"
+msgstr ""
+
+#: ../../docs/classes/class_upnp.rst:53
+msgid ""
+":ref:`add_port_mapping<class_UPNP_method_add_port_mapping>` **(** :ref:"
+"`int<class_int>` port, :ref:`int<class_int>` port_internal=0, :ref:"
+"`String<class_String>` desc=\"\", :ref:`String<class_String>` proto=\"UDP"
+"\", :ref:`int<class_int>` duration=0 **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_upnp.rst:55
+msgid ":ref:`clear_devices<class_UPNP_method_clear_devices>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_upnp.rst:57
+msgid ""
+":ref:`delete_port_mapping<class_UPNP_method_delete_port_mapping>` **(** :ref:"
+"`int<class_int>` port, :ref:`String<class_String>` proto=\"UDP\" **)** |"
+"const|"
+msgstr ""
+
+#: ../../docs/classes/class_upnp.rst:59
+msgid ""
+":ref:`discover<class_UPNP_method_discover>` **(** :ref:`int<class_int>` "
+"timeout=2000, :ref:`int<class_int>` ttl=2, :ref:`String<class_String>` "
+"device_filter=\"InternetGatewayDevice\" **)**"
+msgstr ""
+
+#: ../../docs/classes/class_upnp.rst:61 ../../docs/classes/class_upnp.rst:65
+msgid ":ref:`UPNPDevice<class_UPNPDevice>`"
+msgstr ""
+
+#: ../../docs/classes/class_upnp.rst:61
+msgid ""
+":ref:`get_device<class_UPNP_method_get_device>` **(** :ref:`int<class_int>` "
+"index **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_upnp.rst:63
+msgid ""
+":ref:`get_device_count<class_UPNP_method_get_device_count>` **(** **)** |"
+"const|"
+msgstr ""
+
+#: ../../docs/classes/class_upnp.rst:65
+msgid ":ref:`get_gateway<class_UPNP_method_get_gateway>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_upnp.rst:67
+msgid ""
+":ref:`query_external_address<class_UPNP_method_query_external_address>` "
+"**(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_upnp.rst:69
+msgid ""
+":ref:`remove_device<class_UPNP_method_remove_device>` **(** :ref:"
+"`int<class_int>` index **)**"
+msgstr ""
+
+#: ../../docs/classes/class_upnp.rst:71
+msgid ""
+":ref:`set_device<class_UPNP_method_set_device>` **(** :ref:`int<class_int>` "
+"index, :ref:`UPNPDevice<class_UPNPDevice>` device **)**"
+msgstr ""
+
+#: ../../docs/classes/class_upnp.rst:75
+msgid "Enumerations"
+msgstr "枚举"
+
+#: ../../docs/classes/class_upnp.rst:137
+msgid "enum **UPNPResult**:"
+msgstr ""
+
+#: ../../docs/classes/class_upnp.rst:139
+msgid ""
+"**UPNP_RESULT_SUCCESS** = **0** --- UPNP command or discovery was successful."
+msgstr ""
+
+#: ../../docs/classes/class_upnp.rst:141
+msgid ""
+"**UPNP_RESULT_NOT_AUTHORIZED** = **1** --- Not authorized to use the command "
+"on the :ref:`UPNPDevice<class_UPNPDevice>`. May be returned when the user "
+"disabled UPNP on their router."
+msgstr ""
+
+#: ../../docs/classes/class_upnp.rst:143
+msgid ""
+"**UPNP_RESULT_PORT_MAPPING_NOT_FOUND** = **2** --- No port mapping was found "
+"for the given port, protocol combination on the given :ref:"
+"`UPNPDevice<class_UPNPDevice>`."
+msgstr ""
+
+#: ../../docs/classes/class_upnp.rst:145
+msgid ""
+"**UPNP_RESULT_INCONSISTENT_PARAMETERS** = **3** --- Inconsistent parameters."
+msgstr ""
+
+#: ../../docs/classes/class_upnp.rst:147
+msgid ""
+"**UPNP_RESULT_NO_SUCH_ENTRY_IN_ARRAY** = **4** --- No such entry in array. "
+"May be returned if a given port, protocol combination is not found on an :"
+"ref:`UPNPDevice<class_UPNPDevice>`."
+msgstr ""
+
+#: ../../docs/classes/class_upnp.rst:149
+msgid "**UPNP_RESULT_ACTION_FAILED** = **5** --- The action failed."
+msgstr ""
+
+#: ../../docs/classes/class_upnp.rst:151
+msgid ""
+"**UPNP_RESULT_SRC_IP_WILDCARD_NOT_PERMITTED** = **6** --- The :ref:"
+"`UPNPDevice<class_UPNPDevice>` does not allow wildcard values for the source "
+"IP address."
+msgstr ""
+
+#: ../../docs/classes/class_upnp.rst:153
+msgid ""
+"**UPNP_RESULT_EXT_PORT_WILDCARD_NOT_PERMITTED** = **7** --- The :ref:"
+"`UPNPDevice<class_UPNPDevice>` does not allow wildcard values for the "
+"external port."
+msgstr ""
+
+#: ../../docs/classes/class_upnp.rst:155
+msgid ""
+"**UPNP_RESULT_INT_PORT_WILDCARD_NOT_PERMITTED** = **8** --- The :ref:"
+"`UPNPDevice<class_UPNPDevice>` does not allow wildcard values for the "
+"internal port."
+msgstr ""
+
+#: ../../docs/classes/class_upnp.rst:157
+msgid ""
+"**UPNP_RESULT_REMOTE_HOST_MUST_BE_WILDCARD** = **9** --- The remote host "
+"value must be a wildcard."
+msgstr ""
+
+#: ../../docs/classes/class_upnp.rst:159
+msgid ""
+"**UPNP_RESULT_EXT_PORT_MUST_BE_WILDCARD** = **10** --- The external port "
+"value must be a wildcard."
+msgstr ""
+
+#: ../../docs/classes/class_upnp.rst:161
+msgid ""
+"**UPNP_RESULT_NO_PORT_MAPS_AVAILABLE** = **11** --- No port maps are "
+"available. May also be returned if port mapping functionality is not "
+"available."
+msgstr ""
+
+#: ../../docs/classes/class_upnp.rst:163
+msgid ""
+"**UPNP_RESULT_CONFLICT_WITH_OTHER_MECHANISM** = **12** --- Conflict with "
+"other mechanism. May be returned instead of :ref:"
+"`UPNP_RESULT_CONFLICT_WITH_OTHER_MAPPING<class_UPNP_constant_UPNP_RESULT_CONFLICT_WITH_OTHER_MAPPING>` "
+"if a port mapping conflicts with an existing one."
+msgstr ""
+
+#: ../../docs/classes/class_upnp.rst:165
+msgid ""
+"**UPNP_RESULT_CONFLICT_WITH_OTHER_MAPPING** = **13** --- Conflict with an "
+"existing port mapping."
+msgstr ""
+
+#: ../../docs/classes/class_upnp.rst:167
+msgid ""
+"**UPNP_RESULT_SAME_PORT_VALUES_REQUIRED** = **14** --- External and internal "
+"port values must be the same."
+msgstr ""
+
+#: ../../docs/classes/class_upnp.rst:169
+msgid ""
+"**UPNP_RESULT_ONLY_PERMANENT_LEASE_SUPPORTED** = **15** --- Only permanent "
+"leases are supported. Do not use the ``duration`` parameter when adding port "
+"mappings."
+msgstr ""
+
+#: ../../docs/classes/class_upnp.rst:171
+msgid "**UPNP_RESULT_INVALID_GATEWAY** = **16** --- Invalid gateway."
+msgstr ""
+
+#: ../../docs/classes/class_upnp.rst:173
+msgid "**UPNP_RESULT_INVALID_PORT** = **17** --- Invalid port."
+msgstr ""
+
+#: ../../docs/classes/class_upnp.rst:175
+msgid "**UPNP_RESULT_INVALID_PROTOCOL** = **18** --- Invalid protocol."
+msgstr ""
+
+#: ../../docs/classes/class_upnp.rst:177
+msgid "**UPNP_RESULT_INVALID_DURATION** = **19** --- Invalid duration."
+msgstr ""
+
+#: ../../docs/classes/class_upnp.rst:179
+msgid "**UPNP_RESULT_INVALID_ARGS** = **20** --- Invalid arguments."
+msgstr ""
+
+#: ../../docs/classes/class_upnp.rst:181
+msgid "**UPNP_RESULT_INVALID_RESPONSE** = **21** --- Invalid response."
+msgstr ""
+
+#: ../../docs/classes/class_upnp.rst:183
+msgid "**UPNP_RESULT_INVALID_PARAM** = **22** --- Invalid parameter."
+msgstr ""
+
+#: ../../docs/classes/class_upnp.rst:185
+msgid "**UPNP_RESULT_HTTP_ERROR** = **23** --- HTTP error."
+msgstr ""
+
+#: ../../docs/classes/class_upnp.rst:187
+msgid "**UPNP_RESULT_SOCKET_ERROR** = **24** --- Socket error."
+msgstr ""
+
+#: ../../docs/classes/class_upnp.rst:189
+msgid "**UPNP_RESULT_MEM_ALLOC_ERROR** = **25** --- Error allocating memory."
+msgstr ""
+
+#: ../../docs/classes/class_upnp.rst:191
+msgid ""
+"**UPNP_RESULT_NO_GATEWAY** = **26** --- No gateway available. You may need "
+"to call :ref:`discover<class_UPNP_method_discover>` first, or discovery "
+"didn't detect any valid IGDs (InternetGatewayDevices)."
+msgstr ""
+
+#: ../../docs/classes/class_upnp.rst:193
+msgid ""
+"**UPNP_RESULT_NO_DEVICES** = **27** --- No devices available. You may need "
+"to call :ref:`discover<class_UPNP_method_discover>` first, or discovery "
+"didn't detect any valid :ref:`UPNPDevice<class_UPNPDevice>`\\ s."
+msgstr ""
+
+#: ../../docs/classes/class_upnp.rst:195
+msgid "**UPNP_RESULT_UNKNOWN_ERROR** = **28** --- Unknown error."
+msgstr ""
+
+#: ../../docs/classes/class_upnp.rst:198
+msgid "Property Descriptions"
+msgstr "属性说明"
+
+#: ../../docs/classes/class_upnp.rst:202
+msgid ":ref:`bool<class_bool>` **discover_ipv6**"
+msgstr ""
+
+#: ../../docs/classes/class_upnp.rst:205 ../../docs/classes/class_upnp.rst:221
+#: ../../docs/classes/class_upnp.rst:237
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_upnp.rst:207 ../../docs/classes/class_upnp.rst:223
+#: ../../docs/classes/class_upnp.rst:239
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_upnp.rst:207
+msgid "set_discover_ipv6(value)"
+msgstr ""
+
+#: ../../docs/classes/class_upnp.rst:209 ../../docs/classes/class_upnp.rst:225
+#: ../../docs/classes/class_upnp.rst:241
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_upnp.rst:209
+msgid "is_discover_ipv6()"
+msgstr ""
+
+#: ../../docs/classes/class_upnp.rst:212
+msgid ""
+"If ``true``, IPv6 is used for :ref:`UPNPDevice<class_UPNPDevice>` discovery."
+msgstr ""
+
+#: ../../docs/classes/class_upnp.rst:218
+msgid ":ref:`int<class_int>` **discover_local_port**"
+msgstr ""
+
+#: ../../docs/classes/class_upnp.rst:223
+msgid "set_discover_local_port(value)"
+msgstr ""
+
+#: ../../docs/classes/class_upnp.rst:225
+msgid "get_discover_local_port()"
+msgstr ""
+
+#: ../../docs/classes/class_upnp.rst:228
+msgid ""
+"If ``0``, the local port to use for discovery is chosen automatically by the "
+"system. If ``1``, discovery will be done from the source port 1900 (same as "
+"destination port). Otherwise, the value will be used as the port."
+msgstr ""
+
+#: ../../docs/classes/class_upnp.rst:234
+msgid ":ref:`String<class_String>` **discover_multicast_if**"
+msgstr ""
+
+#: ../../docs/classes/class_upnp.rst:239
+msgid "set_discover_multicast_if(value)"
+msgstr ""
+
+#: ../../docs/classes/class_upnp.rst:241
+msgid "get_discover_multicast_if()"
+msgstr ""
+
+#: ../../docs/classes/class_upnp.rst:244
+msgid ""
+"Multicast interface to use for discovery. Uses the default multicast "
+"interface if empty."
+msgstr ""
+
+#: ../../docs/classes/class_upnp.rst:247
+msgid "Method Descriptions"
+msgstr "方法说明"
+
+#: ../../docs/classes/class_upnp.rst:251
+msgid ""
+"void **add_device** **(** :ref:`UPNPDevice<class_UPNPDevice>` device **)**"
+msgstr ""
+
+#: ../../docs/classes/class_upnp.rst:253
+msgid ""
+"Adds the given :ref:`UPNPDevice<class_UPNPDevice>` to the list of discovered "
+"devices."
+msgstr ""
+
+#: ../../docs/classes/class_upnp.rst:259
+msgid ""
+":ref:`int<class_int>` **add_port_mapping** **(** :ref:`int<class_int>` "
+"port, :ref:`int<class_int>` port_internal=0, :ref:`String<class_String>` "
+"desc=\"\", :ref:`String<class_String>` proto=\"UDP\", :ref:`int<class_int>` "
+"duration=0 **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_upnp.rst:261
+msgid ""
+"Adds a mapping to forward the external ``port`` (between 1 and 65535) on the "
+"default gateway (see :ref:`get_gateway<class_UPNP_method_get_gateway>`) to "
+"the ``internal_port`` on the local machine for the given protocol ``proto`` "
+"(either ``TCP`` or ``UDP``, with UDP being the default). If a port mapping "
+"for the given port and protocol combination already exists on that gateway "
+"device, this method tries to overwrite it. If that is not desired, you can "
+"retrieve the gateway manually with :ref:"
+"`get_gateway<class_UPNP_method_get_gateway>` and call :ref:"
+"`add_port_mapping<class_UPNP_method_add_port_mapping>` on it, if any."
+msgstr ""
+
+#: ../../docs/classes/class_upnp.rst:263
+msgid ""
+"If ``internal_port`` is ``0`` (the default), the same port number is used "
+"for both the external and the internal port (the ``port`` value)."
+msgstr ""
+
+#: ../../docs/classes/class_upnp.rst:265
+msgid ""
+"The description (``desc``) is shown in some router UIs and can be used to "
+"point out which application added the mapping. The mapping's lease duration "
+"can be limited by specifying a ``duration`` (in seconds). However, some "
+"routers are incompatible with one or both of these, so use with caution and "
+"add fallback logic in case of errors to retry without them if in doubt."
+msgstr ""
+
+#: ../../docs/classes/class_upnp.rst:267 ../../docs/classes/class_upnp.rst:295
+msgid "See :ref:`UPNPResult<enum_UPNP_UPNPResult>` for possible return values."
+msgstr ""
+
+#: ../../docs/classes/class_upnp.rst:273
+msgid "void **clear_devices** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_upnp.rst:275
+msgid "Clears the list of discovered devices."
+msgstr ""
+
+#: ../../docs/classes/class_upnp.rst:281
+msgid ""
+":ref:`int<class_int>` **delete_port_mapping** **(** :ref:`int<class_int>` "
+"port, :ref:`String<class_String>` proto=\"UDP\" **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_upnp.rst:283
+msgid ""
+"Deletes the port mapping for the given port and protocol combination on the "
+"default gateway (see :ref:`get_gateway<class_UPNP_method_get_gateway>`) if "
+"one exists. ``port`` must be a valid port between 1 and 65535, ``proto`` can "
+"be either ``TCP`` or ``UDP``. See :ref:`UPNPResult<enum_UPNP_UPNPResult>` "
+"for possible return values."
+msgstr ""
+
+#: ../../docs/classes/class_upnp.rst:289
+msgid ""
+":ref:`int<class_int>` **discover** **(** :ref:`int<class_int>` "
+"timeout=2000, :ref:`int<class_int>` ttl=2, :ref:`String<class_String>` "
+"device_filter=\"InternetGatewayDevice\" **)**"
+msgstr ""
+
+#: ../../docs/classes/class_upnp.rst:291
+msgid ""
+"Discovers local :ref:`UPNPDevice<class_UPNPDevice>`\\ s. Clears the list of "
+"previously discovered devices."
+msgstr ""
+
+#: ../../docs/classes/class_upnp.rst:293
+msgid ""
+"Filters for IGD (InternetGatewayDevice) type devices by default, as those "
+"manage port forwarding. ``timeout`` is the time to wait for responses in "
+"milliseconds. ``ttl`` is the time-to-live; only touch this if you know what "
+"you're doing."
+msgstr ""
+
+#: ../../docs/classes/class_upnp.rst:301
+msgid ""
+":ref:`UPNPDevice<class_UPNPDevice>` **get_device** **(** :ref:"
+"`int<class_int>` index **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_upnp.rst:303
+msgid "Returns the :ref:`UPNPDevice<class_UPNPDevice>` at the given ``index``."
+msgstr ""
+
+#: ../../docs/classes/class_upnp.rst:309
+msgid ":ref:`int<class_int>` **get_device_count** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_upnp.rst:311
+msgid ""
+"Returns the number of discovered :ref:`UPNPDevice<class_UPNPDevice>`\\ s."
+msgstr ""
+
+#: ../../docs/classes/class_upnp.rst:317
+msgid ":ref:`UPNPDevice<class_UPNPDevice>` **get_gateway** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_upnp.rst:319
+msgid ""
+"Returns the default gateway. That is the first discovered :ref:"
+"`UPNPDevice<class_UPNPDevice>` that is also a valid IGD "
+"(InternetGatewayDevice)."
+msgstr ""
+
+#: ../../docs/classes/class_upnp.rst:325
+msgid ""
+":ref:`String<class_String>` **query_external_address** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_upnp.rst:327
+msgid ""
+"Returns the external :ref:`IP<class_IP>` address of the default gateway "
+"(see :ref:`get_gateway<class_UPNP_method_get_gateway>`) as string. Returns "
+"an empty string on error."
+msgstr ""
+
+#: ../../docs/classes/class_upnp.rst:333
+msgid "void **remove_device** **(** :ref:`int<class_int>` index **)**"
+msgstr ""
+
+#: ../../docs/classes/class_upnp.rst:335
+msgid "Removes the device at ``index`` from the list of discovered devices."
+msgstr ""
+
+#: ../../docs/classes/class_upnp.rst:341
+msgid ""
+"void **set_device** **(** :ref:`int<class_int>` index, :ref:"
+"`UPNPDevice<class_UPNPDevice>` device **)**"
+msgstr ""
+
+#: ../../docs/classes/class_upnp.rst:343
+msgid ""
+"Sets the device at ``index`` from the list of discovered devices to "
+"``device``."
+msgstr ""

@@ -1,0 +1,225 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2021, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-31 12:15+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_audioeffectphaser.rst:10
+msgid "AudioEffectPhaser"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectphaser.rst:12
+msgid ""
+"**Inherits:** :ref:`AudioEffect<class_AudioEffect>` **<** :ref:"
+"`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :"
+"ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectphaser.rst:14
+msgid "Adds a phaser audio effect to an Audio bus."
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectphaser.rst:16
+msgid ""
+"Combines the original signal with a copy that is slightly out of phase with "
+"the original."
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectphaser.rst:19
+msgid "Description"
+msgstr "描述"
+
+#: ../../docs/classes/class_audioeffectphaser.rst:21
+msgid ""
+"Combines phase-shifted signals with the original signal. The movement of the "
+"phase-shifted signals is controlled using a low-frequency oscillator."
+msgstr "将相移信号与原始信号相结合。使用低频振荡器控制相移信号的移动。"
+
+#: ../../docs/classes/class_audioeffectphaser.rst:24
+msgid "Properties"
+msgstr "属性"
+
+#: ../../docs/classes/class_audioeffectphaser.rst:27
+#: ../../docs/classes/class_audioeffectphaser.rst:29
+#: ../../docs/classes/class_audioeffectphaser.rst:31
+#: ../../docs/classes/class_audioeffectphaser.rst:33
+#: ../../docs/classes/class_audioeffectphaser.rst:35
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectphaser.rst:27
+msgid ":ref:`depth<class_AudioEffectPhaser_property_depth>`"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectphaser.rst:27
+#: ../../docs/classes/class_audioeffectphaser.rst:46
+msgid "``1.0``"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectphaser.rst:29
+msgid ":ref:`feedback<class_AudioEffectPhaser_property_feedback>`"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectphaser.rst:29
+#: ../../docs/classes/class_audioeffectphaser.rst:62
+msgid "``0.7``"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectphaser.rst:31
+msgid ":ref:`range_max_hz<class_AudioEffectPhaser_property_range_max_hz>`"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectphaser.rst:31
+#: ../../docs/classes/class_audioeffectphaser.rst:78
+msgid "``1600.0``"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectphaser.rst:33
+msgid ":ref:`range_min_hz<class_AudioEffectPhaser_property_range_min_hz>`"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectphaser.rst:33
+#: ../../docs/classes/class_audioeffectphaser.rst:94
+msgid "``440.0``"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectphaser.rst:35
+msgid ":ref:`rate_hz<class_AudioEffectPhaser_property_rate_hz>`"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectphaser.rst:35
+#: ../../docs/classes/class_audioeffectphaser.rst:110
+msgid "``0.5``"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectphaser.rst:39
+msgid "Property Descriptions"
+msgstr "属性说明"
+
+#: ../../docs/classes/class_audioeffectphaser.rst:43
+msgid ":ref:`float<class_float>` **depth**"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectphaser.rst:46
+#: ../../docs/classes/class_audioeffectphaser.rst:62
+#: ../../docs/classes/class_audioeffectphaser.rst:78
+#: ../../docs/classes/class_audioeffectphaser.rst:94
+#: ../../docs/classes/class_audioeffectphaser.rst:110
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectphaser.rst:48
+#: ../../docs/classes/class_audioeffectphaser.rst:64
+#: ../../docs/classes/class_audioeffectphaser.rst:80
+#: ../../docs/classes/class_audioeffectphaser.rst:96
+#: ../../docs/classes/class_audioeffectphaser.rst:112
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectphaser.rst:48
+msgid "set_depth(value)"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectphaser.rst:50
+#: ../../docs/classes/class_audioeffectphaser.rst:66
+#: ../../docs/classes/class_audioeffectphaser.rst:82
+#: ../../docs/classes/class_audioeffectphaser.rst:98
+#: ../../docs/classes/class_audioeffectphaser.rst:114
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectphaser.rst:50
+msgid "get_depth()"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectphaser.rst:53
+msgid ""
+"Governs how high the filter frequencies sweep. Low value will primarily "
+"affect bass frequencies. High value can sweep high into the treble. Value "
+"can range from 0.1 to 4."
+msgstr ""
+"控制滤波器频率扫描的频率。较低的值将主要影响低音频率。高值可以将高音扫到高音"
+"中。值的范围可以从0.1到4。"
+
+#: ../../docs/classes/class_audioeffectphaser.rst:59
+msgid ":ref:`float<class_float>` **feedback**"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectphaser.rst:64
+msgid "set_feedback(value)"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectphaser.rst:66
+msgid "get_feedback()"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectphaser.rst:69
+msgid "Output percent of modified sound. Value can range from 0.1 to 0.9."
+msgstr "修改后声音的输出百分比。数值范围从0.1到0.9。"
+
+#: ../../docs/classes/class_audioeffectphaser.rst:75
+msgid ":ref:`float<class_float>` **range_max_hz**"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectphaser.rst:80
+msgid "set_range_max_hz(value)"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectphaser.rst:82
+msgid "get_range_max_hz()"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectphaser.rst:85
+msgid ""
+"Determines the maximum frequency affected by the LFO modulations, in Hz. "
+"Value can range from 10 to 10000."
+msgstr "确定受 LFO 调制影响的最大频率，单位为 Hz。数值范围为10-10000。"
+
+#: ../../docs/classes/class_audioeffectphaser.rst:91
+msgid ":ref:`float<class_float>` **range_min_hz**"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectphaser.rst:96
+msgid "set_range_min_hz(value)"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectphaser.rst:98
+msgid "get_range_min_hz()"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectphaser.rst:101
+msgid ""
+"Determines the minimum frequency affected by the LFO modulations, in Hz. "
+"Value can range from 10 to 10000."
+msgstr "确定受 LFO 调制影响的最小频率，单位为 Hz。数值范围为10-10000。"
+
+#: ../../docs/classes/class_audioeffectphaser.rst:107
+msgid ":ref:`float<class_float>` **rate_hz**"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectphaser.rst:112
+msgid "set_rate_hz(value)"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectphaser.rst:114
+msgid "get_rate_hz()"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectphaser.rst:117
+msgid ""
+"Adjusts the rate in Hz at which the effect sweeps up and down across the "
+"frequency range."
+msgstr "以Hz为单位调整效果在整个频率范围内上下扫描的速度。"

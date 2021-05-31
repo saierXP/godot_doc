@@ -1,0 +1,154 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2021, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-31 12:15+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_visualshadernodecolorop.rst:10
+msgid "VisualShaderNodeColorOp"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodecolorop.rst:12
+msgid ""
+"**Inherits:** :ref:`VisualShaderNode<class_VisualShaderNode>` **<** :ref:"
+"`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :"
+"ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodecolorop.rst:14
+msgid ""
+"A :ref:`Color<class_Color>` operator to be used within the visual shader "
+"graph."
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodecolorop.rst:17
+msgid "Description"
+msgstr "描述"
+
+#: ../../docs/classes/class_visualshadernodecolorop.rst:19
+msgid ""
+"Applies :ref:`operator<class_VisualShaderNodeColorOp_property_operator>` to "
+"two color inputs."
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodecolorop.rst:22
+msgid "Properties"
+msgstr "属性"
+
+#: ../../docs/classes/class_visualshadernodecolorop.rst:25
+msgid ":ref:`Operator<enum_VisualShaderNodeColorOp_Operator>`"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodecolorop.rst:25
+msgid ":ref:`operator<class_VisualShaderNodeColorOp_property_operator>`"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodecolorop.rst:25
+#: ../../docs/classes/class_visualshadernodecolorop.rst:139
+msgid "``0``"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodecolorop.rst:29
+msgid "Enumerations"
+msgstr "枚举"
+
+#: ../../docs/classes/class_visualshadernodecolorop.rst:51
+msgid "enum **Operator**:"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodecolorop.rst:53
+msgid ""
+"**OP_SCREEN** = **0** --- Produce a screen effect with the following formula:"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodecolorop.rst:59
+msgid ""
+"**OP_DIFFERENCE** = **1** --- Produce a difference effect with the following "
+"formula:"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodecolorop.rst:65
+msgid ""
+"**OP_DARKEN** = **2** --- Produce a darken effect with the following formula:"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodecolorop.rst:71
+msgid ""
+"**OP_LIGHTEN** = **3** --- Produce a lighten effect with the following "
+"formula:"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodecolorop.rst:77
+msgid ""
+"**OP_OVERLAY** = **4** --- Produce an overlay effect with the following "
+"formula:"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodecolorop.rst:91
+msgid ""
+"**OP_DODGE** = **5** --- Produce a dodge effect with the following formula:"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodecolorop.rst:97
+msgid ""
+"**OP_BURN** = **6** --- Produce a burn effect with the following formula:"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodecolorop.rst:103
+msgid ""
+"**OP_SOFT_LIGHT** = **7** --- Produce a soft light effect with the following "
+"formula:"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodecolorop.rst:117
+msgid ""
+"**OP_HARD_LIGHT** = **8** --- Produce a hard light effect with the following "
+"formula:"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodecolorop.rst:132
+msgid "Property Descriptions"
+msgstr "属性说明"
+
+#: ../../docs/classes/class_visualshadernodecolorop.rst:136
+msgid ":ref:`Operator<enum_VisualShaderNodeColorOp_Operator>` **operator**"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodecolorop.rst:139
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodecolorop.rst:141
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodecolorop.rst:141
+msgid "set_operator(value)"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodecolorop.rst:143
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodecolorop.rst:143
+msgid "get_operator()"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodecolorop.rst:146
+msgid ""
+"An operator to be applied to the inputs. See :ref:"
+"`Operator<enum_VisualShaderNodeColorOp_Operator>` for options."
+msgstr ""

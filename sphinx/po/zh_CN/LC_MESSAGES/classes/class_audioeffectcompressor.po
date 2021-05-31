@@ -1,0 +1,316 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2021, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-31 12:15+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_audioeffectcompressor.rst:10
+msgid "AudioEffectCompressor"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectcompressor.rst:12
+msgid ""
+"**Inherits:** :ref:`AudioEffect<class_AudioEffect>` **<** :ref:"
+"`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :"
+"ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectcompressor.rst:14
+msgid "Adds a compressor audio effect to an audio bus."
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectcompressor.rst:16
+msgid ""
+"Reduces sounds that exceed a certain threshold level, smooths out the "
+"dynamics and increases the overall volume."
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectcompressor.rst:19
+msgid "Description"
+msgstr "描述"
+
+#: ../../docs/classes/class_audioeffectcompressor.rst:21
+msgid ""
+"Dynamic range compressor reduces the level of the sound when the amplitude "
+"goes over a certain threshold in Decibels. One of the main uses of a "
+"compressor is to increase the dynamic range by clipping as little as "
+"possible (when sound goes over 0dB)."
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectcompressor.rst:23
+msgid "Compressor has many uses in the mix:"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectcompressor.rst:25
+msgid ""
+"In the Master bus to compress the whole output (although an :ref:"
+"`AudioEffectLimiter<class_AudioEffectLimiter>` is probably better)."
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectcompressor.rst:27
+msgid "In voice channels to ensure they sound as balanced as possible."
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectcompressor.rst:29
+msgid ""
+"Sidechained. This can reduce the sound level sidechained with another audio "
+"bus for threshold detection. This technique is common in video game mixing "
+"to the level of music and SFX while voices are being heard."
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectcompressor.rst:31
+msgid ""
+"Accentuates transients by using a wider attack, making effects sound more "
+"punchy."
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectcompressor.rst:34
+msgid "Properties"
+msgstr "属性"
+
+#: ../../docs/classes/class_audioeffectcompressor.rst:37
+#: ../../docs/classes/class_audioeffectcompressor.rst:39
+#: ../../docs/classes/class_audioeffectcompressor.rst:41
+#: ../../docs/classes/class_audioeffectcompressor.rst:43
+#: ../../docs/classes/class_audioeffectcompressor.rst:45
+#: ../../docs/classes/class_audioeffectcompressor.rst:49
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectcompressor.rst:37
+msgid ":ref:`attack_us<class_AudioEffectCompressor_property_attack_us>`"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectcompressor.rst:37
+#: ../../docs/classes/class_audioeffectcompressor.rst:60
+msgid "``20.0``"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectcompressor.rst:39
+msgid ":ref:`gain<class_AudioEffectCompressor_property_gain>`"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectcompressor.rst:39
+#: ../../docs/classes/class_audioeffectcompressor.rst:49
+#: ../../docs/classes/class_audioeffectcompressor.rst:76
+#: ../../docs/classes/class_audioeffectcompressor.rst:156
+msgid "``0.0``"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectcompressor.rst:41
+msgid ":ref:`mix<class_AudioEffectCompressor_property_mix>`"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectcompressor.rst:41
+#: ../../docs/classes/class_audioeffectcompressor.rst:92
+msgid "``1.0``"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectcompressor.rst:43
+msgid ":ref:`ratio<class_AudioEffectCompressor_property_ratio>`"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectcompressor.rst:43
+#: ../../docs/classes/class_audioeffectcompressor.rst:108
+msgid "``4.0``"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectcompressor.rst:45
+msgid ":ref:`release_ms<class_AudioEffectCompressor_property_release_ms>`"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectcompressor.rst:45
+#: ../../docs/classes/class_audioeffectcompressor.rst:124
+msgid "``250.0``"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectcompressor.rst:47
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectcompressor.rst:47
+msgid ":ref:`sidechain<class_AudioEffectCompressor_property_sidechain>`"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectcompressor.rst:47
+#: ../../docs/classes/class_audioeffectcompressor.rst:140
+msgid "``\"\"``"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectcompressor.rst:49
+msgid ":ref:`threshold<class_AudioEffectCompressor_property_threshold>`"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectcompressor.rst:53
+msgid "Property Descriptions"
+msgstr "属性说明"
+
+#: ../../docs/classes/class_audioeffectcompressor.rst:57
+msgid ":ref:`float<class_float>` **attack_us**"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectcompressor.rst:60
+#: ../../docs/classes/class_audioeffectcompressor.rst:76
+#: ../../docs/classes/class_audioeffectcompressor.rst:92
+#: ../../docs/classes/class_audioeffectcompressor.rst:108
+#: ../../docs/classes/class_audioeffectcompressor.rst:124
+#: ../../docs/classes/class_audioeffectcompressor.rst:140
+#: ../../docs/classes/class_audioeffectcompressor.rst:156
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectcompressor.rst:62
+#: ../../docs/classes/class_audioeffectcompressor.rst:78
+#: ../../docs/classes/class_audioeffectcompressor.rst:94
+#: ../../docs/classes/class_audioeffectcompressor.rst:110
+#: ../../docs/classes/class_audioeffectcompressor.rst:126
+#: ../../docs/classes/class_audioeffectcompressor.rst:142
+#: ../../docs/classes/class_audioeffectcompressor.rst:158
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectcompressor.rst:62
+msgid "set_attack_us(value)"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectcompressor.rst:64
+#: ../../docs/classes/class_audioeffectcompressor.rst:80
+#: ../../docs/classes/class_audioeffectcompressor.rst:96
+#: ../../docs/classes/class_audioeffectcompressor.rst:112
+#: ../../docs/classes/class_audioeffectcompressor.rst:128
+#: ../../docs/classes/class_audioeffectcompressor.rst:144
+#: ../../docs/classes/class_audioeffectcompressor.rst:160
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectcompressor.rst:64
+msgid "get_attack_us()"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectcompressor.rst:67
+msgid ""
+"Compressor's reaction time when the signal exceeds the threshold, in "
+"microseconds. Value can range from 20 to 2000."
+msgstr "当信号超过阈值时，压缩机的反应时间，以微秒为单位。数值范围从20到2000。"
+
+#: ../../docs/classes/class_audioeffectcompressor.rst:73
+msgid ":ref:`float<class_float>` **gain**"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectcompressor.rst:78
+msgid "set_gain(value)"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectcompressor.rst:80
+msgid "get_gain()"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectcompressor.rst:83
+msgid "Gain applied to the output signal."
+msgstr "应用于输出信号的增益。"
+
+#: ../../docs/classes/class_audioeffectcompressor.rst:89
+msgid ":ref:`float<class_float>` **mix**"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectcompressor.rst:94
+msgid "set_mix(value)"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectcompressor.rst:96
+msgid "get_mix()"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectcompressor.rst:99
+msgid ""
+"Balance between original signal and effect signal. Value can range from 0 "
+"(totally dry) to 1 (totally wet)."
+msgstr "原始信号和效果信号之间的平衡。数值范围从0（全干）到1（全湿）。"
+
+#: ../../docs/classes/class_audioeffectcompressor.rst:105
+msgid ":ref:`float<class_float>` **ratio**"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectcompressor.rst:110
+msgid "set_ratio(value)"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectcompressor.rst:112
+msgid "get_ratio()"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectcompressor.rst:115
+msgid ""
+"Amount of compression applied to the audio once it passes the threshold "
+"level. The higher the ratio, the more the loud parts of the audio will be "
+"compressed. Value can range from 1 to 48."
+msgstr ""
+"音频通过阈值水平后应用于音频的压缩量。比率越高，音频的大声部分将被压缩。数值"
+"范围从1到48。"
+
+#: ../../docs/classes/class_audioeffectcompressor.rst:121
+msgid ":ref:`float<class_float>` **release_ms**"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectcompressor.rst:126
+msgid "set_release_ms(value)"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectcompressor.rst:128
+msgid "get_release_ms()"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectcompressor.rst:131
+msgid ""
+"Compressor's delay time to stop reducing the signal after the signal level "
+"falls below the threshold, in milliseconds. Value can range from 20 to 2000."
+msgstr ""
+"压缩机在信号电平低于阈值后停止降低信号的延迟时间，以毫秒为单位。数值范围为20"
+"至2000。"
+
+#: ../../docs/classes/class_audioeffectcompressor.rst:137
+msgid ":ref:`String<class_String>` **sidechain**"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectcompressor.rst:142
+msgid "set_sidechain(value)"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectcompressor.rst:144
+msgid "get_sidechain()"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectcompressor.rst:147
+msgid "Reduce the sound level using another audio bus for threshold detection."
+msgstr "使用另一条音频总线进行阈值检测，降低声级。"
+
+#: ../../docs/classes/class_audioeffectcompressor.rst:153
+msgid ":ref:`float<class_float>` **threshold**"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectcompressor.rst:158
+msgid "set_threshold(value)"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectcompressor.rst:160
+msgid "get_threshold()"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectcompressor.rst:163
+msgid ""
+"The level above which compression is applied to the audio. Value can range "
+"from -60 to 0."
+msgstr "对音频进行压缩的级别。数值范围从-60到0。"

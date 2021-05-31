@@ -1,0 +1,644 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2021, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-31 12:15+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_streampeer.rst:10
+msgid "StreamPeer"
+msgstr ""
+
+#: ../../docs/classes/class_streampeer.rst:12
+msgid ""
+"**Inherits:** :ref:`Reference<class_Reference>` **<** :ref:"
+"`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_streampeer.rst:14
+msgid ""
+"**Inherited By:** :ref:`StreamPeerBuffer<class_StreamPeerBuffer>`, :ref:"
+"`StreamPeerGDNative<class_StreamPeerGDNative>`, :ref:"
+"`StreamPeerSSL<class_StreamPeerSSL>`, :ref:"
+"`StreamPeerTCP<class_StreamPeerTCP>`"
+msgstr ""
+
+#: ../../docs/classes/class_streampeer.rst:16
+msgid "Abstraction and base class for stream-based protocols."
+msgstr ""
+
+#: ../../docs/classes/class_streampeer.rst:19
+msgid "Description"
+msgstr "描述"
+
+#: ../../docs/classes/class_streampeer.rst:21
+msgid ""
+"StreamPeer is an abstraction and base class for stream-based protocols (such "
+"as TCP or UNIX sockets). It provides an API for sending and receiving data "
+"through streams as raw data or strings."
+msgstr ""
+
+#: ../../docs/classes/class_streampeer.rst:24
+msgid "Properties"
+msgstr "属性"
+
+#: ../../docs/classes/class_streampeer.rst:27
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_streampeer.rst:27
+msgid ":ref:`big_endian<class_StreamPeer_property_big_endian>`"
+msgstr ""
+
+#: ../../docs/classes/class_streampeer.rst:27
+#: ../../docs/classes/class_streampeer.rst:105
+msgid "``false``"
+msgstr ""
+
+#: ../../docs/classes/class_streampeer.rst:31
+msgid "Methods"
+msgstr "方法"
+
+#: ../../docs/classes/class_streampeer.rst:34
+#: ../../docs/classes/class_streampeer.rst:36
+#: ../../docs/classes/class_streampeer.rst:38
+#: ../../docs/classes/class_streampeer.rst:40
+#: ../../docs/classes/class_streampeer.rst:42
+#: ../../docs/classes/class_streampeer.rst:54
+#: ../../docs/classes/class_streampeer.rst:56
+#: ../../docs/classes/class_streampeer.rst:58
+#: ../../docs/classes/class_streampeer.rst:60
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../../docs/classes/class_streampeer.rst:34
+msgid ":ref:`get_16<class_StreamPeer_method_get_16>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_streampeer.rst:36
+msgid ":ref:`get_32<class_StreamPeer_method_get_32>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_streampeer.rst:38
+msgid ":ref:`get_64<class_StreamPeer_method_get_64>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_streampeer.rst:40
+msgid ":ref:`get_8<class_StreamPeer_method_get_8>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_streampeer.rst:42
+msgid ""
+":ref:`get_available_bytes<class_StreamPeer_method_get_available_bytes>` "
+"**(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_streampeer.rst:44
+#: ../../docs/classes/class_streampeer.rst:50
+#: ../../docs/classes/class_streampeer.rst:80
+msgid ":ref:`Array<class_Array>`"
+msgstr ""
+
+#: ../../docs/classes/class_streampeer.rst:44
+msgid ""
+":ref:`get_data<class_StreamPeer_method_get_data>` **(** :ref:"
+"`int<class_int>` bytes **)**"
+msgstr ""
+
+#: ../../docs/classes/class_streampeer.rst:46
+#: ../../docs/classes/class_streampeer.rst:48
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../../docs/classes/class_streampeer.rst:46
+msgid ":ref:`get_double<class_StreamPeer_method_get_double>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_streampeer.rst:48
+msgid ":ref:`get_float<class_StreamPeer_method_get_float>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_streampeer.rst:50
+msgid ""
+":ref:`get_partial_data<class_StreamPeer_method_get_partial_data>` **(** :ref:"
+"`int<class_int>` bytes **)**"
+msgstr ""
+
+#: ../../docs/classes/class_streampeer.rst:52
+#: ../../docs/classes/class_streampeer.rst:62
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../../docs/classes/class_streampeer.rst:52
+msgid ""
+":ref:`get_string<class_StreamPeer_method_get_string>` **(** :ref:"
+"`int<class_int>` bytes=-1 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_streampeer.rst:54
+msgid ":ref:`get_u16<class_StreamPeer_method_get_u16>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_streampeer.rst:56
+msgid ":ref:`get_u32<class_StreamPeer_method_get_u32>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_streampeer.rst:58
+msgid ":ref:`get_u64<class_StreamPeer_method_get_u64>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_streampeer.rst:60
+msgid ":ref:`get_u8<class_StreamPeer_method_get_u8>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_streampeer.rst:62
+msgid ""
+":ref:`get_utf8_string<class_StreamPeer_method_get_utf8_string>` **(** :ref:"
+"`int<class_int>` bytes=-1 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_streampeer.rst:64
+msgid ":ref:`Variant<class_Variant>`"
+msgstr ""
+
+#: ../../docs/classes/class_streampeer.rst:64
+msgid ""
+":ref:`get_var<class_StreamPeer_method_get_var>` **(** :ref:"
+"`bool<class_bool>` allow_objects=false **)**"
+msgstr ""
+
+#: ../../docs/classes/class_streampeer.rst:66
+#: ../../docs/classes/class_streampeer.rst:68
+#: ../../docs/classes/class_streampeer.rst:70
+#: ../../docs/classes/class_streampeer.rst:72
+#: ../../docs/classes/class_streampeer.rst:76
+#: ../../docs/classes/class_streampeer.rst:78
+#: ../../docs/classes/class_streampeer.rst:82
+#: ../../docs/classes/class_streampeer.rst:84
+#: ../../docs/classes/class_streampeer.rst:86
+#: ../../docs/classes/class_streampeer.rst:88
+#: ../../docs/classes/class_streampeer.rst:90
+#: ../../docs/classes/class_streampeer.rst:92
+#: ../../docs/classes/class_streampeer.rst:94
+msgid "void"
+msgstr ""
+
+#: ../../docs/classes/class_streampeer.rst:66
+msgid ""
+":ref:`put_16<class_StreamPeer_method_put_16>` **(** :ref:`int<class_int>` "
+"value **)**"
+msgstr ""
+
+#: ../../docs/classes/class_streampeer.rst:68
+msgid ""
+":ref:`put_32<class_StreamPeer_method_put_32>` **(** :ref:`int<class_int>` "
+"value **)**"
+msgstr ""
+
+#: ../../docs/classes/class_streampeer.rst:70
+msgid ""
+":ref:`put_64<class_StreamPeer_method_put_64>` **(** :ref:`int<class_int>` "
+"value **)**"
+msgstr ""
+
+#: ../../docs/classes/class_streampeer.rst:72
+msgid ""
+":ref:`put_8<class_StreamPeer_method_put_8>` **(** :ref:`int<class_int>` "
+"value **)**"
+msgstr ""
+
+#: ../../docs/classes/class_streampeer.rst:74
+msgid ":ref:`Error<enum_@GlobalScope_Error>`"
+msgstr ""
+
+#: ../../docs/classes/class_streampeer.rst:74
+msgid ""
+":ref:`put_data<class_StreamPeer_method_put_data>` **(** :ref:"
+"`PoolByteArray<class_PoolByteArray>` data **)**"
+msgstr ""
+
+#: ../../docs/classes/class_streampeer.rst:76
+msgid ""
+":ref:`put_double<class_StreamPeer_method_put_double>` **(** :ref:"
+"`float<class_float>` value **)**"
+msgstr ""
+
+#: ../../docs/classes/class_streampeer.rst:78
+msgid ""
+":ref:`put_float<class_StreamPeer_method_put_float>` **(** :ref:"
+"`float<class_float>` value **)**"
+msgstr ""
+
+#: ../../docs/classes/class_streampeer.rst:80
+msgid ""
+":ref:`put_partial_data<class_StreamPeer_method_put_partial_data>` **(** :ref:"
+"`PoolByteArray<class_PoolByteArray>` data **)**"
+msgstr ""
+
+#: ../../docs/classes/class_streampeer.rst:82
+msgid ""
+":ref:`put_string<class_StreamPeer_method_put_string>` **(** :ref:"
+"`String<class_String>` value **)**"
+msgstr ""
+
+#: ../../docs/classes/class_streampeer.rst:84
+msgid ""
+":ref:`put_u16<class_StreamPeer_method_put_u16>` **(** :ref:`int<class_int>` "
+"value **)**"
+msgstr ""
+
+#: ../../docs/classes/class_streampeer.rst:86
+msgid ""
+":ref:`put_u32<class_StreamPeer_method_put_u32>` **(** :ref:`int<class_int>` "
+"value **)**"
+msgstr ""
+
+#: ../../docs/classes/class_streampeer.rst:88
+msgid ""
+":ref:`put_u64<class_StreamPeer_method_put_u64>` **(** :ref:`int<class_int>` "
+"value **)**"
+msgstr ""
+
+#: ../../docs/classes/class_streampeer.rst:90
+msgid ""
+":ref:`put_u8<class_StreamPeer_method_put_u8>` **(** :ref:`int<class_int>` "
+"value **)**"
+msgstr ""
+
+#: ../../docs/classes/class_streampeer.rst:92
+msgid ""
+":ref:`put_utf8_string<class_StreamPeer_method_put_utf8_string>` **(** :ref:"
+"`String<class_String>` value **)**"
+msgstr ""
+
+#: ../../docs/classes/class_streampeer.rst:94
+msgid ""
+":ref:`put_var<class_StreamPeer_method_put_var>` **(** :ref:"
+"`Variant<class_Variant>` value, :ref:`bool<class_bool>` full_objects=false "
+"**)**"
+msgstr ""
+
+#: ../../docs/classes/class_streampeer.rst:98
+msgid "Property Descriptions"
+msgstr "属性说明"
+
+#: ../../docs/classes/class_streampeer.rst:102
+msgid ":ref:`bool<class_bool>` **big_endian**"
+msgstr ""
+
+#: ../../docs/classes/class_streampeer.rst:105
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_streampeer.rst:107
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_streampeer.rst:107
+msgid "set_big_endian(value)"
+msgstr ""
+
+#: ../../docs/classes/class_streampeer.rst:109
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_streampeer.rst:109
+msgid "is_big_endian_enabled()"
+msgstr ""
+
+#: ../../docs/classes/class_streampeer.rst:112
+msgid ""
+"If ``true``, this ``StreamPeer`` will using big-endian format for encoding "
+"and decoding."
+msgstr ""
+
+#: ../../docs/classes/class_streampeer.rst:115
+msgid "Method Descriptions"
+msgstr "方法说明"
+
+#: ../../docs/classes/class_streampeer.rst:119
+msgid ":ref:`int<class_int>` **get_16** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_streampeer.rst:121
+msgid "Gets a signed 16-bit value from the stream."
+msgstr ""
+
+#: ../../docs/classes/class_streampeer.rst:127
+msgid ":ref:`int<class_int>` **get_32** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_streampeer.rst:129
+msgid "Gets a signed 32-bit value from the stream."
+msgstr ""
+
+#: ../../docs/classes/class_streampeer.rst:135
+msgid ":ref:`int<class_int>` **get_64** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_streampeer.rst:137
+msgid "Gets a signed 64-bit value from the stream."
+msgstr ""
+
+#: ../../docs/classes/class_streampeer.rst:143
+msgid ":ref:`int<class_int>` **get_8** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_streampeer.rst:145
+msgid "Gets a signed byte from the stream."
+msgstr ""
+
+#: ../../docs/classes/class_streampeer.rst:151
+msgid ":ref:`int<class_int>` **get_available_bytes** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_streampeer.rst:153
+msgid "Returns the amount of bytes this ``StreamPeer`` has available."
+msgstr ""
+
+#: ../../docs/classes/class_streampeer.rst:159
+msgid ""
+":ref:`Array<class_Array>` **get_data** **(** :ref:`int<class_int>` bytes "
+"**)**"
+msgstr ""
+
+#: ../../docs/classes/class_streampeer.rst:161
+msgid ""
+"Returns a chunk data with the received bytes. The amount of bytes to be "
+"received can be requested in the ``bytes`` argument. If not enough bytes are "
+"available, the function will block until the desired amount is received. "
+"This function returns two values, an :ref:`Error<enum_@GlobalScope_Error>` "
+"code and a data array."
+msgstr ""
+
+#: ../../docs/classes/class_streampeer.rst:167
+msgid ":ref:`float<class_float>` **get_double** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_streampeer.rst:169
+msgid "Gets a double-precision float from the stream."
+msgstr ""
+
+#: ../../docs/classes/class_streampeer.rst:175
+msgid ":ref:`float<class_float>` **get_float** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_streampeer.rst:177
+msgid "Gets a single-precision float from the stream."
+msgstr ""
+
+#: ../../docs/classes/class_streampeer.rst:183
+msgid ""
+":ref:`Array<class_Array>` **get_partial_data** **(** :ref:`int<class_int>` "
+"bytes **)**"
+msgstr ""
+
+#: ../../docs/classes/class_streampeer.rst:185
+msgid ""
+"Returns a chunk data with the received bytes. The amount of bytes to be "
+"received can be requested in the \"bytes\" argument. If not enough bytes are "
+"available, the function will return how many were actually received. This "
+"function returns two values, an :ref:`Error<enum_@GlobalScope_Error>` code, "
+"and a data array."
+msgstr ""
+
+#: ../../docs/classes/class_streampeer.rst:191
+msgid ""
+":ref:`String<class_String>` **get_string** **(** :ref:`int<class_int>` "
+"bytes=-1 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_streampeer.rst:193
+msgid ""
+"Gets a string with byte-length ``bytes`` from the stream. If ``bytes`` is "
+"negative (default) the length will be read from the stream using the reverse "
+"process of :ref:`put_string<class_StreamPeer_method_put_string>`."
+msgstr ""
+
+#: ../../docs/classes/class_streampeer.rst:199
+msgid ":ref:`int<class_int>` **get_u16** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_streampeer.rst:201
+msgid "Gets an unsigned 16-bit value from the stream."
+msgstr ""
+
+#: ../../docs/classes/class_streampeer.rst:207
+msgid ":ref:`int<class_int>` **get_u32** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_streampeer.rst:209
+msgid "Gets an unsigned 32-bit value from the stream."
+msgstr ""
+
+#: ../../docs/classes/class_streampeer.rst:215
+msgid ":ref:`int<class_int>` **get_u64** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_streampeer.rst:217
+msgid "Gets an unsigned 64-bit value from the stream."
+msgstr ""
+
+#: ../../docs/classes/class_streampeer.rst:223
+msgid ":ref:`int<class_int>` **get_u8** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_streampeer.rst:225
+msgid "Gets an unsigned byte from the stream."
+msgstr ""
+
+#: ../../docs/classes/class_streampeer.rst:231
+msgid ""
+":ref:`String<class_String>` **get_utf8_string** **(** :ref:`int<class_int>` "
+"bytes=-1 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_streampeer.rst:233
+msgid ""
+"Gets an UTF-8 string with byte-length ``bytes`` from the stream (this "
+"decodes the string sent as UTF-8). If ``bytes`` is negative (default) the "
+"length will be read from the stream using the reverse process of :ref:"
+"`put_utf8_string<class_StreamPeer_method_put_utf8_string>`."
+msgstr ""
+
+#: ../../docs/classes/class_streampeer.rst:239
+msgid ""
+":ref:`Variant<class_Variant>` **get_var** **(** :ref:`bool<class_bool>` "
+"allow_objects=false **)**"
+msgstr ""
+
+#: ../../docs/classes/class_streampeer.rst:241
+msgid ""
+"Gets a Variant from the stream. If ``allow_objects`` is ``true``, decoding "
+"objects is allowed."
+msgstr ""
+
+#: ../../docs/classes/class_streampeer.rst:243
+msgid ""
+"**Warning:** Deserialized objects can contain code which gets executed. Do "
+"not use this option if the serialized object comes from untrusted sources to "
+"avoid potential security threats such as remote code execution."
+msgstr ""
+
+#: ../../docs/classes/class_streampeer.rst:249
+msgid "void **put_16** **(** :ref:`int<class_int>` value **)**"
+msgstr ""
+
+#: ../../docs/classes/class_streampeer.rst:251
+msgid "Puts a signed 16-bit value into the stream."
+msgstr ""
+
+#: ../../docs/classes/class_streampeer.rst:257
+msgid "void **put_32** **(** :ref:`int<class_int>` value **)**"
+msgstr ""
+
+#: ../../docs/classes/class_streampeer.rst:259
+msgid "Puts a signed 32-bit value into the stream."
+msgstr ""
+
+#: ../../docs/classes/class_streampeer.rst:265
+msgid "void **put_64** **(** :ref:`int<class_int>` value **)**"
+msgstr ""
+
+#: ../../docs/classes/class_streampeer.rst:267
+msgid "Puts a signed 64-bit value into the stream."
+msgstr ""
+
+#: ../../docs/classes/class_streampeer.rst:273
+msgid "void **put_8** **(** :ref:`int<class_int>` value **)**"
+msgstr ""
+
+#: ../../docs/classes/class_streampeer.rst:275
+msgid "Puts a signed byte into the stream."
+msgstr ""
+
+#: ../../docs/classes/class_streampeer.rst:281
+msgid ""
+":ref:`Error<enum_@GlobalScope_Error>` **put_data** **(** :ref:"
+"`PoolByteArray<class_PoolByteArray>` data **)**"
+msgstr ""
+
+#: ../../docs/classes/class_streampeer.rst:283
+msgid ""
+"Sends a chunk of data through the connection, blocking if necessary until "
+"the data is done sending. This function returns an :ref:"
+"`Error<enum_@GlobalScope_Error>` code."
+msgstr ""
+
+#: ../../docs/classes/class_streampeer.rst:289
+msgid "void **put_double** **(** :ref:`float<class_float>` value **)**"
+msgstr ""
+
+#: ../../docs/classes/class_streampeer.rst:291
+msgid "Puts a double-precision float into the stream."
+msgstr ""
+
+#: ../../docs/classes/class_streampeer.rst:297
+msgid "void **put_float** **(** :ref:`float<class_float>` value **)**"
+msgstr ""
+
+#: ../../docs/classes/class_streampeer.rst:299
+msgid "Puts a single-precision float into the stream."
+msgstr ""
+
+#: ../../docs/classes/class_streampeer.rst:305
+msgid ""
+":ref:`Array<class_Array>` **put_partial_data** **(** :ref:"
+"`PoolByteArray<class_PoolByteArray>` data **)**"
+msgstr ""
+
+#: ../../docs/classes/class_streampeer.rst:307
+msgid ""
+"Sends a chunk of data through the connection. If all the data could not be "
+"sent at once, only part of it will. This function returns two values, an :"
+"ref:`Error<enum_@GlobalScope_Error>` code and an integer, describing how "
+"much data was actually sent."
+msgstr ""
+
+#: ../../docs/classes/class_streampeer.rst:313
+msgid "void **put_string** **(** :ref:`String<class_String>` value **)**"
+msgstr ""
+
+#: ../../docs/classes/class_streampeer.rst:315
+msgid ""
+"Puts a zero-terminated ASCII string into the stream prepended by a 32-bit "
+"unsigned integer representing its size."
+msgstr ""
+
+#: ../../docs/classes/class_streampeer.rst:317
+msgid ""
+"Note: To put an ASCII string without prepending its size, you can use :ref:"
+"`put_data<class_StreamPeer_method_put_data>`:"
+msgstr ""
+
+#: ../../docs/classes/class_streampeer.rst:327
+msgid "void **put_u16** **(** :ref:`int<class_int>` value **)**"
+msgstr ""
+
+#: ../../docs/classes/class_streampeer.rst:329
+msgid "Puts an unsigned 16-bit value into the stream."
+msgstr ""
+
+#: ../../docs/classes/class_streampeer.rst:335
+msgid "void **put_u32** **(** :ref:`int<class_int>` value **)**"
+msgstr ""
+
+#: ../../docs/classes/class_streampeer.rst:337
+msgid "Puts an unsigned 32-bit value into the stream."
+msgstr ""
+
+#: ../../docs/classes/class_streampeer.rst:343
+msgid "void **put_u64** **(** :ref:`int<class_int>` value **)**"
+msgstr ""
+
+#: ../../docs/classes/class_streampeer.rst:345
+msgid "Puts an unsigned 64-bit value into the stream."
+msgstr ""
+
+#: ../../docs/classes/class_streampeer.rst:351
+msgid "void **put_u8** **(** :ref:`int<class_int>` value **)**"
+msgstr ""
+
+#: ../../docs/classes/class_streampeer.rst:353
+msgid "Puts an unsigned byte into the stream."
+msgstr ""
+
+#: ../../docs/classes/class_streampeer.rst:359
+msgid "void **put_utf8_string** **(** :ref:`String<class_String>` value **)**"
+msgstr ""
+
+#: ../../docs/classes/class_streampeer.rst:361
+msgid ""
+"Puts a zero-terminated UTF-8 string into the stream prepended by a 32 bits "
+"unsigned integer representing its size."
+msgstr ""
+
+#: ../../docs/classes/class_streampeer.rst:363
+msgid ""
+"Note: To put an UTF-8 string without prepending its size, you can use :ref:"
+"`put_data<class_StreamPeer_method_put_data>`:"
+msgstr ""
+
+#: ../../docs/classes/class_streampeer.rst:373
+msgid ""
+"void **put_var** **(** :ref:`Variant<class_Variant>` value, :ref:"
+"`bool<class_bool>` full_objects=false **)**"
+msgstr ""
+
+#: ../../docs/classes/class_streampeer.rst:375
+msgid ""
+"Puts a Variant into the stream. If ``full_objects`` is ``true`` encoding "
+"objects is allowed (and can potentially include code)."
+msgstr ""

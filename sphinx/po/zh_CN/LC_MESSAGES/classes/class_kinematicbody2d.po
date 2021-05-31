@@ -1,0 +1,526 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2021, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-31 12:15+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_kinematicbody2d.rst:10
+msgid "KinematicBody2D"
+msgstr ""
+
+#: ../../docs/classes/class_kinematicbody2d.rst:12
+msgid ""
+"**Inherits:** :ref:`PhysicsBody2D<class_PhysicsBody2D>` **<** :ref:"
+"`CollisionObject2D<class_CollisionObject2D>` **<** :ref:"
+"`Node2D<class_Node2D>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:"
+"`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_kinematicbody2d.rst:14
+msgid "Kinematic body 2D node."
+msgstr "2D运动体节点。"
+
+#: ../../docs/classes/class_kinematicbody2d.rst:17
+msgid "Description"
+msgstr "描述"
+
+#: ../../docs/classes/class_kinematicbody2d.rst:19
+msgid ""
+"Kinematic bodies are special types of bodies that are meant to be user-"
+"controlled. They are not affected by physics at all; to other types of "
+"bodies, such as a character or a rigid body, these are the same as a static "
+"body. However, they have two main uses:"
+msgstr ""
+
+#: ../../docs/classes/class_kinematicbody2d.rst:21
+msgid ""
+"**Simulated motion:** When these bodies are moved manually, either from code "
+"or from an :ref:`AnimationPlayer<class_AnimationPlayer>` (with :ref:"
+"`AnimationPlayer."
+"playback_process_mode<class_AnimationPlayer_property_playback_process_mode>` "
+"set to \"physics\"), the physics will automatically compute an estimate of "
+"their linear and angular velocity. This makes them very useful for moving "
+"platforms or other AnimationPlayer-controlled objects (like a door, a bridge "
+"that opens, etc)."
+msgstr ""
+
+#: ../../docs/classes/class_kinematicbody2d.rst:23
+msgid ""
+"**Kinematic characters:** KinematicBody2D also has an API for moving objects "
+"(the :ref:`move_and_collide<class_KinematicBody2D_method_move_and_collide>` "
+"and :ref:`move_and_slide<class_KinematicBody2D_method_move_and_slide>` "
+"methods) while performing collision tests. This makes them really useful to "
+"implement characters that collide against a world, but don't require "
+"advanced physics."
+msgstr ""
+
+#: ../../docs/classes/class_kinematicbody2d.rst:26
+msgid "Tutorials"
+msgstr "教程"
+
+#: ../../docs/classes/class_kinematicbody2d.rst:28
+msgid ":doc:`../tutorials/physics/kinematic_character_2d`"
+msgstr ""
+
+#: ../../docs/classes/class_kinematicbody2d.rst:30
+msgid ":doc:`../tutorials/physics/using_kinematic_body_2d`"
+msgstr ""
+
+#: ../../docs/classes/class_kinematicbody2d.rst:32
+msgid ""
+"`https://godotengine.org/asset-library/asset/113 <https://godotengine.org/"
+"asset-library/asset/113>`_"
+msgstr ""
+
+#: ../../docs/classes/class_kinematicbody2d.rst:34
+msgid ""
+"`https://godotengine.org/asset-library/asset/120 <https://godotengine.org/"
+"asset-library/asset/120>`_"
+msgstr ""
+
+#: ../../docs/classes/class_kinematicbody2d.rst:37
+msgid "Properties"
+msgstr "属性"
+
+#: ../../docs/classes/class_kinematicbody2d.rst:40
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../../docs/classes/class_kinematicbody2d.rst:40
+msgid ""
+":ref:`collision/safe_margin<class_KinematicBody2D_property_collision/"
+"safe_margin>`"
+msgstr ""
+
+#: ../../docs/classes/class_kinematicbody2d.rst:40
+#: ../../docs/classes/class_kinematicbody2d.rst:80
+msgid "``0.08``"
+msgstr ""
+
+#: ../../docs/classes/class_kinematicbody2d.rst:42
+#: ../../docs/classes/class_kinematicbody2d.rst:57
+#: ../../docs/classes/class_kinematicbody2d.rst:59
+#: ../../docs/classes/class_kinematicbody2d.rst:61
+#: ../../docs/classes/class_kinematicbody2d.rst:69
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_kinematicbody2d.rst:42
+msgid ""
+":ref:`motion/sync_to_physics<class_KinematicBody2D_property_motion/"
+"sync_to_physics>`"
+msgstr ""
+
+#: ../../docs/classes/class_kinematicbody2d.rst:42
+#: ../../docs/classes/class_kinematicbody2d.rst:96
+msgid "``false``"
+msgstr ""
+
+#: ../../docs/classes/class_kinematicbody2d.rst:46
+msgid "Methods"
+msgstr "方法"
+
+#: ../../docs/classes/class_kinematicbody2d.rst:49
+#: ../../docs/classes/class_kinematicbody2d.rst:51
+#: ../../docs/classes/class_kinematicbody2d.rst:65
+#: ../../docs/classes/class_kinematicbody2d.rst:67
+msgid ":ref:`Vector2<class_Vector2>`"
+msgstr ""
+
+#: ../../docs/classes/class_kinematicbody2d.rst:49
+msgid ""
+":ref:`get_floor_normal<class_KinematicBody2D_method_get_floor_normal>` **(** "
+"**)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_kinematicbody2d.rst:51
+msgid ""
+":ref:`get_floor_velocity<class_KinematicBody2D_method_get_floor_velocity>` "
+"**(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_kinematicbody2d.rst:53
+#: ../../docs/classes/class_kinematicbody2d.rst:63
+msgid ":ref:`KinematicCollision2D<class_KinematicCollision2D>`"
+msgstr ""
+
+#: ../../docs/classes/class_kinematicbody2d.rst:53
+msgid ""
+":ref:`get_slide_collision<class_KinematicBody2D_method_get_slide_collision>` "
+"**(** :ref:`int<class_int>` slide_idx **)**"
+msgstr ""
+
+#: ../../docs/classes/class_kinematicbody2d.rst:55
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../../docs/classes/class_kinematicbody2d.rst:55
+msgid ""
+":ref:`get_slide_count<class_KinematicBody2D_method_get_slide_count>` **(** "
+"**)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_kinematicbody2d.rst:57
+msgid ""
+":ref:`is_on_ceiling<class_KinematicBody2D_method_is_on_ceiling>` **(** **)** "
+"|const|"
+msgstr ""
+
+#: ../../docs/classes/class_kinematicbody2d.rst:59
+msgid ""
+":ref:`is_on_floor<class_KinematicBody2D_method_is_on_floor>` **(** **)** |"
+"const|"
+msgstr ""
+
+#: ../../docs/classes/class_kinematicbody2d.rst:61
+msgid ""
+":ref:`is_on_wall<class_KinematicBody2D_method_is_on_wall>` **(** **)** |"
+"const|"
+msgstr ""
+
+#: ../../docs/classes/class_kinematicbody2d.rst:63
+msgid ""
+":ref:`move_and_collide<class_KinematicBody2D_method_move_and_collide>` "
+"**(** :ref:`Vector2<class_Vector2>` rel_vec, :ref:`bool<class_bool>` "
+"infinite_inertia=true, :ref:`bool<class_bool>` exclude_raycast_shapes=true, :"
+"ref:`bool<class_bool>` test_only=false **)**"
+msgstr ""
+
+#: ../../docs/classes/class_kinematicbody2d.rst:65
+msgid ""
+":ref:`move_and_slide<class_KinematicBody2D_method_move_and_slide>` **(** :"
+"ref:`Vector2<class_Vector2>` linear_velocity, :ref:`Vector2<class_Vector2>` "
+"up_direction=Vector2( 0, 0 ), :ref:`bool<class_bool>` stop_on_slope=false, :"
+"ref:`int<class_int>` max_slides=4, :ref:`float<class_float>` "
+"floor_max_angle=0.785398, :ref:`bool<class_bool>` infinite_inertia=true **)**"
+msgstr ""
+
+#: ../../docs/classes/class_kinematicbody2d.rst:67
+msgid ""
+":ref:"
+"`move_and_slide_with_snap<class_KinematicBody2D_method_move_and_slide_with_snap>` "
+"**(** :ref:`Vector2<class_Vector2>` linear_velocity, :ref:"
+"`Vector2<class_Vector2>` snap, :ref:`Vector2<class_Vector2>` "
+"up_direction=Vector2( 0, 0 ), :ref:`bool<class_bool>` stop_on_slope=false, :"
+"ref:`int<class_int>` max_slides=4, :ref:`float<class_float>` "
+"floor_max_angle=0.785398, :ref:`bool<class_bool>` infinite_inertia=true **)**"
+msgstr ""
+
+#: ../../docs/classes/class_kinematicbody2d.rst:69
+msgid ""
+":ref:`test_move<class_KinematicBody2D_method_test_move>` **(** :ref:"
+"`Transform2D<class_Transform2D>` from, :ref:`Vector2<class_Vector2>` "
+"rel_vec, :ref:`bool<class_bool>` infinite_inertia=true **)**"
+msgstr ""
+
+#: ../../docs/classes/class_kinematicbody2d.rst:73
+msgid "Property Descriptions"
+msgstr "属性说明"
+
+#: ../../docs/classes/class_kinematicbody2d.rst:77
+msgid ":ref:`float<class_float>` **collision/safe_margin**"
+msgstr ""
+
+#: ../../docs/classes/class_kinematicbody2d.rst:80
+#: ../../docs/classes/class_kinematicbody2d.rst:96
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_kinematicbody2d.rst:82
+#: ../../docs/classes/class_kinematicbody2d.rst:98
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_kinematicbody2d.rst:82
+msgid "set_safe_margin(value)"
+msgstr ""
+
+#: ../../docs/classes/class_kinematicbody2d.rst:84
+#: ../../docs/classes/class_kinematicbody2d.rst:100
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_kinematicbody2d.rst:84
+msgid "get_safe_margin()"
+msgstr ""
+
+#: ../../docs/classes/class_kinematicbody2d.rst:87
+msgid ""
+"If the body is at least this close to another body, this body will consider "
+"them to be colliding."
+msgstr ""
+
+#: ../../docs/classes/class_kinematicbody2d.rst:93
+msgid ":ref:`bool<class_bool>` **motion/sync_to_physics**"
+msgstr ""
+
+#: ../../docs/classes/class_kinematicbody2d.rst:98
+msgid "set_sync_to_physics(value)"
+msgstr ""
+
+#: ../../docs/classes/class_kinematicbody2d.rst:100
+msgid "is_sync_to_physics_enabled()"
+msgstr ""
+
+#: ../../docs/classes/class_kinematicbody2d.rst:103
+msgid ""
+"If ``true``, the body's movement will be synchronized to the physics frame. "
+"This is useful when animating movement via :ref:"
+"`AnimationPlayer<class_AnimationPlayer>`, for example on moving platforms. "
+"Do **not** use together with :ref:"
+"`move_and_slide<class_KinematicBody2D_method_move_and_slide>` or :ref:"
+"`move_and_collide<class_KinematicBody2D_method_move_and_collide>` functions."
+msgstr ""
+
+#: ../../docs/classes/class_kinematicbody2d.rst:106
+msgid "Method Descriptions"
+msgstr "方法说明"
+
+#: ../../docs/classes/class_kinematicbody2d.rst:110
+msgid ":ref:`Vector2<class_Vector2>` **get_floor_normal** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_kinematicbody2d.rst:112
+msgid ""
+"Returns the surface normal of the floor at the last collision point. Only "
+"valid after calling :ref:"
+"`move_and_slide<class_KinematicBody2D_method_move_and_slide>` or :ref:"
+"`move_and_slide_with_snap<class_KinematicBody2D_method_move_and_slide_with_snap>` "
+"and when :ref:`is_on_floor<class_KinematicBody2D_method_is_on_floor>` "
+"returns ``true``."
+msgstr ""
+
+#: ../../docs/classes/class_kinematicbody2d.rst:118
+msgid ""
+":ref:`Vector2<class_Vector2>` **get_floor_velocity** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_kinematicbody2d.rst:120
+msgid ""
+"Returns the linear velocity of the floor at the last collision point. Only "
+"valid after calling :ref:"
+"`move_and_slide<class_KinematicBody2D_method_move_and_slide>` or :ref:"
+"`move_and_slide_with_snap<class_KinematicBody2D_method_move_and_slide_with_snap>` "
+"and when :ref:`is_on_floor<class_KinematicBody2D_method_is_on_floor>` "
+"returns ``true``."
+msgstr ""
+
+#: ../../docs/classes/class_kinematicbody2d.rst:126
+msgid ""
+":ref:`KinematicCollision2D<class_KinematicCollision2D>` "
+"**get_slide_collision** **(** :ref:`int<class_int>` slide_idx **)**"
+msgstr ""
+
+#: ../../docs/classes/class_kinematicbody2d.rst:128
+msgid ""
+"Returns a :ref:`KinematicCollision2D<class_KinematicCollision2D>`, which "
+"contains information about a collision that occurred during the last call "
+"to :ref:`move_and_slide<class_KinematicBody2D_method_move_and_slide>` or :"
+"ref:"
+"`move_and_slide_with_snap<class_KinematicBody2D_method_move_and_slide_with_snap>`. "
+"Since the body can collide several times in a single call to :ref:"
+"`move_and_slide<class_KinematicBody2D_method_move_and_slide>`, you must "
+"specify the index of the collision in the range 0 to (:ref:"
+"`get_slide_count<class_KinematicBody2D_method_get_slide_count>` - 1)."
+msgstr ""
+
+#: ../../docs/classes/class_kinematicbody2d.rst:130
+msgid "**Example usage:**"
+msgstr ""
+
+#: ../../docs/classes/class_kinematicbody2d.rst:142
+msgid ":ref:`int<class_int>` **get_slide_count** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_kinematicbody2d.rst:144
+msgid ""
+"Returns the number of times the body collided and changed direction during "
+"the last call to :ref:"
+"`move_and_slide<class_KinematicBody2D_method_move_and_slide>` or :ref:"
+"`move_and_slide_with_snap<class_KinematicBody2D_method_move_and_slide_with_snap>`."
+msgstr ""
+
+#: ../../docs/classes/class_kinematicbody2d.rst:150
+msgid ":ref:`bool<class_bool>` **is_on_ceiling** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_kinematicbody2d.rst:152
+msgid ""
+"Returns ``true`` if the body is on the ceiling. Only updates when calling :"
+"ref:`move_and_slide<class_KinematicBody2D_method_move_and_slide>` or :ref:"
+"`move_and_slide_with_snap<class_KinematicBody2D_method_move_and_slide_with_snap>`."
+msgstr ""
+
+#: ../../docs/classes/class_kinematicbody2d.rst:158
+msgid ":ref:`bool<class_bool>` **is_on_floor** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_kinematicbody2d.rst:160
+msgid ""
+"Returns ``true`` if the body is on the floor. Only updates when calling :ref:"
+"`move_and_slide<class_KinematicBody2D_method_move_and_slide>` or :ref:"
+"`move_and_slide_with_snap<class_KinematicBody2D_method_move_and_slide_with_snap>`."
+msgstr ""
+
+#: ../../docs/classes/class_kinematicbody2d.rst:166
+msgid ":ref:`bool<class_bool>` **is_on_wall** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_kinematicbody2d.rst:168
+msgid ""
+"Returns ``true`` if the body is on a wall. Only updates when calling :ref:"
+"`move_and_slide<class_KinematicBody2D_method_move_and_slide>` or :ref:"
+"`move_and_slide_with_snap<class_KinematicBody2D_method_move_and_slide_with_snap>`."
+msgstr ""
+
+#: ../../docs/classes/class_kinematicbody2d.rst:174
+msgid ""
+":ref:`KinematicCollision2D<class_KinematicCollision2D>` **move_and_collide** "
+"**(** :ref:`Vector2<class_Vector2>` rel_vec, :ref:`bool<class_bool>` "
+"infinite_inertia=true, :ref:`bool<class_bool>` exclude_raycast_shapes=true, :"
+"ref:`bool<class_bool>` test_only=false **)**"
+msgstr ""
+
+#: ../../docs/classes/class_kinematicbody2d.rst:176
+msgid ""
+"Moves the body along the vector ``rel_vec``. The body will stop if it "
+"collides. Returns a :ref:`KinematicCollision2D<class_KinematicCollision2D>`, "
+"which contains information about the collision."
+msgstr ""
+
+#: ../../docs/classes/class_kinematicbody2d.rst:178
+msgid ""
+"If ``test_only`` is ``true``, the body does not move but the would-be "
+"collision information is given."
+msgstr ""
+
+#: ../../docs/classes/class_kinematicbody2d.rst:184
+msgid ""
+":ref:`Vector2<class_Vector2>` **move_and_slide** **(** :ref:"
+"`Vector2<class_Vector2>` linear_velocity, :ref:`Vector2<class_Vector2>` "
+"up_direction=Vector2( 0, 0 ), :ref:`bool<class_bool>` stop_on_slope=false, :"
+"ref:`int<class_int>` max_slides=4, :ref:`float<class_float>` "
+"floor_max_angle=0.785398, :ref:`bool<class_bool>` infinite_inertia=true **)**"
+msgstr ""
+
+#: ../../docs/classes/class_kinematicbody2d.rst:186
+msgid ""
+"Moves the body along a vector. If the body collides with another, it will "
+"slide along the other body rather than stop immediately. If the other body "
+"is a ``KinematicBody2D`` or :ref:`RigidBody2D<class_RigidBody2D>`, it will "
+"also be affected by the motion of the other body. You can use this to make "
+"moving and rotating platforms, or to make nodes push other nodes."
+msgstr ""
+
+#: ../../docs/classes/class_kinematicbody2d.rst:188
+msgid ""
+"This method should be used in :ref:`Node."
+"_physics_process<class_Node_method__physics_process>` (or in a method called "
+"by :ref:`Node._physics_process<class_Node_method__physics_process>`), as it "
+"uses the physics step's ``delta`` value automatically in calculations. "
+"Otherwise, the simulation will run at an incorrect speed."
+msgstr ""
+
+#: ../../docs/classes/class_kinematicbody2d.rst:190
+msgid ""
+"``linear_velocity`` is the velocity vector in pixels per second. Unlike in :"
+"ref:`move_and_collide<class_KinematicBody2D_method_move_and_collide>`, you "
+"should *not* multiply it by ``delta`` — the physics engine handles applying "
+"the velocity."
+msgstr ""
+
+#: ../../docs/classes/class_kinematicbody2d.rst:192
+msgid ""
+"``up_direction`` is the up direction, used to determine what is a wall and "
+"what is a floor or a ceiling. If set to the default value of ``Vector2(0, "
+"0)``, everything is considered a wall. This is useful for topdown games."
+msgstr ""
+
+#: ../../docs/classes/class_kinematicbody2d.rst:194
+msgid ""
+"If ``stop_on_slope`` is ``true``, body will not slide on slopes when you "
+"include gravity in ``linear_velocity`` and the body is standing still."
+msgstr ""
+
+#: ../../docs/classes/class_kinematicbody2d.rst:196
+msgid ""
+"If the body collides, it will change direction a maximum of ``max_slides`` "
+"times before it stops."
+msgstr ""
+
+#: ../../docs/classes/class_kinematicbody2d.rst:198
+msgid ""
+"``floor_max_angle`` is the maximum angle (in radians) where a slope is still "
+"considered a floor (or a ceiling), rather than a wall. The default value "
+"equals 45 degrees."
+msgstr ""
+
+#: ../../docs/classes/class_kinematicbody2d.rst:200
+msgid ""
+"If ``infinite_inertia`` is ``true``, body will be able to push :ref:"
+"`RigidBody2D<class_RigidBody2D>` nodes, but it won't also detect any "
+"collisions with them. If ``false``, it will interact with :ref:"
+"`RigidBody2D<class_RigidBody2D>` nodes like with :ref:"
+"`StaticBody2D<class_StaticBody2D>`."
+msgstr ""
+
+#: ../../docs/classes/class_kinematicbody2d.rst:202
+msgid ""
+"Returns the ``linear_velocity`` vector, rotated and/or scaled if a slide "
+"collision occurred. To get detailed information about collisions that "
+"occurred, use :ref:"
+"`get_slide_collision<class_KinematicBody2D_method_get_slide_collision>`."
+msgstr ""
+
+#: ../../docs/classes/class_kinematicbody2d.rst:208
+msgid ""
+":ref:`Vector2<class_Vector2>` **move_and_slide_with_snap** **(** :ref:"
+"`Vector2<class_Vector2>` linear_velocity, :ref:`Vector2<class_Vector2>` "
+"snap, :ref:`Vector2<class_Vector2>` up_direction=Vector2( 0, 0 ), :ref:"
+"`bool<class_bool>` stop_on_slope=false, :ref:`int<class_int>` max_slides=4, :"
+"ref:`float<class_float>` floor_max_angle=0.785398, :ref:`bool<class_bool>` "
+"infinite_inertia=true **)**"
+msgstr ""
+
+#: ../../docs/classes/class_kinematicbody2d.rst:210
+msgid ""
+"Moves the body while keeping it attached to slopes. Similar to :ref:"
+"`move_and_slide<class_KinematicBody2D_method_move_and_slide>`."
+msgstr ""
+
+#: ../../docs/classes/class_kinematicbody2d.rst:212
+msgid ""
+"As long as the ``snap`` vector is in contact with the ground, the body will "
+"remain attached to the surface. This means you must disable snap in order to "
+"jump, for example. You can do this by setting ``snap`` to ``(0, 0)`` or by "
+"using :ref:`move_and_slide<class_KinematicBody2D_method_move_and_slide>` "
+"instead."
+msgstr ""
+
+#: ../../docs/classes/class_kinematicbody2d.rst:218
+msgid ""
+":ref:`bool<class_bool>` **test_move** **(** :ref:"
+"`Transform2D<class_Transform2D>` from, :ref:`Vector2<class_Vector2>` "
+"rel_vec, :ref:`bool<class_bool>` infinite_inertia=true **)**"
+msgstr ""
+
+#: ../../docs/classes/class_kinematicbody2d.rst:220
+msgid ""
+"Checks for collisions without moving the body. Virtually sets the node's "
+"position, scale and rotation to that of the given :ref:"
+"`Transform2D<class_Transform2D>`, then tries to move the body along the "
+"vector ``rel_vec``. Returns ``true`` if a collision would occur."
+msgstr ""

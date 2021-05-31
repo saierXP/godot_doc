@@ -1,0 +1,1251 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2021, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-31 12:15+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_scenetree.rst:10
+msgid "SceneTree"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:12
+msgid ""
+"**Inherits:** :ref:`MainLoop<class_MainLoop>` **<** :ref:"
+"`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:14
+msgid "Manages the game loop via a hierarchy of nodes."
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:17
+msgid "Description"
+msgstr "描述"
+
+#: ../../docs/classes/class_scenetree.rst:19
+msgid ""
+"As one of the most important classes, the ``SceneTree`` manages the "
+"hierarchy of nodes in a scene as well as scenes themselves. Nodes can be "
+"added, retrieved and removed. The whole scene tree (and thus the current "
+"scene) can be paused. Scenes can be loaded, switched and reloaded."
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:21
+msgid ""
+"You can also use the ``SceneTree`` to organize your nodes into groups: every "
+"node can be assigned as many groups as you want to create, e.g. a \"enemy\" "
+"group. You can then iterate these groups or even call methods and set "
+"properties on all the group's members at once."
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:23
+msgid ""
+"``SceneTree`` is the default :ref:`MainLoop<class_MainLoop>` implementation "
+"used by scenes, and is thus in charge of the game loop."
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:26
+msgid "Tutorials"
+msgstr "教程"
+
+#: ../../docs/classes/class_scenetree.rst:28
+msgid ":doc:`../getting_started/step_by_step/scene_tree`"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:30
+msgid ":doc:`../tutorials/viewports/multiple_resolutions`"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:33
+msgid "Properties"
+msgstr "属性"
+
+#: ../../docs/classes/class_scenetree.rst:36
+#: ../../docs/classes/class_scenetree.rst:42
+msgid ":ref:`Node<class_Node>`"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:36
+msgid ":ref:`current_scene<class_SceneTree_property_current_scene>`"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:38
+#: ../../docs/classes/class_scenetree.rst:40
+#: ../../docs/classes/class_scenetree.rst:46
+#: ../../docs/classes/class_scenetree.rst:50
+#: ../../docs/classes/class_scenetree.rst:52
+#: ../../docs/classes/class_scenetree.rst:56
+#: ../../docs/classes/class_scenetree.rst:85
+#: ../../docs/classes/class_scenetree.rst:87
+#: ../../docs/classes/class_scenetree.rst:89
+#: ../../docs/classes/class_scenetree.rst:91
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:38
+msgid ""
+":ref:`debug_collisions_hint<class_SceneTree_property_debug_collisions_hint>`"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:38
+#: ../../docs/classes/class_scenetree.rst:40
+#: ../../docs/classes/class_scenetree.rst:50
+#: ../../docs/classes/class_scenetree.rst:52
+#: ../../docs/classes/class_scenetree.rst:56
+#: ../../docs/classes/class_scenetree.rst:326
+#: ../../docs/classes/class_scenetree.rst:342
+#: ../../docs/classes/class_scenetree.rst:418
+#: ../../docs/classes/class_scenetree.rst:438
+#: ../../docs/classes/class_scenetree.rst:466
+msgid "``false``"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:40
+msgid ""
+":ref:`debug_navigation_hint<class_SceneTree_property_debug_navigation_hint>`"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:42
+msgid ":ref:`edited_scene_root<class_SceneTree_property_edited_scene_root>`"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:44
+msgid ":ref:`MultiplayerAPI<class_MultiplayerAPI>`"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:44
+msgid ":ref:`multiplayer<class_SceneTree_property_multiplayer>`"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:46
+msgid ":ref:`multiplayer_poll<class_SceneTree_property_multiplayer_poll>`"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:46
+#: ../../docs/classes/class_scenetree.rst:386
+msgid "``true``"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:48
+msgid ":ref:`NetworkedMultiplayerPeer<class_NetworkedMultiplayerPeer>`"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:48
+msgid ":ref:`network_peer<class_SceneTree_property_network_peer>`"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:50
+msgid ":ref:`paused<class_SceneTree_property_paused>`"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:52
+msgid ""
+":ref:"
+"`refuse_new_network_connections<class_SceneTree_property_refuse_new_network_connections>`"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:54
+msgid ":ref:`Viewport<class_Viewport>`"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:54
+msgid ":ref:`root<class_SceneTree_property_root>`"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:56
+msgid ""
+":ref:`use_font_oversampling<class_SceneTree_property_use_font_oversampling>`"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:60
+msgid "Methods"
+msgstr "方法"
+
+#: ../../docs/classes/class_scenetree.rst:63
+#: ../../docs/classes/class_scenetree.rst:65
+msgid ":ref:`Variant<class_Variant>`"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:63
+msgid ""
+":ref:`call_group<class_SceneTree_method_call_group>` **(** :ref:"
+"`String<class_String>` group, :ref:`String<class_String>` method, ... **)** |"
+"vararg|"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:65
+msgid ""
+":ref:`call_group_flags<class_SceneTree_method_call_group_flags>` **(** :ref:"
+"`int<class_int>` flags, :ref:`String<class_String>` group, :ref:"
+"`String<class_String>` method, ... **)** |vararg|"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:67
+#: ../../docs/classes/class_scenetree.rst:69
+#: ../../docs/classes/class_scenetree.rst:101
+msgid ":ref:`Error<enum_@GlobalScope_Error>`"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:67
+msgid ""
+":ref:`change_scene<class_SceneTree_method_change_scene>` **(** :ref:"
+"`String<class_String>` path **)**"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:69
+msgid ""
+":ref:`change_scene_to<class_SceneTree_method_change_scene_to>` **(** :ref:"
+"`PackedScene<class_PackedScene>` packed_scene **)**"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:71
+msgid ":ref:`SceneTreeTimer<class_SceneTreeTimer>`"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:71
+msgid ""
+":ref:`create_timer<class_SceneTree_method_create_timer>` **(** :ref:"
+"`float<class_float>` time_sec, :ref:`bool<class_bool>` "
+"pause_mode_process=true **)**"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:73
+#: ../../docs/classes/class_scenetree.rst:77
+#: ../../docs/classes/class_scenetree.rst:79
+#: ../../docs/classes/class_scenetree.rst:83
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:73
+msgid ":ref:`get_frame<class_SceneTree_method_get_frame>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:75
+msgid ":ref:`PoolIntArray<class_PoolIntArray>`"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:75
+msgid ""
+":ref:"
+"`get_network_connected_peers<class_SceneTree_method_get_network_connected_peers>` "
+"**(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:77
+msgid ""
+":ref:`get_network_unique_id<class_SceneTree_method_get_network_unique_id>` "
+"**(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:79
+msgid ""
+":ref:`get_node_count<class_SceneTree_method_get_node_count>` **(** **)** |"
+"const|"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:81
+msgid ":ref:`Array<class_Array>`"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:81
+msgid ""
+":ref:`get_nodes_in_group<class_SceneTree_method_get_nodes_in_group>` **(** :"
+"ref:`String<class_String>` group **)**"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:83
+msgid ""
+":ref:`get_rpc_sender_id<class_SceneTree_method_get_rpc_sender_id>` **(** "
+"**)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:85
+msgid ""
+":ref:`has_group<class_SceneTree_method_has_group>` **(** :ref:"
+"`String<class_String>` name **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:87
+msgid ""
+":ref:`has_network_peer<class_SceneTree_method_has_network_peer>` **(** **)** "
+"|const|"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:89
+msgid ""
+":ref:`is_input_handled<class_SceneTree_method_is_input_handled>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:91
+msgid ""
+":ref:`is_network_server<class_SceneTree_method_is_network_server>` **(** "
+"**)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:93
+#: ../../docs/classes/class_scenetree.rst:95
+#: ../../docs/classes/class_scenetree.rst:97
+#: ../../docs/classes/class_scenetree.rst:99
+#: ../../docs/classes/class_scenetree.rst:103
+#: ../../docs/classes/class_scenetree.rst:105
+#: ../../docs/classes/class_scenetree.rst:107
+#: ../../docs/classes/class_scenetree.rst:109
+#: ../../docs/classes/class_scenetree.rst:111
+#: ../../docs/classes/class_scenetree.rst:113
+msgid "void"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:93
+msgid ""
+":ref:`notify_group<class_SceneTree_method_notify_group>` **(** :ref:"
+"`String<class_String>` group, :ref:`int<class_int>` notification **)**"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:95
+msgid ""
+":ref:`notify_group_flags<class_SceneTree_method_notify_group_flags>` **(** :"
+"ref:`int<class_int>` call_flags, :ref:`String<class_String>` group, :ref:"
+"`int<class_int>` notification **)**"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:97
+msgid ""
+":ref:`queue_delete<class_SceneTree_method_queue_delete>` **(** :ref:"
+"`Object<class_Object>` obj **)**"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:99
+msgid ""
+":ref:`quit<class_SceneTree_method_quit>` **(** :ref:`int<class_int>` "
+"exit_code=-1 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:101
+msgid ""
+":ref:`reload_current_scene<class_SceneTree_method_reload_current_scene>` "
+"**(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:103
+msgid ""
+":ref:`set_auto_accept_quit<class_SceneTree_method_set_auto_accept_quit>` "
+"**(** :ref:`bool<class_bool>` enabled **)**"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:105
+msgid ""
+":ref:`set_group<class_SceneTree_method_set_group>` **(** :ref:"
+"`String<class_String>` group, :ref:`String<class_String>` property, :ref:"
+"`Variant<class_Variant>` value **)**"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:107
+msgid ""
+":ref:`set_group_flags<class_SceneTree_method_set_group_flags>` **(** :ref:"
+"`int<class_int>` call_flags, :ref:`String<class_String>` group, :ref:"
+"`String<class_String>` property, :ref:`Variant<class_Variant>` value **)**"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:109
+msgid ""
+":ref:`set_input_as_handled<class_SceneTree_method_set_input_as_handled>` "
+"**(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:111
+msgid ""
+":ref:`set_quit_on_go_back<class_SceneTree_method_set_quit_on_go_back>` "
+"**(** :ref:`bool<class_bool>` enabled **)**"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:113
+msgid ""
+":ref:`set_screen_stretch<class_SceneTree_method_set_screen_stretch>` **(** :"
+"ref:`StretchMode<enum_SceneTree_StretchMode>` mode, :ref:"
+"`StretchAspect<enum_SceneTree_StretchAspect>` aspect, :ref:"
+"`Vector2<class_Vector2>` minsize, :ref:`float<class_float>` shrink=1 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:117
+msgid "Signals"
+msgstr "信号"
+
+#: ../../docs/classes/class_scenetree.rst:121
+msgid "**connected_to_server** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:123
+msgid ""
+"Emitted whenever this ``SceneTree``'s :ref:"
+"`network_peer<class_SceneTree_property_network_peer>` successfully connected "
+"to a server. Only emitted on clients."
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:129
+msgid "**connection_failed** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:131
+msgid ""
+"Emitted whenever this ``SceneTree``'s :ref:"
+"`network_peer<class_SceneTree_property_network_peer>` fails to establish a "
+"connection to a server. Only emitted on clients."
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:137
+msgid ""
+"**files_dropped** **(** :ref:`PoolStringArray<class_PoolStringArray>` "
+"files, :ref:`int<class_int>` screen **)**"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:139
+msgid ""
+"Emitted when files are dragged from the OS file manager and dropped in the "
+"game window. The arguments are a list of file paths and the identifier of "
+"the screen where the drag originated."
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:145
+msgid ""
+"**global_menu_action** **(** :ref:`Variant<class_Variant>` id, :ref:"
+"`Variant<class_Variant>` meta **)**"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:147
+msgid "Emitted whenever global menu item is clicked."
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:153
+msgid "**idle_frame** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:155
+msgid ""
+"Emitted immediately before :ref:`Node._process<class_Node_method__process>` "
+"is called on every node in the ``SceneTree``."
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:161
+msgid "**network_peer_connected** **(** :ref:`int<class_int>` id **)**"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:163
+msgid ""
+"Emitted whenever this ``SceneTree``'s :ref:"
+"`network_peer<class_SceneTree_property_network_peer>` connects with a new "
+"peer. ID is the peer ID of the new peer. Clients get notified when other "
+"clients connect to the same server. Upon connecting to a server, a client "
+"also receives this signal for the server (with ID being 1)."
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:169
+msgid "**network_peer_disconnected** **(** :ref:`int<class_int>` id **)**"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:171
+msgid ""
+"Emitted whenever this ``SceneTree``'s :ref:"
+"`network_peer<class_SceneTree_property_network_peer>` disconnects from a "
+"peer. Clients get notified when other clients disconnect from the same "
+"server."
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:177
+msgid "**node_added** **(** :ref:`Node<class_Node>` node **)**"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:179
+msgid "Emitted whenever a node is added to the ``SceneTree``."
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:185
+msgid ""
+"**node_configuration_warning_changed** **(** :ref:`Node<class_Node>` node "
+"**)**"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:187
+msgid ""
+"Emitted when a node's configuration changed. Only emitted in ``tool`` mode."
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:193
+msgid "**node_removed** **(** :ref:`Node<class_Node>` node **)**"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:195
+msgid "Emitted whenever a node is removed from the ``SceneTree``."
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:201
+msgid "**node_renamed** **(** :ref:`Node<class_Node>` node **)**"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:203
+msgid "Emitted whenever a node is renamed."
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:209
+msgid "**physics_frame** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:211
+msgid ""
+"Emitted immediately before :ref:`Node."
+"_physics_process<class_Node_method__physics_process>` is called on every "
+"node in the ``SceneTree``."
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:217
+msgid "**screen_resized** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:219
+msgid ""
+"Emitted when the screen resolution (fullscreen) or window size (windowed) "
+"changes."
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:225
+msgid "**server_disconnected** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:227
+msgid ""
+"Emitted whenever this ``SceneTree``'s :ref:"
+"`network_peer<class_SceneTree_property_network_peer>` disconnected from "
+"server. Only emitted on clients."
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:233
+msgid "**tree_changed** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:235
+msgid ""
+"Emitted whenever the ``SceneTree`` hierarchy changed (children being moved "
+"or renamed, etc.)."
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:238
+msgid "Enumerations"
+msgstr "枚举"
+
+#: ../../docs/classes/class_scenetree.rst:250
+msgid "enum **GroupCallFlags**:"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:252
+msgid ""
+"**GROUP_CALL_DEFAULT** = **0** --- Call a group with no flags (default)."
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:254
+msgid "**GROUP_CALL_REVERSE** = **1** --- Call a group in reverse scene order."
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:256
+msgid ""
+"**GROUP_CALL_REALTIME** = **2** --- Call a group immediately (calls are "
+"normally made on idle)."
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:258
+msgid ""
+"**GROUP_CALL_UNIQUE** = **4** --- Call a group only once even if the call is "
+"executed many times."
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:270
+msgid "enum **StretchMode**:"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:272
+msgid "**STRETCH_MODE_DISABLED** = **0** --- No stretching."
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:274
+msgid ""
+"**STRETCH_MODE_2D** = **1** --- Render stretching in higher resolution "
+"(interpolated)."
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:276
+msgid ""
+"**STRETCH_MODE_VIEWPORT** = **2** --- Keep the specified display resolution. "
+"No interpolation. Content may appear pixelated."
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:292
+msgid "enum **StretchAspect**:"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:294
+msgid ""
+"**STRETCH_ASPECT_IGNORE** = **0** --- Fill the window with the content "
+"stretched to cover excessive space. Content may appear stretched."
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:296
+msgid ""
+"**STRETCH_ASPECT_KEEP** = **1** --- Retain the same aspect ratio by padding "
+"with black bars on either axis. This prevents distortion."
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:298
+msgid ""
+"**STRETCH_ASPECT_KEEP_WIDTH** = **2** --- Expand vertically. Left/right "
+"black bars may appear if the window is too wide."
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:300
+msgid ""
+"**STRETCH_ASPECT_KEEP_HEIGHT** = **3** --- Expand horizontally. Top/bottom "
+"black bars may appear if the window is too tall."
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:302
+msgid ""
+"**STRETCH_ASPECT_EXPAND** = **4** --- Expand in both directions, retaining "
+"the same aspect ratio. This prevents distortion while avoiding black bars."
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:305
+msgid "Property Descriptions"
+msgstr "属性说明"
+
+#: ../../docs/classes/class_scenetree.rst:309
+msgid ":ref:`Node<class_Node>` **current_scene**"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:312
+#: ../../docs/classes/class_scenetree.rst:328
+#: ../../docs/classes/class_scenetree.rst:344
+#: ../../docs/classes/class_scenetree.rst:358
+#: ../../docs/classes/class_scenetree.rst:372
+#: ../../docs/classes/class_scenetree.rst:388
+#: ../../docs/classes/class_scenetree.rst:404
+#: ../../docs/classes/class_scenetree.rst:420
+#: ../../docs/classes/class_scenetree.rst:440
+#: ../../docs/classes/class_scenetree.rst:468
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:312
+msgid "set_current_scene(value)"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:314
+#: ../../docs/classes/class_scenetree.rst:330
+#: ../../docs/classes/class_scenetree.rst:346
+#: ../../docs/classes/class_scenetree.rst:360
+#: ../../docs/classes/class_scenetree.rst:374
+#: ../../docs/classes/class_scenetree.rst:390
+#: ../../docs/classes/class_scenetree.rst:406
+#: ../../docs/classes/class_scenetree.rst:422
+#: ../../docs/classes/class_scenetree.rst:442
+#: ../../docs/classes/class_scenetree.rst:454
+#: ../../docs/classes/class_scenetree.rst:470
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:314
+msgid "get_current_scene()"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:317
+msgid "The current scene."
+msgstr "当前场景。"
+
+#: ../../docs/classes/class_scenetree.rst:323
+msgid ":ref:`bool<class_bool>` **debug_collisions_hint**"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:326
+#: ../../docs/classes/class_scenetree.rst:342
+#: ../../docs/classes/class_scenetree.rst:386
+#: ../../docs/classes/class_scenetree.rst:418
+#: ../../docs/classes/class_scenetree.rst:438
+#: ../../docs/classes/class_scenetree.rst:466
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:328
+msgid "set_debug_collisions_hint(value)"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:330
+msgid "is_debugging_collisions_hint()"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:333
+msgid ""
+"If ``true``, collision shapes will be visible when running the game from the "
+"editor for debugging purposes."
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:339
+msgid ":ref:`bool<class_bool>` **debug_navigation_hint**"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:344
+msgid "set_debug_navigation_hint(value)"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:346
+msgid "is_debugging_navigation_hint()"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:349
+msgid ""
+"If ``true``, navigation polygons will be visible when running the game from "
+"the editor for debugging purposes."
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:355
+msgid ":ref:`Node<class_Node>` **edited_scene_root**"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:358
+msgid "set_edited_scene_root(value)"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:360
+msgid "get_edited_scene_root()"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:363
+msgid "The root of the edited scene."
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:369
+msgid ":ref:`MultiplayerAPI<class_MultiplayerAPI>` **multiplayer**"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:372
+msgid "set_multiplayer(value)"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:374
+msgid "get_multiplayer()"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:377
+msgid ""
+"The default :ref:`MultiplayerAPI<class_MultiplayerAPI>` instance for this "
+"``SceneTree``."
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:383
+msgid ":ref:`bool<class_bool>` **multiplayer_poll**"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:388
+msgid "set_multiplayer_poll_enabled(value)"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:390
+msgid "is_multiplayer_poll_enabled()"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:393
+msgid ""
+"If ``true`` (default value), enables automatic polling of the :ref:"
+"`MultiplayerAPI<class_MultiplayerAPI>` for this SceneTree during :ref:"
+"`idle_frame<class_SceneTree_signal_idle_frame>`."
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:395
+msgid ""
+"If ``false``, you need to manually call :ref:`MultiplayerAPI."
+"poll<class_MultiplayerAPI_method_poll>` to process network packets and "
+"deliver RPCs/RSETs. This allows running RPCs/RSETs in a different loop (e.g. "
+"physics, thread, specific time step) and for manual :ref:"
+"`Mutex<class_Mutex>` protection when accessing the :ref:"
+"`MultiplayerAPI<class_MultiplayerAPI>` from threads."
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:401
+msgid ""
+":ref:`NetworkedMultiplayerPeer<class_NetworkedMultiplayerPeer>` "
+"**network_peer**"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:404
+msgid "set_network_peer(value)"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:406
+msgid "get_network_peer()"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:409
+msgid ""
+"The peer object to handle the RPC system (effectively enabling networking "
+"when set). Depending on the peer itself, the ``SceneTree`` will become a "
+"network server (check with :ref:"
+"`is_network_server<class_SceneTree_method_is_network_server>`) and will set "
+"the root node's network mode to master, or it will become a regular peer "
+"with the root node set to puppet. All child nodes are set to inherit the "
+"network mode by default. Handling of networking-related events (connection, "
+"disconnection, new clients) is done by connecting to ``SceneTree``'s signals."
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:415
+msgid ":ref:`bool<class_bool>` **paused**"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:420
+msgid "set_pause(value)"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:422
+msgid "is_paused()"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:425
+msgid ""
+"If ``true``, the ``SceneTree`` is paused. Doing so will have the following "
+"behavior:"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:427
+msgid "2D and 3D physics will be stopped."
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:429
+msgid ""
+":ref:`Node._process<class_Node_method__process>`, :ref:`Node."
+"_physics_process<class_Node_method__physics_process>` and :ref:`Node."
+"_input<class_Node_method__input>` will not be called anymore in nodes."
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:435
+msgid ":ref:`bool<class_bool>` **refuse_new_network_connections**"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:440
+msgid "set_refuse_new_network_connections(value)"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:442
+msgid "is_refusing_new_network_connections()"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:445
+msgid ""
+"If ``true``, the ``SceneTree``'s :ref:"
+"`network_peer<class_SceneTree_property_network_peer>` refuses new incoming "
+"connections."
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:451
+msgid ":ref:`Viewport<class_Viewport>` **root**"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:454
+msgid "get_root()"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:457
+msgid "The ``SceneTree``'s root :ref:`Viewport<class_Viewport>`."
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:463
+msgid ":ref:`bool<class_bool>` **use_font_oversampling**"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:468
+msgid "set_use_font_oversampling(value)"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:470
+msgid "is_using_font_oversampling()"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:473
+msgid "If ``true``, font oversampling is used."
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:476
+msgid "Method Descriptions"
+msgstr "方法说明"
+
+#: ../../docs/classes/class_scenetree.rst:480
+msgid ""
+":ref:`Variant<class_Variant>` **call_group** **(** :ref:"
+"`String<class_String>` group, :ref:`String<class_String>` method, ... **)** |"
+"vararg|"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:482
+msgid ""
+"Calls ``method`` on each member of the given group. You can pass arguments "
+"to ``method`` by specifying them at the end of the method call."
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:484
+msgid ""
+"**Note:** ``method`` may only have 5 arguments at most (7 arguments passed "
+"to this method in total)."
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:490
+msgid ""
+":ref:`Variant<class_Variant>` **call_group_flags** **(** :ref:"
+"`int<class_int>` flags, :ref:`String<class_String>` group, :ref:"
+"`String<class_String>` method, ... **)** |vararg|"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:492
+msgid ""
+"Calls ``method`` on each member of the given group, respecting the given :"
+"ref:`GroupCallFlags<enum_SceneTree_GroupCallFlags>`. You can pass arguments "
+"to ``method`` by specifying them at the end of the method call."
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:494
+msgid ""
+"**Note:** ``method`` may only have 5 arguments at most (8 arguments passed "
+"to this method in total)."
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:500
+msgid ""
+":ref:`Error<enum_@GlobalScope_Error>` **change_scene** **(** :ref:"
+"`String<class_String>` path **)**"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:502
+msgid ""
+"Changes the running scene to the one at the given ``path``, after loading it "
+"into a :ref:`PackedScene<class_PackedScene>` and creating a new instance."
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:504
+msgid ""
+"Returns :ref:`@GlobalScope.OK<class_@GlobalScope_constant_OK>` on success, :"
+"ref:`@GlobalScope.ERR_CANT_OPEN<class_@GlobalScope_constant_ERR_CANT_OPEN>` "
+"if the ``path`` cannot be loaded into a :ref:"
+"`PackedScene<class_PackedScene>`, or :ref:`@GlobalScope."
+"ERR_CANT_CREATE<class_@GlobalScope_constant_ERR_CANT_CREATE>` if that scene "
+"cannot be instantiated."
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:506
+msgid ""
+"**Note:** The scene change is deferred, which means that the new scene node "
+"is added on the next idle frame. You won't be able to access it immediately "
+"after the :ref:`change_scene<class_SceneTree_method_change_scene>` call."
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:512
+msgid ""
+":ref:`Error<enum_@GlobalScope_Error>` **change_scene_to** **(** :ref:"
+"`PackedScene<class_PackedScene>` packed_scene **)**"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:514
+msgid ""
+"Changes the running scene to a new instance of the given :ref:"
+"`PackedScene<class_PackedScene>`."
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:516
+msgid ""
+"Returns :ref:`@GlobalScope.OK<class_@GlobalScope_constant_OK>` on success "
+"or :ref:`@GlobalScope."
+"ERR_CANT_CREATE<class_@GlobalScope_constant_ERR_CANT_CREATE>` if the scene "
+"cannot be instantiated."
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:518
+msgid ""
+"**Note:** The scene change is deferred, which means that the new scene node "
+"is added on the next idle frame. You won't be able to access it immediately "
+"after the :ref:`change_scene_to<class_SceneTree_method_change_scene_to>` "
+"call."
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:524
+msgid ""
+":ref:`SceneTreeTimer<class_SceneTreeTimer>` **create_timer** **(** :ref:"
+"`float<class_float>` time_sec, :ref:`bool<class_bool>` "
+"pause_mode_process=true **)**"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:526
+msgid ""
+"Returns a :ref:`SceneTreeTimer<class_SceneTreeTimer>` which will :ref:"
+"`SceneTreeTimer.timeout<class_SceneTreeTimer_signal_timeout>` after the "
+"given time in seconds elapsed in this ``SceneTree``. If "
+"``pause_mode_process`` is set to ``false``, pausing the ``SceneTree`` will "
+"also pause the timer."
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:528
+msgid ""
+"Commonly used to create a one-shot delay timer as in the following example:"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:541
+msgid ":ref:`int<class_int>` **get_frame** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:543
+msgid ""
+"Returns the current frame number, i.e. the total frame count since the "
+"application started."
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:549
+msgid ""
+":ref:`PoolIntArray<class_PoolIntArray>` **get_network_connected_peers** "
+"**(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:551
+msgid ""
+"Returns the peer IDs of all connected peers of this ``SceneTree``'s :ref:"
+"`network_peer<class_SceneTree_property_network_peer>`."
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:557
+msgid ":ref:`int<class_int>` **get_network_unique_id** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:559
+msgid ""
+"Returns the unique peer ID of this ``SceneTree``'s :ref:"
+"`network_peer<class_SceneTree_property_network_peer>`."
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:565
+msgid ":ref:`int<class_int>` **get_node_count** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:567
+msgid "Returns the number of nodes in this ``SceneTree``."
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:573
+msgid ""
+":ref:`Array<class_Array>` **get_nodes_in_group** **(** :ref:"
+"`String<class_String>` group **)**"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:575
+msgid "Returns a list of all nodes assigned to the given group."
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:581
+msgid ":ref:`int<class_int>` **get_rpc_sender_id** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:583
+msgid "Returns the sender's peer ID for the most recently received RPC call."
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:589
+msgid ""
+":ref:`bool<class_bool>` **has_group** **(** :ref:`String<class_String>` name "
+"**)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:591
+msgid "Returns ``true`` if the given group exists."
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:597
+msgid ":ref:`bool<class_bool>` **has_network_peer** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:599
+msgid ""
+"Returns ``true`` if there is a :ref:"
+"`network_peer<class_SceneTree_property_network_peer>` set."
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:605
+msgid ":ref:`bool<class_bool>` **is_input_handled** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:607
+msgid ""
+"Returns ``true`` if the most recent :ref:`InputEvent<class_InputEvent>` was "
+"marked as handled with :ref:"
+"`set_input_as_handled<class_SceneTree_method_set_input_as_handled>`."
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:613
+msgid ":ref:`bool<class_bool>` **is_network_server** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:615
+msgid ""
+"Returns ``true`` if this ``SceneTree``'s :ref:"
+"`network_peer<class_SceneTree_property_network_peer>` is in server mode "
+"(listening for connections)."
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:621
+msgid ""
+"void **notify_group** **(** :ref:`String<class_String>` group, :ref:"
+"`int<class_int>` notification **)**"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:623
+msgid "Sends the given notification to all members of the ``group``."
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:629
+msgid ""
+"void **notify_group_flags** **(** :ref:`int<class_int>` call_flags, :ref:"
+"`String<class_String>` group, :ref:`int<class_int>` notification **)**"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:631
+msgid ""
+"Sends the given notification to all members of the ``group``, respecting the "
+"given :ref:`GroupCallFlags<enum_SceneTree_GroupCallFlags>`."
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:637
+msgid "void **queue_delete** **(** :ref:`Object<class_Object>` obj **)**"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:639
+msgid ""
+"Queues the given object for deletion, delaying the call to :ref:`Object."
+"free<class_Object_method_free>` to after the current frame."
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:645
+msgid "void **quit** **(** :ref:`int<class_int>` exit_code=-1 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:647
+msgid ""
+"Quits the application at the end of the current iteration. A process "
+"``exit_code`` can optionally be passed as an argument. If this argument is "
+"``0`` or greater, it will override the :ref:`OS."
+"exit_code<class_OS_property_exit_code>` defined before quitting the "
+"application."
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:653
+msgid ""
+":ref:`Error<enum_@GlobalScope_Error>` **reload_current_scene** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:655
+msgid "Reloads the currently active scene."
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:657
+msgid ""
+"Returns :ref:`@GlobalScope.OK<class_@GlobalScope_constant_OK>` on success, :"
+"ref:`@GlobalScope."
+"ERR_UNCONFIGURED<class_@GlobalScope_constant_ERR_UNCONFIGURED>` if no :ref:"
+"`current_scene<class_SceneTree_property_current_scene>` was defined yet, :"
+"ref:`@GlobalScope.ERR_CANT_OPEN<class_@GlobalScope_constant_ERR_CANT_OPEN>` "
+"if :ref:`current_scene<class_SceneTree_property_current_scene>` cannot be "
+"loaded into a :ref:`PackedScene<class_PackedScene>`, or :ref:`@GlobalScope."
+"ERR_CANT_CREATE<class_@GlobalScope_constant_ERR_CANT_CREATE>` if the scene "
+"cannot be instantiated."
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:663
+msgid ""
+"void **set_auto_accept_quit** **(** :ref:`bool<class_bool>` enabled **)**"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:665
+msgid ""
+"If ``true``, the application automatically accepts quitting. Enabled by "
+"default."
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:667
+msgid ""
+"For mobile platforms, see :ref:"
+"`set_quit_on_go_back<class_SceneTree_method_set_quit_on_go_back>`."
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:673
+msgid ""
+"void **set_group** **(** :ref:`String<class_String>` group, :ref:"
+"`String<class_String>` property, :ref:`Variant<class_Variant>` value **)**"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:675
+msgid ""
+"Sets the given ``property`` to ``value`` on all members of the given group."
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:681
+msgid ""
+"void **set_group_flags** **(** :ref:`int<class_int>` call_flags, :ref:"
+"`String<class_String>` group, :ref:`String<class_String>` property, :ref:"
+"`Variant<class_Variant>` value **)**"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:683
+msgid ""
+"Sets the given ``property`` to ``value`` on all members of the given group, "
+"respecting the given :ref:`GroupCallFlags<enum_SceneTree_GroupCallFlags>`."
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:689
+msgid "void **set_input_as_handled** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:691
+msgid "Marks the most recent :ref:`InputEvent<class_InputEvent>` as handled."
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:697
+msgid ""
+"void **set_quit_on_go_back** **(** :ref:`bool<class_bool>` enabled **)**"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:699
+msgid ""
+"If ``true``, the application quits automatically on going back (e.g. on "
+"Android). Enabled by default."
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:701
+msgid ""
+"To handle 'Go Back' button when this option is disabled, use :ref:`MainLoop."
+"NOTIFICATION_WM_GO_BACK_REQUEST<class_MainLoop_constant_NOTIFICATION_WM_GO_BACK_REQUEST>`."
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:707
+msgid ""
+"void **set_screen_stretch** **(** :ref:"
+"`StretchMode<enum_SceneTree_StretchMode>` mode, :ref:"
+"`StretchAspect<enum_SceneTree_StretchAspect>` aspect, :ref:"
+"`Vector2<class_Vector2>` minsize, :ref:`float<class_float>` shrink=1 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_scenetree.rst:709
+msgid ""
+"Configures screen stretching to the given :ref:"
+"`StretchMode<enum_SceneTree_StretchMode>`, :ref:"
+"`StretchAspect<enum_SceneTree_StretchAspect>`, minimum size and ``shrink`` "
+"ratio."
+msgstr ""

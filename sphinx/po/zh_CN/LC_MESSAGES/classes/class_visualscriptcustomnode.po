@@ -1,0 +1,424 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2021, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-31 12:15+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_visualscriptcustomnode.rst:10
+msgid "VisualScriptCustomNode"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptcustomnode.rst:12
+msgid ""
+"**Inherits:** :ref:`VisualScriptNode<class_VisualScriptNode>` **<** :ref:"
+"`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :"
+"ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptcustomnode.rst:14
+msgid "A scripted Visual Script node."
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptcustomnode.rst:17
+msgid "Description"
+msgstr "描述"
+
+#: ../../docs/classes/class_visualscriptcustomnode.rst:19
+msgid "A custom Visual Script node which can be scripted in powerful ways."
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptcustomnode.rst:22
+msgid "Methods"
+msgstr "方法"
+
+#: ../../docs/classes/class_visualscriptcustomnode.rst:25
+#: ../../docs/classes/class_visualscriptcustomnode.rst:27
+#: ../../docs/classes/class_visualscriptcustomnode.rst:31
+#: ../../docs/classes/class_visualscriptcustomnode.rst:37
+#: ../../docs/classes/class_visualscriptcustomnode.rst:41
+#: ../../docs/classes/class_visualscriptcustomnode.rst:45
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptcustomnode.rst:25
+msgid ""
+":ref:`_get_caption<class_VisualScriptCustomNode_method__get_caption>` **(** "
+"**)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptcustomnode.rst:27
+msgid ""
+":ref:`_get_category<class_VisualScriptCustomNode_method__get_category>` "
+"**(** **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptcustomnode.rst:29
+#: ../../docs/classes/class_visualscriptcustomnode.rst:33
+#: ../../docs/classes/class_visualscriptcustomnode.rst:35
+#: ../../docs/classes/class_visualscriptcustomnode.rst:39
+#: ../../docs/classes/class_visualscriptcustomnode.rst:43
+#: ../../docs/classes/class_visualscriptcustomnode.rst:47
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptcustomnode.rst:29
+msgid ""
+":ref:"
+"`_get_input_value_port_count<class_VisualScriptCustomNode_method__get_input_value_port_count>` "
+"**(** **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptcustomnode.rst:31
+msgid ""
+":ref:"
+"`_get_input_value_port_name<class_VisualScriptCustomNode_method__get_input_value_port_name>` "
+"**(** :ref:`int<class_int>` idx **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptcustomnode.rst:33
+msgid ""
+":ref:"
+"`_get_input_value_port_type<class_VisualScriptCustomNode_method__get_input_value_port_type>` "
+"**(** :ref:`int<class_int>` idx **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptcustomnode.rst:35
+msgid ""
+":ref:"
+"`_get_output_sequence_port_count<class_VisualScriptCustomNode_method__get_output_sequence_port_count>` "
+"**(** **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptcustomnode.rst:37
+msgid ""
+":ref:"
+"`_get_output_sequence_port_text<class_VisualScriptCustomNode_method__get_output_sequence_port_text>` "
+"**(** :ref:`int<class_int>` idx **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptcustomnode.rst:39
+msgid ""
+":ref:"
+"`_get_output_value_port_count<class_VisualScriptCustomNode_method__get_output_value_port_count>` "
+"**(** **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptcustomnode.rst:41
+msgid ""
+":ref:"
+"`_get_output_value_port_name<class_VisualScriptCustomNode_method__get_output_value_port_name>` "
+"**(** :ref:`int<class_int>` idx **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptcustomnode.rst:43
+msgid ""
+":ref:"
+"`_get_output_value_port_type<class_VisualScriptCustomNode_method__get_output_value_port_type>` "
+"**(** :ref:`int<class_int>` idx **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptcustomnode.rst:45
+msgid ""
+":ref:`_get_text<class_VisualScriptCustomNode_method__get_text>` **(** **)** |"
+"virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptcustomnode.rst:47
+msgid ""
+":ref:"
+"`_get_working_memory_size<class_VisualScriptCustomNode_method__get_working_memory_size>` "
+"**(** **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptcustomnode.rst:49
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptcustomnode.rst:49
+msgid ""
+":ref:"
+"`_has_input_sequence_port<class_VisualScriptCustomNode_method__has_input_sequence_port>` "
+"**(** **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptcustomnode.rst:51
+msgid ":ref:`Variant<class_Variant>`"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptcustomnode.rst:51
+msgid ""
+":ref:`_step<class_VisualScriptCustomNode_method__step>` **(** :ref:"
+"`Array<class_Array>` inputs, :ref:`Array<class_Array>` outputs, :ref:"
+"`int<class_int>` start_mode, :ref:`Array<class_Array>` working_mem **)** |"
+"virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptcustomnode.rst:55
+msgid "Enumerations"
+msgstr "枚举"
+
+#: ../../docs/classes/class_visualscriptcustomnode.rst:65
+msgid "enum **StartMode**:"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptcustomnode.rst:67
+msgid ""
+"**START_MODE_BEGIN_SEQUENCE** = **0** --- The start mode used the first time "
+"when :ref:`_step<class_VisualScriptCustomNode_method__step>` is called."
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptcustomnode.rst:69
+msgid ""
+"**START_MODE_CONTINUE_SEQUENCE** = **1** --- The start mode used when :ref:"
+"`_step<class_VisualScriptCustomNode_method__step>` is called after coming "
+"back from a :ref:"
+"`STEP_PUSH_STACK_BIT<class_VisualScriptCustomNode_constant_STEP_PUSH_STACK_BIT>`."
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptcustomnode.rst:71
+msgid ""
+"**START_MODE_RESUME_YIELD** = **2** --- The start mode used when :ref:"
+"`_step<class_VisualScriptCustomNode_method__step>` is called after resuming "
+"from :ref:"
+"`STEP_YIELD_BIT<class_VisualScriptCustomNode_constant_STEP_YIELD_BIT>`."
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptcustomnode.rst:74
+msgid "Constants"
+msgstr "常量"
+
+#: ../../docs/classes/class_visualscriptcustomnode.rst:86
+msgid ""
+"**STEP_PUSH_STACK_BIT** = **16777216** --- Hint used by :ref:"
+"`_step<class_VisualScriptCustomNode_method__step>` to tell that control "
+"should return to it when there is no other node left to execute."
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptcustomnode.rst:88
+msgid ""
+"This is used by :ref:`VisualScriptCondition<class_VisualScriptCondition>` to "
+"redirect the sequence to the \"Done\" port after the ``true``/``false`` "
+"branch has finished execution."
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptcustomnode.rst:90
+msgid ""
+"**STEP_GO_BACK_BIT** = **33554432** --- Hint used by :ref:"
+"`_step<class_VisualScriptCustomNode_method__step>` to tell that control "
+"should return back, either hitting a previous :ref:"
+"`STEP_PUSH_STACK_BIT<class_VisualScriptCustomNode_constant_STEP_PUSH_STACK_BIT>` "
+"or exiting the function."
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptcustomnode.rst:92
+msgid "**STEP_NO_ADVANCE_BIT** = **67108864**"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptcustomnode.rst:94
+msgid ""
+"**STEP_EXIT_FUNCTION_BIT** = **134217728** --- Hint used by :ref:"
+"`_step<class_VisualScriptCustomNode_method__step>` to tell that control "
+"should stop and exit the function."
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptcustomnode.rst:96
+msgid ""
+"**STEP_YIELD_BIT** = **268435456** --- Hint used by :ref:"
+"`_step<class_VisualScriptCustomNode_method__step>` to tell that the function "
+"should be yielded."
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptcustomnode.rst:98
+msgid ""
+"Using this requires you to have at least one working memory slot, which is "
+"used for the :ref:"
+"`VisualScriptFunctionState<class_VisualScriptFunctionState>`."
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptcustomnode.rst:101
+msgid "Method Descriptions"
+msgstr "方法说明"
+
+#: ../../docs/classes/class_visualscriptcustomnode.rst:105
+msgid ":ref:`String<class_String>` **_get_caption** **(** **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptcustomnode.rst:107
+msgid "Return the node's title."
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptcustomnode.rst:113
+msgid ":ref:`String<class_String>` **_get_category** **(** **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptcustomnode.rst:115
+msgid "Return the node's category."
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptcustomnode.rst:121
+msgid ""
+":ref:`int<class_int>` **_get_input_value_port_count** **(** **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptcustomnode.rst:123
+msgid "Return the count of input value ports."
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptcustomnode.rst:129
+msgid ""
+":ref:`String<class_String>` **_get_input_value_port_name** **(** :ref:"
+"`int<class_int>` idx **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptcustomnode.rst:131
+msgid "Return the specified input port's name."
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptcustomnode.rst:137
+msgid ""
+":ref:`int<class_int>` **_get_input_value_port_type** **(** :ref:"
+"`int<class_int>` idx **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptcustomnode.rst:139
+msgid ""
+"Return the specified input port's type. See the :ref:`Variant."
+"Type<enum_@GlobalScope_Variant.Type>` values."
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptcustomnode.rst:145
+msgid ""
+":ref:`int<class_int>` **_get_output_sequence_port_count** **(** **)** |"
+"virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptcustomnode.rst:147
+msgid "Return the amount of output **sequence** ports."
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptcustomnode.rst:153
+msgid ""
+":ref:`String<class_String>` **_get_output_sequence_port_text** **(** :ref:"
+"`int<class_int>` idx **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptcustomnode.rst:155
+msgid "Return the specified **sequence** output's name."
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptcustomnode.rst:161
+msgid ""
+":ref:`int<class_int>` **_get_output_value_port_count** **(** **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptcustomnode.rst:163
+msgid "Return the amount of output value ports."
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptcustomnode.rst:169
+msgid ""
+":ref:`String<class_String>` **_get_output_value_port_name** **(** :ref:"
+"`int<class_int>` idx **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptcustomnode.rst:171
+msgid "Return the specified output's name."
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptcustomnode.rst:177
+msgid ""
+":ref:`int<class_int>` **_get_output_value_port_type** **(** :ref:"
+"`int<class_int>` idx **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptcustomnode.rst:179
+msgid ""
+"Return the specified output's type. See the :ref:`Variant."
+"Type<enum_@GlobalScope_Variant.Type>` values."
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptcustomnode.rst:185
+msgid ":ref:`String<class_String>` **_get_text** **(** **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptcustomnode.rst:187
+msgid ""
+"Return the custom node's text, which is shown right next to the input "
+"**sequence** port (if there is none, on the place that is usually taken by "
+"it)."
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptcustomnode.rst:193
+msgid ""
+":ref:`int<class_int>` **_get_working_memory_size** **(** **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptcustomnode.rst:195
+msgid ""
+"Return the size of the custom node's working memory. See :ref:"
+"`_step<class_VisualScriptCustomNode_method__step>` for more details."
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptcustomnode.rst:201
+msgid ""
+":ref:`bool<class_bool>` **_has_input_sequence_port** **(** **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptcustomnode.rst:203
+msgid "Return whether the custom node has an input **sequence** port."
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptcustomnode.rst:209
+msgid ""
+":ref:`Variant<class_Variant>` **_step** **(** :ref:`Array<class_Array>` "
+"inputs, :ref:`Array<class_Array>` outputs, :ref:`int<class_int>` "
+"start_mode, :ref:`Array<class_Array>` working_mem **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptcustomnode.rst:211
+msgid ""
+"Execute the custom node's logic, returning the index of the output sequence "
+"port to use or a :ref:`String<class_String>` when there is an error."
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptcustomnode.rst:213
+msgid "The ``inputs`` array contains the values of the input ports."
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptcustomnode.rst:215
+msgid ""
+"``outputs`` is an array whose indices should be set to the respective "
+"outputs."
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptcustomnode.rst:217
+msgid ""
+"The ``start_mode`` is usually :ref:"
+"`START_MODE_BEGIN_SEQUENCE<class_VisualScriptCustomNode_constant_START_MODE_BEGIN_SEQUENCE>`, "
+"unless you have used the ``STEP_*`` constants."
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptcustomnode.rst:219
+msgid ""
+"``working_mem`` is an array which can be used to persist information between "
+"runs of the custom node."
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptcustomnode.rst:221
+msgid ""
+"When returning, you can mask the returned value with one of the ``STEP_*`` "
+"constants."
+msgstr ""

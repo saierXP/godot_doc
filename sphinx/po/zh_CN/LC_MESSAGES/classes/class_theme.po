@@ -1,0 +1,710 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2021, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-31 12:15+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_theme.rst:10
+msgid "Theme"
+msgstr ""
+
+#: ../../docs/classes/class_theme.rst:12
+msgid ""
+"**Inherits:** :ref:`Resource<class_Resource>` **<** :ref:"
+"`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_theme.rst:14
+#, fuzzy
+msgid "Theme for controls."
+msgstr "控件的主题。"
+
+#: ../../docs/classes/class_theme.rst:17
+msgid "Description"
+msgstr "描述"
+
+#: ../../docs/classes/class_theme.rst:19
+msgid ""
+"A theme for skinning controls. Controls can be skinned individually, but for "
+"complex applications, it's more practical to just create a global theme that "
+"defines everything. This theme can be applied to any :ref:"
+"`Control<class_Control>`; the Control and its children will automatically "
+"use it."
+msgstr ""
+
+#: ../../docs/classes/class_theme.rst:21
+msgid ""
+"Theme resources can alternatively be loaded by writing them in a ``.theme`` "
+"file, see the documentation for more information."
+msgstr ""
+
+#: ../../docs/classes/class_theme.rst:24
+msgid "Tutorials"
+msgstr "教程"
+
+#: ../../docs/classes/class_theme.rst:26
+msgid ":doc:`../tutorials/gui/gui_skinning`"
+msgstr ""
+
+#: ../../docs/classes/class_theme.rst:29
+msgid "Properties"
+msgstr "属性"
+
+#: ../../docs/classes/class_theme.rst:32 ../../docs/classes/class_theme.rst:63
+msgid ":ref:`Font<class_Font>`"
+msgstr ""
+
+#: ../../docs/classes/class_theme.rst:32
+msgid ":ref:`default_font<class_Theme_property_default_font>`"
+msgstr ""
+
+#: ../../docs/classes/class_theme.rst:36
+msgid "Methods"
+msgstr "方法"
+
+#: ../../docs/classes/class_theme.rst:39 ../../docs/classes/class_theme.rst:41
+#: ../../docs/classes/class_theme.rst:43 ../../docs/classes/class_theme.rst:45
+#: ../../docs/classes/class_theme.rst:47 ../../docs/classes/class_theme.rst:49
+#: ../../docs/classes/class_theme.rst:51 ../../docs/classes/class_theme.rst:53
+#: ../../docs/classes/class_theme.rst:89 ../../docs/classes/class_theme.rst:91
+#: ../../docs/classes/class_theme.rst:93 ../../docs/classes/class_theme.rst:95
+#: ../../docs/classes/class_theme.rst:97
+msgid "void"
+msgstr ""
+
+#: ../../docs/classes/class_theme.rst:39
+msgid ":ref:`clear<class_Theme_method_clear>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_theme.rst:41
+msgid ""
+":ref:`clear_color<class_Theme_method_clear_color>` **(** :ref:"
+"`String<class_String>` name, :ref:`String<class_String>` node_type **)**"
+msgstr ""
+
+#: ../../docs/classes/class_theme.rst:43
+msgid ""
+":ref:`clear_constant<class_Theme_method_clear_constant>` **(** :ref:"
+"`String<class_String>` name, :ref:`String<class_String>` node_type **)**"
+msgstr ""
+
+#: ../../docs/classes/class_theme.rst:45
+msgid ""
+":ref:`clear_font<class_Theme_method_clear_font>` **(** :ref:"
+"`String<class_String>` name, :ref:`String<class_String>` node_type **)**"
+msgstr ""
+
+#: ../../docs/classes/class_theme.rst:47
+msgid ""
+":ref:`clear_icon<class_Theme_method_clear_icon>` **(** :ref:"
+"`String<class_String>` name, :ref:`String<class_String>` node_type **)**"
+msgstr ""
+
+#: ../../docs/classes/class_theme.rst:49
+msgid ""
+":ref:`clear_stylebox<class_Theme_method_clear_stylebox>` **(** :ref:"
+"`String<class_String>` name, :ref:`String<class_String>` node_type **)**"
+msgstr ""
+
+#: ../../docs/classes/class_theme.rst:51
+msgid ""
+":ref:`copy_default_theme<class_Theme_method_copy_default_theme>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_theme.rst:53
+msgid ""
+":ref:`copy_theme<class_Theme_method_copy_theme>` **(** :ref:"
+"`Theme<class_Theme>` other **)**"
+msgstr ""
+
+#: ../../docs/classes/class_theme.rst:55
+msgid ":ref:`Color<class_Color>`"
+msgstr ""
+
+#: ../../docs/classes/class_theme.rst:55
+msgid ""
+":ref:`get_color<class_Theme_method_get_color>` **(** :ref:"
+"`String<class_String>` name, :ref:`String<class_String>` node_type **)** |"
+"const|"
+msgstr ""
+
+#: ../../docs/classes/class_theme.rst:57 ../../docs/classes/class_theme.rst:61
+#: ../../docs/classes/class_theme.rst:65 ../../docs/classes/class_theme.rst:69
+#: ../../docs/classes/class_theme.rst:73 ../../docs/classes/class_theme.rst:75
+#: ../../docs/classes/class_theme.rst:77
+msgid ":ref:`PoolStringArray<class_PoolStringArray>`"
+msgstr ""
+
+#: ../../docs/classes/class_theme.rst:57
+msgid ""
+":ref:`get_color_list<class_Theme_method_get_color_list>` **(** :ref:"
+"`String<class_String>` node_type **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_theme.rst:59
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../../docs/classes/class_theme.rst:59
+msgid ""
+":ref:`get_constant<class_Theme_method_get_constant>` **(** :ref:"
+"`String<class_String>` name, :ref:`String<class_String>` node_type **)** |"
+"const|"
+msgstr ""
+
+#: ../../docs/classes/class_theme.rst:61
+msgid ""
+":ref:`get_constant_list<class_Theme_method_get_constant_list>` **(** :ref:"
+"`String<class_String>` node_type **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_theme.rst:63
+msgid ""
+":ref:`get_font<class_Theme_method_get_font>` **(** :ref:"
+"`String<class_String>` name, :ref:`String<class_String>` node_type **)** |"
+"const|"
+msgstr ""
+
+#: ../../docs/classes/class_theme.rst:65
+msgid ""
+":ref:`get_font_list<class_Theme_method_get_font_list>` **(** :ref:"
+"`String<class_String>` node_type **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_theme.rst:67
+msgid ":ref:`Texture<class_Texture>`"
+msgstr ""
+
+#: ../../docs/classes/class_theme.rst:67
+msgid ""
+":ref:`get_icon<class_Theme_method_get_icon>` **(** :ref:"
+"`String<class_String>` name, :ref:`String<class_String>` node_type **)** |"
+"const|"
+msgstr ""
+
+#: ../../docs/classes/class_theme.rst:69
+msgid ""
+":ref:`get_icon_list<class_Theme_method_get_icon_list>` **(** :ref:"
+"`String<class_String>` node_type **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_theme.rst:71
+msgid ":ref:`StyleBox<class_StyleBox>`"
+msgstr ""
+
+#: ../../docs/classes/class_theme.rst:71
+msgid ""
+":ref:`get_stylebox<class_Theme_method_get_stylebox>` **(** :ref:"
+"`String<class_String>` name, :ref:`String<class_String>` node_type **)** |"
+"const|"
+msgstr ""
+
+#: ../../docs/classes/class_theme.rst:73
+msgid ""
+":ref:`get_stylebox_list<class_Theme_method_get_stylebox_list>` **(** :ref:"
+"`String<class_String>` node_type **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_theme.rst:75
+msgid ""
+":ref:`get_stylebox_types<class_Theme_method_get_stylebox_types>` **(** **)** "
+"|const|"
+msgstr ""
+
+#: ../../docs/classes/class_theme.rst:77
+msgid ""
+":ref:`get_type_list<class_Theme_method_get_type_list>` **(** :ref:"
+"`String<class_String>` node_type **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_theme.rst:79 ../../docs/classes/class_theme.rst:81
+#: ../../docs/classes/class_theme.rst:83 ../../docs/classes/class_theme.rst:85
+#: ../../docs/classes/class_theme.rst:87
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_theme.rst:79
+msgid ""
+":ref:`has_color<class_Theme_method_has_color>` **(** :ref:"
+"`String<class_String>` name, :ref:`String<class_String>` node_type **)** |"
+"const|"
+msgstr ""
+
+#: ../../docs/classes/class_theme.rst:81
+msgid ""
+":ref:`has_constant<class_Theme_method_has_constant>` **(** :ref:"
+"`String<class_String>` name, :ref:`String<class_String>` node_type **)** |"
+"const|"
+msgstr ""
+
+#: ../../docs/classes/class_theme.rst:83
+msgid ""
+":ref:`has_font<class_Theme_method_has_font>` **(** :ref:"
+"`String<class_String>` name, :ref:`String<class_String>` node_type **)** |"
+"const|"
+msgstr ""
+
+#: ../../docs/classes/class_theme.rst:85
+msgid ""
+":ref:`has_icon<class_Theme_method_has_icon>` **(** :ref:"
+"`String<class_String>` name, :ref:`String<class_String>` node_type **)** |"
+"const|"
+msgstr ""
+
+#: ../../docs/classes/class_theme.rst:87
+msgid ""
+":ref:`has_stylebox<class_Theme_method_has_stylebox>` **(** :ref:"
+"`String<class_String>` name, :ref:`String<class_String>` node_type **)** |"
+"const|"
+msgstr ""
+
+#: ../../docs/classes/class_theme.rst:89
+msgid ""
+":ref:`set_color<class_Theme_method_set_color>` **(** :ref:"
+"`String<class_String>` name, :ref:`String<class_String>` node_type, :ref:"
+"`Color<class_Color>` color **)**"
+msgstr ""
+
+#: ../../docs/classes/class_theme.rst:91
+msgid ""
+":ref:`set_constant<class_Theme_method_set_constant>` **(** :ref:"
+"`String<class_String>` name, :ref:`String<class_String>` node_type, :ref:"
+"`int<class_int>` constant **)**"
+msgstr ""
+
+#: ../../docs/classes/class_theme.rst:93
+msgid ""
+":ref:`set_font<class_Theme_method_set_font>` **(** :ref:"
+"`String<class_String>` name, :ref:`String<class_String>` node_type, :ref:"
+"`Font<class_Font>` font **)**"
+msgstr ""
+
+#: ../../docs/classes/class_theme.rst:95
+msgid ""
+":ref:`set_icon<class_Theme_method_set_icon>` **(** :ref:"
+"`String<class_String>` name, :ref:`String<class_String>` node_type, :ref:"
+"`Texture<class_Texture>` texture **)**"
+msgstr ""
+
+#: ../../docs/classes/class_theme.rst:97
+msgid ""
+":ref:`set_stylebox<class_Theme_method_set_stylebox>` **(** :ref:"
+"`String<class_String>` name, :ref:`String<class_String>` node_type, :ref:"
+"`StyleBox<class_StyleBox>` texture **)**"
+msgstr ""
+
+#: ../../docs/classes/class_theme.rst:101
+msgid "Property Descriptions"
+msgstr "属性说明"
+
+#: ../../docs/classes/class_theme.rst:105
+msgid ":ref:`Font<class_Font>` **default_font**"
+msgstr ""
+
+#: ../../docs/classes/class_theme.rst:108
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_theme.rst:108
+msgid "set_default_font(value)"
+msgstr ""
+
+#: ../../docs/classes/class_theme.rst:110
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_theme.rst:110
+msgid "get_default_font()"
+msgstr ""
+
+#: ../../docs/classes/class_theme.rst:113
+msgid "The theme's default font."
+msgstr ""
+
+#: ../../docs/classes/class_theme.rst:116
+msgid "Method Descriptions"
+msgstr "方法说明"
+
+#: ../../docs/classes/class_theme.rst:120
+msgid "void **clear** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_theme.rst:122
+msgid "Clears all values on the theme."
+msgstr ""
+
+#: ../../docs/classes/class_theme.rst:128
+msgid ""
+"void **clear_color** **(** :ref:`String<class_String>` name, :ref:"
+"`String<class_String>` node_type **)**"
+msgstr ""
+
+#: ../../docs/classes/class_theme.rst:130
+msgid ""
+"Clears the :ref:`Color<class_Color>` at ``name`` if the theme has "
+"``node_type``."
+msgstr ""
+
+#: ../../docs/classes/class_theme.rst:136
+msgid ""
+"void **clear_constant** **(** :ref:`String<class_String>` name, :ref:"
+"`String<class_String>` node_type **)**"
+msgstr ""
+
+#: ../../docs/classes/class_theme.rst:138
+msgid "Clears the constant at ``name`` if the theme has ``node_type``."
+msgstr ""
+
+#: ../../docs/classes/class_theme.rst:144
+msgid ""
+"void **clear_font** **(** :ref:`String<class_String>` name, :ref:"
+"`String<class_String>` node_type **)**"
+msgstr ""
+
+#: ../../docs/classes/class_theme.rst:146
+msgid ""
+"Clears the :ref:`Font<class_Font>` at ``name`` if the theme has "
+"``node_type``."
+msgstr ""
+
+#: ../../docs/classes/class_theme.rst:152
+msgid ""
+"void **clear_icon** **(** :ref:`String<class_String>` name, :ref:"
+"`String<class_String>` node_type **)**"
+msgstr ""
+
+#: ../../docs/classes/class_theme.rst:154
+msgid "Clears the icon at ``name`` if the theme has ``node_type``."
+msgstr ""
+
+#: ../../docs/classes/class_theme.rst:160
+msgid ""
+"void **clear_stylebox** **(** :ref:`String<class_String>` name, :ref:"
+"`String<class_String>` node_type **)**"
+msgstr ""
+
+#: ../../docs/classes/class_theme.rst:162
+msgid ""
+"Clears :ref:`StyleBox<class_StyleBox>` at ``name`` if the theme has "
+"``node_type``."
+msgstr ""
+
+#: ../../docs/classes/class_theme.rst:168
+msgid "void **copy_default_theme** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_theme.rst:170
+msgid "Sets the theme's values to a copy of the default theme values."
+msgstr ""
+
+#: ../../docs/classes/class_theme.rst:176
+msgid "void **copy_theme** **(** :ref:`Theme<class_Theme>` other **)**"
+msgstr ""
+
+#: ../../docs/classes/class_theme.rst:178
+msgid "Sets the theme's values to a copy of a given theme."
+msgstr ""
+
+#: ../../docs/classes/class_theme.rst:184
+msgid ""
+":ref:`Color<class_Color>` **get_color** **(** :ref:`String<class_String>` "
+"name, :ref:`String<class_String>` node_type **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_theme.rst:186
+msgid ""
+"Returns the :ref:`Color<class_Color>` at ``name`` if the theme has "
+"``node_type``."
+msgstr ""
+
+#: ../../docs/classes/class_theme.rst:192
+msgid ""
+":ref:`PoolStringArray<class_PoolStringArray>` **get_color_list** **(** :ref:"
+"`String<class_String>` node_type **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_theme.rst:194
+msgid ""
+"Returns all the :ref:`Color<class_Color>`\\ s as a :ref:"
+"`PoolStringArray<class_PoolStringArray>` filled with each :ref:"
+"`Color<class_Color>`'s name, for use in :ref:"
+"`get_color<class_Theme_method_get_color>`, if the theme has ``node_type``."
+msgstr ""
+
+#: ../../docs/classes/class_theme.rst:200
+msgid ""
+":ref:`int<class_int>` **get_constant** **(** :ref:`String<class_String>` "
+"name, :ref:`String<class_String>` node_type **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_theme.rst:202
+msgid "Returns the constant at ``name`` if the theme has ``node_type``."
+msgstr ""
+
+#: ../../docs/classes/class_theme.rst:208
+msgid ""
+":ref:`PoolStringArray<class_PoolStringArray>` **get_constant_list** **(** :"
+"ref:`String<class_String>` node_type **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_theme.rst:210
+msgid ""
+"Returns all the constants as a :ref:`PoolStringArray<class_PoolStringArray>` "
+"filled with each constant's name, for use in :ref:"
+"`get_constant<class_Theme_method_get_constant>`, if the theme has "
+"``node_type``."
+msgstr ""
+
+#: ../../docs/classes/class_theme.rst:216
+msgid ""
+":ref:`Font<class_Font>` **get_font** **(** :ref:`String<class_String>` "
+"name, :ref:`String<class_String>` node_type **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_theme.rst:218
+msgid ""
+"Returns the :ref:`Font<class_Font>` at ``name`` if the theme has "
+"``node_type``."
+msgstr ""
+
+#: ../../docs/classes/class_theme.rst:224
+msgid ""
+":ref:`PoolStringArray<class_PoolStringArray>` **get_font_list** **(** :ref:"
+"`String<class_String>` node_type **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_theme.rst:226
+msgid ""
+"Returns all the :ref:`Font<class_Font>`\\ s as a :ref:"
+"`PoolStringArray<class_PoolStringArray>` filled with each :ref:"
+"`Font<class_Font>`'s name, for use in :ref:"
+"`get_font<class_Theme_method_get_font>`, if the theme has ``node_type``."
+msgstr ""
+
+#: ../../docs/classes/class_theme.rst:232
+msgid ""
+":ref:`Texture<class_Texture>` **get_icon** **(** :ref:`String<class_String>` "
+"name, :ref:`String<class_String>` node_type **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_theme.rst:234
+msgid ""
+"Returns the icon :ref:`Texture<class_Texture>` at ``name`` if the theme has "
+"``node_type``."
+msgstr ""
+
+#: ../../docs/classes/class_theme.rst:240
+msgid ""
+":ref:`PoolStringArray<class_PoolStringArray>` **get_icon_list** **(** :ref:"
+"`String<class_String>` node_type **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_theme.rst:242
+msgid ""
+"Returns all the icons as a :ref:`PoolStringArray<class_PoolStringArray>` "
+"filled with each :ref:`Texture<class_Texture>`'s name, for use in :ref:"
+"`get_icon<class_Theme_method_get_icon>`, if the theme has ``node_type``."
+msgstr ""
+
+#: ../../docs/classes/class_theme.rst:248
+msgid ""
+":ref:`StyleBox<class_StyleBox>` **get_stylebox** **(** :ref:"
+"`String<class_String>` name, :ref:`String<class_String>` node_type **)** |"
+"const|"
+msgstr ""
+
+#: ../../docs/classes/class_theme.rst:250
+msgid ""
+"Returns the icon :ref:`StyleBox<class_StyleBox>` at ``name`` if the theme "
+"has ``node_type``."
+msgstr ""
+
+#: ../../docs/classes/class_theme.rst:256
+msgid ""
+":ref:`PoolStringArray<class_PoolStringArray>` **get_stylebox_list** **(** :"
+"ref:`String<class_String>` node_type **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_theme.rst:258
+msgid ""
+"Returns all the :ref:`StyleBox<class_StyleBox>`\\ s as a :ref:"
+"`PoolStringArray<class_PoolStringArray>` filled with each :ref:"
+"`StyleBox<class_StyleBox>`'s name, for use in :ref:"
+"`get_stylebox<class_Theme_method_get_stylebox>`, if the theme has "
+"``node_type``."
+msgstr ""
+
+#: ../../docs/classes/class_theme.rst:264
+msgid ""
+":ref:`PoolStringArray<class_PoolStringArray>` **get_stylebox_types** **(** "
+"**)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_theme.rst:266
+msgid ""
+"Returns all the :ref:`StyleBox<class_StyleBox>` types as a :ref:"
+"`PoolStringArray<class_PoolStringArray>` filled with each :ref:"
+"`StyleBox<class_StyleBox>`'s type, for use in :ref:"
+"`get_stylebox<class_Theme_method_get_stylebox>` and/or :ref:"
+"`get_stylebox_list<class_Theme_method_get_stylebox_list>`, if the theme has "
+"``node_type``."
+msgstr ""
+
+#: ../../docs/classes/class_theme.rst:272
+msgid ""
+":ref:`PoolStringArray<class_PoolStringArray>` **get_type_list** **(** :ref:"
+"`String<class_String>` node_type **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_theme.rst:274
+msgid ""
+"Returns all the types in ``node_type`` as a :ref:"
+"`PoolStringArray<class_PoolStringArray>` for use in any of the ``get_*`` "
+"functions, if the theme has ``node_type``."
+msgstr ""
+
+#: ../../docs/classes/class_theme.rst:280
+msgid ""
+":ref:`bool<class_bool>` **has_color** **(** :ref:`String<class_String>` "
+"name, :ref:`String<class_String>` node_type **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_theme.rst:282
+msgid ""
+"Returns ``true`` if :ref:`Color<class_Color>` with ``name`` is in "
+"``node_type``."
+msgstr ""
+
+#: ../../docs/classes/class_theme.rst:284
+#: ../../docs/classes/class_theme.rst:294
+#: ../../docs/classes/class_theme.rst:304
+#: ../../docs/classes/class_theme.rst:314
+#: ../../docs/classes/class_theme.rst:324
+msgid "Returns ``false`` if the theme does not have ``node_type``."
+msgstr ""
+
+#: ../../docs/classes/class_theme.rst:290
+msgid ""
+":ref:`bool<class_bool>` **has_constant** **(** :ref:`String<class_String>` "
+"name, :ref:`String<class_String>` node_type **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_theme.rst:292
+msgid "Returns ``true`` if constant with ``name`` is in ``node_type``."
+msgstr ""
+
+#: ../../docs/classes/class_theme.rst:300
+msgid ""
+":ref:`bool<class_bool>` **has_font** **(** :ref:`String<class_String>` "
+"name, :ref:`String<class_String>` node_type **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_theme.rst:302
+msgid ""
+"Returns ``true`` if :ref:`Font<class_Font>` with ``name`` is in "
+"``node_type``."
+msgstr ""
+
+#: ../../docs/classes/class_theme.rst:310
+msgid ""
+":ref:`bool<class_bool>` **has_icon** **(** :ref:`String<class_String>` "
+"name, :ref:`String<class_String>` node_type **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_theme.rst:312
+msgid ""
+"Returns ``true`` if icon :ref:`Texture<class_Texture>` with ``name`` is in "
+"``node_type``."
+msgstr ""
+
+#: ../../docs/classes/class_theme.rst:320
+msgid ""
+":ref:`bool<class_bool>` **has_stylebox** **(** :ref:`String<class_String>` "
+"name, :ref:`String<class_String>` node_type **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_theme.rst:322
+msgid ""
+"Returns ``true`` if :ref:`StyleBox<class_StyleBox>` with ``name`` is in "
+"``node_type``."
+msgstr ""
+
+#: ../../docs/classes/class_theme.rst:330
+msgid ""
+"void **set_color** **(** :ref:`String<class_String>` name, :ref:"
+"`String<class_String>` node_type, :ref:`Color<class_Color>` color **)**"
+msgstr ""
+
+#: ../../docs/classes/class_theme.rst:332
+msgid ""
+"Sets the theme's :ref:`Color<class_Color>` to ``color`` at ``name`` in "
+"``node_type``."
+msgstr ""
+
+#: ../../docs/classes/class_theme.rst:334
+#: ../../docs/classes/class_theme.rst:344
+#: ../../docs/classes/class_theme.rst:354
+#: ../../docs/classes/class_theme.rst:364
+#: ../../docs/classes/class_theme.rst:374
+msgid "Does nothing if the theme does not have ``node_type``."
+msgstr ""
+
+#: ../../docs/classes/class_theme.rst:340
+msgid ""
+"void **set_constant** **(** :ref:`String<class_String>` name, :ref:"
+"`String<class_String>` node_type, :ref:`int<class_int>` constant **)**"
+msgstr ""
+
+#: ../../docs/classes/class_theme.rst:342
+msgid "Sets the theme's constant to ``constant`` at ``name`` in ``node_type``."
+msgstr ""
+
+#: ../../docs/classes/class_theme.rst:350
+msgid ""
+"void **set_font** **(** :ref:`String<class_String>` name, :ref:"
+"`String<class_String>` node_type, :ref:`Font<class_Font>` font **)**"
+msgstr ""
+
+#: ../../docs/classes/class_theme.rst:352
+msgid ""
+"Sets the theme's :ref:`Font<class_Font>` to ``font`` at ``name`` in "
+"``node_type``."
+msgstr ""
+
+#: ../../docs/classes/class_theme.rst:360
+msgid ""
+"void **set_icon** **(** :ref:`String<class_String>` name, :ref:"
+"`String<class_String>` node_type, :ref:`Texture<class_Texture>` texture **)**"
+msgstr ""
+
+#: ../../docs/classes/class_theme.rst:362
+msgid ""
+"Sets the theme's icon :ref:`Texture<class_Texture>` to ``texture`` at "
+"``name`` in ``node_type``."
+msgstr ""
+
+#: ../../docs/classes/class_theme.rst:370
+msgid ""
+"void **set_stylebox** **(** :ref:`String<class_String>` name, :ref:"
+"`String<class_String>` node_type, :ref:`StyleBox<class_StyleBox>` texture "
+"**)**"
+msgstr ""
+
+#: ../../docs/classes/class_theme.rst:372
+msgid ""
+"Sets theme's :ref:`StyleBox<class_StyleBox>` to ``stylebox`` at ``name`` in "
+"``node_type``."
+msgstr ""

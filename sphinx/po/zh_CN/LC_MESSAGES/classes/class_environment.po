@@ -1,0 +1,2864 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2021, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-31 12:15+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_environment.rst:10
+msgid "Environment"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:12
+msgid ""
+"**Inherits:** :ref:`Resource<class_Resource>` **<** :ref:"
+"`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:14
+msgid ""
+"Resource for environment nodes (like :ref:"
+"`WorldEnvironment<class_WorldEnvironment>`) that define multiple rendering "
+"options."
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:17
+msgid "Description"
+msgstr "描述"
+
+#: ../../docs/classes/class_environment.rst:19
+msgid ""
+"Resource for environment nodes (like :ref:"
+"`WorldEnvironment<class_WorldEnvironment>`) that define multiple environment "
+"operations (such as background :ref:`Sky<class_Sky>` or :ref:"
+"`Color<class_Color>`, ambient light, fog, depth-of-field...). These "
+"parameters affect the final render of the scene. The order of these "
+"operations is:"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:21
+msgid "Depth of Field Blur"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:23
+msgid "Glow"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:25
+msgid "Tonemap (Auto Exposure)"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:27
+msgid "Adjustments"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:29
+msgid ""
+"These effects will only apply when the :ref:`Viewport<class_Viewport>`'s "
+"intended usage is \"3D\" or \"3D Without Effects\". This can be configured "
+"for the root Viewport with :ref:`ProjectSettings.rendering/quality/"
+"intended_usage/"
+"framebuffer_allocation<class_ProjectSettings_property_rendering/quality/"
+"intended_usage/framebuffer_allocation>`, or for specific Viewports via the :"
+"ref:`Viewport.usage<class_Viewport_property_usage>` property."
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:32
+msgid "Tutorials"
+msgstr "教程"
+
+#: ../../docs/classes/class_environment.rst:34
+msgid ":doc:`../tutorials/3d/environment_and_post_processing`"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:36
+msgid ":doc:`../tutorials/3d/high_dynamic_range`"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:38
+msgid ""
+"`https://godotengine.org/asset-library/asset/123 <https://godotengine.org/"
+"asset-library/asset/123>`_"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:40
+msgid ""
+"`https://godotengine.org/asset-library/asset/110 <https://godotengine.org/"
+"asset-library/asset/110>`_"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:42
+msgid ""
+"`https://godotengine.org/asset-library/asset/678 <https://godotengine.org/"
+"asset-library/asset/678>`_"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:45
+msgid "Properties"
+msgstr "属性"
+
+#: ../../docs/classes/class_environment.rst:48
+#: ../../docs/classes/class_environment.rst:52
+#: ../../docs/classes/class_environment.rst:56
+#: ../../docs/classes/class_environment.rst:60
+#: ../../docs/classes/class_environment.rst:62
+#: ../../docs/classes/class_environment.rst:66
+#: ../../docs/classes/class_environment.rst:68
+#: ../../docs/classes/class_environment.rst:70
+#: ../../docs/classes/class_environment.rst:72
+#: ../../docs/classes/class_environment.rst:80
+#: ../../docs/classes/class_environment.rst:86
+#: ../../docs/classes/class_environment.rst:94
+#: ../../docs/classes/class_environment.rst:96
+#: ../../docs/classes/class_environment.rst:102
+#: ../../docs/classes/class_environment.rst:104
+#: ../../docs/classes/class_environment.rst:106
+#: ../../docs/classes/class_environment.rst:112
+#: ../../docs/classes/class_environment.rst:116
+#: ../../docs/classes/class_environment.rst:118
+#: ../../docs/classes/class_environment.rst:122
+#: ../../docs/classes/class_environment.rst:126
+#: ../../docs/classes/class_environment.rst:130
+#: ../../docs/classes/class_environment.rst:132
+#: ../../docs/classes/class_environment.rst:134
+#: ../../docs/classes/class_environment.rst:138
+#: ../../docs/classes/class_environment.rst:146
+#: ../../docs/classes/class_environment.rst:150
+#: ../../docs/classes/class_environment.rst:152
+#: ../../docs/classes/class_environment.rst:154
+#: ../../docs/classes/class_environment.rst:156
+#: ../../docs/classes/class_environment.rst:172
+#: ../../docs/classes/class_environment.rst:174
+#: ../../docs/classes/class_environment.rst:178
+#: ../../docs/classes/class_environment.rst:180
+#: ../../docs/classes/class_environment.rst:186
+#: ../../docs/classes/class_environment.rst:188
+#: ../../docs/classes/class_environment.rst:194
+#: ../../docs/classes/class_environment.rst:198
+#: ../../docs/classes/class_environment.rst:200
+#: ../../docs/classes/class_environment.rst:202
+#: ../../docs/classes/class_environment.rst:206
+#: ../../docs/classes/class_environment.rst:208
+#: ../../docs/classes/class_environment.rst:210
+#: ../../docs/classes/class_environment.rst:214
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:48
+msgid ""
+":ref:"
+"`adjustment_brightness<class_Environment_property_adjustment_brightness>`"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:48
+#: ../../docs/classes/class_environment.rst:52
+#: ../../docs/classes/class_environment.rst:56
+#: ../../docs/classes/class_environment.rst:60
+#: ../../docs/classes/class_environment.rst:62
+#: ../../docs/classes/class_environment.rst:80
+#: ../../docs/classes/class_environment.rst:112
+#: ../../docs/classes/class_environment.rst:118
+#: ../../docs/classes/class_environment.rst:126
+#: ../../docs/classes/class_environment.rst:138
+#: ../../docs/classes/class_environment.rst:154
+#: ../../docs/classes/class_environment.rst:172
+#: ../../docs/classes/class_environment.rst:198
+#: ../../docs/classes/class_environment.rst:200
+#: ../../docs/classes/class_environment.rst:206
+#: ../../docs/classes/class_environment.rst:210
+#: ../../docs/classes/class_environment.rst:214
+#: ../../docs/classes/class_environment.rst:375
+#: ../../docs/classes/class_environment.rst:405
+#: ../../docs/classes/class_environment.rst:437
+#: ../../docs/classes/class_environment.rst:469
+#: ../../docs/classes/class_environment.rst:485
+#: ../../docs/classes/class_environment.rst:629
+#: ../../docs/classes/class_environment.rst:883
+#: ../../docs/classes/class_environment.rst:931
+#: ../../docs/classes/class_environment.rst:995
+#: ../../docs/classes/class_environment.rst:1091
+#: ../../docs/classes/class_environment.rst:1221
+#: ../../docs/classes/class_environment.rst:1365
+#: ../../docs/classes/class_environment.rst:1573
+#: ../../docs/classes/class_environment.rst:1589
+#: ../../docs/classes/class_environment.rst:1637
+#: ../../docs/classes/class_environment.rst:1669
+#: ../../docs/classes/class_environment.rst:1701
+msgid "``1.0``"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:50
+msgid ":ref:`Texture<class_Texture>`"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:50
+msgid ""
+":ref:"
+"`adjustment_color_correction<class_Environment_property_adjustment_color_correction>`"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:52
+msgid ""
+":ref:`adjustment_contrast<class_Environment_property_adjustment_contrast>`"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:54
+#: ../../docs/classes/class_environment.rst:64
+#: ../../docs/classes/class_environment.rst:98
+#: ../../docs/classes/class_environment.rst:108
+#: ../../docs/classes/class_environment.rst:120
+#: ../../docs/classes/class_environment.rst:124
+#: ../../docs/classes/class_environment.rst:128
+#: ../../docs/classes/class_environment.rst:140
+#: ../../docs/classes/class_environment.rst:142
+#: ../../docs/classes/class_environment.rst:148
+#: ../../docs/classes/class_environment.rst:158
+#: ../../docs/classes/class_environment.rst:160
+#: ../../docs/classes/class_environment.rst:162
+#: ../../docs/classes/class_environment.rst:164
+#: ../../docs/classes/class_environment.rst:166
+#: ../../docs/classes/class_environment.rst:168
+#: ../../docs/classes/class_environment.rst:170
+#: ../../docs/classes/class_environment.rst:176
+#: ../../docs/classes/class_environment.rst:184
+#: ../../docs/classes/class_environment.rst:196
+#: ../../docs/classes/class_environment.rst:221
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:54
+msgid ""
+":ref:`adjustment_enabled<class_Environment_property_adjustment_enabled>`"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:54
+#: ../../docs/classes/class_environment.rst:64
+#: ../../docs/classes/class_environment.rst:98
+#: ../../docs/classes/class_environment.rst:108
+#: ../../docs/classes/class_environment.rst:124
+#: ../../docs/classes/class_environment.rst:128
+#: ../../docs/classes/class_environment.rst:140
+#: ../../docs/classes/class_environment.rst:142
+#: ../../docs/classes/class_environment.rst:148
+#: ../../docs/classes/class_environment.rst:158
+#: ../../docs/classes/class_environment.rst:160
+#: ../../docs/classes/class_environment.rst:164
+#: ../../docs/classes/class_environment.rst:168
+#: ../../docs/classes/class_environment.rst:170
+#: ../../docs/classes/class_environment.rst:176
+#: ../../docs/classes/class_environment.rst:196
+#: ../../docs/classes/class_environment.rst:421
+#: ../../docs/classes/class_environment.rst:501
+#: ../../docs/classes/class_environment.rst:771
+#: ../../docs/classes/class_environment.rst:851
+#: ../../docs/classes/class_environment.rst:979
+#: ../../docs/classes/class_environment.rst:1011
+#: ../../docs/classes/class_environment.rst:1107
+#: ../../docs/classes/class_environment.rst:1123
+#: ../../docs/classes/class_environment.rst:1173
+#: ../../docs/classes/class_environment.rst:1253
+#: ../../docs/classes/class_environment.rst:1269
+#: ../../docs/classes/class_environment.rst:1301
+#: ../../docs/classes/class_environment.rst:1333
+#: ../../docs/classes/class_environment.rst:1349
+#: ../../docs/classes/class_environment.rst:1397
+#: ../../docs/classes/class_environment.rst:1557
+msgid "``false``"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:56
+msgid ""
+":ref:"
+"`adjustment_saturation<class_Environment_property_adjustment_saturation>`"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:58
+#: ../../docs/classes/class_environment.rst:78
+#: ../../docs/classes/class_environment.rst:114
+#: ../../docs/classes/class_environment.rst:136
+#: ../../docs/classes/class_environment.rst:192
+msgid ":ref:`Color<class_Color>`"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:58
+msgid ""
+":ref:`ambient_light_color<class_Environment_property_ambient_light_color>`"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:58
+#: ../../docs/classes/class_environment.rst:78
+#: ../../docs/classes/class_environment.rst:192
+#: ../../docs/classes/class_environment.rst:453
+#: ../../docs/classes/class_environment.rst:613
+#: ../../docs/classes/class_environment.rst:1525
+msgid "``Color( 0, 0, 0, 1 )``"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:60
+msgid ""
+":ref:`ambient_light_energy<class_Environment_property_ambient_light_energy>`"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:62
+msgid ""
+":ref:"
+"`ambient_light_sky_contribution<class_Environment_property_ambient_light_sky_contribution>`"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:64
+msgid ""
+":ref:"
+"`auto_exposure_enabled<class_Environment_property_auto_exposure_enabled>`"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:66
+msgid ""
+":ref:"
+"`auto_exposure_max_luma<class_Environment_property_auto_exposure_max_luma>`"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:66
+#: ../../docs/classes/class_environment.rst:517
+msgid "``8.0``"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:68
+msgid ""
+":ref:"
+"`auto_exposure_min_luma<class_Environment_property_auto_exposure_min_luma>`"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:68
+#: ../../docs/classes/class_environment.rst:533
+msgid "``0.05``"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:70
+msgid ""
+":ref:`auto_exposure_scale<class_Environment_property_auto_exposure_scale>`"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:70
+#: ../../docs/classes/class_environment.rst:549
+msgid "``0.4``"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:72
+msgid ""
+":ref:`auto_exposure_speed<class_Environment_property_auto_exposure_speed>`"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:72
+#: ../../docs/classes/class_environment.rst:565
+msgid "``0.5``"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:74
+#: ../../docs/classes/class_environment.rst:76
+#: ../../docs/classes/class_environment.rst:182
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:74
+msgid ""
+":ref:"
+"`background_camera_feed_id<class_Environment_property_background_camera_feed_id>`"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:74
+#: ../../docs/classes/class_environment.rst:100
+#: ../../docs/classes/class_environment.rst:110
+#: ../../docs/classes/class_environment.rst:204
+#: ../../docs/classes/class_environment.rst:581
+#: ../../docs/classes/class_environment.rst:787
+#: ../../docs/classes/class_environment.rst:867
+#: ../../docs/classes/class_environment.rst:1621
+msgid "``1``"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:76
+msgid ""
+":ref:"
+"`background_canvas_max_layer<class_Environment_property_background_canvas_max_layer>`"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:76
+#: ../../docs/classes/class_environment.rst:82
+#: ../../docs/classes/class_environment.rst:212
+#: ../../docs/classes/class_environment.rst:597
+#: ../../docs/classes/class_environment.rst:645
+#: ../../docs/classes/class_environment.rst:1685
+msgid "``0``"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:78
+msgid ":ref:`background_color<class_Environment_property_background_color>`"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:80
+msgid ":ref:`background_energy<class_Environment_property_background_energy>`"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:82
+msgid ":ref:`BGMode<enum_Environment_BGMode>`"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:82
+msgid ":ref:`background_mode<class_Environment_property_background_mode>`"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:84
+msgid ":ref:`Sky<class_Sky>`"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:84
+msgid ":ref:`background_sky<class_Environment_property_background_sky>`"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:86
+msgid ""
+":ref:"
+"`background_sky_custom_fov<class_Environment_property_background_sky_custom_fov>`"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:86
+#: ../../docs/classes/class_environment.rst:130
+#: ../../docs/classes/class_environment.rst:134
+#: ../../docs/classes/class_environment.rst:146
+#: ../../docs/classes/class_environment.rst:186
+#: ../../docs/classes/class_environment.rst:202
+#: ../../docs/classes/class_environment.rst:208
+#: ../../docs/classes/class_environment.rst:675
+#: ../../docs/classes/class_environment.rst:1027
+#: ../../docs/classes/class_environment.rst:1059
+#: ../../docs/classes/class_environment.rst:1157
+#: ../../docs/classes/class_environment.rst:1477
+#: ../../docs/classes/class_environment.rst:1605
+#: ../../docs/classes/class_environment.rst:1653
+msgid "``0.0``"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:88
+msgid ":ref:`Basis<class_Basis>`"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:88
+msgid ""
+":ref:"
+"`background_sky_orientation<class_Environment_property_background_sky_orientation>`"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:88
+#: ../../docs/classes/class_environment.rst:691
+msgid "``Basis( 1, 0, 0, 0, 1, 0, 0, 0, 1 )``"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:90
+#: ../../docs/classes/class_environment.rst:92
+msgid ":ref:`Vector3<class_Vector3>`"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:90
+msgid ""
+":ref:"
+"`background_sky_rotation<class_Environment_property_background_sky_rotation>`"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:90
+#: ../../docs/classes/class_environment.rst:92
+#: ../../docs/classes/class_environment.rst:707
+#: ../../docs/classes/class_environment.rst:723
+msgid "``Vector3( 0, 0, 0 )``"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:92
+msgid ""
+":ref:"
+"`background_sky_rotation_degrees<class_Environment_property_background_sky_rotation_degrees>`"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:94
+msgid ""
+":ref:`dof_blur_far_amount<class_Environment_property_dof_blur_far_amount>`"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:94
+#: ../../docs/classes/class_environment.rst:104
+#: ../../docs/classes/class_environment.rst:739
+#: ../../docs/classes/class_environment.rst:819
+msgid "``0.1``"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:96
+msgid ""
+":ref:"
+"`dof_blur_far_distance<class_Environment_property_dof_blur_far_distance>`"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:96
+#: ../../docs/classes/class_environment.rst:116
+#: ../../docs/classes/class_environment.rst:132
+#: ../../docs/classes/class_environment.rst:755
+#: ../../docs/classes/class_environment.rst:915
+#: ../../docs/classes/class_environment.rst:1043
+msgid "``10.0``"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:98
+msgid ""
+":ref:`dof_blur_far_enabled<class_Environment_property_dof_blur_far_enabled>`"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:100
+#: ../../docs/classes/class_environment.rst:110
+msgid ":ref:`DOFBlurQuality<enum_Environment_DOFBlurQuality>`"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:100
+msgid ""
+":ref:`dof_blur_far_quality<class_Environment_property_dof_blur_far_quality>`"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:102
+msgid ""
+":ref:"
+"`dof_blur_far_transition<class_Environment_property_dof_blur_far_transition>`"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:102
+#: ../../docs/classes/class_environment.rst:803
+msgid "``5.0``"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:104
+msgid ""
+":ref:`dof_blur_near_amount<class_Environment_property_dof_blur_near_amount>`"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:106
+msgid ""
+":ref:"
+"`dof_blur_near_distance<class_Environment_property_dof_blur_near_distance>`"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:106
+#: ../../docs/classes/class_environment.rst:152
+#: ../../docs/classes/class_environment.rst:180
+#: ../../docs/classes/class_environment.rst:835
+#: ../../docs/classes/class_environment.rst:1205
+#: ../../docs/classes/class_environment.rst:1429
+msgid "``2.0``"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:108
+msgid ""
+":ref:"
+"`dof_blur_near_enabled<class_Environment_property_dof_blur_near_enabled>`"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:110
+msgid ""
+":ref:"
+"`dof_blur_near_quality<class_Environment_property_dof_blur_near_quality>`"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:112
+msgid ""
+":ref:"
+"`dof_blur_near_transition<class_Environment_property_dof_blur_near_transition>`"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:114
+msgid ":ref:`fog_color<class_Environment_property_fog_color>`"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:114
+#: ../../docs/classes/class_environment.rst:899
+msgid "``Color( 0.5, 0.6, 0.7, 1 )``"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:116
+msgid ":ref:`fog_depth_begin<class_Environment_property_fog_depth_begin>`"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:118
+msgid ":ref:`fog_depth_curve<class_Environment_property_fog_depth_curve>`"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:120
+msgid ":ref:`fog_depth_enabled<class_Environment_property_fog_depth_enabled>`"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:120
+#: ../../docs/classes/class_environment.rst:162
+#: ../../docs/classes/class_environment.rst:166
+#: ../../docs/classes/class_environment.rst:184
+#: ../../docs/classes/class_environment.rst:947
+#: ../../docs/classes/class_environment.rst:1285
+#: ../../docs/classes/class_environment.rst:1317
+#: ../../docs/classes/class_environment.rst:1461
+msgid "``true``"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:122
+msgid ":ref:`fog_depth_end<class_Environment_property_fog_depth_end>`"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:122
+#: ../../docs/classes/class_environment.rst:963
+msgid "``100.0``"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:124
+msgid ":ref:`fog_enabled<class_Environment_property_fog_enabled>`"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:126
+msgid ":ref:`fog_height_curve<class_Environment_property_fog_height_curve>`"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:128
+msgid ""
+":ref:`fog_height_enabled<class_Environment_property_fog_height_enabled>`"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:130
+msgid ":ref:`fog_height_max<class_Environment_property_fog_height_max>`"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:132
+msgid ":ref:`fog_height_min<class_Environment_property_fog_height_min>`"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:134
+msgid ":ref:`fog_sun_amount<class_Environment_property_fog_sun_amount>`"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:136
+msgid ":ref:`fog_sun_color<class_Environment_property_fog_sun_color>`"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:136
+#: ../../docs/classes/class_environment.rst:1075
+msgid "``Color( 1, 0.9, 0.7, 1 )``"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:138
+msgid ""
+":ref:`fog_transmit_curve<class_Environment_property_fog_transmit_curve>`"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:140
+msgid ""
+":ref:`fog_transmit_enabled<class_Environment_property_fog_transmit_enabled>`"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:142
+msgid ""
+":ref:`glow_bicubic_upscale<class_Environment_property_glow_bicubic_upscale>`"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:144
+msgid ":ref:`GlowBlendMode<enum_Environment_GlowBlendMode>`"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:144
+msgid ":ref:`glow_blend_mode<class_Environment_property_glow_blend_mode>`"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:144
+#: ../../docs/classes/class_environment.rst:1141
+msgid "``2``"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:146
+msgid ":ref:`glow_bloom<class_Environment_property_glow_bloom>`"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:148
+msgid ":ref:`glow_enabled<class_Environment_property_glow_enabled>`"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:150
+msgid ""
+":ref:"
+"`glow_hdr_luminance_cap<class_Environment_property_glow_hdr_luminance_cap>`"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:150
+#: ../../docs/classes/class_environment.rst:1189
+msgid "``12.0``"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:152
+msgid ":ref:`glow_hdr_scale<class_Environment_property_glow_hdr_scale>`"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:154
+msgid ""
+":ref:`glow_hdr_threshold<class_Environment_property_glow_hdr_threshold>`"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:156
+msgid ":ref:`glow_intensity<class_Environment_property_glow_intensity>`"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:156
+#: ../../docs/classes/class_environment.rst:1237
+msgid "``0.8``"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:158
+msgid ":ref:`glow_levels/1<class_Environment_property_glow_levels/1>`"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:160
+msgid ":ref:`glow_levels/2<class_Environment_property_glow_levels/2>`"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:162
+msgid ":ref:`glow_levels/3<class_Environment_property_glow_levels/3>`"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:164
+msgid ":ref:`glow_levels/4<class_Environment_property_glow_levels/4>`"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:166
+msgid ":ref:`glow_levels/5<class_Environment_property_glow_levels/5>`"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:168
+msgid ":ref:`glow_levels/6<class_Environment_property_glow_levels/6>`"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:170
+msgid ":ref:`glow_levels/7<class_Environment_property_glow_levels/7>`"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:172
+msgid ":ref:`glow_strength<class_Environment_property_glow_strength>`"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:174
+msgid ""
+":ref:"
+"`ss_reflections_depth_tolerance<class_Environment_property_ss_reflections_depth_tolerance>`"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:174
+#: ../../docs/classes/class_environment.rst:1381
+msgid "``0.2``"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:176
+msgid ""
+":ref:"
+"`ss_reflections_enabled<class_Environment_property_ss_reflections_enabled>`"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:178
+msgid ""
+":ref:"
+"`ss_reflections_fade_in<class_Environment_property_ss_reflections_fade_in>`"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:178
+#: ../../docs/classes/class_environment.rst:1413
+msgid "``0.15``"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:180
+msgid ""
+":ref:"
+"`ss_reflections_fade_out<class_Environment_property_ss_reflections_fade_out>`"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:182
+msgid ""
+":ref:"
+"`ss_reflections_max_steps<class_Environment_property_ss_reflections_max_steps>`"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:182
+#: ../../docs/classes/class_environment.rst:1445
+msgid "``64``"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:184
+msgid ""
+":ref:"
+"`ss_reflections_roughness<class_Environment_property_ss_reflections_roughness>`"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:186
+msgid ""
+":ref:"
+"`ssao_ao_channel_affect<class_Environment_property_ssao_ao_channel_affect>`"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:188
+msgid ":ref:`ssao_bias<class_Environment_property_ssao_bias>`"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:188
+#: ../../docs/classes/class_environment.rst:1493
+msgid "``0.01``"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:190
+msgid ":ref:`SSAOBlur<enum_Environment_SSAOBlur>`"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:190
+msgid ":ref:`ssao_blur<class_Environment_property_ssao_blur>`"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:190
+#: ../../docs/classes/class_environment.rst:1509
+msgid "``3``"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:192
+msgid ":ref:`ssao_color<class_Environment_property_ssao_color>`"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:194
+msgid ""
+":ref:`ssao_edge_sharpness<class_Environment_property_ssao_edge_sharpness>`"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:194
+#: ../../docs/classes/class_environment.rst:1541
+msgid "``4.0``"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:196
+msgid ":ref:`ssao_enabled<class_Environment_property_ssao_enabled>`"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:198
+msgid ":ref:`ssao_intensity<class_Environment_property_ssao_intensity>`"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:200
+msgid ":ref:`ssao_intensity2<class_Environment_property_ssao_intensity2>`"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:202
+msgid ":ref:`ssao_light_affect<class_Environment_property_ssao_light_affect>`"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:204
+msgid ":ref:`SSAOQuality<enum_Environment_SSAOQuality>`"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:204
+msgid ":ref:`ssao_quality<class_Environment_property_ssao_quality>`"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:206
+msgid ":ref:`ssao_radius<class_Environment_property_ssao_radius>`"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:208
+msgid ":ref:`ssao_radius2<class_Environment_property_ssao_radius2>`"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:210
+msgid ":ref:`tonemap_exposure<class_Environment_property_tonemap_exposure>`"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:212
+msgid ":ref:`ToneMapper<enum_Environment_ToneMapper>`"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:212
+msgid ":ref:`tonemap_mode<class_Environment_property_tonemap_mode>`"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:214
+msgid ":ref:`tonemap_white<class_Environment_property_tonemap_white>`"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:218
+msgid "Methods"
+msgstr "方法"
+
+#: ../../docs/classes/class_environment.rst:221
+msgid ""
+":ref:`is_glow_level_enabled<class_Environment_method_is_glow_level_enabled>` "
+"**(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:223
+msgid "void"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:223
+msgid ""
+":ref:`set_glow_level<class_Environment_method_set_glow_level>` **(** :ref:"
+"`int<class_int>` idx, :ref:`bool<class_bool>` enabled **)**"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:227
+msgid "Enumerations"
+msgstr "枚举"
+
+#: ../../docs/classes/class_environment.rst:247
+msgid "enum **BGMode**:"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:249
+msgid ""
+"**BG_KEEP** = **5** --- Keeps on screen every pixel drawn in the background. "
+"This is the fastest background mode, but it can only be safely used in fully-"
+"interior scenes (no visible sky or sky reflections). If enabled in a scene "
+"where the background is visible, \"ghost trail\" artifacts will be visible "
+"when moving the camera."
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:251
+msgid ""
+"**BG_CLEAR_COLOR** = **0** --- Clears the background using the clear color "
+"defined in :ref:`ProjectSettings.rendering/environment/"
+"default_clear_color<class_ProjectSettings_property_rendering/environment/"
+"default_clear_color>`."
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:253
+msgid ""
+"**BG_COLOR** = **1** --- Clears the background using a custom clear color."
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:255
+msgid "**BG_SKY** = **2** --- Displays a user-defined sky in the background."
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:257
+msgid ""
+"**BG_COLOR_SKY** = **3** --- Clears the background using a custom clear "
+"color and allows defining a sky for shading and reflection. This mode is "
+"slightly faster than :ref:`BG_SKY<class_Environment_constant_BG_SKY>` and "
+"should be preferred in scenes where reflections can be visible, but the sky "
+"itself never is (e.g. top-down camera)."
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:259
+msgid ""
+"**BG_CANVAS** = **4** --- Displays a :ref:`CanvasLayer<class_CanvasLayer>` "
+"in the background."
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:261
+msgid ""
+"**BG_CAMERA_FEED** = **6** --- Displays a camera feed in the background."
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:263
+msgid ""
+"**BG_MAX** = **7** --- Represents the size of the :ref:"
+"`BGMode<enum_Environment_BGMode>` enum."
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:277
+msgid "enum **GlowBlendMode**:"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:279
+msgid ""
+"**GLOW_BLEND_MODE_ADDITIVE** = **0** --- Additive glow blending mode. Mostly "
+"used for particles, glows (bloom), lens flare, bright sources."
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:281
+msgid ""
+"**GLOW_BLEND_MODE_SCREEN** = **1** --- Screen glow blending mode. Increases "
+"brightness, used frequently with bloom."
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:283
+msgid ""
+"**GLOW_BLEND_MODE_SOFTLIGHT** = **2** --- Soft light glow blending mode. "
+"Modifies contrast, exposes shadows and highlights (vivid bloom)."
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:285
+msgid ""
+"**GLOW_BLEND_MODE_REPLACE** = **3** --- Replace glow blending mode. Replaces "
+"all pixels' color by the glow value. This can be used to simulate a full-"
+"screen blur effect by tweaking the glow parameters to match the original "
+"image's brightness."
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:299
+msgid "enum **ToneMapper**:"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:301
+msgid ""
+"**TONE_MAPPER_LINEAR** = **0** --- Linear tonemapper operator. Reads the "
+"linear data and passes it on unmodified."
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:303
+msgid ""
+"**TONE_MAPPER_REINHARDT** = **1** --- Reinhardt tonemapper operator. "
+"Performs a variation on rendered pixels' colors by this formula: ``color = "
+"color / (1 + color)``."
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:305
+msgid "**TONE_MAPPER_FILMIC** = **2** --- Filmic tonemapper operator."
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:307
+msgid ""
+"**TONE_MAPPER_ACES** = **3** --- Academy Color Encoding System tonemapper "
+"operator."
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:319
+msgid "enum **DOFBlurQuality**:"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:321
+msgid ""
+"**DOF_BLUR_QUALITY_LOW** = **0** --- Low depth-of-field blur quality "
+"(fastest)."
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:323
+msgid ""
+"**DOF_BLUR_QUALITY_MEDIUM** = **1** --- Medium depth-of-field blur quality."
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:325
+msgid ""
+"**DOF_BLUR_QUALITY_HIGH** = **2** --- High depth-of-field blur quality "
+"(slowest)."
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:339
+msgid "enum **SSAOBlur**:"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:341
+msgid ""
+"**SSAO_BLUR_DISABLED** = **0** --- No blur for the screen-space ambient "
+"occlusion effect (fastest)."
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:343
+msgid ""
+"**SSAO_BLUR_1x1** = **1** --- 1×1 blur for the screen-space ambient "
+"occlusion effect."
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:345
+msgid ""
+"**SSAO_BLUR_2x2** = **2** --- 2×2 blur for the screen-space ambient "
+"occlusion effect."
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:347
+msgid ""
+"**SSAO_BLUR_3x3** = **3** --- 3×3 blur for the screen-space ambient "
+"occlusion effect (slowest)."
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:359
+msgid "enum **SSAOQuality**:"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:361
+msgid ""
+"**SSAO_QUALITY_LOW** = **0** --- Low quality for the screen-space ambient "
+"occlusion effect (fastest)."
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:363
+msgid ""
+"**SSAO_QUALITY_MEDIUM** = **1** --- Low quality for the screen-space ambient "
+"occlusion effect."
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:365
+msgid ""
+"**SSAO_QUALITY_HIGH** = **2** --- Low quality for the screen-space ambient "
+"occlusion effect (slowest)."
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:368
+msgid "Property Descriptions"
+msgstr "属性说明"
+
+#: ../../docs/classes/class_environment.rst:372
+msgid ":ref:`float<class_float>` **adjustment_brightness**"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:375
+#: ../../docs/classes/class_environment.rst:405
+#: ../../docs/classes/class_environment.rst:421
+#: ../../docs/classes/class_environment.rst:437
+#: ../../docs/classes/class_environment.rst:453
+#: ../../docs/classes/class_environment.rst:469
+#: ../../docs/classes/class_environment.rst:485
+#: ../../docs/classes/class_environment.rst:501
+#: ../../docs/classes/class_environment.rst:517
+#: ../../docs/classes/class_environment.rst:533
+#: ../../docs/classes/class_environment.rst:549
+#: ../../docs/classes/class_environment.rst:565
+#: ../../docs/classes/class_environment.rst:581
+#: ../../docs/classes/class_environment.rst:597
+#: ../../docs/classes/class_environment.rst:613
+#: ../../docs/classes/class_environment.rst:629
+#: ../../docs/classes/class_environment.rst:645
+#: ../../docs/classes/class_environment.rst:675
+#: ../../docs/classes/class_environment.rst:691
+#: ../../docs/classes/class_environment.rst:707
+#: ../../docs/classes/class_environment.rst:723
+#: ../../docs/classes/class_environment.rst:739
+#: ../../docs/classes/class_environment.rst:755
+#: ../../docs/classes/class_environment.rst:771
+#: ../../docs/classes/class_environment.rst:787
+#: ../../docs/classes/class_environment.rst:803
+#: ../../docs/classes/class_environment.rst:819
+#: ../../docs/classes/class_environment.rst:835
+#: ../../docs/classes/class_environment.rst:851
+#: ../../docs/classes/class_environment.rst:867
+#: ../../docs/classes/class_environment.rst:883
+#: ../../docs/classes/class_environment.rst:899
+#: ../../docs/classes/class_environment.rst:915
+#: ../../docs/classes/class_environment.rst:931
+#: ../../docs/classes/class_environment.rst:947
+#: ../../docs/classes/class_environment.rst:963
+#: ../../docs/classes/class_environment.rst:979
+#: ../../docs/classes/class_environment.rst:995
+#: ../../docs/classes/class_environment.rst:1011
+#: ../../docs/classes/class_environment.rst:1027
+#: ../../docs/classes/class_environment.rst:1043
+#: ../../docs/classes/class_environment.rst:1059
+#: ../../docs/classes/class_environment.rst:1075
+#: ../../docs/classes/class_environment.rst:1091
+#: ../../docs/classes/class_environment.rst:1107
+#: ../../docs/classes/class_environment.rst:1123
+#: ../../docs/classes/class_environment.rst:1141
+#: ../../docs/classes/class_environment.rst:1157
+#: ../../docs/classes/class_environment.rst:1173
+#: ../../docs/classes/class_environment.rst:1189
+#: ../../docs/classes/class_environment.rst:1205
+#: ../../docs/classes/class_environment.rst:1221
+#: ../../docs/classes/class_environment.rst:1237
+#: ../../docs/classes/class_environment.rst:1253
+#: ../../docs/classes/class_environment.rst:1269
+#: ../../docs/classes/class_environment.rst:1285
+#: ../../docs/classes/class_environment.rst:1301
+#: ../../docs/classes/class_environment.rst:1317
+#: ../../docs/classes/class_environment.rst:1333
+#: ../../docs/classes/class_environment.rst:1349
+#: ../../docs/classes/class_environment.rst:1365
+#: ../../docs/classes/class_environment.rst:1381
+#: ../../docs/classes/class_environment.rst:1397
+#: ../../docs/classes/class_environment.rst:1413
+#: ../../docs/classes/class_environment.rst:1429
+#: ../../docs/classes/class_environment.rst:1445
+#: ../../docs/classes/class_environment.rst:1461
+#: ../../docs/classes/class_environment.rst:1477
+#: ../../docs/classes/class_environment.rst:1493
+#: ../../docs/classes/class_environment.rst:1509
+#: ../../docs/classes/class_environment.rst:1525
+#: ../../docs/classes/class_environment.rst:1541
+#: ../../docs/classes/class_environment.rst:1557
+#: ../../docs/classes/class_environment.rst:1573
+#: ../../docs/classes/class_environment.rst:1589
+#: ../../docs/classes/class_environment.rst:1605
+#: ../../docs/classes/class_environment.rst:1621
+#: ../../docs/classes/class_environment.rst:1637
+#: ../../docs/classes/class_environment.rst:1653
+#: ../../docs/classes/class_environment.rst:1669
+#: ../../docs/classes/class_environment.rst:1685
+#: ../../docs/classes/class_environment.rst:1701
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:377
+#: ../../docs/classes/class_environment.rst:391
+#: ../../docs/classes/class_environment.rst:407
+#: ../../docs/classes/class_environment.rst:423
+#: ../../docs/classes/class_environment.rst:439
+#: ../../docs/classes/class_environment.rst:455
+#: ../../docs/classes/class_environment.rst:471
+#: ../../docs/classes/class_environment.rst:487
+#: ../../docs/classes/class_environment.rst:503
+#: ../../docs/classes/class_environment.rst:519
+#: ../../docs/classes/class_environment.rst:535
+#: ../../docs/classes/class_environment.rst:551
+#: ../../docs/classes/class_environment.rst:567
+#: ../../docs/classes/class_environment.rst:583
+#: ../../docs/classes/class_environment.rst:599
+#: ../../docs/classes/class_environment.rst:615
+#: ../../docs/classes/class_environment.rst:631
+#: ../../docs/classes/class_environment.rst:647
+#: ../../docs/classes/class_environment.rst:661
+#: ../../docs/classes/class_environment.rst:677
+#: ../../docs/classes/class_environment.rst:693
+#: ../../docs/classes/class_environment.rst:709
+#: ../../docs/classes/class_environment.rst:725
+#: ../../docs/classes/class_environment.rst:741
+#: ../../docs/classes/class_environment.rst:757
+#: ../../docs/classes/class_environment.rst:773
+#: ../../docs/classes/class_environment.rst:789
+#: ../../docs/classes/class_environment.rst:805
+#: ../../docs/classes/class_environment.rst:821
+#: ../../docs/classes/class_environment.rst:837
+#: ../../docs/classes/class_environment.rst:853
+#: ../../docs/classes/class_environment.rst:869
+#: ../../docs/classes/class_environment.rst:885
+#: ../../docs/classes/class_environment.rst:901
+#: ../../docs/classes/class_environment.rst:917
+#: ../../docs/classes/class_environment.rst:933
+#: ../../docs/classes/class_environment.rst:949
+#: ../../docs/classes/class_environment.rst:965
+#: ../../docs/classes/class_environment.rst:981
+#: ../../docs/classes/class_environment.rst:997
+#: ../../docs/classes/class_environment.rst:1013
+#: ../../docs/classes/class_environment.rst:1029
+#: ../../docs/classes/class_environment.rst:1045
+#: ../../docs/classes/class_environment.rst:1061
+#: ../../docs/classes/class_environment.rst:1077
+#: ../../docs/classes/class_environment.rst:1093
+#: ../../docs/classes/class_environment.rst:1109
+#: ../../docs/classes/class_environment.rst:1125
+#: ../../docs/classes/class_environment.rst:1143
+#: ../../docs/classes/class_environment.rst:1159
+#: ../../docs/classes/class_environment.rst:1175
+#: ../../docs/classes/class_environment.rst:1191
+#: ../../docs/classes/class_environment.rst:1207
+#: ../../docs/classes/class_environment.rst:1223
+#: ../../docs/classes/class_environment.rst:1239
+#: ../../docs/classes/class_environment.rst:1255
+#: ../../docs/classes/class_environment.rst:1271
+#: ../../docs/classes/class_environment.rst:1287
+#: ../../docs/classes/class_environment.rst:1303
+#: ../../docs/classes/class_environment.rst:1319
+#: ../../docs/classes/class_environment.rst:1335
+#: ../../docs/classes/class_environment.rst:1351
+#: ../../docs/classes/class_environment.rst:1367
+#: ../../docs/classes/class_environment.rst:1383
+#: ../../docs/classes/class_environment.rst:1399
+#: ../../docs/classes/class_environment.rst:1415
+#: ../../docs/classes/class_environment.rst:1431
+#: ../../docs/classes/class_environment.rst:1447
+#: ../../docs/classes/class_environment.rst:1463
+#: ../../docs/classes/class_environment.rst:1479
+#: ../../docs/classes/class_environment.rst:1495
+#: ../../docs/classes/class_environment.rst:1511
+#: ../../docs/classes/class_environment.rst:1527
+#: ../../docs/classes/class_environment.rst:1543
+#: ../../docs/classes/class_environment.rst:1559
+#: ../../docs/classes/class_environment.rst:1575
+#: ../../docs/classes/class_environment.rst:1591
+#: ../../docs/classes/class_environment.rst:1607
+#: ../../docs/classes/class_environment.rst:1623
+#: ../../docs/classes/class_environment.rst:1639
+#: ../../docs/classes/class_environment.rst:1655
+#: ../../docs/classes/class_environment.rst:1671
+#: ../../docs/classes/class_environment.rst:1687
+#: ../../docs/classes/class_environment.rst:1703
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:377
+msgid "set_adjustment_brightness(value)"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:379
+#: ../../docs/classes/class_environment.rst:393
+#: ../../docs/classes/class_environment.rst:409
+#: ../../docs/classes/class_environment.rst:425
+#: ../../docs/classes/class_environment.rst:441
+#: ../../docs/classes/class_environment.rst:457
+#: ../../docs/classes/class_environment.rst:473
+#: ../../docs/classes/class_environment.rst:489
+#: ../../docs/classes/class_environment.rst:505
+#: ../../docs/classes/class_environment.rst:521
+#: ../../docs/classes/class_environment.rst:537
+#: ../../docs/classes/class_environment.rst:553
+#: ../../docs/classes/class_environment.rst:569
+#: ../../docs/classes/class_environment.rst:585
+#: ../../docs/classes/class_environment.rst:601
+#: ../../docs/classes/class_environment.rst:617
+#: ../../docs/classes/class_environment.rst:633
+#: ../../docs/classes/class_environment.rst:649
+#: ../../docs/classes/class_environment.rst:663
+#: ../../docs/classes/class_environment.rst:679
+#: ../../docs/classes/class_environment.rst:695
+#: ../../docs/classes/class_environment.rst:711
+#: ../../docs/classes/class_environment.rst:727
+#: ../../docs/classes/class_environment.rst:743
+#: ../../docs/classes/class_environment.rst:759
+#: ../../docs/classes/class_environment.rst:775
+#: ../../docs/classes/class_environment.rst:791
+#: ../../docs/classes/class_environment.rst:807
+#: ../../docs/classes/class_environment.rst:823
+#: ../../docs/classes/class_environment.rst:839
+#: ../../docs/classes/class_environment.rst:855
+#: ../../docs/classes/class_environment.rst:871
+#: ../../docs/classes/class_environment.rst:887
+#: ../../docs/classes/class_environment.rst:903
+#: ../../docs/classes/class_environment.rst:919
+#: ../../docs/classes/class_environment.rst:935
+#: ../../docs/classes/class_environment.rst:951
+#: ../../docs/classes/class_environment.rst:967
+#: ../../docs/classes/class_environment.rst:983
+#: ../../docs/classes/class_environment.rst:999
+#: ../../docs/classes/class_environment.rst:1015
+#: ../../docs/classes/class_environment.rst:1031
+#: ../../docs/classes/class_environment.rst:1047
+#: ../../docs/classes/class_environment.rst:1063
+#: ../../docs/classes/class_environment.rst:1079
+#: ../../docs/classes/class_environment.rst:1095
+#: ../../docs/classes/class_environment.rst:1111
+#: ../../docs/classes/class_environment.rst:1127
+#: ../../docs/classes/class_environment.rst:1145
+#: ../../docs/classes/class_environment.rst:1161
+#: ../../docs/classes/class_environment.rst:1177
+#: ../../docs/classes/class_environment.rst:1193
+#: ../../docs/classes/class_environment.rst:1209
+#: ../../docs/classes/class_environment.rst:1225
+#: ../../docs/classes/class_environment.rst:1241
+#: ../../docs/classes/class_environment.rst:1257
+#: ../../docs/classes/class_environment.rst:1273
+#: ../../docs/classes/class_environment.rst:1289
+#: ../../docs/classes/class_environment.rst:1305
+#: ../../docs/classes/class_environment.rst:1321
+#: ../../docs/classes/class_environment.rst:1337
+#: ../../docs/classes/class_environment.rst:1353
+#: ../../docs/classes/class_environment.rst:1369
+#: ../../docs/classes/class_environment.rst:1385
+#: ../../docs/classes/class_environment.rst:1401
+#: ../../docs/classes/class_environment.rst:1417
+#: ../../docs/classes/class_environment.rst:1433
+#: ../../docs/classes/class_environment.rst:1449
+#: ../../docs/classes/class_environment.rst:1465
+#: ../../docs/classes/class_environment.rst:1481
+#: ../../docs/classes/class_environment.rst:1497
+#: ../../docs/classes/class_environment.rst:1513
+#: ../../docs/classes/class_environment.rst:1529
+#: ../../docs/classes/class_environment.rst:1545
+#: ../../docs/classes/class_environment.rst:1561
+#: ../../docs/classes/class_environment.rst:1577
+#: ../../docs/classes/class_environment.rst:1593
+#: ../../docs/classes/class_environment.rst:1609
+#: ../../docs/classes/class_environment.rst:1625
+#: ../../docs/classes/class_environment.rst:1641
+#: ../../docs/classes/class_environment.rst:1657
+#: ../../docs/classes/class_environment.rst:1673
+#: ../../docs/classes/class_environment.rst:1689
+#: ../../docs/classes/class_environment.rst:1705
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:379
+msgid "get_adjustment_brightness()"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:382
+msgid ""
+"The global brightness value of the rendered scene. Effective only if "
+"``adjustment_enabled`` is ``true``."
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:388
+msgid ":ref:`Texture<class_Texture>` **adjustment_color_correction**"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:391
+msgid "set_adjustment_color_correction(value)"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:393
+msgid "get_adjustment_color_correction()"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:396
+msgid ""
+"Applies the provided :ref:`Texture<class_Texture>` resource to affect the "
+"global color aspect of the rendered scene. Effective only if "
+"``adjustment_enabled`` is ``true``."
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:402
+msgid ":ref:`float<class_float>` **adjustment_contrast**"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:407
+msgid "set_adjustment_contrast(value)"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:409
+msgid "get_adjustment_contrast()"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:412
+msgid ""
+"The global contrast value of the rendered scene (default value is 1). "
+"Effective only if ``adjustment_enabled`` is ``true``."
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:418
+msgid ":ref:`bool<class_bool>` **adjustment_enabled**"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:423
+msgid "set_adjustment_enable(value)"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:425
+msgid "is_adjustment_enabled()"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:428
+msgid ""
+"If ``true``, enables the ``adjustment_*`` properties provided by this "
+"resource. If ``false``, modifications to the ``adjustment_*`` properties "
+"will have no effect on the rendered scene."
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:434
+msgid ":ref:`float<class_float>` **adjustment_saturation**"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:439
+msgid "set_adjustment_saturation(value)"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:441
+msgid "get_adjustment_saturation()"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:444
+msgid ""
+"The global color saturation value of the rendered scene (default value is "
+"1). Effective only if ``adjustment_enabled`` is ``true``."
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:450
+msgid ":ref:`Color<class_Color>` **ambient_light_color**"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:455
+msgid "set_ambient_light_color(value)"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:457
+msgid "get_ambient_light_color()"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:460
+msgid "The ambient light's :ref:`Color<class_Color>`."
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:466
+msgid ":ref:`float<class_float>` **ambient_light_energy**"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:471
+msgid "set_ambient_light_energy(value)"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:473
+msgid "get_ambient_light_energy()"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:476
+msgid ""
+"The ambient light's energy. The higher the value, the stronger the light."
+msgstr "环境光的能量。值越高，光照越强。"
+
+#: ../../docs/classes/class_environment.rst:482
+msgid ":ref:`float<class_float>` **ambient_light_sky_contribution**"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:487
+msgid "set_ambient_light_sky_contribution(value)"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:489
+msgid "get_ambient_light_sky_contribution()"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:492
+msgid ""
+"Defines the amount of light that the sky brings on the scene. A value of 0 "
+"means that the sky's light emission has no effect on the scene illumination, "
+"thus all ambient illumination is provided by the ambient light. On the "
+"contrary, a value of 1 means that all the light that affects the scene is "
+"provided by the sky, thus the ambient light parameter has no effect on the "
+"scene."
+msgstr ""
+"定义天空给场景带来的光照量。值为 0 表示天空的发光对场景照明没有影响，因此所有"
+"的环境照明都由环境光提供。相反，值为1表示所有影响场景的光线都由天空提供，因此"
+"环境光参数对场景没有影响。"
+
+#: ../../docs/classes/class_environment.rst:498
+msgid ":ref:`bool<class_bool>` **auto_exposure_enabled**"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:503
+msgid "set_tonemap_auto_exposure(value)"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:505
+msgid "get_tonemap_auto_exposure()"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:508
+msgid ""
+"If ``true``, enables the tonemapping auto exposure mode of the scene "
+"renderer. If ``true``, the renderer will automatically determine the "
+"exposure setting to adapt to the scene's illumination and the observed light."
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:514
+msgid ":ref:`float<class_float>` **auto_exposure_max_luma**"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:519
+msgid "set_tonemap_auto_exposure_max(value)"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:521
+msgid "get_tonemap_auto_exposure_max()"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:524
+msgid "The maximum luminance value for the auto exposure."
+msgstr "自动曝光的最大亮度值。"
+
+#: ../../docs/classes/class_environment.rst:530
+msgid ":ref:`float<class_float>` **auto_exposure_min_luma**"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:535
+msgid "set_tonemap_auto_exposure_min(value)"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:537
+msgid "get_tonemap_auto_exposure_min()"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:540
+msgid "The minimum luminance value for the auto exposure."
+msgstr "自动曝光的最小亮度值。"
+
+#: ../../docs/classes/class_environment.rst:546
+msgid ":ref:`float<class_float>` **auto_exposure_scale**"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:551
+msgid "set_tonemap_auto_exposure_grey(value)"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:553
+msgid "get_tonemap_auto_exposure_grey()"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:556
+msgid ""
+"The scale of the auto exposure effect. Affects the intensity of auto "
+"exposure."
+msgstr "自动曝光效果的比例。影响自动曝光的强度。"
+
+#: ../../docs/classes/class_environment.rst:562
+msgid ":ref:`float<class_float>` **auto_exposure_speed**"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:567
+msgid "set_tonemap_auto_exposure_speed(value)"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:569
+msgid "get_tonemap_auto_exposure_speed()"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:572
+msgid ""
+"The speed of the auto exposure effect. Affects the time needed for the "
+"camera to perform auto exposure."
+msgstr "自动曝光效果的速度。影响相机执行自动曝光所需的时间。"
+
+#: ../../docs/classes/class_environment.rst:578
+msgid ":ref:`int<class_int>` **background_camera_feed_id**"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:583
+msgid "set_camera_feed_id(value)"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:585
+msgid "get_camera_feed_id()"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:588
+msgid "The ID of the camera feed to show in the background."
+msgstr "要在背景中显示的摄像机信号的ID。"
+
+#: ../../docs/classes/class_environment.rst:594
+msgid ":ref:`int<class_int>` **background_canvas_max_layer**"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:599
+msgid "set_canvas_max_layer(value)"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:601
+msgid "get_canvas_max_layer()"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:604
+msgid ""
+"The maximum layer ID to display. Only effective when using the :ref:"
+"`BG_CANVAS<class_Environment_constant_BG_CANVAS>` background mode."
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:610
+msgid ":ref:`Color<class_Color>` **background_color**"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:615
+msgid "set_bg_color(value)"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:617
+msgid "get_bg_color()"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:620
+msgid ""
+"The :ref:`Color<class_Color>` displayed for clear areas of the scene. Only "
+"effective when using the :ref:"
+"`BG_COLOR<class_Environment_constant_BG_COLOR>` or :ref:"
+"`BG_COLOR_SKY<class_Environment_constant_BG_COLOR_SKY>` background modes)."
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:626
+msgid ":ref:`float<class_float>` **background_energy**"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:631
+msgid "set_bg_energy(value)"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:633
+msgid "get_bg_energy()"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:636
+msgid "The power of the light emitted by the background."
+msgstr "背景发出的光的功率。"
+
+#: ../../docs/classes/class_environment.rst:642
+msgid ":ref:`BGMode<enum_Environment_BGMode>` **background_mode**"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:647
+msgid "set_background(value)"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:649
+msgid "get_background()"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:652
+msgid ""
+"The background mode. See :ref:`BGMode<enum_Environment_BGMode>` for possible "
+"values."
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:658
+msgid ":ref:`Sky<class_Sky>` **background_sky**"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:661
+msgid "set_sky(value)"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:663
+msgid "get_sky()"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:666
+msgid "The :ref:`Sky<class_Sky>` resource defined as background."
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:672
+msgid ":ref:`float<class_float>` **background_sky_custom_fov**"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:677
+msgid "set_sky_custom_fov(value)"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:679
+msgid "get_sky_custom_fov()"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:682
+msgid "The :ref:`Sky<class_Sky>` resource's custom field of view."
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:688
+msgid ":ref:`Basis<class_Basis>` **background_sky_orientation**"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:693
+msgid "set_sky_orientation(value)"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:695
+msgid "get_sky_orientation()"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:698
+msgid ""
+"The :ref:`Sky<class_Sky>` resource's rotation expressed as a :ref:"
+"`Basis<class_Basis>`."
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:704
+msgid ":ref:`Vector3<class_Vector3>` **background_sky_rotation**"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:709
+msgid "set_sky_rotation(value)"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:711
+msgid "get_sky_rotation()"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:714
+msgid ""
+"The :ref:`Sky<class_Sky>` resource's rotation expressed as Euler angles in "
+"radians."
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:720
+msgid ":ref:`Vector3<class_Vector3>` **background_sky_rotation_degrees**"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:725
+msgid "set_sky_rotation_degrees(value)"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:727
+msgid "get_sky_rotation_degrees()"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:730
+msgid ""
+"The :ref:`Sky<class_Sky>` resource's rotation expressed as Euler angles in "
+"degrees."
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:736
+msgid ":ref:`float<class_float>` **dof_blur_far_amount**"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:741
+msgid "set_dof_blur_far_amount(value)"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:743
+msgid "get_dof_blur_far_amount()"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:746
+msgid "The amount of far blur for the depth-of-field effect."
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:752
+msgid ":ref:`float<class_float>` **dof_blur_far_distance**"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:757
+msgid "set_dof_blur_far_distance(value)"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:759
+msgid "get_dof_blur_far_distance()"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:762
+msgid ""
+"The distance from the camera where the far blur effect affects the rendering."
+msgstr "远景模糊效果影响渲染的地方与摄像机的距离。"
+
+#: ../../docs/classes/class_environment.rst:768
+msgid ":ref:`bool<class_bool>` **dof_blur_far_enabled**"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:773
+msgid "set_dof_blur_far_enabled(value)"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:775
+msgid "is_dof_blur_far_enabled()"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:778
+msgid "If ``true``, enables the depth-of-field far blur effect."
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:784
+msgid ""
+":ref:`DOFBlurQuality<enum_Environment_DOFBlurQuality>` "
+"**dof_blur_far_quality**"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:789
+msgid "set_dof_blur_far_quality(value)"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:791
+msgid "get_dof_blur_far_quality()"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:794
+msgid ""
+"The depth-of-field far blur's quality. Higher values can mitigate the "
+"visible banding effect seen at higher strengths, but are much slower."
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:800
+msgid ":ref:`float<class_float>` **dof_blur_far_transition**"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:805
+msgid "set_dof_blur_far_transition(value)"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:807
+msgid "get_dof_blur_far_transition()"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:810
+msgid "The length of the transition between the no-blur area and far blur."
+msgstr "无模糊区域和远模糊区域之间的过渡长度。"
+
+#: ../../docs/classes/class_environment.rst:816
+msgid ":ref:`float<class_float>` **dof_blur_near_amount**"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:821
+msgid "set_dof_blur_near_amount(value)"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:823
+msgid "get_dof_blur_near_amount()"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:826
+msgid "The amount of near blur for the depth-of-field effect."
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:832
+msgid ":ref:`float<class_float>` **dof_blur_near_distance**"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:837
+msgid "set_dof_blur_near_distance(value)"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:839
+msgid "get_dof_blur_near_distance()"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:842
+msgid ""
+"Distance from the camera where the near blur effect affects the rendering."
+msgstr "近似模糊效果影响渲染的地方与摄像机的距离。"
+
+#: ../../docs/classes/class_environment.rst:848
+msgid ":ref:`bool<class_bool>` **dof_blur_near_enabled**"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:853
+msgid "set_dof_blur_near_enabled(value)"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:855
+msgid "is_dof_blur_near_enabled()"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:858
+msgid "If ``true``, enables the depth-of-field near blur effect."
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:864
+msgid ""
+":ref:`DOFBlurQuality<enum_Environment_DOFBlurQuality>` "
+"**dof_blur_near_quality**"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:869
+msgid "set_dof_blur_near_quality(value)"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:871
+msgid "get_dof_blur_near_quality()"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:874
+msgid ""
+"The depth-of-field near blur's quality. Higher values can mitigate the "
+"visible banding effect seen at higher strengths, but are much slower."
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:880
+msgid ":ref:`float<class_float>` **dof_blur_near_transition**"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:885
+msgid "set_dof_blur_near_transition(value)"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:887
+msgid "get_dof_blur_near_transition()"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:890
+msgid "The length of the transition between the near blur and no-blur area."
+msgstr "近模糊和无模糊区域之间的过渡长度。"
+
+#: ../../docs/classes/class_environment.rst:896
+msgid ":ref:`Color<class_Color>` **fog_color**"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:901
+msgid "set_fog_color(value)"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:903
+msgid "get_fog_color()"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:906
+msgid "The fog's :ref:`Color<class_Color>`."
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:912
+msgid ":ref:`float<class_float>` **fog_depth_begin**"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:917
+msgid "set_fog_depth_begin(value)"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:919
+msgid "get_fog_depth_begin()"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:922
+msgid "The fog's depth starting distance from the camera."
+msgstr "雾的深度开始距离相机的距离。"
+
+#: ../../docs/classes/class_environment.rst:928
+msgid ":ref:`float<class_float>` **fog_depth_curve**"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:933
+msgid "set_fog_depth_curve(value)"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:935
+msgid "get_fog_depth_curve()"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:938
+msgid ""
+"The fog depth's intensity curve. A number of presets are available in the "
+"**Inspector** by right-clicking the curve."
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:944
+msgid ":ref:`bool<class_bool>` **fog_depth_enabled**"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:949
+msgid "set_fog_depth_enabled(value)"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:951
+msgid "is_fog_depth_enabled()"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:954
+msgid ""
+"If ``true``, the depth fog effect is enabled. When enabled, fog will appear "
+"in the distance (relative to the camera)."
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:960
+msgid ":ref:`float<class_float>` **fog_depth_end**"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:965
+msgid "set_fog_depth_end(value)"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:967
+msgid "get_fog_depth_end()"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:970
+msgid ""
+"The fog's depth end distance from the camera. If this value is set to 0, it "
+"will be equal to the current camera's :ref:`Camera."
+"far<class_Camera_property_far>` value."
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:976
+msgid ":ref:`bool<class_bool>` **fog_enabled**"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:981
+msgid "set_fog_enabled(value)"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:983
+msgid "is_fog_enabled()"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:986
+msgid ""
+"If ``true``, fog effects are enabled. :ref:"
+"`fog_height_enabled<class_Environment_property_fog_height_enabled>` and/or :"
+"ref:`fog_depth_enabled<class_Environment_property_fog_depth_enabled>` must "
+"be set to ``true`` to actually display fog."
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:992
+msgid ":ref:`float<class_float>` **fog_height_curve**"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:997
+msgid "set_fog_height_curve(value)"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:999
+msgid "get_fog_height_curve()"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1002
+msgid ""
+"The height fog's intensity. A number of presets are available in the "
+"**Inspector** by right-clicking the curve."
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1008
+msgid ":ref:`bool<class_bool>` **fog_height_enabled**"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1013
+msgid "set_fog_height_enabled(value)"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1015
+msgid "is_fog_height_enabled()"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1018
+msgid ""
+"If ``true``, the height fog effect is enabled. When enabled, fog will appear "
+"in a defined height range, regardless of the distance from the camera. This "
+"can be used to simulate \"deep water\" effects with a lower performance cost "
+"compared to a dedicated shader."
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1024
+msgid ":ref:`float<class_float>` **fog_height_max**"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1029
+msgid "set_fog_height_max(value)"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1031
+msgid "get_fog_height_max()"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1034
+msgid ""
+"The Y coordinate where the height fog will be the most intense. If this "
+"value is greater than :ref:"
+"`fog_height_min<class_Environment_property_fog_height_min>`, fog will be "
+"displayed from bottom to top. Otherwise, it will be displayed from top to "
+"bottom."
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1040
+msgid ":ref:`float<class_float>` **fog_height_min**"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1045
+msgid "set_fog_height_min(value)"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1047
+msgid "get_fog_height_min()"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1050
+msgid ""
+"The Y coordinate where the height fog will be the least intense. If this "
+"value is greater than :ref:"
+"`fog_height_max<class_Environment_property_fog_height_max>`, fog will be "
+"displayed from top to bottom. Otherwise, it will be displayed from bottom to "
+"top."
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1056
+msgid ":ref:`float<class_float>` **fog_sun_amount**"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1061
+msgid "set_fog_sun_amount(value)"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1063
+msgid "get_fog_sun_amount()"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1066
+msgid ""
+"The intensity of the depth fog color transition when looking towards the "
+"sun. The sun's direction is determined automatically using the "
+"DirectionalLight node in the scene."
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1072
+msgid ":ref:`Color<class_Color>` **fog_sun_color**"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1077
+msgid "set_fog_sun_color(value)"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1079
+msgid "get_fog_sun_color()"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1082
+msgid "The depth fog's :ref:`Color<class_Color>` when looking towards the sun."
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1088
+msgid ":ref:`float<class_float>` **fog_transmit_curve**"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1093
+msgid "set_fog_transmit_curve(value)"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1095
+msgid "get_fog_transmit_curve()"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1098
+msgid ""
+"The intensity of the fog light transmittance effect. Amount of light that "
+"the fog transmits."
+msgstr "雾光透射效果的强弱。雾的透光量。"
+
+#: ../../docs/classes/class_environment.rst:1104
+msgid ":ref:`bool<class_bool>` **fog_transmit_enabled**"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1109
+msgid "set_fog_transmit_enabled(value)"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1111
+msgid "is_fog_transmit_enabled()"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1114
+msgid ""
+"Enables fog's light transmission effect. If ``true``, light will be more "
+"visible in the fog to simulate light scattering as in real life."
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1120
+msgid ":ref:`bool<class_bool>` **glow_bicubic_upscale**"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1125
+msgid "set_glow_bicubic_upscale(value)"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1127
+msgid "is_glow_bicubic_upscale_enabled()"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1130
+msgid ""
+"Smooths out the blockiness created by sampling higher levels, at the cost of "
+"performance."
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1132
+msgid ""
+"**Note:** When using the GLES2 renderer, this is only available if the GPU "
+"supports the ``GL_EXT_gpu_shader4`` extension."
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1138
+msgid ""
+":ref:`GlowBlendMode<enum_Environment_GlowBlendMode>` **glow_blend_mode**"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1143
+msgid "set_glow_blend_mode(value)"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1145
+msgid "get_glow_blend_mode()"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1148
+msgid "The glow blending mode."
+msgstr "发光混合模式。"
+
+#: ../../docs/classes/class_environment.rst:1154
+msgid ":ref:`float<class_float>` **glow_bloom**"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1159
+msgid "set_glow_bloom(value)"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1161
+msgid "get_glow_bloom()"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1164
+msgid ""
+"The bloom's intensity. If set to a value higher than ``0``, this will make "
+"glow visible in areas darker than the :ref:"
+"`glow_hdr_threshold<class_Environment_property_glow_hdr_threshold>`."
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1170
+msgid ":ref:`bool<class_bool>` **glow_enabled**"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1175
+msgid "set_glow_enabled(value)"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1177
+msgid "is_glow_enabled()"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1180
+msgid "If ``true``, the glow effect is enabled."
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1186
+msgid ":ref:`float<class_float>` **glow_hdr_luminance_cap**"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1191
+msgid "set_glow_hdr_luminance_cap(value)"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1193
+msgid "get_glow_hdr_luminance_cap()"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1196
+msgid ""
+"The higher threshold of the HDR glow. Areas brighter than this threshold "
+"will be clamped for the purposes of the glow effect."
+msgstr ""
+"HDR glow的较高阈值。比这个阈值更亮的区域将被夹紧，以达到glow效果的目的。"
+
+#: ../../docs/classes/class_environment.rst:1202
+msgid ":ref:`float<class_float>` **glow_hdr_scale**"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1207
+msgid "set_glow_hdr_bleed_scale(value)"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1209
+msgid "get_glow_hdr_bleed_scale()"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1212
+msgid "The bleed scale of the HDR glow."
+msgstr "HDR glow的出血规模。"
+
+#: ../../docs/classes/class_environment.rst:1218
+msgid ":ref:`float<class_float>` **glow_hdr_threshold**"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1223
+msgid "set_glow_hdr_bleed_threshold(value)"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1225
+msgid "get_glow_hdr_bleed_threshold()"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1228
+msgid ""
+"The lower threshold of the HDR glow. When using the GLES2 renderer (which "
+"doesn't support HDR), this needs to be below ``1.0`` for glow to be visible. "
+"A value of ``0.9`` works well in this case."
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1234
+msgid ":ref:`float<class_float>` **glow_intensity**"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1239
+msgid "set_glow_intensity(value)"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1241
+msgid "get_glow_intensity()"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1244
+msgid ""
+"The glow intensity. When using the GLES2 renderer, this should be increased "
+"to 1.5 to compensate for the lack of HDR rendering."
+msgstr "发光强度。使用GLES2渲染器时，应将其增加到1.5以弥补HDR渲染的不足。"
+
+#: ../../docs/classes/class_environment.rst:1250
+msgid ":ref:`bool<class_bool>` **glow_levels/1**"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1255
+#: ../../docs/classes/class_environment.rst:1271
+#: ../../docs/classes/class_environment.rst:1287
+#: ../../docs/classes/class_environment.rst:1303
+#: ../../docs/classes/class_environment.rst:1319
+#: ../../docs/classes/class_environment.rst:1335
+#: ../../docs/classes/class_environment.rst:1351
+msgid "set_glow_level(value)"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1257
+#: ../../docs/classes/class_environment.rst:1273
+#: ../../docs/classes/class_environment.rst:1289
+#: ../../docs/classes/class_environment.rst:1305
+#: ../../docs/classes/class_environment.rst:1321
+#: ../../docs/classes/class_environment.rst:1337
+#: ../../docs/classes/class_environment.rst:1353
+msgid "is_glow_level_enabled()"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1260
+msgid ""
+"If ``true``, the 1st level of glow is enabled. This is the most \"local\" "
+"level (least blurry)."
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1266
+msgid ":ref:`bool<class_bool>` **glow_levels/2**"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1276
+msgid "If ``true``, the 2th level of glow is enabled."
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1282
+msgid ":ref:`bool<class_bool>` **glow_levels/3**"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1292
+msgid "If ``true``, the 3th level of glow is enabled."
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1298
+msgid ":ref:`bool<class_bool>` **glow_levels/4**"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1308
+msgid "If ``true``, the 4th level of glow is enabled."
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1314
+msgid ":ref:`bool<class_bool>` **glow_levels/5**"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1324
+msgid "If ``true``, the 5th level of glow is enabled."
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1330
+msgid ":ref:`bool<class_bool>` **glow_levels/6**"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1340
+msgid "If ``true``, the 6th level of glow is enabled."
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1346
+msgid ":ref:`bool<class_bool>` **glow_levels/7**"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1356
+msgid ""
+"If ``true``, the 7th level of glow is enabled. This is the most \"global\" "
+"level (blurriest)."
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1362
+msgid ":ref:`float<class_float>` **glow_strength**"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1367
+msgid "set_glow_strength(value)"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1369
+msgid "get_glow_strength()"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1372
+msgid ""
+"The glow strength. When using the GLES2 renderer, this should be increased "
+"to 1.3 to compensate for the lack of HDR rendering."
+msgstr "glow强度。当使用GLES2渲染器时，应将其提高到1.3，以弥补HDR渲染的不足。"
+
+#: ../../docs/classes/class_environment.rst:1378
+msgid ":ref:`float<class_float>` **ss_reflections_depth_tolerance**"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1383
+msgid "set_ssr_depth_tolerance(value)"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1385
+msgid "get_ssr_depth_tolerance()"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1388
+msgid "The depth tolerance for screen-space reflections."
+msgstr "屏幕空间反射的深度公差。"
+
+#: ../../docs/classes/class_environment.rst:1394
+msgid ":ref:`bool<class_bool>` **ss_reflections_enabled**"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1399
+msgid "set_ssr_enabled(value)"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1401
+msgid "is_ssr_enabled()"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1404
+msgid ""
+"If ``true``, screen-space reflections are enabled. Screen-space reflections "
+"are more accurate than reflections from :ref:`GIProbe<class_GIProbe>`\\ s "
+"or :ref:`ReflectionProbe<class_ReflectionProbe>`\\ s, but are slower and "
+"can't reflect surfaces occluded by others."
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1410
+msgid ":ref:`float<class_float>` **ss_reflections_fade_in**"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1415
+msgid "set_ssr_fade_in(value)"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1417
+msgid "get_ssr_fade_in()"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1420
+msgid ""
+"The fade-in distance for screen-space reflections. Affects the area from the "
+"reflected material to the screen-space reflection)."
+msgstr "屏幕空间反射的淡入距离。影响从反射材料到屏幕空间反射的区域。"
+
+#: ../../docs/classes/class_environment.rst:1426
+msgid ":ref:`float<class_float>` **ss_reflections_fade_out**"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1431
+msgid "set_ssr_fade_out(value)"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1433
+msgid "get_ssr_fade_out()"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1436
+msgid ""
+"The fade-out distance for screen-space reflections. Affects the area from "
+"the screen-space reflection to the \"global\" reflection."
+msgstr "屏幕空间反射的淡出距离。影响从屏幕空间反射到 \"全局 \"反射的区域。"
+
+#: ../../docs/classes/class_environment.rst:1442
+msgid ":ref:`int<class_int>` **ss_reflections_max_steps**"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1447
+msgid "set_ssr_max_steps(value)"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1449
+msgid "get_ssr_max_steps()"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1452
+msgid ""
+"The maximum number of steps for screen-space reflections. Higher values are "
+"slower."
+msgstr "屏幕空间反射的最大步数。数值越高，速度越慢。"
+
+#: ../../docs/classes/class_environment.rst:1458
+msgid ":ref:`bool<class_bool>` **ss_reflections_roughness**"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1463
+msgid "set_ssr_rough(value)"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1465
+msgid "is_ssr_rough()"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1468
+msgid ""
+"If ``true``, screen-space reflections will take the material roughness into "
+"account."
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1474
+msgid ":ref:`float<class_float>` **ssao_ao_channel_affect**"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1479
+msgid "set_ssao_ao_channel_affect(value)"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1481
+msgid "get_ssao_ao_channel_affect()"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1484
+msgid ""
+"The screen-space ambient occlusion intensity on materials that have an AO "
+"texture defined. Values higher than ``0`` will make the SSAO effect visible "
+"in areas darkened by AO textures."
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1490
+msgid ":ref:`float<class_float>` **ssao_bias**"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1495
+msgid "set_ssao_bias(value)"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1497
+msgid "get_ssao_bias()"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1500
+msgid ""
+"The screen-space ambient occlusion bias. This should be kept high enough to "
+"prevent \"smooth\" curves from being affected by ambient occlusion."
+msgstr ""
+"屏幕空间的环境遮挡偏差。该值应保持在足够高的水平，以防止 \"平滑 \"曲线受到环"
+"境遮挡的影响。"
+
+#: ../../docs/classes/class_environment.rst:1506
+msgid ":ref:`SSAOBlur<enum_Environment_SSAOBlur>` **ssao_blur**"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1511
+msgid "set_ssao_blur(value)"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1513
+msgid "get_ssao_blur()"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1516
+msgid ""
+"The screen-space ambient occlusion blur quality. See :ref:"
+"`SSAOBlur<enum_Environment_SSAOBlur>` for possible values."
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1522
+msgid ":ref:`Color<class_Color>` **ssao_color**"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1527
+msgid "set_ssao_color(value)"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1529
+msgid "get_ssao_color()"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1532
+msgid "The screen-space ambient occlusion color."
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1538
+msgid ":ref:`float<class_float>` **ssao_edge_sharpness**"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1543
+msgid "set_ssao_edge_sharpness(value)"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1545
+msgid "get_ssao_edge_sharpness()"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1548
+msgid "The screen-space ambient occlusion edge sharpness."
+msgstr "屏幕空间环境遮挡边缘锐度。"
+
+#: ../../docs/classes/class_environment.rst:1554
+msgid ":ref:`bool<class_bool>` **ssao_enabled**"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1559
+msgid "set_ssao_enabled(value)"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1561
+msgid "is_ssao_enabled()"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1564
+msgid ""
+"If ``true``, the screen-space ambient occlusion effect is enabled. This "
+"darkens objects' corners and cavities to simulate ambient light not reaching "
+"the entire object as in real life. This works well for small, dynamic "
+"objects, but baked lighting or ambient occlusion textures will do a better "
+"job at displaying ambient occlusion on large static objects. This is a "
+"costly effect and should be disabled first when running into performance "
+"issues."
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1570
+msgid ":ref:`float<class_float>` **ssao_intensity**"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1575
+msgid "set_ssao_intensity(value)"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1577
+msgid "get_ssao_intensity()"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1580
+msgid ""
+"The primary screen-space ambient occlusion intensity. See also :ref:"
+"`ssao_radius<class_Environment_property_ssao_radius>`."
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1586
+msgid ":ref:`float<class_float>` **ssao_intensity2**"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1591
+msgid "set_ssao_intensity2(value)"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1593
+msgid "get_ssao_intensity2()"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1596
+msgid ""
+"The secondary screen-space ambient occlusion intensity. See also :ref:"
+"`ssao_radius2<class_Environment_property_ssao_radius2>`."
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1602
+msgid ":ref:`float<class_float>` **ssao_light_affect**"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1607
+msgid "set_ssao_direct_light_affect(value)"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1609
+msgid "get_ssao_direct_light_affect()"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1612
+msgid ""
+"The screen-space ambient occlusion intensity in direct light. In real life, "
+"ambient occlusion only applies to indirect light, which means its effects "
+"can't be seen in direct light. Values higher than ``0`` will make the SSAO "
+"effect visible in direct light."
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1618
+msgid ":ref:`SSAOQuality<enum_Environment_SSAOQuality>` **ssao_quality**"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1623
+msgid "set_ssao_quality(value)"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1625
+msgid "get_ssao_quality()"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1628
+msgid ""
+"The screen-space ambient occlusion quality. Higher qualities will make "
+"better use of small objects for ambient occlusion, but are slower."
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1634
+msgid ":ref:`float<class_float>` **ssao_radius**"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1639
+msgid "set_ssao_radius(value)"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1641
+msgid "get_ssao_radius()"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1644
+msgid "The primary screen-space ambient occlusion radius."
+msgstr "主屏空间环境遮挡半径。"
+
+#: ../../docs/classes/class_environment.rst:1650
+msgid ":ref:`float<class_float>` **ssao_radius2**"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1655
+msgid "set_ssao_radius2(value)"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1657
+msgid "get_ssao_radius2()"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1660
+msgid ""
+"The secondary screen-space ambient occlusion radius. If set to a value "
+"higher than ``0``, enables the secondary screen-space ambient occlusion "
+"effect which can be used to improve the effect's appearance (at the cost of "
+"performance)."
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1666
+msgid ":ref:`float<class_float>` **tonemap_exposure**"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1671
+msgid "set_tonemap_exposure(value)"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1673
+msgid "get_tonemap_exposure()"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1676
+msgid "The default exposure used for tonemapping."
+msgstr "用于色调映射的默认曝光。"
+
+#: ../../docs/classes/class_environment.rst:1682
+msgid ":ref:`ToneMapper<enum_Environment_ToneMapper>` **tonemap_mode**"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1687
+msgid "set_tonemapper(value)"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1689
+msgid "get_tonemapper()"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1692
+msgid ""
+"The tonemapping mode to use. Tonemapping is the process that \"converts\" "
+"HDR values to be suitable for rendering on a LDR display. (Godot doesn't "
+"support rendering on HDR displays yet.)"
+msgstr ""
+"要使用的色调映射模式。色调映射是“转换” HDR值以适合在LDR显示器上呈现的过程。 "
+"（Godot尚不支持在HDR显示器上进行渲染。）"
+
+#: ../../docs/classes/class_environment.rst:1698
+msgid ":ref:`float<class_float>` **tonemap_white**"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1703
+msgid "set_tonemap_white(value)"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1705
+msgid "get_tonemap_white()"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1708
+msgid ""
+"The white reference value for tonemapping. Only effective if the :ref:"
+"`tonemap_mode<class_Environment_property_tonemap_mode>` isn't set to :ref:"
+"`TONE_MAPPER_LINEAR<class_Environment_constant_TONE_MAPPER_LINEAR>`."
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1711
+msgid "Method Descriptions"
+msgstr "方法说明"
+
+#: ../../docs/classes/class_environment.rst:1715
+msgid ""
+":ref:`bool<class_bool>` **is_glow_level_enabled** **(** :ref:"
+"`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1717
+msgid ""
+"Returns ``true`` if the glow level ``idx`` is specified, ``false`` otherwise."
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1723
+msgid ""
+"void **set_glow_level** **(** :ref:`int<class_int>` idx, :ref:"
+"`bool<class_bool>` enabled **)**"
+msgstr ""
+
+#: ../../docs/classes/class_environment.rst:1725
+msgid ""
+"Enables or disables the glow level at index ``idx``. Each level relies on "
+"the previous level. This means that enabling higher glow levels will slow "
+"down the glow effect rendering, even if previous levels aren't enabled."
+msgstr ""

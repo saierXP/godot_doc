@@ -1,0 +1,2788 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2021, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-31 12:15+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_@globalscope.rst:10
+msgid "@GlobalScope"
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:12
+msgid "Global scope constants and variables."
+msgstr "全局范围常量和变量。"
+
+#: ../../docs/classes/class_@globalscope.rst:15
+msgid "Description"
+msgstr "描述"
+
+#: ../../docs/classes/class_@globalscope.rst:17
+msgid ""
+"Global scope constants and variables. This is all that resides in the "
+"globals, constants regarding error codes, scancodes, property hints, etc."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:19
+msgid ""
+"Singletons are also documented here, since they can be accessed from "
+"anywhere."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:22
+msgid "Properties"
+msgstr "属性"
+
+#: ../../docs/classes/class_@globalscope.rst:25
+msgid ":ref:`ARVRServer<class_ARVRServer>`"
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:25
+msgid ":ref:`ARVRServer<class_@GlobalScope_property_ARVRServer>`"
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:27
+msgid ":ref:`AudioServer<class_AudioServer>`"
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:27
+msgid ":ref:`AudioServer<class_@GlobalScope_property_AudioServer>`"
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:29
+msgid ":ref:`CameraServer<class_CameraServer>`"
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:29
+msgid ":ref:`CameraServer<class_@GlobalScope_property_CameraServer>`"
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:31
+msgid ":ref:`ClassDB<class_ClassDB>`"
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:31
+msgid ":ref:`ClassDB<class_@GlobalScope_property_ClassDB>`"
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:33
+msgid ":ref:`Engine<class_Engine>`"
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:33
+msgid ":ref:`Engine<class_@GlobalScope_property_Engine>`"
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:35
+msgid ":ref:`Geometry<class_Geometry>`"
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:35
+msgid ":ref:`Geometry<class_@GlobalScope_property_Geometry>`"
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:37
+msgid ":ref:`GodotSharp<class_GodotSharp>`"
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:37
+msgid ":ref:`GodotSharp<class_@GlobalScope_property_GodotSharp>`"
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:39
+msgid ":ref:`IP<class_IP>`"
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:39
+msgid ":ref:`IP<class_@GlobalScope_property_IP>`"
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:41
+msgid ":ref:`Input<class_Input>`"
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:41
+msgid ":ref:`Input<class_@GlobalScope_property_Input>`"
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:43
+msgid ":ref:`InputMap<class_InputMap>`"
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:43
+msgid ":ref:`InputMap<class_@GlobalScope_property_InputMap>`"
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:45
+msgid ":ref:`JSON<class_JSON>`"
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:45
+msgid ":ref:`JSON<class_@GlobalScope_property_JSON>`"
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:47
+msgid ":ref:`JavaClassWrapper<class_JavaClassWrapper>`"
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:47
+msgid ":ref:`JavaClassWrapper<class_@GlobalScope_property_JavaClassWrapper>`"
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:49
+msgid ":ref:`JavaScript<class_JavaScript>`"
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:49
+msgid ":ref:`JavaScript<class_@GlobalScope_property_JavaScript>`"
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:51
+msgid ":ref:`Marshalls<class_Marshalls>`"
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:51
+msgid ":ref:`Marshalls<class_@GlobalScope_property_Marshalls>`"
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:53
+msgid ""
+":ref:`EditorNavigationMeshGenerator<class_EditorNavigationMeshGenerator>`"
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:53
+msgid ""
+":ref:"
+"`NavigationMeshGenerator<class_@GlobalScope_property_NavigationMeshGenerator>`"
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:55
+msgid ":ref:`OS<class_OS>`"
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:55
+msgid ":ref:`OS<class_@GlobalScope_property_OS>`"
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:57
+msgid ":ref:`Performance<class_Performance>`"
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:57
+msgid ":ref:`Performance<class_@GlobalScope_property_Performance>`"
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:59
+msgid ":ref:`Physics2DServer<class_Physics2DServer>`"
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:59
+msgid ":ref:`Physics2DServer<class_@GlobalScope_property_Physics2DServer>`"
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:61
+msgid ":ref:`PhysicsServer<class_PhysicsServer>`"
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:61
+msgid ":ref:`PhysicsServer<class_@GlobalScope_property_PhysicsServer>`"
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:63
+msgid ":ref:`ProjectSettings<class_ProjectSettings>`"
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:63
+msgid ":ref:`ProjectSettings<class_@GlobalScope_property_ProjectSettings>`"
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:65
+msgid ":ref:`ResourceLoader<class_ResourceLoader>`"
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:65
+msgid ":ref:`ResourceLoader<class_@GlobalScope_property_ResourceLoader>`"
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:67
+msgid ":ref:`ResourceSaver<class_ResourceSaver>`"
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:67
+msgid ":ref:`ResourceSaver<class_@GlobalScope_property_ResourceSaver>`"
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:69
+msgid ":ref:`TranslationServer<class_TranslationServer>`"
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:69
+msgid ":ref:`TranslationServer<class_@GlobalScope_property_TranslationServer>`"
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:71
+msgid ":ref:`VisualScriptEditor<class_VisualScriptEditor>`"
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:71
+msgid ""
+":ref:`VisualScriptEditor<class_@GlobalScope_property_VisualScriptEditor>`"
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:73
+msgid ":ref:`VisualServer<class_VisualServer>`"
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:73
+msgid ":ref:`VisualServer<class_@GlobalScope_property_VisualServer>`"
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:77
+msgid "Enumerations"
+msgstr "枚举"
+
+#: ../../docs/classes/class_@globalscope.rst:89
+msgid "enum **Margin**:"
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:91
+msgid ""
+"**MARGIN_LEFT** = **0** --- Left margin, usually used for :ref:"
+"`Control<class_Control>` or :ref:`StyleBox<class_StyleBox>`-derived classes."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:93
+msgid ""
+"**MARGIN_TOP** = **1** --- Top margin, usually used for :ref:"
+"`Control<class_Control>` or :ref:`StyleBox<class_StyleBox>`-derived classes."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:95
+msgid ""
+"**MARGIN_RIGHT** = **2** --- Right margin, usually used for :ref:"
+"`Control<class_Control>` or :ref:`StyleBox<class_StyleBox>`-derived classes."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:97
+msgid ""
+"**MARGIN_BOTTOM** = **3** --- Bottom margin, usually used for :ref:"
+"`Control<class_Control>` or :ref:`StyleBox<class_StyleBox>`-derived classes."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:111
+msgid "enum **Corner**:"
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:113
+msgid "**CORNER_TOP_LEFT** = **0** --- Top-left corner."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:115
+msgid "**CORNER_TOP_RIGHT** = **1** --- Top-right corner."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:117
+msgid "**CORNER_BOTTOM_RIGHT** = **2** --- Bottom-right corner."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:119
+msgid "**CORNER_BOTTOM_LEFT** = **3** --- Bottom-left corner."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:129
+msgid "enum **Orientation**:"
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:131
+msgid ""
+"**VERTICAL** = **1** --- General vertical alignment, usually used for :ref:"
+"`Separator<class_Separator>`, :ref:`ScrollBar<class_ScrollBar>`, :ref:"
+"`Slider<class_Slider>`, etc."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:133
+msgid ""
+"**HORIZONTAL** = **0** --- General horizontal alignment, usually used for :"
+"ref:`Separator<class_Separator>`, :ref:`ScrollBar<class_ScrollBar>`, :ref:"
+"`Slider<class_Slider>`, etc."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:145
+msgid "enum **HAlign**:"
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:147
+msgid ""
+"**HALIGN_LEFT** = **0** --- Horizontal left alignment, usually for text-"
+"derived classes."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:149
+msgid ""
+"**HALIGN_CENTER** = **1** --- Horizontal center alignment, usually for text-"
+"derived classes."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:151
+msgid ""
+"**HALIGN_RIGHT** = **2** --- Horizontal right alignment, usually for text-"
+"derived classes."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:163
+msgid "enum **VAlign**:"
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:165
+msgid ""
+"**VALIGN_TOP** = **0** --- Vertical top alignment, usually for text-derived "
+"classes."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:167
+msgid ""
+"**VALIGN_CENTER** = **1** --- Vertical center alignment, usually for text-"
+"derived classes."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:169
+msgid ""
+"**VALIGN_BOTTOM** = **2** --- Vertical bottom alignment, usually for text-"
+"derived classes."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:659
+msgid "enum **KeyList**:"
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:661
+msgid "**KEY_ESCAPE** = **16777217** --- Escape key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:663
+msgid "**KEY_TAB** = **16777218** --- Tab key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:665
+msgid "**KEY_BACKTAB** = **16777219** --- Shift+Tab key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:667
+msgid "**KEY_BACKSPACE** = **16777220** --- Backspace key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:669
+msgid "**KEY_ENTER** = **16777221** --- Return key (on the main keyboard)."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:671
+msgid "**KEY_KP_ENTER** = **16777222** --- Enter key on the numeric keypad."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:673
+msgid "**KEY_INSERT** = **16777223** --- Insert key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:675
+msgid "**KEY_DELETE** = **16777224** --- Delete key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:677
+msgid "**KEY_PAUSE** = **16777225** --- Pause key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:679
+msgid "**KEY_PRINT** = **16777226** --- Print Screen key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:681
+msgid "**KEY_SYSREQ** = **16777227** --- System Request key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:683
+msgid "**KEY_CLEAR** = **16777228** --- Clear key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:685
+msgid "**KEY_HOME** = **16777229** --- Home key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:687
+msgid "**KEY_END** = **16777230** --- End key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:689
+msgid "**KEY_LEFT** = **16777231** --- Left arrow key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:691
+msgid "**KEY_UP** = **16777232** --- Up arrow key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:693
+msgid "**KEY_RIGHT** = **16777233** --- Right arrow key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:695
+msgid "**KEY_DOWN** = **16777234** --- Down arrow key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:697
+msgid "**KEY_PAGEUP** = **16777235** --- Page Up key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:699
+msgid "**KEY_PAGEDOWN** = **16777236** --- Page Down key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:701
+msgid "**KEY_SHIFT** = **16777237** --- Shift key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:703
+msgid "**KEY_CONTROL** = **16777238** --- Control key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:705
+msgid "**KEY_META** = **16777239** --- Meta key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:707
+msgid "**KEY_ALT** = **16777240** --- Alt key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:709
+msgid "**KEY_CAPSLOCK** = **16777241** --- Caps Lock key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:711
+msgid "**KEY_NUMLOCK** = **16777242** --- Num Lock key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:713
+msgid "**KEY_SCROLLLOCK** = **16777243** --- Scroll Lock key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:715
+msgid "**KEY_F1** = **16777244** --- F1 key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:717
+msgid "**KEY_F2** = **16777245** --- F2 key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:719
+msgid "**KEY_F3** = **16777246** --- F3 key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:721
+msgid "**KEY_F4** = **16777247** --- F4 key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:723
+msgid "**KEY_F5** = **16777248** --- F5 key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:725
+msgid "**KEY_F6** = **16777249** --- F6 key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:727
+msgid "**KEY_F7** = **16777250** --- F7 key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:729
+msgid "**KEY_F8** = **16777251** --- F8 key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:731
+msgid "**KEY_F9** = **16777252** --- F9 key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:733
+msgid "**KEY_F10** = **16777253** --- F10 key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:735
+msgid "**KEY_F11** = **16777254** --- F11 key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:737
+msgid "**KEY_F12** = **16777255** --- F12 key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:739
+msgid "**KEY_F13** = **16777256** --- F13 key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:741
+msgid "**KEY_F14** = **16777257** --- F14 key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:743
+msgid "**KEY_F15** = **16777258** --- F15 key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:745
+msgid "**KEY_F16** = **16777259** --- F16 key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:747
+msgid ""
+"**KEY_KP_MULTIPLY** = **16777345** --- Multiply (\\*) key on the numeric "
+"keypad."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:749
+msgid ""
+"**KEY_KP_DIVIDE** = **16777346** --- Divide (/) key on the numeric keypad."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:751
+msgid ""
+"**KEY_KP_SUBTRACT** = **16777347** --- Subtract (-) key on the numeric "
+"keypad."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:753
+msgid ""
+"**KEY_KP_PERIOD** = **16777348** --- Period (.) key on the numeric keypad."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:755
+msgid "**KEY_KP_ADD** = **16777349** --- Add (+) key on the numeric keypad."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:757
+msgid "**KEY_KP_0** = **16777350** --- Number 0 on the numeric keypad."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:759
+msgid "**KEY_KP_1** = **16777351** --- Number 1 on the numeric keypad."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:761
+msgid "**KEY_KP_2** = **16777352** --- Number 2 on the numeric keypad."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:763
+msgid "**KEY_KP_3** = **16777353** --- Number 3 on the numeric keypad."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:765
+msgid "**KEY_KP_4** = **16777354** --- Number 4 on the numeric keypad."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:767
+msgid "**KEY_KP_5** = **16777355** --- Number 5 on the numeric keypad."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:769
+msgid "**KEY_KP_6** = **16777356** --- Number 6 on the numeric keypad."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:771
+msgid "**KEY_KP_7** = **16777357** --- Number 7 on the numeric keypad."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:773
+msgid "**KEY_KP_8** = **16777358** --- Number 8 on the numeric keypad."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:775
+msgid "**KEY_KP_9** = **16777359** --- Number 9 on the numeric keypad."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:777
+msgid "**KEY_SUPER_L** = **16777260** --- Left Super key (Windows key)."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:779
+msgid "**KEY_SUPER_R** = **16777261** --- Right Super key (Windows key)."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:781
+msgid "**KEY_MENU** = **16777262** --- Context menu key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:783
+msgid "**KEY_HYPER_L** = **16777263** --- Left Hyper key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:785
+msgid "**KEY_HYPER_R** = **16777264** --- Right Hyper key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:787
+msgid "**KEY_HELP** = **16777265** --- Help key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:789
+msgid "**KEY_DIRECTION_L** = **16777266** --- Left Direction key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:791
+msgid "**KEY_DIRECTION_R** = **16777267** --- Right Direction key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:793
+msgid ""
+"**KEY_BACK** = **16777280** --- Media back key. Not to be confused with the "
+"Back button on an Android device."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:795
+msgid "**KEY_FORWARD** = **16777281** --- Media forward key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:797
+msgid "**KEY_STOP** = **16777282** --- Media stop key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:799
+msgid "**KEY_REFRESH** = **16777283** --- Media refresh key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:801
+msgid "**KEY_VOLUMEDOWN** = **16777284** --- Volume down key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:803
+msgid "**KEY_VOLUMEMUTE** = **16777285** --- Mute volume key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:805
+msgid "**KEY_VOLUMEUP** = **16777286** --- Volume up key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:807
+msgid "**KEY_BASSBOOST** = **16777287** --- Bass Boost key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:809
+msgid "**KEY_BASSUP** = **16777288** --- Bass up key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:811
+msgid "**KEY_BASSDOWN** = **16777289** --- Bass down key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:813
+msgid "**KEY_TREBLEUP** = **16777290** --- Treble up key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:815
+msgid "**KEY_TREBLEDOWN** = **16777291** --- Treble down key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:817
+msgid "**KEY_MEDIAPLAY** = **16777292** --- Media play key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:819
+msgid "**KEY_MEDIASTOP** = **16777293** --- Media stop key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:821
+msgid "**KEY_MEDIAPREVIOUS** = **16777294** --- Previous song key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:823
+msgid "**KEY_MEDIANEXT** = **16777295** --- Next song key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:825
+msgid "**KEY_MEDIARECORD** = **16777296** --- Media record key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:827
+msgid "**KEY_HOMEPAGE** = **16777297** --- Home page key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:829
+msgid "**KEY_FAVORITES** = **16777298** --- Favorites key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:831
+msgid "**KEY_SEARCH** = **16777299** --- Search key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:833
+msgid "**KEY_STANDBY** = **16777300** --- Standby key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:835
+msgid "**KEY_OPENURL** = **16777301** --- Open URL / Launch Browser key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:837
+msgid "**KEY_LAUNCHMAIL** = **16777302** --- Launch Mail key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:839
+msgid "**KEY_LAUNCHMEDIA** = **16777303** --- Launch Media key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:841
+msgid "**KEY_LAUNCH0** = **16777304** --- Launch Shortcut 0 key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:843
+msgid "**KEY_LAUNCH1** = **16777305** --- Launch Shortcut 1 key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:845
+msgid "**KEY_LAUNCH2** = **16777306** --- Launch Shortcut 2 key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:847
+msgid "**KEY_LAUNCH3** = **16777307** --- Launch Shortcut 3 key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:849
+msgid "**KEY_LAUNCH4** = **16777308** --- Launch Shortcut 4 key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:851
+msgid "**KEY_LAUNCH5** = **16777309** --- Launch Shortcut 5 key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:853
+msgid "**KEY_LAUNCH6** = **16777310** --- Launch Shortcut 6 key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:855
+msgid "**KEY_LAUNCH7** = **16777311** --- Launch Shortcut 7 key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:857
+msgid "**KEY_LAUNCH8** = **16777312** --- Launch Shortcut 8 key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:859
+msgid "**KEY_LAUNCH9** = **16777313** --- Launch Shortcut 9 key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:861
+msgid "**KEY_LAUNCHA** = **16777314** --- Launch Shortcut A key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:863
+msgid "**KEY_LAUNCHB** = **16777315** --- Launch Shortcut B key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:865
+msgid "**KEY_LAUNCHC** = **16777316** --- Launch Shortcut C key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:867
+msgid "**KEY_LAUNCHD** = **16777317** --- Launch Shortcut D key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:869
+msgid "**KEY_LAUNCHE** = **16777318** --- Launch Shortcut E key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:871
+msgid "**KEY_LAUNCHF** = **16777319** --- Launch Shortcut F key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:873
+msgid "**KEY_UNKNOWN** = **33554431** --- Unknown key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:875
+msgid "**KEY_SPACE** = **32** --- Space key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:877
+msgid "**KEY_EXCLAM** = **33** --- ! key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:879
+msgid "**KEY_QUOTEDBL** = **34** --- \" key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:881
+msgid "**KEY_NUMBERSIGN** = **35** --- # key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:883
+msgid "**KEY_DOLLAR** = **36** --- $ key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:885
+msgid "**KEY_PERCENT** = **37** --- % key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:887
+msgid "**KEY_AMPERSAND** = **38** --- & key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:889
+msgid "**KEY_APOSTROPHE** = **39** --- ' key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:891
+msgid "**KEY_PARENLEFT** = **40** --- ( key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:893
+msgid "**KEY_PARENRIGHT** = **41** --- ) key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:895
+msgid "**KEY_ASTERISK** = **42** --- \\* key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:897
+msgid "**KEY_PLUS** = **43** --- + key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:899
+msgid "**KEY_COMMA** = **44** --- , key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:901
+msgid "**KEY_MINUS** = **45** --- - key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:903
+msgid "**KEY_PERIOD** = **46** --- . key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:905
+msgid "**KEY_SLASH** = **47** --- / key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:907
+msgid "**KEY_0** = **48** --- Number 0."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:909
+msgid "**KEY_1** = **49** --- Number 1."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:911
+msgid "**KEY_2** = **50** --- Number 2."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:913
+msgid "**KEY_3** = **51** --- Number 3."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:915
+msgid "**KEY_4** = **52** --- Number 4."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:917
+msgid "**KEY_5** = **53** --- Number 5."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:919
+msgid "**KEY_6** = **54** --- Number 6."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:921
+msgid "**KEY_7** = **55** --- Number 7."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:923
+msgid "**KEY_8** = **56** --- Number 8."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:925
+msgid "**KEY_9** = **57** --- Number 9."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:927
+msgid "**KEY_COLON** = **58** --- : key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:929
+msgid "**KEY_SEMICOLON** = **59** --- ; key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:931
+msgid "**KEY_LESS** = **60** --- < key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:933
+msgid "**KEY_EQUAL** = **61** --- = key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:935
+msgid "**KEY_GREATER** = **62** --- > key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:937
+msgid "**KEY_QUESTION** = **63** --- ? key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:939
+msgid "**KEY_AT** = **64** --- @ key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:941
+msgid "**KEY_A** = **65** --- A key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:943
+msgid "**KEY_B** = **66** --- B key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:945
+msgid "**KEY_C** = **67** --- C key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:947
+msgid "**KEY_D** = **68** --- D key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:949
+msgid "**KEY_E** = **69** --- E key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:951
+msgid "**KEY_F** = **70** --- F key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:953
+msgid "**KEY_G** = **71** --- G key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:955
+msgid "**KEY_H** = **72** --- H key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:957
+msgid "**KEY_I** = **73** --- I key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:959
+msgid "**KEY_J** = **74** --- J key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:961
+msgid "**KEY_K** = **75** --- K key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:963
+msgid "**KEY_L** = **76** --- L key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:965
+msgid "**KEY_M** = **77** --- M key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:967
+msgid "**KEY_N** = **78** --- N key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:969
+msgid "**KEY_O** = **79** --- O key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:971
+msgid "**KEY_P** = **80** --- P key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:973
+msgid "**KEY_Q** = **81** --- Q key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:975
+msgid "**KEY_R** = **82** --- R key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:977
+msgid "**KEY_S** = **83** --- S key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:979
+msgid "**KEY_T** = **84** --- T key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:981
+msgid "**KEY_U** = **85** --- U key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:983
+msgid "**KEY_V** = **86** --- V key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:985
+msgid "**KEY_W** = **87** --- W key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:987
+msgid "**KEY_X** = **88** --- X key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:989
+msgid "**KEY_Y** = **89** --- Y key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:991
+msgid "**KEY_Z** = **90** --- Z key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:993
+msgid "**KEY_BRACKETLEFT** = **91** --- [ key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:995
+msgid "**KEY_BACKSLASH** = **92** --- \\\\ key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:997
+msgid "**KEY_BRACKETRIGHT** = **93** --- ] key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:999
+msgid "**KEY_ASCIICIRCUM** = **94** --- ^ key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1001
+msgid "**KEY_UNDERSCORE** = **95** --- \\_ key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1003
+msgid "**KEY_QUOTELEFT** = **96** --- ` key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1005
+msgid "**KEY_BRACELEFT** = **123** --- { key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1007
+msgid "**KEY_BAR** = **124** --- | key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1009
+msgid "**KEY_BRACERIGHT** = **125** --- } key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1011
+msgid "**KEY_ASCIITILDE** = **126** --- ~ key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1013
+msgid "**KEY_NOBREAKSPACE** = **160** --- Non-breakable space key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1015
+msgid "**KEY_EXCLAMDOWN** = **161** --- ¡ key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1017
+msgid "**KEY_CENT** = **162** --- ¢ key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1019
+msgid "**KEY_STERLING** = **163** --- £ key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1021
+msgid "**KEY_CURRENCY** = **164** --- ¤ key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1023
+msgid "**KEY_YEN** = **165** --- ¥ key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1025
+msgid "**KEY_BROKENBAR** = **166** --- ¦ key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1027
+msgid "**KEY_SECTION** = **167** --- § key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1029
+msgid "**KEY_DIAERESIS** = **168** --- ¨ key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1031
+msgid "**KEY_COPYRIGHT** = **169** --- © key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1033
+msgid "**KEY_ORDFEMININE** = **170** --- ª key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1035
+msgid "**KEY_GUILLEMOTLEFT** = **171** --- « key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1037
+msgid "**KEY_NOTSIGN** = **172** --- ¬ key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1039
+msgid "**KEY_HYPHEN** = **173** --- Soft hyphen key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1041
+msgid "**KEY_REGISTERED** = **174** --- ® key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1043
+msgid "**KEY_MACRON** = **175** --- ¯ key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1045
+msgid "**KEY_DEGREE** = **176** --- ° key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1047
+msgid "**KEY_PLUSMINUS** = **177** --- ± key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1049
+msgid "**KEY_TWOSUPERIOR** = **178** --- ² key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1051
+msgid "**KEY_THREESUPERIOR** = **179** --- ³ key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1053
+msgid "**KEY_ACUTE** = **180** --- ´ key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1055
+msgid "**KEY_MU** = **181** --- µ key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1057
+msgid "**KEY_PARAGRAPH** = **182** --- ¶ key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1059
+msgid "**KEY_PERIODCENTERED** = **183** --- · key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1061
+msgid "**KEY_CEDILLA** = **184** --- ¸ key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1063
+msgid "**KEY_ONESUPERIOR** = **185** --- ¹ key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1065
+msgid "**KEY_MASCULINE** = **186** --- º key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1067
+msgid "**KEY_GUILLEMOTRIGHT** = **187** --- » key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1069
+msgid "**KEY_ONEQUARTER** = **188** --- ¼ key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1071
+msgid "**KEY_ONEHALF** = **189** --- ½ key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1073
+msgid "**KEY_THREEQUARTERS** = **190** --- ¾ key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1075
+msgid "**KEY_QUESTIONDOWN** = **191** --- ¿ key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1077
+msgid "**KEY_AGRAVE** = **192** --- À key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1079
+msgid "**KEY_AACUTE** = **193** --- Á key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1081
+msgid "**KEY_ACIRCUMFLEX** = **194** --- Â key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1083
+msgid "**KEY_ATILDE** = **195** --- Ã key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1085
+msgid "**KEY_ADIAERESIS** = **196** --- Ä key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1087
+msgid "**KEY_ARING** = **197** --- Å key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1089
+msgid "**KEY_AE** = **198** --- Æ key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1091
+msgid "**KEY_CCEDILLA** = **199** --- Ç key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1093
+msgid "**KEY_EGRAVE** = **200** --- È key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1095
+msgid "**KEY_EACUTE** = **201** --- É key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1097
+msgid "**KEY_ECIRCUMFLEX** = **202** --- Ê key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1099
+msgid "**KEY_EDIAERESIS** = **203** --- Ë key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1101
+msgid "**KEY_IGRAVE** = **204** --- Ì key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1103
+msgid "**KEY_IACUTE** = **205** --- Í key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1105
+msgid "**KEY_ICIRCUMFLEX** = **206** --- Î key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1107
+msgid "**KEY_IDIAERESIS** = **207** --- Ï key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1109
+msgid "**KEY_ETH** = **208** --- Ð key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1111
+msgid "**KEY_NTILDE** = **209** --- Ñ key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1113
+msgid "**KEY_OGRAVE** = **210** --- Ò key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1115
+msgid "**KEY_OACUTE** = **211** --- Ó key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1117
+msgid "**KEY_OCIRCUMFLEX** = **212** --- Ô key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1119
+msgid "**KEY_OTILDE** = **213** --- Õ key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1121
+msgid "**KEY_ODIAERESIS** = **214** --- Ö key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1123
+msgid "**KEY_MULTIPLY** = **215** --- × key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1125
+msgid "**KEY_OOBLIQUE** = **216** --- Ø key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1127
+msgid "**KEY_UGRAVE** = **217** --- Ù key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1129
+msgid "**KEY_UACUTE** = **218** --- Ú key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1131
+msgid "**KEY_UCIRCUMFLEX** = **219** --- Û key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1133
+msgid "**KEY_UDIAERESIS** = **220** --- Ü key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1135
+msgid "**KEY_YACUTE** = **221** --- Ý key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1137
+msgid "**KEY_THORN** = **222** --- Þ key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1139
+msgid "**KEY_SSHARP** = **223** --- ß key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1141
+msgid "**KEY_DIVISION** = **247** --- ÷ key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1143
+msgid "**KEY_YDIAERESIS** = **255** --- ÿ key."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1167
+msgid "enum **KeyModifierMask**:"
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1169
+msgid "**KEY_CODE_MASK** = **33554431** --- Key Code mask."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1171
+msgid "**KEY_MODIFIER_MASK** = **-16777216** --- Modifier key mask."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1173
+msgid "**KEY_MASK_SHIFT** = **33554432** --- Shift key mask."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1175
+msgid "**KEY_MASK_ALT** = **67108864** --- Alt key mask."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1177
+msgid "**KEY_MASK_META** = **134217728** --- Meta key mask."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1179
+msgid "**KEY_MASK_CTRL** = **268435456** --- Ctrl key mask."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1181
+msgid ""
+"**KEY_MASK_CMD** = **268435456** --- Command key mask. On macOS, this is "
+"equivalent to :ref:"
+"`KEY_MASK_META<class_@GlobalScope_constant_KEY_MASK_META>`. On other "
+"platforms, this is equivalent to :ref:"
+"`KEY_MASK_CTRL<class_@GlobalScope_constant_KEY_MASK_CTRL>`. This mask should "
+"be preferred to :ref:"
+"`KEY_MASK_META<class_@GlobalScope_constant_KEY_MASK_META>` or :ref:"
+"`KEY_MASK_CTRL<class_@GlobalScope_constant_KEY_MASK_CTRL>` for system "
+"shortcuts as it handles all platforms correctly."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1183
+msgid "**KEY_MASK_KPAD** = **536870912** --- Keypad key mask."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1185
+msgid "**KEY_MASK_GROUP_SWITCH** = **1073741824** --- Group Switch key mask."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1219
+msgid "enum **ButtonList**:"
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1221
+msgid "**BUTTON_LEFT** = **1** --- Left mouse button."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1223
+msgid "**BUTTON_RIGHT** = **2** --- Right mouse button."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1225
+msgid "**BUTTON_MIDDLE** = **3** --- Middle mouse button."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1227
+msgid ""
+"**BUTTON_XBUTTON1** = **8** --- Extra mouse button 1 (only present on some "
+"mice)."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1229
+msgid ""
+"**BUTTON_XBUTTON2** = **9** --- Extra mouse button 2 (only present on some "
+"mice)."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1231
+msgid "**BUTTON_WHEEL_UP** = **4** --- Mouse wheel up."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1233
+msgid "**BUTTON_WHEEL_DOWN** = **5** --- Mouse wheel down."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1235
+msgid ""
+"**BUTTON_WHEEL_LEFT** = **6** --- Mouse wheel left button (only present on "
+"some mice)."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1237
+msgid ""
+"**BUTTON_WHEEL_RIGHT** = **7** --- Mouse wheel right button (only present on "
+"some mice)."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1239
+msgid "**BUTTON_MASK_LEFT** = **1** --- Left mouse button mask."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1241
+msgid "**BUTTON_MASK_RIGHT** = **2** --- Right mouse button mask."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1243
+msgid "**BUTTON_MASK_MIDDLE** = **4** --- Middle mouse button mask."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1245
+msgid "**BUTTON_MASK_XBUTTON1** = **128** --- Extra mouse button 1 mask."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1247
+msgid "**BUTTON_MASK_XBUTTON2** = **256** --- Extra mouse button 2 mask."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1393
+msgid "enum **JoystickList**:"
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1395
+msgid "**JOY_INVALID_OPTION** = **-1** --- Invalid button or axis."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1397
+msgid "**JOY_BUTTON_0** = **0** --- Gamepad button 0."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1399
+msgid "**JOY_BUTTON_1** = **1** --- Gamepad button 1."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1401
+msgid "**JOY_BUTTON_2** = **2** --- Gamepad button 2."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1403
+msgid "**JOY_BUTTON_3** = **3** --- Gamepad button 3."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1405
+msgid "**JOY_BUTTON_4** = **4** --- Gamepad button 4."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1407
+msgid "**JOY_BUTTON_5** = **5** --- Gamepad button 5."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1409
+msgid "**JOY_BUTTON_6** = **6** --- Gamepad button 6."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1411
+msgid "**JOY_BUTTON_7** = **7** --- Gamepad button 7."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1413
+msgid "**JOY_BUTTON_8** = **8** --- Gamepad button 8."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1415
+msgid "**JOY_BUTTON_9** = **9** --- Gamepad button 9."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1417
+msgid "**JOY_BUTTON_10** = **10** --- Gamepad button 10."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1419
+msgid "**JOY_BUTTON_11** = **11** --- Gamepad button 11."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1421
+msgid "**JOY_BUTTON_12** = **12** --- Gamepad button 12."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1423
+msgid "**JOY_BUTTON_13** = **13** --- Gamepad button 13."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1425
+msgid "**JOY_BUTTON_14** = **14** --- Gamepad button 14."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1427
+msgid "**JOY_BUTTON_15** = **15** --- Gamepad button 15."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1429
+msgid ""
+"**JOY_BUTTON_MAX** = **16** --- Represents the maximum number of joystick "
+"buttons supported."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1431
+msgid "**JOY_SONY_CIRCLE** = **1** --- DualShock circle button."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1433
+msgid "**JOY_SONY_X** = **0** --- DualShock X button."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1435
+msgid "**JOY_SONY_SQUARE** = **2** --- DualShock square button."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1437
+msgid "**JOY_SONY_TRIANGLE** = **3** --- DualShock triangle button."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1439
+msgid "**JOY_XBOX_B** = **1** --- Xbox controller B button."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1441
+msgid "**JOY_XBOX_A** = **0** --- Xbox controller A button."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1443
+msgid "**JOY_XBOX_X** = **2** --- Xbox controller X button."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1445
+msgid "**JOY_XBOX_Y** = **3** --- Xbox controller Y button."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1447
+msgid "**JOY_DS_A** = **1** --- Nintendo controller A button."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1449
+msgid "**JOY_DS_B** = **0** --- Nintendo controller B button."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1451
+msgid "**JOY_DS_X** = **3** --- Nintendo controller X button."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1453
+msgid "**JOY_DS_Y** = **2** --- Nintendo controller Y button."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1455
+msgid "**JOY_VR_GRIP** = **2** --- Grip (side) buttons on a VR controller."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1457
+msgid ""
+"**JOY_VR_PAD** = **14** --- Push down on the touchpad or main joystick on a "
+"VR controller."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1459
+msgid "**JOY_VR_TRIGGER** = **15** --- Trigger on a VR controller."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1461
+msgid ""
+"**JOY_OCULUS_AX** = **7** --- A button on the right Oculus Touch controller, "
+"X button on the left controller (also when used in OpenVR)."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1463
+msgid ""
+"**JOY_OCULUS_BY** = **1** --- B button on the right Oculus Touch controller, "
+"Y button on the left controller (also when used in OpenVR)."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1465
+msgid ""
+"**JOY_OCULUS_MENU** = **3** --- Menu button on either Oculus Touch "
+"controller."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1467
+msgid ""
+"**JOY_OPENVR_MENU** = **1** --- Menu button in OpenVR (Except when Oculus "
+"Touch controllers are used)."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1469
+msgid "**JOY_SELECT** = **10** --- Gamepad button Select."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1471
+msgid "**JOY_START** = **11** --- Gamepad button Start."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1473
+msgid "**JOY_DPAD_UP** = **12** --- Gamepad DPad up."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1475
+msgid "**JOY_DPAD_DOWN** = **13** --- Gamepad DPad down."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1477
+msgid "**JOY_DPAD_LEFT** = **14** --- Gamepad DPad left."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1479
+msgid "**JOY_DPAD_RIGHT** = **15** --- Gamepad DPad right."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1481
+msgid "**JOY_L** = **4** --- Gamepad left Shoulder button."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1483
+msgid "**JOY_L2** = **6** --- Gamepad left trigger."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1485
+msgid "**JOY_L3** = **8** --- Gamepad left stick click."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1487
+msgid "**JOY_R** = **5** --- Gamepad right Shoulder button."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1489
+msgid "**JOY_R2** = **7** --- Gamepad right trigger."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1491
+msgid "**JOY_R3** = **9** --- Gamepad right stick click."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1493
+msgid "**JOY_AXIS_0** = **0** --- Gamepad left stick horizontal axis."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1495
+msgid "**JOY_AXIS_1** = **1** --- Gamepad left stick vertical axis."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1497
+msgid "**JOY_AXIS_2** = **2** --- Gamepad right stick horizontal axis."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1499
+msgid "**JOY_AXIS_3** = **3** --- Gamepad right stick vertical axis."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1501
+msgid "**JOY_AXIS_4** = **4** --- Generic gamepad axis 4."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1503
+msgid "**JOY_AXIS_5** = **5** --- Generic gamepad axis 5."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1505
+msgid "**JOY_AXIS_6** = **6** --- Gamepad left trigger analog axis."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1507
+msgid "**JOY_AXIS_7** = **7** --- Gamepad right trigger analog axis."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1509
+msgid "**JOY_AXIS_8** = **8** --- Generic gamepad axis 8."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1511
+msgid "**JOY_AXIS_9** = **9** --- Generic gamepad axis 9."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1513
+msgid ""
+"**JOY_AXIS_MAX** = **10** --- Represents the maximum number of joystick axes "
+"supported."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1515
+msgid "**JOY_ANALOG_LX** = **0** --- Gamepad left stick horizontal axis."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1517
+msgid "**JOY_ANALOG_LY** = **1** --- Gamepad left stick vertical axis."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1519
+msgid "**JOY_ANALOG_RX** = **2** --- Gamepad right stick horizontal axis."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1521
+msgid "**JOY_ANALOG_RY** = **3** --- Gamepad right stick vertical axis."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1523
+msgid "**JOY_ANALOG_L2** = **6** --- Gamepad left analog trigger."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1525
+msgid "**JOY_ANALOG_R2** = **7** --- Gamepad right analog trigger."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1527
+msgid "**JOY_VR_ANALOG_TRIGGER** = **2** --- VR Controller analog trigger."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1529
+msgid ""
+"**JOY_VR_ANALOG_GRIP** = **4** --- VR Controller analog grip (side buttons)."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1531
+msgid ""
+"**JOY_OPENVR_TOUCHPADX** = **0** --- OpenVR touchpad X axis (Joystick axis "
+"on Oculus Touch and Windows MR controllers)."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1533
+msgid ""
+"**JOY_OPENVR_TOUCHPADY** = **1** --- OpenVR touchpad Y axis (Joystick axis "
+"on Oculus Touch and Windows MR controllers)."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1553
+msgid "enum **MidiMessageList**:"
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1555
+msgid "**MIDI_MESSAGE_NOTE_OFF** = **8** --- MIDI note OFF message."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1557
+msgid "**MIDI_MESSAGE_NOTE_ON** = **9** --- MIDI note ON message."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1559
+msgid "**MIDI_MESSAGE_AFTERTOUCH** = **10** --- MIDI aftertouch message."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1561
+msgid ""
+"**MIDI_MESSAGE_CONTROL_CHANGE** = **11** --- MIDI control change message."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1563
+msgid ""
+"**MIDI_MESSAGE_PROGRAM_CHANGE** = **12** --- MIDI program change message."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1565
+msgid ""
+"**MIDI_MESSAGE_CHANNEL_PRESSURE** = **13** --- MIDI channel pressure message."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1567
+msgid "**MIDI_MESSAGE_PITCH_BEND** = **14** --- MIDI pitch bend message."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1671
+msgid "enum **Error**:"
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1673
+msgid ""
+"**OK** = **0** --- Methods that return :ref:`Error<enum_@GlobalScope_Error>` "
+"return :ref:`OK<class_@GlobalScope_constant_OK>` when no error occurred. "
+"Note that many functions don't return an error code but will print error "
+"messages to standard output."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1675
+msgid ""
+"Since :ref:`OK<class_@GlobalScope_constant_OK>` has value 0, and all other "
+"failure codes are positive integers, it can also be used in boolean checks, "
+"e.g.:"
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1686
+msgid "**FAILED** = **1** --- Generic error."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1688
+msgid "**ERR_UNAVAILABLE** = **2** --- Unavailable error."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1690
+msgid "**ERR_UNCONFIGURED** = **3** --- Unconfigured error."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1692
+msgid "**ERR_UNAUTHORIZED** = **4** --- Unauthorized error."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1694
+msgid "**ERR_PARAMETER_RANGE_ERROR** = **5** --- Parameter range error."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1696
+msgid "**ERR_OUT_OF_MEMORY** = **6** --- Out of memory (OOM) error."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1698
+msgid "**ERR_FILE_NOT_FOUND** = **7** --- File: Not found error."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1700
+msgid "**ERR_FILE_BAD_DRIVE** = **8** --- File: Bad drive error."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1702
+msgid "**ERR_FILE_BAD_PATH** = **9** --- File: Bad path error."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1704
+msgid "**ERR_FILE_NO_PERMISSION** = **10** --- File: No permission error."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1706
+msgid "**ERR_FILE_ALREADY_IN_USE** = **11** --- File: Already in use error."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1708
+msgid "**ERR_FILE_CANT_OPEN** = **12** --- File: Can't open error."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1710
+msgid "**ERR_FILE_CANT_WRITE** = **13** --- File: Can't write error."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1712
+msgid "**ERR_FILE_CANT_READ** = **14** --- File: Can't read error."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1714
+msgid "**ERR_FILE_UNRECOGNIZED** = **15** --- File: Unrecognized error."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1716
+msgid "**ERR_FILE_CORRUPT** = **16** --- File: Corrupt error."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1718
+msgid ""
+"**ERR_FILE_MISSING_DEPENDENCIES** = **17** --- File: Missing dependencies "
+"error."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1720
+msgid "**ERR_FILE_EOF** = **18** --- File: End of file (EOF) error."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1722
+msgid "**ERR_CANT_OPEN** = **19** --- Can't open error."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1724
+msgid "**ERR_CANT_CREATE** = **20** --- Can't create error."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1726
+msgid "**ERR_QUERY_FAILED** = **21** --- Query failed error."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1728
+msgid "**ERR_ALREADY_IN_USE** = **22** --- Already in use error."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1730
+msgid "**ERR_LOCKED** = **23** --- Locked error."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1732
+msgid "**ERR_TIMEOUT** = **24** --- Timeout error."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1734
+msgid "**ERR_CANT_CONNECT** = **25** --- Can't connect error."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1736
+msgid "**ERR_CANT_RESOLVE** = **26** --- Can't resolve error."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1738
+msgid "**ERR_CONNECTION_ERROR** = **27** --- Connection error."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1740
+msgid ""
+"**ERR_CANT_ACQUIRE_RESOURCE** = **28** --- Can't acquire resource error."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1742
+msgid "**ERR_CANT_FORK** = **29** --- Can't fork process error."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1744
+msgid "**ERR_INVALID_DATA** = **30** --- Invalid data error."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1746
+msgid "**ERR_INVALID_PARAMETER** = **31** --- Invalid parameter error."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1748
+msgid "**ERR_ALREADY_EXISTS** = **32** --- Already exists error."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1750
+msgid "**ERR_DOES_NOT_EXIST** = **33** --- Does not exist error."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1752
+msgid "**ERR_DATABASE_CANT_READ** = **34** --- Database: Read error."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1754
+msgid "**ERR_DATABASE_CANT_WRITE** = **35** --- Database: Write error."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1756
+msgid "**ERR_COMPILATION_FAILED** = **36** --- Compilation failed error."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1758
+msgid "**ERR_METHOD_NOT_FOUND** = **37** --- Method not found error."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1760
+msgid "**ERR_LINK_FAILED** = **38** --- Linking failed error."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1762
+msgid "**ERR_SCRIPT_FAILED** = **39** --- Script failed error."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1764
+msgid "**ERR_CYCLIC_LINK** = **40** --- Cycling link (import cycle) error."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1766
+msgid "**ERR_INVALID_DECLARATION** = **41** --- Invalid declaration error."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1768
+msgid "**ERR_DUPLICATE_SYMBOL** = **42** --- Duplicate symbol error."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1770
+msgid "**ERR_PARSE_ERROR** = **43** --- Parse error."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1772
+msgid "**ERR_BUSY** = **44** --- Busy error."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1774
+msgid "**ERR_SKIP** = **45** --- Skip error."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1776
+msgid "**ERR_HELP** = **46** --- Help error."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1778
+msgid "**ERR_BUG** = **47** --- Bug error."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1780
+msgid ""
+"**ERR_PRINTER_ON_FIRE** = **48** --- Printer on fire error. (This is an "
+"easter egg, no engine methods return this error code.)"
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1830
+msgid "enum **PropertyHint**:"
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1832
+msgid "**PROPERTY_HINT_NONE** = **0** --- No hint for the edited property."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1834
+msgid ""
+"**PROPERTY_HINT_RANGE** = **1** --- Hints that an integer or float property "
+"should be within a range specified via the hint string ``\"min,max\"`` or ``"
+"\"min,max,step\"``. The hint string can optionally include ``\"or_greater"
+"\"`` and/or ``\"or_lesser\"`` to allow manual input going respectively above "
+"the max or below the min values. Example: ``\"-360,360,1,or_greater,or_lesser"
+"\"``."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1836
+msgid ""
+"**PROPERTY_HINT_EXP_RANGE** = **2** --- Hints that an integer or float "
+"property should be within an exponential range specified via the hint string "
+"``\"min,max\"`` or ``\"min,max,step\"``. The hint string can optionally "
+"include ``\"or_greater\"`` and/or ``\"or_lesser\"`` to allow manual input "
+"going respectively above the max or below the min values. Example: ``"
+"\"0.01,100,0.01,or_greater\"``."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1838
+msgid ""
+"**PROPERTY_HINT_ENUM** = **3** --- Hints that an integer, float or string "
+"property is an enumerated value to pick in a list specified via a hint "
+"string such as ``\"Hello,Something,Else\"``."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1840
+msgid ""
+"**PROPERTY_HINT_EXP_EASING** = **4** --- Hints that a float property should "
+"be edited via an exponential easing function. The hint string can include ``"
+"\"attenuation\"`` to flip the curve horizontally and/or ``\"inout\"`` to "
+"also include in/out easing."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1842
+msgid "**PROPERTY_HINT_LENGTH** = **5** --- Deprecated hint, unused."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1844
+msgid "**PROPERTY_HINT_KEY_ACCEL** = **7** --- Deprecated hint, unused."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1846
+msgid ""
+"**PROPERTY_HINT_FLAGS** = **8** --- Hints that an integer property is a "
+"bitmask with named bit flags. For example, to allow toggling bits 0, 1, 2 "
+"and 4, the hint could be something like ``\"Bit0,Bit1,Bit2,,Bit4\"``."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1848
+msgid ""
+"**PROPERTY_HINT_LAYERS_2D_RENDER** = **9** --- Hints that an integer "
+"property is a bitmask using the optionally named 2D render layers."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1850
+msgid ""
+"**PROPERTY_HINT_LAYERS_2D_PHYSICS** = **10** --- Hints that an integer "
+"property is a bitmask using the optionally named 2D physics layers."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1852
+msgid ""
+"**PROPERTY_HINT_LAYERS_3D_RENDER** = **11** --- Hints that an integer "
+"property is a bitmask using the optionally named 3D render layers."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1854
+msgid ""
+"**PROPERTY_HINT_LAYERS_3D_PHYSICS** = **12** --- Hints that an integer "
+"property is a bitmask using the optionally named 3D physics layers."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1856
+msgid ""
+"**PROPERTY_HINT_FILE** = **13** --- Hints that a string property is a path "
+"to a file. Editing it will show a file dialog for picking the path. The hint "
+"string can be a set of filters with wildcards like ``\"*.png,*.jpg\"``."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1858
+msgid ""
+"**PROPERTY_HINT_DIR** = **14** --- Hints that a string property is a path to "
+"a directory. Editing it will show a file dialog for picking the path."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1860
+msgid ""
+"**PROPERTY_HINT_GLOBAL_FILE** = **15** --- Hints that a string property is "
+"an absolute path to a file outside the project folder. Editing it will show "
+"a file dialog for picking the path. The hint string can be a set of filters "
+"with wildcards like ``\"*.png,*.jpg\"``."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1862
+msgid ""
+"**PROPERTY_HINT_GLOBAL_DIR** = **16** --- Hints that a string property is an "
+"absolute path to a directory outside the project folder. Editing it will "
+"show a file dialog for picking the path."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1864
+msgid ""
+"**PROPERTY_HINT_RESOURCE_TYPE** = **17** --- Hints that a property is an "
+"instance of a :ref:`Resource<class_Resource>`-derived type, optionally "
+"specified via the hint string (e.g. ``\"Texture\"``). Editing it will show a "
+"popup menu of valid resource types to instantiate."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1866
+msgid ""
+"**PROPERTY_HINT_MULTILINE_TEXT** = **18** --- Hints that a string property "
+"is text with line breaks. Editing it will show a text input field where line "
+"breaks can be typed."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1868
+msgid ""
+"**PROPERTY_HINT_PLACEHOLDER_TEXT** = **19** --- Hints that a string property "
+"should have a placeholder text visible on its input field, whenever the "
+"property is empty. The hint string is the placeholder text to use."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1870
+msgid ""
+"**PROPERTY_HINT_COLOR_NO_ALPHA** = **20** --- Hints that a color property "
+"should be edited without changing its alpha component, i.e. only R, G and B "
+"channels are edited."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1872
+msgid ""
+"**PROPERTY_HINT_IMAGE_COMPRESS_LOSSY** = **21** --- Hints that an image is "
+"compressed using lossy compression."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1874
+msgid ""
+"**PROPERTY_HINT_IMAGE_COMPRESS_LOSSLESS** = **22** --- Hints that an image "
+"is compressed using lossless compression."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1910
+msgid "enum **PropertyUsageFlags**:"
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1912
+msgid ""
+"**PROPERTY_USAGE_STORAGE** = **1** --- The property is serialized and saved "
+"in the scene file (default)."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1914
+msgid ""
+"**PROPERTY_USAGE_EDITOR** = **2** --- The property is shown in the editor "
+"inspector (default)."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1916
+msgid "**PROPERTY_USAGE_NETWORK** = **4** --- Deprecated usage flag, unused."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1918
+msgid ""
+"**PROPERTY_USAGE_EDITOR_HELPER** = **8** --- Deprecated usage flag, unused."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1920
+msgid ""
+"**PROPERTY_USAGE_CHECKABLE** = **16** --- The property can be checked in the "
+"editor inspector."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1922
+msgid ""
+"**PROPERTY_USAGE_CHECKED** = **32** --- The property is checked in the "
+"editor inspector."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1924
+msgid ""
+"**PROPERTY_USAGE_INTERNATIONALIZED** = **64** --- The property is a "
+"translatable string."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1926
+msgid ""
+"**PROPERTY_USAGE_GROUP** = **128** --- Used to group properties together in "
+"the editor."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1928
+msgid ""
+"**PROPERTY_USAGE_CATEGORY** = **256** --- Used to categorize properties "
+"together in the editor."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1930
+msgid ""
+"**PROPERTY_USAGE_NO_INSTANCE_STATE** = **2048** --- The property does not "
+"save its state in :ref:`PackedScene<class_PackedScene>`."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1932
+msgid ""
+"**PROPERTY_USAGE_RESTART_IF_CHANGED** = **4096** --- Editing the property "
+"prompts the user for restarting the editor."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1934
+msgid ""
+"**PROPERTY_USAGE_SCRIPT_VARIABLE** = **8192** --- The property is a script "
+"variable which should be serialized and saved in the scene file."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1936
+msgid ""
+"**PROPERTY_USAGE_DEFAULT** = **7** --- Default usage (storage, editor and "
+"network)."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1938
+msgid ""
+"**PROPERTY_USAGE_DEFAULT_INTL** = **71** --- Default usage for translatable "
+"strings (storage, editor, network and internationalized)."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1940
+msgid ""
+"**PROPERTY_USAGE_NOEDITOR** = **5** --- Default usage but without showing "
+"the property in the editor (storage, network)."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1962
+msgid "enum **MethodFlags**:"
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1964
+msgid "**METHOD_FLAG_NORMAL** = **1** --- Flag for a normal method."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1966
+msgid "**METHOD_FLAG_EDITOR** = **2** --- Flag for an editor method."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1968
+msgid "**METHOD_FLAG_NOSCRIPT** = **4** --- Deprecated method flag, unused."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1970
+msgid "**METHOD_FLAG_CONST** = **8** --- Flag for a constant method."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1972
+msgid "**METHOD_FLAG_REVERSE** = **16** --- Deprecated method flag, unused."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1974
+msgid "**METHOD_FLAG_VIRTUAL** = **32** --- Flag for a virtual method."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1976
+msgid ""
+"**METHOD_FLAG_FROM_SCRIPT** = **64** --- Deprecated method flag, unused."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:1978
+msgid "**METHOD_FLAGS_DEFAULT** = **1** --- Default method flags."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:2040
+msgid "enum **Variant.Type**:"
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:2042
+msgid "**TYPE_NIL** = **0** --- Variable is ``null``."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:2044
+msgid "**TYPE_BOOL** = **1** --- Variable is of type :ref:`bool<class_bool>`."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:2046
+msgid "**TYPE_INT** = **2** --- Variable is of type :ref:`int<class_int>`."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:2048
+msgid ""
+"**TYPE_REAL** = **3** --- Variable is of type :ref:`float<class_float>` "
+"(real)."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:2050
+msgid ""
+"**TYPE_STRING** = **4** --- Variable is of type :ref:`String<class_String>`."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:2052
+msgid ""
+"**TYPE_VECTOR2** = **5** --- Variable is of type :ref:"
+"`Vector2<class_Vector2>`."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:2054
+msgid ""
+"**TYPE_RECT2** = **6** --- Variable is of type :ref:`Rect2<class_Rect2>`."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:2056
+msgid ""
+"**TYPE_VECTOR3** = **7** --- Variable is of type :ref:"
+"`Vector3<class_Vector3>`."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:2058
+msgid ""
+"**TYPE_TRANSFORM2D** = **8** --- Variable is of type :ref:"
+"`Transform2D<class_Transform2D>`."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:2060
+msgid ""
+"**TYPE_PLANE** = **9** --- Variable is of type :ref:`Plane<class_Plane>`."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:2062
+msgid "**TYPE_QUAT** = **10** --- Variable is of type :ref:`Quat<class_Quat>`."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:2064
+msgid "**TYPE_AABB** = **11** --- Variable is of type :ref:`AABB<class_AABB>`."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:2066
+msgid ""
+"**TYPE_BASIS** = **12** --- Variable is of type :ref:`Basis<class_Basis>`."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:2068
+msgid ""
+"**TYPE_TRANSFORM** = **13** --- Variable is of type :ref:"
+"`Transform<class_Transform>`."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:2070
+msgid ""
+"**TYPE_COLOR** = **14** --- Variable is of type :ref:`Color<class_Color>`."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:2072
+msgid ""
+"**TYPE_NODE_PATH** = **15** --- Variable is of type :ref:"
+"`NodePath<class_NodePath>`."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:2074
+msgid "**TYPE_RID** = **16** --- Variable is of type :ref:`RID<class_RID>`."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:2076
+msgid ""
+"**TYPE_OBJECT** = **17** --- Variable is of type :ref:`Object<class_Object>`."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:2078
+msgid ""
+"**TYPE_DICTIONARY** = **18** --- Variable is of type :ref:"
+"`Dictionary<class_Dictionary>`."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:2080
+msgid ""
+"**TYPE_ARRAY** = **19** --- Variable is of type :ref:`Array<class_Array>`."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:2082
+msgid ""
+"**TYPE_RAW_ARRAY** = **20** --- Variable is of type :ref:"
+"`PoolByteArray<class_PoolByteArray>`."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:2084
+msgid ""
+"**TYPE_INT_ARRAY** = **21** --- Variable is of type :ref:"
+"`PoolIntArray<class_PoolIntArray>`."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:2086
+msgid ""
+"**TYPE_REAL_ARRAY** = **22** --- Variable is of type :ref:"
+"`PoolRealArray<class_PoolRealArray>`."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:2088
+msgid ""
+"**TYPE_STRING_ARRAY** = **23** --- Variable is of type :ref:"
+"`PoolStringArray<class_PoolStringArray>`."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:2090
+msgid ""
+"**TYPE_VECTOR2_ARRAY** = **24** --- Variable is of type :ref:"
+"`PoolVector2Array<class_PoolVector2Array>`."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:2092
+msgid ""
+"**TYPE_VECTOR3_ARRAY** = **25** --- Variable is of type :ref:"
+"`PoolVector3Array<class_PoolVector3Array>`."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:2094
+msgid ""
+"**TYPE_COLOR_ARRAY** = **26** --- Variable is of type :ref:"
+"`PoolColorArray<class_PoolColorArray>`."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:2096
+msgid ""
+"**TYPE_MAX** = **27** --- Represents the size of the :ref:`Variant."
+"Type<enum_@GlobalScope_Variant.Type>` enum."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:2154
+msgid "enum **Variant.Operator**:"
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:2156
+msgid "**OP_EQUAL** = **0** --- Equality operator (``==``)."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:2158
+msgid "**OP_NOT_EQUAL** = **1** --- Inequality operator (``!=``)."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:2160
+msgid "**OP_LESS** = **2** --- Less than operator (``<``)."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:2162
+msgid "**OP_LESS_EQUAL** = **3** --- Less than or equal operator (``<=``)."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:2164
+msgid "**OP_GREATER** = **4** --- Greater than operator (``>``)."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:2166
+msgid ""
+"**OP_GREATER_EQUAL** = **5** --- Greater than or equal operator (``>=``)."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:2168
+msgid "**OP_ADD** = **6** --- Addition operator (``+``)."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:2170
+msgid "**OP_SUBTRACT** = **7** --- Subtraction operator (``-``)."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:2172
+msgid "**OP_MULTIPLY** = **8** --- Multiplication operator (``*``)."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:2174
+msgid "**OP_DIVIDE** = **9** --- Division operator (``/``)."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:2176
+msgid "**OP_NEGATE** = **10** --- Unary negation operator (``-``)."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:2178
+msgid "**OP_POSITIVE** = **11** --- Unary plus operator (``+``)."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:2180
+msgid "**OP_MODULE** = **12** --- Remainder/modulo operator (``%``)."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:2182
+msgid ""
+"**OP_STRING_CONCAT** = **13** --- String concatenation operator (``+``)."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:2184
+msgid "**OP_SHIFT_LEFT** = **14** --- Left shift operator (``<<``)."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:2186
+msgid "**OP_SHIFT_RIGHT** = **15** --- Right shift operator (``>>``)."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:2188
+msgid "**OP_BIT_AND** = **16** --- Bitwise AND operator (``&``)."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:2190
+msgid "**OP_BIT_OR** = **17** --- Bitwise OR operator (``|``)."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:2192
+msgid "**OP_BIT_XOR** = **18** --- Bitwise XOR operator (``^``)."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:2194
+msgid "**OP_BIT_NEGATE** = **19** --- Bitwise NOT operator (``~``)."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:2196
+msgid "**OP_AND** = **20** --- Logical AND operator (``and`` or ``&&``)."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:2198
+msgid "**OP_OR** = **21** --- Logical OR operator (``or`` or ``||``)."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:2200
+msgid ""
+"**OP_XOR** = **22** --- Logical XOR operator (not implemented in GDScript)."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:2202
+msgid "**OP_NOT** = **23** --- Logical NOT operator (``not`` or ``!``)."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:2204
+msgid "**OP_IN** = **24** --- Logical IN operator (``in``)."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:2206
+msgid ""
+"**OP_MAX** = **25** --- Represents the size of the :ref:`Variant."
+"Operator<enum_@GlobalScope_Variant.Operator>` enum."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:2209
+msgid "Constants"
+msgstr "常量"
+
+#: ../../docs/classes/class_@globalscope.rst:2213
+msgid ""
+"**SPKEY** = **16777216** --- Scancodes with this bit applied are non-"
+"printable."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:2216
+msgid "Property Descriptions"
+msgstr "属性说明"
+
+#: ../../docs/classes/class_@globalscope.rst:2220
+msgid ":ref:`ARVRServer<class_ARVRServer>` **ARVRServer**"
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:2222
+msgid "The :ref:`ARVRServer<class_ARVRServer>` singleton."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:2228
+msgid ":ref:`AudioServer<class_AudioServer>` **AudioServer**"
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:2230
+msgid "The :ref:`AudioServer<class_AudioServer>` singleton."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:2236
+msgid ":ref:`CameraServer<class_CameraServer>` **CameraServer**"
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:2238
+msgid "The :ref:`CameraServer<class_CameraServer>` singleton."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:2244
+msgid ":ref:`ClassDB<class_ClassDB>` **ClassDB**"
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:2246
+msgid "The :ref:`ClassDB<class_ClassDB>` singleton."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:2252
+msgid ":ref:`Engine<class_Engine>` **Engine**"
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:2254
+msgid "The :ref:`Engine<class_Engine>` singleton."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:2260
+msgid ":ref:`Geometry<class_Geometry>` **Geometry**"
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:2262
+msgid "The :ref:`Geometry<class_Geometry>` singleton."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:2268
+msgid ":ref:`GodotSharp<class_GodotSharp>` **GodotSharp**"
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:2270
+msgid "The :ref:`GodotSharp<class_GodotSharp>` singleton."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:2276
+msgid ":ref:`IP<class_IP>` **IP**"
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:2278
+msgid "The :ref:`IP<class_IP>` singleton."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:2284
+msgid ":ref:`Input<class_Input>` **Input**"
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:2286
+msgid "The :ref:`Input<class_Input>` singleton."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:2292
+msgid ":ref:`InputMap<class_InputMap>` **InputMap**"
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:2294
+msgid "The :ref:`InputMap<class_InputMap>` singleton."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:2300
+msgid ":ref:`JSON<class_JSON>` **JSON**"
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:2302
+msgid "The :ref:`JSON<class_JSON>` singleton."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:2308
+msgid ":ref:`JavaClassWrapper<class_JavaClassWrapper>` **JavaClassWrapper**"
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:2310
+msgid "The :ref:`JavaClassWrapper<class_JavaClassWrapper>` singleton."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:2312
+msgid "**Note:** Only implemented on Android."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:2318
+msgid ":ref:`JavaScript<class_JavaScript>` **JavaScript**"
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:2320
+msgid "The :ref:`JavaScript<class_JavaScript>` singleton."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:2322
+msgid "**Note:** Only implemented on HTML5."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:2328
+msgid ":ref:`Marshalls<class_Marshalls>` **Marshalls**"
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:2330
+msgid "The :ref:`Marshalls<class_Marshalls>` singleton."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:2336
+msgid ""
+":ref:`EditorNavigationMeshGenerator<class_EditorNavigationMeshGenerator>` "
+"**NavigationMeshGenerator**"
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:2338
+msgid ""
+"The :ref:"
+"`EditorNavigationMeshGenerator<class_EditorNavigationMeshGenerator>` "
+"singleton."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:2344
+msgid ":ref:`OS<class_OS>` **OS**"
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:2346
+msgid "The :ref:`OS<class_OS>` singleton."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:2352
+msgid ":ref:`Performance<class_Performance>` **Performance**"
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:2354
+msgid "The :ref:`Performance<class_Performance>` singleton."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:2360
+msgid ":ref:`Physics2DServer<class_Physics2DServer>` **Physics2DServer**"
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:2362
+msgid "The :ref:`Physics2DServer<class_Physics2DServer>` singleton."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:2368
+msgid ":ref:`PhysicsServer<class_PhysicsServer>` **PhysicsServer**"
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:2370
+msgid "The :ref:`PhysicsServer<class_PhysicsServer>` singleton."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:2376
+msgid ":ref:`ProjectSettings<class_ProjectSettings>` **ProjectSettings**"
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:2378
+msgid "The :ref:`ProjectSettings<class_ProjectSettings>` singleton."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:2384
+msgid ":ref:`ResourceLoader<class_ResourceLoader>` **ResourceLoader**"
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:2386
+msgid "The :ref:`ResourceLoader<class_ResourceLoader>` singleton."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:2392
+msgid ":ref:`ResourceSaver<class_ResourceSaver>` **ResourceSaver**"
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:2394
+msgid "The :ref:`ResourceSaver<class_ResourceSaver>` singleton."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:2400
+msgid ":ref:`TranslationServer<class_TranslationServer>` **TranslationServer**"
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:2402
+msgid "The :ref:`TranslationServer<class_TranslationServer>` singleton."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:2408
+msgid ""
+":ref:`VisualScriptEditor<class_VisualScriptEditor>` **VisualScriptEditor**"
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:2410
+msgid "The :ref:`VisualScriptEditor<class_VisualScriptEditor>` singleton."
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:2416
+msgid ":ref:`VisualServer<class_VisualServer>` **VisualServer**"
+msgstr ""
+
+#: ../../docs/classes/class_@globalscope.rst:2418
+msgid "The :ref:`VisualServer<class_VisualServer>` singleton."
+msgstr ""

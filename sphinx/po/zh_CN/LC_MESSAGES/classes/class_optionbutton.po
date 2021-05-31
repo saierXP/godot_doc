@@ -1,0 +1,635 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2021, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-31 12:15+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_optionbutton.rst:10
+msgid "OptionButton"
+msgstr ""
+
+#: ../../docs/classes/class_optionbutton.rst:12
+msgid ""
+"**Inherits:** :ref:`Button<class_Button>` **<** :ref:"
+"`BaseButton<class_BaseButton>` **<** :ref:`Control<class_Control>` **<** :"
+"ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:"
+"`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_optionbutton.rst:14
+msgid "Button control that provides selectable options when pressed."
+msgstr ""
+
+#: ../../docs/classes/class_optionbutton.rst:17
+msgid "Description"
+msgstr "描述"
+
+#: ../../docs/classes/class_optionbutton.rst:19
+msgid ""
+"OptionButton is a type button that provides a selectable list of items when "
+"pressed. The item selected becomes the \"current\" item and is displayed as "
+"the button text."
+msgstr ""
+
+#: ../../docs/classes/class_optionbutton.rst:21
+msgid ""
+"See also :ref:`BaseButton<class_BaseButton>` which contains common "
+"properties and methods associated with this node."
+msgstr ""
+
+#: ../../docs/classes/class_optionbutton.rst:24
+msgid "Properties"
+msgstr "属性"
+
+#: ../../docs/classes/class_optionbutton.rst:27
+msgid ":ref:`ActionMode<enum_BaseButton_ActionMode>`"
+msgstr ""
+
+#: ../../docs/classes/class_optionbutton.rst:27
+msgid "action_mode"
+msgstr ""
+
+#: ../../docs/classes/class_optionbutton.rst:27
+#: ../../docs/classes/class_optionbutton.rst:29
+msgid "``0`` *(parent override)*"
+msgstr ""
+
+#: ../../docs/classes/class_optionbutton.rst:29
+msgid ":ref:`TextAlign<enum_Button_TextAlign>`"
+msgstr ""
+
+#: ../../docs/classes/class_optionbutton.rst:29
+msgid "align"
+msgstr ""
+
+#: ../../docs/classes/class_optionbutton.rst:31
+#: ../../docs/classes/class_optionbutton.rst:48
+#: ../../docs/classes/class_optionbutton.rst:52
+#: ../../docs/classes/class_optionbutton.rst:54
+#: ../../docs/classes/class_optionbutton.rst:62
+#: ../../docs/classes/class_optionbutton.rst:89
+#: ../../docs/classes/class_optionbutton.rst:107
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../../docs/classes/class_optionbutton.rst:31
+msgid ":ref:`selected<class_OptionButton_property_selected>`"
+msgstr ""
+
+#: ../../docs/classes/class_optionbutton.rst:31
+#: ../../docs/classes/class_optionbutton.rst:139
+msgid "``-1``"
+msgstr ""
+
+#: ../../docs/classes/class_optionbutton.rst:33
+#: ../../docs/classes/class_optionbutton.rst:66
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_optionbutton.rst:33
+msgid "toggle_mode"
+msgstr ""
+
+#: ../../docs/classes/class_optionbutton.rst:33
+msgid "``true`` *(parent override)*"
+msgstr ""
+
+#: ../../docs/classes/class_optionbutton.rst:37
+msgid "Methods"
+msgstr "方法"
+
+#: ../../docs/classes/class_optionbutton.rst:40
+#: ../../docs/classes/class_optionbutton.rst:42
+#: ../../docs/classes/class_optionbutton.rst:44
+#: ../../docs/classes/class_optionbutton.rst:46
+#: ../../docs/classes/class_optionbutton.rst:68
+#: ../../docs/classes/class_optionbutton.rst:70
+#: ../../docs/classes/class_optionbutton.rst:72
+#: ../../docs/classes/class_optionbutton.rst:74
+#: ../../docs/classes/class_optionbutton.rst:76
+#: ../../docs/classes/class_optionbutton.rst:78
+#: ../../docs/classes/class_optionbutton.rst:80
+msgid "void"
+msgstr ""
+
+#: ../../docs/classes/class_optionbutton.rst:40
+msgid ""
+":ref:`add_icon_item<class_OptionButton_method_add_icon_item>` **(** :ref:"
+"`Texture<class_Texture>` texture, :ref:`String<class_String>` label, :ref:"
+"`int<class_int>` id=-1 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_optionbutton.rst:42
+msgid ""
+":ref:`add_item<class_OptionButton_method_add_item>` **(** :ref:"
+"`String<class_String>` label, :ref:`int<class_int>` id=-1 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_optionbutton.rst:44
+msgid ""
+":ref:`add_separator<class_OptionButton_method_add_separator>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_optionbutton.rst:46
+msgid ":ref:`clear<class_OptionButton_method_clear>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_optionbutton.rst:48
+msgid ""
+":ref:`get_item_count<class_OptionButton_method_get_item_count>` **(** **)** |"
+"const|"
+msgstr ""
+
+#: ../../docs/classes/class_optionbutton.rst:50
+#: ../../docs/classes/class_optionbutton.rst:87
+msgid ":ref:`Texture<class_Texture>`"
+msgstr ""
+
+#: ../../docs/classes/class_optionbutton.rst:50
+msgid ""
+":ref:`get_item_icon<class_OptionButton_method_get_item_icon>` **(** :ref:"
+"`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_optionbutton.rst:52
+msgid ""
+":ref:`get_item_id<class_OptionButton_method_get_item_id>` **(** :ref:"
+"`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_optionbutton.rst:54
+msgid ""
+":ref:`get_item_index<class_OptionButton_method_get_item_index>` **(** :ref:"
+"`int<class_int>` id **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_optionbutton.rst:56
+#: ../../docs/classes/class_optionbutton.rst:64
+msgid ":ref:`Variant<class_Variant>`"
+msgstr ""
+
+#: ../../docs/classes/class_optionbutton.rst:56
+msgid ""
+":ref:`get_item_metadata<class_OptionButton_method_get_item_metadata>` **(** :"
+"ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_optionbutton.rst:58
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../../docs/classes/class_optionbutton.rst:58
+msgid ""
+":ref:`get_item_text<class_OptionButton_method_get_item_text>` **(** :ref:"
+"`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_optionbutton.rst:60
+msgid ":ref:`PopupMenu<class_PopupMenu>`"
+msgstr ""
+
+#: ../../docs/classes/class_optionbutton.rst:60
+msgid ""
+":ref:`get_popup<class_OptionButton_method_get_popup>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_optionbutton.rst:62
+msgid ""
+":ref:`get_selected_id<class_OptionButton_method_get_selected_id>` **(** "
+"**)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_optionbutton.rst:64
+msgid ""
+":ref:"
+"`get_selected_metadata<class_OptionButton_method_get_selected_metadata>` "
+"**(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_optionbutton.rst:66
+msgid ""
+":ref:`is_item_disabled<class_OptionButton_method_is_item_disabled>` **(** :"
+"ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_optionbutton.rst:68
+msgid ""
+":ref:`remove_item<class_OptionButton_method_remove_item>` **(** :ref:"
+"`int<class_int>` idx **)**"
+msgstr ""
+
+#: ../../docs/classes/class_optionbutton.rst:70
+msgid ""
+":ref:`select<class_OptionButton_method_select>` **(** :ref:`int<class_int>` "
+"idx **)**"
+msgstr ""
+
+#: ../../docs/classes/class_optionbutton.rst:72
+msgid ""
+":ref:`set_item_disabled<class_OptionButton_method_set_item_disabled>` **(** :"
+"ref:`int<class_int>` idx, :ref:`bool<class_bool>` disabled **)**"
+msgstr ""
+
+#: ../../docs/classes/class_optionbutton.rst:74
+msgid ""
+":ref:`set_item_icon<class_OptionButton_method_set_item_icon>` **(** :ref:"
+"`int<class_int>` idx, :ref:`Texture<class_Texture>` texture **)**"
+msgstr ""
+
+#: ../../docs/classes/class_optionbutton.rst:76
+msgid ""
+":ref:`set_item_id<class_OptionButton_method_set_item_id>` **(** :ref:"
+"`int<class_int>` idx, :ref:`int<class_int>` id **)**"
+msgstr ""
+
+#: ../../docs/classes/class_optionbutton.rst:78
+msgid ""
+":ref:`set_item_metadata<class_OptionButton_method_set_item_metadata>` **(** :"
+"ref:`int<class_int>` idx, :ref:`Variant<class_Variant>` metadata **)**"
+msgstr ""
+
+#: ../../docs/classes/class_optionbutton.rst:80
+msgid ""
+":ref:`set_item_text<class_OptionButton_method_set_item_text>` **(** :ref:"
+"`int<class_int>` idx, :ref:`String<class_String>` text **)**"
+msgstr ""
+
+#: ../../docs/classes/class_optionbutton.rst:84
+msgid "Theme Properties"
+msgstr "主题属性"
+
+#: ../../docs/classes/class_optionbutton.rst:87
+msgid "arrow"
+msgstr ""
+
+#: ../../docs/classes/class_optionbutton.rst:89
+msgid "arrow_margin"
+msgstr ""
+
+#: ../../docs/classes/class_optionbutton.rst:89
+#: ../../docs/classes/class_optionbutton.rst:107
+msgid "2"
+msgstr ""
+
+#: ../../docs/classes/class_optionbutton.rst:91
+#: ../../docs/classes/class_optionbutton.rst:93
+#: ../../docs/classes/class_optionbutton.rst:105
+#: ../../docs/classes/class_optionbutton.rst:109
+#: ../../docs/classes/class_optionbutton.rst:111
+msgid ":ref:`StyleBox<class_StyleBox>`"
+msgstr ""
+
+#: ../../docs/classes/class_optionbutton.rst:91
+msgid "disabled"
+msgstr ""
+
+#: ../../docs/classes/class_optionbutton.rst:93
+msgid "focus"
+msgstr ""
+
+#: ../../docs/classes/class_optionbutton.rst:95
+msgid ":ref:`Font<class_Font>`"
+msgstr ""
+
+#: ../../docs/classes/class_optionbutton.rst:95
+msgid "font"
+msgstr ""
+
+#: ../../docs/classes/class_optionbutton.rst:97
+#: ../../docs/classes/class_optionbutton.rst:99
+#: ../../docs/classes/class_optionbutton.rst:101
+#: ../../docs/classes/class_optionbutton.rst:103
+msgid ":ref:`Color<class_Color>`"
+msgstr ""
+
+#: ../../docs/classes/class_optionbutton.rst:97
+msgid "font_color"
+msgstr ""
+
+#: ../../docs/classes/class_optionbutton.rst:97
+msgid "Color( 0.88, 0.88, 0.88, 1 )"
+msgstr ""
+
+#: ../../docs/classes/class_optionbutton.rst:99
+msgid "font_color_disabled"
+msgstr ""
+
+#: ../../docs/classes/class_optionbutton.rst:99
+msgid "Color( 0.9, 0.9, 0.9, 0.2 )"
+msgstr ""
+
+#: ../../docs/classes/class_optionbutton.rst:101
+msgid "font_color_hover"
+msgstr ""
+
+#: ../../docs/classes/class_optionbutton.rst:101
+msgid "Color( 0.94, 0.94, 0.94, 1 )"
+msgstr ""
+
+#: ../../docs/classes/class_optionbutton.rst:103
+msgid "font_color_pressed"
+msgstr ""
+
+#: ../../docs/classes/class_optionbutton.rst:103
+msgid "Color( 1, 1, 1, 1 )"
+msgstr ""
+
+#: ../../docs/classes/class_optionbutton.rst:105
+msgid "hover"
+msgstr ""
+
+#: ../../docs/classes/class_optionbutton.rst:107
+msgid "hseparation"
+msgstr ""
+
+#: ../../docs/classes/class_optionbutton.rst:109
+msgid "normal"
+msgstr ""
+
+#: ../../docs/classes/class_optionbutton.rst:111
+msgid "pressed"
+msgstr ""
+
+#: ../../docs/classes/class_optionbutton.rst:115
+msgid "Signals"
+msgstr "信号"
+
+#: ../../docs/classes/class_optionbutton.rst:119
+msgid "**item_focused** **(** :ref:`int<class_int>` index **)**"
+msgstr ""
+
+#: ../../docs/classes/class_optionbutton.rst:121
+msgid ""
+"Emitted when the user navigates to an item using the ``ui_up`` or "
+"``ui_down`` actions. The index of the item selected is passed as argument."
+msgstr ""
+
+#: ../../docs/classes/class_optionbutton.rst:127
+msgid "**item_selected** **(** :ref:`int<class_int>` index **)**"
+msgstr ""
+
+#: ../../docs/classes/class_optionbutton.rst:129
+msgid ""
+"Emitted when the current item has been changed by the user. The index of the "
+"item selected is passed as argument."
+msgstr ""
+
+#: ../../docs/classes/class_optionbutton.rst:132
+msgid "Property Descriptions"
+msgstr "属性说明"
+
+#: ../../docs/classes/class_optionbutton.rst:136
+msgid ":ref:`int<class_int>` **selected**"
+msgstr ""
+
+#: ../../docs/classes/class_optionbutton.rst:139
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_optionbutton.rst:141
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_optionbutton.rst:141
+msgid "get_selected()"
+msgstr ""
+
+#: ../../docs/classes/class_optionbutton.rst:144
+msgid ""
+"The index of the currently selected item, or ``-1`` if no item is selected."
+msgstr ""
+
+#: ../../docs/classes/class_optionbutton.rst:147
+msgid "Method Descriptions"
+msgstr "方法说明"
+
+#: ../../docs/classes/class_optionbutton.rst:151
+msgid ""
+"void **add_icon_item** **(** :ref:`Texture<class_Texture>` texture, :ref:"
+"`String<class_String>` label, :ref:`int<class_int>` id=-1 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_optionbutton.rst:153
+msgid ""
+"Adds an item, with a ``texture`` icon, text ``label`` and (optionally) "
+"``id``. If no ``id`` is passed, the item index will be used as the item's "
+"ID. New items are appended at the end."
+msgstr ""
+
+#: ../../docs/classes/class_optionbutton.rst:159
+msgid ""
+"void **add_item** **(** :ref:`String<class_String>` label, :ref:"
+"`int<class_int>` id=-1 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_optionbutton.rst:161
+msgid ""
+"Adds an item, with text ``label`` and (optionally) ``id``. If no ``id`` is "
+"passed, the item index will be used as the item's ID. New items are appended "
+"at the end."
+msgstr ""
+
+#: ../../docs/classes/class_optionbutton.rst:167
+msgid "void **add_separator** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_optionbutton.rst:169
+msgid ""
+"Adds a separator to the list of items. Separators help to group items. "
+"Separator also takes up an index and is appended at the end."
+msgstr ""
+
+#: ../../docs/classes/class_optionbutton.rst:175
+msgid "void **clear** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_optionbutton.rst:177
+msgid "Clears all the items in the ``OptionButton``."
+msgstr ""
+
+#: ../../docs/classes/class_optionbutton.rst:183
+msgid ":ref:`int<class_int>` **get_item_count** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_optionbutton.rst:185
+msgid "Returns the amount of items in the OptionButton, including separators."
+msgstr ""
+
+#: ../../docs/classes/class_optionbutton.rst:191
+msgid ""
+":ref:`Texture<class_Texture>` **get_item_icon** **(** :ref:`int<class_int>` "
+"idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_optionbutton.rst:193
+msgid "Returns the icon of the item at index ``idx``."
+msgstr ""
+
+#: ../../docs/classes/class_optionbutton.rst:199
+msgid ""
+":ref:`int<class_int>` **get_item_id** **(** :ref:`int<class_int>` idx **)** |"
+"const|"
+msgstr ""
+
+#: ../../docs/classes/class_optionbutton.rst:201
+msgid "Returns the ID of the item at index ``idx``."
+msgstr ""
+
+#: ../../docs/classes/class_optionbutton.rst:207
+msgid ""
+":ref:`int<class_int>` **get_item_index** **(** :ref:`int<class_int>` id "
+"**)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_optionbutton.rst:209
+msgid "Returns the index of the item with the given ``id``."
+msgstr ""
+
+#: ../../docs/classes/class_optionbutton.rst:215
+msgid ""
+":ref:`Variant<class_Variant>` **get_item_metadata** **(** :ref:"
+"`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_optionbutton.rst:217
+msgid ""
+"Retrieves the metadata of an item. Metadata may be any type and can be used "
+"to store extra information about an item, such as an external string ID."
+msgstr ""
+
+#: ../../docs/classes/class_optionbutton.rst:223
+msgid ""
+":ref:`String<class_String>` **get_item_text** **(** :ref:`int<class_int>` "
+"idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_optionbutton.rst:225
+msgid "Returns the text of the item at index ``idx``."
+msgstr ""
+
+#: ../../docs/classes/class_optionbutton.rst:231
+msgid ":ref:`PopupMenu<class_PopupMenu>` **get_popup** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_optionbutton.rst:233
+msgid "Returns the :ref:`PopupMenu<class_PopupMenu>` contained in this button."
+msgstr ""
+
+#: ../../docs/classes/class_optionbutton.rst:239
+msgid ":ref:`int<class_int>` **get_selected_id** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_optionbutton.rst:241
+msgid "Returns the ID of the selected item, or ``0`` if no item is selected."
+msgstr ""
+
+#: ../../docs/classes/class_optionbutton.rst:247
+msgid ""
+":ref:`Variant<class_Variant>` **get_selected_metadata** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_optionbutton.rst:249
+msgid ""
+"Gets the metadata of the selected item. Metadata for items can be set using :"
+"ref:`set_item_metadata<class_OptionButton_method_set_item_metadata>`."
+msgstr ""
+
+#: ../../docs/classes/class_optionbutton.rst:255
+msgid ""
+":ref:`bool<class_bool>` **is_item_disabled** **(** :ref:`int<class_int>` idx "
+"**)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_optionbutton.rst:257
+msgid "Returns ``true`` if the item at index ``idx`` is disabled."
+msgstr ""
+
+#: ../../docs/classes/class_optionbutton.rst:263
+msgid "void **remove_item** **(** :ref:`int<class_int>` idx **)**"
+msgstr ""
+
+#: ../../docs/classes/class_optionbutton.rst:265
+msgid "Removes the item at index ``idx``."
+msgstr ""
+
+#: ../../docs/classes/class_optionbutton.rst:271
+msgid "void **select** **(** :ref:`int<class_int>` idx **)**"
+msgstr ""
+
+#: ../../docs/classes/class_optionbutton.rst:273
+msgid ""
+"Selects an item by index and makes it the current item. This will work even "
+"if the item is disabled."
+msgstr ""
+
+#: ../../docs/classes/class_optionbutton.rst:279
+msgid ""
+"void **set_item_disabled** **(** :ref:`int<class_int>` idx, :ref:"
+"`bool<class_bool>` disabled **)**"
+msgstr ""
+
+#: ../../docs/classes/class_optionbutton.rst:281
+msgid "Sets whether the item at index ``idx`` is disabled."
+msgstr ""
+
+#: ../../docs/classes/class_optionbutton.rst:283
+msgid ""
+"Disabled items are drawn differently in the dropdown and are not selectable "
+"by the user. If the current selected item is set as disabled, it will remain "
+"selected."
+msgstr ""
+
+#: ../../docs/classes/class_optionbutton.rst:289
+msgid ""
+"void **set_item_icon** **(** :ref:`int<class_int>` idx, :ref:"
+"`Texture<class_Texture>` texture **)**"
+msgstr ""
+
+#: ../../docs/classes/class_optionbutton.rst:291
+msgid "Sets the icon of the item at index ``idx``."
+msgstr ""
+
+#: ../../docs/classes/class_optionbutton.rst:297
+msgid ""
+"void **set_item_id** **(** :ref:`int<class_int>` idx, :ref:`int<class_int>` "
+"id **)**"
+msgstr ""
+
+#: ../../docs/classes/class_optionbutton.rst:299
+msgid "Sets the ID of the item at index ``idx``."
+msgstr ""
+
+#: ../../docs/classes/class_optionbutton.rst:305
+msgid ""
+"void **set_item_metadata** **(** :ref:`int<class_int>` idx, :ref:"
+"`Variant<class_Variant>` metadata **)**"
+msgstr ""
+
+#: ../../docs/classes/class_optionbutton.rst:307
+msgid ""
+"Sets the metadata of an item. Metadata may be of any type and can be used to "
+"store extra information about an item, such as an external string ID."
+msgstr ""
+
+#: ../../docs/classes/class_optionbutton.rst:313
+msgid ""
+"void **set_item_text** **(** :ref:`int<class_int>` idx, :ref:"
+"`String<class_String>` text **)**"
+msgstr ""
+
+#: ../../docs/classes/class_optionbutton.rst:315
+msgid "Sets the text of the item at index ``idx``."
+msgstr ""

@@ -1,0 +1,100 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2021, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-31 12:15+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_javascript.rst:10
+msgid "JavaScript"
+msgstr ""
+
+#: ../../docs/classes/class_javascript.rst:12
+msgid "**Inherits:** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_javascript.rst:14
+msgid ""
+"Singleton that connects the engine with the browser's JavaScript context in "
+"HTML5 export."
+msgstr ""
+
+#: ../../docs/classes/class_javascript.rst:17
+msgid "Description"
+msgstr "描述"
+
+#: ../../docs/classes/class_javascript.rst:19
+msgid ""
+"The JavaScript singleton is implemented only in the HTML5 export. It's used "
+"to access the browser's JavaScript context. This allows interaction with "
+"embedding pages or calling third-party JavaScript APIs."
+msgstr ""
+
+#: ../../docs/classes/class_javascript.rst:21
+msgid ""
+"**Note:** This singleton can be disabled at build-time to improve security. "
+"By default, the JavaScript singleton is enabled. Official export templates "
+"also have the JavaScript singleton enabled. See `Compiling for the Web "
+"<https://docs.godotengine.org/en/3.2/development/compiling/compiling_for_web."
+"html>`_ in the documentation for more information."
+msgstr ""
+
+#: ../../docs/classes/class_javascript.rst:24
+msgid "Tutorials"
+msgstr "教程"
+
+#: ../../docs/classes/class_javascript.rst:26
+msgid ""
+"`#calling-javascript-from-script <../getting_started/workflow/export/"
+"exporting_for_web.html#calling-javascript-from-script>`_ in :doc:`../"
+"getting_started/workflow/export/exporting_for_web`"
+msgstr ""
+
+#: ../../docs/classes/class_javascript.rst:29
+msgid "Methods"
+msgstr "方法"
+
+#: ../../docs/classes/class_javascript.rst:32
+msgid ":ref:`Variant<class_Variant>`"
+msgstr ""
+
+#: ../../docs/classes/class_javascript.rst:32
+msgid ""
+":ref:`eval<class_JavaScript_method_eval>` **(** :ref:`String<class_String>` "
+"code, :ref:`bool<class_bool>` use_global_execution_context=false **)**"
+msgstr ""
+
+#: ../../docs/classes/class_javascript.rst:36
+msgid "Method Descriptions"
+msgstr "方法说明"
+
+#: ../../docs/classes/class_javascript.rst:40
+msgid ""
+":ref:`Variant<class_Variant>` **eval** **(** :ref:`String<class_String>` "
+"code, :ref:`bool<class_bool>` use_global_execution_context=false **)**"
+msgstr ""
+
+#: ../../docs/classes/class_javascript.rst:42
+msgid ""
+"Execute the string ``code`` as JavaScript code within the browser window. "
+"This is a call to the actual global JavaScript function ``eval()``."
+msgstr ""
+
+#: ../../docs/classes/class_javascript.rst:44
+msgid ""
+"If ``use_global_execution_context`` is ``true``, the code will be evaluated "
+"in the global execution context. Otherwise, it is evaluated in the execution "
+"context of a function within the engine's runtime environment."
+msgstr ""

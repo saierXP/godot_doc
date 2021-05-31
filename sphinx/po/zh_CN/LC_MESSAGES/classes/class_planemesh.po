@@ -1,0 +1,163 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2021, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-31 12:15+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_planemesh.rst:10
+msgid "PlaneMesh"
+msgstr ""
+
+#: ../../docs/classes/class_planemesh.rst:12
+msgid ""
+"**Inherits:** :ref:`PrimitiveMesh<class_PrimitiveMesh>` **<** :ref:"
+"`Mesh<class_Mesh>` **<** :ref:`Resource<class_Resource>` **<** :ref:"
+"`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_planemesh.rst:14
+msgid "Class representing a planar :ref:`PrimitiveMesh<class_PrimitiveMesh>`."
+msgstr ""
+
+#: ../../docs/classes/class_planemesh.rst:17
+msgid "Description"
+msgstr "描述"
+
+#: ../../docs/classes/class_planemesh.rst:19
+msgid ""
+"Class representing a planar :ref:`PrimitiveMesh<class_PrimitiveMesh>`. This "
+"flat mesh does not have a thickness. By default, this mesh is aligned on the "
+"X and Z axes; this default rotation isn't suited for use with billboarded "
+"materials. For billboarded materials, use :ref:`QuadMesh<class_QuadMesh>` "
+"instead."
+msgstr ""
+
+#: ../../docs/classes/class_planemesh.rst:21
+msgid ""
+"**Note:** When using a large textured ``PlaneMesh`` (e.g. as a floor), you "
+"may stumble upon UV jittering issues depending on the camera angle. To solve "
+"this, increase :ref:"
+"`subdivide_depth<class_PlaneMesh_property_subdivide_depth>` and :ref:"
+"`subdivide_width<class_PlaneMesh_property_subdivide_width>` until you no "
+"longer notice UV jittering."
+msgstr ""
+
+#: ../../docs/classes/class_planemesh.rst:24
+msgid "Properties"
+msgstr "属性"
+
+#: ../../docs/classes/class_planemesh.rst:27
+msgid ":ref:`Vector2<class_Vector2>`"
+msgstr ""
+
+#: ../../docs/classes/class_planemesh.rst:27
+msgid ":ref:`size<class_PlaneMesh_property_size>`"
+msgstr ""
+
+#: ../../docs/classes/class_planemesh.rst:27
+#: ../../docs/classes/class_planemesh.rst:42
+msgid "``Vector2( 2, 2 )``"
+msgstr ""
+
+#: ../../docs/classes/class_planemesh.rst:29
+#: ../../docs/classes/class_planemesh.rst:31
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../../docs/classes/class_planemesh.rst:29
+msgid ":ref:`subdivide_depth<class_PlaneMesh_property_subdivide_depth>`"
+msgstr ""
+
+#: ../../docs/classes/class_planemesh.rst:29
+#: ../../docs/classes/class_planemesh.rst:31
+#: ../../docs/classes/class_planemesh.rst:58
+#: ../../docs/classes/class_planemesh.rst:74
+msgid "``0``"
+msgstr ""
+
+#: ../../docs/classes/class_planemesh.rst:31
+msgid ":ref:`subdivide_width<class_PlaneMesh_property_subdivide_width>`"
+msgstr ""
+
+#: ../../docs/classes/class_planemesh.rst:35
+msgid "Property Descriptions"
+msgstr "属性说明"
+
+#: ../../docs/classes/class_planemesh.rst:39
+msgid ":ref:`Vector2<class_Vector2>` **size**"
+msgstr ""
+
+#: ../../docs/classes/class_planemesh.rst:42
+#: ../../docs/classes/class_planemesh.rst:58
+#: ../../docs/classes/class_planemesh.rst:74
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_planemesh.rst:44
+#: ../../docs/classes/class_planemesh.rst:60
+#: ../../docs/classes/class_planemesh.rst:76
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_planemesh.rst:44
+msgid "set_size(value)"
+msgstr ""
+
+#: ../../docs/classes/class_planemesh.rst:46
+#: ../../docs/classes/class_planemesh.rst:62
+#: ../../docs/classes/class_planemesh.rst:78
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_planemesh.rst:46
+msgid "get_size()"
+msgstr ""
+
+#: ../../docs/classes/class_planemesh.rst:49
+msgid "Size of the generated plane."
+msgstr ""
+
+#: ../../docs/classes/class_planemesh.rst:55
+msgid ":ref:`int<class_int>` **subdivide_depth**"
+msgstr ""
+
+#: ../../docs/classes/class_planemesh.rst:60
+msgid "set_subdivide_depth(value)"
+msgstr ""
+
+#: ../../docs/classes/class_planemesh.rst:62
+msgid "get_subdivide_depth()"
+msgstr ""
+
+#: ../../docs/classes/class_planemesh.rst:65
+msgid "Number of subdivision along the Z axis."
+msgstr ""
+
+#: ../../docs/classes/class_planemesh.rst:71
+msgid ":ref:`int<class_int>` **subdivide_width**"
+msgstr ""
+
+#: ../../docs/classes/class_planemesh.rst:76
+msgid "set_subdivide_width(value)"
+msgstr ""
+
+#: ../../docs/classes/class_planemesh.rst:78
+msgid "get_subdivide_width()"
+msgstr ""
+
+#: ../../docs/classes/class_planemesh.rst:81
+msgid "Number of subdivision along the X axis."
+msgstr ""

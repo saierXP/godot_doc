@@ -1,0 +1,558 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2021, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-31 12:15+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_skeleton.rst:10
+msgid "Skeleton"
+msgstr ""
+
+#: ../../docs/classes/class_skeleton.rst:12
+msgid ""
+"**Inherits:** :ref:`Spatial<class_Spatial>` **<** :ref:`Node<class_Node>` "
+"**<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_skeleton.rst:14
+msgid "Skeleton for characters and animated objects."
+msgstr ""
+
+#: ../../docs/classes/class_skeleton.rst:17
+msgid "Description"
+msgstr "描述"
+
+#: ../../docs/classes/class_skeleton.rst:19
+msgid ""
+"Skeleton provides a hierarchical interface for managing bones, including "
+"pose, rest and animation (see :ref:`Animation<class_Animation>`). It can "
+"also use ragdoll physics."
+msgstr ""
+
+#: ../../docs/classes/class_skeleton.rst:21
+msgid ""
+"The overall transform of a bone with respect to the skeleton is determined "
+"by the following hierarchical order: rest pose, custom pose and pose."
+msgstr ""
+
+#: ../../docs/classes/class_skeleton.rst:23
+msgid ""
+"Note that \"global pose\" below refers to the overall transform of the bone "
+"with respect to skeleton, so it not the actual global/world transform of the "
+"bone."
+msgstr ""
+
+#: ../../docs/classes/class_skeleton.rst:26
+msgid "Tutorials"
+msgstr "教程"
+
+#: ../../docs/classes/class_skeleton.rst:28
+msgid ""
+"`https://godotengine.org/asset-library/asset/523 <https://godotengine.org/"
+"asset-library/asset/523>`_"
+msgstr ""
+
+#: ../../docs/classes/class_skeleton.rst:30
+msgid ""
+"`https://godotengine.org/asset-library/asset/678 <https://godotengine.org/"
+"asset-library/asset/678>`_"
+msgstr ""
+
+#: ../../docs/classes/class_skeleton.rst:33
+msgid "Methods"
+msgstr "方法"
+
+#: ../../docs/classes/class_skeleton.rst:36
+#: ../../docs/classes/class_skeleton.rst:38
+#: ../../docs/classes/class_skeleton.rst:40
+#: ../../docs/classes/class_skeleton.rst:42
+#: ../../docs/classes/class_skeleton.rst:64
+#: ../../docs/classes/class_skeleton.rst:66
+#: ../../docs/classes/class_skeleton.rst:68
+#: ../../docs/classes/class_skeleton.rst:70
+#: ../../docs/classes/class_skeleton.rst:72
+#: ../../docs/classes/class_skeleton.rst:76
+#: ../../docs/classes/class_skeleton.rst:78
+#: ../../docs/classes/class_skeleton.rst:80
+#: ../../docs/classes/class_skeleton.rst:82
+#: ../../docs/classes/class_skeleton.rst:84
+#: ../../docs/classes/class_skeleton.rst:86
+#: ../../docs/classes/class_skeleton.rst:88
+#: ../../docs/classes/class_skeleton.rst:90
+msgid "void"
+msgstr ""
+
+#: ../../docs/classes/class_skeleton.rst:36
+msgid ""
+":ref:`add_bone<class_Skeleton_method_add_bone>` **(** :ref:"
+"`String<class_String>` name **)**"
+msgstr ""
+
+#: ../../docs/classes/class_skeleton.rst:38
+msgid ""
+":ref:"
+"`bind_child_node_to_bone<class_Skeleton_method_bind_child_node_to_bone>` "
+"**(** :ref:`int<class_int>` bone_idx, :ref:`Node<class_Node>` node **)**"
+msgstr ""
+
+#: ../../docs/classes/class_skeleton.rst:40
+msgid ":ref:`clear_bones<class_Skeleton_method_clear_bones>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_skeleton.rst:42
+msgid ""
+":ref:"
+"`clear_bones_global_pose_override<class_Skeleton_method_clear_bones_global_pose_override>` "
+"**(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_skeleton.rst:44
+#: ../../docs/classes/class_skeleton.rst:46
+#: ../../docs/classes/class_skeleton.rst:54
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../../docs/classes/class_skeleton.rst:44
+msgid ""
+":ref:`find_bone<class_Skeleton_method_find_bone>` **(** :ref:"
+"`String<class_String>` name **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_skeleton.rst:46
+msgid ""
+":ref:`get_bone_count<class_Skeleton_method_get_bone_count>` **(** **)** |"
+"const|"
+msgstr ""
+
+#: ../../docs/classes/class_skeleton.rst:48
+#: ../../docs/classes/class_skeleton.rst:50
+#: ../../docs/classes/class_skeleton.rst:56
+#: ../../docs/classes/class_skeleton.rst:58
+msgid ":ref:`Transform<class_Transform>`"
+msgstr ""
+
+#: ../../docs/classes/class_skeleton.rst:48
+msgid ""
+":ref:`get_bone_custom_pose<class_Skeleton_method_get_bone_custom_pose>` "
+"**(** :ref:`int<class_int>` bone_idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_skeleton.rst:50
+msgid ""
+":ref:`get_bone_global_pose<class_Skeleton_method_get_bone_global_pose>` "
+"**(** :ref:`int<class_int>` bone_idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_skeleton.rst:52
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../../docs/classes/class_skeleton.rst:52
+msgid ""
+":ref:`get_bone_name<class_Skeleton_method_get_bone_name>` **(** :ref:"
+"`int<class_int>` bone_idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_skeleton.rst:54
+msgid ""
+":ref:`get_bone_parent<class_Skeleton_method_get_bone_parent>` **(** :ref:"
+"`int<class_int>` bone_idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_skeleton.rst:56
+msgid ""
+":ref:`get_bone_pose<class_Skeleton_method_get_bone_pose>` **(** :ref:"
+"`int<class_int>` bone_idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_skeleton.rst:58
+msgid ""
+":ref:`get_bone_rest<class_Skeleton_method_get_bone_rest>` **(** :ref:"
+"`int<class_int>` bone_idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_skeleton.rst:60
+msgid ":ref:`Array<class_Array>`"
+msgstr ""
+
+#: ../../docs/classes/class_skeleton.rst:60
+msgid ""
+":ref:"
+"`get_bound_child_nodes_to_bone<class_Skeleton_method_get_bound_child_nodes_to_bone>` "
+"**(** :ref:`int<class_int>` bone_idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_skeleton.rst:62
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_skeleton.rst:62
+msgid ""
+":ref:`is_bone_rest_disabled<class_Skeleton_method_is_bone_rest_disabled>` "
+"**(** :ref:`int<class_int>` bone_idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_skeleton.rst:64
+msgid ":ref:`localize_rests<class_Skeleton_method_localize_rests>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_skeleton.rst:66
+msgid ""
+":ref:"
+"`physical_bones_add_collision_exception<class_Skeleton_method_physical_bones_add_collision_exception>` "
+"**(** :ref:`RID<class_RID>` exception **)**"
+msgstr ""
+
+#: ../../docs/classes/class_skeleton.rst:68
+msgid ""
+":ref:"
+"`physical_bones_remove_collision_exception<class_Skeleton_method_physical_bones_remove_collision_exception>` "
+"**(** :ref:`RID<class_RID>` exception **)**"
+msgstr ""
+
+#: ../../docs/classes/class_skeleton.rst:70
+msgid ""
+":ref:"
+"`physical_bones_start_simulation<class_Skeleton_method_physical_bones_start_simulation>` "
+"**(** :ref:`Array<class_Array>` bones=[  ] **)**"
+msgstr ""
+
+#: ../../docs/classes/class_skeleton.rst:72
+msgid ""
+":ref:"
+"`physical_bones_stop_simulation<class_Skeleton_method_physical_bones_stop_simulation>` "
+"**(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_skeleton.rst:74
+msgid ":ref:`SkinReference<class_SkinReference>`"
+msgstr ""
+
+#: ../../docs/classes/class_skeleton.rst:74
+msgid ""
+":ref:`register_skin<class_Skeleton_method_register_skin>` **(** :ref:"
+"`Skin<class_Skin>` skin **)**"
+msgstr ""
+
+#: ../../docs/classes/class_skeleton.rst:76
+msgid ""
+":ref:`set_bone_custom_pose<class_Skeleton_method_set_bone_custom_pose>` "
+"**(** :ref:`int<class_int>` bone_idx, :ref:`Transform<class_Transform>` "
+"custom_pose **)**"
+msgstr ""
+
+#: ../../docs/classes/class_skeleton.rst:78
+msgid ""
+":ref:`set_bone_disable_rest<class_Skeleton_method_set_bone_disable_rest>` "
+"**(** :ref:`int<class_int>` bone_idx, :ref:`bool<class_bool>` disable **)**"
+msgstr ""
+
+#: ../../docs/classes/class_skeleton.rst:80
+msgid ""
+":ref:"
+"`set_bone_global_pose_override<class_Skeleton_method_set_bone_global_pose_override>` "
+"**(** :ref:`int<class_int>` bone_idx, :ref:`Transform<class_Transform>` "
+"pose, :ref:`float<class_float>` amount, :ref:`bool<class_bool>` "
+"persistent=false **)**"
+msgstr ""
+
+#: ../../docs/classes/class_skeleton.rst:82
+msgid ""
+":ref:`set_bone_parent<class_Skeleton_method_set_bone_parent>` **(** :ref:"
+"`int<class_int>` bone_idx, :ref:`int<class_int>` parent_idx **)**"
+msgstr ""
+
+#: ../../docs/classes/class_skeleton.rst:84
+msgid ""
+":ref:`set_bone_pose<class_Skeleton_method_set_bone_pose>` **(** :ref:"
+"`int<class_int>` bone_idx, :ref:`Transform<class_Transform>` pose **)**"
+msgstr ""
+
+#: ../../docs/classes/class_skeleton.rst:86
+msgid ""
+":ref:`set_bone_rest<class_Skeleton_method_set_bone_rest>` **(** :ref:"
+"`int<class_int>` bone_idx, :ref:`Transform<class_Transform>` rest **)**"
+msgstr ""
+
+#: ../../docs/classes/class_skeleton.rst:88
+msgid ""
+":ref:"
+"`unbind_child_node_from_bone<class_Skeleton_method_unbind_child_node_from_bone>` "
+"**(** :ref:`int<class_int>` bone_idx, :ref:`Node<class_Node>` node **)**"
+msgstr ""
+
+#: ../../docs/classes/class_skeleton.rst:90
+msgid ""
+":ref:`unparent_bone_and_rest<class_Skeleton_method_unparent_bone_and_rest>` "
+"**(** :ref:`int<class_int>` bone_idx **)**"
+msgstr ""
+
+#: ../../docs/classes/class_skeleton.rst:94
+msgid "Signals"
+msgstr "信号"
+
+#: ../../docs/classes/class_skeleton.rst:98
+msgid "**skeleton_updated** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_skeleton.rst:101
+msgid "Constants"
+msgstr "常量"
+
+#: ../../docs/classes/class_skeleton.rst:105
+msgid "**NOTIFICATION_UPDATE_SKELETON** = **50**"
+msgstr ""
+
+#: ../../docs/classes/class_skeleton.rst:108
+msgid "Method Descriptions"
+msgstr "方法说明"
+
+#: ../../docs/classes/class_skeleton.rst:112
+msgid "void **add_bone** **(** :ref:`String<class_String>` name **)**"
+msgstr ""
+
+#: ../../docs/classes/class_skeleton.rst:114
+msgid ""
+"Adds a bone, with name ``name``. :ref:"
+"`get_bone_count<class_Skeleton_method_get_bone_count>` will become the bone "
+"index."
+msgstr ""
+
+#: ../../docs/classes/class_skeleton.rst:120
+msgid ""
+"void **bind_child_node_to_bone** **(** :ref:`int<class_int>` bone_idx, :ref:"
+"`Node<class_Node>` node **)**"
+msgstr ""
+
+#: ../../docs/classes/class_skeleton.rst:122
+#: ../../docs/classes/class_skeleton.rst:210
+#: ../../docs/classes/class_skeleton.rst:304
+msgid "*Deprecated soon.*"
+msgstr ""
+
+#: ../../docs/classes/class_skeleton.rst:128
+msgid "void **clear_bones** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_skeleton.rst:130
+msgid "Clear all the bones in this skeleton."
+msgstr ""
+
+#: ../../docs/classes/class_skeleton.rst:136
+msgid "void **clear_bones_global_pose_override** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_skeleton.rst:142
+msgid ""
+":ref:`int<class_int>` **find_bone** **(** :ref:`String<class_String>` name "
+"**)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_skeleton.rst:144
+msgid "Returns the bone index that matches ``name`` as its name."
+msgstr ""
+
+#: ../../docs/classes/class_skeleton.rst:150
+msgid ":ref:`int<class_int>` **get_bone_count** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_skeleton.rst:152
+msgid "Returns the amount of bones in the skeleton."
+msgstr ""
+
+#: ../../docs/classes/class_skeleton.rst:158
+msgid ""
+":ref:`Transform<class_Transform>` **get_bone_custom_pose** **(** :ref:"
+"`int<class_int>` bone_idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_skeleton.rst:160
+msgid ""
+"Returns the custom pose of the specified bone. Custom pose is applied on top "
+"of the rest pose."
+msgstr ""
+
+#: ../../docs/classes/class_skeleton.rst:166
+msgid ""
+":ref:`Transform<class_Transform>` **get_bone_global_pose** **(** :ref:"
+"`int<class_int>` bone_idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_skeleton.rst:168
+msgid ""
+"Returns the overall transform of the specified bone, with respect to the "
+"skeleton. Being relative to the skeleton frame, this is not the actual "
+"\"global\" transform of the bone."
+msgstr ""
+
+#: ../../docs/classes/class_skeleton.rst:174
+msgid ""
+":ref:`String<class_String>` **get_bone_name** **(** :ref:`int<class_int>` "
+"bone_idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_skeleton.rst:176
+msgid "Returns the name of the bone at index ``index``."
+msgstr ""
+
+#: ../../docs/classes/class_skeleton.rst:182
+msgid ""
+":ref:`int<class_int>` **get_bone_parent** **(** :ref:`int<class_int>` "
+"bone_idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_skeleton.rst:184
+msgid ""
+"Returns the bone index which is the parent of the bone at ``bone_idx``. If "
+"-1, then bone has no parent."
+msgstr ""
+
+#: ../../docs/classes/class_skeleton.rst:186
+msgid ""
+"**Note:** The parent bone returned will always be less than ``bone_idx``."
+msgstr ""
+
+#: ../../docs/classes/class_skeleton.rst:192
+msgid ""
+":ref:`Transform<class_Transform>` **get_bone_pose** **(** :ref:"
+"`int<class_int>` bone_idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_skeleton.rst:194
+msgid ""
+"Returns the pose transform of the specified bone. Pose is applied on top of "
+"the custom pose, which is applied on top the rest pose."
+msgstr ""
+
+#: ../../docs/classes/class_skeleton.rst:200
+msgid ""
+":ref:`Transform<class_Transform>` **get_bone_rest** **(** :ref:"
+"`int<class_int>` bone_idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_skeleton.rst:202
+msgid "Returns the rest transform for a bone ``bone_idx``."
+msgstr ""
+
+#: ../../docs/classes/class_skeleton.rst:208
+msgid ""
+":ref:`Array<class_Array>` **get_bound_child_nodes_to_bone** **(** :ref:"
+"`int<class_int>` bone_idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_skeleton.rst:216
+msgid ""
+":ref:`bool<class_bool>` **is_bone_rest_disabled** **(** :ref:"
+"`int<class_int>` bone_idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_skeleton.rst:222
+msgid "void **localize_rests** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_skeleton.rst:228
+msgid ""
+"void **physical_bones_add_collision_exception** **(** :ref:`RID<class_RID>` "
+"exception **)**"
+msgstr ""
+
+#: ../../docs/classes/class_skeleton.rst:234
+msgid ""
+"void **physical_bones_remove_collision_exception** **(** :ref:"
+"`RID<class_RID>` exception **)**"
+msgstr ""
+
+#: ../../docs/classes/class_skeleton.rst:240
+msgid ""
+"void **physical_bones_start_simulation** **(** :ref:`Array<class_Array>` "
+"bones=[  ] **)**"
+msgstr ""
+
+#: ../../docs/classes/class_skeleton.rst:246
+msgid "void **physical_bones_stop_simulation** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_skeleton.rst:252
+msgid ""
+":ref:`SkinReference<class_SkinReference>` **register_skin** **(** :ref:"
+"`Skin<class_Skin>` skin **)**"
+msgstr ""
+
+#: ../../docs/classes/class_skeleton.rst:258
+msgid ""
+"void **set_bone_custom_pose** **(** :ref:`int<class_int>` bone_idx, :ref:"
+"`Transform<class_Transform>` custom_pose **)**"
+msgstr ""
+
+#: ../../docs/classes/class_skeleton.rst:264
+msgid ""
+"void **set_bone_disable_rest** **(** :ref:`int<class_int>` bone_idx, :ref:"
+"`bool<class_bool>` disable **)**"
+msgstr ""
+
+#: ../../docs/classes/class_skeleton.rst:270
+msgid ""
+"void **set_bone_global_pose_override** **(** :ref:`int<class_int>` "
+"bone_idx, :ref:`Transform<class_Transform>` pose, :ref:`float<class_float>` "
+"amount, :ref:`bool<class_bool>` persistent=false **)**"
+msgstr ""
+
+#: ../../docs/classes/class_skeleton.rst:276
+msgid ""
+"void **set_bone_parent** **(** :ref:`int<class_int>` bone_idx, :ref:"
+"`int<class_int>` parent_idx **)**"
+msgstr ""
+
+#: ../../docs/classes/class_skeleton.rst:278
+msgid ""
+"Sets the bone index ``parent_idx`` as the parent of the bone at "
+"``bone_idx``. If -1, then bone has no parent."
+msgstr ""
+
+#: ../../docs/classes/class_skeleton.rst:280
+msgid "**Note:** ``parent_idx`` must be less than ``bone_idx``."
+msgstr ""
+
+#: ../../docs/classes/class_skeleton.rst:286
+msgid ""
+"void **set_bone_pose** **(** :ref:`int<class_int>` bone_idx, :ref:"
+"`Transform<class_Transform>` pose **)**"
+msgstr ""
+
+#: ../../docs/classes/class_skeleton.rst:288
+msgid "Sets the pose transform for bone ``bone_idx``."
+msgstr ""
+
+#: ../../docs/classes/class_skeleton.rst:294
+msgid ""
+"void **set_bone_rest** **(** :ref:`int<class_int>` bone_idx, :ref:"
+"`Transform<class_Transform>` rest **)**"
+msgstr ""
+
+#: ../../docs/classes/class_skeleton.rst:296
+msgid "Sets the rest transform for bone ``bone_idx``."
+msgstr ""
+
+#: ../../docs/classes/class_skeleton.rst:302
+msgid ""
+"void **unbind_child_node_from_bone** **(** :ref:`int<class_int>` bone_idx, :"
+"ref:`Node<class_Node>` node **)**"
+msgstr ""
+
+#: ../../docs/classes/class_skeleton.rst:310
+msgid ""
+"void **unparent_bone_and_rest** **(** :ref:`int<class_int>` bone_idx **)**"
+msgstr ""

@@ -1,0 +1,131 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2021, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-31 12:15+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_lightoccluder2d.rst:10
+msgid "LightOccluder2D"
+msgstr ""
+
+#: ../../docs/classes/class_lightoccluder2d.rst:12
+msgid ""
+"**Inherits:** :ref:`Node2D<class_Node2D>` **<** :ref:"
+"`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:"
+"`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_lightoccluder2d.rst:14
+msgid "Occludes light cast by a Light2D, casting shadows."
+msgstr ""
+
+#: ../../docs/classes/class_lightoccluder2d.rst:17
+msgid "Description"
+msgstr "描述"
+
+#: ../../docs/classes/class_lightoccluder2d.rst:19
+msgid ""
+"Occludes light cast by a Light2D, casting shadows. The LightOccluder2D must "
+"be provided with an :ref:`OccluderPolygon2D<class_OccluderPolygon2D>` in "
+"order for the shadow to be computed."
+msgstr ""
+
+#: ../../docs/classes/class_lightoccluder2d.rst:22
+msgid "Tutorials"
+msgstr "教程"
+
+#: ../../docs/classes/class_lightoccluder2d.rst:24
+msgid ":doc:`../tutorials/2d/2d_lights_and_shadows`"
+msgstr ""
+
+#: ../../docs/classes/class_lightoccluder2d.rst:27
+msgid "Properties"
+msgstr "属性"
+
+#: ../../docs/classes/class_lightoccluder2d.rst:30
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../../docs/classes/class_lightoccluder2d.rst:30
+msgid ":ref:`light_mask<class_LightOccluder2D_property_light_mask>`"
+msgstr ""
+
+#: ../../docs/classes/class_lightoccluder2d.rst:30
+#: ../../docs/classes/class_lightoccluder2d.rst:43
+msgid "``1``"
+msgstr ""
+
+#: ../../docs/classes/class_lightoccluder2d.rst:32
+msgid ":ref:`OccluderPolygon2D<class_OccluderPolygon2D>`"
+msgstr ""
+
+#: ../../docs/classes/class_lightoccluder2d.rst:32
+msgid ":ref:`occluder<class_LightOccluder2D_property_occluder>`"
+msgstr ""
+
+#: ../../docs/classes/class_lightoccluder2d.rst:36
+msgid "Property Descriptions"
+msgstr "属性说明"
+
+#: ../../docs/classes/class_lightoccluder2d.rst:40
+msgid ":ref:`int<class_int>` **light_mask**"
+msgstr ""
+
+#: ../../docs/classes/class_lightoccluder2d.rst:43
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_lightoccluder2d.rst:45
+#: ../../docs/classes/class_lightoccluder2d.rst:59
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_lightoccluder2d.rst:45
+msgid "set_occluder_light_mask(value)"
+msgstr ""
+
+#: ../../docs/classes/class_lightoccluder2d.rst:47
+#: ../../docs/classes/class_lightoccluder2d.rst:61
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_lightoccluder2d.rst:47
+msgid "get_occluder_light_mask()"
+msgstr ""
+
+#: ../../docs/classes/class_lightoccluder2d.rst:50
+msgid ""
+"The LightOccluder2D's light mask. The LightOccluder2D will cast shadows only "
+"from Light2D(s) that have the same light mask(s)."
+msgstr ""
+
+#: ../../docs/classes/class_lightoccluder2d.rst:56
+msgid ":ref:`OccluderPolygon2D<class_OccluderPolygon2D>` **occluder**"
+msgstr ""
+
+#: ../../docs/classes/class_lightoccluder2d.rst:59
+msgid "set_occluder_polygon(value)"
+msgstr ""
+
+#: ../../docs/classes/class_lightoccluder2d.rst:61
+msgid "get_occluder_polygon()"
+msgstr ""
+
+#: ../../docs/classes/class_lightoccluder2d.rst:64
+msgid ""
+"The :ref:`OccluderPolygon2D<class_OccluderPolygon2D>` used to compute the "
+"shadow."
+msgstr ""

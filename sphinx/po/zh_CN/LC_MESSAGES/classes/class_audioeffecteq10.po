@@ -1,0 +1,94 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2021, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-31 12:15+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_audioeffecteq10.rst:10
+msgid "AudioEffectEQ10"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffecteq10.rst:12
+msgid ""
+"**Inherits:** :ref:`AudioEffectEQ<class_AudioEffectEQ>` **<** :ref:"
+"`AudioEffect<class_AudioEffect>` **<** :ref:`Resource<class_Resource>` "
+"**<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffecteq10.rst:14
+msgid ""
+"Adds a 10-band equalizer audio effect to an Audio bus. Gives you control "
+"over frequencies from 31 Hz to 16000 Hz."
+msgstr ""
+
+#: ../../docs/classes/class_audioeffecteq10.rst:16
+msgid "Each frequency can be modulated between -60/+24 dB."
+msgstr ""
+
+#: ../../docs/classes/class_audioeffecteq10.rst:19
+msgid "Description"
+msgstr "描述"
+
+#: ../../docs/classes/class_audioeffecteq10.rst:21
+msgid "Frequency bands:"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffecteq10.rst:23
+msgid "Band 1: 31 Hz"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffecteq10.rst:25
+msgid "Band 2: 62 Hz"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffecteq10.rst:27
+msgid "Band 3: 125 Hz"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffecteq10.rst:29
+msgid "Band 4: 250 Hz"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffecteq10.rst:31
+msgid "Band 5: 500 Hz"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffecteq10.rst:33
+msgid "Band 6: 1000 Hz"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffecteq10.rst:35
+msgid "Band 7: 2000 Hz"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffecteq10.rst:37
+msgid "Band 8: 4000 Hz"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffecteq10.rst:39
+msgid "Band 9: 8000 Hz"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffecteq10.rst:41
+msgid "Band 10: 16000 Hz"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffecteq10.rst:43
+msgid ""
+"See also :ref:`AudioEffectEQ<class_AudioEffectEQ>`, :ref:"
+"`AudioEffectEQ6<class_AudioEffectEQ6>`, :ref:"
+"`AudioEffectEQ21<class_AudioEffectEQ21>`."
+msgstr ""

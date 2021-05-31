@@ -1,0 +1,222 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2021, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-31 12:15+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_audioeffectfilter.rst:10
+msgid "AudioEffectFilter"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectfilter.rst:12
+msgid ""
+"**Inherits:** :ref:`AudioEffect<class_AudioEffect>` **<** :ref:"
+"`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :"
+"ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectfilter.rst:14
+msgid ""
+"**Inherited By:** :ref:"
+"`AudioEffectBandLimitFilter<class_AudioEffectBandLimitFilter>`, :ref:"
+"`AudioEffectBandPassFilter<class_AudioEffectBandPassFilter>`, :ref:"
+"`AudioEffectHighPassFilter<class_AudioEffectHighPassFilter>`, :ref:"
+"`AudioEffectHighShelfFilter<class_AudioEffectHighShelfFilter>`, :ref:"
+"`AudioEffectLowPassFilter<class_AudioEffectLowPassFilter>`, :ref:"
+"`AudioEffectLowShelfFilter<class_AudioEffectLowShelfFilter>`, :ref:"
+"`AudioEffectNotchFilter<class_AudioEffectNotchFilter>`"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectfilter.rst:16
+msgid "Adds a filter to the audio bus."
+msgstr "为音频总线添加一个滤波器。"
+
+#: ../../docs/classes/class_audioeffectfilter.rst:19
+msgid "Description"
+msgstr "描述"
+
+#: ../../docs/classes/class_audioeffectfilter.rst:21
+msgid ""
+"Allows frequencies other than the :ref:"
+"`cutoff_hz<class_AudioEffectFilter_property_cutoff_hz>` to pass."
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectfilter.rst:24
+msgid "Tutorials"
+msgstr "教程"
+
+#: ../../docs/classes/class_audioeffectfilter.rst:26
+msgid ":doc:`../tutorials/audio/audio_buses`"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectfilter.rst:29
+msgid "Properties"
+msgstr "属性"
+
+#: ../../docs/classes/class_audioeffectfilter.rst:32
+#: ../../docs/classes/class_audioeffectfilter.rst:36
+#: ../../docs/classes/class_audioeffectfilter.rst:38
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectfilter.rst:32
+msgid ":ref:`cutoff_hz<class_AudioEffectFilter_property_cutoff_hz>`"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectfilter.rst:32
+#: ../../docs/classes/class_audioeffectfilter.rst:72
+msgid "``2000.0``"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectfilter.rst:34
+msgid ":ref:`FilterDB<enum_AudioEffectFilter_FilterDB>`"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectfilter.rst:34
+msgid ":ref:`db<class_AudioEffectFilter_property_db>`"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectfilter.rst:34
+#: ../../docs/classes/class_audioeffectfilter.rst:88
+msgid "``0``"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectfilter.rst:36
+msgid ":ref:`gain<class_AudioEffectFilter_property_gain>`"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectfilter.rst:36
+#: ../../docs/classes/class_audioeffectfilter.rst:102
+msgid "``1.0``"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectfilter.rst:38
+msgid ":ref:`resonance<class_AudioEffectFilter_property_resonance>`"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectfilter.rst:38
+#: ../../docs/classes/class_audioeffectfilter.rst:118
+msgid "``0.5``"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectfilter.rst:42
+msgid "Enumerations"
+msgstr "枚举"
+
+#: ../../docs/classes/class_audioeffectfilter.rst:54
+msgid "enum **FilterDB**:"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectfilter.rst:56
+msgid "**FILTER_6DB** = **0**"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectfilter.rst:58
+msgid "**FILTER_12DB** = **1**"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectfilter.rst:60
+msgid "**FILTER_18DB** = **2**"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectfilter.rst:62
+msgid "**FILTER_24DB** = **3**"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectfilter.rst:65
+msgid "Property Descriptions"
+msgstr "属性说明"
+
+#: ../../docs/classes/class_audioeffectfilter.rst:69
+msgid ":ref:`float<class_float>` **cutoff_hz**"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectfilter.rst:72
+#: ../../docs/classes/class_audioeffectfilter.rst:88
+#: ../../docs/classes/class_audioeffectfilter.rst:102
+#: ../../docs/classes/class_audioeffectfilter.rst:118
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectfilter.rst:74
+#: ../../docs/classes/class_audioeffectfilter.rst:90
+#: ../../docs/classes/class_audioeffectfilter.rst:104
+#: ../../docs/classes/class_audioeffectfilter.rst:120
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectfilter.rst:74
+msgid "set_cutoff(value)"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectfilter.rst:76
+#: ../../docs/classes/class_audioeffectfilter.rst:92
+#: ../../docs/classes/class_audioeffectfilter.rst:106
+#: ../../docs/classes/class_audioeffectfilter.rst:122
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectfilter.rst:76
+msgid "get_cutoff()"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectfilter.rst:79
+msgid "Threshold frequency for the filter, in Hz."
+msgstr "滤波器的阈值频率，单位为Hz。"
+
+#: ../../docs/classes/class_audioeffectfilter.rst:85
+msgid ":ref:`FilterDB<enum_AudioEffectFilter_FilterDB>` **db**"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectfilter.rst:90
+msgid "set_db(value)"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectfilter.rst:92
+msgid "get_db()"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectfilter.rst:99
+msgid ":ref:`float<class_float>` **gain**"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectfilter.rst:104
+msgid "set_gain(value)"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectfilter.rst:106
+msgid "get_gain()"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectfilter.rst:109
+msgid "Gain amount of the frequencies after the filter."
+msgstr "滤波后频率的增益量。"
+
+#: ../../docs/classes/class_audioeffectfilter.rst:115
+msgid ":ref:`float<class_float>` **resonance**"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectfilter.rst:120
+msgid "set_resonance(value)"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectfilter.rst:122
+msgid "get_resonance()"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectfilter.rst:125
+msgid "Amount of boost in the frequency range near the cutoff frequency."
+msgstr ""

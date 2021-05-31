@@ -1,0 +1,429 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2021, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-31 12:15+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_animatedsprite.rst:10
+msgid "AnimatedSprite"
+msgstr ""
+
+#: ../../docs/classes/class_animatedsprite.rst:12
+msgid ""
+"**Inherits:** :ref:`Node2D<class_Node2D>` **<** :ref:"
+"`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:"
+"`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_animatedsprite.rst:14
+msgid "Sprite node that can use multiple textures for animation."
+msgstr "可以使用多个纹理进行动画处理的Sprite节点。"
+
+#: ../../docs/classes/class_animatedsprite.rst:17
+msgid "Description"
+msgstr "描述"
+
+#: ../../docs/classes/class_animatedsprite.rst:19
+msgid ""
+"Animations are created using a :ref:`SpriteFrames<class_SpriteFrames>` "
+"resource, which can be configured in the editor via the SpriteFrames panel."
+msgstr ""
+
+#: ../../docs/classes/class_animatedsprite.rst:21
+msgid ""
+"**Note:** You can associate a set of normal maps by creating additional :ref:"
+"`SpriteFrames<class_SpriteFrames>` resources with a ``_normal`` suffix. For "
+"example, having 2 :ref:`SpriteFrames<class_SpriteFrames>` resources ``run`` "
+"and ``run_normal`` will make it so the ``run`` animation uses the normal map."
+msgstr ""
+
+#: ../../docs/classes/class_animatedsprite.rst:24
+msgid "Tutorials"
+msgstr "教程"
+
+#: ../../docs/classes/class_animatedsprite.rst:26
+msgid ":doc:`../tutorials/2d/2d_sprite_animation`"
+msgstr ""
+
+#: ../../docs/classes/class_animatedsprite.rst:28
+msgid ""
+"`https://godotengine.org/asset-library/asset/515 <https://godotengine.org/"
+"asset-library/asset/515>`_"
+msgstr ""
+
+#: ../../docs/classes/class_animatedsprite.rst:31
+msgid "Properties"
+msgstr "属性"
+
+#: ../../docs/classes/class_animatedsprite.rst:34
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../../docs/classes/class_animatedsprite.rst:34
+msgid ":ref:`animation<class_AnimatedSprite_property_animation>`"
+msgstr ""
+
+#: ../../docs/classes/class_animatedsprite.rst:34
+#: ../../docs/classes/class_animatedsprite.rst:89
+msgid "``\"default\"``"
+msgstr ""
+
+#: ../../docs/classes/class_animatedsprite.rst:36
+#: ../../docs/classes/class_animatedsprite.rst:38
+#: ../../docs/classes/class_animatedsprite.rst:40
+#: ../../docs/classes/class_animatedsprite.rst:48
+#: ../../docs/classes/class_animatedsprite.rst:57
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_animatedsprite.rst:36
+msgid ":ref:`centered<class_AnimatedSprite_property_centered>`"
+msgstr ""
+
+#: ../../docs/classes/class_animatedsprite.rst:36
+#: ../../docs/classes/class_animatedsprite.rst:105
+msgid "``true``"
+msgstr ""
+
+#: ../../docs/classes/class_animatedsprite.rst:38
+msgid ":ref:`flip_h<class_AnimatedSprite_property_flip_h>`"
+msgstr ""
+
+#: ../../docs/classes/class_animatedsprite.rst:38
+#: ../../docs/classes/class_animatedsprite.rst:40
+#: ../../docs/classes/class_animatedsprite.rst:48
+#: ../../docs/classes/class_animatedsprite.rst:121
+#: ../../docs/classes/class_animatedsprite.rst:137
+#: ../../docs/classes/class_animatedsprite.rst:199
+msgid "``false``"
+msgstr ""
+
+#: ../../docs/classes/class_animatedsprite.rst:40
+msgid ":ref:`flip_v<class_AnimatedSprite_property_flip_v>`"
+msgstr ""
+
+#: ../../docs/classes/class_animatedsprite.rst:42
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../../docs/classes/class_animatedsprite.rst:42
+msgid ":ref:`frame<class_AnimatedSprite_property_frame>`"
+msgstr ""
+
+#: ../../docs/classes/class_animatedsprite.rst:42
+#: ../../docs/classes/class_animatedsprite.rst:153
+msgid "``0``"
+msgstr ""
+
+#: ../../docs/classes/class_animatedsprite.rst:44
+msgid ":ref:`SpriteFrames<class_SpriteFrames>`"
+msgstr ""
+
+#: ../../docs/classes/class_animatedsprite.rst:44
+msgid ":ref:`frames<class_AnimatedSprite_property_frames>`"
+msgstr ""
+
+#: ../../docs/classes/class_animatedsprite.rst:46
+msgid ":ref:`Vector2<class_Vector2>`"
+msgstr ""
+
+#: ../../docs/classes/class_animatedsprite.rst:46
+msgid ":ref:`offset<class_AnimatedSprite_property_offset>`"
+msgstr ""
+
+#: ../../docs/classes/class_animatedsprite.rst:46
+#: ../../docs/classes/class_animatedsprite.rst:183
+msgid "``Vector2( 0, 0 )``"
+msgstr ""
+
+#: ../../docs/classes/class_animatedsprite.rst:48
+msgid ":ref:`playing<class_AnimatedSprite_property_playing>`"
+msgstr ""
+
+#: ../../docs/classes/class_animatedsprite.rst:50
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../../docs/classes/class_animatedsprite.rst:50
+msgid ":ref:`speed_scale<class_AnimatedSprite_property_speed_scale>`"
+msgstr ""
+
+#: ../../docs/classes/class_animatedsprite.rst:50
+#: ../../docs/classes/class_animatedsprite.rst:211
+msgid "``1.0``"
+msgstr ""
+
+#: ../../docs/classes/class_animatedsprite.rst:54
+msgid "Methods"
+msgstr "方法"
+
+#: ../../docs/classes/class_animatedsprite.rst:57
+msgid ""
+":ref:`is_playing<class_AnimatedSprite_method_is_playing>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_animatedsprite.rst:59
+#: ../../docs/classes/class_animatedsprite.rst:61
+msgid "void"
+msgstr ""
+
+#: ../../docs/classes/class_animatedsprite.rst:59
+msgid ""
+":ref:`play<class_AnimatedSprite_method_play>` **(** :ref:"
+"`String<class_String>` anim=\"\", :ref:`bool<class_bool>` backwards=false "
+"**)**"
+msgstr ""
+
+#: ../../docs/classes/class_animatedsprite.rst:61
+msgid ":ref:`stop<class_AnimatedSprite_method_stop>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_animatedsprite.rst:65
+msgid "Signals"
+msgstr "信号"
+
+#: ../../docs/classes/class_animatedsprite.rst:69
+msgid "**animation_finished** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_animatedsprite.rst:71
+msgid ""
+"Emitted when the animation is finished (when it plays the last frame). If "
+"the animation is looping, this signal is emitted every time the last frame "
+"is drawn."
+msgstr ""
+"动画结束时（播放最后一帧时）发出。如果动画正在循环播放，则每次绘制最后一帧时"
+"都会发出此信号。"
+
+#: ../../docs/classes/class_animatedsprite.rst:77
+msgid "**frame_changed** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_animatedsprite.rst:79
+msgid "Emitted when :ref:`frame<class_AnimatedSprite_property_frame>` changed."
+msgstr ""
+
+#: ../../docs/classes/class_animatedsprite.rst:82
+msgid "Property Descriptions"
+msgstr "属性说明"
+
+#: ../../docs/classes/class_animatedsprite.rst:86
+msgid ":ref:`String<class_String>` **animation**"
+msgstr ""
+
+#: ../../docs/classes/class_animatedsprite.rst:89
+#: ../../docs/classes/class_animatedsprite.rst:105
+#: ../../docs/classes/class_animatedsprite.rst:121
+#: ../../docs/classes/class_animatedsprite.rst:137
+#: ../../docs/classes/class_animatedsprite.rst:153
+#: ../../docs/classes/class_animatedsprite.rst:183
+#: ../../docs/classes/class_animatedsprite.rst:199
+#: ../../docs/classes/class_animatedsprite.rst:211
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_animatedsprite.rst:91
+#: ../../docs/classes/class_animatedsprite.rst:107
+#: ../../docs/classes/class_animatedsprite.rst:123
+#: ../../docs/classes/class_animatedsprite.rst:139
+#: ../../docs/classes/class_animatedsprite.rst:155
+#: ../../docs/classes/class_animatedsprite.rst:169
+#: ../../docs/classes/class_animatedsprite.rst:185
+#: ../../docs/classes/class_animatedsprite.rst:213
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_animatedsprite.rst:91
+msgid "set_animation(value)"
+msgstr ""
+
+#: ../../docs/classes/class_animatedsprite.rst:93
+#: ../../docs/classes/class_animatedsprite.rst:109
+#: ../../docs/classes/class_animatedsprite.rst:125
+#: ../../docs/classes/class_animatedsprite.rst:141
+#: ../../docs/classes/class_animatedsprite.rst:157
+#: ../../docs/classes/class_animatedsprite.rst:171
+#: ../../docs/classes/class_animatedsprite.rst:187
+#: ../../docs/classes/class_animatedsprite.rst:215
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_animatedsprite.rst:93
+msgid "get_animation()"
+msgstr ""
+
+#: ../../docs/classes/class_animatedsprite.rst:96
+msgid ""
+"The current animation from the ``frames`` resource. If this value changes, "
+"the ``frame`` counter is reset."
+msgstr ""
+
+#: ../../docs/classes/class_animatedsprite.rst:102
+msgid ":ref:`bool<class_bool>` **centered**"
+msgstr ""
+
+#: ../../docs/classes/class_animatedsprite.rst:107
+msgid "set_centered(value)"
+msgstr ""
+
+#: ../../docs/classes/class_animatedsprite.rst:109
+msgid "is_centered()"
+msgstr ""
+
+#: ../../docs/classes/class_animatedsprite.rst:112
+msgid "If ``true``, texture will be centered."
+msgstr ""
+
+#: ../../docs/classes/class_animatedsprite.rst:118
+msgid ":ref:`bool<class_bool>` **flip_h**"
+msgstr ""
+
+#: ../../docs/classes/class_animatedsprite.rst:123
+msgid "set_flip_h(value)"
+msgstr ""
+
+#: ../../docs/classes/class_animatedsprite.rst:125
+msgid "is_flipped_h()"
+msgstr ""
+
+#: ../../docs/classes/class_animatedsprite.rst:128
+msgid "If ``true``, texture is flipped horizontally."
+msgstr ""
+
+#: ../../docs/classes/class_animatedsprite.rst:134
+msgid ":ref:`bool<class_bool>` **flip_v**"
+msgstr ""
+
+#: ../../docs/classes/class_animatedsprite.rst:139
+msgid "set_flip_v(value)"
+msgstr ""
+
+#: ../../docs/classes/class_animatedsprite.rst:141
+msgid "is_flipped_v()"
+msgstr ""
+
+#: ../../docs/classes/class_animatedsprite.rst:144
+msgid "If ``true``, texture is flipped vertically."
+msgstr ""
+
+#: ../../docs/classes/class_animatedsprite.rst:150
+msgid ":ref:`int<class_int>` **frame**"
+msgstr ""
+
+#: ../../docs/classes/class_animatedsprite.rst:155
+msgid "set_frame(value)"
+msgstr ""
+
+#: ../../docs/classes/class_animatedsprite.rst:157
+msgid "get_frame()"
+msgstr ""
+
+#: ../../docs/classes/class_animatedsprite.rst:160
+msgid "The displayed animation frame's index."
+msgstr "显示的动画帧的索引。"
+
+#: ../../docs/classes/class_animatedsprite.rst:166
+msgid ":ref:`SpriteFrames<class_SpriteFrames>` **frames**"
+msgstr ""
+
+#: ../../docs/classes/class_animatedsprite.rst:169
+msgid "set_sprite_frames(value)"
+msgstr ""
+
+#: ../../docs/classes/class_animatedsprite.rst:171
+msgid "get_sprite_frames()"
+msgstr ""
+
+#: ../../docs/classes/class_animatedsprite.rst:174
+msgid ""
+"The :ref:`SpriteFrames<class_SpriteFrames>` resource containing the "
+"animation(s)."
+msgstr ""
+
+#: ../../docs/classes/class_animatedsprite.rst:180
+msgid ":ref:`Vector2<class_Vector2>` **offset**"
+msgstr ""
+
+#: ../../docs/classes/class_animatedsprite.rst:185
+msgid "set_offset(value)"
+msgstr ""
+
+#: ../../docs/classes/class_animatedsprite.rst:187
+msgid "get_offset()"
+msgstr ""
+
+#: ../../docs/classes/class_animatedsprite.rst:190
+msgid "The texture's drawing offset."
+msgstr "纹理的绘图偏移量。"
+
+#: ../../docs/classes/class_animatedsprite.rst:196
+msgid ":ref:`bool<class_bool>` **playing**"
+msgstr ""
+
+#: ../../docs/classes/class_animatedsprite.rst:202
+msgid ""
+"If ``true``, the :ref:`animation<class_AnimatedSprite_property_animation>` "
+"is currently playing."
+msgstr ""
+
+#: ../../docs/classes/class_animatedsprite.rst:208
+msgid ":ref:`float<class_float>` **speed_scale**"
+msgstr ""
+
+#: ../../docs/classes/class_animatedsprite.rst:213
+msgid "set_speed_scale(value)"
+msgstr ""
+
+#: ../../docs/classes/class_animatedsprite.rst:215
+msgid "get_speed_scale()"
+msgstr ""
+
+#: ../../docs/classes/class_animatedsprite.rst:218
+msgid "The animation speed is multiplied by this value."
+msgstr "动画速度乘以此值。"
+
+#: ../../docs/classes/class_animatedsprite.rst:221
+msgid "Method Descriptions"
+msgstr "方法说明"
+
+#: ../../docs/classes/class_animatedsprite.rst:225
+msgid ":ref:`bool<class_bool>` **is_playing** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_animatedsprite.rst:227
+msgid "Returns ``true`` if an animation is currently being played."
+msgstr ""
+
+#: ../../docs/classes/class_animatedsprite.rst:233
+msgid ""
+"void **play** **(** :ref:`String<class_String>` anim=\"\", :ref:"
+"`bool<class_bool>` backwards=false **)**"
+msgstr ""
+
+#: ../../docs/classes/class_animatedsprite.rst:235
+msgid ""
+"Plays the animation named ``anim``. If no ``anim`` is provided, the current "
+"animation is played. If ``backwards`` is ``true``, the animation will be "
+"played in reverse."
+msgstr ""
+
+#: ../../docs/classes/class_animatedsprite.rst:241
+msgid "void **stop** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_animatedsprite.rst:243
+msgid "Stops the current animation (does not reset the frame counter)."
+msgstr "停止播放当前动画（不会重置帧计数器）。"

@@ -1,0 +1,297 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2021, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-31 12:15+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_sprite3d.rst:10
+msgid "Sprite3D"
+msgstr ""
+
+#: ../../docs/classes/class_sprite3d.rst:12
+msgid ""
+"**Inherits:** :ref:`SpriteBase3D<class_SpriteBase3D>` **<** :ref:"
+"`GeometryInstance<class_GeometryInstance>` **<** :ref:"
+"`VisualInstance<class_VisualInstance>` **<** :ref:`Spatial<class_Spatial>` "
+"**<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_sprite3d.rst:14
+msgid "2D sprite node in a 3D world."
+msgstr ""
+
+#: ../../docs/classes/class_sprite3d.rst:17
+msgid "Description"
+msgstr "描述"
+
+#: ../../docs/classes/class_sprite3d.rst:19
+msgid ""
+"A node that displays a 2D texture in a 3D environment. The texture displayed "
+"can be a region from a larger atlas texture, or a frame from a sprite sheet "
+"animation."
+msgstr ""
+
+#: ../../docs/classes/class_sprite3d.rst:22
+msgid "Properties"
+msgstr "属性"
+
+#: ../../docs/classes/class_sprite3d.rst:25
+#: ../../docs/classes/class_sprite3d.rst:29
+#: ../../docs/classes/class_sprite3d.rst:37
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../../docs/classes/class_sprite3d.rst:25
+msgid ":ref:`frame<class_Sprite3D_property_frame>`"
+msgstr ""
+
+#: ../../docs/classes/class_sprite3d.rst:25
+#: ../../docs/classes/class_sprite3d.rst:57
+msgid "``0``"
+msgstr ""
+
+#: ../../docs/classes/class_sprite3d.rst:27
+msgid ":ref:`Vector2<class_Vector2>`"
+msgstr ""
+
+#: ../../docs/classes/class_sprite3d.rst:27
+msgid ":ref:`frame_coords<class_Sprite3D_property_frame_coords>`"
+msgstr ""
+
+#: ../../docs/classes/class_sprite3d.rst:27
+#: ../../docs/classes/class_sprite3d.rst:73
+msgid "``Vector2( 0, 0 )``"
+msgstr ""
+
+#: ../../docs/classes/class_sprite3d.rst:29
+msgid ":ref:`hframes<class_Sprite3D_property_hframes>`"
+msgstr ""
+
+#: ../../docs/classes/class_sprite3d.rst:29
+#: ../../docs/classes/class_sprite3d.rst:37
+#: ../../docs/classes/class_sprite3d.rst:89
+#: ../../docs/classes/class_sprite3d.rst:151
+msgid "``1``"
+msgstr ""
+
+#: ../../docs/classes/class_sprite3d.rst:31
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_sprite3d.rst:31
+msgid ":ref:`region_enabled<class_Sprite3D_property_region_enabled>`"
+msgstr ""
+
+#: ../../docs/classes/class_sprite3d.rst:31
+#: ../../docs/classes/class_sprite3d.rst:105
+msgid "``false``"
+msgstr ""
+
+#: ../../docs/classes/class_sprite3d.rst:33
+msgid ":ref:`Rect2<class_Rect2>`"
+msgstr ""
+
+#: ../../docs/classes/class_sprite3d.rst:33
+msgid ":ref:`region_rect<class_Sprite3D_property_region_rect>`"
+msgstr ""
+
+#: ../../docs/classes/class_sprite3d.rst:33
+#: ../../docs/classes/class_sprite3d.rst:121
+msgid "``Rect2( 0, 0, 0, 0 )``"
+msgstr ""
+
+#: ../../docs/classes/class_sprite3d.rst:35
+msgid ":ref:`Texture<class_Texture>`"
+msgstr ""
+
+#: ../../docs/classes/class_sprite3d.rst:35
+msgid ":ref:`texture<class_Sprite3D_property_texture>`"
+msgstr ""
+
+#: ../../docs/classes/class_sprite3d.rst:37
+msgid ":ref:`vframes<class_Sprite3D_property_vframes>`"
+msgstr ""
+
+#: ../../docs/classes/class_sprite3d.rst:41
+msgid "Signals"
+msgstr "信号"
+
+#: ../../docs/classes/class_sprite3d.rst:45
+msgid "**frame_changed** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_sprite3d.rst:47
+msgid "Emitted when the :ref:`frame<class_Sprite3D_property_frame>` changes."
+msgstr ""
+
+#: ../../docs/classes/class_sprite3d.rst:50
+msgid "Property Descriptions"
+msgstr "属性说明"
+
+#: ../../docs/classes/class_sprite3d.rst:54
+msgid ":ref:`int<class_int>` **frame**"
+msgstr ""
+
+#: ../../docs/classes/class_sprite3d.rst:57
+#: ../../docs/classes/class_sprite3d.rst:73
+#: ../../docs/classes/class_sprite3d.rst:89
+#: ../../docs/classes/class_sprite3d.rst:105
+#: ../../docs/classes/class_sprite3d.rst:121
+#: ../../docs/classes/class_sprite3d.rst:151
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_sprite3d.rst:59
+#: ../../docs/classes/class_sprite3d.rst:75
+#: ../../docs/classes/class_sprite3d.rst:91
+#: ../../docs/classes/class_sprite3d.rst:107
+#: ../../docs/classes/class_sprite3d.rst:123
+#: ../../docs/classes/class_sprite3d.rst:137
+#: ../../docs/classes/class_sprite3d.rst:153
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_sprite3d.rst:59
+msgid "set_frame(value)"
+msgstr ""
+
+#: ../../docs/classes/class_sprite3d.rst:61
+#: ../../docs/classes/class_sprite3d.rst:77
+#: ../../docs/classes/class_sprite3d.rst:93
+#: ../../docs/classes/class_sprite3d.rst:109
+#: ../../docs/classes/class_sprite3d.rst:125
+#: ../../docs/classes/class_sprite3d.rst:139
+#: ../../docs/classes/class_sprite3d.rst:155
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_sprite3d.rst:61
+msgid "get_frame()"
+msgstr ""
+
+#: ../../docs/classes/class_sprite3d.rst:64
+msgid ""
+"Current frame to display from sprite sheet. :ref:"
+"`hframes<class_Sprite3D_property_hframes>` or :ref:"
+"`vframes<class_Sprite3D_property_vframes>` must be greater than 1."
+msgstr ""
+
+#: ../../docs/classes/class_sprite3d.rst:70
+msgid ":ref:`Vector2<class_Vector2>` **frame_coords**"
+msgstr ""
+
+#: ../../docs/classes/class_sprite3d.rst:75
+msgid "set_frame_coords(value)"
+msgstr ""
+
+#: ../../docs/classes/class_sprite3d.rst:77
+msgid "get_frame_coords()"
+msgstr ""
+
+#: ../../docs/classes/class_sprite3d.rst:80
+msgid ""
+"Coordinates of the frame to display from sprite sheet. This is as an alias "
+"for the :ref:`frame<class_Sprite3D_property_frame>` property. :ref:"
+"`hframes<class_Sprite3D_property_hframes>` or :ref:"
+"`vframes<class_Sprite3D_property_vframes>` must be greater than 1."
+msgstr ""
+
+#: ../../docs/classes/class_sprite3d.rst:86
+msgid ":ref:`int<class_int>` **hframes**"
+msgstr ""
+
+#: ../../docs/classes/class_sprite3d.rst:91
+msgid "set_hframes(value)"
+msgstr ""
+
+#: ../../docs/classes/class_sprite3d.rst:93
+msgid "get_hframes()"
+msgstr ""
+
+#: ../../docs/classes/class_sprite3d.rst:96
+msgid "The number of columns in the sprite sheet."
+msgstr ""
+
+#: ../../docs/classes/class_sprite3d.rst:102
+msgid ":ref:`bool<class_bool>` **region_enabled**"
+msgstr ""
+
+#: ../../docs/classes/class_sprite3d.rst:107
+msgid "set_region(value)"
+msgstr ""
+
+#: ../../docs/classes/class_sprite3d.rst:109
+msgid "is_region()"
+msgstr ""
+
+#: ../../docs/classes/class_sprite3d.rst:112
+msgid ""
+"If ``true``, texture will be cut from a larger atlas texture. See :ref:"
+"`region_rect<class_Sprite3D_property_region_rect>`."
+msgstr ""
+
+#: ../../docs/classes/class_sprite3d.rst:118
+msgid ":ref:`Rect2<class_Rect2>` **region_rect**"
+msgstr ""
+
+#: ../../docs/classes/class_sprite3d.rst:123
+msgid "set_region_rect(value)"
+msgstr ""
+
+#: ../../docs/classes/class_sprite3d.rst:125
+msgid "get_region_rect()"
+msgstr ""
+
+#: ../../docs/classes/class_sprite3d.rst:128
+msgid ""
+"The region of the atlas texture to display. :ref:"
+"`region_enabled<class_Sprite3D_property_region_enabled>` must be ``true``."
+msgstr ""
+
+#: ../../docs/classes/class_sprite3d.rst:134
+msgid ":ref:`Texture<class_Texture>` **texture**"
+msgstr ""
+
+#: ../../docs/classes/class_sprite3d.rst:137
+msgid "set_texture(value)"
+msgstr ""
+
+#: ../../docs/classes/class_sprite3d.rst:139
+msgid "get_texture()"
+msgstr ""
+
+#: ../../docs/classes/class_sprite3d.rst:142
+msgid ""
+":ref:`Texture<class_Texture>` object to draw. If :ref:`GeometryInstance."
+"material_override<class_GeometryInstance_property_material_override>` is "
+"used, this will be overridden."
+msgstr ""
+
+#: ../../docs/classes/class_sprite3d.rst:148
+msgid ":ref:`int<class_int>` **vframes**"
+msgstr ""
+
+#: ../../docs/classes/class_sprite3d.rst:153
+msgid "set_vframes(value)"
+msgstr ""
+
+#: ../../docs/classes/class_sprite3d.rst:155
+msgid "get_vframes()"
+msgstr ""
+
+#: ../../docs/classes/class_sprite3d.rst:158
+msgid "The number of rows in the sprite sheet."
+msgstr ""

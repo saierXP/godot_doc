@@ -1,0 +1,1495 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2021, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-31 12:15+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_popupmenu.rst:10
+msgid "PopupMenu"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:12
+msgid ""
+"**Inherits:** :ref:`Popup<class_Popup>` **<** :ref:`Control<class_Control>` "
+"**<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` "
+"**<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:14
+msgid "PopupMenu displays a list of options."
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:17
+msgid "Description"
+msgstr "描述"
+
+#: ../../docs/classes/class_popupmenu.rst:19
+msgid ""
+"``PopupMenu`` is a :ref:`Control<class_Control>` that displays a list of "
+"options. They are popular in toolbars or context menus."
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:22
+msgid "Properties"
+msgstr "属性"
+
+#: ../../docs/classes/class_popupmenu.rst:25
+#: ../../docs/classes/class_popupmenu.rst:29
+#: ../../docs/classes/class_popupmenu.rst:31
+#: ../../docs/classes/class_popupmenu.rst:33
+#: ../../docs/classes/class_popupmenu.rst:96
+#: ../../docs/classes/class_popupmenu.rst:98
+#: ../../docs/classes/class_popupmenu.rst:100
+#: ../../docs/classes/class_popupmenu.rst:102
+#: ../../docs/classes/class_popupmenu.rst:104
+#: ../../docs/classes/class_popupmenu.rst:106
+#: ../../docs/classes/class_popupmenu.rst:108
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:25
+msgid ":ref:`allow_search<class_PopupMenu_property_allow_search>`"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:25
+#: ../../docs/classes/class_popupmenu.rst:33
+#: ../../docs/classes/class_popupmenu.rst:225
+#: ../../docs/classes/class_popupmenu.rst:273
+msgid "``false``"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:27
+msgid ":ref:`FocusMode<enum_Control_FocusMode>`"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:27
+msgid "focus_mode"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:27
+msgid "``2`` *(parent override)*"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:29
+msgid ""
+":ref:"
+"`hide_on_checkable_item_selection<class_PopupMenu_property_hide_on_checkable_item_selection>`"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:29
+#: ../../docs/classes/class_popupmenu.rst:31
+#: ../../docs/classes/class_popupmenu.rst:241
+#: ../../docs/classes/class_popupmenu.rst:257
+msgid "``true``"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:31
+msgid ""
+":ref:"
+"`hide_on_item_selection<class_PopupMenu_property_hide_on_item_selection>`"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:33
+msgid ""
+":ref:"
+"`hide_on_state_item_selection<class_PopupMenu_property_hide_on_state_item_selection>`"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:35
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:35
+msgid ""
+":ref:`submenu_popup_delay<class_PopupMenu_property_submenu_popup_delay>`"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:35
+#: ../../docs/classes/class_popupmenu.rst:289
+msgid "``0.3``"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:39
+msgid "Methods"
+msgstr "方法"
+
+#: ../../docs/classes/class_popupmenu.rst:42
+#: ../../docs/classes/class_popupmenu.rst:44
+#: ../../docs/classes/class_popupmenu.rst:46
+#: ../../docs/classes/class_popupmenu.rst:48
+#: ../../docs/classes/class_popupmenu.rst:50
+#: ../../docs/classes/class_popupmenu.rst:52
+#: ../../docs/classes/class_popupmenu.rst:54
+#: ../../docs/classes/class_popupmenu.rst:56
+#: ../../docs/classes/class_popupmenu.rst:58
+#: ../../docs/classes/class_popupmenu.rst:60
+#: ../../docs/classes/class_popupmenu.rst:62
+#: ../../docs/classes/class_popupmenu.rst:64
+#: ../../docs/classes/class_popupmenu.rst:66
+#: ../../docs/classes/class_popupmenu.rst:68
+#: ../../docs/classes/class_popupmenu.rst:70
+#: ../../docs/classes/class_popupmenu.rst:72
+#: ../../docs/classes/class_popupmenu.rst:110
+#: ../../docs/classes/class_popupmenu.rst:112
+#: ../../docs/classes/class_popupmenu.rst:114
+#: ../../docs/classes/class_popupmenu.rst:116
+#: ../../docs/classes/class_popupmenu.rst:118
+#: ../../docs/classes/class_popupmenu.rst:120
+#: ../../docs/classes/class_popupmenu.rst:122
+#: ../../docs/classes/class_popupmenu.rst:124
+#: ../../docs/classes/class_popupmenu.rst:126
+#: ../../docs/classes/class_popupmenu.rst:128
+#: ../../docs/classes/class_popupmenu.rst:130
+#: ../../docs/classes/class_popupmenu.rst:132
+#: ../../docs/classes/class_popupmenu.rst:134
+#: ../../docs/classes/class_popupmenu.rst:136
+#: ../../docs/classes/class_popupmenu.rst:138
+#: ../../docs/classes/class_popupmenu.rst:140
+#: ../../docs/classes/class_popupmenu.rst:142
+#: ../../docs/classes/class_popupmenu.rst:144
+#: ../../docs/classes/class_popupmenu.rst:146
+msgid "void"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:42
+msgid ""
+":ref:`add_check_item<class_PopupMenu_method_add_check_item>` **(** :ref:"
+"`String<class_String>` label, :ref:`int<class_int>` id=-1, :ref:"
+"`int<class_int>` accel=0 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:44
+msgid ""
+":ref:`add_check_shortcut<class_PopupMenu_method_add_check_shortcut>` **(** :"
+"ref:`ShortCut<class_ShortCut>` shortcut, :ref:`int<class_int>` id=-1, :ref:"
+"`bool<class_bool>` global=false **)**"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:46
+msgid ""
+":ref:`add_icon_check_item<class_PopupMenu_method_add_icon_check_item>` "
+"**(** :ref:`Texture<class_Texture>` texture, :ref:`String<class_String>` "
+"label, :ref:`int<class_int>` id=-1, :ref:`int<class_int>` accel=0 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:48
+msgid ""
+":ref:"
+"`add_icon_check_shortcut<class_PopupMenu_method_add_icon_check_shortcut>` "
+"**(** :ref:`Texture<class_Texture>` texture, :ref:`ShortCut<class_ShortCut>` "
+"shortcut, :ref:`int<class_int>` id=-1, :ref:`bool<class_bool>` global=false "
+"**)**"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:50
+msgid ""
+":ref:`add_icon_item<class_PopupMenu_method_add_icon_item>` **(** :ref:"
+"`Texture<class_Texture>` texture, :ref:`String<class_String>` label, :ref:"
+"`int<class_int>` id=-1, :ref:`int<class_int>` accel=0 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:52
+msgid ""
+":ref:"
+"`add_icon_radio_check_item<class_PopupMenu_method_add_icon_radio_check_item>` "
+"**(** :ref:`Texture<class_Texture>` texture, :ref:`String<class_String>` "
+"label, :ref:`int<class_int>` id=-1, :ref:`int<class_int>` accel=0 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:54
+msgid ""
+":ref:"
+"`add_icon_radio_check_shortcut<class_PopupMenu_method_add_icon_radio_check_shortcut>` "
+"**(** :ref:`Texture<class_Texture>` texture, :ref:`ShortCut<class_ShortCut>` "
+"shortcut, :ref:`int<class_int>` id=-1, :ref:`bool<class_bool>` global=false "
+"**)**"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:56
+msgid ""
+":ref:`add_icon_shortcut<class_PopupMenu_method_add_icon_shortcut>` **(** :"
+"ref:`Texture<class_Texture>` texture, :ref:`ShortCut<class_ShortCut>` "
+"shortcut, :ref:`int<class_int>` id=-1, :ref:`bool<class_bool>` global=false "
+"**)**"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:58
+msgid ""
+":ref:`add_item<class_PopupMenu_method_add_item>` **(** :ref:"
+"`String<class_String>` label, :ref:`int<class_int>` id=-1, :ref:"
+"`int<class_int>` accel=0 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:60
+msgid ""
+":ref:`add_multistate_item<class_PopupMenu_method_add_multistate_item>` "
+"**(** :ref:`String<class_String>` label, :ref:`int<class_int>` max_states, :"
+"ref:`int<class_int>` default_state=0, :ref:`int<class_int>` id=-1, :ref:"
+"`int<class_int>` accel=0 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:62
+msgid ""
+":ref:`add_radio_check_item<class_PopupMenu_method_add_radio_check_item>` "
+"**(** :ref:`String<class_String>` label, :ref:`int<class_int>` id=-1, :ref:"
+"`int<class_int>` accel=0 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:64
+msgid ""
+":ref:"
+"`add_radio_check_shortcut<class_PopupMenu_method_add_radio_check_shortcut>` "
+"**(** :ref:`ShortCut<class_ShortCut>` shortcut, :ref:`int<class_int>` "
+"id=-1, :ref:`bool<class_bool>` global=false **)**"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:66
+msgid ""
+":ref:`add_separator<class_PopupMenu_method_add_separator>` **(** :ref:"
+"`String<class_String>` label=\"\", :ref:`int<class_int>` id=-1 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:68
+msgid ""
+":ref:`add_shortcut<class_PopupMenu_method_add_shortcut>` **(** :ref:"
+"`ShortCut<class_ShortCut>` shortcut, :ref:`int<class_int>` id=-1, :ref:"
+"`bool<class_bool>` global=false **)**"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:70
+msgid ""
+":ref:`add_submenu_item<class_PopupMenu_method_add_submenu_item>` **(** :ref:"
+"`String<class_String>` label, :ref:`String<class_String>` submenu, :ref:"
+"`int<class_int>` id=-1 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:72
+msgid ":ref:`clear<class_PopupMenu_method_clear>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:74
+#: ../../docs/classes/class_popupmenu.rst:76
+#: ../../docs/classes/class_popupmenu.rst:78
+#: ../../docs/classes/class_popupmenu.rst:82
+#: ../../docs/classes/class_popupmenu.rst:84
+#: ../../docs/classes/class_popupmenu.rst:169
+#: ../../docs/classes/class_popupmenu.rst:189
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:74
+msgid ""
+":ref:`get_current_index<class_PopupMenu_method_get_current_index>` **(** "
+"**)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:76
+msgid ""
+":ref:`get_item_accelerator<class_PopupMenu_method_get_item_accelerator>` "
+"**(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:78
+msgid ""
+":ref:`get_item_count<class_PopupMenu_method_get_item_count>` **(** **)** |"
+"const|"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:80
+#: ../../docs/classes/class_popupmenu.rst:153
+#: ../../docs/classes/class_popupmenu.rst:179
+#: ../../docs/classes/class_popupmenu.rst:181
+#: ../../docs/classes/class_popupmenu.rst:185
+#: ../../docs/classes/class_popupmenu.rst:187
+msgid ":ref:`Texture<class_Texture>`"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:80
+msgid ""
+":ref:`get_item_icon<class_PopupMenu_method_get_item_icon>` **(** :ref:"
+"`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:82
+msgid ""
+":ref:`get_item_id<class_PopupMenu_method_get_item_id>` **(** :ref:"
+"`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:84
+msgid ""
+":ref:`get_item_index<class_PopupMenu_method_get_item_index>` **(** :ref:"
+"`int<class_int>` id **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:86
+msgid ":ref:`Variant<class_Variant>`"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:86
+msgid ""
+":ref:`get_item_metadata<class_PopupMenu_method_get_item_metadata>` **(** :"
+"ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:88
+msgid ":ref:`ShortCut<class_ShortCut>`"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:88
+msgid ""
+":ref:`get_item_shortcut<class_PopupMenu_method_get_item_shortcut>` **(** :"
+"ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:90
+#: ../../docs/classes/class_popupmenu.rst:92
+#: ../../docs/classes/class_popupmenu.rst:94
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:90
+msgid ""
+":ref:`get_item_submenu<class_PopupMenu_method_get_item_submenu>` **(** :ref:"
+"`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:92
+msgid ""
+":ref:`get_item_text<class_PopupMenu_method_get_item_text>` **(** :ref:"
+"`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:94
+msgid ""
+":ref:`get_item_tooltip<class_PopupMenu_method_get_item_tooltip>` **(** :ref:"
+"`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:96
+msgid ""
+":ref:"
+"`is_hide_on_window_lose_focus<class_PopupMenu_method_is_hide_on_window_lose_focus>` "
+"**(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:98
+msgid ""
+":ref:`is_item_checkable<class_PopupMenu_method_is_item_checkable>` **(** :"
+"ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:100
+msgid ""
+":ref:`is_item_checked<class_PopupMenu_method_is_item_checked>` **(** :ref:"
+"`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:102
+msgid ""
+":ref:`is_item_disabled<class_PopupMenu_method_is_item_disabled>` **(** :ref:"
+"`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:104
+msgid ""
+":ref:"
+"`is_item_radio_checkable<class_PopupMenu_method_is_item_radio_checkable>` "
+"**(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:106
+msgid ""
+":ref:`is_item_separator<class_PopupMenu_method_is_item_separator>` **(** :"
+"ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:108
+msgid ""
+":ref:"
+"`is_item_shortcut_disabled<class_PopupMenu_method_is_item_shortcut_disabled>` "
+"**(** :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:110
+msgid ""
+":ref:`remove_item<class_PopupMenu_method_remove_item>` **(** :ref:"
+"`int<class_int>` idx **)**"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:112
+msgid ""
+":ref:"
+"`set_hide_on_window_lose_focus<class_PopupMenu_method_set_hide_on_window_lose_focus>` "
+"**(** :ref:`bool<class_bool>` enable **)**"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:114
+msgid ""
+":ref:`set_item_accelerator<class_PopupMenu_method_set_item_accelerator>` "
+"**(** :ref:`int<class_int>` idx, :ref:`int<class_int>` accel **)**"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:116
+msgid ""
+":ref:`set_item_as_checkable<class_PopupMenu_method_set_item_as_checkable>` "
+"**(** :ref:`int<class_int>` idx, :ref:`bool<class_bool>` enable **)**"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:118
+msgid ""
+":ref:"
+"`set_item_as_radio_checkable<class_PopupMenu_method_set_item_as_radio_checkable>` "
+"**(** :ref:`int<class_int>` idx, :ref:`bool<class_bool>` enable **)**"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:120
+msgid ""
+":ref:`set_item_as_separator<class_PopupMenu_method_set_item_as_separator>` "
+"**(** :ref:`int<class_int>` idx, :ref:`bool<class_bool>` enable **)**"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:122
+msgid ""
+":ref:`set_item_checked<class_PopupMenu_method_set_item_checked>` **(** :ref:"
+"`int<class_int>` idx, :ref:`bool<class_bool>` checked **)**"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:124
+msgid ""
+":ref:`set_item_disabled<class_PopupMenu_method_set_item_disabled>` **(** :"
+"ref:`int<class_int>` idx, :ref:`bool<class_bool>` disabled **)**"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:126
+msgid ""
+":ref:`set_item_icon<class_PopupMenu_method_set_item_icon>` **(** :ref:"
+"`int<class_int>` idx, :ref:`Texture<class_Texture>` icon **)**"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:128
+msgid ""
+":ref:`set_item_id<class_PopupMenu_method_set_item_id>` **(** :ref:"
+"`int<class_int>` idx, :ref:`int<class_int>` id **)**"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:130
+msgid ""
+":ref:`set_item_metadata<class_PopupMenu_method_set_item_metadata>` **(** :"
+"ref:`int<class_int>` idx, :ref:`Variant<class_Variant>` metadata **)**"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:132
+msgid ""
+":ref:`set_item_multistate<class_PopupMenu_method_set_item_multistate>` "
+"**(** :ref:`int<class_int>` idx, :ref:`int<class_int>` state **)**"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:134
+msgid ""
+":ref:`set_item_shortcut<class_PopupMenu_method_set_item_shortcut>` **(** :"
+"ref:`int<class_int>` idx, :ref:`ShortCut<class_ShortCut>` shortcut, :ref:"
+"`bool<class_bool>` global=false **)**"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:136
+msgid ""
+":ref:"
+"`set_item_shortcut_disabled<class_PopupMenu_method_set_item_shortcut_disabled>` "
+"**(** :ref:`int<class_int>` idx, :ref:`bool<class_bool>` disabled **)**"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:138
+msgid ""
+":ref:`set_item_submenu<class_PopupMenu_method_set_item_submenu>` **(** :ref:"
+"`int<class_int>` idx, :ref:`String<class_String>` submenu **)**"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:140
+msgid ""
+":ref:`set_item_text<class_PopupMenu_method_set_item_text>` **(** :ref:"
+"`int<class_int>` idx, :ref:`String<class_String>` text **)**"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:142
+msgid ""
+":ref:`set_item_tooltip<class_PopupMenu_method_set_item_tooltip>` **(** :ref:"
+"`int<class_int>` idx, :ref:`String<class_String>` tooltip **)**"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:144
+msgid ""
+":ref:`toggle_item_checked<class_PopupMenu_method_toggle_item_checked>` "
+"**(** :ref:`int<class_int>` idx **)**"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:146
+msgid ""
+":ref:`toggle_item_multistate<class_PopupMenu_method_toggle_item_multistate>` "
+"**(** :ref:`int<class_int>` idx **)**"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:150
+msgid "Theme Properties"
+msgstr "主题属性"
+
+#: ../../docs/classes/class_popupmenu.rst:153
+msgid "checked"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:155
+msgid ":ref:`Font<class_Font>`"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:155
+msgid "font"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:157
+#: ../../docs/classes/class_popupmenu.rst:159
+#: ../../docs/classes/class_popupmenu.rst:161
+#: ../../docs/classes/class_popupmenu.rst:163
+#: ../../docs/classes/class_popupmenu.rst:165
+msgid ":ref:`Color<class_Color>`"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:157
+msgid "font_color"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:157
+#: ../../docs/classes/class_popupmenu.rst:163
+#: ../../docs/classes/class_popupmenu.rst:165
+msgid "Color( 0.88, 0.88, 0.88, 1 )"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:159
+msgid "font_color_accel"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:159
+msgid "Color( 0.7, 0.7, 0.7, 0.8 )"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:161
+msgid "font_color_disabled"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:161
+msgid "Color( 0.4, 0.4, 0.4, 0.8 )"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:163
+msgid "font_color_hover"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:165
+msgid "font_color_separator"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:167
+#: ../../docs/classes/class_popupmenu.rst:171
+#: ../../docs/classes/class_popupmenu.rst:173
+#: ../../docs/classes/class_popupmenu.rst:175
+#: ../../docs/classes/class_popupmenu.rst:177
+#: ../../docs/classes/class_popupmenu.rst:183
+msgid ":ref:`StyleBox<class_StyleBox>`"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:167
+msgid "hover"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:169
+msgid "hseparation"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:169
+#: ../../docs/classes/class_popupmenu.rst:189
+msgid "4"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:171
+msgid "labeled_separator_left"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:173
+msgid "labeled_separator_right"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:175
+msgid "panel"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:177
+msgid "panel_disabled"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:179
+msgid "radio_checked"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:181
+msgid "radio_unchecked"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:183
+msgid "separator"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:185
+msgid "submenu"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:187
+msgid "unchecked"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:189
+msgid "vseparation"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:193
+msgid "Signals"
+msgstr "信号"
+
+#: ../../docs/classes/class_popupmenu.rst:197
+msgid "**id_focused** **(** :ref:`int<class_int>` id **)**"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:199
+msgid ""
+"Emitted when user navigated to an item of some ``id`` using ``ui_up`` or "
+"``ui_down`` action."
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:205
+msgid "**id_pressed** **(** :ref:`int<class_int>` id **)**"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:207
+msgid ""
+"Emitted when an item of some ``id`` is pressed or its accelerator is "
+"activated."
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:213
+msgid "**index_pressed** **(** :ref:`int<class_int>` index **)**"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:215
+msgid ""
+"Emitted when an item of some ``index`` is pressed or its accelerator is "
+"activated."
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:218
+msgid "Property Descriptions"
+msgstr "属性说明"
+
+#: ../../docs/classes/class_popupmenu.rst:222
+msgid ":ref:`bool<class_bool>` **allow_search**"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:225
+#: ../../docs/classes/class_popupmenu.rst:241
+#: ../../docs/classes/class_popupmenu.rst:257
+#: ../../docs/classes/class_popupmenu.rst:273
+#: ../../docs/classes/class_popupmenu.rst:289
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:227
+#: ../../docs/classes/class_popupmenu.rst:243
+#: ../../docs/classes/class_popupmenu.rst:259
+#: ../../docs/classes/class_popupmenu.rst:275
+#: ../../docs/classes/class_popupmenu.rst:291
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:227
+msgid "set_allow_search(value)"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:229
+#: ../../docs/classes/class_popupmenu.rst:245
+#: ../../docs/classes/class_popupmenu.rst:261
+#: ../../docs/classes/class_popupmenu.rst:277
+#: ../../docs/classes/class_popupmenu.rst:293
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:229
+msgid "get_allow_search()"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:232
+msgid "If ``true``, allows to navigate ``PopupMenu`` with letter keys."
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:238
+msgid ":ref:`bool<class_bool>` **hide_on_checkable_item_selection**"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:243
+msgid "set_hide_on_checkable_item_selection(value)"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:245
+msgid "is_hide_on_checkable_item_selection()"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:248
+msgid ""
+"If ``true``, hides the ``PopupMenu`` when a checkbox or radio button is "
+"selected."
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:254
+msgid ":ref:`bool<class_bool>` **hide_on_item_selection**"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:259
+msgid "set_hide_on_item_selection(value)"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:261
+msgid "is_hide_on_item_selection()"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:264
+msgid "If ``true``, hides the ``PopupMenu`` when an item is selected."
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:270
+msgid ":ref:`bool<class_bool>` **hide_on_state_item_selection**"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:275
+msgid "set_hide_on_state_item_selection(value)"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:277
+msgid "is_hide_on_state_item_selection()"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:280
+msgid "If ``true``, hides the ``PopupMenu`` when a state item is selected."
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:286
+msgid ":ref:`float<class_float>` **submenu_popup_delay**"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:291
+msgid "set_submenu_popup_delay(value)"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:293
+msgid "get_submenu_popup_delay()"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:296
+msgid ""
+"Sets the delay time in seconds for the submenu item to popup on mouse "
+"hovering. If the popup menu is added as a child of another (acting as a "
+"submenu), it will inherit the delay time of the parent menu item."
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:299
+msgid "Method Descriptions"
+msgstr "方法说明"
+
+#: ../../docs/classes/class_popupmenu.rst:303
+msgid ""
+"void **add_check_item** **(** :ref:`String<class_String>` label, :ref:"
+"`int<class_int>` id=-1, :ref:`int<class_int>` accel=0 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:305
+msgid "Adds a new checkable item with text ``label``."
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:307
+#: ../../docs/classes/class_popupmenu.rst:331
+#: ../../docs/classes/class_popupmenu.rst:355
+#: ../../docs/classes/class_popupmenu.rst:391
+#: ../../docs/classes/class_popupmenu.rst:403
+#: ../../docs/classes/class_popupmenu.rst:413
+msgid ""
+"An ``id`` can optionally be provided, as well as an accelerator (``accel``). "
+"If no ``id`` is provided, one will be created from the index. If no "
+"``accel`` is provided then the default ``0`` will be assigned to it. See :"
+"ref:`get_item_accelerator<class_PopupMenu_method_get_item_accelerator>` for "
+"more info on accelerators."
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:309
+#: ../../docs/classes/class_popupmenu.rst:321
+#: ../../docs/classes/class_popupmenu.rst:333
+#: ../../docs/classes/class_popupmenu.rst:345
+#: ../../docs/classes/class_popupmenu.rst:415
+#: ../../docs/classes/class_popupmenu.rst:427
+msgid ""
+"**Note:** Checkable items just display a checkmark, but don't have any built-"
+"in checking behavior and must be checked/unchecked manually. See :ref:"
+"`set_item_checked<class_PopupMenu_method_set_item_checked>` for more info on "
+"how to control it."
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:315
+msgid ""
+"void **add_check_shortcut** **(** :ref:`ShortCut<class_ShortCut>` shortcut, :"
+"ref:`int<class_int>` id=-1, :ref:`bool<class_bool>` global=false **)**"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:317
+msgid ""
+"Adds a new checkable item and assigns the specified :ref:"
+"`ShortCut<class_ShortCut>` to it. Sets the label of the checkbox to the :ref:"
+"`ShortCut<class_ShortCut>`'s name."
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:319
+#: ../../docs/classes/class_popupmenu.rst:343
+#: ../../docs/classes/class_popupmenu.rst:381
+#: ../../docs/classes/class_popupmenu.rst:425
+#: ../../docs/classes/class_popupmenu.rst:447
+#: ../../docs/classes/class_popupmenu.rst:457
+msgid ""
+"An ``id`` can optionally be provided. If no ``id`` is provided, one will be "
+"created from the index."
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:327
+msgid ""
+"void **add_icon_check_item** **(** :ref:`Texture<class_Texture>` texture, :"
+"ref:`String<class_String>` label, :ref:`int<class_int>` id=-1, :ref:"
+"`int<class_int>` accel=0 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:329
+msgid "Adds a new checkable item with text ``label`` and icon ``texture``."
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:339
+msgid ""
+"void **add_icon_check_shortcut** **(** :ref:`Texture<class_Texture>` "
+"texture, :ref:`ShortCut<class_ShortCut>` shortcut, :ref:`int<class_int>` "
+"id=-1, :ref:`bool<class_bool>` global=false **)**"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:341
+msgid ""
+"Adds a new checkable item and assigns the specified :ref:"
+"`ShortCut<class_ShortCut>` and icon ``texture`` to it. Sets the label of the "
+"checkbox to the :ref:`ShortCut<class_ShortCut>`'s name."
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:351
+msgid ""
+"void **add_icon_item** **(** :ref:`Texture<class_Texture>` texture, :ref:"
+"`String<class_String>` label, :ref:`int<class_int>` id=-1, :ref:"
+"`int<class_int>` accel=0 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:353
+msgid "Adds a new item with text ``label`` and icon ``texture``."
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:361
+msgid ""
+"void **add_icon_radio_check_item** **(** :ref:`Texture<class_Texture>` "
+"texture, :ref:`String<class_String>` label, :ref:`int<class_int>` id=-1, :"
+"ref:`int<class_int>` accel=0 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:363
+msgid ""
+"Same as :ref:"
+"`add_icon_check_item<class_PopupMenu_method_add_icon_check_item>`, but uses "
+"a radio check button."
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:369
+msgid ""
+"void **add_icon_radio_check_shortcut** **(** :ref:`Texture<class_Texture>` "
+"texture, :ref:`ShortCut<class_ShortCut>` shortcut, :ref:`int<class_int>` "
+"id=-1, :ref:`bool<class_bool>` global=false **)**"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:371
+msgid ""
+"Same as :ref:"
+"`add_icon_check_shortcut<class_PopupMenu_method_add_icon_check_shortcut>`, "
+"but uses a radio check button."
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:377
+msgid ""
+"void **add_icon_shortcut** **(** :ref:`Texture<class_Texture>` texture, :ref:"
+"`ShortCut<class_ShortCut>` shortcut, :ref:`int<class_int>` id=-1, :ref:"
+"`bool<class_bool>` global=false **)**"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:379
+msgid ""
+"Adds a new item and assigns the specified :ref:`ShortCut<class_ShortCut>` "
+"and icon ``texture`` to it. Sets the label of the checkbox to the :ref:"
+"`ShortCut<class_ShortCut>`'s name."
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:387
+msgid ""
+"void **add_item** **(** :ref:`String<class_String>` label, :ref:"
+"`int<class_int>` id=-1, :ref:`int<class_int>` accel=0 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:389
+msgid "Adds a new item with text ``label``."
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:397
+msgid ""
+"void **add_multistate_item** **(** :ref:`String<class_String>` label, :ref:"
+"`int<class_int>` max_states, :ref:`int<class_int>` default_state=0, :ref:"
+"`int<class_int>` id=-1, :ref:`int<class_int>` accel=0 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:399
+msgid "Adds a new multistate item with text ``label``."
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:401
+msgid ""
+"Contrarily to normal binary items, multistate items can have more than two "
+"states, as defined by ``max_states``. Each press or activate of the item "
+"will increase the state by one. The default value is defined by "
+"``default_state``."
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:409
+msgid ""
+"void **add_radio_check_item** **(** :ref:`String<class_String>` label, :ref:"
+"`int<class_int>` id=-1, :ref:`int<class_int>` accel=0 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:411
+msgid "Adds a new radio check button with text ``label``."
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:421
+msgid ""
+"void **add_radio_check_shortcut** **(** :ref:`ShortCut<class_ShortCut>` "
+"shortcut, :ref:`int<class_int>` id=-1, :ref:`bool<class_bool>` global=false "
+"**)**"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:423
+msgid ""
+"Adds a new radio check button and assigns a :ref:`ShortCut<class_ShortCut>` "
+"to it. Sets the label of the checkbox to the :ref:"
+"`ShortCut<class_ShortCut>`'s name."
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:433
+msgid ""
+"void **add_separator** **(** :ref:`String<class_String>` label=\"\", :ref:"
+"`int<class_int>` id=-1 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:435
+msgid ""
+"Adds a separator between items. Separators also occupy an index, which you "
+"can set by using the ``id`` parameter."
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:437
+msgid ""
+"A ``label`` can optionally be provided, which will appear at the center of "
+"the separator."
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:443
+msgid ""
+"void **add_shortcut** **(** :ref:`ShortCut<class_ShortCut>` shortcut, :ref:"
+"`int<class_int>` id=-1, :ref:`bool<class_bool>` global=false **)**"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:445
+msgid "Adds a :ref:`ShortCut<class_ShortCut>`."
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:453
+msgid ""
+"void **add_submenu_item** **(** :ref:`String<class_String>` label, :ref:"
+"`String<class_String>` submenu, :ref:`int<class_int>` id=-1 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:455
+msgid ""
+"Adds an item that will act as a submenu of the parent ``PopupMenu`` node "
+"when clicked. The ``submenu`` argument is the name of the child "
+"``PopupMenu`` node that will be shown when the item is clicked."
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:463
+msgid "void **clear** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:465
+msgid "Removes all items from the ``PopupMenu``."
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:471
+msgid ":ref:`int<class_int>` **get_current_index** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:477
+msgid ""
+":ref:`int<class_int>` **get_item_accelerator** **(** :ref:`int<class_int>` "
+"idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:479
+msgid ""
+"Returns the accelerator of the item at index ``idx``. Accelerators are "
+"special combinations of keys that activate the item, no matter which control "
+"is focused."
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:485
+msgid ":ref:`int<class_int>` **get_item_count** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:487
+msgid "Returns the number of items in the ``PopupMenu``."
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:493
+msgid ""
+":ref:`Texture<class_Texture>` **get_item_icon** **(** :ref:`int<class_int>` "
+"idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:495
+msgid "Returns the icon of the item at index ``idx``."
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:501
+msgid ""
+":ref:`int<class_int>` **get_item_id** **(** :ref:`int<class_int>` idx **)** |"
+"const|"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:503
+msgid ""
+"Returns the id of the item at index ``idx``. ``id`` can be manually "
+"assigned, while index can not."
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:509
+msgid ""
+":ref:`int<class_int>` **get_item_index** **(** :ref:`int<class_int>` id "
+"**)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:511
+msgid ""
+"Returns the index of the item containing the specified ``id``. Index is "
+"automatically assigned to each item by the engine. Index can not be set "
+"manually."
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:517
+msgid ""
+":ref:`Variant<class_Variant>` **get_item_metadata** **(** :ref:"
+"`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:519
+msgid ""
+"Returns the metadata of the specified item, which might be of any type. You "
+"can set it with :ref:"
+"`set_item_metadata<class_PopupMenu_method_set_item_metadata>`, which "
+"provides a simple way of assigning context data to items."
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:525
+msgid ""
+":ref:`ShortCut<class_ShortCut>` **get_item_shortcut** **(** :ref:"
+"`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:527
+msgid ""
+"Returns the :ref:`ShortCut<class_ShortCut>` associated with the specified "
+"``idx`` item."
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:533
+msgid ""
+":ref:`String<class_String>` **get_item_submenu** **(** :ref:`int<class_int>` "
+"idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:535
+msgid ""
+"Returns the submenu name of the item at index ``idx``. See :ref:"
+"`add_submenu_item<class_PopupMenu_method_add_submenu_item>` for more info on "
+"how to add a submenu."
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:541
+msgid ""
+":ref:`String<class_String>` **get_item_text** **(** :ref:`int<class_int>` "
+"idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:543
+msgid "Returns the text of the item at index ``idx``."
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:549
+msgid ""
+":ref:`String<class_String>` **get_item_tooltip** **(** :ref:`int<class_int>` "
+"idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:551
+msgid "Returns the tooltip associated with the specified index index ``idx``."
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:557
+msgid ""
+":ref:`bool<class_bool>` **is_hide_on_window_lose_focus** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:559
+msgid ""
+"Returns ``true`` if the popup will be hidden when the window loses focus or "
+"not."
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:565
+msgid ""
+":ref:`bool<class_bool>` **is_item_checkable** **(** :ref:`int<class_int>` "
+"idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:567
+msgid ""
+"Returns ``true`` if the item at index ``idx`` is checkable in some way, i.e. "
+"if it has a checkbox or radio button."
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:569
+msgid ""
+"**Note:** Checkable items just display a checkmark or radio button, but "
+"don't have any built-in checking behavior and must be checked/unchecked "
+"manually."
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:575
+msgid ""
+":ref:`bool<class_bool>` **is_item_checked** **(** :ref:`int<class_int>` idx "
+"**)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:577
+msgid "Returns ``true`` if the item at index ``idx`` is checked."
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:583
+msgid ""
+":ref:`bool<class_bool>` **is_item_disabled** **(** :ref:`int<class_int>` idx "
+"**)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:585
+msgid ""
+"Returns ``true`` if the item at index ``idx`` is disabled. When it is "
+"disabled it can't be selected, or its action invoked."
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:587
+msgid ""
+"See :ref:`set_item_disabled<class_PopupMenu_method_set_item_disabled>` for "
+"more info on how to disable an item."
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:593
+msgid ""
+":ref:`bool<class_bool>` **is_item_radio_checkable** **(** :ref:"
+"`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:595
+msgid ""
+"Returns ``true`` if the item at index ``idx`` has radio button-style "
+"checkability."
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:597
+msgid ""
+"**Note:** This is purely cosmetic; you must add the logic for checking/"
+"unchecking items in radio groups."
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:603
+msgid ""
+":ref:`bool<class_bool>` **is_item_separator** **(** :ref:`int<class_int>` "
+"idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:605
+msgid ""
+"Returns ``true`` if the item is a separator. If it is, it will be displayed "
+"as a line. See :ref:`add_separator<class_PopupMenu_method_add_separator>` "
+"for more info on how to add a separator."
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:611
+msgid ""
+":ref:`bool<class_bool>` **is_item_shortcut_disabled** **(** :ref:"
+"`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:613
+msgid "Returns ``true`` if the specified item's shortcut is disabled."
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:619
+msgid "void **remove_item** **(** :ref:`int<class_int>` idx **)**"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:621
+msgid "Removes the item at index ``idx`` from the menu."
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:623
+msgid ""
+"**Note:** The indices of items after the removed item will be shifted by one."
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:629
+msgid ""
+"void **set_hide_on_window_lose_focus** **(** :ref:`bool<class_bool>` enable "
+"**)**"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:631
+msgid "Hides the ``PopupMenu`` when the window loses focus."
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:637
+msgid ""
+"void **set_item_accelerator** **(** :ref:`int<class_int>` idx, :ref:"
+"`int<class_int>` accel **)**"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:639
+msgid ""
+"Sets the accelerator of the item at index ``idx``. Accelerators are special "
+"combinations of keys that activate the item, no matter which control is "
+"focused."
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:645
+msgid ""
+"void **set_item_as_checkable** **(** :ref:`int<class_int>` idx, :ref:"
+"`bool<class_bool>` enable **)**"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:647
+msgid ""
+"Sets whether the item at index ``idx`` has a checkbox. If ``false``, sets "
+"the type of the item to plain text."
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:649
+msgid ""
+"**Note:** Checkable items just display a checkmark, but don't have any built-"
+"in checking behavior and must be checked/unchecked manually."
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:655
+msgid ""
+"void **set_item_as_radio_checkable** **(** :ref:`int<class_int>` idx, :ref:"
+"`bool<class_bool>` enable **)**"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:657
+msgid ""
+"Sets the type of the item at the specified index ``idx`` to radio button. If "
+"``false``, sets the type of the item to plain text."
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:663
+msgid ""
+"void **set_item_as_separator** **(** :ref:`int<class_int>` idx, :ref:"
+"`bool<class_bool>` enable **)**"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:665
+msgid ""
+"Mark the item at index ``idx`` as a separator, which means that it would be "
+"displayed as a line. If ``false``, sets the type of the item to plain text."
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:671
+msgid ""
+"void **set_item_checked** **(** :ref:`int<class_int>` idx, :ref:"
+"`bool<class_bool>` checked **)**"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:673
+msgid "Sets the checkstate status of the item at index ``idx``."
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:679
+msgid ""
+"void **set_item_disabled** **(** :ref:`int<class_int>` idx, :ref:"
+"`bool<class_bool>` disabled **)**"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:681
+msgid ""
+"Enables/disables the item at index ``idx``. When it is disabled, it can't be "
+"selected and its action can't be invoked."
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:687
+msgid ""
+"void **set_item_icon** **(** :ref:`int<class_int>` idx, :ref:"
+"`Texture<class_Texture>` icon **)**"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:689
+msgid ""
+"Replaces the :ref:`Texture<class_Texture>` icon of the specified ``idx``."
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:695
+msgid ""
+"void **set_item_id** **(** :ref:`int<class_int>` idx, :ref:`int<class_int>` "
+"id **)**"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:697
+msgid "Sets the ``id`` of the item at index ``idx``."
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:703
+msgid ""
+"void **set_item_metadata** **(** :ref:`int<class_int>` idx, :ref:"
+"`Variant<class_Variant>` metadata **)**"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:705
+msgid ""
+"Sets the metadata of an item, which may be of any type. You can later get it "
+"with :ref:`get_item_metadata<class_PopupMenu_method_get_item_metadata>`, "
+"which provides a simple way of assigning context data to items."
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:711
+msgid ""
+"void **set_item_multistate** **(** :ref:`int<class_int>` idx, :ref:"
+"`int<class_int>` state **)**"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:713
+msgid ""
+"Sets the state of an multistate item. See :ref:"
+"`add_multistate_item<class_PopupMenu_method_add_multistate_item>` for "
+"details."
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:719
+msgid ""
+"void **set_item_shortcut** **(** :ref:`int<class_int>` idx, :ref:"
+"`ShortCut<class_ShortCut>` shortcut, :ref:`bool<class_bool>` global=false "
+"**)**"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:721
+msgid "Sets a :ref:`ShortCut<class_ShortCut>` for the specified item ``idx``."
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:727
+msgid ""
+"void **set_item_shortcut_disabled** **(** :ref:`int<class_int>` idx, :ref:"
+"`bool<class_bool>` disabled **)**"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:729
+msgid ""
+"Disables the :ref:`ShortCut<class_ShortCut>` of the specified index ``idx``."
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:735
+msgid ""
+"void **set_item_submenu** **(** :ref:`int<class_int>` idx, :ref:"
+"`String<class_String>` submenu **)**"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:737
+msgid ""
+"Sets the submenu of the item at index ``idx``. The submenu is the name of a "
+"child ``PopupMenu`` node that would be shown when the item is clicked."
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:743
+msgid ""
+"void **set_item_text** **(** :ref:`int<class_int>` idx, :ref:"
+"`String<class_String>` text **)**"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:745
+msgid "Sets the text of the item at index ``idx``."
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:751
+msgid ""
+"void **set_item_tooltip** **(** :ref:`int<class_int>` idx, :ref:"
+"`String<class_String>` tooltip **)**"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:753
+msgid ""
+"Sets the :ref:`String<class_String>` tooltip of the item at the specified "
+"index ``idx``."
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:759
+msgid "void **toggle_item_checked** **(** :ref:`int<class_int>` idx **)**"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:761
+msgid "Toggles the check state of the item of the specified index ``idx``."
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:767
+msgid "void **toggle_item_multistate** **(** :ref:`int<class_int>` idx **)**"
+msgstr ""
+
+#: ../../docs/classes/class_popupmenu.rst:769
+msgid ""
+"Cycle to the next state of an multistate item. See :ref:"
+"`add_multistate_item<class_PopupMenu_method_add_multistate_item>` for "
+"details."
+msgstr ""

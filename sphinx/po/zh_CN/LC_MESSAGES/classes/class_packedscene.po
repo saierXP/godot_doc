@@ -1,0 +1,243 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2021, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-31 12:15+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_packedscene.rst:10
+msgid "PackedScene"
+msgstr ""
+
+#: ../../docs/classes/class_packedscene.rst:12
+msgid ""
+"**Inherits:** :ref:`Resource<class_Resource>` **<** :ref:"
+"`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_packedscene.rst:14
+msgid "An abstraction of a serialized scene."
+msgstr ""
+
+#: ../../docs/classes/class_packedscene.rst:17
+msgid "Description"
+msgstr "描述"
+
+#: ../../docs/classes/class_packedscene.rst:19
+msgid ""
+"A simplified interface to a scene file. Provides access to operations and "
+"checks that can be performed on the scene resource itself."
+msgstr ""
+
+#: ../../docs/classes/class_packedscene.rst:21
+msgid ""
+"Can be used to save a node to a file. When saving, the node as well as all "
+"the node it owns get saved (see ``owner`` property on :ref:"
+"`Node<class_Node>`)."
+msgstr ""
+
+#: ../../docs/classes/class_packedscene.rst:23
+msgid "**Note:** The node doesn't need to own itself."
+msgstr ""
+
+#: ../../docs/classes/class_packedscene.rst:25
+msgid "**Example of loading a saved scene:**"
+msgstr ""
+
+#: ../../docs/classes/class_packedscene.rst:34
+msgid ""
+"**Example of saving a node with different owners:** The following example "
+"creates 3 objects: ``Node2D`` (``node``), ``RigidBody2D`` (``rigid``) and "
+"``CollisionObject2D`` (``collision``). ``collision`` is a child of ``rigid`` "
+"which is a child of ``node``. Only ``rigid`` is owned by ``node`` and "
+"``pack`` will therefore only save those two nodes, but not ``collision``."
+msgstr ""
+
+#: ../../docs/classes/class_packedscene.rst:59
+msgid "Tutorials"
+msgstr "教程"
+
+#: ../../docs/classes/class_packedscene.rst:61
+msgid ""
+"`https://godotengine.org/asset-library/asset/520 <https://godotengine.org/"
+"asset-library/asset/520>`_"
+msgstr ""
+
+#: ../../docs/classes/class_packedscene.rst:64
+msgid "Properties"
+msgstr "属性"
+
+#: ../../docs/classes/class_packedscene.rst:67
+msgid ":ref:`Dictionary<class_Dictionary>`"
+msgstr ""
+
+#: ../../docs/classes/class_packedscene.rst:67
+msgid ":ref:`_bundled<class_PackedScene_property__bundled>`"
+msgstr ""
+
+#: ../../docs/classes/class_packedscene.rst:67
+#: ../../docs/classes/class_packedscene.rst:114
+msgid ""
+"``{\"conn_count\": 0,\"conns\": PoolIntArray(  ),\"editable_instances\": "
+"[  ],\"names\": PoolStringArray(  ),\"node_count\": 0,\"node_paths\": [  ],"
+"\"nodes\": PoolIntArray(  ),\"variants\": [  ],\"version\": 2}``"
+msgstr ""
+
+#: ../../docs/classes/class_packedscene.rst:71
+msgid "Methods"
+msgstr "方法"
+
+#: ../../docs/classes/class_packedscene.rst:74
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_packedscene.rst:74
+msgid ""
+":ref:`can_instance<class_PackedScene_method_can_instance>` **(** **)** |"
+"const|"
+msgstr ""
+
+#: ../../docs/classes/class_packedscene.rst:76
+msgid ":ref:`SceneState<class_SceneState>`"
+msgstr ""
+
+#: ../../docs/classes/class_packedscene.rst:76
+msgid ":ref:`get_state<class_PackedScene_method_get_state>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_packedscene.rst:78
+msgid ":ref:`Node<class_Node>`"
+msgstr ""
+
+#: ../../docs/classes/class_packedscene.rst:78
+msgid ""
+":ref:`instance<class_PackedScene_method_instance>` **(** :ref:"
+"`GenEditState<enum_PackedScene_GenEditState>` edit_state=0 **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_packedscene.rst:80
+msgid ":ref:`Error<enum_@GlobalScope_Error>`"
+msgstr ""
+
+#: ../../docs/classes/class_packedscene.rst:80
+msgid ""
+":ref:`pack<class_PackedScene_method_pack>` **(** :ref:`Node<class_Node>` "
+"path **)**"
+msgstr ""
+
+#: ../../docs/classes/class_packedscene.rst:84
+msgid "Enumerations"
+msgstr "枚举"
+
+#: ../../docs/classes/class_packedscene.rst:94
+msgid "enum **GenEditState**:"
+msgstr ""
+
+#: ../../docs/classes/class_packedscene.rst:96
+msgid ""
+"**GEN_EDIT_STATE_DISABLED** = **0** --- If passed to :ref:"
+"`instance<class_PackedScene_method_instance>`, blocks edits to the scene "
+"state."
+msgstr ""
+
+#: ../../docs/classes/class_packedscene.rst:98
+msgid ""
+"**GEN_EDIT_STATE_INSTANCE** = **1** --- If passed to :ref:"
+"`instance<class_PackedScene_method_instance>`, provides local scene "
+"resources to the local scene."
+msgstr ""
+
+#: ../../docs/classes/class_packedscene.rst:100
+#: ../../docs/classes/class_packedscene.rst:104
+msgid "**Note:** Only available in editor builds."
+msgstr ""
+
+#: ../../docs/classes/class_packedscene.rst:102
+msgid ""
+"**GEN_EDIT_STATE_MAIN** = **2** --- If passed to :ref:"
+"`instance<class_PackedScene_method_instance>`, provides local scene "
+"resources to the local scene. Only the main scene should receive the main "
+"edit state."
+msgstr ""
+
+#: ../../docs/classes/class_packedscene.rst:107
+msgid "Property Descriptions"
+msgstr "属性说明"
+
+#: ../../docs/classes/class_packedscene.rst:111
+msgid ":ref:`Dictionary<class_Dictionary>` **_bundled**"
+msgstr ""
+
+#: ../../docs/classes/class_packedscene.rst:114
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_packedscene.rst:117
+msgid "A dictionary representation of the scene contents."
+msgstr ""
+
+#: ../../docs/classes/class_packedscene.rst:119
+msgid ""
+"Available keys include \"rnames\" and \"variants\" for resources, "
+"\"node_count\", \"nodes\", \"node_paths\" for nodes, \"editable_instances\" "
+"for base scene children overrides, \"conn_count\" and \"conns\" for signal "
+"connections, and \"version\" for the format style of the PackedScene."
+msgstr ""
+
+#: ../../docs/classes/class_packedscene.rst:122
+msgid "Method Descriptions"
+msgstr "方法说明"
+
+#: ../../docs/classes/class_packedscene.rst:126
+msgid ":ref:`bool<class_bool>` **can_instance** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_packedscene.rst:128
+msgid "Returns ``true`` if the scene file has nodes."
+msgstr ""
+
+#: ../../docs/classes/class_packedscene.rst:134
+msgid ":ref:`SceneState<class_SceneState>` **get_state** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_packedscene.rst:136
+msgid "Returns the ``SceneState`` representing the scene file contents."
+msgstr ""
+
+#: ../../docs/classes/class_packedscene.rst:142
+msgid ""
+":ref:`Node<class_Node>` **instance** **(** :ref:"
+"`GenEditState<enum_PackedScene_GenEditState>` edit_state=0 **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_packedscene.rst:144
+msgid ""
+"Instantiates the scene's node hierarchy. Triggers child scene "
+"instantiation(s). Triggers a :ref:`Node."
+"NOTIFICATION_INSTANCED<class_Node_constant_NOTIFICATION_INSTANCED>` "
+"notification on the root node."
+msgstr ""
+
+#: ../../docs/classes/class_packedscene.rst:150
+msgid ""
+":ref:`Error<enum_@GlobalScope_Error>` **pack** **(** :ref:`Node<class_Node>` "
+"path **)**"
+msgstr ""
+
+#: ../../docs/classes/class_packedscene.rst:152
+msgid ""
+"Pack will ignore any sub-nodes not owned by given node. See :ref:`Node."
+"owner<class_Node_property_owner>`."
+msgstr ""

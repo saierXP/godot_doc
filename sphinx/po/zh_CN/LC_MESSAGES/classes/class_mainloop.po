@@ -1,0 +1,478 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2021, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-31 12:15+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_mainloop.rst:10
+msgid "MainLoop"
+msgstr ""
+
+#: ../../docs/classes/class_mainloop.rst:12
+msgid "**Inherits:** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_mainloop.rst:14
+msgid "**Inherited By:** :ref:`SceneTree<class_SceneTree>`"
+msgstr ""
+
+#: ../../docs/classes/class_mainloop.rst:16
+msgid "Abstract base class for the game's main loop."
+msgstr ""
+
+#: ../../docs/classes/class_mainloop.rst:19
+msgid "Description"
+msgstr "描述"
+
+#: ../../docs/classes/class_mainloop.rst:21
+msgid ""
+"``MainLoop`` is the abstract base class for a Godot project's game loop. It "
+"is inherited by :ref:`SceneTree<class_SceneTree>`, which is the default game "
+"loop implementation used in Godot projects, though it is also possible to "
+"write and use one's own ``MainLoop`` subclass instead of the scene tree."
+msgstr ""
+
+#: ../../docs/classes/class_mainloop.rst:23
+msgid ""
+"Upon the application start, a ``MainLoop`` implementation must be provided "
+"to the OS; otherwise, the application will exit. This happens automatically "
+"(and a :ref:`SceneTree<class_SceneTree>` is created) unless a main :ref:"
+"`Script<class_Script>` is provided from the command line (with e.g. ``godot -"
+"s my_loop.gd``, which should then be a ``MainLoop`` implementation."
+msgstr ""
+
+#: ../../docs/classes/class_mainloop.rst:25
+msgid "Here is an example script implementing a simple ``MainLoop``:"
+msgstr ""
+
+#: ../../docs/classes/class_mainloop.rst:61
+msgid "Methods"
+msgstr "方法"
+
+#: ../../docs/classes/class_mainloop.rst:64
+#: ../../docs/classes/class_mainloop.rst:66
+#: ../../docs/classes/class_mainloop.rst:68
+#: ../../docs/classes/class_mainloop.rst:72
+#: ../../docs/classes/class_mainloop.rst:74
+#: ../../docs/classes/class_mainloop.rst:76
+#: ../../docs/classes/class_mainloop.rst:80
+#: ../../docs/classes/class_mainloop.rst:84
+#: ../../docs/classes/class_mainloop.rst:86
+#: ../../docs/classes/class_mainloop.rst:88
+msgid "void"
+msgstr ""
+
+#: ../../docs/classes/class_mainloop.rst:64
+msgid ""
+":ref:`_drop_files<class_MainLoop_method__drop_files>` **(** :ref:"
+"`PoolStringArray<class_PoolStringArray>` files, :ref:`int<class_int>` "
+"from_screen **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_mainloop.rst:66
+msgid ":ref:`_finalize<class_MainLoop_method__finalize>` **(** **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_mainloop.rst:68
+msgid ""
+":ref:`_global_menu_action<class_MainLoop_method__global_menu_action>` **(** :"
+"ref:`Variant<class_Variant>` id, :ref:`Variant<class_Variant>` meta **)** |"
+"virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_mainloop.rst:70
+#: ../../docs/classes/class_mainloop.rst:78
+#: ../../docs/classes/class_mainloop.rst:82
+#: ../../docs/classes/class_mainloop.rst:90
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_mainloop.rst:70
+msgid ""
+":ref:`_idle<class_MainLoop_method__idle>` **(** :ref:`float<class_float>` "
+"delta **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_mainloop.rst:72
+msgid ""
+":ref:`_initialize<class_MainLoop_method__initialize>` **(** **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_mainloop.rst:74
+msgid ""
+":ref:`_input_event<class_MainLoop_method__input_event>` **(** :ref:"
+"`InputEvent<class_InputEvent>` event **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_mainloop.rst:76
+msgid ""
+":ref:`_input_text<class_MainLoop_method__input_text>` **(** :ref:"
+"`String<class_String>` text **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_mainloop.rst:78
+msgid ""
+":ref:`_iteration<class_MainLoop_method__iteration>` **(** :ref:"
+"`float<class_float>` delta **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_mainloop.rst:80
+msgid ":ref:`finish<class_MainLoop_method_finish>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_mainloop.rst:82
+msgid ""
+":ref:`idle<class_MainLoop_method_idle>` **(** :ref:`float<class_float>` "
+"delta **)**"
+msgstr ""
+
+#: ../../docs/classes/class_mainloop.rst:84
+msgid ":ref:`init<class_MainLoop_method_init>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_mainloop.rst:86
+msgid ""
+":ref:`input_event<class_MainLoop_method_input_event>` **(** :ref:"
+"`InputEvent<class_InputEvent>` event **)**"
+msgstr ""
+
+#: ../../docs/classes/class_mainloop.rst:88
+msgid ""
+":ref:`input_text<class_MainLoop_method_input_text>` **(** :ref:"
+"`String<class_String>` text **)**"
+msgstr ""
+
+#: ../../docs/classes/class_mainloop.rst:90
+msgid ""
+":ref:`iteration<class_MainLoop_method_iteration>` **(** :ref:"
+"`float<class_float>` delta **)**"
+msgstr ""
+
+#: ../../docs/classes/class_mainloop.rst:94
+msgid "Signals"
+msgstr "信号"
+
+#: ../../docs/classes/class_mainloop.rst:98
+msgid ""
+"**on_request_permissions_result** **(** :ref:`String<class_String>` "
+"permission, :ref:`bool<class_bool>` granted **)**"
+msgstr ""
+
+#: ../../docs/classes/class_mainloop.rst:100
+msgid "Emitted when a user responds to a permission request."
+msgstr ""
+
+#: ../../docs/classes/class_mainloop.rst:103
+msgid "Constants"
+msgstr "常量"
+
+#: ../../docs/classes/class_mainloop.rst:133
+msgid ""
+"**NOTIFICATION_WM_MOUSE_ENTER** = **1002** --- Notification received from "
+"the OS when the mouse enters the game window."
+msgstr ""
+
+#: ../../docs/classes/class_mainloop.rst:135
+#: ../../docs/classes/class_mainloop.rst:139
+msgid "Implemented on desktop and web platforms."
+msgstr ""
+
+#: ../../docs/classes/class_mainloop.rst:137
+msgid ""
+"**NOTIFICATION_WM_MOUSE_EXIT** = **1003** --- Notification received from the "
+"OS when the mouse leaves the game window."
+msgstr ""
+
+#: ../../docs/classes/class_mainloop.rst:141
+msgid ""
+"**NOTIFICATION_WM_FOCUS_IN** = **1004** --- Notification received from the "
+"OS when the game window is focused."
+msgstr ""
+
+#: ../../docs/classes/class_mainloop.rst:143
+#: ../../docs/classes/class_mainloop.rst:147
+msgid "Implemented on all platforms."
+msgstr ""
+
+#: ../../docs/classes/class_mainloop.rst:145
+msgid ""
+"**NOTIFICATION_WM_FOCUS_OUT** = **1005** --- Notification received from the "
+"OS when the game window is unfocused."
+msgstr ""
+
+#: ../../docs/classes/class_mainloop.rst:149
+msgid ""
+"**NOTIFICATION_WM_QUIT_REQUEST** = **1006** --- Notification received from "
+"the OS when a quit request is sent (e.g. closing the window with a \"Close\" "
+"button or Alt+F4)."
+msgstr ""
+
+#: ../../docs/classes/class_mainloop.rst:151
+msgid "Implemented on desktop platforms."
+msgstr ""
+
+#: ../../docs/classes/class_mainloop.rst:153
+msgid ""
+"**NOTIFICATION_WM_GO_BACK_REQUEST** = **1007** --- Notification received "
+"from the OS when a go back request is sent (e.g. pressing the \"Back\" "
+"button on Android)."
+msgstr ""
+
+#: ../../docs/classes/class_mainloop.rst:155
+#: ../../docs/classes/class_mainloop.rst:181
+#: ../../docs/classes/class_mainloop.rst:185
+msgid "Specific to the Android platform."
+msgstr ""
+
+#: ../../docs/classes/class_mainloop.rst:157
+msgid ""
+"**NOTIFICATION_WM_UNFOCUS_REQUEST** = **1008** --- Notification received "
+"from the OS when an unfocus request is sent (e.g. another OS window wants to "
+"take the focus)."
+msgstr ""
+
+#: ../../docs/classes/class_mainloop.rst:159
+msgid "No supported platforms currently send this notification."
+msgstr ""
+
+#: ../../docs/classes/class_mainloop.rst:161
+msgid ""
+"**NOTIFICATION_OS_MEMORY_WARNING** = **1009** --- Notification received from "
+"the OS when the application is exceeding its allocated memory."
+msgstr ""
+
+#: ../../docs/classes/class_mainloop.rst:163
+msgid "Specific to the iOS platform."
+msgstr ""
+
+#: ../../docs/classes/class_mainloop.rst:165
+msgid ""
+"**NOTIFICATION_TRANSLATION_CHANGED** = **1010** --- Notification received "
+"when translations may have changed. Can be triggered by the user changing "
+"the locale. Can be used to respond to language changes, for example to "
+"change the UI strings on the fly. Useful when working with the built-in "
+"translation support, like :ref:`Object.tr<class_Object_method_tr>`."
+msgstr ""
+
+#: ../../docs/classes/class_mainloop.rst:167
+msgid ""
+"**NOTIFICATION_WM_ABOUT** = **1011** --- Notification received from the OS "
+"when a request for \"About\" information is sent."
+msgstr ""
+
+#: ../../docs/classes/class_mainloop.rst:169
+#: ../../docs/classes/class_mainloop.rst:177
+msgid "Specific to the macOS platform."
+msgstr ""
+
+#: ../../docs/classes/class_mainloop.rst:171
+msgid ""
+"**NOTIFICATION_CRASH** = **1012** --- Notification received from Godot's "
+"crash handler when the engine is about to crash."
+msgstr ""
+
+#: ../../docs/classes/class_mainloop.rst:173
+msgid "Implemented on desktop platforms if the crash handler is enabled."
+msgstr ""
+
+#: ../../docs/classes/class_mainloop.rst:175
+msgid ""
+"**NOTIFICATION_OS_IME_UPDATE** = **1013** --- Notification received from the "
+"OS when an update of the Input Method Engine occurs (e.g. change of IME "
+"cursor position or composition string)."
+msgstr ""
+
+#: ../../docs/classes/class_mainloop.rst:179
+msgid ""
+"**NOTIFICATION_APP_RESUMED** = **1014** --- Notification received from the "
+"OS when the app is resumed."
+msgstr ""
+
+#: ../../docs/classes/class_mainloop.rst:183
+msgid ""
+"**NOTIFICATION_APP_PAUSED** = **1015** --- Notification received from the OS "
+"when the app is paused."
+msgstr ""
+
+#: ../../docs/classes/class_mainloop.rst:188
+msgid "Method Descriptions"
+msgstr "方法说明"
+
+#: ../../docs/classes/class_mainloop.rst:192
+msgid ""
+"void **_drop_files** **(** :ref:`PoolStringArray<class_PoolStringArray>` "
+"files, :ref:`int<class_int>` from_screen **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_mainloop.rst:194
+msgid ""
+"Called when files are dragged from the OS file manager and dropped in the "
+"game window. The arguments are a list of file paths and the identifier of "
+"the screen where the drag originated."
+msgstr ""
+
+#: ../../docs/classes/class_mainloop.rst:200
+msgid "void **_finalize** **(** **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_mainloop.rst:202
+msgid "Called before the program exits."
+msgstr ""
+
+#: ../../docs/classes/class_mainloop.rst:208
+msgid ""
+"void **_global_menu_action** **(** :ref:`Variant<class_Variant>` id, :ref:"
+"`Variant<class_Variant>` meta **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_mainloop.rst:210
+msgid ""
+"Called when the user performs an action in the system global menu (e.g. the "
+"Mac OS menu bar)."
+msgstr ""
+
+#: ../../docs/classes/class_mainloop.rst:216
+msgid ""
+":ref:`bool<class_bool>` **_idle** **(** :ref:`float<class_float>` delta "
+"**)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_mainloop.rst:218
+msgid ""
+"Called each idle frame with the time since the last idle frame as argument "
+"(in seconds). Equivalent to :ref:`Node._process<class_Node_method__process>`."
+msgstr ""
+
+#: ../../docs/classes/class_mainloop.rst:220
+#: ../../docs/classes/class_mainloop.rst:254
+msgid ""
+"If implemented, the method must return a boolean value. ``true`` ends the "
+"main loop, while ``false`` lets it proceed to the next frame."
+msgstr ""
+
+#: ../../docs/classes/class_mainloop.rst:226
+msgid "void **_initialize** **(** **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_mainloop.rst:228
+msgid "Called once during initialization."
+msgstr ""
+
+#: ../../docs/classes/class_mainloop.rst:234
+msgid ""
+"void **_input_event** **(** :ref:`InputEvent<class_InputEvent>` event **)** |"
+"virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_mainloop.rst:236
+msgid ""
+"Called whenever an :ref:`InputEvent<class_InputEvent>` is received by the "
+"main loop."
+msgstr ""
+
+#: ../../docs/classes/class_mainloop.rst:242
+msgid ""
+"void **_input_text** **(** :ref:`String<class_String>` text **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_mainloop.rst:244
+msgid ""
+"Deprecated callback, does not do anything. Use :ref:"
+"`_input_event<class_MainLoop_method__input_event>` to parse text input. Will "
+"be removed in Godot 4.0."
+msgstr ""
+
+#: ../../docs/classes/class_mainloop.rst:250
+msgid ""
+":ref:`bool<class_bool>` **_iteration** **(** :ref:`float<class_float>` delta "
+"**)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_mainloop.rst:252
+msgid ""
+"Called each physics frame with the time since the last physics frame as "
+"argument (``delta``, in seconds). Equivalent to :ref:`Node."
+"_physics_process<class_Node_method__physics_process>`."
+msgstr ""
+
+#: ../../docs/classes/class_mainloop.rst:260
+msgid "void **finish** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_mainloop.rst:262
+msgid ""
+"Should not be called manually, override :ref:"
+"`_finalize<class_MainLoop_method__finalize>` instead. Will be removed in "
+"Godot 4.0."
+msgstr ""
+
+#: ../../docs/classes/class_mainloop.rst:268
+msgid ""
+":ref:`bool<class_bool>` **idle** **(** :ref:`float<class_float>` delta **)**"
+msgstr ""
+
+#: ../../docs/classes/class_mainloop.rst:270
+msgid ""
+"Should not be called manually, override :ref:"
+"`_idle<class_MainLoop_method__idle>` instead. Will be removed in Godot 4.0."
+msgstr ""
+
+#: ../../docs/classes/class_mainloop.rst:276
+msgid "void **init** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_mainloop.rst:278
+msgid ""
+"Should not be called manually, override :ref:"
+"`_initialize<class_MainLoop_method__initialize>` instead. Will be removed in "
+"Godot 4.0."
+msgstr ""
+
+#: ../../docs/classes/class_mainloop.rst:284
+msgid ""
+"void **input_event** **(** :ref:`InputEvent<class_InputEvent>` event **)**"
+msgstr ""
+
+#: ../../docs/classes/class_mainloop.rst:286
+msgid ""
+"Should not be called manually, override :ref:"
+"`_input_event<class_MainLoop_method__input_event>` instead. Will be removed "
+"in Godot 4.0."
+msgstr ""
+
+#: ../../docs/classes/class_mainloop.rst:292
+msgid "void **input_text** **(** :ref:`String<class_String>` text **)**"
+msgstr ""
+
+#: ../../docs/classes/class_mainloop.rst:294
+msgid ""
+"Should not be called manually, override :ref:"
+"`_input_text<class_MainLoop_method__input_text>` instead. Will be removed in "
+"Godot 4.0."
+msgstr ""
+
+#: ../../docs/classes/class_mainloop.rst:300
+msgid ""
+":ref:`bool<class_bool>` **iteration** **(** :ref:`float<class_float>` delta "
+"**)**"
+msgstr ""
+
+#: ../../docs/classes/class_mainloop.rst:302
+msgid ""
+"Should not be called manually, override :ref:"
+"`_iteration<class_MainLoop_method__iteration>` instead. Will be removed in "
+"Godot 4.0."
+msgstr ""

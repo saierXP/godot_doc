@@ -1,0 +1,593 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2021, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-31 12:15+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_proceduralsky.rst:10
+msgid "ProceduralSky"
+msgstr ""
+
+#: ../../docs/classes/class_proceduralsky.rst:12
+msgid ""
+"**Inherits:** :ref:`Sky<class_Sky>` **<** :ref:`Resource<class_Resource>` "
+"**<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_proceduralsky.rst:14
+msgid ""
+"Type of :ref:`Sky<class_Sky>` that is generated procedurally based on user "
+"input parameters."
+msgstr ""
+
+#: ../../docs/classes/class_proceduralsky.rst:17
+msgid "Description"
+msgstr "描述"
+
+#: ../../docs/classes/class_proceduralsky.rst:19
+msgid ""
+"ProceduralSky provides a way to create an effective background quickly by "
+"defining procedural parameters for the sun, the sky and the ground. The sky "
+"and ground are very similar, they are defined by a color at the horizon, "
+"another color, and finally an easing curve to interpolate between these two "
+"colors. Similarly, the sun is described by a position in the sky, a color, "
+"and an easing curve. However, the sun also defines a minimum and maximum "
+"angle, these two values define at what distance the easing curve begins and "
+"ends from the sun, and thus end up defining the size of the sun in the sky."
+msgstr ""
+
+#: ../../docs/classes/class_proceduralsky.rst:21
+msgid ""
+"The ProceduralSky is updated on the CPU after the parameters change. It is "
+"stored in a texture and then displayed as a background in the scene. This "
+"makes it relatively unsuitable for real-time updates during gameplay. "
+"However, with a small enough texture size, it can still be updated "
+"relatively frequently, as it is updated on a background thread when multi-"
+"threading is available."
+msgstr ""
+
+#: ../../docs/classes/class_proceduralsky.rst:24
+msgid "Properties"
+msgstr "属性"
+
+#: ../../docs/classes/class_proceduralsky.rst:27
+#: ../../docs/classes/class_proceduralsky.rst:33
+#: ../../docs/classes/class_proceduralsky.rst:39
+#: ../../docs/classes/class_proceduralsky.rst:41
+#: ../../docs/classes/class_proceduralsky.rst:47
+msgid ":ref:`Color<class_Color>`"
+msgstr ""
+
+#: ../../docs/classes/class_proceduralsky.rst:27
+msgid ""
+":ref:`ground_bottom_color<class_ProceduralSky_property_ground_bottom_color>`"
+msgstr ""
+
+#: ../../docs/classes/class_proceduralsky.rst:27
+#: ../../docs/classes/class_proceduralsky.rst:99
+msgid "``Color( 0.156863, 0.184314, 0.211765, 1 )``"
+msgstr ""
+
+#: ../../docs/classes/class_proceduralsky.rst:29
+#: ../../docs/classes/class_proceduralsky.rst:31
+#: ../../docs/classes/class_proceduralsky.rst:35
+#: ../../docs/classes/class_proceduralsky.rst:37
+#: ../../docs/classes/class_proceduralsky.rst:43
+#: ../../docs/classes/class_proceduralsky.rst:45
+#: ../../docs/classes/class_proceduralsky.rst:49
+#: ../../docs/classes/class_proceduralsky.rst:51
+#: ../../docs/classes/class_proceduralsky.rst:53
+#: ../../docs/classes/class_proceduralsky.rst:55
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../../docs/classes/class_proceduralsky.rst:29
+msgid ":ref:`ground_curve<class_ProceduralSky_property_ground_curve>`"
+msgstr ""
+
+#: ../../docs/classes/class_proceduralsky.rst:29
+#: ../../docs/classes/class_proceduralsky.rst:115
+msgid "``0.02``"
+msgstr ""
+
+#: ../../docs/classes/class_proceduralsky.rst:31
+msgid ":ref:`ground_energy<class_ProceduralSky_property_ground_energy>`"
+msgstr ""
+
+#: ../../docs/classes/class_proceduralsky.rst:31
+#: ../../docs/classes/class_proceduralsky.rst:37
+#: ../../docs/classes/class_proceduralsky.rst:45
+#: ../../docs/classes/class_proceduralsky.rst:51
+#: ../../docs/classes/class_proceduralsky.rst:131
+#: ../../docs/classes/class_proceduralsky.rst:179
+#: ../../docs/classes/class_proceduralsky.rst:243
+#: ../../docs/classes/class_proceduralsky.rst:291
+msgid "``1.0``"
+msgstr ""
+
+#: ../../docs/classes/class_proceduralsky.rst:33
+msgid ""
+":ref:"
+"`ground_horizon_color<class_ProceduralSky_property_ground_horizon_color>`"
+msgstr ""
+
+#: ../../docs/classes/class_proceduralsky.rst:33
+#: ../../docs/classes/class_proceduralsky.rst:147
+msgid "``Color( 0.423529, 0.396078, 0.372549, 1 )``"
+msgstr ""
+
+#: ../../docs/classes/class_proceduralsky.rst:35
+msgid ":ref:`sky_curve<class_ProceduralSky_property_sky_curve>`"
+msgstr ""
+
+#: ../../docs/classes/class_proceduralsky.rst:35
+#: ../../docs/classes/class_proceduralsky.rst:163
+msgid "``0.09``"
+msgstr ""
+
+#: ../../docs/classes/class_proceduralsky.rst:37
+msgid ":ref:`sky_energy<class_ProceduralSky_property_sky_energy>`"
+msgstr ""
+
+#: ../../docs/classes/class_proceduralsky.rst:39
+msgid ""
+":ref:`sky_horizon_color<class_ProceduralSky_property_sky_horizon_color>`"
+msgstr ""
+
+#: ../../docs/classes/class_proceduralsky.rst:39
+#: ../../docs/classes/class_proceduralsky.rst:195
+msgid "``Color( 0.839216, 0.917647, 0.980392, 1 )``"
+msgstr ""
+
+#: ../../docs/classes/class_proceduralsky.rst:41
+msgid ":ref:`sky_top_color<class_ProceduralSky_property_sky_top_color>`"
+msgstr ""
+
+#: ../../docs/classes/class_proceduralsky.rst:41
+#: ../../docs/classes/class_proceduralsky.rst:211
+msgid "``Color( 0.647059, 0.839216, 0.945098, 1 )``"
+msgstr ""
+
+#: ../../docs/classes/class_proceduralsky.rst:43
+msgid ":ref:`sun_angle_max<class_ProceduralSky_property_sun_angle_max>`"
+msgstr ""
+
+#: ../../docs/classes/class_proceduralsky.rst:43
+#: ../../docs/classes/class_proceduralsky.rst:227
+msgid "``100.0``"
+msgstr ""
+
+#: ../../docs/classes/class_proceduralsky.rst:45
+msgid ":ref:`sun_angle_min<class_ProceduralSky_property_sun_angle_min>`"
+msgstr ""
+
+#: ../../docs/classes/class_proceduralsky.rst:47
+msgid ":ref:`sun_color<class_ProceduralSky_property_sun_color>`"
+msgstr ""
+
+#: ../../docs/classes/class_proceduralsky.rst:47
+#: ../../docs/classes/class_proceduralsky.rst:259
+msgid "``Color( 1, 1, 1, 1 )``"
+msgstr ""
+
+#: ../../docs/classes/class_proceduralsky.rst:49
+msgid ":ref:`sun_curve<class_ProceduralSky_property_sun_curve>`"
+msgstr ""
+
+#: ../../docs/classes/class_proceduralsky.rst:49
+#: ../../docs/classes/class_proceduralsky.rst:275
+msgid "``0.05``"
+msgstr ""
+
+#: ../../docs/classes/class_proceduralsky.rst:51
+msgid ":ref:`sun_energy<class_ProceduralSky_property_sun_energy>`"
+msgstr ""
+
+#: ../../docs/classes/class_proceduralsky.rst:53
+msgid ":ref:`sun_latitude<class_ProceduralSky_property_sun_latitude>`"
+msgstr ""
+
+#: ../../docs/classes/class_proceduralsky.rst:53
+#: ../../docs/classes/class_proceduralsky.rst:307
+msgid "``35.0``"
+msgstr ""
+
+#: ../../docs/classes/class_proceduralsky.rst:55
+msgid ":ref:`sun_longitude<class_ProceduralSky_property_sun_longitude>`"
+msgstr ""
+
+#: ../../docs/classes/class_proceduralsky.rst:55
+#: ../../docs/classes/class_proceduralsky.rst:323
+msgid "``0.0``"
+msgstr ""
+
+#: ../../docs/classes/class_proceduralsky.rst:57
+msgid ":ref:`TextureSize<enum_ProceduralSky_TextureSize>`"
+msgstr ""
+
+#: ../../docs/classes/class_proceduralsky.rst:57
+msgid ":ref:`texture_size<class_ProceduralSky_property_texture_size>`"
+msgstr ""
+
+#: ../../docs/classes/class_proceduralsky.rst:57
+#: ../../docs/classes/class_proceduralsky.rst:339
+msgid "``2``"
+msgstr ""
+
+#: ../../docs/classes/class_proceduralsky.rst:61
+msgid "Enumerations"
+msgstr "枚举"
+
+#: ../../docs/classes/class_proceduralsky.rst:77
+msgid "enum **TextureSize**:"
+msgstr ""
+
+#: ../../docs/classes/class_proceduralsky.rst:79
+msgid "**TEXTURE_SIZE_256** = **0** --- Sky texture will be 256x128."
+msgstr ""
+
+#: ../../docs/classes/class_proceduralsky.rst:81
+msgid "**TEXTURE_SIZE_512** = **1** --- Sky texture will be 512x256."
+msgstr ""
+
+#: ../../docs/classes/class_proceduralsky.rst:83
+msgid ""
+"**TEXTURE_SIZE_1024** = **2** --- Sky texture will be 1024x512. This is the "
+"default size."
+msgstr ""
+
+#: ../../docs/classes/class_proceduralsky.rst:85
+msgid "**TEXTURE_SIZE_2048** = **3** --- Sky texture will be 2048x1024."
+msgstr ""
+
+#: ../../docs/classes/class_proceduralsky.rst:87
+msgid "**TEXTURE_SIZE_4096** = **4** --- Sky texture will be 4096x2048."
+msgstr ""
+
+#: ../../docs/classes/class_proceduralsky.rst:89
+msgid ""
+"**TEXTURE_SIZE_MAX** = **5** --- Represents the size of the :ref:"
+"`TextureSize<enum_ProceduralSky_TextureSize>` enum."
+msgstr ""
+
+#: ../../docs/classes/class_proceduralsky.rst:92
+msgid "Property Descriptions"
+msgstr "属性说明"
+
+#: ../../docs/classes/class_proceduralsky.rst:96
+msgid ":ref:`Color<class_Color>` **ground_bottom_color**"
+msgstr ""
+
+#: ../../docs/classes/class_proceduralsky.rst:99
+#: ../../docs/classes/class_proceduralsky.rst:115
+#: ../../docs/classes/class_proceduralsky.rst:131
+#: ../../docs/classes/class_proceduralsky.rst:147
+#: ../../docs/classes/class_proceduralsky.rst:163
+#: ../../docs/classes/class_proceduralsky.rst:179
+#: ../../docs/classes/class_proceduralsky.rst:195
+#: ../../docs/classes/class_proceduralsky.rst:211
+#: ../../docs/classes/class_proceduralsky.rst:227
+#: ../../docs/classes/class_proceduralsky.rst:243
+#: ../../docs/classes/class_proceduralsky.rst:259
+#: ../../docs/classes/class_proceduralsky.rst:275
+#: ../../docs/classes/class_proceduralsky.rst:291
+#: ../../docs/classes/class_proceduralsky.rst:307
+#: ../../docs/classes/class_proceduralsky.rst:323
+#: ../../docs/classes/class_proceduralsky.rst:339
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_proceduralsky.rst:101
+#: ../../docs/classes/class_proceduralsky.rst:117
+#: ../../docs/classes/class_proceduralsky.rst:133
+#: ../../docs/classes/class_proceduralsky.rst:149
+#: ../../docs/classes/class_proceduralsky.rst:165
+#: ../../docs/classes/class_proceduralsky.rst:181
+#: ../../docs/classes/class_proceduralsky.rst:197
+#: ../../docs/classes/class_proceduralsky.rst:213
+#: ../../docs/classes/class_proceduralsky.rst:229
+#: ../../docs/classes/class_proceduralsky.rst:245
+#: ../../docs/classes/class_proceduralsky.rst:261
+#: ../../docs/classes/class_proceduralsky.rst:277
+#: ../../docs/classes/class_proceduralsky.rst:293
+#: ../../docs/classes/class_proceduralsky.rst:309
+#: ../../docs/classes/class_proceduralsky.rst:325
+#: ../../docs/classes/class_proceduralsky.rst:341
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_proceduralsky.rst:101
+msgid "set_ground_bottom_color(value)"
+msgstr ""
+
+#: ../../docs/classes/class_proceduralsky.rst:103
+#: ../../docs/classes/class_proceduralsky.rst:119
+#: ../../docs/classes/class_proceduralsky.rst:135
+#: ../../docs/classes/class_proceduralsky.rst:151
+#: ../../docs/classes/class_proceduralsky.rst:167
+#: ../../docs/classes/class_proceduralsky.rst:183
+#: ../../docs/classes/class_proceduralsky.rst:199
+#: ../../docs/classes/class_proceduralsky.rst:215
+#: ../../docs/classes/class_proceduralsky.rst:231
+#: ../../docs/classes/class_proceduralsky.rst:247
+#: ../../docs/classes/class_proceduralsky.rst:263
+#: ../../docs/classes/class_proceduralsky.rst:279
+#: ../../docs/classes/class_proceduralsky.rst:295
+#: ../../docs/classes/class_proceduralsky.rst:311
+#: ../../docs/classes/class_proceduralsky.rst:327
+#: ../../docs/classes/class_proceduralsky.rst:343
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_proceduralsky.rst:103
+msgid "get_ground_bottom_color()"
+msgstr ""
+
+#: ../../docs/classes/class_proceduralsky.rst:106
+msgid "Color of the ground at the bottom."
+msgstr ""
+
+#: ../../docs/classes/class_proceduralsky.rst:112
+msgid ":ref:`float<class_float>` **ground_curve**"
+msgstr ""
+
+#: ../../docs/classes/class_proceduralsky.rst:117
+msgid "set_ground_curve(value)"
+msgstr ""
+
+#: ../../docs/classes/class_proceduralsky.rst:119
+msgid "get_ground_curve()"
+msgstr ""
+
+#: ../../docs/classes/class_proceduralsky.rst:122
+msgid ""
+"How quickly the :ref:"
+"`ground_horizon_color<class_ProceduralSky_property_ground_horizon_color>` "
+"fades into the :ref:"
+"`ground_bottom_color<class_ProceduralSky_property_ground_bottom_color>`."
+msgstr ""
+
+#: ../../docs/classes/class_proceduralsky.rst:128
+msgid ":ref:`float<class_float>` **ground_energy**"
+msgstr ""
+
+#: ../../docs/classes/class_proceduralsky.rst:133
+msgid "set_ground_energy(value)"
+msgstr ""
+
+#: ../../docs/classes/class_proceduralsky.rst:135
+msgid "get_ground_energy()"
+msgstr ""
+
+#: ../../docs/classes/class_proceduralsky.rst:138
+msgid "Amount of energy contribution from the ground."
+msgstr ""
+
+#: ../../docs/classes/class_proceduralsky.rst:144
+msgid ":ref:`Color<class_Color>` **ground_horizon_color**"
+msgstr ""
+
+#: ../../docs/classes/class_proceduralsky.rst:149
+msgid "set_ground_horizon_color(value)"
+msgstr ""
+
+#: ../../docs/classes/class_proceduralsky.rst:151
+msgid "get_ground_horizon_color()"
+msgstr ""
+
+#: ../../docs/classes/class_proceduralsky.rst:154
+msgid "Color of the ground at the horizon."
+msgstr ""
+
+#: ../../docs/classes/class_proceduralsky.rst:160
+msgid ":ref:`float<class_float>` **sky_curve**"
+msgstr ""
+
+#: ../../docs/classes/class_proceduralsky.rst:165
+msgid "set_sky_curve(value)"
+msgstr ""
+
+#: ../../docs/classes/class_proceduralsky.rst:167
+msgid "get_sky_curve()"
+msgstr ""
+
+#: ../../docs/classes/class_proceduralsky.rst:170
+msgid ""
+"How quickly the :ref:"
+"`sky_horizon_color<class_ProceduralSky_property_sky_horizon_color>` fades "
+"into the :ref:`sky_top_color<class_ProceduralSky_property_sky_top_color>`."
+msgstr ""
+
+#: ../../docs/classes/class_proceduralsky.rst:176
+msgid ":ref:`float<class_float>` **sky_energy**"
+msgstr ""
+
+#: ../../docs/classes/class_proceduralsky.rst:181
+msgid "set_sky_energy(value)"
+msgstr ""
+
+#: ../../docs/classes/class_proceduralsky.rst:183
+msgid "get_sky_energy()"
+msgstr ""
+
+#: ../../docs/classes/class_proceduralsky.rst:186
+msgid "Amount of energy contribution from the sky."
+msgstr ""
+
+#: ../../docs/classes/class_proceduralsky.rst:192
+msgid ":ref:`Color<class_Color>` **sky_horizon_color**"
+msgstr ""
+
+#: ../../docs/classes/class_proceduralsky.rst:197
+msgid "set_sky_horizon_color(value)"
+msgstr ""
+
+#: ../../docs/classes/class_proceduralsky.rst:199
+msgid "get_sky_horizon_color()"
+msgstr ""
+
+#: ../../docs/classes/class_proceduralsky.rst:202
+msgid "Color of the sky at the horizon."
+msgstr ""
+
+#: ../../docs/classes/class_proceduralsky.rst:208
+msgid ":ref:`Color<class_Color>` **sky_top_color**"
+msgstr ""
+
+#: ../../docs/classes/class_proceduralsky.rst:213
+msgid "set_sky_top_color(value)"
+msgstr ""
+
+#: ../../docs/classes/class_proceduralsky.rst:215
+msgid "get_sky_top_color()"
+msgstr ""
+
+#: ../../docs/classes/class_proceduralsky.rst:218
+msgid "Color of the sky at the top."
+msgstr ""
+
+#: ../../docs/classes/class_proceduralsky.rst:224
+msgid ":ref:`float<class_float>` **sun_angle_max**"
+msgstr ""
+
+#: ../../docs/classes/class_proceduralsky.rst:229
+msgid "set_sun_angle_max(value)"
+msgstr ""
+
+#: ../../docs/classes/class_proceduralsky.rst:231
+msgid "get_sun_angle_max()"
+msgstr ""
+
+#: ../../docs/classes/class_proceduralsky.rst:234
+msgid "Distance from center of sun where it fades out completely."
+msgstr ""
+
+#: ../../docs/classes/class_proceduralsky.rst:240
+msgid ":ref:`float<class_float>` **sun_angle_min**"
+msgstr ""
+
+#: ../../docs/classes/class_proceduralsky.rst:245
+msgid "set_sun_angle_min(value)"
+msgstr ""
+
+#: ../../docs/classes/class_proceduralsky.rst:247
+msgid "get_sun_angle_min()"
+msgstr ""
+
+#: ../../docs/classes/class_proceduralsky.rst:250
+msgid "Distance from sun where it goes from solid to starting to fade."
+msgstr ""
+
+#: ../../docs/classes/class_proceduralsky.rst:256
+msgid ":ref:`Color<class_Color>` **sun_color**"
+msgstr ""
+
+#: ../../docs/classes/class_proceduralsky.rst:261
+msgid "set_sun_color(value)"
+msgstr ""
+
+#: ../../docs/classes/class_proceduralsky.rst:263
+msgid "get_sun_color()"
+msgstr ""
+
+#: ../../docs/classes/class_proceduralsky.rst:266
+msgid "The sun's color."
+msgstr ""
+
+#: ../../docs/classes/class_proceduralsky.rst:272
+msgid ":ref:`float<class_float>` **sun_curve**"
+msgstr ""
+
+#: ../../docs/classes/class_proceduralsky.rst:277
+msgid "set_sun_curve(value)"
+msgstr ""
+
+#: ../../docs/classes/class_proceduralsky.rst:279
+msgid "get_sun_curve()"
+msgstr ""
+
+#: ../../docs/classes/class_proceduralsky.rst:282
+msgid ""
+"How quickly the sun fades away between :ref:"
+"`sun_angle_min<class_ProceduralSky_property_sun_angle_min>` and :ref:"
+"`sun_angle_max<class_ProceduralSky_property_sun_angle_max>`."
+msgstr ""
+
+#: ../../docs/classes/class_proceduralsky.rst:288
+msgid ":ref:`float<class_float>` **sun_energy**"
+msgstr ""
+
+#: ../../docs/classes/class_proceduralsky.rst:293
+msgid "set_sun_energy(value)"
+msgstr ""
+
+#: ../../docs/classes/class_proceduralsky.rst:295
+msgid "get_sun_energy()"
+msgstr ""
+
+#: ../../docs/classes/class_proceduralsky.rst:298
+msgid "Amount of energy contribution from the sun."
+msgstr ""
+
+#: ../../docs/classes/class_proceduralsky.rst:304
+msgid ":ref:`float<class_float>` **sun_latitude**"
+msgstr ""
+
+#: ../../docs/classes/class_proceduralsky.rst:309
+msgid "set_sun_latitude(value)"
+msgstr ""
+
+#: ../../docs/classes/class_proceduralsky.rst:311
+msgid "get_sun_latitude()"
+msgstr ""
+
+#: ../../docs/classes/class_proceduralsky.rst:314
+msgid "The sun's height using polar coordinates."
+msgstr ""
+
+#: ../../docs/classes/class_proceduralsky.rst:320
+msgid ":ref:`float<class_float>` **sun_longitude**"
+msgstr ""
+
+#: ../../docs/classes/class_proceduralsky.rst:325
+msgid "set_sun_longitude(value)"
+msgstr ""
+
+#: ../../docs/classes/class_proceduralsky.rst:327
+msgid "get_sun_longitude()"
+msgstr ""
+
+#: ../../docs/classes/class_proceduralsky.rst:330
+msgid "The direction of the sun using polar coordinates."
+msgstr ""
+
+#: ../../docs/classes/class_proceduralsky.rst:336
+msgid ":ref:`TextureSize<enum_ProceduralSky_TextureSize>` **texture_size**"
+msgstr ""
+
+#: ../../docs/classes/class_proceduralsky.rst:341
+msgid "set_texture_size(value)"
+msgstr ""
+
+#: ../../docs/classes/class_proceduralsky.rst:343
+msgid "get_texture_size()"
+msgstr ""
+
+#: ../../docs/classes/class_proceduralsky.rst:346
+msgid ""
+"Size of :ref:`Texture<class_Texture>` that the ProceduralSky will generate. "
+"The size is set using :ref:`TextureSize<enum_ProceduralSky_TextureSize>`."
+msgstr ""

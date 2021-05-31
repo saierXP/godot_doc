@@ -1,0 +1,950 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2021, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-31 12:15+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_styleboxflat.rst:10
+msgid "StyleBoxFlat"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:12
+msgid ""
+"**Inherits:** :ref:`StyleBox<class_StyleBox>` **<** :ref:"
+"`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :"
+"ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:14
+msgid ""
+"Customizable :ref:`StyleBox<class_StyleBox>` with a given set of parameters "
+"(no texture required)."
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:17
+msgid "Description"
+msgstr "描述"
+
+#: ../../docs/classes/class_styleboxflat.rst:19
+msgid ""
+"This :ref:`StyleBox<class_StyleBox>` can be used to achieve all kinds of "
+"looks without the need of a texture. Those properties are customizable:"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:21
+msgid "Color"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:23
+msgid "Border width (individual width for each border)"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:25
+msgid "Rounded corners (individual radius for each corner)"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:27
+msgid "Shadow (with blur and offset)"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:29
+msgid ""
+"Setting corner radius to high values is allowed. As soon as corners would "
+"overlap, the stylebox will switch to a relative system. Example:"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:37
+msgid ""
+"The relative system now would take the 1:2 ratio of the two left corners to "
+"calculate the actual corner width. Both corners added will **never** be more "
+"than the height. Result:"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:45
+msgid "Properties"
+msgstr "属性"
+
+#: ../../docs/classes/class_styleboxflat.rst:48
+#: ../../docs/classes/class_styleboxflat.rst:54
+#: ../../docs/classes/class_styleboxflat.rst:76
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:48
+msgid ":ref:`anti_aliasing<class_StyleBoxFlat_property_anti_aliasing>`"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:48
+#: ../../docs/classes/class_styleboxflat.rst:76
+#: ../../docs/classes/class_styleboxflat.rst:130
+#: ../../docs/classes/class_styleboxflat.rst:358
+msgid "``true``"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:50
+#: ../../docs/classes/class_styleboxflat.rst:58
+#: ../../docs/classes/class_styleboxflat.rst:60
+#: ../../docs/classes/class_styleboxflat.rst:62
+#: ../../docs/classes/class_styleboxflat.rst:64
+#: ../../docs/classes/class_styleboxflat.rst:66
+#: ../../docs/classes/class_styleboxflat.rst:68
+#: ../../docs/classes/class_styleboxflat.rst:70
+#: ../../docs/classes/class_styleboxflat.rst:72
+#: ../../docs/classes/class_styleboxflat.rst:74
+#: ../../docs/classes/class_styleboxflat.rst:90
+#: ../../docs/classes/class_styleboxflat.rst:97
+#: ../../docs/classes/class_styleboxflat.rst:99
+#: ../../docs/classes/class_styleboxflat.rst:101
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:50
+msgid ""
+":ref:`anti_aliasing_size<class_StyleBoxFlat_property_anti_aliasing_size>`"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:50
+#: ../../docs/classes/class_styleboxflat.rst:146
+msgid "``1``"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:52
+#: ../../docs/classes/class_styleboxflat.rst:56
+#: ../../docs/classes/class_styleboxflat.rst:86
+msgid ":ref:`Color<class_Color>`"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:52
+msgid ":ref:`bg_color<class_StyleBoxFlat_property_bg_color>`"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:52
+#: ../../docs/classes/class_styleboxflat.rst:162
+msgid "``Color( 0.6, 0.6, 0.6, 1 )``"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:54
+msgid ":ref:`border_blend<class_StyleBoxFlat_property_border_blend>`"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:54
+#: ../../docs/classes/class_styleboxflat.rst:178
+msgid "``false``"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:56
+msgid ":ref:`border_color<class_StyleBoxFlat_property_border_color>`"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:56
+#: ../../docs/classes/class_styleboxflat.rst:194
+msgid "``Color( 0.8, 0.8, 0.8, 1 )``"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:58
+msgid ""
+":ref:`border_width_bottom<class_StyleBoxFlat_property_border_width_bottom>`"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:58
+#: ../../docs/classes/class_styleboxflat.rst:60
+#: ../../docs/classes/class_styleboxflat.rst:62
+#: ../../docs/classes/class_styleboxflat.rst:64
+#: ../../docs/classes/class_styleboxflat.rst:68
+#: ../../docs/classes/class_styleboxflat.rst:70
+#: ../../docs/classes/class_styleboxflat.rst:72
+#: ../../docs/classes/class_styleboxflat.rst:74
+#: ../../docs/classes/class_styleboxflat.rst:90
+#: ../../docs/classes/class_styleboxflat.rst:210
+#: ../../docs/classes/class_styleboxflat.rst:226
+#: ../../docs/classes/class_styleboxflat.rst:242
+#: ../../docs/classes/class_styleboxflat.rst:258
+#: ../../docs/classes/class_styleboxflat.rst:294
+#: ../../docs/classes/class_styleboxflat.rst:310
+#: ../../docs/classes/class_styleboxflat.rst:326
+#: ../../docs/classes/class_styleboxflat.rst:342
+#: ../../docs/classes/class_styleboxflat.rst:470
+msgid "``0``"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:60
+msgid ":ref:`border_width_left<class_StyleBoxFlat_property_border_width_left>`"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:62
+msgid ""
+":ref:`border_width_right<class_StyleBoxFlat_property_border_width_right>`"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:64
+msgid ":ref:`border_width_top<class_StyleBoxFlat_property_border_width_top>`"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:66
+msgid ":ref:`corner_detail<class_StyleBoxFlat_property_corner_detail>`"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:66
+#: ../../docs/classes/class_styleboxflat.rst:274
+msgid "``8``"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:68
+msgid ""
+":ref:"
+"`corner_radius_bottom_left<class_StyleBoxFlat_property_corner_radius_bottom_left>`"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:70
+msgid ""
+":ref:"
+"`corner_radius_bottom_right<class_StyleBoxFlat_property_corner_radius_bottom_right>`"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:72
+msgid ""
+":ref:"
+"`corner_radius_top_left<class_StyleBoxFlat_property_corner_radius_top_left>`"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:74
+msgid ""
+":ref:"
+"`corner_radius_top_right<class_StyleBoxFlat_property_corner_radius_top_right>`"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:76
+msgid ":ref:`draw_center<class_StyleBoxFlat_property_draw_center>`"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:78
+#: ../../docs/classes/class_styleboxflat.rst:80
+#: ../../docs/classes/class_styleboxflat.rst:82
+#: ../../docs/classes/class_styleboxflat.rst:84
+#: ../../docs/classes/class_styleboxflat.rst:103
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:78
+msgid ""
+":ref:`expand_margin_bottom<class_StyleBoxFlat_property_expand_margin_bottom>`"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:78
+#: ../../docs/classes/class_styleboxflat.rst:80
+#: ../../docs/classes/class_styleboxflat.rst:82
+#: ../../docs/classes/class_styleboxflat.rst:84
+#: ../../docs/classes/class_styleboxflat.rst:374
+#: ../../docs/classes/class_styleboxflat.rst:390
+#: ../../docs/classes/class_styleboxflat.rst:406
+#: ../../docs/classes/class_styleboxflat.rst:422
+msgid "``0.0``"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:80
+msgid ""
+":ref:`expand_margin_left<class_StyleBoxFlat_property_expand_margin_left>`"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:82
+msgid ""
+":ref:`expand_margin_right<class_StyleBoxFlat_property_expand_margin_right>`"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:84
+msgid ":ref:`expand_margin_top<class_StyleBoxFlat_property_expand_margin_top>`"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:86
+msgid ":ref:`shadow_color<class_StyleBoxFlat_property_shadow_color>`"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:86
+#: ../../docs/classes/class_styleboxflat.rst:438
+msgid "``Color( 0, 0, 0, 0.6 )``"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:88
+msgid ":ref:`Vector2<class_Vector2>`"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:88
+msgid ":ref:`shadow_offset<class_StyleBoxFlat_property_shadow_offset>`"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:88
+#: ../../docs/classes/class_styleboxflat.rst:454
+msgid "``Vector2( 0, 0 )``"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:90
+msgid ":ref:`shadow_size<class_StyleBoxFlat_property_shadow_size>`"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:94
+msgid "Methods"
+msgstr "方法"
+
+#: ../../docs/classes/class_styleboxflat.rst:97
+msgid ""
+":ref:`get_border_width<class_StyleBoxFlat_method_get_border_width>` **(** :"
+"ref:`Margin<enum_@GlobalScope_Margin>` margin **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:99
+msgid ""
+":ref:`get_border_width_min<class_StyleBoxFlat_method_get_border_width_min>` "
+"**(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:101
+msgid ""
+":ref:`get_corner_radius<class_StyleBoxFlat_method_get_corner_radius>` **(** :"
+"ref:`Corner<enum_@GlobalScope_Corner>` corner **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:103
+msgid ""
+":ref:`get_expand_margin<class_StyleBoxFlat_method_get_expand_margin>` **(** :"
+"ref:`Margin<enum_@GlobalScope_Margin>` margin **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:105
+#: ../../docs/classes/class_styleboxflat.rst:107
+#: ../../docs/classes/class_styleboxflat.rst:109
+#: ../../docs/classes/class_styleboxflat.rst:111
+#: ../../docs/classes/class_styleboxflat.rst:113
+#: ../../docs/classes/class_styleboxflat.rst:115
+#: ../../docs/classes/class_styleboxflat.rst:117
+#: ../../docs/classes/class_styleboxflat.rst:119
+msgid "void"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:105
+msgid ""
+":ref:`set_border_width<class_StyleBoxFlat_method_set_border_width>` **(** :"
+"ref:`Margin<enum_@GlobalScope_Margin>` margin, :ref:`int<class_int>` width "
+"**)**"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:107
+msgid ""
+":ref:`set_border_width_all<class_StyleBoxFlat_method_set_border_width_all>` "
+"**(** :ref:`int<class_int>` width **)**"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:109
+msgid ""
+":ref:`set_corner_radius<class_StyleBoxFlat_method_set_corner_radius>` **(** :"
+"ref:`Corner<enum_@GlobalScope_Corner>` corner, :ref:`int<class_int>` radius "
+"**)**"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:111
+msgid ""
+":ref:"
+"`set_corner_radius_all<class_StyleBoxFlat_method_set_corner_radius_all>` "
+"**(** :ref:`int<class_int>` radius **)**"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:113
+msgid ""
+":ref:"
+"`set_corner_radius_individual<class_StyleBoxFlat_method_set_corner_radius_individual>` "
+"**(** :ref:`int<class_int>` radius_top_left, :ref:`int<class_int>` "
+"radius_top_right, :ref:`int<class_int>` radius_bottom_right, :ref:"
+"`int<class_int>` radius_bottom_left **)**"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:115
+msgid ""
+":ref:`set_expand_margin<class_StyleBoxFlat_method_set_expand_margin>` **(** :"
+"ref:`Margin<enum_@GlobalScope_Margin>` margin, :ref:`float<class_float>` "
+"size **)**"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:117
+msgid ""
+":ref:"
+"`set_expand_margin_all<class_StyleBoxFlat_method_set_expand_margin_all>` "
+"**(** :ref:`float<class_float>` size **)**"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:119
+msgid ""
+":ref:"
+"`set_expand_margin_individual<class_StyleBoxFlat_method_set_expand_margin_individual>` "
+"**(** :ref:`float<class_float>` size_left, :ref:`float<class_float>` "
+"size_top, :ref:`float<class_float>` size_right, :ref:`float<class_float>` "
+"size_bottom **)**"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:123
+msgid "Property Descriptions"
+msgstr "属性说明"
+
+#: ../../docs/classes/class_styleboxflat.rst:127
+msgid ":ref:`bool<class_bool>` **anti_aliasing**"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:130
+#: ../../docs/classes/class_styleboxflat.rst:146
+#: ../../docs/classes/class_styleboxflat.rst:162
+#: ../../docs/classes/class_styleboxflat.rst:178
+#: ../../docs/classes/class_styleboxflat.rst:194
+#: ../../docs/classes/class_styleboxflat.rst:210
+#: ../../docs/classes/class_styleboxflat.rst:226
+#: ../../docs/classes/class_styleboxflat.rst:242
+#: ../../docs/classes/class_styleboxflat.rst:258
+#: ../../docs/classes/class_styleboxflat.rst:274
+#: ../../docs/classes/class_styleboxflat.rst:294
+#: ../../docs/classes/class_styleboxflat.rst:310
+#: ../../docs/classes/class_styleboxflat.rst:326
+#: ../../docs/classes/class_styleboxflat.rst:342
+#: ../../docs/classes/class_styleboxflat.rst:358
+#: ../../docs/classes/class_styleboxflat.rst:374
+#: ../../docs/classes/class_styleboxflat.rst:390
+#: ../../docs/classes/class_styleboxflat.rst:406
+#: ../../docs/classes/class_styleboxflat.rst:422
+#: ../../docs/classes/class_styleboxflat.rst:438
+#: ../../docs/classes/class_styleboxflat.rst:454
+#: ../../docs/classes/class_styleboxflat.rst:470
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:132
+#: ../../docs/classes/class_styleboxflat.rst:148
+#: ../../docs/classes/class_styleboxflat.rst:164
+#: ../../docs/classes/class_styleboxflat.rst:180
+#: ../../docs/classes/class_styleboxflat.rst:196
+#: ../../docs/classes/class_styleboxflat.rst:212
+#: ../../docs/classes/class_styleboxflat.rst:228
+#: ../../docs/classes/class_styleboxflat.rst:244
+#: ../../docs/classes/class_styleboxflat.rst:260
+#: ../../docs/classes/class_styleboxflat.rst:276
+#: ../../docs/classes/class_styleboxflat.rst:296
+#: ../../docs/classes/class_styleboxflat.rst:312
+#: ../../docs/classes/class_styleboxflat.rst:328
+#: ../../docs/classes/class_styleboxflat.rst:344
+#: ../../docs/classes/class_styleboxflat.rst:360
+#: ../../docs/classes/class_styleboxflat.rst:376
+#: ../../docs/classes/class_styleboxflat.rst:392
+#: ../../docs/classes/class_styleboxflat.rst:408
+#: ../../docs/classes/class_styleboxflat.rst:424
+#: ../../docs/classes/class_styleboxflat.rst:440
+#: ../../docs/classes/class_styleboxflat.rst:456
+#: ../../docs/classes/class_styleboxflat.rst:472
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:132
+msgid "set_anti_aliased(value)"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:134
+#: ../../docs/classes/class_styleboxflat.rst:150
+#: ../../docs/classes/class_styleboxflat.rst:166
+#: ../../docs/classes/class_styleboxflat.rst:182
+#: ../../docs/classes/class_styleboxflat.rst:198
+#: ../../docs/classes/class_styleboxflat.rst:214
+#: ../../docs/classes/class_styleboxflat.rst:230
+#: ../../docs/classes/class_styleboxflat.rst:246
+#: ../../docs/classes/class_styleboxflat.rst:262
+#: ../../docs/classes/class_styleboxflat.rst:278
+#: ../../docs/classes/class_styleboxflat.rst:298
+#: ../../docs/classes/class_styleboxflat.rst:314
+#: ../../docs/classes/class_styleboxflat.rst:330
+#: ../../docs/classes/class_styleboxflat.rst:346
+#: ../../docs/classes/class_styleboxflat.rst:362
+#: ../../docs/classes/class_styleboxflat.rst:378
+#: ../../docs/classes/class_styleboxflat.rst:394
+#: ../../docs/classes/class_styleboxflat.rst:410
+#: ../../docs/classes/class_styleboxflat.rst:426
+#: ../../docs/classes/class_styleboxflat.rst:442
+#: ../../docs/classes/class_styleboxflat.rst:458
+#: ../../docs/classes/class_styleboxflat.rst:474
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:134
+msgid "is_anti_aliased()"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:137
+msgid ""
+"Antialiasing draws a small ring around the edges, which fades to "
+"transparency. As a result, edges look much smoother. This is only noticeable "
+"when using rounded corners."
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:143
+msgid ":ref:`int<class_int>` **anti_aliasing_size**"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:148
+msgid "set_aa_size(value)"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:150
+msgid "get_aa_size()"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:153
+msgid ""
+"This changes the size of the faded ring. Higher values can be used to "
+"achieve a \"blurry\" effect."
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:159
+msgid ":ref:`Color<class_Color>` **bg_color**"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:164
+msgid "set_bg_color(value)"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:166
+msgid "get_bg_color()"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:169
+msgid "The background color of the stylebox."
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:175
+msgid ":ref:`bool<class_bool>` **border_blend**"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:180
+msgid "set_border_blend(value)"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:182
+msgid "get_border_blend()"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:185
+msgid "If ``true``, the border will fade into the background color."
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:191
+msgid ":ref:`Color<class_Color>` **border_color**"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:196
+msgid "set_border_color(value)"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:198
+msgid "get_border_color()"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:201
+msgid "Sets the color of the border."
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:207
+msgid ":ref:`int<class_int>` **border_width_bottom**"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:212
+#: ../../docs/classes/class_styleboxflat.rst:228
+#: ../../docs/classes/class_styleboxflat.rst:244
+#: ../../docs/classes/class_styleboxflat.rst:260
+msgid "set_border_width(value)"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:214
+#: ../../docs/classes/class_styleboxflat.rst:230
+#: ../../docs/classes/class_styleboxflat.rst:246
+#: ../../docs/classes/class_styleboxflat.rst:262
+msgid "get_border_width()"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:217
+msgid "Border width for the bottom border."
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:223
+msgid ":ref:`int<class_int>` **border_width_left**"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:233
+msgid "Border width for the left border."
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:239
+msgid ":ref:`int<class_int>` **border_width_right**"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:249
+msgid "Border width for the right border."
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:255
+msgid ":ref:`int<class_int>` **border_width_top**"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:265
+msgid "Border width for the top border."
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:271
+msgid ":ref:`int<class_int>` **corner_detail**"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:276
+msgid "set_corner_detail(value)"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:278
+msgid "get_corner_detail()"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:281
+msgid ""
+"This sets the amount of vertices used for each corner. Higher values result "
+"in rounder corners but take more processing power to compute. When choosing "
+"a value, you should take the corner radius (:ref:"
+"`set_corner_radius_all<class_StyleBoxFlat_method_set_corner_radius_all>`) "
+"into account."
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:283
+msgid ""
+"For corner radii smaller than 10, ``4`` or ``5`` should be enough. For "
+"corner radii smaller than 30, values between ``8`` and ``12`` should be "
+"enough."
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:285
+msgid ""
+"A corner detail of ``1`` will result in chamfered corners instead of rounded "
+"corners, which is useful for some artistic effects."
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:291
+msgid ":ref:`int<class_int>` **corner_radius_bottom_left**"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:296
+#: ../../docs/classes/class_styleboxflat.rst:312
+#: ../../docs/classes/class_styleboxflat.rst:328
+#: ../../docs/classes/class_styleboxflat.rst:344
+msgid "set_corner_radius(value)"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:298
+#: ../../docs/classes/class_styleboxflat.rst:314
+#: ../../docs/classes/class_styleboxflat.rst:330
+#: ../../docs/classes/class_styleboxflat.rst:346
+msgid "get_corner_radius()"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:301
+msgid "The bottom-left corner's radius. If ``0``, the corner is not rounded."
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:307
+msgid ":ref:`int<class_int>` **corner_radius_bottom_right**"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:317
+msgid "The bottom-right corner's radius. If ``0``, the corner is not rounded."
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:323
+msgid ":ref:`int<class_int>` **corner_radius_top_left**"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:333
+msgid "The top-left corner's radius. If ``0``, the corner is not rounded."
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:339
+msgid ":ref:`int<class_int>` **corner_radius_top_right**"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:349
+msgid "The top-right corner's radius. If ``0``, the corner is not rounded."
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:355
+msgid ":ref:`bool<class_bool>` **draw_center**"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:360
+msgid "set_draw_center(value)"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:362
+msgid "is_draw_center_enabled()"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:365
+msgid "Toggles drawing of the inner part of the stylebox."
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:371
+msgid ":ref:`float<class_float>` **expand_margin_bottom**"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:376
+#: ../../docs/classes/class_styleboxflat.rst:392
+#: ../../docs/classes/class_styleboxflat.rst:408
+#: ../../docs/classes/class_styleboxflat.rst:424
+msgid "set_expand_margin(value)"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:378
+#: ../../docs/classes/class_styleboxflat.rst:394
+#: ../../docs/classes/class_styleboxflat.rst:410
+#: ../../docs/classes/class_styleboxflat.rst:426
+msgid "get_expand_margin()"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:381
+msgid ""
+"Expands the stylebox outside of the control rect on the bottom edge. Useful "
+"in combination with :ref:"
+"`border_width_bottom<class_StyleBoxFlat_property_border_width_bottom>` to "
+"draw a border outside the control rect."
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:387
+msgid ":ref:`float<class_float>` **expand_margin_left**"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:397
+msgid ""
+"Expands the stylebox outside of the control rect on the left edge. Useful in "
+"combination with :ref:"
+"`border_width_left<class_StyleBoxFlat_property_border_width_left>` to draw a "
+"border outside the control rect."
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:403
+msgid ":ref:`float<class_float>` **expand_margin_right**"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:413
+msgid ""
+"Expands the stylebox outside of the control rect on the right edge. Useful "
+"in combination with :ref:"
+"`border_width_right<class_StyleBoxFlat_property_border_width_right>` to draw "
+"a border outside the control rect."
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:419
+msgid ":ref:`float<class_float>` **expand_margin_top**"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:429
+msgid ""
+"Expands the stylebox outside of the control rect on the top edge. Useful in "
+"combination with :ref:"
+"`border_width_top<class_StyleBoxFlat_property_border_width_top>` to draw a "
+"border outside the control rect."
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:435
+msgid ":ref:`Color<class_Color>` **shadow_color**"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:440
+msgid "set_shadow_color(value)"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:442
+msgid "get_shadow_color()"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:445
+msgid ""
+"The color of the shadow. This has no effect if :ref:"
+"`shadow_size<class_StyleBoxFlat_property_shadow_size>` is lower than 1."
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:451
+msgid ":ref:`Vector2<class_Vector2>` **shadow_offset**"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:456
+msgid "set_shadow_offset(value)"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:458
+msgid "get_shadow_offset()"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:461
+msgid ""
+"The shadow offset in pixels. Adjusts the position of the shadow relatively "
+"to the stylebox."
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:467
+msgid ":ref:`int<class_int>` **shadow_size**"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:472
+msgid "set_shadow_size(value)"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:474
+msgid "get_shadow_size()"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:477
+msgid "The shadow size in pixels."
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:480
+msgid "Method Descriptions"
+msgstr "方法说明"
+
+#: ../../docs/classes/class_styleboxflat.rst:484
+msgid ""
+":ref:`int<class_int>` **get_border_width** **(** :ref:"
+"`Margin<enum_@GlobalScope_Margin>` margin **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:486
+msgid ""
+"Returns the given ``margin``'s border width. See :ref:"
+"`Margin<enum_@GlobalScope_Margin>` for possible values."
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:492
+msgid ":ref:`int<class_int>` **get_border_width_min** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:494
+msgid "Returns the smallest border width out of all four borders."
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:500
+msgid ""
+":ref:`int<class_int>` **get_corner_radius** **(** :ref:"
+"`Corner<enum_@GlobalScope_Corner>` corner **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:502
+msgid ""
+"Returns the given ``corner``'s radius. See :ref:"
+"`Corner<enum_@GlobalScope_Corner>` for possible values."
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:508
+msgid ""
+":ref:`float<class_float>` **get_expand_margin** **(** :ref:"
+"`Margin<enum_@GlobalScope_Margin>` margin **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:510
+msgid ""
+"Returns the size of the given ``margin``'s expand margin. See :ref:"
+"`Margin<enum_@GlobalScope_Margin>` for possible values."
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:516
+msgid ""
+"void **set_border_width** **(** :ref:`Margin<enum_@GlobalScope_Margin>` "
+"margin, :ref:`int<class_int>` width **)**"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:518
+msgid ""
+"Sets the border width to ``width`` pixels for the given ``margin``. See :ref:"
+"`Margin<enum_@GlobalScope_Margin>` for possible values."
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:524
+msgid "void **set_border_width_all** **(** :ref:`int<class_int>` width **)**"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:526
+msgid "Sets the border width to ``width`` pixels for all margins."
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:532
+msgid ""
+"void **set_corner_radius** **(** :ref:`Corner<enum_@GlobalScope_Corner>` "
+"corner, :ref:`int<class_int>` radius **)**"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:534
+msgid ""
+"Sets the corner radius to ``radius`` pixels for the given ``corner``. See :"
+"ref:`Corner<enum_@GlobalScope_Corner>` for possible values."
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:540
+msgid "void **set_corner_radius_all** **(** :ref:`int<class_int>` radius **)**"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:542
+msgid "Sets the corner radius to ``radius`` pixels for all corners."
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:548
+msgid ""
+"void **set_corner_radius_individual** **(** :ref:`int<class_int>` "
+"radius_top_left, :ref:`int<class_int>` radius_top_right, :ref:"
+"`int<class_int>` radius_bottom_right, :ref:`int<class_int>` "
+"radius_bottom_left **)**"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:550
+msgid ""
+"Sets the corner radius for each corner to ``radius_top_left``, "
+"``radius_top_right``, ``radius_bottom_right``, and ``radius_bottom_left`` "
+"pixels."
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:556
+msgid ""
+"void **set_expand_margin** **(** :ref:`Margin<enum_@GlobalScope_Margin>` "
+"margin, :ref:`float<class_float>` size **)**"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:558
+msgid ""
+"Sets the expand margin to ``size`` pixels for the given ``margin``. See :ref:"
+"`Margin<enum_@GlobalScope_Margin>` for possible values."
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:564
+msgid ""
+"void **set_expand_margin_all** **(** :ref:`float<class_float>` size **)**"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:566
+msgid "Sets the expand margin to ``size`` pixels for all margins."
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:572
+msgid ""
+"void **set_expand_margin_individual** **(** :ref:`float<class_float>` "
+"size_left, :ref:`float<class_float>` size_top, :ref:`float<class_float>` "
+"size_right, :ref:`float<class_float>` size_bottom **)**"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxflat.rst:574
+msgid ""
+"Sets the expand margin for each margin to ``size_left``, ``size_top``, "
+"``size_right``, and ``size_bottom`` pixels."
+msgstr ""

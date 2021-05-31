@@ -1,0 +1,589 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2021, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-31 12:15+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_softbody.rst:10
+msgid "SoftBody"
+msgstr ""
+
+#: ../../docs/classes/class_softbody.rst:12
+msgid ""
+"**Inherits:** :ref:`MeshInstance<class_MeshInstance>` **<** :ref:"
+"`GeometryInstance<class_GeometryInstance>` **<** :ref:"
+"`VisualInstance<class_VisualInstance>` **<** :ref:`Spatial<class_Spatial>` "
+"**<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_softbody.rst:14
+msgid "A soft mesh physics body."
+msgstr ""
+
+#: ../../docs/classes/class_softbody.rst:17
+msgid "Description"
+msgstr "描述"
+
+#: ../../docs/classes/class_softbody.rst:19
+msgid ""
+"A deformable physics body. Used to create elastic or deformable objects such "
+"as cloth, rubber, or other flexible materials."
+msgstr ""
+
+#: ../../docs/classes/class_softbody.rst:22
+msgid "Tutorials"
+msgstr "教程"
+
+#: ../../docs/classes/class_softbody.rst:24
+msgid ":doc:`../tutorials/physics/soft_body`"
+msgstr ""
+
+#: ../../docs/classes/class_softbody.rst:27
+msgid "Properties"
+msgstr "属性"
+
+#: ../../docs/classes/class_softbody.rst:30
+#: ../../docs/classes/class_softbody.rst:36
+#: ../../docs/classes/class_softbody.rst:38
+#: ../../docs/classes/class_softbody.rst:40
+#: ../../docs/classes/class_softbody.rst:44
+#: ../../docs/classes/class_softbody.rst:46
+#: ../../docs/classes/class_softbody.rst:52
+#: ../../docs/classes/class_softbody.rst:54
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../../docs/classes/class_softbody.rst:30
+msgid ""
+":ref:`areaAngular_stiffness<class_SoftBody_property_areaAngular_stiffness>`"
+msgstr ""
+
+#: ../../docs/classes/class_softbody.rst:30
+#: ../../docs/classes/class_softbody.rst:40
+#: ../../docs/classes/class_softbody.rst:54
+#: ../../docs/classes/class_softbody.rst:84
+#: ../../docs/classes/class_softbody.rst:162
+#: ../../docs/classes/class_softbody.rst:268
+msgid "``0.5``"
+msgstr ""
+
+#: ../../docs/classes/class_softbody.rst:32
+#: ../../docs/classes/class_softbody.rst:34
+#: ../../docs/classes/class_softbody.rst:50
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../../docs/classes/class_softbody.rst:32
+msgid ":ref:`collision_layer<class_SoftBody_property_collision_layer>`"
+msgstr ""
+
+#: ../../docs/classes/class_softbody.rst:32
+#: ../../docs/classes/class_softbody.rst:34
+#: ../../docs/classes/class_softbody.rst:98
+#: ../../docs/classes/class_softbody.rst:118
+msgid "``1``"
+msgstr ""
+
+#: ../../docs/classes/class_softbody.rst:34
+msgid ":ref:`collision_mask<class_SoftBody_property_collision_mask>`"
+msgstr ""
+
+#: ../../docs/classes/class_softbody.rst:36
+msgid ":ref:`damping_coefficient<class_SoftBody_property_damping_coefficient>`"
+msgstr ""
+
+#: ../../docs/classes/class_softbody.rst:36
+#: ../../docs/classes/class_softbody.rst:134
+msgid "``0.01``"
+msgstr ""
+
+#: ../../docs/classes/class_softbody.rst:38
+msgid ":ref:`drag_coefficient<class_SoftBody_property_drag_coefficient>`"
+msgstr ""
+
+#: ../../docs/classes/class_softbody.rst:38
+#: ../../docs/classes/class_softbody.rst:44
+#: ../../docs/classes/class_softbody.rst:46
+#: ../../docs/classes/class_softbody.rst:148
+#: ../../docs/classes/class_softbody.rst:192
+#: ../../docs/classes/class_softbody.rst:206
+msgid "``0.0``"
+msgstr ""
+
+#: ../../docs/classes/class_softbody.rst:40
+msgid ":ref:`linear_stiffness<class_SoftBody_property_linear_stiffness>`"
+msgstr ""
+
+#: ../../docs/classes/class_softbody.rst:42
+msgid ":ref:`NodePath<class_NodePath>`"
+msgstr ""
+
+#: ../../docs/classes/class_softbody.rst:42
+msgid ""
+":ref:"
+"`parent_collision_ignore<class_SoftBody_property_parent_collision_ignore>`"
+msgstr ""
+
+#: ../../docs/classes/class_softbody.rst:42
+#: ../../docs/classes/class_softbody.rst:176
+msgid "``NodePath(\"\")``"
+msgstr ""
+
+#: ../../docs/classes/class_softbody.rst:44
+msgid ""
+":ref:"
+"`pose_matching_coefficient<class_SoftBody_property_pose_matching_coefficient>`"
+msgstr ""
+
+#: ../../docs/classes/class_softbody.rst:46
+msgid ""
+":ref:`pressure_coefficient<class_SoftBody_property_pressure_coefficient>`"
+msgstr ""
+
+#: ../../docs/classes/class_softbody.rst:48
+#: ../../docs/classes/class_softbody.rst:65
+#: ../../docs/classes/class_softbody.rst:67
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_softbody.rst:48
+msgid ":ref:`ray_pickable<class_SoftBody_property_ray_pickable>`"
+msgstr ""
+
+#: ../../docs/classes/class_softbody.rst:48
+#: ../../docs/classes/class_softbody.rst:220
+msgid "``true``"
+msgstr ""
+
+#: ../../docs/classes/class_softbody.rst:50
+msgid ""
+":ref:`simulation_precision<class_SoftBody_property_simulation_precision>`"
+msgstr ""
+
+#: ../../docs/classes/class_softbody.rst:50
+#: ../../docs/classes/class_softbody.rst:236
+msgid "``5``"
+msgstr ""
+
+#: ../../docs/classes/class_softbody.rst:52
+msgid ":ref:`total_mass<class_SoftBody_property_total_mass>`"
+msgstr ""
+
+#: ../../docs/classes/class_softbody.rst:52
+#: ../../docs/classes/class_softbody.rst:252
+msgid "``1.0``"
+msgstr ""
+
+#: ../../docs/classes/class_softbody.rst:54
+msgid ":ref:`volume_stiffness<class_SoftBody_property_volume_stiffness>`"
+msgstr ""
+
+#: ../../docs/classes/class_softbody.rst:58
+msgid "Methods"
+msgstr "方法"
+
+#: ../../docs/classes/class_softbody.rst:61
+#: ../../docs/classes/class_softbody.rst:69
+#: ../../docs/classes/class_softbody.rst:71
+#: ../../docs/classes/class_softbody.rst:73
+msgid "void"
+msgstr ""
+
+#: ../../docs/classes/class_softbody.rst:61
+msgid ""
+":ref:"
+"`add_collision_exception_with<class_SoftBody_method_add_collision_exception_with>` "
+"**(** :ref:`Node<class_Node>` body **)**"
+msgstr ""
+
+#: ../../docs/classes/class_softbody.rst:63
+msgid ":ref:`Array<class_Array>`"
+msgstr ""
+
+#: ../../docs/classes/class_softbody.rst:63
+msgid ""
+":ref:"
+"`get_collision_exceptions<class_SoftBody_method_get_collision_exceptions>` "
+"**(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_softbody.rst:65
+msgid ""
+":ref:"
+"`get_collision_layer_bit<class_SoftBody_method_get_collision_layer_bit>` "
+"**(** :ref:`int<class_int>` bit **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_softbody.rst:67
+msgid ""
+":ref:`get_collision_mask_bit<class_SoftBody_method_get_collision_mask_bit>` "
+"**(** :ref:`int<class_int>` bit **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_softbody.rst:69
+msgid ""
+":ref:"
+"`remove_collision_exception_with<class_SoftBody_method_remove_collision_exception_with>` "
+"**(** :ref:`Node<class_Node>` body **)**"
+msgstr ""
+
+#: ../../docs/classes/class_softbody.rst:71
+msgid ""
+":ref:"
+"`set_collision_layer_bit<class_SoftBody_method_set_collision_layer_bit>` "
+"**(** :ref:`int<class_int>` bit, :ref:`bool<class_bool>` value **)**"
+msgstr ""
+
+#: ../../docs/classes/class_softbody.rst:73
+msgid ""
+":ref:`set_collision_mask_bit<class_SoftBody_method_set_collision_mask_bit>` "
+"**(** :ref:`int<class_int>` bit, :ref:`bool<class_bool>` value **)**"
+msgstr ""
+
+#: ../../docs/classes/class_softbody.rst:77
+msgid "Property Descriptions"
+msgstr "属性说明"
+
+#: ../../docs/classes/class_softbody.rst:81
+msgid ":ref:`float<class_float>` **areaAngular_stiffness**"
+msgstr ""
+
+#: ../../docs/classes/class_softbody.rst:84
+#: ../../docs/classes/class_softbody.rst:98
+#: ../../docs/classes/class_softbody.rst:118
+#: ../../docs/classes/class_softbody.rst:134
+#: ../../docs/classes/class_softbody.rst:148
+#: ../../docs/classes/class_softbody.rst:162
+#: ../../docs/classes/class_softbody.rst:176
+#: ../../docs/classes/class_softbody.rst:192
+#: ../../docs/classes/class_softbody.rst:206
+#: ../../docs/classes/class_softbody.rst:220
+#: ../../docs/classes/class_softbody.rst:236
+#: ../../docs/classes/class_softbody.rst:252
+#: ../../docs/classes/class_softbody.rst:268
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_softbody.rst:86
+#: ../../docs/classes/class_softbody.rst:100
+#: ../../docs/classes/class_softbody.rst:120
+#: ../../docs/classes/class_softbody.rst:136
+#: ../../docs/classes/class_softbody.rst:150
+#: ../../docs/classes/class_softbody.rst:164
+#: ../../docs/classes/class_softbody.rst:178
+#: ../../docs/classes/class_softbody.rst:194
+#: ../../docs/classes/class_softbody.rst:208
+#: ../../docs/classes/class_softbody.rst:222
+#: ../../docs/classes/class_softbody.rst:238
+#: ../../docs/classes/class_softbody.rst:254
+#: ../../docs/classes/class_softbody.rst:270
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_softbody.rst:86
+msgid "set_areaAngular_stiffness(value)"
+msgstr ""
+
+#: ../../docs/classes/class_softbody.rst:88
+#: ../../docs/classes/class_softbody.rst:102
+#: ../../docs/classes/class_softbody.rst:122
+#: ../../docs/classes/class_softbody.rst:138
+#: ../../docs/classes/class_softbody.rst:152
+#: ../../docs/classes/class_softbody.rst:166
+#: ../../docs/classes/class_softbody.rst:180
+#: ../../docs/classes/class_softbody.rst:196
+#: ../../docs/classes/class_softbody.rst:210
+#: ../../docs/classes/class_softbody.rst:224
+#: ../../docs/classes/class_softbody.rst:240
+#: ../../docs/classes/class_softbody.rst:256
+#: ../../docs/classes/class_softbody.rst:272
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_softbody.rst:88
+msgid "get_areaAngular_stiffness()"
+msgstr ""
+
+#: ../../docs/classes/class_softbody.rst:95
+msgid ":ref:`int<class_int>` **collision_layer**"
+msgstr ""
+
+#: ../../docs/classes/class_softbody.rst:100
+msgid "set_collision_layer(value)"
+msgstr ""
+
+#: ../../docs/classes/class_softbody.rst:102
+msgid "get_collision_layer()"
+msgstr ""
+
+#: ../../docs/classes/class_softbody.rst:105
+msgid "The physics layers this SoftBody is in."
+msgstr ""
+
+#: ../../docs/classes/class_softbody.rst:107
+msgid ""
+"Collidable objects can exist in any of 32 different layers. These layers "
+"work like a tagging system, and are not visual. A collidable can use these "
+"layers to select with which objects it can collide, using the collision_mask "
+"property."
+msgstr ""
+
+#: ../../docs/classes/class_softbody.rst:109
+msgid ""
+"A contact is detected if object A is in any of the layers that object B "
+"scans, or object B is in any layer scanned by object A. See `Collision "
+"layers and masks <https://docs.godotengine.org/en/3.2/tutorials/physics/"
+"physics_introduction.html#collision-layers-and-masks>`_ in the documentation "
+"for more information."
+msgstr ""
+
+#: ../../docs/classes/class_softbody.rst:115
+msgid ":ref:`int<class_int>` **collision_mask**"
+msgstr ""
+
+#: ../../docs/classes/class_softbody.rst:120
+msgid "set_collision_mask(value)"
+msgstr ""
+
+#: ../../docs/classes/class_softbody.rst:122
+msgid "get_collision_mask()"
+msgstr ""
+
+#: ../../docs/classes/class_softbody.rst:125
+msgid ""
+"The physics layers this SoftBody scans for collisions. See `Collision layers "
+"and masks <https://docs.godotengine.org/en/3.2/tutorials/physics/"
+"physics_introduction.html#collision-layers-and-masks>`_ in the documentation "
+"for more information."
+msgstr ""
+
+#: ../../docs/classes/class_softbody.rst:131
+msgid ":ref:`float<class_float>` **damping_coefficient**"
+msgstr ""
+
+#: ../../docs/classes/class_softbody.rst:136
+msgid "set_damping_coefficient(value)"
+msgstr ""
+
+#: ../../docs/classes/class_softbody.rst:138
+msgid "get_damping_coefficient()"
+msgstr ""
+
+#: ../../docs/classes/class_softbody.rst:145
+msgid ":ref:`float<class_float>` **drag_coefficient**"
+msgstr ""
+
+#: ../../docs/classes/class_softbody.rst:150
+msgid "set_drag_coefficient(value)"
+msgstr ""
+
+#: ../../docs/classes/class_softbody.rst:152
+msgid "get_drag_coefficient()"
+msgstr ""
+
+#: ../../docs/classes/class_softbody.rst:159
+msgid ":ref:`float<class_float>` **linear_stiffness**"
+msgstr ""
+
+#: ../../docs/classes/class_softbody.rst:164
+msgid "set_linear_stiffness(value)"
+msgstr ""
+
+#: ../../docs/classes/class_softbody.rst:166
+msgid "get_linear_stiffness()"
+msgstr ""
+
+#: ../../docs/classes/class_softbody.rst:173
+msgid ":ref:`NodePath<class_NodePath>` **parent_collision_ignore**"
+msgstr ""
+
+#: ../../docs/classes/class_softbody.rst:178
+msgid "set_parent_collision_ignore(value)"
+msgstr ""
+
+#: ../../docs/classes/class_softbody.rst:180
+msgid "get_parent_collision_ignore()"
+msgstr ""
+
+#: ../../docs/classes/class_softbody.rst:183
+msgid ""
+":ref:`NodePath<class_NodePath>` to a :ref:"
+"`CollisionObject<class_CollisionObject>` this SoftBody should avoid clipping."
+msgstr ""
+
+#: ../../docs/classes/class_softbody.rst:189
+msgid ":ref:`float<class_float>` **pose_matching_coefficient**"
+msgstr ""
+
+#: ../../docs/classes/class_softbody.rst:194
+msgid "set_pose_matching_coefficient(value)"
+msgstr ""
+
+#: ../../docs/classes/class_softbody.rst:196
+msgid "get_pose_matching_coefficient()"
+msgstr ""
+
+#: ../../docs/classes/class_softbody.rst:203
+msgid ":ref:`float<class_float>` **pressure_coefficient**"
+msgstr ""
+
+#: ../../docs/classes/class_softbody.rst:208
+msgid "set_pressure_coefficient(value)"
+msgstr ""
+
+#: ../../docs/classes/class_softbody.rst:210
+msgid "get_pressure_coefficient()"
+msgstr ""
+
+#: ../../docs/classes/class_softbody.rst:217
+msgid ":ref:`bool<class_bool>` **ray_pickable**"
+msgstr ""
+
+#: ../../docs/classes/class_softbody.rst:222
+msgid "set_ray_pickable(value)"
+msgstr ""
+
+#: ../../docs/classes/class_softbody.rst:224
+msgid "is_ray_pickable()"
+msgstr ""
+
+#: ../../docs/classes/class_softbody.rst:227
+msgid ""
+"If ``true``, the ``SoftBody`` will respond to :ref:`RayCast<class_RayCast>`"
+"\\ s."
+msgstr ""
+
+#: ../../docs/classes/class_softbody.rst:233
+msgid ":ref:`int<class_int>` **simulation_precision**"
+msgstr ""
+
+#: ../../docs/classes/class_softbody.rst:238
+msgid "set_simulation_precision(value)"
+msgstr ""
+
+#: ../../docs/classes/class_softbody.rst:240
+msgid "get_simulation_precision()"
+msgstr ""
+
+#: ../../docs/classes/class_softbody.rst:243
+msgid ""
+"Increasing this value will improve the resulting simulation, but can affect "
+"performance. Use with care."
+msgstr ""
+
+#: ../../docs/classes/class_softbody.rst:249
+msgid ":ref:`float<class_float>` **total_mass**"
+msgstr ""
+
+#: ../../docs/classes/class_softbody.rst:254
+msgid "set_total_mass(value)"
+msgstr ""
+
+#: ../../docs/classes/class_softbody.rst:256
+msgid "get_total_mass()"
+msgstr ""
+
+#: ../../docs/classes/class_softbody.rst:259
+msgid "The SoftBody's mass."
+msgstr ""
+
+#: ../../docs/classes/class_softbody.rst:265
+msgid ":ref:`float<class_float>` **volume_stiffness**"
+msgstr ""
+
+#: ../../docs/classes/class_softbody.rst:270
+msgid "set_volume_stiffness(value)"
+msgstr ""
+
+#: ../../docs/classes/class_softbody.rst:272
+msgid "get_volume_stiffness()"
+msgstr ""
+
+#: ../../docs/classes/class_softbody.rst:276
+msgid "Method Descriptions"
+msgstr "方法说明"
+
+#: ../../docs/classes/class_softbody.rst:280
+msgid ""
+"void **add_collision_exception_with** **(** :ref:`Node<class_Node>` body "
+"**)**"
+msgstr ""
+
+#: ../../docs/classes/class_softbody.rst:282
+msgid "Adds a body to the list of bodies that this body can't collide with."
+msgstr ""
+
+#: ../../docs/classes/class_softbody.rst:288
+msgid ":ref:`Array<class_Array>` **get_collision_exceptions** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_softbody.rst:290
+msgid ""
+"Returns an array of nodes that were added as collision exceptions for this "
+"body."
+msgstr ""
+
+#: ../../docs/classes/class_softbody.rst:296
+msgid ""
+":ref:`bool<class_bool>` **get_collision_layer_bit** **(** :ref:"
+"`int<class_int>` bit **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_softbody.rst:298
+#: ../../docs/classes/class_softbody.rst:306
+msgid "Returns an individual bit on the collision mask."
+msgstr "返回碰撞遮罩上的单个的个体。"
+
+#: ../../docs/classes/class_softbody.rst:304
+msgid ""
+":ref:`bool<class_bool>` **get_collision_mask_bit** **(** :ref:"
+"`int<class_int>` bit **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_softbody.rst:312
+msgid ""
+"void **remove_collision_exception_with** **(** :ref:`Node<class_Node>` body "
+"**)**"
+msgstr ""
+
+#: ../../docs/classes/class_softbody.rst:314
+msgid ""
+"Removes a body from the list of bodies that this body can't collide with."
+msgstr ""
+
+#: ../../docs/classes/class_softbody.rst:320
+msgid ""
+"void **set_collision_layer_bit** **(** :ref:`int<class_int>` bit, :ref:"
+"`bool<class_bool>` value **)**"
+msgstr ""
+
+#: ../../docs/classes/class_softbody.rst:322
+msgid ""
+"Sets individual bits on the layer mask. Use this if you only need to change "
+"one layer's value."
+msgstr "设置图层掩码上的各个位。如果只需要更改一层的值，请使用此选项。"
+
+#: ../../docs/classes/class_softbody.rst:328
+msgid ""
+"void **set_collision_mask_bit** **(** :ref:`int<class_int>` bit, :ref:"
+"`bool<class_bool>` value **)**"
+msgstr ""
+
+#: ../../docs/classes/class_softbody.rst:330
+msgid ""
+"Sets individual bits on the collision mask. Use this if you only need to "
+"change one layer's value."
+msgstr "设置碰撞掩码上的各个位。如果只需要更改一层的值，请使用此选项。"

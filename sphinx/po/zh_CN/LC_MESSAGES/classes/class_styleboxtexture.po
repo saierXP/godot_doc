@@ -1,0 +1,712 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2021, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-31 12:15+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_styleboxtexture.rst:10
+msgid "StyleBoxTexture"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxtexture.rst:12
+msgid ""
+"**Inherits:** :ref:`StyleBox<class_StyleBox>` **<** :ref:"
+"`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :"
+"ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxtexture.rst:14
+msgid "Texture-based nine-patch :ref:`StyleBox<class_StyleBox>`."
+msgstr ""
+
+#: ../../docs/classes/class_styleboxtexture.rst:17
+msgid "Description"
+msgstr "描述"
+
+#: ../../docs/classes/class_styleboxtexture.rst:19
+msgid ""
+"Texture-based nine-patch :ref:`StyleBox<class_StyleBox>`, in a way similar "
+"to :ref:`NinePatchRect<class_NinePatchRect>`. This stylebox performs a 3×3 "
+"scaling of a texture, where only the center cell is fully stretched. This "
+"makes it possible to design bordered styles regardless of the stylebox's "
+"size."
+msgstr ""
+
+#: ../../docs/classes/class_styleboxtexture.rst:22
+msgid "Properties"
+msgstr "属性"
+
+#: ../../docs/classes/class_styleboxtexture.rst:25
+#: ../../docs/classes/class_styleboxtexture.rst:27
+msgid ":ref:`AxisStretchMode<enum_StyleBoxTexture_AxisStretchMode>`"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxtexture.rst:25
+msgid ""
+":ref:"
+"`axis_stretch_horizontal<class_StyleBoxTexture_property_axis_stretch_horizontal>`"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxtexture.rst:25
+#: ../../docs/classes/class_styleboxtexture.rst:27
+#: ../../docs/classes/class_styleboxtexture.rst:109
+#: ../../docs/classes/class_styleboxtexture.rst:125
+msgid "``0``"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxtexture.rst:27
+msgid ""
+":ref:"
+"`axis_stretch_vertical<class_StyleBoxTexture_property_axis_stretch_vertical>`"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxtexture.rst:29
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxtexture.rst:29
+msgid ":ref:`draw_center<class_StyleBoxTexture_property_draw_center>`"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxtexture.rst:29
+#: ../../docs/classes/class_styleboxtexture.rst:141
+msgid "``true``"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxtexture.rst:31
+#: ../../docs/classes/class_styleboxtexture.rst:33
+#: ../../docs/classes/class_styleboxtexture.rst:35
+#: ../../docs/classes/class_styleboxtexture.rst:37
+#: ../../docs/classes/class_styleboxtexture.rst:39
+#: ../../docs/classes/class_styleboxtexture.rst:41
+#: ../../docs/classes/class_styleboxtexture.rst:43
+#: ../../docs/classes/class_styleboxtexture.rst:45
+#: ../../docs/classes/class_styleboxtexture.rst:60
+#: ../../docs/classes/class_styleboxtexture.rst:62
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxtexture.rst:31
+msgid ""
+":ref:"
+"`expand_margin_bottom<class_StyleBoxTexture_property_expand_margin_bottom>`"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxtexture.rst:31
+#: ../../docs/classes/class_styleboxtexture.rst:33
+#: ../../docs/classes/class_styleboxtexture.rst:35
+#: ../../docs/classes/class_styleboxtexture.rst:37
+#: ../../docs/classes/class_styleboxtexture.rst:39
+#: ../../docs/classes/class_styleboxtexture.rst:41
+#: ../../docs/classes/class_styleboxtexture.rst:43
+#: ../../docs/classes/class_styleboxtexture.rst:45
+#: ../../docs/classes/class_styleboxtexture.rst:157
+#: ../../docs/classes/class_styleboxtexture.rst:173
+#: ../../docs/classes/class_styleboxtexture.rst:189
+#: ../../docs/classes/class_styleboxtexture.rst:205
+#: ../../docs/classes/class_styleboxtexture.rst:221
+#: ../../docs/classes/class_styleboxtexture.rst:241
+#: ../../docs/classes/class_styleboxtexture.rst:261
+#: ../../docs/classes/class_styleboxtexture.rst:281
+msgid "``0.0``"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxtexture.rst:33
+msgid ""
+":ref:`expand_margin_left<class_StyleBoxTexture_property_expand_margin_left>`"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxtexture.rst:35
+msgid ""
+":ref:"
+"`expand_margin_right<class_StyleBoxTexture_property_expand_margin_right>`"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxtexture.rst:37
+msgid ""
+":ref:`expand_margin_top<class_StyleBoxTexture_property_expand_margin_top>`"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxtexture.rst:39
+msgid ":ref:`margin_bottom<class_StyleBoxTexture_property_margin_bottom>`"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxtexture.rst:41
+msgid ":ref:`margin_left<class_StyleBoxTexture_property_margin_left>`"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxtexture.rst:43
+msgid ":ref:`margin_right<class_StyleBoxTexture_property_margin_right>`"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxtexture.rst:45
+msgid ":ref:`margin_top<class_StyleBoxTexture_property_margin_top>`"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxtexture.rst:47
+msgid ":ref:`Color<class_Color>`"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxtexture.rst:47
+msgid ":ref:`modulate_color<class_StyleBoxTexture_property_modulate_color>`"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxtexture.rst:47
+#: ../../docs/classes/class_styleboxtexture.rst:301
+msgid "``Color( 1, 1, 1, 1 )``"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxtexture.rst:49
+#: ../../docs/classes/class_styleboxtexture.rst:53
+msgid ":ref:`Texture<class_Texture>`"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxtexture.rst:49
+msgid ":ref:`normal_map<class_StyleBoxTexture_property_normal_map>`"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxtexture.rst:51
+msgid ":ref:`Rect2<class_Rect2>`"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxtexture.rst:51
+msgid ":ref:`region_rect<class_StyleBoxTexture_property_region_rect>`"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxtexture.rst:51
+#: ../../docs/classes/class_styleboxtexture.rst:333
+msgid "``Rect2( 0, 0, 0, 0 )``"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxtexture.rst:53
+msgid ":ref:`texture<class_StyleBoxTexture_property_texture>`"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxtexture.rst:57
+msgid "Methods"
+msgstr "方法"
+
+#: ../../docs/classes/class_styleboxtexture.rst:60
+msgid ""
+":ref:"
+"`get_expand_margin_size<class_StyleBoxTexture_method_get_expand_margin_size>` "
+"**(** :ref:`Margin<enum_@GlobalScope_Margin>` margin **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxtexture.rst:62
+msgid ""
+":ref:`get_margin_size<class_StyleBoxTexture_method_get_margin_size>` **(** :"
+"ref:`Margin<enum_@GlobalScope_Margin>` margin **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxtexture.rst:64
+#: ../../docs/classes/class_styleboxtexture.rst:66
+#: ../../docs/classes/class_styleboxtexture.rst:68
+#: ../../docs/classes/class_styleboxtexture.rst:70
+msgid "void"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxtexture.rst:64
+msgid ""
+":ref:"
+"`set_expand_margin_all<class_StyleBoxTexture_method_set_expand_margin_all>` "
+"**(** :ref:`float<class_float>` size **)**"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxtexture.rst:66
+msgid ""
+":ref:"
+"`set_expand_margin_individual<class_StyleBoxTexture_method_set_expand_margin_individual>` "
+"**(** :ref:`float<class_float>` size_left, :ref:`float<class_float>` "
+"size_top, :ref:`float<class_float>` size_right, :ref:`float<class_float>` "
+"size_bottom **)**"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxtexture.rst:68
+msgid ""
+":ref:"
+"`set_expand_margin_size<class_StyleBoxTexture_method_set_expand_margin_size>` "
+"**(** :ref:`Margin<enum_@GlobalScope_Margin>` margin, :ref:"
+"`float<class_float>` size **)**"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxtexture.rst:70
+msgid ""
+":ref:`set_margin_size<class_StyleBoxTexture_method_set_margin_size>` **(** :"
+"ref:`Margin<enum_@GlobalScope_Margin>` margin, :ref:`float<class_float>` "
+"size **)**"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxtexture.rst:74
+msgid "Signals"
+msgstr "信号"
+
+#: ../../docs/classes/class_styleboxtexture.rst:78
+msgid "**texture_changed** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxtexture.rst:80
+msgid "Emitted when the stylebox's texture is changed."
+msgstr ""
+
+#: ../../docs/classes/class_styleboxtexture.rst:83
+msgid "Enumerations"
+msgstr "枚举"
+
+#: ../../docs/classes/class_styleboxtexture.rst:93
+msgid "enum **AxisStretchMode**:"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxtexture.rst:95
+msgid ""
+"**AXIS_STRETCH_MODE_STRETCH** = **0** --- Stretch the stylebox's texture. "
+"This results in visible distortion unless the texture size matches the "
+"stylebox's size perfectly."
+msgstr ""
+
+#: ../../docs/classes/class_styleboxtexture.rst:97
+msgid ""
+"**AXIS_STRETCH_MODE_TILE** = **1** --- Repeats the stylebox's texture to "
+"match the stylebox's size according to the nine-patch system."
+msgstr ""
+
+#: ../../docs/classes/class_styleboxtexture.rst:99
+msgid ""
+"**AXIS_STRETCH_MODE_TILE_FIT** = **2** --- Repeats the stylebox's texture to "
+"match the stylebox's size according to the nine-patch system. Unlike :ref:"
+"`AXIS_STRETCH_MODE_TILE<class_StyleBoxTexture_constant_AXIS_STRETCH_MODE_TILE>`, "
+"the texture may be slightly stretched to make the nine-patch texture tile "
+"seamlessly."
+msgstr ""
+
+#: ../../docs/classes/class_styleboxtexture.rst:102
+msgid "Property Descriptions"
+msgstr "属性说明"
+
+#: ../../docs/classes/class_styleboxtexture.rst:106
+msgid ""
+":ref:`AxisStretchMode<enum_StyleBoxTexture_AxisStretchMode>` "
+"**axis_stretch_horizontal**"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxtexture.rst:109
+#: ../../docs/classes/class_styleboxtexture.rst:125
+#: ../../docs/classes/class_styleboxtexture.rst:141
+#: ../../docs/classes/class_styleboxtexture.rst:157
+#: ../../docs/classes/class_styleboxtexture.rst:173
+#: ../../docs/classes/class_styleboxtexture.rst:189
+#: ../../docs/classes/class_styleboxtexture.rst:205
+#: ../../docs/classes/class_styleboxtexture.rst:221
+#: ../../docs/classes/class_styleboxtexture.rst:241
+#: ../../docs/classes/class_styleboxtexture.rst:261
+#: ../../docs/classes/class_styleboxtexture.rst:281
+#: ../../docs/classes/class_styleboxtexture.rst:301
+#: ../../docs/classes/class_styleboxtexture.rst:333
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxtexture.rst:111
+#: ../../docs/classes/class_styleboxtexture.rst:127
+#: ../../docs/classes/class_styleboxtexture.rst:143
+#: ../../docs/classes/class_styleboxtexture.rst:159
+#: ../../docs/classes/class_styleboxtexture.rst:175
+#: ../../docs/classes/class_styleboxtexture.rst:191
+#: ../../docs/classes/class_styleboxtexture.rst:207
+#: ../../docs/classes/class_styleboxtexture.rst:223
+#: ../../docs/classes/class_styleboxtexture.rst:243
+#: ../../docs/classes/class_styleboxtexture.rst:263
+#: ../../docs/classes/class_styleboxtexture.rst:283
+#: ../../docs/classes/class_styleboxtexture.rst:303
+#: ../../docs/classes/class_styleboxtexture.rst:317
+#: ../../docs/classes/class_styleboxtexture.rst:335
+#: ../../docs/classes/class_styleboxtexture.rst:351
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxtexture.rst:111
+msgid "set_h_axis_stretch_mode(value)"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxtexture.rst:113
+#: ../../docs/classes/class_styleboxtexture.rst:129
+#: ../../docs/classes/class_styleboxtexture.rst:145
+#: ../../docs/classes/class_styleboxtexture.rst:161
+#: ../../docs/classes/class_styleboxtexture.rst:177
+#: ../../docs/classes/class_styleboxtexture.rst:193
+#: ../../docs/classes/class_styleboxtexture.rst:209
+#: ../../docs/classes/class_styleboxtexture.rst:225
+#: ../../docs/classes/class_styleboxtexture.rst:245
+#: ../../docs/classes/class_styleboxtexture.rst:265
+#: ../../docs/classes/class_styleboxtexture.rst:285
+#: ../../docs/classes/class_styleboxtexture.rst:305
+#: ../../docs/classes/class_styleboxtexture.rst:319
+#: ../../docs/classes/class_styleboxtexture.rst:337
+#: ../../docs/classes/class_styleboxtexture.rst:353
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxtexture.rst:113
+msgid "get_h_axis_stretch_mode()"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxtexture.rst:116
+msgid ""
+"Controls how the stylebox's texture will be stretched or tiled horizontally. "
+"See :ref:`AxisStretchMode<enum_StyleBoxTexture_AxisStretchMode>` for "
+"possible values."
+msgstr ""
+
+#: ../../docs/classes/class_styleboxtexture.rst:122
+msgid ""
+":ref:`AxisStretchMode<enum_StyleBoxTexture_AxisStretchMode>` "
+"**axis_stretch_vertical**"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxtexture.rst:127
+msgid "set_v_axis_stretch_mode(value)"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxtexture.rst:129
+msgid "get_v_axis_stretch_mode()"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxtexture.rst:132
+msgid ""
+"Controls how the stylebox's texture will be stretched or tiled vertically. "
+"See :ref:`AxisStretchMode<enum_StyleBoxTexture_AxisStretchMode>` for "
+"possible values."
+msgstr ""
+
+#: ../../docs/classes/class_styleboxtexture.rst:138
+msgid ":ref:`bool<class_bool>` **draw_center**"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxtexture.rst:143
+msgid "set_draw_center(value)"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxtexture.rst:145
+msgid "is_draw_center_enabled()"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxtexture.rst:148
+msgid "If ``true``, the nine-patch texture's center tile will be drawn."
+msgstr ""
+
+#: ../../docs/classes/class_styleboxtexture.rst:154
+msgid ":ref:`float<class_float>` **expand_margin_bottom**"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxtexture.rst:159
+#: ../../docs/classes/class_styleboxtexture.rst:175
+#: ../../docs/classes/class_styleboxtexture.rst:191
+#: ../../docs/classes/class_styleboxtexture.rst:207
+msgid "set_expand_margin_size(value)"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxtexture.rst:161
+#: ../../docs/classes/class_styleboxtexture.rst:177
+#: ../../docs/classes/class_styleboxtexture.rst:193
+#: ../../docs/classes/class_styleboxtexture.rst:209
+msgid "get_expand_margin_size()"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxtexture.rst:164
+msgid ""
+"Expands the bottom margin of this style box when drawing, causing it to be "
+"drawn larger than requested."
+msgstr ""
+
+#: ../../docs/classes/class_styleboxtexture.rst:170
+msgid ":ref:`float<class_float>` **expand_margin_left**"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxtexture.rst:180
+msgid ""
+"Expands the left margin of this style box when drawing, causing it to be "
+"drawn larger than requested."
+msgstr ""
+
+#: ../../docs/classes/class_styleboxtexture.rst:186
+msgid ":ref:`float<class_float>` **expand_margin_right**"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxtexture.rst:196
+msgid ""
+"Expands the right margin of this style box when drawing, causing it to be "
+"drawn larger than requested."
+msgstr ""
+
+#: ../../docs/classes/class_styleboxtexture.rst:202
+msgid ":ref:`float<class_float>` **expand_margin_top**"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxtexture.rst:212
+msgid ""
+"Expands the top margin of this style box when drawing, causing it to be "
+"drawn larger than requested."
+msgstr ""
+
+#: ../../docs/classes/class_styleboxtexture.rst:218
+msgid ":ref:`float<class_float>` **margin_bottom**"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxtexture.rst:223
+#: ../../docs/classes/class_styleboxtexture.rst:243
+#: ../../docs/classes/class_styleboxtexture.rst:263
+#: ../../docs/classes/class_styleboxtexture.rst:283
+msgid "set_margin_size(value)"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxtexture.rst:225
+#: ../../docs/classes/class_styleboxtexture.rst:245
+#: ../../docs/classes/class_styleboxtexture.rst:265
+#: ../../docs/classes/class_styleboxtexture.rst:285
+msgid "get_margin_size()"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxtexture.rst:228
+msgid "Increases the bottom margin of the 3×3 texture box."
+msgstr ""
+
+#: ../../docs/classes/class_styleboxtexture.rst:230
+msgid ""
+"A higher value means more of the source texture is considered to be part of "
+"the bottom border of the 3×3 box."
+msgstr ""
+
+#: ../../docs/classes/class_styleboxtexture.rst:232
+msgid ""
+"This is also the value used as fallback for :ref:`StyleBox."
+"content_margin_bottom<class_StyleBox_property_content_margin_bottom>` if it "
+"is negative."
+msgstr ""
+
+#: ../../docs/classes/class_styleboxtexture.rst:238
+msgid ":ref:`float<class_float>` **margin_left**"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxtexture.rst:248
+msgid "Increases the left margin of the 3×3 texture box."
+msgstr ""
+
+#: ../../docs/classes/class_styleboxtexture.rst:250
+msgid ""
+"A higher value means more of the source texture is considered to be part of "
+"the left border of the 3×3 box."
+msgstr ""
+
+#: ../../docs/classes/class_styleboxtexture.rst:252
+msgid ""
+"This is also the value used as fallback for :ref:`StyleBox."
+"content_margin_left<class_StyleBox_property_content_margin_left>` if it is "
+"negative."
+msgstr ""
+
+#: ../../docs/classes/class_styleboxtexture.rst:258
+msgid ":ref:`float<class_float>` **margin_right**"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxtexture.rst:268
+msgid "Increases the right margin of the 3×3 texture box."
+msgstr ""
+
+#: ../../docs/classes/class_styleboxtexture.rst:270
+msgid ""
+"A higher value means more of the source texture is considered to be part of "
+"the right border of the 3×3 box."
+msgstr ""
+
+#: ../../docs/classes/class_styleboxtexture.rst:272
+msgid ""
+"This is also the value used as fallback for :ref:`StyleBox."
+"content_margin_right<class_StyleBox_property_content_margin_right>` if it is "
+"negative."
+msgstr ""
+
+#: ../../docs/classes/class_styleboxtexture.rst:278
+msgid ":ref:`float<class_float>` **margin_top**"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxtexture.rst:288
+msgid "Increases the top margin of the 3×3 texture box."
+msgstr ""
+
+#: ../../docs/classes/class_styleboxtexture.rst:290
+msgid ""
+"A higher value means more of the source texture is considered to be part of "
+"the top border of the 3×3 box."
+msgstr ""
+
+#: ../../docs/classes/class_styleboxtexture.rst:292
+msgid ""
+"This is also the value used as fallback for :ref:`StyleBox."
+"content_margin_top<class_StyleBox_property_content_margin_top>` if it is "
+"negative."
+msgstr ""
+
+#: ../../docs/classes/class_styleboxtexture.rst:298
+msgid ":ref:`Color<class_Color>` **modulate_color**"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxtexture.rst:303
+msgid "set_modulate(value)"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxtexture.rst:305
+msgid "get_modulate()"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxtexture.rst:308
+msgid "Modulates the color of the texture when this style box is drawn."
+msgstr ""
+
+#: ../../docs/classes/class_styleboxtexture.rst:314
+msgid ":ref:`Texture<class_Texture>` **normal_map**"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxtexture.rst:317
+msgid "set_normal_map(value)"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxtexture.rst:319
+msgid "get_normal_map()"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxtexture.rst:322
+msgid "The normal map to use when drawing this style box."
+msgstr ""
+
+#: ../../docs/classes/class_styleboxtexture.rst:324
+msgid ""
+"**Note:** Godot expects the normal map to use X+, Y-, and Z+ coordinates. "
+"See `this page <http://wiki.polycount.com/wiki/"
+"Normal_Map_Technical_Details#Common_Swizzle_Coordinates>`_ for a comparison "
+"of normal map coordinates expected by popular engines."
+msgstr ""
+
+#: ../../docs/classes/class_styleboxtexture.rst:330
+msgid ":ref:`Rect2<class_Rect2>` **region_rect**"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxtexture.rst:335
+msgid "set_region_rect(value)"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxtexture.rst:337
+msgid "get_region_rect()"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxtexture.rst:340
+msgid "Species a sub-region of the texture to use."
+msgstr ""
+
+#: ../../docs/classes/class_styleboxtexture.rst:342
+msgid ""
+"This is equivalent to first wrapping the texture in an :ref:"
+"`AtlasTexture<class_AtlasTexture>` with the same region."
+msgstr ""
+
+#: ../../docs/classes/class_styleboxtexture.rst:348
+msgid ":ref:`Texture<class_Texture>` **texture**"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxtexture.rst:351
+msgid "set_texture(value)"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxtexture.rst:353
+msgid "get_texture()"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxtexture.rst:356
+msgid "The texture to use when drawing this style box."
+msgstr ""
+
+#: ../../docs/classes/class_styleboxtexture.rst:359
+msgid "Method Descriptions"
+msgstr "方法说明"
+
+#: ../../docs/classes/class_styleboxtexture.rst:363
+msgid ""
+":ref:`float<class_float>` **get_expand_margin_size** **(** :ref:"
+"`Margin<enum_@GlobalScope_Margin>` margin **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxtexture.rst:365
+msgid ""
+"Returns the size of the given ``margin``'s expand margin. See :ref:"
+"`Margin<enum_@GlobalScope_Margin>` for possible values."
+msgstr ""
+
+#: ../../docs/classes/class_styleboxtexture.rst:371
+msgid ""
+":ref:`float<class_float>` **get_margin_size** **(** :ref:"
+"`Margin<enum_@GlobalScope_Margin>` margin **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxtexture.rst:373
+msgid ""
+"Returns the size of the given ``margin``. See :ref:"
+"`Margin<enum_@GlobalScope_Margin>` for possible values."
+msgstr ""
+
+#: ../../docs/classes/class_styleboxtexture.rst:379
+msgid ""
+"void **set_expand_margin_all** **(** :ref:`float<class_float>` size **)**"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxtexture.rst:381
+msgid "Sets the expand margin to ``size`` pixels for all margins."
+msgstr ""
+
+#: ../../docs/classes/class_styleboxtexture.rst:387
+msgid ""
+"void **set_expand_margin_individual** **(** :ref:`float<class_float>` "
+"size_left, :ref:`float<class_float>` size_top, :ref:`float<class_float>` "
+"size_right, :ref:`float<class_float>` size_bottom **)**"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxtexture.rst:389
+msgid ""
+"Sets the expand margin for each margin to ``size_left``, ``size_top``, "
+"``size_right``, and ``size_bottom`` pixels."
+msgstr ""
+
+#: ../../docs/classes/class_styleboxtexture.rst:395
+msgid ""
+"void **set_expand_margin_size** **(** :ref:"
+"`Margin<enum_@GlobalScope_Margin>` margin, :ref:`float<class_float>` size "
+"**)**"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxtexture.rst:397
+msgid ""
+"Sets the expand margin to ``size`` pixels for the given ``margin``. See :ref:"
+"`Margin<enum_@GlobalScope_Margin>` for possible values."
+msgstr ""
+
+#: ../../docs/classes/class_styleboxtexture.rst:403
+msgid ""
+"void **set_margin_size** **(** :ref:`Margin<enum_@GlobalScope_Margin>` "
+"margin, :ref:`float<class_float>` size **)**"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxtexture.rst:405
+msgid ""
+"Sets the margin to ``size`` pixels for the given ``margin``. See :ref:"
+"`Margin<enum_@GlobalScope_Margin>` for possible values."
+msgstr ""

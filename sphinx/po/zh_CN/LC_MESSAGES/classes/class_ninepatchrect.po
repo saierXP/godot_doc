@@ -1,0 +1,447 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2021, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-31 12:15+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_ninepatchrect.rst:10
+msgid "NinePatchRect"
+msgstr ""
+
+#: ../../docs/classes/class_ninepatchrect.rst:12
+msgid ""
+"**Inherits:** :ref:`Control<class_Control>` **<** :ref:"
+"`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:"
+"`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_ninepatchrect.rst:14
+msgid ""
+"Scalable texture-based frame that tiles the texture's centers and sides, but "
+"keeps the corners' original size. Perfect for panels and dialog boxes."
+msgstr ""
+
+#: ../../docs/classes/class_ninepatchrect.rst:17
+msgid "Description"
+msgstr "描述"
+
+#: ../../docs/classes/class_ninepatchrect.rst:19
+msgid ""
+"Also known as 9-slice panels, NinePatchRect produces clean panels of any "
+"size, based on a small texture. To do so, it splits the texture in a 3×3 "
+"grid. When you scale the node, it tiles the texture's sides horizontally or "
+"vertically, the center on both axes but it doesn't scale or tile the corners."
+msgstr ""
+
+#: ../../docs/classes/class_ninepatchrect.rst:22
+msgid "Properties"
+msgstr "属性"
+
+#: ../../docs/classes/class_ninepatchrect.rst:25
+#: ../../docs/classes/class_ninepatchrect.rst:27
+msgid ":ref:`AxisStretchMode<enum_NinePatchRect_AxisStretchMode>`"
+msgstr ""
+
+#: ../../docs/classes/class_ninepatchrect.rst:25
+msgid ""
+":ref:"
+"`axis_stretch_horizontal<class_NinePatchRect_property_axis_stretch_horizontal>`"
+msgstr ""
+
+#: ../../docs/classes/class_ninepatchrect.rst:25
+#: ../../docs/classes/class_ninepatchrect.rst:27
+#: ../../docs/classes/class_ninepatchrect.rst:33
+#: ../../docs/classes/class_ninepatchrect.rst:35
+#: ../../docs/classes/class_ninepatchrect.rst:37
+#: ../../docs/classes/class_ninepatchrect.rst:39
+#: ../../docs/classes/class_ninepatchrect.rst:95
+#: ../../docs/classes/class_ninepatchrect.rst:111
+#: ../../docs/classes/class_ninepatchrect.rst:143
+#: ../../docs/classes/class_ninepatchrect.rst:159
+#: ../../docs/classes/class_ninepatchrect.rst:175
+#: ../../docs/classes/class_ninepatchrect.rst:191
+msgid "``0``"
+msgstr ""
+
+#: ../../docs/classes/class_ninepatchrect.rst:27
+msgid ""
+":ref:"
+"`axis_stretch_vertical<class_NinePatchRect_property_axis_stretch_vertical>`"
+msgstr ""
+
+#: ../../docs/classes/class_ninepatchrect.rst:29
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_ninepatchrect.rst:29
+msgid ":ref:`draw_center<class_NinePatchRect_property_draw_center>`"
+msgstr ""
+
+#: ../../docs/classes/class_ninepatchrect.rst:29
+#: ../../docs/classes/class_ninepatchrect.rst:127
+msgid "``true``"
+msgstr ""
+
+#: ../../docs/classes/class_ninepatchrect.rst:31
+msgid ":ref:`MouseFilter<enum_Control_MouseFilter>`"
+msgstr ""
+
+#: ../../docs/classes/class_ninepatchrect.rst:31
+msgid "mouse_filter"
+msgstr ""
+
+#: ../../docs/classes/class_ninepatchrect.rst:31
+msgid "``2`` *(parent override)*"
+msgstr ""
+
+#: ../../docs/classes/class_ninepatchrect.rst:33
+#: ../../docs/classes/class_ninepatchrect.rst:35
+#: ../../docs/classes/class_ninepatchrect.rst:37
+#: ../../docs/classes/class_ninepatchrect.rst:39
+#: ../../docs/classes/class_ninepatchrect.rst:50
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../../docs/classes/class_ninepatchrect.rst:33
+msgid ""
+":ref:`patch_margin_bottom<class_NinePatchRect_property_patch_margin_bottom>`"
+msgstr ""
+
+#: ../../docs/classes/class_ninepatchrect.rst:35
+msgid ""
+":ref:`patch_margin_left<class_NinePatchRect_property_patch_margin_left>`"
+msgstr ""
+
+#: ../../docs/classes/class_ninepatchrect.rst:37
+msgid ""
+":ref:`patch_margin_right<class_NinePatchRect_property_patch_margin_right>`"
+msgstr ""
+
+#: ../../docs/classes/class_ninepatchrect.rst:39
+msgid ":ref:`patch_margin_top<class_NinePatchRect_property_patch_margin_top>`"
+msgstr ""
+
+#: ../../docs/classes/class_ninepatchrect.rst:41
+msgid ":ref:`Rect2<class_Rect2>`"
+msgstr ""
+
+#: ../../docs/classes/class_ninepatchrect.rst:41
+msgid ":ref:`region_rect<class_NinePatchRect_property_region_rect>`"
+msgstr ""
+
+#: ../../docs/classes/class_ninepatchrect.rst:41
+#: ../../docs/classes/class_ninepatchrect.rst:207
+msgid "``Rect2( 0, 0, 0, 0 )``"
+msgstr ""
+
+#: ../../docs/classes/class_ninepatchrect.rst:43
+msgid ":ref:`Texture<class_Texture>`"
+msgstr ""
+
+#: ../../docs/classes/class_ninepatchrect.rst:43
+msgid ":ref:`texture<class_NinePatchRect_property_texture>`"
+msgstr ""
+
+#: ../../docs/classes/class_ninepatchrect.rst:47
+msgid "Methods"
+msgstr "方法"
+
+#: ../../docs/classes/class_ninepatchrect.rst:50
+msgid ""
+":ref:`get_patch_margin<class_NinePatchRect_method_get_patch_margin>` **(** :"
+"ref:`Margin<enum_@GlobalScope_Margin>` margin **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_ninepatchrect.rst:52
+msgid "void"
+msgstr ""
+
+#: ../../docs/classes/class_ninepatchrect.rst:52
+msgid ""
+":ref:`set_patch_margin<class_NinePatchRect_method_set_patch_margin>` **(** :"
+"ref:`Margin<enum_@GlobalScope_Margin>` margin, :ref:`int<class_int>` value "
+"**)**"
+msgstr ""
+
+#: ../../docs/classes/class_ninepatchrect.rst:56
+msgid "Signals"
+msgstr "信号"
+
+#: ../../docs/classes/class_ninepatchrect.rst:60
+msgid "**texture_changed** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_ninepatchrect.rst:62
+msgid "Emitted when the node's texture changes."
+msgstr ""
+
+#: ../../docs/classes/class_ninepatchrect.rst:65
+msgid "Enumerations"
+msgstr "枚举"
+
+#: ../../docs/classes/class_ninepatchrect.rst:75
+msgid "enum **AxisStretchMode**:"
+msgstr ""
+
+#: ../../docs/classes/class_ninepatchrect.rst:77
+msgid ""
+"**AXIS_STRETCH_MODE_STRETCH** = **0** --- Stretches the center texture "
+"across the NinePatchRect. This may cause the texture to be distorted."
+msgstr ""
+
+#: ../../docs/classes/class_ninepatchrect.rst:79
+msgid ""
+"**AXIS_STRETCH_MODE_TILE** = **1** --- Repeats the center texture across the "
+"NinePatchRect. This won't cause any visible distortion. The texture must be "
+"seamless for this to work without displaying artifacts between edges."
+msgstr ""
+
+#: ../../docs/classes/class_ninepatchrect.rst:81
+#: ../../docs/classes/class_ninepatchrect.rst:85
+msgid ""
+"**Note:** Only supported when using the GLES3 renderer. When using the GLES2 "
+"renderer, this will behave like :ref:"
+"`AXIS_STRETCH_MODE_STRETCH<class_NinePatchRect_constant_AXIS_STRETCH_MODE_STRETCH>`."
+msgstr ""
+
+#: ../../docs/classes/class_ninepatchrect.rst:83
+msgid ""
+"**AXIS_STRETCH_MODE_TILE_FIT** = **2** --- Repeats the center texture across "
+"the NinePatchRect, but will also stretch the texture to make sure each tile "
+"is visible in full. This may cause the texture to be distorted, but less "
+"than :ref:"
+"`AXIS_STRETCH_MODE_STRETCH<class_NinePatchRect_constant_AXIS_STRETCH_MODE_STRETCH>`. "
+"The texture must be seamless for this to work without displaying artifacts "
+"between edges."
+msgstr ""
+
+#: ../../docs/classes/class_ninepatchrect.rst:88
+msgid "Property Descriptions"
+msgstr "属性说明"
+
+#: ../../docs/classes/class_ninepatchrect.rst:92
+msgid ""
+":ref:`AxisStretchMode<enum_NinePatchRect_AxisStretchMode>` "
+"**axis_stretch_horizontal**"
+msgstr ""
+
+#: ../../docs/classes/class_ninepatchrect.rst:95
+#: ../../docs/classes/class_ninepatchrect.rst:111
+#: ../../docs/classes/class_ninepatchrect.rst:127
+#: ../../docs/classes/class_ninepatchrect.rst:143
+#: ../../docs/classes/class_ninepatchrect.rst:159
+#: ../../docs/classes/class_ninepatchrect.rst:175
+#: ../../docs/classes/class_ninepatchrect.rst:191
+#: ../../docs/classes/class_ninepatchrect.rst:207
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_ninepatchrect.rst:97
+#: ../../docs/classes/class_ninepatchrect.rst:113
+#: ../../docs/classes/class_ninepatchrect.rst:129
+#: ../../docs/classes/class_ninepatchrect.rst:145
+#: ../../docs/classes/class_ninepatchrect.rst:161
+#: ../../docs/classes/class_ninepatchrect.rst:177
+#: ../../docs/classes/class_ninepatchrect.rst:193
+#: ../../docs/classes/class_ninepatchrect.rst:209
+#: ../../docs/classes/class_ninepatchrect.rst:223
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_ninepatchrect.rst:97
+msgid "set_h_axis_stretch_mode(value)"
+msgstr ""
+
+#: ../../docs/classes/class_ninepatchrect.rst:99
+#: ../../docs/classes/class_ninepatchrect.rst:115
+#: ../../docs/classes/class_ninepatchrect.rst:131
+#: ../../docs/classes/class_ninepatchrect.rst:147
+#: ../../docs/classes/class_ninepatchrect.rst:163
+#: ../../docs/classes/class_ninepatchrect.rst:179
+#: ../../docs/classes/class_ninepatchrect.rst:195
+#: ../../docs/classes/class_ninepatchrect.rst:211
+#: ../../docs/classes/class_ninepatchrect.rst:225
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_ninepatchrect.rst:99
+msgid "get_h_axis_stretch_mode()"
+msgstr ""
+
+#: ../../docs/classes/class_ninepatchrect.rst:102
+msgid ""
+"The stretch mode to use for horizontal stretching/tiling. See :ref:"
+"`AxisStretchMode<enum_NinePatchRect_AxisStretchMode>` for possible values."
+msgstr ""
+
+#: ../../docs/classes/class_ninepatchrect.rst:108
+msgid ""
+":ref:`AxisStretchMode<enum_NinePatchRect_AxisStretchMode>` "
+"**axis_stretch_vertical**"
+msgstr ""
+
+#: ../../docs/classes/class_ninepatchrect.rst:113
+msgid "set_v_axis_stretch_mode(value)"
+msgstr ""
+
+#: ../../docs/classes/class_ninepatchrect.rst:115
+msgid "get_v_axis_stretch_mode()"
+msgstr ""
+
+#: ../../docs/classes/class_ninepatchrect.rst:118
+msgid ""
+"The stretch mode to use for vertical stretching/tiling. See :ref:"
+"`AxisStretchMode<enum_NinePatchRect_AxisStretchMode>` for possible values."
+msgstr ""
+
+#: ../../docs/classes/class_ninepatchrect.rst:124
+msgid ":ref:`bool<class_bool>` **draw_center**"
+msgstr ""
+
+#: ../../docs/classes/class_ninepatchrect.rst:129
+msgid "set_draw_center(value)"
+msgstr ""
+
+#: ../../docs/classes/class_ninepatchrect.rst:131
+msgid "is_draw_center_enabled()"
+msgstr ""
+
+#: ../../docs/classes/class_ninepatchrect.rst:134
+msgid ""
+"If ``true``, draw the panel's center. Else, only draw the 9-slice's borders."
+msgstr ""
+
+#: ../../docs/classes/class_ninepatchrect.rst:140
+msgid ":ref:`int<class_int>` **patch_margin_bottom**"
+msgstr ""
+
+#: ../../docs/classes/class_ninepatchrect.rst:145
+#: ../../docs/classes/class_ninepatchrect.rst:161
+#: ../../docs/classes/class_ninepatchrect.rst:177
+#: ../../docs/classes/class_ninepatchrect.rst:193
+msgid "set_patch_margin(value)"
+msgstr ""
+
+#: ../../docs/classes/class_ninepatchrect.rst:147
+#: ../../docs/classes/class_ninepatchrect.rst:163
+#: ../../docs/classes/class_ninepatchrect.rst:179
+#: ../../docs/classes/class_ninepatchrect.rst:195
+msgid "get_patch_margin()"
+msgstr ""
+
+#: ../../docs/classes/class_ninepatchrect.rst:150
+msgid ""
+"The height of the 9-slice's bottom row. A margin of 16 means the 9-slice's "
+"bottom corners and side will have a height of 16 pixels. You can set all 4 "
+"margin values individually to create panels with non-uniform borders."
+msgstr ""
+
+#: ../../docs/classes/class_ninepatchrect.rst:156
+msgid ":ref:`int<class_int>` **patch_margin_left**"
+msgstr ""
+
+#: ../../docs/classes/class_ninepatchrect.rst:166
+msgid ""
+"The width of the 9-slice's left column. A margin of 16 means the 9-slice's "
+"left corners and side will have a width of 16 pixels. You can set all 4 "
+"margin values individually to create panels with non-uniform borders."
+msgstr ""
+
+#: ../../docs/classes/class_ninepatchrect.rst:172
+msgid ":ref:`int<class_int>` **patch_margin_right**"
+msgstr ""
+
+#: ../../docs/classes/class_ninepatchrect.rst:182
+msgid ""
+"The width of the 9-slice's right column. A margin of 16 means the 9-slice's "
+"right corners and side will have a width of 16 pixels. You can set all 4 "
+"margin values individually to create panels with non-uniform borders."
+msgstr ""
+
+#: ../../docs/classes/class_ninepatchrect.rst:188
+msgid ":ref:`int<class_int>` **patch_margin_top**"
+msgstr ""
+
+#: ../../docs/classes/class_ninepatchrect.rst:198
+msgid ""
+"The height of the 9-slice's top row. A margin of 16 means the 9-slice's top "
+"corners and side will have a height of 16 pixels. You can set all 4 margin "
+"values individually to create panels with non-uniform borders."
+msgstr ""
+
+#: ../../docs/classes/class_ninepatchrect.rst:204
+msgid ":ref:`Rect2<class_Rect2>` **region_rect**"
+msgstr ""
+
+#: ../../docs/classes/class_ninepatchrect.rst:209
+msgid "set_region_rect(value)"
+msgstr ""
+
+#: ../../docs/classes/class_ninepatchrect.rst:211
+msgid "get_region_rect()"
+msgstr ""
+
+#: ../../docs/classes/class_ninepatchrect.rst:214
+msgid ""
+"Rectangular region of the texture to sample from. If you're working with an "
+"atlas, use this property to define the area the 9-slice should use. All "
+"other properties are relative to this one. If the rect is empty, "
+"NinePatchRect will use the whole texture."
+msgstr ""
+
+#: ../../docs/classes/class_ninepatchrect.rst:220
+msgid ":ref:`Texture<class_Texture>` **texture**"
+msgstr ""
+
+#: ../../docs/classes/class_ninepatchrect.rst:223
+msgid "set_texture(value)"
+msgstr ""
+
+#: ../../docs/classes/class_ninepatchrect.rst:225
+msgid "get_texture()"
+msgstr ""
+
+#: ../../docs/classes/class_ninepatchrect.rst:228
+msgid "The node's texture resource."
+msgstr ""
+
+#: ../../docs/classes/class_ninepatchrect.rst:231
+msgid "Method Descriptions"
+msgstr "方法说明"
+
+#: ../../docs/classes/class_ninepatchrect.rst:235
+msgid ""
+":ref:`int<class_int>` **get_patch_margin** **(** :ref:"
+"`Margin<enum_@GlobalScope_Margin>` margin **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_ninepatchrect.rst:237
+msgid ""
+"Returns the size of the margin identified by the given :ref:"
+"`Margin<enum_@GlobalScope_Margin>` constant."
+msgstr ""
+
+#: ../../docs/classes/class_ninepatchrect.rst:243
+msgid ""
+"void **set_patch_margin** **(** :ref:`Margin<enum_@GlobalScope_Margin>` "
+"margin, :ref:`int<class_int>` value **)**"
+msgstr ""
+
+#: ../../docs/classes/class_ninepatchrect.rst:245
+msgid ""
+"Sets the size of the margin identified by the given :ref:"
+"`Margin<enum_@GlobalScope_Margin>` constant to ``value`` in pixels."
+msgstr ""

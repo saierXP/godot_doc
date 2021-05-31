@@ -1,0 +1,479 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2021, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-31 12:15+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_quat.rst:10
+msgid "Quat"
+msgstr ""
+
+#: ../../docs/classes/class_quat.rst:12
+msgid "Quaternion."
+msgstr "四元数."
+
+#: ../../docs/classes/class_quat.rst:15
+msgid "Description"
+msgstr "描述"
+
+#: ../../docs/classes/class_quat.rst:17
+msgid ""
+"A unit quaternion used for representing 3D rotations. Quaternions need to be "
+"normalized to be used for rotation."
+msgstr ""
+
+#: ../../docs/classes/class_quat.rst:19
+msgid ""
+"It is similar to Basis, which implements matrix representation of rotations, "
+"and can be parametrized using both an axis-angle pair or Euler angles. Basis "
+"stores rotation, scale, and shearing, while Quat only stores rotation."
+msgstr ""
+
+#: ../../docs/classes/class_quat.rst:21
+msgid ""
+"Due to its compactness and the way it is stored in memory, certain "
+"operations (obtaining axis-angle and performing SLERP, in particular) are "
+"more efficient and robust against floating-point errors."
+msgstr ""
+
+#: ../../docs/classes/class_quat.rst:24
+msgid "Tutorials"
+msgstr "教程"
+
+#: ../../docs/classes/class_quat.rst:26
+msgid ""
+"`#interpolating-with-quaternions <../tutorials/3d/using_transforms."
+"html#interpolating-with-quaternions>`_ in :doc:`../tutorials/3d/"
+"using_transforms`"
+msgstr ""
+
+#: ../../docs/classes/class_quat.rst:28
+msgid ""
+"`https://godotengine.org/asset-library/asset/678 <https://godotengine.org/"
+"asset-library/asset/678>`_"
+msgstr ""
+
+#: ../../docs/classes/class_quat.rst:31
+msgid "Properties"
+msgstr "属性"
+
+#: ../../docs/classes/class_quat.rst:34 ../../docs/classes/class_quat.rst:36
+#: ../../docs/classes/class_quat.rst:38 ../../docs/classes/class_quat.rst:40
+#: ../../docs/classes/class_quat.rst:57 ../../docs/classes/class_quat.rst:67
+#: ../../docs/classes/class_quat.rst:69
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../../docs/classes/class_quat.rst:34
+msgid ":ref:`w<class_Quat_property_w>`"
+msgstr ""
+
+#: ../../docs/classes/class_quat.rst:34 ../../docs/classes/class_quat.rst:99
+msgid "``1.0``"
+msgstr ""
+
+#: ../../docs/classes/class_quat.rst:36
+msgid ":ref:`x<class_Quat_property_x>`"
+msgstr ""
+
+#: ../../docs/classes/class_quat.rst:36 ../../docs/classes/class_quat.rst:38
+#: ../../docs/classes/class_quat.rst:40 ../../docs/classes/class_quat.rst:113
+#: ../../docs/classes/class_quat.rst:127 ../../docs/classes/class_quat.rst:141
+msgid "``0.0``"
+msgstr ""
+
+#: ../../docs/classes/class_quat.rst:38
+msgid ":ref:`y<class_Quat_property_y>`"
+msgstr ""
+
+#: ../../docs/classes/class_quat.rst:40
+msgid ":ref:`z<class_Quat_property_z>`"
+msgstr ""
+
+#: ../../docs/classes/class_quat.rst:44
+msgid "Methods"
+msgstr "方法"
+
+#: ../../docs/classes/class_quat.rst:47 ../../docs/classes/class_quat.rst:49
+#: ../../docs/classes/class_quat.rst:51 ../../docs/classes/class_quat.rst:53
+#: ../../docs/classes/class_quat.rst:55 ../../docs/classes/class_quat.rst:61
+#: ../../docs/classes/class_quat.rst:71 ../../docs/classes/class_quat.rst:77
+#: ../../docs/classes/class_quat.rst:79
+msgid ":ref:`Quat<class_Quat>`"
+msgstr ""
+
+#: ../../docs/classes/class_quat.rst:47
+msgid ""
+":ref:`Quat<class_Quat_method_Quat>` **(** :ref:`Basis<class_Basis>` from "
+"**)**"
+msgstr ""
+
+#: ../../docs/classes/class_quat.rst:49
+msgid ""
+":ref:`Quat<class_Quat_method_Quat>` **(** :ref:`Vector3<class_Vector3>` "
+"euler **)**"
+msgstr ""
+
+#: ../../docs/classes/class_quat.rst:51
+msgid ""
+":ref:`Quat<class_Quat_method_Quat>` **(** :ref:`Vector3<class_Vector3>` "
+"axis, :ref:`float<class_float>` angle **)**"
+msgstr ""
+
+#: ../../docs/classes/class_quat.rst:53
+msgid ""
+":ref:`Quat<class_Quat_method_Quat>` **(** :ref:`float<class_float>` x, :ref:"
+"`float<class_float>` y, :ref:`float<class_float>` z, :ref:"
+"`float<class_float>` w **)**"
+msgstr ""
+
+#: ../../docs/classes/class_quat.rst:55
+msgid ""
+":ref:`cubic_slerp<class_Quat_method_cubic_slerp>` **(** :ref:"
+"`Quat<class_Quat>` b, :ref:`Quat<class_Quat>` pre_a, :ref:`Quat<class_Quat>` "
+"post_b, :ref:`float<class_float>` t **)**"
+msgstr ""
+
+#: ../../docs/classes/class_quat.rst:57
+msgid ":ref:`dot<class_Quat_method_dot>` **(** :ref:`Quat<class_Quat>` b **)**"
+msgstr ""
+
+#: ../../docs/classes/class_quat.rst:59 ../../docs/classes/class_quat.rst:81
+msgid ":ref:`Vector3<class_Vector3>`"
+msgstr ""
+
+#: ../../docs/classes/class_quat.rst:59
+msgid ":ref:`get_euler<class_Quat_method_get_euler>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_quat.rst:61
+msgid ":ref:`inverse<class_Quat_method_inverse>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_quat.rst:63 ../../docs/classes/class_quat.rst:65
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_quat.rst:63
+msgid ""
+":ref:`is_equal_approx<class_Quat_method_is_equal_approx>` **(** :ref:"
+"`Quat<class_Quat>` quat **)**"
+msgstr ""
+
+#: ../../docs/classes/class_quat.rst:65
+msgid ":ref:`is_normalized<class_Quat_method_is_normalized>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_quat.rst:67
+msgid ":ref:`length<class_Quat_method_length>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_quat.rst:69
+msgid ":ref:`length_squared<class_Quat_method_length_squared>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_quat.rst:71
+msgid ":ref:`normalized<class_Quat_method_normalized>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_quat.rst:73 ../../docs/classes/class_quat.rst:75
+msgid "void"
+msgstr ""
+
+#: ../../docs/classes/class_quat.rst:73
+msgid ""
+":ref:`set_axis_angle<class_Quat_method_set_axis_angle>` **(** :ref:"
+"`Vector3<class_Vector3>` axis, :ref:`float<class_float>` angle **)**"
+msgstr ""
+
+#: ../../docs/classes/class_quat.rst:75
+msgid ""
+":ref:`set_euler<class_Quat_method_set_euler>` **(** :ref:"
+"`Vector3<class_Vector3>` euler **)**"
+msgstr ""
+
+#: ../../docs/classes/class_quat.rst:77
+msgid ""
+":ref:`slerp<class_Quat_method_slerp>` **(** :ref:`Quat<class_Quat>` b, :ref:"
+"`float<class_float>` t **)**"
+msgstr ""
+
+#: ../../docs/classes/class_quat.rst:79
+msgid ""
+":ref:`slerpni<class_Quat_method_slerpni>` **(** :ref:`Quat<class_Quat>` b, :"
+"ref:`float<class_float>` t **)**"
+msgstr ""
+
+#: ../../docs/classes/class_quat.rst:81
+msgid ""
+":ref:`xform<class_Quat_method_xform>` **(** :ref:`Vector3<class_Vector3>` v "
+"**)**"
+msgstr ""
+
+#: ../../docs/classes/class_quat.rst:85
+msgid "Constants"
+msgstr "常量"
+
+#: ../../docs/classes/class_quat.rst:89
+msgid ""
+"**IDENTITY** = **Quat( 0, 0, 0, 1 )** --- The identity quaternion, "
+"representing no rotation. Equivalent to an identity :ref:"
+"`Basis<class_Basis>` matrix. If a vector is transformed by an identity "
+"quaternion, it will not change."
+msgstr ""
+
+#: ../../docs/classes/class_quat.rst:92
+msgid "Property Descriptions"
+msgstr "属性说明"
+
+#: ../../docs/classes/class_quat.rst:96
+msgid ":ref:`float<class_float>` **w**"
+msgstr ""
+
+#: ../../docs/classes/class_quat.rst:99 ../../docs/classes/class_quat.rst:113
+#: ../../docs/classes/class_quat.rst:127 ../../docs/classes/class_quat.rst:141
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_quat.rst:102
+msgid "W component of the quaternion (real part)."
+msgstr ""
+
+#: ../../docs/classes/class_quat.rst:104 ../../docs/classes/class_quat.rst:118
+#: ../../docs/classes/class_quat.rst:132 ../../docs/classes/class_quat.rst:146
+msgid "Quaternion components should usually not be manipulated directly."
+msgstr ""
+
+#: ../../docs/classes/class_quat.rst:110
+msgid ":ref:`float<class_float>` **x**"
+msgstr ""
+
+#: ../../docs/classes/class_quat.rst:116
+msgid "X component of the quaternion (imaginary ``i`` axis part)."
+msgstr ""
+
+#: ../../docs/classes/class_quat.rst:124
+msgid ":ref:`float<class_float>` **y**"
+msgstr ""
+
+#: ../../docs/classes/class_quat.rst:130
+msgid "Y component of the quaternion (imaginary ``j`` axis part)."
+msgstr ""
+
+#: ../../docs/classes/class_quat.rst:138
+msgid ":ref:`float<class_float>` **z**"
+msgstr ""
+
+#: ../../docs/classes/class_quat.rst:144
+msgid "Z component of the quaternion (imaginary ``k`` axis part)."
+msgstr ""
+
+#: ../../docs/classes/class_quat.rst:149
+msgid "Method Descriptions"
+msgstr "方法说明"
+
+#: ../../docs/classes/class_quat.rst:153
+msgid ""
+":ref:`Quat<class_Quat>` **Quat** **(** :ref:`Basis<class_Basis>` from **)**"
+msgstr ""
+
+#: ../../docs/classes/class_quat.rst:155
+msgid "Constructs a quaternion from the given :ref:`Basis<class_Basis>`."
+msgstr ""
+
+#: ../../docs/classes/class_quat.rst:159
+msgid ""
+":ref:`Quat<class_Quat>` **Quat** **(** :ref:`Vector3<class_Vector3>` euler "
+"**)**"
+msgstr ""
+
+#: ../../docs/classes/class_quat.rst:161
+msgid ""
+"Constructs a quaternion that will perform a rotation specified by Euler "
+"angles (in the YXZ convention: when decomposing, first Z, then X, and Y "
+"last), given in the vector format as (X angle, Y angle, Z angle)."
+msgstr ""
+
+#: ../../docs/classes/class_quat.rst:165
+msgid ""
+":ref:`Quat<class_Quat>` **Quat** **(** :ref:`Vector3<class_Vector3>` axis, :"
+"ref:`float<class_float>` angle **)**"
+msgstr ""
+
+#: ../../docs/classes/class_quat.rst:167
+msgid ""
+"Constructs a quaternion that will rotate around the given axis by the "
+"specified angle. The axis must be a normalized vector."
+msgstr ""
+
+#: ../../docs/classes/class_quat.rst:171
+msgid ""
+":ref:`Quat<class_Quat>` **Quat** **(** :ref:`float<class_float>` x, :ref:"
+"`float<class_float>` y, :ref:`float<class_float>` z, :ref:"
+"`float<class_float>` w **)**"
+msgstr ""
+
+#: ../../docs/classes/class_quat.rst:173
+msgid "Constructs a quaternion defined by the given values."
+msgstr ""
+
+#: ../../docs/classes/class_quat.rst:179
+msgid ""
+":ref:`Quat<class_Quat>` **cubic_slerp** **(** :ref:`Quat<class_Quat>` b, :"
+"ref:`Quat<class_Quat>` pre_a, :ref:`Quat<class_Quat>` post_b, :ref:"
+"`float<class_float>` t **)**"
+msgstr ""
+
+#: ../../docs/classes/class_quat.rst:181
+msgid ""
+"Performs a cubic spherical interpolation between quaternions ``preA``, this "
+"vector, ``b``, and ``postB``, by the given amount ``t``."
+msgstr ""
+
+#: ../../docs/classes/class_quat.rst:187
+msgid ":ref:`float<class_float>` **dot** **(** :ref:`Quat<class_Quat>` b **)**"
+msgstr ""
+
+#: ../../docs/classes/class_quat.rst:189
+msgid "Returns the dot product of two quaternions."
+msgstr ""
+
+#: ../../docs/classes/class_quat.rst:195
+msgid ":ref:`Vector3<class_Vector3>` **get_euler** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_quat.rst:197
+msgid ""
+"Returns Euler angles (in the YXZ convention: when decomposing, first Z, then "
+"X, and Y last) corresponding to the rotation represented by the unit "
+"quaternion. Returned vector contains the rotation angles in the format (X "
+"angle, Y angle, Z angle)."
+msgstr ""
+
+#: ../../docs/classes/class_quat.rst:203
+msgid ":ref:`Quat<class_Quat>` **inverse** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_quat.rst:205
+msgid "Returns the inverse of the quaternion."
+msgstr ""
+
+#: ../../docs/classes/class_quat.rst:211
+msgid ""
+":ref:`bool<class_bool>` **is_equal_approx** **(** :ref:`Quat<class_Quat>` "
+"quat **)**"
+msgstr ""
+
+#: ../../docs/classes/class_quat.rst:213
+msgid ""
+"Returns ``true`` if this quaterion and ``quat`` are approximately equal, by "
+"running :ref:`@GDScript."
+"is_equal_approx<class_@GDScript_method_is_equal_approx>` on each component."
+msgstr ""
+
+#: ../../docs/classes/class_quat.rst:219
+msgid ":ref:`bool<class_bool>` **is_normalized** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_quat.rst:221
+msgid "Returns whether the quaternion is normalized or not."
+msgstr ""
+
+#: ../../docs/classes/class_quat.rst:227
+msgid ":ref:`float<class_float>` **length** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_quat.rst:229
+msgid "Returns the length of the quaternion."
+msgstr ""
+
+#: ../../docs/classes/class_quat.rst:235
+msgid ":ref:`float<class_float>` **length_squared** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_quat.rst:237
+msgid "Returns the length of the quaternion, squared."
+msgstr ""
+
+#: ../../docs/classes/class_quat.rst:243
+msgid ":ref:`Quat<class_Quat>` **normalized** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_quat.rst:245
+msgid "Returns a copy of the quaternion, normalized to unit length."
+msgstr ""
+
+#: ../../docs/classes/class_quat.rst:251
+msgid ""
+"void **set_axis_angle** **(** :ref:`Vector3<class_Vector3>` axis, :ref:"
+"`float<class_float>` angle **)**"
+msgstr ""
+
+#: ../../docs/classes/class_quat.rst:253
+msgid ""
+"Sets the quaternion to a rotation which rotates around axis by the specified "
+"angle, in radians. The axis must be a normalized vector."
+msgstr ""
+
+#: ../../docs/classes/class_quat.rst:259
+msgid "void **set_euler** **(** :ref:`Vector3<class_Vector3>` euler **)**"
+msgstr ""
+
+#: ../../docs/classes/class_quat.rst:261
+msgid ""
+"Sets the quaternion to a rotation specified by Euler angles (in the YXZ "
+"convention: when decomposing, first Z, then X, and Y last), given in the "
+"vector format as (X angle, Y angle, Z angle)."
+msgstr ""
+
+#: ../../docs/classes/class_quat.rst:267
+msgid ""
+":ref:`Quat<class_Quat>` **slerp** **(** :ref:`Quat<class_Quat>` b, :ref:"
+"`float<class_float>` t **)**"
+msgstr ""
+
+#: ../../docs/classes/class_quat.rst:269
+msgid ""
+"Returns the result of the spherical linear interpolation between this "
+"quaternion and ``to`` by amount ``weight``."
+msgstr ""
+
+#: ../../docs/classes/class_quat.rst:271
+msgid "**Note:** Both quaternions must be normalized."
+msgstr ""
+
+#: ../../docs/classes/class_quat.rst:277
+msgid ""
+":ref:`Quat<class_Quat>` **slerpni** **(** :ref:`Quat<class_Quat>` b, :ref:"
+"`float<class_float>` t **)**"
+msgstr ""
+
+#: ../../docs/classes/class_quat.rst:279
+msgid ""
+"Returns the result of the spherical linear interpolation between this "
+"quaternion and ``to`` by amount ``weight``, but without checking if the "
+"rotation path is not bigger than 90 degrees."
+msgstr ""
+
+#: ../../docs/classes/class_quat.rst:285
+msgid ""
+":ref:`Vector3<class_Vector3>` **xform** **(** :ref:`Vector3<class_Vector3>` "
+"v **)**"
+msgstr ""
+
+#: ../../docs/classes/class_quat.rst:287
+msgid "Returns a vector transformed (multiplied) by this quaternion."
+msgstr ""

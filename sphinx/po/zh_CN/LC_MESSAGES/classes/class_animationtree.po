@@ -1,0 +1,344 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2021, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-31 12:15+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_animationtree.rst:10
+msgid "AnimationTree"
+msgstr ""
+
+#: ../../docs/classes/class_animationtree.rst:12
+msgid "**Inherits:** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_animationtree.rst:14
+msgid ""
+"A node to be used for advanced animation transitions in an :ref:"
+"`AnimationPlayer<class_AnimationPlayer>`."
+msgstr ""
+
+#: ../../docs/classes/class_animationtree.rst:17
+msgid "Description"
+msgstr "描述"
+
+#: ../../docs/classes/class_animationtree.rst:19
+msgid ""
+"Note: When linked with an :ref:`AnimationPlayer<class_AnimationPlayer>`, "
+"several properties and methods of the corresponding :ref:"
+"`AnimationPlayer<class_AnimationPlayer>` will not function as expected. "
+"Playback and transitions should be handled using only the ``AnimationTree`` "
+"and its constituent :ref:`AnimationNode<class_AnimationNode>`\\ (s). The :"
+"ref:`AnimationPlayer<class_AnimationPlayer>` node should be used solely for "
+"adding, deleting, and editing animations."
+msgstr ""
+
+#: ../../docs/classes/class_animationtree.rst:22
+msgid "Tutorials"
+msgstr "教程"
+
+#: ../../docs/classes/class_animationtree.rst:24
+msgid ":doc:`../tutorials/animation/animation_tree`"
+msgstr ""
+
+#: ../../docs/classes/class_animationtree.rst:26
+msgid ""
+"`https://godotengine.org/asset-library/asset/678 <https://godotengine.org/"
+"asset-library/asset/678>`_"
+msgstr ""
+
+#: ../../docs/classes/class_animationtree.rst:29
+msgid "Properties"
+msgstr "属性"
+
+#: ../../docs/classes/class_animationtree.rst:32
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_animationtree.rst:32
+msgid ":ref:`active<class_AnimationTree_property_active>`"
+msgstr ""
+
+#: ../../docs/classes/class_animationtree.rst:32
+#: ../../docs/classes/class_animationtree.rst:81
+msgid "``false``"
+msgstr ""
+
+#: ../../docs/classes/class_animationtree.rst:34
+#: ../../docs/classes/class_animationtree.rst:38
+msgid ":ref:`NodePath<class_NodePath>`"
+msgstr ""
+
+#: ../../docs/classes/class_animationtree.rst:34
+msgid ":ref:`anim_player<class_AnimationTree_property_anim_player>`"
+msgstr ""
+
+#: ../../docs/classes/class_animationtree.rst:34
+#: ../../docs/classes/class_animationtree.rst:38
+#: ../../docs/classes/class_animationtree.rst:97
+#: ../../docs/classes/class_animationtree.rst:129
+msgid "``NodePath(\"\")``"
+msgstr ""
+
+#: ../../docs/classes/class_animationtree.rst:36
+msgid ":ref:`AnimationProcessMode<enum_AnimationTree_AnimationProcessMode>`"
+msgstr ""
+
+#: ../../docs/classes/class_animationtree.rst:36
+msgid ":ref:`process_mode<class_AnimationTree_property_process_mode>`"
+msgstr ""
+
+#: ../../docs/classes/class_animationtree.rst:36
+#: ../../docs/classes/class_animationtree.rst:113
+msgid "``1``"
+msgstr ""
+
+#: ../../docs/classes/class_animationtree.rst:38
+msgid ""
+":ref:`root_motion_track<class_AnimationTree_property_root_motion_track>`"
+msgstr ""
+
+#: ../../docs/classes/class_animationtree.rst:40
+msgid ":ref:`AnimationNode<class_AnimationNode>`"
+msgstr ""
+
+#: ../../docs/classes/class_animationtree.rst:40
+msgid ":ref:`tree_root<class_AnimationTree_property_tree_root>`"
+msgstr ""
+
+#: ../../docs/classes/class_animationtree.rst:44
+msgid "Methods"
+msgstr "方法"
+
+#: ../../docs/classes/class_animationtree.rst:47
+#: ../../docs/classes/class_animationtree.rst:51
+msgid "void"
+msgstr ""
+
+#: ../../docs/classes/class_animationtree.rst:47
+msgid ""
+":ref:`advance<class_AnimationTree_method_advance>` **(** :ref:"
+"`float<class_float>` delta **)**"
+msgstr ""
+
+#: ../../docs/classes/class_animationtree.rst:49
+msgid ":ref:`Transform<class_Transform>`"
+msgstr ""
+
+#: ../../docs/classes/class_animationtree.rst:49
+msgid ""
+":ref:"
+"`get_root_motion_transform<class_AnimationTree_method_get_root_motion_transform>` "
+"**(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_animationtree.rst:51
+msgid ""
+":ref:`rename_parameter<class_AnimationTree_method_rename_parameter>` **(** :"
+"ref:`String<class_String>` old_name, :ref:`String<class_String>` new_name "
+"**)**"
+msgstr ""
+
+#: ../../docs/classes/class_animationtree.rst:55
+msgid "Enumerations"
+msgstr "枚举"
+
+#: ../../docs/classes/class_animationtree.rst:65
+msgid "enum **AnimationProcessMode**:"
+msgstr ""
+
+#: ../../docs/classes/class_animationtree.rst:67
+msgid ""
+"**ANIMATION_PROCESS_PHYSICS** = **0** --- The animations will progress "
+"during the physics frame (i.e. :ref:`Node."
+"_physics_process<class_Node_method__physics_process>`)."
+msgstr ""
+
+#: ../../docs/classes/class_animationtree.rst:69
+msgid ""
+"**ANIMATION_PROCESS_IDLE** = **1** --- The animations will progress during "
+"the idle frame (i.e. :ref:`Node._process<class_Node_method__process>`)."
+msgstr ""
+
+#: ../../docs/classes/class_animationtree.rst:71
+msgid ""
+"**ANIMATION_PROCESS_MANUAL** = **2** --- The animations will only progress "
+"manually (see :ref:`advance<class_AnimationTree_method_advance>`)."
+msgstr ""
+
+#: ../../docs/classes/class_animationtree.rst:74
+msgid "Property Descriptions"
+msgstr "属性说明"
+
+#: ../../docs/classes/class_animationtree.rst:78
+msgid ":ref:`bool<class_bool>` **active**"
+msgstr ""
+
+#: ../../docs/classes/class_animationtree.rst:81
+#: ../../docs/classes/class_animationtree.rst:97
+#: ../../docs/classes/class_animationtree.rst:113
+#: ../../docs/classes/class_animationtree.rst:129
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_animationtree.rst:83
+#: ../../docs/classes/class_animationtree.rst:99
+#: ../../docs/classes/class_animationtree.rst:115
+#: ../../docs/classes/class_animationtree.rst:131
+#: ../../docs/classes/class_animationtree.rst:147
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_animationtree.rst:83
+msgid "set_active(value)"
+msgstr ""
+
+#: ../../docs/classes/class_animationtree.rst:85
+#: ../../docs/classes/class_animationtree.rst:101
+#: ../../docs/classes/class_animationtree.rst:117
+#: ../../docs/classes/class_animationtree.rst:133
+#: ../../docs/classes/class_animationtree.rst:149
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_animationtree.rst:85
+msgid "is_active()"
+msgstr ""
+
+#: ../../docs/classes/class_animationtree.rst:88
+msgid "If ``true``, the ``AnimationTree`` will be processing."
+msgstr ""
+
+#: ../../docs/classes/class_animationtree.rst:94
+msgid ":ref:`NodePath<class_NodePath>` **anim_player**"
+msgstr ""
+
+#: ../../docs/classes/class_animationtree.rst:99
+msgid "set_animation_player(value)"
+msgstr ""
+
+#: ../../docs/classes/class_animationtree.rst:101
+msgid "get_animation_player()"
+msgstr ""
+
+#: ../../docs/classes/class_animationtree.rst:104
+msgid ""
+"The path to the :ref:`AnimationPlayer<class_AnimationPlayer>` used for "
+"animating."
+msgstr ""
+
+#: ../../docs/classes/class_animationtree.rst:110
+msgid ""
+":ref:`AnimationProcessMode<enum_AnimationTree_AnimationProcessMode>` "
+"**process_mode**"
+msgstr ""
+
+#: ../../docs/classes/class_animationtree.rst:115
+msgid "set_process_mode(value)"
+msgstr ""
+
+#: ../../docs/classes/class_animationtree.rst:117
+msgid "get_process_mode()"
+msgstr ""
+
+#: ../../docs/classes/class_animationtree.rst:120
+msgid ""
+"The process mode of this ``AnimationTree``. See :ref:"
+"`AnimationProcessMode<enum_AnimationTree_AnimationProcessMode>` for "
+"available modes."
+msgstr ""
+
+#: ../../docs/classes/class_animationtree.rst:126
+msgid ":ref:`NodePath<class_NodePath>` **root_motion_track**"
+msgstr ""
+
+#: ../../docs/classes/class_animationtree.rst:131
+msgid "set_root_motion_track(value)"
+msgstr ""
+
+#: ../../docs/classes/class_animationtree.rst:133
+msgid "get_root_motion_track()"
+msgstr ""
+
+#: ../../docs/classes/class_animationtree.rst:136
+msgid ""
+"The path to the Animation track used for root motion. Paths must be valid "
+"scene-tree paths to a node, and must be specified starting from the parent "
+"node of the node that will reproduce the animation. To specify a track that "
+"controls properties or bones, append its name after the path, separated by ``"
+"\":\"``. For example, ``\"character/skeleton:ankle\"`` or ``\"character/mesh:"
+"transform/local\"``."
+msgstr ""
+
+#: ../../docs/classes/class_animationtree.rst:138
+msgid ""
+"If the track has type :ref:`Animation."
+"TYPE_TRANSFORM<class_Animation_constant_TYPE_TRANSFORM>`, the transformation "
+"will be cancelled visually, and the animation will appear to stay in place."
+msgstr ""
+
+#: ../../docs/classes/class_animationtree.rst:144
+msgid ":ref:`AnimationNode<class_AnimationNode>` **tree_root**"
+msgstr ""
+
+#: ../../docs/classes/class_animationtree.rst:147
+msgid "set_tree_root(value)"
+msgstr ""
+
+#: ../../docs/classes/class_animationtree.rst:149
+msgid "get_tree_root()"
+msgstr ""
+
+#: ../../docs/classes/class_animationtree.rst:152
+msgid ""
+"The root animation node of this ``AnimationTree``. See :ref:"
+"`AnimationNode<class_AnimationNode>`."
+msgstr ""
+
+#: ../../docs/classes/class_animationtree.rst:155
+msgid "Method Descriptions"
+msgstr "方法说明"
+
+#: ../../docs/classes/class_animationtree.rst:159
+msgid "void **advance** **(** :ref:`float<class_float>` delta **)**"
+msgstr ""
+
+#: ../../docs/classes/class_animationtree.rst:161
+msgid "Manually advance the animations by the specified time (in seconds)."
+msgstr "手动将动画前进指定的时间（单位为秒）。"
+
+#: ../../docs/classes/class_animationtree.rst:167
+msgid ""
+":ref:`Transform<class_Transform>` **get_root_motion_transform** **(** **)** |"
+"const|"
+msgstr ""
+
+#: ../../docs/classes/class_animationtree.rst:169
+msgid ""
+"Retrieve the motion of the :ref:"
+"`root_motion_track<class_AnimationTree_property_root_motion_track>` as a :"
+"ref:`Transform<class_Transform>` that can be used elsewhere. If :ref:"
+"`root_motion_track<class_AnimationTree_property_root_motion_track>` is not a "
+"path to a track of type :ref:`Animation."
+"TYPE_TRANSFORM<class_Animation_constant_TYPE_TRANSFORM>`, returns an "
+"identity transformation."
+msgstr ""
+
+#: ../../docs/classes/class_animationtree.rst:175
+msgid ""
+"void **rename_parameter** **(** :ref:`String<class_String>` old_name, :ref:"
+"`String<class_String>` new_name **)**"
+msgstr ""

@@ -1,0 +1,181 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2021, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-31 12:15+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_audioeffectrecord.rst:10
+msgid "AudioEffectRecord"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectrecord.rst:12
+msgid ""
+"**Inherits:** :ref:`AudioEffect<class_AudioEffect>` **<** :ref:"
+"`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :"
+"ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectrecord.rst:14
+msgid "Audio effect used for recording sound from a microphone."
+msgstr "用于录制来自麦克风的声音的音频效果。"
+
+#: ../../docs/classes/class_audioeffectrecord.rst:17
+msgid "Description"
+msgstr "描述"
+
+#: ../../docs/classes/class_audioeffectrecord.rst:19
+msgid ""
+"Allows the user to record sound from a microphone. It sets and gets the "
+"format in which the audio file will be recorded (8-bit, 16-bit, or "
+"compressed). It checks whether or not the recording is active, and if it is, "
+"records the sound. It then returns the recorded sample."
+msgstr ""
+"允许用户录制来自麦克风的声音。它设置并获取将记录音频文件的格式（8位，16位或压"
+"缩）。它检查录音是否处于活动状态，如果是，则记录声音。然后返回记录的样本。"
+
+#: ../../docs/classes/class_audioeffectrecord.rst:22
+msgid "Tutorials"
+msgstr "教程"
+
+#: ../../docs/classes/class_audioeffectrecord.rst:24
+msgid ":doc:`../tutorials/audio/recording_with_microphone`"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectrecord.rst:26
+msgid ""
+"`https://godotengine.org/asset-library/asset/527 <https://godotengine.org/"
+"asset-library/asset/527>`_"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectrecord.rst:29
+msgid "Properties"
+msgstr "属性"
+
+#: ../../docs/classes/class_audioeffectrecord.rst:32
+msgid ":ref:`Format<enum_AudioStreamSample_Format>`"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectrecord.rst:32
+msgid ":ref:`format<class_AudioEffectRecord_property_format>`"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectrecord.rst:32
+#: ../../docs/classes/class_audioeffectrecord.rst:54
+msgid "``1``"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectrecord.rst:36
+msgid "Methods"
+msgstr "方法"
+
+#: ../../docs/classes/class_audioeffectrecord.rst:39
+msgid ":ref:`AudioStreamSample<class_AudioStreamSample>`"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectrecord.rst:39
+msgid ""
+":ref:`get_recording<class_AudioEffectRecord_method_get_recording>` **(** "
+"**)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectrecord.rst:41
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectrecord.rst:41
+msgid ""
+":ref:"
+"`is_recording_active<class_AudioEffectRecord_method_is_recording_active>` "
+"**(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectrecord.rst:43
+msgid "void"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectrecord.rst:43
+msgid ""
+":ref:"
+"`set_recording_active<class_AudioEffectRecord_method_set_recording_active>` "
+"**(** :ref:`bool<class_bool>` record **)**"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectrecord.rst:47
+msgid "Property Descriptions"
+msgstr "属性说明"
+
+#: ../../docs/classes/class_audioeffectrecord.rst:51
+msgid ":ref:`Format<enum_AudioStreamSample_Format>` **format**"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectrecord.rst:54
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectrecord.rst:56
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectrecord.rst:56
+msgid "set_format(value)"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectrecord.rst:58
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectrecord.rst:58
+msgid "get_format()"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectrecord.rst:61
+msgid ""
+"Specifies the format in which the sample will be recorded. See :ref:"
+"`Format<enum_AudioStreamSample_Format>` for available formats."
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectrecord.rst:64
+msgid "Method Descriptions"
+msgstr "方法说明"
+
+#: ../../docs/classes/class_audioeffectrecord.rst:68
+msgid ""
+":ref:`AudioStreamSample<class_AudioStreamSample>` **get_recording** **(** "
+"**)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectrecord.rst:70
+msgid "Returns the recorded sample."
+msgstr "返回记录的样本。"
+
+#: ../../docs/classes/class_audioeffectrecord.rst:76
+msgid ":ref:`bool<class_bool>` **is_recording_active** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectrecord.rst:78
+msgid "Returns whether the recording is active or not."
+msgstr "返回记录是否处于活动状态。"
+
+#: ../../docs/classes/class_audioeffectrecord.rst:84
+msgid ""
+"void **set_recording_active** **(** :ref:`bool<class_bool>` record **)**"
+msgstr ""
+
+#: ../../docs/classes/class_audioeffectrecord.rst:86
+msgid ""
+"If ``true``, the sound will be recorded. Note that restarting the recording "
+"will remove the previously recorded sample."
+msgstr ""

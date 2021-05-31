@@ -1,0 +1,480 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2021, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-31 12:15+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_csgpolygon.rst:10
+msgid "CSGPolygon"
+msgstr ""
+
+#: ../../docs/classes/class_csgpolygon.rst:12
+msgid ""
+"**Inherits:** :ref:`CSGPrimitive<class_CSGPrimitive>` **<** :ref:"
+"`CSGShape<class_CSGShape>` **<** :ref:"
+"`GeometryInstance<class_GeometryInstance>` **<** :ref:"
+"`VisualInstance<class_VisualInstance>` **<** :ref:`Spatial<class_Spatial>` "
+"**<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_csgpolygon.rst:14
+msgid "Extrudes a 2D polygon shape to create a 3D mesh."
+msgstr "拉伸2D多边形形状以创建3D网格。"
+
+#: ../../docs/classes/class_csgpolygon.rst:17
+msgid "Description"
+msgstr "描述"
+
+#: ../../docs/classes/class_csgpolygon.rst:19
+msgid "This node takes a 2D polygon shape and extrudes it to create a 3D mesh."
+msgstr "该节点采用2D多边形形状并将其拉伸以创建3D网格。"
+
+#: ../../docs/classes/class_csgpolygon.rst:22
+msgid "Properties"
+msgstr "属性"
+
+#: ../../docs/classes/class_csgpolygon.rst:25
+#: ../../docs/classes/class_csgpolygon.rst:33
+#: ../../docs/classes/class_csgpolygon.rst:47
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../../docs/classes/class_csgpolygon.rst:25
+msgid ":ref:`depth<class_CSGPolygon_property_depth>`"
+msgstr ""
+
+#: ../../docs/classes/class_csgpolygon.rst:25
+#: ../../docs/classes/class_csgpolygon.rst:97
+msgid "``1.0``"
+msgstr ""
+
+#: ../../docs/classes/class_csgpolygon.rst:27
+msgid ":ref:`Material<class_Material>`"
+msgstr ""
+
+#: ../../docs/classes/class_csgpolygon.rst:27
+msgid ":ref:`material<class_CSGPolygon_property_material>`"
+msgstr ""
+
+#: ../../docs/classes/class_csgpolygon.rst:29
+msgid ":ref:`Mode<enum_CSGPolygon_Mode>`"
+msgstr ""
+
+#: ../../docs/classes/class_csgpolygon.rst:29
+msgid ":ref:`mode<class_CSGPolygon_property_mode>`"
+msgstr ""
+
+#: ../../docs/classes/class_csgpolygon.rst:29
+#: ../../docs/classes/class_csgpolygon.rst:127
+msgid "``0``"
+msgstr ""
+
+#: ../../docs/classes/class_csgpolygon.rst:31
+#: ../../docs/classes/class_csgpolygon.rst:35
+#: ../../docs/classes/class_csgpolygon.rst:37
+#: ../../docs/classes/class_csgpolygon.rst:45
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_csgpolygon.rst:31
+msgid ":ref:`path_continuous_u<class_CSGPolygon_property_path_continuous_u>`"
+msgstr ""
+
+#: ../../docs/classes/class_csgpolygon.rst:33
+msgid ":ref:`path_interval<class_CSGPolygon_property_path_interval>`"
+msgstr ""
+
+#: ../../docs/classes/class_csgpolygon.rst:35
+msgid ":ref:`path_joined<class_CSGPolygon_property_path_joined>`"
+msgstr ""
+
+#: ../../docs/classes/class_csgpolygon.rst:37
+msgid ":ref:`path_local<class_CSGPolygon_property_path_local>`"
+msgstr ""
+
+#: ../../docs/classes/class_csgpolygon.rst:39
+msgid ":ref:`NodePath<class_NodePath>`"
+msgstr ""
+
+#: ../../docs/classes/class_csgpolygon.rst:39
+msgid ":ref:`path_node<class_CSGPolygon_property_path_node>`"
+msgstr ""
+
+#: ../../docs/classes/class_csgpolygon.rst:41
+msgid ":ref:`PathRotation<enum_CSGPolygon_PathRotation>`"
+msgstr ""
+
+#: ../../docs/classes/class_csgpolygon.rst:41
+msgid ":ref:`path_rotation<class_CSGPolygon_property_path_rotation>`"
+msgstr ""
+
+#: ../../docs/classes/class_csgpolygon.rst:43
+msgid ":ref:`PoolVector2Array<class_PoolVector2Array>`"
+msgstr ""
+
+#: ../../docs/classes/class_csgpolygon.rst:43
+msgid ":ref:`polygon<class_CSGPolygon_property_polygon>`"
+msgstr ""
+
+#: ../../docs/classes/class_csgpolygon.rst:43
+#: ../../docs/classes/class_csgpolygon.rst:227
+msgid "``PoolVector2Array( 0, 0, 0, 1, 1, 1, 1, 0 )``"
+msgstr ""
+
+#: ../../docs/classes/class_csgpolygon.rst:45
+msgid ":ref:`smooth_faces<class_CSGPolygon_property_smooth_faces>`"
+msgstr ""
+
+#: ../../docs/classes/class_csgpolygon.rst:45
+#: ../../docs/classes/class_csgpolygon.rst:243
+msgid "``false``"
+msgstr ""
+
+#: ../../docs/classes/class_csgpolygon.rst:47
+msgid ":ref:`spin_degrees<class_CSGPolygon_property_spin_degrees>`"
+msgstr ""
+
+#: ../../docs/classes/class_csgpolygon.rst:49
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../../docs/classes/class_csgpolygon.rst:49
+msgid ":ref:`spin_sides<class_CSGPolygon_property_spin_sides>`"
+msgstr ""
+
+#: ../../docs/classes/class_csgpolygon.rst:53
+msgid "Enumerations"
+msgstr "枚举"
+
+#: ../../docs/classes/class_csgpolygon.rst:63
+msgid "enum **Mode**:"
+msgstr ""
+
+#: ../../docs/classes/class_csgpolygon.rst:65
+msgid ""
+"**MODE_DEPTH** = **0** --- Shape is extruded to :ref:"
+"`depth<class_CSGPolygon_property_depth>`."
+msgstr ""
+
+#: ../../docs/classes/class_csgpolygon.rst:67
+msgid ""
+"**MODE_SPIN** = **1** --- Shape is extruded by rotating it around an axis."
+msgstr ""
+
+#: ../../docs/classes/class_csgpolygon.rst:69
+msgid ""
+"**MODE_PATH** = **2** --- Shape is extruded along a path set by a :ref:"
+"`Shape<class_Shape>` set in :ref:"
+"`path_node<class_CSGPolygon_property_path_node>`."
+msgstr ""
+
+#: ../../docs/classes/class_csgpolygon.rst:81
+msgid "enum **PathRotation**:"
+msgstr ""
+
+#: ../../docs/classes/class_csgpolygon.rst:83
+msgid "**PATH_ROTATION_POLYGON** = **0** --- Slice is not rotated."
+msgstr ""
+
+#: ../../docs/classes/class_csgpolygon.rst:85
+msgid ""
+"**PATH_ROTATION_PATH** = **1** --- Slice is rotated around the up vector of "
+"the path."
+msgstr ""
+
+#: ../../docs/classes/class_csgpolygon.rst:87
+msgid ""
+"**PATH_ROTATION_PATH_FOLLOW** = **2** --- Slice is rotate to match the path "
+"exactly."
+msgstr ""
+
+#: ../../docs/classes/class_csgpolygon.rst:90
+msgid "Property Descriptions"
+msgstr "属性说明"
+
+#: ../../docs/classes/class_csgpolygon.rst:94
+msgid ":ref:`float<class_float>` **depth**"
+msgstr ""
+
+#: ../../docs/classes/class_csgpolygon.rst:97
+#: ../../docs/classes/class_csgpolygon.rst:127
+#: ../../docs/classes/class_csgpolygon.rst:227
+#: ../../docs/classes/class_csgpolygon.rst:243
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_csgpolygon.rst:99
+#: ../../docs/classes/class_csgpolygon.rst:113
+#: ../../docs/classes/class_csgpolygon.rst:129
+#: ../../docs/classes/class_csgpolygon.rst:143
+#: ../../docs/classes/class_csgpolygon.rst:157
+#: ../../docs/classes/class_csgpolygon.rst:171
+#: ../../docs/classes/class_csgpolygon.rst:185
+#: ../../docs/classes/class_csgpolygon.rst:199
+#: ../../docs/classes/class_csgpolygon.rst:213
+#: ../../docs/classes/class_csgpolygon.rst:229
+#: ../../docs/classes/class_csgpolygon.rst:245
+#: ../../docs/classes/class_csgpolygon.rst:259
+#: ../../docs/classes/class_csgpolygon.rst:273
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_csgpolygon.rst:99
+msgid "set_depth(value)"
+msgstr ""
+
+#: ../../docs/classes/class_csgpolygon.rst:101
+#: ../../docs/classes/class_csgpolygon.rst:115
+#: ../../docs/classes/class_csgpolygon.rst:131
+#: ../../docs/classes/class_csgpolygon.rst:145
+#: ../../docs/classes/class_csgpolygon.rst:159
+#: ../../docs/classes/class_csgpolygon.rst:173
+#: ../../docs/classes/class_csgpolygon.rst:187
+#: ../../docs/classes/class_csgpolygon.rst:201
+#: ../../docs/classes/class_csgpolygon.rst:215
+#: ../../docs/classes/class_csgpolygon.rst:231
+#: ../../docs/classes/class_csgpolygon.rst:247
+#: ../../docs/classes/class_csgpolygon.rst:261
+#: ../../docs/classes/class_csgpolygon.rst:275
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_csgpolygon.rst:101
+msgid "get_depth()"
+msgstr ""
+
+#: ../../docs/classes/class_csgpolygon.rst:104
+msgid ""
+"Extrusion depth when :ref:`mode<class_CSGPolygon_property_mode>` is :ref:"
+"`MODE_DEPTH<class_CSGPolygon_constant_MODE_DEPTH>`."
+msgstr ""
+
+#: ../../docs/classes/class_csgpolygon.rst:110
+msgid ":ref:`Material<class_Material>` **material**"
+msgstr ""
+
+#: ../../docs/classes/class_csgpolygon.rst:113
+msgid "set_material(value)"
+msgstr ""
+
+#: ../../docs/classes/class_csgpolygon.rst:115
+msgid "get_material()"
+msgstr ""
+
+#: ../../docs/classes/class_csgpolygon.rst:118
+msgid "Material to use for the resulting mesh."
+msgstr "用于生成的网格的材料。"
+
+#: ../../docs/classes/class_csgpolygon.rst:124
+msgid ":ref:`Mode<enum_CSGPolygon_Mode>` **mode**"
+msgstr ""
+
+#: ../../docs/classes/class_csgpolygon.rst:129
+msgid "set_mode(value)"
+msgstr ""
+
+#: ../../docs/classes/class_csgpolygon.rst:131
+msgid "get_mode()"
+msgstr ""
+
+#: ../../docs/classes/class_csgpolygon.rst:134
+msgid "Extrusion mode."
+msgstr "挤出模式。"
+
+#: ../../docs/classes/class_csgpolygon.rst:140
+msgid ":ref:`bool<class_bool>` **path_continuous_u**"
+msgstr ""
+
+#: ../../docs/classes/class_csgpolygon.rst:143
+msgid "set_path_continuous_u(value)"
+msgstr ""
+
+#: ../../docs/classes/class_csgpolygon.rst:145
+msgid "is_path_continuous_u()"
+msgstr ""
+
+#: ../../docs/classes/class_csgpolygon.rst:148
+msgid ""
+"If ``true`` the u component of our uv will continuously increase in unison "
+"with the distance traveled along our path when :ref:"
+"`mode<class_CSGPolygon_property_mode>` is :ref:"
+"`MODE_PATH<class_CSGPolygon_constant_MODE_PATH>`."
+msgstr ""
+
+#: ../../docs/classes/class_csgpolygon.rst:154
+msgid ":ref:`float<class_float>` **path_interval**"
+msgstr ""
+
+#: ../../docs/classes/class_csgpolygon.rst:157
+msgid "set_path_interval(value)"
+msgstr ""
+
+#: ../../docs/classes/class_csgpolygon.rst:159
+msgid "get_path_interval()"
+msgstr ""
+
+#: ../../docs/classes/class_csgpolygon.rst:162
+msgid ""
+"Interval at which a new extrusion slice is added along the path when :ref:"
+"`mode<class_CSGPolygon_property_mode>` is :ref:"
+"`MODE_PATH<class_CSGPolygon_constant_MODE_PATH>`."
+msgstr ""
+
+#: ../../docs/classes/class_csgpolygon.rst:168
+msgid ":ref:`bool<class_bool>` **path_joined**"
+msgstr ""
+
+#: ../../docs/classes/class_csgpolygon.rst:171
+msgid "set_path_joined(value)"
+msgstr ""
+
+#: ../../docs/classes/class_csgpolygon.rst:173
+msgid "is_path_joined()"
+msgstr ""
+
+#: ../../docs/classes/class_csgpolygon.rst:176
+msgid ""
+"If ``true`` the start and end of our path are joined together ensuring there "
+"is no seam when :ref:`mode<class_CSGPolygon_property_mode>` is :ref:"
+"`MODE_PATH<class_CSGPolygon_constant_MODE_PATH>`."
+msgstr ""
+
+#: ../../docs/classes/class_csgpolygon.rst:182
+msgid ":ref:`bool<class_bool>` **path_local**"
+msgstr ""
+
+#: ../../docs/classes/class_csgpolygon.rst:185
+msgid "set_path_local(value)"
+msgstr ""
+
+#: ../../docs/classes/class_csgpolygon.rst:187
+msgid "is_path_local()"
+msgstr ""
+
+#: ../../docs/classes/class_csgpolygon.rst:190
+msgid ""
+"If ``false`` we extrude centered on our path, if ``true`` we extrude in "
+"relation to the position of our CSGPolygon when :ref:"
+"`mode<class_CSGPolygon_property_mode>` is :ref:"
+"`MODE_PATH<class_CSGPolygon_constant_MODE_PATH>`."
+msgstr ""
+
+#: ../../docs/classes/class_csgpolygon.rst:196
+msgid ":ref:`NodePath<class_NodePath>` **path_node**"
+msgstr ""
+
+#: ../../docs/classes/class_csgpolygon.rst:199
+msgid "set_path_node(value)"
+msgstr ""
+
+#: ../../docs/classes/class_csgpolygon.rst:201
+msgid "get_path_node()"
+msgstr ""
+
+#: ../../docs/classes/class_csgpolygon.rst:204
+msgid ""
+"The :ref:`Shape<class_Shape>` object containing the path along which we "
+"extrude when :ref:`mode<class_CSGPolygon_property_mode>` is :ref:"
+"`MODE_PATH<class_CSGPolygon_constant_MODE_PATH>`."
+msgstr ""
+
+#: ../../docs/classes/class_csgpolygon.rst:210
+msgid ":ref:`PathRotation<enum_CSGPolygon_PathRotation>` **path_rotation**"
+msgstr ""
+
+#: ../../docs/classes/class_csgpolygon.rst:213
+msgid "set_path_rotation(value)"
+msgstr ""
+
+#: ../../docs/classes/class_csgpolygon.rst:215
+msgid "get_path_rotation()"
+msgstr ""
+
+#: ../../docs/classes/class_csgpolygon.rst:218
+msgid ""
+"The method by which each slice is rotated along the path when :ref:"
+"`mode<class_CSGPolygon_property_mode>` is :ref:"
+"`MODE_PATH<class_CSGPolygon_constant_MODE_PATH>`."
+msgstr ""
+
+#: ../../docs/classes/class_csgpolygon.rst:224
+msgid ":ref:`PoolVector2Array<class_PoolVector2Array>` **polygon**"
+msgstr ""
+
+#: ../../docs/classes/class_csgpolygon.rst:229
+msgid "set_polygon(value)"
+msgstr ""
+
+#: ../../docs/classes/class_csgpolygon.rst:231
+msgid "get_polygon()"
+msgstr ""
+
+#: ../../docs/classes/class_csgpolygon.rst:234
+msgid "Point array that defines the shape that we'll extrude."
+msgstr "点数组定义了我们将要拉伸的形状。"
+
+#: ../../docs/classes/class_csgpolygon.rst:240
+msgid ":ref:`bool<class_bool>` **smooth_faces**"
+msgstr ""
+
+#: ../../docs/classes/class_csgpolygon.rst:245
+msgid "set_smooth_faces(value)"
+msgstr ""
+
+#: ../../docs/classes/class_csgpolygon.rst:247
+msgid "get_smooth_faces()"
+msgstr ""
+
+#: ../../docs/classes/class_csgpolygon.rst:250
+msgid "Generates smooth normals so smooth shading is applied to our mesh."
+msgstr "生成平滑法线，因此将平滑阴影应用于我们的网格。"
+
+#: ../../docs/classes/class_csgpolygon.rst:256
+msgid ":ref:`float<class_float>` **spin_degrees**"
+msgstr ""
+
+#: ../../docs/classes/class_csgpolygon.rst:259
+msgid "set_spin_degrees(value)"
+msgstr ""
+
+#: ../../docs/classes/class_csgpolygon.rst:261
+msgid "get_spin_degrees()"
+msgstr ""
+
+#: ../../docs/classes/class_csgpolygon.rst:264
+msgid ""
+"Degrees to rotate our extrusion for each slice when :ref:"
+"`mode<class_CSGPolygon_property_mode>` is :ref:"
+"`MODE_SPIN<class_CSGPolygon_constant_MODE_SPIN>`."
+msgstr ""
+
+#: ../../docs/classes/class_csgpolygon.rst:270
+msgid ":ref:`int<class_int>` **spin_sides**"
+msgstr ""
+
+#: ../../docs/classes/class_csgpolygon.rst:273
+msgid "set_spin_sides(value)"
+msgstr ""
+
+#: ../../docs/classes/class_csgpolygon.rst:275
+msgid "get_spin_sides()"
+msgstr ""
+
+#: ../../docs/classes/class_csgpolygon.rst:278
+msgid ""
+"Number of extrusion when :ref:`mode<class_CSGPolygon_property_mode>` is :ref:"
+"`MODE_SPIN<class_CSGPolygon_constant_MODE_SPIN>`."
+msgstr ""

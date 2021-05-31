@@ -1,0 +1,1815 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2021, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-31 12:15+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_viewport.rst:10
+msgid "Viewport"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:12
+msgid "**Inherits:** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:14
+msgid "Creates a sub-view into the screen."
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:17
+msgid "Description"
+msgstr "描述"
+
+#: ../../docs/classes/class_viewport.rst:19
+msgid ""
+"A Viewport creates a different view into the screen, or a sub-view inside "
+"another viewport. Children 2D Nodes will display on it, and children Camera "
+"3D nodes will render on it too."
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:21
+msgid ""
+"Optionally, a viewport can have its own 2D or 3D world, so they don't share "
+"what they draw with other viewports."
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:23
+msgid ""
+"If a viewport is a child of a :ref:"
+"`ViewportContainer<class_ViewportContainer>`, it will automatically take up "
+"its size, otherwise it must be set manually."
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:25
+msgid ""
+"Viewports can also choose to be audio listeners, so they generate positional "
+"audio depending on a 2D or 3D camera child of it."
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:27
+msgid ""
+"Also, viewports can be assigned to different screens in case the devices "
+"have multiple screens."
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:29
+msgid ""
+"Finally, viewports can also behave as render targets, in which case they "
+"will not be visible unless the associated texture is used to draw."
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:32
+msgid "Tutorials"
+msgstr "教程"
+
+#: ../../docs/classes/class_viewport.rst:34
+msgid ":doc:`../tutorials/2d/2d_transforms`"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:36
+msgid ":doc:`../tutorials/viewports/index`"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:38
+msgid ""
+"`https://godotengine.org/asset-library/asset/127 <https://godotengine.org/"
+"asset-library/asset/127>`_"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:40
+msgid ""
+"`https://godotengine.org/asset-library/asset/128 <https://godotengine.org/"
+"asset-library/asset/128>`_"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:42
+msgid ""
+"`https://godotengine.org/asset-library/asset/129 <https://godotengine.org/"
+"asset-library/asset/129>`_"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:44
+msgid ""
+"`https://godotengine.org/asset-library/asset/130 <https://godotengine.org/"
+"asset-library/asset/130>`_"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:46
+msgid ""
+"`https://godotengine.org/asset-library/asset/541 <https://godotengine.org/"
+"asset-library/asset/541>`_"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:48
+msgid ""
+"`https://godotengine.org/asset-library/asset/586 <https://godotengine.org/"
+"asset-library/asset/586>`_"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:51
+msgid "Properties"
+msgstr "属性"
+
+#: ../../docs/classes/class_viewport.rst:54
+#: ../../docs/classes/class_viewport.rst:56
+#: ../../docs/classes/class_viewport.rst:58
+#: ../../docs/classes/class_viewport.rst:62
+#: ../../docs/classes/class_viewport.rst:66
+#: ../../docs/classes/class_viewport.rst:68
+#: ../../docs/classes/class_viewport.rst:72
+#: ../../docs/classes/class_viewport.rst:74
+#: ../../docs/classes/class_viewport.rst:76
+#: ../../docs/classes/class_viewport.rst:78
+#: ../../docs/classes/class_viewport.rst:80
+#: ../../docs/classes/class_viewport.rst:84
+#: ../../docs/classes/class_viewport.rst:86
+#: ../../docs/classes/class_viewport.rst:88
+#: ../../docs/classes/class_viewport.rst:94
+#: ../../docs/classes/class_viewport.rst:108
+#: ../../docs/classes/class_viewport.rst:110
+#: ../../docs/classes/class_viewport.rst:149
+#: ../../docs/classes/class_viewport.rst:151
+#: ../../docs/classes/class_viewport.rst:155
+#: ../../docs/classes/class_viewport.rst:157
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:54
+msgid ":ref:`arvr<class_Viewport_property_arvr>`"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:54
+#: ../../docs/classes/class_viewport.rst:56
+#: ../../docs/classes/class_viewport.rst:58
+#: ../../docs/classes/class_viewport.rst:62
+#: ../../docs/classes/class_viewport.rst:66
+#: ../../docs/classes/class_viewport.rst:68
+#: ../../docs/classes/class_viewport.rst:72
+#: ../../docs/classes/class_viewport.rst:80
+#: ../../docs/classes/class_viewport.rst:84
+#: ../../docs/classes/class_viewport.rst:86
+#: ../../docs/classes/class_viewport.rst:88
+#: ../../docs/classes/class_viewport.rst:94
+#: ../../docs/classes/class_viewport.rst:108
+#: ../../docs/classes/class_viewport.rst:110
+#: ../../docs/classes/class_viewport.rst:390
+#: ../../docs/classes/class_viewport.rst:406
+#: ../../docs/classes/class_viewport.rst:422
+#: ../../docs/classes/class_viewport.rst:452
+#: ../../docs/classes/class_viewport.rst:486
+#: ../../docs/classes/class_viewport.rst:502
+#: ../../docs/classes/class_viewport.rst:532
+#: ../../docs/classes/class_viewport.rst:596
+#: ../../docs/classes/class_viewport.rst:628
+#: ../../docs/classes/class_viewport.rst:644
+#: ../../docs/classes/class_viewport.rst:660
+#: ../../docs/classes/class_viewport.rst:710
+#: ../../docs/classes/class_viewport.rst:824
+#: ../../docs/classes/class_viewport.rst:840
+msgid "``false``"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:56
+msgid ""
+":ref:"
+"`audio_listener_enable_2d<class_Viewport_property_audio_listener_enable_2d>`"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:58
+msgid ""
+":ref:"
+"`audio_listener_enable_3d<class_Viewport_property_audio_listener_enable_3d>`"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:60
+#: ../../docs/classes/class_viewport.rst:70
+#: ../../docs/classes/class_viewport.rst:129
+msgid ":ref:`Transform2D<class_Transform2D>`"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:60
+msgid ":ref:`canvas_transform<class_Viewport_property_canvas_transform>`"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:62
+msgid ":ref:`debanding<class_Viewport_property_debanding>`"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:64
+msgid ":ref:`DebugDraw<enum_Viewport_DebugDraw>`"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:64
+msgid ":ref:`debug_draw<class_Viewport_property_debug_draw>`"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:64
+#: ../../docs/classes/class_viewport.rst:82
+#: ../../docs/classes/class_viewport.rst:90
+#: ../../docs/classes/class_viewport.rst:104
+#: ../../docs/classes/class_viewport.rst:470
+#: ../../docs/classes/class_viewport.rst:612
+#: ../../docs/classes/class_viewport.rst:676
+#: ../../docs/classes/class_viewport.rst:790
+msgid "``0``"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:66
+msgid ":ref:`disable_3d<class_Viewport_property_disable_3d>`"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:68
+msgid ":ref:`fxaa<class_Viewport_property_fxaa>`"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:70
+msgid ""
+":ref:"
+"`global_canvas_transform<class_Viewport_property_global_canvas_transform>`"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:72
+msgid ":ref:`gui_disable_input<class_Viewport_property_gui_disable_input>`"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:74
+msgid ""
+":ref:"
+"`gui_snap_controls_to_pixels<class_Viewport_property_gui_snap_controls_to_pixels>`"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:74
+#: ../../docs/classes/class_viewport.rst:76
+#: ../../docs/classes/class_viewport.rst:78
+#: ../../docs/classes/class_viewport.rst:548
+#: ../../docs/classes/class_viewport.rst:564
+#: ../../docs/classes/class_viewport.rst:578
+msgid "``true``"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:76
+msgid ""
+":ref:`handle_input_locally<class_Viewport_property_handle_input_locally>`"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:78
+msgid ":ref:`hdr<class_Viewport_property_hdr>`"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:80
+msgid ":ref:`keep_3d_linear<class_Viewport_property_keep_3d_linear>`"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:82
+msgid ":ref:`MSAA<enum_Viewport_MSAA>`"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:82
+msgid ":ref:`msaa<class_Viewport_property_msaa>`"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:84
+msgid ":ref:`own_world<class_Viewport_property_own_world>`"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:86
+msgid ""
+":ref:`physics_object_picking<class_Viewport_property_physics_object_picking>`"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:88
+msgid ""
+":ref:"
+"`render_direct_to_screen<class_Viewport_property_render_direct_to_screen>`"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:90
+msgid ":ref:`ClearMode<enum_Viewport_ClearMode>`"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:90
+msgid ""
+":ref:"
+"`render_target_clear_mode<class_Viewport_property_render_target_clear_mode>`"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:92
+msgid ":ref:`UpdateMode<enum_Viewport_UpdateMode>`"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:92
+msgid ""
+":ref:"
+"`render_target_update_mode<class_Viewport_property_render_target_update_mode>`"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:92
+#: ../../docs/classes/class_viewport.rst:96
+#: ../../docs/classes/class_viewport.rst:98
+#: ../../docs/classes/class_viewport.rst:112
+#: ../../docs/classes/class_viewport.rst:694
+#: ../../docs/classes/class_viewport.rst:726
+#: ../../docs/classes/class_viewport.rst:742
+#: ../../docs/classes/class_viewport.rst:856
+msgid "``2``"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:94
+msgid ""
+":ref:`render_target_v_flip<class_Viewport_property_render_target_v_flip>`"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:96
+#: ../../docs/classes/class_viewport.rst:98
+#: ../../docs/classes/class_viewport.rst:100
+#: ../../docs/classes/class_viewport.rst:102
+#: ../../docs/classes/class_viewport.rst:137
+msgid ""
+":ref:`ShadowAtlasQuadrantSubdiv<enum_Viewport_ShadowAtlasQuadrantSubdiv>`"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:96
+msgid ":ref:`shadow_atlas_quad_0<class_Viewport_property_shadow_atlas_quad_0>`"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:98
+msgid ":ref:`shadow_atlas_quad_1<class_Viewport_property_shadow_atlas_quad_1>`"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:100
+msgid ":ref:`shadow_atlas_quad_2<class_Viewport_property_shadow_atlas_quad_2>`"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:100
+#: ../../docs/classes/class_viewport.rst:758
+msgid "``3``"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:102
+msgid ":ref:`shadow_atlas_quad_3<class_Viewport_property_shadow_atlas_quad_3>`"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:102
+#: ../../docs/classes/class_viewport.rst:774
+msgid "``4``"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:104
+#: ../../docs/classes/class_viewport.rst:135
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:104
+msgid ":ref:`shadow_atlas_size<class_Viewport_property_shadow_atlas_size>`"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:106
+#: ../../docs/classes/class_viewport.rst:133
+#: ../../docs/classes/class_viewport.rst:139
+msgid ":ref:`Vector2<class_Vector2>`"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:106
+msgid ":ref:`size<class_Viewport_property_size>`"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:106
+#: ../../docs/classes/class_viewport.rst:808
+msgid "``Vector2( 0, 0 )``"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:108
+msgid ""
+":ref:`size_override_stretch<class_Viewport_property_size_override_stretch>`"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:110
+msgid ":ref:`transparent_bg<class_Viewport_property_transparent_bg>`"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:112
+msgid ":ref:`Usage<enum_Viewport_Usage>`"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:112
+msgid ":ref:`usage<class_Viewport_property_usage>`"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:114
+#: ../../docs/classes/class_viewport.rst:123
+msgid ":ref:`World<class_World>`"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:114
+msgid ":ref:`world<class_Viewport_property_world>`"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:116
+#: ../../docs/classes/class_viewport.rst:125
+msgid ":ref:`World2D<class_World2D>`"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:116
+msgid ":ref:`world_2d<class_Viewport_property_world_2d>`"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:120
+msgid "Methods"
+msgstr "方法"
+
+#: ../../docs/classes/class_viewport.rst:123
+msgid ":ref:`find_world<class_Viewport_method_find_world>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:125
+msgid ""
+":ref:`find_world_2d<class_Viewport_method_find_world_2d>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:127
+msgid ":ref:`Camera<class_Camera>`"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:127
+msgid ":ref:`get_camera<class_Viewport_method_get_camera>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:129
+msgid ""
+":ref:`get_final_transform<class_Viewport_method_get_final_transform>` **(** "
+"**)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:131
+msgid ":ref:`Control<class_Control>`"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:131
+msgid ""
+":ref:`get_modal_stack_top<class_Viewport_method_get_modal_stack_top>` **(** "
+"**)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:133
+msgid ""
+":ref:`get_mouse_position<class_Viewport_method_get_mouse_position>` **(** "
+"**)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:135
+msgid ""
+":ref:`get_render_info<class_Viewport_method_get_render_info>` **(** :ref:"
+"`RenderInfo<enum_Viewport_RenderInfo>` info **)**"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:137
+msgid ""
+":ref:"
+"`get_shadow_atlas_quadrant_subdiv<class_Viewport_method_get_shadow_atlas_quadrant_subdiv>` "
+"**(** :ref:`int<class_int>` quadrant **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:139
+msgid ""
+":ref:`get_size_override<class_Viewport_method_get_size_override>` **(** "
+"**)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:141
+msgid ":ref:`ViewportTexture<class_ViewportTexture>`"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:141
+msgid ""
+":ref:`get_texture<class_Viewport_method_get_texture>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:143
+msgid ":ref:`RID<class_RID>`"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:143
+msgid ""
+":ref:`get_viewport_rid<class_Viewport_method_get_viewport_rid>` **(** **)** |"
+"const|"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:145
+msgid ":ref:`Rect2<class_Rect2>`"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:145
+msgid ""
+":ref:`get_visible_rect<class_Viewport_method_get_visible_rect>` **(** **)** |"
+"const|"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:147
+msgid ":ref:`Variant<class_Variant>`"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:147
+msgid ""
+":ref:`gui_get_drag_data<class_Viewport_method_gui_get_drag_data>` **(** "
+"**)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:149
+msgid ""
+":ref:`gui_has_modal_stack<class_Viewport_method_gui_has_modal_stack>` **(** "
+"**)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:151
+msgid ""
+":ref:`gui_is_dragging<class_Viewport_method_gui_is_dragging>` **(** **)** |"
+"const|"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:153
+#: ../../docs/classes/class_viewport.rst:159
+#: ../../docs/classes/class_viewport.rst:161
+#: ../../docs/classes/class_viewport.rst:163
+#: ../../docs/classes/class_viewport.rst:165
+#: ../../docs/classes/class_viewport.rst:167
+#: ../../docs/classes/class_viewport.rst:169
+#: ../../docs/classes/class_viewport.rst:171
+msgid "void"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:153
+msgid ""
+":ref:`input<class_Viewport_method_input>` **(** :ref:"
+"`InputEvent<class_InputEvent>` local_event **)**"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:155
+msgid ""
+":ref:`is_input_handled<class_Viewport_method_is_input_handled>` **(** **)** |"
+"const|"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:157
+msgid ""
+":ref:"
+"`is_size_override_enabled<class_Viewport_method_is_size_override_enabled>` "
+"**(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:159
+msgid ""
+":ref:"
+"`set_attach_to_screen_rect<class_Viewport_method_set_attach_to_screen_rect>` "
+"**(** :ref:`Rect2<class_Rect2>` rect **)**"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:161
+msgid ""
+":ref:`set_input_as_handled<class_Viewport_method_set_input_as_handled>` "
+"**(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:163
+msgid ""
+":ref:"
+"`set_shadow_atlas_quadrant_subdiv<class_Viewport_method_set_shadow_atlas_quadrant_subdiv>` "
+"**(** :ref:`int<class_int>` quadrant, :ref:"
+"`ShadowAtlasQuadrantSubdiv<enum_Viewport_ShadowAtlasQuadrantSubdiv>` subdiv "
+"**)**"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:165
+msgid ""
+":ref:`set_size_override<class_Viewport_method_set_size_override>` **(** :ref:"
+"`bool<class_bool>` enable, :ref:`Vector2<class_Vector2>` size=Vector2( -1, "
+"-1 ), :ref:`Vector2<class_Vector2>` margin=Vector2( 0, 0 ) **)**"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:167
+msgid ""
+":ref:`unhandled_input<class_Viewport_method_unhandled_input>` **(** :ref:"
+"`InputEvent<class_InputEvent>` local_event **)**"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:169
+msgid ":ref:`update_worlds<class_Viewport_method_update_worlds>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:171
+msgid ""
+":ref:`warp_mouse<class_Viewport_method_warp_mouse>` **(** :ref:"
+"`Vector2<class_Vector2>` to_position **)**"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:175
+msgid "Signals"
+msgstr "信号"
+
+#: ../../docs/classes/class_viewport.rst:179
+msgid "**gui_focus_changed** **(** :ref:`Control<class_Control>` node **)**"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:181
+msgid "Emitted when a Control node grabs keyboard focus."
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:187
+msgid "**size_changed** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:189
+msgid ""
+"Emitted when the size of the viewport is changed, whether by :ref:"
+"`set_size_override<class_Viewport_method_set_size_override>`, resize of "
+"window, or some other means."
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:192
+msgid "Enumerations"
+msgstr "枚举"
+
+#: ../../docs/classes/class_viewport.rst:204
+msgid "enum **UpdateMode**:"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:206
+msgid "**UPDATE_DISABLED** = **0** --- Do not update the render target."
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:208
+msgid ""
+"**UPDATE_ONCE** = **1** --- Update the render target once, then switch to :"
+"ref:`UPDATE_DISABLED<class_Viewport_constant_UPDATE_DISABLED>`."
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:210
+msgid ""
+"**UPDATE_WHEN_VISIBLE** = **2** --- Update the render target only when it is "
+"visible. This is the default value."
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:212
+msgid "**UPDATE_ALWAYS** = **3** --- Always update the render target."
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:234
+msgid "enum **ShadowAtlasQuadrantSubdiv**:"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:236
+msgid ""
+"**SHADOW_ATLAS_QUADRANT_SUBDIV_DISABLED** = **0** --- This quadrant will not "
+"be used."
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:238
+msgid ""
+"**SHADOW_ATLAS_QUADRANT_SUBDIV_1** = **1** --- This quadrant will only be "
+"used by one shadow map."
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:240
+msgid ""
+"**SHADOW_ATLAS_QUADRANT_SUBDIV_4** = **2** --- This quadrant will be split "
+"in 4 and used by up to 4 shadow maps."
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:242
+msgid ""
+"**SHADOW_ATLAS_QUADRANT_SUBDIV_16** = **3** --- This quadrant will be split "
+"16 ways and used by up to 16 shadow maps."
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:244
+msgid ""
+"**SHADOW_ATLAS_QUADRANT_SUBDIV_64** = **4** --- This quadrant will be split "
+"64 ways and used by up to 64 shadow maps."
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:246
+msgid ""
+"**SHADOW_ATLAS_QUADRANT_SUBDIV_256** = **5** --- This quadrant will be split "
+"256 ways and used by up to 256 shadow maps. Unless the :ref:"
+"`shadow_atlas_size<class_Viewport_property_shadow_atlas_size>` is very high, "
+"the shadows in this quadrant will be very low resolution."
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:248
+msgid ""
+"**SHADOW_ATLAS_QUADRANT_SUBDIV_1024** = **6** --- This quadrant will be "
+"split 1024 ways and used by up to 1024 shadow maps. Unless the :ref:"
+"`shadow_atlas_size<class_Viewport_property_shadow_atlas_size>` is very high, "
+"the shadows in this quadrant will be very low resolution."
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:250
+msgid ""
+"**SHADOW_ATLAS_QUADRANT_SUBDIV_MAX** = **7** --- Represents the size of the :"
+"ref:`ShadowAtlasQuadrantSubdiv<enum_Viewport_ShadowAtlasQuadrantSubdiv>` "
+"enum."
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:274
+msgid "enum **RenderInfo**:"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:276
+msgid ""
+"**RENDER_INFO_OBJECTS_IN_FRAME** = **0** --- Amount of objects in frame."
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:278
+msgid ""
+"**RENDER_INFO_VERTICES_IN_FRAME** = **1** --- Amount of vertices in frame."
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:280
+msgid ""
+"**RENDER_INFO_MATERIAL_CHANGES_IN_FRAME** = **2** --- Amount of material "
+"changes in frame."
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:282
+msgid ""
+"**RENDER_INFO_SHADER_CHANGES_IN_FRAME** = **3** --- Amount of shader changes "
+"in frame."
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:284
+msgid ""
+"**RENDER_INFO_SURFACE_CHANGES_IN_FRAME** = **4** --- Amount of surface "
+"changes in frame."
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:286
+msgid ""
+"**RENDER_INFO_DRAW_CALLS_IN_FRAME** = **5** --- Amount of draw calls in "
+"frame."
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:288
+msgid ""
+"**RENDER_INFO_2D_ITEMS_IN_FRAME** = **6** --- Amount of items or joined "
+"items in frame."
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:290
+msgid ""
+"**RENDER_INFO_2D_DRAW_CALLS_IN_FRAME** = **7** --- Amount of draw calls in "
+"frame."
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:292
+msgid ""
+"**RENDER_INFO_MAX** = **8** --- Represents the size of the :ref:"
+"`RenderInfo<enum_Viewport_RenderInfo>` enum."
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:306
+msgid "enum **DebugDraw**:"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:308
+msgid "**DEBUG_DRAW_DISABLED** = **0** --- Objects are displayed normally."
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:310
+msgid ""
+"**DEBUG_DRAW_UNSHADED** = **1** --- Objects are displayed without light "
+"information."
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:312
+msgid ""
+"**DEBUG_DRAW_OVERDRAW** = **2** --- Objected are displayed semi-transparent "
+"with additive blending so you can see where they intersect."
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:314
+msgid ""
+"**DEBUG_DRAW_WIREFRAME** = **3** --- Objects are displayed in wireframe "
+"style."
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:330
+msgid "enum **MSAA**:"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:332
+msgid ""
+"**MSAA_DISABLED** = **0** --- Multisample anti-aliasing mode disabled. This "
+"is the default value."
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:334
+msgid "**MSAA_2X** = **1** --- Use 2x Multisample Antialiasing."
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:336
+msgid "**MSAA_4X** = **2** --- Use 4x Multisample Antialiasing."
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:338
+msgid ""
+"**MSAA_8X** = **3** --- Use 8x Multisample Antialiasing. Likely unsupported "
+"on low-end and older hardware."
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:340
+msgid ""
+"**MSAA_16X** = **4** --- Use 16x Multisample Antialiasing. Likely "
+"unsupported on medium and low-end hardware."
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:354
+msgid "enum **Usage**:"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:356
+msgid ""
+"**USAGE_2D** = **0** --- Allocates all buffers needed for drawing 2D scenes. "
+"This takes less VRAM than the 3D usage modes. Note that 3D rendering effects "
+"such as glow and HDR are not available when using this mode."
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:358
+msgid ""
+"**USAGE_2D_NO_SAMPLING** = **1** --- Allocates buffers needed for 2D scenes "
+"without allocating a buffer for screen copy. Accordingly, you cannot read "
+"from the screen. Of the :ref:`Usage<enum_Viewport_Usage>` types, this "
+"requires the least VRAM. Note that 3D rendering effects such as glow and HDR "
+"are not available when using this mode."
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:360
+msgid ""
+"**USAGE_3D** = **2** --- Allocates full buffers for drawing 3D scenes and "
+"all 3D effects including buffers needed for 2D scenes and effects."
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:362
+msgid ""
+"**USAGE_3D_NO_EFFECTS** = **3** --- Allocates buffers needed for drawing 3D "
+"scenes. But does not allocate buffers needed for reading from the screen and "
+"post-processing effects. Saves some VRAM."
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:374
+msgid "enum **ClearMode**:"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:376
+msgid ""
+"**CLEAR_MODE_ALWAYS** = **0** --- Always clear the render target before "
+"drawing."
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:378
+msgid "**CLEAR_MODE_NEVER** = **1** --- Never clear the render target."
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:380
+msgid ""
+"**CLEAR_MODE_ONLY_NEXT_FRAME** = **2** --- Clear the render target next "
+"frame, then switch to :ref:"
+"`CLEAR_MODE_NEVER<class_Viewport_constant_CLEAR_MODE_NEVER>`."
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:383
+msgid "Property Descriptions"
+msgstr "属性说明"
+
+#: ../../docs/classes/class_viewport.rst:387
+msgid ":ref:`bool<class_bool>` **arvr**"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:390
+#: ../../docs/classes/class_viewport.rst:406
+#: ../../docs/classes/class_viewport.rst:422
+#: ../../docs/classes/class_viewport.rst:452
+#: ../../docs/classes/class_viewport.rst:470
+#: ../../docs/classes/class_viewport.rst:486
+#: ../../docs/classes/class_viewport.rst:502
+#: ../../docs/classes/class_viewport.rst:532
+#: ../../docs/classes/class_viewport.rst:548
+#: ../../docs/classes/class_viewport.rst:564
+#: ../../docs/classes/class_viewport.rst:578
+#: ../../docs/classes/class_viewport.rst:596
+#: ../../docs/classes/class_viewport.rst:612
+#: ../../docs/classes/class_viewport.rst:628
+#: ../../docs/classes/class_viewport.rst:644
+#: ../../docs/classes/class_viewport.rst:660
+#: ../../docs/classes/class_viewport.rst:676
+#: ../../docs/classes/class_viewport.rst:694
+#: ../../docs/classes/class_viewport.rst:710
+#: ../../docs/classes/class_viewport.rst:726
+#: ../../docs/classes/class_viewport.rst:742
+#: ../../docs/classes/class_viewport.rst:758
+#: ../../docs/classes/class_viewport.rst:774
+#: ../../docs/classes/class_viewport.rst:790
+#: ../../docs/classes/class_viewport.rst:808
+#: ../../docs/classes/class_viewport.rst:824
+#: ../../docs/classes/class_viewport.rst:840
+#: ../../docs/classes/class_viewport.rst:856
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:392
+#: ../../docs/classes/class_viewport.rst:408
+#: ../../docs/classes/class_viewport.rst:424
+#: ../../docs/classes/class_viewport.rst:438
+#: ../../docs/classes/class_viewport.rst:454
+#: ../../docs/classes/class_viewport.rst:472
+#: ../../docs/classes/class_viewport.rst:488
+#: ../../docs/classes/class_viewport.rst:504
+#: ../../docs/classes/class_viewport.rst:518
+#: ../../docs/classes/class_viewport.rst:534
+#: ../../docs/classes/class_viewport.rst:550
+#: ../../docs/classes/class_viewport.rst:566
+#: ../../docs/classes/class_viewport.rst:580
+#: ../../docs/classes/class_viewport.rst:598
+#: ../../docs/classes/class_viewport.rst:614
+#: ../../docs/classes/class_viewport.rst:630
+#: ../../docs/classes/class_viewport.rst:646
+#: ../../docs/classes/class_viewport.rst:662
+#: ../../docs/classes/class_viewport.rst:678
+#: ../../docs/classes/class_viewport.rst:696
+#: ../../docs/classes/class_viewport.rst:712
+#: ../../docs/classes/class_viewport.rst:728
+#: ../../docs/classes/class_viewport.rst:744
+#: ../../docs/classes/class_viewport.rst:760
+#: ../../docs/classes/class_viewport.rst:776
+#: ../../docs/classes/class_viewport.rst:792
+#: ../../docs/classes/class_viewport.rst:810
+#: ../../docs/classes/class_viewport.rst:826
+#: ../../docs/classes/class_viewport.rst:842
+#: ../../docs/classes/class_viewport.rst:858
+#: ../../docs/classes/class_viewport.rst:872
+#: ../../docs/classes/class_viewport.rst:886
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:392
+msgid "set_use_arvr(value)"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:394
+#: ../../docs/classes/class_viewport.rst:410
+#: ../../docs/classes/class_viewport.rst:426
+#: ../../docs/classes/class_viewport.rst:440
+#: ../../docs/classes/class_viewport.rst:456
+#: ../../docs/classes/class_viewport.rst:474
+#: ../../docs/classes/class_viewport.rst:490
+#: ../../docs/classes/class_viewport.rst:506
+#: ../../docs/classes/class_viewport.rst:520
+#: ../../docs/classes/class_viewport.rst:536
+#: ../../docs/classes/class_viewport.rst:552
+#: ../../docs/classes/class_viewport.rst:568
+#: ../../docs/classes/class_viewport.rst:582
+#: ../../docs/classes/class_viewport.rst:600
+#: ../../docs/classes/class_viewport.rst:616
+#: ../../docs/classes/class_viewport.rst:632
+#: ../../docs/classes/class_viewport.rst:648
+#: ../../docs/classes/class_viewport.rst:664
+#: ../../docs/classes/class_viewport.rst:680
+#: ../../docs/classes/class_viewport.rst:698
+#: ../../docs/classes/class_viewport.rst:714
+#: ../../docs/classes/class_viewport.rst:730
+#: ../../docs/classes/class_viewport.rst:746
+#: ../../docs/classes/class_viewport.rst:762
+#: ../../docs/classes/class_viewport.rst:778
+#: ../../docs/classes/class_viewport.rst:794
+#: ../../docs/classes/class_viewport.rst:812
+#: ../../docs/classes/class_viewport.rst:828
+#: ../../docs/classes/class_viewport.rst:844
+#: ../../docs/classes/class_viewport.rst:860
+#: ../../docs/classes/class_viewport.rst:874
+#: ../../docs/classes/class_viewport.rst:888
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:394
+msgid "use_arvr()"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:397
+msgid "If ``true``, the viewport will be used in AR/VR process."
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:403
+msgid ":ref:`bool<class_bool>` **audio_listener_enable_2d**"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:408
+msgid "set_as_audio_listener_2d(value)"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:410
+msgid "is_audio_listener_2d()"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:413
+msgid "If ``true``, the viewport will process 2D audio streams."
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:419
+msgid ":ref:`bool<class_bool>` **audio_listener_enable_3d**"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:424
+msgid "set_as_audio_listener(value)"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:426
+msgid "is_audio_listener()"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:429
+msgid "If ``true``, the viewport will process 3D audio streams."
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:435
+msgid ":ref:`Transform2D<class_Transform2D>` **canvas_transform**"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:438
+msgid "set_canvas_transform(value)"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:440
+msgid "get_canvas_transform()"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:443
+msgid ""
+"The canvas transform of the viewport, useful for changing the on-screen "
+"positions of all child :ref:`CanvasItem<class_CanvasItem>`\\ s. This is "
+"relative to the global canvas transform of the viewport."
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:449
+msgid ":ref:`bool<class_bool>` **debanding**"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:454
+msgid "set_use_debanding(value)"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:456
+msgid "get_use_debanding()"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:459
+msgid ""
+"If ``true``, uses a fast post-processing filter to make banding "
+"significantly less visible. In some cases, debanding may introduce a "
+"slightly noticeable dithering pattern. It's recommended to enable debanding "
+"only when actually needed since the dithering pattern will make lossless-"
+"compressed screenshots larger."
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:461
+msgid ""
+"**Note:** Only available on the GLES3 backend. :ref:"
+"`hdr<class_Viewport_property_hdr>` must also be ``true`` for debanding to be "
+"effective."
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:467
+msgid ":ref:`DebugDraw<enum_Viewport_DebugDraw>` **debug_draw**"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:472
+msgid "set_debug_draw(value)"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:474
+msgid "get_debug_draw()"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:477
+msgid "The overlay mode for test rendered geometry in debug purposes."
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:483
+msgid ":ref:`bool<class_bool>` **disable_3d**"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:488
+msgid "set_disable_3d(value)"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:490
+msgid "is_3d_disabled()"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:493
+msgid ""
+"If ``true``, the viewport will disable 3D rendering. For actual disabling "
+"use ``usage``."
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:499
+msgid ":ref:`bool<class_bool>` **fxaa**"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:504
+msgid "set_use_fxaa(value)"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:506
+msgid "get_use_fxaa()"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:509
+msgid ""
+"Enables fast approximate antialiasing. FXAA is a popular screen-space "
+"antialiasing method, which is fast but will make the image look blurry, "
+"especially at lower resolutions. It can still work relatively well at large "
+"resolutions such as 1440p and 4K."
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:515
+msgid ":ref:`Transform2D<class_Transform2D>` **global_canvas_transform**"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:518
+msgid "set_global_canvas_transform(value)"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:520
+msgid "get_global_canvas_transform()"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:523
+msgid ""
+"The global canvas transform of the viewport. The canvas transform is "
+"relative to this."
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:529
+msgid ":ref:`bool<class_bool>` **gui_disable_input**"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:534
+msgid "set_disable_input(value)"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:536
+msgid "is_input_disabled()"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:539
+msgid "If ``true``, the viewport will not receive input events."
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:545
+msgid ":ref:`bool<class_bool>` **gui_snap_controls_to_pixels**"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:550
+msgid "set_snap_controls_to_pixels(value)"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:552
+msgid "is_snap_controls_to_pixels_enabled()"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:555
+msgid "If ``true``, the GUI controls on the viewport will lay pixel perfectly."
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:561
+msgid ":ref:`bool<class_bool>` **handle_input_locally**"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:566
+msgid "set_handle_input_locally(value)"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:568
+msgid "is_handling_input_locally()"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:575
+msgid ":ref:`bool<class_bool>` **hdr**"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:580
+msgid "set_hdr(value)"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:582
+msgid "get_hdr()"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:585
+msgid ""
+"If ``true``, the viewport rendering will receive benefits from High Dynamic "
+"Range algorithm. High Dynamic Range allows the viewport to receive values "
+"that are outside the 0-1 range. In Godot HDR uses 16 bits, meaning it does "
+"not store the full range of a floating point number."
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:587
+msgid ""
+"**Note:** Requires :ref:`usage<class_Viewport_property_usage>` to be set to :"
+"ref:`USAGE_3D<class_Viewport_constant_USAGE_3D>` or :ref:"
+"`USAGE_3D_NO_EFFECTS<class_Viewport_constant_USAGE_3D_NO_EFFECTS>`, since "
+"HDR is not supported for 2D."
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:593
+msgid ":ref:`bool<class_bool>` **keep_3d_linear**"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:598
+msgid "set_keep_3d_linear(value)"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:600
+msgid "get_keep_3d_linear()"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:603
+msgid ""
+"If ``true``, the result after 3D rendering will not have a linear to sRGB "
+"color conversion applied. This is important when the viewport is used as a "
+"render target where the result is used as a texture on a 3D object rendered "
+"in another viewport. It is also important if the viewport is used to create "
+"data that is not color based (noise, heightmaps, pickmaps, etc.). Do not "
+"enable this when the viewport is used as a texture on a 2D object or if the "
+"viewport is your final output."
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:609
+msgid ":ref:`MSAA<enum_Viewport_MSAA>` **msaa**"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:614
+msgid "set_msaa(value)"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:616
+msgid "get_msaa()"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:619
+msgid ""
+"The multisample anti-aliasing mode. A higher number results in smoother "
+"edges at the cost of significantly worse performance. A value of 4 is best "
+"unless targeting very high-end systems."
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:625
+msgid ":ref:`bool<class_bool>` **own_world**"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:630
+msgid "set_use_own_world(value)"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:632
+msgid "is_using_own_world()"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:635
+msgid ""
+"If ``true``, the viewport will use :ref:`World<class_World>` defined in "
+"``world`` property."
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:641
+msgid ":ref:`bool<class_bool>` **physics_object_picking**"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:646
+msgid "set_physics_object_picking(value)"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:648
+msgid "get_physics_object_picking()"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:651
+msgid ""
+"If ``true``, the objects rendered by viewport become subjects of mouse "
+"picking process."
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:657
+msgid ":ref:`bool<class_bool>` **render_direct_to_screen**"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:662
+msgid "set_use_render_direct_to_screen(value)"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:664
+msgid "is_using_render_direct_to_screen()"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:667
+msgid ""
+"If ``true``, renders the Viewport directly to the screen instead of to the "
+"root viewport. Only available in GLES2. This is a low-level optimization and "
+"should not be used in most cases. If used, reading from the Viewport or from "
+"``SCREEN_TEXTURE`` becomes unavailable. For more information see :ref:"
+"`VisualServer."
+"viewport_set_render_direct_to_screen<class_VisualServer_method_viewport_set_render_direct_to_screen>`."
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:673
+msgid ":ref:`ClearMode<enum_Viewport_ClearMode>` **render_target_clear_mode**"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:678
+msgid "set_clear_mode(value)"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:680
+msgid "get_clear_mode()"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:683
+msgid "The clear mode when viewport used as a render target."
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:685
+msgid "**Note:** This property is intended for 2D usage."
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:691
+msgid ""
+":ref:`UpdateMode<enum_Viewport_UpdateMode>` **render_target_update_mode**"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:696
+msgid "set_update_mode(value)"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:698
+msgid "get_update_mode()"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:701
+msgid "The update mode when viewport used as a render target."
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:707
+msgid ":ref:`bool<class_bool>` **render_target_v_flip**"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:712
+msgid "set_vflip(value)"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:714
+msgid "get_vflip()"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:717
+msgid "If ``true``, the result of rendering will be flipped vertically."
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:723
+msgid ""
+":ref:`ShadowAtlasQuadrantSubdiv<enum_Viewport_ShadowAtlasQuadrantSubdiv>` "
+"**shadow_atlas_quad_0**"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:728
+#: ../../docs/classes/class_viewport.rst:744
+#: ../../docs/classes/class_viewport.rst:760
+#: ../../docs/classes/class_viewport.rst:776
+msgid "set_shadow_atlas_quadrant_subdiv(value)"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:730
+#: ../../docs/classes/class_viewport.rst:746
+#: ../../docs/classes/class_viewport.rst:762
+#: ../../docs/classes/class_viewport.rst:778
+msgid "get_shadow_atlas_quadrant_subdiv()"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:733
+msgid "The subdivision amount of the first quadrant on the shadow atlas."
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:739
+msgid ""
+":ref:`ShadowAtlasQuadrantSubdiv<enum_Viewport_ShadowAtlasQuadrantSubdiv>` "
+"**shadow_atlas_quad_1**"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:749
+msgid "The subdivision amount of the second quadrant on the shadow atlas."
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:755
+msgid ""
+":ref:`ShadowAtlasQuadrantSubdiv<enum_Viewport_ShadowAtlasQuadrantSubdiv>` "
+"**shadow_atlas_quad_2**"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:765
+msgid "The subdivision amount of the third quadrant on the shadow atlas."
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:771
+msgid ""
+":ref:`ShadowAtlasQuadrantSubdiv<enum_Viewport_ShadowAtlasQuadrantSubdiv>` "
+"**shadow_atlas_quad_3**"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:781
+msgid "The subdivision amount of the fourth quadrant on the shadow atlas."
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:787
+msgid ":ref:`int<class_int>` **shadow_atlas_size**"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:792
+msgid "set_shadow_atlas_size(value)"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:794
+msgid "get_shadow_atlas_size()"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:797
+msgid ""
+"The shadow atlas' resolution (used for omni and spot lights). The value will "
+"be rounded up to the nearest power of 2."
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:799
+msgid ""
+"**Note:** If this is set to 0, shadows won't be visible. Since user-created "
+"viewports default to a value of 0, this value must be set above 0 manually."
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:805
+msgid ":ref:`Vector2<class_Vector2>` **size**"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:810
+msgid "set_size(value)"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:812
+msgid "get_size()"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:815
+msgid "The width and height of viewport."
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:821
+msgid ":ref:`bool<class_bool>` **size_override_stretch**"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:826
+msgid "set_size_override_stretch(value)"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:828
+msgid "is_size_override_stretch_enabled()"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:831
+msgid "If ``true``, the size override affects stretch as well."
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:837
+msgid ":ref:`bool<class_bool>` **transparent_bg**"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:842
+msgid "set_transparent_background(value)"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:844
+msgid "has_transparent_background()"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:847
+msgid "If ``true``, the viewport should render its background as transparent."
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:853
+msgid ":ref:`Usage<enum_Viewport_Usage>` **usage**"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:858
+msgid "set_usage(value)"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:860
+msgid "get_usage()"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:863
+msgid "The rendering mode of viewport."
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:869
+msgid ":ref:`World<class_World>` **world**"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:872
+msgid "set_world(value)"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:874
+msgid "get_world()"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:877
+msgid ""
+"The custom :ref:`World<class_World>` which can be used as 3D environment "
+"source."
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:883
+msgid ":ref:`World2D<class_World2D>` **world_2d**"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:886
+msgid "set_world_2d(value)"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:888
+msgid "get_world_2d()"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:891
+msgid ""
+"The custom :ref:`World2D<class_World2D>` which can be used as 2D environment "
+"source."
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:894
+msgid "Method Descriptions"
+msgstr "方法说明"
+
+#: ../../docs/classes/class_viewport.rst:898
+msgid ":ref:`World<class_World>` **find_world** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:900
+msgid ""
+"Returns the 3D world of the viewport, or if none the world of the parent "
+"viewport."
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:906
+msgid ":ref:`World2D<class_World2D>` **find_world_2d** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:908
+msgid "Returns the 2D world of the viewport."
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:914
+msgid ":ref:`Camera<class_Camera>` **get_camera** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:916
+msgid "Returns the active 3D camera."
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:922
+msgid ""
+":ref:`Transform2D<class_Transform2D>` **get_final_transform** **(** **)** |"
+"const|"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:924
+msgid "Returns the total transform of the viewport."
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:930
+msgid ""
+":ref:`Control<class_Control>` **get_modal_stack_top** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:932
+msgid "Returns the topmost modal in the stack."
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:938
+msgid ""
+":ref:`Vector2<class_Vector2>` **get_mouse_position** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:940
+msgid "Returns the mouse position relative to the viewport."
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:946
+msgid ""
+":ref:`int<class_int>` **get_render_info** **(** :ref:"
+"`RenderInfo<enum_Viewport_RenderInfo>` info **)**"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:948
+msgid "Returns information about the viewport from the rendering pipeline."
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:954
+msgid ""
+":ref:`ShadowAtlasQuadrantSubdiv<enum_Viewport_ShadowAtlasQuadrantSubdiv>` "
+"**get_shadow_atlas_quadrant_subdiv** **(** :ref:`int<class_int>` quadrant "
+"**)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:956
+msgid ""
+"Returns the :ref:"
+"`ShadowAtlasQuadrantSubdiv<enum_Viewport_ShadowAtlasQuadrantSubdiv>` of the "
+"specified quadrant."
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:962
+msgid ":ref:`Vector2<class_Vector2>` **get_size_override** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:964
+msgid ""
+"Returns the size override set with :ref:"
+"`set_size_override<class_Viewport_method_set_size_override>`."
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:970
+msgid ""
+":ref:`ViewportTexture<class_ViewportTexture>` **get_texture** **(** **)** |"
+"const|"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:972
+msgid "Returns the viewport's texture."
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:974
+msgid ""
+"**Note:** Due to the way OpenGL works, the resulting :ref:"
+"`ViewportTexture<class_ViewportTexture>` is flipped vertically. You can use :"
+"ref:`Image.flip_y<class_Image_method_flip_y>` on the result of :ref:`Texture."
+"get_data<class_Texture_method_get_data>` to flip it back, for example:"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:985
+msgid ":ref:`RID<class_RID>` **get_viewport_rid** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:987
+msgid ""
+"Returns the viewport's RID from the :ref:`VisualServer<class_VisualServer>`."
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:993
+msgid ":ref:`Rect2<class_Rect2>` **get_visible_rect** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:995
+msgid "Returns the visible rectangle in global screen coordinates."
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:1001
+msgid ":ref:`Variant<class_Variant>` **gui_get_drag_data** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:1003
+msgid ""
+"Returns the drag data from the GUI, that was previously returned by :ref:"
+"`Control.get_drag_data<class_Control_method_get_drag_data>`."
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:1009
+msgid ":ref:`bool<class_bool>` **gui_has_modal_stack** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:1011
+msgid "Returns ``true`` if there are visible modals on-screen."
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:1017
+msgid ":ref:`bool<class_bool>` **gui_is_dragging** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:1019
+msgid ""
+"Returns ``true`` if the viewport is currently performing a drag operation."
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:1025
+msgid ""
+"void **input** **(** :ref:`InputEvent<class_InputEvent>` local_event **)**"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:1031
+msgid ":ref:`bool<class_bool>` **is_input_handled** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:1037
+msgid ""
+":ref:`bool<class_bool>` **is_size_override_enabled** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:1039
+msgid ""
+"Returns ``true`` if the size override is enabled. See :ref:"
+"`set_size_override<class_Viewport_method_set_size_override>`."
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:1045
+msgid ""
+"void **set_attach_to_screen_rect** **(** :ref:`Rect2<class_Rect2>` rect **)**"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:1047
+msgid ""
+"Attaches this ``Viewport`` to the root ``Viewport`` with the specified "
+"rectangle. This bypasses the need for another node to display this "
+"``Viewport`` but makes you responsible for updating the position of this "
+"``Viewport`` manually."
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:1053
+msgid "void **set_input_as_handled** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:1055
+msgid ""
+"Stops the input from propagating further down the :ref:"
+"`SceneTree<class_SceneTree>`."
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:1061
+msgid ""
+"void **set_shadow_atlas_quadrant_subdiv** **(** :ref:`int<class_int>` "
+"quadrant, :ref:"
+"`ShadowAtlasQuadrantSubdiv<enum_Viewport_ShadowAtlasQuadrantSubdiv>` subdiv "
+"**)**"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:1063
+msgid ""
+"Sets the number of subdivisions to use in the specified quadrant. A higher "
+"number of subdivisions allows you to have more shadows in the scene at once, "
+"but reduces the quality of the shadows. A good practice is to have quadrants "
+"with a varying number of subdivisions and to have as few subdivisions as "
+"possible."
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:1069
+msgid ""
+"void **set_size_override** **(** :ref:`bool<class_bool>` enable, :ref:"
+"`Vector2<class_Vector2>` size=Vector2( -1, -1 ), :ref:"
+"`Vector2<class_Vector2>` margin=Vector2( 0, 0 ) **)**"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:1071
+msgid ""
+"Sets the size override of the viewport. If the ``enable`` parameter is "
+"``true`` the override is used, otherwise it uses the default size. If the "
+"size parameter is ``(-1, -1)``, it won't update the size."
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:1077
+msgid ""
+"void **unhandled_input** **(** :ref:`InputEvent<class_InputEvent>` "
+"local_event **)**"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:1083
+msgid "void **update_worlds** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:1085
+msgid "Forces update of the 2D and 3D worlds."
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:1091
+msgid ""
+"void **warp_mouse** **(** :ref:`Vector2<class_Vector2>` to_position **)**"
+msgstr ""
+
+#: ../../docs/classes/class_viewport.rst:1093
+msgid "Warps the mouse to a position relative to the viewport."
+msgstr ""

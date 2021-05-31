@@ -1,0 +1,126 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2021, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-31 12:15+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_editorscenepostimport.rst:10
+msgid "EditorScenePostImport"
+msgstr ""
+
+#: ../../docs/classes/class_editorscenepostimport.rst:12
+msgid ""
+"**Inherits:** :ref:`Reference<class_Reference>` **<** :ref:"
+"`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_editorscenepostimport.rst:14
+msgid "Post-processes scenes after import."
+msgstr "导入后对场景进行后处理。"
+
+#: ../../docs/classes/class_editorscenepostimport.rst:17
+msgid "Description"
+msgstr "描述"
+
+#: ../../docs/classes/class_editorscenepostimport.rst:19
+msgid ""
+"Imported scenes can be automatically modified right after import by setting "
+"their **Custom Script** Import property to a ``tool`` script that inherits "
+"from this class."
+msgstr ""
+
+#: ../../docs/classes/class_editorscenepostimport.rst:21
+msgid ""
+"The :ref:`post_import<class_EditorScenePostImport_method_post_import>` "
+"callback receives the imported scene's root node and returns the modified "
+"version of the scene. Usage example:"
+msgstr ""
+
+#: ../../docs/classes/class_editorscenepostimport.rst:43
+msgid "Tutorials"
+msgstr "教程"
+
+#: ../../docs/classes/class_editorscenepostimport.rst:45
+msgid ""
+"`#custom-script <../getting_started/workflow/assets/importing_scenes."
+"html#custom-script>`_ in :doc:`../getting_started/workflow/assets/"
+"importing_scenes`"
+msgstr ""
+
+#: ../../docs/classes/class_editorscenepostimport.rst:48
+msgid "Methods"
+msgstr "方法"
+
+#: ../../docs/classes/class_editorscenepostimport.rst:51
+#: ../../docs/classes/class_editorscenepostimport.rst:53
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../../docs/classes/class_editorscenepostimport.rst:51
+msgid ""
+":ref:`get_source_file<class_EditorScenePostImport_method_get_source_file>` "
+"**(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_editorscenepostimport.rst:53
+msgid ""
+":ref:"
+"`get_source_folder<class_EditorScenePostImport_method_get_source_folder>` "
+"**(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_editorscenepostimport.rst:55
+msgid ":ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_editorscenepostimport.rst:55
+msgid ""
+":ref:`post_import<class_EditorScenePostImport_method_post_import>` **(** :"
+"ref:`Object<class_Object>` scene **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_editorscenepostimport.rst:59
+msgid "Method Descriptions"
+msgstr "方法说明"
+
+#: ../../docs/classes/class_editorscenepostimport.rst:63
+msgid ":ref:`String<class_String>` **get_source_file** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_editorscenepostimport.rst:65
+msgid ""
+"Returns the source file path which got imported (e.g. ``res://scene.dae``)."
+msgstr ""
+
+#: ../../docs/classes/class_editorscenepostimport.rst:71
+msgid ":ref:`String<class_String>` **get_source_folder** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_editorscenepostimport.rst:73
+msgid "Returns the resource folder the imported scene file is located in."
+msgstr "返回导入的场景文件所在的资源文件夹。"
+
+#: ../../docs/classes/class_editorscenepostimport.rst:79
+msgid ""
+":ref:`Object<class_Object>` **post_import** **(** :ref:"
+"`Object<class_Object>` scene **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_editorscenepostimport.rst:81
+msgid ""
+"Called after the scene was imported. This method must return the modified "
+"version of the scene."
+msgstr "在场景被导入后调用。本方法必须返回场景的修改版本。"

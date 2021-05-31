@@ -1,0 +1,305 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2021, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-31 12:15+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_animationnodeoneshot.rst:10
+msgid "AnimationNodeOneShot"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeoneshot.rst:12
+msgid ""
+"**Inherits:** :ref:`AnimationNode<class_AnimationNode>` **<** :ref:"
+"`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :"
+"ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeoneshot.rst:14
+msgid ""
+"Plays an animation once in :ref:"
+"`AnimationNodeBlendTree<class_AnimationNodeBlendTree>`."
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeoneshot.rst:17
+msgid "Description"
+msgstr "描述"
+
+#: ../../docs/classes/class_animationnodeoneshot.rst:19
+msgid ""
+"A resource to add to an :ref:"
+"`AnimationNodeBlendTree<class_AnimationNodeBlendTree>`. This node will "
+"execute a sub-animation and return once it finishes. Blend times for fading "
+"in and out can be customized, as well as filters."
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeoneshot.rst:22
+msgid "Tutorials"
+msgstr "教程"
+
+#: ../../docs/classes/class_animationnodeoneshot.rst:24
+msgid ":doc:`../tutorials/animation/animation_tree`"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeoneshot.rst:26
+msgid ""
+"`https://godotengine.org/asset-library/asset/678 <https://godotengine.org/"
+"asset-library/asset/678>`_"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeoneshot.rst:29
+msgid "Properties"
+msgstr "属性"
+
+#: ../../docs/classes/class_animationnodeoneshot.rst:32
+#: ../../docs/classes/class_animationnodeoneshot.rst:42
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeoneshot.rst:32
+msgid ":ref:`autorestart<class_AnimationNodeOneShot_property_autorestart>`"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeoneshot.rst:32
+#: ../../docs/classes/class_animationnodeoneshot.rst:42
+#: ../../docs/classes/class_animationnodeoneshot.rst:77
+#: ../../docs/classes/class_animationnodeoneshot.rst:153
+msgid "``false``"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeoneshot.rst:34
+#: ../../docs/classes/class_animationnodeoneshot.rst:36
+#: ../../docs/classes/class_animationnodeoneshot.rst:38
+#: ../../docs/classes/class_animationnodeoneshot.rst:40
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeoneshot.rst:34
+msgid ""
+":ref:"
+"`autorestart_delay<class_AnimationNodeOneShot_property_autorestart_delay>`"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeoneshot.rst:34
+#: ../../docs/classes/class_animationnodeoneshot.rst:93
+msgid "``1.0``"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeoneshot.rst:36
+msgid ""
+":ref:"
+"`autorestart_random_delay<class_AnimationNodeOneShot_property_autorestart_random_delay>`"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeoneshot.rst:36
+#: ../../docs/classes/class_animationnodeoneshot.rst:109
+msgid "``0.0``"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeoneshot.rst:38
+msgid ":ref:`fadein_time<class_AnimationNodeOneShot_property_fadein_time>`"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeoneshot.rst:38
+#: ../../docs/classes/class_animationnodeoneshot.rst:40
+#: ../../docs/classes/class_animationnodeoneshot.rst:125
+#: ../../docs/classes/class_animationnodeoneshot.rst:139
+msgid "``0.1``"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeoneshot.rst:40
+msgid ":ref:`fadeout_time<class_AnimationNodeOneShot_property_fadeout_time>`"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeoneshot.rst:42
+msgid ":ref:`sync<class_AnimationNodeOneShot_property_sync>`"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeoneshot.rst:46
+msgid "Methods"
+msgstr "方法"
+
+#: ../../docs/classes/class_animationnodeoneshot.rst:49
+msgid ":ref:`MixMode<enum_AnimationNodeOneShot_MixMode>`"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeoneshot.rst:49
+msgid ""
+":ref:`get_mix_mode<class_AnimationNodeOneShot_method_get_mix_mode>` **(** "
+"**)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeoneshot.rst:51
+msgid "void"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeoneshot.rst:51
+msgid ""
+":ref:`set_mix_mode<class_AnimationNodeOneShot_method_set_mix_mode>` **(** :"
+"ref:`MixMode<enum_AnimationNodeOneShot_MixMode>` mode **)**"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeoneshot.rst:55
+msgid "Enumerations"
+msgstr "枚举"
+
+#: ../../docs/classes/class_animationnodeoneshot.rst:63
+msgid "enum **MixMode**:"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeoneshot.rst:65
+msgid "**MIX_MODE_BLEND** = **0**"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeoneshot.rst:67
+msgid "**MIX_MODE_ADD** = **1**"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeoneshot.rst:70
+msgid "Property Descriptions"
+msgstr "属性说明"
+
+#: ../../docs/classes/class_animationnodeoneshot.rst:74
+msgid ":ref:`bool<class_bool>` **autorestart**"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeoneshot.rst:77
+#: ../../docs/classes/class_animationnodeoneshot.rst:93
+#: ../../docs/classes/class_animationnodeoneshot.rst:109
+#: ../../docs/classes/class_animationnodeoneshot.rst:125
+#: ../../docs/classes/class_animationnodeoneshot.rst:139
+#: ../../docs/classes/class_animationnodeoneshot.rst:153
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeoneshot.rst:79
+#: ../../docs/classes/class_animationnodeoneshot.rst:95
+#: ../../docs/classes/class_animationnodeoneshot.rst:111
+#: ../../docs/classes/class_animationnodeoneshot.rst:127
+#: ../../docs/classes/class_animationnodeoneshot.rst:141
+#: ../../docs/classes/class_animationnodeoneshot.rst:155
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeoneshot.rst:79
+msgid "set_autorestart(value)"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeoneshot.rst:81
+#: ../../docs/classes/class_animationnodeoneshot.rst:97
+#: ../../docs/classes/class_animationnodeoneshot.rst:113
+#: ../../docs/classes/class_animationnodeoneshot.rst:129
+#: ../../docs/classes/class_animationnodeoneshot.rst:143
+#: ../../docs/classes/class_animationnodeoneshot.rst:157
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeoneshot.rst:81
+msgid "has_autorestart()"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeoneshot.rst:84
+msgid ""
+"If ``true``, the sub-animation will restart automatically after finishing."
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeoneshot.rst:90
+msgid ":ref:`float<class_float>` **autorestart_delay**"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeoneshot.rst:95
+msgid "set_autorestart_delay(value)"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeoneshot.rst:97
+msgid "get_autorestart_delay()"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeoneshot.rst:100
+msgid "The delay after which the automatic restart is triggered, in seconds."
+msgstr "触发自动重启的延迟时间，以秒为单位。"
+
+#: ../../docs/classes/class_animationnodeoneshot.rst:106
+msgid ":ref:`float<class_float>` **autorestart_random_delay**"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeoneshot.rst:111
+msgid "set_autorestart_random_delay(value)"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeoneshot.rst:113
+msgid "get_autorestart_random_delay()"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeoneshot.rst:116
+msgid ""
+"If :ref:`autorestart<class_AnimationNodeOneShot_property_autorestart>` is "
+"``true``, a random additional delay (in seconds) between 0 and this value "
+"will be added to :ref:"
+"`autorestart_delay<class_AnimationNodeOneShot_property_autorestart_delay>`."
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeoneshot.rst:122
+msgid ":ref:`float<class_float>` **fadein_time**"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeoneshot.rst:127
+msgid "set_fadein_time(value)"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeoneshot.rst:129
+msgid "get_fadein_time()"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeoneshot.rst:136
+msgid ":ref:`float<class_float>` **fadeout_time**"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeoneshot.rst:141
+msgid "set_fadeout_time(value)"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeoneshot.rst:143
+msgid "get_fadeout_time()"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeoneshot.rst:150
+msgid ":ref:`bool<class_bool>` **sync**"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeoneshot.rst:155
+msgid "set_use_sync(value)"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeoneshot.rst:157
+msgid "is_using_sync()"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeoneshot.rst:161
+msgid "Method Descriptions"
+msgstr "方法说明"
+
+#: ../../docs/classes/class_animationnodeoneshot.rst:165
+msgid ""
+":ref:`MixMode<enum_AnimationNodeOneShot_MixMode>` **get_mix_mode** **(** "
+"**)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeoneshot.rst:171
+msgid ""
+"void **set_mix_mode** **(** :ref:"
+"`MixMode<enum_AnimationNodeOneShot_MixMode>` mode **)**"
+msgstr ""

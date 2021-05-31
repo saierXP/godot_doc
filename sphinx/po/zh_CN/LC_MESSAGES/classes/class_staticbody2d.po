@@ -1,0 +1,240 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2021, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-31 12:15+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_staticbody2d.rst:10
+msgid "StaticBody2D"
+msgstr ""
+
+#: ../../docs/classes/class_staticbody2d.rst:12
+msgid ""
+"**Inherits:** :ref:`PhysicsBody2D<class_PhysicsBody2D>` **<** :ref:"
+"`CollisionObject2D<class_CollisionObject2D>` **<** :ref:"
+"`Node2D<class_Node2D>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:"
+"`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_staticbody2d.rst:14
+msgid "Static body for 2D physics."
+msgstr ""
+
+#: ../../docs/classes/class_staticbody2d.rst:17
+msgid "Description"
+msgstr "描述"
+
+#: ../../docs/classes/class_staticbody2d.rst:19
+msgid ""
+"Static body for 2D physics. A StaticBody2D is a body that is not intended to "
+"move. It is ideal for implementing objects in the environment, such as walls "
+"or platforms."
+msgstr ""
+
+#: ../../docs/classes/class_staticbody2d.rst:21
+msgid ""
+"Additionally, a constant linear or angular velocity can be set for the "
+"static body, which will affect colliding bodies as if it were moving (for "
+"example, a conveyor belt)."
+msgstr ""
+
+#: ../../docs/classes/class_staticbody2d.rst:24
+msgid "Properties"
+msgstr "属性"
+
+#: ../../docs/classes/class_staticbody2d.rst:27
+#: ../../docs/classes/class_staticbody2d.rst:29
+#: ../../docs/classes/class_staticbody2d.rst:33
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../../docs/classes/class_staticbody2d.rst:27
+msgid ":ref:`bounce<class_StaticBody2D_property_bounce>`"
+msgstr ""
+
+#: ../../docs/classes/class_staticbody2d.rst:29
+msgid ""
+":ref:"
+"`constant_angular_velocity<class_StaticBody2D_property_constant_angular_velocity>`"
+msgstr ""
+
+#: ../../docs/classes/class_staticbody2d.rst:29
+#: ../../docs/classes/class_staticbody2d.rst:62
+msgid "``0.0``"
+msgstr ""
+
+#: ../../docs/classes/class_staticbody2d.rst:31
+msgid ":ref:`Vector2<class_Vector2>`"
+msgstr ""
+
+#: ../../docs/classes/class_staticbody2d.rst:31
+msgid ""
+":ref:"
+"`constant_linear_velocity<class_StaticBody2D_property_constant_linear_velocity>`"
+msgstr ""
+
+#: ../../docs/classes/class_staticbody2d.rst:31
+#: ../../docs/classes/class_staticbody2d.rst:78
+msgid "``Vector2( 0, 0 )``"
+msgstr ""
+
+#: ../../docs/classes/class_staticbody2d.rst:33
+msgid ":ref:`friction<class_StaticBody2D_property_friction>`"
+msgstr ""
+
+#: ../../docs/classes/class_staticbody2d.rst:35
+msgid ":ref:`PhysicsMaterial<class_PhysicsMaterial>`"
+msgstr ""
+
+#: ../../docs/classes/class_staticbody2d.rst:35
+msgid ""
+":ref:"
+"`physics_material_override<class_StaticBody2D_property_physics_material_override>`"
+msgstr ""
+
+#: ../../docs/classes/class_staticbody2d.rst:39
+msgid "Property Descriptions"
+msgstr "属性说明"
+
+#: ../../docs/classes/class_staticbody2d.rst:43
+msgid ":ref:`float<class_float>` **bounce**"
+msgstr ""
+
+#: ../../docs/classes/class_staticbody2d.rst:46
+#: ../../docs/classes/class_staticbody2d.rst:64
+#: ../../docs/classes/class_staticbody2d.rst:80
+#: ../../docs/classes/class_staticbody2d.rst:94
+#: ../../docs/classes/class_staticbody2d.rst:110
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_staticbody2d.rst:46
+msgid "set_bounce(value)"
+msgstr ""
+
+#: ../../docs/classes/class_staticbody2d.rst:48
+#: ../../docs/classes/class_staticbody2d.rst:66
+#: ../../docs/classes/class_staticbody2d.rst:82
+#: ../../docs/classes/class_staticbody2d.rst:96
+#: ../../docs/classes/class_staticbody2d.rst:112
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_staticbody2d.rst:48
+msgid "get_bounce()"
+msgstr ""
+
+#: ../../docs/classes/class_staticbody2d.rst:51
+msgid ""
+"The body's bounciness. Values range from ``0`` (no bounce) to ``1`` (full "
+"bounciness)."
+msgstr ""
+
+#: ../../docs/classes/class_staticbody2d.rst:53
+msgid ""
+"Deprecated, use :ref:`PhysicsMaterial."
+"bounce<class_PhysicsMaterial_property_bounce>` instead via :ref:"
+"`physics_material_override<class_StaticBody2D_property_physics_material_override>`."
+msgstr ""
+
+#: ../../docs/classes/class_staticbody2d.rst:59
+msgid ":ref:`float<class_float>` **constant_angular_velocity**"
+msgstr ""
+
+#: ../../docs/classes/class_staticbody2d.rst:62
+#: ../../docs/classes/class_staticbody2d.rst:78
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_staticbody2d.rst:64
+msgid "set_constant_angular_velocity(value)"
+msgstr ""
+
+#: ../../docs/classes/class_staticbody2d.rst:66
+msgid "get_constant_angular_velocity()"
+msgstr ""
+
+#: ../../docs/classes/class_staticbody2d.rst:69
+msgid ""
+"The body's constant angular velocity. This does not rotate the body, but "
+"affects colliding bodies, as if it were rotating."
+msgstr ""
+
+#: ../../docs/classes/class_staticbody2d.rst:75
+msgid ":ref:`Vector2<class_Vector2>` **constant_linear_velocity**"
+msgstr ""
+
+#: ../../docs/classes/class_staticbody2d.rst:80
+msgid "set_constant_linear_velocity(value)"
+msgstr ""
+
+#: ../../docs/classes/class_staticbody2d.rst:82
+msgid "get_constant_linear_velocity()"
+msgstr ""
+
+#: ../../docs/classes/class_staticbody2d.rst:85
+msgid ""
+"The body's constant linear velocity. This does not move the body, but "
+"affects colliding bodies, as if it were moving."
+msgstr ""
+
+#: ../../docs/classes/class_staticbody2d.rst:91
+msgid ":ref:`float<class_float>` **friction**"
+msgstr ""
+
+#: ../../docs/classes/class_staticbody2d.rst:94
+msgid "set_friction(value)"
+msgstr ""
+
+#: ../../docs/classes/class_staticbody2d.rst:96
+msgid "get_friction()"
+msgstr ""
+
+#: ../../docs/classes/class_staticbody2d.rst:99
+msgid ""
+"The body's friction. Values range from ``0`` (no friction) to ``1`` (full "
+"friction)."
+msgstr ""
+
+#: ../../docs/classes/class_staticbody2d.rst:101
+msgid ""
+"Deprecated, use :ref:`PhysicsMaterial."
+"friction<class_PhysicsMaterial_property_friction>` instead via :ref:"
+"`physics_material_override<class_StaticBody2D_property_physics_material_override>`."
+msgstr ""
+
+#: ../../docs/classes/class_staticbody2d.rst:107
+msgid ""
+":ref:`PhysicsMaterial<class_PhysicsMaterial>` **physics_material_override**"
+msgstr ""
+
+#: ../../docs/classes/class_staticbody2d.rst:110
+msgid "set_physics_material_override(value)"
+msgstr ""
+
+#: ../../docs/classes/class_staticbody2d.rst:112
+msgid "get_physics_material_override()"
+msgstr ""
+
+#: ../../docs/classes/class_staticbody2d.rst:115
+msgid "The physics material override for the body."
+msgstr ""
+
+#: ../../docs/classes/class_staticbody2d.rst:117
+msgid ""
+"If a material is assigned to this property, it will be used instead of any "
+"other physics material, such as an inherited one."
+msgstr ""

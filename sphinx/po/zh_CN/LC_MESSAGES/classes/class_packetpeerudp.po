@@ -1,0 +1,354 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2021, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-31 12:15+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_packetpeerudp.rst:10
+msgid "PacketPeerUDP"
+msgstr ""
+
+#: ../../docs/classes/class_packetpeerudp.rst:12
+msgid ""
+"**Inherits:** :ref:`PacketPeer<class_PacketPeer>` **<** :ref:"
+"`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_packetpeerudp.rst:14
+msgid "UDP packet peer."
+msgstr "UDP数据包客户端。"
+
+#: ../../docs/classes/class_packetpeerudp.rst:17
+msgid "Description"
+msgstr "描述"
+
+#: ../../docs/classes/class_packetpeerudp.rst:19
+msgid ""
+"UDP packet peer. Can be used to send raw UDP packets as well as :ref:"
+"`Variant<class_Variant>`\\ s."
+msgstr ""
+
+#: ../../docs/classes/class_packetpeerudp.rst:22
+msgid "Methods"
+msgstr "方法"
+
+#: ../../docs/classes/class_packetpeerudp.rst:25
+#: ../../docs/classes/class_packetpeerudp.rst:43
+msgid "void"
+msgstr ""
+
+#: ../../docs/classes/class_packetpeerudp.rst:25
+msgid ":ref:`close<class_PacketPeerUDP_method_close>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_packetpeerudp.rst:27
+#: ../../docs/classes/class_packetpeerudp.rst:37
+#: ../../docs/classes/class_packetpeerudp.rst:39
+#: ../../docs/classes/class_packetpeerudp.rst:41
+#: ../../docs/classes/class_packetpeerudp.rst:45
+#: ../../docs/classes/class_packetpeerudp.rst:47
+msgid ":ref:`Error<enum_@GlobalScope_Error>`"
+msgstr ""
+
+#: ../../docs/classes/class_packetpeerudp.rst:27
+msgid ""
+":ref:`connect_to_host<class_PacketPeerUDP_method_connect_to_host>` **(** :"
+"ref:`String<class_String>` host, :ref:`int<class_int>` port **)**"
+msgstr ""
+
+#: ../../docs/classes/class_packetpeerudp.rst:29
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../../docs/classes/class_packetpeerudp.rst:29
+msgid ""
+":ref:`get_packet_ip<class_PacketPeerUDP_method_get_packet_ip>` **(** **)** |"
+"const|"
+msgstr ""
+
+#: ../../docs/classes/class_packetpeerudp.rst:31
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../../docs/classes/class_packetpeerudp.rst:31
+msgid ""
+":ref:`get_packet_port<class_PacketPeerUDP_method_get_packet_port>` **(** "
+"**)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_packetpeerudp.rst:33
+#: ../../docs/classes/class_packetpeerudp.rst:35
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_packetpeerudp.rst:33
+msgid ""
+":ref:`is_connected_to_host<class_PacketPeerUDP_method_is_connected_to_host>` "
+"**(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_packetpeerudp.rst:35
+msgid ""
+":ref:`is_listening<class_PacketPeerUDP_method_is_listening>` **(** **)** |"
+"const|"
+msgstr ""
+
+#: ../../docs/classes/class_packetpeerudp.rst:37
+msgid ""
+":ref:`join_multicast_group<class_PacketPeerUDP_method_join_multicast_group>` "
+"**(** :ref:`String<class_String>` multicast_address, :ref:"
+"`String<class_String>` interface_name **)**"
+msgstr ""
+
+#: ../../docs/classes/class_packetpeerudp.rst:39
+msgid ""
+":ref:"
+"`leave_multicast_group<class_PacketPeerUDP_method_leave_multicast_group>` "
+"**(** :ref:`String<class_String>` multicast_address, :ref:"
+"`String<class_String>` interface_name **)**"
+msgstr ""
+
+#: ../../docs/classes/class_packetpeerudp.rst:41
+msgid ""
+":ref:`listen<class_PacketPeerUDP_method_listen>` **(** :ref:`int<class_int>` "
+"port, :ref:`String<class_String>` bind_address=\"*\", :ref:`int<class_int>` "
+"recv_buf_size=65536 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_packetpeerudp.rst:43
+msgid ""
+":ref:"
+"`set_broadcast_enabled<class_PacketPeerUDP_method_set_broadcast_enabled>` "
+"**(** :ref:`bool<class_bool>` enabled **)**"
+msgstr ""
+
+#: ../../docs/classes/class_packetpeerudp.rst:45
+msgid ""
+":ref:`set_dest_address<class_PacketPeerUDP_method_set_dest_address>` **(** :"
+"ref:`String<class_String>` host, :ref:`int<class_int>` port **)**"
+msgstr ""
+
+#: ../../docs/classes/class_packetpeerudp.rst:47
+msgid ":ref:`wait<class_PacketPeerUDP_method_wait>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_packetpeerudp.rst:51
+msgid "Method Descriptions"
+msgstr "方法说明"
+
+#: ../../docs/classes/class_packetpeerudp.rst:55
+msgid "void **close** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_packetpeerudp.rst:57
+msgid "Closes the UDP socket the ``PacketPeerUDP`` is currently listening on."
+msgstr ""
+
+#: ../../docs/classes/class_packetpeerudp.rst:63
+msgid ""
+":ref:`Error<enum_@GlobalScope_Error>` **connect_to_host** **(** :ref:"
+"`String<class_String>` host, :ref:`int<class_int>` port **)**"
+msgstr ""
+
+#: ../../docs/classes/class_packetpeerudp.rst:65
+msgid ""
+"Calling this method connects this UDP peer to the given ``host``/``port`` "
+"pair. UDP is in reality connectionless, so this option only means that "
+"incoming packets from different addresses are automatically discarded, and "
+"that outgoing packets are always sent to the connected address (future calls "
+"to :ref:`set_dest_address<class_PacketPeerUDP_method_set_dest_address>` are "
+"not allowed). This method does not send any data to the remote peer, to do "
+"that, use :ref:`PacketPeer.put_var<class_PacketPeer_method_put_var>` or :ref:"
+"`PacketPeer.put_packet<class_PacketPeer_method_put_packet>` as usual. See "
+"also :ref:`UDPServer<class_UDPServer>`."
+msgstr ""
+
+#: ../../docs/classes/class_packetpeerudp.rst:67
+msgid ""
+"**Note:** Connecting to the remote peer does not help to protect from "
+"malicious attacks like IP spoofing, etc. Think about using an encryption "
+"technique like SSL or DTLS if you feel like your application is transferring "
+"sensitive information."
+msgstr ""
+
+#: ../../docs/classes/class_packetpeerudp.rst:73
+msgid ":ref:`String<class_String>` **get_packet_ip** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_packetpeerudp.rst:75
+msgid ""
+"Returns the IP of the remote peer that sent the last packet(that was "
+"received with :ref:`PacketPeer."
+"get_packet<class_PacketPeer_method_get_packet>` or :ref:`PacketPeer."
+"get_var<class_PacketPeer_method_get_var>`)."
+msgstr ""
+
+#: ../../docs/classes/class_packetpeerudp.rst:81
+msgid ":ref:`int<class_int>` **get_packet_port** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_packetpeerudp.rst:83
+msgid ""
+"Returns the port of the remote peer that sent the last packet(that was "
+"received with :ref:`PacketPeer."
+"get_packet<class_PacketPeer_method_get_packet>` or :ref:`PacketPeer."
+"get_var<class_PacketPeer_method_get_var>`)."
+msgstr ""
+
+#: ../../docs/classes/class_packetpeerudp.rst:89
+msgid ":ref:`bool<class_bool>` **is_connected_to_host** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_packetpeerudp.rst:91
+msgid ""
+"Returns ``true`` if the UDP socket is open and has been connected to a "
+"remote address. See :ref:"
+"`connect_to_host<class_PacketPeerUDP_method_connect_to_host>`."
+msgstr ""
+
+#: ../../docs/classes/class_packetpeerudp.rst:97
+msgid ":ref:`bool<class_bool>` **is_listening** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_packetpeerudp.rst:99
+msgid "Returns whether this ``PacketPeerUDP`` is listening."
+msgstr ""
+
+#: ../../docs/classes/class_packetpeerudp.rst:105
+msgid ""
+":ref:`Error<enum_@GlobalScope_Error>` **join_multicast_group** **(** :ref:"
+"`String<class_String>` multicast_address, :ref:`String<class_String>` "
+"interface_name **)**"
+msgstr ""
+
+#: ../../docs/classes/class_packetpeerudp.rst:107
+msgid ""
+"Joins the multicast group specified by ``multicast_address`` using the "
+"interface identified by ``interface_name``."
+msgstr ""
+
+#: ../../docs/classes/class_packetpeerudp.rst:109
+msgid ""
+"You can join the same multicast group with multiple interfaces. Use :ref:`IP."
+"get_local_interfaces<class_IP_method_get_local_interfaces>` to know which "
+"are available."
+msgstr ""
+
+#: ../../docs/classes/class_packetpeerudp.rst:111
+msgid ""
+"Note: Some Android devices might require the ``CHANGE_WIFI_MULTICAST_STATE`` "
+"permission for multicast to work."
+msgstr ""
+
+#: ../../docs/classes/class_packetpeerudp.rst:117
+msgid ""
+":ref:`Error<enum_@GlobalScope_Error>` **leave_multicast_group** **(** :ref:"
+"`String<class_String>` multicast_address, :ref:`String<class_String>` "
+"interface_name **)**"
+msgstr ""
+
+#: ../../docs/classes/class_packetpeerudp.rst:119
+msgid ""
+"Removes the interface identified by ``interface_name`` from the multicast "
+"group specified by ``multicast_address``."
+msgstr ""
+
+#: ../../docs/classes/class_packetpeerudp.rst:125
+msgid ""
+":ref:`Error<enum_@GlobalScope_Error>` **listen** **(** :ref:`int<class_int>` "
+"port, :ref:`String<class_String>` bind_address=\"*\", :ref:`int<class_int>` "
+"recv_buf_size=65536 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_packetpeerudp.rst:127
+msgid ""
+"Makes this ``PacketPeerUDP`` listen on the ``port`` binding to "
+"``bind_address`` with a buffer size ``recv_buf_size``."
+msgstr ""
+
+#: ../../docs/classes/class_packetpeerudp.rst:129
+msgid ""
+"If ``bind_address`` is set to ``\"*\"`` (default), the peer will listen on "
+"all available addresses (both IPv4 and IPv6)."
+msgstr ""
+
+#: ../../docs/classes/class_packetpeerudp.rst:131
+msgid ""
+"If ``bind_address`` is set to ``\"0.0.0.0\"`` (for IPv4) or ``\"::\"`` (for "
+"IPv6), the peer will listen on all available addresses matching that IP type."
+msgstr ""
+
+#: ../../docs/classes/class_packetpeerudp.rst:133
+msgid ""
+"If ``bind_address`` is set to any valid address (e.g. ``\"192.168.1.101\"``, "
+"``\"::1\"``, etc), the peer will only listen on the interface with that "
+"addresses (or fail if no interface with the given address exists)."
+msgstr ""
+
+#: ../../docs/classes/class_packetpeerudp.rst:139
+msgid ""
+"void **set_broadcast_enabled** **(** :ref:`bool<class_bool>` enabled **)**"
+msgstr ""
+
+#: ../../docs/classes/class_packetpeerudp.rst:141
+msgid ""
+"Enable or disable sending of broadcast packets (e.g. "
+"``set_dest_address(\"255.255.255.255\", 4343)``. This option is disabled by "
+"default."
+msgstr ""
+
+#: ../../docs/classes/class_packetpeerudp.rst:143
+msgid ""
+"Note: Some Android devices might require the ``CHANGE_WIFI_MULTICAST_STATE`` "
+"permission and this option to be enabled to receive broadcast packets too."
+msgstr ""
+
+#: ../../docs/classes/class_packetpeerudp.rst:149
+msgid ""
+":ref:`Error<enum_@GlobalScope_Error>` **set_dest_address** **(** :ref:"
+"`String<class_String>` host, :ref:`int<class_int>` port **)**"
+msgstr ""
+
+#: ../../docs/classes/class_packetpeerudp.rst:151
+msgid ""
+"Sets the destination address and port for sending packets and variables. A "
+"hostname will be resolved using DNS if needed."
+msgstr ""
+
+#: ../../docs/classes/class_packetpeerudp.rst:153
+msgid ""
+"Note: :ref:"
+"`set_broadcast_enabled<class_PacketPeerUDP_method_set_broadcast_enabled>` "
+"must be enabled before sending packets to a broadcast address (e.g. "
+"``255.255.255.255``)."
+msgstr ""
+
+#: ../../docs/classes/class_packetpeerudp.rst:159
+msgid ":ref:`Error<enum_@GlobalScope_Error>` **wait** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_packetpeerudp.rst:161
+msgid ""
+"Waits for a packet to arrive on the listening port. See :ref:"
+"`listen<class_PacketPeerUDP_method_listen>`."
+msgstr ""
+
+#: ../../docs/classes/class_packetpeerudp.rst:163
+msgid ""
+"**Note:** :ref:`wait<class_PacketPeerUDP_method_wait>` can't be interrupted "
+"once it has been called. This can be worked around by allowing the other "
+"party to send a specific \"death pill\" packet like this:"
+msgstr ""

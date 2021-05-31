@@ -1,0 +1,244 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2021, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-31 12:15+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_linkbutton.rst:10
+msgid "LinkButton"
+msgstr ""
+
+#: ../../docs/classes/class_linkbutton.rst:12
+msgid ""
+"**Inherits:** :ref:`BaseButton<class_BaseButton>` **<** :ref:"
+"`Control<class_Control>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :"
+"ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_linkbutton.rst:14
+msgid "Simple button used to represent a link to some resource."
+msgstr ""
+
+#: ../../docs/classes/class_linkbutton.rst:17
+msgid "Description"
+msgstr "描述"
+
+#: ../../docs/classes/class_linkbutton.rst:19
+msgid ""
+"This kind of button is primarily used when the interaction with the button "
+"causes a context change (like linking to a web page)."
+msgstr ""
+
+#: ../../docs/classes/class_linkbutton.rst:21
+msgid ""
+"See also :ref:`BaseButton<class_BaseButton>` which contains common "
+"properties and methods associated with this node."
+msgstr ""
+
+#: ../../docs/classes/class_linkbutton.rst:24
+msgid "Properties"
+msgstr "属性"
+
+#: ../../docs/classes/class_linkbutton.rst:27
+msgid ":ref:`FocusMode<enum_Control_FocusMode>`"
+msgstr ""
+
+#: ../../docs/classes/class_linkbutton.rst:27
+msgid "focus_mode"
+msgstr ""
+
+#: ../../docs/classes/class_linkbutton.rst:27
+msgid "``0`` *(parent override)*"
+msgstr ""
+
+#: ../../docs/classes/class_linkbutton.rst:29
+msgid ":ref:`CursorShape<enum_Control_CursorShape>`"
+msgstr ""
+
+#: ../../docs/classes/class_linkbutton.rst:29
+msgid "mouse_default_cursor_shape"
+msgstr ""
+
+#: ../../docs/classes/class_linkbutton.rst:29
+msgid "``2`` *(parent override)*"
+msgstr ""
+
+#: ../../docs/classes/class_linkbutton.rst:31
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../../docs/classes/class_linkbutton.rst:31
+msgid ":ref:`text<class_LinkButton_property_text>`"
+msgstr ""
+
+#: ../../docs/classes/class_linkbutton.rst:31
+#: ../../docs/classes/class_linkbutton.rst:80
+msgid "``\"\"``"
+msgstr ""
+
+#: ../../docs/classes/class_linkbutton.rst:33
+msgid ":ref:`UnderlineMode<enum_LinkButton_UnderlineMode>`"
+msgstr ""
+
+#: ../../docs/classes/class_linkbutton.rst:33
+msgid ":ref:`underline<class_LinkButton_property_underline>`"
+msgstr ""
+
+#: ../../docs/classes/class_linkbutton.rst:33
+#: ../../docs/classes/class_linkbutton.rst:96
+msgid "``0``"
+msgstr ""
+
+#: ../../docs/classes/class_linkbutton.rst:37
+msgid "Theme Properties"
+msgstr "主题属性"
+
+#: ../../docs/classes/class_linkbutton.rst:40
+msgid ":ref:`StyleBox<class_StyleBox>`"
+msgstr ""
+
+#: ../../docs/classes/class_linkbutton.rst:40
+msgid "focus"
+msgstr ""
+
+#: ../../docs/classes/class_linkbutton.rst:42
+msgid ":ref:`Font<class_Font>`"
+msgstr ""
+
+#: ../../docs/classes/class_linkbutton.rst:42
+msgid "font"
+msgstr ""
+
+#: ../../docs/classes/class_linkbutton.rst:44
+#: ../../docs/classes/class_linkbutton.rst:46
+#: ../../docs/classes/class_linkbutton.rst:48
+msgid ":ref:`Color<class_Color>`"
+msgstr ""
+
+#: ../../docs/classes/class_linkbutton.rst:44
+msgid "font_color"
+msgstr ""
+
+#: ../../docs/classes/class_linkbutton.rst:44
+msgid "Color( 0.88, 0.88, 0.88, 1 )"
+msgstr ""
+
+#: ../../docs/classes/class_linkbutton.rst:46
+msgid "font_color_hover"
+msgstr ""
+
+#: ../../docs/classes/class_linkbutton.rst:46
+msgid "Color( 0.94, 0.94, 0.94, 1 )"
+msgstr ""
+
+#: ../../docs/classes/class_linkbutton.rst:48
+msgid "font_color_pressed"
+msgstr ""
+
+#: ../../docs/classes/class_linkbutton.rst:48
+msgid "Color( 1, 1, 1, 1 )"
+msgstr ""
+
+#: ../../docs/classes/class_linkbutton.rst:50
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../../docs/classes/class_linkbutton.rst:50
+msgid "underline_spacing"
+msgstr ""
+
+#: ../../docs/classes/class_linkbutton.rst:50
+msgid "2"
+msgstr ""
+
+#: ../../docs/classes/class_linkbutton.rst:54
+msgid "Enumerations"
+msgstr "枚举"
+
+#: ../../docs/classes/class_linkbutton.rst:64
+msgid "enum **UnderlineMode**:"
+msgstr ""
+
+#: ../../docs/classes/class_linkbutton.rst:66
+msgid ""
+"**UNDERLINE_MODE_ALWAYS** = **0** --- The LinkButton will always show an "
+"underline at the bottom of its text."
+msgstr ""
+
+#: ../../docs/classes/class_linkbutton.rst:68
+msgid ""
+"**UNDERLINE_MODE_ON_HOVER** = **1** --- The LinkButton will show an "
+"underline at the bottom of its text when the mouse cursor is over it."
+msgstr ""
+
+#: ../../docs/classes/class_linkbutton.rst:70
+msgid ""
+"**UNDERLINE_MODE_NEVER** = **2** --- The LinkButton will never show an "
+"underline at the bottom of its text."
+msgstr ""
+
+#: ../../docs/classes/class_linkbutton.rst:73
+msgid "Property Descriptions"
+msgstr "属性说明"
+
+#: ../../docs/classes/class_linkbutton.rst:77
+msgid ":ref:`String<class_String>` **text**"
+msgstr ""
+
+#: ../../docs/classes/class_linkbutton.rst:80
+#: ../../docs/classes/class_linkbutton.rst:96
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_linkbutton.rst:82
+#: ../../docs/classes/class_linkbutton.rst:98
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_linkbutton.rst:82
+msgid "set_text(value)"
+msgstr ""
+
+#: ../../docs/classes/class_linkbutton.rst:84
+#: ../../docs/classes/class_linkbutton.rst:100
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_linkbutton.rst:84
+msgid "get_text()"
+msgstr ""
+
+#: ../../docs/classes/class_linkbutton.rst:87
+msgid "The button's text that will be displayed inside the button's area."
+msgstr "按钮的文字，将显示在按钮的区域内。"
+
+#: ../../docs/classes/class_linkbutton.rst:93
+msgid ":ref:`UnderlineMode<enum_LinkButton_UnderlineMode>` **underline**"
+msgstr ""
+
+#: ../../docs/classes/class_linkbutton.rst:98
+msgid "set_underline_mode(value)"
+msgstr ""
+
+#: ../../docs/classes/class_linkbutton.rst:100
+msgid "get_underline_mode()"
+msgstr ""
+
+#: ../../docs/classes/class_linkbutton.rst:103
+msgid ""
+"Determines when to show the underline. See :ref:"
+"`UnderlineMode<enum_LinkButton_UnderlineMode>` for options."
+msgstr ""

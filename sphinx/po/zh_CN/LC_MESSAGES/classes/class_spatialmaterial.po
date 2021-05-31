@@ -1,0 +1,3471 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2021, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-31 12:15+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_spatialmaterial.rst:10
+msgid "SpatialMaterial"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:12
+msgid ""
+"**Inherits:** :ref:`Material<class_Material>` **<** :ref:"
+"`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :"
+"ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:14
+msgid "Default 3D rendering material."
+msgstr "默认的3D渲染材料。"
+
+#: ../../docs/classes/class_spatialmaterial.rst:17
+msgid "Description"
+msgstr "描述"
+
+#: ../../docs/classes/class_spatialmaterial.rst:19
+msgid ""
+"This provides a default material with a wide variety of rendering features "
+"and properties without the need to write shader code. See the tutorial below "
+"for details."
+msgstr ""
+"这提供了一个默认的材质，具有多种渲染功能和属性，无需编写着色器代码。详情请看"
+"下面的教程。"
+
+#: ../../docs/classes/class_spatialmaterial.rst:22
+msgid "Tutorials"
+msgstr "教程"
+
+#: ../../docs/classes/class_spatialmaterial.rst:24
+msgid ":doc:`../tutorials/3d/spatial_material`"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:27
+msgid "Properties"
+msgstr "属性"
+
+#: ../../docs/classes/class_spatialmaterial.rst:30
+#: ../../docs/classes/class_spatialmaterial.rst:92
+#: ../../docs/classes/class_spatialmaterial.rst:206
+msgid ":ref:`Color<class_Color>`"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:30
+msgid ":ref:`albedo_color<class_SpatialMaterial_property_albedo_color>`"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:30
+#: ../../docs/classes/class_spatialmaterial.rst:691
+msgid "``Color( 1, 1, 1, 1 )``"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:32
+#: ../../docs/classes/class_spatialmaterial.rst:38
+#: ../../docs/classes/class_spatialmaterial.rst:46
+#: ../../docs/classes/class_spatialmaterial.rst:56
+#: ../../docs/classes/class_spatialmaterial.rst:72
+#: ../../docs/classes/class_spatialmaterial.rst:74
+#: ../../docs/classes/class_spatialmaterial.rst:80
+#: ../../docs/classes/class_spatialmaterial.rst:82
+#: ../../docs/classes/class_spatialmaterial.rst:102
+#: ../../docs/classes/class_spatialmaterial.rst:132
+#: ../../docs/classes/class_spatialmaterial.rst:140
+#: ../../docs/classes/class_spatialmaterial.rst:182
+#: ../../docs/classes/class_spatialmaterial.rst:190
+#: ../../docs/classes/class_spatialmaterial.rst:196
+#: ../../docs/classes/class_spatialmaterial.rst:204
+#: ../../docs/classes/class_spatialmaterial.rst:210
+#: ../../docs/classes/class_spatialmaterial.rst:241
+msgid ":ref:`Texture<class_Texture>`"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:32
+msgid ":ref:`albedo_texture<class_SpatialMaterial_property_albedo_texture>`"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:34
+#: ../../docs/classes/class_spatialmaterial.rst:42
+#: ../../docs/classes/class_spatialmaterial.rst:50
+#: ../../docs/classes/class_spatialmaterial.rst:54
+#: ../../docs/classes/class_spatialmaterial.rst:70
+#: ../../docs/classes/class_spatialmaterial.rst:86
+#: ../../docs/classes/class_spatialmaterial.rst:88
+#: ../../docs/classes/class_spatialmaterial.rst:96
+#: ../../docs/classes/class_spatialmaterial.rst:128
+#: ../../docs/classes/class_spatialmaterial.rst:130
+#: ../../docs/classes/class_spatialmaterial.rst:138
+#: ../../docs/classes/class_spatialmaterial.rst:142
+#: ../../docs/classes/class_spatialmaterial.rst:158
+#: ../../docs/classes/class_spatialmaterial.rst:160
+#: ../../docs/classes/class_spatialmaterial.rst:162
+#: ../../docs/classes/class_spatialmaterial.rst:174
+#: ../../docs/classes/class_spatialmaterial.rst:180
+#: ../../docs/classes/class_spatialmaterial.rst:186
+#: ../../docs/classes/class_spatialmaterial.rst:192
+#: ../../docs/classes/class_spatialmaterial.rst:194
+#: ../../docs/classes/class_spatialmaterial.rst:202
+#: ../../docs/classes/class_spatialmaterial.rst:218
+#: ../../docs/classes/class_spatialmaterial.rst:226
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:34
+msgid ":ref:`anisotropy<class_SpatialMaterial_property_anisotropy>`"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:36
+#: ../../docs/classes/class_spatialmaterial.rst:40
+#: ../../docs/classes/class_spatialmaterial.rst:44
+#: ../../docs/classes/class_spatialmaterial.rst:52
+#: ../../docs/classes/class_spatialmaterial.rst:58
+#: ../../docs/classes/class_spatialmaterial.rst:60
+#: ../../docs/classes/class_spatialmaterial.rst:62
+#: ../../docs/classes/class_spatialmaterial.rst:64
+#: ../../docs/classes/class_spatialmaterial.rst:78
+#: ../../docs/classes/class_spatialmaterial.rst:94
+#: ../../docs/classes/class_spatialmaterial.rst:98
+#: ../../docs/classes/class_spatialmaterial.rst:104
+#: ../../docs/classes/class_spatialmaterial.rst:106
+#: ../../docs/classes/class_spatialmaterial.rst:108
+#: ../../docs/classes/class_spatialmaterial.rst:110
+#: ../../docs/classes/class_spatialmaterial.rst:112
+#: ../../docs/classes/class_spatialmaterial.rst:114
+#: ../../docs/classes/class_spatialmaterial.rst:116
+#: ../../docs/classes/class_spatialmaterial.rst:118
+#: ../../docs/classes/class_spatialmaterial.rst:120
+#: ../../docs/classes/class_spatialmaterial.rst:122
+#: ../../docs/classes/class_spatialmaterial.rst:124
+#: ../../docs/classes/class_spatialmaterial.rst:126
+#: ../../docs/classes/class_spatialmaterial.rst:136
+#: ../../docs/classes/class_spatialmaterial.rst:144
+#: ../../docs/classes/class_spatialmaterial.rst:156
+#: ../../docs/classes/class_spatialmaterial.rst:166
+#: ../../docs/classes/class_spatialmaterial.rst:170
+#: ../../docs/classes/class_spatialmaterial.rst:176
+#: ../../docs/classes/class_spatialmaterial.rst:178
+#: ../../docs/classes/class_spatialmaterial.rst:188
+#: ../../docs/classes/class_spatialmaterial.rst:200
+#: ../../docs/classes/class_spatialmaterial.rst:208
+#: ../../docs/classes/class_spatialmaterial.rst:216
+#: ../../docs/classes/class_spatialmaterial.rst:224
+#: ../../docs/classes/class_spatialmaterial.rst:228
+#: ../../docs/classes/class_spatialmaterial.rst:230
+#: ../../docs/classes/class_spatialmaterial.rst:237
+#: ../../docs/classes/class_spatialmaterial.rst:239
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:36
+msgid ""
+":ref:`anisotropy_enabled<class_SpatialMaterial_property_anisotropy_enabled>`"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:36
+#: ../../docs/classes/class_spatialmaterial.rst:40
+#: ../../docs/classes/class_spatialmaterial.rst:52
+#: ../../docs/classes/class_spatialmaterial.rst:60
+#: ../../docs/classes/class_spatialmaterial.rst:78
+#: ../../docs/classes/class_spatialmaterial.rst:94
+#: ../../docs/classes/class_spatialmaterial.rst:104
+#: ../../docs/classes/class_spatialmaterial.rst:106
+#: ../../docs/classes/class_spatialmaterial.rst:108
+#: ../../docs/classes/class_spatialmaterial.rst:110
+#: ../../docs/classes/class_spatialmaterial.rst:112
+#: ../../docs/classes/class_spatialmaterial.rst:114
+#: ../../docs/classes/class_spatialmaterial.rst:116
+#: ../../docs/classes/class_spatialmaterial.rst:118
+#: ../../docs/classes/class_spatialmaterial.rst:120
+#: ../../docs/classes/class_spatialmaterial.rst:122
+#: ../../docs/classes/class_spatialmaterial.rst:124
+#: ../../docs/classes/class_spatialmaterial.rst:126
+#: ../../docs/classes/class_spatialmaterial.rst:136
+#: ../../docs/classes/class_spatialmaterial.rst:144
+#: ../../docs/classes/class_spatialmaterial.rst:156
+#: ../../docs/classes/class_spatialmaterial.rst:166
+#: ../../docs/classes/class_spatialmaterial.rst:176
+#: ../../docs/classes/class_spatialmaterial.rst:178
+#: ../../docs/classes/class_spatialmaterial.rst:188
+#: ../../docs/classes/class_spatialmaterial.rst:200
+#: ../../docs/classes/class_spatialmaterial.rst:208
+#: ../../docs/classes/class_spatialmaterial.rst:216
+#: ../../docs/classes/class_spatialmaterial.rst:224
+#: ../../docs/classes/class_spatialmaterial.rst:228
+#: ../../docs/classes/class_spatialmaterial.rst:230
+#: ../../docs/classes/class_spatialmaterial.rst:735
+#: ../../docs/classes/class_spatialmaterial.rst:765
+#: ../../docs/classes/class_spatialmaterial.rst:851
+#: ../../docs/classes/class_spatialmaterial.rst:909
+#: ../../docs/classes/class_spatialmaterial.rst:1037
+#: ../../docs/classes/class_spatialmaterial.rst:1159
+#: ../../docs/classes/class_spatialmaterial.rst:1231
+#: ../../docs/classes/class_spatialmaterial.rst:1247
+#: ../../docs/classes/class_spatialmaterial.rst:1263
+#: ../../docs/classes/class_spatialmaterial.rst:1279
+#: ../../docs/classes/class_spatialmaterial.rst:1295
+#: ../../docs/classes/class_spatialmaterial.rst:1311
+#: ../../docs/classes/class_spatialmaterial.rst:1327
+#: ../../docs/classes/class_spatialmaterial.rst:1343
+#: ../../docs/classes/class_spatialmaterial.rst:1359
+#: ../../docs/classes/class_spatialmaterial.rst:1377
+#: ../../docs/classes/class_spatialmaterial.rst:1393
+#: ../../docs/classes/class_spatialmaterial.rst:1409
+#: ../../docs/classes/class_spatialmaterial.rst:1489
+#: ../../docs/classes/class_spatialmaterial.rst:1549
+#: ../../docs/classes/class_spatialmaterial.rst:1649
+#: ../../docs/classes/class_spatialmaterial.rst:1727
+#: ../../docs/classes/class_spatialmaterial.rst:1799
+#: ../../docs/classes/class_spatialmaterial.rst:1815
+#: ../../docs/classes/class_spatialmaterial.rst:1887
+#: ../../docs/classes/class_spatialmaterial.rst:1977
+#: ../../docs/classes/class_spatialmaterial.rst:2035
+#: ../../docs/classes/class_spatialmaterial.rst:2097
+#: ../../docs/classes/class_spatialmaterial.rst:2161
+#: ../../docs/classes/class_spatialmaterial.rst:2193
+#: ../../docs/classes/class_spatialmaterial.rst:2209
+msgid "``false``"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:38
+msgid ""
+":ref:`anisotropy_flowmap<class_SpatialMaterial_property_anisotropy_flowmap>`"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:40
+msgid ":ref:`ao_enabled<class_SpatialMaterial_property_ao_enabled>`"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:42
+msgid ":ref:`ao_light_affect<class_SpatialMaterial_property_ao_light_affect>`"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:44
+msgid ":ref:`ao_on_uv2<class_SpatialMaterial_property_ao_on_uv2>`"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:46
+msgid ":ref:`ao_texture<class_SpatialMaterial_property_ao_texture>`"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:48
+#: ../../docs/classes/class_spatialmaterial.rst:134
+#: ../../docs/classes/class_spatialmaterial.rst:184
+#: ../../docs/classes/class_spatialmaterial.rst:198
+msgid ":ref:`TextureChannel<enum_SpatialMaterial_TextureChannel>`"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:48
+msgid ""
+":ref:`ao_texture_channel<class_SpatialMaterial_property_ao_texture_channel>`"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:50
+msgid ":ref:`clearcoat<class_SpatialMaterial_property_clearcoat>`"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:52
+msgid ""
+":ref:`clearcoat_enabled<class_SpatialMaterial_property_clearcoat_enabled>`"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:54
+msgid ":ref:`clearcoat_gloss<class_SpatialMaterial_property_clearcoat_gloss>`"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:56
+msgid ""
+":ref:`clearcoat_texture<class_SpatialMaterial_property_clearcoat_texture>`"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:58
+msgid ""
+":ref:"
+"`depth_deep_parallax<class_SpatialMaterial_property_depth_deep_parallax>`"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:60
+msgid ":ref:`depth_enabled<class_SpatialMaterial_property_depth_enabled>`"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:62
+msgid ""
+":ref:"
+"`depth_flip_binormal<class_SpatialMaterial_property_depth_flip_binormal>`"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:64
+msgid ""
+":ref:`depth_flip_tangent<class_SpatialMaterial_property_depth_flip_tangent>`"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:66
+#: ../../docs/classes/class_spatialmaterial.rst:68
+#: ../../docs/classes/class_spatialmaterial.rst:168
+#: ../../docs/classes/class_spatialmaterial.rst:172
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:66
+msgid ""
+":ref:`depth_max_layers<class_SpatialMaterial_property_depth_max_layers>`"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:68
+msgid ""
+":ref:`depth_min_layers<class_SpatialMaterial_property_depth_min_layers>`"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:70
+msgid ":ref:`depth_scale<class_SpatialMaterial_property_depth_scale>`"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:72
+msgid ":ref:`depth_texture<class_SpatialMaterial_property_depth_texture>`"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:74
+msgid ":ref:`detail_albedo<class_SpatialMaterial_property_detail_albedo>`"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:76
+#: ../../docs/classes/class_spatialmaterial.rst:148
+msgid ":ref:`BlendMode<enum_SpatialMaterial_BlendMode>`"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:76
+msgid ""
+":ref:`detail_blend_mode<class_SpatialMaterial_property_detail_blend_mode>`"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:78
+msgid ":ref:`detail_enabled<class_SpatialMaterial_property_detail_enabled>`"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:80
+msgid ":ref:`detail_mask<class_SpatialMaterial_property_detail_mask>`"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:82
+msgid ":ref:`detail_normal<class_SpatialMaterial_property_detail_normal>`"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:84
+msgid ":ref:`DetailUV<enum_SpatialMaterial_DetailUV>`"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:84
+msgid ":ref:`detail_uv_layer<class_SpatialMaterial_property_detail_uv_layer>`"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:86
+msgid ""
+":ref:"
+"`distance_fade_max_distance<class_SpatialMaterial_property_distance_fade_max_distance>`"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:88
+msgid ""
+":ref:"
+"`distance_fade_min_distance<class_SpatialMaterial_property_distance_fade_min_distance>`"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:90
+msgid ":ref:`DistanceFadeMode<enum_SpatialMaterial_DistanceFadeMode>`"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:90
+msgid ""
+":ref:`distance_fade_mode<class_SpatialMaterial_property_distance_fade_mode>`"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:90
+#: ../../docs/classes/class_spatialmaterial.rst:134
+#: ../../docs/classes/class_spatialmaterial.rst:146
+#: ../../docs/classes/class_spatialmaterial.rst:148
+#: ../../docs/classes/class_spatialmaterial.rst:150
+#: ../../docs/classes/class_spatialmaterial.rst:152
+#: ../../docs/classes/class_spatialmaterial.rst:154
+#: ../../docs/classes/class_spatialmaterial.rst:164
+#: ../../docs/classes/class_spatialmaterial.rst:198
+#: ../../docs/classes/class_spatialmaterial.rst:1129
+#: ../../docs/classes/class_spatialmaterial.rst:1473
+#: ../../docs/classes/class_spatialmaterial.rst:1565
+#: ../../docs/classes/class_spatialmaterial.rst:1583
+#: ../../docs/classes/class_spatialmaterial.rst:1601
+#: ../../docs/classes/class_spatialmaterial.rst:1617
+#: ../../docs/classes/class_spatialmaterial.rst:1633
+#: ../../docs/classes/class_spatialmaterial.rst:1711
+#: ../../docs/classes/class_spatialmaterial.rst:1961
+msgid "``0``"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:92
+msgid ":ref:`emission<class_SpatialMaterial_property_emission>`"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:94
+msgid ""
+":ref:`emission_enabled<class_SpatialMaterial_property_emission_enabled>`"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:96
+msgid ":ref:`emission_energy<class_SpatialMaterial_property_emission_energy>`"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:98
+msgid ":ref:`emission_on_uv2<class_SpatialMaterial_property_emission_on_uv2>`"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:100
+msgid ":ref:`EmissionOperator<enum_SpatialMaterial_EmissionOperator>`"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:100
+msgid ""
+":ref:`emission_operator<class_SpatialMaterial_property_emission_operator>`"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:102
+msgid ""
+":ref:`emission_texture<class_SpatialMaterial_property_emission_texture>`"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:104
+msgid ""
+":ref:"
+"`flags_albedo_tex_force_srgb<class_SpatialMaterial_property_flags_albedo_tex_force_srgb>`"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:106
+msgid ""
+":ref:"
+"`flags_disable_ambient_light<class_SpatialMaterial_property_flags_disable_ambient_light>`"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:108
+msgid ""
+":ref:"
+"`flags_do_not_receive_shadows<class_SpatialMaterial_property_flags_do_not_receive_shadows>`"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:110
+msgid ""
+":ref:"
+"`flags_ensure_correct_normals<class_SpatialMaterial_property_flags_ensure_correct_normals>`"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:112
+msgid ""
+":ref:`flags_fixed_size<class_SpatialMaterial_property_flags_fixed_size>`"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:114
+msgid ""
+":ref:"
+"`flags_no_depth_test<class_SpatialMaterial_property_flags_no_depth_test>`"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:116
+msgid ""
+":ref:`flags_transparent<class_SpatialMaterial_property_flags_transparent>`"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:118
+msgid ":ref:`flags_unshaded<class_SpatialMaterial_property_flags_unshaded>`"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:120
+msgid ""
+":ref:"
+"`flags_use_point_size<class_SpatialMaterial_property_flags_use_point_size>`"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:122
+msgid ""
+":ref:"
+"`flags_use_shadow_to_opacity<class_SpatialMaterial_property_flags_use_shadow_to_opacity>`"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:124
+msgid ""
+":ref:"
+"`flags_vertex_lighting<class_SpatialMaterial_property_flags_vertex_lighting>`"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:126
+msgid ""
+":ref:"
+"`flags_world_triplanar<class_SpatialMaterial_property_flags_world_triplanar>`"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:128
+msgid ":ref:`metallic<class_SpatialMaterial_property_metallic>`"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:128
+#: ../../docs/classes/class_spatialmaterial.rst:1425
+msgid "``0.0``"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:130
+msgid ""
+":ref:`metallic_specular<class_SpatialMaterial_property_metallic_specular>`"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:130
+#: ../../docs/classes/class_spatialmaterial.rst:1441
+msgid "``0.5``"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:132
+msgid ""
+":ref:`metallic_texture<class_SpatialMaterial_property_metallic_texture>`"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:134
+msgid ""
+":ref:"
+"`metallic_texture_channel<class_SpatialMaterial_property_metallic_texture_channel>`"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:136
+msgid ":ref:`normal_enabled<class_SpatialMaterial_property_normal_enabled>`"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:138
+msgid ":ref:`normal_scale<class_SpatialMaterial_property_normal_scale>`"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:140
+msgid ":ref:`normal_texture<class_SpatialMaterial_property_normal_texture>`"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:142
+msgid ""
+":ref:"
+"`params_alpha_scissor_threshold<class_SpatialMaterial_property_params_alpha_scissor_threshold>`"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:144
+msgid ""
+":ref:"
+"`params_billboard_keep_scale<class_SpatialMaterial_property_params_billboard_keep_scale>`"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:146
+msgid ":ref:`BillboardMode<enum_SpatialMaterial_BillboardMode>`"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:146
+msgid ""
+":ref:"
+"`params_billboard_mode<class_SpatialMaterial_property_params_billboard_mode>`"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:148
+msgid ""
+":ref:`params_blend_mode<class_SpatialMaterial_property_params_blend_mode>`"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:150
+msgid ":ref:`CullMode<enum_SpatialMaterial_CullMode>`"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:150
+msgid ""
+":ref:`params_cull_mode<class_SpatialMaterial_property_params_cull_mode>`"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:152
+msgid ":ref:`DepthDrawMode<enum_SpatialMaterial_DepthDrawMode>`"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:152
+msgid ""
+":ref:"
+"`params_depth_draw_mode<class_SpatialMaterial_property_params_depth_draw_mode>`"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:154
+msgid ":ref:`DiffuseMode<enum_SpatialMaterial_DiffuseMode>`"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:154
+msgid ""
+":ref:"
+"`params_diffuse_mode<class_SpatialMaterial_property_params_diffuse_mode>`"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:156
+msgid ":ref:`params_grow<class_SpatialMaterial_property_params_grow>`"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:158
+msgid ""
+":ref:`params_grow_amount<class_SpatialMaterial_property_params_grow_amount>`"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:160
+msgid ""
+":ref:`params_line_width<class_SpatialMaterial_property_params_line_width>`"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:160
+#: ../../docs/classes/class_spatialmaterial.rst:162
+#: ../../docs/classes/class_spatialmaterial.rst:194
+#: ../../docs/classes/class_spatialmaterial.rst:218
+#: ../../docs/classes/class_spatialmaterial.rst:226
+#: ../../docs/classes/class_spatialmaterial.rst:1679
+#: ../../docs/classes/class_spatialmaterial.rst:1695
+#: ../../docs/classes/class_spatialmaterial.rst:1931
+#: ../../docs/classes/class_spatialmaterial.rst:2113
+#: ../../docs/classes/class_spatialmaterial.rst:2177
+msgid "``1.0``"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:162
+msgid ""
+":ref:`params_point_size<class_SpatialMaterial_property_params_point_size>`"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:164
+msgid ":ref:`SpecularMode<enum_SpatialMaterial_SpecularMode>`"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:164
+msgid ""
+":ref:"
+"`params_specular_mode<class_SpatialMaterial_property_params_specular_mode>`"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:166
+msgid ""
+":ref:"
+"`params_use_alpha_scissor<class_SpatialMaterial_property_params_use_alpha_scissor>`"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:168
+msgid ""
+":ref:"
+"`particles_anim_h_frames<class_SpatialMaterial_property_particles_anim_h_frames>`"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:170
+msgid ""
+":ref:"
+"`particles_anim_loop<class_SpatialMaterial_property_particles_anim_loop>`"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:172
+msgid ""
+":ref:"
+"`particles_anim_v_frames<class_SpatialMaterial_property_particles_anim_v_frames>`"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:174
+msgid ""
+":ref:"
+"`proximity_fade_distance<class_SpatialMaterial_property_proximity_fade_distance>`"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:176
+msgid ""
+":ref:"
+"`proximity_fade_enable<class_SpatialMaterial_property_proximity_fade_enable>`"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:178
+msgid ""
+":ref:`refraction_enabled<class_SpatialMaterial_property_refraction_enabled>`"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:180
+msgid ""
+":ref:`refraction_scale<class_SpatialMaterial_property_refraction_scale>`"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:182
+msgid ""
+":ref:`refraction_texture<class_SpatialMaterial_property_refraction_texture>`"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:184
+msgid ""
+":ref:"
+"`refraction_texture_channel<class_SpatialMaterial_property_refraction_texture_channel>`"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:186
+msgid ":ref:`rim<class_SpatialMaterial_property_rim>`"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:188
+msgid ":ref:`rim_enabled<class_SpatialMaterial_property_rim_enabled>`"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:190
+msgid ":ref:`rim_texture<class_SpatialMaterial_property_rim_texture>`"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:192
+msgid ":ref:`rim_tint<class_SpatialMaterial_property_rim_tint>`"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:194
+msgid ":ref:`roughness<class_SpatialMaterial_property_roughness>`"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:196
+msgid ""
+":ref:`roughness_texture<class_SpatialMaterial_property_roughness_texture>`"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:198
+msgid ""
+":ref:"
+"`roughness_texture_channel<class_SpatialMaterial_property_roughness_texture_channel>`"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:200
+msgid ""
+":ref:"
+"`subsurf_scatter_enabled<class_SpatialMaterial_property_subsurf_scatter_enabled>`"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:202
+msgid ""
+":ref:"
+"`subsurf_scatter_strength<class_SpatialMaterial_property_subsurf_scatter_strength>`"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:204
+msgid ""
+":ref:"
+"`subsurf_scatter_texture<class_SpatialMaterial_property_subsurf_scatter_texture>`"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:206
+msgid ":ref:`transmission<class_SpatialMaterial_property_transmission>`"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:208
+msgid ""
+":ref:"
+"`transmission_enabled<class_SpatialMaterial_property_transmission_enabled>`"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:210
+msgid ""
+":ref:"
+"`transmission_texture<class_SpatialMaterial_property_transmission_texture>`"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:212
+#: ../../docs/classes/class_spatialmaterial.rst:214
+#: ../../docs/classes/class_spatialmaterial.rst:220
+#: ../../docs/classes/class_spatialmaterial.rst:222
+msgid ":ref:`Vector3<class_Vector3>`"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:212
+msgid ":ref:`uv1_offset<class_SpatialMaterial_property_uv1_offset>`"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:212
+#: ../../docs/classes/class_spatialmaterial.rst:220
+#: ../../docs/classes/class_spatialmaterial.rst:2065
+#: ../../docs/classes/class_spatialmaterial.rst:2129
+msgid "``Vector3( 0, 0, 0 )``"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:214
+msgid ":ref:`uv1_scale<class_SpatialMaterial_property_uv1_scale>`"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:214
+#: ../../docs/classes/class_spatialmaterial.rst:222
+#: ../../docs/classes/class_spatialmaterial.rst:2081
+#: ../../docs/classes/class_spatialmaterial.rst:2145
+msgid "``Vector3( 1, 1, 1 )``"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:216
+msgid ":ref:`uv1_triplanar<class_SpatialMaterial_property_uv1_triplanar>`"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:218
+msgid ""
+":ref:"
+"`uv1_triplanar_sharpness<class_SpatialMaterial_property_uv1_triplanar_sharpness>`"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:220
+msgid ":ref:`uv2_offset<class_SpatialMaterial_property_uv2_offset>`"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:222
+msgid ":ref:`uv2_scale<class_SpatialMaterial_property_uv2_scale>`"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:224
+msgid ":ref:`uv2_triplanar<class_SpatialMaterial_property_uv2_triplanar>`"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:226
+msgid ""
+":ref:"
+"`uv2_triplanar_sharpness<class_SpatialMaterial_property_uv2_triplanar_sharpness>`"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:228
+msgid ""
+":ref:"
+"`vertex_color_is_srgb<class_SpatialMaterial_property_vertex_color_is_srgb>`"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:230
+msgid ""
+":ref:"
+"`vertex_color_use_as_albedo<class_SpatialMaterial_property_vertex_color_use_as_albedo>`"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:234
+msgid "Methods"
+msgstr "方法"
+
+#: ../../docs/classes/class_spatialmaterial.rst:237
+msgid ""
+":ref:`get_feature<class_SpatialMaterial_method_get_feature>` **(** :ref:"
+"`Feature<enum_SpatialMaterial_Feature>` feature **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:239
+msgid ""
+":ref:`get_flag<class_SpatialMaterial_method_get_flag>` **(** :ref:"
+"`Flags<enum_SpatialMaterial_Flags>` flag **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:241
+msgid ""
+":ref:`get_texture<class_SpatialMaterial_method_get_texture>` **(** :ref:"
+"`TextureParam<enum_SpatialMaterial_TextureParam>` param **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:243
+#: ../../docs/classes/class_spatialmaterial.rst:245
+#: ../../docs/classes/class_spatialmaterial.rst:247
+msgid "void"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:243
+msgid ""
+":ref:`set_feature<class_SpatialMaterial_method_set_feature>` **(** :ref:"
+"`Feature<enum_SpatialMaterial_Feature>` feature, :ref:`bool<class_bool>` "
+"enable **)**"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:245
+msgid ""
+":ref:`set_flag<class_SpatialMaterial_method_set_flag>` **(** :ref:"
+"`Flags<enum_SpatialMaterial_Flags>` flag, :ref:`bool<class_bool>` enable "
+"**)**"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:247
+msgid ""
+":ref:`set_texture<class_SpatialMaterial_method_set_texture>` **(** :ref:"
+"`TextureParam<enum_SpatialMaterial_TextureParam>` param, :ref:"
+"`Texture<class_Texture>` texture **)**"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:251
+msgid "Enumerations"
+msgstr "枚举"
+
+#: ../../docs/classes/class_spatialmaterial.rst:289
+msgid "enum **TextureParam**:"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:291
+msgid "**TEXTURE_ALBEDO** = **0** --- Texture specifying per-pixel color."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:293
+msgid ""
+"**TEXTURE_METALLIC** = **1** --- Texture specifying per-pixel metallic value."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:295
+msgid ""
+"**TEXTURE_ROUGHNESS** = **2** --- Texture specifying per-pixel roughness "
+"value."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:297
+msgid ""
+"**TEXTURE_EMISSION** = **3** --- Texture specifying per-pixel emission color."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:299
+msgid ""
+"**TEXTURE_NORMAL** = **4** --- Texture specifying per-pixel normal vector."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:301
+msgid "**TEXTURE_RIM** = **5** --- Texture specifying per-pixel rim value."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:303
+msgid ""
+"**TEXTURE_CLEARCOAT** = **6** --- Texture specifying per-pixel clearcoat "
+"value."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:305
+msgid ""
+"**TEXTURE_FLOWMAP** = **7** --- Texture specifying per-pixel flowmap "
+"direction for use with :ref:"
+"`anisotropy<class_SpatialMaterial_property_anisotropy>`."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:307
+msgid ""
+"**TEXTURE_AMBIENT_OCCLUSION** = **8** --- Texture specifying per-pixel "
+"ambient occlusion value."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:309
+msgid "**TEXTURE_DEPTH** = **9** --- Texture specifying per-pixel depth."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:311
+msgid ""
+"**TEXTURE_SUBSURFACE_SCATTERING** = **10** --- Texture specifying per-pixel "
+"subsurface scattering."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:313
+msgid ""
+"**TEXTURE_TRANSMISSION** = **11** --- Texture specifying per-pixel "
+"transmission color."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:315
+msgid ""
+"**TEXTURE_REFRACTION** = **12** --- Texture specifying per-pixel refraction "
+"strength."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:317
+msgid ""
+"**TEXTURE_DETAIL_MASK** = **13** --- Texture specifying per-pixel detail "
+"mask blending value."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:319
+msgid ""
+"**TEXTURE_DETAIL_ALBEDO** = **14** --- Texture specifying per-pixel detail "
+"color."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:321
+msgid ""
+"**TEXTURE_DETAIL_NORMAL** = **15** --- Texture specifying per-pixel detail "
+"normal."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:323
+msgid ""
+"**TEXTURE_MAX** = **16** --- Represents the size of the :ref:"
+"`TextureParam<enum_SpatialMaterial_TextureParam>` enum."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:333
+msgid "enum **DetailUV**:"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:335
+msgid "**DETAIL_UV_1** = **0** --- Use ``UV`` with the detail texture."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:337
+msgid "**DETAIL_UV_2** = **1** --- Use ``UV2`` with the detail texture."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:369
+msgid "enum **Feature**:"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:371
+msgid ""
+"**FEATURE_TRANSPARENT** = **0** --- Constant for setting :ref:"
+"`flags_transparent<class_SpatialMaterial_property_flags_transparent>`."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:373
+msgid ""
+"**FEATURE_EMISSION** = **1** --- Constant for setting :ref:"
+"`emission_enabled<class_SpatialMaterial_property_emission_enabled>`."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:375
+msgid ""
+"**FEATURE_NORMAL_MAPPING** = **2** --- Constant for setting :ref:"
+"`normal_enabled<class_SpatialMaterial_property_normal_enabled>`."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:377
+msgid ""
+"**FEATURE_RIM** = **3** --- Constant for setting :ref:"
+"`rim_enabled<class_SpatialMaterial_property_rim_enabled>`."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:379
+msgid ""
+"**FEATURE_CLEARCOAT** = **4** --- Constant for setting :ref:"
+"`clearcoat_enabled<class_SpatialMaterial_property_clearcoat_enabled>`."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:381
+msgid ""
+"**FEATURE_ANISOTROPY** = **5** --- Constant for setting :ref:"
+"`anisotropy_enabled<class_SpatialMaterial_property_anisotropy_enabled>`."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:383
+msgid ""
+"**FEATURE_AMBIENT_OCCLUSION** = **6** --- Constant for setting :ref:"
+"`ao_enabled<class_SpatialMaterial_property_ao_enabled>`."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:385
+msgid ""
+"**FEATURE_DEPTH_MAPPING** = **7** --- Constant for setting :ref:"
+"`depth_enabled<class_SpatialMaterial_property_depth_enabled>`."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:387
+msgid ""
+"**FEATURE_SUBSURACE_SCATTERING** = **8** --- Constant for setting :ref:"
+"`subsurf_scatter_enabled<class_SpatialMaterial_property_subsurf_scatter_enabled>`."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:389
+msgid ""
+"**FEATURE_TRANSMISSION** = **9** --- Constant for setting :ref:"
+"`transmission_enabled<class_SpatialMaterial_property_transmission_enabled>`."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:391
+msgid ""
+"**FEATURE_REFRACTION** = **10** --- Constant for setting :ref:"
+"`refraction_enabled<class_SpatialMaterial_property_refraction_enabled>`."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:393
+msgid ""
+"**FEATURE_DETAIL** = **11** --- Constant for setting :ref:"
+"`detail_enabled<class_SpatialMaterial_property_detail_enabled>`."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:395
+msgid ""
+"**FEATURE_MAX** = **12** --- Represents the size of the :ref:"
+"`Feature<enum_SpatialMaterial_Feature>` enum."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:409
+msgid "enum **BlendMode**:"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:411
+msgid ""
+"**BLEND_MODE_MIX** = **0** --- Default blend mode. The color of the object "
+"is blended over the background based on the object's alpha value."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:413
+msgid ""
+"**BLEND_MODE_ADD** = **1** --- The color of the object is added to the "
+"background."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:415
+msgid ""
+"**BLEND_MODE_SUB** = **2** --- The color of the object is subtracted from "
+"the background."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:417
+msgid ""
+"**BLEND_MODE_MUL** = **3** --- The color of the object is multiplied by the "
+"background."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:431
+msgid "enum **DepthDrawMode**:"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:433
+msgid ""
+"**DEPTH_DRAW_OPAQUE_ONLY** = **0** --- Default depth draw mode. Depth is "
+"drawn only for opaque objects."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:435
+msgid ""
+"**DEPTH_DRAW_ALWAYS** = **1** --- Depth draw is calculated for both opaque "
+"and transparent objects."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:437
+msgid "**DEPTH_DRAW_DISABLED** = **2** --- No depth draw."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:439
+msgid ""
+"**DEPTH_DRAW_ALPHA_OPAQUE_PREPASS** = **3** --- For transparent objects, an "
+"opaque pass is made first with the opaque parts, then transparency is drawn."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:451
+msgid "enum **CullMode**:"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:453
+msgid ""
+"**CULL_BACK** = **0** --- Default cull mode. The back of the object is "
+"culled when not visible."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:455
+msgid ""
+"**CULL_FRONT** = **1** --- The front of the object is culled when not "
+"visible."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:457
+msgid "**CULL_DISABLED** = **2** --- No culling is performed."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:503
+msgid "enum **Flags**:"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:505
+msgid ""
+"**FLAG_UNSHADED** = **0** --- No lighting is used on the object. Color comes "
+"directly from ``ALBEDO``."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:507
+msgid ""
+"**FLAG_USE_VERTEX_LIGHTING** = **1** --- Lighting is calculated per-vertex "
+"rather than per-pixel. This can be used to increase the speed of the shader "
+"at the cost of quality."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:509
+msgid ""
+"**FLAG_DISABLE_DEPTH_TEST** = **2** --- Disables the depth test, so this "
+"object is drawn on top of all others. However, objects drawn after it in the "
+"draw order may cover it."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:511
+msgid ""
+"**FLAG_ALBEDO_FROM_VERTEX_COLOR** = **3** --- Set ``ALBEDO`` to the per-"
+"vertex color specified in the mesh."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:513
+msgid ""
+"**FLAG_SRGB_VERTEX_COLOR** = **4** --- Vertex color is in sRGB space and "
+"needs to be converted to linear. Only applies in the GLES3 renderer."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:515
+msgid ""
+"**FLAG_USE_POINT_SIZE** = **5** --- Uses point size to alter the size of "
+"primitive points. Also changes the albedo texture lookup to use "
+"``POINT_COORD`` instead of ``UV``."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:517
+msgid ""
+"**FLAG_FIXED_SIZE** = **6** --- Object is scaled by depth so that it always "
+"appears the same size on screen."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:519
+msgid ""
+"**FLAG_BILLBOARD_KEEP_SCALE** = **7** --- Shader will keep the scale set for "
+"the mesh. Otherwise the scale is lost when billboarding. Only applies when :"
+"ref:"
+"`params_billboard_mode<class_SpatialMaterial_property_params_billboard_mode>` "
+"is :ref:"
+"`BILLBOARD_ENABLED<class_SpatialMaterial_constant_BILLBOARD_ENABLED>`."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:521
+msgid ""
+"**FLAG_UV1_USE_TRIPLANAR** = **8** --- Use triplanar texture lookup for all "
+"texture lookups that would normally use ``UV``."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:523
+msgid ""
+"**FLAG_UV2_USE_TRIPLANAR** = **9** --- Use triplanar texture lookup for all "
+"texture lookups that would normally use ``UV2``."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:525
+msgid ""
+"**FLAG_AO_ON_UV2** = **11** --- Use ``UV2`` coordinates to look up from the :"
+"ref:`ao_texture<class_SpatialMaterial_property_ao_texture>`."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:527
+msgid ""
+"**FLAG_EMISSION_ON_UV2** = **12** --- Use ``UV2`` coordinates to look up "
+"from the :ref:"
+"`emission_texture<class_SpatialMaterial_property_emission_texture>`."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:529
+msgid ""
+"**FLAG_USE_ALPHA_SCISSOR** = **13** --- Use alpha scissor. Set by :ref:"
+"`params_use_alpha_scissor<class_SpatialMaterial_property_params_use_alpha_scissor>`."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:531
+msgid ""
+"**FLAG_TRIPLANAR_USE_WORLD** = **10** --- Use world coordinates in the "
+"triplanar texture lookup instead of local coordinates."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:533
+msgid ""
+"**FLAG_ALBEDO_TEXTURE_FORCE_SRGB** = **14** --- Forces the shader to convert "
+"albedo from sRGB space to linear space."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:535
+msgid ""
+"**FLAG_DONT_RECEIVE_SHADOWS** = **15** --- Disables receiving shadows from "
+"other objects."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:537
+msgid ""
+"**FLAG_DISABLE_AMBIENT_LIGHT** = **17** --- Disables receiving ambient light."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:539
+msgid ""
+"**FLAG_ENSURE_CORRECT_NORMALS** = **16** --- Ensures that normals appear "
+"correct, even with non-uniform scaling."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:541
+msgid ""
+"**FLAG_USE_SHADOW_TO_OPACITY** = **18** --- Enables the shadow to opacity "
+"feature."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:543
+msgid ""
+"**FLAG_MAX** = **19** --- Represents the size of the :ref:"
+"`Flags<enum_SpatialMaterial_Flags>` enum."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:559
+msgid "enum **DiffuseMode**:"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:561
+msgid "**DIFFUSE_BURLEY** = **0** --- Default diffuse scattering algorithm."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:563
+msgid "**DIFFUSE_LAMBERT** = **1** --- Diffuse scattering ignores roughness."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:565
+msgid ""
+"**DIFFUSE_LAMBERT_WRAP** = **2** --- Extends Lambert to cover more than 90 "
+"degrees when roughness increases."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:567
+msgid ""
+"**DIFFUSE_OREN_NAYAR** = **3** --- Attempts to use roughness to emulate "
+"microsurfacing."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:569
+msgid ""
+"**DIFFUSE_TOON** = **4** --- Uses a hard cut for lighting, with smoothing "
+"affected by roughness."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:585
+msgid "enum **SpecularMode**:"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:587
+msgid "**SPECULAR_SCHLICK_GGX** = **0** --- Default specular blob."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:589
+msgid ""
+"**SPECULAR_BLINN** = **1** --- Older specular algorithm, included for "
+"compatibility."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:591
+msgid ""
+"**SPECULAR_PHONG** = **2** --- Older specular algorithm, included for "
+"compatibility."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:593
+msgid ""
+"**SPECULAR_TOON** = **3** --- Toon blob which changes size based on "
+"roughness."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:595
+msgid "**SPECULAR_DISABLED** = **4** --- No specular blob."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:609
+msgid "enum **BillboardMode**:"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:611
+msgid "**BILLBOARD_DISABLED** = **0** --- Billboard mode is disabled."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:613
+msgid ""
+"**BILLBOARD_ENABLED** = **1** --- The object's Z axis will always face the "
+"camera."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:615
+msgid ""
+"**BILLBOARD_FIXED_Y** = **2** --- The object's X axis will always face the "
+"camera."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:617
+msgid ""
+"**BILLBOARD_PARTICLES** = **3** --- Used for particle systems when assigned "
+"to :ref:`Particles<class_Particles>` and :ref:"
+"`CPUParticles<class_CPUParticles>` nodes. Enables ``particles_anim_*`` "
+"properties."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:619
+msgid ""
+"The :ref:`ParticlesMaterial."
+"anim_speed<class_ParticlesMaterial_property_anim_speed>` or :ref:"
+"`CPUParticles.anim_speed<class_CPUParticles_property_anim_speed>` should "
+"also be set to a positive value for the animation to play."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:635
+msgid "enum **TextureChannel**:"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:637
+msgid ""
+"**TEXTURE_CHANNEL_RED** = **0** --- Used to read from the red channel of a "
+"texture."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:639
+msgid ""
+"**TEXTURE_CHANNEL_GREEN** = **1** --- Used to read from the green channel of "
+"a texture."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:641
+msgid ""
+"**TEXTURE_CHANNEL_BLUE** = **2** --- Used to read from the blue channel of a "
+"texture."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:643
+msgid ""
+"**TEXTURE_CHANNEL_ALPHA** = **3** --- Used to read from the alpha channel of "
+"a texture."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:645
+msgid "**TEXTURE_CHANNEL_GRAYSCALE** = **4** --- Currently unused."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:655
+msgid "enum **EmissionOperator**:"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:657
+msgid ""
+"**EMISSION_OP_ADD** = **0** --- Adds the emission color to the color from "
+"the emission texture."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:659
+msgid ""
+"**EMISSION_OP_MULTIPLY** = **1** --- Multiplies the emission color by the "
+"color from the emission texture."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:673
+msgid "enum **DistanceFadeMode**:"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:675
+msgid "**DISTANCE_FADE_DISABLED** = **0** --- Do not use distance fade."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:677
+msgid ""
+"**DISTANCE_FADE_PIXEL_ALPHA** = **1** --- Smoothly fades the object out "
+"based on each pixel's distance from the camera using the alpha channel."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:679
+msgid ""
+"**DISTANCE_FADE_PIXEL_DITHER** = **2** --- Smoothly fades the object out "
+"based on each pixel's distance from the camera using a dither approach. "
+"Dithering discards pixels based on a set pattern to smoothly fade without "
+"enabling transparency. On certain hardware this can be faster than :ref:"
+"`DISTANCE_FADE_PIXEL_ALPHA<class_SpatialMaterial_constant_DISTANCE_FADE_PIXEL_ALPHA>`."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:681
+msgid ""
+"**DISTANCE_FADE_OBJECT_DITHER** = **3** --- Smoothly fades the object out "
+"based on the object's distance from the camera using a dither approach. "
+"Dithering discards pixels based on a set pattern to smoothly fade without "
+"enabling transparency. On certain hardware this can be faster than :ref:"
+"`DISTANCE_FADE_PIXEL_ALPHA<class_SpatialMaterial_constant_DISTANCE_FADE_PIXEL_ALPHA>`."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:684
+msgid "Property Descriptions"
+msgstr "属性说明"
+
+#: ../../docs/classes/class_spatialmaterial.rst:688
+msgid ":ref:`Color<class_Color>` **albedo_color**"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:691
+#: ../../docs/classes/class_spatialmaterial.rst:735
+#: ../../docs/classes/class_spatialmaterial.rst:765
+#: ../../docs/classes/class_spatialmaterial.rst:851
+#: ../../docs/classes/class_spatialmaterial.rst:909
+#: ../../docs/classes/class_spatialmaterial.rst:1037
+#: ../../docs/classes/class_spatialmaterial.rst:1129
+#: ../../docs/classes/class_spatialmaterial.rst:1159
+#: ../../docs/classes/class_spatialmaterial.rst:1231
+#: ../../docs/classes/class_spatialmaterial.rst:1247
+#: ../../docs/classes/class_spatialmaterial.rst:1263
+#: ../../docs/classes/class_spatialmaterial.rst:1279
+#: ../../docs/classes/class_spatialmaterial.rst:1295
+#: ../../docs/classes/class_spatialmaterial.rst:1311
+#: ../../docs/classes/class_spatialmaterial.rst:1327
+#: ../../docs/classes/class_spatialmaterial.rst:1343
+#: ../../docs/classes/class_spatialmaterial.rst:1359
+#: ../../docs/classes/class_spatialmaterial.rst:1377
+#: ../../docs/classes/class_spatialmaterial.rst:1393
+#: ../../docs/classes/class_spatialmaterial.rst:1409
+#: ../../docs/classes/class_spatialmaterial.rst:1425
+#: ../../docs/classes/class_spatialmaterial.rst:1441
+#: ../../docs/classes/class_spatialmaterial.rst:1473
+#: ../../docs/classes/class_spatialmaterial.rst:1489
+#: ../../docs/classes/class_spatialmaterial.rst:1549
+#: ../../docs/classes/class_spatialmaterial.rst:1565
+#: ../../docs/classes/class_spatialmaterial.rst:1583
+#: ../../docs/classes/class_spatialmaterial.rst:1601
+#: ../../docs/classes/class_spatialmaterial.rst:1617
+#: ../../docs/classes/class_spatialmaterial.rst:1633
+#: ../../docs/classes/class_spatialmaterial.rst:1649
+#: ../../docs/classes/class_spatialmaterial.rst:1679
+#: ../../docs/classes/class_spatialmaterial.rst:1695
+#: ../../docs/classes/class_spatialmaterial.rst:1711
+#: ../../docs/classes/class_spatialmaterial.rst:1727
+#: ../../docs/classes/class_spatialmaterial.rst:1799
+#: ../../docs/classes/class_spatialmaterial.rst:1815
+#: ../../docs/classes/class_spatialmaterial.rst:1887
+#: ../../docs/classes/class_spatialmaterial.rst:1931
+#: ../../docs/classes/class_spatialmaterial.rst:1961
+#: ../../docs/classes/class_spatialmaterial.rst:1977
+#: ../../docs/classes/class_spatialmaterial.rst:2035
+#: ../../docs/classes/class_spatialmaterial.rst:2065
+#: ../../docs/classes/class_spatialmaterial.rst:2081
+#: ../../docs/classes/class_spatialmaterial.rst:2097
+#: ../../docs/classes/class_spatialmaterial.rst:2113
+#: ../../docs/classes/class_spatialmaterial.rst:2129
+#: ../../docs/classes/class_spatialmaterial.rst:2145
+#: ../../docs/classes/class_spatialmaterial.rst:2161
+#: ../../docs/classes/class_spatialmaterial.rst:2177
+#: ../../docs/classes/class_spatialmaterial.rst:2193
+#: ../../docs/classes/class_spatialmaterial.rst:2209
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:693
+#: ../../docs/classes/class_spatialmaterial.rst:707
+#: ../../docs/classes/class_spatialmaterial.rst:721
+#: ../../docs/classes/class_spatialmaterial.rst:737
+#: ../../docs/classes/class_spatialmaterial.rst:751
+#: ../../docs/classes/class_spatialmaterial.rst:767
+#: ../../docs/classes/class_spatialmaterial.rst:781
+#: ../../docs/classes/class_spatialmaterial.rst:795
+#: ../../docs/classes/class_spatialmaterial.rst:809
+#: ../../docs/classes/class_spatialmaterial.rst:823
+#: ../../docs/classes/class_spatialmaterial.rst:837
+#: ../../docs/classes/class_spatialmaterial.rst:853
+#: ../../docs/classes/class_spatialmaterial.rst:867
+#: ../../docs/classes/class_spatialmaterial.rst:881
+#: ../../docs/classes/class_spatialmaterial.rst:895
+#: ../../docs/classes/class_spatialmaterial.rst:911
+#: ../../docs/classes/class_spatialmaterial.rst:925
+#: ../../docs/classes/class_spatialmaterial.rst:939
+#: ../../docs/classes/class_spatialmaterial.rst:953
+#: ../../docs/classes/class_spatialmaterial.rst:967
+#: ../../docs/classes/class_spatialmaterial.rst:981
+#: ../../docs/classes/class_spatialmaterial.rst:995
+#: ../../docs/classes/class_spatialmaterial.rst:1009
+#: ../../docs/classes/class_spatialmaterial.rst:1023
+#: ../../docs/classes/class_spatialmaterial.rst:1039
+#: ../../docs/classes/class_spatialmaterial.rst:1053
+#: ../../docs/classes/class_spatialmaterial.rst:1067
+#: ../../docs/classes/class_spatialmaterial.rst:1083
+#: ../../docs/classes/class_spatialmaterial.rst:1097
+#: ../../docs/classes/class_spatialmaterial.rst:1113
+#: ../../docs/classes/class_spatialmaterial.rst:1131
+#: ../../docs/classes/class_spatialmaterial.rst:1145
+#: ../../docs/classes/class_spatialmaterial.rst:1161
+#: ../../docs/classes/class_spatialmaterial.rst:1175
+#: ../../docs/classes/class_spatialmaterial.rst:1189
+#: ../../docs/classes/class_spatialmaterial.rst:1203
+#: ../../docs/classes/class_spatialmaterial.rst:1217
+#: ../../docs/classes/class_spatialmaterial.rst:1233
+#: ../../docs/classes/class_spatialmaterial.rst:1249
+#: ../../docs/classes/class_spatialmaterial.rst:1265
+#: ../../docs/classes/class_spatialmaterial.rst:1281
+#: ../../docs/classes/class_spatialmaterial.rst:1297
+#: ../../docs/classes/class_spatialmaterial.rst:1313
+#: ../../docs/classes/class_spatialmaterial.rst:1329
+#: ../../docs/classes/class_spatialmaterial.rst:1345
+#: ../../docs/classes/class_spatialmaterial.rst:1361
+#: ../../docs/classes/class_spatialmaterial.rst:1379
+#: ../../docs/classes/class_spatialmaterial.rst:1395
+#: ../../docs/classes/class_spatialmaterial.rst:1411
+#: ../../docs/classes/class_spatialmaterial.rst:1427
+#: ../../docs/classes/class_spatialmaterial.rst:1443
+#: ../../docs/classes/class_spatialmaterial.rst:1459
+#: ../../docs/classes/class_spatialmaterial.rst:1475
+#: ../../docs/classes/class_spatialmaterial.rst:1491
+#: ../../docs/classes/class_spatialmaterial.rst:1505
+#: ../../docs/classes/class_spatialmaterial.rst:1519
+#: ../../docs/classes/class_spatialmaterial.rst:1535
+#: ../../docs/classes/class_spatialmaterial.rst:1551
+#: ../../docs/classes/class_spatialmaterial.rst:1567
+#: ../../docs/classes/class_spatialmaterial.rst:1585
+#: ../../docs/classes/class_spatialmaterial.rst:1603
+#: ../../docs/classes/class_spatialmaterial.rst:1619
+#: ../../docs/classes/class_spatialmaterial.rst:1635
+#: ../../docs/classes/class_spatialmaterial.rst:1651
+#: ../../docs/classes/class_spatialmaterial.rst:1665
+#: ../../docs/classes/class_spatialmaterial.rst:1681
+#: ../../docs/classes/class_spatialmaterial.rst:1697
+#: ../../docs/classes/class_spatialmaterial.rst:1713
+#: ../../docs/classes/class_spatialmaterial.rst:1729
+#: ../../docs/classes/class_spatialmaterial.rst:1743
+#: ../../docs/classes/class_spatialmaterial.rst:1757
+#: ../../docs/classes/class_spatialmaterial.rst:1771
+#: ../../docs/classes/class_spatialmaterial.rst:1785
+#: ../../docs/classes/class_spatialmaterial.rst:1801
+#: ../../docs/classes/class_spatialmaterial.rst:1817
+#: ../../docs/classes/class_spatialmaterial.rst:1831
+#: ../../docs/classes/class_spatialmaterial.rst:1845
+#: ../../docs/classes/class_spatialmaterial.rst:1859
+#: ../../docs/classes/class_spatialmaterial.rst:1873
+#: ../../docs/classes/class_spatialmaterial.rst:1889
+#: ../../docs/classes/class_spatialmaterial.rst:1903
+#: ../../docs/classes/class_spatialmaterial.rst:1917
+#: ../../docs/classes/class_spatialmaterial.rst:1933
+#: ../../docs/classes/class_spatialmaterial.rst:1947
+#: ../../docs/classes/class_spatialmaterial.rst:1963
+#: ../../docs/classes/class_spatialmaterial.rst:1979
+#: ../../docs/classes/class_spatialmaterial.rst:1993
+#: ../../docs/classes/class_spatialmaterial.rst:2007
+#: ../../docs/classes/class_spatialmaterial.rst:2021
+#: ../../docs/classes/class_spatialmaterial.rst:2037
+#: ../../docs/classes/class_spatialmaterial.rst:2051
+#: ../../docs/classes/class_spatialmaterial.rst:2067
+#: ../../docs/classes/class_spatialmaterial.rst:2083
+#: ../../docs/classes/class_spatialmaterial.rst:2099
+#: ../../docs/classes/class_spatialmaterial.rst:2115
+#: ../../docs/classes/class_spatialmaterial.rst:2131
+#: ../../docs/classes/class_spatialmaterial.rst:2147
+#: ../../docs/classes/class_spatialmaterial.rst:2163
+#: ../../docs/classes/class_spatialmaterial.rst:2179
+#: ../../docs/classes/class_spatialmaterial.rst:2195
+#: ../../docs/classes/class_spatialmaterial.rst:2211
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:693
+msgid "set_albedo(value)"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:695
+#: ../../docs/classes/class_spatialmaterial.rst:709
+#: ../../docs/classes/class_spatialmaterial.rst:723
+#: ../../docs/classes/class_spatialmaterial.rst:739
+#: ../../docs/classes/class_spatialmaterial.rst:753
+#: ../../docs/classes/class_spatialmaterial.rst:769
+#: ../../docs/classes/class_spatialmaterial.rst:783
+#: ../../docs/classes/class_spatialmaterial.rst:797
+#: ../../docs/classes/class_spatialmaterial.rst:811
+#: ../../docs/classes/class_spatialmaterial.rst:825
+#: ../../docs/classes/class_spatialmaterial.rst:839
+#: ../../docs/classes/class_spatialmaterial.rst:855
+#: ../../docs/classes/class_spatialmaterial.rst:869
+#: ../../docs/classes/class_spatialmaterial.rst:883
+#: ../../docs/classes/class_spatialmaterial.rst:897
+#: ../../docs/classes/class_spatialmaterial.rst:913
+#: ../../docs/classes/class_spatialmaterial.rst:927
+#: ../../docs/classes/class_spatialmaterial.rst:941
+#: ../../docs/classes/class_spatialmaterial.rst:955
+#: ../../docs/classes/class_spatialmaterial.rst:969
+#: ../../docs/classes/class_spatialmaterial.rst:983
+#: ../../docs/classes/class_spatialmaterial.rst:997
+#: ../../docs/classes/class_spatialmaterial.rst:1011
+#: ../../docs/classes/class_spatialmaterial.rst:1025
+#: ../../docs/classes/class_spatialmaterial.rst:1041
+#: ../../docs/classes/class_spatialmaterial.rst:1055
+#: ../../docs/classes/class_spatialmaterial.rst:1069
+#: ../../docs/classes/class_spatialmaterial.rst:1085
+#: ../../docs/classes/class_spatialmaterial.rst:1099
+#: ../../docs/classes/class_spatialmaterial.rst:1115
+#: ../../docs/classes/class_spatialmaterial.rst:1133
+#: ../../docs/classes/class_spatialmaterial.rst:1147
+#: ../../docs/classes/class_spatialmaterial.rst:1163
+#: ../../docs/classes/class_spatialmaterial.rst:1177
+#: ../../docs/classes/class_spatialmaterial.rst:1191
+#: ../../docs/classes/class_spatialmaterial.rst:1205
+#: ../../docs/classes/class_spatialmaterial.rst:1219
+#: ../../docs/classes/class_spatialmaterial.rst:1235
+#: ../../docs/classes/class_spatialmaterial.rst:1251
+#: ../../docs/classes/class_spatialmaterial.rst:1267
+#: ../../docs/classes/class_spatialmaterial.rst:1283
+#: ../../docs/classes/class_spatialmaterial.rst:1299
+#: ../../docs/classes/class_spatialmaterial.rst:1315
+#: ../../docs/classes/class_spatialmaterial.rst:1331
+#: ../../docs/classes/class_spatialmaterial.rst:1347
+#: ../../docs/classes/class_spatialmaterial.rst:1363
+#: ../../docs/classes/class_spatialmaterial.rst:1381
+#: ../../docs/classes/class_spatialmaterial.rst:1397
+#: ../../docs/classes/class_spatialmaterial.rst:1413
+#: ../../docs/classes/class_spatialmaterial.rst:1429
+#: ../../docs/classes/class_spatialmaterial.rst:1445
+#: ../../docs/classes/class_spatialmaterial.rst:1461
+#: ../../docs/classes/class_spatialmaterial.rst:1477
+#: ../../docs/classes/class_spatialmaterial.rst:1493
+#: ../../docs/classes/class_spatialmaterial.rst:1507
+#: ../../docs/classes/class_spatialmaterial.rst:1521
+#: ../../docs/classes/class_spatialmaterial.rst:1537
+#: ../../docs/classes/class_spatialmaterial.rst:1553
+#: ../../docs/classes/class_spatialmaterial.rst:1569
+#: ../../docs/classes/class_spatialmaterial.rst:1587
+#: ../../docs/classes/class_spatialmaterial.rst:1605
+#: ../../docs/classes/class_spatialmaterial.rst:1621
+#: ../../docs/classes/class_spatialmaterial.rst:1637
+#: ../../docs/classes/class_spatialmaterial.rst:1653
+#: ../../docs/classes/class_spatialmaterial.rst:1667
+#: ../../docs/classes/class_spatialmaterial.rst:1683
+#: ../../docs/classes/class_spatialmaterial.rst:1699
+#: ../../docs/classes/class_spatialmaterial.rst:1715
+#: ../../docs/classes/class_spatialmaterial.rst:1731
+#: ../../docs/classes/class_spatialmaterial.rst:1745
+#: ../../docs/classes/class_spatialmaterial.rst:1759
+#: ../../docs/classes/class_spatialmaterial.rst:1773
+#: ../../docs/classes/class_spatialmaterial.rst:1787
+#: ../../docs/classes/class_spatialmaterial.rst:1803
+#: ../../docs/classes/class_spatialmaterial.rst:1819
+#: ../../docs/classes/class_spatialmaterial.rst:1833
+#: ../../docs/classes/class_spatialmaterial.rst:1847
+#: ../../docs/classes/class_spatialmaterial.rst:1861
+#: ../../docs/classes/class_spatialmaterial.rst:1875
+#: ../../docs/classes/class_spatialmaterial.rst:1891
+#: ../../docs/classes/class_spatialmaterial.rst:1905
+#: ../../docs/classes/class_spatialmaterial.rst:1919
+#: ../../docs/classes/class_spatialmaterial.rst:1935
+#: ../../docs/classes/class_spatialmaterial.rst:1949
+#: ../../docs/classes/class_spatialmaterial.rst:1965
+#: ../../docs/classes/class_spatialmaterial.rst:1981
+#: ../../docs/classes/class_spatialmaterial.rst:1995
+#: ../../docs/classes/class_spatialmaterial.rst:2009
+#: ../../docs/classes/class_spatialmaterial.rst:2023
+#: ../../docs/classes/class_spatialmaterial.rst:2039
+#: ../../docs/classes/class_spatialmaterial.rst:2053
+#: ../../docs/classes/class_spatialmaterial.rst:2069
+#: ../../docs/classes/class_spatialmaterial.rst:2085
+#: ../../docs/classes/class_spatialmaterial.rst:2101
+#: ../../docs/classes/class_spatialmaterial.rst:2117
+#: ../../docs/classes/class_spatialmaterial.rst:2133
+#: ../../docs/classes/class_spatialmaterial.rst:2149
+#: ../../docs/classes/class_spatialmaterial.rst:2165
+#: ../../docs/classes/class_spatialmaterial.rst:2181
+#: ../../docs/classes/class_spatialmaterial.rst:2197
+#: ../../docs/classes/class_spatialmaterial.rst:2213
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:695
+msgid "get_albedo()"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:698
+msgid "The material's base color."
+msgstr "材料的底色。"
+
+#: ../../docs/classes/class_spatialmaterial.rst:704
+msgid ":ref:`Texture<class_Texture>` **albedo_texture**"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:707
+#: ../../docs/classes/class_spatialmaterial.rst:751
+#: ../../docs/classes/class_spatialmaterial.rst:809
+#: ../../docs/classes/class_spatialmaterial.rst:881
+#: ../../docs/classes/class_spatialmaterial.rst:995
+#: ../../docs/classes/class_spatialmaterial.rst:1009
+#: ../../docs/classes/class_spatialmaterial.rst:1053
+#: ../../docs/classes/class_spatialmaterial.rst:1067
+#: ../../docs/classes/class_spatialmaterial.rst:1217
+#: ../../docs/classes/class_spatialmaterial.rst:1459
+#: ../../docs/classes/class_spatialmaterial.rst:1519
+#: ../../docs/classes/class_spatialmaterial.rst:1845
+#: ../../docs/classes/class_spatialmaterial.rst:1903
+#: ../../docs/classes/class_spatialmaterial.rst:1947
+#: ../../docs/classes/class_spatialmaterial.rst:2007
+#: ../../docs/classes/class_spatialmaterial.rst:2051
+msgid "set_texture(value)"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:709
+#: ../../docs/classes/class_spatialmaterial.rst:753
+#: ../../docs/classes/class_spatialmaterial.rst:811
+#: ../../docs/classes/class_spatialmaterial.rst:883
+#: ../../docs/classes/class_spatialmaterial.rst:997
+#: ../../docs/classes/class_spatialmaterial.rst:1011
+#: ../../docs/classes/class_spatialmaterial.rst:1055
+#: ../../docs/classes/class_spatialmaterial.rst:1069
+#: ../../docs/classes/class_spatialmaterial.rst:1219
+#: ../../docs/classes/class_spatialmaterial.rst:1461
+#: ../../docs/classes/class_spatialmaterial.rst:1521
+#: ../../docs/classes/class_spatialmaterial.rst:1847
+#: ../../docs/classes/class_spatialmaterial.rst:1905
+#: ../../docs/classes/class_spatialmaterial.rst:1949
+#: ../../docs/classes/class_spatialmaterial.rst:2009
+#: ../../docs/classes/class_spatialmaterial.rst:2053
+msgid "get_texture()"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:712
+msgid ""
+"Texture to multiply by :ref:"
+"`albedo_color<class_SpatialMaterial_property_albedo_color>`. Used for basic "
+"texturing of objects."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:718
+msgid ":ref:`float<class_float>` **anisotropy**"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:721
+msgid "set_anisotropy(value)"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:723
+msgid "get_anisotropy()"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:726
+msgid "The strength of the anisotropy effect."
+msgstr "各向异性效应的强度。"
+
+#: ../../docs/classes/class_spatialmaterial.rst:732
+msgid ":ref:`bool<class_bool>` **anisotropy_enabled**"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:737
+#: ../../docs/classes/class_spatialmaterial.rst:767
+#: ../../docs/classes/class_spatialmaterial.rst:853
+#: ../../docs/classes/class_spatialmaterial.rst:911
+#: ../../docs/classes/class_spatialmaterial.rst:1039
+#: ../../docs/classes/class_spatialmaterial.rst:1161
+#: ../../docs/classes/class_spatialmaterial.rst:1329
+#: ../../docs/classes/class_spatialmaterial.rst:1491
+#: ../../docs/classes/class_spatialmaterial.rst:1817
+#: ../../docs/classes/class_spatialmaterial.rst:1889
+#: ../../docs/classes/class_spatialmaterial.rst:1979
+#: ../../docs/classes/class_spatialmaterial.rst:2037
+msgid "set_feature(value)"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:739
+#: ../../docs/classes/class_spatialmaterial.rst:769
+#: ../../docs/classes/class_spatialmaterial.rst:855
+#: ../../docs/classes/class_spatialmaterial.rst:913
+#: ../../docs/classes/class_spatialmaterial.rst:1041
+#: ../../docs/classes/class_spatialmaterial.rst:1163
+#: ../../docs/classes/class_spatialmaterial.rst:1331
+#: ../../docs/classes/class_spatialmaterial.rst:1493
+#: ../../docs/classes/class_spatialmaterial.rst:1819
+#: ../../docs/classes/class_spatialmaterial.rst:1891
+#: ../../docs/classes/class_spatialmaterial.rst:1981
+#: ../../docs/classes/class_spatialmaterial.rst:2039
+msgid "get_feature()"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:742
+msgid ""
+"If ``true``, anisotropy is enabled. Changes the shape of the specular blob "
+"and aligns it to tangent space. Mesh tangents are needed for this to work. "
+"If the mesh does not contain tangents the anisotropy effect will appear "
+"broken."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:748
+msgid ":ref:`Texture<class_Texture>` **anisotropy_flowmap**"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:756
+msgid "Texture that offsets the tangent map for anisotropy calculations."
+msgstr "用于各向异性计算的偏移切线图的纹理。"
+
+#: ../../docs/classes/class_spatialmaterial.rst:762
+msgid ":ref:`bool<class_bool>` **ao_enabled**"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:772
+msgid ""
+"If ``true``, ambient occlusion is enabled. Ambient occlusion darkens areas "
+"based on the :ref:`ao_texture<class_SpatialMaterial_property_ao_texture>`."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:778
+msgid ":ref:`float<class_float>` **ao_light_affect**"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:781
+msgid "set_ao_light_affect(value)"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:783
+msgid "get_ao_light_affect()"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:786
+msgid ""
+"Amount that ambient occlusion affects lighting from lights. If ``0``, "
+"ambient occlusion only affects ambient light. If ``1``, ambient occlusion "
+"affects lights just as much as it affects ambient light. This can be used to "
+"impact the strength of the ambient occlusion effect, but typically looks "
+"unrealistic."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:792
+msgid ":ref:`bool<class_bool>` **ao_on_uv2**"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:795
+#: ../../docs/classes/class_spatialmaterial.rst:1189
+#: ../../docs/classes/class_spatialmaterial.rst:1233
+#: ../../docs/classes/class_spatialmaterial.rst:1249
+#: ../../docs/classes/class_spatialmaterial.rst:1265
+#: ../../docs/classes/class_spatialmaterial.rst:1281
+#: ../../docs/classes/class_spatialmaterial.rst:1297
+#: ../../docs/classes/class_spatialmaterial.rst:1313
+#: ../../docs/classes/class_spatialmaterial.rst:1345
+#: ../../docs/classes/class_spatialmaterial.rst:1361
+#: ../../docs/classes/class_spatialmaterial.rst:1379
+#: ../../docs/classes/class_spatialmaterial.rst:1395
+#: ../../docs/classes/class_spatialmaterial.rst:1411
+#: ../../docs/classes/class_spatialmaterial.rst:1551
+#: ../../docs/classes/class_spatialmaterial.rst:1729
+#: ../../docs/classes/class_spatialmaterial.rst:2099
+#: ../../docs/classes/class_spatialmaterial.rst:2163
+#: ../../docs/classes/class_spatialmaterial.rst:2195
+#: ../../docs/classes/class_spatialmaterial.rst:2211
+msgid "set_flag(value)"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:797
+#: ../../docs/classes/class_spatialmaterial.rst:1191
+#: ../../docs/classes/class_spatialmaterial.rst:1235
+#: ../../docs/classes/class_spatialmaterial.rst:1251
+#: ../../docs/classes/class_spatialmaterial.rst:1267
+#: ../../docs/classes/class_spatialmaterial.rst:1283
+#: ../../docs/classes/class_spatialmaterial.rst:1299
+#: ../../docs/classes/class_spatialmaterial.rst:1315
+#: ../../docs/classes/class_spatialmaterial.rst:1347
+#: ../../docs/classes/class_spatialmaterial.rst:1363
+#: ../../docs/classes/class_spatialmaterial.rst:1381
+#: ../../docs/classes/class_spatialmaterial.rst:1397
+#: ../../docs/classes/class_spatialmaterial.rst:1413
+#: ../../docs/classes/class_spatialmaterial.rst:1553
+#: ../../docs/classes/class_spatialmaterial.rst:1731
+#: ../../docs/classes/class_spatialmaterial.rst:2101
+#: ../../docs/classes/class_spatialmaterial.rst:2165
+#: ../../docs/classes/class_spatialmaterial.rst:2197
+#: ../../docs/classes/class_spatialmaterial.rst:2213
+msgid "get_flag()"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:800
+msgid ""
+"If ``true``, use ``UV2`` coordinates to look up from the :ref:"
+"`ao_texture<class_SpatialMaterial_property_ao_texture>`."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:806
+msgid ":ref:`Texture<class_Texture>` **ao_texture**"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:814
+msgid ""
+"Texture that defines the amount of ambient occlusion for a given point on "
+"the object."
+msgstr "定义物体上给定点的环境遮挡量的纹理。"
+
+#: ../../docs/classes/class_spatialmaterial.rst:820
+msgid ""
+":ref:`TextureChannel<enum_SpatialMaterial_TextureChannel>` "
+"**ao_texture_channel**"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:823
+msgid "set_ao_texture_channel(value)"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:825
+msgid "get_ao_texture_channel()"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:828
+#: ../../docs/classes/class_spatialmaterial.rst:1864
+#: ../../docs/classes/class_spatialmaterial.rst:1968
+msgid ""
+"Specifies the channel of the :ref:"
+"`ao_texture<class_SpatialMaterial_property_ao_texture>` in which the ambient "
+"occlusion information is stored. This is useful when you store the "
+"information for multiple effects in a single texture. For example if you "
+"stored metallic in the red channel, roughness in the blue, and ambient "
+"occlusion in the green you could reduce the number of textures you use."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:834
+msgid ":ref:`float<class_float>` **clearcoat**"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:837
+msgid "set_clearcoat(value)"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:839
+msgid "get_clearcoat()"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:842
+msgid ""
+"Sets the strength of the clearcoat effect. Setting to ``0`` looks the same "
+"as disabling the clearcoat effect."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:848
+msgid ":ref:`bool<class_bool>` **clearcoat_enabled**"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:858
+msgid ""
+"If ``true``, clearcoat rendering is enabled. Adds a secondary transparent "
+"pass to the lighting calculation resulting in an added specular blob. This "
+"makes materials appear as if they have a clear layer on them that can be "
+"either glossy or rough."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:864
+msgid ":ref:`float<class_float>` **clearcoat_gloss**"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:867
+msgid "set_clearcoat_gloss(value)"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:869
+msgid "get_clearcoat_gloss()"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:872
+msgid ""
+"Sets the roughness of the clearcoat pass. A higher value results in a "
+"smoother clearcoat while a lower value results in a rougher clearcoat."
+msgstr ""
+"设置清漆通道的粗糙度，数值越高，清漆越光滑，数值越低，清漆越粗糙。值越高，清"
+"漆越光滑，值越低，清漆越粗糙。"
+
+#: ../../docs/classes/class_spatialmaterial.rst:878
+msgid ":ref:`Texture<class_Texture>` **clearcoat_texture**"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:886
+msgid ""
+"Texture that defines the strength of the clearcoat effect and the glossiness "
+"of the clearcoat. Strength is specified in the red channel while glossiness "
+"is specified in the green channel."
+msgstr ""
+"定义清漆效果的强度和清漆的光泽度的纹理。强度在红色通道中指定，光泽度在绿色通"
+"道中指定。"
+
+#: ../../docs/classes/class_spatialmaterial.rst:892
+msgid ":ref:`bool<class_bool>` **depth_deep_parallax**"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:895
+msgid "set_depth_deep_parallax(value)"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:897
+msgid "is_depth_deep_parallax_enabled()"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:900
+msgid ""
+"If ``true``, the shader will read depth texture at multiple points along the "
+"view ray to determine occlusion and parrallax. This can be very performance "
+"demanding, but results in more realistic looking depth mapping."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:906
+msgid ":ref:`bool<class_bool>` **depth_enabled**"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:916
+msgid ""
+"If ``true``, depth mapping is enabled (also called \"parallax mapping\" or "
+"\"height mapping\"). See also :ref:"
+"`normal_enabled<class_SpatialMaterial_property_normal_enabled>`."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:922
+msgid ":ref:`bool<class_bool>` **depth_flip_binormal**"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:925
+msgid "set_depth_deep_parallax_flip_binormal(value)"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:927
+msgid "get_depth_deep_parallax_flip_binormal()"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:930
+msgid ""
+"If ``true``, direction of the binormal is flipped before using in the depth "
+"effect. This may be necessary if you have encoded your binormals in a way "
+"that is conflicting with the depth effect."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:936
+msgid ":ref:`bool<class_bool>` **depth_flip_tangent**"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:939
+msgid "set_depth_deep_parallax_flip_tangent(value)"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:941
+msgid "get_depth_deep_parallax_flip_tangent()"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:944
+msgid ""
+"If ``true``, direction of the tangent is flipped before using in the depth "
+"effect. This may be necessary if you have encoded your tangents in a way "
+"that is conflicting with the depth effect."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:950
+msgid ":ref:`int<class_int>` **depth_max_layers**"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:953
+msgid "set_depth_deep_parallax_max_layers(value)"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:955
+msgid "get_depth_deep_parallax_max_layers()"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:958
+msgid ""
+"Number of layers to use when using :ref:"
+"`depth_deep_parallax<class_SpatialMaterial_property_depth_deep_parallax>` "
+"and the view direction is perpendicular to the surface of the object. A "
+"higher number will be more performance demanding while a lower number may "
+"not look as crisp."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:964
+msgid ":ref:`int<class_int>` **depth_min_layers**"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:967
+msgid "set_depth_deep_parallax_min_layers(value)"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:969
+msgid "get_depth_deep_parallax_min_layers()"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:972
+msgid ""
+"Number of layers to use when using :ref:"
+"`depth_deep_parallax<class_SpatialMaterial_property_depth_deep_parallax>` "
+"and the view direction is parallel to the surface of the object. A higher "
+"number will be more performance demanding while a lower number may not look "
+"as crisp."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:978
+msgid ":ref:`float<class_float>` **depth_scale**"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:981
+msgid "set_depth_scale(value)"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:983
+msgid "get_depth_scale()"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:986
+msgid ""
+"Scales the depth offset effect. A higher number will create a larger depth."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:992
+msgid ":ref:`Texture<class_Texture>` **depth_texture**"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1000
+msgid ""
+"Texture used to determine depth at a given pixel. Depth is always stored in "
+"the red channel."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1006
+msgid ":ref:`Texture<class_Texture>` **detail_albedo**"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1014
+msgid "Texture that specifies the color of the detail overlay."
+msgstr "指定细节叠加的颜色的纹理。"
+
+#: ../../docs/classes/class_spatialmaterial.rst:1020
+msgid ":ref:`BlendMode<enum_SpatialMaterial_BlendMode>` **detail_blend_mode**"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1023
+msgid "set_detail_blend_mode(value)"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1025
+msgid "get_detail_blend_mode()"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1028
+msgid ""
+"Specifies how the :ref:"
+"`detail_albedo<class_SpatialMaterial_property_detail_albedo>` should blend "
+"with the current ``ALBEDO``. See :ref:"
+"`BlendMode<enum_SpatialMaterial_BlendMode>` for options."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1034
+msgid ":ref:`bool<class_bool>` **detail_enabled**"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1044
+msgid ""
+"If ``true``, enables the detail overlay. Detail is a second texture that "
+"gets mixed over the surface of the object based on :ref:"
+"`detail_mask<class_SpatialMaterial_property_detail_mask>`. This can be used "
+"to add variation to objects, or to blend between two different albedo/normal "
+"textures."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1050
+msgid ":ref:`Texture<class_Texture>` **detail_mask**"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1058
+msgid ""
+"Texture used to specify how the detail textures get blended with the base "
+"textures."
+msgstr "纹理用于指定细节纹理与基础纹理的混合方式。"
+
+#: ../../docs/classes/class_spatialmaterial.rst:1064
+msgid ":ref:`Texture<class_Texture>` **detail_normal**"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1072
+msgid "Texture that specifies the per-pixel normal of the detail overlay."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1074
+#: ../../docs/classes/class_spatialmaterial.rst:1526
+msgid ""
+"**Note:** Godot expects the normal map to use X+, Y-, and Z+ coordinates. "
+"See `this page <http://wiki.polycount.com/wiki/"
+"Normal_Map_Technical_Details#Common_Swizzle_Coordinates>`_ for a comparison "
+"of normal map coordinates expected by popular engines."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1080
+msgid ":ref:`DetailUV<enum_SpatialMaterial_DetailUV>` **detail_uv_layer**"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1083
+msgid "set_detail_uv(value)"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1085
+msgid "get_detail_uv()"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1088
+msgid ""
+"Specifies whether to use ``UV`` or ``UV2`` for the detail layer. See :ref:"
+"`DetailUV<enum_SpatialMaterial_DetailUV>` for options."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1094
+msgid ":ref:`float<class_float>` **distance_fade_max_distance**"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1097
+msgid "set_distance_fade_max_distance(value)"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1099
+msgid "get_distance_fade_max_distance()"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1102
+msgid "Distance at which the object appears fully opaque."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1104
+msgid ""
+"**Note:** If ``distance_fade_max_distance`` is less than "
+"``distance_fade_min_distance``, the behavior will be reversed. The object "
+"will start to fade away at ``distance_fade_max_distance`` and will fully "
+"disappear once it reaches ``distance_fade_min_distance``."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1110
+msgid ":ref:`float<class_float>` **distance_fade_min_distance**"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1113
+msgid "set_distance_fade_min_distance(value)"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1115
+msgid "get_distance_fade_min_distance()"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1118
+msgid ""
+"Distance at which the object starts to become visible. If the object is less "
+"than this distance away, it will be invisible."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1120
+msgid ""
+"**Note:** If ``distance_fade_min_distance`` is greater than "
+"``distance_fade_max_distance``, the behavior will be reversed. The object "
+"will start to fade away at ``distance_fade_max_distance`` and will fully "
+"disappear once it reaches ``distance_fade_min_distance``."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1126
+msgid ""
+":ref:`DistanceFadeMode<enum_SpatialMaterial_DistanceFadeMode>` "
+"**distance_fade_mode**"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1131
+msgid "set_distance_fade(value)"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1133
+msgid "get_distance_fade()"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1136
+msgid ""
+"Specifies which type of fade to use. Can be any of the :ref:"
+"`DistanceFadeMode<enum_SpatialMaterial_DistanceFadeMode>`\\ s."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1142
+msgid ":ref:`Color<class_Color>` **emission**"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1145
+msgid "set_emission(value)"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1147
+msgid "get_emission()"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1150
+msgid ""
+"The emitted light's color. See :ref:"
+"`emission_enabled<class_SpatialMaterial_property_emission_enabled>`."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1156
+msgid ":ref:`bool<class_bool>` **emission_enabled**"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1166
+msgid ""
+"If ``true``, the body emits light. Emitting light makes the object appear "
+"brighter. The object can also cast light on other objects if a :ref:"
+"`GIProbe<class_GIProbe>` or :ref:`BakedLightmap<class_BakedLightmap>` is "
+"used and this object is used in baked lighting."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1172
+msgid ":ref:`float<class_float>` **emission_energy**"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1175
+msgid "set_emission_energy(value)"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1177
+msgid "get_emission_energy()"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1180
+msgid ""
+"The emitted light's strength. See :ref:"
+"`emission_enabled<class_SpatialMaterial_property_emission_enabled>`."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1186
+msgid ":ref:`bool<class_bool>` **emission_on_uv2**"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1194
+msgid ""
+"Use ``UV2`` to read from the :ref:"
+"`emission_texture<class_SpatialMaterial_property_emission_texture>`."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1200
+msgid ""
+":ref:`EmissionOperator<enum_SpatialMaterial_EmissionOperator>` "
+"**emission_operator**"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1203
+msgid "set_emission_operator(value)"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1205
+msgid "get_emission_operator()"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1208
+msgid ""
+"Sets how :ref:`emission<class_SpatialMaterial_property_emission>` interacts "
+"with :ref:"
+"`emission_texture<class_SpatialMaterial_property_emission_texture>`. Can "
+"either add or multiply. See :ref:"
+"`EmissionOperator<enum_SpatialMaterial_EmissionOperator>` for options."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1214
+msgid ":ref:`Texture<class_Texture>` **emission_texture**"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1222
+msgid "Texture that specifies how much surface emits light at a given point."
+msgstr "纹理，指定某点的表面发光的程度。"
+
+#: ../../docs/classes/class_spatialmaterial.rst:1228
+msgid ":ref:`bool<class_bool>` **flags_albedo_tex_force_srgb**"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1238
+msgid ""
+"Forces a conversion of the :ref:"
+"`albedo_texture<class_SpatialMaterial_property_albedo_texture>` from sRGB "
+"space to linear space."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1244
+msgid ":ref:`bool<class_bool>` **flags_disable_ambient_light**"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1254
+msgid "If ``true``, the object receives no ambient light."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1260
+msgid ":ref:`bool<class_bool>` **flags_do_not_receive_shadows**"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1270
+msgid ""
+"If ``true``, the object receives no shadow that would otherwise be cast onto "
+"it."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1276
+msgid ":ref:`bool<class_bool>` **flags_ensure_correct_normals**"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1286
+msgid ""
+"If ``true``, the shader will compute extra operations to make sure the "
+"normal stays correct when using a non-uniform scale. Only enable if using "
+"non-uniform scaling."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1292
+msgid ":ref:`bool<class_bool>` **flags_fixed_size**"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1302
+msgid ""
+"If ``true``, the object is rendered at the same size regardless of distance."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1308
+msgid ":ref:`bool<class_bool>` **flags_no_depth_test**"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1318
+msgid ""
+"If ``true``, depth testing is disabled and the object will be drawn in "
+"render order."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1324
+msgid ":ref:`bool<class_bool>` **flags_transparent**"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1334
+msgid ""
+"If ``true``, transparency is enabled on the body. See also :ref:"
+"`params_blend_mode<class_SpatialMaterial_property_params_blend_mode>`."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1340
+msgid ":ref:`bool<class_bool>` **flags_unshaded**"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1350
+msgid "If ``true``, the object is unaffected by lighting."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1356
+msgid ":ref:`bool<class_bool>` **flags_use_point_size**"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1366
+msgid "If ``true``, render point size can be changed."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1368
+msgid ""
+"**Note:** this is only effective for objects whose geometry is point-based "
+"rather than triangle-based. See also :ref:"
+"`params_point_size<class_SpatialMaterial_property_params_point_size>`."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1374
+msgid ":ref:`bool<class_bool>` **flags_use_shadow_to_opacity**"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1384
+msgid ""
+"If ``true``, enables the \"shadow to opacity\" render mode where lighting "
+"modifies the alpha so shadowed areas are opaque and non-shadowed areas are "
+"transparent. Useful for overlaying shadows onto a camera feed in AR."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1390
+msgid ":ref:`bool<class_bool>` **flags_vertex_lighting**"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1400
+msgid ""
+"If ``true``, lighting is calculated per vertex rather than per pixel. This "
+"may increase performance on low-end devices."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1406
+msgid ":ref:`bool<class_bool>` **flags_world_triplanar**"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1416
+msgid ""
+"If ``true``, triplanar mapping is calculated in world space rather than "
+"object local space. See also :ref:"
+"`uv1_triplanar<class_SpatialMaterial_property_uv1_triplanar>`."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1422
+msgid ":ref:`float<class_float>` **metallic**"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1427
+msgid "set_metallic(value)"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1429
+msgid "get_metallic()"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1432
+msgid ""
+"A high value makes the material appear more like a metal. Non-metals use "
+"their albedo as the diffuse color and add diffuse to the specular "
+"reflection. With non-metals, the reflection appears on top of the albedo "
+"color. Metals use their albedo as a multiplier to the specular reflection "
+"and set the diffuse color to black resulting in a tinted reflection. "
+"Materials work better when fully metal or fully non-metal, values between "
+"``0`` and ``1`` should only be used for blending between metal and non-metal "
+"sections. To alter the amount of reflection use :ref:"
+"`roughness<class_SpatialMaterial_property_roughness>`."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1438
+msgid ":ref:`float<class_float>` **metallic_specular**"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1443
+msgid "set_specular(value)"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1445
+msgid "get_specular()"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1448
+msgid ""
+"Sets the size of the specular lobe. The specular lobe is the bright spot "
+"that is reflected from light sources."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1450
+msgid ""
+"**Note:** unlike :ref:`metallic<class_SpatialMaterial_property_metallic>`, "
+"this is not energy-conserving, so it should be left at ``0.5`` in most "
+"cases. See also :ref:`roughness<class_SpatialMaterial_property_roughness>`."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1456
+msgid ":ref:`Texture<class_Texture>` **metallic_texture**"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1464
+msgid ""
+"Texture used to specify metallic for an object. This is multiplied by :ref:"
+"`metallic<class_SpatialMaterial_property_metallic>`."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1470
+msgid ""
+":ref:`TextureChannel<enum_SpatialMaterial_TextureChannel>` "
+"**metallic_texture_channel**"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1475
+msgid "set_metallic_texture_channel(value)"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1477
+msgid "get_metallic_texture_channel()"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1480
+msgid ""
+"Specifies the channel of the :ref:"
+"`metallic_texture<class_SpatialMaterial_property_metallic_texture>` in which "
+"the metallic information is stored. This is useful when you store the "
+"information for multiple effects in a single texture. For example if you "
+"stored metallic in the red channel, roughness in the blue, and ambient "
+"occlusion in the green you could reduce the number of textures you use."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1486
+msgid ":ref:`bool<class_bool>` **normal_enabled**"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1496
+msgid "If ``true``, normal mapping is enabled."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1502
+msgid ":ref:`float<class_float>` **normal_scale**"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1505
+msgid "set_normal_scale(value)"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1507
+msgid "get_normal_scale()"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1510
+msgid "The strength of the normal map's effect."
+msgstr "正常地图的效果强度。"
+
+#: ../../docs/classes/class_spatialmaterial.rst:1516
+msgid ":ref:`Texture<class_Texture>` **normal_texture**"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1524
+msgid ""
+"Texture used to specify the normal at a given pixel. The ``normal_texture`` "
+"only uses the red and green channels. The normal read from "
+"``normal_texture`` is oriented around the surface normal provided by the :"
+"ref:`Mesh<class_Mesh>`."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1532
+msgid ":ref:`float<class_float>` **params_alpha_scissor_threshold**"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1535
+msgid "set_alpha_scissor_threshold(value)"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1537
+msgid "get_alpha_scissor_threshold()"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1540
+msgid "Threshold at which the alpha scissor will discard values."
+msgstr "alpha scissor会丢弃数值的阈值。"
+
+#: ../../docs/classes/class_spatialmaterial.rst:1546
+msgid ":ref:`bool<class_bool>` **params_billboard_keep_scale**"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1556
+msgid ""
+"If ``true``, the shader will keep the scale set for the mesh. Otherwise the "
+"scale is lost when billboarding. Only applies when :ref:"
+"`params_billboard_mode<class_SpatialMaterial_property_params_billboard_mode>` "
+"is :ref:"
+"`BILLBOARD_ENABLED<class_SpatialMaterial_constant_BILLBOARD_ENABLED>`."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1562
+msgid ""
+":ref:`BillboardMode<enum_SpatialMaterial_BillboardMode>` "
+"**params_billboard_mode**"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1567
+msgid "set_billboard_mode(value)"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1569
+msgid "get_billboard_mode()"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1572
+msgid ""
+"Controls how the object faces the camera. See :ref:"
+"`BillboardMode<enum_SpatialMaterial_BillboardMode>`."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1574
+msgid ""
+"**Note:** Billboard mode is not suitable for VR because the left-right "
+"vector of the camera is not horizontal when the screen is attached to your "
+"head instead of on the table. See `GitHub issue #41567 <https://github.com/"
+"godotengine/godot/issues/41567>`_ for details."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1580
+msgid ":ref:`BlendMode<enum_SpatialMaterial_BlendMode>` **params_blend_mode**"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1585
+msgid "set_blend_mode(value)"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1587
+msgid "get_blend_mode()"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1590
+msgid "The material's blend mode."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1592
+msgid ""
+"**Note:** Values other than ``Mix`` force the object into the transparent "
+"pipeline. See :ref:`BlendMode<enum_SpatialMaterial_BlendMode>`."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1598
+msgid ":ref:`CullMode<enum_SpatialMaterial_CullMode>` **params_cull_mode**"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1603
+msgid "set_cull_mode(value)"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1605
+msgid "get_cull_mode()"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1608
+msgid ""
+"Which side of the object is not drawn when backfaces are rendered. See :ref:"
+"`CullMode<enum_SpatialMaterial_CullMode>`."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1614
+msgid ""
+":ref:`DepthDrawMode<enum_SpatialMaterial_DepthDrawMode>` "
+"**params_depth_draw_mode**"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1619
+msgid "set_depth_draw_mode(value)"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1621
+msgid "get_depth_draw_mode()"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1624
+msgid ""
+"Determines when depth rendering takes place. See :ref:"
+"`DepthDrawMode<enum_SpatialMaterial_DepthDrawMode>`. See also :ref:"
+"`flags_transparent<class_SpatialMaterial_property_flags_transparent>`."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1630
+msgid ""
+":ref:`DiffuseMode<enum_SpatialMaterial_DiffuseMode>` **params_diffuse_mode**"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1635
+msgid "set_diffuse_mode(value)"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1637
+msgid "get_diffuse_mode()"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1640
+msgid ""
+"The algorithm used for diffuse light scattering. See :ref:"
+"`DiffuseMode<enum_SpatialMaterial_DiffuseMode>`."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1646
+msgid ":ref:`bool<class_bool>` **params_grow**"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1651
+msgid "set_grow_enabled(value)"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1653
+msgid "is_grow_enabled()"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1656
+msgid ""
+"If ``true``, enables the vertex grow setting. See :ref:"
+"`params_grow_amount<class_SpatialMaterial_property_params_grow_amount>`."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1662
+msgid ":ref:`float<class_float>` **params_grow_amount**"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1665
+msgid "set_grow(value)"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1667
+msgid "get_grow()"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1670
+msgid "Grows object vertices in the direction of their normals."
+msgstr "沿着法线的方向生长对象顶点。"
+
+#: ../../docs/classes/class_spatialmaterial.rst:1676
+msgid ":ref:`float<class_float>` **params_line_width**"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1681
+msgid "set_line_width(value)"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1683
+msgid "get_line_width()"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1686
+msgid "Currently unimplemented in Godot."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1692
+msgid ":ref:`float<class_float>` **params_point_size**"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1697
+msgid "set_point_size(value)"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1699
+msgid "get_point_size()"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1702
+msgid ""
+"The point size in pixels. See :ref:"
+"`flags_use_point_size<class_SpatialMaterial_property_flags_use_point_size>`."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1708
+msgid ""
+":ref:`SpecularMode<enum_SpatialMaterial_SpecularMode>` "
+"**params_specular_mode**"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1713
+msgid "set_specular_mode(value)"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1715
+msgid "get_specular_mode()"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1718
+msgid ""
+"The method for rendering the specular blob. See :ref:"
+"`SpecularMode<enum_SpatialMaterial_SpecularMode>`."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1724
+msgid ":ref:`bool<class_bool>` **params_use_alpha_scissor**"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1734
+msgid ""
+"If ``true``, the shader will discard all pixels that have an alpha value "
+"less than :ref:"
+"`params_alpha_scissor_threshold<class_SpatialMaterial_property_params_alpha_scissor_threshold>`."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1740
+msgid ":ref:`int<class_int>` **particles_anim_h_frames**"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1743
+msgid "set_particles_anim_h_frames(value)"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1745
+msgid "get_particles_anim_h_frames()"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1748
+msgid ""
+"The number of horizontal frames in the particle sprite sheet. Only enabled "
+"when using :ref:"
+"`BILLBOARD_PARTICLES<class_SpatialMaterial_constant_BILLBOARD_PARTICLES>`. "
+"See :ref:"
+"`params_billboard_mode<class_SpatialMaterial_property_params_billboard_mode>`."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1754
+msgid ":ref:`bool<class_bool>` **particles_anim_loop**"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1757
+msgid "set_particles_anim_loop(value)"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1759
+msgid "get_particles_anim_loop()"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1762
+msgid ""
+"If ``true``, particle animations are looped. Only enabled when using :ref:"
+"`BILLBOARD_PARTICLES<class_SpatialMaterial_constant_BILLBOARD_PARTICLES>`. "
+"See :ref:"
+"`params_billboard_mode<class_SpatialMaterial_property_params_billboard_mode>`."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1768
+msgid ":ref:`int<class_int>` **particles_anim_v_frames**"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1771
+msgid "set_particles_anim_v_frames(value)"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1773
+msgid "get_particles_anim_v_frames()"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1776
+msgid ""
+"The number of vertical frames in the particle sprite sheet. Only enabled "
+"when using :ref:"
+"`BILLBOARD_PARTICLES<class_SpatialMaterial_constant_BILLBOARD_PARTICLES>`. "
+"See :ref:"
+"`params_billboard_mode<class_SpatialMaterial_property_params_billboard_mode>`."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1782
+msgid ":ref:`float<class_float>` **proximity_fade_distance**"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1785
+msgid "set_proximity_fade_distance(value)"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1787
+msgid "get_proximity_fade_distance()"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1790
+msgid ""
+"Distance over which the fade effect takes place. The larger the distance the "
+"longer it takes for an object to fade."
+msgstr "渐变效果发生的距离。距离越大，物体褪色的时间越长。"
+
+#: ../../docs/classes/class_spatialmaterial.rst:1796
+msgid ":ref:`bool<class_bool>` **proximity_fade_enable**"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1801
+msgid "set_proximity_fade(value)"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1803
+msgid "is_proximity_fade_enabled()"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1806
+msgid ""
+"If ``true``, the proximity fade effect is enabled. The proximity fade effect "
+"fades out each pixel based on its distance to another object."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1812
+msgid ":ref:`bool<class_bool>` **refraction_enabled**"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1822
+msgid ""
+"If ``true``, the refraction effect is enabled. Distorts transparency based "
+"on light from behind the object."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1828
+msgid ":ref:`float<class_float>` **refraction_scale**"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1831
+msgid "set_refraction(value)"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1833
+msgid "get_refraction()"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1836
+msgid "The strength of the refraction effect."
+msgstr "折射效果的强度。"
+
+#: ../../docs/classes/class_spatialmaterial.rst:1842
+msgid ":ref:`Texture<class_Texture>` **refraction_texture**"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1850
+msgid ""
+"Texture that controls the strength of the refraction per-pixel. Multiplied "
+"by :ref:`refraction_scale<class_SpatialMaterial_property_refraction_scale>`."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1856
+msgid ""
+":ref:`TextureChannel<enum_SpatialMaterial_TextureChannel>` "
+"**refraction_texture_channel**"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1859
+msgid "set_refraction_texture_channel(value)"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1861
+msgid "get_refraction_texture_channel()"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1870
+msgid ":ref:`float<class_float>` **rim**"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1873
+msgid "set_rim(value)"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1875
+msgid "get_rim()"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1878
+msgid "Sets the strength of the rim lighting effect."
+msgstr "设置边缘照明效果的强度。"
+
+#: ../../docs/classes/class_spatialmaterial.rst:1884
+msgid ":ref:`bool<class_bool>` **rim_enabled**"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1894
+msgid ""
+"If ``true``, rim effect is enabled. Rim lighting increases the brightness at "
+"glancing angles on an object."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1900
+msgid ":ref:`Texture<class_Texture>` **rim_texture**"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1908
+msgid ""
+"Texture used to set the strength of the rim lighting effect per-pixel. "
+"Multiplied by :ref:`rim<class_SpatialMaterial_property_rim>`."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1914
+msgid ":ref:`float<class_float>` **rim_tint**"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1917
+msgid "set_rim_tint(value)"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1919
+msgid "get_rim_tint()"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1922
+msgid ""
+"The amount of to blend light and albedo color when rendering rim effect. If "
+"``0`` the light color is used, while ``1`` means albedo color is used. An "
+"intermediate value generally works best."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1928
+msgid ":ref:`float<class_float>` **roughness**"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1933
+msgid "set_roughness(value)"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1935
+msgid "get_roughness()"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1938
+msgid ""
+"Surface reflection. A value of ``0`` represents a perfect mirror while a "
+"value of ``1`` completely blurs the reflection. See also :ref:"
+"`metallic<class_SpatialMaterial_property_metallic>`."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1944
+msgid ":ref:`Texture<class_Texture>` **roughness_texture**"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1952
+msgid ""
+"Texture used to control the roughness per-pixel. Multiplied by :ref:"
+"`roughness<class_SpatialMaterial_property_roughness>`."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1958
+msgid ""
+":ref:`TextureChannel<enum_SpatialMaterial_TextureChannel>` "
+"**roughness_texture_channel**"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1963
+msgid "set_roughness_texture_channel(value)"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1965
+msgid "get_roughness_texture_channel()"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1974
+msgid ":ref:`bool<class_bool>` **subsurf_scatter_enabled**"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1984
+msgid ""
+"If ``true``, subsurface scattering is enabled. Emulates light that "
+"penetrates an object's surface, is scattered, and then emerges."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1990
+msgid ":ref:`float<class_float>` **subsurf_scatter_strength**"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1993
+msgid "set_subsurface_scattering_strength(value)"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1995
+msgid "get_subsurface_scattering_strength()"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:1998
+msgid "The strength of the subsurface scattering effect."
+msgstr "地下散射效应的强度。"
+
+#: ../../docs/classes/class_spatialmaterial.rst:2004
+msgid ":ref:`Texture<class_Texture>` **subsurf_scatter_texture**"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:2012
+msgid ""
+"Texture used to control the subsurface scattering strength. Stored in the "
+"red texture channel. Multiplied by :ref:"
+"`subsurf_scatter_strength<class_SpatialMaterial_property_subsurf_scatter_strength>`."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:2018
+msgid ":ref:`Color<class_Color>` **transmission**"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:2021
+msgid "set_transmission(value)"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:2023
+msgid "get_transmission()"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:2026
+msgid ""
+"The color used by the transmission effect. Represents the light passing "
+"through an object."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:2032
+msgid ":ref:`bool<class_bool>` **transmission_enabled**"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:2042
+msgid "If ``true``, the transmission effect is enabled."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:2048
+msgid ":ref:`Texture<class_Texture>` **transmission_texture**"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:2056
+msgid ""
+"Texture used to control the transmission effect per-pixel. Added to :ref:"
+"`transmission<class_SpatialMaterial_property_transmission>`."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:2062
+msgid ":ref:`Vector3<class_Vector3>` **uv1_offset**"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:2067
+msgid "set_uv1_offset(value)"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:2069
+msgid "get_uv1_offset()"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:2072
+msgid ""
+"How much to offset the ``UV`` coordinates. This amount will be added to "
+"``UV`` in the vertex function. This can be used to offset a texture."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:2078
+msgid ":ref:`Vector3<class_Vector3>` **uv1_scale**"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:2083
+msgid "set_uv1_scale(value)"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:2085
+msgid "get_uv1_scale()"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:2088
+msgid ""
+"How much to scale the ``UV`` coordinates. This is multiplied by ``UV`` in "
+"the vertex function."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:2094
+msgid ":ref:`bool<class_bool>` **uv1_triplanar**"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:2104
+msgid ""
+"If ``true``, instead of using ``UV`` textures will use a triplanar texture "
+"lookup to determine how to apply textures. Triplanar uses the orientation of "
+"the object's surface to blend between texture coordinates. It reads from the "
+"source texture 3 times, once for each axis and then blends between the "
+"results based on how closely the pixel aligns with each axis. This is often "
+"used for natural features to get a realistic blend of materials. Because "
+"triplanar texturing requires many more texture reads per-pixel it is much "
+"slower than normal UV texturing. Additionally, because it is blending the "
+"texture between the three axes, it is unsuitable when you are trying to "
+"achieve crisp texturing."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:2110
+msgid ":ref:`float<class_float>` **uv1_triplanar_sharpness**"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:2115
+msgid "set_uv1_triplanar_blend_sharpness(value)"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:2117
+msgid "get_uv1_triplanar_blend_sharpness()"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:2120
+#: ../../docs/classes/class_spatialmaterial.rst:2184
+msgid ""
+"A lower number blends the texture more softly while a higher number blends "
+"the texture more sharply."
+msgstr "较低的数字能使纹理更加柔和，而较高的数字则能使纹理更加锐利。"
+
+#: ../../docs/classes/class_spatialmaterial.rst:2126
+msgid ":ref:`Vector3<class_Vector3>` **uv2_offset**"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:2131
+msgid "set_uv2_offset(value)"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:2133
+msgid "get_uv2_offset()"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:2136
+msgid ""
+"How much to offset the ``UV2`` coordinates. This amount will be added to "
+"``UV2`` in the vertex function. This can be used to offset a texture."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:2142
+msgid ":ref:`Vector3<class_Vector3>` **uv2_scale**"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:2147
+msgid "set_uv2_scale(value)"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:2149
+msgid "get_uv2_scale()"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:2152
+msgid ""
+"How much to scale the ``UV2`` coordinates. This is multiplied by ``UV2`` in "
+"the vertex function."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:2158
+msgid ":ref:`bool<class_bool>` **uv2_triplanar**"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:2168
+msgid ""
+"If ``true``, instead of using ``UV2`` textures will use a triplanar texture "
+"lookup to determine how to apply textures. Triplanar uses the orientation of "
+"the object's surface to blend between texture coordinates. It reads from the "
+"source texture 3 times, once for each axis and then blends between the "
+"results based on how closely the pixel aligns with each axis. This is often "
+"used for natural features to get a realistic blend of materials. Because "
+"triplanar texturing requires many more texture reads per-pixel it is much "
+"slower than normal UV texturing. Additionally, because it is blending the "
+"texture between the three axes, it is unsuitable when you are trying to "
+"achieve crisp texturing."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:2174
+msgid ":ref:`float<class_float>` **uv2_triplanar_sharpness**"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:2179
+msgid "set_uv2_triplanar_blend_sharpness(value)"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:2181
+msgid "get_uv2_triplanar_blend_sharpness()"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:2190
+msgid ":ref:`bool<class_bool>` **vertex_color_is_srgb**"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:2200
+msgid "If ``true``, the model's vertex colors are processed as sRGB mode."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:2206
+msgid ":ref:`bool<class_bool>` **vertex_color_use_as_albedo**"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:2216
+msgid "If ``true``, the vertex color is used as albedo color."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:2219
+msgid "Method Descriptions"
+msgstr "方法说明"
+
+#: ../../docs/classes/class_spatialmaterial.rst:2223
+msgid ""
+":ref:`bool<class_bool>` **get_feature** **(** :ref:"
+"`Feature<enum_SpatialMaterial_Feature>` feature **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:2225
+msgid ""
+"Returns ``true``, if the specified :ref:"
+"`Feature<enum_SpatialMaterial_Feature>` is enabled."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:2231
+msgid ""
+":ref:`bool<class_bool>` **get_flag** **(** :ref:"
+"`Flags<enum_SpatialMaterial_Flags>` flag **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:2233
+msgid ""
+"Returns ``true``, if the specified flag is enabled. See :ref:"
+"`Flags<enum_SpatialMaterial_Flags>` enumerator for options."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:2239
+msgid ""
+":ref:`Texture<class_Texture>` **get_texture** **(** :ref:"
+"`TextureParam<enum_SpatialMaterial_TextureParam>` param **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:2241
+msgid ""
+"Returns the :ref:`Texture<class_Texture>` associated with the specified :ref:"
+"`TextureParam<enum_SpatialMaterial_TextureParam>`."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:2247
+msgid ""
+"void **set_feature** **(** :ref:`Feature<enum_SpatialMaterial_Feature>` "
+"feature, :ref:`bool<class_bool>` enable **)**"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:2249
+msgid ""
+"If ``true``, enables the specified :ref:"
+"`Feature<enum_SpatialMaterial_Feature>`. Many features that are available in "
+"``SpatialMaterial``\\ s need to be enabled before use. This way the cost for "
+"using the feature is only incurred when specified. Features can also be "
+"enabled by setting the corresponding member to ``true``."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:2255
+msgid ""
+"void **set_flag** **(** :ref:`Flags<enum_SpatialMaterial_Flags>` flag, :ref:"
+"`bool<class_bool>` enable **)**"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:2257
+msgid ""
+"If ``true``, enables the specified flag. Flags are optional behaviour that "
+"can be turned on and off. Only one flag can be enabled at a time with this "
+"function, the flag enumerators cannot be bit-masked together to enable or "
+"disable multiple flags at once. Flags can also be enabled by setting the "
+"corresponding member to ``true``. See :ref:"
+"`Flags<enum_SpatialMaterial_Flags>` enumerator for options."
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:2263
+msgid ""
+"void **set_texture** **(** :ref:"
+"`TextureParam<enum_SpatialMaterial_TextureParam>` param, :ref:"
+"`Texture<class_Texture>` texture **)**"
+msgstr ""
+
+#: ../../docs/classes/class_spatialmaterial.rst:2265
+msgid ""
+"Sets the :ref:`Texture<class_Texture>` to be used by the specified :ref:"
+"`TextureParam<enum_SpatialMaterial_TextureParam>`. This function is called "
+"when setting members ending in ``*_texture``."
+msgstr ""

@@ -1,0 +1,395 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2021, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-31 12:15+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_resource.rst:10
+msgid "Resource"
+msgstr ""
+
+#: ../../docs/classes/class_resource.rst:12
+msgid ""
+"**Inherits:** :ref:`Reference<class_Reference>` **<** :ref:"
+"`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_resource.rst:14
+msgid ""
+"**Inherited By:** :ref:`Animation<class_Animation>`, :ref:"
+"`AnimationNode<class_AnimationNode>`, :ref:"
+"`AnimationNodeStateMachinePlayback<class_AnimationNodeStateMachinePlayback>`, :"
+"ref:"
+"`AnimationNodeStateMachineTransition<class_AnimationNodeStateMachineTransition>`, :"
+"ref:`AudioBusLayout<class_AudioBusLayout>`, :ref:"
+"`AudioEffect<class_AudioEffect>`, :ref:`AudioStream<class_AudioStream>`, :"
+"ref:`BakedLightmapData<class_BakedLightmapData>`, :ref:"
+"`BitMap<class_BitMap>`, :ref:`ButtonGroup<class_ButtonGroup>`, :ref:"
+"`CryptoKey<class_CryptoKey>`, :ref:`CubeMap<class_CubeMap>`, :ref:"
+"`Curve<class_Curve>`, :ref:`Curve2D<class_Curve2D>`, :ref:"
+"`Curve3D<class_Curve3D>`, :ref:`DynamicFontData<class_DynamicFontData>`, :"
+"ref:`EditorSettings<class_EditorSettings>`, :ref:"
+"`EditorSpatialGizmoPlugin<class_EditorSpatialGizmoPlugin>`, :ref:"
+"`Environment<class_Environment>`, :ref:`Font<class_Font>`, :ref:"
+"`GDNativeLibrary<class_GDNativeLibrary>`, :ref:"
+"`GIProbeData<class_GIProbeData>`, :ref:`Gradient<class_Gradient>`, :ref:"
+"`Image<class_Image>`, :ref:`InputEvent<class_InputEvent>`, :ref:"
+"`Material<class_Material>`, :ref:`Mesh<class_Mesh>`, :ref:"
+"`MeshLibrary<class_MeshLibrary>`, :ref:`MultiMesh<class_MultiMesh>`, :ref:"
+"`NavigationMesh<class_NavigationMesh>`, :ref:"
+"`NavigationPolygon<class_NavigationPolygon>`, :ref:"
+"`OccluderPolygon2D<class_OccluderPolygon2D>`, :ref:"
+"`OpenSimplexNoise<class_OpenSimplexNoise>`, :ref:"
+"`PackedDataContainer<class_PackedDataContainer>`, :ref:"
+"`PackedScene<class_PackedScene>`, :ref:"
+"`PhysicsMaterial<class_PhysicsMaterial>`, :ref:"
+"`PolygonPathFinder<class_PolygonPathFinder>`, :ref:"
+"`RichTextEffect<class_RichTextEffect>`, :ref:`Script<class_Script>`, :ref:"
+"`Shader<class_Shader>`, :ref:`Shape<class_Shape>`, :ref:"
+"`Shape2D<class_Shape2D>`, :ref:`ShortCut<class_ShortCut>`, :ref:"
+"`Skin<class_Skin>`, :ref:`Sky<class_Sky>`, :ref:"
+"`SpriteFrames<class_SpriteFrames>`, :ref:`StyleBox<class_StyleBox>`, :ref:"
+"`TextFile<class_TextFile>`, :ref:`Texture<class_Texture>`, :ref:"
+"`TextureLayered<class_TextureLayered>`, :ref:`Theme<class_Theme>`, :ref:"
+"`TileSet<class_TileSet>`, :ref:`Translation<class_Translation>`, :ref:"
+"`VideoStream<class_VideoStream>`, :ref:"
+"`VisualScriptNode<class_VisualScriptNode>`, :ref:"
+"`VisualShaderNode<class_VisualShaderNode>`, :ref:`World<class_World>`, :ref:"
+"`World2D<class_World2D>`, :ref:`X509Certificate<class_X509Certificate>`"
+msgstr ""
+
+#: ../../docs/classes/class_resource.rst:16
+msgid "Base class for all resources."
+msgstr ""
+
+#: ../../docs/classes/class_resource.rst:19
+msgid "Description"
+msgstr "描述"
+
+#: ../../docs/classes/class_resource.rst:21
+msgid ""
+"Resource is the base class for all Godot-specific resource types, serving "
+"primarily as data containers. Unlike :ref:`Object<class_Object>`\\ s, they "
+"are reference-counted and freed when no longer in use. They are also cached "
+"once loaded from disk, so that any further attempts to load a resource from "
+"a given path will return the same reference (all this in contrast to a :ref:"
+"`Node<class_Node>`, which is not reference-counted and can be instanced from "
+"disk as many times as desired). Resources can be saved externally on disk or "
+"bundled into another object, such as a :ref:`Node<class_Node>` or another "
+"resource."
+msgstr ""
+
+#: ../../docs/classes/class_resource.rst:23
+msgid ""
+"**Note:** In C#, resources will not be freed instantly after they are no "
+"longer in use. Instead, garbage collection will run periodically and will "
+"free resources that are no longer in use. This means that unused resources "
+"will linger on for a while before being removed."
+msgstr ""
+
+#: ../../docs/classes/class_resource.rst:26
+msgid "Tutorials"
+msgstr "教程"
+
+#: ../../docs/classes/class_resource.rst:28
+msgid ":doc:`../getting_started/step_by_step/resources`"
+msgstr ""
+
+#: ../../docs/classes/class_resource.rst:30
+msgid ":doc:`../getting_started/workflow/best_practices/node_alternatives`"
+msgstr ""
+
+#: ../../docs/classes/class_resource.rst:33
+msgid "Properties"
+msgstr "属性"
+
+#: ../../docs/classes/class_resource.rst:36
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_resource.rst:36
+msgid ""
+":ref:"
+"`resource_local_to_scene<class_Resource_property_resource_local_to_scene>`"
+msgstr ""
+
+#: ../../docs/classes/class_resource.rst:36
+#: ../../docs/classes/class_resource.rst:79
+msgid "``false``"
+msgstr ""
+
+#: ../../docs/classes/class_resource.rst:38
+#: ../../docs/classes/class_resource.rst:40
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../../docs/classes/class_resource.rst:38
+msgid ":ref:`resource_name<class_Resource_property_resource_name>`"
+msgstr ""
+
+#: ../../docs/classes/class_resource.rst:38
+#: ../../docs/classes/class_resource.rst:40
+#: ../../docs/classes/class_resource.rst:95
+#: ../../docs/classes/class_resource.rst:111
+msgid "``\"\"``"
+msgstr ""
+
+#: ../../docs/classes/class_resource.rst:40
+msgid ":ref:`resource_path<class_Resource_property_resource_path>`"
+msgstr ""
+
+#: ../../docs/classes/class_resource.rst:44
+msgid "Methods"
+msgstr "方法"
+
+#: ../../docs/classes/class_resource.rst:47
+#: ../../docs/classes/class_resource.rst:55
+#: ../../docs/classes/class_resource.rst:57
+msgid "void"
+msgstr ""
+
+#: ../../docs/classes/class_resource.rst:47
+msgid ""
+":ref:`_setup_local_to_scene<class_Resource_method__setup_local_to_scene>` "
+"**(** **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_resource.rst:49
+msgid ":ref:`Resource<class_Resource>`"
+msgstr ""
+
+#: ../../docs/classes/class_resource.rst:49
+msgid ""
+":ref:`duplicate<class_Resource_method_duplicate>` **(** :ref:"
+"`bool<class_bool>` subresources=false **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_resource.rst:51
+msgid ":ref:`Node<class_Node>`"
+msgstr ""
+
+#: ../../docs/classes/class_resource.rst:51
+msgid ""
+":ref:`get_local_scene<class_Resource_method_get_local_scene>` **(** **)** |"
+"const|"
+msgstr ""
+
+#: ../../docs/classes/class_resource.rst:53
+msgid ":ref:`RID<class_RID>`"
+msgstr ""
+
+#: ../../docs/classes/class_resource.rst:53
+msgid ":ref:`get_rid<class_Resource_method_get_rid>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_resource.rst:55
+msgid ""
+":ref:`setup_local_to_scene<class_Resource_method_setup_local_to_scene>` "
+"**(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_resource.rst:57
+msgid ""
+":ref:`take_over_path<class_Resource_method_take_over_path>` **(** :ref:"
+"`String<class_String>` path **)**"
+msgstr ""
+
+#: ../../docs/classes/class_resource.rst:61
+msgid "Signals"
+msgstr "信号"
+
+#: ../../docs/classes/class_resource.rst:65
+msgid "**changed** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_resource.rst:67
+msgid "Emitted whenever the resource changes."
+msgstr ""
+
+#: ../../docs/classes/class_resource.rst:69
+msgid ""
+"**Note:** This signal is not emitted automatically for custom resources, "
+"which means that you need to create a setter and emit the signal yourself."
+msgstr ""
+
+#: ../../docs/classes/class_resource.rst:72
+msgid "Property Descriptions"
+msgstr "属性说明"
+
+#: ../../docs/classes/class_resource.rst:76
+msgid ":ref:`bool<class_bool>` **resource_local_to_scene**"
+msgstr ""
+
+#: ../../docs/classes/class_resource.rst:79
+#: ../../docs/classes/class_resource.rst:95
+#: ../../docs/classes/class_resource.rst:111
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_resource.rst:81
+#: ../../docs/classes/class_resource.rst:97
+#: ../../docs/classes/class_resource.rst:113
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_resource.rst:81
+msgid "set_local_to_scene(value)"
+msgstr ""
+
+#: ../../docs/classes/class_resource.rst:83
+#: ../../docs/classes/class_resource.rst:99
+#: ../../docs/classes/class_resource.rst:115
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_resource.rst:83
+msgid "is_local_to_scene()"
+msgstr ""
+
+#: ../../docs/classes/class_resource.rst:86
+msgid ""
+"If ``true``, the resource will be made unique in each instance of its local "
+"scene. It can thus be modified in a scene instance without impacting other "
+"instances of that same scene."
+msgstr ""
+
+#: ../../docs/classes/class_resource.rst:92
+msgid ":ref:`String<class_String>` **resource_name**"
+msgstr ""
+
+#: ../../docs/classes/class_resource.rst:97
+msgid "set_name(value)"
+msgstr ""
+
+#: ../../docs/classes/class_resource.rst:99
+msgid "get_name()"
+msgstr ""
+
+#: ../../docs/classes/class_resource.rst:102
+msgid "The name of the resource. This is an optional identifier."
+msgstr ""
+
+#: ../../docs/classes/class_resource.rst:108
+msgid ":ref:`String<class_String>` **resource_path**"
+msgstr ""
+
+#: ../../docs/classes/class_resource.rst:113
+msgid "set_path(value)"
+msgstr ""
+
+#: ../../docs/classes/class_resource.rst:115
+msgid "get_path()"
+msgstr ""
+
+#: ../../docs/classes/class_resource.rst:118
+msgid ""
+"The path to the resource. In case it has its own file, it will return its "
+"filepath. If it's tied to the scene, it will return the scene's path, "
+"followed by the resource's index."
+msgstr ""
+
+#: ../../docs/classes/class_resource.rst:121
+msgid "Method Descriptions"
+msgstr "方法说明"
+
+#: ../../docs/classes/class_resource.rst:125
+msgid "void **_setup_local_to_scene** **(** **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_resource.rst:127
+msgid ""
+"Virtual function which can be overridden to customize the behavior value of :"
+"ref:`setup_local_to_scene<class_Resource_method_setup_local_to_scene>`."
+msgstr ""
+
+#: ../../docs/classes/class_resource.rst:133
+msgid ""
+":ref:`Resource<class_Resource>` **duplicate** **(** :ref:`bool<class_bool>` "
+"subresources=false **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_resource.rst:135
+msgid ""
+"Duplicates the resource, returning a new resource. By default, sub-resources "
+"are shared between resource copies for efficiency. This can be changed by "
+"passing ``true`` to the ``subresources`` argument which will copy the "
+"subresources."
+msgstr ""
+
+#: ../../docs/classes/class_resource.rst:137
+msgid ""
+"**Note:** If ``subresources`` is ``true``, this method will only perform a "
+"shallow copy. Nested resources within subresources will not be duplicated "
+"and will still be shared."
+msgstr ""
+
+#: ../../docs/classes/class_resource.rst:143
+msgid ":ref:`Node<class_Node>` **get_local_scene** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_resource.rst:145
+msgid ""
+"If :ref:"
+"`resource_local_to_scene<class_Resource_property_resource_local_to_scene>` "
+"is enabled and the resource was loaded from a :ref:"
+"`PackedScene<class_PackedScene>` instantiation, returns the local scene "
+"where this resource's unique copy is in use. Otherwise, returns ``null``."
+msgstr ""
+
+#: ../../docs/classes/class_resource.rst:151
+msgid ":ref:`RID<class_RID>` **get_rid** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_resource.rst:153
+msgid ""
+"Returns the RID of the resource (or an empty RID). Many resources (such as :"
+"ref:`Texture<class_Texture>`, :ref:`Mesh<class_Mesh>`, etc) are high-level "
+"abstractions of resources stored in a server, so this function will return "
+"the original RID."
+msgstr ""
+
+#: ../../docs/classes/class_resource.rst:159
+msgid "void **setup_local_to_scene** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_resource.rst:161
+msgid ""
+"This method is called when a resource with :ref:"
+"`resource_local_to_scene<class_Resource_property_resource_local_to_scene>` "
+"enabled is loaded from a :ref:`PackedScene<class_PackedScene>` "
+"instantiation. Its behavior can be customized by overriding :ref:"
+"`_setup_local_to_scene<class_Resource_method__setup_local_to_scene>` from "
+"script."
+msgstr ""
+
+#: ../../docs/classes/class_resource.rst:163
+msgid ""
+"For most resources, this method performs no base logic. :ref:"
+"`ViewportTexture<class_ViewportTexture>` performs custom logic to properly "
+"set the proxy texture and flags in the local viewport."
+msgstr ""
+
+#: ../../docs/classes/class_resource.rst:169
+msgid "void **take_over_path** **(** :ref:`String<class_String>` path **)**"
+msgstr ""
+
+#: ../../docs/classes/class_resource.rst:171
+msgid ""
+"Sets the path of the resource, potentially overriding an existing cache "
+"entry for this path. This differs from setting :ref:"
+"`resource_path<class_Resource_property_resource_path>`, as the latter would "
+"error out if another resource was already cached for the given path."
+msgstr ""

@@ -1,0 +1,220 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2021, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-31 12:15+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_collisionshape2d.rst:10
+msgid "CollisionShape2D"
+msgstr ""
+
+#: ../../docs/classes/class_collisionshape2d.rst:12
+msgid ""
+"**Inherits:** :ref:`Node2D<class_Node2D>` **<** :ref:"
+"`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:"
+"`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_collisionshape2d.rst:14
+msgid "Node that represents collision shape data in 2D space."
+msgstr "表示2D空间中的碰撞形状数据的节点。"
+
+#: ../../docs/classes/class_collisionshape2d.rst:17
+msgid "Description"
+msgstr "描述"
+
+#: ../../docs/classes/class_collisionshape2d.rst:19
+msgid ""
+"Editor facility for creating and editing collision shapes in 2D space. You "
+"can use this node to represent all sorts of collision shapes, for example, "
+"add this to an :ref:`Area2D<class_Area2D>` to give it a detection shape, or "
+"add it to a :ref:`PhysicsBody2D<class_PhysicsBody2D>` to create a solid "
+"object. **IMPORTANT**: this is an Editor-only helper to create shapes, use :"
+"ref:`CollisionObject2D."
+"shape_owner_get_shape<class_CollisionObject2D_method_shape_owner_get_shape>` "
+"to get the actual shape."
+msgstr ""
+
+#: ../../docs/classes/class_collisionshape2d.rst:22
+msgid "Tutorials"
+msgstr "教程"
+
+#: ../../docs/classes/class_collisionshape2d.rst:24
+msgid ":doc:`../tutorials/physics/physics_introduction`"
+msgstr ""
+
+#: ../../docs/classes/class_collisionshape2d.rst:26
+msgid ""
+"`https://godotengine.org/asset-library/asset/515 <https://godotengine.org/"
+"asset-library/asset/515>`_"
+msgstr ""
+
+#: ../../docs/classes/class_collisionshape2d.rst:28
+msgid ""
+"`https://godotengine.org/asset-library/asset/121 <https://godotengine.org/"
+"asset-library/asset/121>`_"
+msgstr ""
+
+#: ../../docs/classes/class_collisionshape2d.rst:30
+msgid ""
+"`https://godotengine.org/asset-library/asset/113 <https://godotengine.org/"
+"asset-library/asset/113>`_"
+msgstr ""
+
+#: ../../docs/classes/class_collisionshape2d.rst:33
+msgid "Properties"
+msgstr "属性"
+
+#: ../../docs/classes/class_collisionshape2d.rst:36
+#: ../../docs/classes/class_collisionshape2d.rst:38
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_collisionshape2d.rst:36
+msgid ":ref:`disabled<class_CollisionShape2D_property_disabled>`"
+msgstr ""
+
+#: ../../docs/classes/class_collisionshape2d.rst:36
+#: ../../docs/classes/class_collisionshape2d.rst:38
+#: ../../docs/classes/class_collisionshape2d.rst:53
+#: ../../docs/classes/class_collisionshape2d.rst:69
+msgid "``false``"
+msgstr ""
+
+#: ../../docs/classes/class_collisionshape2d.rst:38
+msgid ""
+":ref:`one_way_collision<class_CollisionShape2D_property_one_way_collision>`"
+msgstr ""
+
+#: ../../docs/classes/class_collisionshape2d.rst:40
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../../docs/classes/class_collisionshape2d.rst:40
+msgid ""
+":ref:"
+"`one_way_collision_margin<class_CollisionShape2D_property_one_way_collision_margin>`"
+msgstr ""
+
+#: ../../docs/classes/class_collisionshape2d.rst:40
+#: ../../docs/classes/class_collisionshape2d.rst:85
+msgid "``1.0``"
+msgstr ""
+
+#: ../../docs/classes/class_collisionshape2d.rst:42
+msgid ":ref:`Shape2D<class_Shape2D>`"
+msgstr ""
+
+#: ../../docs/classes/class_collisionshape2d.rst:42
+msgid ":ref:`shape<class_CollisionShape2D_property_shape>`"
+msgstr ""
+
+#: ../../docs/classes/class_collisionshape2d.rst:46
+msgid "Property Descriptions"
+msgstr "属性说明"
+
+#: ../../docs/classes/class_collisionshape2d.rst:50
+msgid ":ref:`bool<class_bool>` **disabled**"
+msgstr ""
+
+#: ../../docs/classes/class_collisionshape2d.rst:53
+#: ../../docs/classes/class_collisionshape2d.rst:69
+#: ../../docs/classes/class_collisionshape2d.rst:85
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_collisionshape2d.rst:55
+#: ../../docs/classes/class_collisionshape2d.rst:71
+#: ../../docs/classes/class_collisionshape2d.rst:87
+#: ../../docs/classes/class_collisionshape2d.rst:101
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_collisionshape2d.rst:55
+msgid "set_disabled(value)"
+msgstr ""
+
+#: ../../docs/classes/class_collisionshape2d.rst:57
+#: ../../docs/classes/class_collisionshape2d.rst:73
+#: ../../docs/classes/class_collisionshape2d.rst:89
+#: ../../docs/classes/class_collisionshape2d.rst:103
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_collisionshape2d.rst:57
+msgid "is_disabled()"
+msgstr ""
+
+#: ../../docs/classes/class_collisionshape2d.rst:60
+msgid ""
+"A disabled collision shape has no effect in the world. This property should "
+"be changed with :ref:`Object.set_deferred<class_Object_method_set_deferred>`."
+msgstr ""
+
+#: ../../docs/classes/class_collisionshape2d.rst:66
+msgid ":ref:`bool<class_bool>` **one_way_collision**"
+msgstr ""
+
+#: ../../docs/classes/class_collisionshape2d.rst:71
+msgid "set_one_way_collision(value)"
+msgstr ""
+
+#: ../../docs/classes/class_collisionshape2d.rst:73
+msgid "is_one_way_collision_enabled()"
+msgstr ""
+
+#: ../../docs/classes/class_collisionshape2d.rst:76
+msgid ""
+"Sets whether this collision shape should only detect collision on one side "
+"(top or bottom)."
+msgstr "设置此碰撞形状是否仅应检测到一侧（顶部或底部）的碰撞。"
+
+#: ../../docs/classes/class_collisionshape2d.rst:82
+msgid ":ref:`float<class_float>` **one_way_collision_margin**"
+msgstr ""
+
+#: ../../docs/classes/class_collisionshape2d.rst:87
+msgid "set_one_way_collision_margin(value)"
+msgstr ""
+
+#: ../../docs/classes/class_collisionshape2d.rst:89
+msgid "get_one_way_collision_margin()"
+msgstr ""
+
+#: ../../docs/classes/class_collisionshape2d.rst:92
+msgid ""
+"The margin used for one-way collision (in pixels). Higher values will make "
+"the shape thicker, and work better for colliders that enter the shape at a "
+"high velocity."
+msgstr ""
+"用于单向碰撞的边距（以像素为单位）。较高的值将使形状更厚，并且对于高速进入形"
+"状的对撞机来说效果更好。"
+
+#: ../../docs/classes/class_collisionshape2d.rst:98
+msgid ":ref:`Shape2D<class_Shape2D>` **shape**"
+msgstr ""
+
+#: ../../docs/classes/class_collisionshape2d.rst:101
+msgid "set_shape(value)"
+msgstr ""
+
+#: ../../docs/classes/class_collisionshape2d.rst:103
+msgid "get_shape()"
+msgstr ""
+
+#: ../../docs/classes/class_collisionshape2d.rst:106
+msgid "The actual shape owned by this collision shape."
+msgstr "该碰撞形状拥有的实际形状。"

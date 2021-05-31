@@ -1,0 +1,678 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2021, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-31 12:15+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_editorinterface.rst:10
+msgid "EditorInterface"
+msgstr ""
+
+#: ../../docs/classes/class_editorinterface.rst:12
+msgid "**Inherits:** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_editorinterface.rst:14
+msgid "Godot editor's interface."
+msgstr "Godot编辑器的界面。"
+
+#: ../../docs/classes/class_editorinterface.rst:17
+msgid "Description"
+msgstr "描述"
+
+#: ../../docs/classes/class_editorinterface.rst:19
+msgid ""
+"EditorInterface gives you control over Godot editor's window. It allows "
+"customizing the window, saving and (re-)loading scenes, rendering mesh "
+"previews, inspecting and editing resources and objects, and provides access "
+"to :ref:`EditorSettings<class_EditorSettings>`, :ref:"
+"`EditorFileSystem<class_EditorFileSystem>`, :ref:"
+"`EditorResourcePreview<class_EditorResourcePreview>`, :ref:"
+"`ScriptEditor<class_ScriptEditor>`, the editor viewport, and information "
+"about scenes."
+msgstr ""
+
+#: ../../docs/classes/class_editorinterface.rst:21
+msgid ""
+"**Note:** This class shouldn't be instantiated directly. Instead, access the "
+"singleton using :ref:`EditorPlugin."
+"get_editor_interface<class_EditorPlugin_method_get_editor_interface>`."
+msgstr ""
+
+#: ../../docs/classes/class_editorinterface.rst:24
+msgid "Properties"
+msgstr "属性"
+
+#: ../../docs/classes/class_editorinterface.rst:27
+#: ../../docs/classes/class_editorinterface.rst:66
+#: ../../docs/classes/class_editorinterface.rst:68
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_editorinterface.rst:27
+msgid ""
+":ref:"
+"`distraction_free_mode<class_EditorInterface_property_distraction_free_mode>`"
+msgstr ""
+
+#: ../../docs/classes/class_editorinterface.rst:31
+msgid "Methods"
+msgstr "方法"
+
+#: ../../docs/classes/class_editorinterface.rst:34
+#: ../../docs/classes/class_editorinterface.rst:64
+#: ../../docs/classes/class_editorinterface.rst:72
+#: ../../docs/classes/class_editorinterface.rst:74
+#: ../../docs/classes/class_editorinterface.rst:76
+#: ../../docs/classes/class_editorinterface.rst:78
+#: ../../docs/classes/class_editorinterface.rst:80
+#: ../../docs/classes/class_editorinterface.rst:84
+#: ../../docs/classes/class_editorinterface.rst:86
+#: ../../docs/classes/class_editorinterface.rst:88
+#: ../../docs/classes/class_editorinterface.rst:90
+#: ../../docs/classes/class_editorinterface.rst:92
+msgid "void"
+msgstr ""
+
+#: ../../docs/classes/class_editorinterface.rst:34
+msgid ""
+":ref:`edit_resource<class_EditorInterface_method_edit_resource>` **(** :ref:"
+"`Resource<class_Resource>` resource **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorinterface.rst:36
+#: ../../docs/classes/class_editorinterface.rst:44
+msgid ":ref:`Control<class_Control>`"
+msgstr ""
+
+#: ../../docs/classes/class_editorinterface.rst:36
+msgid ""
+":ref:`get_base_control<class_EditorInterface_method_get_base_control>` **(** "
+"**)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorinterface.rst:38
+#: ../../docs/classes/class_editorinterface.rst:52
+#: ../../docs/classes/class_editorinterface.rst:60
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../../docs/classes/class_editorinterface.rst:38
+msgid ""
+":ref:`get_current_path<class_EditorInterface_method_get_current_path>` **(** "
+"**)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_editorinterface.rst:40
+msgid ":ref:`Node<class_Node>`"
+msgstr ""
+
+#: ../../docs/classes/class_editorinterface.rst:40
+msgid ""
+":ref:"
+"`get_edited_scene_root<class_EditorInterface_method_get_edited_scene_root>` "
+"**(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorinterface.rst:42
+msgid ":ref:`EditorSettings<class_EditorSettings>`"
+msgstr ""
+
+#: ../../docs/classes/class_editorinterface.rst:42
+msgid ""
+":ref:`get_editor_settings<class_EditorInterface_method_get_editor_settings>` "
+"**(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorinterface.rst:44
+msgid ""
+":ref:`get_editor_viewport<class_EditorInterface_method_get_editor_viewport>` "
+"**(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorinterface.rst:46
+msgid ":ref:`FileSystemDock<class_FileSystemDock>`"
+msgstr ""
+
+#: ../../docs/classes/class_editorinterface.rst:46
+msgid ""
+":ref:"
+"`get_file_system_dock<class_EditorInterface_method_get_file_system_dock>` "
+"**(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorinterface.rst:48
+msgid ":ref:`EditorInspector<class_EditorInspector>`"
+msgstr ""
+
+#: ../../docs/classes/class_editorinterface.rst:48
+msgid ""
+":ref:`get_inspector<class_EditorInterface_method_get_inspector>` **(** **)** "
+"|const|"
+msgstr ""
+
+#: ../../docs/classes/class_editorinterface.rst:50
+#: ../../docs/classes/class_editorinterface.rst:70
+msgid ":ref:`Array<class_Array>`"
+msgstr ""
+
+#: ../../docs/classes/class_editorinterface.rst:50
+msgid ""
+":ref:`get_open_scenes<class_EditorInterface_method_get_open_scenes>` **(** "
+"**)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_editorinterface.rst:52
+msgid ""
+":ref:`get_playing_scene<class_EditorInterface_method_get_playing_scene>` "
+"**(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_editorinterface.rst:54
+msgid ":ref:`EditorFileSystem<class_EditorFileSystem>`"
+msgstr ""
+
+#: ../../docs/classes/class_editorinterface.rst:54
+msgid ""
+":ref:"
+"`get_resource_filesystem<class_EditorInterface_method_get_resource_filesystem>` "
+"**(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorinterface.rst:56
+msgid ":ref:`EditorResourcePreview<class_EditorResourcePreview>`"
+msgstr ""
+
+#: ../../docs/classes/class_editorinterface.rst:56
+msgid ""
+":ref:"
+"`get_resource_previewer<class_EditorInterface_method_get_resource_previewer>` "
+"**(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorinterface.rst:58
+msgid ":ref:`ScriptEditor<class_ScriptEditor>`"
+msgstr ""
+
+#: ../../docs/classes/class_editorinterface.rst:58
+msgid ""
+":ref:`get_script_editor<class_EditorInterface_method_get_script_editor>` "
+"**(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorinterface.rst:60
+msgid ""
+":ref:`get_selected_path<class_EditorInterface_method_get_selected_path>` "
+"**(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_editorinterface.rst:62
+msgid ":ref:`EditorSelection<class_EditorSelection>`"
+msgstr ""
+
+#: ../../docs/classes/class_editorinterface.rst:62
+msgid ""
+":ref:`get_selection<class_EditorInterface_method_get_selection>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorinterface.rst:64
+msgid ""
+":ref:`inspect_object<class_EditorInterface_method_inspect_object>` **(** :"
+"ref:`Object<class_Object>` object, :ref:`String<class_String>` for_property="
+"\"\", :ref:`bool<class_bool>` inspector_only=false **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorinterface.rst:66
+msgid ""
+":ref:`is_playing_scene<class_EditorInterface_method_is_playing_scene>` **(** "
+"**)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_editorinterface.rst:68
+msgid ""
+":ref:`is_plugin_enabled<class_EditorInterface_method_is_plugin_enabled>` "
+"**(** :ref:`String<class_String>` plugin **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_editorinterface.rst:70
+msgid ""
+":ref:`make_mesh_previews<class_EditorInterface_method_make_mesh_previews>` "
+"**(** :ref:`Array<class_Array>` meshes, :ref:`int<class_int>` preview_size "
+"**)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorinterface.rst:72
+msgid ""
+":ref:"
+"`open_scene_from_path<class_EditorInterface_method_open_scene_from_path>` "
+"**(** :ref:`String<class_String>` scene_filepath **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorinterface.rst:74
+msgid ""
+":ref:`play_current_scene<class_EditorInterface_method_play_current_scene>` "
+"**(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorinterface.rst:76
+msgid ""
+":ref:`play_custom_scene<class_EditorInterface_method_play_custom_scene>` "
+"**(** :ref:`String<class_String>` scene_filepath **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorinterface.rst:78
+msgid ""
+":ref:`play_main_scene<class_EditorInterface_method_play_main_scene>` **(** "
+"**)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorinterface.rst:80
+msgid ""
+":ref:"
+"`reload_scene_from_path<class_EditorInterface_method_reload_scene_from_path>` "
+"**(** :ref:`String<class_String>` scene_filepath **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorinterface.rst:82
+msgid ":ref:`Error<enum_@GlobalScope_Error>`"
+msgstr ""
+
+#: ../../docs/classes/class_editorinterface.rst:82
+msgid ":ref:`save_scene<class_EditorInterface_method_save_scene>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorinterface.rst:84
+msgid ""
+":ref:`save_scene_as<class_EditorInterface_method_save_scene_as>` **(** :ref:"
+"`String<class_String>` path, :ref:`bool<class_bool>` with_preview=true **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorinterface.rst:86
+msgid ""
+":ref:`select_file<class_EditorInterface_method_select_file>` **(** :ref:"
+"`String<class_String>` file **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorinterface.rst:88
+msgid ""
+":ref:"
+"`set_main_screen_editor<class_EditorInterface_method_set_main_screen_editor>` "
+"**(** :ref:`String<class_String>` name **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorinterface.rst:90
+msgid ""
+":ref:`set_plugin_enabled<class_EditorInterface_method_set_plugin_enabled>` "
+"**(** :ref:`String<class_String>` plugin, :ref:`bool<class_bool>` enabled "
+"**)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorinterface.rst:92
+msgid ""
+":ref:`stop_playing_scene<class_EditorInterface_method_stop_playing_scene>` "
+"**(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorinterface.rst:96
+msgid "Property Descriptions"
+msgstr "属性说明"
+
+#: ../../docs/classes/class_editorinterface.rst:100
+msgid ":ref:`bool<class_bool>` **distraction_free_mode**"
+msgstr ""
+
+#: ../../docs/classes/class_editorinterface.rst:103
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_editorinterface.rst:103
+msgid "set_distraction_free_mode(value)"
+msgstr ""
+
+#: ../../docs/classes/class_editorinterface.rst:105
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_editorinterface.rst:105
+msgid "is_distraction_free_mode_enabled()"
+msgstr ""
+
+#: ../../docs/classes/class_editorinterface.rst:108
+msgid ""
+"If ``true``, enables distraction-free mode which hides side docks to "
+"increase the space available for the main view."
+msgstr ""
+
+#: ../../docs/classes/class_editorinterface.rst:111
+msgid "Method Descriptions"
+msgstr "方法说明"
+
+#: ../../docs/classes/class_editorinterface.rst:115
+msgid ""
+"void **edit_resource** **(** :ref:`Resource<class_Resource>` resource **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorinterface.rst:117
+msgid "Edits the given :ref:`Resource<class_Resource>`."
+msgstr ""
+
+#: ../../docs/classes/class_editorinterface.rst:123
+msgid ":ref:`Control<class_Control>` **get_base_control** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorinterface.rst:125
+msgid ""
+"Returns the main container of Godot editor's window. For example, you can "
+"use it to retrieve the size of the container and place your controls "
+"accordingly."
+msgstr ""
+"返回Godot编辑器窗口的主容器。例如，您可以用它来获取容器的大小，并据此放置您的"
+"控件。"
+
+#: ../../docs/classes/class_editorinterface.rst:131
+msgid ":ref:`String<class_String>` **get_current_path** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_editorinterface.rst:133
+msgid ""
+"Returns the current path being viewed in the :ref:"
+"`FileSystemDock<class_FileSystemDock>`."
+msgstr ""
+
+#: ../../docs/classes/class_editorinterface.rst:139
+msgid ":ref:`Node<class_Node>` **get_edited_scene_root** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorinterface.rst:141
+msgid "Returns the edited (current) scene's root :ref:`Node<class_Node>`."
+msgstr ""
+
+#: ../../docs/classes/class_editorinterface.rst:147
+msgid ""
+":ref:`EditorSettings<class_EditorSettings>` **get_editor_settings** **(** "
+"**)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorinterface.rst:149
+msgid ""
+"Returns the editor's :ref:`EditorSettings<class_EditorSettings>` instance."
+msgstr ""
+
+#: ../../docs/classes/class_editorinterface.rst:155
+msgid ":ref:`Control<class_Control>` **get_editor_viewport** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorinterface.rst:157
+msgid "Returns the main editor control. Use this as a parent for main screens."
+msgstr ""
+
+#: ../../docs/classes/class_editorinterface.rst:159
+msgid ""
+"**Note:** This returns the main editor control containing the whole editor, "
+"not the 2D or 3D viewports specifically."
+msgstr ""
+
+#: ../../docs/classes/class_editorinterface.rst:165
+msgid ""
+":ref:`FileSystemDock<class_FileSystemDock>` **get_file_system_dock** **(** "
+"**)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorinterface.rst:167
+msgid ""
+"Returns the editor's :ref:`FileSystemDock<class_FileSystemDock>` instance."
+msgstr ""
+
+#: ../../docs/classes/class_editorinterface.rst:173
+msgid ""
+":ref:`EditorInspector<class_EditorInspector>` **get_inspector** **(** **)** |"
+"const|"
+msgstr ""
+
+#: ../../docs/classes/class_editorinterface.rst:175
+msgid ""
+"Returns the editor's :ref:`EditorInspector<class_EditorInspector>` instance."
+msgstr ""
+
+#: ../../docs/classes/class_editorinterface.rst:181
+msgid ":ref:`Array<class_Array>` **get_open_scenes** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_editorinterface.rst:183
+msgid ""
+"Returns an :ref:`Array<class_Array>` with the file paths of the currently "
+"opened scenes."
+msgstr ""
+
+#: ../../docs/classes/class_editorinterface.rst:189
+msgid ":ref:`String<class_String>` **get_playing_scene** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_editorinterface.rst:191
+msgid ""
+"Returns the name of the scene that is being played. If no scene is currently "
+"being played, returns an empty string."
+msgstr "返回正在播放的场景名称。如果当前没有场景正在播放，返回一个空字符串。"
+
+#: ../../docs/classes/class_editorinterface.rst:197
+msgid ""
+":ref:`EditorFileSystem<class_EditorFileSystem>` **get_resource_filesystem** "
+"**(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorinterface.rst:199
+msgid ""
+"Returns the editor's :ref:`EditorFileSystem<class_EditorFileSystem>` "
+"instance."
+msgstr ""
+
+#: ../../docs/classes/class_editorinterface.rst:205
+msgid ""
+":ref:`EditorResourcePreview<class_EditorResourcePreview>` "
+"**get_resource_previewer** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorinterface.rst:207
+msgid ""
+"Returns the editor's :ref:"
+"`EditorResourcePreview<class_EditorResourcePreview>` instance."
+msgstr ""
+
+#: ../../docs/classes/class_editorinterface.rst:213
+msgid ""
+":ref:`ScriptEditor<class_ScriptEditor>` **get_script_editor** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorinterface.rst:215
+msgid "Returns the editor's :ref:`ScriptEditor<class_ScriptEditor>` instance."
+msgstr ""
+
+#: ../../docs/classes/class_editorinterface.rst:221
+msgid ":ref:`String<class_String>` **get_selected_path** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_editorinterface.rst:223
+msgid ""
+"Returns the path of the directory currently selected in the :ref:"
+"`FileSystemDock<class_FileSystemDock>`. If a file is selected, its base "
+"directory will be returned using :ref:`String."
+"get_base_dir<class_String_method_get_base_dir>` instead."
+msgstr ""
+
+#: ../../docs/classes/class_editorinterface.rst:229
+msgid ""
+":ref:`EditorSelection<class_EditorSelection>` **get_selection** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorinterface.rst:231
+msgid ""
+"Returns the editor's :ref:`EditorSelection<class_EditorSelection>` instance."
+msgstr ""
+
+#: ../../docs/classes/class_editorinterface.rst:237
+msgid ""
+"void **inspect_object** **(** :ref:`Object<class_Object>` object, :ref:"
+"`String<class_String>` for_property=\"\", :ref:`bool<class_bool>` "
+"inspector_only=false **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorinterface.rst:239
+msgid ""
+"Shows the given property on the given ``object`` in the editor's Inspector "
+"dock. If ``inspector_only`` is ``true``, plugins will not attempt to edit "
+"``object``."
+msgstr ""
+
+#: ../../docs/classes/class_editorinterface.rst:245
+msgid ":ref:`bool<class_bool>` **is_playing_scene** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_editorinterface.rst:247
+msgid ""
+"Returns ``true`` if a scene is currently being played, ``false`` otherwise. "
+"Paused scenes are considered as being played."
+msgstr ""
+
+#: ../../docs/classes/class_editorinterface.rst:253
+msgid ""
+":ref:`bool<class_bool>` **is_plugin_enabled** **(** :ref:"
+"`String<class_String>` plugin **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_editorinterface.rst:255
+msgid ""
+"Returns ``true`` if the specified ``plugin`` is enabled. The plugin name is "
+"the same as its directory name."
+msgstr ""
+
+#: ../../docs/classes/class_editorinterface.rst:261
+msgid ""
+":ref:`Array<class_Array>` **make_mesh_previews** **(** :ref:"
+"`Array<class_Array>` meshes, :ref:`int<class_int>` preview_size **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorinterface.rst:263
+msgid ""
+"Returns mesh previews rendered at the given size as an :ref:"
+"`Array<class_Array>` of :ref:`Texture<class_Texture>`\\ s."
+msgstr ""
+
+#: ../../docs/classes/class_editorinterface.rst:269
+msgid ""
+"void **open_scene_from_path** **(** :ref:`String<class_String>` "
+"scene_filepath **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorinterface.rst:271
+msgid "Opens the scene at the given path."
+msgstr "在给定路径上打开场景。"
+
+#: ../../docs/classes/class_editorinterface.rst:277
+msgid "void **play_current_scene** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorinterface.rst:279
+msgid "Plays the currently active scene."
+msgstr "播放当前活动的场景。"
+
+#: ../../docs/classes/class_editorinterface.rst:285
+msgid ""
+"void **play_custom_scene** **(** :ref:`String<class_String>` scene_filepath "
+"**)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorinterface.rst:287
+msgid "Plays the scene specified by its filepath."
+msgstr "播放文件路径所指定的场景。"
+
+#: ../../docs/classes/class_editorinterface.rst:293
+msgid "void **play_main_scene** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorinterface.rst:295
+msgid "Plays the main scene."
+msgstr "播放主场景。"
+
+#: ../../docs/classes/class_editorinterface.rst:301
+msgid ""
+"void **reload_scene_from_path** **(** :ref:`String<class_String>` "
+"scene_filepath **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorinterface.rst:303
+msgid "Reloads the scene at the given path."
+msgstr "在给定路径下重新加载场景。"
+
+#: ../../docs/classes/class_editorinterface.rst:309
+msgid ":ref:`Error<enum_@GlobalScope_Error>` **save_scene** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorinterface.rst:311
+msgid ""
+"Saves the scene. Returns either ``OK`` or ``ERR_CANT_CREATE`` (see :ref:"
+"`@GlobalScope<class_@GlobalScope>` constants)."
+msgstr ""
+
+#: ../../docs/classes/class_editorinterface.rst:317
+msgid ""
+"void **save_scene_as** **(** :ref:`String<class_String>` path, :ref:"
+"`bool<class_bool>` with_preview=true **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorinterface.rst:319
+msgid "Saves the scene as a file at ``path``."
+msgstr ""
+
+#: ../../docs/classes/class_editorinterface.rst:325
+msgid "void **select_file** **(** :ref:`String<class_String>` file **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorinterface.rst:327
+msgid ""
+"Selects the file, with the path provided by ``file``, in the FileSystem dock."
+msgstr ""
+
+#: ../../docs/classes/class_editorinterface.rst:333
+msgid ""
+"void **set_main_screen_editor** **(** :ref:`String<class_String>` name **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorinterface.rst:335
+msgid ""
+"Sets the editor's current main screen to the one specified in ``name``. "
+"``name`` must match the text of the tab in question exactly (``2D``, ``3D``, "
+"``Script``, ``AssetLib``)."
+msgstr ""
+
+#: ../../docs/classes/class_editorinterface.rst:341
+msgid ""
+"void **set_plugin_enabled** **(** :ref:`String<class_String>` plugin, :ref:"
+"`bool<class_bool>` enabled **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorinterface.rst:343
+msgid ""
+"Sets the enabled status of a plugin. The plugin name is the same as its "
+"directory name."
+msgstr "设置插件的启用状态。插件名称与其目录名称相同。"
+
+#: ../../docs/classes/class_editorinterface.rst:349
+msgid "void **stop_playing_scene** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorinterface.rst:351
+msgid "Stops the scene that is currently playing."
+msgstr "停止当前正在播放的场景。"

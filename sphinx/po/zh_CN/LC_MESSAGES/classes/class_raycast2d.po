@@ -1,0 +1,529 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2021, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-31 12:15+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_raycast2d.rst:10
+msgid "RayCast2D"
+msgstr ""
+
+#: ../../docs/classes/class_raycast2d.rst:12
+msgid ""
+"**Inherits:** :ref:`Node2D<class_Node2D>` **<** :ref:"
+"`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:"
+"`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_raycast2d.rst:14
+msgid "Query the closest object intersecting a ray."
+msgstr ""
+
+#: ../../docs/classes/class_raycast2d.rst:17
+msgid "Description"
+msgstr "描述"
+
+#: ../../docs/classes/class_raycast2d.rst:19
+msgid ""
+"A RayCast represents a line from its origin to its destination position, "
+"``cast_to``. It is used to query the 2D space in order to find the closest "
+"object along the path of the ray."
+msgstr ""
+
+#: ../../docs/classes/class_raycast2d.rst:21
+msgid ""
+"RayCast2D can ignore some objects by adding them to the exception list via "
+"``add_exception``, by setting proper filtering with collision layers, or by "
+"filtering object types with type masks."
+msgstr ""
+
+#: ../../docs/classes/class_raycast2d.rst:23
+msgid ""
+"RayCast2D can be configured to report collisions with :ref:"
+"`Area2D<class_Area2D>`\\ s (:ref:"
+"`collide_with_areas<class_RayCast2D_property_collide_with_areas>`) and/or :"
+"ref:`PhysicsBody2D<class_PhysicsBody2D>`\\ s (:ref:"
+"`collide_with_bodies<class_RayCast2D_property_collide_with_bodies>`)."
+msgstr ""
+
+#: ../../docs/classes/class_raycast2d.rst:25
+msgid ""
+"Only enabled raycasts will be able to query the space and report collisions."
+msgstr ""
+
+#: ../../docs/classes/class_raycast2d.rst:27
+msgid ""
+"RayCast2D calculates intersection every physics frame (see :ref:"
+"`Node<class_Node>`), and the result is cached so it can be used later until "
+"the next frame. If multiple queries are required between physics frames (or "
+"during the same frame) use :ref:"
+"`force_raycast_update<class_RayCast2D_method_force_raycast_update>` after "
+"adjusting the raycast."
+msgstr ""
+
+#: ../../docs/classes/class_raycast2d.rst:30
+msgid "Tutorials"
+msgstr "教程"
+
+#: ../../docs/classes/class_raycast2d.rst:32
+msgid ":doc:`../tutorials/physics/ray-casting`"
+msgstr ""
+
+#: ../../docs/classes/class_raycast2d.rst:35
+msgid "Properties"
+msgstr "属性"
+
+#: ../../docs/classes/class_raycast2d.rst:38
+#: ../../docs/classes/class_raycast2d.rst:69
+#: ../../docs/classes/class_raycast2d.rst:71
+msgid ":ref:`Vector2<class_Vector2>`"
+msgstr ""
+
+#: ../../docs/classes/class_raycast2d.rst:38
+msgid ":ref:`cast_to<class_RayCast2D_property_cast_to>`"
+msgstr ""
+
+#: ../../docs/classes/class_raycast2d.rst:38
+#: ../../docs/classes/class_raycast2d.rst:90
+msgid "``Vector2( 0, 50 )``"
+msgstr ""
+
+#: ../../docs/classes/class_raycast2d.rst:40
+#: ../../docs/classes/class_raycast2d.rst:42
+#: ../../docs/classes/class_raycast2d.rst:46
+#: ../../docs/classes/class_raycast2d.rst:48
+#: ../../docs/classes/class_raycast2d.rst:67
+#: ../../docs/classes/class_raycast2d.rst:73
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_raycast2d.rst:40
+msgid ":ref:`collide_with_areas<class_RayCast2D_property_collide_with_areas>`"
+msgstr ""
+
+#: ../../docs/classes/class_raycast2d.rst:40
+#: ../../docs/classes/class_raycast2d.rst:46
+#: ../../docs/classes/class_raycast2d.rst:106
+#: ../../docs/classes/class_raycast2d.rst:154
+msgid "``false``"
+msgstr ""
+
+#: ../../docs/classes/class_raycast2d.rst:42
+msgid ""
+":ref:`collide_with_bodies<class_RayCast2D_property_collide_with_bodies>`"
+msgstr ""
+
+#: ../../docs/classes/class_raycast2d.rst:42
+#: ../../docs/classes/class_raycast2d.rst:48
+#: ../../docs/classes/class_raycast2d.rst:122
+#: ../../docs/classes/class_raycast2d.rst:170
+msgid "``true``"
+msgstr ""
+
+#: ../../docs/classes/class_raycast2d.rst:44
+#: ../../docs/classes/class_raycast2d.rst:65
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../../docs/classes/class_raycast2d.rst:44
+msgid ":ref:`collision_mask<class_RayCast2D_property_collision_mask>`"
+msgstr ""
+
+#: ../../docs/classes/class_raycast2d.rst:44
+#: ../../docs/classes/class_raycast2d.rst:138
+msgid "``1``"
+msgstr ""
+
+#: ../../docs/classes/class_raycast2d.rst:46
+msgid ":ref:`enabled<class_RayCast2D_property_enabled>`"
+msgstr ""
+
+#: ../../docs/classes/class_raycast2d.rst:48
+msgid ":ref:`exclude_parent<class_RayCast2D_property_exclude_parent>`"
+msgstr ""
+
+#: ../../docs/classes/class_raycast2d.rst:52
+msgid "Methods"
+msgstr "方法"
+
+#: ../../docs/classes/class_raycast2d.rst:55
+#: ../../docs/classes/class_raycast2d.rst:57
+#: ../../docs/classes/class_raycast2d.rst:59
+#: ../../docs/classes/class_raycast2d.rst:61
+#: ../../docs/classes/class_raycast2d.rst:75
+#: ../../docs/classes/class_raycast2d.rst:77
+#: ../../docs/classes/class_raycast2d.rst:79
+msgid "void"
+msgstr ""
+
+#: ../../docs/classes/class_raycast2d.rst:55
+msgid ""
+":ref:`add_exception<class_RayCast2D_method_add_exception>` **(** :ref:"
+"`Object<class_Object>` node **)**"
+msgstr ""
+
+#: ../../docs/classes/class_raycast2d.rst:57
+msgid ""
+":ref:`add_exception_rid<class_RayCast2D_method_add_exception_rid>` **(** :"
+"ref:`RID<class_RID>` rid **)**"
+msgstr ""
+
+#: ../../docs/classes/class_raycast2d.rst:59
+msgid ""
+":ref:`clear_exceptions<class_RayCast2D_method_clear_exceptions>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_raycast2d.rst:61
+msgid ""
+":ref:`force_raycast_update<class_RayCast2D_method_force_raycast_update>` "
+"**(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_raycast2d.rst:63
+msgid ":ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_raycast2d.rst:63
+msgid ""
+":ref:`get_collider<class_RayCast2D_method_get_collider>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_raycast2d.rst:65
+msgid ""
+":ref:`get_collider_shape<class_RayCast2D_method_get_collider_shape>` **(** "
+"**)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_raycast2d.rst:67
+msgid ""
+":ref:`get_collision_mask_bit<class_RayCast2D_method_get_collision_mask_bit>` "
+"**(** :ref:`int<class_int>` bit **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_raycast2d.rst:69
+msgid ""
+":ref:`get_collision_normal<class_RayCast2D_method_get_collision_normal>` "
+"**(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_raycast2d.rst:71
+msgid ""
+":ref:`get_collision_point<class_RayCast2D_method_get_collision_point>` **(** "
+"**)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_raycast2d.rst:73
+msgid ""
+":ref:`is_colliding<class_RayCast2D_method_is_colliding>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_raycast2d.rst:75
+msgid ""
+":ref:`remove_exception<class_RayCast2D_method_remove_exception>` **(** :ref:"
+"`Object<class_Object>` node **)**"
+msgstr ""
+
+#: ../../docs/classes/class_raycast2d.rst:77
+msgid ""
+":ref:`remove_exception_rid<class_RayCast2D_method_remove_exception_rid>` "
+"**(** :ref:`RID<class_RID>` rid **)**"
+msgstr ""
+
+#: ../../docs/classes/class_raycast2d.rst:79
+msgid ""
+":ref:`set_collision_mask_bit<class_RayCast2D_method_set_collision_mask_bit>` "
+"**(** :ref:`int<class_int>` bit, :ref:`bool<class_bool>` value **)**"
+msgstr ""
+
+#: ../../docs/classes/class_raycast2d.rst:83
+msgid "Property Descriptions"
+msgstr "属性说明"
+
+#: ../../docs/classes/class_raycast2d.rst:87
+msgid ":ref:`Vector2<class_Vector2>` **cast_to**"
+msgstr ""
+
+#: ../../docs/classes/class_raycast2d.rst:90
+#: ../../docs/classes/class_raycast2d.rst:106
+#: ../../docs/classes/class_raycast2d.rst:122
+#: ../../docs/classes/class_raycast2d.rst:138
+#: ../../docs/classes/class_raycast2d.rst:154
+#: ../../docs/classes/class_raycast2d.rst:170
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_raycast2d.rst:92
+#: ../../docs/classes/class_raycast2d.rst:108
+#: ../../docs/classes/class_raycast2d.rst:124
+#: ../../docs/classes/class_raycast2d.rst:140
+#: ../../docs/classes/class_raycast2d.rst:156
+#: ../../docs/classes/class_raycast2d.rst:172
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_raycast2d.rst:92
+msgid "set_cast_to(value)"
+msgstr ""
+
+#: ../../docs/classes/class_raycast2d.rst:94
+#: ../../docs/classes/class_raycast2d.rst:110
+#: ../../docs/classes/class_raycast2d.rst:126
+#: ../../docs/classes/class_raycast2d.rst:142
+#: ../../docs/classes/class_raycast2d.rst:158
+#: ../../docs/classes/class_raycast2d.rst:174
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_raycast2d.rst:94
+msgid "get_cast_to()"
+msgstr ""
+
+#: ../../docs/classes/class_raycast2d.rst:97
+msgid "The ray's destination point, relative to the RayCast's ``position``."
+msgstr ""
+
+#: ../../docs/classes/class_raycast2d.rst:103
+msgid ":ref:`bool<class_bool>` **collide_with_areas**"
+msgstr ""
+
+#: ../../docs/classes/class_raycast2d.rst:108
+msgid "set_collide_with_areas(value)"
+msgstr ""
+
+#: ../../docs/classes/class_raycast2d.rst:110
+msgid "is_collide_with_areas_enabled()"
+msgstr ""
+
+#: ../../docs/classes/class_raycast2d.rst:113
+msgid ""
+"If ``true``, collision with :ref:`Area2D<class_Area2D>`\\ s will be reported."
+msgstr ""
+
+#: ../../docs/classes/class_raycast2d.rst:119
+msgid ":ref:`bool<class_bool>` **collide_with_bodies**"
+msgstr ""
+
+#: ../../docs/classes/class_raycast2d.rst:124
+msgid "set_collide_with_bodies(value)"
+msgstr ""
+
+#: ../../docs/classes/class_raycast2d.rst:126
+msgid "is_collide_with_bodies_enabled()"
+msgstr ""
+
+#: ../../docs/classes/class_raycast2d.rst:129
+msgid ""
+"If ``true``, collision with :ref:`PhysicsBody2D<class_PhysicsBody2D>`\\ s "
+"will be reported."
+msgstr ""
+
+#: ../../docs/classes/class_raycast2d.rst:135
+msgid ":ref:`int<class_int>` **collision_mask**"
+msgstr ""
+
+#: ../../docs/classes/class_raycast2d.rst:140
+msgid "set_collision_mask(value)"
+msgstr ""
+
+#: ../../docs/classes/class_raycast2d.rst:142
+msgid "get_collision_mask()"
+msgstr ""
+
+#: ../../docs/classes/class_raycast2d.rst:145
+msgid ""
+"The ray's collision mask. Only objects in at least one collision layer "
+"enabled in the mask will be detected. See `Collision layers and masks "
+"<https://docs.godotengine.org/en/3.2/tutorials/physics/physics_introduction."
+"html#collision-layers-and-masks>`_ in the documentation for more information."
+msgstr ""
+
+#: ../../docs/classes/class_raycast2d.rst:151
+msgid ":ref:`bool<class_bool>` **enabled**"
+msgstr ""
+
+#: ../../docs/classes/class_raycast2d.rst:156
+msgid "set_enabled(value)"
+msgstr ""
+
+#: ../../docs/classes/class_raycast2d.rst:158
+msgid "is_enabled()"
+msgstr ""
+
+#: ../../docs/classes/class_raycast2d.rst:161
+msgid "If ``true``, collisions will be reported."
+msgstr ""
+
+#: ../../docs/classes/class_raycast2d.rst:167
+msgid ":ref:`bool<class_bool>` **exclude_parent**"
+msgstr ""
+
+#: ../../docs/classes/class_raycast2d.rst:172
+msgid "set_exclude_parent_body(value)"
+msgstr ""
+
+#: ../../docs/classes/class_raycast2d.rst:174
+msgid "get_exclude_parent_body()"
+msgstr ""
+
+#: ../../docs/classes/class_raycast2d.rst:177
+msgid "If ``true``, the parent node will be excluded from collision detection."
+msgstr ""
+
+#: ../../docs/classes/class_raycast2d.rst:180
+msgid "Method Descriptions"
+msgstr "方法说明"
+
+#: ../../docs/classes/class_raycast2d.rst:184
+msgid "void **add_exception** **(** :ref:`Object<class_Object>` node **)**"
+msgstr ""
+
+#: ../../docs/classes/class_raycast2d.rst:186
+msgid ""
+"Adds a collision exception so the ray does not report collisions with the "
+"specified node."
+msgstr ""
+
+#: ../../docs/classes/class_raycast2d.rst:192
+msgid "void **add_exception_rid** **(** :ref:`RID<class_RID>` rid **)**"
+msgstr ""
+
+#: ../../docs/classes/class_raycast2d.rst:194
+msgid ""
+"Adds a collision exception so the ray does not report collisions with the "
+"specified :ref:`RID<class_RID>`."
+msgstr ""
+
+#: ../../docs/classes/class_raycast2d.rst:200
+msgid "void **clear_exceptions** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_raycast2d.rst:202
+msgid "Removes all collision exceptions for this ray."
+msgstr ""
+
+#: ../../docs/classes/class_raycast2d.rst:208
+msgid "void **force_raycast_update** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_raycast2d.rst:210
+msgid ""
+"Updates the collision information for the ray. Use this method to update the "
+"collision information immediately instead of waiting for the next "
+"``_physics_process`` call, for example if the ray or its parent has changed "
+"state."
+msgstr ""
+
+#: ../../docs/classes/class_raycast2d.rst:212
+msgid "**Note:** ``enabled`` is not required for this to work."
+msgstr ""
+
+#: ../../docs/classes/class_raycast2d.rst:218
+msgid ":ref:`Object<class_Object>` **get_collider** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_raycast2d.rst:220
+msgid ""
+"Returns the first object that the ray intersects, or ``null`` if no object "
+"is intersecting the ray (i.e. :ref:"
+"`is_colliding<class_RayCast2D_method_is_colliding>` returns ``false``)."
+msgstr ""
+
+#: ../../docs/classes/class_raycast2d.rst:226
+msgid ":ref:`int<class_int>` **get_collider_shape** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_raycast2d.rst:228
+msgid ""
+"Returns the shape ID of the first object that the ray intersects, or ``0`` "
+"if no object is intersecting the ray (i.e. :ref:"
+"`is_colliding<class_RayCast2D_method_is_colliding>` returns ``false``)."
+msgstr ""
+
+#: ../../docs/classes/class_raycast2d.rst:234
+msgid ""
+":ref:`bool<class_bool>` **get_collision_mask_bit** **(** :ref:"
+"`int<class_int>` bit **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_raycast2d.rst:236
+msgid "Returns an individual bit on the collision mask."
+msgstr "返回碰撞遮罩上的单个的个体。"
+
+#: ../../docs/classes/class_raycast2d.rst:242
+msgid ""
+":ref:`Vector2<class_Vector2>` **get_collision_normal** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_raycast2d.rst:244
+msgid ""
+"Returns the normal of the intersecting object's shape at the collision point."
+msgstr ""
+
+#: ../../docs/classes/class_raycast2d.rst:250
+msgid ""
+":ref:`Vector2<class_Vector2>` **get_collision_point** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_raycast2d.rst:252
+msgid ""
+"Returns the collision point at which the ray intersects the closest object."
+msgstr ""
+
+#: ../../docs/classes/class_raycast2d.rst:254
+msgid "**Note:** this point is in the **global** coordinate system."
+msgstr ""
+
+#: ../../docs/classes/class_raycast2d.rst:260
+msgid ":ref:`bool<class_bool>` **is_colliding** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_raycast2d.rst:262
+msgid ""
+"Returns whether any object is intersecting with the ray's vector "
+"(considering the vector length)."
+msgstr ""
+
+#: ../../docs/classes/class_raycast2d.rst:268
+msgid "void **remove_exception** **(** :ref:`Object<class_Object>` node **)**"
+msgstr ""
+
+#: ../../docs/classes/class_raycast2d.rst:270
+msgid ""
+"Removes a collision exception so the ray does report collisions with the "
+"specified node."
+msgstr ""
+
+#: ../../docs/classes/class_raycast2d.rst:276
+msgid "void **remove_exception_rid** **(** :ref:`RID<class_RID>` rid **)**"
+msgstr ""
+
+#: ../../docs/classes/class_raycast2d.rst:278
+msgid ""
+"Removes a collision exception so the ray does report collisions with the "
+"specified :ref:`RID<class_RID>`."
+msgstr ""
+
+#: ../../docs/classes/class_raycast2d.rst:284
+msgid ""
+"void **set_collision_mask_bit** **(** :ref:`int<class_int>` bit, :ref:"
+"`bool<class_bool>` value **)**"
+msgstr ""
+
+#: ../../docs/classes/class_raycast2d.rst:286
+msgid ""
+"Sets or clears individual bits on the collision mask. This makes selecting "
+"the areas scanned easier."
+msgstr ""

@@ -1,0 +1,188 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2021, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-31 12:15+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_funcref.rst:10
+msgid "FuncRef"
+msgstr ""
+
+#: ../../docs/classes/class_funcref.rst:12
+msgid ""
+"**Inherits:** :ref:`Reference<class_Reference>` **<** :ref:"
+"`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_funcref.rst:14
+msgid "Reference to a function in an object."
+msgstr "对一个对象中的一个函数的引用。"
+
+#: ../../docs/classes/class_funcref.rst:17
+msgid "Description"
+msgstr "描述"
+
+#: ../../docs/classes/class_funcref.rst:19
+msgid ""
+"In GDScript, functions are not *first-class objects*. This means it is "
+"impossible to store them directly as variables, return them from another "
+"function, or pass them as arguments."
+msgstr ""
+
+#: ../../docs/classes/class_funcref.rst:21
+msgid ""
+"However, by creating a ``FuncRef`` using the :ref:`@GDScript."
+"funcref<class_@GDScript_method_funcref>` function, a reference to a function "
+"in a given object can be created, passed around and called."
+msgstr ""
+
+#: ../../docs/classes/class_funcref.rst:24
+msgid "Properties"
+msgstr "属性"
+
+#: ../../docs/classes/class_funcref.rst:27
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../../docs/classes/class_funcref.rst:27
+msgid ":ref:`function<class_FuncRef_property_function>`"
+msgstr ""
+
+#: ../../docs/classes/class_funcref.rst:27
+#: ../../docs/classes/class_funcref.rst:51
+msgid "``\"\"``"
+msgstr ""
+
+#: ../../docs/classes/class_funcref.rst:31
+msgid "Methods"
+msgstr "方法"
+
+#: ../../docs/classes/class_funcref.rst:34
+#: ../../docs/classes/class_funcref.rst:36
+msgid ":ref:`Variant<class_Variant>`"
+msgstr ""
+
+#: ../../docs/classes/class_funcref.rst:34
+msgid ""
+":ref:`call_func<class_FuncRef_method_call_func>` **(** ... **)** |vararg|"
+msgstr ""
+
+#: ../../docs/classes/class_funcref.rst:36
+msgid ""
+":ref:`call_funcv<class_FuncRef_method_call_funcv>` **(** :ref:"
+"`Array<class_Array>` arg_array **)**"
+msgstr ""
+
+#: ../../docs/classes/class_funcref.rst:38
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_funcref.rst:38
+msgid ":ref:`is_valid<class_FuncRef_method_is_valid>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_funcref.rst:40
+msgid "void"
+msgstr ""
+
+#: ../../docs/classes/class_funcref.rst:40
+msgid ""
+":ref:`set_instance<class_FuncRef_method_set_instance>` **(** :ref:"
+"`Object<class_Object>` instance **)**"
+msgstr ""
+
+#: ../../docs/classes/class_funcref.rst:44
+msgid "Property Descriptions"
+msgstr "属性说明"
+
+#: ../../docs/classes/class_funcref.rst:48
+msgid ":ref:`String<class_String>` **function**"
+msgstr ""
+
+#: ../../docs/classes/class_funcref.rst:51
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_funcref.rst:53
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_funcref.rst:53
+msgid "set_function(value)"
+msgstr ""
+
+#: ../../docs/classes/class_funcref.rst:55
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_funcref.rst:55
+msgid "get_function()"
+msgstr ""
+
+#: ../../docs/classes/class_funcref.rst:58
+msgid "The name of the referenced function."
+msgstr ""
+
+#: ../../docs/classes/class_funcref.rst:61
+msgid "Method Descriptions"
+msgstr "方法说明"
+
+#: ../../docs/classes/class_funcref.rst:65
+msgid ":ref:`Variant<class_Variant>` **call_func** **(** ... **)** |vararg|"
+msgstr ""
+
+#: ../../docs/classes/class_funcref.rst:67
+msgid ""
+"Calls the referenced function previously set in :ref:"
+"`function<class_FuncRef_property_function>` or :ref:`@GDScript."
+"funcref<class_@GDScript_method_funcref>`."
+msgstr ""
+
+#: ../../docs/classes/class_funcref.rst:73
+msgid ""
+":ref:`Variant<class_Variant>` **call_funcv** **(** :ref:`Array<class_Array>` "
+"arg_array **)**"
+msgstr ""
+
+#: ../../docs/classes/class_funcref.rst:75
+msgid ""
+"Calls the referenced function previously set in :ref:"
+"`function<class_FuncRef_property_function>` or :ref:`@GDScript."
+"funcref<class_@GDScript_method_funcref>`. Contrarily to :ref:"
+"`call_func<class_FuncRef_method_call_func>`, this method does not support a "
+"variable number of arguments but expects all parameters to be passed via a "
+"single :ref:`Array<class_Array>`."
+msgstr ""
+
+#: ../../docs/classes/class_funcref.rst:81
+msgid ":ref:`bool<class_bool>` **is_valid** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_funcref.rst:83
+msgid "Returns whether the object still exists and has the function assigned."
+msgstr "返回该对象是否仍然存在并被分配了该函数。"
+
+#: ../../docs/classes/class_funcref.rst:89
+msgid "void **set_instance** **(** :ref:`Object<class_Object>` instance **)**"
+msgstr ""
+
+#: ../../docs/classes/class_funcref.rst:91
+msgid ""
+"The object containing the referenced function. This object must be of a type "
+"actually inheriting from :ref:`Object<class_Object>`, not a built-in type "
+"such as :ref:`int<class_int>`, :ref:`Vector2<class_Vector2>` or :ref:"
+"`Dictionary<class_Dictionary>`."
+msgstr ""

@@ -1,0 +1,211 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2021, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-31 12:15+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_cylindermesh.rst:10
+msgid "CylinderMesh"
+msgstr ""
+
+#: ../../docs/classes/class_cylindermesh.rst:12
+msgid ""
+"**Inherits:** :ref:`PrimitiveMesh<class_PrimitiveMesh>` **<** :ref:"
+"`Mesh<class_Mesh>` **<** :ref:`Resource<class_Resource>` **<** :ref:"
+"`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_cylindermesh.rst:14
+msgid ""
+"Class representing a cylindrical :ref:`PrimitiveMesh<class_PrimitiveMesh>`."
+msgstr ""
+
+#: ../../docs/classes/class_cylindermesh.rst:17
+msgid "Description"
+msgstr "描述"
+
+#: ../../docs/classes/class_cylindermesh.rst:19
+msgid ""
+"Class representing a cylindrical :ref:`PrimitiveMesh<class_PrimitiveMesh>`. "
+"This class can be used to create cones by setting either the :ref:"
+"`top_radius<class_CylinderMesh_property_top_radius>` or :ref:"
+"`bottom_radius<class_CylinderMesh_property_bottom_radius>` properties to 0.0."
+msgstr ""
+
+#: ../../docs/classes/class_cylindermesh.rst:22
+msgid "Properties"
+msgstr "属性"
+
+#: ../../docs/classes/class_cylindermesh.rst:25
+#: ../../docs/classes/class_cylindermesh.rst:27
+#: ../../docs/classes/class_cylindermesh.rst:33
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../../docs/classes/class_cylindermesh.rst:25
+msgid ":ref:`bottom_radius<class_CylinderMesh_property_bottom_radius>`"
+msgstr ""
+
+#: ../../docs/classes/class_cylindermesh.rst:25
+#: ../../docs/classes/class_cylindermesh.rst:33
+#: ../../docs/classes/class_cylindermesh.rst:44
+#: ../../docs/classes/class_cylindermesh.rst:108
+msgid "``1.0``"
+msgstr ""
+
+#: ../../docs/classes/class_cylindermesh.rst:27
+msgid ":ref:`height<class_CylinderMesh_property_height>`"
+msgstr ""
+
+#: ../../docs/classes/class_cylindermesh.rst:27
+#: ../../docs/classes/class_cylindermesh.rst:60
+msgid "``2.0``"
+msgstr ""
+
+#: ../../docs/classes/class_cylindermesh.rst:29
+#: ../../docs/classes/class_cylindermesh.rst:31
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../../docs/classes/class_cylindermesh.rst:29
+msgid ":ref:`radial_segments<class_CylinderMesh_property_radial_segments>`"
+msgstr ""
+
+#: ../../docs/classes/class_cylindermesh.rst:29
+#: ../../docs/classes/class_cylindermesh.rst:76
+msgid "``64``"
+msgstr ""
+
+#: ../../docs/classes/class_cylindermesh.rst:31
+msgid ":ref:`rings<class_CylinderMesh_property_rings>`"
+msgstr ""
+
+#: ../../docs/classes/class_cylindermesh.rst:31
+#: ../../docs/classes/class_cylindermesh.rst:92
+msgid "``4``"
+msgstr ""
+
+#: ../../docs/classes/class_cylindermesh.rst:33
+msgid ":ref:`top_radius<class_CylinderMesh_property_top_radius>`"
+msgstr ""
+
+#: ../../docs/classes/class_cylindermesh.rst:37
+msgid "Property Descriptions"
+msgstr "属性说明"
+
+#: ../../docs/classes/class_cylindermesh.rst:41
+msgid ":ref:`float<class_float>` **bottom_radius**"
+msgstr ""
+
+#: ../../docs/classes/class_cylindermesh.rst:44
+#: ../../docs/classes/class_cylindermesh.rst:60
+#: ../../docs/classes/class_cylindermesh.rst:76
+#: ../../docs/classes/class_cylindermesh.rst:92
+#: ../../docs/classes/class_cylindermesh.rst:108
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_cylindermesh.rst:46
+#: ../../docs/classes/class_cylindermesh.rst:62
+#: ../../docs/classes/class_cylindermesh.rst:78
+#: ../../docs/classes/class_cylindermesh.rst:94
+#: ../../docs/classes/class_cylindermesh.rst:110
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_cylindermesh.rst:46
+msgid "set_bottom_radius(value)"
+msgstr ""
+
+#: ../../docs/classes/class_cylindermesh.rst:48
+#: ../../docs/classes/class_cylindermesh.rst:64
+#: ../../docs/classes/class_cylindermesh.rst:80
+#: ../../docs/classes/class_cylindermesh.rst:96
+#: ../../docs/classes/class_cylindermesh.rst:112
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_cylindermesh.rst:48
+msgid "get_bottom_radius()"
+msgstr ""
+
+#: ../../docs/classes/class_cylindermesh.rst:51
+msgid "Bottom radius of the cylinder."
+msgstr "圆柱体的半径。"
+
+#: ../../docs/classes/class_cylindermesh.rst:57
+msgid ":ref:`float<class_float>` **height**"
+msgstr ""
+
+#: ../../docs/classes/class_cylindermesh.rst:62
+msgid "set_height(value)"
+msgstr ""
+
+#: ../../docs/classes/class_cylindermesh.rst:64
+msgid "get_height()"
+msgstr ""
+
+#: ../../docs/classes/class_cylindermesh.rst:67
+msgid "Full height of the cylinder."
+msgstr "缸体的全高。"
+
+#: ../../docs/classes/class_cylindermesh.rst:73
+msgid ":ref:`int<class_int>` **radial_segments**"
+msgstr ""
+
+#: ../../docs/classes/class_cylindermesh.rst:78
+msgid "set_radial_segments(value)"
+msgstr ""
+
+#: ../../docs/classes/class_cylindermesh.rst:80
+msgid "get_radial_segments()"
+msgstr ""
+
+#: ../../docs/classes/class_cylindermesh.rst:83
+msgid "Number of radial segments on the cylinder."
+msgstr "圆柱体上的径向段数。"
+
+#: ../../docs/classes/class_cylindermesh.rst:89
+msgid ":ref:`int<class_int>` **rings**"
+msgstr ""
+
+#: ../../docs/classes/class_cylindermesh.rst:94
+msgid "set_rings(value)"
+msgstr ""
+
+#: ../../docs/classes/class_cylindermesh.rst:96
+msgid "get_rings()"
+msgstr ""
+
+#: ../../docs/classes/class_cylindermesh.rst:99
+msgid "Number of edge rings along the height of the cylinder."
+msgstr "沿着圆柱体高度的边环数量。"
+
+#: ../../docs/classes/class_cylindermesh.rst:105
+msgid ":ref:`float<class_float>` **top_radius**"
+msgstr ""
+
+#: ../../docs/classes/class_cylindermesh.rst:110
+msgid "set_top_radius(value)"
+msgstr ""
+
+#: ../../docs/classes/class_cylindermesh.rst:112
+msgid "get_top_radius()"
+msgstr ""
+
+#: ../../docs/classes/class_cylindermesh.rst:115
+msgid "Top radius of the cylinder."
+msgstr "筒体的顶部半径。"

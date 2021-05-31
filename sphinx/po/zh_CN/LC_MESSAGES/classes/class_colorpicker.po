@@ -1,0 +1,460 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2021, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-31 12:15+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_colorpicker.rst:10
+msgid "ColorPicker"
+msgstr ""
+
+#: ../../docs/classes/class_colorpicker.rst:12
+msgid ""
+"**Inherits:** :ref:`BoxContainer<class_BoxContainer>` **<** :ref:"
+"`Container<class_Container>` **<** :ref:`Control<class_Control>` **<** :ref:"
+"`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:"
+"`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_colorpicker.rst:14
+msgid "Color picker control."
+msgstr "选色器控制。"
+
+#: ../../docs/classes/class_colorpicker.rst:17
+msgid "Description"
+msgstr "描述"
+
+#: ../../docs/classes/class_colorpicker.rst:19
+msgid ""
+":ref:`Control<class_Control>` node displaying a color picker widget. It's "
+"useful for selecting a color from an RGB/RGBA colorspace."
+msgstr ""
+
+#: ../../docs/classes/class_colorpicker.rst:22
+msgid "Tutorials"
+msgstr "教程"
+
+#: ../../docs/classes/class_colorpicker.rst:24
+msgid ""
+"`https://godotengine.org/asset-library/asset/146 <https://godotengine.org/"
+"asset-library/asset/146>`_"
+msgstr ""
+
+#: ../../docs/classes/class_colorpicker.rst:27
+msgid "Properties"
+msgstr "属性"
+
+#: ../../docs/classes/class_colorpicker.rst:30
+msgid ":ref:`Color<class_Color>`"
+msgstr ""
+
+#: ../../docs/classes/class_colorpicker.rst:30
+msgid ":ref:`color<class_ColorPicker_property_color>`"
+msgstr ""
+
+#: ../../docs/classes/class_colorpicker.rst:30
+#: ../../docs/classes/class_colorpicker.rst:116
+msgid "``Color( 1, 1, 1, 1 )``"
+msgstr ""
+
+#: ../../docs/classes/class_colorpicker.rst:32
+#: ../../docs/classes/class_colorpicker.rst:34
+#: ../../docs/classes/class_colorpicker.rst:36
+#: ../../docs/classes/class_colorpicker.rst:38
+#: ../../docs/classes/class_colorpicker.rst:40
+#: ../../docs/classes/class_colorpicker.rst:42
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_colorpicker.rst:32
+msgid ":ref:`deferred_mode<class_ColorPicker_property_deferred_mode>`"
+msgstr ""
+
+#: ../../docs/classes/class_colorpicker.rst:32
+#: ../../docs/classes/class_colorpicker.rst:36
+#: ../../docs/classes/class_colorpicker.rst:42
+#: ../../docs/classes/class_colorpicker.rst:132
+#: ../../docs/classes/class_colorpicker.rst:164
+#: ../../docs/classes/class_colorpicker.rst:214
+msgid "``false``"
+msgstr ""
+
+#: ../../docs/classes/class_colorpicker.rst:34
+msgid ":ref:`edit_alpha<class_ColorPicker_property_edit_alpha>`"
+msgstr ""
+
+#: ../../docs/classes/class_colorpicker.rst:34
+#: ../../docs/classes/class_colorpicker.rst:38
+#: ../../docs/classes/class_colorpicker.rst:40
+#: ../../docs/classes/class_colorpicker.rst:148
+#: ../../docs/classes/class_colorpicker.rst:182
+#: ../../docs/classes/class_colorpicker.rst:198
+msgid "``true``"
+msgstr ""
+
+#: ../../docs/classes/class_colorpicker.rst:36
+msgid ":ref:`hsv_mode<class_ColorPicker_property_hsv_mode>`"
+msgstr ""
+
+#: ../../docs/classes/class_colorpicker.rst:38
+msgid ":ref:`presets_enabled<class_ColorPicker_property_presets_enabled>`"
+msgstr ""
+
+#: ../../docs/classes/class_colorpicker.rst:40
+msgid ":ref:`presets_visible<class_ColorPicker_property_presets_visible>`"
+msgstr ""
+
+#: ../../docs/classes/class_colorpicker.rst:42
+msgid ":ref:`raw_mode<class_ColorPicker_property_raw_mode>`"
+msgstr ""
+
+#: ../../docs/classes/class_colorpicker.rst:46
+msgid "Methods"
+msgstr "方法"
+
+#: ../../docs/classes/class_colorpicker.rst:49
+#: ../../docs/classes/class_colorpicker.rst:51
+msgid "void"
+msgstr ""
+
+#: ../../docs/classes/class_colorpicker.rst:49
+msgid ""
+":ref:`add_preset<class_ColorPicker_method_add_preset>` **(** :ref:"
+"`Color<class_Color>` color **)**"
+msgstr ""
+
+#: ../../docs/classes/class_colorpicker.rst:51
+msgid ""
+":ref:`erase_preset<class_ColorPicker_method_erase_preset>` **(** :ref:"
+"`Color<class_Color>` color **)**"
+msgstr ""
+
+#: ../../docs/classes/class_colorpicker.rst:53
+msgid ":ref:`PoolColorArray<class_PoolColorArray>`"
+msgstr ""
+
+#: ../../docs/classes/class_colorpicker.rst:53
+msgid ""
+":ref:`get_presets<class_ColorPicker_method_get_presets>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_colorpicker.rst:57
+msgid "Theme Properties"
+msgstr "主题属性"
+
+#: ../../docs/classes/class_colorpicker.rst:60
+#: ../../docs/classes/class_colorpicker.rst:62
+#: ../../docs/classes/class_colorpicker.rst:64
+#: ../../docs/classes/class_colorpicker.rst:72
+#: ../../docs/classes/class_colorpicker.rst:74
+#: ../../docs/classes/class_colorpicker.rst:76
+msgid ":ref:`Texture<class_Texture>`"
+msgstr ""
+
+#: ../../docs/classes/class_colorpicker.rst:60
+msgid "add_preset"
+msgstr ""
+
+#: ../../docs/classes/class_colorpicker.rst:62
+msgid "color_hue"
+msgstr ""
+
+#: ../../docs/classes/class_colorpicker.rst:64
+msgid "color_sample"
+msgstr ""
+
+#: ../../docs/classes/class_colorpicker.rst:66
+#: ../../docs/classes/class_colorpicker.rst:68
+#: ../../docs/classes/class_colorpicker.rst:70
+#: ../../docs/classes/class_colorpicker.rst:78
+#: ../../docs/classes/class_colorpicker.rst:80
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../../docs/classes/class_colorpicker.rst:66
+msgid "h_width"
+msgstr ""
+
+#: ../../docs/classes/class_colorpicker.rst:66
+msgid "30"
+msgstr ""
+
+#: ../../docs/classes/class_colorpicker.rst:68
+msgid "label_width"
+msgstr ""
+
+#: ../../docs/classes/class_colorpicker.rst:68
+msgid "10"
+msgstr ""
+
+#: ../../docs/classes/class_colorpicker.rst:70
+msgid "margin"
+msgstr ""
+
+#: ../../docs/classes/class_colorpicker.rst:70
+msgid "4"
+msgstr ""
+
+#: ../../docs/classes/class_colorpicker.rst:72
+msgid "overbright_indicator"
+msgstr ""
+
+#: ../../docs/classes/class_colorpicker.rst:74
+msgid "preset_bg"
+msgstr ""
+
+#: ../../docs/classes/class_colorpicker.rst:76
+msgid "screen_picker"
+msgstr ""
+
+#: ../../docs/classes/class_colorpicker.rst:78
+msgid "sv_height"
+msgstr ""
+
+#: ../../docs/classes/class_colorpicker.rst:78
+#: ../../docs/classes/class_colorpicker.rst:80
+msgid "256"
+msgstr ""
+
+#: ../../docs/classes/class_colorpicker.rst:80
+msgid "sv_width"
+msgstr ""
+
+#: ../../docs/classes/class_colorpicker.rst:84
+msgid "Signals"
+msgstr "信号"
+
+#: ../../docs/classes/class_colorpicker.rst:88
+msgid "**color_changed** **(** :ref:`Color<class_Color>` color **)**"
+msgstr ""
+
+#: ../../docs/classes/class_colorpicker.rst:90
+msgid "Emitted when the color is changed."
+msgstr "更改颜色时发出。"
+
+#: ../../docs/classes/class_colorpicker.rst:96
+msgid "**preset_added** **(** :ref:`Color<class_Color>` color **)**"
+msgstr ""
+
+#: ../../docs/classes/class_colorpicker.rst:98
+msgid "Emitted when a preset is added."
+msgstr "添加预设时发出。"
+
+#: ../../docs/classes/class_colorpicker.rst:104
+msgid "**preset_removed** **(** :ref:`Color<class_Color>` color **)**"
+msgstr ""
+
+#: ../../docs/classes/class_colorpicker.rst:106
+msgid "Emitted when a preset is removed."
+msgstr "删除预设时发出。"
+
+#: ../../docs/classes/class_colorpicker.rst:109
+msgid "Property Descriptions"
+msgstr "属性说明"
+
+#: ../../docs/classes/class_colorpicker.rst:113
+msgid ":ref:`Color<class_Color>` **color**"
+msgstr ""
+
+#: ../../docs/classes/class_colorpicker.rst:116
+#: ../../docs/classes/class_colorpicker.rst:132
+#: ../../docs/classes/class_colorpicker.rst:148
+#: ../../docs/classes/class_colorpicker.rst:164
+#: ../../docs/classes/class_colorpicker.rst:182
+#: ../../docs/classes/class_colorpicker.rst:198
+#: ../../docs/classes/class_colorpicker.rst:214
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_colorpicker.rst:118
+#: ../../docs/classes/class_colorpicker.rst:134
+#: ../../docs/classes/class_colorpicker.rst:150
+#: ../../docs/classes/class_colorpicker.rst:166
+#: ../../docs/classes/class_colorpicker.rst:184
+#: ../../docs/classes/class_colorpicker.rst:200
+#: ../../docs/classes/class_colorpicker.rst:216
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_colorpicker.rst:118
+msgid "set_pick_color(value)"
+msgstr ""
+
+#: ../../docs/classes/class_colorpicker.rst:120
+#: ../../docs/classes/class_colorpicker.rst:136
+#: ../../docs/classes/class_colorpicker.rst:152
+#: ../../docs/classes/class_colorpicker.rst:168
+#: ../../docs/classes/class_colorpicker.rst:186
+#: ../../docs/classes/class_colorpicker.rst:202
+#: ../../docs/classes/class_colorpicker.rst:218
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_colorpicker.rst:120
+msgid "get_pick_color()"
+msgstr ""
+
+#: ../../docs/classes/class_colorpicker.rst:123
+msgid "The currently selected color."
+msgstr "当前选择的颜色。"
+
+#: ../../docs/classes/class_colorpicker.rst:129
+msgid ":ref:`bool<class_bool>` **deferred_mode**"
+msgstr ""
+
+#: ../../docs/classes/class_colorpicker.rst:134
+msgid "set_deferred_mode(value)"
+msgstr ""
+
+#: ../../docs/classes/class_colorpicker.rst:136
+msgid "is_deferred_mode()"
+msgstr ""
+
+#: ../../docs/classes/class_colorpicker.rst:139
+msgid ""
+"If ``true``, the color will apply only after the user releases the mouse "
+"button, otherwise it will apply immediately even in mouse motion event "
+"(which can cause performance issues)."
+msgstr ""
+
+#: ../../docs/classes/class_colorpicker.rst:145
+msgid ":ref:`bool<class_bool>` **edit_alpha**"
+msgstr ""
+
+#: ../../docs/classes/class_colorpicker.rst:150
+msgid "set_edit_alpha(value)"
+msgstr ""
+
+#: ../../docs/classes/class_colorpicker.rst:152
+msgid "is_editing_alpha()"
+msgstr ""
+
+#: ../../docs/classes/class_colorpicker.rst:155
+msgid "If ``true``, shows an alpha channel slider (transparency)."
+msgstr ""
+
+#: ../../docs/classes/class_colorpicker.rst:161
+msgid ":ref:`bool<class_bool>` **hsv_mode**"
+msgstr ""
+
+#: ../../docs/classes/class_colorpicker.rst:166
+msgid "set_hsv_mode(value)"
+msgstr ""
+
+#: ../../docs/classes/class_colorpicker.rst:168
+msgid "is_hsv_mode()"
+msgstr ""
+
+#: ../../docs/classes/class_colorpicker.rst:171
+msgid ""
+"If ``true``, allows editing the color with Hue/Saturation/Value sliders."
+msgstr ""
+
+#: ../../docs/classes/class_colorpicker.rst:173
+msgid "**Note:** Cannot be enabled if raw mode is on."
+msgstr ""
+
+#: ../../docs/classes/class_colorpicker.rst:179
+msgid ":ref:`bool<class_bool>` **presets_enabled**"
+msgstr ""
+
+#: ../../docs/classes/class_colorpicker.rst:184
+msgid "set_presets_enabled(value)"
+msgstr ""
+
+#: ../../docs/classes/class_colorpicker.rst:186
+msgid "are_presets_enabled()"
+msgstr ""
+
+#: ../../docs/classes/class_colorpicker.rst:189
+msgid "If ``true``, the \"add preset\" button is enabled."
+msgstr ""
+
+#: ../../docs/classes/class_colorpicker.rst:195
+msgid ":ref:`bool<class_bool>` **presets_visible**"
+msgstr ""
+
+#: ../../docs/classes/class_colorpicker.rst:200
+msgid "set_presets_visible(value)"
+msgstr ""
+
+#: ../../docs/classes/class_colorpicker.rst:202
+msgid "are_presets_visible()"
+msgstr ""
+
+#: ../../docs/classes/class_colorpicker.rst:205
+msgid "If ``true``, saved color presets are visible."
+msgstr ""
+
+#: ../../docs/classes/class_colorpicker.rst:211
+msgid ":ref:`bool<class_bool>` **raw_mode**"
+msgstr ""
+
+#: ../../docs/classes/class_colorpicker.rst:216
+msgid "set_raw_mode(value)"
+msgstr ""
+
+#: ../../docs/classes/class_colorpicker.rst:218
+msgid "is_raw_mode()"
+msgstr ""
+
+#: ../../docs/classes/class_colorpicker.rst:221
+msgid ""
+"If ``true``, allows the color R, G, B component values to go beyond 1.0, "
+"which can be used for certain special operations that require it (like "
+"tinting without darkening or rendering sprites in HDR)."
+msgstr ""
+
+#: ../../docs/classes/class_colorpicker.rst:223
+msgid "**Note:** Cannot be enabled if HSV mode is on."
+msgstr ""
+
+#: ../../docs/classes/class_colorpicker.rst:226
+msgid "Method Descriptions"
+msgstr "方法说明"
+
+#: ../../docs/classes/class_colorpicker.rst:230
+msgid "void **add_preset** **(** :ref:`Color<class_Color>` color **)**"
+msgstr ""
+
+#: ../../docs/classes/class_colorpicker.rst:232
+msgid ""
+"Adds the given color to a list of color presets. The presets are displayed "
+"in the color picker and the user will be able to select them."
+msgstr ""
+
+#: ../../docs/classes/class_colorpicker.rst:234
+msgid "**Note:** the presets list is only for *this* color picker."
+msgstr ""
+
+#: ../../docs/classes/class_colorpicker.rst:240
+msgid "void **erase_preset** **(** :ref:`Color<class_Color>` color **)**"
+msgstr ""
+
+#: ../../docs/classes/class_colorpicker.rst:242
+msgid ""
+"Removes the given color from the list of color presets of this color picker."
+msgstr "从这个颜色选择器的颜色预设列表中删除给定的颜色。"
+
+#: ../../docs/classes/class_colorpicker.rst:248
+msgid ""
+":ref:`PoolColorArray<class_PoolColorArray>` **get_presets** **(** **)** |"
+"const|"
+msgstr ""
+
+#: ../../docs/classes/class_colorpicker.rst:250
+msgid "Returns the list of colors in the presets of the color picker."
+msgstr "返回颜色选择器预设中的颜色列表。"

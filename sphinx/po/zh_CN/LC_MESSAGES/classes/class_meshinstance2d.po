@@ -1,0 +1,170 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2021, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-31 12:15+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_meshinstance2d.rst:10
+msgid "MeshInstance2D"
+msgstr ""
+
+#: ../../docs/classes/class_meshinstance2d.rst:12
+msgid ""
+"**Inherits:** :ref:`Node2D<class_Node2D>` **<** :ref:"
+"`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:"
+"`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_meshinstance2d.rst:14
+msgid "Node used for displaying a :ref:`Mesh<class_Mesh>` in 2D."
+msgstr ""
+
+#: ../../docs/classes/class_meshinstance2d.rst:17
+msgid "Description"
+msgstr "描述"
+
+#: ../../docs/classes/class_meshinstance2d.rst:19
+msgid ""
+"Node used for displaying a :ref:`Mesh<class_Mesh>` in 2D. Can be constructed "
+"from an existing :ref:`Sprite<class_Sprite>` via a tool in the editor "
+"toolbar. Select \"Sprite\" then \"Convert to Mesh2D\", select settings in "
+"popup and press \"Create Mesh2D\"."
+msgstr ""
+
+#: ../../docs/classes/class_meshinstance2d.rst:22
+msgid "Tutorials"
+msgstr "教程"
+
+#: ../../docs/classes/class_meshinstance2d.rst:24
+msgid ":doc:`../tutorials/2d/2d_meshes`"
+msgstr ""
+
+#: ../../docs/classes/class_meshinstance2d.rst:27
+msgid "Properties"
+msgstr "属性"
+
+#: ../../docs/classes/class_meshinstance2d.rst:30
+msgid ":ref:`Mesh<class_Mesh>`"
+msgstr ""
+
+#: ../../docs/classes/class_meshinstance2d.rst:30
+msgid ":ref:`mesh<class_MeshInstance2D_property_mesh>`"
+msgstr ""
+
+#: ../../docs/classes/class_meshinstance2d.rst:32
+#: ../../docs/classes/class_meshinstance2d.rst:34
+msgid ":ref:`Texture<class_Texture>`"
+msgstr ""
+
+#: ../../docs/classes/class_meshinstance2d.rst:32
+msgid ":ref:`normal_map<class_MeshInstance2D_property_normal_map>`"
+msgstr ""
+
+#: ../../docs/classes/class_meshinstance2d.rst:34
+msgid ":ref:`texture<class_MeshInstance2D_property_texture>`"
+msgstr ""
+
+#: ../../docs/classes/class_meshinstance2d.rst:38
+msgid "Signals"
+msgstr "信号"
+
+#: ../../docs/classes/class_meshinstance2d.rst:42
+msgid "**texture_changed** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_meshinstance2d.rst:44
+msgid ""
+"Emitted when the :ref:`texture<class_MeshInstance2D_property_texture>` is "
+"changed."
+msgstr ""
+
+#: ../../docs/classes/class_meshinstance2d.rst:47
+msgid "Property Descriptions"
+msgstr "属性说明"
+
+#: ../../docs/classes/class_meshinstance2d.rst:51
+msgid ":ref:`Mesh<class_Mesh>` **mesh**"
+msgstr ""
+
+#: ../../docs/classes/class_meshinstance2d.rst:54
+#: ../../docs/classes/class_meshinstance2d.rst:68
+#: ../../docs/classes/class_meshinstance2d.rst:84
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_meshinstance2d.rst:54
+msgid "set_mesh(value)"
+msgstr ""
+
+#: ../../docs/classes/class_meshinstance2d.rst:56
+#: ../../docs/classes/class_meshinstance2d.rst:70
+#: ../../docs/classes/class_meshinstance2d.rst:86
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_meshinstance2d.rst:56
+msgid "get_mesh()"
+msgstr ""
+
+#: ../../docs/classes/class_meshinstance2d.rst:59
+msgid ""
+"The :ref:`Mesh<class_Mesh>` that will be drawn by the ``MeshInstance2D``."
+msgstr ""
+
+#: ../../docs/classes/class_meshinstance2d.rst:65
+msgid ":ref:`Texture<class_Texture>` **normal_map**"
+msgstr ""
+
+#: ../../docs/classes/class_meshinstance2d.rst:68
+msgid "set_normal_map(value)"
+msgstr ""
+
+#: ../../docs/classes/class_meshinstance2d.rst:70
+msgid "get_normal_map()"
+msgstr ""
+
+#: ../../docs/classes/class_meshinstance2d.rst:73
+msgid ""
+"The normal map that will be used if using the default :ref:"
+"`CanvasItemMaterial<class_CanvasItemMaterial>`."
+msgstr ""
+
+#: ../../docs/classes/class_meshinstance2d.rst:75
+msgid ""
+"**Note:** Godot expects the normal map to use X+, Y-, and Z+ coordinates. "
+"See `this page <http://wiki.polycount.com/wiki/"
+"Normal_Map_Technical_Details#Common_Swizzle_Coordinates>`_ for a comparison "
+"of normal map coordinates expected by popular engines."
+msgstr ""
+
+#: ../../docs/classes/class_meshinstance2d.rst:81
+msgid ":ref:`Texture<class_Texture>` **texture**"
+msgstr ""
+
+#: ../../docs/classes/class_meshinstance2d.rst:84
+msgid "set_texture(value)"
+msgstr ""
+
+#: ../../docs/classes/class_meshinstance2d.rst:86
+msgid "get_texture()"
+msgstr ""
+
+#: ../../docs/classes/class_meshinstance2d.rst:89
+msgid ""
+"The :ref:`Texture<class_Texture>` that will be used if using the default :"
+"ref:`CanvasItemMaterial<class_CanvasItemMaterial>`. Can be accessed as "
+"``TEXTURE`` in CanvasItem shader."
+msgstr ""

@@ -1,0 +1,473 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2021, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-31 12:15+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_videoplayer.rst:10
+msgid "VideoPlayer"
+msgstr ""
+
+#: ../../docs/classes/class_videoplayer.rst:12
+msgid ""
+"**Inherits:** :ref:`Control<class_Control>` **<** :ref:"
+"`CanvasItem<class_CanvasItem>` **<** :ref:`Node<class_Node>` **<** :ref:"
+"`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_videoplayer.rst:14
+msgid "Control for playing video streams."
+msgstr ""
+
+#: ../../docs/classes/class_videoplayer.rst:17
+msgid "Description"
+msgstr "描述"
+
+#: ../../docs/classes/class_videoplayer.rst:19
+msgid ""
+"Control node for playing video streams using :ref:"
+"`VideoStream<class_VideoStream>` resources."
+msgstr ""
+
+#: ../../docs/classes/class_videoplayer.rst:21
+msgid ""
+"Supported video formats are `WebM <https://www.webmproject.org/>`_ (``."
+"webm``, :ref:`VideoStreamWebm<class_VideoStreamWebm>`), `Ogg Theora <https://"
+"www.theora.org/>`_ (``.ogv``, :ref:"
+"`VideoStreamTheora<class_VideoStreamTheora>`), and any format exposed via a "
+"GDNative plugin using :ref:`VideoStreamGDNative<class_VideoStreamGDNative>`."
+msgstr ""
+
+#: ../../docs/classes/class_videoplayer.rst:23
+msgid ""
+"**Note:** Due to a bug, VideoPlayer does not support localization remapping "
+"yet."
+msgstr ""
+
+#: ../../docs/classes/class_videoplayer.rst:26
+msgid "Properties"
+msgstr "属性"
+
+#: ../../docs/classes/class_videoplayer.rst:29
+#: ../../docs/classes/class_videoplayer.rst:33
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../../docs/classes/class_videoplayer.rst:29
+msgid ":ref:`audio_track<class_VideoPlayer_property_audio_track>`"
+msgstr ""
+
+#: ../../docs/classes/class_videoplayer.rst:29
+#: ../../docs/classes/class_videoplayer.rst:82
+msgid "``0``"
+msgstr ""
+
+#: ../../docs/classes/class_videoplayer.rst:31
+#: ../../docs/classes/class_videoplayer.rst:37
+#: ../../docs/classes/class_videoplayer.rst:39
+#: ../../docs/classes/class_videoplayer.rst:58
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_videoplayer.rst:31
+msgid ":ref:`autoplay<class_VideoPlayer_property_autoplay>`"
+msgstr ""
+
+#: ../../docs/classes/class_videoplayer.rst:31
+#: ../../docs/classes/class_videoplayer.rst:39
+#: ../../docs/classes/class_videoplayer.rst:98
+#: ../../docs/classes/class_videoplayer.rst:162
+msgid "``false``"
+msgstr ""
+
+#: ../../docs/classes/class_videoplayer.rst:33
+msgid ":ref:`buffering_msec<class_VideoPlayer_property_buffering_msec>`"
+msgstr ""
+
+#: ../../docs/classes/class_videoplayer.rst:33
+#: ../../docs/classes/class_videoplayer.rst:114
+msgid "``500``"
+msgstr ""
+
+#: ../../docs/classes/class_videoplayer.rst:35
+#: ../../docs/classes/class_videoplayer.rst:54
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../../docs/classes/class_videoplayer.rst:35
+msgid ":ref:`bus<class_VideoPlayer_property_bus>`"
+msgstr ""
+
+#: ../../docs/classes/class_videoplayer.rst:35
+#: ../../docs/classes/class_videoplayer.rst:130
+msgid "``\"Master\"``"
+msgstr ""
+
+#: ../../docs/classes/class_videoplayer.rst:37
+msgid ":ref:`expand<class_VideoPlayer_property_expand>`"
+msgstr ""
+
+#: ../../docs/classes/class_videoplayer.rst:37
+#: ../../docs/classes/class_videoplayer.rst:146
+msgid "``true``"
+msgstr ""
+
+#: ../../docs/classes/class_videoplayer.rst:39
+msgid ":ref:`paused<class_VideoPlayer_property_paused>`"
+msgstr ""
+
+#: ../../docs/classes/class_videoplayer.rst:41
+msgid ":ref:`VideoStream<class_VideoStream>`"
+msgstr ""
+
+#: ../../docs/classes/class_videoplayer.rst:41
+msgid ":ref:`stream<class_VideoPlayer_property_stream>`"
+msgstr ""
+
+#: ../../docs/classes/class_videoplayer.rst:43
+#: ../../docs/classes/class_videoplayer.rst:45
+#: ../../docs/classes/class_videoplayer.rst:47
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../../docs/classes/class_videoplayer.rst:43
+msgid ":ref:`stream_position<class_VideoPlayer_property_stream_position>`"
+msgstr ""
+
+#: ../../docs/classes/class_videoplayer.rst:45
+msgid ":ref:`volume<class_VideoPlayer_property_volume>`"
+msgstr ""
+
+#: ../../docs/classes/class_videoplayer.rst:47
+msgid ":ref:`volume_db<class_VideoPlayer_property_volume_db>`"
+msgstr ""
+
+#: ../../docs/classes/class_videoplayer.rst:47
+#: ../../docs/classes/class_videoplayer.rst:220
+msgid "``0.0``"
+msgstr ""
+
+#: ../../docs/classes/class_videoplayer.rst:51
+msgid "Methods"
+msgstr "方法"
+
+#: ../../docs/classes/class_videoplayer.rst:54
+msgid ""
+":ref:`get_stream_name<class_VideoPlayer_method_get_stream_name>` **(** **)** "
+"|const|"
+msgstr ""
+
+#: ../../docs/classes/class_videoplayer.rst:56
+msgid ":ref:`Texture<class_Texture>`"
+msgstr ""
+
+#: ../../docs/classes/class_videoplayer.rst:56
+msgid ""
+":ref:`get_video_texture<class_VideoPlayer_method_get_video_texture>` **(** "
+"**)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_videoplayer.rst:58
+msgid ""
+":ref:`is_playing<class_VideoPlayer_method_is_playing>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_videoplayer.rst:60
+#: ../../docs/classes/class_videoplayer.rst:62
+msgid "void"
+msgstr ""
+
+#: ../../docs/classes/class_videoplayer.rst:60
+msgid ":ref:`play<class_VideoPlayer_method_play>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_videoplayer.rst:62
+msgid ":ref:`stop<class_VideoPlayer_method_stop>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_videoplayer.rst:66
+msgid "Signals"
+msgstr "信号"
+
+#: ../../docs/classes/class_videoplayer.rst:70
+msgid "**finished** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_videoplayer.rst:72
+msgid "Emitted when playback is finished."
+msgstr ""
+
+#: ../../docs/classes/class_videoplayer.rst:75
+msgid "Property Descriptions"
+msgstr "属性说明"
+
+#: ../../docs/classes/class_videoplayer.rst:79
+msgid ":ref:`int<class_int>` **audio_track**"
+msgstr ""
+
+#: ../../docs/classes/class_videoplayer.rst:82
+#: ../../docs/classes/class_videoplayer.rst:98
+#: ../../docs/classes/class_videoplayer.rst:114
+#: ../../docs/classes/class_videoplayer.rst:130
+#: ../../docs/classes/class_videoplayer.rst:146
+#: ../../docs/classes/class_videoplayer.rst:162
+#: ../../docs/classes/class_videoplayer.rst:220
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_videoplayer.rst:84
+#: ../../docs/classes/class_videoplayer.rst:100
+#: ../../docs/classes/class_videoplayer.rst:116
+#: ../../docs/classes/class_videoplayer.rst:132
+#: ../../docs/classes/class_videoplayer.rst:148
+#: ../../docs/classes/class_videoplayer.rst:164
+#: ../../docs/classes/class_videoplayer.rst:178
+#: ../../docs/classes/class_videoplayer.rst:192
+#: ../../docs/classes/class_videoplayer.rst:206
+#: ../../docs/classes/class_videoplayer.rst:222
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_videoplayer.rst:84
+msgid "set_audio_track(value)"
+msgstr ""
+
+#: ../../docs/classes/class_videoplayer.rst:86
+#: ../../docs/classes/class_videoplayer.rst:102
+#: ../../docs/classes/class_videoplayer.rst:118
+#: ../../docs/classes/class_videoplayer.rst:134
+#: ../../docs/classes/class_videoplayer.rst:150
+#: ../../docs/classes/class_videoplayer.rst:166
+#: ../../docs/classes/class_videoplayer.rst:180
+#: ../../docs/classes/class_videoplayer.rst:194
+#: ../../docs/classes/class_videoplayer.rst:208
+#: ../../docs/classes/class_videoplayer.rst:224
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_videoplayer.rst:86
+msgid "get_audio_track()"
+msgstr ""
+
+#: ../../docs/classes/class_videoplayer.rst:89
+msgid "The embedded audio track to play."
+msgstr ""
+
+#: ../../docs/classes/class_videoplayer.rst:95
+msgid ":ref:`bool<class_bool>` **autoplay**"
+msgstr ""
+
+#: ../../docs/classes/class_videoplayer.rst:100
+msgid "set_autoplay(value)"
+msgstr ""
+
+#: ../../docs/classes/class_videoplayer.rst:102
+msgid "has_autoplay()"
+msgstr ""
+
+#: ../../docs/classes/class_videoplayer.rst:105
+msgid "If ``true``, playback starts when the scene loads."
+msgstr ""
+
+#: ../../docs/classes/class_videoplayer.rst:111
+msgid ":ref:`int<class_int>` **buffering_msec**"
+msgstr ""
+
+#: ../../docs/classes/class_videoplayer.rst:116
+msgid "set_buffering_msec(value)"
+msgstr ""
+
+#: ../../docs/classes/class_videoplayer.rst:118
+msgid "get_buffering_msec()"
+msgstr ""
+
+#: ../../docs/classes/class_videoplayer.rst:121
+msgid "Amount of time in milliseconds to store in buffer while playing."
+msgstr ""
+
+#: ../../docs/classes/class_videoplayer.rst:127
+msgid ":ref:`String<class_String>` **bus**"
+msgstr ""
+
+#: ../../docs/classes/class_videoplayer.rst:132
+msgid "set_bus(value)"
+msgstr ""
+
+#: ../../docs/classes/class_videoplayer.rst:134
+msgid "get_bus()"
+msgstr ""
+
+#: ../../docs/classes/class_videoplayer.rst:137
+msgid "Audio bus to use for sound playback."
+msgstr ""
+
+#: ../../docs/classes/class_videoplayer.rst:143
+msgid ":ref:`bool<class_bool>` **expand**"
+msgstr ""
+
+#: ../../docs/classes/class_videoplayer.rst:148
+msgid "set_expand(value)"
+msgstr ""
+
+#: ../../docs/classes/class_videoplayer.rst:150
+msgid "has_expand()"
+msgstr ""
+
+#: ../../docs/classes/class_videoplayer.rst:153
+msgid ""
+"If ``true``, the video scales to the control size. Otherwise, the control "
+"minimum size will be automatically adjusted to match the video stream's "
+"dimensions."
+msgstr ""
+
+#: ../../docs/classes/class_videoplayer.rst:159
+msgid ":ref:`bool<class_bool>` **paused**"
+msgstr ""
+
+#: ../../docs/classes/class_videoplayer.rst:164
+msgid "set_paused(value)"
+msgstr ""
+
+#: ../../docs/classes/class_videoplayer.rst:166
+msgid "is_paused()"
+msgstr ""
+
+#: ../../docs/classes/class_videoplayer.rst:169
+msgid "If ``true``, the video is paused."
+msgstr ""
+
+#: ../../docs/classes/class_videoplayer.rst:175
+msgid ":ref:`VideoStream<class_VideoStream>` **stream**"
+msgstr ""
+
+#: ../../docs/classes/class_videoplayer.rst:178
+msgid "set_stream(value)"
+msgstr ""
+
+#: ../../docs/classes/class_videoplayer.rst:180
+msgid "get_stream()"
+msgstr ""
+
+#: ../../docs/classes/class_videoplayer.rst:183
+msgid "The assigned video stream. See description for supported formats."
+msgstr ""
+
+#: ../../docs/classes/class_videoplayer.rst:189
+msgid ":ref:`float<class_float>` **stream_position**"
+msgstr ""
+
+#: ../../docs/classes/class_videoplayer.rst:192
+msgid "set_stream_position(value)"
+msgstr ""
+
+#: ../../docs/classes/class_videoplayer.rst:194
+msgid "get_stream_position()"
+msgstr ""
+
+#: ../../docs/classes/class_videoplayer.rst:197
+msgid "The current position of the stream, in seconds."
+msgstr ""
+
+#: ../../docs/classes/class_videoplayer.rst:203
+msgid ":ref:`float<class_float>` **volume**"
+msgstr ""
+
+#: ../../docs/classes/class_videoplayer.rst:206
+msgid "set_volume(value)"
+msgstr ""
+
+#: ../../docs/classes/class_videoplayer.rst:208
+msgid "get_volume()"
+msgstr ""
+
+#: ../../docs/classes/class_videoplayer.rst:211
+msgid "Audio volume as a linear value."
+msgstr ""
+
+#: ../../docs/classes/class_videoplayer.rst:217
+msgid ":ref:`float<class_float>` **volume_db**"
+msgstr ""
+
+#: ../../docs/classes/class_videoplayer.rst:222
+msgid "set_volume_db(value)"
+msgstr ""
+
+#: ../../docs/classes/class_videoplayer.rst:224
+msgid "get_volume_db()"
+msgstr ""
+
+#: ../../docs/classes/class_videoplayer.rst:227
+msgid "Audio volume in dB."
+msgstr ""
+
+#: ../../docs/classes/class_videoplayer.rst:230
+msgid "Method Descriptions"
+msgstr "方法说明"
+
+#: ../../docs/classes/class_videoplayer.rst:234
+msgid ":ref:`String<class_String>` **get_stream_name** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_videoplayer.rst:236
+msgid ""
+"Returns the video stream's name, or ``\"<No Stream>\"`` if no video stream "
+"is assigned."
+msgstr ""
+
+#: ../../docs/classes/class_videoplayer.rst:242
+msgid ":ref:`Texture<class_Texture>` **get_video_texture** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_videoplayer.rst:244
+msgid "Returns the current frame as a :ref:`Texture<class_Texture>`."
+msgstr ""
+
+#: ../../docs/classes/class_videoplayer.rst:250
+msgid ":ref:`bool<class_bool>` **is_playing** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_videoplayer.rst:252
+msgid "Returns ``true`` if the video is playing."
+msgstr ""
+
+#: ../../docs/classes/class_videoplayer.rst:254
+msgid ""
+"**Note:** The video is still considered playing if paused during playback."
+msgstr ""
+
+#: ../../docs/classes/class_videoplayer.rst:260
+msgid "void **play** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_videoplayer.rst:262
+msgid ""
+"Starts the video playback from the beginning. If the video is paused, this "
+"will not unpause the video."
+msgstr ""
+
+#: ../../docs/classes/class_videoplayer.rst:268
+msgid "void **stop** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_videoplayer.rst:270
+msgid "Stops the video playback and sets the stream position to 0."
+msgstr ""
+
+#: ../../docs/classes/class_videoplayer.rst:272
+msgid ""
+"**Note:** Although the stream position will be set to 0, the first frame of "
+"the video stream won't become the current frame."
+msgstr ""

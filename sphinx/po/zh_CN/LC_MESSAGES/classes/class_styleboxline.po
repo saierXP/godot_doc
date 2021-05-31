@@ -1,0 +1,222 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2021, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-31 12:15+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_styleboxline.rst:10
+msgid "StyleBoxLine"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxline.rst:12
+msgid ""
+"**Inherits:** :ref:`StyleBox<class_StyleBox>` **<** :ref:"
+"`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :"
+"ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxline.rst:14
+msgid ":ref:`StyleBox<class_StyleBox>` that displays a single line."
+msgstr ""
+
+#: ../../docs/classes/class_styleboxline.rst:17
+msgid "Description"
+msgstr "描述"
+
+#: ../../docs/classes/class_styleboxline.rst:19
+msgid ""
+":ref:`StyleBox<class_StyleBox>` that displays a single line of a given color "
+"and thickness. It can be used to draw things like separators."
+msgstr ""
+
+#: ../../docs/classes/class_styleboxline.rst:22
+msgid "Properties"
+msgstr "属性"
+
+#: ../../docs/classes/class_styleboxline.rst:25
+msgid ":ref:`Color<class_Color>`"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxline.rst:25
+msgid ":ref:`color<class_StyleBoxLine_property_color>`"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxline.rst:25
+#: ../../docs/classes/class_styleboxline.rst:44
+msgid "``Color( 0, 0, 0, 1 )``"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxline.rst:27
+#: ../../docs/classes/class_styleboxline.rst:29
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxline.rst:27
+msgid ":ref:`grow_begin<class_StyleBoxLine_property_grow_begin>`"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxline.rst:27
+#: ../../docs/classes/class_styleboxline.rst:29
+#: ../../docs/classes/class_styleboxline.rst:60
+#: ../../docs/classes/class_styleboxline.rst:76
+msgid "``1.0``"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxline.rst:29
+msgid ":ref:`grow_end<class_StyleBoxLine_property_grow_end>`"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxline.rst:31
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxline.rst:31
+msgid ":ref:`thickness<class_StyleBoxLine_property_thickness>`"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxline.rst:31
+#: ../../docs/classes/class_styleboxline.rst:92
+msgid "``1``"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxline.rst:33
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxline.rst:33
+msgid ":ref:`vertical<class_StyleBoxLine_property_vertical>`"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxline.rst:33
+#: ../../docs/classes/class_styleboxline.rst:108
+msgid "``false``"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxline.rst:37
+msgid "Property Descriptions"
+msgstr "属性说明"
+
+#: ../../docs/classes/class_styleboxline.rst:41
+msgid ":ref:`Color<class_Color>` **color**"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxline.rst:44
+#: ../../docs/classes/class_styleboxline.rst:60
+#: ../../docs/classes/class_styleboxline.rst:76
+#: ../../docs/classes/class_styleboxline.rst:92
+#: ../../docs/classes/class_styleboxline.rst:108
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxline.rst:46
+#: ../../docs/classes/class_styleboxline.rst:62
+#: ../../docs/classes/class_styleboxline.rst:78
+#: ../../docs/classes/class_styleboxline.rst:94
+#: ../../docs/classes/class_styleboxline.rst:110
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxline.rst:46
+msgid "set_color(value)"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxline.rst:48
+#: ../../docs/classes/class_styleboxline.rst:64
+#: ../../docs/classes/class_styleboxline.rst:80
+#: ../../docs/classes/class_styleboxline.rst:96
+#: ../../docs/classes/class_styleboxline.rst:112
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxline.rst:48
+msgid "get_color()"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxline.rst:51
+msgid "The line's color."
+msgstr "线的颜色。"
+
+#: ../../docs/classes/class_styleboxline.rst:57
+msgid ":ref:`float<class_float>` **grow_begin**"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxline.rst:62
+msgid "set_grow_begin(value)"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxline.rst:64
+msgid "get_grow_begin()"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxline.rst:67
+msgid ""
+"The number of pixels the line will extend before the ``StyleBoxLine``'s "
+"bounds. If set to a negative value, the line will begin inside the "
+"``StyleBoxLine``'s bounds."
+msgstr ""
+
+#: ../../docs/classes/class_styleboxline.rst:73
+msgid ":ref:`float<class_float>` **grow_end**"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxline.rst:78
+msgid "set_grow_end(value)"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxline.rst:80
+msgid "get_grow_end()"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxline.rst:83
+msgid ""
+"The number of pixels the line will extend past the ``StyleBoxLine``'s "
+"bounds. If set to a negative value, the line will end inside the "
+"``StyleBoxLine``'s bounds."
+msgstr ""
+
+#: ../../docs/classes/class_styleboxline.rst:89
+msgid ":ref:`int<class_int>` **thickness**"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxline.rst:94
+msgid "set_thickness(value)"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxline.rst:96
+msgid "get_thickness()"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxline.rst:99
+msgid "The line's thickness in pixels."
+msgstr ""
+
+#: ../../docs/classes/class_styleboxline.rst:105
+msgid ":ref:`bool<class_bool>` **vertical**"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxline.rst:110
+msgid "set_vertical(value)"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxline.rst:112
+msgid "is_vertical()"
+msgstr ""
+
+#: ../../docs/classes/class_styleboxline.rst:115
+msgid ""
+"If ``true``, the line will be vertical. If ``false``, the line will be "
+"horizontal."
+msgstr ""

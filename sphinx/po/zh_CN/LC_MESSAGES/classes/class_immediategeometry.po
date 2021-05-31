@@ -1,0 +1,248 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2021, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-31 12:15+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_immediategeometry.rst:10
+msgid "ImmediateGeometry"
+msgstr ""
+
+#: ../../docs/classes/class_immediategeometry.rst:12
+msgid ""
+"**Inherits:** :ref:`GeometryInstance<class_GeometryInstance>` **<** :ref:"
+"`VisualInstance<class_VisualInstance>` **<** :ref:`Spatial<class_Spatial>` "
+"**<** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_immediategeometry.rst:14
+msgid "Draws simple geometry from code."
+msgstr ""
+
+#: ../../docs/classes/class_immediategeometry.rst:17
+msgid "Description"
+msgstr "描述"
+
+#: ../../docs/classes/class_immediategeometry.rst:19
+msgid ""
+"Draws simple geometry from code. Uses a drawing mode similar to OpenGL 1.x."
+msgstr ""
+
+#: ../../docs/classes/class_immediategeometry.rst:21
+msgid ""
+"See also :ref:`ArrayMesh<class_ArrayMesh>`, :ref:"
+"`MeshDataTool<class_MeshDataTool>` and :ref:`SurfaceTool<class_SurfaceTool>` "
+"for procedural geometry generation."
+msgstr ""
+
+#: ../../docs/classes/class_immediategeometry.rst:23
+msgid ""
+"**Note:** ImmediateGeometry3D is best suited to small amounts of mesh data "
+"that change every frame. It will be slow when handling large amounts of mesh "
+"data. If mesh data doesn't change often, use :ref:"
+"`ArrayMesh<class_ArrayMesh>`, :ref:`MeshDataTool<class_MeshDataTool>` or :"
+"ref:`SurfaceTool<class_SurfaceTool>` instead."
+msgstr ""
+
+#: ../../docs/classes/class_immediategeometry.rst:25
+msgid ""
+"**Note:** Godot uses clockwise `winding order <https://learnopengl.com/"
+"Advanced-OpenGL/Face-culling>`_ for front faces of triangle primitive modes."
+msgstr ""
+
+#: ../../docs/classes/class_immediategeometry.rst:27
+msgid ""
+"**Note:** In case of missing points when handling large amounts of mesh "
+"data, try increasing its buffer size limit under :ref:`ProjectSettings."
+"rendering/limits/buffers/"
+"immediate_buffer_size_kb<class_ProjectSettings_property_rendering/limits/"
+"buffers/immediate_buffer_size_kb>`."
+msgstr ""
+
+#: ../../docs/classes/class_immediategeometry.rst:30
+msgid "Methods"
+msgstr "方法"
+
+#: ../../docs/classes/class_immediategeometry.rst:33
+#: ../../docs/classes/class_immediategeometry.rst:35
+#: ../../docs/classes/class_immediategeometry.rst:37
+#: ../../docs/classes/class_immediategeometry.rst:39
+#: ../../docs/classes/class_immediategeometry.rst:41
+#: ../../docs/classes/class_immediategeometry.rst:43
+#: ../../docs/classes/class_immediategeometry.rst:45
+#: ../../docs/classes/class_immediategeometry.rst:47
+#: ../../docs/classes/class_immediategeometry.rst:49
+#: ../../docs/classes/class_immediategeometry.rst:51
+msgid "void"
+msgstr ""
+
+#: ../../docs/classes/class_immediategeometry.rst:33
+msgid ""
+":ref:`add_sphere<class_ImmediateGeometry_method_add_sphere>` **(** :ref:"
+"`int<class_int>` lats, :ref:`int<class_int>` lons, :ref:`float<class_float>` "
+"radius, :ref:`bool<class_bool>` add_uv=true **)**"
+msgstr ""
+
+#: ../../docs/classes/class_immediategeometry.rst:35
+msgid ""
+":ref:`add_vertex<class_ImmediateGeometry_method_add_vertex>` **(** :ref:"
+"`Vector3<class_Vector3>` position **)**"
+msgstr ""
+
+#: ../../docs/classes/class_immediategeometry.rst:37
+msgid ""
+":ref:`begin<class_ImmediateGeometry_method_begin>` **(** :ref:"
+"`PrimitiveType<enum_Mesh_PrimitiveType>` primitive, :ref:"
+"`Texture<class_Texture>` texture=null **)**"
+msgstr ""
+
+#: ../../docs/classes/class_immediategeometry.rst:39
+msgid ":ref:`clear<class_ImmediateGeometry_method_clear>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_immediategeometry.rst:41
+msgid ":ref:`end<class_ImmediateGeometry_method_end>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_immediategeometry.rst:43
+msgid ""
+":ref:`set_color<class_ImmediateGeometry_method_set_color>` **(** :ref:"
+"`Color<class_Color>` color **)**"
+msgstr ""
+
+#: ../../docs/classes/class_immediategeometry.rst:45
+msgid ""
+":ref:`set_normal<class_ImmediateGeometry_method_set_normal>` **(** :ref:"
+"`Vector3<class_Vector3>` normal **)**"
+msgstr ""
+
+#: ../../docs/classes/class_immediategeometry.rst:47
+msgid ""
+":ref:`set_tangent<class_ImmediateGeometry_method_set_tangent>` **(** :ref:"
+"`Plane<class_Plane>` tangent **)**"
+msgstr ""
+
+#: ../../docs/classes/class_immediategeometry.rst:49
+msgid ""
+":ref:`set_uv<class_ImmediateGeometry_method_set_uv>` **(** :ref:"
+"`Vector2<class_Vector2>` uv **)**"
+msgstr ""
+
+#: ../../docs/classes/class_immediategeometry.rst:51
+msgid ""
+":ref:`set_uv2<class_ImmediateGeometry_method_set_uv2>` **(** :ref:"
+"`Vector2<class_Vector2>` uv **)**"
+msgstr ""
+
+#: ../../docs/classes/class_immediategeometry.rst:55
+msgid "Method Descriptions"
+msgstr "方法说明"
+
+#: ../../docs/classes/class_immediategeometry.rst:59
+msgid ""
+"void **add_sphere** **(** :ref:`int<class_int>` lats, :ref:`int<class_int>` "
+"lons, :ref:`float<class_float>` radius, :ref:`bool<class_bool>` add_uv=true "
+"**)**"
+msgstr ""
+
+#: ../../docs/classes/class_immediategeometry.rst:61
+msgid ""
+"Simple helper to draw an UV sphere with given latitude, longitude and radius."
+msgstr ""
+
+#: ../../docs/classes/class_immediategeometry.rst:67
+msgid "void **add_vertex** **(** :ref:`Vector3<class_Vector3>` position **)**"
+msgstr ""
+
+#: ../../docs/classes/class_immediategeometry.rst:69
+msgid ""
+"Adds a vertex in local coordinate space with the currently set color/uv/etc."
+msgstr ""
+
+#: ../../docs/classes/class_immediategeometry.rst:75
+msgid ""
+"void **begin** **(** :ref:`PrimitiveType<enum_Mesh_PrimitiveType>` "
+"primitive, :ref:`Texture<class_Texture>` texture=null **)**"
+msgstr ""
+
+#: ../../docs/classes/class_immediategeometry.rst:77
+msgid ""
+"Begin drawing (and optionally pass a texture override). When done call :ref:"
+"`end<class_ImmediateGeometry_method_end>`. For more information on how this "
+"works, search for ``glBegin()`` and ``glEnd()`` references."
+msgstr ""
+
+#: ../../docs/classes/class_immediategeometry.rst:79
+msgid ""
+"For the type of primitive, see the :ref:"
+"`PrimitiveType<enum_Mesh_PrimitiveType>` enum."
+msgstr ""
+
+#: ../../docs/classes/class_immediategeometry.rst:85
+msgid "void **clear** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_immediategeometry.rst:87
+msgid "Clears everything that was drawn using begin/end."
+msgstr ""
+
+#: ../../docs/classes/class_immediategeometry.rst:93
+msgid "void **end** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_immediategeometry.rst:95
+msgid "Ends a drawing context and displays the results."
+msgstr ""
+
+#: ../../docs/classes/class_immediategeometry.rst:101
+msgid "void **set_color** **(** :ref:`Color<class_Color>` color **)**"
+msgstr ""
+
+#: ../../docs/classes/class_immediategeometry.rst:103
+msgid "The current drawing color."
+msgstr ""
+
+#: ../../docs/classes/class_immediategeometry.rst:109
+msgid "void **set_normal** **(** :ref:`Vector3<class_Vector3>` normal **)**"
+msgstr ""
+
+#: ../../docs/classes/class_immediategeometry.rst:111
+msgid "The next vertex's normal."
+msgstr ""
+
+#: ../../docs/classes/class_immediategeometry.rst:117
+msgid "void **set_tangent** **(** :ref:`Plane<class_Plane>` tangent **)**"
+msgstr ""
+
+#: ../../docs/classes/class_immediategeometry.rst:119
+msgid "The next vertex's tangent (and binormal facing)."
+msgstr ""
+
+#: ../../docs/classes/class_immediategeometry.rst:125
+msgid "void **set_uv** **(** :ref:`Vector2<class_Vector2>` uv **)**"
+msgstr ""
+
+#: ../../docs/classes/class_immediategeometry.rst:127
+msgid "The next vertex's UV."
+msgstr ""
+
+#: ../../docs/classes/class_immediategeometry.rst:133
+msgid "void **set_uv2** **(** :ref:`Vector2<class_Vector2>` uv **)**"
+msgstr ""
+
+#: ../../docs/classes/class_immediategeometry.rst:135
+msgid "The next vertex's second layer UV."
+msgstr ""

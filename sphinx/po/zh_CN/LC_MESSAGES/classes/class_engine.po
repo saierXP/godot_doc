@@ -1,0 +1,602 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2021, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-31 12:15+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_engine.rst:10
+msgid "Engine"
+msgstr ""
+
+#: ../../docs/classes/class_engine.rst:12
+msgid "**Inherits:** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_engine.rst:14
+msgid "Access to engine properties."
+msgstr "进入引擎属性。"
+
+#: ../../docs/classes/class_engine.rst:17
+msgid "Description"
+msgstr "描述"
+
+#: ../../docs/classes/class_engine.rst:19
+msgid ""
+"The ``Engine`` singleton allows you to query and modify the project's run-"
+"time parameters, such as frames per second, time scale, and others."
+msgstr ""
+
+#: ../../docs/classes/class_engine.rst:22
+msgid "Properties"
+msgstr "属性"
+
+#: ../../docs/classes/class_engine.rst:25
+#: ../../docs/classes/class_engine.rst:66
+#: ../../docs/classes/class_engine.rst:68
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_engine.rst:25
+msgid ":ref:`editor_hint<class_Engine_property_editor_hint>`"
+msgstr ""
+
+#: ../../docs/classes/class_engine.rst:25
+#: ../../docs/classes/class_engine.rst:79
+msgid "``true``"
+msgstr ""
+
+#: ../../docs/classes/class_engine.rst:27
+#: ../../docs/classes/class_engine.rst:31
+#: ../../docs/classes/class_engine.rst:46
+#: ../../docs/classes/class_engine.rst:50
+#: ../../docs/classes/class_engine.rst:58
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../../docs/classes/class_engine.rst:27
+msgid ""
+":ref:`iterations_per_second<class_Engine_property_iterations_per_second>`"
+msgstr ""
+
+#: ../../docs/classes/class_engine.rst:27
+#: ../../docs/classes/class_engine.rst:95
+msgid "``60``"
+msgstr ""
+
+#: ../../docs/classes/class_engine.rst:29
+#: ../../docs/classes/class_engine.rst:33
+#: ../../docs/classes/class_engine.rst:48
+#: ../../docs/classes/class_engine.rst:60
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../../docs/classes/class_engine.rst:29
+msgid ":ref:`physics_jitter_fix<class_Engine_property_physics_jitter_fix>`"
+msgstr ""
+
+#: ../../docs/classes/class_engine.rst:29
+#: ../../docs/classes/class_engine.rst:111
+msgid "``0.5``"
+msgstr ""
+
+#: ../../docs/classes/class_engine.rst:31
+msgid ":ref:`target_fps<class_Engine_property_target_fps>`"
+msgstr ""
+
+#: ../../docs/classes/class_engine.rst:31
+#: ../../docs/classes/class_engine.rst:127
+msgid "``0``"
+msgstr ""
+
+#: ../../docs/classes/class_engine.rst:33
+msgid ":ref:`time_scale<class_Engine_property_time_scale>`"
+msgstr ""
+
+#: ../../docs/classes/class_engine.rst:33
+#: ../../docs/classes/class_engine.rst:143
+msgid "``1.0``"
+msgstr ""
+
+#: ../../docs/classes/class_engine.rst:37
+msgid "Methods"
+msgstr "方法"
+
+#: ../../docs/classes/class_engine.rst:40
+#: ../../docs/classes/class_engine.rst:44
+#: ../../docs/classes/class_engine.rst:52
+#: ../../docs/classes/class_engine.rst:64
+msgid ":ref:`Dictionary<class_Dictionary>`"
+msgstr ""
+
+#: ../../docs/classes/class_engine.rst:40
+msgid ""
+":ref:`get_author_info<class_Engine_method_get_author_info>` **(** **)** |"
+"const|"
+msgstr ""
+
+#: ../../docs/classes/class_engine.rst:42
+msgid ":ref:`Array<class_Array>`"
+msgstr ""
+
+#: ../../docs/classes/class_engine.rst:42
+msgid ""
+":ref:`get_copyright_info<class_Engine_method_get_copyright_info>` **(** "
+"**)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_engine.rst:44
+msgid ""
+":ref:`get_donor_info<class_Engine_method_get_donor_info>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_engine.rst:46
+msgid ""
+":ref:`get_frames_drawn<class_Engine_method_get_frames_drawn>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_engine.rst:48
+msgid ""
+":ref:`get_frames_per_second<class_Engine_method_get_frames_per_second>` "
+"**(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_engine.rst:50
+msgid ""
+":ref:`get_idle_frames<class_Engine_method_get_idle_frames>` **(** **)** |"
+"const|"
+msgstr ""
+
+#: ../../docs/classes/class_engine.rst:52
+msgid ""
+":ref:`get_license_info<class_Engine_method_get_license_info>` **(** **)** |"
+"const|"
+msgstr ""
+
+#: ../../docs/classes/class_engine.rst:54
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../../docs/classes/class_engine.rst:54
+msgid ""
+":ref:`get_license_text<class_Engine_method_get_license_text>` **(** **)** |"
+"const|"
+msgstr ""
+
+#: ../../docs/classes/class_engine.rst:56
+msgid ":ref:`MainLoop<class_MainLoop>`"
+msgstr ""
+
+#: ../../docs/classes/class_engine.rst:56
+msgid ""
+":ref:`get_main_loop<class_Engine_method_get_main_loop>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_engine.rst:58
+msgid ""
+":ref:`get_physics_frames<class_Engine_method_get_physics_frames>` **(** "
+"**)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_engine.rst:60
+msgid ""
+":ref:"
+"`get_physics_interpolation_fraction<class_Engine_method_get_physics_interpolation_fraction>` "
+"**(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_engine.rst:62
+msgid ":ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_engine.rst:62
+msgid ""
+":ref:`get_singleton<class_Engine_method_get_singleton>` **(** :ref:"
+"`String<class_String>` name **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_engine.rst:64
+msgid ""
+":ref:`get_version_info<class_Engine_method_get_version_info>` **(** **)** |"
+"const|"
+msgstr ""
+
+#: ../../docs/classes/class_engine.rst:66
+msgid ""
+":ref:`has_singleton<class_Engine_method_has_singleton>` **(** :ref:"
+"`String<class_String>` name **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_engine.rst:68
+msgid ""
+":ref:`is_in_physics_frame<class_Engine_method_is_in_physics_frame>` **(** "
+"**)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_engine.rst:72
+msgid "Property Descriptions"
+msgstr "属性说明"
+
+#: ../../docs/classes/class_engine.rst:76
+msgid ":ref:`bool<class_bool>` **editor_hint**"
+msgstr ""
+
+#: ../../docs/classes/class_engine.rst:79
+#: ../../docs/classes/class_engine.rst:95
+#: ../../docs/classes/class_engine.rst:111
+#: ../../docs/classes/class_engine.rst:127
+#: ../../docs/classes/class_engine.rst:143
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_engine.rst:81
+#: ../../docs/classes/class_engine.rst:97
+#: ../../docs/classes/class_engine.rst:113
+#: ../../docs/classes/class_engine.rst:129
+#: ../../docs/classes/class_engine.rst:145
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_engine.rst:81
+msgid "set_editor_hint(value)"
+msgstr ""
+
+#: ../../docs/classes/class_engine.rst:83
+#: ../../docs/classes/class_engine.rst:99
+#: ../../docs/classes/class_engine.rst:115
+#: ../../docs/classes/class_engine.rst:131
+#: ../../docs/classes/class_engine.rst:147
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_engine.rst:83
+msgid "is_editor_hint()"
+msgstr ""
+
+#: ../../docs/classes/class_engine.rst:86
+msgid "If ``true``, it is running inside the editor. Useful for tool scripts."
+msgstr ""
+
+#: ../../docs/classes/class_engine.rst:92
+msgid ":ref:`int<class_int>` **iterations_per_second**"
+msgstr ""
+
+#: ../../docs/classes/class_engine.rst:97
+msgid "set_iterations_per_second(value)"
+msgstr ""
+
+#: ../../docs/classes/class_engine.rst:99
+msgid "get_iterations_per_second()"
+msgstr ""
+
+#: ../../docs/classes/class_engine.rst:102
+msgid ""
+"The number of fixed iterations per second. This controls how often physics "
+"simulation and :ref:`Node."
+"_physics_process<class_Node_method__physics_process>` methods are run. This "
+"value should generally always be set to ``60`` or above, as Godot doesn't "
+"interpolate the physics step. As a result, values lower than ``60`` will "
+"look stuttery. This value can be increased to make input more reactive or "
+"work around tunneling issues, but keep in mind doing so will increase CPU "
+"usage."
+msgstr ""
+
+#: ../../docs/classes/class_engine.rst:108
+msgid ":ref:`float<class_float>` **physics_jitter_fix**"
+msgstr ""
+
+#: ../../docs/classes/class_engine.rst:113
+msgid "set_physics_jitter_fix(value)"
+msgstr ""
+
+#: ../../docs/classes/class_engine.rst:115
+msgid "get_physics_jitter_fix()"
+msgstr ""
+
+#: ../../docs/classes/class_engine.rst:118
+msgid ""
+"Controls how much physics ticks are synchronized with real time. For 0 or "
+"less, the ticks are synchronized. Such values are recommended for network "
+"games, where clock synchronization matters. Higher values cause higher "
+"deviation of in-game clock and real clock, but allows to smooth out "
+"framerate jitters. The default value of 0.5 should be fine for most; values "
+"above 2 could cause the game to react to dropped frames with a noticeable "
+"delay and are not recommended."
+msgstr ""
+"控制物理时钟与实时同步的程度。为0或更少，则是同步的。这样的值建议用于网络游"
+"戏，因为时钟同步很重要。较高的数值会导致游戏中的时钟和真实时钟有较大的偏差，"
+"但允许平滑帧率抖动。默认值0.5对大多数人来说应该是没有问题的；高于2的值可能会"
+"导致游戏对掉帧的反应有明显的延迟，不建议使用。"
+
+#: ../../docs/classes/class_engine.rst:124
+msgid ":ref:`int<class_int>` **target_fps**"
+msgstr ""
+
+#: ../../docs/classes/class_engine.rst:129
+msgid "set_target_fps(value)"
+msgstr ""
+
+#: ../../docs/classes/class_engine.rst:131
+msgid "get_target_fps()"
+msgstr ""
+
+#: ../../docs/classes/class_engine.rst:134
+msgid ""
+"The desired frames per second. If the hardware cannot keep up, this setting "
+"may not be respected. A value of 0 means no limit."
+msgstr ""
+"所需的每秒帧数。如果硬件无法跟上，则可能不遵守此设置。值为0表示没有限制。"
+
+#: ../../docs/classes/class_engine.rst:140
+msgid ":ref:`float<class_float>` **time_scale**"
+msgstr ""
+
+#: ../../docs/classes/class_engine.rst:145
+msgid "set_time_scale(value)"
+msgstr ""
+
+#: ../../docs/classes/class_engine.rst:147
+msgid "get_time_scale()"
+msgstr ""
+
+#: ../../docs/classes/class_engine.rst:150
+msgid ""
+"Controls how fast or slow the in-game clock ticks versus the real life one. "
+"It defaults to 1.0. A value of 2.0 means the game moves twice as fast as "
+"real life, whilst a value of 0.5 means the game moves at half the regular "
+"speed."
+msgstr ""
+"控制游戏中的时钟与现实生活中的时钟的快慢。默认值为1.0。值为2.0意味着游戏的移"
+"动速度是现实生活的两倍，而值为0.5意味着游戏的移动速度是常规速度的一半。"
+
+#: ../../docs/classes/class_engine.rst:153
+msgid "Method Descriptions"
+msgstr "方法说明"
+
+#: ../../docs/classes/class_engine.rst:157
+msgid ""
+":ref:`Dictionary<class_Dictionary>` **get_author_info** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_engine.rst:159
+msgid "Returns engine author information in a Dictionary."
+msgstr ""
+
+#: ../../docs/classes/class_engine.rst:161
+msgid "``lead_developers``    - Array of Strings, lead developer names"
+msgstr ""
+
+#: ../../docs/classes/class_engine.rst:163
+msgid "``founders``           - Array of Strings, founder names"
+msgstr ""
+
+#: ../../docs/classes/class_engine.rst:165
+msgid "``project_managers``   - Array of Strings, project manager names"
+msgstr ""
+
+#: ../../docs/classes/class_engine.rst:167
+msgid "``developers``         - Array of Strings, developer names"
+msgstr ""
+
+#: ../../docs/classes/class_engine.rst:173
+msgid ":ref:`Array<class_Array>` **get_copyright_info** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_engine.rst:175
+msgid "Returns an Array of copyright information Dictionaries."
+msgstr ""
+
+#: ../../docs/classes/class_engine.rst:177
+msgid "``name``    - String, component name"
+msgstr ""
+
+#: ../../docs/classes/class_engine.rst:179
+msgid ""
+"``parts``   - Array of Dictionaries {``files``, ``copyright``, ``license``} "
+"describing subsections of the component"
+msgstr ""
+
+#: ../../docs/classes/class_engine.rst:185
+msgid ""
+":ref:`Dictionary<class_Dictionary>` **get_donor_info** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_engine.rst:187
+msgid "Returns a Dictionary of Arrays of donor names."
+msgstr ""
+
+#: ../../docs/classes/class_engine.rst:189
+msgid ""
+"{``platinum_sponsors``, ``gold_sponsors``, ``silver_sponsors``, "
+"``bronze_sponsors``, ``mini_sponsors``, ``gold_donors``, ``silver_donors``, "
+"``bronze_donors``}"
+msgstr ""
+
+#: ../../docs/classes/class_engine.rst:195
+msgid ":ref:`int<class_int>` **get_frames_drawn** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_engine.rst:197
+msgid ""
+"Returns the total number of frames drawn. If the render loop is disabled "
+"with ``--disable-render-loop`` via command line, this returns ``0``. See "
+"also :ref:`get_idle_frames<class_Engine_method_get_idle_frames>`."
+msgstr ""
+
+#: ../../docs/classes/class_engine.rst:203
+msgid ":ref:`float<class_float>` **get_frames_per_second** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_engine.rst:205
+msgid "Returns the frames per second of the running game."
+msgstr "返回运行游戏的每秒帧数。"
+
+#: ../../docs/classes/class_engine.rst:211
+msgid ":ref:`int<class_int>` **get_idle_frames** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_engine.rst:213
+msgid ""
+"Returns the total number of frames passed since engine initialization which "
+"is advanced on each **idle frame**, regardless of whether the render loop is "
+"enabled. See also :ref:"
+"`get_frames_drawn<class_Engine_method_get_frames_drawn>`."
+msgstr ""
+
+#: ../../docs/classes/class_engine.rst:219
+msgid ""
+":ref:`Dictionary<class_Dictionary>` **get_license_info** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_engine.rst:221
+msgid ""
+"Returns Dictionary of licenses used by Godot and included third party "
+"components."
+msgstr "返回Godot使用的许可证字典，其中包括第三方组件。"
+
+#: ../../docs/classes/class_engine.rst:227
+msgid ":ref:`String<class_String>` **get_license_text** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_engine.rst:229
+msgid "Returns Godot license text."
+msgstr "返回Godot许可证文本。"
+
+#: ../../docs/classes/class_engine.rst:235
+msgid ":ref:`MainLoop<class_MainLoop>` **get_main_loop** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_engine.rst:237
+msgid ""
+"Returns the main loop object (see :ref:`MainLoop<class_MainLoop>` and :ref:"
+"`SceneTree<class_SceneTree>`)."
+msgstr ""
+
+#: ../../docs/classes/class_engine.rst:243
+msgid ":ref:`int<class_int>` **get_physics_frames** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_engine.rst:245
+msgid ""
+"Returns the total number of frames passed since engine initialization which "
+"is advanced on each **physics frame**."
+msgstr ""
+
+#: ../../docs/classes/class_engine.rst:251
+msgid ""
+":ref:`float<class_float>` **get_physics_interpolation_fraction** **(** **)** "
+"|const|"
+msgstr ""
+
+#: ../../docs/classes/class_engine.rst:253
+msgid ""
+"Returns the fraction through the current physics tick we are at the time of "
+"rendering the frame. This can be used to implement fixed timestep "
+"interpolation."
+msgstr "返回渲染框架时当前物理滴答度中的分数。这可用于实现固定的时间步插值。"
+
+#: ../../docs/classes/class_engine.rst:259
+msgid ""
+":ref:`Object<class_Object>` **get_singleton** **(** :ref:"
+"`String<class_String>` name **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_engine.rst:261
+msgid ""
+"Returns a global singleton with given ``name``. Often used for plugins, e.g. "
+"``GodotPayment`` on Android."
+msgstr ""
+
+#: ../../docs/classes/class_engine.rst:267
+msgid ""
+":ref:`Dictionary<class_Dictionary>` **get_version_info** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_engine.rst:269
+msgid "Returns the current engine version information in a Dictionary."
+msgstr ""
+
+#: ../../docs/classes/class_engine.rst:271
+msgid "``major``    - Holds the major version number as an int"
+msgstr ""
+
+#: ../../docs/classes/class_engine.rst:273
+msgid "``minor``    - Holds the minor version number as an int"
+msgstr ""
+
+#: ../../docs/classes/class_engine.rst:275
+msgid "``patch``    - Holds the patch version number as an int"
+msgstr ""
+
+#: ../../docs/classes/class_engine.rst:277
+msgid ""
+"``hex``      - Holds the full version number encoded as a hexadecimal int "
+"with one byte (2 places) per number (see example below)"
+msgstr ""
+
+#: ../../docs/classes/class_engine.rst:279
+msgid ""
+"``status``   - Holds the status (e.g. \"beta\", \"rc1\", \"rc2\", ... "
+"\"stable\") as a String"
+msgstr ""
+
+#: ../../docs/classes/class_engine.rst:281
+msgid "``build``    - Holds the build name (e.g. \"custom_build\") as a String"
+msgstr ""
+
+#: ../../docs/classes/class_engine.rst:283
+msgid "``hash``     - Holds the full Git commit hash as a String"
+msgstr ""
+
+#: ../../docs/classes/class_engine.rst:285
+msgid "``year``     - Holds the year the version was released in as an int"
+msgstr ""
+
+#: ../../docs/classes/class_engine.rst:287
+msgid ""
+"``string``   - ``major`` + ``minor`` + ``patch`` + ``status`` + ``build`` in "
+"a single String"
+msgstr ""
+
+#: ../../docs/classes/class_engine.rst:289
+msgid ""
+"The ``hex`` value is encoded as follows, from left to right: one byte for "
+"the major, one byte for the minor, one byte for the patch version. For "
+"example, \"3.1.12\" would be ``0x03010C``. **Note:** It's still an int "
+"internally, and printing it will give you its decimal representation, which "
+"is not particularly meaningful. Use hexadecimal literals for easy version "
+"comparisons from code:"
+msgstr ""
+
+#: ../../docs/classes/class_engine.rst:302
+msgid ""
+":ref:`bool<class_bool>` **has_singleton** **(** :ref:`String<class_String>` "
+"name **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_engine.rst:304
+msgid ""
+"Returns ``true`` if a singleton with given ``name`` exists in global scope."
+msgstr ""
+
+#: ../../docs/classes/class_engine.rst:310
+msgid ":ref:`bool<class_bool>` **is_in_physics_frame** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_engine.rst:312
+msgid ""
+"Returns ``true`` if the game is inside the fixed process and physics phase "
+"of the game loop."
+msgstr ""

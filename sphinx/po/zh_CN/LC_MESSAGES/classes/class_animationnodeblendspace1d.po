@@ -1,0 +1,367 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2021, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-31 12:15+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_animationnodeblendspace1d.rst:10
+msgid "AnimationNodeBlendSpace1D"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace1d.rst:12
+msgid ""
+"**Inherits:** :ref:`AnimationRootNode<class_AnimationRootNode>` **<** :ref:"
+"`AnimationNode<class_AnimationNode>` **<** :ref:`Resource<class_Resource>` "
+"**<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace1d.rst:14
+msgid ""
+"Blends linearly between two of any number of :ref:"
+"`AnimationNode<class_AnimationNode>` of any type placed on a virtual axis."
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace1d.rst:17
+msgid "Description"
+msgstr "描述"
+
+#: ../../docs/classes/class_animationnodeblendspace1d.rst:19
+msgid ""
+"A resource to add to an :ref:"
+"`AnimationNodeBlendTree<class_AnimationNodeBlendTree>`."
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace1d.rst:21
+msgid ""
+"This is a virtual axis on which you can add any type of :ref:"
+"`AnimationNode<class_AnimationNode>` using :ref:"
+"`add_blend_point<class_AnimationNodeBlendSpace1D_method_add_blend_point>`."
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace1d.rst:23
+msgid ""
+"Outputs the linear blend of the two :ref:`AnimationNode<class_AnimationNode>`"
+"\\ s closest to the node's current value."
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace1d.rst:25
+msgid ""
+"You can set the extents of the axis using the :ref:"
+"`min_space<class_AnimationNodeBlendSpace1D_property_min_space>` and :ref:"
+"`max_space<class_AnimationNodeBlendSpace1D_property_max_space>`."
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace1d.rst:28
+msgid "Tutorials"
+msgstr "教程"
+
+#: ../../docs/classes/class_animationnodeblendspace1d.rst:30
+msgid ":doc:`../tutorials/animation/animation_tree`"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace1d.rst:33
+msgid "Properties"
+msgstr "属性"
+
+#: ../../docs/classes/class_animationnodeblendspace1d.rst:36
+#: ../../docs/classes/class_animationnodeblendspace1d.rst:38
+#: ../../docs/classes/class_animationnodeblendspace1d.rst:40
+#: ../../docs/classes/class_animationnodeblendspace1d.rst:55
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace1d.rst:36
+msgid ":ref:`max_space<class_AnimationNodeBlendSpace1D_property_max_space>`"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace1d.rst:36
+#: ../../docs/classes/class_animationnodeblendspace1d.rst:72
+msgid "``1.0``"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace1d.rst:38
+msgid ":ref:`min_space<class_AnimationNodeBlendSpace1D_property_min_space>`"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace1d.rst:38
+#: ../../docs/classes/class_animationnodeblendspace1d.rst:88
+msgid "``-1.0``"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace1d.rst:40
+msgid ":ref:`snap<class_AnimationNodeBlendSpace1D_property_snap>`"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace1d.rst:40
+#: ../../docs/classes/class_animationnodeblendspace1d.rst:104
+msgid "``0.1``"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace1d.rst:42
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace1d.rst:42
+msgid ""
+":ref:`value_label<class_AnimationNodeBlendSpace1D_property_value_label>`"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace1d.rst:42
+#: ../../docs/classes/class_animationnodeblendspace1d.rst:120
+msgid "``\"value\"``"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace1d.rst:46
+msgid "Methods"
+msgstr "方法"
+
+#: ../../docs/classes/class_animationnodeblendspace1d.rst:49
+#: ../../docs/classes/class_animationnodeblendspace1d.rst:57
+#: ../../docs/classes/class_animationnodeblendspace1d.rst:59
+#: ../../docs/classes/class_animationnodeblendspace1d.rst:61
+msgid "void"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace1d.rst:49
+msgid ""
+":ref:"
+"`add_blend_point<class_AnimationNodeBlendSpace1D_method_add_blend_point>` "
+"**(** :ref:`AnimationRootNode<class_AnimationRootNode>` node, :ref:"
+"`float<class_float>` pos, :ref:`int<class_int>` at_index=-1 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace1d.rst:51
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace1d.rst:51
+msgid ""
+":ref:"
+"`get_blend_point_count<class_AnimationNodeBlendSpace1D_method_get_blend_point_count>` "
+"**(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace1d.rst:53
+msgid ":ref:`AnimationRootNode<class_AnimationRootNode>`"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace1d.rst:53
+msgid ""
+":ref:"
+"`get_blend_point_node<class_AnimationNodeBlendSpace1D_method_get_blend_point_node>` "
+"**(** :ref:`int<class_int>` point **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace1d.rst:55
+msgid ""
+":ref:"
+"`get_blend_point_position<class_AnimationNodeBlendSpace1D_method_get_blend_point_position>` "
+"**(** :ref:`int<class_int>` point **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace1d.rst:57
+msgid ""
+":ref:"
+"`remove_blend_point<class_AnimationNodeBlendSpace1D_method_remove_blend_point>` "
+"**(** :ref:`int<class_int>` point **)**"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace1d.rst:59
+msgid ""
+":ref:"
+"`set_blend_point_node<class_AnimationNodeBlendSpace1D_method_set_blend_point_node>` "
+"**(** :ref:`int<class_int>` point, :ref:"
+"`AnimationRootNode<class_AnimationRootNode>` node **)**"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace1d.rst:61
+msgid ""
+":ref:"
+"`set_blend_point_position<class_AnimationNodeBlendSpace1D_method_set_blend_point_position>` "
+"**(** :ref:`int<class_int>` point, :ref:`float<class_float>` pos **)**"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace1d.rst:65
+msgid "Property Descriptions"
+msgstr "属性说明"
+
+#: ../../docs/classes/class_animationnodeblendspace1d.rst:69
+msgid ":ref:`float<class_float>` **max_space**"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace1d.rst:72
+#: ../../docs/classes/class_animationnodeblendspace1d.rst:88
+#: ../../docs/classes/class_animationnodeblendspace1d.rst:104
+#: ../../docs/classes/class_animationnodeblendspace1d.rst:120
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace1d.rst:74
+#: ../../docs/classes/class_animationnodeblendspace1d.rst:90
+#: ../../docs/classes/class_animationnodeblendspace1d.rst:106
+#: ../../docs/classes/class_animationnodeblendspace1d.rst:122
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace1d.rst:74
+msgid "set_max_space(value)"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace1d.rst:76
+#: ../../docs/classes/class_animationnodeblendspace1d.rst:92
+#: ../../docs/classes/class_animationnodeblendspace1d.rst:108
+#: ../../docs/classes/class_animationnodeblendspace1d.rst:124
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace1d.rst:76
+msgid "get_max_space()"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace1d.rst:79
+msgid ""
+"The blend space's axis's upper limit for the points' position. See :ref:"
+"`add_blend_point<class_AnimationNodeBlendSpace1D_method_add_blend_point>`."
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace1d.rst:85
+msgid ":ref:`float<class_float>` **min_space**"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace1d.rst:90
+msgid "set_min_space(value)"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace1d.rst:92
+msgid "get_min_space()"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace1d.rst:95
+msgid ""
+"The blend space's axis's lower limit for the points' position. See :ref:"
+"`add_blend_point<class_AnimationNodeBlendSpace1D_method_add_blend_point>`."
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace1d.rst:101
+msgid ":ref:`float<class_float>` **snap**"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace1d.rst:106
+msgid "set_snap(value)"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace1d.rst:108
+msgid "get_snap()"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace1d.rst:111
+msgid "Position increment to snap to when moving a point on the axis."
+msgstr "当在轴上移动一个点时，要捕捉到的位置增量。"
+
+#: ../../docs/classes/class_animationnodeblendspace1d.rst:117
+msgid ":ref:`String<class_String>` **value_label**"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace1d.rst:122
+msgid "set_value_label(value)"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace1d.rst:124
+msgid "get_value_label()"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace1d.rst:127
+msgid "Label of the virtual axis of the blend space."
+msgstr "混合空间虚拟轴的标签。"
+
+#: ../../docs/classes/class_animationnodeblendspace1d.rst:130
+msgid "Method Descriptions"
+msgstr "方法说明"
+
+#: ../../docs/classes/class_animationnodeblendspace1d.rst:134
+msgid ""
+"void **add_blend_point** **(** :ref:"
+"`AnimationRootNode<class_AnimationRootNode>` node, :ref:`float<class_float>` "
+"pos, :ref:`int<class_int>` at_index=-1 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace1d.rst:136
+msgid ""
+"Adds a new point that represents a ``node`` on the virtual axis at a given "
+"position set by ``pos``. You can insert it at a specific index using the "
+"``at_index`` argument. If you use the default value for ``at_index``, the "
+"point is inserted at the end of the blend points array."
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace1d.rst:142
+msgid ":ref:`int<class_int>` **get_blend_point_count** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace1d.rst:144
+msgid "Returns the number of points on the blend axis."
+msgstr "返回混合轴上的点的数量。"
+
+#: ../../docs/classes/class_animationnodeblendspace1d.rst:150
+msgid ""
+":ref:`AnimationRootNode<class_AnimationRootNode>` **get_blend_point_node** "
+"**(** :ref:`int<class_int>` point **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace1d.rst:152
+msgid ""
+"Returns the :ref:`AnimationNode<class_AnimationNode>` referenced by the "
+"point at index ``point``."
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace1d.rst:158
+msgid ""
+":ref:`float<class_float>` **get_blend_point_position** **(** :ref:"
+"`int<class_int>` point **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace1d.rst:160
+msgid "Returns the position of the point at index ``point``."
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace1d.rst:166
+msgid "void **remove_blend_point** **(** :ref:`int<class_int>` point **)**"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace1d.rst:168
+msgid "Removes the point at index ``point`` from the blend axis."
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace1d.rst:174
+msgid ""
+"void **set_blend_point_node** **(** :ref:`int<class_int>` point, :ref:"
+"`AnimationRootNode<class_AnimationRootNode>` node **)**"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace1d.rst:176
+msgid ""
+"Changes the :ref:`AnimationNode<class_AnimationNode>` referenced by the "
+"point at index ``point``."
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace1d.rst:182
+msgid ""
+"void **set_blend_point_position** **(** :ref:`int<class_int>` point, :ref:"
+"`float<class_float>` pos **)**"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace1d.rst:184
+msgid "Updates the position of the point at index ``point`` on the blend axis."
+msgstr ""

@@ -1,0 +1,401 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2021, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-31 12:15+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_configfile.rst:10
+msgid "ConfigFile"
+msgstr ""
+
+#: ../../docs/classes/class_configfile.rst:12
+msgid ""
+"**Inherits:** :ref:`Reference<class_Reference>` **<** :ref:"
+"`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_configfile.rst:14
+msgid "Helper class to handle INI-style files."
+msgstr "用于处理INI样式文件的Helper类。"
+
+#: ../../docs/classes/class_configfile.rst:17
+msgid "Description"
+msgstr "描述"
+
+#: ../../docs/classes/class_configfile.rst:19
+msgid ""
+"This helper class can be used to store :ref:`Variant<class_Variant>` values "
+"on the filesystem using INI-style formatting. The stored values are "
+"identified by a section and a key:"
+msgstr ""
+
+#: ../../docs/classes/class_configfile.rst:28
+msgid ""
+"The stored data can be saved to or parsed from a file, though ConfigFile "
+"objects can also be used directly without accessing the filesystem."
+msgstr ""
+
+#: ../../docs/classes/class_configfile.rst:30
+msgid ""
+"The following example shows how to parse an INI-style file from the system, "
+"read its contents and store new values in it:"
+msgstr ""
+
+#: ../../docs/classes/class_configfile.rst:45
+msgid ""
+"Keep in mind that section and property names can't contain spaces. Anything "
+"after a space will be ignored on save and on load."
+msgstr ""
+
+#: ../../docs/classes/class_configfile.rst:47
+msgid ""
+"ConfigFiles can also contain manually written comment lines starting with a "
+"semicolon (``;``). Those lines will be ignored when parsing the file. Note "
+"that comments will be lost when saving the ConfigFile. This can still be "
+"useful for dedicated server configuration files, which are typically never "
+"overwritten without explicit user action."
+msgstr ""
+
+#: ../../docs/classes/class_configfile.rst:50
+msgid "Methods"
+msgstr "方法"
+
+#: ../../docs/classes/class_configfile.rst:53
+#: ../../docs/classes/class_configfile.rst:55
+#: ../../docs/classes/class_configfile.rst:81
+msgid "void"
+msgstr ""
+
+#: ../../docs/classes/class_configfile.rst:53
+msgid ""
+":ref:`erase_section<class_ConfigFile_method_erase_section>` **(** :ref:"
+"`String<class_String>` section **)**"
+msgstr ""
+
+#: ../../docs/classes/class_configfile.rst:55
+msgid ""
+":ref:`erase_section_key<class_ConfigFile_method_erase_section_key>` **(** :"
+"ref:`String<class_String>` section, :ref:`String<class_String>` key **)**"
+msgstr ""
+
+#: ../../docs/classes/class_configfile.rst:57
+#: ../../docs/classes/class_configfile.rst:59
+msgid ":ref:`PoolStringArray<class_PoolStringArray>`"
+msgstr ""
+
+#: ../../docs/classes/class_configfile.rst:57
+msgid ""
+":ref:`get_section_keys<class_ConfigFile_method_get_section_keys>` **(** :ref:"
+"`String<class_String>` section **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_configfile.rst:59
+msgid ""
+":ref:`get_sections<class_ConfigFile_method_get_sections>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_configfile.rst:61
+msgid ":ref:`Variant<class_Variant>`"
+msgstr ""
+
+#: ../../docs/classes/class_configfile.rst:61
+msgid ""
+":ref:`get_value<class_ConfigFile_method_get_value>` **(** :ref:"
+"`String<class_String>` section, :ref:`String<class_String>` key, :ref:"
+"`Variant<class_Variant>` default=null **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_configfile.rst:63
+#: ../../docs/classes/class_configfile.rst:65
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_configfile.rst:63
+msgid ""
+":ref:`has_section<class_ConfigFile_method_has_section>` **(** :ref:"
+"`String<class_String>` section **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_configfile.rst:65
+msgid ""
+":ref:`has_section_key<class_ConfigFile_method_has_section_key>` **(** :ref:"
+"`String<class_String>` section, :ref:`String<class_String>` key **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_configfile.rst:67
+#: ../../docs/classes/class_configfile.rst:69
+#: ../../docs/classes/class_configfile.rst:71
+#: ../../docs/classes/class_configfile.rst:73
+#: ../../docs/classes/class_configfile.rst:75
+#: ../../docs/classes/class_configfile.rst:77
+#: ../../docs/classes/class_configfile.rst:79
+msgid ":ref:`Error<enum_@GlobalScope_Error>`"
+msgstr ""
+
+#: ../../docs/classes/class_configfile.rst:67
+msgid ""
+":ref:`load<class_ConfigFile_method_load>` **(** :ref:`String<class_String>` "
+"path **)**"
+msgstr ""
+
+#: ../../docs/classes/class_configfile.rst:69
+msgid ""
+":ref:`load_encrypted<class_ConfigFile_method_load_encrypted>` **(** :ref:"
+"`String<class_String>` path, :ref:`PoolByteArray<class_PoolByteArray>` key "
+"**)**"
+msgstr ""
+
+#: ../../docs/classes/class_configfile.rst:71
+msgid ""
+":ref:`load_encrypted_pass<class_ConfigFile_method_load_encrypted_pass>` "
+"**(** :ref:`String<class_String>` path, :ref:`String<class_String>` password "
+"**)**"
+msgstr ""
+
+#: ../../docs/classes/class_configfile.rst:73
+msgid ""
+":ref:`parse<class_ConfigFile_method_parse>` **(** :ref:"
+"`String<class_String>` data **)**"
+msgstr ""
+
+#: ../../docs/classes/class_configfile.rst:75
+msgid ""
+":ref:`save<class_ConfigFile_method_save>` **(** :ref:`String<class_String>` "
+"path **)**"
+msgstr ""
+
+#: ../../docs/classes/class_configfile.rst:77
+msgid ""
+":ref:`save_encrypted<class_ConfigFile_method_save_encrypted>` **(** :ref:"
+"`String<class_String>` path, :ref:`PoolByteArray<class_PoolByteArray>` key "
+"**)**"
+msgstr ""
+
+#: ../../docs/classes/class_configfile.rst:79
+msgid ""
+":ref:`save_encrypted_pass<class_ConfigFile_method_save_encrypted_pass>` "
+"**(** :ref:`String<class_String>` path, :ref:`String<class_String>` password "
+"**)**"
+msgstr ""
+
+#: ../../docs/classes/class_configfile.rst:81
+msgid ""
+":ref:`set_value<class_ConfigFile_method_set_value>` **(** :ref:"
+"`String<class_String>` section, :ref:`String<class_String>` key, :ref:"
+"`Variant<class_Variant>` value **)**"
+msgstr ""
+
+#: ../../docs/classes/class_configfile.rst:85
+msgid "Method Descriptions"
+msgstr "方法说明"
+
+#: ../../docs/classes/class_configfile.rst:89
+msgid "void **erase_section** **(** :ref:`String<class_String>` section **)**"
+msgstr ""
+
+#: ../../docs/classes/class_configfile.rst:91
+msgid ""
+"Deletes the specified section along with all the key-value pairs inside. "
+"Raises an error if the section does not exist."
+msgstr "删除指定的部分以及内部的所有键值对。如果该节不存在，则会引发错误。"
+
+#: ../../docs/classes/class_configfile.rst:97
+msgid ""
+"void **erase_section_key** **(** :ref:`String<class_String>` section, :ref:"
+"`String<class_String>` key **)**"
+msgstr ""
+
+#: ../../docs/classes/class_configfile.rst:99
+msgid ""
+"Deletes the specified key in a section. Raises an error if either the "
+"section or the key do not exist."
+msgstr "删除部分中的指定键。如果该部分或键不存在，则会引发错误。"
+
+#: ../../docs/classes/class_configfile.rst:105
+msgid ""
+":ref:`PoolStringArray<class_PoolStringArray>` **get_section_keys** **(** :"
+"ref:`String<class_String>` section **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_configfile.rst:107
+msgid ""
+"Returns an array of all defined key identifiers in the specified section. "
+"Raises an error and returns an empty array if the section does not exist."
+msgstr ""
+"返回指定部分中所有已定义键标识符的数组。如果该部分不存在，则会引发错误并返回"
+"一个空数组。"
+
+#: ../../docs/classes/class_configfile.rst:113
+msgid ""
+":ref:`PoolStringArray<class_PoolStringArray>` **get_sections** **(** **)** |"
+"const|"
+msgstr ""
+
+#: ../../docs/classes/class_configfile.rst:115
+msgid "Returns an array of all defined section identifiers."
+msgstr "返回所有已定义节标识符的数组。"
+
+#: ../../docs/classes/class_configfile.rst:121
+msgid ""
+":ref:`Variant<class_Variant>` **get_value** **(** :ref:"
+"`String<class_String>` section, :ref:`String<class_String>` key, :ref:"
+"`Variant<class_Variant>` default=null **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_configfile.rst:123
+msgid ""
+"Returns the current value for the specified section and key. If either the "
+"section or the key do not exist, the method returns the fallback ``default`` "
+"value. If ``default`` is not specified or set to ``null``, an error is also "
+"raised."
+msgstr ""
+
+#: ../../docs/classes/class_configfile.rst:129
+msgid ""
+":ref:`bool<class_bool>` **has_section** **(** :ref:`String<class_String>` "
+"section **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_configfile.rst:131
+msgid "Returns ``true`` if the specified section exists."
+msgstr ""
+
+#: ../../docs/classes/class_configfile.rst:137
+msgid ""
+":ref:`bool<class_bool>` **has_section_key** **(** :ref:"
+"`String<class_String>` section, :ref:`String<class_String>` key **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_configfile.rst:139
+msgid "Returns ``true`` if the specified section-key pair exists."
+msgstr ""
+
+#: ../../docs/classes/class_configfile.rst:145
+msgid ""
+":ref:`Error<enum_@GlobalScope_Error>` **load** **(** :ref:"
+"`String<class_String>` path **)**"
+msgstr ""
+
+#: ../../docs/classes/class_configfile.rst:147
+msgid ""
+"Loads the config file specified as a parameter. The file's contents are "
+"parsed and loaded in the ``ConfigFile`` object which the method was called "
+"on."
+msgstr ""
+
+#: ../../docs/classes/class_configfile.rst:149
+#: ../../docs/classes/class_configfile.rst:159
+#: ../../docs/classes/class_configfile.rst:169
+#: ../../docs/classes/class_configfile.rst:179
+#: ../../docs/classes/class_configfile.rst:189
+#: ../../docs/classes/class_configfile.rst:199
+#: ../../docs/classes/class_configfile.rst:209
+msgid ""
+"Returns one of the :ref:`Error<enum_@GlobalScope_Error>` code constants "
+"(``OK`` on success)."
+msgstr ""
+
+#: ../../docs/classes/class_configfile.rst:155
+msgid ""
+":ref:`Error<enum_@GlobalScope_Error>` **load_encrypted** **(** :ref:"
+"`String<class_String>` path, :ref:`PoolByteArray<class_PoolByteArray>` key "
+"**)**"
+msgstr ""
+
+#: ../../docs/classes/class_configfile.rst:157
+msgid ""
+"Loads the encrypted config file specified as a parameter, using the provided "
+"``key`` to decrypt it. The file's contents are parsed and loaded in the "
+"``ConfigFile`` object which the method was called on."
+msgstr ""
+
+#: ../../docs/classes/class_configfile.rst:165
+msgid ""
+":ref:`Error<enum_@GlobalScope_Error>` **load_encrypted_pass** **(** :ref:"
+"`String<class_String>` path, :ref:`String<class_String>` password **)**"
+msgstr ""
+
+#: ../../docs/classes/class_configfile.rst:167
+msgid ""
+"Loads the encrypted config file specified as a parameter, using the provided "
+"``password`` to decrypt it. The file's contents are parsed and loaded in the "
+"``ConfigFile`` object which the method was called on."
+msgstr ""
+
+#: ../../docs/classes/class_configfile.rst:175
+msgid ""
+":ref:`Error<enum_@GlobalScope_Error>` **parse** **(** :ref:"
+"`String<class_String>` data **)**"
+msgstr ""
+
+#: ../../docs/classes/class_configfile.rst:177
+msgid ""
+"Parses the the passed string as the contents of a config file. The string is "
+"parsed and loaded in the ConfigFile object which the method was called on."
+msgstr ""
+
+#: ../../docs/classes/class_configfile.rst:185
+msgid ""
+":ref:`Error<enum_@GlobalScope_Error>` **save** **(** :ref:"
+"`String<class_String>` path **)**"
+msgstr ""
+
+#: ../../docs/classes/class_configfile.rst:187
+msgid ""
+"Saves the contents of the ``ConfigFile`` object to the file specified as a "
+"parameter. The output file uses an INI-style structure."
+msgstr ""
+
+#: ../../docs/classes/class_configfile.rst:195
+msgid ""
+":ref:`Error<enum_@GlobalScope_Error>` **save_encrypted** **(** :ref:"
+"`String<class_String>` path, :ref:`PoolByteArray<class_PoolByteArray>` key "
+"**)**"
+msgstr ""
+
+#: ../../docs/classes/class_configfile.rst:197
+msgid ""
+"Saves the contents of the ``ConfigFile`` object to the AES-256 encrypted "
+"file specified as a parameter, using the provided ``key`` to encrypt it. The "
+"output file uses an INI-style structure."
+msgstr ""
+
+#: ../../docs/classes/class_configfile.rst:205
+msgid ""
+":ref:`Error<enum_@GlobalScope_Error>` **save_encrypted_pass** **(** :ref:"
+"`String<class_String>` path, :ref:`String<class_String>` password **)**"
+msgstr ""
+
+#: ../../docs/classes/class_configfile.rst:207
+msgid ""
+"Saves the contents of the ``ConfigFile`` object to the AES-256 encrypted "
+"file specified as a parameter, using the provided ``password`` to encrypt "
+"it. The output file uses an INI-style structure."
+msgstr ""
+
+#: ../../docs/classes/class_configfile.rst:215
+msgid ""
+"void **set_value** **(** :ref:`String<class_String>` section, :ref:"
+"`String<class_String>` key, :ref:`Variant<class_Variant>` value **)**"
+msgstr ""
+
+#: ../../docs/classes/class_configfile.rst:217
+msgid ""
+"Assigns a value to the specified key of the specified section. If either the "
+"section or the key do not exist, they are created. Passing a ``null`` value "
+"deletes the specified key if it exists, and deletes the section if it ends "
+"up empty once the key has been removed."
+msgstr ""

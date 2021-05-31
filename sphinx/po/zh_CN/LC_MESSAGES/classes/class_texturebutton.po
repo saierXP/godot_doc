@@ -1,0 +1,362 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2021, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-31 12:15+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_texturebutton.rst:10
+msgid "TextureButton"
+msgstr ""
+
+#: ../../docs/classes/class_texturebutton.rst:12
+msgid ""
+"**Inherits:** :ref:`BaseButton<class_BaseButton>` **<** :ref:"
+"`Control<class_Control>` **<** :ref:`CanvasItem<class_CanvasItem>` **<** :"
+"ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_texturebutton.rst:14
+msgid ""
+"Texture-based button. Supports Pressed, Hover, Disabled and Focused states."
+msgstr ""
+
+#: ../../docs/classes/class_texturebutton.rst:17
+msgid "Description"
+msgstr "描述"
+
+#: ../../docs/classes/class_texturebutton.rst:19
+msgid ""
+"``TextureButton`` has the same functionality as :ref:`Button<class_Button>`, "
+"except it uses sprites instead of Godot's :ref:`Theme<class_Theme>` "
+"resource. It is faster to create, but it doesn't support localization like "
+"more complex :ref:`Control<class_Control>`\\ s."
+msgstr ""
+
+#: ../../docs/classes/class_texturebutton.rst:21
+msgid ""
+"The \"normal\" state must contain a texture (:ref:"
+"`texture_normal<class_TextureButton_property_texture_normal>`); other "
+"textures are optional."
+msgstr ""
+
+#: ../../docs/classes/class_texturebutton.rst:23
+msgid ""
+"See also :ref:`BaseButton<class_BaseButton>` which contains common "
+"properties and methods associated with this node."
+msgstr ""
+
+#: ../../docs/classes/class_texturebutton.rst:26
+msgid "Tutorials"
+msgstr "教程"
+
+#: ../../docs/classes/class_texturebutton.rst:28
+msgid ""
+"`https://godotengine.org/asset-library/asset/676 <https://godotengine.org/"
+"asset-library/asset/676>`_"
+msgstr ""
+
+#: ../../docs/classes/class_texturebutton.rst:31
+msgid "Properties"
+msgstr "属性"
+
+#: ../../docs/classes/class_texturebutton.rst:34
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_texturebutton.rst:34
+msgid ":ref:`expand<class_TextureButton_property_expand>`"
+msgstr ""
+
+#: ../../docs/classes/class_texturebutton.rst:34
+#: ../../docs/classes/class_texturebutton.rst:94
+msgid "``false``"
+msgstr ""
+
+#: ../../docs/classes/class_texturebutton.rst:36
+msgid ":ref:`StretchMode<enum_TextureButton_StretchMode>`"
+msgstr ""
+
+#: ../../docs/classes/class_texturebutton.rst:36
+msgid ":ref:`stretch_mode<class_TextureButton_property_stretch_mode>`"
+msgstr ""
+
+#: ../../docs/classes/class_texturebutton.rst:36
+#: ../../docs/classes/class_texturebutton.rst:110
+msgid "``0``"
+msgstr ""
+
+#: ../../docs/classes/class_texturebutton.rst:38
+msgid ":ref:`BitMap<class_BitMap>`"
+msgstr ""
+
+#: ../../docs/classes/class_texturebutton.rst:38
+msgid ""
+":ref:`texture_click_mask<class_TextureButton_property_texture_click_mask>`"
+msgstr ""
+
+#: ../../docs/classes/class_texturebutton.rst:40
+#: ../../docs/classes/class_texturebutton.rst:42
+#: ../../docs/classes/class_texturebutton.rst:44
+#: ../../docs/classes/class_texturebutton.rst:46
+#: ../../docs/classes/class_texturebutton.rst:48
+msgid ":ref:`Texture<class_Texture>`"
+msgstr ""
+
+#: ../../docs/classes/class_texturebutton.rst:40
+msgid ":ref:`texture_disabled<class_TextureButton_property_texture_disabled>`"
+msgstr ""
+
+#: ../../docs/classes/class_texturebutton.rst:42
+msgid ":ref:`texture_focused<class_TextureButton_property_texture_focused>`"
+msgstr ""
+
+#: ../../docs/classes/class_texturebutton.rst:44
+msgid ":ref:`texture_hover<class_TextureButton_property_texture_hover>`"
+msgstr ""
+
+#: ../../docs/classes/class_texturebutton.rst:46
+msgid ":ref:`texture_normal<class_TextureButton_property_texture_normal>`"
+msgstr ""
+
+#: ../../docs/classes/class_texturebutton.rst:48
+msgid ":ref:`texture_pressed<class_TextureButton_property_texture_pressed>`"
+msgstr ""
+
+#: ../../docs/classes/class_texturebutton.rst:52
+msgid "Enumerations"
+msgstr "枚举"
+
+#: ../../docs/classes/class_texturebutton.rst:70
+msgid "enum **StretchMode**:"
+msgstr ""
+
+#: ../../docs/classes/class_texturebutton.rst:72
+msgid ""
+"**STRETCH_SCALE** = **0** --- Scale to fit the node's bounding rectangle."
+msgstr ""
+
+#: ../../docs/classes/class_texturebutton.rst:74
+msgid "**STRETCH_TILE** = **1** --- Tile inside the node's bounding rectangle."
+msgstr ""
+
+#: ../../docs/classes/class_texturebutton.rst:76
+msgid ""
+"**STRETCH_KEEP** = **2** --- The texture keeps its original size and stays "
+"in the bounding rectangle's top-left corner."
+msgstr ""
+
+#: ../../docs/classes/class_texturebutton.rst:78
+msgid ""
+"**STRETCH_KEEP_CENTERED** = **3** --- The texture keeps its original size "
+"and stays centered in the node's bounding rectangle."
+msgstr ""
+
+#: ../../docs/classes/class_texturebutton.rst:80
+msgid ""
+"**STRETCH_KEEP_ASPECT** = **4** --- Scale the texture to fit the node's "
+"bounding rectangle, but maintain the texture's aspect ratio."
+msgstr ""
+
+#: ../../docs/classes/class_texturebutton.rst:82
+msgid ""
+"**STRETCH_KEEP_ASPECT_CENTERED** = **5** --- Scale the texture to fit the "
+"node's bounding rectangle, center it, and maintain its aspect ratio."
+msgstr ""
+
+#: ../../docs/classes/class_texturebutton.rst:84
+msgid ""
+"**STRETCH_KEEP_ASPECT_COVERED** = **6** --- Scale the texture so that the "
+"shorter side fits the bounding rectangle. The other side clips to the node's "
+"limits."
+msgstr ""
+
+#: ../../docs/classes/class_texturebutton.rst:87
+msgid "Property Descriptions"
+msgstr "属性说明"
+
+#: ../../docs/classes/class_texturebutton.rst:91
+msgid ":ref:`bool<class_bool>` **expand**"
+msgstr ""
+
+#: ../../docs/classes/class_texturebutton.rst:94
+#: ../../docs/classes/class_texturebutton.rst:110
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_texturebutton.rst:96
+#: ../../docs/classes/class_texturebutton.rst:112
+#: ../../docs/classes/class_texturebutton.rst:126
+#: ../../docs/classes/class_texturebutton.rst:140
+#: ../../docs/classes/class_texturebutton.rst:154
+#: ../../docs/classes/class_texturebutton.rst:168
+#: ../../docs/classes/class_texturebutton.rst:182
+#: ../../docs/classes/class_texturebutton.rst:196
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_texturebutton.rst:96
+msgid "set_expand(value)"
+msgstr ""
+
+#: ../../docs/classes/class_texturebutton.rst:98
+#: ../../docs/classes/class_texturebutton.rst:114
+#: ../../docs/classes/class_texturebutton.rst:128
+#: ../../docs/classes/class_texturebutton.rst:142
+#: ../../docs/classes/class_texturebutton.rst:156
+#: ../../docs/classes/class_texturebutton.rst:170
+#: ../../docs/classes/class_texturebutton.rst:184
+#: ../../docs/classes/class_texturebutton.rst:198
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_texturebutton.rst:98
+msgid "get_expand()"
+msgstr ""
+
+#: ../../docs/classes/class_texturebutton.rst:101
+msgid ""
+"If ``true``, the texture stretches to the edges of the node's bounding "
+"rectangle using the :ref:"
+"`stretch_mode<class_TextureButton_property_stretch_mode>`. If ``false``, the "
+"texture will not scale with the node."
+msgstr ""
+
+#: ../../docs/classes/class_texturebutton.rst:107
+msgid ":ref:`StretchMode<enum_TextureButton_StretchMode>` **stretch_mode**"
+msgstr ""
+
+#: ../../docs/classes/class_texturebutton.rst:112
+msgid "set_stretch_mode(value)"
+msgstr ""
+
+#: ../../docs/classes/class_texturebutton.rst:114
+msgid "get_stretch_mode()"
+msgstr ""
+
+#: ../../docs/classes/class_texturebutton.rst:117
+msgid ""
+"Controls the texture's behavior when you resize the node's bounding "
+"rectangle, **only if** :ref:`expand<class_TextureButton_property_expand>` is "
+"``true``. Set it to one of the :ref:"
+"`StretchMode<enum_TextureButton_StretchMode>` constants. See the constants "
+"to learn more."
+msgstr ""
+
+#: ../../docs/classes/class_texturebutton.rst:123
+msgid ":ref:`BitMap<class_BitMap>` **texture_click_mask**"
+msgstr ""
+
+#: ../../docs/classes/class_texturebutton.rst:126
+msgid "set_click_mask(value)"
+msgstr ""
+
+#: ../../docs/classes/class_texturebutton.rst:128
+msgid "get_click_mask()"
+msgstr ""
+
+#: ../../docs/classes/class_texturebutton.rst:131
+msgid ""
+"Pure black and white :ref:`BitMap<class_BitMap>` image to use for click "
+"detection. On the mask, white pixels represent the button's clickable area. "
+"Use it to create buttons with curved shapes."
+msgstr ""
+
+#: ../../docs/classes/class_texturebutton.rst:137
+msgid ":ref:`Texture<class_Texture>` **texture_disabled**"
+msgstr ""
+
+#: ../../docs/classes/class_texturebutton.rst:140
+msgid "set_disabled_texture(value)"
+msgstr ""
+
+#: ../../docs/classes/class_texturebutton.rst:142
+msgid "get_disabled_texture()"
+msgstr ""
+
+#: ../../docs/classes/class_texturebutton.rst:145
+msgid ""
+"Texture to display when the node is disabled. See :ref:`BaseButton."
+"disabled<class_BaseButton_property_disabled>`."
+msgstr ""
+
+#: ../../docs/classes/class_texturebutton.rst:151
+msgid ":ref:`Texture<class_Texture>` **texture_focused**"
+msgstr ""
+
+#: ../../docs/classes/class_texturebutton.rst:154
+msgid "set_focused_texture(value)"
+msgstr ""
+
+#: ../../docs/classes/class_texturebutton.rst:156
+msgid "get_focused_texture()"
+msgstr ""
+
+#: ../../docs/classes/class_texturebutton.rst:159
+msgid "Texture to display when the node has mouse or keyboard focus."
+msgstr ""
+
+#: ../../docs/classes/class_texturebutton.rst:165
+msgid ":ref:`Texture<class_Texture>` **texture_hover**"
+msgstr ""
+
+#: ../../docs/classes/class_texturebutton.rst:168
+msgid "set_hover_texture(value)"
+msgstr ""
+
+#: ../../docs/classes/class_texturebutton.rst:170
+msgid "get_hover_texture()"
+msgstr ""
+
+#: ../../docs/classes/class_texturebutton.rst:173
+msgid "Texture to display when the mouse hovers the node."
+msgstr ""
+
+#: ../../docs/classes/class_texturebutton.rst:179
+msgid ":ref:`Texture<class_Texture>` **texture_normal**"
+msgstr ""
+
+#: ../../docs/classes/class_texturebutton.rst:182
+msgid "set_normal_texture(value)"
+msgstr ""
+
+#: ../../docs/classes/class_texturebutton.rst:184
+msgid "get_normal_texture()"
+msgstr ""
+
+#: ../../docs/classes/class_texturebutton.rst:187
+msgid ""
+"Texture to display by default, when the node is **not** in the disabled, "
+"focused, hover or pressed state."
+msgstr ""
+
+#: ../../docs/classes/class_texturebutton.rst:193
+msgid ":ref:`Texture<class_Texture>` **texture_pressed**"
+msgstr ""
+
+#: ../../docs/classes/class_texturebutton.rst:196
+msgid "set_pressed_texture(value)"
+msgstr ""
+
+#: ../../docs/classes/class_texturebutton.rst:198
+msgid "get_pressed_texture()"
+msgstr ""
+
+#: ../../docs/classes/class_texturebutton.rst:201
+msgid ""
+"Texture to display on mouse down over the node, if the node has keyboard "
+"focus and the player presses the Enter key or if the player presses the :ref:"
+"`BaseButton.shortcut<class_BaseButton_property_shortcut>` key."
+msgstr ""

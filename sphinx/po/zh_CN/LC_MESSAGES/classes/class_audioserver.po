@@ -1,0 +1,939 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2021, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-31 12:15+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_audioserver.rst:10
+msgid "AudioServer"
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:12
+msgid "**Inherits:** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:14
+msgid "Server interface for low-level audio access."
+msgstr "低级音频访问的服务器接口。"
+
+#: ../../docs/classes/class_audioserver.rst:17
+msgid "Description"
+msgstr "描述"
+
+#: ../../docs/classes/class_audioserver.rst:19
+msgid ""
+"``AudioServer`` is a low-level server interface for audio access. It is in "
+"charge of creating sample data (playable audio) as well as its playback via "
+"a voice interface."
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:22
+msgid "Tutorials"
+msgstr "教程"
+
+#: ../../docs/classes/class_audioserver.rst:24
+msgid ":doc:`../tutorials/audio/audio_buses`"
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:26
+msgid ""
+"`https://godotengine.org/asset-library/asset/525 <https://godotengine.org/"
+"asset-library/asset/525>`_"
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:28
+msgid ""
+"`https://godotengine.org/asset-library/asset/527 <https://godotengine.org/"
+"asset-library/asset/527>`_"
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:30
+msgid ""
+"`https://godotengine.org/asset-library/asset/528 <https://godotengine.org/"
+"asset-library/asset/528>`_"
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:33
+msgid "Properties"
+msgstr "属性"
+
+#: ../../docs/classes/class_audioserver.rst:36
+#: ../../docs/classes/class_audioserver.rst:59
+#: ../../docs/classes/class_audioserver.rst:63
+#: ../../docs/classes/class_audioserver.rst:67
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:36
+msgid ":ref:`bus_count<class_AudioServer_property_bus_count>`"
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:36
+#: ../../docs/classes/class_audioserver.rst:168
+msgid "``1``"
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:38
+#: ../../docs/classes/class_audioserver.rst:51
+#: ../../docs/classes/class_audioserver.rst:69
+#: ../../docs/classes/class_audioserver.rst:75
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:38
+msgid ":ref:`device<class_AudioServer_property_device>`"
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:38
+#: ../../docs/classes/class_audioserver.rst:184
+msgid "``\"Default\"``"
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:40
+#: ../../docs/classes/class_audioserver.rst:71
+#: ../../docs/classes/class_audioserver.rst:73
+#: ../../docs/classes/class_audioserver.rst:77
+#: ../../docs/classes/class_audioserver.rst:81
+#: ../../docs/classes/class_audioserver.rst:83
+#: ../../docs/classes/class_audioserver.rst:87
+#: ../../docs/classes/class_audioserver.rst:89
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:40
+msgid ":ref:`global_rate_scale<class_AudioServer_property_global_rate_scale>`"
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:40
+#: ../../docs/classes/class_audioserver.rst:200
+msgid "``1.0``"
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:44
+msgid "Methods"
+msgstr "方法"
+
+#: ../../docs/classes/class_audioserver.rst:47
+#: ../../docs/classes/class_audioserver.rst:49
+#: ../../docs/classes/class_audioserver.rst:55
+#: ../../docs/classes/class_audioserver.rst:99
+#: ../../docs/classes/class_audioserver.rst:101
+#: ../../docs/classes/class_audioserver.rst:103
+#: ../../docs/classes/class_audioserver.rst:105
+#: ../../docs/classes/class_audioserver.rst:107
+#: ../../docs/classes/class_audioserver.rst:109
+#: ../../docs/classes/class_audioserver.rst:111
+#: ../../docs/classes/class_audioserver.rst:113
+#: ../../docs/classes/class_audioserver.rst:115
+#: ../../docs/classes/class_audioserver.rst:117
+#: ../../docs/classes/class_audioserver.rst:119
+#: ../../docs/classes/class_audioserver.rst:121
+#: ../../docs/classes/class_audioserver.rst:123
+#: ../../docs/classes/class_audioserver.rst:125
+msgid "void"
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:47
+msgid ""
+":ref:`add_bus<class_AudioServer_method_add_bus>` **(** :ref:`int<class_int>` "
+"at_position=-1 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:49
+msgid ""
+":ref:`add_bus_effect<class_AudioServer_method_add_bus_effect>` **(** :ref:"
+"`int<class_int>` bus_idx, :ref:`AudioEffect<class_AudioEffect>` effect, :ref:"
+"`int<class_int>` at_position=-1 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:51
+msgid ""
+":ref:`capture_get_device<class_AudioServer_method_capture_get_device>` **(** "
+"**)**"
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:53
+#: ../../docs/classes/class_audioserver.rst:79
+msgid ":ref:`Array<class_Array>`"
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:53
+msgid ""
+":ref:"
+"`capture_get_device_list<class_AudioServer_method_capture_get_device_list>` "
+"**(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:55
+msgid ""
+":ref:`capture_set_device<class_AudioServer_method_capture_set_device>` "
+"**(** :ref:`String<class_String>` name **)**"
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:57
+msgid ":ref:`AudioBusLayout<class_AudioBusLayout>`"
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:57
+msgid ""
+":ref:`generate_bus_layout<class_AudioServer_method_generate_bus_layout>` "
+"**(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:59
+msgid ""
+":ref:`get_bus_channels<class_AudioServer_method_get_bus_channels>` **(** :"
+"ref:`int<class_int>` bus_idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:61
+msgid ":ref:`AudioEffect<class_AudioEffect>`"
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:61
+msgid ""
+":ref:`get_bus_effect<class_AudioServer_method_get_bus_effect>` **(** :ref:"
+"`int<class_int>` bus_idx, :ref:`int<class_int>` effect_idx **)**"
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:63
+msgid ""
+":ref:`get_bus_effect_count<class_AudioServer_method_get_bus_effect_count>` "
+"**(** :ref:`int<class_int>` bus_idx **)**"
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:65
+msgid ":ref:`AudioEffectInstance<class_AudioEffectInstance>`"
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:65
+msgid ""
+":ref:"
+"`get_bus_effect_instance<class_AudioServer_method_get_bus_effect_instance>` "
+"**(** :ref:`int<class_int>` bus_idx, :ref:`int<class_int>` effect_idx, :ref:"
+"`int<class_int>` channel=0 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:67
+msgid ""
+":ref:`get_bus_index<class_AudioServer_method_get_bus_index>` **(** :ref:"
+"`String<class_String>` bus_name **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:69
+msgid ""
+":ref:`get_bus_name<class_AudioServer_method_get_bus_name>` **(** :ref:"
+"`int<class_int>` bus_idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:71
+msgid ""
+":ref:"
+"`get_bus_peak_volume_left_db<class_AudioServer_method_get_bus_peak_volume_left_db>` "
+"**(** :ref:`int<class_int>` bus_idx, :ref:`int<class_int>` channel **)** |"
+"const|"
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:73
+msgid ""
+":ref:"
+"`get_bus_peak_volume_right_db<class_AudioServer_method_get_bus_peak_volume_right_db>` "
+"**(** :ref:`int<class_int>` bus_idx, :ref:`int<class_int>` channel **)** |"
+"const|"
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:75
+msgid ""
+":ref:`get_bus_send<class_AudioServer_method_get_bus_send>` **(** :ref:"
+"`int<class_int>` bus_idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:77
+msgid ""
+":ref:`get_bus_volume_db<class_AudioServer_method_get_bus_volume_db>` **(** :"
+"ref:`int<class_int>` bus_idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:79
+msgid ""
+":ref:`get_device_list<class_AudioServer_method_get_device_list>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:81
+msgid ""
+":ref:`get_mix_rate<class_AudioServer_method_get_mix_rate>` **(** **)** |"
+"const|"
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:83
+msgid ""
+":ref:`get_output_latency<class_AudioServer_method_get_output_latency>` **(** "
+"**)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:85
+msgid ":ref:`SpeakerMode<enum_AudioServer_SpeakerMode>`"
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:85
+msgid ""
+":ref:`get_speaker_mode<class_AudioServer_method_get_speaker_mode>` **(** "
+"**)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:87
+msgid ""
+":ref:"
+"`get_time_since_last_mix<class_AudioServer_method_get_time_since_last_mix>` "
+"**(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:89
+msgid ""
+":ref:`get_time_to_next_mix<class_AudioServer_method_get_time_to_next_mix>` "
+"**(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:91
+#: ../../docs/classes/class_audioserver.rst:93
+#: ../../docs/classes/class_audioserver.rst:95
+#: ../../docs/classes/class_audioserver.rst:97
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:91
+msgid ""
+":ref:"
+"`is_bus_bypassing_effects<class_AudioServer_method_is_bus_bypassing_effects>` "
+"**(** :ref:`int<class_int>` bus_idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:93
+msgid ""
+":ref:`is_bus_effect_enabled<class_AudioServer_method_is_bus_effect_enabled>` "
+"**(** :ref:`int<class_int>` bus_idx, :ref:`int<class_int>` effect_idx **)** |"
+"const|"
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:95
+msgid ""
+":ref:`is_bus_mute<class_AudioServer_method_is_bus_mute>` **(** :ref:"
+"`int<class_int>` bus_idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:97
+msgid ""
+":ref:`is_bus_solo<class_AudioServer_method_is_bus_solo>` **(** :ref:"
+"`int<class_int>` bus_idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:99
+msgid ":ref:`lock<class_AudioServer_method_lock>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:101
+msgid ""
+":ref:`move_bus<class_AudioServer_method_move_bus>` **(** :ref:"
+"`int<class_int>` index, :ref:`int<class_int>` to_index **)**"
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:103
+msgid ""
+":ref:`remove_bus<class_AudioServer_method_remove_bus>` **(** :ref:"
+"`int<class_int>` index **)**"
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:105
+msgid ""
+":ref:`remove_bus_effect<class_AudioServer_method_remove_bus_effect>` **(** :"
+"ref:`int<class_int>` bus_idx, :ref:`int<class_int>` effect_idx **)**"
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:107
+msgid ""
+":ref:"
+"`set_bus_bypass_effects<class_AudioServer_method_set_bus_bypass_effects>` "
+"**(** :ref:`int<class_int>` bus_idx, :ref:`bool<class_bool>` enable **)**"
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:109
+msgid ""
+":ref:"
+"`set_bus_effect_enabled<class_AudioServer_method_set_bus_effect_enabled>` "
+"**(** :ref:`int<class_int>` bus_idx, :ref:`int<class_int>` effect_idx, :ref:"
+"`bool<class_bool>` enabled **)**"
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:111
+msgid ""
+":ref:`set_bus_layout<class_AudioServer_method_set_bus_layout>` **(** :ref:"
+"`AudioBusLayout<class_AudioBusLayout>` bus_layout **)**"
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:113
+msgid ""
+":ref:`set_bus_mute<class_AudioServer_method_set_bus_mute>` **(** :ref:"
+"`int<class_int>` bus_idx, :ref:`bool<class_bool>` enable **)**"
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:115
+msgid ""
+":ref:`set_bus_name<class_AudioServer_method_set_bus_name>` **(** :ref:"
+"`int<class_int>` bus_idx, :ref:`String<class_String>` name **)**"
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:117
+msgid ""
+":ref:`set_bus_send<class_AudioServer_method_set_bus_send>` **(** :ref:"
+"`int<class_int>` bus_idx, :ref:`String<class_String>` send **)**"
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:119
+msgid ""
+":ref:`set_bus_solo<class_AudioServer_method_set_bus_solo>` **(** :ref:"
+"`int<class_int>` bus_idx, :ref:`bool<class_bool>` enable **)**"
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:121
+msgid ""
+":ref:`set_bus_volume_db<class_AudioServer_method_set_bus_volume_db>` **(** :"
+"ref:`int<class_int>` bus_idx, :ref:`float<class_float>` volume_db **)**"
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:123
+msgid ""
+":ref:`swap_bus_effects<class_AudioServer_method_swap_bus_effects>` **(** :"
+"ref:`int<class_int>` bus_idx, :ref:`int<class_int>` effect_idx, :ref:"
+"`int<class_int>` by_effect_idx **)**"
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:125
+msgid ":ref:`unlock<class_AudioServer_method_unlock>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:129
+msgid "Signals"
+msgstr "信号"
+
+#: ../../docs/classes/class_audioserver.rst:133
+msgid "**bus_layout_changed** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:135
+msgid "Emitted when the :ref:`AudioBusLayout<class_AudioBusLayout>` changes."
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:138
+msgid "Enumerations"
+msgstr "枚举"
+
+#: ../../docs/classes/class_audioserver.rst:150
+msgid "enum **SpeakerMode**:"
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:152
+msgid ""
+"**SPEAKER_MODE_STEREO** = **0** --- Two or fewer speakers were detected."
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:154
+msgid ""
+"**SPEAKER_SURROUND_31** = **1** --- A 3.1 channel surround setup was "
+"detected."
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:156
+msgid ""
+"**SPEAKER_SURROUND_51** = **2** --- A 5.1 channel surround setup was "
+"detected."
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:158
+msgid ""
+"**SPEAKER_SURROUND_71** = **3** --- A 7.1 channel surround setup was "
+"detected."
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:161
+msgid "Property Descriptions"
+msgstr "属性说明"
+
+#: ../../docs/classes/class_audioserver.rst:165
+msgid ":ref:`int<class_int>` **bus_count**"
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:168
+#: ../../docs/classes/class_audioserver.rst:184
+#: ../../docs/classes/class_audioserver.rst:200
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:170
+#: ../../docs/classes/class_audioserver.rst:186
+#: ../../docs/classes/class_audioserver.rst:202
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:170
+msgid "set_bus_count(value)"
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:172
+#: ../../docs/classes/class_audioserver.rst:188
+#: ../../docs/classes/class_audioserver.rst:204
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:172
+msgid "get_bus_count()"
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:175
+msgid "Number of available audio buses."
+msgstr "可用音频总线的数量。"
+
+#: ../../docs/classes/class_audioserver.rst:181
+msgid ":ref:`String<class_String>` **device**"
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:186
+msgid "set_device(value)"
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:188
+msgid "get_device()"
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:191
+msgid ""
+"Name of the current device for audio output (see :ref:"
+"`get_device_list<class_AudioServer_method_get_device_list>`)."
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:197
+msgid ":ref:`float<class_float>` **global_rate_scale**"
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:202
+msgid "set_global_rate_scale(value)"
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:204
+msgid "get_global_rate_scale()"
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:207
+msgid ""
+"Scales the rate at which audio is played (i.e. setting it to ``0.5`` will "
+"make the audio be played twice as fast)."
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:210
+msgid "Method Descriptions"
+msgstr "方法说明"
+
+#: ../../docs/classes/class_audioserver.rst:214
+msgid "void **add_bus** **(** :ref:`int<class_int>` at_position=-1 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:216
+msgid "Adds a bus at ``at_position``."
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:222
+msgid ""
+"void **add_bus_effect** **(** :ref:`int<class_int>` bus_idx, :ref:"
+"`AudioEffect<class_AudioEffect>` effect, :ref:`int<class_int>` "
+"at_position=-1 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:224
+msgid ""
+"Adds an :ref:`AudioEffect<class_AudioEffect>` effect to the bus ``bus_idx`` "
+"at ``at_position``."
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:230
+msgid ":ref:`String<class_String>` **capture_get_device** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:232
+msgid ""
+"Name of the current device for audio input (see :ref:"
+"`capture_get_device_list<class_AudioServer_method_capture_get_device_list>`)."
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:238
+msgid ":ref:`Array<class_Array>` **capture_get_device_list** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:240
+msgid "Returns the names of all audio input devices detected on the system."
+msgstr "返回系统上检测到的所有音频输入设备的名称。"
+
+#: ../../docs/classes/class_audioserver.rst:246
+msgid ""
+"void **capture_set_device** **(** :ref:`String<class_String>` name **)**"
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:248
+msgid "Sets which audio input device is used for audio capture."
+msgstr "设置音频输入设备用于音频采集。"
+
+#: ../../docs/classes/class_audioserver.rst:254
+msgid ""
+":ref:`AudioBusLayout<class_AudioBusLayout>` **generate_bus_layout** **(** "
+"**)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:256
+msgid ""
+"Generates an :ref:`AudioBusLayout<class_AudioBusLayout>` using the available "
+"buses and effects."
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:262
+msgid ""
+":ref:`int<class_int>` **get_bus_channels** **(** :ref:`int<class_int>` "
+"bus_idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:264
+msgid "Returns the amount of channels of the bus at index ``bus_idx``."
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:270
+msgid ""
+":ref:`AudioEffect<class_AudioEffect>` **get_bus_effect** **(** :ref:"
+"`int<class_int>` bus_idx, :ref:`int<class_int>` effect_idx **)**"
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:272
+msgid ""
+"Returns the :ref:`AudioEffect<class_AudioEffect>` at position ``effect_idx`` "
+"in bus ``bus_idx``."
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:278
+msgid ""
+":ref:`int<class_int>` **get_bus_effect_count** **(** :ref:`int<class_int>` "
+"bus_idx **)**"
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:280
+msgid "Returns the number of effects on the bus at ``bus_idx``."
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:286
+msgid ""
+":ref:`AudioEffectInstance<class_AudioEffectInstance>` "
+"**get_bus_effect_instance** **(** :ref:`int<class_int>` bus_idx, :ref:"
+"`int<class_int>` effect_idx, :ref:`int<class_int>` channel=0 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:288
+msgid ""
+"Returns the :ref:`AudioEffectInstance<class_AudioEffectInstance>` assigned "
+"to the given bus and effect indices (and optionally channel)."
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:294
+msgid ""
+":ref:`int<class_int>` **get_bus_index** **(** :ref:`String<class_String>` "
+"bus_name **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:296
+msgid "Returns the index of the bus with the name ``bus_name``."
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:302
+msgid ""
+":ref:`String<class_String>` **get_bus_name** **(** :ref:`int<class_int>` "
+"bus_idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:304
+msgid "Returns the name of the bus with the index ``bus_idx``."
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:310
+msgid ""
+":ref:`float<class_float>` **get_bus_peak_volume_left_db** **(** :ref:"
+"`int<class_int>` bus_idx, :ref:`int<class_int>` channel **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:312
+msgid ""
+"Returns the peak volume of the left speaker at bus index ``bus_idx`` and "
+"channel index ``channel``."
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:318
+msgid ""
+":ref:`float<class_float>` **get_bus_peak_volume_right_db** **(** :ref:"
+"`int<class_int>` bus_idx, :ref:`int<class_int>` channel **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:320
+msgid ""
+"Returns the peak volume of the right speaker at bus index ``bus_idx`` and "
+"channel index ``channel``."
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:326
+msgid ""
+":ref:`String<class_String>` **get_bus_send** **(** :ref:`int<class_int>` "
+"bus_idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:328
+msgid "Returns the name of the bus that the bus at index ``bus_idx`` sends to."
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:334
+msgid ""
+":ref:`float<class_float>` **get_bus_volume_db** **(** :ref:`int<class_int>` "
+"bus_idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:336
+msgid "Returns the volume of the bus at index ``bus_idx`` in dB."
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:342
+msgid ":ref:`Array<class_Array>` **get_device_list** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:344
+msgid "Returns the names of all audio devices detected on the system."
+msgstr "返回系统中检测到的所有音频设备的名称。"
+
+#: ../../docs/classes/class_audioserver.rst:350
+msgid ":ref:`float<class_float>` **get_mix_rate** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:352
+msgid "Returns the sample rate at the output of the ``AudioServer``."
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:358
+msgid ":ref:`float<class_float>` **get_output_latency** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:360
+msgid "Returns the audio driver's output latency."
+msgstr "返回音频驱动器的输出延迟。"
+
+#: ../../docs/classes/class_audioserver.rst:366
+msgid ""
+":ref:`SpeakerMode<enum_AudioServer_SpeakerMode>` **get_speaker_mode** **(** "
+"**)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:368
+msgid "Returns the speaker configuration."
+msgstr "返回扬声器的配置。"
+
+#: ../../docs/classes/class_audioserver.rst:374
+msgid ""
+":ref:`float<class_float>` **get_time_since_last_mix** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:376
+msgid "Returns the relative time since the last mix occurred."
+msgstr "返回上一次混合发生后的相对时间。"
+
+#: ../../docs/classes/class_audioserver.rst:382
+msgid ":ref:`float<class_float>` **get_time_to_next_mix** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:384
+msgid "Returns the relative time until the next mix occurs."
+msgstr "返回直到下一次混合发生的相对时间。"
+
+#: ../../docs/classes/class_audioserver.rst:390
+msgid ""
+":ref:`bool<class_bool>` **is_bus_bypassing_effects** **(** :ref:"
+"`int<class_int>` bus_idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:392
+#: ../../docs/classes/class_audioserver.rst:458
+msgid "If ``true``, the bus at index ``bus_idx`` is bypassing effects."
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:398
+msgid ""
+":ref:`bool<class_bool>` **is_bus_effect_enabled** **(** :ref:"
+"`int<class_int>` bus_idx, :ref:`int<class_int>` effect_idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:400
+#: ../../docs/classes/class_audioserver.rst:466
+msgid ""
+"If ``true``, the effect at index ``effect_idx`` on the bus at index "
+"``bus_idx`` is enabled."
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:406
+msgid ""
+":ref:`bool<class_bool>` **is_bus_mute** **(** :ref:`int<class_int>` bus_idx "
+"**)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:408
+#: ../../docs/classes/class_audioserver.rst:482
+msgid "If ``true``, the bus at index ``bus_idx`` is muted."
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:414
+msgid ""
+":ref:`bool<class_bool>` **is_bus_solo** **(** :ref:`int<class_int>` bus_idx "
+"**)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:416
+#: ../../docs/classes/class_audioserver.rst:506
+msgid "If ``true``, the bus at index ``bus_idx`` is in solo mode."
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:422
+msgid "void **lock** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:424
+msgid "Locks the audio driver's main loop."
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:426
+msgid "**Note:** Remember to unlock it afterwards."
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:432
+msgid ""
+"void **move_bus** **(** :ref:`int<class_int>` index, :ref:`int<class_int>` "
+"to_index **)**"
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:434
+msgid "Moves the bus from index ``index`` to index ``to_index``."
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:440
+msgid "void **remove_bus** **(** :ref:`int<class_int>` index **)**"
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:442
+msgid "Removes the bus at index ``index``."
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:448
+msgid ""
+"void **remove_bus_effect** **(** :ref:`int<class_int>` bus_idx, :ref:"
+"`int<class_int>` effect_idx **)**"
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:450
+msgid ""
+"Removes the effect at index ``effect_idx`` from the bus at index ``bus_idx``."
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:456
+msgid ""
+"void **set_bus_bypass_effects** **(** :ref:`int<class_int>` bus_idx, :ref:"
+"`bool<class_bool>` enable **)**"
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:464
+msgid ""
+"void **set_bus_effect_enabled** **(** :ref:`int<class_int>` bus_idx, :ref:"
+"`int<class_int>` effect_idx, :ref:`bool<class_bool>` enabled **)**"
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:472
+msgid ""
+"void **set_bus_layout** **(** :ref:`AudioBusLayout<class_AudioBusLayout>` "
+"bus_layout **)**"
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:474
+msgid ""
+"Overwrites the currently used :ref:`AudioBusLayout<class_AudioBusLayout>`."
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:480
+msgid ""
+"void **set_bus_mute** **(** :ref:`int<class_int>` bus_idx, :ref:"
+"`bool<class_bool>` enable **)**"
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:488
+msgid ""
+"void **set_bus_name** **(** :ref:`int<class_int>` bus_idx, :ref:"
+"`String<class_String>` name **)**"
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:490
+msgid "Sets the name of the bus at index ``bus_idx`` to ``name``."
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:496
+msgid ""
+"void **set_bus_send** **(** :ref:`int<class_int>` bus_idx, :ref:"
+"`String<class_String>` send **)**"
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:498
+msgid ""
+"Connects the output of the bus at ``bus_idx`` to the bus named ``send``."
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:504
+msgid ""
+"void **set_bus_solo** **(** :ref:`int<class_int>` bus_idx, :ref:"
+"`bool<class_bool>` enable **)**"
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:512
+msgid ""
+"void **set_bus_volume_db** **(** :ref:`int<class_int>` bus_idx, :ref:"
+"`float<class_float>` volume_db **)**"
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:514
+msgid "Sets the volume of the bus at index ``bus_idx`` to ``volume_db``."
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:520
+msgid ""
+"void **swap_bus_effects** **(** :ref:`int<class_int>` bus_idx, :ref:"
+"`int<class_int>` effect_idx, :ref:`int<class_int>` by_effect_idx **)**"
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:522
+msgid "Swaps the position of two effects in bus ``bus_idx``."
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:528
+msgid "void **unlock** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_audioserver.rst:530
+msgid ""
+"Unlocks the audio driver's main loop. (After locking it, you should always "
+"unlock it.)"
+msgstr "解锁音频驱动程序的主循环。（锁定后，您应始终解锁它。）"

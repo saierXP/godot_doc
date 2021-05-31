@@ -1,0 +1,308 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2021, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-31 12:15+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_physicsbody.rst:10
+msgid "PhysicsBody"
+msgstr ""
+
+#: ../../docs/classes/class_physicsbody.rst:12
+msgid ""
+"**Inherits:** :ref:`CollisionObject<class_CollisionObject>` **<** :ref:"
+"`Spatial<class_Spatial>` **<** :ref:`Node<class_Node>` **<** :ref:"
+"`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_physicsbody.rst:14
+msgid ""
+"**Inherited By:** :ref:`KinematicBody<class_KinematicBody>`, :ref:"
+"`PhysicalBone<class_PhysicalBone>`, :ref:`RigidBody<class_RigidBody>`, :ref:"
+"`StaticBody<class_StaticBody>`"
+msgstr ""
+
+#: ../../docs/classes/class_physicsbody.rst:16
+msgid "Base class for all objects affected by physics in 3D space."
+msgstr ""
+
+#: ../../docs/classes/class_physicsbody.rst:19
+msgid "Description"
+msgstr "描述"
+
+#: ../../docs/classes/class_physicsbody.rst:21
+msgid ""
+"PhysicsBody is an abstract base class for implementing a physics body. All "
+"\\*Body types inherit from it."
+msgstr ""
+
+#: ../../docs/classes/class_physicsbody.rst:24
+msgid "Tutorials"
+msgstr "教程"
+
+#: ../../docs/classes/class_physicsbody.rst:26
+msgid ":doc:`../tutorials/physics/physics_introduction`"
+msgstr ""
+
+#: ../../docs/classes/class_physicsbody.rst:29
+msgid "Properties"
+msgstr "属性"
+
+#: ../../docs/classes/class_physicsbody.rst:32
+#: ../../docs/classes/class_physicsbody.rst:34
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../../docs/classes/class_physicsbody.rst:32
+msgid ":ref:`collision_layer<class_PhysicsBody_property_collision_layer>`"
+msgstr ""
+
+#: ../../docs/classes/class_physicsbody.rst:32
+#: ../../docs/classes/class_physicsbody.rst:34
+#: ../../docs/classes/class_physicsbody.rst:64
+#: ../../docs/classes/class_physicsbody.rst:84
+msgid "``1``"
+msgstr ""
+
+#: ../../docs/classes/class_physicsbody.rst:34
+msgid ":ref:`collision_mask<class_PhysicsBody_property_collision_mask>`"
+msgstr ""
+
+#: ../../docs/classes/class_physicsbody.rst:38
+msgid "Methods"
+msgstr "方法"
+
+#: ../../docs/classes/class_physicsbody.rst:41
+#: ../../docs/classes/class_physicsbody.rst:49
+#: ../../docs/classes/class_physicsbody.rst:51
+#: ../../docs/classes/class_physicsbody.rst:53
+msgid "void"
+msgstr ""
+
+#: ../../docs/classes/class_physicsbody.rst:41
+msgid ""
+":ref:"
+"`add_collision_exception_with<class_PhysicsBody_method_add_collision_exception_with>` "
+"**(** :ref:`Node<class_Node>` body **)**"
+msgstr ""
+
+#: ../../docs/classes/class_physicsbody.rst:43
+msgid ":ref:`Array<class_Array>`"
+msgstr ""
+
+#: ../../docs/classes/class_physicsbody.rst:43
+msgid ""
+":ref:"
+"`get_collision_exceptions<class_PhysicsBody_method_get_collision_exceptions>` "
+"**(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_physicsbody.rst:45
+#: ../../docs/classes/class_physicsbody.rst:47
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_physicsbody.rst:45
+msgid ""
+":ref:"
+"`get_collision_layer_bit<class_PhysicsBody_method_get_collision_layer_bit>` "
+"**(** :ref:`int<class_int>` bit **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_physicsbody.rst:47
+msgid ""
+":ref:"
+"`get_collision_mask_bit<class_PhysicsBody_method_get_collision_mask_bit>` "
+"**(** :ref:`int<class_int>` bit **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_physicsbody.rst:49
+msgid ""
+":ref:"
+"`remove_collision_exception_with<class_PhysicsBody_method_remove_collision_exception_with>` "
+"**(** :ref:`Node<class_Node>` body **)**"
+msgstr ""
+
+#: ../../docs/classes/class_physicsbody.rst:51
+msgid ""
+":ref:"
+"`set_collision_layer_bit<class_PhysicsBody_method_set_collision_layer_bit>` "
+"**(** :ref:`int<class_int>` bit, :ref:`bool<class_bool>` value **)**"
+msgstr ""
+
+#: ../../docs/classes/class_physicsbody.rst:53
+msgid ""
+":ref:"
+"`set_collision_mask_bit<class_PhysicsBody_method_set_collision_mask_bit>` "
+"**(** :ref:`int<class_int>` bit, :ref:`bool<class_bool>` value **)**"
+msgstr ""
+
+#: ../../docs/classes/class_physicsbody.rst:57
+msgid "Property Descriptions"
+msgstr "属性说明"
+
+#: ../../docs/classes/class_physicsbody.rst:61
+msgid ":ref:`int<class_int>` **collision_layer**"
+msgstr ""
+
+#: ../../docs/classes/class_physicsbody.rst:64
+#: ../../docs/classes/class_physicsbody.rst:84
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_physicsbody.rst:66
+#: ../../docs/classes/class_physicsbody.rst:86
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_physicsbody.rst:66
+msgid "set_collision_layer(value)"
+msgstr ""
+
+#: ../../docs/classes/class_physicsbody.rst:68
+#: ../../docs/classes/class_physicsbody.rst:88
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_physicsbody.rst:68
+msgid "get_collision_layer()"
+msgstr ""
+
+#: ../../docs/classes/class_physicsbody.rst:71
+msgid "The physics layers this area is in."
+msgstr ""
+
+#: ../../docs/classes/class_physicsbody.rst:73
+msgid ""
+"Collidable objects can exist in any of 32 different layers. These layers "
+"work like a tagging system, and are not visual. A collidable can use these "
+"layers to select with which objects it can collide, using the :ref:"
+"`collision_mask<class_PhysicsBody_property_collision_mask>` property."
+msgstr ""
+
+#: ../../docs/classes/class_physicsbody.rst:75
+msgid ""
+"A contact is detected if object A is in any of the layers that object B "
+"scans, or object B is in any layer scanned by object A. See `Collision "
+"layers and masks <https://docs.godotengine.org/en/3.2/tutorials/physics/"
+"physics_introduction.html#collision-layers-and-masks>`_ in the documentation "
+"for more information."
+msgstr ""
+
+#: ../../docs/classes/class_physicsbody.rst:81
+msgid ":ref:`int<class_int>` **collision_mask**"
+msgstr ""
+
+#: ../../docs/classes/class_physicsbody.rst:86
+msgid "set_collision_mask(value)"
+msgstr ""
+
+#: ../../docs/classes/class_physicsbody.rst:88
+msgid "get_collision_mask()"
+msgstr ""
+
+#: ../../docs/classes/class_physicsbody.rst:91
+msgid ""
+"The physics layers this area scans for collisions. See `Collision layers and "
+"masks <https://docs.godotengine.org/en/3.2/tutorials/physics/"
+"physics_introduction.html#collision-layers-and-masks>`_ in the documentation "
+"for more information."
+msgstr ""
+
+#: ../../docs/classes/class_physicsbody.rst:94
+msgid "Method Descriptions"
+msgstr "方法说明"
+
+#: ../../docs/classes/class_physicsbody.rst:98
+msgid ""
+"void **add_collision_exception_with** **(** :ref:`Node<class_Node>` body "
+"**)**"
+msgstr ""
+
+#: ../../docs/classes/class_physicsbody.rst:100
+msgid "Adds a body to the list of bodies that this body can't collide with."
+msgstr ""
+
+#: ../../docs/classes/class_physicsbody.rst:106
+msgid ":ref:`Array<class_Array>` **get_collision_exceptions** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_physicsbody.rst:108
+msgid ""
+"Returns an array of nodes that were added as collision exceptions for this "
+"body."
+msgstr ""
+
+#: ../../docs/classes/class_physicsbody.rst:114
+msgid ""
+":ref:`bool<class_bool>` **get_collision_layer_bit** **(** :ref:"
+"`int<class_int>` bit **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_physicsbody.rst:116
+msgid ""
+"Returns an individual bit on the :ref:"
+"`collision_layer<class_PhysicsBody_property_collision_layer>`."
+msgstr ""
+
+#: ../../docs/classes/class_physicsbody.rst:122
+msgid ""
+":ref:`bool<class_bool>` **get_collision_mask_bit** **(** :ref:"
+"`int<class_int>` bit **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_physicsbody.rst:124
+msgid ""
+"Returns an individual bit on the :ref:"
+"`collision_mask<class_PhysicsBody_property_collision_mask>`."
+msgstr ""
+
+#: ../../docs/classes/class_physicsbody.rst:130
+msgid ""
+"void **remove_collision_exception_with** **(** :ref:`Node<class_Node>` body "
+"**)**"
+msgstr ""
+
+#: ../../docs/classes/class_physicsbody.rst:132
+msgid ""
+"Removes a body from the list of bodies that this body can't collide with."
+msgstr ""
+
+#: ../../docs/classes/class_physicsbody.rst:138
+msgid ""
+"void **set_collision_layer_bit** **(** :ref:`int<class_int>` bit, :ref:"
+"`bool<class_bool>` value **)**"
+msgstr ""
+
+#: ../../docs/classes/class_physicsbody.rst:140
+msgid ""
+"Sets individual bits on the :ref:"
+"`collision_layer<class_PhysicsBody_property_collision_layer>` bitmask. Use "
+"this if you only need to change one layer's value."
+msgstr ""
+
+#: ../../docs/classes/class_physicsbody.rst:146
+msgid ""
+"void **set_collision_mask_bit** **(** :ref:`int<class_int>` bit, :ref:"
+"`bool<class_bool>` value **)**"
+msgstr ""
+
+#: ../../docs/classes/class_physicsbody.rst:148
+msgid ""
+"Sets individual bits on the :ref:"
+"`collision_mask<class_PhysicsBody_property_collision_mask>` bitmask. Use "
+"this if you only need to change one layer's value."
+msgstr ""

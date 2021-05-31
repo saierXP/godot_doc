@@ -1,0 +1,361 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2021, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-31 12:15+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_texture.rst:10
+msgid "Texture"
+msgstr ""
+
+#: ../../docs/classes/class_texture.rst:12
+msgid ""
+"**Inherits:** :ref:`Resource<class_Resource>` **<** :ref:"
+"`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_texture.rst:14
+msgid ""
+"**Inherited By:** :ref:`AnimatedTexture<class_AnimatedTexture>`, :ref:"
+"`AtlasTexture<class_AtlasTexture>`, :ref:"
+"`CameraTexture<class_CameraTexture>`, :ref:"
+"`CurveTexture<class_CurveTexture>`, :ref:"
+"`ExternalTexture<class_ExternalTexture>`, :ref:"
+"`GradientTexture<class_GradientTexture>`, :ref:"
+"`ImageTexture<class_ImageTexture>`, :ref:"
+"`LargeTexture<class_LargeTexture>`, :ref:`MeshTexture<class_MeshTexture>`, :"
+"ref:`NoiseTexture<class_NoiseTexture>`, :ref:"
+"`ProxyTexture<class_ProxyTexture>`, :ref:"
+"`StreamTexture<class_StreamTexture>`, :ref:"
+"`ViewportTexture<class_ViewportTexture>`"
+msgstr ""
+
+#: ../../docs/classes/class_texture.rst:16
+msgid "Texture for 2D and 3D."
+msgstr ""
+
+#: ../../docs/classes/class_texture.rst:19
+msgid "Description"
+msgstr "描述"
+
+#: ../../docs/classes/class_texture.rst:21
+msgid ""
+"A texture works by registering an image in the video hardware, which then "
+"can be used in 3D models or 2D :ref:`Sprite<class_Sprite>` or GUI :ref:"
+"`Control<class_Control>`."
+msgstr ""
+
+#: ../../docs/classes/class_texture.rst:23
+msgid ""
+"Textures are often created by loading them from a file. See :ref:`@GDScript."
+"load<class_@GDScript_method_load>`."
+msgstr ""
+
+#: ../../docs/classes/class_texture.rst:25
+msgid "``Texture`` is a base for other resources. It cannot be used directly."
+msgstr ""
+
+#: ../../docs/classes/class_texture.rst:27
+msgid ""
+"**Note:** The maximum texture size is 16384×16384 pixels due to graphics "
+"hardware limitations. Larger textures may fail to import."
+msgstr ""
+
+#: ../../docs/classes/class_texture.rst:30
+msgid "Properties"
+msgstr "属性"
+
+#: ../../docs/classes/class_texture.rst:33
+#: ../../docs/classes/class_texture.rst:48
+#: ../../docs/classes/class_texture.rst:52
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../../docs/classes/class_texture.rst:33
+msgid ":ref:`flags<class_Texture_property_flags>`"
+msgstr ""
+
+#: ../../docs/classes/class_texture.rst:33
+#: ../../docs/classes/class_texture.rst:110
+msgid "``4``"
+msgstr ""
+
+#: ../../docs/classes/class_texture.rst:37
+msgid "Methods"
+msgstr "方法"
+
+#: ../../docs/classes/class_texture.rst:40
+#: ../../docs/classes/class_texture.rst:42
+#: ../../docs/classes/class_texture.rst:44
+msgid "void"
+msgstr ""
+
+#: ../../docs/classes/class_texture.rst:40
+msgid ""
+":ref:`draw<class_Texture_method_draw>` **(** :ref:`RID<class_RID>` "
+"canvas_item, :ref:`Vector2<class_Vector2>` position, :ref:"
+"`Color<class_Color>` modulate=Color( 1, 1, 1, 1 ), :ref:`bool<class_bool>` "
+"transpose=false, :ref:`Texture<class_Texture>` normal_map=null **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_texture.rst:42
+msgid ""
+":ref:`draw_rect<class_Texture_method_draw_rect>` **(** :ref:`RID<class_RID>` "
+"canvas_item, :ref:`Rect2<class_Rect2>` rect, :ref:`bool<class_bool>` tile, :"
+"ref:`Color<class_Color>` modulate=Color( 1, 1, 1, 1 ), :ref:"
+"`bool<class_bool>` transpose=false, :ref:`Texture<class_Texture>` "
+"normal_map=null **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_texture.rst:44
+msgid ""
+":ref:`draw_rect_region<class_Texture_method_draw_rect_region>` **(** :ref:"
+"`RID<class_RID>` canvas_item, :ref:`Rect2<class_Rect2>` rect, :ref:"
+"`Rect2<class_Rect2>` src_rect, :ref:`Color<class_Color>` modulate=Color( 1, "
+"1, 1, 1 ), :ref:`bool<class_bool>` transpose=false, :ref:"
+"`Texture<class_Texture>` normal_map=null, :ref:`bool<class_bool>` "
+"clip_uv=true **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_texture.rst:46
+msgid ":ref:`Image<class_Image>`"
+msgstr ""
+
+#: ../../docs/classes/class_texture.rst:46
+msgid ":ref:`get_data<class_Texture_method_get_data>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_texture.rst:48
+msgid ":ref:`get_height<class_Texture_method_get_height>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_texture.rst:50
+msgid ":ref:`Vector2<class_Vector2>`"
+msgstr ""
+
+#: ../../docs/classes/class_texture.rst:50
+msgid ":ref:`get_size<class_Texture_method_get_size>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_texture.rst:52
+msgid ":ref:`get_width<class_Texture_method_get_width>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_texture.rst:54
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_texture.rst:54
+msgid ":ref:`has_alpha<class_Texture_method_has_alpha>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_texture.rst:58
+msgid "Enumerations"
+msgstr "枚举"
+
+#: ../../docs/classes/class_texture.rst:78
+msgid "enum **Flags**:"
+msgstr ""
+
+#: ../../docs/classes/class_texture.rst:80
+msgid ""
+"**FLAGS_DEFAULT** = **7** --- Default flags. :ref:"
+"`FLAG_MIPMAPS<class_Texture_constant_FLAG_MIPMAPS>`, :ref:"
+"`FLAG_REPEAT<class_Texture_constant_FLAG_REPEAT>` and :ref:"
+"`FLAG_FILTER<class_Texture_constant_FLAG_FILTER>` are enabled."
+msgstr ""
+
+#: ../../docs/classes/class_texture.rst:82
+msgid ""
+"**FLAG_MIPMAPS** = **1** --- Generates mipmaps, which are smaller versions "
+"of the same texture to use when zoomed out, keeping the aspect ratio."
+msgstr ""
+
+#: ../../docs/classes/class_texture.rst:84
+msgid ""
+"**FLAG_REPEAT** = **2** --- Repeats the texture (instead of clamp to edge)."
+msgstr ""
+
+#: ../../docs/classes/class_texture.rst:86
+#: ../../docs/classes/class_texture.rst:98
+msgid ""
+"**Note:** Ignored when using an :ref:`AtlasTexture<class_AtlasTexture>` as "
+"these don't support repetition."
+msgstr ""
+
+#: ../../docs/classes/class_texture.rst:88
+msgid ""
+"**FLAG_FILTER** = **4** --- Uses a magnifying filter, to enable smooth "
+"zooming in of the texture."
+msgstr ""
+
+#: ../../docs/classes/class_texture.rst:90
+msgid ""
+"**FLAG_ANISOTROPIC_FILTER** = **8** --- Uses anisotropic mipmap filtering. "
+"Generates smaller versions of the same texture with different aspect ratios."
+msgstr ""
+
+#: ../../docs/classes/class_texture.rst:92
+msgid ""
+"This results in better-looking textures when viewed from oblique angles."
+msgstr ""
+
+#: ../../docs/classes/class_texture.rst:94
+msgid ""
+"**FLAG_CONVERT_TO_LINEAR** = **16** --- Converts the texture to the sRGB "
+"color space."
+msgstr ""
+
+#: ../../docs/classes/class_texture.rst:96
+msgid ""
+"**FLAG_MIRRORED_REPEAT** = **32** --- Repeats the texture with alternate "
+"sections mirrored."
+msgstr ""
+
+#: ../../docs/classes/class_texture.rst:100
+msgid "**FLAG_VIDEO_SURFACE** = **2048** --- Texture is a video surface."
+msgstr ""
+
+#: ../../docs/classes/class_texture.rst:103
+msgid "Property Descriptions"
+msgstr "属性说明"
+
+#: ../../docs/classes/class_texture.rst:107
+msgid ":ref:`int<class_int>` **flags**"
+msgstr ""
+
+#: ../../docs/classes/class_texture.rst:110
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_texture.rst:112
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_texture.rst:112
+msgid "set_flags(value)"
+msgstr ""
+
+#: ../../docs/classes/class_texture.rst:114
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_texture.rst:114
+msgid "get_flags()"
+msgstr ""
+
+#: ../../docs/classes/class_texture.rst:117
+msgid ""
+"The texture's :ref:`Flags<enum_Texture_Flags>`. :ref:"
+"`Flags<enum_Texture_Flags>` are used to set various properties of the "
+"``Texture``."
+msgstr ""
+
+#: ../../docs/classes/class_texture.rst:120
+msgid "Method Descriptions"
+msgstr "方法说明"
+
+#: ../../docs/classes/class_texture.rst:124
+msgid ""
+"void **draw** **(** :ref:`RID<class_RID>` canvas_item, :ref:"
+"`Vector2<class_Vector2>` position, :ref:`Color<class_Color>` "
+"modulate=Color( 1, 1, 1, 1 ), :ref:`bool<class_bool>` transpose=false, :ref:"
+"`Texture<class_Texture>` normal_map=null **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_texture.rst:126
+msgid ""
+"Draws the texture using a :ref:`CanvasItem<class_CanvasItem>` with the :ref:"
+"`VisualServer<class_VisualServer>` API at the specified ``position``. "
+"Equivalent to :ref:`VisualServer."
+"canvas_item_add_texture_rect<class_VisualServer_method_canvas_item_add_texture_rect>` "
+"with a rect at ``position`` and the size of this ``Texture``."
+msgstr ""
+
+#: ../../docs/classes/class_texture.rst:132
+msgid ""
+"void **draw_rect** **(** :ref:`RID<class_RID>` canvas_item, :ref:"
+"`Rect2<class_Rect2>` rect, :ref:`bool<class_bool>` tile, :ref:"
+"`Color<class_Color>` modulate=Color( 1, 1, 1, 1 ), :ref:`bool<class_bool>` "
+"transpose=false, :ref:`Texture<class_Texture>` normal_map=null **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_texture.rst:134
+msgid ""
+"Draws the texture using a :ref:`CanvasItem<class_CanvasItem>` with the :ref:"
+"`VisualServer<class_VisualServer>` API. Equivalent to :ref:`VisualServer."
+"canvas_item_add_texture_rect<class_VisualServer_method_canvas_item_add_texture_rect>`."
+msgstr ""
+
+#: ../../docs/classes/class_texture.rst:140
+msgid ""
+"void **draw_rect_region** **(** :ref:`RID<class_RID>` canvas_item, :ref:"
+"`Rect2<class_Rect2>` rect, :ref:`Rect2<class_Rect2>` src_rect, :ref:"
+"`Color<class_Color>` modulate=Color( 1, 1, 1, 1 ), :ref:`bool<class_bool>` "
+"transpose=false, :ref:`Texture<class_Texture>` normal_map=null, :ref:"
+"`bool<class_bool>` clip_uv=true **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_texture.rst:142
+msgid ""
+"Draws a part of the texture using a :ref:`CanvasItem<class_CanvasItem>` with "
+"the :ref:`VisualServer<class_VisualServer>` API. Equivalent to :ref:"
+"`VisualServer."
+"canvas_item_add_texture_rect_region<class_VisualServer_method_canvas_item_add_texture_rect_region>`."
+msgstr ""
+
+#: ../../docs/classes/class_texture.rst:148
+msgid ":ref:`Image<class_Image>` **get_data** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_texture.rst:150
+msgid ""
+"Returns an :ref:`Image<class_Image>` that is a copy of data from this "
+"``Texture``. :ref:`Image<class_Image>`\\ s can be accessed and manipulated "
+"directly."
+msgstr ""
+
+#: ../../docs/classes/class_texture.rst:156
+msgid ":ref:`int<class_int>` **get_height** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_texture.rst:158
+msgid "Returns the texture height."
+msgstr ""
+
+#: ../../docs/classes/class_texture.rst:164
+msgid ":ref:`Vector2<class_Vector2>` **get_size** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_texture.rst:166
+msgid "Returns the texture size."
+msgstr ""
+
+#: ../../docs/classes/class_texture.rst:172
+msgid ":ref:`int<class_int>` **get_width** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_texture.rst:174
+msgid "Returns the texture width."
+msgstr ""
+
+#: ../../docs/classes/class_texture.rst:180
+msgid ":ref:`bool<class_bool>` **has_alpha** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_texture.rst:182
+msgid "Returns ``true`` if this ``Texture`` has an alpha channel."
+msgstr ""

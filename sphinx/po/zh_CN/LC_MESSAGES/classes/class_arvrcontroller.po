@@ -1,0 +1,358 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2021, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-31 12:15+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_arvrcontroller.rst:10
+msgid "ARVRController"
+msgstr ""
+
+#: ../../docs/classes/class_arvrcontroller.rst:12
+msgid ""
+"**Inherits:** :ref:`Spatial<class_Spatial>` **<** :ref:`Node<class_Node>` "
+"**<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_arvrcontroller.rst:14
+msgid "A spatial node representing a spatially-tracked controller."
+msgstr ""
+
+#: ../../docs/classes/class_arvrcontroller.rst:17
+msgid "Description"
+msgstr "描述"
+
+#: ../../docs/classes/class_arvrcontroller.rst:19
+msgid ""
+"This is a helper spatial node that is linked to the tracking of controllers. "
+"It also offers several handy passthroughs to the state of buttons and such "
+"on the controllers."
+msgstr ""
+
+#: ../../docs/classes/class_arvrcontroller.rst:21
+msgid ""
+"Controllers are linked by their ID. You can create controller nodes before "
+"the controllers are available. If your game always uses two controllers (one "
+"for each hand), you can predefine the controllers with ID 1 and 2; they will "
+"become active as soon as the controllers are identified. If you expect "
+"additional controllers to be used, you should react to the signals and add "
+"ARVRController nodes to your scene."
+msgstr ""
+
+#: ../../docs/classes/class_arvrcontroller.rst:23
+msgid ""
+"The position of the controller node is automatically updated by the :ref:"
+"`ARVRServer<class_ARVRServer>`. This makes this node ideal to add child "
+"nodes to visualize the controller."
+msgstr ""
+
+#: ../../docs/classes/class_arvrcontroller.rst:26
+msgid "Tutorials"
+msgstr "教程"
+
+#: ../../docs/classes/class_arvrcontroller.rst:28
+msgid ":doc:`../tutorials/vr/index`"
+msgstr ""
+
+#: ../../docs/classes/class_arvrcontroller.rst:31
+msgid "Properties"
+msgstr "属性"
+
+#: ../../docs/classes/class_arvrcontroller.rst:34
+#: ../../docs/classes/class_arvrcontroller.rst:51
+#: ../../docs/classes/class_arvrcontroller.rst:55
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../../docs/classes/class_arvrcontroller.rst:34
+msgid ":ref:`controller_id<class_ARVRController_property_controller_id>`"
+msgstr ""
+
+#: ../../docs/classes/class_arvrcontroller.rst:34
+#: ../../docs/classes/class_arvrcontroller.rst:91
+msgid "``1``"
+msgstr ""
+
+#: ../../docs/classes/class_arvrcontroller.rst:36
+#: ../../docs/classes/class_arvrcontroller.rst:49
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../../docs/classes/class_arvrcontroller.rst:36
+msgid ":ref:`rumble<class_ARVRController_property_rumble>`"
+msgstr ""
+
+#: ../../docs/classes/class_arvrcontroller.rst:36
+#: ../../docs/classes/class_arvrcontroller.rst:113
+msgid "``0.0``"
+msgstr ""
+
+#: ../../docs/classes/class_arvrcontroller.rst:40
+msgid "Methods"
+msgstr "方法"
+
+#: ../../docs/classes/class_arvrcontroller.rst:43
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../../docs/classes/class_arvrcontroller.rst:43
+msgid ""
+":ref:`get_controller_name<class_ARVRController_method_get_controller_name>` "
+"**(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_arvrcontroller.rst:45
+msgid ":ref:`TrackerHand<enum_ARVRPositionalTracker_TrackerHand>`"
+msgstr ""
+
+#: ../../docs/classes/class_arvrcontroller.rst:45
+msgid ""
+":ref:`get_hand<class_ARVRController_method_get_hand>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_arvrcontroller.rst:47
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_arvrcontroller.rst:47
+msgid ""
+":ref:`get_is_active<class_ARVRController_method_get_is_active>` **(** **)** |"
+"const|"
+msgstr ""
+
+#: ../../docs/classes/class_arvrcontroller.rst:49
+msgid ""
+":ref:`get_joystick_axis<class_ARVRController_method_get_joystick_axis>` "
+"**(** :ref:`int<class_int>` axis **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_arvrcontroller.rst:51
+msgid ""
+":ref:`get_joystick_id<class_ARVRController_method_get_joystick_id>` **(** "
+"**)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_arvrcontroller.rst:53
+msgid ":ref:`Mesh<class_Mesh>`"
+msgstr ""
+
+#: ../../docs/classes/class_arvrcontroller.rst:53
+msgid ""
+":ref:`get_mesh<class_ARVRController_method_get_mesh>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_arvrcontroller.rst:55
+msgid ""
+":ref:`is_button_pressed<class_ARVRController_method_is_button_pressed>` "
+"**(** :ref:`int<class_int>` button **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_arvrcontroller.rst:59
+msgid "Signals"
+msgstr "信号"
+
+#: ../../docs/classes/class_arvrcontroller.rst:63
+msgid "**button_pressed** **(** :ref:`int<class_int>` button **)**"
+msgstr ""
+
+#: ../../docs/classes/class_arvrcontroller.rst:65
+msgid "Emitted when a button on this controller is pressed."
+msgstr ""
+
+#: ../../docs/classes/class_arvrcontroller.rst:71
+msgid "**button_release** **(** :ref:`int<class_int>` button **)**"
+msgstr ""
+
+#: ../../docs/classes/class_arvrcontroller.rst:73
+msgid "Emitted when a button on this controller is released."
+msgstr ""
+
+#: ../../docs/classes/class_arvrcontroller.rst:79
+msgid "**mesh_updated** **(** :ref:`Mesh<class_Mesh>` mesh **)**"
+msgstr ""
+
+#: ../../docs/classes/class_arvrcontroller.rst:81
+msgid ""
+"Emitted when the mesh associated with the controller changes or when one "
+"becomes available. Generally speaking this will be a static mesh after "
+"becoming available."
+msgstr ""
+
+#: ../../docs/classes/class_arvrcontroller.rst:84
+msgid "Property Descriptions"
+msgstr "属性说明"
+
+#: ../../docs/classes/class_arvrcontroller.rst:88
+msgid ":ref:`int<class_int>` **controller_id**"
+msgstr ""
+
+#: ../../docs/classes/class_arvrcontroller.rst:91
+#: ../../docs/classes/class_arvrcontroller.rst:113
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_arvrcontroller.rst:93
+#: ../../docs/classes/class_arvrcontroller.rst:115
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_arvrcontroller.rst:93
+msgid "set_controller_id(value)"
+msgstr ""
+
+#: ../../docs/classes/class_arvrcontroller.rst:95
+#: ../../docs/classes/class_arvrcontroller.rst:117
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_arvrcontroller.rst:95
+msgid "get_controller_id()"
+msgstr ""
+
+#: ../../docs/classes/class_arvrcontroller.rst:98
+msgid "The controller's ID."
+msgstr ""
+
+#: ../../docs/classes/class_arvrcontroller.rst:100
+msgid ""
+"A controller ID of 0 is unbound and will always result in an inactive node. "
+"Controller ID 1 is reserved for the first controller that identifies itself "
+"as the left-hand controller and ID 2 is reserved for the first controller "
+"that identifies itself as the right-hand controller."
+msgstr ""
+
+#: ../../docs/classes/class_arvrcontroller.rst:102
+msgid ""
+"For any other controller that the :ref:`ARVRServer<class_ARVRServer>` "
+"detects, we continue with controller ID 3."
+msgstr ""
+
+#: ../../docs/classes/class_arvrcontroller.rst:104
+msgid ""
+"When a controller is turned off, its slot is freed. This ensures controllers "
+"will keep the same ID even when controllers with lower IDs are turned off."
+msgstr ""
+
+#: ../../docs/classes/class_arvrcontroller.rst:110
+msgid ":ref:`float<class_float>` **rumble**"
+msgstr ""
+
+#: ../../docs/classes/class_arvrcontroller.rst:115
+msgid "set_rumble(value)"
+msgstr ""
+
+#: ../../docs/classes/class_arvrcontroller.rst:117
+msgid "get_rumble()"
+msgstr ""
+
+#: ../../docs/classes/class_arvrcontroller.rst:120
+msgid ""
+"The degree to which the controller vibrates. Ranges from ``0.0`` to ``1.0`` "
+"with precision ``.01``. If changed, updates :ref:`ARVRPositionalTracker."
+"rumble<class_ARVRPositionalTracker_property_rumble>` accordingly."
+msgstr ""
+
+#: ../../docs/classes/class_arvrcontroller.rst:122
+msgid ""
+"This is a useful property to animate if you want the controller to vibrate "
+"for a limited duration."
+msgstr ""
+
+#: ../../docs/classes/class_arvrcontroller.rst:125
+msgid "Method Descriptions"
+msgstr "方法说明"
+
+#: ../../docs/classes/class_arvrcontroller.rst:129
+msgid ":ref:`String<class_String>` **get_controller_name** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_arvrcontroller.rst:131
+msgid ""
+"If active, returns the name of the associated controller if provided by the "
+"AR/VR SDK used."
+msgstr ""
+
+#: ../../docs/classes/class_arvrcontroller.rst:137
+msgid ""
+":ref:`TrackerHand<enum_ARVRPositionalTracker_TrackerHand>` **get_hand** "
+"**(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_arvrcontroller.rst:139
+msgid ""
+"Returns the hand holding this controller, if known. See :ref:"
+"`TrackerHand<enum_ARVRPositionalTracker_TrackerHand>`."
+msgstr ""
+
+#: ../../docs/classes/class_arvrcontroller.rst:145
+msgid ":ref:`bool<class_bool>` **get_is_active** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_arvrcontroller.rst:147
+msgid ""
+"Returns ``true`` if the bound controller is active. ARVR systems attempt to "
+"track active controllers."
+msgstr ""
+
+#: ../../docs/classes/class_arvrcontroller.rst:153
+msgid ""
+":ref:`float<class_float>` **get_joystick_axis** **(** :ref:`int<class_int>` "
+"axis **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_arvrcontroller.rst:155
+msgid ""
+"Returns the value of the given axis for things like triggers, touchpads, "
+"etc. that are embedded into the controller."
+msgstr ""
+
+#: ../../docs/classes/class_arvrcontroller.rst:161
+msgid ":ref:`int<class_int>` **get_joystick_id** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_arvrcontroller.rst:163
+msgid ""
+"Returns the ID of the joystick object bound to this. Every controller "
+"tracked by the :ref:`ARVRServer<class_ARVRServer>` that has buttons and axis "
+"will also be registered as a joystick within Godot. This means that all the "
+"normal joystick tracking and input mapping will work for buttons and axis "
+"found on the AR/VR controllers. This ID is purely offered as information so "
+"you can link up the controller with its joystick entry."
+msgstr ""
+
+#: ../../docs/classes/class_arvrcontroller.rst:169
+msgid ":ref:`Mesh<class_Mesh>` **get_mesh** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_arvrcontroller.rst:171
+msgid ""
+"If provided by the :ref:`ARVRInterface<class_ARVRInterface>`, this returns a "
+"mesh associated with the controller. This can be used to visualize the "
+"controller."
+msgstr ""
+
+#: ../../docs/classes/class_arvrcontroller.rst:177
+msgid ""
+":ref:`int<class_int>` **is_button_pressed** **(** :ref:`int<class_int>` "
+"button **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_arvrcontroller.rst:179
+msgid ""
+"Returns ``true`` if the button at index ``button`` is pressed. See :ref:"
+"`JoystickList<enum_@GlobalScope_JoystickList>`, in particular the "
+"``JOY_VR_*`` constants."
+msgstr ""

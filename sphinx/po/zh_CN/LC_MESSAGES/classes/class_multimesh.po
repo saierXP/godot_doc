@@ -1,0 +1,574 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2021, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-31 12:15+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_multimesh.rst:10
+msgid "MultiMesh"
+msgstr ""
+
+#: ../../docs/classes/class_multimesh.rst:12
+msgid ""
+"**Inherits:** :ref:`Resource<class_Resource>` **<** :ref:"
+"`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_multimesh.rst:14
+msgid "Provides high-performance mesh instancing."
+msgstr ""
+
+#: ../../docs/classes/class_multimesh.rst:17
+msgid "Description"
+msgstr "描述"
+
+#: ../../docs/classes/class_multimesh.rst:19
+msgid ""
+"MultiMesh provides low-level mesh instancing. Drawing thousands of :ref:"
+"`MeshInstance<class_MeshInstance>` nodes can be slow, since each object is "
+"submitted to the GPU then drawn individually."
+msgstr ""
+
+#: ../../docs/classes/class_multimesh.rst:21
+msgid ""
+"MultiMesh is much faster as it can draw thousands of instances with a single "
+"draw call, resulting in less API overhead."
+msgstr ""
+
+#: ../../docs/classes/class_multimesh.rst:23
+msgid ""
+"As a drawback, if the instances are too far away of each other, performance "
+"may be reduced as every single instance will always rendered (they are "
+"spatially indexed as one, for the whole object)."
+msgstr ""
+
+#: ../../docs/classes/class_multimesh.rst:25
+msgid ""
+"Since instances may have any behavior, the AABB used for visibility must be "
+"provided by the user."
+msgstr ""
+
+#: ../../docs/classes/class_multimesh.rst:28
+msgid "Tutorials"
+msgstr "教程"
+
+#: ../../docs/classes/class_multimesh.rst:30
+msgid ":doc:`../tutorials/3d/vertex_animation/animating_thousands_of_fish`"
+msgstr ""
+
+#: ../../docs/classes/class_multimesh.rst:32
+msgid ":doc:`../tutorials/optimization/using_multimesh`"
+msgstr ""
+
+#: ../../docs/classes/class_multimesh.rst:35
+msgid "Properties"
+msgstr "属性"
+
+#: ../../docs/classes/class_multimesh.rst:38
+msgid ":ref:`ColorFormat<enum_MultiMesh_ColorFormat>`"
+msgstr ""
+
+#: ../../docs/classes/class_multimesh.rst:38
+msgid ":ref:`color_format<class_MultiMesh_property_color_format>`"
+msgstr ""
+
+#: ../../docs/classes/class_multimesh.rst:38
+#: ../../docs/classes/class_multimesh.rst:40
+#: ../../docs/classes/class_multimesh.rst:42
+#: ../../docs/classes/class_multimesh.rst:46
+#: ../../docs/classes/class_multimesh.rst:135
+#: ../../docs/classes/class_multimesh.rst:151
+#: ../../docs/classes/class_multimesh.rst:167
+#: ../../docs/classes/class_multimesh.rst:197
+msgid "``0``"
+msgstr ""
+
+#: ../../docs/classes/class_multimesh.rst:40
+msgid ":ref:`CustomDataFormat<enum_MultiMesh_CustomDataFormat>`"
+msgstr ""
+
+#: ../../docs/classes/class_multimesh.rst:40
+msgid ":ref:`custom_data_format<class_MultiMesh_property_custom_data_format>`"
+msgstr ""
+
+#: ../../docs/classes/class_multimesh.rst:42
+#: ../../docs/classes/class_multimesh.rst:48
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../../docs/classes/class_multimesh.rst:42
+msgid ":ref:`instance_count<class_MultiMesh_property_instance_count>`"
+msgstr ""
+
+#: ../../docs/classes/class_multimesh.rst:44
+msgid ":ref:`Mesh<class_Mesh>`"
+msgstr ""
+
+#: ../../docs/classes/class_multimesh.rst:44
+msgid ":ref:`mesh<class_MultiMesh_property_mesh>`"
+msgstr ""
+
+#: ../../docs/classes/class_multimesh.rst:46
+msgid ":ref:`TransformFormat<enum_MultiMesh_TransformFormat>`"
+msgstr ""
+
+#: ../../docs/classes/class_multimesh.rst:46
+msgid ":ref:`transform_format<class_MultiMesh_property_transform_format>`"
+msgstr ""
+
+#: ../../docs/classes/class_multimesh.rst:48
+msgid ""
+":ref:"
+"`visible_instance_count<class_MultiMesh_property_visible_instance_count>`"
+msgstr ""
+
+#: ../../docs/classes/class_multimesh.rst:48
+#: ../../docs/classes/class_multimesh.rst:213
+msgid "``-1``"
+msgstr ""
+
+#: ../../docs/classes/class_multimesh.rst:52
+msgid "Methods"
+msgstr "方法"
+
+#: ../../docs/classes/class_multimesh.rst:55
+msgid ":ref:`AABB<class_AABB>`"
+msgstr ""
+
+#: ../../docs/classes/class_multimesh.rst:55
+msgid ":ref:`get_aabb<class_MultiMesh_method_get_aabb>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_multimesh.rst:57
+#: ../../docs/classes/class_multimesh.rst:59
+msgid ":ref:`Color<class_Color>`"
+msgstr ""
+
+#: ../../docs/classes/class_multimesh.rst:57
+msgid ""
+":ref:`get_instance_color<class_MultiMesh_method_get_instance_color>` **(** :"
+"ref:`int<class_int>` instance **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_multimesh.rst:59
+msgid ""
+":ref:"
+"`get_instance_custom_data<class_MultiMesh_method_get_instance_custom_data>` "
+"**(** :ref:`int<class_int>` instance **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_multimesh.rst:61
+msgid ":ref:`Transform<class_Transform>`"
+msgstr ""
+
+#: ../../docs/classes/class_multimesh.rst:61
+msgid ""
+":ref:`get_instance_transform<class_MultiMesh_method_get_instance_transform>` "
+"**(** :ref:`int<class_int>` instance **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_multimesh.rst:63
+msgid ":ref:`Transform2D<class_Transform2D>`"
+msgstr ""
+
+#: ../../docs/classes/class_multimesh.rst:63
+msgid ""
+":ref:"
+"`get_instance_transform_2d<class_MultiMesh_method_get_instance_transform_2d>` "
+"**(** :ref:`int<class_int>` instance **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_multimesh.rst:65
+#: ../../docs/classes/class_multimesh.rst:67
+#: ../../docs/classes/class_multimesh.rst:69
+#: ../../docs/classes/class_multimesh.rst:71
+#: ../../docs/classes/class_multimesh.rst:73
+msgid "void"
+msgstr ""
+
+#: ../../docs/classes/class_multimesh.rst:65
+msgid ""
+":ref:`set_as_bulk_array<class_MultiMesh_method_set_as_bulk_array>` **(** :"
+"ref:`PoolRealArray<class_PoolRealArray>` array **)**"
+msgstr ""
+
+#: ../../docs/classes/class_multimesh.rst:67
+msgid ""
+":ref:`set_instance_color<class_MultiMesh_method_set_instance_color>` **(** :"
+"ref:`int<class_int>` instance, :ref:`Color<class_Color>` color **)**"
+msgstr ""
+
+#: ../../docs/classes/class_multimesh.rst:69
+msgid ""
+":ref:"
+"`set_instance_custom_data<class_MultiMesh_method_set_instance_custom_data>` "
+"**(** :ref:`int<class_int>` instance, :ref:`Color<class_Color>` custom_data "
+"**)**"
+msgstr ""
+
+#: ../../docs/classes/class_multimesh.rst:71
+msgid ""
+":ref:`set_instance_transform<class_MultiMesh_method_set_instance_transform>` "
+"**(** :ref:`int<class_int>` instance, :ref:`Transform<class_Transform>` "
+"transform **)**"
+msgstr ""
+
+#: ../../docs/classes/class_multimesh.rst:73
+msgid ""
+":ref:"
+"`set_instance_transform_2d<class_MultiMesh_method_set_instance_transform_2d>` "
+"**(** :ref:`int<class_int>` instance, :ref:`Transform2D<class_Transform2D>` "
+"transform **)**"
+msgstr ""
+
+#: ../../docs/classes/class_multimesh.rst:77
+msgid "Enumerations"
+msgstr "枚举"
+
+#: ../../docs/classes/class_multimesh.rst:85
+msgid "enum **TransformFormat**:"
+msgstr ""
+
+#: ../../docs/classes/class_multimesh.rst:87
+msgid "**TRANSFORM_2D** = **0** --- Use this when using 2D transforms."
+msgstr ""
+
+#: ../../docs/classes/class_multimesh.rst:89
+msgid "**TRANSFORM_3D** = **1** --- Use this when using 3D transforms."
+msgstr ""
+
+#: ../../docs/classes/class_multimesh.rst:101
+msgid "enum **ColorFormat**:"
+msgstr ""
+
+#: ../../docs/classes/class_multimesh.rst:103
+msgid ""
+"**COLOR_NONE** = **0** --- Use when you are not using per-instance :ref:"
+"`Color<class_Color>`\\ s."
+msgstr ""
+
+#: ../../docs/classes/class_multimesh.rst:105
+msgid ""
+"**COLOR_8BIT** = **1** --- Compress :ref:`Color<class_Color>` data into 8 "
+"bits when passing to shader. This uses less memory and can be faster, but "
+"the :ref:`Color<class_Color>` loses precision."
+msgstr ""
+
+#: ../../docs/classes/class_multimesh.rst:107
+msgid ""
+"**COLOR_FLOAT** = **2** --- The :ref:`Color<class_Color>` passed into :ref:"
+"`set_instance_color<class_MultiMesh_method_set_instance_color>` will use 4 "
+"floats. Use this for highest precision :ref:`Color<class_Color>`."
+msgstr ""
+
+#: ../../docs/classes/class_multimesh.rst:119
+msgid "enum **CustomDataFormat**:"
+msgstr ""
+
+#: ../../docs/classes/class_multimesh.rst:121
+msgid ""
+"**CUSTOM_DATA_NONE** = **0** --- Use when you are not using per-instance "
+"custom data."
+msgstr ""
+
+#: ../../docs/classes/class_multimesh.rst:123
+msgid ""
+"**CUSTOM_DATA_8BIT** = **1** --- Compress custom_data into 8 bits when "
+"passing to shader. This uses less memory and can be faster, but loses "
+"precision and range. Floats packed into 8 bits can only represent values "
+"between 0 and 1, numbers outside that range will be clamped."
+msgstr ""
+
+#: ../../docs/classes/class_multimesh.rst:125
+msgid ""
+"**CUSTOM_DATA_FLOAT** = **2** --- The :ref:`Color<class_Color>` passed into :"
+"ref:"
+"`set_instance_custom_data<class_MultiMesh_method_set_instance_custom_data>` "
+"will use 4 floats. Use this for highest precision."
+msgstr ""
+
+#: ../../docs/classes/class_multimesh.rst:128
+msgid "Property Descriptions"
+msgstr "属性说明"
+
+#: ../../docs/classes/class_multimesh.rst:132
+msgid ":ref:`ColorFormat<enum_MultiMesh_ColorFormat>` **color_format**"
+msgstr ""
+
+#: ../../docs/classes/class_multimesh.rst:135
+#: ../../docs/classes/class_multimesh.rst:151
+#: ../../docs/classes/class_multimesh.rst:167
+#: ../../docs/classes/class_multimesh.rst:197
+#: ../../docs/classes/class_multimesh.rst:213
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_multimesh.rst:137
+#: ../../docs/classes/class_multimesh.rst:153
+#: ../../docs/classes/class_multimesh.rst:169
+#: ../../docs/classes/class_multimesh.rst:183
+#: ../../docs/classes/class_multimesh.rst:199
+#: ../../docs/classes/class_multimesh.rst:215
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_multimesh.rst:137
+msgid "set_color_format(value)"
+msgstr ""
+
+#: ../../docs/classes/class_multimesh.rst:139
+#: ../../docs/classes/class_multimesh.rst:155
+#: ../../docs/classes/class_multimesh.rst:171
+#: ../../docs/classes/class_multimesh.rst:185
+#: ../../docs/classes/class_multimesh.rst:201
+#: ../../docs/classes/class_multimesh.rst:217
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_multimesh.rst:139
+msgid "get_color_format()"
+msgstr ""
+
+#: ../../docs/classes/class_multimesh.rst:142
+msgid "Format of colors in color array that gets passed to shader."
+msgstr ""
+
+#: ../../docs/classes/class_multimesh.rst:148
+msgid ""
+":ref:`CustomDataFormat<enum_MultiMesh_CustomDataFormat>` "
+"**custom_data_format**"
+msgstr ""
+
+#: ../../docs/classes/class_multimesh.rst:153
+msgid "set_custom_data_format(value)"
+msgstr ""
+
+#: ../../docs/classes/class_multimesh.rst:155
+msgid "get_custom_data_format()"
+msgstr ""
+
+#: ../../docs/classes/class_multimesh.rst:158
+msgid "Format of custom data in custom data array that gets passed to shader."
+msgstr ""
+
+#: ../../docs/classes/class_multimesh.rst:164
+msgid ":ref:`int<class_int>` **instance_count**"
+msgstr ""
+
+#: ../../docs/classes/class_multimesh.rst:169
+msgid "set_instance_count(value)"
+msgstr ""
+
+#: ../../docs/classes/class_multimesh.rst:171
+msgid "get_instance_count()"
+msgstr ""
+
+#: ../../docs/classes/class_multimesh.rst:174
+msgid ""
+"Number of instances that will get drawn. This clears and (re)sizes the "
+"buffers. By default, all instances are drawn but you can limit this with :"
+"ref:"
+"`visible_instance_count<class_MultiMesh_property_visible_instance_count>`."
+msgstr ""
+
+#: ../../docs/classes/class_multimesh.rst:180
+msgid ":ref:`Mesh<class_Mesh>` **mesh**"
+msgstr ""
+
+#: ../../docs/classes/class_multimesh.rst:183
+msgid "set_mesh(value)"
+msgstr ""
+
+#: ../../docs/classes/class_multimesh.rst:185
+msgid "get_mesh()"
+msgstr ""
+
+#: ../../docs/classes/class_multimesh.rst:188
+msgid "Mesh to be drawn."
+msgstr ""
+
+#: ../../docs/classes/class_multimesh.rst:194
+msgid ""
+":ref:`TransformFormat<enum_MultiMesh_TransformFormat>` **transform_format**"
+msgstr ""
+
+#: ../../docs/classes/class_multimesh.rst:199
+msgid "set_transform_format(value)"
+msgstr ""
+
+#: ../../docs/classes/class_multimesh.rst:201
+msgid "get_transform_format()"
+msgstr ""
+
+#: ../../docs/classes/class_multimesh.rst:204
+msgid "Format of transform used to transform mesh, either 2D or 3D."
+msgstr ""
+
+#: ../../docs/classes/class_multimesh.rst:210
+msgid ":ref:`int<class_int>` **visible_instance_count**"
+msgstr ""
+
+#: ../../docs/classes/class_multimesh.rst:215
+msgid "set_visible_instance_count(value)"
+msgstr ""
+
+#: ../../docs/classes/class_multimesh.rst:217
+msgid "get_visible_instance_count()"
+msgstr ""
+
+#: ../../docs/classes/class_multimesh.rst:220
+msgid ""
+"Limits the number of instances drawn, -1 draws all instances. Changing this "
+"does not change the sizes of the buffers."
+msgstr ""
+
+#: ../../docs/classes/class_multimesh.rst:223
+msgid "Method Descriptions"
+msgstr "方法说明"
+
+#: ../../docs/classes/class_multimesh.rst:227
+msgid ":ref:`AABB<class_AABB>` **get_aabb** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_multimesh.rst:229
+msgid ""
+"Returns the visibility axis-aligned bounding box in local space. See also :"
+"ref:`VisualInstance."
+"get_transformed_aabb<class_VisualInstance_method_get_transformed_aabb>`."
+msgstr ""
+
+#: ../../docs/classes/class_multimesh.rst:235
+msgid ""
+":ref:`Color<class_Color>` **get_instance_color** **(** :ref:`int<class_int>` "
+"instance **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_multimesh.rst:237
+msgid "Gets a specific instance's color."
+msgstr ""
+
+#: ../../docs/classes/class_multimesh.rst:243
+msgid ""
+":ref:`Color<class_Color>` **get_instance_custom_data** **(** :ref:"
+"`int<class_int>` instance **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_multimesh.rst:245
+msgid "Returns the custom data that has been set for a specific instance."
+msgstr ""
+
+#: ../../docs/classes/class_multimesh.rst:251
+msgid ""
+":ref:`Transform<class_Transform>` **get_instance_transform** **(** :ref:"
+"`int<class_int>` instance **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_multimesh.rst:253
+msgid "Returns the :ref:`Transform<class_Transform>` of a specific instance."
+msgstr ""
+
+#: ../../docs/classes/class_multimesh.rst:259
+msgid ""
+":ref:`Transform2D<class_Transform2D>` **get_instance_transform_2d** **(** :"
+"ref:`int<class_int>` instance **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_multimesh.rst:261
+msgid ""
+"Returns the :ref:`Transform2D<class_Transform2D>` of a specific instance."
+msgstr ""
+
+#: ../../docs/classes/class_multimesh.rst:267
+msgid ""
+"void **set_as_bulk_array** **(** :ref:`PoolRealArray<class_PoolRealArray>` "
+"array **)**"
+msgstr ""
+
+#: ../../docs/classes/class_multimesh.rst:269
+msgid ""
+"Sets all data related to the instances in one go. This is especially useful "
+"when loading the data from disk or preparing the data from GDNative."
+msgstr ""
+
+#: ../../docs/classes/class_multimesh.rst:271
+msgid ""
+"All data is packed in one large float array. An array may look like this: "
+"Transform for instance 1, color data for instance 1, custom data for "
+"instance 1, transform for instance 2, color data for instance 2, etc..."
+msgstr ""
+
+#: ../../docs/classes/class_multimesh.rst:273
+msgid ""
+":ref:`Transform<class_Transform>` is stored as 12 floats, :ref:"
+"`Transform2D<class_Transform2D>` is stored as 8 floats, ``COLOR_8BIT`` / "
+"``CUSTOM_DATA_8BIT`` is stored as 1 float (4 bytes as is) and "
+"``COLOR_FLOAT`` / ``CUSTOM_DATA_FLOAT`` is stored as 4 floats."
+msgstr ""
+
+#: ../../docs/classes/class_multimesh.rst:279
+msgid ""
+"void **set_instance_color** **(** :ref:`int<class_int>` instance, :ref:"
+"`Color<class_Color>` color **)**"
+msgstr ""
+
+#: ../../docs/classes/class_multimesh.rst:281
+msgid ""
+"Sets the color of a specific instance by *multiplying* the mesh's existing "
+"vertex colors."
+msgstr ""
+
+#: ../../docs/classes/class_multimesh.rst:283
+msgid ""
+"For the color to take effect, ensure that :ref:"
+"`color_format<class_MultiMesh_property_color_format>` is non-``null`` on the "
+"``MultiMesh`` and :ref:`SpatialMaterial."
+"vertex_color_use_as_albedo<class_SpatialMaterial_property_vertex_color_use_as_albedo>` "
+"is ``true`` on the material."
+msgstr ""
+
+#: ../../docs/classes/class_multimesh.rst:289
+msgid ""
+"void **set_instance_custom_data** **(** :ref:`int<class_int>` instance, :ref:"
+"`Color<class_Color>` custom_data **)**"
+msgstr ""
+
+#: ../../docs/classes/class_multimesh.rst:291
+msgid ""
+"Sets custom data for a specific instance. Although :ref:`Color<class_Color>` "
+"is used, it is just a container for 4 floating point numbers. The format of "
+"the number can change depending on the :ref:"
+"`CustomDataFormat<enum_MultiMesh_CustomDataFormat>` used."
+msgstr ""
+
+#: ../../docs/classes/class_multimesh.rst:297
+msgid ""
+"void **set_instance_transform** **(** :ref:`int<class_int>` instance, :ref:"
+"`Transform<class_Transform>` transform **)**"
+msgstr ""
+
+#: ../../docs/classes/class_multimesh.rst:299
+msgid "Sets the :ref:`Transform<class_Transform>` for a specific instance."
+msgstr ""
+
+#: ../../docs/classes/class_multimesh.rst:305
+msgid ""
+"void **set_instance_transform_2d** **(** :ref:`int<class_int>` instance, :"
+"ref:`Transform2D<class_Transform2D>` transform **)**"
+msgstr ""
+
+#: ../../docs/classes/class_multimesh.rst:307
+msgid "Sets the :ref:`Transform2D<class_Transform2D>` for a specific instance."
+msgstr ""

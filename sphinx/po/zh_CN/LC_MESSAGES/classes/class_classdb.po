@@ -1,0 +1,467 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2021, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-31 12:15+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_classdb.rst:10
+msgid "ClassDB"
+msgstr ""
+
+#: ../../docs/classes/class_classdb.rst:12
+msgid "**Inherits:** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_classdb.rst:14
+msgid "Class information repository."
+msgstr "类信息存储库。"
+
+#: ../../docs/classes/class_classdb.rst:17
+msgid "Description"
+msgstr "描述"
+
+#: ../../docs/classes/class_classdb.rst:19
+msgid "Provides access to metadata stored for every available class."
+msgstr "提供对为每个可用类存储的元数据的访问。"
+
+#: ../../docs/classes/class_classdb.rst:22
+msgid "Methods"
+msgstr "方法"
+
+#: ../../docs/classes/class_classdb.rst:25
+#: ../../docs/classes/class_classdb.rst:27
+#: ../../docs/classes/class_classdb.rst:45
+#: ../../docs/classes/class_classdb.rst:47
+#: ../../docs/classes/class_classdb.rst:49
+#: ../../docs/classes/class_classdb.rst:61
+#: ../../docs/classes/class_classdb.rst:63
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_classdb.rst:25
+msgid ""
+":ref:`can_instance<class_ClassDB_method_can_instance>` **(** :ref:"
+"`String<class_String>` class **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_classdb.rst:27
+msgid ""
+":ref:`class_exists<class_ClassDB_method_class_exists>` **(** :ref:"
+"`String<class_String>` class **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_classdb.rst:29
+#: ../../docs/classes/class_classdb.rst:57
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../../docs/classes/class_classdb.rst:29
+msgid ""
+":ref:`class_get_category<class_ClassDB_method_class_get_category>` **(** :"
+"ref:`String<class_String>` class **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_classdb.rst:31
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../../docs/classes/class_classdb.rst:31
+msgid ""
+":ref:"
+"`class_get_integer_constant<class_ClassDB_method_class_get_integer_constant>` "
+"**(** :ref:`String<class_String>` class, :ref:`String<class_String>` name "
+"**)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_classdb.rst:33
+#: ../../docs/classes/class_classdb.rst:53
+#: ../../docs/classes/class_classdb.rst:55
+msgid ":ref:`PoolStringArray<class_PoolStringArray>`"
+msgstr ""
+
+#: ../../docs/classes/class_classdb.rst:33
+msgid ""
+":ref:"
+"`class_get_integer_constant_list<class_ClassDB_method_class_get_integer_constant_list>` "
+"**(** :ref:`String<class_String>` class, :ref:`bool<class_bool>` "
+"no_inheritance=false **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_classdb.rst:35
+#: ../../docs/classes/class_classdb.rst:39
+#: ../../docs/classes/class_classdb.rst:43
+msgid ":ref:`Array<class_Array>`"
+msgstr ""
+
+#: ../../docs/classes/class_classdb.rst:35
+msgid ""
+":ref:`class_get_method_list<class_ClassDB_method_class_get_method_list>` "
+"**(** :ref:`String<class_String>` class, :ref:`bool<class_bool>` "
+"no_inheritance=false **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_classdb.rst:37
+#: ../../docs/classes/class_classdb.rst:59
+msgid ":ref:`Variant<class_Variant>`"
+msgstr ""
+
+#: ../../docs/classes/class_classdb.rst:37
+msgid ""
+":ref:`class_get_property<class_ClassDB_method_class_get_property>` **(** :"
+"ref:`Object<class_Object>` object, :ref:`String<class_String>` property "
+"**)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_classdb.rst:39
+msgid ""
+":ref:`class_get_property_list<class_ClassDB_method_class_get_property_list>` "
+"**(** :ref:`String<class_String>` class, :ref:`bool<class_bool>` "
+"no_inheritance=false **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_classdb.rst:41
+msgid ":ref:`Dictionary<class_Dictionary>`"
+msgstr ""
+
+#: ../../docs/classes/class_classdb.rst:41
+msgid ""
+":ref:`class_get_signal<class_ClassDB_method_class_get_signal>` **(** :ref:"
+"`String<class_String>` class, :ref:`String<class_String>` signal **)** |"
+"const|"
+msgstr ""
+
+#: ../../docs/classes/class_classdb.rst:43
+msgid ""
+":ref:`class_get_signal_list<class_ClassDB_method_class_get_signal_list>` "
+"**(** :ref:`String<class_String>` class, :ref:`bool<class_bool>` "
+"no_inheritance=false **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_classdb.rst:45
+msgid ""
+":ref:"
+"`class_has_integer_constant<class_ClassDB_method_class_has_integer_constant>` "
+"**(** :ref:`String<class_String>` class, :ref:`String<class_String>` name "
+"**)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_classdb.rst:47
+msgid ""
+":ref:`class_has_method<class_ClassDB_method_class_has_method>` **(** :ref:"
+"`String<class_String>` class, :ref:`String<class_String>` method, :ref:"
+"`bool<class_bool>` no_inheritance=false **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_classdb.rst:49
+msgid ""
+":ref:`class_has_signal<class_ClassDB_method_class_has_signal>` **(** :ref:"
+"`String<class_String>` class, :ref:`String<class_String>` signal **)** |"
+"const|"
+msgstr ""
+
+#: ../../docs/classes/class_classdb.rst:51
+msgid ":ref:`Error<enum_@GlobalScope_Error>`"
+msgstr ""
+
+#: ../../docs/classes/class_classdb.rst:51
+msgid ""
+":ref:`class_set_property<class_ClassDB_method_class_set_property>` **(** :"
+"ref:`Object<class_Object>` object, :ref:`String<class_String>` property, :"
+"ref:`Variant<class_Variant>` value **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_classdb.rst:53
+msgid ""
+":ref:`get_class_list<class_ClassDB_method_get_class_list>` **(** **)** |"
+"const|"
+msgstr ""
+
+#: ../../docs/classes/class_classdb.rst:55
+msgid ""
+":ref:"
+"`get_inheriters_from_class<class_ClassDB_method_get_inheriters_from_class>` "
+"**(** :ref:`String<class_String>` class **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_classdb.rst:57
+msgid ""
+":ref:`get_parent_class<class_ClassDB_method_get_parent_class>` **(** :ref:"
+"`String<class_String>` class **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_classdb.rst:59
+msgid ""
+":ref:`instance<class_ClassDB_method_instance>` **(** :ref:"
+"`String<class_String>` class **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_classdb.rst:61
+msgid ""
+":ref:`is_class_enabled<class_ClassDB_method_is_class_enabled>` **(** :ref:"
+"`String<class_String>` class **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_classdb.rst:63
+msgid ""
+":ref:`is_parent_class<class_ClassDB_method_is_parent_class>` **(** :ref:"
+"`String<class_String>` class, :ref:`String<class_String>` inherits **)** |"
+"const|"
+msgstr ""
+
+#: ../../docs/classes/class_classdb.rst:67
+msgid "Method Descriptions"
+msgstr "方法说明"
+
+#: ../../docs/classes/class_classdb.rst:71
+msgid ""
+":ref:`bool<class_bool>` **can_instance** **(** :ref:`String<class_String>` "
+"class **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_classdb.rst:73
+msgid ""
+"Returns ``true`` if you can instance objects from the specified ``class``, "
+"``false`` in other case."
+msgstr ""
+
+#: ../../docs/classes/class_classdb.rst:79
+msgid ""
+":ref:`bool<class_bool>` **class_exists** **(** :ref:`String<class_String>` "
+"class **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_classdb.rst:81
+msgid "Returns whether the specified ``class`` is available or not."
+msgstr ""
+
+#: ../../docs/classes/class_classdb.rst:87
+msgid ""
+":ref:`String<class_String>` **class_get_category** **(** :ref:"
+"`String<class_String>` class **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_classdb.rst:89
+msgid ""
+"Returns a category associated with the class for use in documentation and "
+"the Asset Library. Debug mode required."
+msgstr "返回与该类关联的类别，以用于文档和资产库。需要调试模式。"
+
+#: ../../docs/classes/class_classdb.rst:95
+msgid ""
+":ref:`int<class_int>` **class_get_integer_constant** **(** :ref:"
+"`String<class_String>` class, :ref:`String<class_String>` name **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_classdb.rst:97
+msgid ""
+"Returns the value of the integer constant ``name`` of ``class`` or its "
+"ancestry. Always returns 0 when the constant could not be found."
+msgstr ""
+
+#: ../../docs/classes/class_classdb.rst:103
+msgid ""
+":ref:`PoolStringArray<class_PoolStringArray>` "
+"**class_get_integer_constant_list** **(** :ref:`String<class_String>` "
+"class, :ref:`bool<class_bool>` no_inheritance=false **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_classdb.rst:105
+msgid ""
+"Returns an array with the names all the integer constants of ``class`` or "
+"its ancestry."
+msgstr ""
+
+#: ../../docs/classes/class_classdb.rst:111
+msgid ""
+":ref:`Array<class_Array>` **class_get_method_list** **(** :ref:"
+"`String<class_String>` class, :ref:`bool<class_bool>` no_inheritance=false "
+"**)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_classdb.rst:113
+msgid ""
+"Returns an array with all the methods of ``class`` or its ancestry if "
+"``no_inheritance`` is ``false``. Every element of the array is a :ref:"
+"`Dictionary<class_Dictionary>` with the following keys: ``args``, "
+"``default_args``, ``flags``, ``id``, ``name``, ``return: (class_name, hint, "
+"hint_string, name, type, usage)``."
+msgstr ""
+
+#: ../../docs/classes/class_classdb.rst:119
+msgid ""
+":ref:`Variant<class_Variant>` **class_get_property** **(** :ref:"
+"`Object<class_Object>` object, :ref:`String<class_String>` property **)** |"
+"const|"
+msgstr ""
+
+#: ../../docs/classes/class_classdb.rst:121
+msgid "Returns the value of ``property`` of ``class`` or its ancestry."
+msgstr ""
+
+#: ../../docs/classes/class_classdb.rst:127
+msgid ""
+":ref:`Array<class_Array>` **class_get_property_list** **(** :ref:"
+"`String<class_String>` class, :ref:`bool<class_bool>` no_inheritance=false "
+"**)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_classdb.rst:129
+msgid ""
+"Returns an array with all the properties of ``class`` or its ancestry if "
+"``no_inheritance`` is ``false``."
+msgstr ""
+
+#: ../../docs/classes/class_classdb.rst:135
+msgid ""
+":ref:`Dictionary<class_Dictionary>` **class_get_signal** **(** :ref:"
+"`String<class_String>` class, :ref:`String<class_String>` signal **)** |"
+"const|"
+msgstr ""
+
+#: ../../docs/classes/class_classdb.rst:137
+msgid ""
+"Returns the ``signal`` data of ``class`` or its ancestry. The returned value "
+"is a :ref:`Dictionary<class_Dictionary>` with the following keys: ``args``, "
+"``default_args``, ``flags``, ``id``, ``name``, ``return: (class_name, hint, "
+"hint_string, name, type, usage)``."
+msgstr ""
+
+#: ../../docs/classes/class_classdb.rst:143
+msgid ""
+":ref:`Array<class_Array>` **class_get_signal_list** **(** :ref:"
+"`String<class_String>` class, :ref:`bool<class_bool>` no_inheritance=false "
+"**)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_classdb.rst:145
+msgid ""
+"Returns an array with all the signals of ``class`` or its ancestry if "
+"``no_inheritance`` is ``false``. Every element of the array is a :ref:"
+"`Dictionary<class_Dictionary>` as described in :ref:"
+"`class_get_signal<class_ClassDB_method_class_get_signal>`."
+msgstr ""
+
+#: ../../docs/classes/class_classdb.rst:151
+msgid ""
+":ref:`bool<class_bool>` **class_has_integer_constant** **(** :ref:"
+"`String<class_String>` class, :ref:`String<class_String>` name **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_classdb.rst:153
+msgid ""
+"Returns whether ``class`` or its ancestry has an integer constant called "
+"``name`` or not."
+msgstr ""
+
+#: ../../docs/classes/class_classdb.rst:159
+msgid ""
+":ref:`bool<class_bool>` **class_has_method** **(** :ref:"
+"`String<class_String>` class, :ref:`String<class_String>` method, :ref:"
+"`bool<class_bool>` no_inheritance=false **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_classdb.rst:161
+msgid ""
+"Returns whether ``class`` (or its ancestry if ``no_inheritance`` is "
+"``false``) has a method called ``method`` or not."
+msgstr ""
+
+#: ../../docs/classes/class_classdb.rst:167
+msgid ""
+":ref:`bool<class_bool>` **class_has_signal** **(** :ref:"
+"`String<class_String>` class, :ref:`String<class_String>` signal **)** |"
+"const|"
+msgstr ""
+
+#: ../../docs/classes/class_classdb.rst:169
+msgid ""
+"Returns whether ``class`` or its ancestry has a signal called ``signal`` or "
+"not."
+msgstr ""
+
+#: ../../docs/classes/class_classdb.rst:175
+msgid ""
+":ref:`Error<enum_@GlobalScope_Error>` **class_set_property** **(** :ref:"
+"`Object<class_Object>` object, :ref:`String<class_String>` property, :ref:"
+"`Variant<class_Variant>` value **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_classdb.rst:177
+msgid "Sets ``property`` value of ``class`` to ``value``."
+msgstr ""
+
+#: ../../docs/classes/class_classdb.rst:183
+msgid ""
+":ref:`PoolStringArray<class_PoolStringArray>` **get_class_list** **(** **)** "
+"|const|"
+msgstr ""
+
+#: ../../docs/classes/class_classdb.rst:185
+msgid "Returns the names of all the classes available."
+msgstr "返回所有可用类的名称。"
+
+#: ../../docs/classes/class_classdb.rst:191
+msgid ""
+":ref:`PoolStringArray<class_PoolStringArray>` **get_inheriters_from_class** "
+"**(** :ref:`String<class_String>` class **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_classdb.rst:193
+msgid ""
+"Returns the names of all the classes that directly or indirectly inherit "
+"from ``class``."
+msgstr ""
+
+#: ../../docs/classes/class_classdb.rst:199
+msgid ""
+":ref:`String<class_String>` **get_parent_class** **(** :ref:"
+"`String<class_String>` class **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_classdb.rst:201
+msgid "Returns the parent class of ``class``."
+msgstr ""
+
+#: ../../docs/classes/class_classdb.rst:207
+msgid ""
+":ref:`Variant<class_Variant>` **instance** **(** :ref:`String<class_String>` "
+"class **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_classdb.rst:209
+msgid "Creates an instance of ``class``."
+msgstr ""
+
+#: ../../docs/classes/class_classdb.rst:215
+msgid ""
+":ref:`bool<class_bool>` **is_class_enabled** **(** :ref:"
+"`String<class_String>` class **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_classdb.rst:217
+msgid "Returns whether this ``class`` is enabled or not."
+msgstr ""
+
+#: ../../docs/classes/class_classdb.rst:223
+msgid ""
+":ref:`bool<class_bool>` **is_parent_class** **(** :ref:"
+"`String<class_String>` class, :ref:`String<class_String>` inherits **)** |"
+"const|"
+msgstr ""
+
+#: ../../docs/classes/class_classdb.rst:225
+msgid "Returns whether ``inherits`` is an ancestor of ``class`` or not."
+msgstr ""

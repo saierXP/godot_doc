@@ -1,0 +1,190 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2021, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-31 12:15+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_editorresourcepreview.rst:10
+msgid "EditorResourcePreview"
+msgstr ""
+
+#: ../../docs/classes/class_editorresourcepreview.rst:12
+msgid "**Inherits:** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_editorresourcepreview.rst:14
+msgid "Helper to generate previews of resources or files."
+msgstr "帮助生成资源或文件的预览。"
+
+#: ../../docs/classes/class_editorresourcepreview.rst:17
+msgid "Description"
+msgstr "描述"
+
+#: ../../docs/classes/class_editorresourcepreview.rst:19
+msgid "This object is used to generate previews for resources of files."
+msgstr ""
+
+#: ../../docs/classes/class_editorresourcepreview.rst:21
+msgid ""
+"**Note:** This class shouldn't be instantiated directly. Instead, access the "
+"singleton using :ref:`EditorInterface."
+"get_resource_previewer<class_EditorInterface_method_get_resource_previewer>`."
+msgstr ""
+
+#: ../../docs/classes/class_editorresourcepreview.rst:24
+msgid "Methods"
+msgstr "方法"
+
+#: ../../docs/classes/class_editorresourcepreview.rst:27
+#: ../../docs/classes/class_editorresourcepreview.rst:29
+#: ../../docs/classes/class_editorresourcepreview.rst:31
+#: ../../docs/classes/class_editorresourcepreview.rst:33
+#: ../../docs/classes/class_editorresourcepreview.rst:35
+msgid "void"
+msgstr ""
+
+#: ../../docs/classes/class_editorresourcepreview.rst:27
+msgid ""
+":ref:"
+"`add_preview_generator<class_EditorResourcePreview_method_add_preview_generator>` "
+"**(** :ref:"
+"`EditorResourcePreviewGenerator<class_EditorResourcePreviewGenerator>` "
+"generator **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorresourcepreview.rst:29
+msgid ""
+":ref:"
+"`check_for_invalidation<class_EditorResourcePreview_method_check_for_invalidation>` "
+"**(** :ref:`String<class_String>` path **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorresourcepreview.rst:31
+msgid ""
+":ref:"
+"`queue_edited_resource_preview<class_EditorResourcePreview_method_queue_edited_resource_preview>` "
+"**(** :ref:`Resource<class_Resource>` resource, :ref:`Object<class_Object>` "
+"receiver, :ref:`String<class_String>` receiver_func, :ref:"
+"`Variant<class_Variant>` userdata **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorresourcepreview.rst:33
+msgid ""
+":ref:"
+"`queue_resource_preview<class_EditorResourcePreview_method_queue_resource_preview>` "
+"**(** :ref:`String<class_String>` path, :ref:`Object<class_Object>` "
+"receiver, :ref:`String<class_String>` receiver_func, :ref:"
+"`Variant<class_Variant>` userdata **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorresourcepreview.rst:35
+msgid ""
+":ref:"
+"`remove_preview_generator<class_EditorResourcePreview_method_remove_preview_generator>` "
+"**(** :ref:"
+"`EditorResourcePreviewGenerator<class_EditorResourcePreviewGenerator>` "
+"generator **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorresourcepreview.rst:39
+msgid "Signals"
+msgstr "信号"
+
+#: ../../docs/classes/class_editorresourcepreview.rst:43
+msgid "**preview_invalidated** **(** :ref:`String<class_String>` path **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorresourcepreview.rst:45
+msgid ""
+"Emitted if a preview was invalidated (changed). ``path`` corresponds to the "
+"path of the preview."
+msgstr ""
+
+#: ../../docs/classes/class_editorresourcepreview.rst:48
+msgid "Method Descriptions"
+msgstr "方法说明"
+
+#: ../../docs/classes/class_editorresourcepreview.rst:52
+msgid ""
+"void **add_preview_generator** **(** :ref:"
+"`EditorResourcePreviewGenerator<class_EditorResourcePreviewGenerator>` "
+"generator **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorresourcepreview.rst:54
+msgid "Create an own, custom preview generator."
+msgstr "创建一个自己的、自定义的预览生成器。"
+
+#: ../../docs/classes/class_editorresourcepreview.rst:60
+msgid ""
+"void **check_for_invalidation** **(** :ref:`String<class_String>` path **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorresourcepreview.rst:62
+msgid ""
+"Check if the resource changed, if so, it will be invalidated and the "
+"corresponding signal emitted."
+msgstr "检查资源是否发生变化，如果发生变化，则无效，并发出相应的信号。"
+
+#: ../../docs/classes/class_editorresourcepreview.rst:68
+msgid ""
+"void **queue_edited_resource_preview** **(** :ref:`Resource<class_Resource>` "
+"resource, :ref:`Object<class_Object>` receiver, :ref:`String<class_String>` "
+"receiver_func, :ref:`Variant<class_Variant>` userdata **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorresourcepreview.rst:70
+msgid ""
+"Queue a resource being edited for preview (using an instance). Once the "
+"preview is ready, your receiver.receiver_func will be called either "
+"containing the preview texture or an empty texture (if no preview was "
+"possible). Callback must have the format: (path,texture,userdata). Userdata "
+"can be anything."
+msgstr ""
+"将一个正在编辑的资源排队预览（使用实例）。一旦预览准备好，你的 receiver."
+"receiver_func 将会被调用，要么包含预览纹理，要么包含一个空的纹理（如果不可能"
+"预览）。回调的格式必须是：(path,texture,userdata)。(path,texture,userdata)."
+"Userdata可以是任何东西。"
+
+#: ../../docs/classes/class_editorresourcepreview.rst:76
+msgid ""
+"void **queue_resource_preview** **(** :ref:`String<class_String>` path, :ref:"
+"`Object<class_Object>` receiver, :ref:`String<class_String>` receiver_func, :"
+"ref:`Variant<class_Variant>` userdata **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorresourcepreview.rst:78
+msgid ""
+"Queue a resource file for preview (using a path). Once the preview is ready, "
+"your receiver.receiver_func will be called either containing the preview "
+"texture or an empty texture (if no preview was possible). Callback must have "
+"the format: (path,texture,userdata). Userdata can be anything."
+msgstr ""
+"排队一个资源文件进行预览（使用路径）。一旦预览准备好了，你的receiver."
+"receiver_func将被调用，要么包含预览纹理，要么包含一个空的纹理（如果不可能预"
+"览）。回调的格式必须是：(path,texture,userdata)。(path,texture,userdata)."
+"Userdata可以是任何东西。"
+
+#: ../../docs/classes/class_editorresourcepreview.rst:84
+msgid ""
+"void **remove_preview_generator** **(** :ref:"
+"`EditorResourcePreviewGenerator<class_EditorResourcePreviewGenerator>` "
+"generator **)**"
+msgstr ""
+
+#: ../../docs/classes/class_editorresourcepreview.rst:86
+msgid "Removes a custom preview generator."
+msgstr "移除自定义预览生成器。"

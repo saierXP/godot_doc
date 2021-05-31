@@ -1,0 +1,848 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2021, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-31 12:15+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_tween.rst:10
+msgid "Tween"
+msgstr ""
+
+#: ../../docs/classes/class_tween.rst:12
+msgid "**Inherits:** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_tween.rst:14
+msgid "Smoothly animates a node's properties over time."
+msgstr ""
+
+#: ../../docs/classes/class_tween.rst:17
+msgid "Description"
+msgstr "描述"
+
+#: ../../docs/classes/class_tween.rst:19
+msgid ""
+"Tweens are useful for animations requiring a numerical property to be "
+"interpolated over a range of values. The name *tween* comes from *in-"
+"betweening*, an animation technique where you specify *keyframes* and the "
+"computer interpolates the frames that appear between them."
+msgstr ""
+
+#: ../../docs/classes/class_tween.rst:21
+msgid ""
+"``Tween`` is more suited than :ref:`AnimationPlayer<class_AnimationPlayer>` "
+"for animations where you don't know the final values in advance. For "
+"example, interpolating a dynamically-chosen camera zoom value is best done "
+"with a ``Tween`` node; it would be difficult to do the same thing with an :"
+"ref:`AnimationPlayer<class_AnimationPlayer>` node."
+msgstr ""
+
+#: ../../docs/classes/class_tween.rst:23
+msgid ""
+"Here is a brief usage example that makes a 2D node move smoothly between two "
+"positions:"
+msgstr ""
+
+#: ../../docs/classes/class_tween.rst:33
+msgid ""
+"Many methods require a property name, such as ``\"position\"`` above. You "
+"can find the correct property name by hovering over the property in the "
+"Inspector. You can also provide the components of a property directly by "
+"using ``\"property:component\"`` (eg. ``position:x``), where it would only "
+"apply to that particular component."
+msgstr ""
+
+#: ../../docs/classes/class_tween.rst:35
+msgid ""
+"Many of the methods accept ``trans_type`` and ``ease_type``. The first "
+"accepts an :ref:`TransitionType<enum_Tween_TransitionType>` constant, and "
+"refers to the way the timing of the animation is handled (see `easings.net "
+"<https://easings.net/>`_ for some examples). The second accepts an :ref:"
+"`EaseType<enum_Tween_EaseType>` constant, and controls where the "
+"``trans_type`` is applied to the interpolation (in the beginning, the end, "
+"or both). If you don't know which transition and easing to pick, you can try "
+"different :ref:`TransitionType<enum_Tween_TransitionType>` constants with :"
+"ref:`EASE_IN_OUT<class_Tween_constant_EASE_IN_OUT>`, and use the one that "
+"looks best."
+msgstr ""
+
+#: ../../docs/classes/class_tween.rst:37
+msgid ""
+"`Tween easing and transition types cheatsheet <https://raw.githubusercontent."
+"com/godotengine/godot-docs/master/img/tween_cheatsheet.png>`_"
+msgstr ""
+
+#: ../../docs/classes/class_tween.rst:40
+msgid "Properties"
+msgstr "属性"
+
+#: ../../docs/classes/class_tween.rst:43
+msgid ":ref:`TweenProcessMode<enum_Tween_TweenProcessMode>`"
+msgstr ""
+
+#: ../../docs/classes/class_tween.rst:43
+msgid ""
+":ref:`playback_process_mode<class_Tween_property_playback_process_mode>`"
+msgstr ""
+
+#: ../../docs/classes/class_tween.rst:43 ../../docs/classes/class_tween.rst:227
+msgid "``1``"
+msgstr ""
+
+#: ../../docs/classes/class_tween.rst:45 ../../docs/classes/class_tween.rst:58
+#: ../../docs/classes/class_tween.rst:96
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../../docs/classes/class_tween.rst:45
+msgid ":ref:`playback_speed<class_Tween_property_playback_speed>`"
+msgstr ""
+
+#: ../../docs/classes/class_tween.rst:45 ../../docs/classes/class_tween.rst:243
+msgid "``1.0``"
+msgstr ""
+
+#: ../../docs/classes/class_tween.rst:47 ../../docs/classes/class_tween.rst:54
+#: ../../docs/classes/class_tween.rst:56 ../../docs/classes/class_tween.rst:60
+#: ../../docs/classes/class_tween.rst:62 ../../docs/classes/class_tween.rst:64
+#: ../../docs/classes/class_tween.rst:66 ../../docs/classes/class_tween.rst:68
+#: ../../docs/classes/class_tween.rst:70 ../../docs/classes/class_tween.rst:72
+#: ../../docs/classes/class_tween.rst:74 ../../docs/classes/class_tween.rst:76
+#: ../../docs/classes/class_tween.rst:78 ../../docs/classes/class_tween.rst:80
+#: ../../docs/classes/class_tween.rst:82 ../../docs/classes/class_tween.rst:86
+#: ../../docs/classes/class_tween.rst:88 ../../docs/classes/class_tween.rst:90
+#: ../../docs/classes/class_tween.rst:92 ../../docs/classes/class_tween.rst:94
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_tween.rst:47
+msgid ":ref:`repeat<class_Tween_property_repeat>`"
+msgstr ""
+
+#: ../../docs/classes/class_tween.rst:47 ../../docs/classes/class_tween.rst:259
+msgid "``false``"
+msgstr ""
+
+#: ../../docs/classes/class_tween.rst:51
+msgid "Methods"
+msgstr "方法"
+
+#: ../../docs/classes/class_tween.rst:54
+msgid ""
+":ref:`follow_method<class_Tween_method_follow_method>` **(** :ref:"
+"`Object<class_Object>` object, :ref:`String<class_String>` method, :ref:"
+"`Variant<class_Variant>` initial_val, :ref:`Object<class_Object>` target, :"
+"ref:`String<class_String>` target_method, :ref:`float<class_float>` "
+"duration, :ref:`TransitionType<enum_Tween_TransitionType>` trans_type=0, :"
+"ref:`EaseType<enum_Tween_EaseType>` ease_type=2, :ref:`float<class_float>` "
+"delay=0 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_tween.rst:56
+msgid ""
+":ref:`follow_property<class_Tween_method_follow_property>` **(** :ref:"
+"`Object<class_Object>` object, :ref:`NodePath<class_NodePath>` property, :"
+"ref:`Variant<class_Variant>` initial_val, :ref:`Object<class_Object>` "
+"target, :ref:`NodePath<class_NodePath>` target_property, :ref:"
+"`float<class_float>` duration, :ref:"
+"`TransitionType<enum_Tween_TransitionType>` trans_type=0, :ref:"
+"`EaseType<enum_Tween_EaseType>` ease_type=2, :ref:`float<class_float>` "
+"delay=0 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_tween.rst:58
+msgid ":ref:`get_runtime<class_Tween_method_get_runtime>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_tween.rst:60
+msgid ""
+":ref:`interpolate_callback<class_Tween_method_interpolate_callback>` **(** :"
+"ref:`Object<class_Object>` object, :ref:`float<class_float>` duration, :ref:"
+"`String<class_String>` callback, :ref:`Variant<class_Variant>` arg1=null, :"
+"ref:`Variant<class_Variant>` arg2=null, :ref:`Variant<class_Variant>` "
+"arg3=null, :ref:`Variant<class_Variant>` arg4=null, :ref:"
+"`Variant<class_Variant>` arg5=null **)**"
+msgstr ""
+
+#: ../../docs/classes/class_tween.rst:62
+msgid ""
+":ref:"
+"`interpolate_deferred_callback<class_Tween_method_interpolate_deferred_callback>` "
+"**(** :ref:`Object<class_Object>` object, :ref:`float<class_float>` "
+"duration, :ref:`String<class_String>` callback, :ref:"
+"`Variant<class_Variant>` arg1=null, :ref:`Variant<class_Variant>` "
+"arg2=null, :ref:`Variant<class_Variant>` arg3=null, :ref:"
+"`Variant<class_Variant>` arg4=null, :ref:`Variant<class_Variant>` arg5=null "
+"**)**"
+msgstr ""
+
+#: ../../docs/classes/class_tween.rst:64
+msgid ""
+":ref:`interpolate_method<class_Tween_method_interpolate_method>` **(** :ref:"
+"`Object<class_Object>` object, :ref:`String<class_String>` method, :ref:"
+"`Variant<class_Variant>` initial_val, :ref:`Variant<class_Variant>` "
+"final_val, :ref:`float<class_float>` duration, :ref:"
+"`TransitionType<enum_Tween_TransitionType>` trans_type=0, :ref:"
+"`EaseType<enum_Tween_EaseType>` ease_type=2, :ref:`float<class_float>` "
+"delay=0 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_tween.rst:66
+msgid ""
+":ref:`interpolate_property<class_Tween_method_interpolate_property>` **(** :"
+"ref:`Object<class_Object>` object, :ref:`NodePath<class_NodePath>` "
+"property, :ref:`Variant<class_Variant>` initial_val, :ref:"
+"`Variant<class_Variant>` final_val, :ref:`float<class_float>` duration, :ref:"
+"`TransitionType<enum_Tween_TransitionType>` trans_type=0, :ref:"
+"`EaseType<enum_Tween_EaseType>` ease_type=2, :ref:`float<class_float>` "
+"delay=0 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_tween.rst:68
+msgid ":ref:`is_active<class_Tween_method_is_active>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_tween.rst:70
+msgid ""
+":ref:`remove<class_Tween_method_remove>` **(** :ref:`Object<class_Object>` "
+"object, :ref:`String<class_String>` key=\"\" **)**"
+msgstr ""
+
+#: ../../docs/classes/class_tween.rst:72
+msgid ":ref:`remove_all<class_Tween_method_remove_all>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_tween.rst:74
+msgid ""
+":ref:`reset<class_Tween_method_reset>` **(** :ref:`Object<class_Object>` "
+"object, :ref:`String<class_String>` key=\"\" **)**"
+msgstr ""
+
+#: ../../docs/classes/class_tween.rst:76
+msgid ":ref:`reset_all<class_Tween_method_reset_all>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_tween.rst:78
+msgid ""
+":ref:`resume<class_Tween_method_resume>` **(** :ref:`Object<class_Object>` "
+"object, :ref:`String<class_String>` key=\"\" **)**"
+msgstr ""
+
+#: ../../docs/classes/class_tween.rst:80
+msgid ":ref:`resume_all<class_Tween_method_resume_all>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_tween.rst:82
+msgid ""
+":ref:`seek<class_Tween_method_seek>` **(** :ref:`float<class_float>` time "
+"**)**"
+msgstr ""
+
+#: ../../docs/classes/class_tween.rst:84
+msgid "void"
+msgstr ""
+
+#: ../../docs/classes/class_tween.rst:84
+msgid ""
+":ref:`set_active<class_Tween_method_set_active>` **(** :ref:"
+"`bool<class_bool>` active **)**"
+msgstr ""
+
+#: ../../docs/classes/class_tween.rst:86
+msgid ":ref:`start<class_Tween_method_start>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_tween.rst:88
+msgid ""
+":ref:`stop<class_Tween_method_stop>` **(** :ref:`Object<class_Object>` "
+"object, :ref:`String<class_String>` key=\"\" **)**"
+msgstr ""
+
+#: ../../docs/classes/class_tween.rst:90
+msgid ":ref:`stop_all<class_Tween_method_stop_all>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_tween.rst:92
+msgid ""
+":ref:`targeting_method<class_Tween_method_targeting_method>` **(** :ref:"
+"`Object<class_Object>` object, :ref:`String<class_String>` method, :ref:"
+"`Object<class_Object>` initial, :ref:`String<class_String>` initial_method, :"
+"ref:`Variant<class_Variant>` final_val, :ref:`float<class_float>` duration, :"
+"ref:`TransitionType<enum_Tween_TransitionType>` trans_type=0, :ref:"
+"`EaseType<enum_Tween_EaseType>` ease_type=2, :ref:`float<class_float>` "
+"delay=0 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_tween.rst:94
+msgid ""
+":ref:`targeting_property<class_Tween_method_targeting_property>` **(** :ref:"
+"`Object<class_Object>` object, :ref:`NodePath<class_NodePath>` property, :"
+"ref:`Object<class_Object>` initial, :ref:`NodePath<class_NodePath>` "
+"initial_val, :ref:`Variant<class_Variant>` final_val, :ref:"
+"`float<class_float>` duration, :ref:"
+"`TransitionType<enum_Tween_TransitionType>` trans_type=0, :ref:"
+"`EaseType<enum_Tween_EaseType>` ease_type=2, :ref:`float<class_float>` "
+"delay=0 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_tween.rst:96
+msgid ":ref:`tell<class_Tween_method_tell>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_tween.rst:100
+msgid "Signals"
+msgstr "信号"
+
+#: ../../docs/classes/class_tween.rst:104
+msgid "**tween_all_completed** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_tween.rst:106
+msgid "Emitted when all processes in a tween end."
+msgstr ""
+
+#: ../../docs/classes/class_tween.rst:112
+msgid ""
+"**tween_completed** **(** :ref:`Object<class_Object>` object, :ref:"
+"`NodePath<class_NodePath>` key **)**"
+msgstr ""
+
+#: ../../docs/classes/class_tween.rst:114
+msgid "Emitted when a tween ends."
+msgstr ""
+
+#: ../../docs/classes/class_tween.rst:120
+msgid ""
+"**tween_started** **(** :ref:`Object<class_Object>` object, :ref:"
+"`NodePath<class_NodePath>` key **)**"
+msgstr ""
+
+#: ../../docs/classes/class_tween.rst:122
+msgid "Emitted when a tween starts."
+msgstr ""
+
+#: ../../docs/classes/class_tween.rst:128
+msgid ""
+"**tween_step** **(** :ref:`Object<class_Object>` object, :ref:"
+"`NodePath<class_NodePath>` key, :ref:`float<class_float>` elapsed, :ref:"
+"`Object<class_Object>` value **)**"
+msgstr ""
+
+#: ../../docs/classes/class_tween.rst:130
+msgid "Emitted at each step of the animation."
+msgstr ""
+
+#: ../../docs/classes/class_tween.rst:133
+msgid "Enumerations"
+msgstr "枚举"
+
+#: ../../docs/classes/class_tween.rst:141
+msgid "enum **TweenProcessMode**:"
+msgstr ""
+
+#: ../../docs/classes/class_tween.rst:143
+msgid ""
+"**TWEEN_PROCESS_PHYSICS** = **0** --- The tween updates with the "
+"``_physics_process`` callback."
+msgstr ""
+
+#: ../../docs/classes/class_tween.rst:145
+msgid ""
+"**TWEEN_PROCESS_IDLE** = **1** --- The tween updates with the ``_process`` "
+"callback."
+msgstr ""
+
+#: ../../docs/classes/class_tween.rst:173
+msgid "enum **TransitionType**:"
+msgstr ""
+
+#: ../../docs/classes/class_tween.rst:175
+msgid "**TRANS_LINEAR** = **0** --- The animation is interpolated linearly."
+msgstr ""
+
+#: ../../docs/classes/class_tween.rst:177
+msgid ""
+"**TRANS_SINE** = **1** --- The animation is interpolated using a sine "
+"function."
+msgstr ""
+
+#: ../../docs/classes/class_tween.rst:179
+msgid ""
+"**TRANS_QUINT** = **2** --- The animation is interpolated with a quintic (to "
+"the power of 5) function."
+msgstr ""
+
+#: ../../docs/classes/class_tween.rst:181
+msgid ""
+"**TRANS_QUART** = **3** --- The animation is interpolated with a quartic (to "
+"the power of 4) function."
+msgstr ""
+
+#: ../../docs/classes/class_tween.rst:183
+msgid ""
+"**TRANS_QUAD** = **4** --- The animation is interpolated with a quadratic "
+"(to the power of 2) function."
+msgstr ""
+
+#: ../../docs/classes/class_tween.rst:185
+msgid ""
+"**TRANS_EXPO** = **5** --- The animation is interpolated with an exponential "
+"(to the power of x) function."
+msgstr ""
+
+#: ../../docs/classes/class_tween.rst:187
+msgid ""
+"**TRANS_ELASTIC** = **6** --- The animation is interpolated with elasticity, "
+"wiggling around the edges."
+msgstr ""
+
+#: ../../docs/classes/class_tween.rst:189
+msgid ""
+"**TRANS_CUBIC** = **7** --- The animation is interpolated with a cubic (to "
+"the power of 3) function."
+msgstr ""
+
+#: ../../docs/classes/class_tween.rst:191
+msgid ""
+"**TRANS_CIRC** = **8** --- The animation is interpolated with a function "
+"using square roots."
+msgstr ""
+
+#: ../../docs/classes/class_tween.rst:193
+msgid ""
+"**TRANS_BOUNCE** = **9** --- The animation is interpolated by bouncing at "
+"the end."
+msgstr ""
+
+#: ../../docs/classes/class_tween.rst:195
+msgid ""
+"**TRANS_BACK** = **10** --- The animation is interpolated backing out at "
+"ends."
+msgstr ""
+
+#: ../../docs/classes/class_tween.rst:209
+msgid "enum **EaseType**:"
+msgstr ""
+
+#: ../../docs/classes/class_tween.rst:211
+msgid ""
+"**EASE_IN** = **0** --- The interpolation starts slowly and speeds up "
+"towards the end."
+msgstr ""
+
+#: ../../docs/classes/class_tween.rst:213
+msgid ""
+"**EASE_OUT** = **1** --- The interpolation starts quickly and slows down "
+"towards the end."
+msgstr ""
+
+#: ../../docs/classes/class_tween.rst:215
+msgid ""
+"**EASE_IN_OUT** = **2** --- A combination of :ref:"
+"`EASE_IN<class_Tween_constant_EASE_IN>` and :ref:"
+"`EASE_OUT<class_Tween_constant_EASE_OUT>`. The interpolation is slowest at "
+"both ends."
+msgstr ""
+
+#: ../../docs/classes/class_tween.rst:217
+msgid ""
+"**EASE_OUT_IN** = **3** --- A combination of :ref:"
+"`EASE_IN<class_Tween_constant_EASE_IN>` and :ref:"
+"`EASE_OUT<class_Tween_constant_EASE_OUT>`. The interpolation is fastest at "
+"both ends."
+msgstr ""
+
+#: ../../docs/classes/class_tween.rst:220
+msgid "Property Descriptions"
+msgstr "属性说明"
+
+#: ../../docs/classes/class_tween.rst:224
+msgid ""
+":ref:`TweenProcessMode<enum_Tween_TweenProcessMode>` "
+"**playback_process_mode**"
+msgstr ""
+
+#: ../../docs/classes/class_tween.rst:227
+#: ../../docs/classes/class_tween.rst:243
+#: ../../docs/classes/class_tween.rst:259
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_tween.rst:229
+#: ../../docs/classes/class_tween.rst:245
+#: ../../docs/classes/class_tween.rst:261
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_tween.rst:229
+msgid "set_tween_process_mode(value)"
+msgstr ""
+
+#: ../../docs/classes/class_tween.rst:231
+#: ../../docs/classes/class_tween.rst:247
+#: ../../docs/classes/class_tween.rst:263
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_tween.rst:231
+msgid "get_tween_process_mode()"
+msgstr ""
+
+#: ../../docs/classes/class_tween.rst:234
+msgid ""
+"The tween's animation process thread. See :ref:"
+"`TweenProcessMode<enum_Tween_TweenProcessMode>`."
+msgstr ""
+
+#: ../../docs/classes/class_tween.rst:240
+msgid ":ref:`float<class_float>` **playback_speed**"
+msgstr ""
+
+#: ../../docs/classes/class_tween.rst:245
+msgid "set_speed_scale(value)"
+msgstr ""
+
+#: ../../docs/classes/class_tween.rst:247
+msgid "get_speed_scale()"
+msgstr ""
+
+#: ../../docs/classes/class_tween.rst:250
+msgid ""
+"The tween's speed multiplier. For example, set it to ``1.0`` for normal "
+"speed, ``2.0`` for two times normal speed, or ``0.5`` for half of the normal "
+"speed. A value of ``0`` pauses the animation, but see also :ref:"
+"`set_active<class_Tween_method_set_active>` or :ref:"
+"`stop_all<class_Tween_method_stop_all>` for this."
+msgstr ""
+
+#: ../../docs/classes/class_tween.rst:256
+msgid ":ref:`bool<class_bool>` **repeat**"
+msgstr ""
+
+#: ../../docs/classes/class_tween.rst:261
+msgid "set_repeat(value)"
+msgstr ""
+
+#: ../../docs/classes/class_tween.rst:263
+msgid "is_repeat()"
+msgstr ""
+
+#: ../../docs/classes/class_tween.rst:266
+msgid "If ``true``, the tween loops."
+msgstr ""
+
+#: ../../docs/classes/class_tween.rst:269
+msgid "Method Descriptions"
+msgstr "方法说明"
+
+#: ../../docs/classes/class_tween.rst:273
+msgid ""
+":ref:`bool<class_bool>` **follow_method** **(** :ref:`Object<class_Object>` "
+"object, :ref:`String<class_String>` method, :ref:`Variant<class_Variant>` "
+"initial_val, :ref:`Object<class_Object>` target, :ref:`String<class_String>` "
+"target_method, :ref:`float<class_float>` duration, :ref:"
+"`TransitionType<enum_Tween_TransitionType>` trans_type=0, :ref:"
+"`EaseType<enum_Tween_EaseType>` ease_type=2, :ref:`float<class_float>` "
+"delay=0 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_tween.rst:275
+msgid ""
+"Follows ``method`` of ``object`` and applies the returned value on "
+"``target_method`` of ``target``, beginning from ``initial_val`` for "
+"``duration`` seconds, ``delay`` later. Methods are called with consecutive "
+"values."
+msgstr ""
+
+#: ../../docs/classes/class_tween.rst:277
+#: ../../docs/classes/class_tween.rst:287
+#: ../../docs/classes/class_tween.rst:321
+#: ../../docs/classes/class_tween.rst:331
+#: ../../docs/classes/class_tween.rst:439
+#: ../../docs/classes/class_tween.rst:449
+msgid ""
+"Use :ref:`TransitionType<enum_Tween_TransitionType>` for ``trans_type`` and :"
+"ref:`EaseType<enum_Tween_EaseType>` for ``ease_type`` parameters. These "
+"values control the timing and direction of the interpolation. See the class "
+"description for more information."
+msgstr ""
+
+#: ../../docs/classes/class_tween.rst:283
+msgid ""
+":ref:`bool<class_bool>` **follow_property** **(** :ref:"
+"`Object<class_Object>` object, :ref:`NodePath<class_NodePath>` property, :"
+"ref:`Variant<class_Variant>` initial_val, :ref:`Object<class_Object>` "
+"target, :ref:`NodePath<class_NodePath>` target_property, :ref:"
+"`float<class_float>` duration, :ref:"
+"`TransitionType<enum_Tween_TransitionType>` trans_type=0, :ref:"
+"`EaseType<enum_Tween_EaseType>` ease_type=2, :ref:`float<class_float>` "
+"delay=0 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_tween.rst:285
+msgid ""
+"Follows ``property`` of ``object`` and applies it on ``target_property`` of "
+"``target``, beginning from ``initial_val`` for ``duration`` seconds, "
+"``delay`` seconds later."
+msgstr ""
+
+#: ../../docs/classes/class_tween.rst:293
+msgid ":ref:`float<class_float>` **get_runtime** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_tween.rst:295
+msgid ""
+"Returns the total time needed for all tweens to end. If you have two tweens, "
+"one lasting 10 seconds and the other 20 seconds, it would return 20 seconds, "
+"as by that time all tweens would have finished."
+msgstr ""
+
+#: ../../docs/classes/class_tween.rst:301
+msgid ""
+":ref:`bool<class_bool>` **interpolate_callback** **(** :ref:"
+"`Object<class_Object>` object, :ref:`float<class_float>` duration, :ref:"
+"`String<class_String>` callback, :ref:`Variant<class_Variant>` arg1=null, :"
+"ref:`Variant<class_Variant>` arg2=null, :ref:`Variant<class_Variant>` "
+"arg3=null, :ref:`Variant<class_Variant>` arg4=null, :ref:"
+"`Variant<class_Variant>` arg5=null **)**"
+msgstr ""
+
+#: ../../docs/classes/class_tween.rst:303
+msgid ""
+"Calls ``callback`` of ``object`` after ``duration``. ``arg1``-``arg5`` are "
+"arguments to be passed to the callback."
+msgstr ""
+
+#: ../../docs/classes/class_tween.rst:309
+msgid ""
+":ref:`bool<class_bool>` **interpolate_deferred_callback** **(** :ref:"
+"`Object<class_Object>` object, :ref:`float<class_float>` duration, :ref:"
+"`String<class_String>` callback, :ref:`Variant<class_Variant>` arg1=null, :"
+"ref:`Variant<class_Variant>` arg2=null, :ref:`Variant<class_Variant>` "
+"arg3=null, :ref:`Variant<class_Variant>` arg4=null, :ref:"
+"`Variant<class_Variant>` arg5=null **)**"
+msgstr ""
+
+#: ../../docs/classes/class_tween.rst:311
+msgid ""
+"Calls ``callback`` of ``object`` after ``duration`` on the main thread "
+"(similar to :ref:`Object.call_deferred<class_Object_method_call_deferred>`). "
+"``arg1``-``arg5`` are arguments to be passed to the callback."
+msgstr ""
+
+#: ../../docs/classes/class_tween.rst:317
+msgid ""
+":ref:`bool<class_bool>` **interpolate_method** **(** :ref:"
+"`Object<class_Object>` object, :ref:`String<class_String>` method, :ref:"
+"`Variant<class_Variant>` initial_val, :ref:`Variant<class_Variant>` "
+"final_val, :ref:`float<class_float>` duration, :ref:"
+"`TransitionType<enum_Tween_TransitionType>` trans_type=0, :ref:"
+"`EaseType<enum_Tween_EaseType>` ease_type=2, :ref:`float<class_float>` "
+"delay=0 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_tween.rst:319
+msgid ""
+"Animates ``method`` of ``object`` from ``initial_val`` to ``final_val`` for "
+"``duration`` seconds, ``delay`` seconds later. Methods are called with "
+"consecutive values."
+msgstr ""
+
+#: ../../docs/classes/class_tween.rst:327
+msgid ""
+":ref:`bool<class_bool>` **interpolate_property** **(** :ref:"
+"`Object<class_Object>` object, :ref:`NodePath<class_NodePath>` property, :"
+"ref:`Variant<class_Variant>` initial_val, :ref:`Variant<class_Variant>` "
+"final_val, :ref:`float<class_float>` duration, :ref:"
+"`TransitionType<enum_Tween_TransitionType>` trans_type=0, :ref:"
+"`EaseType<enum_Tween_EaseType>` ease_type=2, :ref:`float<class_float>` "
+"delay=0 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_tween.rst:329
+msgid ""
+"Animates ``property`` of ``object`` from ``initial_val`` to ``final_val`` "
+"for ``duration`` seconds, ``delay`` seconds later. Setting the initial value "
+"to ``null`` uses the current value of the property."
+msgstr ""
+
+#: ../../docs/classes/class_tween.rst:337
+msgid ":ref:`bool<class_bool>` **is_active** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_tween.rst:339
+msgid "Returns ``true`` if any tweens are currently running."
+msgstr ""
+
+#: ../../docs/classes/class_tween.rst:341
+msgid "**Note:** This method doesn't consider tweens that have ended."
+msgstr ""
+
+#: ../../docs/classes/class_tween.rst:347
+msgid ""
+":ref:`bool<class_bool>` **remove** **(** :ref:`Object<class_Object>` "
+"object, :ref:`String<class_String>` key=\"\" **)**"
+msgstr ""
+
+#: ../../docs/classes/class_tween.rst:349
+msgid ""
+"Stops animation and removes a tween, given its object and property/method "
+"pair. By default, all tweens are removed, unless ``key`` is specified."
+msgstr ""
+
+#: ../../docs/classes/class_tween.rst:355
+msgid ":ref:`bool<class_bool>` **remove_all** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_tween.rst:357
+msgid "Stops animation and removes all tweens."
+msgstr ""
+
+#: ../../docs/classes/class_tween.rst:363
+msgid ""
+":ref:`bool<class_bool>` **reset** **(** :ref:`Object<class_Object>` object, :"
+"ref:`String<class_String>` key=\"\" **)**"
+msgstr ""
+
+#: ../../docs/classes/class_tween.rst:365
+msgid ""
+"Resets a tween to its initial value (the one given, not the one before the "
+"tween), given its object and property/method pair. By default, all tweens "
+"are removed, unless ``key`` is specified."
+msgstr ""
+
+#: ../../docs/classes/class_tween.rst:371
+msgid ":ref:`bool<class_bool>` **reset_all** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_tween.rst:373
+msgid ""
+"Resets all tweens to their initial values (the ones given, not those before "
+"the tween)."
+msgstr ""
+
+#: ../../docs/classes/class_tween.rst:379
+msgid ""
+":ref:`bool<class_bool>` **resume** **(** :ref:`Object<class_Object>` "
+"object, :ref:`String<class_String>` key=\"\" **)**"
+msgstr ""
+
+#: ../../docs/classes/class_tween.rst:381
+msgid ""
+"Continues animating a stopped tween, given its object and property/method "
+"pair. By default, all tweens are resumed, unless ``key`` is specified."
+msgstr ""
+
+#: ../../docs/classes/class_tween.rst:387
+msgid ":ref:`bool<class_bool>` **resume_all** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_tween.rst:389
+msgid "Continues animating all stopped tweens."
+msgstr ""
+
+#: ../../docs/classes/class_tween.rst:395
+msgid ""
+":ref:`bool<class_bool>` **seek** **(** :ref:`float<class_float>` time **)**"
+msgstr ""
+
+#: ../../docs/classes/class_tween.rst:397
+msgid "Sets the interpolation to the given ``time`` in seconds."
+msgstr ""
+
+#: ../../docs/classes/class_tween.rst:403
+msgid "void **set_active** **(** :ref:`bool<class_bool>` active **)**"
+msgstr ""
+
+#: ../../docs/classes/class_tween.rst:405
+msgid ""
+"Activates/deactivates the tween. See also :ref:"
+"`stop_all<class_Tween_method_stop_all>` and :ref:"
+"`resume_all<class_Tween_method_resume_all>`."
+msgstr ""
+
+#: ../../docs/classes/class_tween.rst:411
+msgid ":ref:`bool<class_bool>` **start** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_tween.rst:413
+msgid "Starts the tween. You can define animations both before and after this."
+msgstr ""
+
+#: ../../docs/classes/class_tween.rst:419
+msgid ""
+":ref:`bool<class_bool>` **stop** **(** :ref:`Object<class_Object>` object, :"
+"ref:`String<class_String>` key=\"\" **)**"
+msgstr ""
+
+#: ../../docs/classes/class_tween.rst:421
+msgid ""
+"Stops a tween, given its object and property/method pair. By default, all "
+"tweens are stopped, unless ``key`` is specified."
+msgstr ""
+
+#: ../../docs/classes/class_tween.rst:427
+msgid ":ref:`bool<class_bool>` **stop_all** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_tween.rst:429
+msgid "Stops animating all tweens."
+msgstr ""
+
+#: ../../docs/classes/class_tween.rst:435
+msgid ""
+":ref:`bool<class_bool>` **targeting_method** **(** :ref:"
+"`Object<class_Object>` object, :ref:`String<class_String>` method, :ref:"
+"`Object<class_Object>` initial, :ref:`String<class_String>` initial_method, :"
+"ref:`Variant<class_Variant>` final_val, :ref:`float<class_float>` duration, :"
+"ref:`TransitionType<enum_Tween_TransitionType>` trans_type=0, :ref:"
+"`EaseType<enum_Tween_EaseType>` ease_type=2, :ref:`float<class_float>` "
+"delay=0 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_tween.rst:437
+msgid ""
+"Animates ``method`` of ``object`` from the value returned by "
+"``initial_method`` to ``final_val`` for ``duration`` seconds, ``delay`` "
+"seconds later. Methods are animated by calling them with consecutive values."
+msgstr ""
+
+#: ../../docs/classes/class_tween.rst:445
+msgid ""
+":ref:`bool<class_bool>` **targeting_property** **(** :ref:"
+"`Object<class_Object>` object, :ref:`NodePath<class_NodePath>` property, :"
+"ref:`Object<class_Object>` initial, :ref:`NodePath<class_NodePath>` "
+"initial_val, :ref:`Variant<class_Variant>` final_val, :ref:"
+"`float<class_float>` duration, :ref:"
+"`TransitionType<enum_Tween_TransitionType>` trans_type=0, :ref:"
+"`EaseType<enum_Tween_EaseType>` ease_type=2, :ref:`float<class_float>` "
+"delay=0 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_tween.rst:447
+msgid ""
+"Animates ``property`` of ``object`` from the current value of the "
+"``initial_val`` property of ``initial`` to ``final_val`` for ``duration`` "
+"seconds, ``delay`` seconds later."
+msgstr ""
+
+#: ../../docs/classes/class_tween.rst:455
+msgid ":ref:`float<class_float>` **tell** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_tween.rst:457
+msgid "Returns the current time of the tween."
+msgstr ""

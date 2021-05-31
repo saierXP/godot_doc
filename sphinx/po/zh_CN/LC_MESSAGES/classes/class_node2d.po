@@ -1,0 +1,646 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2021, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-31 12:15+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_node2d.rst:10
+msgid "Node2D"
+msgstr ""
+
+#: ../../docs/classes/class_node2d.rst:12
+msgid ""
+"**Inherits:** :ref:`CanvasItem<class_CanvasItem>` **<** :ref:"
+"`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_node2d.rst:14
+msgid ""
+"**Inherited By:** :ref:`AnimatedSprite<class_AnimatedSprite>`, :ref:"
+"`AudioStreamPlayer2D<class_AudioStreamPlayer2D>`, :ref:"
+"`BackBufferCopy<class_BackBufferCopy>`, :ref:`Bone2D<class_Bone2D>`, :ref:"
+"`CPUParticles2D<class_CPUParticles2D>`, :ref:`Camera2D<class_Camera2D>`, :"
+"ref:`CanvasModulate<class_CanvasModulate>`, :ref:"
+"`CollisionObject2D<class_CollisionObject2D>`, :ref:"
+"`CollisionPolygon2D<class_CollisionPolygon2D>`, :ref:"
+"`CollisionShape2D<class_CollisionShape2D>`, :ref:`Joint2D<class_Joint2D>`, :"
+"ref:`Light2D<class_Light2D>`, :ref:"
+"`LightOccluder2D<class_LightOccluder2D>`, :ref:`Line2D<class_Line2D>`, :ref:"
+"`MeshInstance2D<class_MeshInstance2D>`, :ref:"
+"`MultiMeshInstance2D<class_MultiMeshInstance2D>`, :ref:"
+"`Navigation2D<class_Navigation2D>`, :ref:"
+"`NavigationPolygonInstance<class_NavigationPolygonInstance>`, :ref:"
+"`ParallaxLayer<class_ParallaxLayer>`, :ref:"
+"`Particles2D<class_Particles2D>`, :ref:`Path2D<class_Path2D>`, :ref:"
+"`PathFollow2D<class_PathFollow2D>`, :ref:`Polygon2D<class_Polygon2D>`, :ref:"
+"`Position2D<class_Position2D>`, :ref:`RayCast2D<class_RayCast2D>`, :ref:"
+"`RemoteTransform2D<class_RemoteTransform2D>`, :ref:"
+"`Skeleton2D<class_Skeleton2D>`, :ref:`Sprite<class_Sprite>`, :ref:"
+"`TileMap<class_TileMap>`, :ref:"
+"`TouchScreenButton<class_TouchScreenButton>`, :ref:"
+"`VisibilityNotifier2D<class_VisibilityNotifier2D>`, :ref:`YSort<class_YSort>`"
+msgstr ""
+
+#: ../../docs/classes/class_node2d.rst:16
+msgid ""
+"A 2D game object, inherited by all 2D-related nodes. Has a position, "
+"rotation, scale, and Z index."
+msgstr ""
+
+#: ../../docs/classes/class_node2d.rst:19
+msgid "Description"
+msgstr "描述"
+
+#: ../../docs/classes/class_node2d.rst:21
+msgid ""
+"A 2D game object, with a transform (position, rotation, and scale). All 2D "
+"nodes, including physics objects and sprites, inherit from Node2D. Use "
+"Node2D as a parent node to move, scale and rotate children in a 2D project. "
+"Also gives control of the node's render order."
+msgstr ""
+
+#: ../../docs/classes/class_node2d.rst:24
+msgid "Tutorials"
+msgstr "教程"
+
+#: ../../docs/classes/class_node2d.rst:26
+msgid ":doc:`../tutorials/2d/custom_drawing_in_2d`"
+msgstr ""
+
+#: ../../docs/classes/class_node2d.rst:28
+msgid ""
+"`https://github.com/godotengine/godot-demo-projects/tree/master/2d <https://"
+"github.com/godotengine/godot-demo-projects/tree/master/2d>`_"
+msgstr ""
+
+#: ../../docs/classes/class_node2d.rst:31
+msgid "Properties"
+msgstr "属性"
+
+#: ../../docs/classes/class_node2d.rst:34
+#: ../../docs/classes/class_node2d.rst:40
+#: ../../docs/classes/class_node2d.rst:44
+#: ../../docs/classes/class_node2d.rst:50
+#: ../../docs/classes/class_node2d.rst:79
+#: ../../docs/classes/class_node2d.rst:81
+msgid ":ref:`Vector2<class_Vector2>`"
+msgstr ""
+
+#: ../../docs/classes/class_node2d.rst:34
+msgid ":ref:`global_position<class_Node2D_property_global_position>`"
+msgstr ""
+
+#: ../../docs/classes/class_node2d.rst:36
+#: ../../docs/classes/class_node2d.rst:38
+#: ../../docs/classes/class_node2d.rst:46
+#: ../../docs/classes/class_node2d.rst:48
+#: ../../docs/classes/class_node2d.rst:65
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../../docs/classes/class_node2d.rst:36
+msgid ":ref:`global_rotation<class_Node2D_property_global_rotation>`"
+msgstr ""
+
+#: ../../docs/classes/class_node2d.rst:38
+msgid ""
+":ref:`global_rotation_degrees<class_Node2D_property_global_rotation_degrees>`"
+msgstr ""
+
+#: ../../docs/classes/class_node2d.rst:40
+msgid ":ref:`global_scale<class_Node2D_property_global_scale>`"
+msgstr ""
+
+#: ../../docs/classes/class_node2d.rst:42
+#: ../../docs/classes/class_node2d.rst:52
+#: ../../docs/classes/class_node2d.rst:67
+msgid ":ref:`Transform2D<class_Transform2D>`"
+msgstr ""
+
+#: ../../docs/classes/class_node2d.rst:42
+msgid ":ref:`global_transform<class_Node2D_property_global_transform>`"
+msgstr ""
+
+#: ../../docs/classes/class_node2d.rst:44
+msgid ":ref:`position<class_Node2D_property_position>`"
+msgstr ""
+
+#: ../../docs/classes/class_node2d.rst:44
+#: ../../docs/classes/class_node2d.rst:164
+msgid "``Vector2( 0, 0 )``"
+msgstr ""
+
+#: ../../docs/classes/class_node2d.rst:46
+msgid ":ref:`rotation<class_Node2D_property_rotation>`"
+msgstr ""
+
+#: ../../docs/classes/class_node2d.rst:46
+#: ../../docs/classes/class_node2d.rst:48
+#: ../../docs/classes/class_node2d.rst:180
+#: ../../docs/classes/class_node2d.rst:196
+msgid "``0.0``"
+msgstr ""
+
+#: ../../docs/classes/class_node2d.rst:48
+msgid ":ref:`rotation_degrees<class_Node2D_property_rotation_degrees>`"
+msgstr ""
+
+#: ../../docs/classes/class_node2d.rst:50
+msgid ":ref:`scale<class_Node2D_property_scale>`"
+msgstr ""
+
+#: ../../docs/classes/class_node2d.rst:50
+#: ../../docs/classes/class_node2d.rst:212
+msgid "``Vector2( 1, 1 )``"
+msgstr ""
+
+#: ../../docs/classes/class_node2d.rst:52
+msgid ":ref:`transform<class_Node2D_property_transform>`"
+msgstr ""
+
+#: ../../docs/classes/class_node2d.rst:54
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_node2d.rst:54
+msgid ":ref:`z_as_relative<class_Node2D_property_z_as_relative>`"
+msgstr ""
+
+#: ../../docs/classes/class_node2d.rst:54
+#: ../../docs/classes/class_node2d.rst:242
+msgid "``true``"
+msgstr ""
+
+#: ../../docs/classes/class_node2d.rst:56
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../../docs/classes/class_node2d.rst:56
+msgid ":ref:`z_index<class_Node2D_property_z_index>`"
+msgstr ""
+
+#: ../../docs/classes/class_node2d.rst:56
+#: ../../docs/classes/class_node2d.rst:258
+msgid "``0``"
+msgstr ""
+
+#: ../../docs/classes/class_node2d.rst:60
+msgid "Methods"
+msgstr "方法"
+
+#: ../../docs/classes/class_node2d.rst:63
+#: ../../docs/classes/class_node2d.rst:69
+#: ../../docs/classes/class_node2d.rst:71
+#: ../../docs/classes/class_node2d.rst:73
+#: ../../docs/classes/class_node2d.rst:75
+#: ../../docs/classes/class_node2d.rst:77
+#: ../../docs/classes/class_node2d.rst:83
+msgid "void"
+msgstr ""
+
+#: ../../docs/classes/class_node2d.rst:63
+msgid ""
+":ref:`apply_scale<class_Node2D_method_apply_scale>` **(** :ref:"
+"`Vector2<class_Vector2>` ratio **)**"
+msgstr ""
+
+#: ../../docs/classes/class_node2d.rst:65
+msgid ""
+":ref:`get_angle_to<class_Node2D_method_get_angle_to>` **(** :ref:"
+"`Vector2<class_Vector2>` point **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_node2d.rst:67
+msgid ""
+":ref:"
+"`get_relative_transform_to_parent<class_Node2D_method_get_relative_transform_to_parent>` "
+"**(** :ref:`Node<class_Node>` parent **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_node2d.rst:69
+msgid ""
+":ref:`global_translate<class_Node2D_method_global_translate>` **(** :ref:"
+"`Vector2<class_Vector2>` offset **)**"
+msgstr ""
+
+#: ../../docs/classes/class_node2d.rst:71
+msgid ""
+":ref:`look_at<class_Node2D_method_look_at>` **(** :ref:"
+"`Vector2<class_Vector2>` point **)**"
+msgstr ""
+
+#: ../../docs/classes/class_node2d.rst:73
+msgid ""
+":ref:`move_local_x<class_Node2D_method_move_local_x>` **(** :ref:"
+"`float<class_float>` delta, :ref:`bool<class_bool>` scaled=false **)**"
+msgstr ""
+
+#: ../../docs/classes/class_node2d.rst:75
+msgid ""
+":ref:`move_local_y<class_Node2D_method_move_local_y>` **(** :ref:"
+"`float<class_float>` delta, :ref:`bool<class_bool>` scaled=false **)**"
+msgstr ""
+
+#: ../../docs/classes/class_node2d.rst:77
+msgid ""
+":ref:`rotate<class_Node2D_method_rotate>` **(** :ref:`float<class_float>` "
+"radians **)**"
+msgstr ""
+
+#: ../../docs/classes/class_node2d.rst:79
+msgid ""
+":ref:`to_global<class_Node2D_method_to_global>` **(** :ref:"
+"`Vector2<class_Vector2>` local_point **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_node2d.rst:81
+msgid ""
+":ref:`to_local<class_Node2D_method_to_local>` **(** :ref:"
+"`Vector2<class_Vector2>` global_point **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_node2d.rst:83
+msgid ""
+":ref:`translate<class_Node2D_method_translate>` **(** :ref:"
+"`Vector2<class_Vector2>` offset **)**"
+msgstr ""
+
+#: ../../docs/classes/class_node2d.rst:87
+msgid "Property Descriptions"
+msgstr "属性说明"
+
+#: ../../docs/classes/class_node2d.rst:91
+msgid ":ref:`Vector2<class_Vector2>` **global_position**"
+msgstr ""
+
+#: ../../docs/classes/class_node2d.rst:94
+#: ../../docs/classes/class_node2d.rst:108
+#: ../../docs/classes/class_node2d.rst:122
+#: ../../docs/classes/class_node2d.rst:136
+#: ../../docs/classes/class_node2d.rst:150
+#: ../../docs/classes/class_node2d.rst:166
+#: ../../docs/classes/class_node2d.rst:182
+#: ../../docs/classes/class_node2d.rst:198
+#: ../../docs/classes/class_node2d.rst:214
+#: ../../docs/classes/class_node2d.rst:228
+#: ../../docs/classes/class_node2d.rst:244
+#: ../../docs/classes/class_node2d.rst:260
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_node2d.rst:94
+msgid "set_global_position(value)"
+msgstr ""
+
+#: ../../docs/classes/class_node2d.rst:96
+#: ../../docs/classes/class_node2d.rst:110
+#: ../../docs/classes/class_node2d.rst:124
+#: ../../docs/classes/class_node2d.rst:138
+#: ../../docs/classes/class_node2d.rst:152
+#: ../../docs/classes/class_node2d.rst:168
+#: ../../docs/classes/class_node2d.rst:184
+#: ../../docs/classes/class_node2d.rst:200
+#: ../../docs/classes/class_node2d.rst:216
+#: ../../docs/classes/class_node2d.rst:230
+#: ../../docs/classes/class_node2d.rst:246
+#: ../../docs/classes/class_node2d.rst:262
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_node2d.rst:96
+msgid "get_global_position()"
+msgstr ""
+
+#: ../../docs/classes/class_node2d.rst:99
+msgid "Global position."
+msgstr "全局位置。"
+
+#: ../../docs/classes/class_node2d.rst:105
+msgid ":ref:`float<class_float>` **global_rotation**"
+msgstr ""
+
+#: ../../docs/classes/class_node2d.rst:108
+msgid "set_global_rotation(value)"
+msgstr ""
+
+#: ../../docs/classes/class_node2d.rst:110
+msgid "get_global_rotation()"
+msgstr ""
+
+#: ../../docs/classes/class_node2d.rst:113
+msgid "Global rotation in radians."
+msgstr "全局旋转弧度。"
+
+#: ../../docs/classes/class_node2d.rst:119
+msgid ":ref:`float<class_float>` **global_rotation_degrees**"
+msgstr ""
+
+#: ../../docs/classes/class_node2d.rst:122
+msgid "set_global_rotation_degrees(value)"
+msgstr ""
+
+#: ../../docs/classes/class_node2d.rst:124
+msgid "get_global_rotation_degrees()"
+msgstr ""
+
+#: ../../docs/classes/class_node2d.rst:127
+msgid "Global rotation in degrees."
+msgstr "全局旋转角度。"
+
+#: ../../docs/classes/class_node2d.rst:133
+msgid ":ref:`Vector2<class_Vector2>` **global_scale**"
+msgstr ""
+
+#: ../../docs/classes/class_node2d.rst:136
+msgid "set_global_scale(value)"
+msgstr ""
+
+#: ../../docs/classes/class_node2d.rst:138
+msgid "get_global_scale()"
+msgstr ""
+
+#: ../../docs/classes/class_node2d.rst:141
+msgid "Global scale."
+msgstr "全局缩放。"
+
+#: ../../docs/classes/class_node2d.rst:147
+msgid ":ref:`Transform2D<class_Transform2D>` **global_transform**"
+msgstr ""
+
+#: ../../docs/classes/class_node2d.rst:150
+msgid "set_global_transform(value)"
+msgstr ""
+
+#: ../../docs/classes/class_node2d.rst:152
+msgid "get_global_transform()"
+msgstr ""
+
+#: ../../docs/classes/class_node2d.rst:155
+msgid "Global :ref:`Transform2D<class_Transform2D>`."
+msgstr ""
+
+#: ../../docs/classes/class_node2d.rst:161
+msgid ":ref:`Vector2<class_Vector2>` **position**"
+msgstr ""
+
+#: ../../docs/classes/class_node2d.rst:164
+#: ../../docs/classes/class_node2d.rst:180
+#: ../../docs/classes/class_node2d.rst:196
+#: ../../docs/classes/class_node2d.rst:212
+#: ../../docs/classes/class_node2d.rst:242
+#: ../../docs/classes/class_node2d.rst:258
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_node2d.rst:166
+msgid "set_position(value)"
+msgstr ""
+
+#: ../../docs/classes/class_node2d.rst:168
+msgid "get_position()"
+msgstr ""
+
+#: ../../docs/classes/class_node2d.rst:171
+msgid "Position, relative to the node's parent."
+msgstr "位置，相对于父节点。"
+
+#: ../../docs/classes/class_node2d.rst:177
+msgid ":ref:`float<class_float>` **rotation**"
+msgstr ""
+
+#: ../../docs/classes/class_node2d.rst:182
+msgid "set_rotation(value)"
+msgstr ""
+
+#: ../../docs/classes/class_node2d.rst:184
+msgid "get_rotation()"
+msgstr ""
+
+#: ../../docs/classes/class_node2d.rst:187
+msgid "Rotation in radians, relative to the node's parent."
+msgstr "旋转弧度，相对于父节点。"
+
+#: ../../docs/classes/class_node2d.rst:193
+msgid ":ref:`float<class_float>` **rotation_degrees**"
+msgstr ""
+
+#: ../../docs/classes/class_node2d.rst:198
+msgid "set_rotation_degrees(value)"
+msgstr ""
+
+#: ../../docs/classes/class_node2d.rst:200
+msgid "get_rotation_degrees()"
+msgstr ""
+
+#: ../../docs/classes/class_node2d.rst:203
+msgid "Rotation in degrees, relative to the node's parent."
+msgstr "旋转角度，相对于父节点。"
+
+#: ../../docs/classes/class_node2d.rst:209
+msgid ":ref:`Vector2<class_Vector2>` **scale**"
+msgstr ""
+
+#: ../../docs/classes/class_node2d.rst:214
+msgid "set_scale(value)"
+msgstr ""
+
+#: ../../docs/classes/class_node2d.rst:216
+msgid "get_scale()"
+msgstr ""
+
+#: ../../docs/classes/class_node2d.rst:219
+msgid "The node's scale. Unscaled value: ``(1, 1)``."
+msgstr ""
+
+#: ../../docs/classes/class_node2d.rst:225
+msgid ":ref:`Transform2D<class_Transform2D>` **transform**"
+msgstr ""
+
+#: ../../docs/classes/class_node2d.rst:228
+msgid "set_transform(value)"
+msgstr ""
+
+#: ../../docs/classes/class_node2d.rst:230
+msgid "get_transform()"
+msgstr ""
+
+#: ../../docs/classes/class_node2d.rst:233
+msgid "Local :ref:`Transform2D<class_Transform2D>`."
+msgstr ""
+
+#: ../../docs/classes/class_node2d.rst:239
+msgid ":ref:`bool<class_bool>` **z_as_relative**"
+msgstr ""
+
+#: ../../docs/classes/class_node2d.rst:244
+msgid "set_z_as_relative(value)"
+msgstr ""
+
+#: ../../docs/classes/class_node2d.rst:246
+msgid "is_z_relative()"
+msgstr ""
+
+#: ../../docs/classes/class_node2d.rst:249
+msgid ""
+"If ``true``, the node's Z index is relative to its parent's Z index. If this "
+"node's Z index is 2 and its parent's effective Z index is 3, then this "
+"node's effective Z index will be 2 + 3 = 5."
+msgstr ""
+
+#: ../../docs/classes/class_node2d.rst:255
+msgid ":ref:`int<class_int>` **z_index**"
+msgstr ""
+
+#: ../../docs/classes/class_node2d.rst:260
+msgid "set_z_index(value)"
+msgstr ""
+
+#: ../../docs/classes/class_node2d.rst:262
+msgid "get_z_index()"
+msgstr ""
+
+#: ../../docs/classes/class_node2d.rst:265
+msgid ""
+"Z index. Controls the order in which the nodes render. A node with a higher "
+"Z index will display in front of others."
+msgstr ""
+
+#: ../../docs/classes/class_node2d.rst:268
+msgid "Method Descriptions"
+msgstr "方法说明"
+
+#: ../../docs/classes/class_node2d.rst:272
+msgid "void **apply_scale** **(** :ref:`Vector2<class_Vector2>` ratio **)**"
+msgstr ""
+
+#: ../../docs/classes/class_node2d.rst:274
+msgid "Multiplies the current scale by the ``ratio`` vector."
+msgstr ""
+
+#: ../../docs/classes/class_node2d.rst:280
+msgid ""
+":ref:`float<class_float>` **get_angle_to** **(** :ref:"
+"`Vector2<class_Vector2>` point **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_node2d.rst:282
+msgid "Returns the angle between the node and the ``point`` in radians."
+msgstr ""
+
+#: ../../docs/classes/class_node2d.rst:288
+msgid ""
+":ref:`Transform2D<class_Transform2D>` **get_relative_transform_to_parent** "
+"**(** :ref:`Node<class_Node>` parent **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_node2d.rst:290
+msgid ""
+"Returns the :ref:`Transform2D<class_Transform2D>` relative to this node's "
+"parent."
+msgstr ""
+
+#: ../../docs/classes/class_node2d.rst:296
+msgid ""
+"void **global_translate** **(** :ref:`Vector2<class_Vector2>` offset **)**"
+msgstr ""
+
+#: ../../docs/classes/class_node2d.rst:298
+msgid "Adds the ``offset`` vector to the node's global position."
+msgstr ""
+
+#: ../../docs/classes/class_node2d.rst:304
+msgid "void **look_at** **(** :ref:`Vector2<class_Vector2>` point **)**"
+msgstr ""
+
+#: ../../docs/classes/class_node2d.rst:306
+msgid ""
+"Rotates the node so it points towards the ``point``, which is expected to "
+"use global coordinates."
+msgstr ""
+
+#: ../../docs/classes/class_node2d.rst:312
+msgid ""
+"void **move_local_x** **(** :ref:`float<class_float>` delta, :ref:"
+"`bool<class_bool>` scaled=false **)**"
+msgstr ""
+
+#: ../../docs/classes/class_node2d.rst:314
+msgid ""
+"Applies a local translation on the node's X axis based on the :ref:`Node."
+"_process<class_Node_method__process>`'s ``delta``. If ``scaled`` is "
+"``false``, normalizes the movement."
+msgstr ""
+
+#: ../../docs/classes/class_node2d.rst:320
+msgid ""
+"void **move_local_y** **(** :ref:`float<class_float>` delta, :ref:"
+"`bool<class_bool>` scaled=false **)**"
+msgstr ""
+
+#: ../../docs/classes/class_node2d.rst:322
+msgid ""
+"Applies a local translation on the node's Y axis based on the :ref:`Node."
+"_process<class_Node_method__process>`'s ``delta``. If ``scaled`` is "
+"``false``, normalizes the movement."
+msgstr ""
+
+#: ../../docs/classes/class_node2d.rst:328
+msgid "void **rotate** **(** :ref:`float<class_float>` radians **)**"
+msgstr ""
+
+#: ../../docs/classes/class_node2d.rst:330
+msgid ""
+"Applies a rotation to the node, in radians, starting from its current "
+"rotation."
+msgstr ""
+
+#: ../../docs/classes/class_node2d.rst:336
+msgid ""
+":ref:`Vector2<class_Vector2>` **to_global** **(** :ref:"
+"`Vector2<class_Vector2>` local_point **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_node2d.rst:338
+msgid ""
+"Transforms the provided local position into a position in global coordinate "
+"space. The input is expected to be local relative to the ``Node2D`` it is "
+"called on. e.g. Applying this method to the positions of child nodes will "
+"correctly transform their positions into the global coordinate space, but "
+"applying it to a node's own position will give an incorrect result, as it "
+"will incorporate the node's own transformation into its global position."
+msgstr ""
+
+#: ../../docs/classes/class_node2d.rst:344
+msgid ""
+":ref:`Vector2<class_Vector2>` **to_local** **(** :ref:"
+"`Vector2<class_Vector2>` global_point **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_node2d.rst:346
+msgid ""
+"Transforms the provided global position into a position in local coordinate "
+"space. The output will be local relative to the ``Node2D`` it is called on. "
+"e.g. It is appropriate for determining the positions of child nodes, but it "
+"is not appropriate for determining its own position relative to its parent."
+msgstr ""
+
+#: ../../docs/classes/class_node2d.rst:352
+msgid "void **translate** **(** :ref:`Vector2<class_Vector2>` offset **)**"
+msgstr ""
+
+#: ../../docs/classes/class_node2d.rst:354
+msgid "Translates the node by the given ``offset`` in local coordinates."
+msgstr ""

@@ -1,0 +1,591 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2021, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-31 12:15+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:10
+msgid "AnimationNodeBlendSpace2D"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:12
+msgid ""
+"**Inherits:** :ref:`AnimationRootNode<class_AnimationRootNode>` **<** :ref:"
+"`AnimationNode<class_AnimationNode>` **<** :ref:`Resource<class_Resource>` "
+"**<** :ref:`Reference<class_Reference>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:14
+msgid ""
+"Blends linearly between three :ref:`AnimationNode<class_AnimationNode>` of "
+"any type placed in a 2D space."
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:17
+msgid "Description"
+msgstr "描述"
+
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:19
+msgid ""
+"A resource to add to an :ref:"
+"`AnimationNodeBlendTree<class_AnimationNodeBlendTree>`."
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:21
+msgid ""
+"This node allows you to blend linearly between three animations using a :ref:"
+"`Vector2<class_Vector2>` weight."
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:23
+msgid ""
+"You can add vertices to the blend space with :ref:"
+"`add_blend_point<class_AnimationNodeBlendSpace2D_method_add_blend_point>` "
+"and automatically triangulate it by setting :ref:"
+"`auto_triangles<class_AnimationNodeBlendSpace2D_property_auto_triangles>` to "
+"``true``. Otherwise, use :ref:"
+"`add_triangle<class_AnimationNodeBlendSpace2D_method_add_triangle>` and :ref:"
+"`remove_triangle<class_AnimationNodeBlendSpace2D_method_remove_triangle>` to "
+"create up the blend space by hand."
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:26
+msgid "Tutorials"
+msgstr "教程"
+
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:28
+msgid ":doc:`../tutorials/animation/animation_tree`"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:30
+msgid ""
+"`https://godotengine.org/asset-library/asset/678 <https://godotengine.org/"
+"asset-library/asset/678>`_"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:33
+msgid "Properties"
+msgstr "属性"
+
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:36
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:36
+msgid ""
+":ref:"
+"`auto_triangles<class_AnimationNodeBlendSpace2D_property_auto_triangles>`"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:36
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:114
+msgid "``true``"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:38
+msgid ":ref:`BlendMode<enum_AnimationNodeBlendSpace2D_BlendMode>`"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:38
+msgid ":ref:`blend_mode<class_AnimationNodeBlendSpace2D_property_blend_mode>`"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:38
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:130
+msgid "``0``"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:40
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:42
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:44
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:63
+msgid ":ref:`Vector2<class_Vector2>`"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:40
+msgid ":ref:`max_space<class_AnimationNodeBlendSpace2D_property_max_space>`"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:40
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:146
+msgid "``Vector2( 1, 1 )``"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:42
+msgid ":ref:`min_space<class_AnimationNodeBlendSpace2D_property_min_space>`"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:42
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:162
+msgid "``Vector2( -1, -1 )``"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:44
+msgid ":ref:`snap<class_AnimationNodeBlendSpace2D_property_snap>`"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:44
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:178
+msgid "``Vector2( 0.1, 0.1 )``"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:46
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:48
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:46
+msgid ":ref:`x_label<class_AnimationNodeBlendSpace2D_property_x_label>`"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:46
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:194
+msgid "``\"x\"``"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:48
+msgid ":ref:`y_label<class_AnimationNodeBlendSpace2D_property_y_label>`"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:48
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:210
+msgid "``\"y\"``"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:52
+msgid "Methods"
+msgstr "方法"
+
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:55
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:57
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:69
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:71
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:73
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:75
+msgid "void"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:55
+msgid ""
+":ref:"
+"`add_blend_point<class_AnimationNodeBlendSpace2D_method_add_blend_point>` "
+"**(** :ref:`AnimationRootNode<class_AnimationRootNode>` node, :ref:"
+"`Vector2<class_Vector2>` pos, :ref:`int<class_int>` at_index=-1 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:57
+msgid ""
+":ref:`add_triangle<class_AnimationNodeBlendSpace2D_method_add_triangle>` "
+"**(** :ref:`int<class_int>` x, :ref:`int<class_int>` y, :ref:"
+"`int<class_int>` z, :ref:`int<class_int>` at_index=-1 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:59
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:65
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:67
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:59
+msgid ""
+":ref:"
+"`get_blend_point_count<class_AnimationNodeBlendSpace2D_method_get_blend_point_count>` "
+"**(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:61
+msgid ":ref:`AnimationRootNode<class_AnimationRootNode>`"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:61
+msgid ""
+":ref:"
+"`get_blend_point_node<class_AnimationNodeBlendSpace2D_method_get_blend_point_node>` "
+"**(** :ref:`int<class_int>` point **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:63
+msgid ""
+":ref:"
+"`get_blend_point_position<class_AnimationNodeBlendSpace2D_method_get_blend_point_position>` "
+"**(** :ref:`int<class_int>` point **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:65
+msgid ""
+":ref:"
+"`get_triangle_count<class_AnimationNodeBlendSpace2D_method_get_triangle_count>` "
+"**(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:67
+msgid ""
+":ref:"
+"`get_triangle_point<class_AnimationNodeBlendSpace2D_method_get_triangle_point>` "
+"**(** :ref:`int<class_int>` triangle, :ref:`int<class_int>` point **)**"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:69
+msgid ""
+":ref:"
+"`remove_blend_point<class_AnimationNodeBlendSpace2D_method_remove_blend_point>` "
+"**(** :ref:`int<class_int>` point **)**"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:71
+msgid ""
+":ref:"
+"`remove_triangle<class_AnimationNodeBlendSpace2D_method_remove_triangle>` "
+"**(** :ref:`int<class_int>` triangle **)**"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:73
+msgid ""
+":ref:"
+"`set_blend_point_node<class_AnimationNodeBlendSpace2D_method_set_blend_point_node>` "
+"**(** :ref:`int<class_int>` point, :ref:"
+"`AnimationRootNode<class_AnimationRootNode>` node **)**"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:75
+msgid ""
+":ref:"
+"`set_blend_point_position<class_AnimationNodeBlendSpace2D_method_set_blend_point_position>` "
+"**(** :ref:`int<class_int>` point, :ref:`Vector2<class_Vector2>` pos **)**"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:79
+msgid "Signals"
+msgstr "信号"
+
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:83
+msgid "**triangles_updated** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:85
+msgid ""
+"Emitted every time the blend space's triangles are created, removed, or when "
+"one of their vertices changes position."
+msgstr "每当创建、删除混合空间的三角形，或当其中一个顶点改变位置时发出。"
+
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:88
+msgid "Enumerations"
+msgstr "枚举"
+
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:98
+msgid "enum **BlendMode**:"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:100
+msgid ""
+"**BLEND_MODE_INTERPOLATED** = **0** --- The interpolation between animations "
+"is linear."
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:102
+msgid ""
+"**BLEND_MODE_DISCRETE** = **1** --- The blend space plays the animation of "
+"the node the blending position is closest to. Useful for frame-by-frame 2D "
+"animations."
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:104
+msgid ""
+"**BLEND_MODE_DISCRETE_CARRY** = **2** --- Similar to :ref:"
+"`BLEND_MODE_DISCRETE<class_AnimationNodeBlendSpace2D_constant_BLEND_MODE_DISCRETE>`, "
+"but starts the new animation at the last animation's playback position."
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:107
+msgid "Property Descriptions"
+msgstr "属性说明"
+
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:111
+msgid ":ref:`bool<class_bool>` **auto_triangles**"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:114
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:130
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:146
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:162
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:178
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:194
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:210
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:116
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:132
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:148
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:164
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:180
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:196
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:212
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:116
+msgid "set_auto_triangles(value)"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:118
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:134
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:150
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:166
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:182
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:198
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:214
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:118
+msgid "get_auto_triangles()"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:121
+msgid ""
+"If ``true``, the blend space is triangulated automatically. The mesh updates "
+"every time you add or remove points with :ref:"
+"`add_blend_point<class_AnimationNodeBlendSpace2D_method_add_blend_point>` "
+"and :ref:"
+"`remove_blend_point<class_AnimationNodeBlendSpace2D_method_remove_blend_point>`."
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:127
+msgid ""
+":ref:`BlendMode<enum_AnimationNodeBlendSpace2D_BlendMode>` **blend_mode**"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:132
+msgid "set_blend_mode(value)"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:134
+msgid "get_blend_mode()"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:137
+msgid ""
+"Controls the interpolation between animations. See :ref:"
+"`BlendMode<enum_AnimationNodeBlendSpace2D_BlendMode>` constants."
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:143
+msgid ":ref:`Vector2<class_Vector2>` **max_space**"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:148
+msgid "set_max_space(value)"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:150
+msgid "get_max_space()"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:153
+msgid ""
+"The blend space's X and Y axes' upper limit for the points' position. See :"
+"ref:"
+"`add_blend_point<class_AnimationNodeBlendSpace2D_method_add_blend_point>`."
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:159
+msgid ":ref:`Vector2<class_Vector2>` **min_space**"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:164
+msgid "set_min_space(value)"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:166
+msgid "get_min_space()"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:169
+msgid ""
+"The blend space's X and Y axes' lower limit for the points' position. See :"
+"ref:"
+"`add_blend_point<class_AnimationNodeBlendSpace2D_method_add_blend_point>`."
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:175
+msgid ":ref:`Vector2<class_Vector2>` **snap**"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:180
+msgid "set_snap(value)"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:182
+msgid "get_snap()"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:185
+msgid "Position increment to snap to when moving a point."
+msgstr "移动点时要对齐的位置增量。"
+
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:191
+msgid ":ref:`String<class_String>` **x_label**"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:196
+msgid "set_x_label(value)"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:198
+msgid "get_x_label()"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:201
+msgid "Name of the blend space's X axis."
+msgstr "混合空间X轴的名称。"
+
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:207
+msgid ":ref:`String<class_String>` **y_label**"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:212
+msgid "set_y_label(value)"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:214
+msgid "get_y_label()"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:217
+msgid "Name of the blend space's Y axis."
+msgstr "混合空间Y轴的名称。"
+
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:220
+msgid "Method Descriptions"
+msgstr "方法说明"
+
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:224
+msgid ""
+"void **add_blend_point** **(** :ref:"
+"`AnimationRootNode<class_AnimationRootNode>` node, :ref:"
+"`Vector2<class_Vector2>` pos, :ref:`int<class_int>` at_index=-1 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:226
+msgid ""
+"Adds a new point that represents a ``node`` at the position set by ``pos``. "
+"You can insert it at a specific index using the ``at_index`` argument. If "
+"you use the default value for ``at_index``, the point is inserted at the end "
+"of the blend points array."
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:232
+msgid ""
+"void **add_triangle** **(** :ref:`int<class_int>` x, :ref:`int<class_int>` "
+"y, :ref:`int<class_int>` z, :ref:`int<class_int>` at_index=-1 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:234
+msgid ""
+"Creates a new triangle using three points ``x``, ``y``, and ``z``. Triangles "
+"can overlap. You can insert the triangle at a specific index using the "
+"``at_index`` argument. If you use the default value for ``at_index``, the "
+"point is inserted at the end of the blend points array."
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:240
+msgid ":ref:`int<class_int>` **get_blend_point_count** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:242
+msgid "Returns the number of points in the blend space."
+msgstr "返回混合空间中的点的数量。"
+
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:248
+msgid ""
+":ref:`AnimationRootNode<class_AnimationRootNode>` **get_blend_point_node** "
+"**(** :ref:`int<class_int>` point **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:250
+msgid ""
+"Returns the :ref:`AnimationRootNode<class_AnimationRootNode>` referenced by "
+"the point at index ``point``."
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:256
+msgid ""
+":ref:`Vector2<class_Vector2>` **get_blend_point_position** **(** :ref:"
+"`int<class_int>` point **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:258
+msgid "Returns the position of the point at index ``point``."
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:264
+msgid ":ref:`int<class_int>` **get_triangle_count** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:266
+msgid "Returns the number of triangles in the blend space."
+msgstr "返回混合空间中三角形的数量。"
+
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:272
+msgid ""
+":ref:`int<class_int>` **get_triangle_point** **(** :ref:`int<class_int>` "
+"triangle, :ref:`int<class_int>` point **)**"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:274
+msgid ""
+"Returns the position of the point at index ``point`` in the triangle of "
+"index ``triangle``."
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:280
+msgid "void **remove_blend_point** **(** :ref:`int<class_int>` point **)**"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:282
+msgid "Removes the point at index ``point`` from the blend space."
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:288
+msgid "void **remove_triangle** **(** :ref:`int<class_int>` triangle **)**"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:290
+msgid "Removes the triangle at index ``triangle`` from the blend space."
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:296
+msgid ""
+"void **set_blend_point_node** **(** :ref:`int<class_int>` point, :ref:"
+"`AnimationRootNode<class_AnimationRootNode>` node **)**"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:298
+msgid ""
+"Changes the :ref:`AnimationNode<class_AnimationNode>` referenced by the "
+"point at index ``point``."
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:304
+msgid ""
+"void **set_blend_point_position** **(** :ref:`int<class_int>` point, :ref:"
+"`Vector2<class_Vector2>` pos **)**"
+msgstr ""
+
+#: ../../docs/classes/class_animationnodeblendspace2d.rst:306
+msgid "Updates the position of the point at index ``point`` on the blend axis."
+msgstr ""

@@ -1,0 +1,862 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2021, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-31 12:15+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_vector3.rst:10
+msgid "Vector3"
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:12
+msgid "Vector used for 3D math."
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:15
+msgid "Description"
+msgstr "描述"
+
+#: ../../docs/classes/class_vector3.rst:17
+msgid ""
+"3-element structure that can be used to represent positions in 3D space or "
+"any other pair of numeric values."
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:19
+msgid ""
+"**Note:** In a boolean context, a Vector3 will evaluate to ``false`` if it's "
+"equal to ``Vector3(0, 0, 0)``. Otherwise, a Vector3 will always evaluate to "
+"``true``."
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:22
+msgid "Tutorials"
+msgstr "教程"
+
+#: ../../docs/classes/class_vector3.rst:24
+msgid ":doc:`../tutorials/math/index`"
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:26
+msgid ":doc:`../tutorials/math/vector_math`"
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:28
+msgid ":doc:`../tutorials/math/vectors_advanced`"
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:30
+msgid ""
+"`https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab "
+"<https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab>`_"
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:32
+msgid ""
+"`https://godotengine.org/asset-library/asset/584 <https://godotengine.org/"
+"asset-library/asset/584>`_"
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:34
+msgid ""
+"`https://github.com/godotengine/godot-demo-projects/tree/master/3d <https://"
+"github.com/godotengine/godot-demo-projects/tree/master/3d>`_"
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:37
+msgid "Properties"
+msgstr "属性"
+
+#: ../../docs/classes/class_vector3.rst:40
+#: ../../docs/classes/class_vector3.rst:42
+#: ../../docs/classes/class_vector3.rst:44
+#: ../../docs/classes/class_vector3.rst:55
+#: ../../docs/classes/class_vector3.rst:67
+#: ../../docs/classes/class_vector3.rst:69
+#: ../../docs/classes/class_vector3.rst:71
+#: ../../docs/classes/class_vector3.rst:81
+#: ../../docs/classes/class_vector3.rst:83
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:40
+msgid ":ref:`x<class_Vector3_property_x>`"
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:40
+#: ../../docs/classes/class_vector3.rst:42
+#: ../../docs/classes/class_vector3.rst:44
+#: ../../docs/classes/class_vector3.rst:179
+#: ../../docs/classes/class_vector3.rst:191
+#: ../../docs/classes/class_vector3.rst:203
+msgid "``0.0``"
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:42
+msgid ":ref:`y<class_Vector3_property_y>`"
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:44
+msgid ":ref:`z<class_Vector3_property_z>`"
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:48
+msgid "Methods"
+msgstr "方法"
+
+#: ../../docs/classes/class_vector3.rst:51
+#: ../../docs/classes/class_vector3.rst:53
+#: ../../docs/classes/class_vector3.rst:57
+#: ../../docs/classes/class_vector3.rst:59
+#: ../../docs/classes/class_vector3.rst:61
+#: ../../docs/classes/class_vector3.rst:63
+#: ../../docs/classes/class_vector3.rst:65
+#: ../../docs/classes/class_vector3.rst:73
+#: ../../docs/classes/class_vector3.rst:75
+#: ../../docs/classes/class_vector3.rst:85
+#: ../../docs/classes/class_vector3.rst:91
+#: ../../docs/classes/class_vector3.rst:93
+#: ../../docs/classes/class_vector3.rst:97
+#: ../../docs/classes/class_vector3.rst:99
+#: ../../docs/classes/class_vector3.rst:101
+#: ../../docs/classes/class_vector3.rst:103
+#: ../../docs/classes/class_vector3.rst:105
+#: ../../docs/classes/class_vector3.rst:107
+#: ../../docs/classes/class_vector3.rst:109
+#: ../../docs/classes/class_vector3.rst:111
+#: ../../docs/classes/class_vector3.rst:113
+#: ../../docs/classes/class_vector3.rst:115
+msgid ":ref:`Vector3<class_Vector3>`"
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:51
+msgid ""
+":ref:`Vector3<class_Vector3_method_Vector3>` **(** :ref:`float<class_float>` "
+"x, :ref:`float<class_float>` y, :ref:`float<class_float>` z **)**"
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:53
+msgid ":ref:`abs<class_Vector3_method_abs>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:55
+msgid ""
+":ref:`angle_to<class_Vector3_method_angle_to>` **(** :ref:"
+"`Vector3<class_Vector3>` to **)**"
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:57
+msgid ""
+":ref:`bounce<class_Vector3_method_bounce>` **(** :ref:"
+"`Vector3<class_Vector3>` n **)**"
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:59
+msgid ":ref:`ceil<class_Vector3_method_ceil>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:61
+msgid ""
+":ref:`cross<class_Vector3_method_cross>` **(** :ref:`Vector3<class_Vector3>` "
+"b **)**"
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:63
+msgid ""
+":ref:`cubic_interpolate<class_Vector3_method_cubic_interpolate>` **(** :ref:"
+"`Vector3<class_Vector3>` b, :ref:`Vector3<class_Vector3>` pre_a, :ref:"
+"`Vector3<class_Vector3>` post_b, :ref:`float<class_float>` t **)**"
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:65
+msgid ""
+":ref:`direction_to<class_Vector3_method_direction_to>` **(** :ref:"
+"`Vector3<class_Vector3>` b **)**"
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:67
+msgid ""
+":ref:`distance_squared_to<class_Vector3_method_distance_squared_to>` **(** :"
+"ref:`Vector3<class_Vector3>` b **)**"
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:69
+msgid ""
+":ref:`distance_to<class_Vector3_method_distance_to>` **(** :ref:"
+"`Vector3<class_Vector3>` b **)**"
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:71
+msgid ""
+":ref:`dot<class_Vector3_method_dot>` **(** :ref:`Vector3<class_Vector3>` b "
+"**)**"
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:73
+msgid ":ref:`floor<class_Vector3_method_floor>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:75
+msgid ":ref:`inverse<class_Vector3_method_inverse>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:77
+#: ../../docs/classes/class_vector3.rst:79
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:77
+msgid ""
+":ref:`is_equal_approx<class_Vector3_method_is_equal_approx>` **(** :ref:"
+"`Vector3<class_Vector3>` v **)**"
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:79
+msgid ":ref:`is_normalized<class_Vector3_method_is_normalized>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:81
+msgid ":ref:`length<class_Vector3_method_length>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:83
+msgid ":ref:`length_squared<class_Vector3_method_length_squared>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:85
+msgid ""
+":ref:`linear_interpolate<class_Vector3_method_linear_interpolate>` **(** :"
+"ref:`Vector3<class_Vector3>` b, :ref:`float<class_float>` t **)**"
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:87
+#: ../../docs/classes/class_vector3.rst:89
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:87
+msgid ":ref:`max_axis<class_Vector3_method_max_axis>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:89
+msgid ":ref:`min_axis<class_Vector3_method_min_axis>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:91
+msgid ""
+":ref:`move_toward<class_Vector3_method_move_toward>` **(** :ref:"
+"`Vector3<class_Vector3>` to, :ref:`float<class_float>` delta **)**"
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:93
+msgid ":ref:`normalized<class_Vector3_method_normalized>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:95
+#: ../../docs/classes/class_vector3.rst:117
+msgid ":ref:`Basis<class_Basis>`"
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:95
+msgid ""
+":ref:`outer<class_Vector3_method_outer>` **(** :ref:`Vector3<class_Vector3>` "
+"b **)**"
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:97
+msgid ""
+":ref:`posmod<class_Vector3_method_posmod>` **(** :ref:`float<class_float>` "
+"mod **)**"
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:99
+msgid ""
+":ref:`posmodv<class_Vector3_method_posmodv>` **(** :ref:"
+"`Vector3<class_Vector3>` modv **)**"
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:101
+msgid ""
+":ref:`project<class_Vector3_method_project>` **(** :ref:"
+"`Vector3<class_Vector3>` b **)**"
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:103
+msgid ""
+":ref:`reflect<class_Vector3_method_reflect>` **(** :ref:"
+"`Vector3<class_Vector3>` n **)**"
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:105
+msgid ""
+":ref:`rotated<class_Vector3_method_rotated>` **(** :ref:"
+"`Vector3<class_Vector3>` axis, :ref:`float<class_float>` phi **)**"
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:107
+msgid ":ref:`round<class_Vector3_method_round>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:109
+msgid ":ref:`sign<class_Vector3_method_sign>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:111
+msgid ""
+":ref:`slerp<class_Vector3_method_slerp>` **(** :ref:`Vector3<class_Vector3>` "
+"b, :ref:`float<class_float>` t **)**"
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:113
+msgid ""
+":ref:`slide<class_Vector3_method_slide>` **(** :ref:`Vector3<class_Vector3>` "
+"n **)**"
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:115
+msgid ""
+":ref:`snapped<class_Vector3_method_snapped>` **(** :ref:"
+"`Vector3<class_Vector3>` by **)**"
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:117
+msgid ""
+":ref:`to_diagonal_matrix<class_Vector3_method_to_diagonal_matrix>` **(** "
+"**)**"
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:121
+msgid "Constants"
+msgstr "常量"
+
+#: ../../docs/classes/class_vector3.rst:147
+msgid ""
+"**AXIS_X** = **0** --- Enumerated value for the X axis. Returned by :ref:"
+"`max_axis<class_Vector3_method_max_axis>` and :ref:"
+"`min_axis<class_Vector3_method_min_axis>`."
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:149
+msgid ""
+"**AXIS_Y** = **1** --- Enumerated value for the Y axis. Returned by :ref:"
+"`max_axis<class_Vector3_method_max_axis>` and :ref:"
+"`min_axis<class_Vector3_method_min_axis>`."
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:151
+msgid ""
+"**AXIS_Z** = **2** --- Enumerated value for the Z axis. Returned by :ref:"
+"`max_axis<class_Vector3_method_max_axis>` and :ref:"
+"`min_axis<class_Vector3_method_min_axis>`."
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:153
+msgid ""
+"**ZERO** = **Vector3( 0, 0, 0 )** --- Zero vector, a vector with all "
+"components set to ``0``."
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:155
+msgid ""
+"**ONE** = **Vector3( 1, 1, 1 )** --- One vector, a vector with all "
+"components set to ``1``."
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:157
+msgid ""
+"**INF** = **Vector3( inf, inf, inf )** --- Infinity vector, a vector with "
+"all components set to :ref:`@GDScript.INF<class_@GDScript_constant_INF>`."
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:159
+msgid ""
+"**LEFT** = **Vector3( -1, 0, 0 )** --- Left unit vector. Represents the "
+"local direction of left, and the global direction of west."
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:161
+msgid ""
+"**RIGHT** = **Vector3( 1, 0, 0 )** --- Right unit vector. Represents the "
+"local direction of right, and the global direction of east."
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:163
+msgid "**UP** = **Vector3( 0, 1, 0 )** --- Up unit vector."
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:165
+msgid "**DOWN** = **Vector3( 0, -1, 0 )** --- Down unit vector."
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:167
+msgid ""
+"**FORWARD** = **Vector3( 0, 0, -1 )** --- Forward unit vector. Represents "
+"the local direction of forward, and the global direction of north."
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:169
+msgid ""
+"**BACK** = **Vector3( 0, 0, 1 )** --- Back unit vector. Represents the local "
+"direction of back, and the global direction of south."
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:172
+msgid "Property Descriptions"
+msgstr "属性说明"
+
+#: ../../docs/classes/class_vector3.rst:176
+msgid ":ref:`float<class_float>` **x**"
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:179
+#: ../../docs/classes/class_vector3.rst:191
+#: ../../docs/classes/class_vector3.rst:203
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:182
+msgid ""
+"The vector's X component. Also accessible by using the index position "
+"``[0]``."
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:188
+msgid ":ref:`float<class_float>` **y**"
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:194
+msgid ""
+"The vector's Y component. Also accessible by using the index position "
+"``[1]``."
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:200
+msgid ":ref:`float<class_float>` **z**"
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:206
+msgid ""
+"The vector's Z component. Also accessible by using the index position "
+"``[2]``."
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:209
+msgid "Method Descriptions"
+msgstr "方法说明"
+
+#: ../../docs/classes/class_vector3.rst:213
+msgid ""
+":ref:`Vector3<class_Vector3>` **Vector3** **(** :ref:`float<class_float>` "
+"x, :ref:`float<class_float>` y, :ref:`float<class_float>` z **)**"
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:215
+msgid "Returns a Vector3 with the given components."
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:221
+msgid ":ref:`Vector3<class_Vector3>` **abs** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:223
+msgid ""
+"Returns a new vector with all components in absolute values (i.e. positive)."
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:229
+msgid ""
+":ref:`float<class_float>` **angle_to** **(** :ref:`Vector3<class_Vector3>` "
+"to **)**"
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:231
+msgid "Returns the minimum angle to the given vector, in radians."
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:237
+msgid ""
+":ref:`Vector3<class_Vector3>` **bounce** **(** :ref:`Vector3<class_Vector3>` "
+"n **)**"
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:239
+msgid ""
+"Returns the vector \"bounced off\" from a plane defined by the given normal."
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:245
+msgid ":ref:`Vector3<class_Vector3>` **ceil** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:247
+msgid ""
+"Returns a new vector with all components rounded up (towards positive "
+"infinity)."
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:253
+msgid ""
+":ref:`Vector3<class_Vector3>` **cross** **(** :ref:`Vector3<class_Vector3>` "
+"b **)**"
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:255
+msgid "Returns the cross product of this vector and ``b``."
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:261
+msgid ""
+":ref:`Vector3<class_Vector3>` **cubic_interpolate** **(** :ref:"
+"`Vector3<class_Vector3>` b, :ref:`Vector3<class_Vector3>` pre_a, :ref:"
+"`Vector3<class_Vector3>` post_b, :ref:`float<class_float>` t **)**"
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:263
+msgid ""
+"Performs a cubic interpolation between vectors ``pre_a``, ``a``, ``b``, "
+"``post_b`` (``a`` is current), by the given amount ``t``. ``t`` is on the "
+"range of 0.0 to 1.0, representing the amount of interpolation."
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:269
+msgid ""
+":ref:`Vector3<class_Vector3>` **direction_to** **(** :ref:"
+"`Vector3<class_Vector3>` b **)**"
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:271
+msgid ""
+"Returns the normalized vector pointing from this vector to ``b``. This is "
+"equivalent to using ``(b - a).normalized()``."
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:277
+msgid ""
+":ref:`float<class_float>` **distance_squared_to** **(** :ref:"
+"`Vector3<class_Vector3>` b **)**"
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:279
+msgid "Returns the squared distance between this vector and ``b``."
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:281
+msgid ""
+"This method runs faster than :ref:"
+"`distance_to<class_Vector3_method_distance_to>`, so prefer it if you need to "
+"compare vectors or need the squared distance for some formula."
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:287
+msgid ""
+":ref:`float<class_float>` **distance_to** **(** :ref:"
+"`Vector3<class_Vector3>` b **)**"
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:289
+msgid "Returns the distance between this vector and ``b``."
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:295
+msgid ""
+":ref:`float<class_float>` **dot** **(** :ref:`Vector3<class_Vector3>` b **)**"
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:297
+msgid ""
+"Returns the dot product of this vector and ``b``. This can be used to "
+"compare the angle between two vectors. For example, this can be used to "
+"determine whether an enemy is facing the player."
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:299
+msgid ""
+"The dot product will be ``0`` for a straight angle (90 degrees), greater "
+"than 0 for angles narrower than 90 degrees and lower than 0 for angles wider "
+"than 90 degrees."
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:301
+msgid ""
+"When using unit (normalized) vectors, the result will always be between "
+"``-1.0`` (180 degree angle) when the vectors are facing opposite directions, "
+"and ``1.0`` (0 degree angle) when the vectors are aligned."
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:303
+msgid "**Note:** ``a.dot(b)`` is equivalent to ``b.dot(a)``."
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:309
+msgid ":ref:`Vector3<class_Vector3>` **floor** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:311
+msgid ""
+"Returns a new vector with all components rounded down (towards negative "
+"infinity)."
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:317
+msgid ":ref:`Vector3<class_Vector3>` **inverse** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:319
+msgid ""
+"Returns the inverse of the vector. This is the same as ``Vector3( 1.0 / v.x, "
+"1.0 / v.y, 1.0 / v.z )``."
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:325
+msgid ""
+":ref:`bool<class_bool>` **is_equal_approx** **(** :ref:"
+"`Vector3<class_Vector3>` v **)**"
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:327
+msgid ""
+"Returns ``true`` if this vector and ``v`` are approximately equal, by "
+"running :ref:`@GDScript."
+"is_equal_approx<class_@GDScript_method_is_equal_approx>` on each component."
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:333
+msgid ":ref:`bool<class_bool>` **is_normalized** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:335
+msgid "Returns ``true`` if the vector is normalized, ``false`` otherwise."
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:341
+msgid ":ref:`float<class_float>` **length** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:343
+msgid "Returns the length (magnitude) of this vector."
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:349
+msgid ":ref:`float<class_float>` **length_squared** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:351
+msgid "Returns the squared length (squared magnitude) of this vector."
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:353
+msgid ""
+"This method runs faster than :ref:`length<class_Vector3_method_length>`, so "
+"prefer it if you need to compare vectors or need the squared distance for "
+"some formula."
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:359
+msgid ""
+":ref:`Vector3<class_Vector3>` **linear_interpolate** **(** :ref:"
+"`Vector3<class_Vector3>` b, :ref:`float<class_float>` t **)**"
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:361
+msgid ""
+"Returns the result of the linear interpolation between this vector and ``b`` "
+"by amount ``t``. ``t`` is on the range of 0.0 to 1.0, representing the "
+"amount of interpolation."
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:367
+msgid ":ref:`int<class_int>` **max_axis** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:369
+msgid ""
+"Returns the axis of the vector's largest value. See ``AXIS_*`` constants. If "
+"all components are equal, this method returns :ref:"
+"`AXIS_X<class_Vector3_constant_AXIS_X>`."
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:375
+msgid ":ref:`int<class_int>` **min_axis** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:377
+msgid ""
+"Returns the axis of the vector's smallest value. See ``AXIS_*`` constants. "
+"If all components are equal, this method returns :ref:"
+"`AXIS_Z<class_Vector3_constant_AXIS_Z>`."
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:383
+msgid ""
+":ref:`Vector3<class_Vector3>` **move_toward** **(** :ref:"
+"`Vector3<class_Vector3>` to, :ref:`float<class_float>` delta **)**"
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:385
+msgid "Moves this vector toward ``to`` by the fixed ``delta`` amount."
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:391
+msgid ":ref:`Vector3<class_Vector3>` **normalized** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:393
+msgid ""
+"Returns the vector scaled to unit length. Equivalent to ``v / v.length()``."
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:399
+msgid ""
+":ref:`Basis<class_Basis>` **outer** **(** :ref:`Vector3<class_Vector3>` b "
+"**)**"
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:401
+msgid "Returns the outer product with ``b``."
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:407
+msgid ""
+":ref:`Vector3<class_Vector3>` **posmod** **(** :ref:`float<class_float>` mod "
+"**)**"
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:409
+msgid ""
+"Returns a vector composed of the :ref:`@GDScript."
+"fposmod<class_@GDScript_method_fposmod>` of this vector's components and "
+"``mod``."
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:415
+msgid ""
+":ref:`Vector3<class_Vector3>` **posmodv** **(** :ref:"
+"`Vector3<class_Vector3>` modv **)**"
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:417
+msgid ""
+"Returns a vector composed of the :ref:`@GDScript."
+"fposmod<class_@GDScript_method_fposmod>` of this vector's components and "
+"``modv``'s components."
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:423
+msgid ""
+":ref:`Vector3<class_Vector3>` **project** **(** :ref:"
+"`Vector3<class_Vector3>` b **)**"
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:425
+msgid "Returns this vector projected onto another vector ``b``."
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:431
+msgid ""
+":ref:`Vector3<class_Vector3>` **reflect** **(** :ref:"
+"`Vector3<class_Vector3>` n **)**"
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:433
+msgid "Returns this vector reflected from a plane defined by the given normal."
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:439
+msgid ""
+":ref:`Vector3<class_Vector3>` **rotated** **(** :ref:"
+"`Vector3<class_Vector3>` axis, :ref:`float<class_float>` phi **)**"
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:441
+msgid ""
+"Rotates this vector around a given axis by ``phi`` radians. The axis must be "
+"a normalized vector."
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:447
+msgid ":ref:`Vector3<class_Vector3>` **round** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:449
+msgid ""
+"Returns this vector with all components rounded to the nearest integer, with "
+"halfway cases rounded away from zero."
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:455
+msgid ":ref:`Vector3<class_Vector3>` **sign** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:457
+msgid ""
+"Returns a vector with each component set to one or negative one, depending "
+"on the signs of this vector's components, or zero if the component is zero, "
+"by calling :ref:`@GDScript.sign<class_@GDScript_method_sign>` on each "
+"component."
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:463
+msgid ""
+":ref:`Vector3<class_Vector3>` **slerp** **(** :ref:`Vector3<class_Vector3>` "
+"b, :ref:`float<class_float>` t **)**"
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:465
+msgid ""
+"Returns the result of spherical linear interpolation between this vector and "
+"``b``, by amount ``t``. ``t`` is on the range of 0.0 to 1.0, representing "
+"the amount of interpolation."
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:467
+msgid "**Note:** Both vectors must be normalized."
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:473
+msgid ""
+":ref:`Vector3<class_Vector3>` **slide** **(** :ref:`Vector3<class_Vector3>` "
+"n **)**"
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:475
+msgid "Returns this vector slid along a plane defined by the given normal."
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:481
+msgid ""
+":ref:`Vector3<class_Vector3>` **snapped** **(** :ref:"
+"`Vector3<class_Vector3>` by **)**"
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:483
+msgid ""
+"Returns this vector with each component snapped to the nearest multiple of "
+"``step``. This can also be used to round to an arbitrary number of decimals."
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:489
+msgid ":ref:`Basis<class_Basis>` **to_diagonal_matrix** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:491
+msgid "Returns a diagonal matrix with the vector as main diagonal."
+msgstr ""
+
+#: ../../docs/classes/class_vector3.rst:493
+msgid ""
+"This is equivalent to a Basis with no rotation or shearing and this vector's "
+"components set as the scale."
+msgstr ""

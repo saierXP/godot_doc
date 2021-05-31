@@ -1,0 +1,234 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2021, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-31 12:15+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_resourceformatloader.rst:10
+msgid "ResourceFormatLoader"
+msgstr ""
+
+#: ../../docs/classes/class_resourceformatloader.rst:12
+msgid ""
+"**Inherits:** :ref:`Reference<class_Reference>` **<** :ref:"
+"`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_resourceformatloader.rst:14
+msgid "Loads a specific resource type from a file."
+msgstr ""
+
+#: ../../docs/classes/class_resourceformatloader.rst:17
+msgid "Description"
+msgstr "描述"
+
+#: ../../docs/classes/class_resourceformatloader.rst:19
+msgid ""
+"Godot loads resources in the editor or in exported games using "
+"ResourceFormatLoaders. They are queried automatically via the :ref:"
+"`ResourceLoader<class_ResourceLoader>` singleton, or when a resource with "
+"internal dependencies is loaded. Each file type may load as a different "
+"resource type, so multiple ResourceFormatLoaders are registered in the "
+"engine."
+msgstr ""
+
+#: ../../docs/classes/class_resourceformatloader.rst:21
+msgid ""
+"Extending this class allows you to define your own loader. Be sure to "
+"respect the documented return types and values. You should give it a global "
+"class name with ``class_name`` for it to be registered. Like built-in "
+"ResourceFormatLoaders, it will be called automatically when loading "
+"resources of its handled type(s). You may also implement a :ref:"
+"`ResourceFormatSaver<class_ResourceFormatSaver>`."
+msgstr ""
+
+#: ../../docs/classes/class_resourceformatloader.rst:23
+msgid ""
+"**Note:** You can also extend :ref:"
+"`EditorImportPlugin<class_EditorImportPlugin>` if the resource type you need "
+"exists but Godot is unable to load its format. Choosing one way over another "
+"depends if the format is suitable or not for the final exported game. For "
+"example, it's better to import ``.png`` textures as ``.stex`` (:ref:"
+"`StreamTexture<class_StreamTexture>`) first, so they can be loaded with "
+"better efficiency on the graphics card."
+msgstr ""
+
+#: ../../docs/classes/class_resourceformatloader.rst:26
+msgid "Methods"
+msgstr "方法"
+
+#: ../../docs/classes/class_resourceformatloader.rst:29
+msgid "void"
+msgstr ""
+
+#: ../../docs/classes/class_resourceformatloader.rst:29
+msgid ""
+":ref:`get_dependencies<class_ResourceFormatLoader_method_get_dependencies>` "
+"**(** :ref:`String<class_String>` path, :ref:`String<class_String>` "
+"add_types **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_resourceformatloader.rst:31
+msgid ":ref:`PoolStringArray<class_PoolStringArray>`"
+msgstr ""
+
+#: ../../docs/classes/class_resourceformatloader.rst:31
+msgid ""
+":ref:"
+"`get_recognized_extensions<class_ResourceFormatLoader_method_get_recognized_extensions>` "
+"**(** **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_resourceformatloader.rst:33
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../../docs/classes/class_resourceformatloader.rst:33
+msgid ""
+":ref:"
+"`get_resource_type<class_ResourceFormatLoader_method_get_resource_type>` "
+"**(** :ref:`String<class_String>` path **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_resourceformatloader.rst:35
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_resourceformatloader.rst:35
+msgid ""
+":ref:`handles_type<class_ResourceFormatLoader_method_handles_type>` **(** :"
+"ref:`String<class_String>` typename **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_resourceformatloader.rst:37
+msgid ":ref:`Variant<class_Variant>`"
+msgstr ""
+
+#: ../../docs/classes/class_resourceformatloader.rst:37
+msgid ""
+":ref:`load<class_ResourceFormatLoader_method_load>` **(** :ref:"
+"`String<class_String>` path, :ref:`String<class_String>` original_path **)** "
+"|virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_resourceformatloader.rst:39
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../../docs/classes/class_resourceformatloader.rst:39
+msgid ""
+":ref:"
+"`rename_dependencies<class_ResourceFormatLoader_method_rename_dependencies>` "
+"**(** :ref:`String<class_String>` path, :ref:`String<class_String>` renames "
+"**)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_resourceformatloader.rst:43
+msgid "Method Descriptions"
+msgstr "方法说明"
+
+#: ../../docs/classes/class_resourceformatloader.rst:47
+msgid ""
+"void **get_dependencies** **(** :ref:`String<class_String>` path, :ref:"
+"`String<class_String>` add_types **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_resourceformatloader.rst:49
+msgid ""
+"If implemented, gets the dependencies of a given resource. If ``add_types`` "
+"is ``true``, paths should be appended ``::TypeName``, where ``TypeName`` is "
+"the class name of the dependency."
+msgstr ""
+
+#: ../../docs/classes/class_resourceformatloader.rst:51
+#: ../../docs/classes/class_resourceformatloader.rst:69
+msgid ""
+"**Note:** Custom resource types defined by scripts aren't known by the :ref:"
+"`ClassDB<class_ClassDB>`, so you might just return ``\"Resource\"`` for them."
+msgstr ""
+
+#: ../../docs/classes/class_resourceformatloader.rst:57
+msgid ""
+":ref:`PoolStringArray<class_PoolStringArray>` **get_recognized_extensions** "
+"**(** **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_resourceformatloader.rst:59
+msgid "Gets the list of extensions for files this loader is able to read."
+msgstr ""
+
+#: ../../docs/classes/class_resourceformatloader.rst:65
+msgid ""
+":ref:`String<class_String>` **get_resource_type** **(** :ref:"
+"`String<class_String>` path **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_resourceformatloader.rst:67
+msgid ""
+"Gets the class name of the resource associated with the given path. If the "
+"loader cannot handle it, it should return ``\"\"``."
+msgstr ""
+
+#: ../../docs/classes/class_resourceformatloader.rst:75
+msgid ""
+":ref:`bool<class_bool>` **handles_type** **(** :ref:`String<class_String>` "
+"typename **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_resourceformatloader.rst:77
+msgid "Tells which resource class this loader can load."
+msgstr ""
+
+#: ../../docs/classes/class_resourceformatloader.rst:79
+msgid ""
+"**Note:** Custom resource types defined by scripts aren't known by the :ref:"
+"`ClassDB<class_ClassDB>`, so you might just handle ``\"Resource\"`` for them."
+msgstr ""
+
+#: ../../docs/classes/class_resourceformatloader.rst:85
+msgid ""
+":ref:`Variant<class_Variant>` **load** **(** :ref:`String<class_String>` "
+"path, :ref:`String<class_String>` original_path **)** |virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_resourceformatloader.rst:87
+msgid ""
+"Loads a resource when the engine finds this loader to be compatible. If the "
+"loaded resource is the result of an import, ``original_path`` will target "
+"the source file. Returns a :ref:`Resource<class_Resource>` object on "
+"success, or an :ref:`Error<enum_@GlobalScope_Error>` constant in case of "
+"failure."
+msgstr ""
+
+#: ../../docs/classes/class_resourceformatloader.rst:93
+msgid ""
+":ref:`int<class_int>` **rename_dependencies** **(** :ref:"
+"`String<class_String>` path, :ref:`String<class_String>` renames **)** |"
+"virtual|"
+msgstr ""
+
+#: ../../docs/classes/class_resourceformatloader.rst:95
+msgid ""
+"If implemented, renames dependencies within the given resource and saves it. "
+"``renames`` is a dictionary ``{ String => String }`` mapping old dependency "
+"paths to new paths."
+msgstr ""
+
+#: ../../docs/classes/class_resourceformatloader.rst:97
+msgid ""
+"Returns :ref:`@GlobalScope.OK<class_@GlobalScope_constant_OK>` on success, "
+"or an :ref:`Error<enum_@GlobalScope_Error>` constant in case of failure."
+msgstr ""

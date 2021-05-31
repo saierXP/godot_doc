@@ -1,0 +1,455 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2021, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-31 12:15+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_arvrinterface.rst:10
+msgid "ARVRInterface"
+msgstr ""
+
+#: ../../docs/classes/class_arvrinterface.rst:12
+msgid ""
+"**Inherits:** :ref:`Reference<class_Reference>` **<** :ref:"
+"`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_arvrinterface.rst:14
+msgid ""
+"**Inherited By:** :ref:"
+"`ARVRInterfaceGDNative<class_ARVRInterfaceGDNative>`, :ref:"
+"`MobileVRInterface<class_MobileVRInterface>`, :ref:"
+"`WebXRInterface<class_WebXRInterface>`"
+msgstr ""
+
+#: ../../docs/classes/class_arvrinterface.rst:16
+msgid "Base class for an AR/VR interface implementation."
+msgstr ""
+
+#: ../../docs/classes/class_arvrinterface.rst:19
+msgid "Description"
+msgstr "描述"
+
+#: ../../docs/classes/class_arvrinterface.rst:21
+msgid ""
+"This class needs to be implemented to make an AR or VR platform available to "
+"Godot and these should be implemented as C++ modules or GDNative modules "
+"(note that for GDNative the subclass ARVRScriptInterface should be used). "
+"Part of the interface is exposed to GDScript so you can detect, enable and "
+"configure an AR or VR platform."
+msgstr ""
+
+#: ../../docs/classes/class_arvrinterface.rst:23
+msgid ""
+"Interfaces should be written in such a way that simply enabling them will "
+"give us a working setup. You can query the available interfaces through :ref:"
+"`ARVRServer<class_ARVRServer>`."
+msgstr ""
+
+#: ../../docs/classes/class_arvrinterface.rst:26
+msgid "Tutorials"
+msgstr "教程"
+
+#: ../../docs/classes/class_arvrinterface.rst:28
+msgid ":doc:`../tutorials/vr/index`"
+msgstr ""
+
+#: ../../docs/classes/class_arvrinterface.rst:31
+msgid "Properties"
+msgstr "属性"
+
+#: ../../docs/classes/class_arvrinterface.rst:34
+#: ../../docs/classes/class_arvrinterface.rst:36
+#: ../../docs/classes/class_arvrinterface.rst:38
+#: ../../docs/classes/class_arvrinterface.rst:55
+#: ../../docs/classes/class_arvrinterface.rst:57
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_arvrinterface.rst:34
+msgid ""
+":ref:"
+"`ar_is_anchor_detection_enabled<class_ARVRInterface_property_ar_is_anchor_detection_enabled>`"
+msgstr ""
+
+#: ../../docs/classes/class_arvrinterface.rst:34
+#: ../../docs/classes/class_arvrinterface.rst:36
+#: ../../docs/classes/class_arvrinterface.rst:38
+#: ../../docs/classes/class_arvrinterface.rst:141
+#: ../../docs/classes/class_arvrinterface.rst:157
+#: ../../docs/classes/class_arvrinterface.rst:173
+msgid "``false``"
+msgstr ""
+
+#: ../../docs/classes/class_arvrinterface.rst:36
+msgid ""
+":ref:"
+"`interface_is_initialized<class_ARVRInterface_property_interface_is_initialized>`"
+msgstr ""
+
+#: ../../docs/classes/class_arvrinterface.rst:38
+msgid ""
+":ref:"
+"`interface_is_primary<class_ARVRInterface_property_interface_is_primary>`"
+msgstr ""
+
+#: ../../docs/classes/class_arvrinterface.rst:42
+msgid "Methods"
+msgstr "方法"
+
+#: ../../docs/classes/class_arvrinterface.rst:45
+#: ../../docs/classes/class_arvrinterface.rst:47
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../../docs/classes/class_arvrinterface.rst:45
+msgid ""
+":ref:`get_camera_feed_id<class_ARVRInterface_method_get_camera_feed_id>` "
+"**(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_arvrinterface.rst:47
+msgid ""
+":ref:`get_capabilities<class_ARVRInterface_method_get_capabilities>` **(** "
+"**)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_arvrinterface.rst:49
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../../docs/classes/class_arvrinterface.rst:49
+msgid ""
+":ref:`get_name<class_ARVRInterface_method_get_name>` **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_arvrinterface.rst:51
+msgid ":ref:`Vector2<class_Vector2>`"
+msgstr ""
+
+#: ../../docs/classes/class_arvrinterface.rst:51
+msgid ""
+":ref:"
+"`get_render_targetsize<class_ARVRInterface_method_get_render_targetsize>` "
+"**(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_arvrinterface.rst:53
+msgid ":ref:`Tracking_status<enum_ARVRInterface_Tracking_status>`"
+msgstr ""
+
+#: ../../docs/classes/class_arvrinterface.rst:53
+msgid ""
+":ref:`get_tracking_status<class_ARVRInterface_method_get_tracking_status>` "
+"**(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_arvrinterface.rst:55
+msgid ":ref:`initialize<class_ARVRInterface_method_initialize>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_arvrinterface.rst:57
+msgid ":ref:`is_stereo<class_ARVRInterface_method_is_stereo>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_arvrinterface.rst:59
+msgid "void"
+msgstr ""
+
+#: ../../docs/classes/class_arvrinterface.rst:59
+msgid ""
+":ref:`uninitialize<class_ARVRInterface_method_uninitialize>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_arvrinterface.rst:63
+msgid "Enumerations"
+msgstr "枚举"
+
+#: ../../docs/classes/class_arvrinterface.rst:77
+msgid "enum **Capabilities**:"
+msgstr ""
+
+#: ../../docs/classes/class_arvrinterface.rst:79
+msgid "**ARVR_NONE** = **0** --- No ARVR capabilities."
+msgstr ""
+
+#: ../../docs/classes/class_arvrinterface.rst:81
+msgid ""
+"**ARVR_MONO** = **1** --- This interface can work with normal rendering "
+"output (non-HMD based AR)."
+msgstr ""
+
+#: ../../docs/classes/class_arvrinterface.rst:83
+msgid ""
+"**ARVR_STEREO** = **2** --- This interface supports stereoscopic rendering."
+msgstr ""
+
+#: ../../docs/classes/class_arvrinterface.rst:85
+msgid ""
+"**ARVR_AR** = **4** --- This interface supports AR (video background and "
+"real world tracking)."
+msgstr ""
+
+#: ../../docs/classes/class_arvrinterface.rst:87
+msgid ""
+"**ARVR_EXTERNAL** = **8** --- This interface outputs to an external device. "
+"If the main viewport is used, the on screen output is an unmodified buffer "
+"of either the left or right eye (stretched if the viewport size is not "
+"changed to the same aspect ratio of :ref:"
+"`get_render_targetsize<class_ARVRInterface_method_get_render_targetsize>`). "
+"Using a separate viewport node frees up the main viewport for other purposes."
+msgstr ""
+
+#: ../../docs/classes/class_arvrinterface.rst:99
+msgid "enum **Eyes**:"
+msgstr ""
+
+#: ../../docs/classes/class_arvrinterface.rst:101
+msgid ""
+"**EYE_MONO** = **0** --- Mono output, this is mostly used internally when "
+"retrieving positioning information for our camera node or when stereo scopic "
+"rendering is not supported."
+msgstr ""
+
+#: ../../docs/classes/class_arvrinterface.rst:103
+msgid ""
+"**EYE_LEFT** = **1** --- Left eye output, this is mostly used internally "
+"when rendering the image for the left eye and obtaining positioning and "
+"projection information."
+msgstr ""
+
+#: ../../docs/classes/class_arvrinterface.rst:105
+msgid ""
+"**EYE_RIGHT** = **2** --- Right eye output, this is mostly used internally "
+"when rendering the image for the right eye and obtaining positioning and "
+"projection information."
+msgstr ""
+
+#: ../../docs/classes/class_arvrinterface.rst:121
+msgid "enum **Tracking_status**:"
+msgstr ""
+
+#: ../../docs/classes/class_arvrinterface.rst:123
+msgid "**ARVR_NORMAL_TRACKING** = **0** --- Tracking is behaving as expected."
+msgstr ""
+
+#: ../../docs/classes/class_arvrinterface.rst:125
+msgid ""
+"**ARVR_EXCESSIVE_MOTION** = **1** --- Tracking is hindered by excessive "
+"motion (the player is moving faster than tracking can keep up)."
+msgstr ""
+
+#: ../../docs/classes/class_arvrinterface.rst:127
+msgid ""
+"**ARVR_INSUFFICIENT_FEATURES** = **2** --- Tracking is hindered by "
+"insufficient features, it's too dark (for camera-based tracking), player is "
+"blocked, etc."
+msgstr ""
+
+#: ../../docs/classes/class_arvrinterface.rst:129
+msgid ""
+"**ARVR_UNKNOWN_TRACKING** = **3** --- We don't know the status of the "
+"tracking or this interface does not provide feedback."
+msgstr ""
+
+#: ../../docs/classes/class_arvrinterface.rst:131
+msgid ""
+"**ARVR_NOT_TRACKING** = **4** --- Tracking is not functional (camera not "
+"plugged in or obscured, lighthouses turned off, etc.)."
+msgstr ""
+
+#: ../../docs/classes/class_arvrinterface.rst:134
+msgid "Property Descriptions"
+msgstr "属性说明"
+
+#: ../../docs/classes/class_arvrinterface.rst:138
+msgid ":ref:`bool<class_bool>` **ar_is_anchor_detection_enabled**"
+msgstr ""
+
+#: ../../docs/classes/class_arvrinterface.rst:141
+#: ../../docs/classes/class_arvrinterface.rst:157
+#: ../../docs/classes/class_arvrinterface.rst:173
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_arvrinterface.rst:143
+#: ../../docs/classes/class_arvrinterface.rst:159
+#: ../../docs/classes/class_arvrinterface.rst:175
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_arvrinterface.rst:143
+msgid "set_anchor_detection_is_enabled(value)"
+msgstr ""
+
+#: ../../docs/classes/class_arvrinterface.rst:145
+#: ../../docs/classes/class_arvrinterface.rst:161
+#: ../../docs/classes/class_arvrinterface.rst:177
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_arvrinterface.rst:145
+msgid "get_anchor_detection_is_enabled()"
+msgstr ""
+
+#: ../../docs/classes/class_arvrinterface.rst:148
+msgid "On an AR interface, ``true`` if anchor detection is enabled."
+msgstr ""
+
+#: ../../docs/classes/class_arvrinterface.rst:154
+msgid ":ref:`bool<class_bool>` **interface_is_initialized**"
+msgstr ""
+
+#: ../../docs/classes/class_arvrinterface.rst:159
+msgid "set_is_initialized(value)"
+msgstr ""
+
+#: ../../docs/classes/class_arvrinterface.rst:161
+msgid "is_initialized()"
+msgstr ""
+
+#: ../../docs/classes/class_arvrinterface.rst:164
+msgid "``true`` if this interface been initialized."
+msgstr ""
+
+#: ../../docs/classes/class_arvrinterface.rst:170
+msgid ":ref:`bool<class_bool>` **interface_is_primary**"
+msgstr ""
+
+#: ../../docs/classes/class_arvrinterface.rst:175
+msgid "set_is_primary(value)"
+msgstr ""
+
+#: ../../docs/classes/class_arvrinterface.rst:177
+msgid "is_primary()"
+msgstr ""
+
+#: ../../docs/classes/class_arvrinterface.rst:180
+msgid "``true`` if this is the primary interface."
+msgstr ""
+
+#: ../../docs/classes/class_arvrinterface.rst:183
+msgid "Method Descriptions"
+msgstr "方法说明"
+
+#: ../../docs/classes/class_arvrinterface.rst:187
+msgid ":ref:`int<class_int>` **get_camera_feed_id** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_arvrinterface.rst:189
+msgid ""
+"If this is an AR interface that requires displaying a camera feed as the "
+"background, this method returns the feed ID in the :ref:"
+"`CameraServer<class_CameraServer>` for this interface."
+msgstr ""
+
+#: ../../docs/classes/class_arvrinterface.rst:195
+msgid ":ref:`int<class_int>` **get_capabilities** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_arvrinterface.rst:197
+msgid ""
+"Returns a combination of :ref:"
+"`Capabilities<enum_ARVRInterface_Capabilities>` flags providing information "
+"about the capabilities of this interface."
+msgstr ""
+
+#: ../../docs/classes/class_arvrinterface.rst:203
+msgid ":ref:`String<class_String>` **get_name** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_arvrinterface.rst:205
+msgid "Returns the name of this interface (OpenVR, OpenHMD, ARKit, etc)."
+msgstr ""
+
+#: ../../docs/classes/class_arvrinterface.rst:211
+msgid ":ref:`Vector2<class_Vector2>` **get_render_targetsize** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_arvrinterface.rst:213
+msgid ""
+"Returns the resolution at which we should render our intermediate results "
+"before things like lens distortion are applied by the VR platform."
+msgstr ""
+
+#: ../../docs/classes/class_arvrinterface.rst:219
+msgid ""
+":ref:`Tracking_status<enum_ARVRInterface_Tracking_status>` "
+"**get_tracking_status** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_arvrinterface.rst:221
+msgid ""
+"If supported, returns the status of our tracking. This will allow you to "
+"provide feedback to the user whether there are issues with positional "
+"tracking."
+msgstr ""
+
+#: ../../docs/classes/class_arvrinterface.rst:227
+msgid ":ref:`bool<class_bool>` **initialize** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_arvrinterface.rst:229
+msgid ""
+"Call this to initialize this interface. The first interface that is "
+"initialized is identified as the primary interface and it will be used for "
+"rendering output."
+msgstr ""
+
+#: ../../docs/classes/class_arvrinterface.rst:231
+msgid ""
+"After initializing the interface you want to use you then need to enable the "
+"AR/VR mode of a viewport and rendering should commence."
+msgstr ""
+
+#: ../../docs/classes/class_arvrinterface.rst:233
+msgid ""
+"**Note:** You must enable the AR/VR mode on the main viewport for any device "
+"that uses the main output of Godot, such as for mobile VR."
+msgstr ""
+
+#: ../../docs/classes/class_arvrinterface.rst:235
+msgid ""
+"If you do this for a platform that handles its own output (such as OpenVR) "
+"Godot will show just one eye without distortion on screen. Alternatively, "
+"you can add a separate viewport node to your scene and enable AR/VR on that "
+"viewport. It will be used to output to the HMD, leaving you free to do "
+"anything you like in the main window, such as using a separate camera as a "
+"spectator camera or rendering something completely different."
+msgstr ""
+
+#: ../../docs/classes/class_arvrinterface.rst:237
+msgid ""
+"While currently not used, you can activate additional interfaces. You may "
+"wish to do this if you want to track controllers from other platforms. "
+"However, at this point in time only one interface can render to an HMD."
+msgstr ""
+
+#: ../../docs/classes/class_arvrinterface.rst:243
+msgid ":ref:`bool<class_bool>` **is_stereo** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_arvrinterface.rst:245
+msgid "Returns ``true`` if the current output of this interface is in stereo."
+msgstr ""
+
+#: ../../docs/classes/class_arvrinterface.rst:251
+msgid "void **uninitialize** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_arvrinterface.rst:253
+msgid "Turns the interface off."
+msgstr ""

@@ -1,0 +1,157 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2021, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-31 12:15+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_visualscriptcomment.rst:10
+msgid "VisualScriptComment"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptcomment.rst:12
+msgid ""
+"**Inherits:** :ref:`VisualScriptNode<class_VisualScriptNode>` **<** :ref:"
+"`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :"
+"ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptcomment.rst:14
+msgid "A Visual Script node used to annotate the script."
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptcomment.rst:17
+msgid "Description"
+msgstr "描述"
+
+#: ../../docs/classes/class_visualscriptcomment.rst:19
+msgid ""
+"A Visual Script node used to display annotations in the script, so that code "
+"may be documented."
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptcomment.rst:21
+msgid "Comment nodes can be resized so they encompass a group of nodes."
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptcomment.rst:24
+msgid "Properties"
+msgstr "属性"
+
+#: ../../docs/classes/class_visualscriptcomment.rst:27
+#: ../../docs/classes/class_visualscriptcomment.rst:31
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptcomment.rst:27
+msgid ":ref:`description<class_VisualScriptComment_property_description>`"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptcomment.rst:27
+#: ../../docs/classes/class_visualscriptcomment.rst:42
+msgid "``\"\"``"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptcomment.rst:29
+msgid ":ref:`Vector2<class_Vector2>`"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptcomment.rst:29
+msgid ":ref:`size<class_VisualScriptComment_property_size>`"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptcomment.rst:29
+#: ../../docs/classes/class_visualscriptcomment.rst:58
+msgid "``Vector2( 150, 150 )``"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptcomment.rst:31
+msgid ":ref:`title<class_VisualScriptComment_property_title>`"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptcomment.rst:31
+#: ../../docs/classes/class_visualscriptcomment.rst:74
+msgid "``\"Comment\"``"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptcomment.rst:35
+msgid "Property Descriptions"
+msgstr "属性说明"
+
+#: ../../docs/classes/class_visualscriptcomment.rst:39
+msgid ":ref:`String<class_String>` **description**"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptcomment.rst:42
+#: ../../docs/classes/class_visualscriptcomment.rst:58
+#: ../../docs/classes/class_visualscriptcomment.rst:74
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptcomment.rst:44
+#: ../../docs/classes/class_visualscriptcomment.rst:60
+#: ../../docs/classes/class_visualscriptcomment.rst:76
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptcomment.rst:44
+msgid "set_description(value)"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptcomment.rst:46
+#: ../../docs/classes/class_visualscriptcomment.rst:62
+#: ../../docs/classes/class_visualscriptcomment.rst:78
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptcomment.rst:46
+msgid "get_description()"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptcomment.rst:49
+msgid "The text inside the comment node."
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptcomment.rst:55
+msgid ":ref:`Vector2<class_Vector2>` **size**"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptcomment.rst:60
+msgid "set_size(value)"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptcomment.rst:62
+msgid "get_size()"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptcomment.rst:65
+msgid "The comment node's size (in pixels)."
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptcomment.rst:71
+msgid ":ref:`String<class_String>` **title**"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptcomment.rst:76
+msgid "set_title(value)"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptcomment.rst:78
+msgid "get_title()"
+msgstr ""
+
+#: ../../docs/classes/class_visualscriptcomment.rst:81
+msgid "The comment node's title."
+msgstr ""

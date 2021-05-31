@@ -1,0 +1,498 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2021, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-31 12:15+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_visualshadernodegroupbase.rst:10
+msgid "VisualShaderNodeGroupBase"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodegroupbase.rst:12
+msgid ""
+"**Inherits:** :ref:`VisualShaderNode<class_VisualShaderNode>` **<** :ref:"
+"`Resource<class_Resource>` **<** :ref:`Reference<class_Reference>` **<** :"
+"ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodegroupbase.rst:14
+msgid ""
+"**Inherited By:** :ref:"
+"`VisualShaderNodeExpression<class_VisualShaderNodeExpression>`"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodegroupbase.rst:16
+msgid ""
+"Base class for a family of nodes with variable amount of input and output "
+"ports within the visual shader graph."
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodegroupbase.rst:19
+msgid "Description"
+msgstr "描述"
+
+#: ../../docs/classes/class_visualshadernodegroupbase.rst:21
+msgid "Currently, has no direct usage, use the derived classes instead."
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodegroupbase.rst:24
+msgid "Properties"
+msgstr "属性"
+
+#: ../../docs/classes/class_visualshadernodegroupbase.rst:27
+msgid ":ref:`Vector2<class_Vector2>`"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodegroupbase.rst:27
+msgid ":ref:`size<class_VisualShaderNodeGroupBase_property_size>`"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodegroupbase.rst:27
+#: ../../docs/classes/class_visualshadernodegroupbase.rst:85
+msgid "``Vector2( 0, 0 )``"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodegroupbase.rst:31
+msgid "Methods"
+msgstr "方法"
+
+#: ../../docs/classes/class_visualshadernodegroupbase.rst:34
+#: ../../docs/classes/class_visualshadernodegroupbase.rst:36
+#: ../../docs/classes/class_visualshadernodegroupbase.rst:38
+#: ../../docs/classes/class_visualshadernodegroupbase.rst:40
+#: ../../docs/classes/class_visualshadernodegroupbase.rst:60
+#: ../../docs/classes/class_visualshadernodegroupbase.rst:62
+#: ../../docs/classes/class_visualshadernodegroupbase.rst:64
+#: ../../docs/classes/class_visualshadernodegroupbase.rst:66
+#: ../../docs/classes/class_visualshadernodegroupbase.rst:68
+#: ../../docs/classes/class_visualshadernodegroupbase.rst:70
+#: ../../docs/classes/class_visualshadernodegroupbase.rst:72
+#: ../../docs/classes/class_visualshadernodegroupbase.rst:74
+msgid "void"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodegroupbase.rst:34
+msgid ""
+":ref:`add_input_port<class_VisualShaderNodeGroupBase_method_add_input_port>` "
+"**(** :ref:`int<class_int>` id, :ref:`int<class_int>` type, :ref:"
+"`String<class_String>` name **)**"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodegroupbase.rst:36
+msgid ""
+":ref:"
+"`add_output_port<class_VisualShaderNodeGroupBase_method_add_output_port>` "
+"**(** :ref:`int<class_int>` id, :ref:`int<class_int>` type, :ref:"
+"`String<class_String>` name **)**"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodegroupbase.rst:38
+msgid ""
+":ref:"
+"`clear_input_ports<class_VisualShaderNodeGroupBase_method_clear_input_ports>` "
+"**(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodegroupbase.rst:40
+msgid ""
+":ref:"
+"`clear_output_ports<class_VisualShaderNodeGroupBase_method_clear_output_ports>` "
+"**(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodegroupbase.rst:42
+#: ../../docs/classes/class_visualshadernodegroupbase.rst:44
+#: ../../docs/classes/class_visualshadernodegroupbase.rst:46
+#: ../../docs/classes/class_visualshadernodegroupbase.rst:50
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodegroupbase.rst:42
+msgid ""
+":ref:"
+"`get_free_input_port_id<class_VisualShaderNodeGroupBase_method_get_free_input_port_id>` "
+"**(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodegroupbase.rst:44
+msgid ""
+":ref:"
+"`get_free_output_port_id<class_VisualShaderNodeGroupBase_method_get_free_output_port_id>` "
+"**(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodegroupbase.rst:46
+msgid ""
+":ref:"
+"`get_input_port_count<class_VisualShaderNodeGroupBase_method_get_input_port_count>` "
+"**(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodegroupbase.rst:48
+#: ../../docs/classes/class_visualshadernodegroupbase.rst:52
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodegroupbase.rst:48
+msgid ""
+":ref:`get_inputs<class_VisualShaderNodeGroupBase_method_get_inputs>` **(** "
+"**)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodegroupbase.rst:50
+msgid ""
+":ref:"
+"`get_output_port_count<class_VisualShaderNodeGroupBase_method_get_output_port_count>` "
+"**(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodegroupbase.rst:52
+msgid ""
+":ref:`get_outputs<class_VisualShaderNodeGroupBase_method_get_outputs>` **(** "
+"**)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodegroupbase.rst:54
+#: ../../docs/classes/class_visualshadernodegroupbase.rst:56
+#: ../../docs/classes/class_visualshadernodegroupbase.rst:58
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodegroupbase.rst:54
+msgid ""
+":ref:`has_input_port<class_VisualShaderNodeGroupBase_method_has_input_port>` "
+"**(** :ref:`int<class_int>` id **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodegroupbase.rst:56
+msgid ""
+":ref:"
+"`has_output_port<class_VisualShaderNodeGroupBase_method_has_output_port>` "
+"**(** :ref:`int<class_int>` id **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodegroupbase.rst:58
+msgid ""
+":ref:"
+"`is_valid_port_name<class_VisualShaderNodeGroupBase_method_is_valid_port_name>` "
+"**(** :ref:`String<class_String>` name **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodegroupbase.rst:60
+msgid ""
+":ref:"
+"`remove_input_port<class_VisualShaderNodeGroupBase_method_remove_input_port>` "
+"**(** :ref:`int<class_int>` id **)**"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodegroupbase.rst:62
+msgid ""
+":ref:"
+"`remove_output_port<class_VisualShaderNodeGroupBase_method_remove_output_port>` "
+"**(** :ref:`int<class_int>` id **)**"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodegroupbase.rst:64
+msgid ""
+":ref:"
+"`set_input_port_name<class_VisualShaderNodeGroupBase_method_set_input_port_name>` "
+"**(** :ref:`int<class_int>` id, :ref:`String<class_String>` name **)**"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodegroupbase.rst:66
+msgid ""
+":ref:"
+"`set_input_port_type<class_VisualShaderNodeGroupBase_method_set_input_port_type>` "
+"**(** :ref:`int<class_int>` id, :ref:`int<class_int>` type **)**"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodegroupbase.rst:68
+msgid ""
+":ref:`set_inputs<class_VisualShaderNodeGroupBase_method_set_inputs>` **(** :"
+"ref:`String<class_String>` inputs **)**"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodegroupbase.rst:70
+msgid ""
+":ref:"
+"`set_output_port_name<class_VisualShaderNodeGroupBase_method_set_output_port_name>` "
+"**(** :ref:`int<class_int>` id, :ref:`String<class_String>` name **)**"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodegroupbase.rst:72
+msgid ""
+":ref:"
+"`set_output_port_type<class_VisualShaderNodeGroupBase_method_set_output_port_type>` "
+"**(** :ref:`int<class_int>` id, :ref:`int<class_int>` type **)**"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodegroupbase.rst:74
+msgid ""
+":ref:`set_outputs<class_VisualShaderNodeGroupBase_method_set_outputs>` "
+"**(** :ref:`String<class_String>` outputs **)**"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodegroupbase.rst:78
+msgid "Property Descriptions"
+msgstr "属性说明"
+
+#: ../../docs/classes/class_visualshadernodegroupbase.rst:82
+msgid ":ref:`Vector2<class_Vector2>` **size**"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodegroupbase.rst:85
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodegroupbase.rst:87
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodegroupbase.rst:87
+msgid "set_size(value)"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodegroupbase.rst:89
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodegroupbase.rst:89
+msgid "get_size()"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodegroupbase.rst:92
+msgid "The size of the node in the visual shader graph."
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodegroupbase.rst:95
+msgid "Method Descriptions"
+msgstr "方法说明"
+
+#: ../../docs/classes/class_visualshadernodegroupbase.rst:99
+msgid ""
+"void **add_input_port** **(** :ref:`int<class_int>` id, :ref:"
+"`int<class_int>` type, :ref:`String<class_String>` name **)**"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodegroupbase.rst:101
+msgid ""
+"Adds an input port with the specified ``type`` (see :ref:"
+"`PortType<enum_VisualShaderNode_PortType>`) and ``name``."
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodegroupbase.rst:107
+msgid ""
+"void **add_output_port** **(** :ref:`int<class_int>` id, :ref:"
+"`int<class_int>` type, :ref:`String<class_String>` name **)**"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodegroupbase.rst:109
+msgid ""
+"Adds an output port with the specified ``type`` (see :ref:"
+"`PortType<enum_VisualShaderNode_PortType>`) and ``name``."
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodegroupbase.rst:115
+msgid "void **clear_input_ports** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodegroupbase.rst:117
+msgid "Removes all previously specified input ports."
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodegroupbase.rst:123
+msgid "void **clear_output_ports** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodegroupbase.rst:125
+msgid "Removes all previously specified output ports."
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodegroupbase.rst:131
+msgid ":ref:`int<class_int>` **get_free_input_port_id** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodegroupbase.rst:133
+msgid ""
+"Returns a free input port ID which can be used in :ref:"
+"`add_input_port<class_VisualShaderNodeGroupBase_method_add_input_port>`."
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodegroupbase.rst:139
+msgid ":ref:`int<class_int>` **get_free_output_port_id** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodegroupbase.rst:141
+msgid ""
+"Returns a free output port ID which can be used in :ref:"
+"`add_output_port<class_VisualShaderNodeGroupBase_method_add_output_port>`."
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodegroupbase.rst:147
+msgid ":ref:`int<class_int>` **get_input_port_count** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodegroupbase.rst:149
+msgid ""
+"Returns the number of input ports in use. Alternative for :ref:"
+"`get_free_input_port_id<class_VisualShaderNodeGroupBase_method_get_free_input_port_id>`."
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodegroupbase.rst:155
+msgid ":ref:`String<class_String>` **get_inputs** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodegroupbase.rst:157
+msgid ""
+"Returns a :ref:`String<class_String>` description of the input ports as as "
+"colon-separated list using the format ``id,type,name;`` (see :ref:"
+"`add_input_port<class_VisualShaderNodeGroupBase_method_add_input_port>`)."
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodegroupbase.rst:163
+msgid ":ref:`int<class_int>` **get_output_port_count** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodegroupbase.rst:165
+msgid ""
+"Returns the number of output ports in use. Alternative for :ref:"
+"`get_free_output_port_id<class_VisualShaderNodeGroupBase_method_get_free_output_port_id>`."
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodegroupbase.rst:171
+msgid ":ref:`String<class_String>` **get_outputs** **(** **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodegroupbase.rst:173
+msgid ""
+"Returns a :ref:`String<class_String>` description of the output ports as as "
+"colon-separated list using the format ``id,type,name;`` (see :ref:"
+"`add_output_port<class_VisualShaderNodeGroupBase_method_add_output_port>`)."
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodegroupbase.rst:179
+msgid ""
+":ref:`bool<class_bool>` **has_input_port** **(** :ref:`int<class_int>` id "
+"**)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodegroupbase.rst:181
+msgid "Returns ``true`` if the specified input port exists."
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodegroupbase.rst:187
+msgid ""
+":ref:`bool<class_bool>` **has_output_port** **(** :ref:`int<class_int>` id "
+"**)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodegroupbase.rst:189
+msgid "Returns ``true`` if the specified output port exists."
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodegroupbase.rst:195
+msgid ""
+":ref:`bool<class_bool>` **is_valid_port_name** **(** :ref:"
+"`String<class_String>` name **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodegroupbase.rst:197
+msgid ""
+"Returns ``true`` if the specified port name does not override an existed "
+"port name and is valid within the shader."
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodegroupbase.rst:203
+msgid "void **remove_input_port** **(** :ref:`int<class_int>` id **)**"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodegroupbase.rst:205
+msgid "Removes the specified input port."
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodegroupbase.rst:211
+msgid "void **remove_output_port** **(** :ref:`int<class_int>` id **)**"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodegroupbase.rst:213
+msgid "Removes the specified output port."
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodegroupbase.rst:219
+msgid ""
+"void **set_input_port_name** **(** :ref:`int<class_int>` id, :ref:"
+"`String<class_String>` name **)**"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodegroupbase.rst:221
+msgid "Renames the specified input port."
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodegroupbase.rst:227
+msgid ""
+"void **set_input_port_type** **(** :ref:`int<class_int>` id, :ref:"
+"`int<class_int>` type **)**"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodegroupbase.rst:229
+msgid ""
+"Sets the specified input port's type (see :ref:"
+"`PortType<enum_VisualShaderNode_PortType>`)."
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodegroupbase.rst:235
+msgid "void **set_inputs** **(** :ref:`String<class_String>` inputs **)**"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodegroupbase.rst:237
+msgid ""
+"Defines all input ports using a :ref:`String<class_String>` formatted as a "
+"colon-separated list: ``id,type,name;`` (see :ref:"
+"`add_input_port<class_VisualShaderNodeGroupBase_method_add_input_port>`)."
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodegroupbase.rst:243
+msgid ""
+"void **set_output_port_name** **(** :ref:`int<class_int>` id, :ref:"
+"`String<class_String>` name **)**"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodegroupbase.rst:245
+msgid "Renames the specified output port."
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodegroupbase.rst:251
+msgid ""
+"void **set_output_port_type** **(** :ref:`int<class_int>` id, :ref:"
+"`int<class_int>` type **)**"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodegroupbase.rst:253
+msgid ""
+"Sets the specified output port's type (see :ref:"
+"`PortType<enum_VisualShaderNode_PortType>`)."
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodegroupbase.rst:259
+msgid "void **set_outputs** **(** :ref:`String<class_String>` outputs **)**"
+msgstr ""
+
+#: ../../docs/classes/class_visualshadernodegroupbase.rst:261
+msgid ""
+"Defines all output ports using a :ref:`String<class_String>` formatted as a "
+"colon-separated list: ``id,type,name;`` (see :ref:"
+"`add_output_port<class_VisualShaderNodeGroupBase_method_add_output_port>`)."
+msgstr ""

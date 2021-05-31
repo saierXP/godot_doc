@@ -1,0 +1,1461 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2021, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-31 12:15+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_animationtreeplayer.rst:10
+msgid "AnimationTreePlayer"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:12
+msgid "**Inherits:** :ref:`Node<class_Node>` **<** :ref:`Object<class_Object>`"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:14
+msgid ""
+"*Deprecated.* Animation player that uses a node graph for blending "
+"animations. Superseded by :ref:`AnimationTree<class_AnimationTree>`."
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:17
+msgid "Description"
+msgstr "描述"
+
+#: ../../docs/classes/class_animationtreeplayer.rst:19
+msgid ""
+"*Deprecated.* A node graph tool for blending multiple animations bound to "
+"an :ref:`AnimationPlayer<class_AnimationPlayer>`. Especially useful for "
+"animating characters or other skeleton-based rigs. It can combine several "
+"animations to form a desired pose."
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:21
+msgid ""
+"It takes :ref:`Animation<class_Animation>`\\ s from an :ref:"
+"`AnimationPlayer<class_AnimationPlayer>` node and mixes them depending on "
+"the graph."
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:23
+msgid ""
+"See :ref:`AnimationTree<class_AnimationTree>` for a more full-featured "
+"replacement of this node."
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:26
+msgid "Tutorials"
+msgstr "教程"
+
+#: ../../docs/classes/class_animationtreeplayer.rst:28
+msgid ":doc:`../tutorials/animation/animation_tree`"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:31
+msgid "Properties"
+msgstr "属性"
+
+#: ../../docs/classes/class_animationtreeplayer.rst:34
+#: ../../docs/classes/class_animationtreeplayer.rst:63
+#: ../../docs/classes/class_animationtreeplayer.rst:89
+#: ../../docs/classes/class_animationtreeplayer.rst:111
+#: ../../docs/classes/class_animationtreeplayer.rst:113
+#: ../../docs/classes/class_animationtreeplayer.rst:151
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:34
+msgid ":ref:`active<class_AnimationTreePlayer_property_active>`"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:34
+#: ../../docs/classes/class_animationtreeplayer.rst:231
+msgid "``false``"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:36
+#: ../../docs/classes/class_animationtreeplayer.rst:38
+msgid ":ref:`NodePath<class_NodePath>`"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:36
+msgid ":ref:`base_path<class_AnimationTreePlayer_property_base_path>`"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:36
+#: ../../docs/classes/class_animationtreeplayer.rst:247
+msgid "``NodePath(\"..\")``"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:38
+msgid ":ref:`master_player<class_AnimationTreePlayer_property_master_player>`"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:38
+#: ../../docs/classes/class_animationtreeplayer.rst:265
+msgid "``NodePath(\"\")``"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:40
+msgid ""
+":ref:`AnimationProcessMode<enum_AnimationTreePlayer_AnimationProcessMode>`"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:40
+msgid ""
+":ref:"
+"`playback_process_mode<class_AnimationTreePlayer_property_playback_process_mode>`"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:40
+#: ../../docs/classes/class_animationtreeplayer.rst:283
+msgid "``1``"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:44
+msgid "Methods"
+msgstr "方法"
+
+#: ../../docs/classes/class_animationtreeplayer.rst:47
+#: ../../docs/classes/class_animationtreeplayer.rst:49
+#: ../../docs/classes/class_animationtreeplayer.rst:57
+#: ../../docs/classes/class_animationtreeplayer.rst:59
+#: ../../docs/classes/class_animationtreeplayer.rst:61
+#: ../../docs/classes/class_animationtreeplayer.rst:67
+#: ../../docs/classes/class_animationtreeplayer.rst:69
+#: ../../docs/classes/class_animationtreeplayer.rst:73
+#: ../../docs/classes/class_animationtreeplayer.rst:77
+#: ../../docs/classes/class_animationtreeplayer.rst:81
+#: ../../docs/classes/class_animationtreeplayer.rst:87
+#: ../../docs/classes/class_animationtreeplayer.rst:101
+#: ../../docs/classes/class_animationtreeplayer.rst:115
+#: ../../docs/classes/class_animationtreeplayer.rst:117
+#: ../../docs/classes/class_animationtreeplayer.rst:119
+#: ../../docs/classes/class_animationtreeplayer.rst:121
+#: ../../docs/classes/class_animationtreeplayer.rst:123
+#: ../../docs/classes/class_animationtreeplayer.rst:125
+#: ../../docs/classes/class_animationtreeplayer.rst:127
+#: ../../docs/classes/class_animationtreeplayer.rst:129
+#: ../../docs/classes/class_animationtreeplayer.rst:131
+#: ../../docs/classes/class_animationtreeplayer.rst:133
+#: ../../docs/classes/class_animationtreeplayer.rst:135
+#: ../../docs/classes/class_animationtreeplayer.rst:139
+#: ../../docs/classes/class_animationtreeplayer.rst:141
+#: ../../docs/classes/class_animationtreeplayer.rst:143
+#: ../../docs/classes/class_animationtreeplayer.rst:153
+#: ../../docs/classes/class_animationtreeplayer.rst:155
+#: ../../docs/classes/class_animationtreeplayer.rst:157
+#: ../../docs/classes/class_animationtreeplayer.rst:159
+msgid "void"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:47
+msgid ""
+":ref:`add_node<class_AnimationTreePlayer_method_add_node>` **(** :ref:"
+"`NodeType<enum_AnimationTreePlayer_NodeType>` type, :ref:"
+"`String<class_String>` id **)**"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:49
+msgid ""
+":ref:`advance<class_AnimationTreePlayer_method_advance>` **(** :ref:"
+"`float<class_float>` delta **)**"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:51
+msgid ":ref:`Animation<class_Animation>`"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:51
+msgid ""
+":ref:"
+"`animation_node_get_animation<class_AnimationTreePlayer_method_animation_node_get_animation>` "
+"**(** :ref:`String<class_String>` id **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:53
+#: ../../docs/classes/class_animationtreeplayer.rst:93
+msgid ":ref:`String<class_String>`"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:53
+msgid ""
+":ref:"
+"`animation_node_get_master_animation<class_AnimationTreePlayer_method_animation_node_get_master_animation>` "
+"**(** :ref:`String<class_String>` id **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:55
+#: ../../docs/classes/class_animationtreeplayer.rst:65
+#: ../../docs/classes/class_animationtreeplayer.rst:71
+#: ../../docs/classes/class_animationtreeplayer.rst:85
+#: ../../docs/classes/class_animationtreeplayer.rst:103
+#: ../../docs/classes/class_animationtreeplayer.rst:105
+#: ../../docs/classes/class_animationtreeplayer.rst:107
+#: ../../docs/classes/class_animationtreeplayer.rst:109
+#: ../../docs/classes/class_animationtreeplayer.rst:137
+#: ../../docs/classes/class_animationtreeplayer.rst:149
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:55
+msgid ""
+":ref:"
+"`animation_node_get_position<class_AnimationTreePlayer_method_animation_node_get_position>` "
+"**(** :ref:`String<class_String>` id **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:57
+msgid ""
+":ref:"
+"`animation_node_set_animation<class_AnimationTreePlayer_method_animation_node_set_animation>` "
+"**(** :ref:`String<class_String>` id, :ref:`Animation<class_Animation>` "
+"animation **)**"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:59
+msgid ""
+":ref:"
+"`animation_node_set_filter_path<class_AnimationTreePlayer_method_animation_node_set_filter_path>` "
+"**(** :ref:`String<class_String>` id, :ref:`NodePath<class_NodePath>` path, :"
+"ref:`bool<class_bool>` enable **)**"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:61
+msgid ""
+":ref:"
+"`animation_node_set_master_animation<class_AnimationTreePlayer_method_animation_node_set_master_animation>` "
+"**(** :ref:`String<class_String>` id, :ref:`String<class_String>` source "
+"**)**"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:63
+msgid ""
+":ref:"
+"`are_nodes_connected<class_AnimationTreePlayer_method_are_nodes_connected>` "
+"**(** :ref:`String<class_String>` id, :ref:`String<class_String>` dst_id, :"
+"ref:`int<class_int>` dst_input_idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:65
+msgid ""
+":ref:"
+"`blend2_node_get_amount<class_AnimationTreePlayer_method_blend2_node_get_amount>` "
+"**(** :ref:`String<class_String>` id **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:67
+msgid ""
+":ref:"
+"`blend2_node_set_amount<class_AnimationTreePlayer_method_blend2_node_set_amount>` "
+"**(** :ref:`String<class_String>` id, :ref:`float<class_float>` blend **)**"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:69
+msgid ""
+":ref:"
+"`blend2_node_set_filter_path<class_AnimationTreePlayer_method_blend2_node_set_filter_path>` "
+"**(** :ref:`String<class_String>` id, :ref:`NodePath<class_NodePath>` path, :"
+"ref:`bool<class_bool>` enable **)**"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:71
+msgid ""
+":ref:"
+"`blend3_node_get_amount<class_AnimationTreePlayer_method_blend3_node_get_amount>` "
+"**(** :ref:`String<class_String>` id **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:73
+msgid ""
+":ref:"
+"`blend3_node_set_amount<class_AnimationTreePlayer_method_blend3_node_set_amount>` "
+"**(** :ref:`String<class_String>` id, :ref:`float<class_float>` blend **)**"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:75
+#: ../../docs/classes/class_animationtreeplayer.rst:95
+msgid ":ref:`Vector2<class_Vector2>`"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:75
+msgid ""
+":ref:"
+"`blend4_node_get_amount<class_AnimationTreePlayer_method_blend4_node_get_amount>` "
+"**(** :ref:`String<class_String>` id **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:77
+msgid ""
+":ref:"
+"`blend4_node_set_amount<class_AnimationTreePlayer_method_blend4_node_set_amount>` "
+"**(** :ref:`String<class_String>` id, :ref:`Vector2<class_Vector2>` blend "
+"**)**"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:79
+#: ../../docs/classes/class_animationtreeplayer.rst:99
+msgid ":ref:`Error<enum_@GlobalScope_Error>`"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:79
+msgid ""
+":ref:`connect_nodes<class_AnimationTreePlayer_method_connect_nodes>` **(** :"
+"ref:`String<class_String>` id, :ref:`String<class_String>` dst_id, :ref:"
+"`int<class_int>` dst_input_idx **)**"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:81
+msgid ""
+":ref:`disconnect_nodes<class_AnimationTreePlayer_method_disconnect_nodes>` "
+"**(** :ref:`String<class_String>` id, :ref:`int<class_int>` dst_input_idx "
+"**)**"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:83
+msgid ":ref:`PoolStringArray<class_PoolStringArray>`"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:83
+msgid ""
+":ref:`get_node_list<class_AnimationTreePlayer_method_get_node_list>` **(** "
+"**)**"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:85
+msgid ""
+":ref:"
+"`mix_node_get_amount<class_AnimationTreePlayer_method_mix_node_get_amount>` "
+"**(** :ref:`String<class_String>` id **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:87
+msgid ""
+":ref:"
+"`mix_node_set_amount<class_AnimationTreePlayer_method_mix_node_set_amount>` "
+"**(** :ref:`String<class_String>` id, :ref:`float<class_float>` ratio **)**"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:89
+msgid ""
+":ref:`node_exists<class_AnimationTreePlayer_method_node_exists>` **(** :ref:"
+"`String<class_String>` node **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:91
+#: ../../docs/classes/class_animationtreeplayer.rst:145
+#: ../../docs/classes/class_animationtreeplayer.rst:147
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:91
+msgid ""
+":ref:"
+"`node_get_input_count<class_AnimationTreePlayer_method_node_get_input_count>` "
+"**(** :ref:`String<class_String>` id **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:93
+msgid ""
+":ref:"
+"`node_get_input_source<class_AnimationTreePlayer_method_node_get_input_source>` "
+"**(** :ref:`String<class_String>` id, :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:95
+msgid ""
+":ref:`node_get_position<class_AnimationTreePlayer_method_node_get_position>` "
+"**(** :ref:`String<class_String>` id **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:97
+msgid ":ref:`NodeType<enum_AnimationTreePlayer_NodeType>`"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:97
+msgid ""
+":ref:`node_get_type<class_AnimationTreePlayer_method_node_get_type>` **(** :"
+"ref:`String<class_String>` id **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:99
+msgid ""
+":ref:`node_rename<class_AnimationTreePlayer_method_node_rename>` **(** :ref:"
+"`String<class_String>` node, :ref:`String<class_String>` new_name **)**"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:101
+msgid ""
+":ref:`node_set_position<class_AnimationTreePlayer_method_node_set_position>` "
+"**(** :ref:`String<class_String>` id, :ref:`Vector2<class_Vector2>` "
+"screen_position **)**"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:103
+msgid ""
+":ref:"
+"`oneshot_node_get_autorestart_delay<class_AnimationTreePlayer_method_oneshot_node_get_autorestart_delay>` "
+"**(** :ref:`String<class_String>` id **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:105
+msgid ""
+":ref:"
+"`oneshot_node_get_autorestart_random_delay<class_AnimationTreePlayer_method_oneshot_node_get_autorestart_random_delay>` "
+"**(** :ref:`String<class_String>` id **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:107
+msgid ""
+":ref:"
+"`oneshot_node_get_fadein_time<class_AnimationTreePlayer_method_oneshot_node_get_fadein_time>` "
+"**(** :ref:`String<class_String>` id **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:109
+msgid ""
+":ref:"
+"`oneshot_node_get_fadeout_time<class_AnimationTreePlayer_method_oneshot_node_get_fadeout_time>` "
+"**(** :ref:`String<class_String>` id **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:111
+msgid ""
+":ref:"
+"`oneshot_node_has_autorestart<class_AnimationTreePlayer_method_oneshot_node_has_autorestart>` "
+"**(** :ref:`String<class_String>` id **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:113
+msgid ""
+":ref:"
+"`oneshot_node_is_active<class_AnimationTreePlayer_method_oneshot_node_is_active>` "
+"**(** :ref:`String<class_String>` id **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:115
+msgid ""
+":ref:"
+"`oneshot_node_set_autorestart<class_AnimationTreePlayer_method_oneshot_node_set_autorestart>` "
+"**(** :ref:`String<class_String>` id, :ref:`bool<class_bool>` enable **)**"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:117
+msgid ""
+":ref:"
+"`oneshot_node_set_autorestart_delay<class_AnimationTreePlayer_method_oneshot_node_set_autorestart_delay>` "
+"**(** :ref:`String<class_String>` id, :ref:`float<class_float>` delay_sec "
+"**)**"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:119
+msgid ""
+":ref:"
+"`oneshot_node_set_autorestart_random_delay<class_AnimationTreePlayer_method_oneshot_node_set_autorestart_random_delay>` "
+"**(** :ref:`String<class_String>` id, :ref:`float<class_float>` rand_sec "
+"**)**"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:121
+msgid ""
+":ref:"
+"`oneshot_node_set_fadein_time<class_AnimationTreePlayer_method_oneshot_node_set_fadein_time>` "
+"**(** :ref:`String<class_String>` id, :ref:`float<class_float>` time_sec "
+"**)**"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:123
+msgid ""
+":ref:"
+"`oneshot_node_set_fadeout_time<class_AnimationTreePlayer_method_oneshot_node_set_fadeout_time>` "
+"**(** :ref:`String<class_String>` id, :ref:`float<class_float>` time_sec "
+"**)**"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:125
+msgid ""
+":ref:"
+"`oneshot_node_set_filter_path<class_AnimationTreePlayer_method_oneshot_node_set_filter_path>` "
+"**(** :ref:`String<class_String>` id, :ref:`NodePath<class_NodePath>` path, :"
+"ref:`bool<class_bool>` enable **)**"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:127
+msgid ""
+":ref:"
+"`oneshot_node_start<class_AnimationTreePlayer_method_oneshot_node_start>` "
+"**(** :ref:`String<class_String>` id **)**"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:129
+msgid ""
+":ref:`oneshot_node_stop<class_AnimationTreePlayer_method_oneshot_node_stop>` "
+"**(** :ref:`String<class_String>` id **)**"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:131
+msgid ""
+":ref:`recompute_caches<class_AnimationTreePlayer_method_recompute_caches>` "
+"**(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:133
+msgid ""
+":ref:`remove_node<class_AnimationTreePlayer_method_remove_node>` **(** :ref:"
+"`String<class_String>` id **)**"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:135
+msgid ":ref:`reset<class_AnimationTreePlayer_method_reset>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:137
+msgid ""
+":ref:"
+"`timescale_node_get_scale<class_AnimationTreePlayer_method_timescale_node_get_scale>` "
+"**(** :ref:`String<class_String>` id **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:139
+msgid ""
+":ref:"
+"`timescale_node_set_scale<class_AnimationTreePlayer_method_timescale_node_set_scale>` "
+"**(** :ref:`String<class_String>` id, :ref:`float<class_float>` scale **)**"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:141
+msgid ""
+":ref:"
+"`timeseek_node_seek<class_AnimationTreePlayer_method_timeseek_node_seek>` "
+"**(** :ref:`String<class_String>` id, :ref:`float<class_float>` seconds **)**"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:143
+msgid ""
+":ref:"
+"`transition_node_delete_input<class_AnimationTreePlayer_method_transition_node_delete_input>` "
+"**(** :ref:`String<class_String>` id, :ref:`int<class_int>` input_idx **)**"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:145
+msgid ""
+":ref:"
+"`transition_node_get_current<class_AnimationTreePlayer_method_transition_node_get_current>` "
+"**(** :ref:`String<class_String>` id **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:147
+msgid ""
+":ref:"
+"`transition_node_get_input_count<class_AnimationTreePlayer_method_transition_node_get_input_count>` "
+"**(** :ref:`String<class_String>` id **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:149
+msgid ""
+":ref:"
+"`transition_node_get_xfade_time<class_AnimationTreePlayer_method_transition_node_get_xfade_time>` "
+"**(** :ref:`String<class_String>` id **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:151
+msgid ""
+":ref:"
+"`transition_node_has_input_auto_advance<class_AnimationTreePlayer_method_transition_node_has_input_auto_advance>` "
+"**(** :ref:`String<class_String>` id, :ref:`int<class_int>` input_idx **)** |"
+"const|"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:153
+msgid ""
+":ref:"
+"`transition_node_set_current<class_AnimationTreePlayer_method_transition_node_set_current>` "
+"**(** :ref:`String<class_String>` id, :ref:`int<class_int>` input_idx **)**"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:155
+msgid ""
+":ref:"
+"`transition_node_set_input_auto_advance<class_AnimationTreePlayer_method_transition_node_set_input_auto_advance>` "
+"**(** :ref:`String<class_String>` id, :ref:`int<class_int>` input_idx, :ref:"
+"`bool<class_bool>` enable **)**"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:157
+msgid ""
+":ref:"
+"`transition_node_set_input_count<class_AnimationTreePlayer_method_transition_node_set_input_count>` "
+"**(** :ref:`String<class_String>` id, :ref:`int<class_int>` count **)**"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:159
+msgid ""
+":ref:"
+"`transition_node_set_xfade_time<class_AnimationTreePlayer_method_transition_node_set_xfade_time>` "
+"**(** :ref:`String<class_String>` id, :ref:`float<class_float>` time_sec "
+"**)**"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:163
+msgid "Enumerations"
+msgstr "枚举"
+
+#: ../../docs/classes/class_animationtreeplayer.rst:187
+msgid "enum **NodeType**:"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:189
+msgid "**NODE_OUTPUT** = **0** --- Output node."
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:191
+msgid "**NODE_ANIMATION** = **1** --- Animation node."
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:193
+msgid "**NODE_ONESHOT** = **2** --- OneShot node."
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:195
+msgid "**NODE_MIX** = **3** --- Mix node."
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:197
+msgid "**NODE_BLEND2** = **4** --- Blend2 node."
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:199
+msgid "**NODE_BLEND3** = **5** --- Blend3 node."
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:201
+msgid "**NODE_BLEND4** = **6** --- Blend4 node."
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:203
+msgid "**NODE_TIMESCALE** = **7** --- TimeScale node."
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:205
+msgid "**NODE_TIMESEEK** = **8** --- TimeSeek node."
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:207
+msgid "**NODE_TRANSITION** = **9** --- Transition node."
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:217
+msgid "enum **AnimationProcessMode**:"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:219
+msgid ""
+"**ANIMATION_PROCESS_PHYSICS** = **0** --- Process animation during the "
+"physics process. This is especially useful when animating physics bodies."
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:221
+msgid ""
+"**ANIMATION_PROCESS_IDLE** = **1** --- Process animation during the idle "
+"process."
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:224
+msgid "Property Descriptions"
+msgstr "属性说明"
+
+#: ../../docs/classes/class_animationtreeplayer.rst:228
+msgid ":ref:`bool<class_bool>` **active**"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:231
+#: ../../docs/classes/class_animationtreeplayer.rst:247
+#: ../../docs/classes/class_animationtreeplayer.rst:265
+#: ../../docs/classes/class_animationtreeplayer.rst:283
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:233
+#: ../../docs/classes/class_animationtreeplayer.rst:249
+#: ../../docs/classes/class_animationtreeplayer.rst:267
+#: ../../docs/classes/class_animationtreeplayer.rst:285
+msgid "*Setter*"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:233
+msgid "set_active(value)"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:235
+#: ../../docs/classes/class_animationtreeplayer.rst:251
+#: ../../docs/classes/class_animationtreeplayer.rst:269
+#: ../../docs/classes/class_animationtreeplayer.rst:287
+msgid "*Getter*"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:235
+msgid "is_active()"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:238
+msgid "If ``true``, the ``AnimationTreePlayer`` is able to play animations."
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:244
+msgid ":ref:`NodePath<class_NodePath>` **base_path**"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:249
+msgid "set_base_path(value)"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:251
+msgid "get_base_path()"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:254
+msgid "The node from which to relatively access other nodes."
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:256
+msgid ""
+"It accesses the bones, so it should point to the same node the :ref:"
+"`AnimationPlayer<class_AnimationPlayer>` would point its Root Node at."
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:262
+msgid ":ref:`NodePath<class_NodePath>` **master_player**"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:267
+msgid "set_master_player(value)"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:269
+msgid "get_master_player()"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:272
+msgid ""
+"The path to the :ref:`AnimationPlayer<class_AnimationPlayer>` from which "
+"this ``AnimationTreePlayer`` binds animations to animation nodes."
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:274
+msgid ""
+"Once set, :ref:`Animation<class_Animation>` nodes can be added to the "
+"``AnimationTreePlayer``."
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:280
+msgid ""
+":ref:`AnimationProcessMode<enum_AnimationTreePlayer_AnimationProcessMode>` "
+"**playback_process_mode**"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:285
+msgid "set_animation_process_mode(value)"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:287
+msgid "get_animation_process_mode()"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:290
+msgid "The thread in which to update animations."
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:293
+msgid "Method Descriptions"
+msgstr "方法说明"
+
+#: ../../docs/classes/class_animationtreeplayer.rst:297
+msgid ""
+"void **add_node** **(** :ref:`NodeType<enum_AnimationTreePlayer_NodeType>` "
+"type, :ref:`String<class_String>` id **)**"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:299
+msgid "Adds a ``type`` node to the graph with name ``id``."
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:305
+msgid "void **advance** **(** :ref:`float<class_float>` delta **)**"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:307
+msgid ""
+"Shifts position in the animation timeline. ``delta`` is the time in seconds "
+"to shift. Events between the current frame and ``delta`` are handled."
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:313
+msgid ""
+":ref:`Animation<class_Animation>` **animation_node_get_animation** **(** :"
+"ref:`String<class_String>` id **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:315
+msgid ""
+"Returns the :ref:`AnimationPlayer<class_AnimationPlayer>`'s :ref:"
+"`Animation<class_Animation>` bound to the ``AnimationTreePlayer``'s "
+"animation node with name ``id``."
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:321
+msgid ""
+":ref:`String<class_String>` **animation_node_get_master_animation** **(** :"
+"ref:`String<class_String>` id **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:323
+msgid ""
+"Returns the name of the :ref:"
+"`master_player<class_AnimationTreePlayer_property_master_player>`'s :ref:"
+"`Animation<class_Animation>` bound to this animation node."
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:329
+msgid ""
+":ref:`float<class_float>` **animation_node_get_position** **(** :ref:"
+"`String<class_String>` id **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:331
+msgid ""
+"Returns the absolute playback timestamp of the animation node with name "
+"``id``."
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:337
+msgid ""
+"void **animation_node_set_animation** **(** :ref:`String<class_String>` id, :"
+"ref:`Animation<class_Animation>` animation **)**"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:339
+msgid ""
+"Binds a new :ref:`Animation<class_Animation>` from the :ref:"
+"`master_player<class_AnimationTreePlayer_property_master_player>` to the "
+"``AnimationTreePlayer``'s animation node with name ``id``."
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:345
+msgid ""
+"void **animation_node_set_filter_path** **(** :ref:`String<class_String>` "
+"id, :ref:`NodePath<class_NodePath>` path, :ref:`bool<class_bool>` enable "
+"**)**"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:347
+msgid ""
+"If ``enable`` is ``true``, the animation node with ID ``id`` turns off the "
+"track modifying the property at ``path``. The modified node's children "
+"continue to animate."
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:353
+msgid ""
+"void **animation_node_set_master_animation** **(** :ref:"
+"`String<class_String>` id, :ref:`String<class_String>` source **)**"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:355
+msgid ""
+"Binds the :ref:`Animation<class_Animation>` named ``source`` from :ref:"
+"`master_player<class_AnimationTreePlayer_property_master_player>` to the "
+"animation node ``id``. Recalculates caches."
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:361
+msgid ""
+":ref:`bool<class_bool>` **are_nodes_connected** **(** :ref:"
+"`String<class_String>` id, :ref:`String<class_String>` dst_id, :ref:"
+"`int<class_int>` dst_input_idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:363
+msgid ""
+"Returns whether node ``id`` and ``dst_id`` are connected at the specified "
+"slot."
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:369
+msgid ""
+":ref:`float<class_float>` **blend2_node_get_amount** **(** :ref:"
+"`String<class_String>` id **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:371
+msgid "Returns the blend amount of a Blend2 node given its name."
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:377
+msgid ""
+"void **blend2_node_set_amount** **(** :ref:`String<class_String>` id, :ref:"
+"`float<class_float>` blend **)**"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:379
+msgid "Sets the blend amount of a Blend2 node given its name and value."
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:381
+msgid ""
+"A Blend2 node blends two animations (A and B) with the amount between 0 and "
+"1."
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:383
+msgid ""
+"At 0, output is input A. Towards 1, the influence of A gets lessened, the "
+"influence of B gets raised. At 1, output is input B."
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:389
+msgid ""
+"void **blend2_node_set_filter_path** **(** :ref:`String<class_String>` id, :"
+"ref:`NodePath<class_NodePath>` path, :ref:`bool<class_bool>` enable **)**"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:391
+msgid ""
+"If ``enable`` is ``true``, the Blend2 node with name ``id`` turns off the "
+"track modifying the property at ``path``. The modified node's children "
+"continue to animate."
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:397
+msgid ""
+":ref:`float<class_float>` **blend3_node_get_amount** **(** :ref:"
+"`String<class_String>` id **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:399
+msgid "Returns the blend amount of a Blend3 node given its name."
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:405
+msgid ""
+"void **blend3_node_set_amount** **(** :ref:`String<class_String>` id, :ref:"
+"`float<class_float>` blend **)**"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:407
+msgid "Sets the blend amount of a Blend3 node given its name and value."
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:409
+msgid ""
+"A Blend3 Node blends three animations (A, B-, B+) with the amount between -1 "
+"and 1."
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:411
+msgid ""
+"At -1, output is input B-. From -1 to 0, the influence of B- gets lessened, "
+"the influence of A gets raised and the influence of B+ is 0. At 0, output is "
+"input A. From 0 to 1, the influence of A gets lessened, the influence of B+ "
+"gets raised and the influence of B+ is 0. At 1, output is input B+."
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:417
+msgid ""
+":ref:`Vector2<class_Vector2>` **blend4_node_get_amount** **(** :ref:"
+"`String<class_String>` id **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:419
+msgid "Returns the blend amount of a Blend4 node given its name."
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:425
+msgid ""
+"void **blend4_node_set_amount** **(** :ref:`String<class_String>` id, :ref:"
+"`Vector2<class_Vector2>` blend **)**"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:427
+msgid "Sets the blend amount of a Blend4 node given its name and value."
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:429
+msgid "A Blend4 Node blends two pairs of animations."
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:431
+msgid "The two pairs are blended like Blend2 and then added together."
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:437
+msgid ""
+":ref:`Error<enum_@GlobalScope_Error>` **connect_nodes** **(** :ref:"
+"`String<class_String>` id, :ref:`String<class_String>` dst_id, :ref:"
+"`int<class_int>` dst_input_idx **)**"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:439
+msgid "Connects node ``id`` to ``dst_id`` at the specified input slot."
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:445
+msgid ""
+"void **disconnect_nodes** **(** :ref:`String<class_String>` id, :ref:"
+"`int<class_int>` dst_input_idx **)**"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:447
+msgid "Disconnects nodes connected to ``id`` at the specified input slot."
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:453
+msgid ""
+":ref:`PoolStringArray<class_PoolStringArray>` **get_node_list** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:455
+msgid ""
+"Returns a :ref:`PoolStringArray<class_PoolStringArray>` containing the name "
+"of all nodes."
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:461
+msgid ""
+":ref:`float<class_float>` **mix_node_get_amount** **(** :ref:"
+"`String<class_String>` id **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:463
+msgid "Returns the mix amount of a Mix node given its name."
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:469
+msgid ""
+"void **mix_node_set_amount** **(** :ref:`String<class_String>` id, :ref:"
+"`float<class_float>` ratio **)**"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:471
+msgid "Sets the mix amount of a Mix node given its name and value."
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:473
+msgid "A Mix node adds input b to input a by the amount given by ratio."
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:479
+msgid ""
+":ref:`bool<class_bool>` **node_exists** **(** :ref:`String<class_String>` "
+"node **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:481
+msgid "Check if a node exists (by name)."
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:487
+msgid ""
+":ref:`int<class_int>` **node_get_input_count** **(** :ref:"
+"`String<class_String>` id **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:489
+msgid ""
+"Returns the input count for a given node. Different types of nodes have "
+"different amount of inputs."
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:495
+msgid ""
+":ref:`String<class_String>` **node_get_input_source** **(** :ref:"
+"`String<class_String>` id, :ref:`int<class_int>` idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:497
+msgid "Returns the input source for a given node input."
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:503
+msgid ""
+":ref:`Vector2<class_Vector2>` **node_get_position** **(** :ref:"
+"`String<class_String>` id **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:505
+msgid "Returns position of a node in the graph given its name."
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:511
+msgid ""
+":ref:`NodeType<enum_AnimationTreePlayer_NodeType>` **node_get_type** **(** :"
+"ref:`String<class_String>` id **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:513
+msgid ""
+"Gets the node type, will return from :ref:"
+"`NodeType<enum_AnimationTreePlayer_NodeType>` enum."
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:519
+msgid ""
+":ref:`Error<enum_@GlobalScope_Error>` **node_rename** **(** :ref:"
+"`String<class_String>` node, :ref:`String<class_String>` new_name **)**"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:521
+msgid "Renames a node in the graph."
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:527
+msgid ""
+"void **node_set_position** **(** :ref:`String<class_String>` id, :ref:"
+"`Vector2<class_Vector2>` screen_position **)**"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:529
+msgid "Sets the position of a node in the graph given its name and position."
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:535
+msgid ""
+":ref:`float<class_float>` **oneshot_node_get_autorestart_delay** **(** :ref:"
+"`String<class_String>` id **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:537
+msgid "Returns the autostart delay of a OneShot node given its name."
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:543
+msgid ""
+":ref:`float<class_float>` **oneshot_node_get_autorestart_random_delay** "
+"**(** :ref:`String<class_String>` id **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:545
+msgid "Returns the autostart random delay of a OneShot node given its name."
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:551
+msgid ""
+":ref:`float<class_float>` **oneshot_node_get_fadein_time** **(** :ref:"
+"`String<class_String>` id **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:553
+msgid "Returns the fade in time of a OneShot node given its name."
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:559
+msgid ""
+":ref:`float<class_float>` **oneshot_node_get_fadeout_time** **(** :ref:"
+"`String<class_String>` id **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:561
+msgid "Returns the fade out time of a OneShot node given its name."
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:567
+msgid ""
+":ref:`bool<class_bool>` **oneshot_node_has_autorestart** **(** :ref:"
+"`String<class_String>` id **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:569
+msgid "Returns whether a OneShot node will auto restart given its name."
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:575
+msgid ""
+":ref:`bool<class_bool>` **oneshot_node_is_active** **(** :ref:"
+"`String<class_String>` id **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:577
+msgid "Returns whether a OneShot node is active given its name."
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:583
+msgid ""
+"void **oneshot_node_set_autorestart** **(** :ref:`String<class_String>` id, :"
+"ref:`bool<class_bool>` enable **)**"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:585
+msgid ""
+"Sets the autorestart property of a OneShot node given its name and value."
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:591
+msgid ""
+"void **oneshot_node_set_autorestart_delay** **(** :ref:"
+"`String<class_String>` id, :ref:`float<class_float>` delay_sec **)**"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:593
+msgid ""
+"Sets the autorestart delay of a OneShot node given its name and value in "
+"seconds."
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:599
+msgid ""
+"void **oneshot_node_set_autorestart_random_delay** **(** :ref:"
+"`String<class_String>` id, :ref:`float<class_float>` rand_sec **)**"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:601
+msgid ""
+"Sets the autorestart random delay of a OneShot node given its name and value "
+"in seconds."
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:607
+msgid ""
+"void **oneshot_node_set_fadein_time** **(** :ref:`String<class_String>` id, :"
+"ref:`float<class_float>` time_sec **)**"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:609
+msgid ""
+"Sets the fade in time of a OneShot node given its name and value in seconds."
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:615
+msgid ""
+"void **oneshot_node_set_fadeout_time** **(** :ref:`String<class_String>` "
+"id, :ref:`float<class_float>` time_sec **)**"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:617
+msgid ""
+"Sets the fade out time of a OneShot node given its name and value in seconds."
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:623
+msgid ""
+"void **oneshot_node_set_filter_path** **(** :ref:`String<class_String>` id, :"
+"ref:`NodePath<class_NodePath>` path, :ref:`bool<class_bool>` enable **)**"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:625
+msgid ""
+"If ``enable`` is ``true``, the OneShot node with ID ``id`` turns off the "
+"track modifying the property at ``path``. The modified node's children "
+"continue to animate."
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:631
+msgid "void **oneshot_node_start** **(** :ref:`String<class_String>` id **)**"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:633
+msgid "Starts a OneShot node given its name."
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:639
+msgid "void **oneshot_node_stop** **(** :ref:`String<class_String>` id **)**"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:641
+msgid "Stops the OneShot node with name ``id``."
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:647
+msgid "void **recompute_caches** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:649
+msgid ""
+"Manually recalculates the cache of track information generated from "
+"animation nodes. Needed when external sources modify the animation nodes' "
+"state."
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:655
+msgid "void **remove_node** **(** :ref:`String<class_String>` id **)**"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:657
+msgid "Removes the animation node with name ``id``."
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:663
+msgid "void **reset** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:665
+msgid "Resets this ``AnimationTreePlayer``."
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:671
+msgid ""
+":ref:`float<class_float>` **timescale_node_get_scale** **(** :ref:"
+"`String<class_String>` id **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:673
+msgid "Returns the time scale value of the TimeScale node with name ``id``."
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:679
+msgid ""
+"void **timescale_node_set_scale** **(** :ref:`String<class_String>` id, :ref:"
+"`float<class_float>` scale **)**"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:681
+msgid ""
+"Sets the time scale of the TimeScale node with name ``id`` to ``scale``."
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:683
+msgid ""
+"The TimeScale node is used to speed :ref:`Animation<class_Animation>`\\ s up "
+"if the scale is above 1 or slow them down if it is below 1."
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:685
+msgid ""
+"If applied after a blend or mix, affects all input animations to that blend "
+"or mix."
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:691
+msgid ""
+"void **timeseek_node_seek** **(** :ref:`String<class_String>` id, :ref:"
+"`float<class_float>` seconds **)**"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:693
+msgid ""
+"Sets the time seek value of the TimeSeek node with name ``id`` to "
+"``seconds``."
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:695
+msgid ""
+"This functions as a seek in the :ref:`Animation<class_Animation>` or the "
+"blend or mix of :ref:`Animation<class_Animation>`\\ s input in it."
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:701
+msgid ""
+"void **transition_node_delete_input** **(** :ref:`String<class_String>` id, :"
+"ref:`int<class_int>` input_idx **)**"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:703
+msgid ""
+"Deletes the input at ``input_idx`` for the transition node with name ``id``."
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:709
+msgid ""
+":ref:`int<class_int>` **transition_node_get_current** **(** :ref:"
+"`String<class_String>` id **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:711
+msgid ""
+"Returns the index of the currently evaluated input for the transition node "
+"with name ``id``."
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:717
+msgid ""
+":ref:`int<class_int>` **transition_node_get_input_count** **(** :ref:"
+"`String<class_String>` id **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:719
+msgid ""
+"Returns the number of inputs for the transition node with name ``id``. You "
+"can add inputs by right-clicking on the transition node."
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:725
+msgid ""
+":ref:`float<class_float>` **transition_node_get_xfade_time** **(** :ref:"
+"`String<class_String>` id **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:727
+msgid "Returns the cross fade time for the transition node with name ``id``."
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:733
+msgid ""
+":ref:`bool<class_bool>` **transition_node_has_input_auto_advance** **(** :"
+"ref:`String<class_String>` id, :ref:`int<class_int>` input_idx **)** |const|"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:735
+msgid ""
+"Returns ``true`` if the input at ``input_idx`` on the transition node with "
+"name ``id`` is set to automatically advance to the next input upon "
+"completion."
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:741
+msgid ""
+"void **transition_node_set_current** **(** :ref:`String<class_String>` id, :"
+"ref:`int<class_int>` input_idx **)**"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:743
+msgid ""
+"The transition node with name ``id`` sets its current input at ``input_idx``."
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:749
+msgid ""
+"void **transition_node_set_input_auto_advance** **(** :ref:"
+"`String<class_String>` id, :ref:`int<class_int>` input_idx, :ref:"
+"`bool<class_bool>` enable **)**"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:751
+msgid ""
+"The transition node with name ``id`` advances to its next input "
+"automatically when the input at ``input_idx`` completes."
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:757
+msgid ""
+"void **transition_node_set_input_count** **(** :ref:`String<class_String>` "
+"id, :ref:`int<class_int>` count **)**"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:759
+msgid ""
+"Resizes the number of inputs available for the transition node with name "
+"``id``."
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:765
+msgid ""
+"void **transition_node_set_xfade_time** **(** :ref:`String<class_String>` "
+"id, :ref:`float<class_float>` time_sec **)**"
+msgstr ""
+
+#: ../../docs/classes/class_animationtreeplayer.rst:767
+msgid ""
+"The transition node with name ``id`` sets its cross fade time to "
+"``time_sec``."
+msgstr ""

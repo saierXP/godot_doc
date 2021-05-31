@@ -1,0 +1,606 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014-2021, Juan Linietsky, Ariel Manzur and the Godot community (CC-BY 3.0)
+# This file is distributed under the same license as the Godot Engine package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Engine 3.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-31 12:15+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../docs/classes/class_basis.rst:10
+msgid "Basis"
+msgstr ""
+
+#: ../../docs/classes/class_basis.rst:12
+msgid "3×3 matrix datatype."
+msgstr "3×3矩阵数据类型。"
+
+#: ../../docs/classes/class_basis.rst:15
+msgid "Description"
+msgstr "描述"
+
+#: ../../docs/classes/class_basis.rst:17
+msgid ""
+"3×3 matrix used for 3D rotation and scale. Almost always used as an "
+"orthogonal basis for a Transform."
+msgstr ""
+
+#: ../../docs/classes/class_basis.rst:19
+msgid ""
+"Contains 3 vector fields X, Y and Z as its columns, which are typically "
+"interpreted as the local basis vectors of a transformation. For such use, it "
+"is composed of a scaling and a rotation matrix, in that order (M = R.S)."
+msgstr ""
+
+#: ../../docs/classes/class_basis.rst:21
+msgid ""
+"Can also be accessed as array of 3D vectors. These vectors are normally "
+"orthogonal to each other, but are not necessarily normalized (due to "
+"scaling)."
+msgstr ""
+
+#: ../../docs/classes/class_basis.rst:23
+msgid ""
+"For more information, read the \"Matrices and transforms\" documentation "
+"article."
+msgstr ""
+
+#: ../../docs/classes/class_basis.rst:26
+msgid "Tutorials"
+msgstr "教程"
+
+#: ../../docs/classes/class_basis.rst:28
+msgid ":doc:`../tutorials/math/index`"
+msgstr ""
+
+#: ../../docs/classes/class_basis.rst:30
+msgid ":doc:`../tutorials/math/matrices_and_transforms`"
+msgstr ""
+
+#: ../../docs/classes/class_basis.rst:32
+msgid ":doc:`../tutorials/3d/using_transforms`"
+msgstr ""
+
+#: ../../docs/classes/class_basis.rst:34
+msgid ""
+"`https://godotengine.org/asset-library/asset/584 <https://godotengine.org/"
+"asset-library/asset/584>`_"
+msgstr ""
+
+#: ../../docs/classes/class_basis.rst:36
+msgid ""
+"`https://godotengine.org/asset-library/asset/125 <https://godotengine.org/"
+"asset-library/asset/125>`_"
+msgstr ""
+
+#: ../../docs/classes/class_basis.rst:38
+msgid ""
+"`https://godotengine.org/asset-library/asset/676 <https://godotengine.org/"
+"asset-library/asset/676>`_"
+msgstr ""
+
+#: ../../docs/classes/class_basis.rst:40
+msgid ""
+"`https://godotengine.org/asset-library/asset/583 <https://godotengine.org/"
+"asset-library/asset/583>`_"
+msgstr ""
+
+#: ../../docs/classes/class_basis.rst:43
+msgid "Properties"
+msgstr "属性"
+
+#: ../../docs/classes/class_basis.rst:46 ../../docs/classes/class_basis.rst:48
+#: ../../docs/classes/class_basis.rst:50 ../../docs/classes/class_basis.rst:67
+#: ../../docs/classes/class_basis.rst:73 ../../docs/classes/class_basis.rst:95
+#: ../../docs/classes/class_basis.rst:97
+msgid ":ref:`Vector3<class_Vector3>`"
+msgstr ""
+
+#: ../../docs/classes/class_basis.rst:46
+msgid ":ref:`x<class_Basis_property_x>`"
+msgstr ""
+
+#: ../../docs/classes/class_basis.rst:46 ../../docs/classes/class_basis.rst:129
+msgid "``Vector3( 1, 0, 0 )``"
+msgstr ""
+
+#: ../../docs/classes/class_basis.rst:48
+msgid ":ref:`y<class_Basis_property_y>`"
+msgstr ""
+
+#: ../../docs/classes/class_basis.rst:48 ../../docs/classes/class_basis.rst:141
+msgid "``Vector3( 0, 1, 0 )``"
+msgstr ""
+
+#: ../../docs/classes/class_basis.rst:50
+msgid ":ref:`z<class_Basis_property_z>`"
+msgstr ""
+
+#: ../../docs/classes/class_basis.rst:50 ../../docs/classes/class_basis.rst:153
+msgid "``Vector3( 0, 0, 1 )``"
+msgstr ""
+
+#: ../../docs/classes/class_basis.rst:54
+msgid "Methods"
+msgstr "方法"
+
+#: ../../docs/classes/class_basis.rst:57 ../../docs/classes/class_basis.rst:59
+#: ../../docs/classes/class_basis.rst:61 ../../docs/classes/class_basis.rst:63
+#: ../../docs/classes/class_basis.rst:75 ../../docs/classes/class_basis.rst:79
+#: ../../docs/classes/class_basis.rst:81 ../../docs/classes/class_basis.rst:83
+#: ../../docs/classes/class_basis.rst:85 ../../docs/classes/class_basis.rst:93
+msgid ":ref:`Basis<class_Basis>`"
+msgstr ""
+
+#: ../../docs/classes/class_basis.rst:57
+msgid ""
+":ref:`Basis<class_Basis_method_Basis>` **(** :ref:`Quat<class_Quat>` from "
+"**)**"
+msgstr ""
+
+#: ../../docs/classes/class_basis.rst:59
+msgid ""
+":ref:`Basis<class_Basis_method_Basis>` **(** :ref:`Vector3<class_Vector3>` "
+"from **)**"
+msgstr ""
+
+#: ../../docs/classes/class_basis.rst:61
+msgid ""
+":ref:`Basis<class_Basis_method_Basis>` **(** :ref:`Vector3<class_Vector3>` "
+"axis, :ref:`float<class_float>` phi **)**"
+msgstr ""
+
+#: ../../docs/classes/class_basis.rst:63
+msgid ""
+":ref:`Basis<class_Basis_method_Basis>` **(** :ref:`Vector3<class_Vector3>` "
+"x_axis, :ref:`Vector3<class_Vector3>` y_axis, :ref:`Vector3<class_Vector3>` "
+"z_axis **)**"
+msgstr ""
+
+#: ../../docs/classes/class_basis.rst:65 ../../docs/classes/class_basis.rst:87
+#: ../../docs/classes/class_basis.rst:89 ../../docs/classes/class_basis.rst:91
+msgid ":ref:`float<class_float>`"
+msgstr ""
+
+#: ../../docs/classes/class_basis.rst:65
+msgid ":ref:`determinant<class_Basis_method_determinant>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_basis.rst:67
+msgid ":ref:`get_euler<class_Basis_method_get_euler>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_basis.rst:69
+msgid ":ref:`int<class_int>`"
+msgstr ""
+
+#: ../../docs/classes/class_basis.rst:69
+msgid ""
+":ref:`get_orthogonal_index<class_Basis_method_get_orthogonal_index>` **(** "
+"**)**"
+msgstr ""
+
+#: ../../docs/classes/class_basis.rst:71
+msgid ":ref:`Quat<class_Quat>`"
+msgstr ""
+
+#: ../../docs/classes/class_basis.rst:71
+msgid ""
+":ref:`get_rotation_quat<class_Basis_method_get_rotation_quat>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_basis.rst:73
+msgid ":ref:`get_scale<class_Basis_method_get_scale>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_basis.rst:75
+msgid ":ref:`inverse<class_Basis_method_inverse>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_basis.rst:77
+msgid ":ref:`bool<class_bool>`"
+msgstr ""
+
+#: ../../docs/classes/class_basis.rst:77
+msgid ""
+":ref:`is_equal_approx<class_Basis_method_is_equal_approx>` **(** :ref:"
+"`Basis<class_Basis>` b, :ref:`float<class_float>` epsilon=1e-05 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_basis.rst:79
+msgid ":ref:`orthonormalized<class_Basis_method_orthonormalized>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_basis.rst:81
+msgid ""
+":ref:`rotated<class_Basis_method_rotated>` **(** :ref:"
+"`Vector3<class_Vector3>` axis, :ref:`float<class_float>` phi **)**"
+msgstr ""
+
+#: ../../docs/classes/class_basis.rst:83
+msgid ""
+":ref:`scaled<class_Basis_method_scaled>` **(** :ref:`Vector3<class_Vector3>` "
+"scale **)**"
+msgstr ""
+
+#: ../../docs/classes/class_basis.rst:85
+msgid ""
+":ref:`slerp<class_Basis_method_slerp>` **(** :ref:`Basis<class_Basis>` b, :"
+"ref:`float<class_float>` t **)**"
+msgstr ""
+
+#: ../../docs/classes/class_basis.rst:87
+msgid ""
+":ref:`tdotx<class_Basis_method_tdotx>` **(** :ref:`Vector3<class_Vector3>` "
+"with **)**"
+msgstr ""
+
+#: ../../docs/classes/class_basis.rst:89
+msgid ""
+":ref:`tdoty<class_Basis_method_tdoty>` **(** :ref:`Vector3<class_Vector3>` "
+"with **)**"
+msgstr ""
+
+#: ../../docs/classes/class_basis.rst:91
+msgid ""
+":ref:`tdotz<class_Basis_method_tdotz>` **(** :ref:`Vector3<class_Vector3>` "
+"with **)**"
+msgstr ""
+
+#: ../../docs/classes/class_basis.rst:93
+msgid ":ref:`transposed<class_Basis_method_transposed>` **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_basis.rst:95
+msgid ""
+":ref:`xform<class_Basis_method_xform>` **(** :ref:`Vector3<class_Vector3>` v "
+"**)**"
+msgstr ""
+
+#: ../../docs/classes/class_basis.rst:97
+msgid ""
+":ref:`xform_inv<class_Basis_method_xform_inv>` **(** :ref:"
+"`Vector3<class_Vector3>` v **)**"
+msgstr ""
+
+#: ../../docs/classes/class_basis.rst:101
+msgid "Constants"
+msgstr "常量"
+
+#: ../../docs/classes/class_basis.rst:111
+msgid ""
+"**IDENTITY** = **Basis( 1, 0, 0, 0, 1, 0, 0, 0, 1 )** --- The identity "
+"basis, with no rotation or scaling applied."
+msgstr ""
+
+#: ../../docs/classes/class_basis.rst:113
+msgid ""
+"This is identical to calling ``Basis()`` without any parameters. This "
+"constant can be used to make your code clearer, and for consistency with C#."
+msgstr ""
+
+#: ../../docs/classes/class_basis.rst:115
+msgid ""
+"**FLIP_X** = **Basis( -1, 0, 0, 0, 1, 0, 0, 0, 1 )** --- The basis that will "
+"flip something along the X axis when used in a transformation."
+msgstr ""
+
+#: ../../docs/classes/class_basis.rst:117
+msgid ""
+"**FLIP_Y** = **Basis( 1, 0, 0, 0, -1, 0, 0, 0, 1 )** --- The basis that will "
+"flip something along the Y axis when used in a transformation."
+msgstr ""
+
+#: ../../docs/classes/class_basis.rst:119
+msgid ""
+"**FLIP_Z** = **Basis( 1, 0, 0, 0, 1, 0, 0, 0, -1 )** --- The basis that will "
+"flip something along the Z axis when used in a transformation."
+msgstr ""
+
+#: ../../docs/classes/class_basis.rst:122
+msgid "Property Descriptions"
+msgstr "属性说明"
+
+#: ../../docs/classes/class_basis.rst:126
+msgid ":ref:`Vector3<class_Vector3>` **x**"
+msgstr ""
+
+#: ../../docs/classes/class_basis.rst:129
+#: ../../docs/classes/class_basis.rst:141
+#: ../../docs/classes/class_basis.rst:153
+msgid "*Default*"
+msgstr ""
+
+#: ../../docs/classes/class_basis.rst:132
+msgid ""
+"The basis matrix's X vector (column 0). Equivalent to array index ``0``."
+msgstr ""
+
+#: ../../docs/classes/class_basis.rst:138
+msgid ":ref:`Vector3<class_Vector3>` **y**"
+msgstr ""
+
+#: ../../docs/classes/class_basis.rst:144
+msgid ""
+"The basis matrix's Y vector (column 1). Equivalent to array index ``1``."
+msgstr ""
+
+#: ../../docs/classes/class_basis.rst:150
+msgid ":ref:`Vector3<class_Vector3>` **z**"
+msgstr ""
+
+#: ../../docs/classes/class_basis.rst:156
+msgid ""
+"The basis matrix's Z vector (column 2). Equivalent to array index ``2``."
+msgstr ""
+
+#: ../../docs/classes/class_basis.rst:159
+msgid "Method Descriptions"
+msgstr "方法说明"
+
+#: ../../docs/classes/class_basis.rst:163
+msgid ""
+":ref:`Basis<class_Basis>` **Basis** **(** :ref:`Quat<class_Quat>` from **)**"
+msgstr ""
+
+#: ../../docs/classes/class_basis.rst:165
+msgid "Constructs a pure rotation basis matrix from the given quaternion."
+msgstr "根据给定的四元数构造一个纯旋转基矩阵。"
+
+#: ../../docs/classes/class_basis.rst:169
+msgid ""
+":ref:`Basis<class_Basis>` **Basis** **(** :ref:`Vector3<class_Vector3>` from "
+"**)**"
+msgstr ""
+
+#: ../../docs/classes/class_basis.rst:171
+msgid ""
+"Constructs a pure rotation basis matrix from the given Euler angles (in the "
+"YXZ convention: when \\*composing\\*, first Y, then X, and Z last), given in "
+"the vector format as (X angle, Y angle, Z angle)."
+msgstr ""
+
+#: ../../docs/classes/class_basis.rst:173
+msgid ""
+"Consider using the :ref:`Quat<class_Quat>` constructor instead, which uses a "
+"quaternion instead of Euler angles."
+msgstr ""
+
+#: ../../docs/classes/class_basis.rst:177
+msgid ""
+":ref:`Basis<class_Basis>` **Basis** **(** :ref:`Vector3<class_Vector3>` "
+"axis, :ref:`float<class_float>` phi **)**"
+msgstr ""
+
+#: ../../docs/classes/class_basis.rst:179
+msgid ""
+"Constructs a pure rotation basis matrix, rotated around the given ``axis`` "
+"by ``phi``, in radians. The axis must be a normalized vector."
+msgstr ""
+
+#: ../../docs/classes/class_basis.rst:183
+msgid ""
+":ref:`Basis<class_Basis>` **Basis** **(** :ref:`Vector3<class_Vector3>` "
+"x_axis, :ref:`Vector3<class_Vector3>` y_axis, :ref:`Vector3<class_Vector3>` "
+"z_axis **)**"
+msgstr ""
+
+#: ../../docs/classes/class_basis.rst:185
+msgid "Constructs a basis matrix from 3 axis vectors (matrix columns)."
+msgstr "从3轴向量(矩阵列)构造一个基础矩阵。"
+
+#: ../../docs/classes/class_basis.rst:191
+msgid ":ref:`float<class_float>` **determinant** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_basis.rst:193
+msgid ""
+"Returns the determinant of the basis matrix. If the basis is uniformly "
+"scaled, its determinant is the square of the scale."
+msgstr ""
+
+#: ../../docs/classes/class_basis.rst:195
+msgid ""
+"A negative determinant means the basis has a negative scale. A zero "
+"determinant means the basis isn't invertible, and is usually considered "
+"invalid."
+msgstr ""
+
+#: ../../docs/classes/class_basis.rst:201
+msgid ":ref:`Vector3<class_Vector3>` **get_euler** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_basis.rst:203
+msgid ""
+"Returns the basis's rotation in the form of Euler angles (in the YXZ "
+"convention: when decomposing, first Z, then X, and Y last). The returned "
+"vector contains the rotation angles in the format (X angle, Y angle, Z "
+"angle)."
+msgstr ""
+
+#: ../../docs/classes/class_basis.rst:205
+msgid ""
+"Consider using the :ref:"
+"`get_rotation_quat<class_Basis_method_get_rotation_quat>` method instead, "
+"which returns a :ref:`Quat<class_Quat>` quaternion instead of Euler angles."
+msgstr ""
+
+#: ../../docs/classes/class_basis.rst:211
+msgid ":ref:`int<class_int>` **get_orthogonal_index** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_basis.rst:213
+msgid ""
+"This function considers a discretization of rotations into 24 points on unit "
+"sphere, lying along the vectors (x,y,z) with each component being either -1, "
+"0, or 1, and returns the index of the point best representing the "
+"orientation of the object. It is mainly used by the :ref:"
+"`GridMap<class_GridMap>` editor. For further details, refer to the Godot "
+"source code."
+msgstr ""
+
+#: ../../docs/classes/class_basis.rst:219
+msgid ":ref:`Quat<class_Quat>` **get_rotation_quat** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_basis.rst:221
+msgid ""
+"Returns the basis's rotation in the form of a quaternion. See :ref:"
+"`get_euler<class_Basis_method_get_euler>` if you need Euler angles, but keep "
+"in mind quaternions should generally be preferred to Euler angles."
+msgstr ""
+
+#: ../../docs/classes/class_basis.rst:227
+msgid ":ref:`Vector3<class_Vector3>` **get_scale** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_basis.rst:229
+msgid ""
+"Assuming that the matrix is the combination of a rotation and scaling, "
+"return the absolute value of scaling factors along each axis."
+msgstr "假设矩阵是旋转和缩放的组合，返回沿各轴缩放系数的绝对值。"
+
+#: ../../docs/classes/class_basis.rst:235
+msgid ":ref:`Basis<class_Basis>` **inverse** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_basis.rst:237
+msgid "Returns the inverse of the matrix."
+msgstr "返回矩阵的反值。"
+
+#: ../../docs/classes/class_basis.rst:243
+msgid ""
+":ref:`bool<class_bool>` **is_equal_approx** **(** :ref:`Basis<class_Basis>` "
+"b, :ref:`float<class_float>` epsilon=1e-05 **)**"
+msgstr ""
+
+#: ../../docs/classes/class_basis.rst:245
+msgid ""
+"Returns ``true`` if this basis and ``b`` are approximately equal, by calling "
+"``is_equal_approx`` on each component."
+msgstr ""
+
+#: ../../docs/classes/class_basis.rst:251
+msgid ":ref:`Basis<class_Basis>` **orthonormalized** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_basis.rst:253
+msgid ""
+"Returns the orthonormalized version of the matrix (useful to call from time "
+"to time to avoid rounding error for orthogonal matrices). This performs a "
+"Gram-Schmidt orthonormalization on the basis of the matrix."
+msgstr ""
+"返回矩阵的正交归一化版本（对于正交矩阵来说，偶尔调用以避免四舍五入错误是有用"
+"的）。这将在矩阵的基础上执行Gram-Schmidt正交化。"
+
+#: ../../docs/classes/class_basis.rst:259
+msgid ""
+":ref:`Basis<class_Basis>` **rotated** **(** :ref:`Vector3<class_Vector3>` "
+"axis, :ref:`float<class_float>` phi **)**"
+msgstr ""
+
+#: ../../docs/classes/class_basis.rst:261
+msgid ""
+"Introduce an additional rotation around the given axis by phi (radians). The "
+"axis must be a normalized vector."
+msgstr ""
+"围绕给定轴线引入一个额外的旋转phi（弧度）。该轴必须是一个归一化的向量。"
+
+#: ../../docs/classes/class_basis.rst:267
+msgid ""
+":ref:`Basis<class_Basis>` **scaled** **(** :ref:`Vector3<class_Vector3>` "
+"scale **)**"
+msgstr ""
+
+#: ../../docs/classes/class_basis.rst:269
+msgid ""
+"Introduce an additional scaling specified by the given 3D scaling factor."
+msgstr "引入一个由给定的3D缩放因子指定的附加缩放。"
+
+#: ../../docs/classes/class_basis.rst:275
+msgid ""
+":ref:`Basis<class_Basis>` **slerp** **(** :ref:`Basis<class_Basis>` b, :ref:"
+"`float<class_float>` t **)**"
+msgstr ""
+
+#: ../../docs/classes/class_basis.rst:277
+msgid ""
+"Assuming that the matrix is a proper rotation matrix, slerp performs a "
+"spherical-linear interpolation with another rotation matrix."
+msgstr ""
+"假设该矩阵是一个合适的旋转矩阵，slerp与另一个旋转矩阵进行球面直线插值。"
+
+#: ../../docs/classes/class_basis.rst:283
+msgid ""
+":ref:`float<class_float>` **tdotx** **(** :ref:`Vector3<class_Vector3>` with "
+"**)**"
+msgstr ""
+
+#: ../../docs/classes/class_basis.rst:285
+msgid "Transposed dot product with the X axis of the matrix."
+msgstr "矩阵X轴的转置点积。"
+
+#: ../../docs/classes/class_basis.rst:291
+msgid ""
+":ref:`float<class_float>` **tdoty** **(** :ref:`Vector3<class_Vector3>` with "
+"**)**"
+msgstr ""
+
+#: ../../docs/classes/class_basis.rst:293
+msgid "Transposed dot product with the Y axis of the matrix."
+msgstr "与矩阵Y轴的转置点积。"
+
+#: ../../docs/classes/class_basis.rst:299
+msgid ""
+":ref:`float<class_float>` **tdotz** **(** :ref:`Vector3<class_Vector3>` with "
+"**)**"
+msgstr ""
+
+#: ../../docs/classes/class_basis.rst:301
+msgid "Transposed dot product with the Z axis of the matrix."
+msgstr "与矩阵Z轴的转置点积。"
+
+#: ../../docs/classes/class_basis.rst:307
+msgid ":ref:`Basis<class_Basis>` **transposed** **(** **)**"
+msgstr ""
+
+#: ../../docs/classes/class_basis.rst:309
+msgid "Returns the transposed version of the matrix."
+msgstr "返回矩阵的转置版本。"
+
+#: ../../docs/classes/class_basis.rst:315
+msgid ""
+":ref:`Vector3<class_Vector3>` **xform** **(** :ref:`Vector3<class_Vector3>` "
+"v **)**"
+msgstr ""
+
+#: ../../docs/classes/class_basis.rst:317
+msgid "Returns a vector transformed (multiplied) by the matrix."
+msgstr "返回矩阵变换后的向量。"
+
+#: ../../docs/classes/class_basis.rst:323
+msgid ""
+":ref:`Vector3<class_Vector3>` **xform_inv** **(** :ref:"
+"`Vector3<class_Vector3>` v **)**"
+msgstr ""
+
+#: ../../docs/classes/class_basis.rst:325
+msgid ""
+"Returns a vector transformed (multiplied) by the transposed basis matrix."
+msgstr ""
+
+#: ../../docs/classes/class_basis.rst:327
+msgid ""
+"**Note:** This results in a multiplication by the inverse of the matrix only "
+"if it represents a rotation-reflection."
+msgstr ""
